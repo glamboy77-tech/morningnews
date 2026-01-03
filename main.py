@@ -30,8 +30,11 @@ sys.stderr = DualLogger('run_job.log', 'a')
 def main(send_push=True):
     print("=== Morning News Bot Started ===")
     
-    # 1. Setup
-    today = datetime.datetime.now()
+    # 1. Setup (한국 시간 KST 설정)
+    # UTC 기준 시각에 9시간 더해서 한국 시간 계산합니다
+    kst = datetime.timezone(datetime.timedelta(hours=9))
+    today = datetime.datetime.now(kst)
+    
     date_str_dot = today.strftime("%Y.%m.%d")
     date_str_file = today.strftime("%Y%m%d")
     
