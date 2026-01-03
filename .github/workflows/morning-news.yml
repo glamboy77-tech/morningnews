@@ -1,0 +1,70 @@
+name: Morning News Bot
+
+on:
+  schedule:
+    # 매일 오전 8시 30분 (UTC 23:30 = KST 08:30)
+    - cron: '30 23 * * *'
+  workflow_dispatch: # 수동 실행 가능
+
+jobs:
+  generate-news:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+        cache: 'pip'
+        
+    - name: Install dependencies
+      run: |
+        pip install -r requirements.txt
+        
+    - name: Create .env file
+      run: |
+        cat > .env << EOF
+        # Gemini API
+        GEMINI_API_KEY=${{ secrets.GEMINI_API_KEY }}
+        GEMINI_MODEL_FLASH=gemini-2.0-flash
+        GEMINI_MODEL_LITE=gemini-2.0-flash
+        GEMINI_MODEL_PRO=gemini-2.0-flash
+        
+        # VAPID Keys for PWA Push
+        VAPID_PUBLIC_KEY=${{ secrets.VAPID_PUBLIC_KEY }}
+        VAPID_EMAIL=${{ secrets.VAPID_EMAIL }}
+        
+        # Weather & Location
+        WEATHER_LOCATION=${{ secrets.WEATHER_LOCATION }}
+        SERVER_IP=${{ secrets.SERVER_IP }}
+        
+        # 국내 기사 RSS 주소
+        ${{ secrets.DOMESTIC_FEEDS }}
+        EOF
+        
+    - name: Create VAPID private key file
+      run: |
+        echo "${{ secrets.VAPID_PRIVATE_KEY }}" > vapid_private.pem
+        
+    - name: Run Morning News Bot
+      run: |
+        python main.py
+        
+    - name: Upload output files
+      uses: actions/upload-artifact@v4
+      with:
+        name: morning-news-output
+        path: |
+          output/morning_news_*.html
+          run_job.log
+        retention-days: 30
+        
+    - name: Commit and push if changed
+      run: |
+        git config --global user.name 'GitHub Actions Bot'
+        git config --global user.email 'actions@github.com'
+        git add output/
+        git diff --quiet && git diff --staged --quiet || (git commit -m "🗞️ Generate morning news $(date +'%Y-%m-%d')" && git push)
