@@ -146,6 +146,21 @@
                       
                       console.log('Push Subscription 성공:', JSON.stringify(subscription));
                       
+                      // 구독 정보 추출 및 표시
+                      const subscriptionJSON = JSON.stringify(subscription);
+                      console.log('구독 정보:', subscriptionJSON);
+                      
+                      // 1. 화면에 알림으로 띄워주기
+                      alert("구독 정보가 생성되었습니다! 확인을 누르면 복사됩니다.");
+                      
+                      // 2. 클립보드에 자동 복사
+                      navigator.clipboard.writeText(subscriptionJSON).then(() => {
+                          alert("복사 완료! 이제 동욱씨 카톡으로 붙여넣기해서 보내주세요.\n\n구독 정보:\n" + subscriptionJSON);
+                      }).catch(err => {
+                          console.error('클립보드 복사 실패:', err);
+                          alert("클립보드 복사 실패. 수동으로 복사해주세요:\n\n" + subscriptionJSON);
+                      });
+                      
                       // Send subscription to server
                       console.log('서버에 구독 정보 전송 중...');
                       // API 서버 주소 - 로컬 테스트용
