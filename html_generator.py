@@ -553,26 +553,50 @@ class HTMLGenerator:
               
               // Push 구독 저장 함수
               async function saveSubscription() {{
+                  console.log('saveSubscription() 함수 호출됨!');
                   const btn = document.getElementById('subscribeBtn');
+                  console.log('버튼 요소:', btn);
                   
                   // Check if Service Worker is supported
                   if (!('serviceWorker' in navigator)) {{
+                      console.error('Service Worker 미지원');
                       alert('이 브라우저는 푸시 알림을 지원하지 않습니다.');
                       return;
                   }}
+                  console.log('Service Worker 지원 확인');
                   
                   if (!('PushManager' in window)) {{
+                      console.error('PushManager 미지원');
                       alert('이 브라우저는 푸시 알림을 지원하지 않습니다.');
+                      return;
+                  }}
+                  console.log('PushManager 지원 확인');
+                  
+                  // Request notification permission first
+                  console.log('현재 알림 권한:', Notification.permission);
+                  if (Notification.permission === 'default') {{
+                      console.log('알림 권한 요청 중...');
+                      const permission = await Notification.requestPermission();
+                      console.log('알림 권한 결과:', permission);
+                      if (permission !== 'granted') {{
+                          alert('알림 권한이 필요합니다. 브라우저 설정에서 알림을 허용해주세요.');
+                          return;
+                      }}
+                  }} else if (Notification.permission === 'denied') {{
+                      alert('알림 권한이 거부되었습니다. 브라우저 설정에서 알림을 허용해주세요.');
                       return;
                   }}
                   
                   try {{
                       // Wait for Service Worker to be ready
+                      console.log('Service Worker ready 대기 중...');
                       const registration = await navigator.serviceWorker.ready;
                       console.log('Service Worker ready:', registration);
                       
                       // Check if already subscribed
+                      console.log('기존 구독 확인 중...');
                       const existingSubscription = await registration.pushManager.getSubscription();
+                      console.log('기존 구독:', existingSubscription);
                       if (existingSubscription) {{
                           alert('이미 푸시 알림을 구독하고 있습니다!');
                           if (btn) {{
@@ -586,8 +610,9 @@ class HTMLGenerator:
                       // VAPID Public Key
                       const VAPID_PUBLIC_KEY = 'BKNrtTTrz1YQEk7x1b6mRtb66K2Oebg7d1a592iVbJ1V2Z4pJefsB28WI8dH6l32tSik2JlWOHuwskDb0IsiVLQ';
 
-
+                      console.log('VAPID 키로 구독 시작...');
                       const applicationServerKey = urlBase64ToUint8Array(VAPID_PUBLIC_KEY);
+                      console.log('변환된 applicationServerKey:', applicationServerKey);
                       
                       // Subscribe to push notifications
                       const subscription = await registration.pushManager.subscribe({{
@@ -595,34 +620,35 @@ class HTMLGenerator:
                           applicationServerKey: applicationServerKey
                       }});
                       
-                      console.log('Push Subscription:', JSON.stringify(subscription));
+                      console.log('Push Subscription 성공:', JSON.stringify(subscription));
                       
-                      // Display subscription info for manual saving
-                      const subJson = JSON.stringify(subscription, null, 2);
+                      // Send subscription to server
+                      console.log('서버에 구독 정보 전송 중...');
+                      // API 서버 주소 - 로컬 테스트용
+                      const apiUrl = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
+                          ? 'http://localhost:5000/api/save-subscription'
+                          : '/api/save-subscription';
                       
-                      // Create a modal to display subscription
-                      const modal = document.createElement('div');
-                      modal.style.cssText = 'position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.8);z-index:10000;display:flex;align-items:center;justify-content:center;padding:20px;';
-                      modal.innerHTML = `
-                          <div style="background:white;padding:30px;border-radius:10px;max-width:600px;max-height:80vh;overflow:auto;">
-                              <h3 style="margin-top:0;color:#333;">✅ 구독 정보 생성 완료</h3>
-                              <p style="color:#666;line-height:1.6;">아래 JSON 코드를 복사해서 <code>subscriptions.json</code> 파일의 배열 안에 추가하세요:</p>
-                              <textarea readonly style="width:100%;height:200px;font-family:monospace;font-size:12px;padding:10px;border:1px solid #ddd;border-radius:5px;resize:vertical;">${{subJson}}</textarea>
-                              <div style="margin-top:15px;display:flex;gap:10px;">
-                                  <button onclick="navigator.clipboard.writeText(\`${{subJson.replace(/`/g, '\\\\`')}}\`).then(() => alert('클립보드에 복사되었습니다!'))" style="flex:1;padding:12px;background:#4CAF50;color:white;border:none;border-radius:5px;cursor:pointer;font-size:14px;">📋 복사하기</button>
-                                  <button onclick="this.parentElement.parentElement.parentElement.remove()" style="flex:1;padding:12px;background:#666;color:white;border:none;border-radius:5px;cursor:pointer;font-size:14px;">닫기</button>
-                              </div>
-                              <p style="margin-top:15px;font-size:12px;color:#999;line-height:1.5;">
-                                  ℹ️ subscriptions.json 파일을 열어서 마지막 항목 뒤에 쉼표(,)를 추가하고 이 내용을 붙여넣으세요.
-                              </p>
-                          </div>
-                      `;
-                      document.body.appendChild(modal);
+                      console.log('API URL:', apiUrl);
+                      const response = await fetch(apiUrl, {{
+                          method: 'POST',
+                          headers: {{ 'Content-Type': 'application/json' }},
+                          body: JSON.stringify(subscription)
+                      }});
                       
-                      if (btn) {{
-                          btn.textContent = '✓ 알림 구독 완료';
-                          btn.classList.add('subscribed');
-                          btn.disabled = true;
+                      console.log('서버 응답 상태:', response.status);
+                      const result = await response.json();
+                      console.log('Server response:', result);
+                      
+                      if (response.ok) {{
+                          alert('푸시 알림 구독이 완료되었습니다!\\n매일 아침 새로운 뉴스를 알려드립니다.');
+                          if (btn) {{
+                              btn.textContent = '✓ 알림 구독 완료';
+                              btn.classList.add('subscribed');
+                              btn.disabled = true;
+                          }}
+                      }} else {{
+                          alert('구독 저장 실패: ' + (result.error || 'Unknown error'));
                       }}
                   }} catch (error) {{
                       console.error('Subscription error:', error);

@@ -4,3 +4,5 @@ python-dotenv
 feedparser
 pywebpush
 cryptography
+flask
+flask-cors
