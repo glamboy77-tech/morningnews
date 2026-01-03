@@ -1,19 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
 <head>
-    <script>
-        // 오늘 날짜를 YYYYMMDD 형식으로 가져오기
-        const now = new Date();
-        const year = now.getFullYear();
-        const month = String(now.getMonth() + 1).padStart(2, '0');
-        const day = String(now.getDate()).padStart(2, '0');
-        const today = `${year}${month}${day}`;
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>모닝뉴스 봇</title>
+    
+    <link rel="manifest" href="/morningnews/manifest.json">
+    <meta name="theme-color" content="#000000">
+    <link rel="apple-touch-icon" href="/morningnews/icon-192.png">
 
-        // 오늘 날짜의 뉴스 파일로 자동 이동
-        window.location.href = `output/morning_news_${today}.html`;
+    <script>
+        // 2. 서비스 워커 등록 (이게 있어야 '설치'가 뜸)
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/morningnews/sw.js')
+                .then(() => console.log("Service Worker Registered"));
+        }
+
+        // 3. 오늘 날짜로 이동 (리다이렉트)
+        const now = new Date();
+        const kstOffset = 9 * 60 * 60 * 1000;
+        const kstDate = new Date(now.getTime() + kstOffset);
+        const today = kstDate.toISOString().split('T')[0].replace(/-/g, '');
+        
+        // 약간의 지연(0.5초)을 주어 PWA 등록 시간을 확보한 뒤 이동
+        setTimeout(() => {
+            window.location.href = `output/morning_news_${today}.html`;
+        }, 500);
     </script>
 </head>
 <body>
-    <p>오늘의 뉴스로 이동 중입니다...</p>
+    <div style="text-align: center; margin-top: 50px;">
+        <p>오늘의 뉴스를 불러오는 중입니다...</p>
+        <p>앱 설치를 원하시면 브라우저 메뉴에서 '앱 설치'를 눌러주세요.</p>
+    </div>
 </body>
 </html>
