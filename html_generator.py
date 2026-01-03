@@ -597,29 +597,63 @@ class HTMLGenerator:
                       
                       console.log('Push Subscription:', JSON.stringify(subscription));
                       
-                      // Send subscription to server (Relative path for IIS Proxy)
-                      const response = await fetch('/api/save-subscription', {{
-                          method: 'POST',
-                          headers: {{ 'Content-Type': 'application/json' }},
-                          body: JSON.stringify(subscription)
-                      }});
+                      // Display subscription info for manual saving
+                      const subJson = JSON.stringify(subscription, null, 2);
                       
-                      const result = await response.json();
-                      console.log('Server response:', result);
+                      // Create a modal to display subscription
+                      const modal = document.createElement('div');
+                      modal.style.cssText = 'position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.8);z-index:10000;display:flex;align-items:center;justify-content:center;padding:20px;';
+                      modal.innerHTML = `
+                          <div style="background:white;padding:30px;border-radius:10px;max-width:600px;max-height:80vh;overflow:auto;">
+                              <h3 style="margin-top:0;color:#333;">✅ 구독 정보 생성 완료</h3>
+                              <p style="color:#666;line-height:1.6;">아래 JSON 코드를 복사해서 <code>subscriptions.json</code> 파일의 배열 안에 추가하세요:</p>
+                              <textarea readonly style="width:100%;height:200px;font-family:monospace;font-size:12px;padding:10px;border:1px solid #ddd;border-radius:5px;resize:vertical;">${{subJson}}</textarea>
+                              <div style="margin-top:15px;display:flex;gap:10px;">
+                                  <button onclick="navigator.clipboard.writeText(\`${{subJson.replace(/`/g, '\\\\`')}}\`).then(() => alert('클립보드에 복사되었습니다!'))" style="flex:1;padding:12px;background:#4CAF50;color:white;border:none;border-radius:5px;cursor:pointer;font-size:14px;">📋 복사하기</button>
+                                  <button onclick="this.parentElement.parentElement.parentElement.remove()" style="flex:1;padding:12px;background:#666;color:white;border:none;border-radius:5px;cursor:pointer;font-size:14px;">닫기</button>
+                              </div>
+                              <p style="margin-top:15px;font-size:12px;color:#999;line-height:1.5;">
+                                  ℹ️ subscriptions.json 파일을 열어서 마지막 항목 뒤에 쉼표(,)를 추가하고 이 내용을 붙여넣으세요.
+                              </p>
+                          </div>
+                      `;
+                      document.body.appendChild(modal);
                       
-                      if (response.ok) {{
-                          alert('푸시 알림 구독이 완료되었습니다!\\n매일 아침 새로운 뉴스를 알려드립니다.');
-                          if (btn) {{
-                              btn.textContent = '✓ 알림 구독 완료';
-                              btn.classList.add('subscribed');
-                              btn.disabled = true;
-                          }}
-                      }} else {{
-                          alert('구독 저장 실패: ' + (result.error || 'Unknown error'));
+                      if (btn) {{
+                          btn.textContent = '✓ 알림 구독 완료';
+                          btn.classList.add('subscribed');
+                          btn.disabled = true;
                       }}
                   }} catch (error) {{
                       console.error('Subscription error:', error);
                       alert('구독 중 오류 발생: ' + error.message + '\\n\\nService Worker가 등록되지 않았을 수 있습니다. 페이지를 새로고침 해보세요.');
+                  }}
+              }}
+              
+              // Push 구독 해제 함수
+              async function unsubscribePush() {{
+                  try {{
+                      const registration = await navigator.serviceWorker.ready;
+                      const subscription = await registration.pushManager.getSubscription();
+                      
+                      if (subscription) {{
+                          await subscription.unsubscribe();
+                          console.log('Push subscription unsubscribed');
+                          
+                          const btn = document.getElementById('subscribeBtn');
+                          if (btn) {{
+                              btn.textContent = '🔔 Get Notifications';
+                              btn.classList.remove('subscribed');
+                              btn.disabled = false;
+                          }}
+                          
+                          alert('푸시 알림 구독이 해제되었습니다.\\n다시 구독하려면 버튼을 눌러주세요.');
+                      }} else {{
+                          alert('구독 정보가 없습니다.');
+                      }}
+                  }} catch (error) {{
+                      console.error('Unsubscribe error:', error);
+                      alert('구독 해제 중 오류 발생: ' + error.message);
                   }}
               }}
               
@@ -634,6 +668,9 @@ class HTMLGenerator:
                                 btn.textContent = '✓ 알림 구독 완료';
                                 btn.classList.add('subscribed');
                                 btn.disabled = true;
+                                
+                                // 더블클릭으로 구독 해제 가능하도록
+                                btn.ondblclick = unsubscribePush;
                             }}
                         }} catch (error) {{
                             console.error('Error checking subscription:', error);
