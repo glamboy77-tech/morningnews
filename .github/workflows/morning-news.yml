@@ -1,4 +1,4 @@
-name: Morning News Bot
+name: Morning News Bot (자동실행)
 
 on:
   schedule:
