@@ -66,5 +66,6 @@ jobs:
       run: |
         git config --global user.name 'GitHub Actions Bot'
         git config --global user.email 'actions@github.com'
-        git add output/
+        # 'output/' 대신 '.'으로 수정해서 index.html까지 포함시킵니다.
+        git add .
         git diff --quiet && git diff --staged --quiet || (git commit -m "🗞️ Generate morning news $(date +'%Y-%m-%d')" && git push)
