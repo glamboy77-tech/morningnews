@@ -1,15 +1,18 @@
 {
   "name": "모닝뉴스",
   "short_name": "모닝뉴스",
-  "start_url": "/index.html",
+  "start_url": "./",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#121212",
   "theme_color": "#121212",
+  "orientation": "portrait",
   "icons": [
     {
       "src": "logo.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ]
 }

@@ -5,15 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>모닝뉴스 봇</title>
     
-    <link rel="manifest" href="/morningnews/manifest.json">
+    <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#000000">
-    <link rel="apple-touch-icon" href="/morningnews/icon-192.png">
+    <link rel="apple-touch-icon" href="logo.png">
 
     <script>
         // 2. 서비스 워커 등록 (이게 있어야 '설치'가 뜸)
         if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('/morningnews/sw.js')
-                .then(() => console.log("Service Worker Registered"));
+            navigator.serviceWorker.register('sw.js')
+                .then(() => console.log("Service Worker Registered"))
+                .catch(err => console.error("Service Worker 등록 실패:", err));
         }
 
         // 3. 오늘 날짜로 이동 (리다이렉트)
