@@ -10,29 +10,59 @@
     <link rel="apple-touch-icon" href="logo.png">
 
     <script>
-        // 2. 서비스 워커 등록 (이게 있어야 '설치'가 뜸)
+        // Service Worker 등록 (PWA 설치를 위해 필수)
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('sw.js')
                 .then(() => console.log("Service Worker Registered"))
                 .catch(err => console.error("Service Worker 등록 실패:", err));
         }
 
-        // 3. 오늘 날짜로 이동 (리다이렉트)
-        const now = new Date();
-        const kstOffset = 9 * 60 * 60 * 1000;
-        const kstDate = new Date(now.getTime() + kstOffset);
-        const today = kstDate.toISOString().split('T')[0].replace(/-/g, '');
-        
-        // 약간의 지연(0.5초)을 주어 PWA 등록 시간을 확보한 뒤 이동
-        setTimeout(() => {
-            window.location.href = `output/morning_news_${today}.html`;
-        }, 500);
+        // 오늘 날짜의 뉴스 파일을 iframe으로 로드 (리다이렉트 방지)
+        window.addEventListener('DOMContentLoaded', function() {
+            const now = new Date();
+            const kstOffset = 9 * 60 * 60 * 1000;
+            const kstDate = new Date(now.getTime() + kstOffset);
+            const today = kstDate.toISOString().split('T')[0].replace(/-/g, '');
+            
+            const iframe = document.getElementById('newsFrame');
+            const newsUrl = `output/morning_news_${today}.html`;
+            
+            iframe.src = newsUrl;
+            
+            // 뉴스 파일이 없을 경우 에러 처리
+            iframe.onerror = function() {
+                document.body.innerHTML = '<div style="text-align: center; margin-top: 50px;"><p>오늘의 뉴스가 아직 생성되지 않았습니다.</p></div>';
+            };
+        });
     </script>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+        #newsFrame {
+            width: 100%;
+            height: 100%;
+            border: none;
+            display: block;
+        }
+        #loading {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <div style="text-align: center; margin-top: 50px;">
+    <div id="loading">
         <p>오늘의 뉴스를 불러오는 중입니다...</p>
-        <p>앱 설치를 원하시면 브라우저 메뉴에서 '앱 설치'를 눌러주세요.</p>
+        <p style="font-size: 12px; color: #666;">앱 설치를 원하시면 브라우저 메뉴에서 '앱 설치'를 눌러주세요.</p>
     </div>
+    <iframe id="newsFrame" style="display:none;" onload="this.style.display='block'; document.getElementById('loading').style.display='none';"></iframe>
 </body>
 </html>
