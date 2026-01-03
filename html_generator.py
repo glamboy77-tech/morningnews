@@ -470,8 +470,9 @@ class HTMLGenerator:
         """
 
     def generate_main_page(self, domestic_data, international_data, briefing_data, weather_data, filename, date_str):
-        from datetime import datetime
-        gen_time = datetime.now().strftime("%H:%M:%S")
+        from datetime import datetime, timezone, timedelta
+        kst_now = datetime.now(timezone(timedelta(hours=9)))  # Ensure KST regardless of runner timezone
+        gen_time = kst_now.strftime("%H:%M:%S")
         weather_emoji = weather_data.get('emoji', '') if weather_data else ""
         
         html = f"""
