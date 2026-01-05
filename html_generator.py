@@ -303,6 +303,16 @@ class HTMLGenerator:
                 border-left: 3px solid var(--card-priority-border);
                 background: var(--card-priority-bg);
             }
+            
+            .sector-subheading {
+                font-weight: 600;
+                font-size: 0.95rem;
+                color: var(--primary);
+                margin-top: 24px;
+                margin-bottom: 12px;
+                padding-left: 8px;
+                border-left: 3px solid var(--primary);
+            }
 
             details.related-sources {
                 font-size: 0.8rem;
@@ -846,25 +856,76 @@ class HTMLGenerator:
             items = domestic_data.get(category, [])
             if not items:
                 continue
+            
+            # 기업/산업은 섹터별로 그룹화
+            if category == "기업/산업":
+                html += f'<div id="{category}" class="section-title">{category}</div>'
                 
-            html += f'<div id="{category}" class="section-title">{category}</div>'
-            for item in items:
-                time_str = item['published_dt'].strftime("%m.%d %H:%M")
-                priority_class = "priority" if item.get('priority_score', 0) > 0 else ""
+                # 섹터별로 분류
+                sectors = {}
+                for item in items:
+                    sector = item.get('sector', '기타산업')
+                    if sector not in sectors:
+                        sectors[sector] = []
+                    sectors[sector].append(item)
                 
-                # Grouped sources detail
-                related_info = ""
-                related_sources = item.get('related_full_sources', [])
-                if related_sources:
-                    links_html = "".join([f'<a href="{rs["link"]}" class="related-link" target="_blank">🔗 {rs["title"]} - {rs["source"]}</a>' for rs in related_sources])
-                    related_info = f"""
+                # 정의된 섹터 순서
+                sector_order = ["반도체", "자동차", "배터리/에너지", "바이오/제약", "조선해양", "금융", 
+                               "통신/IT", "유통/소매", "건설", "화학/소재", "기타산업"]
+                
+                for sector in sector_order:
+                    if sector not in sectors:
+                        continue
+                    
+                    sector_items = sectors[sector]
+                    html += f'<div class="sector-subheading">📌 {sector} ({len(sector_items)})</div>'
+                    
+                    for item in sector_items:
+                        time_str = item['published_dt'].strftime("%m.%d %H:%M")
+                        priority_class = "priority" if item.get('priority_score', 0) > 0 else ""
+                        
+                        # Grouped sources detail
+                        related_info = ""
+                        related_sources = item.get('related_full_sources', [])
+                        if related_sources:
+                            links_html = "".join([f'<a href="{rs["link"]}" class="related-link" target="_blank">🔗 {rs["title"]} - {rs["source"]}</a>' for rs in related_sources])
+                            related_info = f"""
+                        <details class="related-sources">
+                            <summary>Explore {len(related_sources)} more sources</summary>
+                            {links_html}
+                        </details>
+                        """
+
+                        html += f"""
+                    <div class="card {priority_class}">
+                        <a href="{item['link']}" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">{item['title']}</a>
+                        <div class="card-meta">
+                            <span>{item['source']}</span>
+                            <span>{time_str}</span>
+                        </div>
+                        {related_info}
+                    </div>
+                    """
+            else:
+                # 다른 카테고리는 기존처럼 처리
+                html += f'<div id="{category}" class="section-title">{category}</div>'
+                for item in items:
+                    time_str = item['published_dt'].strftime("%m.%d %H:%M")
+                    priority_class = "priority" if item.get('priority_score', 0) > 0 else ""
+                    
+                    # Grouped sources detail
+                    related_info = ""
+                    related_sources = item.get('related_full_sources', [])
+                    if related_sources:
+                        links_html = "".join([f'<a href="{rs["link"]}" class="related-link" target="_blank">🔗 {rs["title"]} - {rs["source"]}</a>' for rs in related_sources])
+                        related_info = f"""
                     <details class="related-sources">
                         <summary>Explore {len(related_sources)} more sources</summary>
                         {links_html}
                     </details>
                     """
 
-                html += f"""
+                    html += f"""
                 <div class="card {priority_class}">
                     <a href="{item['link']}" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">{item['title']}</a>
                     <div class="card-meta">

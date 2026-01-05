@@ -69,7 +69,7 @@ class AIProcessor:
         news_text = "\n".join(news_input)
         
         prompt = f"""
-        You are a news categorizer. Your task has TWO STEPS:
+        You are a news categorizer. Your task has THREE STEPS:
         
         **STEP 1: FILTER** - Be VERY INCLUSIVE. Keep almost all articles.
         - ❌ REMOVE ONLY: Unrelated entertainment (celebrity gossip, movies), sports results scores only
@@ -84,20 +84,25 @@ class AIProcessor:
         - Real Estate (부동산): Housing, property market, construction, real estate policy
         - International (국제): Foreign news, international relations, global events
         
+        **For Corporate/Industry articles, also identify the sector:**
+        - 반도체: Semiconductor, chip manufacturing
+        - 자동차: Automotive, electric vehicles, auto industry
+        - 배터리/에너지: Battery, EV battery, energy, power
+        - 바이오/제약: Bio, pharmaceutical, medical
+        - 조선해양: Shipbuilding, marine, shipping
+        - 금융: Banking, finance, investment, securities
+        - 통신/IT: Telecom, IT, software, cloud, AI
+        - 유통/소매: Retail, e-commerce, shopping
+        - 건설: Construction, infrastructure, engineering
+        - 화학/소재: Chemical, materials, manufacturing
+        - 기타산업: Other industries
+        
         **STEP 3: DEDUPLICATE** - Be STRICT. Only group if identical.
         
         Articles are duplicates ONLY if ALL THREE are true:
         1. **Exact Same Entity**: Same company, same person, same organization
         2. **Exact Same Event**: Same announcement or incident (not just same topic)
         3. **Exact Same Day**: Same day occurrence
-        
-        ❌ DO NOT GROUP:
-        - Different companies (Samsung ≠ LG)
-        - Different politicians (Person A ≠ Person B)
-        - Different events (Event 1 ≠ Event 2)
-        
-        ✅ DO GROUP:
-        - Same event from multiple outlets (all reporting "Samsung Q4 earnings")
         
         Output Format (MUST be valid JSON):
         {{
@@ -106,12 +111,16 @@ class AIProcessor:
                 {{"id": 5, "related_article_ids": []}}
             ],
             "경제/거시": [...],
-            "기업/산업": [...],
+            "기업/산업": [
+                {{"id": 10, "sector": "반도체", "related_article_ids": [11]}},
+                {{"id": 15, "sector": "자동차", "related_article_ids": []}}
+            ],
             "부동산": [...],
             "국제": [...]
         }}
         
         - "id": MOST representative article
+        - "sector": (Only for 기업/산업) sector category from the list above
         - "related_article_ids": IDs of other articles on EXACT SAME EVENT
         
         Input News:
@@ -151,6 +160,10 @@ class AIProcessor:
                         main_id = group.get('id')
                         if main_id is not None and 0 <= main_id < len(news_items):
                             item = news_items[main_id].copy()
+                            
+                            # Add sector info for Corporate/Industry articles
+                            if canonical_category == "기업/산업":
+                                item['sector'] = group.get('sector', '기타산업')
 
                             # Process related sources with links
                             related_id_list = group.get('related_article_ids', [])

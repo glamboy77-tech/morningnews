@@ -1,6 +1,7 @@
 ﻿import json
 import base64
 import os
+import requests
 from pywebpush import webpush, WebPushException
 from cryptography.hazmat.primitives import serialization
 from cryptography.hazmat.backends import default_backend
@@ -61,6 +62,38 @@ def send_notification(date_str=None, count=None, filename=None):
             print(f"   상세: {ex.response.json()}")
     except Exception as e:
         print(f"❌ 일반 에러 발생: {e}")
+
+
+def send_telegram_hojae(briefing_data, date_str=None):
+    """Send Hojae list to Telegram if credentials exist."""
+    token = os.getenv("TELEGRAM_BOT_TOKEN")
+    chat_id = os.getenv("TELEGRAM_CHAT_ID")
+    if not token or not chat_id:
+        print("ℹ️ TELEGRAM_BOT_TOKEN 또는 TELEGRAM_CHAT_ID가 없어 텔레그램 전송을 건너뜁니다.")
+        return
+
+    hojae_list = briefing_data.get("hojae", []) if briefing_data else []
+    if not hojae_list:
+        print("ℹ️ 호재 리스트가 없어 텔레그램 전송을 건너뜁니다.")
+        return
+
+    title = f"📈 호재 기업 리스트 ({date_str})" if date_str else "📈 호재 기업 리스트"
+    lines = [title]
+    for item in hojae_list:
+        lines.append(f"- {item}")
+    message = "\n".join(lines)
+
+    try:
+        resp = requests.post(
+            f"https://api.telegram.org/bot{token}/sendMessage",
+            json={"chat_id": chat_id, "text": message}
+        )
+        if resp.status_code == 200:
+            print("✅ 텔레그램 전송 성공")
+        else:
+            print(f"❌ 텔레그램 전송 실패: {resp.status_code} {resp.text}")
+    except Exception as e:
+        print(f"❌ 텔레그램 전송 중 오류: {e}")
 
 if __name__ == "__main__":
     import os

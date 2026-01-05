@@ -6,7 +6,7 @@ from ai_processor import AIProcessor
 from html_generator import HTMLGenerator
 
 from weather_manager import WeatherManager
-from notifier import send_notification
+from notifier import send_notification, send_telegram_hojae
 
 # 콘솔과 파일에 동시 출력
 class DualLogger:
@@ -142,6 +142,12 @@ def main(send_push=True):
         index_file_path, 
         date_str_dot
     )
+
+    # 5.5 텔레그램 호재 기업 알림 (선택적)
+    try:
+        send_telegram_hojae(briefing_data, date_str_dot)
+    except Exception as e:
+        print(f"⚠️ 텔레그램 알림 실패: {e}")
     
     # 6. Send Push Notification
     if send_push:

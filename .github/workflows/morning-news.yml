@@ -2,8 +2,8 @@ name: Morning News Bot (자동실행)
 
 on:
   schedule:
-    # 매일 오전 8시 30분 (UTC 23:30 = KST 08:30)
-    - cron: '30 23 * * *'
+    # 매일 오전 8시 15분 (UTC 23:15 = KST 08:15)
+    - cron: '15 23 * * *'
   workflow_dispatch: # 수동 실행 가능
 
 jobs:
@@ -40,6 +40,10 @@ jobs:
         # Weather & Location
         WEATHER_LOCATION=${{ secrets.WEATHER_LOCATION }}
         SERVER_IP=${{ secrets.SERVER_IP }}
+
+        # Telegram (optional)
+        TELEGRAM_BOT_TOKEN=${{ secrets.TELEGRAM_BOT_TOKEN }}
+        TELEGRAM_CHAT_ID=${{ secrets.TELEGRAM_CHAT_ID }}
         
         # 국내 기사 RSS 주소
         ${{ secrets.DOMESTIC_FEEDS }}
