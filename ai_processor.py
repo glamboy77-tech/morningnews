@@ -69,63 +69,61 @@ class AIProcessor:
         news_text = "\n".join(news_input)
         
         prompt = f"""
-        You are a news categorizer. Your task has THREE STEPS:
-        
-        **STEP 1: FILTER** - Be VERY INCLUSIVE. Keep almost all articles.
-        - ❌ REMOVE ONLY: Unrelated entertainment (celebrity gossip, movies), sports results scores only
-        - ✅ KEEP: ALL business, policy, economic, industry, company, financial news
-        - ✅ KEEP: ALL news about economics, politics, companies, real estate, international affairs
-        - ⚠️ WHEN IN DOUBT: KEEP THE ARTICLE. Err on the side of inclusion.
-        
-        **STEP 2: CATEGORIZE** remaining articles into ONE of these sections:
-                - Politics (정치): Government, politicians, political parties, elections, legislation
-                    - Focus on policy/law, diplomacy/security, macro-level developments
-                    - Prioritize market- or system-impacting news over individual remarks
-        - Economy/Macro (경제/거시): Economic policy, GDP, inflation, unemployment, fiscal/monetary policy, financial markets
-        - Corporate/Industry (기업/산업): Specific companies, industries, business deals, corporate earnings
-        - Real Estate (부동산): Housing, property market, construction, real estate policy
-        - International (국제): Foreign news, international relations, global events
-        
-        **For Corporate/Industry articles, also identify the sector:**
-        - 반도체: Semiconductor, chip manufacturing
-        - 자동차: Automotive, electric vehicles, auto industry
-        - 배터리/에너지: Battery, EV battery, energy, power
-        - 바이오/제약: Bio, pharmaceutical, medical
-        - 조선해양: Shipbuilding, marine, shipping
-        - 금융: Banking, finance, investment, securities
-        - 통신/IT: Telecom, IT, software, cloud, AI
-        - 유통/소매: Retail, e-commerce, shopping
-        - 건설: Construction, infrastructure, engineering
-        - 화학/소재: Chemical, materials, manufacturing
-        - 기타산업: Other industries
-        
-        **STEP 3: DEDUPLICATE** - Be STRICT. Only group if identical.
-        
-        Articles are duplicates ONLY if ALL THREE are true:
-        1. **Exact Same Entity**: Same company, same person, same organization
-        2. **Exact Same Event**: Same announcement or incident (not just same topic)
-        3. **Exact Same Day**: Same day occurrence
-        
-        Output Format (MUST be valid JSON):
-        {{
+        당신은 모닝뉴스봇의 전문 뉴스 분류기입니다. 아래 규칙대로 처리하세요.
+
+        1단계: 필터링 (포용적)
+        - ❌ 제외: 연예/가십, 영화, 경기 스코어만 있는 스포츠
+        - ✅ 포함: 모든 비즈니스·정책·경제·산업·기업·금융 관련 뉴스
+        - ✅ 포함: 경제, 정치, 기업, 부동산, 국제 관련 뉴스 전반
+        - 의심스러울 때는 포함(KEEP)합니다.
+
+        2단계: 카테고리 분류 (하나만 선택)
+        - 정치: 정부, 정당, 선거, 입법
+          · 정책/법안, 외교/안보, 거시 흐름에 집중
+          · 시장/제도에 영향을 줄 뉴스 우선
+        - 경제/거시: 거시경제, 정책, 물가/금리, 금융시장
+        - 기업/산업: 기업, 산업, 비즈니스 거래, 실적
+        - 부동산: 주택, 부동산 정책, 건설
+        - 국제: 해외 뉴스, 국제 관계, 글로벌 이벤트
+
+        기업/산업 기사에는 섹터를 지정하세요.
+        - AI/로봇
+        - 반도체
+        - 자동차
+        - 배터리/에너지
+        - 바이오/제약
+        - 조선해양
+        - 금융
+        - 통신/IT
+        - 유통/소매
+        - 건설
+        - 화학/소재
+        - 기타산업
+
+        3단계: 중복 병합 (매우 엄격)
+        세 조건을 모두 만족할 때만 중복으로 묶습니다.
+        1) 동일 주체(회사/인물/조직), 2) 동일 사건, 3) 동일 일자
+
+        출력(JSON):
+        {
             "정치": [
-                {{"id": 0, "related_article_ids": [1, 2]}},
-                {{"id": 5, "related_article_ids": []}}
+                {"id": 0, "related_article_ids": [1, 2]},
+                {"id": 5, "related_article_ids": []}
             ],
             "경제/거시": [...],
             "기업/산업": [
-                {{"id": 10, "sector": "반도체", "related_article_ids": [11]}},
-                {{"id": 15, "sector": "자동차", "related_article_ids": []}}
+                {"id": 10, "sector": "반도체", "related_article_ids": [11]},
+                {"id": 15, "sector": "자동차", "related_article_ids": []}
             ],
             "부동산": [...],
             "국제": [...]
-        }}
-        
-        - "id": MOST representative article
-        - "sector": (Only for 기업/산업) sector category from the list above
-        - "related_article_ids": IDs of other articles on EXACT SAME EVENT
-        
-        Input News:
+        }
+
+        - id: 대표 기사 ID
+        - sector: 기업/산업에서만 사용. 위 섹터 목록 중 하나
+        - related_article_ids: 동일 사건의 다른 기사 ID들
+
+        입력 뉴스:
         {news_text}
         """
         

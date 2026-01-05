@@ -870,7 +870,7 @@ class HTMLGenerator:
                     sectors[sector].append(item)
                 
                 # 정의된 섹터 순서
-                sector_order = ["반도체", "자동차", "배터리/에너지", "바이오/제약", "조선해양", "금융", 
+                sector_order = ["AI/로봇", "반도체", "자동차", "배터리/에너지", "바이오/제약", "조선해양", "금융", 
                                "통신/IT", "유통/소매", "건설", "화학/소재", "기타산업"]
                 
                 for sector in sector_order:
