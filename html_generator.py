@@ -857,33 +857,38 @@ class HTMLGenerator:
             if not items:
                 continue
             
-            # 기업/산업은 섹터별로 그룹화
-            if category == "기업/산업":
+            # 기업/산업은 섹터별, 정치는 세부 분류별로 그룹화
+            if category in ("기업/산업", "정치"):
                 html += f'<div id="{category}" class="section-title">{category}</div>'
-                
-                # 섹터별로 분류
-                sectors = {}
-                for item in items:
-                    sector = item.get('sector', '기타산업')
-                    if sector not in sectors:
-                        sectors[sector] = []
-                    sectors[sector].append(item)
-                
-                # 정의된 섹터 순서
-                sector_order = ["AI/로봇", "반도체", "자동차", "배터리/에너지", "바이오/제약", "조선해양", "금융", 
-                               "통신/IT", "유통/소매", "건설", "화학/소재", "기타산업"]
-                
-                for sector in sector_order:
-                    if sector not in sectors:
+
+                if category == "기업/산업":
+                    # 섹터별로 분류
+                    buckets = {}
+                    for item in items:
+                        key = item.get('sector', '기타산업')
+                        buckets.setdefault(key, []).append(item)
+                    order_keys = ["AI/로봇", "반도체", "자동차", "배터리/에너지", "바이오/제약", "조선해양", "금융", 
+                                  "통신/IT", "유통/소매", "건설", "화학/소재", "기타산업"]
+                    icon = "📌"
+                else:
+                    # 정치 세부 분류
+                    buckets = {}
+                    for item in items:
+                        key = item.get('pol_subcategory', '기타')
+                        buckets.setdefault(key, []).append(item)
+                    order_keys = ["정상/외교", "당내 정국", "사법/의혹", "지방/통합", "입법/정책", "기타"]
+                    icon = "🗂️"
+
+                for key in order_keys:
+                    if key not in buckets:
                         continue
-                    
-                    sector_items = sectors[sector]
-                    html += f'<div class="sector-subheading">📌 {sector} ({len(sector_items)})</div>'
-                    
-                    for item in sector_items:
+                    group_items = buckets[key]
+                    html += f'<div class="sector-subheading">{icon} {key} ({len(group_items)})</div>'
+
+                    for item in group_items:
                         time_str = item['published_dt'].strftime("%m.%d %H:%M")
                         priority_class = "priority" if item.get('priority_score', 0) > 0 else ""
-                        
+
                         # Grouped sources detail
                         related_info = ""
                         related_sources = item.get('related_full_sources', [])

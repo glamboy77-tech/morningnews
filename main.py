@@ -145,7 +145,8 @@ def main(send_push=True):
 
     # 5.5 텔레그램 호재 기업 알림 (선택적)
     try:
-        send_telegram_hojae(briefing_data, date_str_dot)
+        total_articles = domestic_count + len(science_raw)
+        send_telegram_hojae(briefing_data, date_str_dot, total_articles)
     except Exception as e:
         print(f"⚠️ 텔레그램 알림 실패: {e}")
     

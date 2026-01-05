@@ -100,6 +100,14 @@ class AIProcessor:
         - 화학/소재
         - 기타산업
 
+        정치 기사에는 세부 분류를 지정하세요.
+        - 정상/외교: 정상회담, 외교, 북핵/안보, 국제 관계
+        - 당내 정국: 당내 갈등, 인사, 쇄신, 지도부 교체
+        - 사법/의혹: 수사, 재판, 의혹, 공천 관련 의혹
+        - 지방/통합: 지방 선거/출마, 지역 통합·행정구역 이슈
+        - 입법/정책: 법안, 규제, 정책, 행정 명령/지침
+        - 기타: 위에 해당하지 않는 정치 뉴스
+
         3단계: 중복 병합 (매우 엄격)
         세 조건을 모두 만족할 때만 중복으로 묶습니다.
         1) 동일 주체(회사/인물/조직), 2) 동일 사건, 3) 동일 일자
@@ -107,8 +115,8 @@ class AIProcessor:
         출력(JSON):
         {
             "정치": [
-                {"id": 0, "related_article_ids": [1, 2]},
-                {"id": 5, "related_article_ids": []}
+                {"id": 0, "pol_subcategory": "정상/외교", "related_article_ids": [1, 2]},
+                {"id": 5, "pol_subcategory": "입법/정책", "related_article_ids": []}
             ],
             "경제/거시": [...],
             "기업/산업": [
@@ -164,6 +172,10 @@ class AIProcessor:
                             # Add sector info for Corporate/Industry articles
                             if canonical_category == "기업/산업":
                                 item['sector'] = group.get('sector', '기타산업')
+
+                            # Add subcategory info for Politics articles
+                            if canonical_category == "정치":
+                                item['pol_subcategory'] = group.get('pol_subcategory', '기타')
 
                             # Process related sources with links
                             related_id_list = group.get('related_article_ids', [])
