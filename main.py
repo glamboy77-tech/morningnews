@@ -72,33 +72,22 @@ def main(send_push=True):
     # Sort general news by date to ensure recent ones are prioritized across all sources
     domestic_raw.sort(key=lambda x: x['published_dt'], reverse=True)
     
-    # 매체별로 그룹화
-    from collections import defaultdict
-    key = lambda x: (x['source'], x['section']) if 'section' in x else (x['source'], x.get('category',''))
-    grouped = defaultdict(list)
-    for idx, item in enumerate(domestic_raw):
-        grouped[key(item)].append((idx, item))
-    print(f"  - Media groups: {len(grouped)}")
-
-    # 1차 호출: 모든 기사 제목을 AI에 보내서 필터링
-    # (데이터 크기 관리용으로 매체별 최대 N개씩만 먼저 선택)
-    articles_for_filtering = []
-    for group_key, group_items in grouped.items():
-        group_news = [item for idx, item in group_items]
-        group_news.sort(key=lambda x: x['published_dt'], reverse=True)
-        # 각 매체/섹션별로 최대 100개까지 1차 필터링 대상에 포함
-        top_n = min(100, len(group_news))
-        articles_for_filtering.extend(group_news[:top_n])
+    # 배치 처리: 200개씩 나눠서 AI 분류 후 병합
+    batch_size = 200
+    domestic_categorized_raw = {}
     
-    print(f"  - 1차 필터링 대상 기사 수: {len(articles_for_filtering)}")
-    
-    # 1차 필터링: 제목으로 중요도 판단 (200개 정도로 줄임)
-    filtered_indices = ai.filter_important_titles(articles_for_filtering, top_k=200)
-    filtered_domestic = [articles_for_filtering[i] for i in filtered_indices]
-    print(f"  - 1차 필터링 후 기사 수: {len(filtered_domestic)}")
-
-    # 2차: 본문 포함 AI 분류
-    domestic_categorized_raw = ai.process_domestic_news(filtered_domestic)
+    for batch_start in range(0, len(domestic_raw), batch_size):
+        batch_end = min(batch_start + batch_size, len(domestic_raw))
+        batch = domestic_raw[batch_start:batch_end]
+        print(f"  - Processing batch: articles {batch_start+1}~{batch_end} ({len(batch)} articles)")
+        
+        batch_result = ai.process_domestic_news(batch)
+        
+        # 배치 결과를 전체 결과에 병합
+        for category, items in batch_result.items():
+            if category not in domestic_categorized_raw:
+                domestic_categorized_raw[category] = []
+            domestic_categorized_raw[category].extend(items)
     
     # Debug: see what AI returned
     total_returned = sum(len(v) for v in domestic_categorized_raw.values())
