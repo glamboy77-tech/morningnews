@@ -304,6 +304,12 @@ class HTMLGenerator:
                 background: var(--card-priority-bg);
             }
             
+            .card.representative {
+                border: 2px solid #ff6b6b;
+                background: linear-gradient(135deg, rgba(255, 107, 107, 0.08), rgba(255, 107, 107, 0.03));
+                box-shadow: 0 2px 8px rgba(255, 107, 107, 0.15);
+            }
+            
             .sector-subheading {
                 font-weight: 600;
                 font-size: 0.95rem;
@@ -876,34 +882,48 @@ class HTMLGenerator:
                     for item in items:
                         key = item.get('pol_subcategory', '기타')
                         buckets.setdefault(key, []).append(item)
-                    order_keys = ["정상/외교", "당내 정국", "사법/의혹", "지방/통합", "입법/정책", "기타"]
+                    order_keys = ["정상/외교", "당내 정국", "사법/의혹", "지방/행정", "입법/정책", "Science/Tech", "기타"]
                     icon = "🗂️"
 
                 for key in order_keys:
                     if key not in buckets:
                         continue
                     group_items = buckets[key]
+                    
+                    # 정치 카테고리인 경우 대표 기사를 맨 앞으로 정렬
+                    if category == "정치":
+                        group_items.sort(key=lambda x: (not x.get('is_representative', False), x['published_dt']), reverse=True)
+                    
                     html += f'<div class="sector-subheading">{icon} {key} ({len(group_items)})</div>'
 
                     for item in group_items:
                         time_str = item['published_dt'].strftime("%m.%d %H:%M")
                         priority_class = "priority" if item.get('priority_score', 0) > 0 else ""
+                        
+                        # 대표 기사 표시
+                        representative_badge = ""
+                        if category == "정치" and item.get('is_representative', False):
+                            priority_class += " representative"
+                            representative_badge = ' <span style="color: #ff6b6b; font-weight: bold;">★ 대표</span>'
 
-                        # Grouped sources detail
+                        # Grouped sources detail with count
                         related_info = ""
                         related_sources = item.get('related_full_sources', [])
                         if related_sources:
+                            count_badge = f" (외 {len(related_sources)}건)"
                             links_html = "".join([f'<a href="{rs["link"]}" class="related-link" target="_blank">🔗 {rs["title"]} - {rs["source"]}</a>' for rs in related_sources])
                             related_info = f"""
                         <details class="related-sources">
-                            <summary>Explore {len(related_sources)} more sources</summary>
+                            <summary>{len(related_sources)}개 관련 기사 보기</summary>
                             {links_html}
                         </details>
                         """
+                        else:
+                            count_badge = ""
 
                         html += f"""
                     <div class="card {priority_class}">
-                        <a href="{item['link']}" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">{item['title']}</a>
+                        <a href="{item['link']}" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">{item['title']}{count_badge}{representative_badge}</a>
                         <div class="card-meta">
                             <span>{item['source']}</span>
                             <span>{time_str}</span>

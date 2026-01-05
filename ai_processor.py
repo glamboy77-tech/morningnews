@@ -100,13 +100,18 @@ class AIProcessor:
         - 화학/소재
         - 기타산업
 
-        정치 기사에는 세부 분류를 지정하세요.
-        - 정상/외교: 정상회담, 외교, 북핵/안보, 국제 관계
-        - 당내 정국: 당내 갈등, 인사, 쇄신, 지도부 교체
-        - 사법/의혹: 수사, 재판, 의혹, 공천 관련 의혹
-        - 지방/통합: 지방 선거/출마, 지역 통합·행정구역 이슈
-        - 입법/정책: 법안, 규제, 정책, 행정 명령/지침
-        - 기타: 위에 해당하지 않는 정치 뉴스
+        정치 기사 테마 분류 (5~7개 테마로 분류):
+        - 정상/외교: 대통령 행보, 국제 관계, 북한 동향, 외교 정책
+        - 당내 정국: 정당 내부 갈등, 인사, 선거 준비, 지도부 교체
+        - 사법/의혹: 수사, 재판, 각종 의혹 및 논란, 공천 비리
+        - 지방/행정: 지역 사회 이슈, 행정 통합, 지자체 소식
+        - 입법/정책: 법안 발의, 정부 정책 발표, 복지, 규제
+        - Science/Tech: IT, AI, 과학 기술 관련 정책 (정치 섹션 내 별도 분류)
+        
+        정치 기사 처리 규칙:
+        1) 각 테마별로 가장 중요도가 높거나 상징적인 기사를 대표 기사(is_representative=true)로 선정
+        2) 동일한 사건을 다룬 여러 기사는 하나로 묶어 related_article_ids에 추가
+        3) 대표 기사는 각 테마의 맨 앞에 배치됨
 
         3단계: 중복 병합 (매우 엄격)
         세 조건을 모두 만족할 때만 중복으로 묶습니다.
@@ -115,8 +120,8 @@ class AIProcessor:
         출력(JSON):
         {{
             "정치": [
-                {{"id": 0, "pol_subcategory": "정상/외교", "related_article_ids": [1, 2]}},
-                {{"id": 5, "pol_subcategory": "입법/정책", "related_article_ids": []}}
+                {{"id": 0, "pol_subcategory": "정상/외교", "is_representative": true, "related_article_ids": [1, 2]}},
+                {{"id": 5, "pol_subcategory": "입법/정책", "is_representative": false, "related_article_ids": []}}
             ],
             "경제/거시": [...],
             "기업/산업": [
@@ -176,6 +181,7 @@ class AIProcessor:
                             # Add subcategory info for Politics articles
                             if canonical_category == "정치":
                                 item['pol_subcategory'] = group.get('pol_subcategory', '기타')
+                                item['is_representative'] = group.get('is_representative', False)
 
                             # Process related sources with links
                             related_id_list = group.get('related_article_ids', [])
@@ -258,8 +264,29 @@ class AIProcessor:
 
         Task:
         1. **Section Summary**: Write ONE concise sentence summarizing the key trend for each section.
-        2. **Company Sentiment**: Identify as many companies as possible affected by Hojae or Akjae.
-           - Search specifically for negative news (earnings shock, investigations, strikes, debt, etc.) to fill the 'akjae' list.
+        2. **Company Sentiment**: Identify companies affected by SIGNIFICANT Hojae or Akjae that could ACTUALLY impact stock prices.
+           
+           호재(Hojae) 선정 기준 - 다음 중 하나 이상 해당하는 경우만 포함:
+           - 대규모 수주/계약 (수백억 원 이상)
+           - 신사업 진출, 대형 투자, M&A
+           - 실적 급증, 턴어라운드, 흑자전환
+           - 신제품 출시 (시장 영향력이 큰 경우)
+           - 해외 시장 진출, 수출 확대
+           - 기술 혁신, 특허 획득 (중요한 경우)
+           
+           제외할 것 (자잘한 호재):
+           - 단순 인사 발령, 조직 개편
+           - 소규모 협약, 양해각서
+           - 일반적인 제품 개선
+           - 행사/세미나 개최
+           - 업계 평균 수준의 실적
+           
+           악재(Akjae) 선정 기준:
+           - 실적 충격, 적자 전환
+           - 수사/재판, 리콜, 사고
+           - 파업, 생산 중단
+           - 부채 위기, 유동성 문제
+           
            - Provide a very short reason (under 10 characters) for each.
            - Format: "회사명: 이유"
         
