@@ -69,15 +69,15 @@ class AIProcessor:
         news_text = "\n".join(news_input)
         
         prompt = f"""
-        You are an elite news editor. Your task has THREE STEPS:
+        You are a news editor. Your task has THREE STEPS:
         
-        **STEP 1: FILTER** - Remove unimportant articles:
-        - ❌ REMOVE: Entertainment gossip, celebrity news, sports scores, viral trends, soft news
-        - ❌ REMOVE: Minor incidents, trivial announcements, non-newsworthy content
-        - ✅ KEEP: Hard news with real impact on economy, politics, society, markets
-        - ✅ KEEP: News about major companies, economic indicators, policy changes, significant events
+        **STEP 1: FILTER** - Include most articles, remove only truly irrelevant ones:
+        - ❌ REMOVE ONLY: Unrelated entertainment (celebrity gossip, movies), pure sports scores, viral social trends
+        - ✅ KEEP: All business news, policy news, economic news, industry news, company announcements, market reports
+        - ✅ KEEP: All news about economics, politics, companies, real estate, international affairs
+        - ⚠️ INCLUSIVE APPROACH: When in doubt, KEEP the article. Better to show more relevant news than too little.
         
-        **STEP 2: CATEGORIZE** remaining important articles into ONE of these sections:
+        **STEP 2: CATEGORIZE** remaining articles into ONE of these sections:
         - Politics (정치): Government, politicians, political parties, elections, legislation
         - Economy/Macro (경제/거시): Economic policy, GDP, inflation, unemployment, fiscal/monetary policy, financial markets
         - Corporate/Industry (기업/산업): Specific companies, industries, business deals, corporate earnings

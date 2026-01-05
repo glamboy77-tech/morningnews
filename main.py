@@ -80,19 +80,22 @@ def main(send_push=True):
         grouped[key(item)].append((idx, item))
     print(f"  - Media groups: {len(grouped)}")
 
-    # 매체별로 AI에 제목만 보내서 주요 기사 인덱스 추출 (예: 각 그룹 20개)
-    filtered_domestic = []
+    # 1차 호출: 모든 기사 제목을 AI에 보내서 필터링
+    # (데이터 크기 관리용으로 매체별 최대 N개씩만 먼저 선택)
+    articles_for_filtering = []
     for group_key, group_items in grouped.items():
         group_news = [item for idx, item in group_items]
-        # 최신순 정렬
         group_news.sort(key=lambda x: x['published_dt'], reverse=True)
-        # 최대 50개까지 AI에 보냄 (너무 많으면 분할)
-        top_k = min(20, len(group_news))
-        if top_k == 0:
-            continue
-        important_indices = ai.filter_important_titles(group_news, top_k=top_k)
-        filtered_domestic.extend([group_news[i] for i in important_indices])
-    print(f"  - 1차 필터링 후 기사 수(매체별 합산): {len(filtered_domestic)}")
+        # 각 매체/섹션별로 최대 100개까지 1차 필터링 대상에 포함
+        top_n = min(100, len(group_news))
+        articles_for_filtering.extend(group_news[:top_n])
+    
+    print(f"  - 1차 필터링 대상 기사 수: {len(articles_for_filtering)}")
+    
+    # 1차 필터링: 제목으로 중요도 판단
+    filtered_indices = ai.filter_important_titles(articles_for_filtering, top_k=len(articles_for_filtering))
+    filtered_domestic = [articles_for_filtering[i] for i in filtered_indices]
+    print(f"  - 1차 필터링 후 기사 수: {len(filtered_domestic)}")
 
     # 2차: 본문 포함 AI 분류
     domestic_categorized_raw = ai.process_domestic_news(filtered_domestic)
@@ -111,16 +114,13 @@ def main(send_push=True):
         recent_items = [it for it in items if it['published_dt'] >= start_time]
         older_items = [it for it in items if it['published_dt'] < start_time]
         
-        # We want ALL recent items, but at least 20 total
-        if len(recent_items) < 20:
-            needed = 20 - len(recent_items)
-            # Take newest from older_items (they are categorized but older)
-            # Note: ai_processor already sorted by priority_score. 
-            # If we want reverse chronological fallback, we might need to re-sort older_items
-            older_items.sort(key=lambda x: x['published_dt'], reverse=True)
-            recent_items.extend(older_items[:needed])
-        
-        domestic_categorized[category] = recent_items
+        # Keep all items (remove minimum threshold)
+        # If there are at least some recent items, prefer them over older ones
+        if recent_items:
+            domestic_categorized[category] = recent_items
+        else:
+            # Use older items only if no recent items exist
+            domestic_categorized[category] = older_items
     
     # Count valid domestic items
     domestic_count = sum(len(items) for items in domestic_categorized.values())
