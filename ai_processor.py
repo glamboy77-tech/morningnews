@@ -78,7 +78,9 @@ class AIProcessor:
         - ⚠️ WHEN IN DOUBT: KEEP THE ARTICLE. Err on the side of inclusion.
         
         **STEP 2: CATEGORIZE** remaining articles into ONE of these sections:
-        - Politics (정치): Government, politicians, political parties, elections, legislation
+                - Politics (정치): Government, politicians, political parties, elections, legislation
+                    - Focus on policy/law, diplomacy/security, macro-level developments
+                    - Prioritize market- or system-impacting news over individual remarks
         - Economy/Macro (경제/거시): Economic policy, GDP, inflation, unemployment, fiscal/monetary policy, financial markets
         - Corporate/Industry (기업/산업): Specific companies, industries, business deals, corporate earnings
         - Real Estate (부동산): Housing, property market, construction, real estate policy
