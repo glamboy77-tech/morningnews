@@ -92,8 +92,8 @@ def main(send_push=True):
     
     print(f"  - 1차 필터링 대상 기사 수: {len(articles_for_filtering)}")
     
-    # 1차 필터링: 제목으로 중요도 판단
-    filtered_indices = ai.filter_important_titles(articles_for_filtering, top_k=len(articles_for_filtering))
+    # 1차 필터링: 제목으로 중요도 판단 (200개 정도로 줄임)
+    filtered_indices = ai.filter_important_titles(articles_for_filtering, top_k=200)
     filtered_domestic = [articles_for_filtering[i] for i in filtered_indices]
     print(f"  - 1차 필터링 후 기사 수: {len(filtered_domestic)}")
 
