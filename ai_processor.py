@@ -113,19 +113,19 @@ class AIProcessor:
         1) 동일 주체(회사/인물/조직), 2) 동일 사건, 3) 동일 일자
 
         출력(JSON):
-        {
+        {{
             "정치": [
-                {"id": 0, "pol_subcategory": "정상/외교", "related_article_ids": [1, 2]},
-                {"id": 5, "pol_subcategory": "입법/정책", "related_article_ids": []}
+                {{"id": 0, "pol_subcategory": "정상/외교", "related_article_ids": [1, 2]}},
+                {{"id": 5, "pol_subcategory": "입법/정책", "related_article_ids": []}}
             ],
             "경제/거시": [...],
             "기업/산업": [
-                {"id": 10, "sector": "반도체", "related_article_ids": [11]},
-                {"id": 15, "sector": "자동차", "related_article_ids": []}
+                {{"id": 10, "sector": "반도체", "related_article_ids": [11]}},
+                {{"id": 15, "sector": "자동차", "related_article_ids": []}}
             ],
             "부동산": [...],
             "국제": [...]
-        }
+        }}
 
         - id: 대표 기사 ID
         - sector: 기업/산업에서만 사용. 위 섹터 목록 중 하나
