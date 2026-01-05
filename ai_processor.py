@@ -69,13 +69,13 @@ class AIProcessor:
         news_text = "\n".join(news_input)
         
         prompt = f"""
-        You are a news editor. Your task has THREE STEPS:
+        You are a news categorizer. Your task has TWO STEPS:
         
-        **STEP 1: FILTER** - Include most articles, remove only truly irrelevant ones:
-        - ❌ REMOVE ONLY: Unrelated entertainment (celebrity gossip, movies), pure sports scores, viral social trends
-        - ✅ KEEP: All business news, policy news, economic news, industry news, company announcements, market reports
-        - ✅ KEEP: All news about economics, politics, companies, real estate, international affairs
-        - ⚠️ INCLUSIVE APPROACH: When in doubt, KEEP the article. Better to show more relevant news than too little.
+        **STEP 1: FILTER** - Be VERY INCLUSIVE. Keep almost all articles.
+        - ❌ REMOVE ONLY: Unrelated entertainment (celebrity gossip, movies), sports results scores only
+        - ✅ KEEP: ALL business, policy, economic, industry, company, financial news
+        - ✅ KEEP: ALL news about economics, politics, companies, real estate, international affairs
+        - ⚠️ WHEN IN DOUBT: KEEP THE ARTICLE. Err on the side of inclusion.
         
         **STEP 2: CATEGORIZE** remaining articles into ONE of these sections:
         - Politics (정치): Government, politicians, political parties, elections, legislation
@@ -84,31 +84,20 @@ class AIProcessor:
         - Real Estate (부동산): Housing, property market, construction, real estate policy
         - International (국제): Foreign news, international relations, global events
         
-        **STEP 3: DEDUPLICATE** within each category using VERY STRICT criteria.
+        **STEP 3: DEDUPLICATE** - Be STRICT. Only group if identical.
         
-        ⚠️ CRITICAL DEDUPLICATION RULES:
+        Articles are duplicates ONLY if ALL THREE are true:
+        1. **Exact Same Entity**: Same company, same person, same organization
+        2. **Exact Same Event**: Same announcement or incident (not just same topic)
+        3. **Exact Same Day**: Same day occurrence
         
-        Articles are duplicates ONLY if ALL THREE conditions are met:
-        1. **Same Entity**: Same person, same company, same organization, or same specific event
-        2. **Same Event**: Same announcement, same incident, same development (not just similar topic)
-        3. **Same Timeframe**: Same day or same specific occurrence
+        ❌ DO NOT GROUP:
+        - Different companies (Samsung ≠ LG)
+        - Different politicians (Person A ≠ Person B)
+        - Different events (Event 1 ≠ Event 2)
         
-        ❌ **DO NOT GROUP** these cases (they are NOT duplicates):
-        - Different companies in same industry (e.g., "Samsung earnings" ≠ "LG earnings")
-        - Different politicians in same party (e.g., "Person A statement" ≠ "Person B statement")
-        - Different regions/cities (e.g., "Seoul housing" ≠ "Busan housing")
-        - Different countries (e.g., "US economy" ≠ "China economy")
-        - Different events on same topic (e.g., "Stock market rises" ≠ "Dollar strengthens")
-        - Different aspects of same issue (e.g., "Policy announced" ≠ "Opposition reaction")
-        
-        ✅ **DO GROUP** these cases (they ARE duplicates):
-        - Same event from different news sources (e.g., multiple outlets reporting "Samsung announces Q4 earnings")
-        - Same speech/announcement reported by different media
-        - Same incident with different headlines but identical core event
-        
-        **When in doubt, keep them SEPARATE**. It's better to show distinct news separately than to incorrectly merge different events.
-        
-        **IMPORTANT**: Only return articles that pass Step 1 filter (important hard news). Low-quality content should be completely excluded from the output.
+        ✅ DO GROUP:
+        - Same event from multiple outlets (all reporting "Samsung Q4 earnings")
         
         Output Format (MUST be valid JSON):
         {{
@@ -122,8 +111,8 @@ class AIProcessor:
             "국제": [...]
         }}
         
-        - "id": The ID of the MOST representative article among duplicates
-        - "related_article_ids": IDs of other articles covering the EXACT SAME EVENT (usually empty or 1-3 IDs max)
+        - "id": MOST representative article
+        - "related_article_ids": IDs of other articles on EXACT SAME EVENT
         
         Input News:
         {news_text}
