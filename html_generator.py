@@ -273,14 +273,11 @@ class HTMLGenerator:
                 z-index: 1000;
                 padding: 12px 20px;
                 display: flex;
-                overflow-x: auto;
-                scrollbar-width: none;
+                flex-wrap: wrap;
                 justify-content: flex-start;
                 gap: 8px;
                 border-bottom: 1px solid var(--border);
-                -webkit-overflow-scrolling: touch;
             }
-            .sticky-nav::-webkit-scrollbar { display: none; }
             
             .nav-pill {
                 padding: 8px 16px;
