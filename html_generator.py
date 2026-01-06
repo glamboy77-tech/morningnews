@@ -305,9 +305,8 @@ class HTMLGenerator:
             }
             
             .card.representative {
-                border: 2px solid #ff6b6b;
-                background: linear-gradient(135deg, rgba(255, 107, 107, 0.08), rgba(255, 107, 107, 0.03));
-                box-shadow: 0 2px 8px rgba(255, 107, 107, 0.15);
+                border-left: 3px solid rgba(79, 172, 254, 0.6);
+                background: rgba(79, 172, 254, 0.03);
             }
             
             .sector-subheading {
@@ -892,7 +891,7 @@ class HTMLGenerator:
                     
                     # 정치 카테고리인 경우 대표 기사를 맨 앞으로 정렬
                     if category == "정치":
-                        group_items.sort(key=lambda x: (not x.get('is_representative', False), x['published_dt']), reverse=True)
+                        group_items.sort(key=lambda x: (not x.get('is_representative', False), -x['published_dt'].timestamp()))
                     
                     html += f'<div class="sector-subheading">{icon} {key} ({len(group_items)})</div>'
 
@@ -904,7 +903,6 @@ class HTMLGenerator:
                         representative_badge = ""
                         if category == "정치" and item.get('is_representative', False):
                             priority_class += " representative"
-                            representative_badge = ' <span style="color: #ff6b6b; font-weight: bold;">★ 대표</span>'
 
                         # Grouped sources detail with count
                         related_info = ""
