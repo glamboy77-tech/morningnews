@@ -484,7 +484,7 @@ class HTMLGenerator:
         </style>
         """
 
-    def generate_main_page(self, domestic_data, international_data, briefing_data, weather_data, filename, date_str):
+    def generate_main_page(self, domestic_data, international_data, briefing_data, weather_data, filename, date_str, key_persons=None):
         from datetime import datetime, timezone, timedelta
         kst_now = datetime.now(timezone(timedelta(hours=9)))  # Ensure KST regardless of runner timezone
         gen_time = kst_now.strftime("%H:%M:%S")
@@ -803,6 +803,11 @@ class HTMLGenerator:
         
         html += '<div class="sticky-nav">'
         
+        # Key Persons (if exists)
+        if key_persons:
+            person_count = sum(p['count'] for p in key_persons.values())
+            html += f'<a href="#인물별" class="nav-pill">👤 인물별 ({person_count})</a>'
+        
         # Domestic Counts
         for category in order:
             items = domestic_data.get(category, [])
@@ -853,6 +858,34 @@ class HTMLGenerator:
                 html += '</div>'
                 
             html += '</div>'
+
+
+        # Key Persons Section (if exists)
+        if key_persons:
+            html += '<div id="인물별" class="section-title">🔍 주요 인물별 뉴스</div>'
+            
+            for person_name, person_data in key_persons.items():
+                role = person_data.get('role', '')
+                articles = person_data.get('articles', [])
+                count = person_data.get('count', len(articles))
+                
+                # Person subheading
+                role_text = f" ({role})" if role else ""
+                html += f'<div class="sector-subheading">👤 {person_name}{role_text} ({count}건)</div>'
+                
+                # Render articles
+                for item in articles:
+                    time_str = item['published_dt'].strftime("%m.%d %H:%M")
+                    
+                    html += f"""
+                <div class="card">
+                    <a href="{item['link']}" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">{item['title']}</a>
+                    <div class="card-meta">
+                        <span>{item['source']}</span>
+                        <span>{time_str}</span>
+                    </div>
+                </div>
+                """
 
 
         # Domestic Sections

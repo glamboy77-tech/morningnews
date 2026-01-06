@@ -116,6 +116,16 @@ def main(send_push=True):
     print(f"  - Classified {domestic_count} domestic articles (with fallback).")
     print(f"  - Domestic Categories: {list(domestic_categorized.keys())}")
  
+    # 3.5. Extract Key Persons
+    print("\n[Phase 2.5] Extracting Key Persons...")
+    key_persons = ai.extract_key_persons(domestic_categorized)
+    if key_persons:
+        print(f"  - Found {len(key_persons)} key persons:")
+        for person_name, person_data in key_persons.items():
+            print(f"    · {person_name} ({person_data['role']}): {person_data['count']}건")
+    else:
+        print("  - No key persons found with 3+ articles")
+ 
     # 4. Generate Briefing
     print("\n[Phase 3] Generating Morning Briefing...")
     briefing_data = ai.generate_briefing(domestic_categorized)
@@ -129,7 +139,8 @@ def main(send_push=True):
         briefing_data,
         weather_data, 
         main_file_path, 
-        date_str_dot
+        date_str_dot,
+        key_persons
     )
     
     # Also generate index.html in root folder (as a copy of the latest report)
@@ -140,7 +151,8 @@ def main(send_push=True):
         briefing_data,
         weather_data, 
         index_file_path, 
-        date_str_dot
+        date_str_dot,
+        key_persons
     )
 
     # 5.5 텔레그램 호재 기업 알림 (선택적)

@@ -318,6 +318,109 @@ class AIProcessor:
             print(f"Error generating briefing: {e}")
             return None
 
+    def extract_key_persons(self, categorized_news):
+        """
+        Extract key persons from news articles and group articles by person.
+        Returns a dict mapping person names to their related articles.
+        """
+        if not categorized_news:
+            return {}
+        
+        # Prepare context with article IDs
+        articles_list = []
+        article_map = {}
+        idx = 0
+        
+        for category, items in categorized_news.items():
+            for item in items:
+                article_info = {
+                    'id': idx,
+                    'title': item['title'],
+                    'category': category,
+                    'source': item['source'],
+                    'link': item['link'],
+                    'published_dt': item['published_dt'],
+                    'original_item': item
+                }
+                articles_list.append(article_info)
+                article_map[idx] = article_info
+                idx += 1
+        
+        if not articles_list:
+            return {}
+        
+        # Create context for AI
+        context = "\n".join([f"ID:{a['id']} | {a['category']} | {a['title']}" for a in articles_list])
+        
+        prompt = f"""
+        당신은 뉴스 분석 전문가입니다. 다음 뉴스 기사들에서 자주 등장하는 주요 인물을 찾아주세요.
+
+        규칙:
+        1. 3개 이상의 기사에서 언급되는 인물만 추출
+        2. 정치인, 기업인, 국제 인물 등 모든 중요 인물 포함
+        3. 각 인물과 관련된 기사 ID를 모두 나열
+        4. 인물명은 정확하게 표기 (예: "이혜훈", "마두로")
+        5. 5개 이상의 기사와 관련된 인물을 우선적으로 추출
+        
+        출력 JSON 형식:
+        {{
+            "key_persons": [
+                {{
+                    "name": "인물명",
+                    "article_ids": [1, 5, 10, 15],
+                    "count": 4,
+                    "role": "직책 또는 역할 (예: 국민의힘 의원, 베네수엘라 대통령)"
+                }}
+            ]
+        }}
+        
+        입력 뉴스:
+        {context}
+        """
+        
+        try:
+            response = self.client.models.generate_content(
+                model=config.model_flash,
+                contents=prompt,
+                config={'response_mime_type': 'application/json'}
+            )
+            
+            result = json.loads(response.text)
+            persons_data = {}
+            
+            # Process each person
+            for person_info in result.get('key_persons', []):
+                name = person_info.get('name')
+                article_ids = person_info.get('article_ids', [])
+                count = person_info.get('count', 0)
+                role = person_info.get('role', '')
+                
+                # Filter: only keep persons with 3+ articles
+                if not name or count < 3:
+                    continue
+                
+                # Collect actual articles
+                related_articles = []
+                for aid in article_ids:
+                    if aid in article_map:
+                        related_articles.append(article_map[aid]['original_item'])
+                
+                if len(related_articles) >= 3:
+                    persons_data[name] = {
+                        'articles': related_articles,
+                        'count': len(related_articles),
+                        'role': role
+                    }
+            
+            # Sort by article count (descending)
+            persons_data = dict(sorted(persons_data.items(), key=lambda x: x[1]['count'], reverse=True))
+            
+            return persons_data
+            
+        except Exception as e:
+            print(f"Error extracting key persons: {e}")
+            return {}
+
 if __name__ == "__main__":
     # Dummy test
     processor = AIProcessor()
