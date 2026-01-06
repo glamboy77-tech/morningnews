@@ -561,14 +561,11 @@
                 z-index: 1000;
                 padding: 12px 20px;
                 display: flex;
-                overflow-x: auto;
-                scrollbar-width: none;
+                flex-wrap: wrap;
                 justify-content: flex-start;
                 gap: 8px;
                 border-bottom: 1px solid var(--border);
-                -webkit-overflow-scrolling: touch;
             }
-            .sticky-nav::-webkit-scrollbar { display: none; }
             
             .nav-pill {
                 padding: 8px 16px;
@@ -593,9 +590,8 @@
             }
             
             .card.representative {
-                border: 2px solid #ff6b6b;
-                background: linear-gradient(135deg, rgba(255, 107, 107, 0.08), rgba(255, 107, 107, 0.03));
-                box-shadow: 0 2px 8px rgba(255, 107, 107, 0.15);
+                border-left: 3px solid rgba(79, 172, 254, 0.6);
+                background: rgba(79, 172, 254, 0.03);
             }
             
             .sector-subheading {
@@ -778,7 +774,7 @@
                 <header>
                     <div class="header-meta">
                         <span class="header-date">2026.01.06</span>
-                        <span class="header-time">Generated at 08:44:03</span>
+                        <span class="header-time">Generated at 11:39:21</span>
                     </div>
                     <h1>Morning News</h1>
                     
@@ -798,7 +794,7 @@
         
                     <button id="subscribeBtn" class="push-subscribe-btn" onclick="saveSubscription()">🔔 Get Notifications</button>
                 </header>
-        <div class="sticky-nav"><a href="#정치" class="nav-pill">정치 (75)</a><a href="#경제/거시" class="nav-pill">경제/거시 (8)</a><a href="#기업/산업" class="nav-pill">기업/산업 (94)</a><a href="#부동산" class="nav-pill">부동산 (25)</a><a href="#국제" class="nav-pill">국제 (48)</a><a href="#science" class="nav-pill">테크 (10)</a></div><div class="briefing-card"><div class="briefing-title">⚡ Morning Briefing</div>
+<div class="sticky-nav"><a href="#정치" class="nav-pill">정치 (75)</a><a href="#경제/거시" class="nav-pill">경제/거시 (8)</a><a href="#기업/산업" class="nav-pill">기업/산업 (94)</a><a href="#부동산" class="nav-pill">부동산 (25)</a><a href="#국제" class="nav-pill">국제 (48)</a><a href="#science" class="nav-pill">테크 (10)</a></div><div class="briefing-card"><div class="briefing-title">⚡ Morning Briefing</div>
                     <div class="briefing-item">
                         <span class="briefing-label">정치</span>
                         <span class="briefing-content">대통령의 외교 행보와 함께 여당 내 윤리 문제가 부각되고, 총선을 앞둔 정치권의 움직임이 활발하다.</span>
@@ -3183,8 +3179,7 @@
                         <span>01.12 10:54</span>
                     </div>
                 </a>
-                
-                <footer>&copy; 2025 PREMIUM MORNING NEWS BOT</footer>
+<footer>&copy; 2025 PREMIUM MORNING NEWS BOT</footer>
             </div>
         </body>
         </html>

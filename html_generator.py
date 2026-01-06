@@ -892,6 +892,11 @@ class HTMLGenerator:
             if not items:
                 continue
             
+            # 인물별 섹션에 이미 사용된 기사는 제외
+            filtered_items = [item for item in items if item.get('link') not in used_article_links]
+            if not filtered_items:
+                continue
+            
             # 기업/산업은 섹터별, 정치는 세부 분류별로 그룹화
             if category in ("기업/산업", "정치"):
                 html += f'<div id="{category}" class="section-title">{category}</div>'
@@ -899,7 +904,7 @@ class HTMLGenerator:
                 if category == "기업/산업":
                     # 섹터별로 분류
                     buckets = {}
-                    for item in items:
+                    for item in filtered_items:
                         key = item.get('sector', '기타산업')
                         buckets.setdefault(key, []).append(item)
                     order_keys = ["AI/로봇", "반도체", "자동차", "배터리/에너지", "바이오/제약", "조선해양", "금융", 
@@ -908,7 +913,7 @@ class HTMLGenerator:
                 else:
                     # 정치 세부 분류
                     buckets = {}
-                    for item in items:
+                    for item in filtered_items:
                         key = item.get('pol_subcategory', '기타')
                         buckets.setdefault(key, []).append(item)
                     order_keys = ["정상/외교", "당내 정국", "사법/의혹", "지방/행정", "입법/정책", "Science/Tech", "기타"]
@@ -962,7 +967,7 @@ class HTMLGenerator:
             else:
                 # 다른 카테고리는 기존처럼 처리
                 html += f'<div id="{category}" class="section-title">{category}</div>'
-                for item in items:
+                for item in filtered_items:
                     time_str = item['published_dt'].strftime("%m.%d %H:%M")
                     priority_class = "priority" if item.get('priority_score', 0) > 0 else ""
                     
