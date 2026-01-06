@@ -487,6 +487,13 @@ class HTMLGenerator:
         gen_time = kst_now.strftime("%H:%M:%S")
         weather_emoji = weather_data.get('emoji', '') if weather_data else ""
         
+        # 인물별 섹션에 이미 사용된 기사들의 링크를 추적
+        used_article_links = set()
+        if key_persons:
+            for person_data in key_persons.values():
+                for article in person_data.get('articles', []):
+                    used_article_links.add(article.get('link'))
+        
         html = f"""
         <!DOCTYPE html>
         <html lang="ko">
@@ -805,10 +812,11 @@ class HTMLGenerator:
             person_count = sum(p['count'] for p in key_persons.values())
             html += f'<a href="#인물별" class="nav-pill">👤 인물별 ({person_count})</a>'
         
-        # Domestic Counts
+        # Domestic Counts (필터링 후 개수)
         for category in order:
             items = domestic_data.get(category, [])
-            count = len(items)
+            filtered_items = [item for item in items if item.get('link') not in used_article_links]
+            count = len(filtered_items)
             if count > 0:
                 html += f'<a href="#{category}" class="nav-pill">{category} ({count})</a>'
         
