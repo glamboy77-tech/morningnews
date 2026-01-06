@@ -361,6 +361,9 @@ class AIProcessor:
         3. 각 인물과 관련된 기사 ID를 모두 나열
         4. 인물명은 정확하게 표기 (예: "이혜훈", "마두로")
         5. 5개 이상의 기사와 관련된 인물을 우선적으로 추출
+        6. role은 현재 직책/역할을 최대한 정확하게 표기 (예: "한국 대통령", "미국 대통령", "중국 국가주석")
+           - "전 대통령", "前 대통령" 같은 과거 직책 표기는 최소화
+           - 뉴스에서 현재 활동 중이면 현재 역할로 표기
         
         출력 JSON 형식:
         {{
@@ -369,7 +372,7 @@ class AIProcessor:
                     "name": "인물명",
                     "article_ids": [1, 5, 10, 15],
                     "count": 4,
-                    "role": "직책 또는 역할 (예: 국민의힘 의원, 베네수엘라 대통령)"
+                    "role": "현재 직책 또는 역할 (예: 국민의힘 대선후보, 베네수엘라 대통령)"
                 }}
             ]
         }}
@@ -398,6 +401,12 @@ class AIProcessor:
                 # Filter: only keep persons with 3+ articles
                 if not name or count < 3:
                     continue
+                
+                # 역할 정보 정제: "전 대통령", "前 대통령" 같은 과거 직책 표기 제거
+                role = role.replace('前', '').replace('전 ', '').strip()
+                # 여전히 "전대통령" 같은 형태가 있을 수 있으니 정규식으로도 처리
+                import re
+                role = re.sub(r'^전\s*', '', role)
                 
                 # Collect actual articles
                 related_articles = []
