@@ -10,9 +10,9 @@ class Config:
     def __init__(self):
         self.gemini_api_key = os.getenv("GEMINI_API_KEY")
         # Multi-model setup - prioritize FLASH (gemini-3-flash) as requested
-        self.model_flash = os.getenv("GEMINI_MODEL_FLASH", "gemini-2.0-flash")
-        self.model_lite = os.getenv("GEMINI_MODEL_LITE", self.model_flash)
-        self.model_pro = os.getenv("GEMINI_MODEL_PRO", self.model_flash)
+        self.model_flash = os.getenv("GEMINI_MODEL_FLASH", "gemini-3-flash")
+        self.model_lite = os.getenv("GEMINI_MODEL_LITE", "gemini-3-flash")
+        self.model_pro = os.getenv("GEMINI_MODEL_PRO", "gemini-3-flash")
         # Main model version for generic tasks
         self.gemini_version = self.model_flash
         

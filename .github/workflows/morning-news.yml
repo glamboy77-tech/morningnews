@@ -29,9 +29,9 @@ jobs:
         cat > .env << EOF
         # Gemini API
         GEMINI_API_KEY=${{ secrets.GEMINI_API_KEY }}
-        GEMINI_MODEL_FLASH=gemini-2.0-flash
-        GEMINI_MODEL_LITE=gemini-2.0-flash
-        GEMINI_MODEL_PRO=gemini-2.0-flash
+        GEMINI_MODEL_FLASH=gemini-3-flash
+        GEMINI_MODEL_LITE=gemini-3-flash
+        GEMINI_MODEL_PRO=gemini-3-flash
         
         # VAPID Keys for PWA Push
         VAPID_PUBLIC_KEY=${{ secrets.VAPID_PUBLIC_KEY }}
