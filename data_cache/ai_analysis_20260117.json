@@ -1,0 +1,1265 @@
+{
+  "timestamp": "2026-01-17T23:32:45.458647",
+  "date": "20260117",
+  "data": {
+    "정치": [
+      {
+        "title": "尹 체포방해 징역 5년…대부분 유죄·계엄 409일만에 첫 단죄(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260116111352004",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-01-16 17:34:26",
+        "description": "(서울=연합뉴스) 이영섭 이도흔 기자 = 윤석열 전 대통령이 경호처 직원들을 동원해 자신에 대한 고위공직자범죄수사처(공수처) 체포를 방해한 혐의...",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "사법/의혹",
+        "is_representative": true,
+        "related_full_sources": []
+      },
+      {
+        "title": "종합특검법, 與주도로 국회 통과…지선까지 '특검수사' 전망(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260116103751001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-01-16 17:17:53",
+        "description": "(서울=연합뉴스) 서혜림 김유아 박재하 기자 = 내란·김건희·채해병 등 3대 특검의 미진한 부분과 새로운 의혹을 수사하기 위한 2차 종합특검법이...",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "입법/정책",
+        "is_representative": true,
+        "related_full_sources": []
+      },
+      {
+        "title": "내홍 치닫던 국힘, 張 단식에 내부 결속하나…\"쓰러질 때까지\"(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260116040151001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-01-16 17:38:58",
+        "description": "(서울=연합뉴스) 김연정 박수윤 노선웅 기자 = 국민의힘 장동혁 대표는 16일 더불어민주당에 통일교 및 공천헌금 의혹에 대한 &apos;쌍특검&apos; 수용을 ...",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "당내 정국",
+        "is_representative": true,
+        "related_full_sources": []
+      },
+      {
+        "title": "李대통령 \"한일, 도움되는 관계돼야\"…아소 다로 \"긴밀히 협력\"",
+        "link": "https://www.yna.co.kr/view/AKR20260116145500001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-01-16 18:03:57",
+        "description": "(서울=연합뉴스) 설승은 기자 = 이재명 대통령은 16일 오후 청와대에서 아소 다로 전 일본 총리를 접견하고 양국 관계 개선 및 협력 방안을 논...",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "정상/외교",
+        "is_representative": true,
+        "related_full_sources": []
+      },
+      {
+        "title": "추미애, 경기도민에 “2등 시민 의식, 아류 시민” 표현 논란",
+        "link": "https://www.chosun.com/economy/economy_general/2026/01/16/GFRGEY3BMIYGCNJSGE2DQMRYMI/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-01-16 22:27:24",
+        "description": "더불어민주당 추미애 의원이 경기도 주민들을 두고 “2등 시민 의식” “아류 시민” 등의 표현을 사용한 것으로 나타났다. 추 의원은 경기도지사 출마를 준비 중이다. 문제의 발언은 추 의원이 지난 11일 출연한 MBN 시사프로그램 ‘MBN 정운갑의 집중분석’에서 나왔다. 약 25분간 진행된 인터뷰 말미에 정운갑 앵커가 경기도지사 출마 의사를 묻자, 추 의원은",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "지방/행정",
+        "is_representative": true,
+        "related_full_sources": [
+          {
+            "source": "조선일보-정치",
+            "title": "추미애 “경기 2등 시민, 아류 시민”... 도민들 분노",
+            "link": "https://www.chosun.com/politics/assembly/2026/01/16/WHMUWPJCDRBEVLZEZ6BRQAK5EE/"
+          }
+        ]
+      },
+      {
+        "title": "[데스크 칼럼] 국가대표 AI, 기대가 크면 실망도 크다",
+        "link": "https://www.chosun.com/economy/economy_general/2026/01/17/GIZGCMRQHE2GCY3GME2DGYJZMI/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-01-17 04:00:00",
+        "description": "‘독자 인공지능(AI) 파운데이션 모델(일명 국가대표 AI)’ 프로젝트가 지난 15일 2단계 진출 3개 정예팀(LG AI 연구원, SK텔레콤, 업스테이지)을 발표하면서 7부 능선을 지나고 있다. 올 연말까지 최종 2개 정예팀을 가려내는 게 목표다. 이재명 정부는 핵심 목표인 글로벌 AI 3강 도약을 위해 작년 6월 ‘국가대표 AI’ 모델을 우리 손으로",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "Science/Tech",
+        "is_representative": true,
+        "related_full_sources": []
+      },
+      {
+        "title": "국힘 대변인 \"지선서 공천팔이\"…개혁신당 \"특검 공조 허무나\"",
+        "link": "https://www.yna.co.kr/view/AKR20260117037200001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-01-17 16:37:18",
+        "description": "(서울=연합뉴스) 박수윤 기자 = 국민의힘과 개혁신당이 더불어민주당의 통일교 의혹 및 공천헌금 수수 의혹에 대한 쌍특검 도입을 위한 공조에 나선...",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "사법/의혹",
+        "is_representative": false,
+        "related_full_sources": []
+      },
+      {
+        "title": "국힘 신동욱, 韓징계 논란에 최고위 차원 '당게' 공개검증 제안",
+        "link": "https://www.yna.co.kr/view/AKR20260117022300001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-01-17 10:06:28",
+        "description": "(서울=연합뉴스) 박수윤 기자 = 국민의힘 한동훈 전 대표가 이른바 당원게시판(당게) 사태로 윤리위에서 제명 처분을 받은 것을 놓고 당내 갈등이...",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "당내 정국",
+        "is_representative": false,
+        "related_full_sources": [
+          {
+            "source": "조선일보-경제",
+            "title": "국힘 신동욱, 韓 징계 논란에 최고위 차원 ‘당게’ 공개검증 제안",
+            "link": "https://www.chosun.com/economy/economy_general/2026/01/17/GY3DIMJZGA3TANBRGZQTKN3FHA/"
+          }
+        ]
+      },
+      {
+        "title": "'입'만 남은 강선우-김경 수사? 4년 전 물증 얼마나 확보할까",
+        "link": "https://www.yna.co.kr/view/AKR20260116082100004",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-01-17 07:55:00",
+        "description": "(서울=연합뉴스) 박수현 기자 = 무소속 강선우 의원의 &apos;공천헌금 1억원&apos; 사건 핵심 피의자들이 &apos;진실게임&apos;을 벌이고 있다. 경찰은 &quot;각자 유리...",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "사법/의혹",
+        "is_representative": false,
+        "related_full_sources": []
+      },
+      {
+        "title": "‘이혜훈 청문회’ 아예 안 열리나",
+        "link": "https://www.chosun.com/politics/politics_general/2026/01/17/4JDGJBNB75HBFK72IXKIZK7OKE/",
+        "source": "조선일보-정치",
+        "published_dt": "2026-01-17 00:57:00",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "입법/정책",
+        "is_representative": false,
+        "related_full_sources": []
+      },
+      {
+        "title": "헌법존중 정부혁신 TF '계엄가담' 조사 끝…\"취합해 후속조치\"",
+        "link": "https://www.yna.co.kr/view/AKR20260116155700001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-01-16 18:58:09",
+        "description": "(서울=연합뉴스) 이상현 기자 = 12·3 비상계엄 관련 공직자·군인 등의 불법 행위 가담 여부를 확인하기 위한 헌법존중 정부혁신 태스크포스(T...",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "사법/의혹",
+        "is_representative": false,
+        "related_full_sources": []
+      },
+      {
+        "title": "국힘, 자당 빠진 李대통령·여야 간담회에 \"입법독주 합리화\"",
+        "link": "https://www.yna.co.kr/view/AKR20260116127800001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-01-16 17:00:33",
+        "description": "(서울=연합뉴스) 김연정 기자 = 국민의힘은 16일 자당이 빠진 채 진행된 이재명 대통령과 여야 지도부 간 오찬 간담회에 대해 &quot;제1야당을 배제...",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "당내 정국",
+        "is_representative": false,
+        "related_full_sources": []
+      },
+      {
+        "title": "李대통령, 21일 신년 기자회견…\"대전환·대도약 주제\"",
+        "link": "https://www.yna.co.kr/view/AKR20260116129000001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-01-16 16:30:35",
+        "description": "(서울=연합뉴스) 설승은 기자 = 이재명 대통령은 오는 21일 오전 청와대 영빈관에서 신년 기자회견을 한다고 이규연 청와대 홍보소통수석이 16일...",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "정상/외교",
+        "is_representative": true,
+        "related_full_sources": [
+          {
+            "source": "조선일보-정치",
+            "title": "李 대통령, 21일 신년 기자회견",
+            "link": "https://www.chosun.com/politics/politics_general/2026/01/16/27RUFERWARDFPE4CUJNPKFJ4I4/"
+          },
+          {
+            "source": "연합뉴스-정치",
+            "title": "[속보] 李대통령, 21일 신년 기자회견…'대전환·대도약' 주제",
+            "link": "https://www.yna.co.kr/view/AKR20260116117000001"
+          }
+        ]
+      },
+      {
+        "title": "징역 5년 선고에 굳은 얼굴, 입술 깨문 尹…법원 앞엔 지지자(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260116112651004",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-01-16 16:44:32",
+        "description": "(서울=연합뉴스) 이영섭 김빛나 이도흔 기자 = 16일 고위공직자범죄수사처(공수처) 체포 방해 등 혐의로 징역 5년을 선고받은 윤석열 전 대통령...",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "사법/의혹",
+        "is_representative": true,
+        "related_full_sources": []
+      },
+      {
+        "title": "통합특별시에 4년 최대 20조원 지원…서울시 준하는 지위 부여(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260116047151001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-01-16 11:00:44",
+        "description": "(서울=연합뉴스) 이상현 설승은 기자 = 광주·전남 및 대전·충남의 행정통합이 추진되는 가운데 정부가 앞으로 만들어질 &apos;통합특별시&apos;(가칭)에 각...",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "지방/행정",
+        "is_representative": true,
+        "related_full_sources": [
+          {
+            "source": "연합뉴스-정치",
+            "title": "통합특별시에 4년 최대 20조원 지원…서울시 준하는 지위 부여",
+            "link": "https://www.yna.co.kr/view/AKR20260116047100001"
+          }
+        ]
+      },
+      {
+        "title": "종합특검법, 與주도로 국회 통과…최장 170일간 17개 의혹 수사",
+        "link": "https://www.yna.co.kr/view/AKR20260116103700001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-01-16 16:19:37",
+        "description": "(서울=연합뉴스) 서혜림 김유아 박재하 기자 = 내란·김건희·채해병 등 3대 특검의 미진한 부분과 새로운 의혹을 수사하기 위한 2차 종합특검법이...",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "입법/정책",
+        "is_representative": true,
+        "related_full_sources": [
+          {
+            "source": "조선일보-정치",
+            "title": "2차 종합특검법, 與 주도로 국회 통과...최장 170일 간 수사 ‘매머드급 특검’",
+            "link": "https://www.chosun.com/politics/politics_general/2026/01/16/FEY2M5DZUREVXNKYEDXKE7XERM/"
+          }
+        ]
+      },
+      {
+        "title": "與, 당 대표 선출 예비경선서도 권리당원 표심 반영 '확대' 추진",
+        "link": "https://www.yna.co.kr/view/AKR20260116128800001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-01-16 16:58:00",
+        "description": "(서울=연합뉴스) 서혜림 안정훈 기자 = 더불어민주당이 당 대표 선출을 위한 예비경선을 할 경우 권리당원의 투표 반영 비율을 대폭 늘리는 방안을...",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "당내 정국",
+        "is_representative": true,
+        "related_full_sources": []
+      },
+      {
+        "title": "[쇼츠] '깃발갈이' 러 유조선 또 나포…美, 3군 동원해 합동작전",
+        "link": "https://www.yna.co.kr/view/AKR20260116127500704",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-01-16 16:29:54",
+        "description": "(서울=연합뉴스) 미국 남부사령부와 해안경비대는 15일(현지시간) 새벽 카리브해에서 베네수엘라의 불법 원유 수출과 연계됐던 유조선을 나포했다고 ...",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "정상/외교",
+        "is_representative": false,
+        "related_full_sources": []
+      },
+      {
+        "title": "金총리, CJ ENM 방문…\"AI 문화 강국으로 방향 잡아야\"",
+        "link": "https://www.yna.co.kr/view/AKR20260116110800001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-01-16 16:22:14",
+        "description": "(서울=연합뉴스) 이상현 기자 = 김민석 국무총리는 16일 경기 파주의 CJ ENM 스튜디오센터를 방문해 콘텐츠 제작 현장을 점검했다.",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "Science/Tech",
+        "is_representative": true,
+        "related_full_sources": []
+      },
+      {
+        "title": "원주시의회, 2026년 공무원 공직선거법 교육 실시",
+        "link": "https://www.yna.co.kr/view/AKR20260116124000062",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-01-16 16:03:41",
+        "description": "(원주=연합뉴스) 임보연 기자 = 원주시의회는 소속 공직자를 대상으로 &apos;2026년 원주시의회 공무원 공직선거법 교육&apos;을 했다고 16일 밝혔다.",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "지방/행정",
+        "is_representative": false,
+        "related_full_sources": []
+      },
+      {
+        "title": "李 대통령, ‘드러머’ 다카이치 총리에 ‘나전칠기 드럼 스틱’ 선물",
+        "link": "https://www.chosun.com/politics/politics_general/2026/01/14/W6NCNG4IP5B63KIDS3YME6AREE/",
+        "source": "조선일보-정치",
+        "published_dt": "2026-01-14 10:19:51",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "정상/외교",
+        "is_representative": true,
+        "related_full_sources": []
+      },
+      {
+        "title": "국힘 윤리위, ‘당게 논란’ 한동훈 ‘제명’ 결정",
+        "link": "https://www.chosun.com/politics/politics_general/2026/01/14/MJD6VGKYPBALTDNMYE3VTRMP6M/",
+        "source": "조선일보-정치",
+        "published_dt": "2026-01-14 02:02:45",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "당내 정국",
+        "is_representative": true,
+        "related_full_sources": []
+      },
+      {
+        "title": "재산 내역은 쏙 빼고, 가족 헌혈 기록 제출한 이혜훈",
+        "link": "https://www.chosun.com/politics/politics_general/2026/01/16/SL722FTTW5ANHEPP2WSWIIDWWQ/",
+        "source": "조선일보-정치",
+        "published_dt": "2026-01-16 00:57:00",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "사법/의혹",
+        "is_representative": true,
+        "related_full_sources": []
+      },
+      {
+        "title": "2차 종합 특검법 본회의 상정... 野, 필리버스터 돌입",
+        "link": "https://www.chosun.com/politics/politics_general/2026/01/15/CXG5GNTD4BCNVFQZIQRXTLDI7E/",
+        "source": "조선일보-정치",
+        "published_dt": "2026-01-15 15:36:46",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "입법/정책",
+        "is_representative": true,
+        "related_full_sources": []
+      },
+      {
+        "title": "[단독] 대전·충남 통합 특별법에 공공기관 이전 우대 담는다",
+        "link": "https://www.chosun.com/politics/assembly/2026/01/14/KOBIRNZJKREU3ANXNXQX5UR2AE/",
+        "source": "조선일보-정치",
+        "published_dt": "2026-01-14 17:29:05",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "지방/행정",
+        "is_representative": true,
+        "related_full_sources": []
+      },
+      {
+        "title": "美 전쟁부, 'AI 퍼스트' 공식 선언…\"30일 내 최신 모델 배치\"",
+        "link": "https://www.hankyung.com/article/202601164330i",
+        "source": "한국경제-IT",
+        "published_dt": "2026-01-16 09:12:07",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "Science/Tech",
+        "is_representative": true,
+        "related_full_sources": []
+      },
+      {
+        "title": "정부, ‘이재명 피습 사건’ 테러로 지정한다… 테러방지법 시행 이후 처음",
+        "link": "https://www.chosun.com/politics/goverment/2026/01/14/PBGKMSUPXRFMRLRUAIYTBMAT2E/",
+        "source": "조선일보-정치",
+        "published_dt": "2026-01-14 18:39:34",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "사법/의혹",
+        "is_representative": false,
+        "related_full_sources": []
+      },
+      {
+        "title": "감사원 “국토부, 주택 통계 오류 알고도 3개월간 숨겨”",
+        "link": "https://www.chosun.com/politics/goverment/2026/01/15/O4JEMJKNC5CN7PF2MAUDD5HAZU/",
+        "source": "조선일보-정치",
+        "published_dt": "2026-01-15 16:21:27",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "입법/정책",
+        "is_representative": false,
+        "related_full_sources": [
+          {
+            "source": "조선일보-경제",
+            "title": "감사원 “국토부, 주택 통계 오류 알고도 3개월간 숨겨”",
+            "link": "https://www.chosun.com/politics/goverment/2026/01/15/O4JEMJKNC5CN7PF2MAUDD5HAZU/"
+          }
+        ]
+      },
+      {
+        "title": "“北, 과거 무인기 보내… 그것도 정전협정 위반”",
+        "link": "https://www.chosun.com/politics/diplomacy-defense/2026/01/15/UCKLRXG52BGTLLQBOK6ZS7GPZI/",
+        "source": "조선일보-정치",
+        "published_dt": "2026-01-15 00:55:00",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "정상/외교",
+        "is_representative": false,
+        "related_full_sources": []
+      },
+      {
+        "title": "金총리 “충청·전북 초미세먼지 비상저감조치 철저히 시행하라”",
+        "link": "https://www.chosun.com/politics/goverment/2026/01/15/DMWPKJTXDZENFJ5NAGRCOV5QF4/",
+        "source": "조선일보-정치",
+        "published_dt": "2026-01-15 18:36:29",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "지방/행정",
+        "is_representative": false,
+        "related_full_sources": []
+      }
+    ],
+    "경제/거시": [
+      {
+        "title": "코스피 사상 첫 4800선 돌파…시가총액 4000조원 시대 개막 [HK영상]",
+        "link": "https://www.hankyung.com/article/202601165784i",
+        "source": "한국경제-기업",
+        "published_dt": "2026-01-16 17:11:18",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "구윤철 부총리 “원화 절하 만드는 쏠림 현상, 용인 않겠다”",
+        "link": "https://www.chosun.com/economy/economy_general/2026/01/16/GVRDEMTFGVSDGMZWGJTDMZBZG4/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-01-16 18:01:30",
+        "description": "구윤철 부총리 겸 재정경제부 장관은 16일 “원화 가치의 과도한 절하로 이어질 수 있는 시장 쏠림 현상을 용인하지 않겠다”고 밝혔다. 구 부총리는 이날 로이터 인터뷰에서 “외환시장에서 원화 평가절하 압력이 우리의 예상보다 크다”며 “당국의 원화 가치 방어 의지를 의심하지 말라”고 말했다. 이어 “시장 내 쏠림 현상이 원화 약세를 부추길 수 있는 만큼, 최",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "[다음주 경제] 한국 경제, 작년 성장률 1% 넘었나",
+        "link": "https://www.yna.co.kr/view/AKR20260117021000002",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-01-17 09:26:23",
+        "description": "(서울=연합뉴스) 신호경 이준서 기자 = 다음 주(19∼23일)에는 지난해 전체와 4분기(10∼12월) 우리나라 경제 성적표가 나오고, 국제통화...",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "2026년 보험료·연금 폭탄…내 통장에서 ‘이만큼’ 더 빠진다",
+        "link": "https://www.chosun.com/economy/startup_story/2026/01/16/Q6T66IKLYZHQ3EQ5ZCI2HAOZ5M/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-01-17 05:30:00",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "가스공사, 도시가스 요금 경감 대신 신청…1만7729가구 혜택",
+        "link": "https://www.chosun.com/economy/industry-company/2026/01/16/MRQTINLCHA3WENRXHFRDSODCMY/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-01-16 18:28:25",
+        "description": "한국가스공사는 ‘도시가스 요금 경감 대신신청 제도’를 통해 지난해 총 1만7729가구가 요금 감면 혜택을 받았다고 16일 밝혔다. 가스공사가 지난해 7월부터 시작한 이 제도는 복잡한 신청 절차나 정보 부족으로 요금 경감 혜택을 받지 못하고 있는 취약계층을 공사가 직접 발굴하고 본인 동의를 거쳐 도시가스회사에 요금 경감을 대신 신청해주는 서비스다.  지난해",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "[정책 인사이트] ‘실버 구직자’ 폭증… 노인 일자리 역대 최대로 늘려도 못 따라가",
+        "link": "https://www.chosun.com/economy/economy_general/2026/01/17/GI3WEN3CGNQTEY3GMNRDSOBWMU/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-01-17 06:00:00",
+        "description": "경남에 살고 있는 김모(여·80)씨는 올해 ‘노인 일자리’에 지원했다가 탈락했다. 60세 이상을 위한 공공 근로인 노인 일자리에 참여하면 한달에 40만원 정도를 받을 수 있다. 김씨는 작년과 재작년에 초등학교에서 급식 배분, 낙엽 정돈을 했다고 한다. 그는 “올해도 노인 일자리를 달라고 시니어클럽에 가서 항의하고 왔다”고 말했다. 올해 정부와 지자체는 노인",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "뉴욕증시, 혼조세 출발… 기술주 약세",
+        "link": "https://www.chosun.com/economy/stock-finance/2026/01/17/G4YDMM3DGBTDKNDGMZSDOMJYG4/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-01-17 01:04:33",
+        "description": "미국 뉴욕증시 3대 주가지수가 하락세로 출발했다. 16일(현지시각) 오전 11시 1분 뉴욕증권거래소에서 다우존스30산업평균지수는 전장보다 68.82포인트(0.14%) 내린 4만9373.62을 기록했다. 스탠더드앤드푸어스(S&amp;P)500지수는 전장 대비 2.93포인트(0.042%) 하락한 6941.54, 나스닥종합지수는 전장보다 15.49포인트(0.0",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "반토막 났던 주식, 한 달 만에 50% 뛰더니…개미들 '두근두근' [윤현주의 主食이 주식]",
+        "link": "https://www.hankyung.com/article/202511279840i",
+        "source": "한국경제-기업",
+        "published_dt": "2026-01-17 07:00:16",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "[마켓뷰] 코스피, 이번주 4600·4700·4800 차례로 깨부쉈다",
+        "link": "https://www.chosun.com/economy/stock-finance/2026/01/16/HEYTQYZWHA2DOYJQGE3WCZTCGM/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-01-16 16:20:35",
+        "description": "코스피가 또다시 사상 최고치를 경신하며 4800선을 넘어섰다. 이번 한 주 동안에만 4600, 4700, 4800포인트를 차례로 넘는 대기록을 썼다. 새해 들어 코스피 지수는 11거래일 연속 상승해 역대 최장 상승 기록인 ’13거래일’에 근접했다. 이날 반도체와 원자력 업종이 증시 상승을 주도했다. 코스닥도 상승 마감했다. 장 초반 하락 출발했지만, JP모",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "CPI 호조…비트코인 9만5000달러 안착·이더리움은 3300달러 돌파 [이수현의 코인레이더]",
+        "link": "https://www.hankyung.com/article/202601164989g",
+        "source": "한국경제-기업",
+        "published_dt": "2026-01-16 15:38:01",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "작년 개인정보 처리방침 점수 71점…삼성물산 ‘홈닉’ 최우수",
+        "link": "https://www.chosun.com/economy/tech_it/2026/01/16/MZTDCYZXHBRTKY3FGBSDIOJZGQ/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-01-16 16:30:27",
+        "description": "개인정보보호위원회는 국민 생활과 밀접한 7개 분야를 대상으로 진행한 ’2025년 개인정보 처리방침 평가’ 결과, 평균 점수가 71점으로 전년(57.9점)보다 크게 올랐다고 16일 밝혔다. 개인정보 처리방침 평가제는 개인정보처리자가 수립·공개한 처리방침을 점검해 개인정보 처리의 투명성과 책임성을 강화하기 위한 제도로, 2024년 도입됐다. 올해 평가는 커넥",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "부실채권 털어내도… 카드사 장기 연체 금액 역대 최대",
+        "link": "https://www.chosun.com/economy/stock-finance/2026/01/16/GM4GIMZQMYZDKMDDGM4GGNZTGM/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-01-16 15:57:09",
+        "description": "카드사가 내준 대출 중 6개월 이상 연체된 금액이 관련 통계를 확인할 수 있는 2003년 이후 가장 많은 것으로 나타났다. 카드사들이 부실 채권 매각에 속도를 내고 있지만, 새롭게 더 많은 부실이 쌓이고 있다. 카드사가 결제 수수료 부문에서 수익을 내지 못하자 카드론 등 대출 규모를 확대한 영향이다. 16일 금융감독원에 따르면, 작년 9월 말 기준 전업 카",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "원·달러 환율, 3.9원 오른 1473.6원 마감… 사라진 베선트 효과",
+        "link": "https://www.chosun.com/economy/economy_general/2026/01/16/HEZWCMJWGQ4WEYRZGU3DGMZQMQ/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-01-16 15:32:05",
+        "description": "16일 미국 달러 대비 원화 환율(원·달러 환율)은 전날보다 3.9원 상승한 1473.6원에 거래를 마쳤다. 스콧 베선트 미국 재무부 장관의 구두 개입의 효과로 주춤했던 원·달러 환율은 하루 만에 상승으로 전환됐다. 이날 서울 외환시장에서 원·달러 환율은 전날보다 0.3원 오른 1470원에 거래를 시작했다. 장 시작 10분 만에 1476.3원까지 치솟은",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "20만원대 아이폰, 혹해서 샀더니…'발칵' 뒤집힌 이유",
+        "link": "https://www.hankyung.com/article/202601165263g",
+        "source": "한국경제-IT",
+        "published_dt": "2026-01-16 14:35:27",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "쏟아내던 주식 물량이 사라졌다…'코리아 디스카운트' 탈출 신호 나왔다",
+        "link": "https://www.hankyung.com/article/202601165292i",
+        "source": "한국경제-기업",
+        "published_dt": "2026-01-16 14:27:03",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "김재철 동원그룹 명예회장, KAIST에 AI 인재양성 59억원 추가 기부 약정...총 603억원으로 늘어",
+        "link": "https://www.chosun.com/economy/science/2026/01/16/4O633OST6BH23NDHHZN3SKZVDY/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-01-16 14:24:19",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "올해 세계 AI 지출 규모 3736조원",
+        "link": "https://www.chosun.com/economy/tech_it/2026/01/16/LHSWUV2RZZG6VMHOPA6G7Q3SME/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-01-16 14:23:41",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "미국 이란 공격 우려 완화에…WTI 4% 급락 [오늘의 유가]",
+        "link": "https://www.hankyung.com/article/202601164383i",
+        "source": "한국경제-기업",
+        "published_dt": "2026-01-16 10:02:09",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "美와 中 블록으로 쪼개지는 세계...누가 우위 점할까",
+        "link": "https://www.chosun.com/economy/weeklybiz/2026/01/15/ZC6ZNMHQS5HFXKFUPV6WKT67HM/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-01-15 17:00:00",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      }
+    ],
+    "기업/산업": [
+      {
+        "title": "‘반도체 무관세’ 대만, 美에 736조원 약속… 삼성-SK, 투자확대 부담",
+        "link": "https://www.donga.com/news/Economy/article/all/20260116/133175661/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-01-17 01:40:00",
+        "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/01/16/133175749.1.jpg\" vspace=\"10\" />대만이 총 5000억 달러(약 736조 원) 규모의 천문학적인 대미(對美) 투자·보증 패키지를 내걸고 미국으로부터 반도체 품목 관세 면제를 약속받았다. “미국에 투자하는 만큼 관세 혜택을 주겠다”는 도널드 트럼프 행정부의 반도체 관세 ‘가이드라인’이 드러난 것으로, 향후 한국 기업들에도 미국 투자 확대 압박이 커질 수 있다는 우려가 제기된다. 재계 관계자는 “조만간 진행될 한국과 미국의 관세 협상에서 반도체 생산 기지 증설이 핵심 의제로 다뤄질 가능성이 높다”고 내다봤다.● “공장 지어야 관세 면제, 아니면 관세 100%” 엄포트럼프 행정부는 15일(현지 시간) 대만과의 무역 합의를 통해 반도체 관세 우대를 ‘미국 내 신규 생산 시설’과 연동하는 구체적인 구조를 공개했다. 미 상무부에 따르면 미국 내 신규 생산 시설을 구축 중인 대만 반도체 기업은 ‘건설이 진행 중일 때’ 생산능력의 최대 2.5배 물량까지 관세를 면제받을 수 있다. 웨이퍼 100만 개를 생산하는 공장을 지으면 건",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "반도체",
+        "related_full_sources": []
+      },
+      {
+        "title": "엔비디아 AI 칩 공급업체, 中 통관 규제에 생산 멈춰",
+        "link": "https://www.chosun.com/economy/tech_it/2026/01/17/MNSWMMJYMJSTQOBTGFTDGYJUHE/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-01-17 17:58:05",
+        "description": "엔비디아 인공지능(AI) 칩 H200의 부품 공급업체들이 생산을 일시 중단한 것으로 알려졌다. 파이낸셜타임스(FT)는 16일(현지 시각) 소식통을 인용해 인쇄회로기판(PCB) 등 H200 핵심 부품을 공급하는 업체들이 중국의 통관 규제 여파로 생산을 중단했다고 전했다. 앞서 중국 세관은 지난 7일 선전의 물류업체들을 소집해 H200에 대한 통관 신청을 접",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "반도체",
+        "related_full_sources": []
+      },
+      {
+        "title": "삼성전자, 올해 자산가 '순매수 1위'…부자들 주식 계좌 보니",
+        "link": "https://www.hankyung.com/article/202601166131i",
+        "source": "한국경제-기업",
+        "published_dt": "2026-01-17 07:00:04",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "반도체",
+        "related_full_sources": []
+      },
+      {
+        "title": "현대차, 테슬라 로봇 총괄한 ‘머스크 오른팔’ 영입",
+        "link": "https://www.chosun.com/economy/industry-company/2026/01/17/MI6DW2NGLVAFXLDN6E3P4U3BYU/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-01-17 00:53:00",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "AI/로봇",
+        "related_full_sources": []
+      },
+      {
+        "title": "'AI 지각생' 애플, 구글·오픈AI와 전략적 협업 나선다",
+        "link": "https://www.hankyung.com/article/2026011657287",
+        "source": "한국경제-IT",
+        "published_dt": "2026-01-16 18:06:35",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "AI/로봇",
+        "related_full_sources": []
+      },
+      {
+        "title": "[인터뷰] 로봇 사진사로 CES 2026 ‘최고 혁신상’… 이재영 스튜디오랩 COO “美서 성과 낼 것”",
+        "link": "https://www.chosun.com/economy/tech_it/2026/01/17/GA3WGN3EMM4TEZRVGIZGINTCGQ/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-01-17 06:00:01",
+        "description": "“CES 2026 참가로 미국·일본 시장 진출의 첫 단추를 끼우려 합니다. 작년까지 한국 시장에서 서비스를 확대하는 데 주력했다면, 올해부터는 세계 시장에서 성과를 내는 게 목표입니다.” 스튜디오랩 공동 창업자인 이재영 최고운영책임자(COO)는 8일(현지시각) 미국 라스베이거스에서 열린 세계 최대 IT·가전 전시회 ‘CES 2026’ 현장에서 조선비즈와",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "AI/로봇",
+        "related_full_sources": []
+      },
+      {
+        "title": "살아나던 LG엔솔도 털썩… 배터리 3사, 美 세액공제 폐지·유럽 전기차 속도 조절에 ‘시름’",
+        "link": "https://www.chosun.com/economy/industry-company/2026/01/17/GEZTOMLGMUYGENDBGI3TKYRQGQ/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-01-17 06:00:00",
+        "description": "LG에너지솔루션·삼성SDI·SK온 등 국내 배터리 3사의 실적이 지난해 4분기에 이어 올해 들어서도 부진한 흐름을 이어갈 것으로 전망된다. 미국이 지난해 9월 전기차에 대한 세액공제를 폐지한 데 이어 유럽도 최근 전기차 의무화 정책에 대한 속도 조절에 나서면서 배터리 제조사들이 직격탄을 맞게 됐기 때문이다.  17일 배터리 업계에 따르면 LG에너지솔루션은",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "배터리/에너지",
+        "related_full_sources": []
+      },
+      {
+        "title": "한국남부발전, 가축분뇨 고체연료로 탄소중립과 지역경제 ‘두마리 토끼’ 잡는다",
+        "link": "https://www.mk.co.kr/news/realestate/11935411",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-01-16 17:24:36",
+        "description": "한국남부발전은 16일 경남 하동군 하동빛드림본부에서 송미령 농림축산식품부 장관이 참석한 가운데 ‘가축분뇨 고체연료 활성화 간담회’를 개최하고, 바이오매스 발전 확대 및 전소 발전소..",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "배터리/에너지",
+        "related_full_sources": []
+      },
+      {
+        "title": "삼성重, 축구장 4배 크기 부유식 LNG 생산설비 진수",
+        "link": "https://www.chosun.com/economy/industry-company/2026/01/16/G5RGMZLGMQ3DIMDDGIZGKMLEMU/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-01-16 17:00:00",
+        "description": "삼성중공업은 16일 경남 거제조선소에서 이탈리아 국영 에너지 기업인 ENI가 발주한 부유식 LNG 생산설비(FLNG) ‘코랄 노르트’의 진수식을 열었다고 밝혔다. 이날 진수식에는 최성안 삼성중공업 부회장과 에스테바오 팔레 모잠비크 광물자원 및 에너지부 장관, 귀도 브루스코 ENI 최고운영책임자(COO), 야마다 쇼지 JGC 대표 등 관계자 80여명이 참석",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "조선해양",
+        "related_full_sources": []
+      },
+      {
+        "title": "중국서 힘 못 쓰는 포르쉐… 4년 새 판매량 반토막",
+        "link": "https://www.chosun.com/economy/industry-company/2026/01/16/GFRWINBXHFTDCNDEHBRTSYJZGI/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-01-16 22:59:09",
+        "description": "독일 스포츠카 기업 포르쉐가 중국 시장에서 부진을 면치 못하고 있다. 지난 4년 사이 판매량이 반토막이 났다. 16일 로이터통신 등에 따르면 포르쉐의 지난해 글로벌 판매량은 27만9449대로 집계됐다. 전년(31만718대) 대비 10% 감소했다. 중국 시장에서의 부진이 두드러졌다. 포르쉐는 지난해 중국에서 4만1938대를 판매해 2024년 판매량인 5만6",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "자동차",
+        "related_full_sources": []
+      },
+      {
+        "title": "좌절된 '모빌리티 혁신'…버스대란 불렀다",
+        "link": "https://www.hankyung.com/article/2026011659241",
+        "source": "한국경제-IT",
+        "published_dt": "2026-01-16 17:51:46",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "자동차",
+        "related_full_sources": []
+      },
+      {
+        "title": "\"빅파마 10곳과 기술수출 논의\"…알테오젠 주가 10% 치솟았다",
+        "link": "https://www.hankyung.com/article/2026011658261",
+        "source": "한국경제-IT",
+        "published_dt": "2026-01-16 17:18:16",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "바이오/제약",
+        "related_full_sources": []
+      },
+      {
+        "title": "법원, ‘MBK 회생 사전기획’ 논리에 제동... 금감원 제재심도 입증 부담 커져",
+        "link": "https://www.chosun.com/economy/stock-finance/2026/01/16/MJRDIYJSMVTDEMJQHE3GMZLFGM/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-01-16 17:30:00",
+        "description": "이 기사는 2026년 1월 16일 17시 08분 조선비즈 머니무브(MM) 사이트에 표출됐습니다. 김병주 회장 등 MBK파트너스 경영진에 대한 구속영장이 기각된 가운데, 재판부가 검찰 주장 중에서도 특히 “사기 행위를 약 1년 전부터 준비했다”는 부분을 받아들이기 어렵다고 본 것으로 파악됐다. 토지 자산 재평가와 공시 누락 등 2024년에 이뤄진 조치들이",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "금융",
+        "related_full_sources": []
+      },
+      {
+        "title": "[비즈톡톡] 삼성디스플레이 ‘드라이브’ vs LGD ‘신중론’… 8.6세대 IT OLED ‘온도차’ 배경은",
+        "link": "https://www.chosun.com/economy/tech_it/2026/01/16/GRRWKYJRGFSDCNZSG43DEZDGMU/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-01-16 17:40:03",
+        "description": "“매출·제품 규모 측면에서 8.6세대 유기발광다이오드(OLED) 도입으로 올해 정보기술(IT)용 패널 분야 사업이 작년 대비 20~30% 성장할 것으로 전망된다.”(이청 삼성디스플레이 사장) “아직 8.6세대 IT OLED 패널 생산 시설 투자로 수익을 만들 수 있는 타이밍이 아니다.”(정철동 LG디스플레이 사장) 삼성디스플레이·LG디스플레이 수장은 이달",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "통신/IT",
+        "related_full_sources": []
+      },
+      {
+        "title": "고려아연, 최윤범 회장 직속 ‘크루서블 사업부’ 신설… 美 제련소 건설 박차",
+        "link": "https://www.chosun.com/economy/industry-company/2026/01/16/GUZTAMBQMRQWMZDFMYZTKYRRMU/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-01-16 17:54:24",
+        "description": "고려아연이 미국 테네시주 클락스빌 제련소 건설을 위한 사업부를 신설하고 관련 임원 인사를 단행했다. 미국 사업을 위한 유상증자를 완료하면서 제련소 건설에 박차를 가하는 모양새다.  16일 고려아연에 따르면 회사는 최근 미국 제련소 건설 및 운영을 위해 최윤범 회장 직속의 크루서블 사업부를 신설하고, 미국 제련소 프로젝트를 이끌기 위한 사장급 인사를 단행했다",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "화학/소재",
+        "related_full_sources": []
+      },
+      {
+        "title": "20분마다 北 감시할 초소형 위성 사업자는… 한화·KAI 경쟁",
+        "link": "https://www.chosun.com/economy/industry-company/2026/01/17/GNSGCYZTGIZDQNTCGAZDAZDGMY/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-01-17 06:02:00",
+        "description": "한반도를 20~30분 단위로 관찰하는 초소형 합성개구레이더(SAR) 위성(150㎏ 미만)을 제작할 사업자 선정을 앞두고 방산업계가 주목하고 있다. 이 사업에는 지난 30년간 군의 위성을 개발했던 만큼 주도권을 놓지 않으려는 한국항공우주산업(KAI)과 지난해 문을 연 제주우주센터를 중심으로 우주 산업을 더욱 확장하려는 한화시스템이 도전장을 던진 상태다. 민간",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "기타산업",
+        "related_full_sources": []
+      },
+      {
+        "title": "대우건설, 전남에 500MW급 초대형 AI 데이터센터 조성",
+        "link": "https://www.chosun.com/economy/real_estate/2026/01/16/ME3WGZRXGI2WKYZVGRRDQYJXMM/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-01-16 16:14:10",
+        "description": "대우건설이 전라남도와 함께 총 수전용량 500MW 규모의 초대형 AI 데이터센터 조성에 나선다. 대우건설은 16일 전남도청에서 전라남도, 장성군, 강진군, ㈜베네포스, KT, 탑솔라 등 11개 민관 기관과 ‘AI 데이터센터 구축 업무협약’(MOU)을 체결했다고 밝혔다. 협약에 따라 전남 장성군과 강진군 일대에 각각 200MW, 300MW 규모의 AI 데이",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "AI/로봇",
+        "related_full_sources": [
+          {
+            "source": "매일경제-부동산",
+            "title": "대우건설, 전남에 500MW급 초대형 거점 조성 추진…“AI 데이터센터 사업 확장”",
+            "link": "https://www.mk.co.kr/news/realestate/11935268"
+          }
+        ]
+      },
+      {
+        "title": "삼성전자, 반도체 사업부문 성과급 연봉의 47%… 모바일은 50%",
+        "link": "https://www.chosun.com/economy/tech_it/2026/01/16/HA4DMZJXGYZTSNRTGRTDCMDFGU/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-01-16 15:13:10",
+        "description": "삼성전자가 사업부별 성과급을 확정했다. 반도체 사업을 담당하는 디바이스솔루션(DS) 부문이 올해 성과급으로 연봉의 47%를 받게 됐다. 스마트폰 사업을 담당하는 모바일경험(MX) 사업부는 50%의 지급률이 책정됐다. 16일 삼성전자는 오후 사내에 사업부별 2025년도분 초과이익성과급(OPI) 지급률을 확정해 공지했다. 지급일은 오는 30일이다. 매년 한",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "반도체",
+        "related_full_sources": []
+      },
+      {
+        "title": "테슬라 AI로봇-자율주행 주도 ‘머스크 최측근’, 현대차 합류했다",
+        "link": "https://www.donga.com/news/Economy/article/all/20260116/133171400/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-01-16 14:51:00",
+        "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/01/16/133171402.1.jpg\" vspace=\"10\" />테슬라의 CEO 일론 머스크의 ‘최측근’으로 꼽히던 밀란 코바치 전 테슬라 부사장(사진)이 현대차그룹에 합류한다. 현대차그룹은 테슬라에서 인간형(휴머노이드) 로봇 ‘옵티머스’ 총괄 책임자였던 그를 그룹의 로봇전문기업 보스턴다이내믹스의 사외 이사로 선임했다고 16일 밝혔다.  2016년 테슬라에 합류한 코바치 이사는 테슬라에서 이 회사의 핵심 사업분야인 자율주행(오토파일럿)과 AI 휴머노이드 옵티머스 기술력을 크게 끌어올린 인물로 평가받는다. 머스크도 코바치 이사가 테슬라 퇴사를 결정했을 당시 끝까지 만류했던 것으로 전해진다. 퇴사가 결정된 후에는 직접 X(옛 트위터)에 “지난 기간 테슬라에 기여해 준 데 대해 감사하며, 함께 일할 수 있어 영광이었다”는 메시지를 올리기도 했다.  코바치 신임 이사는 특히 기술 개발의 속도를 높이고, 시험 및 검증 수준의 기술을 실제 현장에서 활용할 수 있도록 상용화하는 업무에 특화된 인물로 평가된다. 이 같은 이유로 업계에서는 자율주행과 A",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "자동차",
+        "related_full_sources": []
+      },
+      {
+        "title": "\"다음주 빅딜\" 예고…알테오젠, 장중 12% 급등",
+        "link": "https://www.hankyung.com/article/202601165236i",
+        "source": "한국경제-기업",
+        "published_dt": "2026-01-16 14:30:32",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "바이오/제약",
+        "related_full_sources": []
+      },
+      {
+        "title": "토스페이먼츠, 중국 자본과 결별",
+        "link": "https://www.chosun.com/economy/tech_it/2026/01/16/SZ7H7U26SRHBDM4HNGCGOZR77U/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-01-16 16:22:40",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "금융",
+        "related_full_sources": []
+      },
+      {
+        "title": "'카카오' 김범수, 2년 만의 깜짝 등장…돌연 공개행보 이유는",
+        "link": "https://www.hankyung.com/article/202601165062i",
+        "source": "한국경제-IT",
+        "published_dt": "2026-01-16 12:37:51",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "통신/IT",
+        "related_full_sources": []
+      },
+      {
+        "title": "‘질적 성장’ 강조한 신동빈 회장… 롯데 유통 ‘군살 빼기’ 탄력",
+        "link": "https://www.chosun.com/economy/market_trend/2026/01/16/G5RGEZBQGEYTGMLBGRQTAOLDMQ/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-01-16 15:00:00",
+        "description": "신동빈 롯데 회장이 ‘질적 성장 중심으로의 경영 방침 대전환’을 강조하며 주요 계열사 대표진에게 수익성 중심 지표 관리를 주문했다. 이미 롯데그룹은 최근 몇 년간 유통 부문에서 ‘몸집 키우기’보다 ‘남기는 장사’를 중시해 왔지만, 신 회장의 강한 의지가 더해지며 수익성 개선 작업이 한층 탄력받을 것으로 보인다. 다만 비용 절감은 어디까지나 불황기 고육지책이",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "유통/소매",
+        "related_full_sources": []
+      },
+      {
+        "title": "현대건설, ‘취업완성 아카데미’ 현장 맞춤형 10개 직무 기술교육생 모집",
+        "link": "https://www.mk.co.kr/news/realestate/11935241",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-01-16 15:13:23",
+        "description": "국내 건설사 유일 건설 전문인력 양성기관 고용노동부 ‘5년 인증 우수훈련기관’ 선정 디지털·융합형 건설 인재 양성현대건설 기술교육원이 미래 건설 산업을 이끌어갈 혁신 인재 육성을 ..",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "건설",
+        "related_full_sources": []
+      },
+      {
+        "title": "효성티앤씨, 중국 경쟁사 파산 위기에 주가 급등세",
+        "link": "https://www.hankyung.com/article/2026011645266",
+        "source": "한국경제-기업",
+        "published_dt": "2026-01-16 10:04:10",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "화학/素材",
+        "related_full_sources": []
+      },
+      {
+        "title": "'국가대표 AI' 평가…네이버·NC 탈락",
+        "link": "https://www.hankyung.com/article/2026011535491",
+        "source": "한국경제-IT",
+        "published_dt": "2026-01-15 17:54:30",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "AI/로봇",
+        "related_full_sources": []
+      },
+      {
+        "title": "\"알파폴드 다음은 '가상세포'…바이오AI 시장 2막 열린다\" [최영총의 총명한 테크날리지]",
+        "link": "https://www.hankyung.com/article/202601151579i",
+        "source": "한국경제-IT",
+        "published_dt": "2026-01-16 08:19:46",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "바이오/제약",
+        "related_full_sources": []
+      },
+      {
+        "title": "삼성물산, 아파트 세대 현관까지 음식배달로봇 확장 운영",
+        "link": "https://www.mk.co.kr/news/realestate/11933553",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-01-15 09:02:14",
+        "description": "삼성물산 건설부문(이하 삼성물산)은 배달플랫폼 ‘요기요’와 연계해 아파트 세대 현관까지 음식을 배달하는 자율주행 배달로봇 혁신 서비스를 확장 운영한다고 15일 밝혔다. 삼성물산은 ..",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "건설",
+        "related_full_sources": []
+      },
+      {
+        "title": "'낙하산 사외이사 공화국' KT…셀프 연임 카르텔, 정치적 편향성 논란까지",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/01/09/2026010903338.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-01-12 06:00:00",
+        "description": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"3\" width=\"100%\"><tr><td><img border=\"0\" src=\"https://image.chosun.com/sitedata/thumbnail/202601/09/2026010903333_0_thumb.jpg\" /></td></tr></table>\n\t[사장 선임 절차 하자 논란 KT 집중탐구] ② 정치권 낙하산 논란 사외이사\n \n사외이사 셀프 연임 논란\n자격 상실 사외이사, 대표 선임 과정 참여\n전직 이사 “이사회 전원 사퇴해야”\n \n \n[땅집고] 박윤영 KT 신임 대표이사 선임을 둘러싼 절차 논란의 뿌리는 사외이사 중심으로 굳어진 이사회 구조 자체에 있다는 지적이 커지고 있다. 정관과 상법 취지를 벗어난 셀프 연임과 정치권 인사 중심의 사외이사 구성이 누적되면서 대표이사 선임 과정 전반에 법적 흠결로 이어졌다는 분석이다.\n \nKT 이사회는 전체 10명 가운데 사외이사가 8명으...",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "통신/IT",
+        "related_full_sources": []
+      },
+      {
+        "title": "연체율 낮췄지만 응급처치에 불과…고영철 신협 새 수장 시험대",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/01/12/2026011202903.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-01-13 06:00:00",
+        "description": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"3\" width=\"100%\"><tr><td><img border=\"0\" src=\"https://image.chosun.com/sitedata/thumbnail/202601/12/2026011202901_0_thumb.jpg\" /></td></tr></table>\n\t고영철 이사장, 새 신협중앙회장 당선…3월1일부터 임기\n연체율 8%대서 4%대 낮췄으나, ‘흑자전환’ 등 숙제 여전\n  \n[땅집고] 자산 157조원 규모에 달하면서도 건전성 쇼크를 겪는 신협의 새 수장으로 고영철 광주문화신협 이사장이 선출됐다. 작년 말 부실채권(NPL)을 4조원 넘게 털며 건선성 관리에 나섰으나, 여전히 흑자 전환 등 숙제가 남아있어 신임 회장이 감당할 수 있을지에 금융권의 시선이 쏠린다.\n \n12일 신협중앙회는 대전 신협중앙연수원에서 열린 제34대 회장 선거에서 고영철 당선인이 총 784표 중 301표(득표율 3...",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "금융",
+        "related_full_sources": []
+      },
+      {
+        "title": "일본의 실리콘밸리를 산골로 왜곡한 삼성전자 반도체 호남 이전론",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/01/13/2026011303005.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-01-14 06:00:00",
+        "description": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"3\" width=\"100%\"><tr><td><img border=\"0\" src=\"https://image.chosun.com/sitedata/thumbnail/202601/13/2026011302999_0_thumb.jpg\" /></td></tr></table>\n\t구마모토 TSMC공장이 산골에 있다는 황당한 주장\n실제로는 소니 등 반도체 생태계 형성된 ‘실리콘 아일랜드’\n원전과 풍부한 수자원, 19세기말부터 시작된 산업벨트\n \n \n \n[땅집고] 최근 용인 반도체 클러스터의 호남이전론을 놓고 논쟁이 벌어지고 있다. 용인 반도체 클러스터는 삼성전자와 SK하이닉스가 경기 용인시 처인구 일대에 조성 중인 세계 최대 규모 반도체 단지다. 사업비만 총 960조원이다. 이 중 삼성전자가 짓는 ‘첨단 시스템 반도체 국가산업단지를 두고 호남 정치권에서 전북 새만금으로 이전해야 한다는 주장이 나왔다. 전력을 ...",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "반도체",
+        "related_full_sources": []
+      },
+      {
+        "title": "\"월 500벌면 2030도 간병하죠\" 요양업계 '쿠팡맨' 인센티브가 뭐길래",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/01/12/2026011203460.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-01-14 17:15:57",
+        "description": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"3\" width=\"100%\"><tr><td><img border=\"0\" src=\"https://image.chosun.com/sitedata/thumbnail/202601/12/2026011203458_0_thumb.jpg\" /></td></tr></table>\n\t매년 노인 70만명 증가…간병 인력은 이미 한계\n인센티브 붙이면 2030도 간병시장 들어온다\n \n \n[땅집고] “앞으로 매년 70만명씩 노인 인구가 늘면 간병 인력이 엄청나게 부족해질 것입니다. 개인적으로 요양업계에도 ‘쿠팡맨’ 제도가 생긴다면 이런 인력 수급난을 해결할 수 있다고 생각합니다.”\n \n국내 간병 시장에 적신호가 켜졌다. 이미 대부분 인력이 중년 여성·외국인 중심인데, 이들이 고령에 접어들면 사실상 인력 부재 현상이 불가피하다. 지난해 초고령화 시대에 진입한 한국은 매년 60~70만명씩 노인 인구가 증가하는 추세이나, ...",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "기타산업",
+        "related_full_sources": []
+      }
+    ],
+    "부동산": [
+      {
+        "title": "“문재인 정부 시기 기록도 깼다”…서울 아파트값, 작년 9% 가까이 뛰어",
+        "link": "https://www.mk.co.kr/news/realestate/11935826",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-01-17 14:28:38",
+        "description": "노무현 정부 시기 이후 ‘최대’ 전국 아파트값 상승 1%대 그쳐 송파·용산 등 주요 지역 견인지난해 서울 아파트값이 관련 통계 작성 이후 가장 가파른 오름세를 기록했다. 정부의 삼..",
+        "category": "domestic",
+        "priority_score": 5,
+        "related_full_sources": []
+      },
+      {
+        "title": "가덕도신공항 공사에 대우건설 컨소시엄 참여",
+        "link": "https://www.chosun.com/economy/real_estate/2026/01/16/MU3GGOBUHE2TMOLEMFQTINRQG4/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-01-16 18:08:40",
+        "description": "부산 강서구 가덕도신공항 건설 공사 재입찰에 대우건설 컨소시엄이 참여했다. 16일 건설업계와 국토교통부에 따르면 대우건설 컨소시엄은 전날 가덕도신공항 부지 조성 공사 재입찰에 참가자격사전심사(PQ) 서류를 제출했다. 컨소시엄에는 한화 건설부문, HJ중공업, 코오롱글로벌, 동부건설, 금호건설, BS한양, 중흥토건 등 23개사가 참여했다. 가덕도신공항 건설",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "2억 할인해도 상가공실률 63%…1.2만 가구 강동 '올파포' 대참사",
+        "link": "https://www.chosun.com/economy/realty/realestate_news/2026/01/17/GY3DCYLCGNRWCY3GHEZWMYJXMI/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-01-17 06:00:00",
+        "description": "올림픽파크포레온, 입주 1년 지나도 공실률 63%\n1만2000가구 배후에도 텅 비어\n“강남권 상가 공식, 더는 통하지 않는다”  \n[땅집고] 서울 강동구 둔촌동 1만2000여 가구 규모의 초대형 단지 ‘올림픽파크포레온’ 단지 내 상가가 입주 1년이 넘도록 대규모 공실을 해소하지 못하고 있다. 가구당 평균 2명만 잡아도 상주 인구가 2만4000명을 웃도는 대",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": [
+          {
+            "source": "땅집고-부동산",
+            "title": "2억 할인해도 상가공실률 63%…1.2만 가구 강동 '올파포' 대참사",
+            "link": "https://realty.chosun.com/site/data/html_dir/2026/01/15/2026011503265.html"
+          }
+        ]
+      },
+      {
+        "title": "첫달부터 월세 연체한 세입자…분통 터진 집주인, 결국…",
+        "link": "https://www.chosun.com/economy/realty/realestate_news/2026/01/17/MYYWCNDEGFQWCM3GGQZDCZRXGY/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-01-17 06:00:00",
+        "description": "월세 밀리는 세입자에 “세입자 면접 볼 걸” 하소연\n임대인 우위·정보 비대칭 등으로 상반기 서비스 도입 [땅집고] “이번에도 월세가 밀리면 법무사를 끼고 명도소송을 진행할 것이다. 세입자를 받으려면 ‘세입자 면접’을 보길 바란다”\n \n온라인 커뮤니티 ‘에펨코리아’에는 최근 임차인의 월세 입금 지연으로 명도소송을 고민 중인 임대인의 게시글이 화제가 되고 있다",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": [
+          {
+            "source": "땅집고-부동산",
+            "title": "첫달부터 월세 연체한 세입자…분통 터진 집주인, 결국…",
+            "link": "https://realty.chosun.com/site/data/html_dir/2026/01/15/2026011503211.html"
+          }
+        ]
+      },
+      {
+        "title": "역삼 센터필드 매각 두고 이례적 충돌… 평행선 달리는 이지스·신세계",
+        "link": "https://www.chosun.com/economy/stock-finance/2026/01/16/GUZTSNLCMJRGCMZZHE2GKYJZGE/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-01-16 17:00:00",
+        "description": "이 기사는 2026년 1월 16일 16시 12분 조선비즈 머니무브(MM) 사이트에 표출됐습니다. 이지스자산운용이 서울 강남 핵심 오피스 자산인 ‘역삼 센터필드’ 매각을 추진하면서 주요 투자자인 신세계프라퍼티와 전례 없는 충돌 양상을 보이고 있다. 이지스자산운용은 집합투자업자(GP)의 고유 권한을 내세워 매각 절차를 예정대로 진행하겠다는 입장인 반면, 신세",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "LH, 공공주택 민참사업에 ‘모듈러’ 도입 확대…5년간 1만5000가구 공급",
+        "link": "https://www.chosun.com/economy/real_estate/2026/01/17/MQ2DIMZYMFRGEOJQMY2GIMZVGQ/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-01-17 06:00:01",
+        "description": "한국토지주택공사(LH)가 공공주택에 도입하는 모듈러 주택 공급 물량을 확대할 전망이다. 지난해까지 공공·민간사업을 통틀어 총 700여가구를 준공하는 데 그쳤던 모듈러 주택을 올해부터 2030년까지 연간 3000가구씩 총 1만5000가구를 공급할 계획이다. 모듈러 주택은 공장에서 미리 제작된 방, 주방, 거실 등 모듈 공간을 현장으로 옮겨와 조립하는 집이다",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "200억 청담 펜트하우스 살던 '수학 천재', 재판에 넘겨진 까닭",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/01/15/2026011503192.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-01-17 06:00:00",
+        "description": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"3\" width=\"100%\"><tr><td><img border=\"0\" src=\"https://image.chosun.com/sitedata/thumbnail/202601/15/2026011503186_0_thumb.jpg\" /></td></tr></table>\n\t \n[땅집고] “현직 교사에게 1억8000만원 주고 빼낸 문제로 강의한 일타강사가 200억짜리 집에 산다고?”\n \n대학수학능력시험 모의고사 문제 거래 혐의로 재판에 넘겨진 ‘일타강사’ 현우진 씨가 교사 1인당 1억8000만원을 건넨 것으로 밝혀졌다. 현 씨가 부정한 방법으로 문제를 취득했고 이를 통해 국내 최고 수능 수학 강사 자리에 오른 것이 밝혀지면서 그가 거주 중인 서울 강남구 청담동 초고가 아파트에도 관심이 쏠리고 있다.\n \n박준태 국민의힘 의원실 자료를 전한 조선일보 단독 보도에 따르면, 현씨는 현직 교사 3명에게 수학 시...",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": [
+          {
+            "source": "조선일보-경제",
+            "title": "200억 청담 펜트하우스 살던 '수학 천재', 재판에 넘겨진 까닭",
+            "link": "https://www.chosun.com/economy/realty/realestate_news/2026/01/17/MZRWKZRUGNTDEYRWGQ4DSOJUGM/"
+          }
+        ]
+      },
+      {
+        "title": "최인호 前 의원 민주당 탈당…HUG 신임 사장 유력",
+        "link": "https://www.chosun.com/economy/economy_general/2026/01/16/G43WCOJSGEZGKNRRMNSGMMDBGE/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-01-16 21:07:07",
+        "description": "20·21대 국회의원을 지낸 최인호 전 더불어민주당 의원이 최근 탈당했다. 최 전 의원은 주택도시보증공사(HUG) 차기 사장의 유력 후보군으로 꼽힌다. 16일 정치권에 따르면, 더불어민주당은 이날 오전 최고위원회에서 최 전 의원이 위원장이었던 부산 사하구갑 지역위원회를 사고위원회로 심사 판정했다. 최 전 의원은 HUG의 유력한 사장 후보군으로 꼽힌다. 국",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "서울 민간아파트 분양가 평당 5270만원…역대 최고치 또 돌파",
+        "link": "https://www.mk.co.kr/news/realestate/11934960",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-01-16 11:19:02",
+        "description": "최근 1년간 서울 평균 분양가 기준서울 민간아파트 3.3㎡(1평) 당 분양가격이 지난해 12월 또다시 역대 최고치를 경신했다. 16일 주택도시보증공사(HUG)가 발표한 ‘12월 민..",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "대우건설, 성수4지구 수주전 출사표",
+        "link": "https://www.mk.co.kr/news/realestate/11934184",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-01-15 17:16:07",
+        "description": "성수전략정비구역 4지구 재개발 사업 입찰 참여를 공식화한 대우건설이 미국 설계회사 '마이어 아키텍츠(Meier Architects)'와 협업한다고 15일 밝혔다. 마이어 아키텍츠는..",
+        "category": "domestic",
+        "priority_score": 5,
+        "related_full_sources": []
+      },
+      {
+        "title": "“GTX-C 천안·아산 연장 확정”… 개통 수혜 아산배방휴대지구 ‘반색’",
+        "link": "https://www.mk.co.kr/news/realestate/11933678",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-01-15 10:39:35",
+        "description": "김태흠 충남지사 “연장 차질 없이 추진” 밝혀 아산배방휴대지구·천안아산역 인근  부동산 시장 기대감 솔솔수도권광역급행철도(GTX) C노선의 천안·아산 연장 확정 이후 천안·아산 부..",
+        "category": "domestic",
+        "priority_score": 5,
+        "related_full_sources": []
+      },
+      {
+        "title": "전국 상가 10개 중 1개는 공실 … 정부 \"주거시설로 용도전환\"",
+        "link": "https://www.mk.co.kr/news/realestate/11934255",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-01-15 17:38:54",
+        "description": "전국 중대형 상가 공실률이 13%를 넘기며 슬럼화 양상을 보이고 있는 가운데 정부는 상업시설을 주거시설로 용도 전환해 도심 공실 문제를 해소하고 부족한 주택 공급량을 늘릴 계획이다..",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "토허제 빠르게 적응한 한강벨트…집값 꿈틀",
+        "link": "https://www.mk.co.kr/news/realestate/11934181",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-01-15 17:16:00",
+        "description": "토지거래허가구역(토허제) 재지정 이후 움츠러들었던 서울 한강벨트 집값이 3개월 만에 다시 꿈틀대고 있다. 정부의 주택공급대책 발표가 당초 예고보다 늦어지면서 정책 공백이 이어지는 ..",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": [
+          {
+            "source": "매일경제-부동산",
+            "title": "토허제 빠르게 적응한 한강벨트…규제 석달만에 집값 다시 ‘꿈틀’",
+            "link": "https://www.mk.co.kr/news/realestate/11934656"
+          }
+        ]
+      },
+      {
+        "title": "“랜드마크로 재탄생”…옛 용인세브란스병원 부지에 ‘용인 푸르지오 클루센트’",
+        "link": "https://www.mk.co.kr/news/realestate/11933880",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-01-15 13:44:19",
+        "description": "대형병원·공장·군부대 등 이전부지를 활용한 대규모 주거 개발은, 랜드마크 주거지를 만들어내는 도심 개발 모델 중 하나로 꼽힌다. 15일 분양업계에 따르면 서울 영등포구의 ‘브라이튼..",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": [
+          {
+            "source": "땅집고-부동산",
+            "title": "용인세브란스병원 부지에 '용인 푸르지오 클루센트' 짓는다",
+            "link": "https://realty.chosun.com/site/data/html_dir/2026/01/15/2026011501551.html"
+          }
+        ]
+      },
+      {
+        "title": "“주택공급 하려면 필요합니다”... 서울시, 정부에 소규모-비아파트 맞춤형 규제 완화 건의",
+        "link": "https://www.mk.co.kr/news/realestate/11933869",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-01-15 13:28:59",
+        "description": "서울시, 국무 조정실에 규제개선 9건 건의 비아파트·소규모 주택 관련 규제 현실화 중복되는 인허가 절차 통합심의에 포함 정비사업 담당 공무원 수사권 부여방안도서울시가 신속한 주택공..",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      }
+    ],
+    "국제": [
+      {
+        "title": "외교부 “한국인 50여명 이란 체류…가급적 신속히 출국해달라”",
+        "link": "https://www.donga.com/news/Politics/article/all/20260116/133174150/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-01-16 17:54:59",
+        "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/01/16/133174151.1.jpg\" vspace=\"10\" />김진아 2차관은 16일 이란 상황과 우리 국민의 안전대책을 점검하기 위한 본부·공관 합동 상황점검회의를 개최했다고 외교부가 밝혔다.지난 13일에 이어 이날 오후에 열린 상황점검회의에는 주이란대사관, 주아제르바이잔대사관, 주이스라엘대사관, 주투르크메니스탄대사관, 주튀르키예대사관이 참석했다.김 차관은 ‘국민의 안전대책에 대해서는 과하다고 비난을 받더라도 위험이 최소화되도록 조치하는 것이 바람직하다’고 한 대통령 지시사항을 언급하며 “변수가 많아서 여전히 불확실성이 큰 상황이지만, 우리 국민들의 안전을 빈틈없이 확보할 수 있도록 계속해서 만전을 기해달라”고  당부했다. 김 차관은 특히 “이란 전 지역에 3단계(철수권고) 여행경보가 발령되어 있는 만큼, 현지 체류 중인 우리 국민들께서 가급적 신속하게 출국하실 수 있도록 지속 권고해달라”고 강조했다. 또한 이란 인근 3개국에 있는 우리 공관에도 유사시에 국민들이 신속하고 안전하게 대피하는 데 필요한 제반 사항을 꼼꼼히 챙기도록 지시했",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "한국 여권 ‘세계 2위’…일본과 어깨 나란히, 1위는 어디?",
+        "link": "https://www.donga.com/news/Inter/article/all/20260117/133176539/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-01-17 14:36:59",
+        "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/01/17/133176540.1.jpg\" vspace=\"10\" />전 세계 여권의 영향력을 비교하는 헨리 여권 지수에서 한국 여권이 일본과 함께 공동 2위에 올랐다. 비자 없이 입국할 수 있는 국가 수를 기준으로 한 이번 순위에서 1위는 싱가포르가 차지했으며, 최하위는 아프가니스탄으로 나타났다.15일(현지 시간) CNN은 헨리 여권 지수의 최신 보고서를 인용해, 상위권 국가들이 대부분 아시아와 유럽 국가로 채워졌다고 전했다. 특히 상위 3위 안에 아시아 국가가 대거 포진한 점이 눈에 띈다.보고서에 따르면 싱가포르 여권 소지자는 조사 대상인 227개 국가 및 지역 가운데 192곳을 비자 없이 방문할 수 있다. 일본과 한국은 각각 188개 국가 및 지역에 대해 무비자 또는 도착 비자 혜택을 받으며 공동 2위에 이름을 올렸다.공동 3위에는 덴마크, 룩셈부르크, 스페인, 스웨덴, 스위스 등 유럽 5개국이 포함됐다. 이들 국가는 모두 186개 국가 및 지역으로의 비자 면제 혜택을 누리고 있다.4위 역시 유럽 국가들이 차지했다. 오스트리아, 벨기에,",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "마두로 체포, 왜 ‘데브그루’ 아니고 ‘델타포스’가 했을까?",
+        "link": "https://www.donga.com/news/Inter/article/all/20260117/133176341/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-01-17 12:07:00",
+        "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/01/17/133176334.1.jpg\" vspace=\"10\" />최근 미국 특수부대 ‘델타포스’가 베네수엘라 수도 카라카스에 침투해 니콜라스 마두로 대통령을 체포·압송하는 데 성공했다. 델타포스는 이번 작전을 놀라울 정도로 깔끔하게 완수하면서 세계 최강 특수부대라는 명성을 다시 한 번 입증했다. 그런데 러시아 특수부대원들이 마두로 체포 작전을 평가절하하고 나서 이목을 끈다. 1월 4일(이하 현지 시간) 러시아 온라인 매체 ‘데일리스톰’은 러시아 최정예 특수부대로 불리는 연방보안국(FSB) 산하 ‘알파그룹’의 두 장교가 델타포스 작전에 대해 평가하는 특집 기사를 실었다. ‘전반적으로 볼 때 그 작전은 그저 그랬다’는 도발적인 제목의 기사는 처음부터 끝까지 델타포스를 깎아내리고 러시아 특수부대를 치켜세우는 내용이다. 이들의 주장은 사실일까. 러시아 ‘알파그룹’의 몽니기사에 등장하는 두 장교의 정확한 소속은 FSB 특수목적센터 A국이다. 영관급 장교인 이들은 델타포스 작전에 대해 “불법이고 비인도적이며 상식에 어긋나는 짓이자, 작전 자체도 그리 인",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "트럼프, ‘신용카드 이자율 10% 상한제’ 추진…“생활비 부담 줄이겠다”",
+        "link": "https://www.donga.com/news/Inter/article/all/20260117/133176287/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-01-17 11:33:35",
+        "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/01/17/133176288.1.jpg\" vspace=\"10\" />오는 11월 중간선거를 앞둔 도널드 트럼프 미국 대통령이 현금성 혜택을 강조하며 고물가 속 생활비 완화를 위한 정책을 속속이 발표하고 있다.9일(현지시각) 월스트리트저널(WSJ)에 따르면 트럼프 대통령은 생활비 상승에 대한 유권자들의 우려를 해소하기 위해 신용카드 이자율을 1년간 최대 10%로 제한할 것을 요구했다.트럼프 대통령은 “국민들에게 20~30% 이상의 이자율을 부과해 바가지를 씌우는 신용카드 회사들을 더 이상 용납하지 않겠다”며 “이자율 상한제를 오는 20일부터 시행할 것”이라고 말했다.실제로 연방준비제도(Fed·연준)에 따르면 미국의 신용카드 이자율은 평균 23% 정도로, 1994년 이후 평균 이자율이 10% 아래로 떨어진 적은 없다.그러나 전문가들은 신용카드 이자율 상한제를 시행하면 대출을 보유한 저소득·중산층 가구에 가장 큰 혜택이 돌아갈 것으로 보면서도, 은행이 이들에게 대출을 축소하거나 추가 수수료를 부과할 가능성도 크다고 경고했다.이에 미국 은행 협회",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "시진핑, 캐나다 총리에 “양국관계 새 국면…상호 존중해야”",
+        "link": "https://www.donga.com/news/Inter/article/all/20260116/133174262/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-01-16 18:16:41",
+        "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/01/16/133174263.1.jpg\" vspace=\"10\" />시진핑 중국 국가주석이 그간 갈등을 빚어온 캐나다의 마크 카니 총리와 만나 양국 관계 회복을 강조했다. 또 미국의 합병 위협을 받고 있는 캐나다에 다자주의를 함께 수호할 것을 촉구했다.16일 중국 외교부에 따르면 시 주석은 이날 베이징 인민대회당에서 중국을 공식방문한 카니 총리와 정상회담을 가졌다.이날 회담에서 시 주석은 “지난해 10월 우리는 한국 경주에서 회담을 갖고 중·캐나다 관계가 전환점을 맞아 호전되는 새 국면을 열었다”며 “양측은 각 분야 협력의 회복과 재개를 깊이 논의해 긍정적인 성과를 거뒀다”고 돌이켰다.이어 “중·캐나다 관계의 건강하고 안정적인 발전은 양국 공동 이익에 부합하고 세계 평화·안정, 발전·번영에 이롭다”면서 “중·캐나다 관계를 건강하고 안정적이며 지속 가능한 발전 궤도로 이끌어 양국 인민에게 더 큰 혜택을 줘야 한다”고 말했다.그간 겪어온 갈등을 의식한 듯 “수교 이래 55년간 양국 관계는 비바람과 우여곡절을 겪으며 소중한 역사적 경험과 현실적인",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "‘전가의 보도’ 된 트럼프 관세, 반도체 이어 이번엔 그린란드",
+        "link": "https://www.donga.com/news/Inter/article/all/20260117/133176111/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-01-17 09:56:00",
+        "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/01/17/133176112.2.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령이 덴마크령 그린란드 병합에 협조하지 않는 국가에는 관세를 부과할 수 있다고 16일(현지 시간) 경고했다. 그린란드 확보가 미국의 국가 안보와 연관된 사안이라는 주장이다. 앞서 대만과의 협상에서는 관세율 인하를 대가로 반도체 공장 투자를 얻어냈다. 트럼프 대통령이 ‘관세’를 반도체 공급망, 그린란드 등 원하는 것들을 얻어낼 무기로 휘두르고 있다는 분석이 나온다.트럼프 대통령은 이날 백악관에서 열린 보건 의료 관련 행사에서 자신의 관세 정책에 대해 언급하던 중 “만약 그린란드 문제에 협조하지 않는 국가에는 관세를 부과 할 수도 있다. 그린란드는 국가 안보에 필수적이기 때문”이라며 “그래서 그런 조치(관세 부과)를 할 수도 있다”고 했다. 트럼프 대통령은 ‘북대서양조약기구(NATO·나토)가 그린란드 확보에 도움이 안 되면 탈퇴할 것인가’라는 취재진 물음에 “글쎄, 두고 보자”며 답을 피했다. 그러면서도 “우리는 국가 안보를 위해 그린란드가 매우 절실하게 필요하",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "호주 ‘16세 미만 SNS 금지’ 한달…계정 470만개 삭제",
+        "link": "https://www.donga.com/news/Inter/article/all/20260116/133174188/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-01-16 17:59:00",
+        "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/01/16/133174189.1.jpg\" vspace=\"10\" />호주 당국이 16세 미만 아동의 소셜미디어(SNS) 이용 금지 조치를 시행한 지 한 달이 지난 가운데, 계정 약 470만 개가 삭제된 것으로 나타났다.16일(현지 시간) 파이낸셜타임스(FT) 등에 따르면 틱톡·인스타그램·엑스(X) 등 SNS 기업 10곳은 16세 미만 아동 소유로 확인되는 계정 총 470만 개를 삭제했다고 호주 온라인 안전 규제 기관 ‘e세이프티’에 보고했다.줄리 인먼 그랜트 e세이프티 위원장은 “(아동의 SNS 금지 조치는) 세대적인 과제”라며 “실질적인 영향은 단지 며칠이나 몇 주 안에 측정되는 것이 아니라 수년에 걸쳐 나타날 것”이라고 말했다.그는 목표 달성까지 아직 해야 할 일이 많이 남았다고 덧붙였다. 호주는 8~15세 아동이 약 250만 명 있고, 이들 다수는 여러 플랫폼에 계정을 갖고 있는 것으로 추정된다.e세이프티는 아울러 X의 인공지능(AI) 챗봇 ‘그록(grok)’이 아동 성착취물을 생성했는지에 대한 조사에도 착수했다.호주는 지난해 12월",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "정부 \"가자지구 평화계획 2단계 개시 환영\"",
+        "link": "https://www.yna.co.kr/view/AKR20260116145300504",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-01-16 17:49:53",
+        "description": "(서울=연합뉴스) 민선희 기자 = 정부는 16일 미국의 가자지구 평화계획 2단계 개시와 평화위원회 구성 등을 환영했다.",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "도쿄 철도 정전으로 9시간 먹통…67만명 아수라장 (영상)",
+        "link": "https://www.donga.com/news/Inter/article/all/20260116/133175601/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-01-16 21:45:00",
+        "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/01/16/133175614.1.jpg\" vspace=\"10\" />16일 아침 출근시간대 도쿄 주요 철도 노선들이 대규모 정전으로 멈춰 서면서 약 67만 명이 넘는 승객이 출근 대란을 겪었다. 철도 운행은 약 9시간 만에야 정상화됐다.일본 국철인 JR 동일본에 따르면 이날 정전은 오전 3시 50분경 도쿄 타마치역 인근 야간 철도 시설 보수 작업 후 전력 복구 과정에서 장애가 발생하면서 시작됐다. JR 측은 구체적인 원인은 공개하지 않았지만, 도쿄경시청과 도쿄소방청은 오전 8시 직전 다마치역 인근 철로 옆 변압기에서 화재가 발생했다고 밝혔다. 당국은 정전과 화재 간 연관성을 조사 중이다.불은 약 90분 만에 진화됐고 인명피해는 없었지만 도심 순환선인 야마노테선 전 구간, 게이힌-도호쿠선 전 구간, 도카이도선 도쿄~시나가와역 구간 등에서 정전이 발생해 도쿄 도심 교통이 마비됐다.아침 출근시간과 겹치며 혼란은 더욱 커졌다. 일부 구간에서는 운행이 임시 재개됐다가 다시 중단되면서 승객들이 선로를 따라 도보로 이동하기도 했다. NHK에 따르면 열차",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "[쇼츠] 항모보다 비싼 '트럼프급 전함'…1척에 32조원",
+        "link": "https://www.yna.co.kr/view/AKR20260116148900704",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-01-16 18:05:22",
+        "description": "(서울=연합뉴스) 미국 해군이 건조키로 한 &apos;트럼프급&apos; 첫 전함의 건조 비용이 항공모함을 추월하는 220억 달러(32조4천억원)에 이를 수도 있...",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "美-대만, 상호관세 15%로 무역합의…최대 5000억 달러 투자",
+        "link": "https://www.donga.com/news/Inter/article/all/20260116/133171237/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-01-16 16:07:00",
+        "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/01/16/133172392.1.jpg\" vspace=\"10\" />15일(현지 시간) 미국이 대만과 무역합의를 체결하고 대만에 대한 상호관세율을 기존 20%에서 15%로 낮추기로 했다. 그 대가로 대만은 TSMC 등 자국 기업의 대미(對美) 투자 2500억 달러(약 368조 원)에 정부 신용보증 2500억 달러를 추가 제공키로 했다.이날 미 상무부는 “대만 반도체·기술 기업들이 최소 2500억 달러 규모로 미국에 직접 투자하기로 했다”고 밝혔다. 상호관세율을 낮춰주는 대신 반도체 기업 TSMC가 중심이 돼 미국 내 첨단 반도체, 에너지, 인공지능(AI) 생산 및 혁신 역량 구축을 위한 대규모 투자를 단행한다는 것. 이와 별개로 대만 정부는 최소 2500억 달러 규모의 신용보증을 제공해 미국의 반도체 공급망 구축 등을 지원한다고 상무부는 덧붙였다.특히, 미국은 자국에서 반도체 생산시설을 신설하는 대만 기업의 경우, 해당 시설이 지어지는 기간 동안 생산능력의 2.5배에 해당하는 물량에 대해 관세를 면제토록 했다. 또 미국 내 반도체 생산시설이 완공되면",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "美-대만, 상호관세 15% 무역합의…5000억달러 대미 투자",
+        "link": "https://www.donga.com/news/Inter/article/all/20260116/133169093/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-01-16 08:09:00",
+        "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/01/16/133169096.2.jpg\" vspace=\"10\" />미국은 대만의 상호관세율을 기존 20%에서 15%로 낮추는 대신 대만 반도체 기업과 정부가 미국에 각각 2500억 달러(약 367조 원) 규모의 직접 투자와 신용 보증을 제공하는 내용의 무역합의를 체결했다고 15일(현지 시간) 밝혔다.미국 상무부는 이날 대만과의 무역합의 팩트시트(설명자료)를 공개했다. 미국은 대만에 대한 상호관세를 한국·일본과 같은 15%로 낮추기로 했다.앞서 한국은 3500억 달러(약 514조 원), 일본은 5500억 달러(약 808조 원) 규모의 대미 투자를 조건으로 각각 25%이던 상호관세를 15%로 낮췄다.대만 기업들은 관세 인하에 대한 대가로 2500억 달러 규모의 직접 투자에 나선다. 투자는 미국 내 첨단 반도체, 에너지 및 인공지능(AI) 생산, 혁신 역량 구축 및 확장에 사용된다. 이와 별개로 대만 정부는 자국 기업 투자를 촉진하기 위해 2500억 달러 규모의 신용보증도 지원하기로 했다. 하워드 러트닉 미국 상무장관은 이같이 대만의 대미 투자",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      }
+    ]
+  }
+}
