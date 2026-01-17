@@ -1,0 +1,178 @@
+{
+  "timestamp": "2026-01-17T18:56:41.570858",
+  "date": "20260117",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "李대통령, 21일 신년 기자회견… 청와대서 90분간 진행",
+          "link": "https://www.chosun.com/politics/politics_general/2026/01/17/OO2LP6UGDZF4PEOXWWRA62NNKI/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-01-17 00:57:00",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李 “대통령은 민주당 아닌 전국민 대표”…野는 ‘2차 종합특검 거부권’ 요구",
+          "link": "https://www.chosun.com/economy/economy_general/2026/01/16/GNQTGMTGMFSTOZLBMY3GIM3GGI/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-01-16 16:28:56",
+          "description": "이재명 대통령이 16일 여야 지도부를 만나 “대통령은 민주당 대표가 아니라 전국민을 대표해야 하는 위치”라며 “국민의 다양한 생각을 전체적으로 반영하기 위해 노력해야 한다는 생각이 점점 강해진다”고 했다. 특히 “국가 안보나 외교 문제에 대해선 가급적 야당도 힘을 좀 모아주시라”며 협조를 요청했다. 다만 야당이 요구하는 2차 종합(내란·김건희·순직해병) 특",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, 21일 신년 기자회견…\"대전환·대도약 주제\"",
+          "link": "https://www.yna.co.kr/view/AKR20260116129000001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-01-16 16:30:35",
+          "description": "(서울=연합뉴스) 설승은 기자 = 이재명 대통령은 오는 21일 오전 청와대 영빈관에서 신년 기자회견을 한다고 이규연 청와대 홍보소통수석이 16일...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": [
+            {
+              "source": "조선일보-정치",
+              "title": "李 대통령, 21일 신년 기자회견",
+              "link": "https://www.chosun.com/politics/politics_general/2026/01/16/27RUFERWARDFPE4CUJNPKFJ4I4/"
+            },
+            {
+              "source": "연합뉴스-정치",
+              "title": "[속보] 李대통령, 21일 신년 기자회견…'대전환·대도약' 주제",
+              "link": "https://www.yna.co.kr/view/AKR20260116117000001"
+            }
+          ]
+        },
+        {
+          "title": "李대통령 지지율 58%…'외교 호평' 증가에도 2%p 하락[한국갤럽](종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260116054751001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-01-16 11:08:53",
+          "description": "(서울=연합뉴스) 김정진 기자 = 이재명 대통령 국정 지지율이 58%를 기록했다는 여론조사 결과가 16일 나왔다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, 특전사령관 등 중장 진급자 20명에 삼정검 수치 수여",
+          "link": "https://www.yna.co.kr/view/AKR20260116114200001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-01-16 16:07:07",
+          "description": "(서울=연합뉴스) 설승은 기자 = 이재명 대통령은 16일 청와대 본관 충무실에서 군 3성 장군인 중장 진급자 20명으로부터 진급·보직 신고를 받...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 \"전쟁불사는 잘못된 태도\"…野 '무인기 대응 비판' 반박",
+          "link": "https://www.yna.co.kr/view/AKR20260116053000001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-01-16 10:38:51",
+          "description": "(서울=연합뉴스) 임형섭 기자 = 이재명 대통령은 16일 북한의 &apos;한국발 무인기 침투 주장&apos;에 대한 정부 대응을 두고 야권에서 지나친 저자세라고...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        }
+      ],
+      "count": 6,
+      "role": "한국 대통령"
+    },
+    "트럼프": {
+      "articles": [
+        {
+          "title": "주변 4강 정상 호감도는…다카이치 22%·시진핑 21%·트럼프 19%[한국갤럽]",
+          "link": "https://www.yna.co.kr/view/AKR20260116064000001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-01-16 11:15:37",
+          "description": "(서울=연합뉴스) 박재하 기자 = 한국의 주요 주변국 가운데 일본 정상에 대한 우리나라 국민의 호감도가 가장 높다는 여론조사 결과가 16일 나왔...",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "마차도, 노벨상 메달을 트럼프에 선물…‘환심 사기’ 총력",
+          "link": "https://www.donga.com/news/Inter/article/all/20260116/133171241/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-01-16 15:48:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/01/16/133173981.1.jpeg\" vspace=\"10\" />베네수엘라 야권 지도자 마리아 코리나 마차도가 15일(현지 시간) 미국 워싱턴 백악관을 방문해 자신이 지난해 받은 노벨평화상 메달을 도널드 트럼프 미 대통령에게 선물했다. 이에 대해 트럼프 대통령은 이날 자신의 소셜미디어 트루스소셜에 “상호존중을 보여주는 제스처였다”며 “고마워요 마리아(Thank you María)!”라고 화답했다. 니콜라스 마두로 베네수엘라 대통령 실각 후 대권을 노리는 마차도가 ‘트럼프 환심사기’에 나섰다는 지적이 나온다.CBS 등에 따르면 이날 마차도는 백악관에서 비공개로 트럼프 대통령을 접견하면서 노벨상 메달 진품을 건넸다. 두 사람이 대면한 건 처음이었다. 마차도는 백악관 접견 후 미 의회에서 가진 기자회견에서 “우리의 자유를 위한 그(트럼프)의 특별한 헌신을 인정하는 의미로 메달을 줬다”고 밝혔다. 앞서 3일 트럼프 행정부가 독재자 마두로 대통령을 체포 압송한 데 대한 감사의 표시라는 것. 마차도는 미 상원의원들과 만나 트럼프 대통령과의 만남을 “대단했",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "호실적에도 트럼프에 운 美 은행주…투자 매력은 여전",
+          "link": "https://www.hankyung.com/article/202601165618i",
+          "source": "한국경제-기업",
+          "published_dt": "2026-01-16 16:17:54",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "젤렌스키, 트럼프 ‘종전 지연’ 비판에 “우크라, 평화 장애물된 적 없다”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260116/133170025/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-01-16 10:31:02",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/01/16/133170026.1.jpg\" vspace=\"10\" />볼로디미르 젤렌스키 우크라이나 대통령은 15일(현지시간) “우크라이나는 결코 평화의 걸림돌이 된 적이 없으며, 앞으로도 그러지 않을 것”이라고 강조했다. 우크라이나 대통령실에 따르면 젤렌스키 대통령은 이날 오후 영상 연설에서 이같이 밝혔다.그는 “마르크 뤼터 북대서양조약기구(NATO·나토) 사무총장과 방금 통화했다”며 “‘미국과의 외교적 노력에 대해서도 함께 논의했다”고 말했다.이어 “우크라이나는 결코 평화의 걸림돌이 된 적이 없으며, 앞으로도 그러지 않을 것”이라며 “러시아가 원하는 것이 합의가 아니라는 명백한 증거는 바로 러시아의 미사일, 러시아의 ’샤헤드(이란제 공격용 드론)‘, 우크라이나를 파괴하려는 러시아의 시도”라고 했다.그는 “러시아의 공격으로 우크라이나 국민이 20~30시간씩 전기를 공급받지 못하고 있고, 러시아의 공격 목표가 우크라이나 에너지 시스템과 국민의 삶을 무너뜨리려는 것이라면, 압박을 받아야 할 대상은 러시아”라며 “우리는 외교적 활동을 훨씬 더 적극",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 4,
+      "role": "미국 대통령"
+    },
+    "일론 머스크": {
+      "articles": [
+        {
+          "title": "현대차, 테슬라 로봇 총괄한 ‘머스크 오른팔’ 영입",
+          "link": "https://www.chosun.com/economy/industry-company/2026/01/17/MI6DW2NGLVAFXLDN6E3P4U3BYU/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-01-17 00:53:00",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "sector": "AI/로봇",
+          "related_full_sources": []
+        },
+        {
+          "title": "테슬라 AI로봇-자율주행 주도 ‘머스크 최측근’, 현대차 합류했다",
+          "link": "https://www.donga.com/news/Economy/article/all/20260116/133171400/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-01-16 14:51:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/01/16/133171402.1.jpg\" vspace=\"10\" />테슬라의 CEO 일론 머스크의 ‘최측근’으로 꼽히던 밀란 코바치 전 테슬라 부사장(사진)이 현대차그룹에 합류한다. 현대차그룹은 테슬라에서 인간형(휴머노이드) 로봇 ‘옵티머스’ 총괄 책임자였던 그를 그룹의 로봇전문기업 보스턴다이내믹스의 사외 이사로 선임했다고 16일 밝혔다.  2016년 테슬라에 합류한 코바치 이사는 테슬라에서 이 회사의 핵심 사업분야인 자율주행(오토파일럿)과 AI 휴머노이드 옵티머스 기술력을 크게 끌어올린 인물로 평가받는다. 머스크도 코바치 이사가 테슬라 퇴사를 결정했을 당시 끝까지 만류했던 것으로 전해진다. 퇴사가 결정된 후에는 직접 X(옛 트위터)에 “지난 기간 테슬라에 기여해 준 데 대해 감사하며, 함께 일할 수 있어 영광이었다”는 메시지를 올리기도 했다.  코바치 신임 이사는 특히 기술 개발의 속도를 높이고, 시험 및 검증 수준의 기술을 실제 현장에서 활용할 수 있도록 상용화하는 업무에 특화된 인물로 평가된다. 이 같은 이유로 업계에서는 자율주행과 A",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "머스크 아이 낳은 인플루언서 “내 나체 딥페이크 안돼” 그록에 소송",
+          "link": "https://www.donga.com/news/Inter/article/all/20260116/133170608/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-01-16 11:43:26",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/01/16/133170609.1.jpg\" vspace=\"10\" />일론 머스크의 아이를 낳은 한 인플루언서가 머스크의 인공지능(AI) 챗봇 ‘그록’이 자신의 딥페이크 성적 이미지를 만들어내고 있다며 소송을 제기했다고 월스트리트저널(WSJ)이 15일(현지시간) 보도했다.WSJ에 따르면 보수 성향 인플루언서 애슐리 세인트 클레어는 그록 개발사인 머스크 소유의 xAI를 상대로 그록이 “지나치게 위험하게 설계됐다”며 사회적 폐해를 초래할 수 있다고 소송을 제기했다.세인트 클레어는 그록이 자신을 도용한 딥페이크 이미지를 생성하지 못하도록 해달라며 임시 금지명령도 요청했다.세인트 클레어는 소장에서 xAI가 어린 시절을 포함해 자신의 “나체와 성적 이미지를 계속 제작하고 있다”며 “해당 이미지를 소비하는 사람들로부터 스스로 보호할 수 없다는 두려움에 떨고 있다”고 말했다.소장은 세인트 클레어가 거주하는 뉴욕 카운티에 접수됐고, 사건은 연방 법원으로 이송됐다.xAI는 이날 텍사스에서 세인트 클레어가 소송을 제기함으로써 회사의 서비스 약관을 위반했다며 맞",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "테슬라 CEO"
+    }
+  }
+}

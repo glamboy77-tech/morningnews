@@ -239,64 +239,13 @@ class AIProcessor:
 
     def generate_briefing(self, categorized_news):
         """
-        Generates a briefing summary and sentiment analysis (Good/Bad news).
+        DEPRECATED: Use SentimentAnalyzer.analyze_sentiment() instead.
+        This method is kept for backward compatibility but should not be used.
         """
-        if not categorized_news:
-            return None
-            
-        # Context preparation: Flatten the list but keep categories
-        context = ""
-        for category, items in categorized_news.items():
-            if items:
-                context += f"\n[{category}]\n"
-                # Increase context to top 30 to catch more diverse news (like Akjae)
-                for item in items[:30]: 
-                    context += f"- {item['title']}\n"
-        
-        prompt = f"""
-        당신은 시니어 금융 분석가입니다. 오늘 분류된 뉴스 데이터를 바탕으로 심도 있는 아침 브리핑을 작성하세요.
-
-        필수 규칙:
-        1. 모든 답변은 한국어로 작성합니다.
-        2. 각 섹션의 요약은 "사실 - 영향 - 체크포인트" 구조를 한 문장으로 유기적으로 연결하여 작성하세요.
-
-        수행 과제:
-        1. **섹션별 요약**: 각 섹션의 핵심 흐름을 날카롭게 요약하세요.
-            - 형식 : "[사실] ~라는 소식이 있으나, [영향] 이로 인해 ~가 예상되므로, [체크포인트] 향후 ~를 주목해야 함."
-            - 예시: "[사실] 미 연준의 금리 동결 발표가 있었으나, [영향] 시장은 여전히 하반기 인하 기대감을 유지하고 있어, [체크포인트] 다가올 소비자물가지수(CPI) 발표 수치를 예의주시해야 함."
-        2. **기업 감성 분석**: 주가에 '실질적'인 영향을 줄 수 있는 결정적인 호재(Hojae)와 악재(Akjae)를 찾으세요.
-           - 호재 선정: 대규모 수주(수백억 원 이상), M&A, 핵심 기술 혁신, 실적 턴어라운드 (단순 인사나 소규모 협약은 제외).
-           - 악재 선정: 어닝 쇼크, 법적 분쟁, 대규모 리콜, 자금 유동성 위기, 주요 생산 시설 사고.
-           - 이유 표기: 각 기업 옆에 10자 이내의 아주 짧은 사유를 덧붙이세요.
-           - 형식: "회사명: 사유"
-        
-        Output JSON Format:
-        {{
-            "section_summaries": {{
-                "정치": "...",
-                "경제/거시": "...",
-                "기업/산업": "...",
-                "부동산": "...",
-                "국제": "..."
-            }},
-            "hojae": ["회사명: 사유", "회사명: 사유"],
-            "akjae": ["회사명: 사유", "회사명: 사유"]
-        }}
-        
-        News List:
-        {context}
-        """
-        
-        try:
-            response = self.client.models.generate_content(
-                model=config.model_flash,
-                contents=prompt,
-                config={'response_mime_type': 'application/json'}
-            )
-            return json.loads(response.text)
-        except Exception as e:
-            print(f"Error generating briefing: {e}")
-            return None
+        print("⚠️ WARNING: AIProcessor.generate_briefing() is deprecated. Use SentimentAnalyzer.analyze_sentiment() instead.")
+        from sentiment_analyzer import SentimentAnalyzer
+        sentiment = SentimentAnalyzer()
+        return sentiment.analyze_sentiment(categorized_news)
 
     def extract_key_persons(self, categorized_news):
         """

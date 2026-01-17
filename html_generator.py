@@ -880,7 +880,15 @@ class HTMLGenerator:
                 
                 # Render articles
                 for item in articles:
-                    time_str = item['published_dt'].strftime("%m.%d %H:%M")
+                    # datetime 객체인지 확인하고 문자열이면 변환
+                    if isinstance(item['published_dt'], str):
+                        try:
+                            from datetime import datetime
+                            time_str = datetime.fromisoformat(item['published_dt']).strftime("%m.%d %H:%M")
+                        except:
+                            time_str = item['published_dt']
+                    else:
+                        time_str = item['published_dt'].strftime("%m.%d %H:%M")
                     
                     html += f"""
                 <div class="card">
