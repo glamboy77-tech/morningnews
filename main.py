@@ -32,9 +32,21 @@ sys.stderr = DualLogger('run_job.log', 'a')
 def main(send_push=True, use_cache=True):
     print("=== Morning News Bot Started ===")
     
+    # 현재 시간 확인
+    current_hour = datetime.datetime.now().hour
+    is_morning_window = 8 <= current_hour < 9  # 오전 8시~9시
+    
+    # 캐시 사용 로직: 오전 8-9시는 새로 생성, 그 외 시간은 캐시 재사용
+    if is_morning_window:
+        print(f"🌅 오전 {current_hour}시: 새로운 뉴스 생성 및 캐시 저장")
+        use_cache_for_loading = False  # 새로 생성
+    else:
+        print(f"🕐 {current_hour}시: 캐시된 뉴스 재사용")
+        use_cache_for_loading = True   # 캐시 재사용
+    
     # 테스트 모드 확인
     is_test_mode = not send_push
-    if is_test_mode:
+    if is_test_mode and not is_morning_window:
         print("🧪 테스트 모드: 데이터 캐시 재사용 활성화")
     
     # Initialize cache system
@@ -67,10 +79,10 @@ def main(send_push=True, use_cache=True):
     html_gen = HTMLGenerator()
     wm = WeatherManager()
     
-    # 2. Fetch Feeds & Weather (캐시 재사용)
+    # 2. Fetch Feeds & Weather (시간 기반 캐시 로직)
     print("\n[Phase 1] Fetching RSS Feeds & Weather...")
     
-    if use_cache and cache_status["rss"] and is_test_mode:
+    if use_cache and cache_status["rss"] and use_cache_for_loading:
         print("🔄 캐시된 RSS 데이터 로드 중...")
         all_news = cache.load_rss_data(today_str)
         if all_news:
@@ -78,7 +90,8 @@ def main(send_push=True, use_cache=True):
         else:
             print("  - 캐시 로드 실패, 새로 수집...")
             all_news = rss.fetch_feeds()
-            cache.save_rss_data(all_news, today_str)
+            if use_cache:
+                cache.save_rss_data(all_news, today_str)
     else:
         all_news = rss.fetch_feeds()
         if use_cache:
@@ -107,10 +120,10 @@ def main(send_push=True, use_cache=True):
     batch_size = 200
     domestic_categorized_raw = {}
     
-    # 3. AI Processing (캐시 재사용)
+    # 3. AI Processing (시간 기반 캐시 로직)
     print("\n[Phase 2] AI Processing...")
     
-    if use_cache and cache_status["ai_analysis"] and is_test_mode:
+    if use_cache and cache_status["ai_analysis"] and use_cache_for_loading:
         print("🔄 캐시된 AI 분석 데이터 로드 중...")
         domestic_categorized_raw = cache.load_ai_analysis(today_str)
         if domestic_categorized_raw:
@@ -129,7 +142,8 @@ def main(send_push=True, use_cache=True):
                     if category not in domestic_categorized_raw:
                         domestic_categorized_raw[category] = []
                     domestic_categorized_raw[category].extend(items)
-            cache.save_ai_analysis(domestic_categorized_raw, today_str)
+            if use_cache:
+                cache.save_ai_analysis(domestic_categorized_raw, today_str)
     else:
         for batch_start in range(0, len(domestic_raw), batch_size):
             batch_end = min(batch_start + batch_size, len(domestic_raw))
@@ -172,10 +186,10 @@ def main(send_push=True, use_cache=True):
     print(f"  - Classified {domestic_count} domestic articles (with fallback).")
     print(f"  - Domestic Categories: {list(domestic_categorized.keys())}")
  
-    # 3.5. Extract Key Persons (캐시 재사용)
+    # 3.5. Extract Key Persons (시간 기반 캐시 로직)
     print("\n[Phase 2.5] Extracting Key Persons...")
     
-    if use_cache and cache_status["key_persons"] and is_test_mode:
+    if use_cache and cache_status["key_persons"] and use_cache_for_loading:
         print("🔄 캐시된 주요 인물 데이터 로드 중...")
         key_persons = cache.load_key_persons(today_str)
         if key_persons:
@@ -183,7 +197,8 @@ def main(send_push=True, use_cache=True):
         else:
             print("  - 캐시 로드 실패, 새로 추출...")
             key_persons = ai.extract_key_persons(domestic_categorized)
-            cache.save_key_persons(key_persons, today_str)
+            if use_cache:
+                cache.save_key_persons(key_persons, today_str)
     else:
         key_persons = ai.extract_key_persons(domestic_categorized)
         if use_cache:

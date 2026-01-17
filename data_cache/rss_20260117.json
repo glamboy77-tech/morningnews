@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-01-17T18:54:21.778377",
+  "timestamp": "2026-01-17T19:07:14.948243",
   "date": "20260117",
   "data": [
     {
@@ -91,22 +91,6 @@
       "category": "domestic"
     },
     {
-      "title": "李대통령, 21일 신년 기자회견… 청와대서 90분간 진행",
-      "link": "https://www.chosun.com/politics/politics_general/2026/01/17/OO2LP6UGDZF4PEOXWWRA62NNKI/",
-      "source": "조선일보-정치",
-      "published_dt": "2026-01-17 00:57:00",
-      "description": "",
-      "category": "domestic"
-    },
-    {
-      "title": "정청래, 또다시 ‘1인 1표’ 속도전",
-      "link": "https://www.chosun.com/politics/assembly/2026/01/17/37AWA4UVRFAZJPNYH4B46XVYFU/",
-      "source": "조선일보-정치",
-      "published_dt": "2026-01-17 00:57:00",
-      "description": "",
-      "category": "domestic"
-    },
-    {
       "title": "[정치 인사이드] 검찰 개편안 두고 명청 갈등? 日 가던 공항서 ‘뼈있는 대화’",
       "link": "https://www.chosun.com/politics/politics_general/2026/01/17/TQYGB4UTRRH3ZP5D3L3DRQM6MY/",
       "source": "조선일보-정치",
@@ -117,6 +101,22 @@
     {
       "title": "李 “난 민주당 아닌 국민 대표… 파란색만 위하면 빨간색이 섭섭”",
       "link": "https://www.chosun.com/politics/blue_house/2026/01/17/2R4NXBAJNBCT5BBC7AKAQDH3T4/",
+      "source": "조선일보-정치",
+      "published_dt": "2026-01-17 00:57:00",
+      "description": "",
+      "category": "domestic"
+    },
+    {
+      "title": "李대통령, 21일 신년 기자회견… 청와대서 90분간 진행",
+      "link": "https://www.chosun.com/politics/politics_general/2026/01/17/OO2LP6UGDZF4PEOXWWRA62NNKI/",
+      "source": "조선일보-정치",
+      "published_dt": "2026-01-17 00:57:00",
+      "description": "",
+      "category": "domestic"
+    },
+    {
+      "title": "정청래, 또다시 ‘1인 1표’ 속도전",
+      "link": "https://www.chosun.com/politics/assembly/2026/01/17/37AWA4UVRFAZJPNYH4B46XVYFU/",
       "source": "조선일보-정치",
       "published_dt": "2026-01-17 00:57:00",
       "description": "",
@@ -1923,14 +1923,6 @@
       "category": "domestic"
     },
     {
-      "title": "LH, 공공주택 민참사업에 ‘모듈러’ 도입 확대…5년간 1만5000가구 공급",
-      "link": "https://www.chosun.com/economy/real_estate/2026/01/17/MQ2DIMZYMFRGEOJQMY2GIMZVGQ/",
-      "source": "조선일보-경제",
-      "published_dt": "2026-01-17 06:00:01",
-      "description": "한국토지주택공사(LH)가 공공주택에 도입하는 모듈러 주택 공급 물량을 확대할 전망이다. 지난해까지 공공·민간사업을 통틀어 총 700여가구를 준공하는 데 그쳤던 모듈러 주택을 올해부터 2030년까지 연간 3000가구씩 총 1만5000가구를 공급할 계획이다. 모듈러 주택은 공장에서 미리 제작된 방, 주방, 거실 등 모듈 공간을 현장으로 옮겨와 조립하는 집이다",
-      "category": "domestic"
-    },
-    {
       "title": "[인터뷰] 8개 제품으로 CES 혁신상 받은 로레알… 귀브 발루치 부사장 “사람 중심 뷰티 테크 개발”",
       "link": "https://www.chosun.com/economy/tech_it/2026/01/17/MUZGKMJTMQ2GCN3EMJRGKZTBGQ/",
       "source": "조선일보-경제",
@@ -1939,11 +1931,11 @@
       "category": "domestic"
     },
     {
-      "title": "살아나던 LG엔솔도 털썩… 배터리 3사, 美 세액공제 폐지·유럽 전기차 속도 조절에 ‘시름’",
-      "link": "https://www.chosun.com/economy/industry-company/2026/01/17/GEZTOMLGMUYGENDBGI3TKYRQGQ/",
+      "title": "LH, 공공주택 민참사업에 ‘모듈러’ 도입 확대…5년간 1만5000가구 공급",
+      "link": "https://www.chosun.com/economy/real_estate/2026/01/17/MQ2DIMZYMFRGEOJQMY2GIMZVGQ/",
       "source": "조선일보-경제",
-      "published_dt": "2026-01-17 06:00:00",
-      "description": "LG에너지솔루션·삼성SDI·SK온 등 국내 배터리 3사의 실적이 지난해 4분기에 이어 올해 들어서도 부진한 흐름을 이어갈 것으로 전망된다. 미국이 지난해 9월 전기차에 대한 세액공제를 폐지한 데 이어 유럽도 최근 전기차 의무화 정책에 대한 속도 조절에 나서면서 배터리 제조사들이 직격탄을 맞게 됐기 때문이다.  17일 배터리 업계에 따르면 LG에너지솔루션은",
+      "published_dt": "2026-01-17 06:00:01",
+      "description": "한국토지주택공사(LH)가 공공주택에 도입하는 모듈러 주택 공급 물량을 확대할 전망이다. 지난해까지 공공·민간사업을 통틀어 총 700여가구를 준공하는 데 그쳤던 모듈러 주택을 올해부터 2030년까지 연간 3000가구씩 총 1만5000가구를 공급할 계획이다. 모듈러 주택은 공장에서 미리 제작된 방, 주방, 거실 등 모듈 공간을 현장으로 옮겨와 조립하는 집이다",
       "category": "domestic"
     },
     {
@@ -1979,11 +1971,11 @@
       "category": "domestic"
     },
     {
-      "title": "“먹거리가 없다”… 생존 걱정하는 가상 자산 수탁사들",
-      "link": "https://www.chosun.com/economy/stock-finance/2026/01/17/HBSDMMJUGM2DIOJQMU3TAOJXMQ/",
+      "title": "살아나던 LG엔솔도 털썩… 배터리 3사, 美 세액공제 폐지·유럽 전기차 속도 조절에 ‘시름’",
+      "link": "https://www.chosun.com/economy/industry-company/2026/01/17/GEZTOMLGMUYGENDBGI3TKYRQGQ/",
       "source": "조선일보-경제",
       "published_dt": "2026-01-17 06:00:00",
-      "description": "법인·기관 투자자의 가상 자산(코인) 매매를 허용하는 제도 도입이 늦어지면서 이들이 보유한 가상 자산을 보관해 주는 수탁 업계의 성장이 둔화되고 있다. 17일 가상 자산 업계와 경찰에 따르면, 경찰청은 범죄에 사용돼 몰수·추징한 가상 자산을 보관해 줄 업체를 찾기 위해 작년 11월부터 세 차례에 걸쳐 용역을 발주했다. 경찰은 압수한 가상 자산을 거래소 지갑",
+      "description": "LG에너지솔루션·삼성SDI·SK온 등 국내 배터리 3사의 실적이 지난해 4분기에 이어 올해 들어서도 부진한 흐름을 이어갈 것으로 전망된다. 미국이 지난해 9월 전기차에 대한 세액공제를 폐지한 데 이어 유럽도 최근 전기차 의무화 정책에 대한 속도 조절에 나서면서 배터리 제조사들이 직격탄을 맞게 됐기 때문이다.  17일 배터리 업계에 따르면 LG에너지솔루션은",
       "category": "domestic"
     },
     {
@@ -2000,6 +1992,14 @@
       "source": "조선일보-경제",
       "published_dt": "2026-01-17 06:00:00",
       "description": "월세 밀리는 세입자에 “세입자 면접 볼 걸” 하소연\n임대인 우위·정보 비대칭 등으로 상반기 서비스 도입 [땅집고] “이번에도 월세가 밀리면 법무사를 끼고 명도소송을 진행할 것이다. 세입자를 받으려면 ‘세입자 면접’을 보길 바란다”\n \n온라인 커뮤니티 ‘에펨코리아’에는 최근 임차인의 월세 입금 지연으로 명도소송을 고민 중인 임대인의 게시글이 화제가 되고 있다",
+      "category": "domestic"
+    },
+    {
+      "title": "“먹거리가 없다”… 생존 걱정하는 가상 자산 수탁사들",
+      "link": "https://www.chosun.com/economy/stock-finance/2026/01/17/HBSDMMJUGM2DIOJQMU3TAOJXMQ/",
+      "source": "조선일보-경제",
+      "published_dt": "2026-01-17 06:00:00",
+      "description": "법인·기관 투자자의 가상 자산(코인) 매매를 허용하는 제도 도입이 늦어지면서 이들이 보유한 가상 자산을 보관해 주는 수탁 업계의 성장이 둔화되고 있다. 17일 가상 자산 업계와 경찰에 따르면, 경찰청은 범죄에 사용돼 몰수·추징한 가상 자산을 보관해 줄 업체를 찾기 위해 작년 11월부터 세 차례에 걸쳐 용역을 발주했다. 경찰은 압수한 가상 자산을 거래소 지갑",
       "category": "domestic"
     },
     {
@@ -2075,16 +2075,16 @@
       "category": "domestic"
     },
     {
-      "title": "가덕도 신공항 또 유찰… 선정돼도 ‘산 넘어 산’",
-      "link": "https://www.chosun.com/economy/real_estate/2026/01/17/UD57GT7EBFGGBNLWZUTGIGGS6I/",
+      "title": "‘코스피 5000’ 고지가 보인다",
+      "link": "https://www.chosun.com/economy/money/2026/01/17/M7JYIPUJE5HXVFDFENYJNFER6E/",
       "source": "조선일보-경제",
       "published_dt": "2026-01-17 00:55:00",
       "description": "",
       "category": "domestic"
     },
     {
-      "title": "‘코스피 5000’ 고지가 보인다",
-      "link": "https://www.chosun.com/economy/money/2026/01/17/M7JYIPUJE5HXVFDFENYJNFER6E/",
+      "title": "가덕도 신공항 또 유찰… 선정돼도 ‘산 넘어 산’",
+      "link": "https://www.chosun.com/economy/real_estate/2026/01/17/UD57GT7EBFGGBNLWZUTGIGGS6I/",
       "source": "조선일보-경제",
       "published_dt": "2026-01-17 00:55:00",
       "description": "",
