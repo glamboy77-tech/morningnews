@@ -806,6 +806,7 @@ class HTMLGenerator:
         order = ["정치", "경제/거시", "기업/산업", "부동산", "국제"]
         
         html += '<div class="sticky-nav">'
+        html += '<a href="https://gemini-783885185452.us-west1.run.app/" class="nav-pill" target="_blank" rel="noopener noreferrer">🔎 Gemini 네비게이터</a>'
         
         # Key Persons (if exists)
         if key_persons:
@@ -1027,7 +1028,10 @@ class HTMLGenerator:
         html += """
                 <footer>&copy; 2025 PREMIUM MORNING NEWS BOT</footer>
             </div>
-        </body>
+            <div class="sticky-nav">
+
+            # Gemini navigator shortcut (opens in new tab)
+            html += '<a href="https://gemini-783885185452.us-west1.run.app/" class="nav-pill" target="_blank" rel="noopener noreferrer">🔎 Gemini 네비게이터</a>'
         </html>
         """
         
