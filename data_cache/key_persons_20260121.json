@@ -1,5 +1,461 @@
 {
-  "timestamp": "2026-01-21T03:00:27.549972",
+  "timestamp": "2026-01-21T03:09:07.107355",
   "date": "20260121",
-  "data": {}
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "[지상중계] 李대통령 신년 기자회견",
+          "link": "https://www.yna.co.kr/view/AKR20260121059300001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-01-21 10:29:43",
+          "description": "(서울=연합뉴스) 정치부 = 이재명 대통령은 21일 청와대 영빈관에서 신년 기자회견을 열었다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "[지상중계] 李대통령 신년 기자회견-10",
+              "link": "https://www.yna.co.kr/view/AKR20260121085000001"
+            },
+            {
+              "source": "연합뉴스-정치",
+              "title": "[지상중계] 李대통령 신년 기자회견-7",
+              "link": "https://www.yna.co.kr/view/AKR20260121074200001"
+            }
+          ]
+        },
+        {
+          "title": "李대통령 \"북미·남북대화 조기성사 노력…9·19 군사합의 복원\"",
+          "link": "https://www.yna.co.kr/view/AKR20260121054500001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-01-21 10:14:58",
+          "description": "(서울=연합뉴스) 고동욱 기자 = 이재명 대통령은 21일 &quot;날 선 냉랭함이 한 번에 녹진 않겠지만 북측의 호응을 끌어내고 한반도의 긴장 완화를 ...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "[속보] 李대통령 \"북미·남북대화 조기성사 노력…9·19 군사합의 복원\"",
+              "link": "https://www.yna.co.kr/view/AKR20260121045700001"
+            }
+          ]
+        },
+        {
+          "title": "[속보] 李대통령 \"이혜훈 논란 아쉽지만…본인 해명 들어봐야 공정\"",
+          "link": "https://www.yna.co.kr/view/AKR20260121081200001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-01-21 11:21:42",
+          "description": "(",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": false,
+          "related_full_sources": [
+            {
+              "source": "조선일보-경제",
+              "title": "[속보] 李대통령 “이혜훈 어떻게 할지 결정 못해…본인 해명도 들어봐야”",
+              "link": "https://www.chosun.com/economy/economy_general/2026/01/21/GI2DOZJUGA4WGZDFMJRDONZUGQ/"
+            }
+          ]
+        },
+        {
+          "title": "[지상중계] 李대통령 신년 기자회견-9",
+          "link": "https://www.yna.co.kr/view/AKR20260121084300001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-01-21 11:41:10",
+          "description": "-- 종교와 정치 분리 문제를 질문드리고 싶다. 통일교·신천지 특검 법안이 통과를 앞두고 있는데 국민의힘 측 행보가 오락가락하는 것 같다. 처음...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "이재명 정부 임명 첫 대법관 윤곽은…오늘 오후 후보추천위",
+          "link": "https://www.yna.co.kr/view/AKR20260121058800004",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-01-21 10:52:57",
+          "description": "(서울=연합뉴스) 이미령 기자 = 이재명 정부가 임명하는 첫 대법관 후보군을 선별할 후보추천위원회가 21일 열린다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 \"성장전략 대전환…검찰개혁 확실하게 추진\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260121058100001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-01-21 10:21:50",
+          "description": "지방·양극화해소·안전·문화·평화 등 5大전략…&quot;성장지도 다시 그리는 것&quot;\n&quot;북미·남북대화 조기성사 노력…9·19 군사합의 복원&quot;",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "[특징주] 李대통령, ‘생리대 무상 공급 검토’에…관련주 강세",
+          "link": "https://www.chosun.com/economy/stock-finance/2026/01/21/HA3GIYLDMNSDGM3FMIZTGOJWMI/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-01-21 09:52:26",
+          "description": "이재명 대통령이 ‘생리대 무상 공급’을 검토해달라고 발언한 가운데, 21일 관련주들이 강세를 보이고 있다.  이날 오전 9시 42분 기준 모나리자 주식은 유가증권시장에서 전 거래일 대비 7.69%(170원) 상승한 2380원을 가리키고 있다. 깨끗한나라 주식도 전일 대비 2.58%(50원) 오른 1985원을 기록 중이다. 모나리자와 깨끗한나라는 생리대 등",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, 오늘 신년 기자회견…집권 2년 차 '대도약' 구상 제시",
+          "link": "https://www.yna.co.kr/view/AKR20260120148500001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-01-21 05:00:00",
+          "description": "(서울=연합뉴스) 설승은 기자 = 이재명 대통령이 21일 오전 청와대 영빈관에서 신년 기자회견을 갖고 병오년 새해 국정 구상을 밝힌다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, 카타르 국왕과 통화…\"방산·에너지 협력 확대\"",
+          "link": "https://www.yna.co.kr/view/AKR20260120165000001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-01-20 20:30:00",
+          "description": "(서울=연합뉴스) 황윤기 기자 = 이재명 대통령은 20일 타밈 빈 하마드 알사니 카타르 국왕과 취임 후 두 번째로 통화하고 가까운 시일 내 직접...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, 내일 與 새 원내지도부 만찬…입법과제 점검",
+          "link": "https://www.yna.co.kr/view/AKR20260120141400001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-01-20 17:18:54",
+          "description": "(서울=연합뉴스) 임형섭 기자 = 이재명 대통령이 21일 더불어민주당 신임 원내지도부와 만찬을 가질 것으로 20일 알려졌다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "[정치 인사이드] 李, 한준호 띄우자… 비명계 “경기지사도 명심 찍기”",
+          "link": "https://www.chosun.com/politics/assembly/2026/01/21/TK4M4QOYUFBIXHEZ7GWLEWUJTI/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-01-21 00:48:00",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "국가 공인 1호 테러 ‘李대통령 피습’ 지정",
+          "link": "https://www.chosun.com/politics/politics_general/2026/01/21/S2XVU7E7NZCVFGS5GZFJF7AGGA/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-01-21 00:49:00",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 \"싼 생리대 왜 안 만드나…무상 공급 검토해보라\"",
+          "link": "https://www.yna.co.kr/view/AKR20260120115600001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-01-20 15:47:25",
+          "description": "(서울=연합뉴스) 고동욱 황윤기 기자 = 이재명 대통령은 20일 국내 생리대의 가격 문제와 관련해 &quot;아주 기본적인 품질을 갖춘 생리대를 싸게 만...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": true,
+          "related_full_sources": [
+            {
+              "source": "조선일보-정치",
+              "title": "李대통령 “생리대 너무 비싸... 무상 공급 검토하라”",
+              "link": "https://www.chosun.com/politics/blue_house/2026/01/20/4YIQDWRXJVHC5AZMBRBWSHQFSU/"
+            }
+          ]
+        },
+        {
+          "title": "李대통령, 경사노위 김지형 신임 위원장에 임명장 수여",
+          "link": "https://www.yna.co.kr/view/AKR20260120120600001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-01-20 15:49:08",
+          "description": "(서울=연합뉴스) 임형섭 기자 = 이재명 대통령은 20일 오후 청와대 본관에서 경제사회노동위원회(경사노위) 김지형 신임 위원장에게 임명장을 수여...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "[지상중계] 李대통령 신년 기자회견-2",
+          "link": "https://www.yna.co.kr/view/AKR20260121062100001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-01-21 10:35:43",
+          "description": "-- 환율이 방금 1천480원이 넘었다. 1천500원까지 올라갈 거라는 지적들이 나오고 있는데 환율 문제를 해결하기 위해서 대통령께서 가지고 계...",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "[지상중계] 李대통령 신년 기자회견-6",
+          "link": "https://www.yna.co.kr/view/AKR20260121075000001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-01-21 11:07:02",
+          "description": "-- 코스피 5천시대가 코앞에 다가왔다. 대통령님 공약이시기도 했는데 코스피가 이제 많이 상승하면서 국민연금 고갈 시기도 늦춰질 거라는 전망이 ...",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 “은행 이자보다 못한 퇴직연금 수익률…대책 세워야”",
+          "link": "https://www.chosun.com/economy/economy_general/2026/01/21/MEZTONRXHE4TENBUGNSTAN3FMQ/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-01-21 10:50:41",
+          "description": "이재명 대통령은 21일 청와대 영빈관에서 열린 신년 기자회견에서 퇴직연금 기금화에 대한 질문을 받고 “보통 기금 연 수익률이 7~8% 수준인데 퇴직연금은 1%대”라며 “은행 이자 수준도 못 되는데 계속 방치할 수 없다”고 했다. 이 대통령은 “이런 식으로 물가보다 수익률 낮으면 손해 보는 것”이라면서 “퇴직연금, 국민연금, 기초연금, 공무원 연금, 사학연",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "[속보] 李대통령 “용인 반도체, 용수·송전 어려워…힘 모아주면 거대한 방향 전환 가능”",
+          "link": "https://www.chosun.com/economy/economy_general/2026/01/21/G44DEOBTHE3WIY3BGI2WKNZQG4/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-01-21 11:47:19",
+          "description": "&#12644;",
+          "category": "domestic",
+          "priority_score": 0,
+          "sector": "반도체",
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, 美 '반도체 100% 관세' 압박에 \"심각하게 우려 안 해\"",
+          "link": "https://www.yna.co.kr/view/AKR20260121080000001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-01-21 11:44:31",
+          "description": "(서울=연합뉴스) 설승은 오규진 기자 = 이재명 대통령은 21일 미국의 반도체 관세 100% 부과 압박과 관련해 &quot;그렇게 심각하게 우려하지 않는...",
+          "category": "domestic",
+          "priority_score": 0,
+          "sector": "반도체",
+          "related_full_sources": [
+            {
+              "source": "조선일보-정치",
+              "title": "李 대통령 “美 반도체 100% 관세, 크게 우려하지 않아”",
+              "link": "https://www.chosun.com/politics/politics_general/2026/01/21/62LNHJWHSFGFJKHVMWGAB4SWIA/"
+            }
+          ]
+        },
+        {
+          "title": "李 대통령 테마주였어?…로봇주 열풍 타고 숨통 트이더니 [종목+]",
+          "link": "https://www.hankyung.com/article/2026012127606",
+          "source": "한국경제-기업",
+          "published_dt": "2026-01-21 08:18:29",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "sector": "AI/로봇",
+          "related_full_sources": []
+        },
+        {
+          "title": "[지상중계] 李대통령 신년 기자회견-3",
+          "link": "https://www.yna.co.kr/view/AKR20260121069700001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-01-21 10:58:33",
+          "description": "-- 주거 문제와 관련해 묻는다. 정부가 지난해 두 차례의 대책을 내놨지만 서울을 중심으로 집값은 좀처럼 안정되지 않고 있는 듯하다. 추가 공급...",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 21,
+      "role": "한국 대통령"
+    },
+    "트럼프": {
+      "articles": [
+        {
+          "title": "트럼프, '가자 평화위원회'에 한국도 초청…정부 \"검토 중\"",
+          "link": "https://www.yna.co.kr/view/AKR20260120120500504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-01-20 15:45:17",
+          "description": "(서울=연합뉴스) 민선희 기자 = 도널드 트럼프 미국 대통령이 한국에도 가자지구 평화위원회에 참여해달라고 초청한 것으로 확인됐다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "[특징주] 트럼프 ‘알래스카 LNG 투자’ 발언에 관련주 강세… 대동스틸 ‘上 ’",
+          "link": "https://www.chosun.com/economy/stock-finance/2026/01/21/MM3TQNRTHBSGCOBWGZSDMZRSME/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-01-21 09:46:11",
+          "description": "도널드 트럼프 미국 대통령이 알래스카 액화천연가스(LNG) 사업 투자를 낙관적으로 전망하는 취지의 발언을 내놓자, 21일 장 초반 강관 업체 관련주가 일제히 상승 중이다. 이날 오전 9시 42분 기준 대동스틸은 전 거래일 대비 850원(29.98%) 오른 3685원에 거래되고 있다. 개장 직후 상한가(일일 가격 상승 제한폭)로 직행했다. 넥스틸(23.46",
+          "category": "domestic",
+          "priority_score": 0,
+          "sector": "배터리/에너지",
+          "related_full_sources": []
+        },
+        {
+          "title": "월드컵에 호날두 없다면…트럼프 압박에 월드컵 보이콧 기류 확산",
+          "link": "https://www.donga.com/news/Inter/article/all/20260121/133199434/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-01-21 09:26:56",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/01/21/133199435.1.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령이 덴마크령 그린란드를 내놓으라며 추가 관세로 위협하자 유럽 내부에서 올해 여름 열리는 2026 국제축구연맹(FIFA) 북중미월드컵을 거부해야 한다는 목소리가 커지고 있다.영국 가디언은 20일(현지시간) 트럼프의 압박과 그린란드 병합 시도가 유럽축구연맹(UEFA) 소속 국가들 주도의 보이콧을 불러올 수 있다고 보도했다.UEFA는 회원국인 덴마크의 영토를 위협하는 트럼프의 행보에 예의주시하면서 대책을 논의하고 있는 것으로 전해졌다. 현재까지 공식 입장을 내진 않았지만 대응 기조가 강해질 수 있다고 봤다.독일 싱크탱크 베르텔스만재단의 경제학자 루카스 구텐베르크는 독일 경제지 한델스블라트에 “유럽 축구 강국들이 보이콧을 꺼내들면 트럼프 입장에선 시간이 흐를수록 압박이 될 수 있다”며 “크리스티아누 호날두(포르투갈)와 킬리안 음바페(프랑스) 없는 월드컵이 자신의 체면을 깎는다는 점은 분명히 알 것”이라고 주장했다.앞서 독일 사회민주당(SPD)의 세바스키안 롤",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "올해 다보스는 ‘그린란드 대첩’…트럼프 vs 유럽 맞붙는다",
+          "link": "https://www.donga.com/news/Inter/article/all/20260120/133193134/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-01-20 16:11:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/01/20/133197956.1.jpg\" vspace=\"10\" />스위스 다보스에서 열리는 세계경제포럼(WEF·다보스포럼) 연차총회가 19일(현지 시간) 개막했다. 도널드 트럼프 미국 대통령이 21일 오후 연설을 할 예정인 가운데 세간의 관심은 공식 행사보다 덴마크령 그린란드를 둘러싼 트럼프 대통령과 유럽 정상들 간의 대화에 쏠려 있다. 트럼프 대통령이 17일 그린란드에 파병을 결정한 영국 프랑스 독일 덴마크 등 8개국에 대한 추가 관세 부과(다음달부터 10%, 6월부터 25%)를 선언한  뒤 유럽에선 ‘반(反)트럼프’ 여론이 거세다. 하지만 유럽 주요국 사이에선 대응 수위를 둘러싼 온도 차도 뚜렷한 뾰족한 돌파구가 나올지는 미지수다.그린란드 문제의 당사국인 덴마크는 이번 총회에 아예 대표단을 파견하지 않기로 했다. 트럼프 대통령의 그린란드 병합 방침에 대한 불쾌한 기색을 노골적으로 나타낸 것이다. 프랑스는 2023년 도입돼 이른바 ‘무역 바주카포’로 불리는 EU의 통상위협대응조치(ACI) 발동을 제안하며 강경론을 주도하고 있다. ACI가 발효",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "젤렌스키, 다보스포럼 사실상 불참…“서명할 문서 준비되면 트럼프 만날 것”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260121/133198779/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-01-21 07:37:13",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/01/21/133198780.1.jpg\" vspace=\"10\" />볼로디미르 젤렌스키 우크라이나 대통령은 20일(현지시간) 도널드 트럼프 미국 대통령과 스위스 다보스 회동과 관련해 “(안보 보장 등) 서명할 문서가 준비되거나 방공 시스템 인도에 대한 회의가 마련된다면 갈 준비가 돼 있다”고 조건을 제시했다.우크린포름과 키이우 인디펜던트에 따르면 젤렌스키 대통령은 이날 트럼프 대통령과 다보스에서 만날 가능성과 안보 보장 협상 진척을 묻는 취재진에 “아직 최종 결정이 내려지지 않았다”며 이같이 밝혔다. 젤렌스키 대통령은 “미국과 만남은 우크라이나를 강화하거나 전쟁을 종식하기 위한 구체적인 결과로 마무리돼야 한다”며 “우리 팀이 논의 중인 것으로 확신하지만, 내가 간다면 회담이 성사될 것이고 어떤 성과를 가지고 회담할 것이다. 문서가 준비되면 만날 것”이라고 말했다.키이우 인디펜던트는 젤렌스키 대통령이 러시아의 에너지 및 전력망 공습을 이유로 다보스에 가는 대신 우크라이나에 남기로 결정했다고 했다. 다만 우크라이나를 위한 추가 방공 시스템과 에",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프 2기 파워엘리트, 백인 87%-남성 83% 충성파만 모았다",
+          "link": "https://www.donga.com/news/Inter/article/all/20260120/133197927/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-01-21 04:30:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/01/20/133195022.4.jpg\" vspace=\"10\" />20일 재집권 1년을 맞은 도널드 트럼프 2기 미국 행정부의 ‘파워엘리트’ 52명의 면면을 동아일보가 분석한 결과 ‘50대 백인 남성 내각’의 특징이 분명하게 드러났다. 52명 중 86.5%인 45명이 백인이었고, 성별 또한 남성이 83%로 절대 다수를 차지했다. 2025년 인구통계 기준 3억3000만 명 미국인의 42.5%가 비(非)백인인 것과 큰 차이가 있다.인사 때 ‘충성심’을 최우선시하는 경향도 두드러졌다. 트럼프 대통령은 집권 1기 때 마이크 펜스 전 부통령, 존 볼턴 전 백악관 국가안보보좌관, 제임스 매티스 전 국방장관, 렉스 틸러슨 전 국무장관 등 주요 인사와 불화했다. 이를 통해 일종의 ‘배신자 트라우마’에 휩싸인 트럼프 대통령이 집권 2기에는 의도적으로 충성파만 대거 기용했다는 분석이 나온다.여성 주요 인사의 절대 숫자는 적지만 소위 ‘핵심 보직’을 차지했다는 점도 눈길을 끈다. 수지 와일스 백악관 비서실장, 크리스티 놈 국토안보장관은 각각 최초의 여성 백악관 비",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프 “가장 강력한 美, 그린란드 가져야…다보스포럼서 논의”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260120/133194142/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-01-20 15:45:27",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/01/20/133194143.1.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령이 19일(현지시간) 스위스 다보스에서 개막한 세계경제포럼(WEF) 연차총회(다보스포럼)에 참석해 미국의 그린란드 획득 문제를 논의하겠다고 말했다.로이터통신에 따르면 트럼프 대통령은 이날 플로리다에서 기자들과 만나 “우리는 그린란드를 가져야 한다. 덴마크는 이 문제를 해결해야 한다”며 “그들은 그린란드를 보호할 수 없다. 덴마크 사람들은 훌륭하지만”이라고 말했다. 그러면서 “나는 덴마크 지도자들을 알고 있다. 그들은 매우 좋은 사람들이지만, 그들은 그린란드에 가지도 않는다”고 주장했다.트럼프 대통령은 이번 주 다보스포럼에서 “미국의 그린란드 획득 문제를 논의할 것”이라고도 했다. 트럼프 대통령은 21일 다보스포럼에서 연설이 예정돼 있다.트럼프 대통령은 20일 이른 새벽 트루스소셜에 올린 글에서도 자신이 마르크 뤼터 북대서양조약기구(NATO) 사무총장과 “매우 좋은” 전화 통화를 했다며 다보스포럼에서 이를 논의하겠다고 말했다. 그러면서 “그린란드는 국",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "마크롱이 거슬리는 트럼프 “佛 와인에 200% 관세 부과할 것”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260120/133194160/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-01-20 15:47:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/01/20/133196416.1.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령은 에마뉘엘 마크롱 프랑스 대통령이 가자지구 평화위원회(Board of Peace)에 가입하지 않으면 프랑스산 와인과 샴페인에 200% 관세를 부과하겠다고 위협했다.20일(현지시간) 로이터에 따르면 트럼프 대통령은 이날 기자회견에서 마크롱 대통령이 평화위 참여를 거부했다는 기자의 질문에 “그가 그렇게 말했다고? 그는 곧 물러날 사람이기 때문에 아무도 그를 원하지 않는다”고 답했다. 이어 “나는 프랑스 와인과 샴페인에 200% 관세를 부과할 것이고, 그는 (평화위에) 가입할 것”이라면서도 “그렇지만 그는 굳이 가입하지 않아도 된다”고 덧붙였다.평화위는 가자지구 분쟁 관리·감독을 위한 국제 분쟁 중재 기구다. 트럼프 대통령은 지난해 9월 가자지구 전쟁 종식을 위한 20개 항목의 평화 구상을 발표하면서 가자 임시 통치 기구를 감독할 최상위 기구로 제안했다.이번 트럼프 대통령의 발언은 마크롱 대통령이 유럽연합(EU)에 일명 ‘무역 바주카포’로 불리는 통상위협",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 8,
+      "role": "미국 대통령"
+    },
+    "장동혁": {
+      "articles": [
+        {
+          "title": "국힘, 오후 긴급 의총 개최…\"장동혁, 단식으로 상태 위중\"",
+          "link": "https://www.yna.co.kr/view/AKR20260121080400001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-01-21 11:34:29",
+          "description": "(서울=연합뉴스) 김연정 노선웅 기자 = 국민의힘 장동혁 대표가 21일로 7일째 단식을 이어가면서 건강이 악화한 가운데 국민의힘이 이날 오후 2...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "장동혁 \"巨與 폭정 맞서 단식\"…산소발생기 착용 조치(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260120167451001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-01-20 23:17:55",
+          "description": "(서울=연합뉴스) 박수윤 김유아 조다운 노선웅 기자 = 국민의힘 장동혁 대표는 단식 엿새째인 20일 &quot;1분 1초라도 국민께 더 호소드릴 수 있다...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "‘쌍특검’ 단식 엿새째 장동혁 “변화는 반드시 올 것”",
+          "link": "https://www.chosun.com/politics/politics_general/2026/01/20/C72ZHVLYX5DPPML3PWBGVFWIPI/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-01-20 10:42:20",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": true,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "국민의힘 국회의원"
+    },
+    "김부겸": {
+      "articles": [
+        {
+          "title": "[속보] 金총리, 22일부터 2박 5일 미국 방문…첫 해외 일정",
+          "link": "https://www.yna.co.kr/view/AKR20260121032500001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-01-21 09:02:43",
+          "description": "(",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "金총리 \"문화국가라 말하면서 예산은 1%대…두 배로 드라이브\"",
+          "link": "https://www.yna.co.kr/view/AKR20260120126200001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-01-20 16:11:23",
+          "description": "(서울=연합뉴스) 황윤기 기자 = 김민석 국무총리가 이재명 정부 임기 중 문화예술 분야 예산을 현행 대비 2배 수준으로 늘리겠다는 의지를 내보였...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "金총리, 산은 회장 면담…“첨단산업 지원으로 ‘생산적 금융’ 선도해야”",
+          "link": "https://www.chosun.com/politics/politics_general/2026/01/20/6RO3J45UUBB7RJIV47XLKHZZCU/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-01-20 12:22:20",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "Science/Tech",
+          "is_representative": true,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "대한민국 국무총리"
+    }
+  }
 }
