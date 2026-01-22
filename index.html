@@ -774,6 +774,475 @@
                 <header>
                     <div class="header-meta">
                         <span class="header-date">2026.01.22</span>
+                        <span class="header-time">Generated at 09:32:54</span>
+                    </div>
+                    <h1>Morning News</h1>
+                    
+        <div class="weather-container">
+            <div id="weather-icon-wrapper">
+                <!-- Dynamic SVG Icon -->
+            </div>
+            <div class="weather-details">
+                <div id="weather-temp-main">
+                    <span id="temp-val">--°</span>
+                    <span id="weather-range">--° / --°</span>
+                </div>
+                <div class="weather-extra" id="weather-desc">LOADING...</div>
+                <div class="weather-diff-box" id="weather-diff-box"></div>
+            </div>
+        </div>
+        
+                    <button id="subscribeBtn" class="push-subscribe-btn" onclick="saveSubscription()">🔔 Get Notifications</button>
+                </header>
+<div class="sticky-nav">
+                <a href="https://gemini-783885185452.us-west1.run.app/" class="nav-pill">🔎 Gemini 네비게이터</a>
+                <a href="#인물별" class="nav-pill">👤 인물별 (35)</a><a href="#정치" class="nav-pill">정치 (24)</a><a href="#경제/거시" class="nav-pill">경제/거시 (10)</a><a href="#기업/산업" class="nav-pill">기업/산업 (34)</a><a href="#부동산" class="nav-pill">부동산 (17)</a><a href="#국제" class="nav-pill">국제 (20)</a><a href="#science" class="nav-pill">테크 (10)</a>
+            </div>
+            <div class="briefing-card"><div class="briefing-title">⚡ Morning Briefing</div>
+                    <div class="briefing-item">
+                        <span class="briefing-label">정치</span>
+                        <span class="briefing-content">이 대통령은 신년 기자회견을 통해 9·19 군사합의 복원과 북미·남북 대화의 조기 성사 의지를 밝혔습니다. 또한 검찰개혁과 성장전략 대전환을 추진하겠다는 구상을 내놓았으며, 정치권에서는 야당의 특검 추진과 여당 의원의 단식 투쟁이 이어지며 대립이 지속되고 있습니다.</span>
+                    </div>
+                    
+                    <div class="briefing-item">
+                        <span class="briefing-label">경제/거시</span>
+                        <span class="briefing-content">정부는 국민참여펀드 소득공제와 서학개미 양도세 면제라는 파격적인 세제 혜택을 발표했습니다. 시장에서는 비트코인이 9만 달러 아래로 급락하며 변동성이 보였고, 12월 사과 가격이 20% 가까이 폭등하며 장바구니 물가 부담이 확인되었습니다.</span>
+                    </div>
+                    
+                    <div class="briefing-item">
+                        <span class="briefing-label">기업/산업</span>
+                        <span class="briefing-content">현대차가 시가총액 107조 원을 돌파하며 사상 최고가를 기록했고, SK하이닉스는 높은 영업이익률 전망에 시장의 관심이 쏠렸습니다. 대통령은 반도체 클러스터에 대한 전폭적인 지원 의지를 드러냈으나, 바이오와 명품주 섹터는 계약 규모 실망감과 관세 우려로 약세를 보였습니다.</span>
+                    </div>
+                    
+                    <div class="briefing-item">
+                        <span class="briefing-label">부동산</span>
+                        <span class="briefing-content">대출 규제의 영향으로 서울 아파트 준월세 비중이 55%까지 확대되며 임대차 시장의 구조적 변화가 나타나고 있습니다. 성남시가 분당을 특별정비구역으로 지정하는 등 개발 소식이 전해진 반면, 일부 재건축 단지는 높은 분담금 문제로 분양 절차가 중단되는 부작용도 발생했습니다.</span>
+                    </div>
+                    
+                    <div class="briefing-item">
+                        <span class="briefing-label">국제</span>
+                        <span class="briefing-content">트럼프 당선인이 그린란드 매입 의사와 프랑스 와인에 대한 고율 관세 부과를 언급하며 글로벌 통상 환경에 긴장이 고조되었습니다. 시진핑 주석은 중국 경제의 도전과 불확실성을 경고했으며, 일본 원전 재가동과 동남아 범죄 조직 이슈 등 다양한 국제적 사건들이 보고되었습니다.</span>
+                    </div>
+                    <div class="sentiment-box"><div class="sentiment-row"><span class="sentiment-type hojae">📈 호재</span> <div class="sentiment-items"><div class="sentiment-item">현대차: 사상 최고가 경신</div><div class="sentiment-item">SK하이닉스: 이익률 40% 전망</div><div class="sentiment-item">유비쿼스: AI 수혜 상한가</div></div></div><div class="sentiment-row"><span class="sentiment-type akjae">📉 악재</span> <div class="sentiment-items"><div class="sentiment-item">알테오젠: 계약규모 실망감</div><div class="sentiment-item">이랜드월드: 폴더 사업부 매각</div><div class="sentiment-item">한화생명: 당국 표적 조사</div></div></div></div></div><div id="인물별" class="section-title">🔍 주요 인물별 뉴스</div><div class="sector-subheading">👤 이재명 (한국 대통령) (21건)</div>
+            }
+
+            @keyframes pulse {
+                from { transform: scale(1); opacity: 0.5; }
+                to { transform: scale(1.1); opacity: 0.8; }
+            }
+
+            .header-meta {
+                position: relative;
+                z-index: 1;
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+                margin-bottom: 15px;
+            }
+
+            .header-date {
+                font-size: 0.85rem;
+                font-weight: 300;
+                letter-spacing: 2px;
+                color: var(--primary);
+                text-transform: uppercase;
+            }
+
+            .header-time {
+                font-size: 0.7rem;
+                color: var(--text-secondary);
+                letter-spacing: 1px;
+            }
+
+            header h1 {
+                position: relative;
+                z-index: 1;
+                margin: 20px 0;
+                font-size: 3.5rem;
+                font-family: 'Russo One', sans-serif;
+                font-weight: 400;
+                text-transform: none;
+                letter-spacing: 1px;
+                line-height: 1;
+                color: #eeeeee;
+                /* 은은하고 차분한 글로우로 변경 */
+                text-shadow: 0 0 10px rgba(255, 255, 255, 0.2), 
+                             0 0 20px rgba(79, 172, 254, 0.1);
+                display: block;
+            }
+
+            .header-date {
+                font-size: 0.9rem;
+                font-weight: 600;
+                letter-spacing: 1px;
+                color: #4facfe;
+                margin-bottom: 4px;
+            }
+
+            .header-time {
+                font-size: 0.8rem;
+                color: var(--text-secondary);
+                font-weight: 300;
+            }
+
+            .section-title {
+                font-size: 1.1rem;
+                font-weight: 600;
+                margin: 40px 0 20px;
+                color: var(--text);
+                display: flex;
+                align-items: center;
+                gap: 12px;
+                letter-spacing: 0.5px;
+            }
+            
+            .section-title::after {
+                content: '';
+                flex: 1;
+                height: 1px;
+                background: linear-gradient(90deg, var(--border), transparent);
+            }
+
+            .card {
+                background: var(--surface);
+                border-radius: 20px;
+                padding: 20px;
+                margin-bottom: 16px;
+                border: 1px solid var(--border);
+                transition: var(--transition);
+                text-decoration: none;
+                display: block;
+                color: inherit;
+                backdrop-filter: blur(10px);
+            }
+            
+            .card:hover {
+                transform: translateY(-4px);
+                background: var(--surface-hover);
+                border-color: rgba(255, 255, 255, 0.2);
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+            }
+
+            .card-title {
+                font-weight: 400;
+                font-size: 1.1rem;
+                line-height: 1.4;
+                margin-bottom: 12px;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+                color: #efefef;
+            }
+
+            .card-meta {
+                font-size: 0.8rem;
+                color: var(--text-secondary);
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                font-weight: 300;
+            }
+
+            .tag {
+                color: var(--primary);
+                font-size: 0.75rem;
+                font-weight: 600;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+            }
+
+            /* Briefing Card */
+            .briefing-card {
+                background: var(--surface);
+                padding: 24px;
+                border-radius: 24px;
+                margin-bottom: 40px;
+                border: 1px solid var(--border);
+                backdrop-filter: blur(10px);
+            }
+            .briefing-title {
+                font-weight: 600;
+                font-size: 1rem;
+                margin-bottom: 20px;
+                color: var(--primary);
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                text-transform: uppercase;
+                letter-spacing: 1.5px;
+            }
+            .briefing-item {
+                font-size: 0.95rem;
+                margin-bottom: 12px;
+                display: flex;
+                gap: 12px;
+                align-items: flex-start;
+                line-height: 1.5;
+            }
+            .briefing-label {
+                font-weight: 600;
+                min-width: 65px;
+                color: var(--text);
+                font-size: 0.85rem;
+            }
+            .briefing-content {
+                color: var(--text-secondary);
+                font-weight: 300;
+            }
+
+            .sentiment-box {
+                margin-top: 24px;
+                padding-top: 20px;
+                border-top: 1px solid var(--border);
+            }
+            .sentiment-row {
+                display: flex;
+                margin-bottom: 12px;
+                font-size: 0.85rem;
+            }
+            .sentiment-type {
+                font-weight: 600;
+                margin-right: 15px;
+                min-width: 50px;
+            }
+            .sentiment-items {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 8px;
+            }
+            .sentiment-item {
+                background: var(--related-bg);
+                padding: 4px 10px;
+                border-radius: 8px;
+                border: 1px solid var(--border);
+                font-weight: 300;
+            }
+            .hojae { color: #ff4b4b; } 
+            .akjae { color: #4facfe; } 
+
+            /* Sticky Nav */
+            .sticky-nav {
+                position: sticky;
+                top: 0;
+                background: var(--nav-bg);
+                backdrop-filter: blur(20px);
+                z-index: 1000;
+                padding: 12px 20px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: flex-start;
+                gap: 8px;
+                border-bottom: 1px solid var(--border);
+            }
+            
+            .nav-pill {
+                padding: 8px 16px;
+                border-radius: 100px;
+                font-size: 0.8rem;
+                color: var(--text-secondary);
+                text-decoration: none;
+                white-space: nowrap;
+                transition: var(--transition);
+                font-weight: 400;
+                border: 1px solid transparent;
+            }
+            .nav-pill:active, .nav-pill.active {
+                background: var(--surface-hover);
+                color: var(--text);
+                border-color: var(--border);
+            }
+
+            .card.priority {
+                border-left: 3px solid var(--card-priority-border);
+                background: var(--card-priority-bg);
+            }
+            
+            .card.representative {
+                border-left: 3px solid rgba(79, 172, 254, 0.6);
+                background: rgba(79, 172, 254, 0.03);
+            }
+            
+            .sector-subheading {
+                font-weight: 600;
+                font-size: 0.95rem;
+                color: var(--primary);
+                margin-top: 24px;
+                margin-bottom: 12px;
+                padding-left: 8px;
+                border-left: 3px solid var(--primary);
+            }
+
+            details.related-sources {
+                font-size: 0.8rem;
+                margin-top: 15px;
+                border-top: 1px solid var(--border);
+                padding-top: 12px;
+            }
+            details.related-sources summary {
+                color: var(--text-secondary);
+                cursor: pointer;
+                outline: none;
+                list-style: none;
+                font-weight: 300;
+                display: flex;
+                align-items: center;
+                gap: 5px;
+            }
+            .related-link {
+                display: block;
+                color: var(--primary);
+                text-decoration: none;
+                padding: 10px 14px;
+                margin-top: 8px;
+                background: var(--related-bg);
+                border-radius: 12px;
+                border: 1px solid var(--border);
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                font-weight: 300;
+            }
+
+            .weather-container {
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                padding: 15px 35px;
+                background: rgba(255, 255, 255, 0.05);
+                backdrop-filter: blur(15px);
+                border-radius: 40px;
+                border: 1px solid rgba(255, 255, 255, 0.1);
+                width: fit-content;
+                margin: 25px auto 0;
+                position: relative;
+                z-index: 1;
+            }
+
+            #weather-icon-wrapper {
+                width: 50px;
+                height: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            #weather-temp-main {
+                font-size: 1.4rem;
+                font-weight: 700;
+                display: flex;
+                align-items: center;
+                gap: 12px;
+                color: #ffffff;
+            }
+
+            #weather-range {
+                font-size: 0.95rem;
+                color: #888;
+                font-weight: 400;
+            }
+
+            .weather-extra {
+                font-size: 0.85rem;
+                color: #4facfe;
+                margin-top: 4px;
+                font-weight: 500;
+            }
+
+            #weather-diff-box {
+                font-size: 0.85rem;
+                color: #ffb74d;
+                margin-top: 4px;
+                font-weight: 500;
+            }
+
+            /* Weather Icons SVGs */
+            .weather-svg {
+                width: 36px;
+                height: 36px;
+            }
+
+            .sun {
+                fill: #FFD60A;
+                animation: rotate 20s linear infinite;
+            }
+
+            .cloud {
+                fill: #8E8E93;
+            }
+
+            .rain-drop {
+                fill: #007AFF;
+                animation: rain 1s linear infinite;
+            }
+
+            .snow-flake {
+                fill: #FFFFFF;
+                animation: snow 2s linear infinite;
+            }
+
+            @keyframes rotate {
+                from { transform: rotate(0deg); }
+                to { transform: rotate(360deg); }
+            }
+
+            @keyframes rain {
+                0% { transform: translateY(-5px); opacity: 0; }
+                50% { opacity: 1; }
+                100% { transform: translateY(10px); opacity: 0; }
+            }
+
+            @keyframes snow {
+                0% { transform: translateY(-5px) rotate(0deg); opacity: 0; }
+                50% { opacity: 1; }
+                100% { transform: translateY(10px) rotate(360deg); opacity: 0; }
+            }
+
+            footer {
+                text-align: center;
+                margin-top: 60px;
+                color: #333;
+                font-size: 0.7rem;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+            }
+
+            /* Push Notification Button */
+            .push-subscribe-btn {
+                position: relative;
+                z-index: 1;
+                background: transparent;
+                color: var(--text-secondary);
+                border: 1px solid var(--border);
+                padding: 10px 20px;
+                border-radius: 100px;
+                font-size: 0.75rem;
+                font-weight: 400;
+                cursor: pointer;
+                margin: 20px auto 0;
+                display: block;
+                transition: var(--transition);
+                text-transform: uppercase;
+                letter-spacing: 1px;
+            }
+            .push-subscribe-btn:hover {
+                border-color: var(--primary);
+                color: var(--text);
+                background: var(--surface);
+            }
+            .push-subscribe-btn.subscribed {
+                opacity: 0.5;
+                cursor: default;
+            }
+
+        </style>
+        
+        </head>
+        <body>
+            <div class="container">
+                <header>
+                    <div class="header-meta">
+                        <span class="header-date">2026.01.22</span>
                         <span class="header-time">Generated at 08:38:48</span>
                     </div>
                     <h1>Morning News</h1>
@@ -1566,12 +2035,11 @@
                         <span>01.07 21:04</span>
                     </div>
                 </a>
-                
-                <footer>&copy; 2025 PREMIUM MORNING NEWS BOT</footer>
+<footer>&copy; 2025 PREMIUM MORNING NEWS BOT</footer>
             </div>
             <div class="sticky-nav">
 
-            # Gemini navigator shortcut (opens in new tab)
-            html += '<a href="https://gemini-783885185452.us-west1.run.app/" class="nav-pill" target="_blank" rel="noopener noreferrer">🔎 Gemini 네비게이터</a>'
+            # Gemini navigator shortcut
+            html += '<a href="https://gemini-783885185452.us-west1.run.app/" class="nav-pill">🔎 Gemini 네비게이터</a>'
         </html>
         
