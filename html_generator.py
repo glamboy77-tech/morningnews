@@ -1028,10 +1028,7 @@ class HTMLGenerator:
         html += """
                 <footer>&copy; 2025 PREMIUM MORNING NEWS BOT</footer>
             </div>
-            <div class="sticky-nav">
-
-            # Gemini navigator shortcut
-            html += '<a href="https://gemini-783885185452.us-west1.run.app/" class="nav-pill">🔎 Gemini 네비게이터</a>'
+        </body>
         </html>
         """
         
