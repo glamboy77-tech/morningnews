@@ -78,7 +78,10 @@
                   if (loading) loading.style.display = 'flex';
 
                   // set src lazily (avoid background CPU)
-                  if (!frame.src) frame.src = GEMINI_NAV_URL;
+                  // NOTE: iframe.src property is auto-resolved even when attribute is "".
+                  // Use the attribute value to decide whether we've already loaded Gemini.
+                  const srcAttr = frame.getAttribute('src');
+                  if (!srcAttr || srcAttr === 'about:blank') frame.setAttribute('src', GEMINI_NAV_URL);
               }
 
               function closeGeminiNavigator() {
@@ -895,7 +898,7 @@
                 <header>
                     <div class="header-meta">
                         <span class="header-date">2026.01.23</span>
-                        <span class="header-time">Generated at 12:39:53</span>
+                        <span class="header-time">Generated at 13:14:49</span>
                     </div>
                     <h1>Morning News</h1>
                     
@@ -909,13 +912,13 @@
                     <span id="weather-range">--° / --°</span>
                 </div>
                 <div class="weather-extra" id="weather-desc">LOADING...</div>
-                <div class="weather-diff-box" id="weather-diff-box"></div>
+                <div class="weather-diff-box" id="weather-diff-box">어제보다 3.5° 높습니다</div>
             </div>
         </div>
         
                     <button id="subscribeBtn" class="push-subscribe-btn" onclick="saveSubscription()">🔔 Get Notifications</button>
                 </header>
-        <div class="sticky-nav"><a href="#" class="nav-pill" onclick="openGeminiNavigator(); return false;">🔎 Gemini 네비게이터</a><a href="#인물별" class="nav-pill">👤 인물별 (32)</a><a href="#정치" class="nav-pill">정치 (69)</a><a href="#경제/거시" class="nav-pill">경제/거시 (23)</a><a href="#기업/산업" class="nav-pill">기업/산업 (91)</a><a href="#부동산" class="nav-pill">부동산 (32)</a><a href="#국제" class="nav-pill">국제 (17)</a><a href="#science" class="nav-pill">테크 (10)</a></div><div class="briefing-card"><div class="briefing-title">⚡ Morning Briefing</div>
+<div class="sticky-nav"><a href="#" class="nav-pill" onclick="openGeminiNavigator(); return false;">🔎 Gemini 네비게이터</a><a href="#인물별" class="nav-pill">👤 인물별 (32)</a><a href="#정치" class="nav-pill">정치 (69)</a><a href="#경제/거시" class="nav-pill">경제/거시 (23)</a><a href="#기업/산업" class="nav-pill">기업/산업 (91)</a><a href="#부동산" class="nav-pill">부동산 (32)</a><a href="#국제" class="nav-pill">국제 (17)</a><a href="#science" class="nav-pill">테크 (10)</a></div><div class="briefing-card"><div class="briefing-title">⚡ Morning Briefing</div>
                     <div class="briefing-item">
                         <span class="briefing-label">정치</span>
                         <span class="briefing-content">대통령 지지율이 61%로 상승한 가운데 지방 주도 성장과 한-미 통상 안정 등 정책 행보가 이어지고 있습니다. 북한의 관광단지 준공과 대륙 철도 연결 논의가 나오는 한편, 여야 간 특검 투쟁과 군 징계위 개최 등 국내 정국 긴장감도 공존하는 분위기입니다.</span>
@@ -3409,8 +3412,7 @@
                         <span>01.12 17:09</span>
                     </div>
                 </a>
-                
-                <footer>&copy; 2025 PREMIUM MORNING NEWS BOT</footer>
+<footer>&copy; 2025 PREMIUM MORNING NEWS BOT</footer>
             </div>
 
             <!-- Gemini Navigator Overlay -->

@@ -660,7 +660,10 @@ class HTMLGenerator:
                   if (loading) loading.style.display = 'flex';
 
                   // set src lazily (avoid background CPU)
-                  if (!frame.src) frame.src = GEMINI_NAV_URL;
+                  // NOTE: iframe.src property is auto-resolved even when attribute is "".
+                  // Use the attribute value to decide whether we've already loaded Gemini.
+                  const srcAttr = frame.getAttribute('src');
+                  if (!srcAttr || srcAttr === 'about:blank') frame.setAttribute('src', GEMINI_NAV_URL);
               }}
 
               function closeGeminiNavigator() {{
