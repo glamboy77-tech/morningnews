@@ -296,6 +296,92 @@ class HTMLGenerator:
                 border-color: var(--border);
             }
 
+            /* --- Gemini Navigator Overlay (PWA in-app) --- */
+            body.no-scroll {
+                overflow: hidden;
+            }
+
+            .gemini-overlay {
+                position: fixed;
+                inset: 0;
+                z-index: 3000;
+                background: rgba(0, 0, 0, 0.85);
+                backdrop-filter: blur(18px);
+                display: none;
+            }
+            .gemini-overlay.open {
+                display: flex;
+                flex-direction: column;
+            }
+            .gemini-overlay-header {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 12px;
+                padding: 12px 14px;
+                border-bottom: 1px solid var(--border);
+                background: rgba(5, 5, 5, 0.85);
+            }
+            .gemini-overlay-title {
+                font-size: 0.9rem;
+                font-weight: 600;
+                color: var(--text);
+                letter-spacing: 0.2px;
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                min-width: 0;
+            }
+            .gemini-overlay-actions {
+                display: flex;
+                align-items: center;
+                gap: 8px;
+            }
+            .gemini-icon-btn {
+                width: 40px;
+                height: 40px;
+                border-radius: 12px;
+                border: 1px solid var(--border);
+                background: var(--surface);
+                color: var(--text);
+                cursor: pointer;
+                font-size: 1rem;
+                line-height: 1;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                transition: var(--transition);
+                text-decoration: none;
+                user-select: none;
+            }
+            .gemini-icon-btn:hover {
+                background: var(--surface-hover);
+                border-color: rgba(255, 255, 255, 0.2);
+            }
+            .gemini-overlay-body {
+                flex: 1;
+                position: relative;
+            }
+            .gemini-overlay-loading {
+                position: absolute;
+                inset: 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+                color: var(--text-secondary);
+                font-size: 0.9rem;
+                padding: 20px;
+                text-align: center;
+            }
+            .gemini-overlay-iframe {
+                width: 100%;
+                height: 100%;
+                border: 0;
+                background: #000;
+            }
+
             .card.priority {
                 border-left: 3px solid var(--card-priority-border);
                 background: var(--card-priority-bg);
@@ -556,6 +642,41 @@ class HTMLGenerator:
                       }}
                   }});
               }}
+
+              // --- Gemini Navigator Overlay (in-app) ---
+              const GEMINI_NAV_URL = 'https://gemini-783885185452.us-west1.run.app/?embed=1';
+
+              function openGeminiNavigator() {{
+                  const overlay = document.getElementById('geminiOverlay');
+                  const frame = document.getElementById('geminiFrame');
+                  const loading = document.getElementById('geminiLoading');
+                  if (!overlay || !frame) return;
+
+                  // show
+                  overlay.classList.add('open');
+                  document.body.classList.add('no-scroll');
+
+                  // reset loading state
+                  if (loading) loading.style.display = 'flex';
+
+                  // set src lazily (avoid background CPU)
+                  if (!frame.src) frame.src = GEMINI_NAV_URL;
+              }}
+
+              function closeGeminiNavigator() {{
+                  const overlay = document.getElementById('geminiOverlay');
+                  if (!overlay) return;
+                  overlay.classList.remove('open');
+                  document.body.classList.remove('no-scroll');
+              }}
+
+              function openGeminiInNewTab() {{
+                  window.open('https://gemini-783885185452.us-west1.run.app/', '_blank', 'noopener,noreferrer');
+              }}
+
+              document.addEventListener('keydown', (e) => {{
+                  if (e.key === 'Escape') closeGeminiNavigator();
+              }});
               
               // Base64url을 Uint8Array로 변환하는 헬퍼 함수
               function urlBase64ToUint8Array(base64String) {{
@@ -806,7 +927,9 @@ class HTMLGenerator:
         order = ["정치", "경제/거시", "기업/산업", "부동산", "국제"]
         
         html += '<div class="sticky-nav">'
-        html += '<a href="https://gemini-783885185452.us-west1.run.app/" class="nav-pill">🔎 Gemini 네비게이터</a>'
+
+        # Gemini Navigator (in-app overlay)
+        html += '<a href="#" class="nav-pill" onclick="openGeminiNavigator(); return false;">🔎 Gemini 네비게이터</a>'
         
         # Key Persons (if exists)
         if key_persons:
@@ -1027,6 +1150,24 @@ class HTMLGenerator:
 
         html += """
                 <footer>&copy; 2025 PREMIUM MORNING NEWS BOT</footer>
+            </div>
+
+            <!-- Gemini Navigator Overlay -->
+            <div id="geminiOverlay" class="gemini-overlay" role="dialog" aria-modal="true" aria-label="Gemini Navigator">
+                <div class="gemini-overlay-header">
+                    <div class="gemini-overlay-title">🔎 Gemini 네비게이터</div>
+                    <div class="gemini-overlay-actions">
+                        <button class="gemini-icon-btn" type="button" title="새 창으로 열기" onclick="openGeminiInNewTab()">↗</button>
+                        <button class="gemini-icon-btn" type="button" title="닫기" onclick="closeGeminiNavigator()">✕</button>
+                    </div>
+                </div>
+                <div class="gemini-overlay-body">
+                    <div id="geminiLoading" class="gemini-overlay-loading">
+                        Gemini 네비게이터 로딩 중...
+                        <div style="font-size: 0.8rem; opacity: 0.8;">(로딩이 오래 걸리면 ↗ 버튼으로 새 창에서 열어주세요)</div>
+                    </div>
+                    <iframe id="geminiFrame" class="gemini-overlay-iframe" src="" loading="lazy" referrerpolicy="no-referrer" onload="document.getElementById('geminiLoading').style.display='none'" title="Gemini Navigator"></iframe>
+                </div>
             </div>
         </body>
         </html>
