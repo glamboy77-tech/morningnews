@@ -1,5 +1,453 @@
 {
-  "timestamp": "2026-01-23T02:15:54.512458",
+  "timestamp": "2026-01-23T03:39:38.098606",
   "date": "20260123",
-  "data": {}
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "李대통령 지지율 61%로 3%p↑…與 지지율도 동반상승[한국갤럽](종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260123053051001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-01-23 11:07:21",
+          "description": "(서울=연합뉴스) 안정훈 기자 = 이재명 대통령의 국정 지지율이 다시 반등해 60%를 넘었다는 여론조사 결과가 23일 나왔다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, 울산서 새해 첫 타운홀미팅…\"지방주도성장 본격화\"",
+          "link": "https://www.yna.co.kr/view/AKR20260123022500001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-01-23 08:09:29",
+          "description": "(서울=연합뉴스) 설승은 기자 = 이재명 대통령은 23일 울산을 찾아 새해 첫 타운홀미팅을 연다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "‘핵 군축’ 카드 꺼낸 李… 김정은 몸값만 높여주나",
+          "link": "https://www.chosun.com/politics/diplomacy-defense/2026/01/23/4B75WKVPBRFGFDESD7BQ37CEGU/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-01-23 00:50:00",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "정청래, 조국과 수차례 접촉… 李대통령과 교감 후 합당 제안",
+          "link": "https://www.chosun.com/politics/politics_general/2026/01/23/YJZL73NG7NBH7MW2ID7MFWSUME/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-01-23 00:49:00",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李, 강경파 반발 겨냥 “대의 명분에 매달려 국민 고통땐 개혁 아냐”",
+          "link": "https://www.chosun.com/politics/politics_general/2026/01/23/SZQR5CUW4ZD63NEIKDRTKVFCAU/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-01-23 00:49:00",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 \"명분·대의 매달려 고통·혼란 가중시키면 개혁 아냐\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260122107251001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-01-22 18:19:35",
+          "description": "(서울=연합뉴스) 고동욱 황윤기 기자 = 이재명 대통령은 22일 &quot;어떤 개혁 조치가 국민의 삶을 개선하기는커녕 오히려 명분과 대의에 매달려 고통...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "李대통령 \"명분·대의 매달려 고통·혼란 가중시키면 개혁 아냐\"",
+              "link": "https://www.yna.co.kr/view/AKR20260122107200001"
+            },
+            {
+              "source": "연합뉴스-정치",
+              "title": "[속보] 李대통령 \"명분·대의 매달려 혼란 가중시키면 그건 개혁 아냐\"",
+              "link": "https://www.yna.co.kr/view/AKR20260122100900001"
+            }
+          ]
+        },
+        {
+          "title": "李대통령, 與특위 오찬서 상법 개정·배임죄 폐지 속도전 주문(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260122115951001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-01-22 19:17:43",
+          "description": "(서울=연합뉴스) 김정진 오규진 기자 = 더불어민주당 코스피 5,000 특별위원회는 22일 이재명 대통령과 청와대에서 오찬을 함께한 뒤 &quot;3차 ...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "국정원, '李대통령 피습테러' TF구성…가해자 '테러위험인물' 지정",
+          "link": "https://www.yna.co.kr/view/AKR20260122150300504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-01-22 18:29:41",
+          "description": "(서울=연합뉴스) 하채림 기자 = 국가정보원은 2024년 발생한 이재명 대통령 피습 사건이 테러방지법상 테러로 지정됨에 따라 진상규명을 위해 이...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李, 야당 대표 땐 영수회담 8차례 요구… 대통령 되자 입장 바꿔 국힘 제안 거절",
+          "link": "https://www.chosun.com/politics/politics_general/2026/01/23/Q6JLVHPXYJC2DD36R42VFYFWIY/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-01-23 00:48:00",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "'오천피 공약' 이재명 대통령, ETF 수익 쏠쏠",
+          "link": "https://www.hankyung.com/article/2026012272031",
+          "source": "한국경제-기업",
+          "published_dt": "2026-01-22 17:13:10",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 \"대한민국 국민 가해하면 국내든 국외든 패가망신\"",
+          "link": "https://www.yna.co.kr/view/AKR20260122107000001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-01-22 15:05:10",
+          "description": "(서울=연합뉴스) 설승은 황윤기 기자 = 이재명 대통령은 22일 &quot;국민 안전을 위협하고 민생을 파괴하는 초국가범죄는 국내외를 불문하고 반드시 처...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "[속보] 李대통령 \"대한민국 국민 가해하면 국내든 국외든 패가망신\"",
+              "link": "https://www.yna.co.kr/view/AKR20260122102000001"
+            }
+          ]
+        },
+        {
+          "title": "李대통령 '보완수사권' 언급에도 與격론…\"예외인정\"·\"요구권\"",
+          "link": "https://www.yna.co.kr/view/AKR20260122086400001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-01-22 13:52:16",
+          "description": "(서울=연합뉴스) 이슬기 오규진 안정훈 기자 = 더불어민주당은 22일 비공개 정책의원총회를 열고 중대범죄수사청(중수청)·공소청 설치법을 둘러싼 ...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 지지율 59%…민주 40%·국힘 20%[NBS]",
+          "link": "https://www.chosun.com/politics/politics_general/2026/01/22/6IKM2DHHG5BGVEJULEADZIXJTE/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-01-22 13:03:42",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "李대통령 지지율 59%…민주 40%·국힘 20%[NBS](종합)",
+              "link": "https://www.yna.co.kr/view/AKR20260122073751001"
+            }
+          ]
+        },
+        {
+          "title": "李대통령 지지율 59%…민주 40%·국힘 20%[NBS]",
+          "link": "https://www.yna.co.kr/view/AKR20260122073700001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-01-22 11:16:06",
+          "description": "(서울=연합뉴스) 김승욱 기자 = 이재명 대통령의 국정운영을 긍정적으로 평가한 비율이 59%로 집계됐다는 여론조사 결과가 22일 나왔다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "이 대통령 “다주택자 양도세 중과 면제 연장, 전혀 고려 안해”",
+          "link": "https://www.mk.co.kr/news/realestate/11941002",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-01-23 09:03:37",
+          "description": "비거주 1주택 장기보유 혜택 재검토 시사 “세제 손 본다면 거주용·비거주용 달리 취급”이재명 대통령이 지난 21일 신년 기자회견에서 다주택자 규제 필요성을 여러 차례 강조하면서 부..",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": [
+            {
+              "source": "조선일보-정치",
+              "title": "李 대통령 “다주택자 양도세 면제 연장, 전혀 고려 안 해”",
+              "link": "https://www.chosun.com/politics/politics_general/2026/01/23/IY3CSOD3AFE3NABWQPLHUGZ4HE/"
+            },
+            {
+              "source": "조선일보-경제",
+              "title": "李 “다주택자 양도세 중과 면제 연장, 전혀 고려 안 해”",
+              "link": "https://www.chosun.com/economy/economy_general/2026/01/23/HE2TSYLBHA3TEMTBMM4DIZJXGA/"
+            },
+            {
+              "source": "연합뉴스-정치",
+              "title": "李대통령 \"'다주택자 양도세 중과 면제' 연장, 전혀 고려않는다\"",
+              "link": "https://www.yna.co.kr/view/AKR20260123019600001"
+            }
+          ]
+        },
+        {
+          "title": "“1주택자 보호하겠다”…이 대통령 발언에 ‘다주택자’ 셈법 복잡해지나",
+          "link": "https://www.mk.co.kr/news/realestate/11940211",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-01-22 14:46:49",
+          "description": "조정대상지역 2주택자 20%포인트  3주택자 30%포인트 가산세율 5월 9일 전 보유 매물 팔아야이재명 대통령이 신년 기자회견에서 부동산 세제 개편에 신중한 모습을 보이면서도 다주..",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 16,
+      "role": "한국 대통령"
+    },
+    "트럼프": {
+      "articles": [
+        {
+          "title": "트럼프, 그린란드에서도 ‘거래의 기술’… 관세 철회하고 ‘미사일 방어망’ 얻을듯",
+          "link": "https://www.donga.com/news/Inter/article/all/20260123/133214386/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-01-23 04:30:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/01/23/133215099.1.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령이 21일(현지 시간) “(덴마크령) 그린란드와 북극 지역에 관한 미래 합의의 ‘프레임워크’(협력 틀)를 마련했다”고 밝혔다. 또 자신의 그린란드 병합 의사에 반대하며 파병을 결정한 덴마크 영국 프랑스 독일 등 유럽 8개국에 부과하려던 보복성 관세도 적용하지 않기로 했다. 그 대신 덴마크와 유럽 주요국 또한 트럼프 대통령이 구상 중인 △차세대 미사일 방어체계 ‘골든돔’의 그린란드 배치 △그린란드 광물 채굴 기회 제공 △중국과 러시아의 그린란드 접근권 제한 등을 수용하는 것을 검토 중이다. 스위스 다보스를 방문 중인 트럼프 대통령은 이날 마르크 뤼터 북대서양조약기구(NATO·나토) 사무총장과 회담을 가진 뒤 트루스소셜을 통해 관세 부과 철회 계획을 밝혔다. 그는 “이 해결책이 성사된다면 미국과 모든 나토 국가들에 매우 훌륭한 결과가 될 것”이라고 주장했다. 같은 날 WEF 연차총회 연설에선 “사람들은 내가 무력을 사용할 것으로 생각하지만 그럴 필요는 없다”며",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "“트럼프는 전능한 존재가 아니다”-WSJ",
+          "link": "https://www.donga.com/news/Inter/article/all/20260123/133215473/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-01-23 08:56:20",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/01/23/133215474.1.jpg\" vspace=\"10\" />“트럼프는 전능한 존재가 아니다( Mr. Trump isn’t all powerful).”미 월스트리트저널(WSJ)이 22일자(현지시각) 사설에서 그린란드 문제에서 한발 물러선 도널드 트럼프 미 대통령을 묘사한 어구다. WSJ는 그린란드를 소유하겠다는 트럼프가 물러선 것은 금융시장, 유럽 동맹국들, 미국 의회가 반대 목소리를 낸 뒤라면서 “권위주의적 트럼프”라는 서사가 다시 한 번 틀렸음이 드러났다고 지적했다.WSJ는 그러나 트럼프의 난폭하고 기이한 요구와 위협은 동맹국들의 신뢰를 잃게 만들고 미국에 대한 불신을 낳는다면서 훗날 위기 상황이 닥치면 (미국이) 그 대가를 치르게 될 수 있다고 경고했다. 트럼프는 무엇이든 원하는 것을 마음대로 할 수 있는 처지가 아니다. 그는 미국 민주주의, 해외 동맹 유지의 필요성, 여론조사와 투자자 반응으로 드러나는 공공 여론에 제약을 받는다. 그린란드 사태는 이를 잘 보여준다. 지난 17일 그린란드 매각을 강요하기 위해 유럽에 관세를",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "미국 WHO탈퇴 최종 마무리--트럼프, 78년 만에 탈퇴선언",
+          "link": "https://www.donga.com/news/Inter/article/all/20260123/133215450/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-01-23 08:49:58",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/01/23/133215451.1.jpg\" vspace=\"10\" />미국 정부가 도널드 트럼프 미국 대통령이 이미 선언했던 세계보건기구(WHO) 탈퇴의 최종 마무리를 끝냈다고 연방정부 관리들이 22일 (현지시간) 밝혔다. 하지만 이 탈퇴는 깨끗하게 끝난 것은 아니다. 미국은 세계보건기구에 대한 기금 1억 3000만여 달러 (1904억 5000만 원)를 미납해 부채가 남았다고 WHO는 밝혔다. 트럼프 정부의 관리들도 미국의 신종 전염병 발생을 예방하는 조기 경보에 도움이 될 다른 나라들의 통계 자료에 대한 접근권 등 몇가지 큰 문제가 아직 미결 상태라고 말하고 있다. 미국의 WHO 탈퇴는 신종 전염병 발생에 대한 지구촌 전체의 방어능력을 크게 해칠 것으로 예상된다.  또한 미국의 과학자들과 제약회사가 신종 질환에 대비한 백신과 치료약을 개발하는 데에도 치명타를 입힐 것이라고 미 조지타운대학교의 공공의료법 전문가인 로렌스 고스틴 교수는 말했다. “내 의견으로는 대통령의 WHO탈퇴는 내 평생에 본 최악의 파멸적인 결정이다”라고 그는 개탄했다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프 “평화위원회 의장, 내가 원하면 종신도 가능”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260123/133215325/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-01-23 08:13:54",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/01/23/133215326.1.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령이 22일(현지 시간) 가자 평화 등을 주도하기 위해 출범한 국제기구인 평화위원회(Board of Peace)에서 자신이 종신 의장을 맡는 것도 가능하다고 밝혔다.트럼프 대통령은 이날 스위스에서 귀국하는 대통령전용기 안에서 대통령 임기가 끝난 후에도 평화위 의장을 지낼 수 있냐는 취재진 질문에 “내가 원한다면 그렇게할 권리가 있다”며 “제가 결정할 것이고 어떻게 될지 보자”고 답했다.이어 “저들은 내가 계속 있기를 바란다”며 “이론상으로는 평생할 수 있다”고 말했다.트럼프 대통령은 이날 스위스 다보스에서 세계경제포럼(WEF)을 계기로 평화위원회 출범식을 개최했다. 평화위원회는 당초 가자지구 전후 계획의 일부였으나, 트럼프 대통령은 “가자지구에서 성공을 거두면 다른 분야에도 이를 확산시킬 수 있을 것”이라며 역할 확대를 시사한 바 있다. 이러한 상황에서 자신이 종신 의장을 맡을 가능성도 배제하지 않은 것이다.다만 그는 “내가 그것을 원하는지는 모르겠",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프 “그린란드 프레임워크 마련…무력 고려안해”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260122/133209287/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-01-22 20:26:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/01/22/133213892.1.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령이 21일(현지 시간) “(덴마크령) 그린란드와 북극 지역에 관한 미래 합의의 ‘프레임워크’(협력 틀)를 마련했다”고 밝혔다. 또 자신의 그린란드 병합 의사에 반대하며 파병을 결정한 덴마크 영국 프랑스 독일 등 유럽 8개국에 부과하려던 보복성 관세도 적용하지 않기로 했다. 대신 덴마크와 유럽 주요국 또한 트럼프 대통령이 구상 중인 △차세대 미사일 방어체계 ‘골든 돔’의 그린란드 배치 △그린란드 광물 채굴 기회 제공 △중국과 러시아의 그린란드 접근권 제한 등을 수용하는 것을 검토 중이다.세계경제포럼(WEF) 참석차 스위스 다보스를 방문 중인 트럼프 대통령은 이날 마르크 뤼터 북대서양조약기구(NATO·나토) 사무총장과 회담을 가진 뒤 트루스소셜을 통해 관세 부과 철회 계획을 밝혔다. 그는 “이 해결책이 성사된다면 미국과 모든 나토 국가들에 매우 훌륭한 결과가 될 것”이라고 주장했다. 같은 날 WEF 연차총회 연설에선 “사람들은 내가 무력을 사용할 것으로 생각하",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프 의장 맡은 ‘평화위’ 22개국 참여…“유엔 무력화 우려”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260122/133209395/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-01-22 20:06:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/01/22/133214394.1.jpg\" vspace=\"10\" />유엔 등 기존의 국제기구에 비판적인 도널드 트럼프 미국 대통령이 주도하는 새로운 다자기구 ‘평화위원회(Board of Peace)’가 22일 닻을 올린다. 트럼프 대통령은 스위스 다보스에서 열리는 세계경제포럼(WEF) 참석 이틀째인 이날 다보스 현지에서 평화위 헌장 서명식을 가지기로 했다. 그는 이 기구의 초대 의장을 맡기로 했다.다만 프랑스, 스웨덴 등 주요 서방국은 참여를 거부하거나 부정적인 입장이다. 제2차 세계대전 이후 국제사회 질서를 유지해 온 유엔 체제를 훼손하고, 트럼프 대통령의 막무가내식 행보가 가속화할 수 있으며, 중국 러시아 등 권위주의 국가의 입김이 커질 수 있다는 이유에서다. 뉴욕타임스(NYT)는 트럼프 대통령이 그간 미국이 주도했던 국제 체제를 스스로 해체하고 자신을 중심으로 한 새로운 질서를 만들려고 한다며 “유엔에 대한 직접적인 공격”이라고 우려했다. 트럼프 대통령은 이달 초 유엔 산하 기구 31개, 비(非)유엔 국제기구 35개 등 총 66개 국제기구에",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "美기업도 손뗐는데…트럼프 “韓日과 가스 합의” 이틀째 알래스카 사업 압박",
+          "link": "https://www.donga.com/news/Inter/article/all/20260122/133208507/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-01-22 11:12:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/01/22/133208791.1.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령이 21일(현지 시간) 스위스 다보스에서 열린 ‘세계제포럼’(WEF) 연설에서 한국과 일본을 언급하며 “석유, 가스 분야에서 엄청난 규모의 협정을 체결했다”고 밝혔다. 하루 전 재집권 1년 연설에서 알래스카 액화천연가스(LNG)관 건설 사업과 관련해 한국과 일본을 언급한 지 하루 만에 비슷한 취지의 발언을 이어간 것이다. 이날 트럼프 대통령은 “우리는 미국 전체 무역의 40%를 차지하는 파트너 국가들과 역사적인 무역 합의를 타결했다”며 “유럽 국가들과 일본, 한국은 우리의 파트너”라고 말했다. 이어 “특히 석유와 가스를 중심으로 대규모 합의를 이뤘다”며 “이런 합의는 (경제) 성장을 끌어올리고 주식 시장을 호황으로 이끌어준다”고 밝혔다. 트럼프 대통령은 전날에도 취임 1주년 성과를 발표하는 자리에서 한국의 대미 투자금이 알래스카 천연가스 개발 사업에 활용될 것이라고 못박은 바 있다. 그는 백악관에서 진행된 연설에서  “아시아로 천연가스를 수출하기 위한 알",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 7,
+      "role": "미국 대통령"
+    },
+    "이혜훈": {
+      "articles": [
+        {
+          "title": "갑질·내란 동조 사과한 이혜훈 “성과 매몰 외눈박이로 살아와”",
+          "link": "https://www.chosun.com/economy/economy_general/2026/01/23/GZSTIMDCGBSTMZRVHFSDIYLFHA/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-01-23 10:47:43",
+          "description": "이혜훈 기획예산처 장관 후보자는 “성과에 매몰된 외눈박이로 살아오면서 소중한 동료들에게 상처를 드린 점을 제대로 보지 못했다”고 23일 밝혔다. 이 후보자는 이날 국회 기획재정위원회에서 열린 인사청문회에 출석해 이같이 말하며 “뼈저리게 반성한다”고 말했다. 이 후보자가 국회의원이던 2017년 인턴 직원에게 “내가 정말 널 죽였으면 좋겠다”면서 폭언한 게",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "오늘 이혜훈 청문회… ‘자녀 조기유학’ 두고 추가 의혹",
+          "link": "https://www.chosun.com/politics/politics_general/2026/01/23/RAIUNGSQZFDWDB3CQU6UEVF5UM/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-01-23 00:48:00",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "여야, 이혜훈 인사청문회 23일 개최 합의",
+          "link": "https://www.chosun.com/politics/assembly/2026/01/22/HD23IMZOXZHRHNJBB2FAYNJEGU/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-01-22 09:31:35",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": true,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "국무위원 후보자"
+    },
+    "정청래": {
+      "articles": [
+        {
+          "title": "정청래, 조국과 수차례 접촉… 李대통령과 교감 후 합당 제안",
+          "link": "https://www.chosun.com/politics/politics_general/2026/01/23/YJZL73NG7NBH7MW2ID7MFWSUME/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-01-23 00:49:00",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "정청래, 혁신당에 합당 제안 '승부수'…\"당내 논의 없어\" 반발도(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260122079451001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-01-22 21:16:37",
+          "description": "(서울=연합뉴스) 서혜림 안정훈 기자 = 더불어민주당 정청래 대표가 22일 조국혁신당에 전격적으로 합당을 제안하면서 정계 개편의 신호탄을 쏜 것...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "정청래, 혁신당에 합당 제안 '승부수'…\"당내 논의 없어\" 반발도",
+              "link": "https://www.yna.co.kr/view/AKR20260122079400001"
+            }
+          ]
+        },
+        {
+          "title": "정청래, 혁신당에 전격 합당 제안…\"지방선거 같이 치르자\"",
+          "link": "https://www.yna.co.kr/view/AKR20260122053800001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-01-22 10:29:12",
+          "description": "(서울=연합뉴스) 이슬기 안정훈 기자 = 더불어민주당 정청래 대표는 22일 6·3 지방선거를 앞두고 조국혁신당을 향해 합당을 전격 제안했다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": true,
+          "related_full_sources": [
+            {
+              "source": "조선일보-정치",
+              "title": "[속보] 정청래, 조국혁신당에 전격 합당 제안… “지방선거 함께 치르자”",
+              "link": "https://www.chosun.com/politics/assembly/2026/01/22/PLMPFDEZBRDKZKMHG5SXMXBIUA/"
+            }
+          ]
+        }
+      ],
+      "count": 3,
+      "role": "더불어민주당 국회의원"
+    },
+    "윤석열": {
+      "articles": [
+        {
+          "title": "대접견실 나가는 尹에 고개 끄덕…CCTV가 보여준 韓 '내란종사'",
+          "link": "https://www.yna.co.kr/view/AKR20260122157600004",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-01-22 21:06:16",
+          "description": "(서울=연합뉴스) 이미령 기자 = 법원이 &apos;비상계엄에 반대했다&apos;는 한덕수 전 국무총리의 주장을 단호히 물리칠 수 있었던 결정적 근거는 2024년...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "\"검사때 술먹고 서너명이 부축했던 尹, 대통령 돼선 더 심해져\"",
+          "link": "https://www.yna.co.kr/view/AKR20260122135100001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-01-22 17:29:37",
+          "description": "(서울=연합뉴스) 안정훈 기자 = 더불어민주당 박성준 의원은 22일 이재명 정부 출범까지 자신의 경험담을 담은 책 &apos;정무적 판단: 결정적 순간의...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "내란특검, '尹 체포방해' 징역 5년 1심 항소…무죄·양형 부분",
+          "link": "https://www.yna.co.kr/view/AKR20260122068700004",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-01-22 11:13:47",
+          "description": "(서울=연합뉴스) 이영섭 기자 = 윤석열 전 대통령에게 &apos;체포 방해&apos; 관련 혐의로 징역 5년을 선고한 1심 판결에 대해 조은석 내란 특별검사팀이...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": true,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "한국 대통령"
+    }
+  }
 }
