@@ -31,10 +31,14 @@ sys.stderr = DualLogger('run_job.log', 'a')
 
 def main(send_push=True, use_cache=True):
     print("=== Morning News Bot Started ===")
-    
-    # 현재 시간 확인
-    current_hour = datetime.datetime.now().hour
-    is_morning_window = 8 <= current_hour < 9  # 오전 8시~9시
+
+    # 시간대 통일: GitHub Actions는 기본 UTC로 실행되므로, 모든 판단/캐시 키는 KST 기준으로 맞춘다.
+    kst = datetime.timezone(datetime.timedelta(hours=9))
+    now_kst = datetime.datetime.now(kst)
+
+    # 현재 시간 확인 (KST)
+    current_hour = now_kst.hour
+    is_morning_window = 8 <= current_hour < 9  # 오전 8시~9시 (KST)
     
     # 캐시 사용 로직: 오전 8-9시는 새로 생성, 그 외 시간은 캐시 재사용
     if is_morning_window:
@@ -51,19 +55,15 @@ def main(send_push=True, use_cache=True):
     
     # Initialize cache system
     cache = DataCache()
-    today_str = datetime.datetime.now().strftime("%Y%m%d")
+    today_str = now_kst.strftime("%Y%m%d")
     
     # 캐시 상태 확인
     cache_status = cache.get_cache_status(today_str)
     print(f"📊 오늘의 캐시 상태: RSS={cache_status['rss']}, AI분석={cache_status['ai_analysis']}, 인물={cache_status['key_persons']}")
     
-    # 1. Setup (한국 시간 KST 설정)
-    # UTC 기준 시각에 9시간 더해서 한국 시간 계산합니다
-    kst = datetime.timezone(datetime.timedelta(hours=9))
-    today = datetime.datetime.now(kst)
-    
-    date_str_dot = today.strftime("%Y.%m.%d")
-    date_str_file = today.strftime("%Y%m%d")
+    # 1. Setup (KST 기준)
+    date_str_dot = now_kst.strftime("%Y.%m.%d")
+    date_str_file = now_kst.strftime("%Y%m%d")
     
     # Output Directory
     output_dir = "output"
