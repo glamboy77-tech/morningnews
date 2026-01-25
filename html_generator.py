@@ -580,6 +580,15 @@ class HTMLGenerator:
                 for article in person_data.get('articles', []):
                     used_article_links.add(article.get('link'))
         
+        # GitHub Pages subpath-safe relative paths
+        # - Root pages (index.html, archive.html): use "sw.js", "manifest.json", "logo.png"
+        # - Output pages (output/morning_news_YYYYMMDD.html): use "../sw.js", "../manifest.json", "../logo.png"
+        is_output_page = os.path.normpath(filename).split(os.sep)[0] == "output"
+        sw_path = "../sw.js" if is_output_page else "sw.js"
+        manifest_path = "../manifest.json" if is_output_page else "manifest.json"
+        logo_path = "../logo.png" if is_output_page else "logo.png"
+        archive_href = "../archive.html" if is_output_page else "archive.html"
+
         html = f"""
         <!DOCTYPE html>
         <html lang="ko">
@@ -587,11 +596,11 @@ class HTMLGenerator:
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Morning News {date_str}</title>
-            <link rel="manifest" href="manifest.json">
+            <link rel="manifest" href="{manifest_path}">
             <script>
               // Service Worker Registration
               if ('serviceWorker' in navigator) {{
-                navigator.serviceWorker.register('/sw.js')
+                navigator.serviceWorker.register('{sw_path}')
                   .then(registration => {{
                     console.log('Service Worker registered:', registration);
                   }})
@@ -933,6 +942,9 @@ class HTMLGenerator:
 
         # Gemini Navigator (in-app overlay)
         html += '<a href="#" class="nav-pill" onclick="openGeminiNavigator(); return false;">🔎 Gemini 네비게이터</a>'
+
+        # Archive
+        html += f'<a href="{archive_href}" class="nav-pill">🗓️ 아카이브</a>'
         
         # Key Persons (if exists)
         if key_persons:

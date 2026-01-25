@@ -53,9 +53,29 @@ def send_notification(date_str=None, count=None, filename=None):
         latest_sub = subscriptions[-1]
         print(f"[PUSH] 총 {len(subscriptions)}명의 구독자 중 마지막 구독자에게 전송 중...")
         
+        # Build subpath-safe URL. Service Worker will resolve this relative to its scope.
+        # Example: ./output/morning_news_YYYYMMDD.html
+        target_url = "./"
+        if filename:
+            target_url = f"./output/{filename}" if not filename.startswith("output/") else f"./{filename}"
+
+        title = "모닝 뉴스"
+        if date_str:
+            title = f"모닝 뉴스 ({date_str})"
+
+        body = "새로운 뉴스가 업데이트되었습니다!"
+        if count is not None:
+            body = f"총 {count}건의 뉴스가 도착했습니다.\n눌러서 확인하세요."
+
+        payload = {
+            "title": title,
+            "body": body,
+            "url": target_url,
+        }
+
         webpush(
             subscription_info=latest_sub,
-            data="🏠 모닝뉴스가 도착했습니다! 새로운 뉴스를 확인하세요.",
+            data=json.dumps(payload, ensure_ascii=False),
             vapid_private_key=private_key_for_send,
             vapid_claims={"sub": "mailto:ohnboy@naver.com"}
         )

@@ -9,6 +9,8 @@ from data_cache import DataCache
 
 from weather_manager import WeatherManager
 from notifier import send_notification, send_telegram_hojae
+from archive_generator import generate_archive
+from retrofit_output_pages import retrofit_output_pages
 
 # 콘솔과 파일에 동시 출력
 class DualLogger:
@@ -247,6 +249,21 @@ def main(send_push=True, use_cache=True):
         date_str_dot,
         key_persons
     )
+
+    # 5.0 Retrofit old output pages for GitHub Pages subpath + Archive nav
+    try:
+        print("\n[Phase 4.0] Retrofitting old output pages...")
+        changed = retrofit_output_pages(output_dir)
+        print(f"  - Retrofitted files: {changed}")
+    except Exception as e:
+        print(f"⚠️ output 페이지 보정 실패: {e}")
+
+    # 5.1 Generate archive page (list of previous daily HTML files)
+    try:
+        print("\n[Phase 4.1] Generating Archive Page...")
+        generate_archive(output_dir=output_dir, archive_path="archive.html")
+    except Exception as e:
+        print(f"⚠️ archive.html 생성 실패: {e}")
 
     # 5.5 텔레그램 호재 기업 알림 (선택적)
     try:

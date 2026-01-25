@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Morning News Archive</title>
+  <link rel="manifest" href="manifest.json" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Outfit:wght@100;300;400;600;900&display=swap');
+    :root {
+      --bg: #050505;
+      --surface: rgba(255,255,255,0.04);
+      --surface2: rgba(255,255,255,0.07);
+      --text: #ffffff;
+      --muted: #a0a0a0;
+      --primary: #4facfe;
+      --border: rgba(255,255,255,0.10);
+    }
+    * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+    body {
+      margin: 0;
+      font-family: 'Outfit','Noto Sans KR',sans-serif;
+      background: radial-gradient(circle at 50% 0%, #1a1a1a 0%, #050505 100%);
+      color: var(--text);
+    }
+    .container { max-width: 600px; margin: 0 auto; padding: 20px 20px 80px; }
+    .header {
+      margin-top: 10px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 18px 18px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+    .title { font-weight: 700; letter-spacing: 0.2px; }
+    .subtitle { color: var(--muted); font-size: 0.85rem; font-weight: 300; }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 14px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      color: var(--text);
+      text-decoration: none;
+      background: transparent;
+    }
+    .btn:active { background: var(--surface2); }
+    .list { margin-top: 16px; display: flex; flex-direction: column; gap: 10px; }
+    .item {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 16px 16px;
+      text-decoration: none;
+      color: var(--text);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      transition: 0.2s ease;
+    }
+    .item:active { background: var(--surface2); }
+    .date { color: var(--primary); font-weight: 700; letter-spacing: 0.5px; }
+    .arrow { color: var(--muted); font-size: 1.4rem; line-height: 1; }
+    .empty { color: var(--muted); padding: 20px 8px; text-align: center; }
+    footer { margin-top: 28px; text-align: center; color: #333; font-size: 0.7rem; letter-spacing: 2px; }
+  </style>
+  <script>
+    // Service Worker Registration (GitHub Pages subpath-safe)
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js')
+        .then(reg => console.log('Service Worker registered:', reg))
+        .catch(err => console.error('Service Worker registration failed:', err));
+    }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div>
+        <div class="title">🗓️ 아카이브</div>
+        <div class="subtitle">이전 날짜 모닝뉴스를 선택하세요</div>
+      </div>
+      <a class="btn" href="index.html">← 오늘 뉴스</a>
+    </div>
+    <div class="list">
+      <a class="item" href="output/morning_news_20260125.html"><span class="date">2026.01.25</span><span class="arrow">›</span></a>
+<a class="item" href="output/morning_news_20260124.html"><span class="date">2026.01.24</span><span class="arrow">›</span></a>
+<a class="item" href="output/morning_news_20260123.html"><span class="date">2026.01.23</span><span class="arrow">›</span></a>
+<a class="item" href="output/morning_news_20260122.html"><span class="date">2026.01.22</span><span class="arrow">›</span></a>
+<a class="item" href="output/morning_news_20260121.html"><span class="date">2026.01.21</span><span class="arrow">›</span></a>
+<a class="item" href="output/morning_news_20260120.html"><span class="date">2026.01.20</span><span class="arrow">›</span></a>
+<a class="item" href="output/morning_news_20260119.html"><span class="date">2026.01.19</span><span class="arrow">›</span></a>
+<a class="item" href="output/morning_news_20260118.html"><span class="date">2026.01.18</span><span class="arrow">›</span></a>
+<a class="item" href="output/morning_news_20260117.html"><span class="date">2026.01.17</span><span class="arrow">›</span></a>
+<a class="item" href="output/morning_news_20260116.html"><span class="date">2026.01.16</span><span class="arrow">›</span></a>
+<a class="item" href="output/morning_news_20260115.html"><span class="date">2026.01.15</span><span class="arrow">›</span></a>
+<a class="item" href="output/morning_news_20260114.html"><span class="date">2026.01.14</span><span class="arrow">›</span></a>
+<a class="item" href="output/morning_news_20260113.html"><span class="date">2026.01.13</span><span class="arrow">›</span></a>
+<a class="item" href="output/morning_news_20260112.html"><span class="date">2026.01.12</span><span class="arrow">›</span></a>
+<a class="item" href="output/morning_news_20260111.html"><span class="date">2026.01.11</span><span class="arrow">›</span></a>
+<a class="item" href="output/morning_news_20260110.html"><span class="date">2026.01.10</span><span class="arrow">›</span></a>
+<a class="item" href="output/morning_news_20260109.html"><span class="date">2026.01.09</span><span class="arrow">›</span></a>
+<a class="item" href="output/morning_news_20260108.html"><span class="date">2026.01.08</span><span class="arrow">›</span></a>
+<a class="item" href="output/morning_news_20260107.html"><span class="date">2026.01.07</span><span class="arrow">›</span></a>
+<a class="item" href="output/morning_news_20260106.html"><span class="date">2026.01.06</span><span class="arrow">›</span></a>
+<a class="item" href="output/morning_news_20260105.html"><span class="date">2026.01.05</span><span class="arrow">›</span></a>
+<a class="item" href="output/morning_news_20260104.html"><span class="date">2026.01.04</span><span class="arrow">›</span></a>
+<a class="item" href="output/morning_news_20260103.html"><span class="date">2026.01.03</span><span class="arrow">›</span></a>
+    </div>
+    <footer>&copy; 2025 PREMIUM MORNING NEWS BOT</footer>
+  </div>
+</body>
+</html>
