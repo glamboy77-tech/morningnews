@@ -1,6 +1,8 @@
 from google import genai
 import json
 import os
+import time
+import glob
 from datetime import datetime, timedelta
 from config import config
 
@@ -9,6 +11,10 @@ class SentimentAnalyzer:
         self.client = genai.Client(api_key=config.gemini_api_key)
         self.cache_dir = "sentiment_cache"
         os.makedirs(self.cache_dir, exist_ok=True)
+
+    # -----------------------------
+    # Cache helpers
+    # -----------------------------
         
     def is_trading_day(self):
         """
@@ -133,6 +139,47 @@ class SentimentAnalyzer:
         if date_str is None:
             date_str = datetime.now().strftime("%Y%m%d")
         return os.path.join(self.cache_dir, f"sentiment_{date_str}.json")
+
+    def _find_latest_cache_file(self, exclude_date_str=None, max_age_days: int | None = 2):
+        """Find newest sentiment_YYYYMMDD.json.
+
+        Args:
+            exclude_date_str: 특정 날짜(YYYYMMDD)는 제외
+            max_age_days: 오늘 기준 최대 몇 일 전까지 허용할지. None이면 제한 없음.
+
+        Returns:
+            (date_str, path) or (None, None)
+        """
+        candidates = sorted(glob.glob(os.path.join(self.cache_dir, "sentiment_*.json")))
+        # Sort by filename date then mtime as tie-breaker
+        def _key(p):
+            base = os.path.basename(p)
+            m = base.replace("sentiment_", "").replace(".json", "")
+            try:
+                dt = datetime.strptime(m, "%Y%m%d")
+            except Exception:
+                dt = datetime.fromtimestamp(os.path.getmtime(p))
+            return (dt, os.path.getmtime(p))
+        candidates.sort(key=_key, reverse=True)
+
+        now = datetime.now()
+        for path in candidates:
+            base = os.path.basename(path)
+            date_str = base.replace("sentiment_", "").replace(".json", "")
+            if exclude_date_str and date_str == exclude_date_str:
+                continue
+
+            if max_age_days is not None:
+                try:
+                    dt = datetime.strptime(date_str, "%Y%m%d")
+                    if (now - dt).days > max_age_days:
+                        continue
+                except Exception:
+                    # If we can't parse date, skip it when age limiting is enabled
+                    continue
+
+            return date_str, path
+        return None, None
     
     def load_cached_data(self, date_str=None):
         """
@@ -158,6 +205,43 @@ class SentimentAnalyzer:
             print(f"✅ 감성 데이터 캐시 저장: {cache_file}")
         except Exception as e:
             print(f"캐시 저장 실패: {e}")
+
+    # -----------------------------
+    # Retry helpers
+    # -----------------------------
+    @staticmethod
+    def _is_retryable_error(err: Exception) -> bool:
+        msg = str(err)
+        # Gemini/Google GenAI commonly returns "503 UNAVAILABLE" when overloaded.
+        return (
+            "503" in msg
+            or "UNAVAILABLE" in msg
+            or "overloaded" in msg.lower()
+            or "rate" in msg.lower() and "limit" in msg.lower()
+        )
+
+    def _generate_json_with_retry(self, prompt: str, *, model: str, max_retries: int = 3, base_sleep_sec: float = 2.0):
+        last_err = None
+        for attempt in range(1, max_retries + 1):
+            try:
+                resp = self.client.models.generate_content(
+                    model=model,
+                    contents=prompt,
+                    config={'response_mime_type': 'application/json'}
+                )
+                return json.loads(resp.text)
+            except Exception as e:
+                last_err = e
+                if attempt < max_retries and self._is_retryable_error(e):
+                    sleep_sec = base_sleep_sec * (2 ** (attempt - 1))
+                    print(f"⚠️ Gemini 호출 실패(재시도 {attempt}/{max_retries}): {e}")
+                    print(f"   -> {sleep_sec:.1f}s 후 재시도")
+                    time.sleep(sleep_sec)
+                    continue
+                raise
+
+        # Should never reach here
+        raise last_err
     
     def merge_sentiment_data(self, current_data, cached_data):
         """
@@ -246,149 +330,209 @@ class SentimentAnalyzer:
         
         return merged
     
-    def analyze_sentiment(self, categorized_news):
-        """
-        Generates a briefing summary and sentiment analysis (Good/Bad news).
-        This replaces the original generate_briefing method from AIProcessor.
+    def _fallback_briefing(self, *, error: str, source_date: str | None = None):
+        base_sections = {"정치": "", "경제/거시": "", "기업/산업": "", "부동산": "", "국제": ""}
+        msg = "브리핑 생성에 실패했습니다. 잠시 후 다시 시도해주세요."
+        if source_date:
+            msg = f"오늘 브리핑 생성에 실패하여 최근 캐시({source_date})를 표시합니다."
+        base_sections["경제/거시"] = msg
+        return {
+            "section_summaries": base_sections,
+            "hojae": [],
+            "akjae": [],
+            "trading_hojae": [],
+            "trading_akjae": [],
+            "analysis_mode": None,
+            "is_holiday_next_day": False,
+            "meta": {
+                "generated_by": "fallback",
+                "error": error,
+                "source_date": source_date,
+                "generated_at": datetime.now().isoformat(),
+            },
+        }
+
+    def analyze_sentiment(self, categorized_news, date_str=None, *, use_cache=True, allow_stale=True, max_retries: int = 3):
+        """브리핑 + 호재/악재(및 트레이딩용) 생성.
+
+        - use_cache=True: sentiment_cache/sentiment_YYYYMMDD.json이 있으면 Gemini 호출 없이 재사용
+        - allow_stale=True: 당일 캐시가 없거나 Gemini 실패 시 최근 캐시를 대신 표시(브리핑 섹션이 사라지지 않도록)
+        - max_retries: 503/UNAVAILABLE 등에 대해 exponential backoff 재시도
         """
         if not categorized_news:
-            return None
-            
+            return self._fallback_briefing(error="no categorized_news")
+
+        if date_str is None:
+            date_str = datetime.now().strftime("%Y%m%d")
+
+        if use_cache:
+            cached = self.load_cached_data(date_str)
+            if cached is not None:
+                print(f"✅ 감성/브리핑 캐시 재사용: {self.get_cache_filename(date_str)}")
+                return cached
+
+            # 캐시 재사용 모드인데 오늘 캐시가 없으면, Gemini 호출 없이 최신 캐시를 폴백으로 사용
+            if allow_stale:
+                stale_date, stale_path = self._find_latest_cache_file(exclude_date_str=date_str)
+                if stale_path:
+                    stale = self.load_cached_data(stale_date)
+                    if stale is not None:
+                        stale.setdefault("meta", {})
+                        stale["meta"].update({
+                            "generated_by": "stale_cache",
+                            "source_date": stale_date,
+                            "generated_at": datetime.now().isoformat(),
+                        })
+                        # 다음 실행부터는 당일 캐시로 바로 로드 가능하도록 저장
+                        self.save_cached_data(stale, date_str)
+                        print(f"✅ 오늘 캐시가 없어 최근 브리핑 캐시({stale_date})로 대체합니다.")
+                        return stale
+
         # 현재 모드 확인
         current_mode = self.is_trading_day()
         is_first_day_after_holiday = self.is_first_trading_day_after_holiday()
-        
         print(f"📊 현재 모드: {'평일 장 중' if current_mode == 'trading' else '주말/공휴일 누적'}")
         if is_first_day_after_holiday:
-            print(f"📅 휴일 다음 날 모드: 통합 시그널 적용")
-        
-        # 브리핑용 전체 뉴스 (24시간 범위)
+            print("📅 휴일 다음 날 모드: 통합 시그널 적용")
+
+        # 브리핑용 전체 뉴스
         briefing_context = ""
         for category, items in categorized_news.items():
             if items:
                 briefing_context += f"\n[{category}]\n"
-                for item in items[:30]: 
+                for item in items[:30]:
                     briefing_context += f"- {item['title']}\n"
-        
-        # 매매봇용 필터링된 뉴스 (장외 뉴스 가중치)
+
+        # 매매봇용 필터링된 뉴스
         trading_news = self.filter_trading_signals(categorized_news)
         trading_context = ""
         for category, items in trading_news.items():
             if items:
                 trading_context += f"\n[{category}]\n"
-                for item in items[:30]: 
+                for item in items[:30]:
                     weight = item.get('time_weight', 1.0)
                     trading_context += f"- [{weight}x] {item['title']}\n"
-        
-        # 브리핑용 프롬프트
+
         briefing_prompt = f"""
-        당신은 오늘의 뉴스 브리핑 작성자입니다. 오늘 분류된 뉴스 데이터를 바탕으로 간단히 읽기 좋은 아침 브리핑을 작성하세요.
+당신은 오늘의 뉴스 브리핑 작성자입니다. 오늘 분류된 뉴스 데이터를 바탕으로 간단히 읽기 좋은 아침 브리핑을 작성하세요.
 
-        필수 규칙:
-        1. 모든 답변은 한국어로 작성합니다.
-        2. 각 섹션의 요약은 있었던 사실과 분위기만 전달하고, 전망이나 판단은 하지 마세요.
-        3. 가능하면 긍정적 흐름과 부정적 이슈를 함께 담되 과도한 연결 없이 자연스럽고 읽기 쉬운 서술형으로 작성하세요.
+필수 규칙:
+1. 모든 답변은 한국어로 작성합니다.
+2. 각 섹션의 요약은 있었던 사실과 분위기만 전달하고, 전망이나 판단은 하지 마세요.
+3. 가능하면 긍정적 흐름과 부정적 이슈를 함께 담되 과도한 연결 없이 자연스럽고 읽기 쉬운 서술형으로 작성하세요.
 
-        수행 과제:
-        1. **모닝브리핑**: 본격적으로 뉴스를 읽기전에 오늘의 공기를 파악하기 위한 브리핑이므로 최대한 가독성 좋게 작성하세요.
-        2. **기업 감성 분석**: 주가에 '실질적'인 영향을 줄 수 있는 결정적인 호재(Hojae)와 악재(Akjae)를 찾으세요.
-           - 호재 선정: 대규모 수주(수백억 원 이상), M&A, 핵심 기술 혁신, 실적 턴어라운드 (단순 인사나 소규모 협약은 제외).
-           - 악재 선정: 어닝 쇼크, 법적 분쟁, 대규모 리콜, 자금 유동성 위기, 주요 생산 시설 사고.
-           - 이유 표기: 각 기업 옆에 10자 이내의 아주 짧은 사유를 덧붙이세요.
-           - 형식: "회사명: 사유"
-        
-        Output JSON Format:
-        {{
-            "section_summaries": {{
-                "정치": "...",
-                "경제/거시": "...",
-                "기업/산업": "...",
-                "부동산": "...",
-                "국제": "..."
-            }},
-            "hojae": ["회사명: 사유", "회사명: 사유"],
-            "akjae": ["회사명: 사유", "회사명: 사유"]
-        }}
-        
-        News List:
-        {briefing_context}
-        """
-        
-        # 매매봇용 프롬프트 (가중치 적용)
+수행 과제:
+1. **모닝브리핑**: 본격적으로 뉴스를 읽기전에 오늘의 공기를 파악하기 위한 브리핑이므로 최대한 가독성 좋게 작성하세요.
+2. **기업 감성 분석**: 주가에 '실질적'인 영향을 줄 수 있는 결정적인 호재(Hojae)와 악재(Akjae)를 찾으세요.
+   - 호재 선정: 대규모 수주(수백억 원 이상), M&A, 핵심 기술 혁신, 실적 턴어라운드 (단순 인사나 소규모 협약은 제외).
+   - 악재 선정: 어닝 쇼크, 법적 분쟁, 대규모 리콜, 자금 유동성 위기, 주요 생산 시설 사고.
+   - 이유 표기: 각 기업 옆에 10자 이내의 아주 짧은 사유를 덧붙이세요.
+   - 형식: "회사명: 사유"
+
+Output JSON Format:
+{{
+  "section_summaries": {{
+    "정치": "...",
+    "경제/거시": "...",
+    "기업/산업": "...",
+    "부동산": "...",
+    "국제": "..."
+  }},
+  "hojae": ["회사명: 사유"],
+  "akjae": ["회사명: 사유"]
+}}
+
+News List:
+{briefing_context}
+"""
+
         trading_prompt = f"""
-        당신은 매매봇 전문가입니다. 다음 뉴스 중에서 오늘의 매매에 실질적인 영향을 줄 수 있는 호재/악재만 선별해주세요.
+당신은 매매봇 전문가입니다. 다음 뉴스 중에서 오늘의 매매에 실질적인 영향을 줄 수 있는 호재/악재만 선별해주세요.
 
-        중요 규칙:
-        1. [2.0x] 표시된 장외 뉴스(어제 15:30~오늘 08:30)를 최우선으로 고려하세요.
-        2. [1.0x] 장중 뉴스는 이미 주가에 반영되었을 가능성이 높으므로 신중하게 판단하세요.
-        3. 오늘의 매매 전략에 혼선을 줄 수 있는 뉴스는 제외하세요.
+중요 규칙:
+1. [2.0x] 표시된 장외 뉴스(어제 15:30~오늘 08:30)를 최우선으로 고려하세요.
+2. [1.0x] 장중 뉴스는 이미 주가에 반영되었을 가능성이 높으므로 신중하게 판단하세요.
+3. 오늘의 매매 전략에 혼선을 줄 수 있는 뉴스는 제외하세요.
 
-        선별 기준:
-        - 호재: 장외 시간에 발생한 대규모 수주, M&A, 실적 턴어라운드, 핵심 기술 뉴스
-        - 악재: 장외 시간에 발생한 어닝 쇼크, 법적 분쟁, 리콜, 유동성 위기
+선별 기준:
+- 호재: 장외 시간에 발생한 대규모 수주, M&A, 실적 턴어라운드, 핵심 기술 뉴스
+- 악재: 장외 시간에 발생한 어닝 쇼크, 법적 분쟁, 리콜, 유동성 위기
 
-        Output JSON Format:
-        {{
-            "trading_hojae": ["회사명: 사유", "회사명: 사유"],
-            "trading_akjae": ["회사명: 사유", "회사명: 사유"]
-        }}
-        
-        Weighted News List:
-        {trading_context}
-        """
-        
+Output JSON Format:
+{{
+  "trading_hojae": ["회사명: 사유"],
+  "trading_akjae": ["회사명: 사유"]
+}}
+
+Weighted News List:
+{trading_context}
+"""
+
         try:
-            # 브리핑 분석
-            briefing_response = self.client.models.generate_content(
+            briefing_data = self._generate_json_with_retry(
+                briefing_prompt,
                 model=config.model_flash,
-                contents=briefing_prompt,
-                config={'response_mime_type': 'application/json'}
+                max_retries=max_retries,
             )
-            briefing_data = json.loads(briefing_response.text)
-            
-            # 매매봇용 분석
-            trading_response = self.client.models.generate_content(
+            trading_data = self._generate_json_with_retry(
+                trading_prompt,
                 model=config.model_flash,
-                contents=trading_prompt,
-                config={'response_mime_type': 'application/json'}
+                max_retries=max_retries,
             )
-            trading_data = json.loads(trading_response.text)
-            
-            # 두 데이터 병합
+
             final_data = {
                 **briefing_data,
                 "trading_hojae": trading_data.get("trading_hojae", []),
                 "trading_akjae": trading_data.get("trading_akjae", []),
                 "analysis_mode": current_mode,
-                "is_holiday_next_day": is_first_day_after_holiday
+                "is_holiday_next_day": is_first_day_after_holiday,
+                "meta": {
+                    "generated_by": "gemini",
+                    "generated_at": datetime.now().isoformat(),
+                },
             }
-            
+
             # 휴일 다음 날이면 캐시 병합 및 통합 리포트
             if is_first_day_after_holiday:
                 print("🔄 휴일 다음 날: 캐시 데이터 통합 중...")
                 final_data = self._merge_holiday_cache(final_data)
                 self._clear_holiday_cache()
-            
-            # 누적 모드일 경우 캐시 저장
-            elif current_mode == 'accumulation':
-                today = datetime.now().strftime("%Y%m%d")
-                cached_data = self.load_cached_data(today)
-                
+
+            # 누적 모드일 경우 캐시 병합
+            if current_mode == 'accumulation':
+                cached_data = self.load_cached_data(date_str)
                 if cached_data:
-                    print(f"🔄 캐시된 데이터와 병합 중...")
-                    merged_data = self.merge_sentiment_data(final_data, cached_data)
-                    self.save_cached_data(merged_data, today)
-                    return merged_data
-                else:
-                    self.save_cached_data(final_data, today)
-                    return final_data
-            else:
-                # 평일 장 중 모드는 그대로 반환
-                return final_data
-                
+                    print("🔄 캐시된 데이터와 병합 중...")
+                    final_data = self.merge_sentiment_data(final_data, cached_data)
+
+            # 성공 시에는 모드와 무관하게 당일 캐시 저장(재사용 시간대에 Gemini 호출 방지)
+            if use_cache:
+                self.save_cached_data(final_data, date_str)
+
+            return final_data
+
         except Exception as e:
             print(f"Error generating sentiment analysis: {e}")
-            return None
+
+            # stale cache fallback
+            if allow_stale:
+                stale_date, stale_path = self._find_latest_cache_file(exclude_date_str=date_str)
+                if stale_path:
+                    stale = self.load_cached_data(stale_date)
+                    if stale is not None:
+                        stale.setdefault("meta", {})
+                        stale["meta"].update({
+                            "generated_by": "stale_cache",
+                            "error": str(e),
+                            "source_date": stale_date,
+                            "generated_at": datetime.now().isoformat(),
+                        })
+                        # 저장해두면 다음 실행에서 당일 캐시로 바로 로드 가능
+                        if use_cache:
+                            self.save_cached_data(stale, date_str)
+                        return stale
+
+            return self._fallback_briefing(error=str(e))
     
     def _merge_holiday_cache(self, current_data):
         """
@@ -622,66 +766,8 @@ class SentimentAnalyzer:
         
         return "\n".join(lines)
 
-    def analyze_sentiment(self, categorized_news):
-        """
-        Generates a briefing summary and sentiment analysis (Good/Bad news).
-        This replaces the original generate_briefing method from AIProcessor.
-        """
-        if not categorized_news:
-            return None
-            
-        # Context preparation: Flatten the list but keep categories
-        context = ""
-        for category, items in categorized_news.items():
-            if items:
-                context += f"\n[{category}]\n"
-                # Increase context to top 30 to catch more diverse news (like Akjae)
-                for item in items[:30]: 
-                    context += f"- {item['title']}\n"
-        
-        prompt = f"""
-        당신은 오늘의 뉴스 브리핑 작성자입니다. 오늘 분류된 뉴스 데이터를 바탕으로 간단히 읽기 좋은 아침 브리핑을 작성하세요.
-
-        필수 규칙:
-        1. 모든 답변은 한국어로 작성합니다.
-        2. 각 섹션의 요약은 있었던 사실과 분위기만 전달하고, 전망이나 판단은 하지 마세요.
-        3. 가능하면 긍정적 흐름과 부정적 이슈를 함께 담되 과도한 연결 없이 자연스럽고 읽기 쉬운 서술형으로 작성하세요.
-
-        수행 과제:
-        1. **모닝브리핑**: 본격적으로 뉴스를 읽기전에 오늘의 공기를 파악하기 위한 브리핑이므로 최대한 가독성 좋게 작성하세요.
-        2. **기업 감성 분석**: 주가에 '실질적'인 영향을 줄 수 있는 결정적인 호재(Hojae)와 악재(Akjae)를 찾으세요.
-           - 호재 선정: 대규모 수주(수백억 원 이상), M&A, 핵심 기술 혁신, 실적 턴어라운드 (단순 인사나 소규모 협약은 제외).
-           - 악재 선정: 어닝 쇼크, 법적 분쟁, 대규모 리콜, 자금 유동성 위기, 주요 생산 시설 사고.
-           - 이유 표기: 각 기업 옆에 10자 이내의 아주 짧은 사유를 덧붙이세요.
-           - 형식: "회사명: 사유"
-        
-        Output JSON Format:
-        {{
-            "section_summaries": {{
-                "정치": "...",
-                "경제/거시": "...",
-                "기업/산업": "...",
-                "부동산": "...",
-                "국제": "..."
-            }},
-            "hojae": ["회사명: 사유", "회사명: 사유"],
-            "akjae": ["회사명: 사유", "회사명: 사유"]
-        }}
-        
-        News List:
-        {context}
-        """
-        
-        try:
-            response = self.client.models.generate_content(
-                model=config.model_flash,
-                contents=prompt,
-                config={'response_mime_type': 'application/json'}
-            )
-            return json.loads(response.text)
-        except Exception as e:
-            print(f"Error generating sentiment analysis: {e}")
-            return None
+    # NOTE: 과거에 analyze_sentiment()가 파일 내에 2번 정의되어 아래쪽이 위 로직을 덮어쓰던 문제가 있었음.
+    # 현재는 위의 analyze_sentiment() 하나만 유지합니다.
 
     def extract_hojae_list(self, briefing_data):
         """

@@ -192,16 +192,17 @@ def main(send_push=True, use_cache=True):
     if use_cache and cache_status["key_persons"] and use_cache_for_loading:
         print("🔄 캐시된 주요 인물 데이터 로드 중...")
         key_persons = cache.load_key_persons(today_str)
-        if key_persons:
+        # NOTE: 빈 dict({})도 '정상 로드(인물 없음)'일 수 있으므로 None 여부로 판단
+        if key_persons is not None:
             print(f"  - 캐시된 주요 인물 로드: {len(key_persons)}명")
         else:
             print("  - 캐시 로드 실패, 새로 추출...")
             key_persons = ai.extract_key_persons(domestic_categorized)
-            if use_cache:
+            if key_persons is not None and use_cache:
                 cache.save_key_persons(key_persons, today_str)
     else:
         key_persons = ai.extract_key_persons(domestic_categorized)
-        if use_cache:
+        if key_persons is not None and use_cache:
             cache.save_key_persons(key_persons, today_str)
     
     if key_persons:
@@ -213,7 +214,14 @@ def main(send_push=True, use_cache=True):
  
     # 4. Generate Briefing (SentimentAnalyzer는 항상 실행)
     print("\n[Phase 3] Generating Morning Briefing...")
-    briefing_data = sentiment.analyze_sentiment(domestic_categorized)
+    # 캐시 재사용 시간대에는 브리핑도 캐시 우선 재사용
+    briefing_data = sentiment.analyze_sentiment(
+        domestic_categorized,
+        today_str,
+        use_cache=(use_cache and use_cache_for_loading),
+        allow_stale=True,
+        max_retries=3,
+    )
  
     # 5. Generate Main HTML
     print("\n[Phase 4] Generating Main HTML...")

@@ -954,26 +954,33 @@ class HTMLGenerator:
             
         html += '</div>'
         
-        # Render Briefing
-        if briefing_data:
-            html += '<div class="briefing-card">'
-            html += '<div class="briefing-title">⚡ Morning Briefing</div>'
-            
+        # Render Briefing (항상 카드가 보이도록)
+        html += '<div class="briefing-card">'
+        html += '<div class="briefing-title">⚡ Morning Briefing</div>'
+
+        if not briefing_data:
+            html += """
+            <div class=\"briefing-item\">
+                <span class=\"briefing-label\">안내</span>
+                <span class=\"briefing-content\">브리핑 데이터를 불러오지 못했습니다. 잠시 후 다시 시도해주세요.</span>
+            </div>
+            """
+        else:
             # Summaries
-            summaries = briefing_data.get('section_summaries', {})
+            summaries = briefing_data.get('section_summaries', {}) if isinstance(briefing_data, dict) else {}
             for section, summary in summaries.items():
                 if summary:
                     html += f"""
-                    <div class="briefing-item">
-                        <span class="briefing-label">{section}</span>
-                        <span class="briefing-content">{summary}</span>
+                    <div class=\"briefing-item\">
+                        <span class=\"briefing-label\">{section}</span>
+                        <span class=\"briefing-content\">{summary}</span>
                     </div>
                     """
-            
+
             # Sentiment (Companies)
-            hojae = briefing_data.get('hojae', [])
-            akjae = briefing_data.get('akjae', [])
-            
+            hojae = briefing_data.get('hojae', []) if isinstance(briefing_data, dict) else []
+            akjae = briefing_data.get('akjae', []) if isinstance(briefing_data, dict) else []
+
             if hojae or akjae:
                 html += '<div class="sentiment-box">'
                 if hojae:
@@ -981,15 +988,15 @@ class HTMLGenerator:
                     for item in hojae:
                         html += f'<div class="sentiment-item">{item}</div>'
                     html += '</div></div>'
-                
+
                 if akjae:
                     html += '<div class="sentiment-row"><span class="sentiment-type akjae">📉 악재</span> <div class="sentiment-items">'
                     for item in akjae:
                         html += f'<div class="sentiment-item">{item}</div>'
                     html += '</div></div>'
                 html += '</div>'
-                
-            html += '</div>'
+
+        html += '</div>'
 
 
         # Key Persons Section (if exists)

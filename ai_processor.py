@@ -358,7 +358,8 @@ class AIProcessor:
             
         except Exception as e:
             print(f"Error extracting key persons: {e}")
-            return {}
+            # Important: return None on failure so callers can avoid overwriting caches.
+            return None
 
 if __name__ == "__main__":
     # Dummy test
