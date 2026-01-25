@@ -587,6 +587,8 @@ class HTMLGenerator:
         sw_path = "../sw.js" if is_output_page else "sw.js"
         manifest_path = "../manifest.json" if is_output_page else "manifest.json"
         logo_path = "../logo.png" if is_output_page else "logo.png"
+        # Output pages live under /output/, so "../archive.html" is correct.
+        # Root pages (index.html, archive.html) should use "archive.html".
         archive_href = "../archive.html" if is_output_page else "archive.html"
 
         html = f"""

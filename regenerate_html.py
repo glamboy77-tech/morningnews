@@ -53,6 +53,9 @@ if os.path.exists(source_file):
             old_content = match.group(1).strip()
             # Remove an empty sticky-nav if present to avoid duplication
             old_content = old_content.replace('<div class="sticky-nav"></div>', '')
+
+            # Subpath-safe: if older index.html had "../archive.html" (root escape), fix it.
+            old_content = old_content.replace('href="../archive.html"', 'href="archive.html"')
     except Exception as e:
         print(f"Error reading old content: {e}")
 
