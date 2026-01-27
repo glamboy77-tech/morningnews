@@ -21,6 +21,76 @@ def retrofit_file(path: str) -> bool:
 
     original = html
 
+    # Gemini Navigator overlay patch
+    gemini_js = r"""
+              // --- Gemini Navigator Overlay (in-app) ---
+              const GEMINI_NAV_URL = 'https://gemini-783885185452.us-west1.run.app/?embed=1';
+              let geminiLoaded = false;
+              let geminiLoadTimer = null;
+
+              function setGeminiLoading(isLoading) {
+                  const loading = document.getElementById('geminiLoading');
+                  if (!loading) return;
+                  loading.style.display = isLoading ? 'flex' : 'none';
+              }
+
+              function startGeminiLoadTimer() {
+                  if (geminiLoadTimer) clearTimeout(geminiLoadTimer);
+                  geminiLoadTimer = setTimeout(() => {
+                      if (!geminiLoaded) {
+                          setGeminiLoading(false);
+                      }
+                  }, 15000);
+              }
+
+              function openGeminiNavigator() {
+                  const overlay = document.getElementById('geminiOverlay');
+                  const frame = document.getElementById('geminiFrame');
+                  if (!overlay || !frame) return;
+
+                  // show
+                  overlay.classList.add('open');
+                  document.body.classList.add('no-scroll');
+
+                  // reset loading state
+                  setGeminiLoading(!geminiLoaded);
+                  startGeminiLoadTimer();
+
+                  // set src lazily (avoid background CPU)
+                  // NOTE: iframe.src property is auto-resolved even when attribute is "".
+                  // Use the attribute value to decide whether we've already loaded Gemini.
+                  const srcAttr = frame.getAttribute('src');
+                  if (!srcAttr || srcAttr === 'about:blank') frame.setAttribute('src', GEMINI_NAV_URL);
+              }
+
+              function closeGeminiNavigator() {
+                  const overlay = document.getElementById('geminiOverlay');
+                  if (!overlay) return;
+                  overlay.classList.remove('open');
+                  document.body.classList.remove('no-scroll');
+              }
+
+              function openGeminiInNewTab() {
+                  window.open('https://gemini-783885185452.us-west1.run.app/', '_blank', 'noopener,noreferrer');
+              }
+
+              function reloadGeminiNavigator() {
+                  const frame = document.getElementById('geminiFrame');
+                  if (!frame) return;
+                  geminiLoaded = false;
+                  setGeminiLoading(true);
+                  startGeminiLoadTimer();
+                  frame.setAttribute('src', `${GEMINI_NAV_URL}&t=${Date.now()}`);
+              }
+
+              document.addEventListener('keydown', (e) => {
+                  if (e.key === 'Escape') closeGeminiNavigator();
+              });
+    """.strip()
+
+    js_pattern = r"// --- Gemini Navigator Overlay \(in-app\) ---[\s\S]*?document\.addEventListener\('keydown', \(e\) => \{[\s\S]*?\}\);"
+    html, _ = re.subn(js_pattern, gemini_js, html, count=1)
+
     # 1) Fix manifest path
     html = html.replace('rel="manifest" href="manifest.json"', 'rel="manifest" href="../manifest.json"')
 
@@ -36,6 +106,23 @@ def retrofit_file(path: str) -> bool:
         gemini = '<a href="#" class="nav-pill" onclick="openGeminiNavigator(); return false;">🔎 Gemini 네비게이터</a>'
         if gemini in html:
             html = html.replace(gemini, gemini + '<a href="../archive.html" class="nav-pill">🗓️ 아카이브</a>')
+
+    # 4) Update Gemini overlay buttons (add reload)
+    actions_pattern = r"<div class=\"gemini-overlay-actions\">[\s\S]*?</div>"
+    actions_html = (
+        '<div class="gemini-overlay-actions">'
+        '<button class="gemini-icon-btn" type="button" title="새로고침" onclick="reloadGeminiNavigator()">↻</button>'
+        '<button class="gemini-icon-btn" type="button" title="새 창으로 열기" onclick="openGeminiInNewTab()">↗</button>'
+        '<button class="gemini-icon-btn" type="button" title="닫기" onclick="closeGeminiNavigator()">✕</button>'
+        '</div>'
+    )
+    html, _ = re.subn(actions_pattern, actions_html, html, count=1)
+
+    # 5) Update iframe onload handler to mark loaded state
+    html = html.replace(
+        "onload=\"document.getElementById('geminiLoading').style.display='none'\"",
+        "onload=\"geminiLoaded = true; setGeminiLoading(false);\"",
+    )
 
     changed = html != original
     if changed:

@@ -656,11 +656,28 @@ class HTMLGenerator:
 
               // --- Gemini Navigator Overlay (in-app) ---
               const GEMINI_NAV_URL = 'https://gemini-783885185452.us-west1.run.app/?embed=1';
+              let geminiLoaded = false;
+              let geminiLoadTimer = null;
+
+              function setGeminiLoading(isLoading) {{
+                  const loading = document.getElementById('geminiLoading');
+                  if (!loading) return;
+                  loading.style.display = isLoading ? 'flex' : 'none';
+              }}
+
+              function startGeminiLoadTimer() {{
+                  if (geminiLoadTimer) clearTimeout(geminiLoadTimer);
+                  geminiLoadTimer = setTimeout(() => {{
+                      if (!geminiLoaded) {{
+                          // Keep the hint visible but allow interaction if needed.
+                          setGeminiLoading(false);
+                      }}
+                  }}, 15000);
+              }}
 
               function openGeminiNavigator() {{
                   const overlay = document.getElementById('geminiOverlay');
                   const frame = document.getElementById('geminiFrame');
-                  const loading = document.getElementById('geminiLoading');
                   if (!overlay || !frame) return;
 
                   // show
@@ -668,7 +685,8 @@ class HTMLGenerator:
                   document.body.classList.add('no-scroll');
 
                   // reset loading state
-                  if (loading) loading.style.display = 'flex';
+                  setGeminiLoading(!geminiLoaded);
+                  startGeminiLoadTimer();
 
                   // set src lazily (avoid background CPU)
                   // NOTE: iframe.src property is auto-resolved even when attribute is "".
@@ -686,6 +704,15 @@ class HTMLGenerator:
 
               function openGeminiInNewTab() {{
                   window.open('https://gemini-783885185452.us-west1.run.app/', '_blank', 'noopener,noreferrer');
+              }}
+
+              function reloadGeminiNavigator() {{
+                  const frame = document.getElementById('geminiFrame');
+                  if (!frame) return;
+                  geminiLoaded = false;
+                  setGeminiLoading(true);
+                  startGeminiLoadTimer();
+                  frame.setAttribute('src', `${{GEMINI_NAV_URL}}&t=${{Date.now()}}`);
               }}
 
               document.addEventListener('keydown', (e) => {{
@@ -1181,6 +1208,7 @@ class HTMLGenerator:
                 <div class="gemini-overlay-header">
                     <div class="gemini-overlay-title">🔎 Gemini 네비게이터</div>
                     <div class="gemini-overlay-actions">
+                        <button class="gemini-icon-btn" type="button" title="새로고침" onclick="reloadGeminiNavigator()">↻</button>
                         <button class="gemini-icon-btn" type="button" title="새 창으로 열기" onclick="openGeminiInNewTab()">↗</button>
                         <button class="gemini-icon-btn" type="button" title="닫기" onclick="closeGeminiNavigator()">✕</button>
                     </div>
@@ -1190,7 +1218,7 @@ class HTMLGenerator:
                         Gemini 네비게이터 로딩 중...
                         <div style="font-size: 0.8rem; opacity: 0.8;">(로딩이 오래 걸리면 ↗ 버튼으로 새 창에서 열어주세요)</div>
                     </div>
-                    <iframe id="geminiFrame" class="gemini-overlay-iframe" src="" loading="lazy" referrerpolicy="no-referrer" onload="document.getElementById('geminiLoading').style.display='none'" title="Gemini Navigator"></iframe>
+                    <iframe id="geminiFrame" class="gemini-overlay-iframe" src="" loading="lazy" referrerpolicy="no-referrer" onload="geminiLoaded = true; setGeminiLoading(false);" title="Gemini Navigator"></iframe>
                 </div>
             </div>
         </body>
