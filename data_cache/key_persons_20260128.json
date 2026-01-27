@@ -1,0 +1,328 @@
+{
+  "timestamp": "2026-01-27T23:38:19.251500",
+  "date": "20260128",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "이해찬 빈소에 여권 총집결… 李대통령, 유족 만나며 눈물",
+          "link": "https://www.chosun.com/politics/assembly/2026/01/28/JRIXWYML7BF55OJ3IN6DKF3HX4/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-01-28 00:47:00",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "상속·증여세 아끼려고 주가 낮춘다?… 대통령이 꺼낸 해법은",
+          "link": "https://www.chosun.com/economy/economy_general/2026/01/28/4FQH7MT7NZEEXHEANF6GLBC5VA/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-01-28 07:03:07",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李 “국회 너무 느려 일 못하겠다… 정책 입법 20%밖에 안돼”",
+          "link": "https://www.chosun.com/politics/politics_general/2026/01/28/5CJTG3CAOFAXJOHWBQHV35JOGA/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-01-28 00:47:00",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "\"인지수사 왜 못하게 하나\"…금감원에 힘 실어준 李대통령",
+          "link": "https://www.hankyung.com/article/2026012756176",
+          "source": "한국경제-기업",
+          "published_dt": "2026-01-27 17:50:29",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "하정우 靑수석 \"李정부 탈원전인 적 없었다…실용 에너지 믹스\"",
+          "link": "https://www.yna.co.kr/view/AKR20260127161400001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-01-27 20:17:49",
+          "description": "(서울=연합뉴스) 황윤기 기자 = 하정우 청와대 AI미래기획수석은 27일 &quot;이재명 정부의 에너지 정책은 처음부터 실용주의 에너지 믹스 정책이었다...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "Science/Tech",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 \"국회 입법 속도 너무 느려…일을 할 수가 없다\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260127085551001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-01-27 16:45:03",
+          "description": "(서울=연합뉴스) 고동욱 황윤기 기자 = 이재명 대통령이 &quot;지금 국회가 너무 느려서 일을 할 수가 없는 상태&quot;라며 정부 정책의 입법 속도에 아쉬...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": true,
+          "related_full_sources": [
+            {
+              "source": "조선일보-정치",
+              "title": "李대통령 “국회 입법 속도 너무 느려…일을 할 수가 없다”",
+              "link": "https://www.chosun.com/politics/blue_house/2026/01/27/7YYANIVY2JCVJIMXD5M42AQJCY/"
+            },
+            {
+              "source": "연합뉴스-정치",
+              "title": "李대통령 \"국회 입법 속도 너무 느려…일을 할 수가 없다\"",
+              "link": "https://www.yna.co.kr/view/AKR20260127085500001"
+            }
+          ]
+        },
+        {
+          "title": "李대통령 \"부동산 왜곡 바로잡아야…저항 두려워 방치해선 안돼\"",
+          "link": "https://www.yna.co.kr/view/AKR20260127072800001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-01-27 11:22:15",
+          "description": "(서울=연합뉴스) 임형섭 황윤기 기자 = 이재명 대통령은 27일 &quot;비정상적으로 부동산에 집중된 자원 배분 왜곡을 반드시 바로잡아야 한다&quot;고 말했...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "‘체납관리단 추경’ 언급한 李 “비용 들어도 근절해야”",
+          "link": "https://www.chosun.com/economy/economy_general/2026/01/27/MNQWCYJRGJRGMZJRGA3TCYZZGI/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-01-27 17:31:04",
+          "description": "이재명 대통령이 27일 ‘체납 세금 징수’ 인력을 대폭 늘리기 위해 추가경정예산(추경)을 편성할 필요가 있다고 말했다. 각 지방정부의 체납 관리를 지원하기 위해 중앙정부 차원의 예산을 적극 투입해야 한다는 것이다. 특히 국세청 소관이 아닌 국세 외 수입 징수와 관련해 “국회 입법이 너무 느려 일을 할 수가 없다”면서, 각 부처별 징수 인력을 뽑아 합동관리단",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 \"일부 대기업·특정지역 아닌 '모두의 성장' 해야\"",
+          "link": "https://www.yna.co.kr/view/AKR20260127081200001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-01-27 11:43:08",
+          "description": "(서울=연합뉴스) 임형섭 기자 = 이재명 대통령은 27일 경제 성장 전략과 관련해 &quot;일부 대기업이나 특정 지역, 특정 부문이 아닌 모든 경제주체...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "\"이재명 대통령님 최대 업적\"…원전 정책에 안도한 AI 학계 [강경주의 테크X]",
+          "link": "https://www.hankyung.com/article/202601275195i",
+          "source": "한국경제-IT",
+          "published_dt": "2026-01-27 13:07:52",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "Science/Tech",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "[속보] 李대통령 \"부동산, 저항 두려워 불공정·비정상 방치해선 안돼\"",
+          "link": "https://www.yna.co.kr/view/AKR20260127065800001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-01-27 10:38:55",
+          "description": "(",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": true,
+          "related_full_sources": []
+        }
+      ],
+      "count": 11,
+      "role": "한국 대통령"
+    },
+    "트럼프": {
+      "articles": [
+        {
+          "title": "관세 인상 하루만에… 트럼프 “韓과 해결책 마련할 것”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260128/133245607/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-01-28 08:00:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/01/28/133245639.1.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령이 27일(현지 시간) 전날 한국에 대한 상호관세와 자동차 품목 관세 등을 15%에서 25%로 인상하겠다고 밝힌 것과 관련해 “한국과 함께 해결책을 마련할 것”이라고 말했다. 트럼프 대통령은 이날 백악관에서 경제 연설이 예정된 아이오와로 떠나기 전 취재진과 만나 관련 질문에 “우리는 해결책을 마련할 것(We’ll work something out)”이라고 말했다. 거듭된 추가 질문에 그는 “한국과 함께 해결 방안을 모색할 것(We’ll work something out with South Korea)”이라고 답했다. 트럼프 대통령의 이같은 짧은 답변을 두고 일각에서는 향후 한미 간 대화와 협상 여지를 남긴 것으로 해석하고 있다. 지난해 11월 26일 한국 국회에 발의된 한미전략투자공사 설립 등의 내용을 담은 대미투자특별법의 처리 등 상황에 진전이 있을 경우 관세를 재조정할 수 있다는 관측도 있다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "여야, '트럼프 관세인상' 놓고 충돌…\"입법에 속도\" \"비준해야\"",
+          "link": "https://www.yna.co.kr/view/AKR20260127137900001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-01-27 17:26:43",
+          "description": "(서울=연합뉴스) 서혜림 김유아 박재하 기자 = 여야는 27일 도널드 트럼프 미국 대통령이 한국 국회의 법적 절차 미이행을 이유로 관세 인상 방...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "시장 불안땐 대미투자 없다더니…트럼프 재촉에 환율 반등",
+          "link": "https://www.hankyung.com/article/2026012761691",
+          "source": "한국경제-기업",
+          "published_dt": "2026-01-27 17:47:24",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "\"SK하이닉스 140만원 간다\" 파격…트럼프 악재도 이겨냈다",
+          "link": "https://www.hankyung.com/article/2026012761551",
+          "source": "한국경제-기업",
+          "published_dt": "2026-01-27 17:31:45",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "sector": "반도체",
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프 \"韓의약품 관세 인상\" 엄포에…보툴리눔 톡신 업계 '우려'",
+          "link": "https://www.hankyung.com/article/202601275389i",
+          "source": "한국경제-IT",
+          "published_dt": "2026-01-27 15:39:46",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "sector": "바이오/제약",
+          "related_full_sources": []
+        },
+        {
+          "title": "‘이민 강경단속’ 책임자 교체… 트럼프, 지지층도 등돌리자 1보 후퇴",
+          "link": "https://www.donga.com/news/Inter/article/all/20260127/133244441/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-01-28 04:30:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/01/27/133245109.1.jpg\" vspace=\"10\" />미국 미네소타주에서 연방 이민당국 요원의 잇단 시민권자 사살로 정치적 위기에 몰린 도널드 트럼프 대통령이 26일 한발 물러서며 사태 수습에 나섰다. 현장에서 강경한 불법 이민자 단속 작전을 이끌어온 그레고리 보비노 연방국경순찰대(USBP) 대장을 이르면 27일 다른 지역으로 전출시킬 예정인 가운데 톰 호먼 백악관 국경차르를 대신 급파한 것.  트럼프 대통령은 그간 맹렬히 비난해 온 팀 월즈 미네소타 주지사와 제이컵 프라이 미니애폴리스 시장과 “아주 좋은 통화를 했다. 우리는 비슷한 생각을 하고 있는 것 같다”며 유화 제스처를 취했다. AP통신은 “충격적인 반전”이라고 평가했다.● 전방위 비판 여론에 물러선 트럼프 이날 트럼프 대통령은 자신의 소셜미디어 트루스소셜을 통해 월즈 주지사, 프라이 시장과 통화했다며 호먼이 이들과 만날 예정이라고도 밝혔다. 그는 “주지사는 호먼이 미네소타에 간다는 소식을 반가워했고, 나 또한 마찬가지”라며 “월즈 주지사와 나는 더 나은 결과를 만들어내고",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 6,
+      "role": "미국 대통령"
+    },
+    "김건희": {
+      "articles": [
+        {
+          "title": "김건희 오늘 1심 선고…전직 대통령 부부 첫 동반 실형 가능성",
+          "link": "https://www.yna.co.kr/view/AKR20260127145600004",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-01-28 05:00:00",
+          "description": "(서울=연합뉴스) 김빛나 기자 = 도이치모터스 주가조작 및 통일교 금품수수 등의 혐의로 재판에 넘겨진 김건희 여사에 대한 사법부의 첫 법적 판단...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "김건희특검, 국토부 직원 '별건수사' 공소기각 항소…\"법리오해\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260127130751004",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-01-27 17:57:40",
+          "description": "(서울=연합뉴스) 이도흔 기자 = 국토교통부가 발주한 국도 사업 과정에서 뇌물을 받은 혐의로 기소됐다가 1심에서 공소기각 판결을 받은 국토부 서...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "김건희 내일 1심 선고도 생중계…영부인 최초·특검 기소 세번째(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260127098951004",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-01-27 14:46:06",
+          "description": "(서울=연합뉴스) 이승연 이도흔 기자 = 법원이 도이치모터스 주가조작 및 통일교 금품수수 혐의 등으로 기소된 김건희 여사의 1심 선고 방송 중계...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "김건희특검, 뇌물혐의 국토부 직원 '별건수사 공소기각'에 항소",
+          "link": "https://www.yna.co.kr/view/AKR20260127130700004",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-01-27 16:39:24",
+          "description": "(서울=연합뉴스) 이도흔 기자 = 국토교통부가 발주한 국도 사업 과정에서 뇌물을 받은 혐의로 기소됐다가 1심에서 공소기각 판결을 받은 국토부 서...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": false,
+          "related_full_sources": []
+        }
+      ],
+      "count": 4,
+      "role": "대한민국 영부인"
+    },
+    "윤석열": {
+      "articles": [
+        {
+          "title": "MB부터 尹까지…신천지·국민의힘 20년 '공생관계' 의혹",
+          "link": "https://www.yna.co.kr/view/AKR20260127155200004",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-01-28 06:00:00",
+          "description": "(서울=연합뉴스) 이밝음 기자 = 정교유착 비리를 파헤치는 검·경 합동수사본부 수사가 속도를 내면서 의혹 중심에 선 신천지와 국민의힘 공생관계의...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "특검기소 尹 '명태균 불법여론조사' 3월17일부터 주 1회 재판",
+          "link": "https://www.yna.co.kr/view/AKR20260127112300004",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-01-27 14:52:11",
+          "description": "(서울=연합뉴스) 이영섭 기자 = 정치브로커 명태균씨로부터 불법 여론조사를 받은 혐의로 기소된 윤석열 전 대통령의 첫 정식 재판이 오는 3월 1...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "尹정권 승승장구 희림, 정권 교체 후 영업이익 반토막…정영균 리더십 위기",
+          "link": "https://www.chosun.com/economy/realty/realestate_industry/2026/01/28/HFRWKZLGGY3DQMJYGA2GIY3DG4/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-01-28 06:00:00",
+          "description": "희림, 지난해 영업이익 반토막\n정권 교체 후 실적 급감 [땅집고] 윤석열 정권 시절 관급 공사 수주를 대폭 늘리며 외형 성장을 이어갔던 희림종합건축사무소의 실적이 지난해 급격히 꺾였다. 정권 교체 이후 거센 역풍을 맞고 있다. 지난해 영업이익이 반토막 난 데다 최근 특검 수사까지 본격화되면서 사면초가에 몰린 형국이다.\n \n27일 금융감독원 전자공시시스템에",
+          "category": "domestic",
+          "priority_score": 0,
+          "sector": "건설",
+          "related_full_sources": [
+            {
+              "source": "땅집고-부동산",
+              "title": "尹정권 승승장구 희림, 정권 교체 후 영업이익 반토막…정영균 리더십 위기",
+              "link": "https://realty.chosun.com/site/data/html_dir/2026/01/27/2026012703407.html"
+            }
+          ]
+        }
+      ],
+      "count": 3,
+      "role": "국민의힘 정치인"
+    }
+  }
+}
