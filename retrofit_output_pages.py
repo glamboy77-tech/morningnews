@@ -124,6 +124,12 @@ def retrofit_file(path: str) -> bool:
         "onload=\"geminiLoaded = true; setGeminiLoading(false);\"",
     )
 
+    # 6) Allow microphone in Gemini iframe (cross-origin permission delegation)
+    html = html.replace(
+        'referrerpolicy="no-referrer" onload="geminiLoaded = true; setGeminiLoading(false);"',
+        'referrerpolicy="no-referrer" allow="microphone; camera; autoplay" onload="geminiLoaded = true; setGeminiLoading(false);"',
+    )
+
     changed = html != original
     if changed:
         with open(path, "w", encoding="utf-8") as f:

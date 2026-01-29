@@ -1218,7 +1218,7 @@ class HTMLGenerator:
                         Gemini 네비게이터 로딩 중...
                         <div style="font-size: 0.8rem; opacity: 0.8;">(로딩이 오래 걸리면 ↗ 버튼으로 새 창에서 열어주세요)</div>
                     </div>
-                    <iframe id="geminiFrame" class="gemini-overlay-iframe" src="" loading="lazy" referrerpolicy="no-referrer" onload="geminiLoaded = true; setGeminiLoading(false);" title="Gemini Navigator"></iframe>
+                    <iframe id="geminiFrame" class="gemini-overlay-iframe" src="" loading="lazy" referrerpolicy="no-referrer" allow="microphone; camera; autoplay" onload="geminiLoaded = true; setGeminiLoading(false);" title="Gemini Navigator"></iframe>
                 </div>
             </div>
         </body>
