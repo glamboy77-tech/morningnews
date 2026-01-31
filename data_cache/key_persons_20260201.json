@@ -1,0 +1,131 @@
+{
+  "timestamp": "2026-01-31T23:39:29.788828",
+  "date": "20260201",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "李대통령 부부, 이해찬 前총리 영결식 참석…연신 눈물(종합2보)",
+          "link": "https://www.yna.co.kr/view/AKR20260131020052001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-01-31 19:02:48",
+          "description": "(서울=연합뉴스) 황윤기 기자 = 이재명 대통령은 31일 오전 국회에서 열린 고(故) 이해찬 전 국무총리의 영결식에 참석해 눈물을 흘리며 애도를...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "李대통령 부부, 故이해찬 총리 영결식 참석…연신 눈물(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20260131020051001"
+            }
+          ]
+        },
+        {
+          "title": "李대통령 \"부동산 정상화 불가능 같나…5천피보다 쉽고 중요\"",
+          "link": "https://www.yna.co.kr/view/AKR20260131017600001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-01-31 08:51:43",
+          "description": "(서울=연합뉴스) 임형섭 기자 = 이재명 대통령은 31일 &quot;&apos;망국적 부동산&apos;의 정상화가 불가능할 것 같은가&quot;라며 &quot;표 계산 없이 국민을 믿고 비...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": true,
+          "related_full_sources": [
+            {
+              "source": "조선일보-정치",
+              "title": "李대통령 “부동산 정상화, 5천피보다 훨씬 쉽고 중요한 일”",
+              "link": "https://www.chosun.com/politics/politics_general/2026/01/31/B6FST4NUV5FJLH2FWU4T3LTPKY/"
+            }
+          ]
+        },
+        {
+          "title": "與, 사법개혁법 설 이후로 순연 검토…비쟁점 민생법안 우선처리",
+          "link": "https://www.yna.co.kr/view/AKR20260131042100001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-02-01 06:05:00",
+          "description": "(서울=연합뉴스) 박수윤 최평천 기자 = 더불어민주당이 2월 국회에서 비쟁점 민생법안을 우선 처리하는 방안을 검토하고 있다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "교육부 선거교육 계획에 野 \"교실 정치화\"…與 \"근거없는 선동\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260131023051001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-01-31 14:39:32",
+          "description": "(서울=연합뉴스) 박수윤 안정훈 기자 = 여야는 31일 교육부가 초·중·고교를 대상으로 학교급별 맞춤형 &apos;선거 교육&apos;을 실시하겠다고 밝힌 것을 ...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "[주간증시전망] 5300 찍은 역대급 불장, 이제는 ‘옥석 가리기’… 빅테크·금융 실적 가늠자",
+          "link": "https://www.chosun.com/economy/stock-finance/2026/02/01/GI4TMNZRHAZGIZJTHFQWGMZUGE/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-02-01 06:00:00",
+          "description": "2월 첫째 주에도 국내외 주요 기업들의 실적 시즌이 정점으로 치닫으며 한국 증시의 추가 상승 동력을 시험할 전망이다. 코스피가 사상 처음으로 5300선을 돌파하는 등 유례없는 강세장이 연출되는 가운데, 전문가들 사이에서는 지수 추종보다는 철저한 ‘업종 차별화’ 전략이 승패를 가를 것이란 분석이다. 지난주(1월 26~30일) 국내 증시는 그야말로 ‘역대급 불",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 5,
+      "role": "한국 대통령"
+    },
+    "트럼프": {
+      "articles": [
+        {
+          "title": "통상본부장, 美정부·의회 접촉하며 '관세 인상 저지' 총력",
+          "link": "https://www.yna.co.kr/view/AKR20260201000700071",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-02-01 01:23:43",
+          "description": "(워싱턴=연합뉴스) 박성민 특파원 = 미국을 방문 중인 여한구 산업통상부 통상교섭본부장이 도널드 트럼프 미국 정부의 대(對)한국 관세 인상을 저...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "삼성전자·SK하닉, 나란히 ‘최대 실적’…올해 최대 변수 ‘美 관세’",
+          "link": "https://www.donga.com/news/Economy/article/all/20260201/133271579/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-02-01 07:07:33",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/02/01/133271580.1.jpg\" vspace=\"10\" />국내 반도체 투톱 삼성전자와 SK하이닉스가 지난해 나란히 사상 최고 실적을 기록, 한국 반도체 산업의 저력을 과시했다는 평가가 나온다. 인공지능(AI) 열풍이 계속되면서 양사 모두 올해 영업이익이 100조 원을 넘길 것이라 데는 이견이 없는 상황이다. 증권업계의 올해 영업이익 전망치 최고액은 삼성전자가 180조 원, SK하이닉스가 148조 원에 이른다. 최대 복병은 도널드 트럼프 미국 대통령이 예고한 반도체 관세다. 지금 시장 상황은 수요 기업들이 메모리 반도체를 구하지 못해 발을 동동 구르는 상황이다. 만약 관세가 부과된다면 삼성전자나 SK하이닉스가 아닌 미국 기업이 관세를 부담할 가능성이 크다. 트럼프 대통령이 계속 실행에 옮기지 못하고 엄포만 놓고 있는 이유도 여기에 있다. 미국의 마이크론과 중국의 CXMT의 거센 추격도 불안 요인이다. 이렇다 보니 최근 반도체 지원 특별법이 국회를 통과했지만 추가적인 지원책이 필요하다는 목소리에 힘이 실리고 있다. 삼성전자·SK하이닉스,",
+          "category": "domestic",
+          "priority_score": 0,
+          "sector": "반도체",
+          "related_full_sources": []
+        },
+        {
+          "title": "“영장 없이 체포”…트럼프 행정부, ICE 이민 단속 권한 대폭 확대",
+          "link": "https://www.donga.com/news/Inter/article/all/20260131/133270779/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-01-31 14:19:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/01/31/133271144.1.jpg\" vspace=\"10\" />도널드 트럼프 미국 행정부가 법원의 수색 영장 없이도 이민자를 체포하고 주거지에 진입할 수 있도록 권한을 확대하는 내부 지침을 마련한 것으로 나타났다. 30일(현지 시간) 뉴욕타임스(NYT)가 미 이민세관단속국(ICE) 내부 메모를 검토한 결과, 현장에서 서류 미비 이민자로 의심되는 사람들을 영장 없이 체포할 수 있도록 범위를 넓히는 지침이 마련된 것으로 확인됐다. 이는 사전에 영장을 발부받아 특정 인물을 체포하는 기존의 표적 단속 방식과 대비된다. ICE의 직무대행 국장인 토드 M. 라이언스가 서명해 전 직원에게 배포한 이 메모는, 체포 영장을 받기 전 대상자가 현상을 떠날 가능성이 있다고 판단되면 영장 없이도 체포할 수 있도록 한 연방법 조항을 근거로 삼고 있다. ICE는 그동안 이 조항을 재판이나 출석 명령에 응하지 않을 ‘도주 위험자’에 한해 제한적으로 적용해 왔지만, 라이언스 국장은 이 기준을 ‘지금 현장을 떠날 가능성’으로 대폭 낮췄다.해당 메모와 관련, 바이든 행정",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "美틱톡 새 주인 ‘악동’ 엘리슨…MAGA 검열 본격화되나 [트럼피디아] 〈58〉",
+          "link": "https://www.donga.com/news/Inter/article/all/20260201/133271465/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-02-01 08:19:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/02/01/133271478.1.jpg\" vspace=\"10\" />틱톡의 알고리즘을 둘러싼 미국 내 불안과 잡음이 커지고 있다. 틱톡의 미국 사업부가 모기업 중국 바이트댄스에서 분사해 새로운 조직으로 출범한 직후부터 도널드 트럼프 미국 대통령을 비판하는 콘텐츠가 알고리즘에서 배제되고 있다는 의혹이 제기된 것. 틱톡 측은 “데이터센터 정전으로 인한 시스템 오류”라며 해명했지만 진보 진영에서는 “친(親)트럼프 세력의 소셜미디어 장악”이라는 주장을 펼치고 있다. ● 미국 틱톡 “알고리즘 재훈련할 것”지난달 22일(현지 시간) 틱톡의 미국 사업부가 모기업 중국 바이트댄스에서 분사해 ‘틱톡 USDS 조인트벤처 LLC’라는 새로운 조직으로 출범했다. ‘틱톡 USDS 조인트벤처 LLC’는 미국 및 글로벌 투자자들이 벤처 지분의 80.1%를 보유하고, 틱톡의 모회사 바이트댄스는 19.9%를 소유한 구조다. 3대 운영 투자자인 클라우드 컴퓨팅 테크 기업 오라클, 사모펀드 실버레이크, 아랍에미리트(UAE) 아부다비 국부펀드와 연계된 투자회사 MGX는 각각 15%의",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 4,
+      "role": "미국 대통령"
+    }
+  }
+}
