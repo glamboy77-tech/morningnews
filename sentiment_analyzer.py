@@ -199,11 +199,18 @@ class SentimentAnalyzer:
         데이터 캐시 저장
         """
         cache_file = self.get_cache_filename(date_str)
+        tmp_file = f"{cache_file}.tmp"
         try:
-            with open(cache_file, 'w', encoding='utf-8') as f:
+            with open(tmp_file, 'w', encoding='utf-8') as f:
                 json.dump(data, f, ensure_ascii=False, indent=2)
+            os.replace(tmp_file, cache_file)
             print(f"✅ 감성 데이터 캐시 저장: {cache_file}")
         except Exception as e:
+            if os.path.exists(tmp_file):
+                try:
+                    os.remove(tmp_file)
+                except Exception:
+                    pass
             print(f"캐시 저장 실패: {e}")
 
     # -----------------------------

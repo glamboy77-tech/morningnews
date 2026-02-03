@@ -31,6 +31,44 @@ class DualLogger:
 sys.stdout = DualLogger('run_job.log', 'a')
 sys.stderr = DualLogger('run_job.log', 'a')
 
+RUN_STATE_DIR = ".run_state"
+
+def _ensure_run_state_dir():
+    os.makedirs(RUN_STATE_DIR, exist_ok=True)
+
+def get_done_marker_path(date_str: str) -> str:
+    return os.path.join(RUN_STATE_DIR, f"done_{date_str}.json")
+
+def has_done_marker(date_str: str) -> bool:
+    return os.path.exists(get_done_marker_path(date_str))
+
+def write_done_marker(date_str: str, payload: dict):
+    _ensure_run_state_dir()
+    marker_path = get_done_marker_path(date_str)
+    tmp_path = f"{marker_path}.tmp"
+    try:
+        with open(tmp_path, "w", encoding="utf-8") as f:
+            import json
+            json.dump(payload, f, ensure_ascii=False, indent=2)
+        os.replace(tmp_path, marker_path)
+        print(f"✅ done marker 생성: {marker_path}")
+    except Exception as e:
+        print(f"⚠️ done marker 생성 실패: {e}")
+
+def get_missing_required_outputs(date_str: str, output_path: str, cache: DataCache, sentiment: SentimentAnalyzer):
+    missing = []
+    if not cache.has_cache("rss", date_str):
+        missing.append("data_cache/rss")
+    if not cache.has_cache("ai_analysis", date_str):
+        missing.append("data_cache/ai_analysis")
+    if not cache.has_cache("key_persons", date_str):
+        missing.append("data_cache/key_persons")
+    if not os.path.exists(sentiment.get_cache_filename(date_str)):
+        missing.append("sentiment_cache/sentiment")
+    if not os.path.exists(output_path):
+        missing.append("output/morning_news")
+    return missing
+
 def main(send_push=True, use_cache=True):
     print("=== Morning News Bot Started ===")
 
@@ -38,26 +76,15 @@ def main(send_push=True, use_cache=True):
     kst = datetime.timezone(datetime.timedelta(hours=9))
     now_kst = datetime.datetime.now(kst)
 
-    # 현재 시간 확인 (KST)
-    current_hour = now_kst.hour
-    is_morning_window = 8 <= current_hour < 9  # 오전 8시~9시 (KST)
-    
-    # 캐시 사용 로직: 오전 8-9시는 새로 생성, 그 외 시간은 캐시 재사용
-    if is_morning_window:
-        print(f"🌅 오전 {current_hour}시: 새로운 뉴스 생성 및 캐시 저장")
-        use_cache_for_loading = False  # 새로 생성
-    else:
-        print(f"🕐 {current_hour}시: 캐시된 뉴스 재사용")
-        use_cache_for_loading = True   # 캐시 재사용
-    
-    # 테스트 모드 확인
-    is_test_mode = not send_push
-    if is_test_mode and not is_morning_window:
-        print("🧪 테스트 모드: 데이터 캐시 재사용 활성화")
-    
     # Initialize cache system
     cache = DataCache()
     today_str = now_kst.strftime("%Y%m%d")
+
+    # done marker 기반 LLM 스킵 (운영 모드에서만)
+    if use_cache and has_done_marker(today_str):
+        print(f"⏭️ done marker 발견: {get_done_marker_path(today_str)}")
+        print("🚫 오늘은 이미 완료되어 LLM 호출을 수행하지 않습니다.")
+        return
     
     # 캐시 상태 확인
     cache_status = cache.get_cache_status(today_str)
@@ -84,7 +111,7 @@ def main(send_push=True, use_cache=True):
     # 2. Fetch Feeds & Weather (시간 기반 캐시 로직)
     print("\n[Phase 1] Fetching RSS Feeds & Weather...")
     
-    if use_cache and cache_status["rss"] and use_cache_for_loading:
+    if use_cache and cache_status["rss"]:
         print("🔄 캐시된 RSS 데이터 로드 중...")
         all_news = cache.load_rss_data(today_str)
         if all_news:
@@ -125,7 +152,7 @@ def main(send_push=True, use_cache=True):
     # 3. AI Processing (시간 기반 캐시 로직)
     print("\n[Phase 2] AI Processing...")
     
-    if use_cache and cache_status["ai_analysis"] and use_cache_for_loading:
+    if use_cache and cache_status["ai_analysis"]:
         print("🔄 캐시된 AI 분석 데이터 로드 중...")
         domestic_categorized_raw = cache.load_ai_analysis(today_str)
         if domestic_categorized_raw:
@@ -191,7 +218,7 @@ def main(send_push=True, use_cache=True):
     # 3.5. Extract Key Persons (시간 기반 캐시 로직)
     print("\n[Phase 2.5] Extracting Key Persons...")
     
-    if use_cache and cache_status["key_persons"] and use_cache_for_loading:
+    if use_cache and cache_status["key_persons"]:
         print("🔄 캐시된 주요 인물 데이터 로드 중...")
         key_persons = cache.load_key_persons(today_str)
         # NOTE: 빈 dict({})도 '정상 로드(인물 없음)'일 수 있으므로 None 여부로 판단
@@ -216,39 +243,46 @@ def main(send_push=True, use_cache=True):
  
     # 4. Generate Briefing (SentimentAnalyzer는 항상 실행)
     print("\n[Phase 3] Generating Morning Briefing...")
-    # 캐시 재사용 시간대에는 브리핑도 캐시 우선 재사용
-    briefing_data = sentiment.analyze_sentiment(
-        domestic_categorized,
-        today_str,
-        use_cache=(use_cache and use_cache_for_loading),
-        allow_stale=True,
-        max_retries=3,
-    )
+    briefing_data = None
+    if use_cache and os.path.exists(sentiment.get_cache_filename(today_str)):
+        print("🔄 캐시된 감성/브리핑 데이터 로드 중...")
+        briefing_data = sentiment.load_cached_data(today_str)
+    if briefing_data is None:
+        briefing_data = sentiment.analyze_sentiment(
+            domestic_categorized,
+            today_str,
+            use_cache=use_cache,
+            allow_stale=False,
+            max_retries=3,
+        )
  
     # 5. Generate Main HTML
     print("\n[Phase 4] Generating Main HTML...")
-    # Generate date-specific file
-    html_gen.generate_main_page(
-        domestic_categorized, 
-        science_raw, 
-        briefing_data,
-        weather_data, 
-        main_file_path, 
-        date_str_dot,
-        key_persons
-    )
-    
-    # Also generate index.html in root folder (as a copy of the latest report)
-    index_file_path = "index.html"
-    html_gen.generate_main_page(
-        domestic_categorized, 
-        science_raw, 
-        briefing_data,
-        weather_data, 
-        index_file_path, 
-        date_str_dot,
-        key_persons
-    )
+    if not os.path.exists(main_file_path):
+        # Generate date-specific file
+        html_gen.generate_main_page(
+            domestic_categorized, 
+            science_raw, 
+            briefing_data,
+            weather_data, 
+            main_file_path, 
+            date_str_dot,
+            key_persons
+        )
+        
+        # Also generate index.html in root folder (as a copy of the latest report)
+        index_file_path = "index.html"
+        html_gen.generate_main_page(
+            domestic_categorized, 
+            science_raw, 
+            briefing_data,
+            weather_data, 
+            index_file_path, 
+            date_str_dot,
+            key_persons
+        )
+    else:
+        print(f"✅ 오늘자 HTML 이미 존재: {main_file_path}")
 
     # 5.0 Retrofit old output pages for GitHub Pages subpath + Archive nav
     try:
@@ -280,6 +314,21 @@ def main(send_push=True, use_cache=True):
     else:
         print("\n[Phase 5] (테스트 모드) 알림은 발송하지 않습니다.")
     print("\n=== Finished Successfully ===")
+
+    # done marker 생성 (모든 필수 산출물 완비 시에만)
+    if use_cache:
+        missing = get_missing_required_outputs(today_str, main_file_path, cache, sentiment)
+        if not missing:
+            write_done_marker(
+                today_str,
+                {
+                    "date": today_str,
+                    "created_at": now_kst.isoformat(),
+                    "output": main_file_path,
+                },
+            )
+        else:
+            print(f"⚠️ done marker 보류: 누락된 산출물 -> {', '.join(missing)}")
 
 if __name__ == "__main__":
     # 커맨드라인 인자: --no-push, --no-cache

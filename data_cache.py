@@ -20,17 +20,24 @@ class DataCache:
     def save_rss_data(self, rss_data, date_str=None):
         """RSS 수집 데이터 캐시 저장"""
         cache_file = self.get_cache_filename('rss', date_str)
+        tmp_file = f"{cache_file}.tmp"
         try:
             cache_data = {
                 "timestamp": datetime.now().isoformat(),
                 "date": date_str or datetime.now().strftime("%Y%m%d"),
                 "data": rss_data
             }
-            with open(cache_file, 'w', encoding='utf-8') as f:
+            with open(tmp_file, 'w', encoding='utf-8') as f:
                 json.dump(cache_data, f, ensure_ascii=False, indent=2, default=str)
+            os.replace(tmp_file, cache_file)
             print(f"✅ RSS 데이터 캐시 저장: {cache_file}")
             return True
         except Exception as e:
+            if os.path.exists(tmp_file):
+                try:
+                    os.remove(tmp_file)
+                except Exception:
+                    pass
             print(f"❌ RSS 캐시 저장 실패: {e}")
             return False
     
@@ -55,17 +62,24 @@ class DataCache:
     def save_ai_analysis(self, ai_data, date_str=None):
         """AI 분석 데이터 캐시 저장"""
         cache_file = self.get_cache_filename('ai_analysis', date_str)
+        tmp_file = f"{cache_file}.tmp"
         try:
             cache_data = {
                 "timestamp": datetime.now().isoformat(),
                 "date": date_str or datetime.now().strftime("%Y%m%d"),
                 "data": ai_data
             }
-            with open(cache_file, 'w', encoding='utf-8') as f:
+            with open(tmp_file, 'w', encoding='utf-8') as f:
                 json.dump(cache_data, f, ensure_ascii=False, indent=2, default=str)
+            os.replace(tmp_file, cache_file)
             print(f"✅ AI 분석 데이터 캐시 저장: {cache_file}")
             return True
         except Exception as e:
+            if os.path.exists(tmp_file):
+                try:
+                    os.remove(tmp_file)
+                except Exception:
+                    pass
             print(f"❌ AI 분석 캐시 저장 실패: {e}")
             return False
     
@@ -91,17 +105,24 @@ class DataCache:
     def save_key_persons(self, key_persons, date_str=None):
         """주요 인물 추출 데이터 캐시 저장"""
         cache_file = self.get_cache_filename('key_persons', date_str)
+        tmp_file = f"{cache_file}.tmp"
         try:
             cache_data = {
                 "timestamp": datetime.now().isoformat(),
                 "date": date_str or datetime.now().strftime("%Y%m%d"),
                 "data": key_persons
             }
-            with open(cache_file, 'w', encoding='utf-8') as f:
+            with open(tmp_file, 'w', encoding='utf-8') as f:
                 json.dump(cache_data, f, ensure_ascii=False, indent=2, default=str)
+            os.replace(tmp_file, cache_file)
             print(f"✅ 주요 인물 데이터 캐시 저장: {cache_file}")
             return True
         except Exception as e:
+            if os.path.exists(tmp_file):
+                try:
+                    os.remove(tmp_file)
+                except Exception:
+                    pass
             print(f"❌ 주요 인물 캐시 저장 실패: {e}")
             return False
     

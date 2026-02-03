@@ -25,6 +25,7 @@ wheels/
 
 # Environment variables
 .env
+.run_state/
 .env.local
 .env.*.local
 
