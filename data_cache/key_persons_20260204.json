@@ -1,0 +1,381 @@
+{
+  "timestamp": "2026-02-03T21:46:05.532737",
+  "date": "20260204",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "“마지막 탈출 기회다”…李대통령, 다주택자 향한 메시지",
+          "link": "https://www.mk.co.kr/news/realestate/11951850",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-02-03 19:44:52",
+          "description": "국무회의서 세밀한 대책 주문이재명 대통령이 3일 청와대에서 개최한 국무회의에서 다주택자를 겨냥해 “버티면 언젠가는 (양도세 중과를) 풀어준다는 가능성을 원천 봉쇄해야 한다”는 강경..",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "“우크라 북한군 포로 국내 송환, 李·젤렌스키 직접 소통으로 해결해야”",
+          "link": "https://www.chosun.com/politics/politics_general/2026/02/04/XJ67B52E4BDT7MGXKXXMJOCV6Q/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-02-04 00:57:00",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "우크라 억류 北포로 귀순 세미나서 “이재명·젤렌스키 대통령 결단 필요”",
+          "link": "https://www.chosun.com/politics/politics_general/2026/02/03/LILYJMQXENGY3BFOMIWQZROOTU/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-02-03 14:38:04",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "‘한국인 건들면 패가망신’ 李 글 삭제… 장동혁 “중국어로 따졌어야”",
+          "link": "https://www.chosun.com/politics/politics_general/2026/02/03/USQ7HRVRNVDSRHIQURUIYRTRUA/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-02-03 12:10:23",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, '尹정부 KBS 이사 임명 취소' 법원 판결에 항소포기",
+          "link": "https://www.yna.co.kr/view/AKR20260203135900001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-02-03 16:15:14",
+          "description": "(서울=연합뉴스) 황윤기 기자 = 이재명 대통령은 전임 윤석열 정부에서 이뤄진 KBS 이사 7인의 임명이 위법하다며 이를 취소한 법원의 판결을 ...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": false,
+          "related_full_sources": [
+            {
+              "source": "조선일보-정치",
+              "title": "李대통령, ‘KBS 이사 임명 취소’ 항소 포기",
+              "link": "https://www.chosun.com/politics/blue_house/2026/02/03/FCXXAIH5ERAMBBWGDQSYZF3OKA/"
+            }
+          ]
+        },
+        {
+          "title": "민주당 인천 의원들 \"검찰이 李대통령 조작기소…공소 취소해야\"",
+          "link": "https://www.yna.co.kr/view/AKR20260203109800065",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-02-03 14:35:58",
+          "description": "(인천=연합뉴스) 신민재 기자 = 더불어민주당 인천지역 국회의원들이 &apos;대장동 개발 비리&apos;, &apos;쌍방울 대북송금&apos; 등 이재명 대통령이 기소된 사건들...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 \"무슨 수 써서라도 투기 잡겠다…일찍 파는 게 유리\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260203028051001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-02-03 11:24:07",
+          "description": "(서울=연합뉴스) 임형섭 기자 = 이재명 대통령은 3일 &quot;대한민국은 위대한 국민의 나라&quot;라며 &quot;상식적이고 번영하는 나라를 위해 망국적인 부동산 ...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 \"계란훔치면 꼭 처벌하던데\"…기업 담합에 \"경종 울려야\"",
+          "link": "https://www.yna.co.kr/view/AKR20260203147300001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-02-03 17:16:11",
+          "description": "(서울=연합뉴스) 임형섭 황윤기 기자 = 이재명 대통령은 3일 청와대에서 주재한 국무회의에서 민생경제와 직결된 기업들의 담합 등 불공정거래 행위...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 “공정위 권한 너무 커...전속고발권 폐지하든지, 국민에 주든지 개선해야”",
+          "link": "https://www.chosun.com/politics/politics_general/2026/02/03/3YJ2A2PUN5DVDGRCG333HZDPYU/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-02-03 16:39:18",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 \"본인도 가족도 힘들어\"…연명의료 결정제 활성화 주문",
+          "link": "https://www.yna.co.kr/view/AKR20260203127600001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-02-03 16:04:02",
+          "description": "(서울=연합뉴스) 설승은 기자 = 이재명 대통령은 3일 생애 말기에 치료 효과 없이 임종 과정만 연장하는 연명의료를 시행하지 않거나 중단할 수 ...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 \"창업 중심 국가로 대전환…문턱 낮추고 파격적 지원\"",
+          "link": "https://www.yna.co.kr/view/AKR20260203107600001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-02-03 14:33:52",
+          "description": "(서울=연합뉴스) 고동욱 황윤기 기자 = 이재명 대통령은 3일 &quot;누구나 쉽게 창업에 도전하고 성공할 수 있는 창업 중심 국가로의 대전환에 정부 ...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "\"주말에도 알람 켜뒀다\"…李 '폭풍 트윗'에 공무원들 초긴장",
+          "link": "https://www.hankyung.com/article/202602030537i",
+          "source": "한국경제-기업",
+          "published_dt": "2026-02-03 11:38:35",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "이 대통령 “부동산 투기 하나 못잡겠나…협박·엄포 아냐”",
+          "link": "https://www.mk.co.kr/news/politics/11951018",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-02-03 08:44:36",
+          "description": "소셜미디어 작심 발언 이어간 李 “수백만 청년 피눈물 안 보이나 사용할 수 있는 정책 얼마든 있다”이재명 대통령이 3일 “명백한 부조리 부동산 투기 하나 못잡겠습니까”라며 다주택자..",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "[심층분석] 李 “비싸고 독과점” 지적한 생리대…전문가 3인이 본 시장의 문제와 해법",
+          "link": "https://www.chosun.com/economy/smb-venture/2026/02/04/GJSGCYTFME2WGZRTME4GCMBVG4/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-02-04 06:30:46",
+          "description": "이재명 대통령이 최근 “국내 생리대 가격이 해외보다 약 39% 비싸다”며 독과점적 시장 구조를 지적하면서, 생리대 가격 문제가 사회적 쟁점으로 부상하고 있다. 생리대는 여성 인구의 절반 이상이 매달 사용하는 대표적인 생필품이지만, 가격이 어떻게 형성되고 어떤 유통 구조를 거치는지에 대해서는 그동안 충분한 공론화가 이뤄지지 않았다는 지적이 나온다. 조선비즈",
+          "category": "domestic",
+          "priority_score": 0,
+          "sector": "유통/소매",
+          "related_full_sources": []
+        },
+        {
+          "title": "다주택자 향한 이재명 대통령의 말 폭탄, 속내는",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/02/03/2026020302911.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-02-03 15:33:57",
+          "description": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"3\" width=\"100%\"><tr><td><img border=\"0\" src=\"https://image.chosun.com/sitedata/thumbnail/202602/03/2026020302906_0_thumb.jpg\" /></td></tr></table>\n\t지방선거 4개월 앞두고 터뜨린 ‘부동산 전쟁’\n코스피5000보다 쉬운 집값 잡기\n대선 공약 뒤집고 본심 드러내\n \n \n[땅집고]  이재명 대통령이 돌연 부동산 시장을 향해 날 선 메시지를 쏟아내고 있다. 지난 1월 31일부터 엑스(X·옛 트위터)를 통해 올린 부동산 관련 게시물만 벌써 8차례다. 투기세력과의 전쟁을 선포하며 고강도 세제 카드까지 만지작거리는 모양새다. 대통령은 이날 다주택자 세제 강화 반대론에 대해 “돈이 마귀라더니, 설마 마귀에게 최소한의 양심마저 빼앗긴 건 아니겠죠”,  “부동산 투기 때문에 나라 망하는 걸 보고...",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "송언석 “이 대통령, 소수 다주택자를 범죄자 취급…협박으로 안정 안돼”",
+          "link": "https://www.mk.co.kr/news/realestate/11951242",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-02-03 10:53:32",
+          "description": "이재명 대통령이 부동산 관련 연일 SNS를 통해 강경 메시지를 내는 가운데, 국민의힘 송언석 원내대표는 3일 “부동산 정책은 계곡의 불법 식당을 철거하듯이 밀어붙여서 해결할 수 없..",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 16,
+      "role": "한국 대통령"
+    },
+    "트럼프": {
+      "articles": [
+        {
+          "title": "“中희토류 보복, 다신 싫어” 트럼프, 핵심광물 비축계획 ‘볼트’ 발표",
+          "link": "https://www.donga.com/news/Inter/article/all/20260203/133288145/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-02-03 20:35:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/01/28/133247757.1.jpg\" vspace=\"10\" />“1년 전 일을 다시는 겪고 싶지 않다.”도널드 트럼프 미국 대통령이 2일(현지 시간) 워싱턴 백악관에서 ‘프로젝트 볼트(Project Vault·볼트는 금고란 뜻)’라는 이름의 핵심광물 비축 계획을 발표하며 이같이 밝혔다. 지난해 중국과의 무역전쟁 과정에서 중국의 희토류 수출 규제로 큰 어려움을 겪었던 경험을 떠올리며 희토류를 포함한 핵심광물 비축 및 안정적인 공급망 구축에 나서겠다는 뜻을 강조한 발언으로 풀이된다.그는 “수년간 미국 기업들은 시장 교란이 발생할 때마다 핵심광물이 바닥날 뻔한 위험을 감수해야 했다”며 사업의 정당성을 거듭 강조했다.  또 “비상시 민간 용도로 사용될 핵심광물로서 이 같은 비축분을 조성하는 것은 이번이 처음”이라고 했다.마코 루비오 미국 국무장관 또한 4일 주요 7개국(G7), 한국, 호주, 인도 등의 장관급을 워싱턴으로 초청해 핵심광물 회의를 열기로 했다. 이 자리에서도 ‘프로젝트 볼트’가 논의될 것으로 보인다.  ● 민관 합동으로 사업비",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "텃밭 선거 참패하자… 트럼프 “국가가 선거 관리해야”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260203/133292473/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-02-04 04:30:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/02/03/133290109.5.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령이 자신의 2020년 대선 패배가 부정선거 때문이라는 기존 주장을 되풀이하며 집권 공화당이 주요 연방 선거를 “국영화(nationalize the voting)해야 한다”고 2일 주장했다. 현재 미 헌법에 따라 50개 주 정부가 담당하는 선거 관리를 연방정부의 통제하에 두겠다는 것이다. 11월 중간선거를 앞두고 지지율 하락에 직면한 그가 이번 선거에 직접적으로 개입할 발판을 마련하고, 선거 패배 시 거듭 부정선거를 주장하려 한다는 분석이 제기된다. 뉴욕타임스(NYT) 등에 따르면 트럼프 대통령은 이날 댄 본지노 전 미 연방수사국(FBI) 부국장이 진행하는 보수 성향 팟캐스트에 출연해 선거권이 없는 불법 이민자들이 투표를 하고 있다는 주장을 제기하며 공화당이 이에 “더 강경하게 대응해야 한다”고 외쳤다. 공화당이 최소 15개 주의 투표를 장악해야 한다고도 했다. 다만 이 15개 주가 어딘지는 언급하지 않았다. 본지노는 소수의 좌파 엘리트 관료들이 기득권을",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프, 인도 관세 50→18% 인하…동맹 韓은 기습 인상하더니",
+          "link": "https://www.donga.com/news/Inter/article/all/20260203/133288558/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-02-03 16:06:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/02/03/133289507.1.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령이  2일(현지 시간) 인도가 러시아산 원유 수입을 중단키로 했다며 인도에 대한 상호관세를 25%에서 18%로 낮춘다고 밝혔다. 이에 따라 러시아산 원유 수입에 대한 제재성 관세를 포함해 총 50%에 달했던 미국의 대(對) 인도 관세가 18%로 대폭 줄게 됐다. 관세 합의 관련 입법 지연을 이유로 동맹국인 한국에 기습적으로 관세 인상을 통보한 것과 비교된다.트럼프 대통령은 이날 트루스소셜에 나렌드라 모디 인도 총리와 통화를 갖고 무역과 우크라이나 전쟁 종식 등 다양한 내용을 논의했다며 관세 인하 소식을 알렸다. 그는 “모디 총리가 러시아산 원유 구매를 중단하고 미국과, 잠재적으론 베네수엘라로부터 훨씬 더 많은 (원유를) 구매하기로 했다”며 “모디 총리에 대한 우정과 존중을 바탕으로 즉시 발효되는 미국과 인도 간 무역합의에 동의했다”고 밝혔다. 이에 따라 미국은 대 인도 상호관세를 25%에서 18%로 낮추고, 러시아산 원유 수입에 따른 제재성 관세 25%도",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "텃밭도 뒤집히자…트럼프 “선거, 공화당이 국영화해야”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260203/133289444/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-02-03 16:42:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/02/03/133289877.1.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령이 자신의 2020년 대선 패배가 부정 선거 때문이라는 기존 주장을 되풀이하며 집권 공화당이 주요 연방 선거를 “국영화(nationalize the voting)해야 한다”고 2일 주장했다. 현재 미 헌법에 따라 50개 주 정부가 담당하는 선거 관리를 연방정부의 통제 하에 두겠다는 것이다. 11월 중간선거를 앞두고 지지율 하락에 직면한 그가 이번 선거에 직접적으로 개입할 발판을 마련하고, 선거 패배 시 거듭 부정선거를 주장하려 한다는 분석이 제기된다.뉴욕타임스(NYT) 등에 따르면 트럼프 대통령은 이날 댄 본지노 전 미 연방수사국(FBI) 부국장이 진행하는 보수 성향 팟캐스트에 출연해 선거권이 없는 불법 이민자들이 투표를 하고 있다는 주장을 제기하며 공화당이 이에 “더 강경하게 대응해야 한다”고 외쳤다. 공화당이 최소 15개 주의 투표를 장악해야 한다고도 했다. 다만 이 15개 주가 어딘지는 언급하지 않았다.본지노는 소수의 좌파 엘리트 관료들이 기득권을",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 4,
+      "role": "미국 대통령"
+    },
+    "워시": {
+      "articles": [
+        {
+          "title": "워시, 돈 풀기에 부정적… 금리 인하 속도·폭 약할 듯",
+          "link": "https://www.chosun.com/economy/economy_general/2026/02/04/ETSLZ3W5D5FH3AOXL5NW5MXCT4/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-02-04 00:35:00",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "‘워시 쇼크’ 하루 만에 끝… 코스피 6.8% 폭등, 사상 최고치 경신",
+          "link": "https://www.chosun.com/economy/money/2026/02/03/3VFZABH42JF2DJYIFBRTDWMRQA/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-02-03 15:42:57",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "'워시 공포' 털어낸 월가 \"금도 주식도 계속 사라\" [빈난새의 빈틈없이월가]",
+          "link": "https://www.hankyung.com/article/202602039864i",
+          "source": "한국경제-기업",
+          "published_dt": "2026-02-03 13:28:17",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "워시-베선트의 막후 실세 ‘드러켄밀러’… 월가 전설과 워시의 10년 인연",
+          "link": "https://www.donga.com/news/Inter/article/all/20260203/133287906/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-02-03 15:27:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/02/03/133288659.1.jpg\" vspace=\"10\" />차기 미국 연방준비제도(Fed·연준) 의장으로 지명된 케빈 워시 전 연준 이사에게 상당한 영향력을 행사하는 것으로 알려진 월가의 억만장자 투자자 스탠리 드러켄밀러(73)가 큰 관심을 받고 있다고 월스트리트저널(WSJ)이 2일(현지 시간) 보도했다. 워시 후보자가 과거 드러켄밀러 밑에서 10년 넘게 일하며 경제 분석 및 투자 관련 멘토링을 받았다는 것이다. 드러켄밀러의 투자 성향을 통해 워시 후보자가 향후 취할 행보를 가늠해 볼 수 있다는 분석도 나온다.드러켄밀러는 1953년 펜실베이니아주 피츠버그에서 태어났다. 보딘대를 졸업한 후 1977년 피츠버그내셔널뱅크에서 사회생활을 시작했다. 1981년 헤지펀드 ‘듀케인캐피털매니지먼트’를 설립했고 이후 30년간 한 해도 손실을 내지 않고 연평균 30%의 수익률을 기록했다.그는 1988~2000년 월가의 전설적 투자자 조지 소로스의 헤지펀드 ‘퀀텀펀드’의 운용 책임자로도 활동했다. 스콧 베선트 미 재무장관은 당시 이 펀드에서 드러켄밀러에게",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 4,
+      "role": "미국 연방준비제도 의장"
+    },
+    "정청래": {
+      "articles": [
+        {
+          "title": "정청래 “黨 계파 해체될 것”… 與, ‘1인 1표제’ 중앙위 통과",
+          "link": "https://www.chosun.com/economy/economy_general/2026/02/03/MFTGCYTCHA2DMMRZGMYDANJYHE/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-02-03 18:04:20",
+          "description": "더불어민주당이 정청래 대표의 공약인 ‘1인 1표제’를 중앙위원회에서 통과시켰다. 지난해 12월 정족수 부족으로 부결의 고배를 마신 지 두 달 만이다. 민주당은 1인 1표제가 중앙위를 통과함에 따라 오는 6월 지방선거부터 본격적으로 시행할 전망이다.  민주당 중앙위 의장인 민홍철 의원은 3일 오후 국회에서 “의결 안건 제2호 투표 결과(1인 1표제 당헌 개정",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "정청래 “코스피 1만, 꿈 아닌 현실 되길…아직 갈 길 멀어”",
+          "link": "https://www.chosun.com/politics/assembly/2026/02/03/3GSHXTXTMJCHLMP5XBDJF6QISU/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-02-03 15:10:41",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "'1인1표제' 이번엔 통과할까…'합당' 내홍속 시험대 오른 정청래",
+          "link": "https://www.yna.co.kr/view/AKR20260203075900001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-02-03 11:43:02",
+          "description": "(서울=연합뉴스) 서혜림 김정진 박재하 기자 = 조국혁신당과의 합당을 둘러싼 더불어민주당의 내홍이 깊어지는 가운데 이른바 &apos;1인1표제&apos; 도입을 ...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "더불어민주당 국회의원"
+    },
+    "장동혁": {
+      "articles": [
+        {
+          "title": "장동혁, 오늘 교섭단체 대표연설…정부 비판·당 비전 제시",
+          "link": "https://www.yna.co.kr/view/AKR20260203155400001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-02-04 05:00:30",
+          "description": "(서울=연합뉴스) 김치연 조다운 기자 = 국민의힘 장동혁 대표는 4일 열리는 국회 본회의에서 교섭단체 대표연설에 나선다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "‘한국인 건들면 패가망신’ 李 글 삭제… 장동혁 “중국어로 따졌어야”",
+          "link": "https://www.chosun.com/politics/politics_general/2026/02/03/USQ7HRVRNVDSRHIQURUIYRTRUA/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-02-03 12:10:23",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "이준석 “장동혁, 황교안의 길 갈 것... 난 그 판에 끼지 않겠다”",
+          "link": "https://www.chosun.com/politics/politics_general/2026/02/03/Y55VJOYTJFCDVLF5QHCBGROABQ/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-02-03 11:38:52",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "국민의힘 국회의원"
+    }
+  }
+}
