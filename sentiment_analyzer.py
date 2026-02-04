@@ -11,6 +11,8 @@ class SentimentAnalyzer:
         self.client = genai.Client(api_key=config.gemini_api_key)
         self.cache_dir = "sentiment_cache"
         os.makedirs(self.cache_dir, exist_ok=True)
+        self.tts_dir = "scripts"
+        os.makedirs(self.tts_dir, exist_ok=True)
 
     # -----------------------------
     # Cache helpers
@@ -359,6 +361,149 @@ class SentimentAnalyzer:
             },
         }
 
+    def _ensure_tts_script(self, data: dict, date_str: str | None = None) -> dict:
+        """Ensure tts_script exists and is well-formed for backward compatibility."""
+        if data is None:
+            return data
+
+        if date_str is None:
+            date_str = datetime.now().strftime("%Y%m%d")
+        date_str_dash = f"{date_str[:4]}-{date_str[4:6]}-{date_str[6:8]}"
+
+        tts_script = data.get("tts_script")
+        if not isinstance(tts_script, dict):
+            tts_script = {}
+
+        tts_script.setdefault("duration_sec_target", 300)
+        tts_script.setdefault("title", f"오늘의 모닝뉴스 ({date_str_dash})")
+
+        pronunciations = tts_script.get("pronunciations", [])
+        if not isinstance(pronunciations, list):
+            pronunciations = []
+        tts_script["pronunciations"] = pronunciations
+
+        lines = tts_script.get("lines", [])
+        if isinstance(lines, str):
+            lines = [lines]
+        if not isinstance(lines, list):
+            lines = []
+        tts_script["lines"] = [str(line).strip() for line in lines if str(line).strip()]
+
+        data["tts_script"] = tts_script
+        return data
+
+    def _build_tts_fallback_content(self, briefing_data: dict, date_str: str | None = None) -> list[str]:
+        """Build a raw, parser-friendly script when tts_script is missing."""
+        if briefing_data is None:
+            return []
+
+        if date_str is None:
+            date_str = datetime.now().strftime("%Y%m%d")
+        date_str_dash = f"{date_str[:4]}-{date_str[4:6]}-{date_str[6:8]}"
+
+        section_summaries = briefing_data.get("section_summaries", {}) or {}
+        hojae = briefing_data.get("hojae", []) or []
+        akjae = briefing_data.get("akjae", []) or []
+        trading_hojae = briefing_data.get("trading_hojae", []) or []
+        trading_akjae = briefing_data.get("trading_akjae", []) or []
+
+        lines: list[str] = [
+            f"Title: 오늘의 모닝뉴스 ({date_str_dash})",
+            f"Date: {date_str_dash}",
+            "Sections:",
+        ]
+
+        for key in ["정치", "경제/거시", "기업/산업", "부동산", "국제"]:
+            summary = section_summaries.get(key, "").strip() if isinstance(section_summaries, dict) else ""
+            lines.append(f"- {key}: {summary}")
+
+        lines.append("Hojae:")
+        if hojae:
+            lines.extend([f"- {item}" for item in hojae])
+        else:
+            lines.append("- (none)")
+
+        lines.append("Akjae:")
+        if akjae:
+            lines.extend([f"- {item}" for item in akjae])
+        else:
+            lines.append("- (none)")
+
+        if trading_hojae or trading_akjae:
+            lines.append("TradingHojae:")
+            if trading_hojae:
+                lines.extend([f"- {item}" for item in trading_hojae])
+            else:
+                lines.append("- (none)")
+
+            lines.append("TradingAkjae:")
+            if trading_akjae:
+                lines.extend([f"- {item}" for item in trading_akjae])
+            else:
+                lines.append("- (none)")
+
+        return lines
+
+    def save_tts_script_text(self, briefing_data: dict, date_str: str | None = None) -> str | None:
+        """Save TTS script to a text file and return its path."""
+        if briefing_data is None:
+            return None
+
+        if date_str is None:
+            date_str = datetime.now().strftime("%Y%m%d")
+
+        briefing_data = self._ensure_tts_script(briefing_data, date_str)
+        tts_script = briefing_data.get("tts_script") or {}
+        lines = tts_script.get("lines", [])
+        if isinstance(lines, str):
+            lines = [lines]
+        if not isinstance(lines, list):
+            lines = []
+        lines = [str(line).strip() for line in lines if str(line).strip()]
+
+        filename = os.path.join(self.tts_dir, f"youtube_tts_{date_str}.txt")
+        tmp_file = f"{filename}.tmp"
+
+        pronunciations = tts_script.get("pronunciations", [])
+        pronunciation_lines = []
+        for item in pronunciations:
+            term = item.get("term") if isinstance(item, dict) else None
+            say = item.get("say") if isinstance(item, dict) else None
+            if term and say:
+                pronunciation_lines.append(f"- {term} -> {say}")
+
+        content_parts = [
+            f"Title: {tts_script.get('title', '')}",
+            f"DurationSecTarget: {tts_script.get('duration_sec_target', 300)}",
+        ]
+        if pronunciation_lines:
+            content_parts.append("Pronunciations:")
+            content_parts.extend(pronunciation_lines)
+
+        if lines:
+            content_parts.append("TtsLines:")
+            content_parts.extend(lines)
+        else:
+            content_parts.append("RawScript:")
+            content_parts.extend(self._build_tts_fallback_content(briefing_data, date_str))
+
+        content = "\n".join(content_parts).strip() + "\n"
+
+        try:
+            os.makedirs(self.tts_dir, exist_ok=True)
+            with open(tmp_file, "w", encoding="utf-8") as f:
+                f.write(content)
+            os.replace(tmp_file, filename)
+            return filename
+        except Exception as e:
+            if os.path.exists(tmp_file):
+                try:
+                    os.remove(tmp_file)
+                except Exception:
+                    pass
+            print(f"⚠️ TTS 스크립트 저장 실패: {e}")
+            return None
+
     def analyze_sentiment(self, categorized_news, date_str=None, *, use_cache=True, allow_stale=True, max_retries: int = 3):
         """브리핑 + 호재/악재(및 트레이딩용) 생성.
 
@@ -376,7 +521,7 @@ class SentimentAnalyzer:
             cached = self.load_cached_data(date_str)
             if cached is not None:
                 print(f"✅ 감성/브리핑 캐시 재사용: {self.get_cache_filename(date_str)}")
-                return cached
+                return self._ensure_tts_script(cached, date_str)
 
             # 캐시 재사용 모드인데 오늘 캐시가 없으면, Gemini 호출 없이 최신 캐시를 폴백으로 사용
             if allow_stale:
@@ -390,6 +535,7 @@ class SentimentAnalyzer:
                             "source_date": stale_date,
                             "generated_at": datetime.now().isoformat(),
                         })
+                        stale = self._ensure_tts_script(stale, date_str)
                         # 다음 실행부터는 당일 캐시로 바로 로드 가능하도록 저장
                         self.save_cached_data(stale, date_str)
                         print(f"✅ 오늘 캐시가 없어 최근 브리핑 캐시({stale_date})로 대체합니다.")
@@ -436,6 +582,15 @@ class SentimentAnalyzer:
    - 이유 표기: 각 기업 옆에 10자 이내의 아주 짧은 사유를 덧붙이세요.
    - 형식: "회사명: 사유"
 
+TTS 스크립트 생성 규칙:
+1. 5분 낭독 기준(4분30초~5분30초)으로 55~75줄 내외 작성.
+2. 기사체 금지. 말하기체로 짧은 문장(한 줄=한 문장).
+3. 섹션 전환 멘트 포함: "다음은…", "한편…", "정리하면…" 등.
+4. 숫자/약어/단위는 TTS가 읽기 쉬운 형태로 변환하거나 pronunciations에 등록.
+   - 예: "3.2%" → "삼쩜이 퍼센트", "1,200달러" → "천이백 달러"
+5. 마지막 줄은 반드시 고정 문구 사용:
+   "투자 조언이 아니라, 오늘 아침 정보를 정리해드린 거예요. 좋은 하루 보내세요."
+
 Output JSON Format:
 {{
   "section_summaries": {{
@@ -446,7 +601,20 @@ Output JSON Format:
     "국제": "..."
   }},
   "hojae": ["회사명: 사유"],
-  "akjae": ["회사명: 사유"]
+  "akjae": ["회사명: 사유"],
+  "tts_script": {{
+    "duration_sec_target": 300,
+    "title": "오늘의 모닝뉴스 (YYYY-MM-DD)",
+    "pronunciations": [
+      {{"term": "S&P 500", "say": "에스엔피 오백"}},
+      {{"term": "BTC", "say": "비트코인"}},
+      {{"term": "ETH", "say": "이더리움"}}
+    ],
+    "lines": [
+      "[SMILE] 좋은 아침입니다. 2월 4일 모닝뉴스 시작합니다. [PAUSE 0.4]",
+      "...(한 줄=한 문장, 짧게, 말하기체)..."
+    ]
+  }}
 }}
 
 News List:
@@ -488,7 +656,7 @@ Weighted News List:
             )
 
             final_data = {
-                **briefing_data,
+                **self._ensure_tts_script(briefing_data, date_str),
                 "trading_hojae": trading_data.get("trading_hojae", []),
                 "trading_akjae": trading_data.get("trading_akjae", []),
                 "analysis_mode": current_mode,
@@ -534,6 +702,7 @@ Weighted News List:
                             "source_date": stale_date,
                             "generated_at": datetime.now().isoformat(),
                         })
+                        stale = self._ensure_tts_script(stale, date_str)
                         # 저장해두면 다음 실행에서 당일 캐시로 바로 로드 가능
                         if use_cache:
                             self.save_cached_data(stale, date_str)

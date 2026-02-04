@@ -255,6 +255,15 @@ def main(send_push=True, use_cache=True):
             allow_stale=False,
             max_retries=3,
         )
+
+    # Save YouTube TTS script (separate text file) - opt-in only
+    if os.getenv("ENABLE_TTS_SCRIPT") == "1":
+        tts_path = sentiment.save_tts_script_text(briefing_data, today_str)
+        if tts_path:
+            tts_lines = briefing_data.get("tts_script", {}).get("lines", []) if briefing_data else []
+            print(f"✅ TTS 스크립트 저장 완료: {tts_path} (lines={len(tts_lines)})")
+        else:
+            print("⚠️ TTS 스크립트 저장 실패 또는 데이터 없음")
  
     # 5. Generate Main HTML
     print("\n[Phase 4] Generating Main HTML...")

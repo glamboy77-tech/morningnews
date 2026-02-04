@@ -1,0 +1,160 @@
+{
+  "timestamp": "2026-02-05T06:02:54.766658",
+  "date": "20260205",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "李 “해외 일정 취소했다면서요” 이재용 “당연히 와야죠”",
+          "link": "https://www.chosun.com/politics/politics_general/2026/02/05/ZZ65WO34PBGXTHXXV6NCZ7TCCY/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-02-05 00:56:00",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "장동혁 \"파괴·추락의 8개월\"…지방선거 목전 '李정부 때리기'",
+          "link": "https://www.yna.co.kr/view/AKR20260204077600001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-02-04 12:15:06",
+          "description": "(서울=연합뉴스) 박수윤 김유아 조다운 기자 = 국민의힘 장동혁 대표는 4일 교섭단체 대표연설에서 집권 2년 차에 접어든 이재명 정부를 강도 높...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 “해외일정 취소하고 오셨다고요”…이재용 “당연합니다”",
+          "link": "https://www.chosun.com/politics/blue_house/2026/02/04/RP3RFEPJZVH7NHLE6KJUJBJQ4M/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-02-04 16:44:56",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "李대통령 \"해외일정 취소하고 오셨다고요\"…이재용 \"당연합니다\"",
+              "link": "https://www.yna.co.kr/view/AKR20260204131700001"
+            }
+          ]
+        },
+        {
+          "title": "법원행정처장 \"李선거법 사건, 헌법·법률 따라 절차맞게 판결\"",
+          "link": "https://www.yna.co.kr/view/AKR20260204133900004",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-02-04 16:32:02",
+          "description": "(서울=연합뉴스) 이미령 기자 = 전국 법원의 사법행정을 총괄하는 박영재 신임 법원행정처장(대법관)은 지난해 5월 이재명 당시 대통령 후보의 공...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李 대통령, 10대 그룹 총수와 ‘청년 일자리·지방투자’ 논의",
+          "link": "https://www.chosun.com/politics/politics_general/2026/02/04/AGJNLQWU5VEJDNRDSMFASRZQMU/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-02-04 09:06:12",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 “대비 안한 다주택자 책임...고통받는 국민이 더 배려받아야”",
+          "link": "https://www.chosun.com/politics/politics_general/2026/02/04/G5QNPYO6RBEPXASQ473ATZGWVA/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-02-04 09:11:14",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 6,
+      "role": "한국 대통령"
+    },
+    "장동혁": {
+      "articles": [
+        {
+          "title": "장동혁, 오늘 제주도 방문…청년과 간담회 개최",
+          "link": "https://www.yna.co.kr/view/AKR20260204170300001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-02-05 05:00:00",
+          "description": "(서울=연합뉴스) 노선웅 기자 = 국민의힘 장동혁 대표가 5일 1박2일 일정으로 제주를 찾는다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "장동혁 \"파괴·추락의 8개월\"…지방선거 목전 '李정부 때리기'",
+          "link": "https://www.yna.co.kr/view/AKR20260204077600001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-02-04 12:15:06",
+          "description": "(서울=연합뉴스) 박수윤 김유아 조다운 기자 = 국민의힘 장동혁 대표는 4일 교섭단체 대표연설에서 집권 2년 차에 접어든 이재명 정부를 강도 높...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "장동혁·홍익표, 내일 국회서 회동... 영수회담·쌍특검 등 논의될 듯",
+          "link": "https://www.chosun.com/politics/politics_general/2026/02/04/RXMOU3U2YJBGTDG6J7LG3HIY3E/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-02-04 16:27:22",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "장동혁-홍익표, 내일 회동…영수회담·3대특검법 거론될 듯",
+              "link": "https://www.yna.co.kr/view/AKR20260204121300001"
+            }
+          ]
+        },
+        {
+          "title": "장동혁 “美 부통령이 金총리에게 쿠팡 사태 따졌다” 총리실 “정중히 문의한 것”",
+          "link": "https://www.chosun.com/politics/goverment/2026/02/04/7CM274V67RGC7OATHZ2VQEZ3IE/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-02-04 12:42:05",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "[속보] 장동혁, '대한민국 리노베이션 TF' 제안…\"인구·지방혁명 논의\"",
+          "link": "https://www.yna.co.kr/view/AKR20260204037600001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-02-04 10:00:04",
+          "description": "(",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        }
+      ],
+      "count": 5,
+      "role": "국민의힘 국회의원"
+    }
+  }
+}
