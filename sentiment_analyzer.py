@@ -3,6 +3,7 @@ import json
 import os
 import time
 import glob
+import random
 from datetime import datetime, timedelta
 from config import config
 
@@ -225,11 +226,13 @@ class SentimentAnalyzer:
         return (
             "503" in msg
             or "UNAVAILABLE" in msg
+            or "RESOURCE_EXHAUSTED" in msg
+            or "429" in msg
             or "overloaded" in msg.lower()
             or "rate" in msg.lower() and "limit" in msg.lower()
         )
 
-    def _generate_json_with_retry(self, prompt: str, *, model: str, max_retries: int = 3, base_sleep_sec: float = 2.0):
+    def _generate_json_with_retry(self, prompt: str, *, model: str, max_retries: int = 3, base_sleep_sec: float = 3.0):
         last_err = None
         for attempt in range(1, max_retries + 1):
             try:
@@ -242,7 +245,8 @@ class SentimentAnalyzer:
             except Exception as e:
                 last_err = e
                 if attempt < max_retries and self._is_retryable_error(e):
-                    sleep_sec = base_sleep_sec * (2 ** (attempt - 1))
+                    jitter = random.uniform(0.0, base_sleep_sec * 0.6)
+                    sleep_sec = base_sleep_sec * (2 ** (attempt - 1)) + jitter
                     print(f"⚠️ Gemini 호출 실패(재시도 {attempt}/{max_retries}): {e}")
                     print(f"   -> {sleep_sec:.1f}s 후 재시도")
                     time.sleep(sleep_sec)
@@ -349,8 +353,6 @@ class SentimentAnalyzer:
             "section_summaries": base_sections,
             "hojae": [],
             "akjae": [],
-            "trading_hojae": [],
-            "trading_akjae": [],
             "analysis_mode": None,
             "is_holiday_next_day": False,
             "meta": {
@@ -404,8 +406,6 @@ class SentimentAnalyzer:
         section_summaries = briefing_data.get("section_summaries", {}) or {}
         hojae = briefing_data.get("hojae", []) or []
         akjae = briefing_data.get("akjae", []) or []
-        trading_hojae = briefing_data.get("trading_hojae", []) or []
-        trading_akjae = briefing_data.get("trading_akjae", []) or []
 
         lines: list[str] = [
             f"Title: 오늘의 모닝뉴스 ({date_str_dash})",
@@ -428,19 +428,6 @@ class SentimentAnalyzer:
             lines.extend([f"- {item}" for item in akjae])
         else:
             lines.append("- (none)")
-
-        if trading_hojae or trading_akjae:
-            lines.append("TradingHojae:")
-            if trading_hojae:
-                lines.extend([f"- {item}" for item in trading_hojae])
-            else:
-                lines.append("- (none)")
-
-            lines.append("TradingAkjae:")
-            if trading_akjae:
-                lines.extend([f"- {item}" for item in trading_akjae])
-            else:
-                lines.append("- (none)")
 
         return lines
 
@@ -505,7 +492,7 @@ class SentimentAnalyzer:
             return None
 
     def analyze_sentiment(self, categorized_news, date_str=None, *, use_cache=True, allow_stale=True, max_retries: int = 3):
-        """브리핑 + 호재/악재(및 트레이딩용) 생성.
+        """브리핑 + 호재/악재 생성.
 
         - use_cache=True: sentiment_cache/sentiment_YYYYMMDD.json이 있으면 Gemini 호출 없이 재사용
         - allow_stale=True: 당일 캐시가 없거나 Gemini 실패 시 최근 캐시를 대신 표시(브리핑 섹션이 사라지지 않도록)
@@ -556,15 +543,32 @@ class SentimentAnalyzer:
                 for item in items[:30]:
                     briefing_context += f"- {item['title']}\n"
 
-        # 매매봇용 필터링된 뉴스
-        trading_news = self.filter_trading_signals(categorized_news)
-        trading_context = ""
-        for category, items in trading_news.items():
-            if items:
-                trading_context += f"\n[{category}]\n"
-                for item in items[:30]:
-                    weight = item.get('time_weight', 1.0)
-                    trading_context += f"- [{weight}x] {item['title']}\n"
+        briefing_json_schema = """
+{
+  "section_summaries": {
+    "정치": "...",
+    "경제/거시": "...",
+    "기업/산업": "...",
+    "부동산": "...",
+    "국제": "..."
+  },
+  "hojae": ["회사명: 사유"],
+  "akjae": ["회사명: 사유"],
+  "tts_script": {
+    "duration_sec_target": 300,
+    "title": "오늘의 모닝뉴스 (YYYY-MM-DD)",
+    "pronunciations": [
+      {"term": "S&P 500", "say": "에스엔피 오백"},
+      {"term": "BTC", "say": "비트코인"},
+      {"term": "ETH", "say": "이더리움"}
+    ],
+    "lines": [
+      "[SMILE] 좋은 아침입니다. 2월 4일 모닝뉴스 시작합니다. [PAUSE 0.4]",
+      "...(한 줄=한 문장, 짧게, 말하기체)..."
+    ]
+  }
+}
+""".strip()
 
         briefing_prompt = f"""
 당신은 오늘의 뉴스 브리핑 작성자입니다. 오늘 분류된 뉴스 데이터를 바탕으로 간단히 읽기 좋은 아침 브리핑을 작성하세요.
@@ -592,73 +596,35 @@ TTS 스크립트 생성 규칙:
    "투자 조언이 아니라, 오늘 아침 정보를 정리해드린 거예요. 좋은 하루 보내세요."
 
 Output JSON Format:
-{{
-  "section_summaries": {{
-    "정치": "...",
-    "경제/거시": "...",
-    "기업/산업": "...",
-    "부동산": "...",
-    "국제": "..."
-  }},
-  "hojae": ["회사명: 사유"],
-  "akjae": ["회사명: 사유"],
-  "tts_script": {{
-    "duration_sec_target": 300,
-    "title": "오늘의 모닝뉴스 (YYYY-MM-DD)",
-    "pronunciations": [
-      {{"term": "S&P 500", "say": "에스엔피 오백"}},
-      {{"term": "BTC", "say": "비트코인"}},
-      {{"term": "ETH", "say": "이더리움"}}
-    ],
-    "lines": [
-      "[SMILE] 좋은 아침입니다. 2월 4일 모닝뉴스 시작합니다. [PAUSE 0.4]",
-      "...(한 줄=한 문장, 짧게, 말하기체)..."
-    ]
-  }}
-}}
+{briefing_json_schema}
 
 News List:
 {briefing_context}
 """
-
-        trading_prompt = f"""
-당신은 매매봇 전문가입니다. 다음 뉴스 중에서 오늘의 매매에 실질적인 영향을 줄 수 있는 호재/악재만 선별해주세요.
-
-중요 규칙:
-1. [2.0x] 표시된 장외 뉴스(어제 15:30~오늘 08:30)를 최우선으로 고려하세요.
-2. [1.0x] 장중 뉴스는 이미 주가에 반영되었을 가능성이 높으므로 신중하게 판단하세요.
-3. 오늘의 매매 전략에 혼선을 줄 수 있는 뉴스는 제외하세요.
-
-선별 기준:
-- 호재: 장외 시간에 발생한 대규모 수주, M&A, 실적 턴어라운드, 핵심 기술 뉴스
-- 악재: 장외 시간에 발생한 어닝 쇼크, 법적 분쟁, 리콜, 유동성 위기
-
-Output JSON Format:
-{{
-  "trading_hojae": ["회사명: 사유"],
-  "trading_akjae": ["회사명: 사유"]
-}}
-
-Weighted News List:
-{trading_context}
-"""
-
         try:
             briefing_data = self._generate_json_with_retry(
                 briefing_prompt,
                 model=config.model_flash,
                 max_retries=max_retries,
             )
-            trading_data = self._generate_json_with_retry(
-                trading_prompt,
-                model=config.model_flash,
-                max_retries=max_retries,
-            )
+
+            if not isinstance(briefing_data, dict):
+                raise ValueError(f"Unexpected briefing_data type: {type(briefing_data)}")
+
+            base_sections = {"정치": "", "경제/거시": "", "기업/산업": "", "부동산": "", "국제": ""}
+            section_summaries = briefing_data.get("section_summaries")
+            if not isinstance(section_summaries, dict):
+                section_summaries = {}
+            merged_sections = {**base_sections, **{k: v for k, v in section_summaries.items() if isinstance(k, str)}}
+            briefing_data["section_summaries"] = merged_sections
+
+            if not isinstance(briefing_data.get("hojae"), list):
+                briefing_data["hojae"] = []
+            if not isinstance(briefing_data.get("akjae"), list):
+                briefing_data["akjae"] = []
 
             final_data = {
                 **self._ensure_tts_script(briefing_data, date_str),
-                "trading_hojae": trading_data.get("trading_hojae", []),
-                "trading_akjae": trading_data.get("trading_akjae", []),
                 "analysis_mode": current_mode,
                 "is_holiday_next_day": is_first_day_after_holiday,
                 "meta": {

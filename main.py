@@ -252,7 +252,7 @@ def main(send_push=True, use_cache=True):
             domestic_categorized,
             today_str,
             use_cache=use_cache,
-            allow_stale=False,
+            allow_stale=True,
             max_retries=3,
         )
 
