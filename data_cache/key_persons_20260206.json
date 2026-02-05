@@ -1,0 +1,404 @@
+{
+  "timestamp": "2026-02-06T06:03:02.613589",
+  "date": "20260206",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "李대통령, 2차 종합특검에 '혁신당 추천' 권창영 변호사 임명",
+          "link": "https://www.yna.co.kr/view/AKR20260205180000001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-02-05 18:27:02",
+          "description": "(서울=연합뉴스) 설승은 기자 = 이재명 대통령이 5일 3대(내란·김건희·채해병) 특검의 미진한 부분과 새로운 의혹을 수사하는 이른바 2차 종합...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": true,
+          "related_full_sources": [
+            {
+              "source": "조선일보-정치",
+              "title": "2차 종합특검에 조국당 추천 권창영 변호사",
+              "link": "https://www.chosun.com/politics/blue_house/2026/02/06/TCD3LJQ3JVDSBNIPHNFNW5IUEA/"
+            },
+            {
+              "source": "조선일보-경제",
+              "title": "李대통령, 2차 종합특검에 ‘조국혁신당 추천’ 권창영 변호사 임명",
+              "link": "https://www.chosun.com/economy/economy_general/2026/02/05/GFQTOYZSGY3DAMBVMNSDQNRYGI/"
+            },
+            {
+              "source": "조선일보-경제",
+              "title": "李, 2차 종합특검에 ‘조국혁신당 추천’ 권창영 변호사 임명",
+              "link": "https://www.chosun.com/economy/economy_general/2026/02/05/GZSGMMTCHFSTGYLFMJRTMNBZME/"
+            },
+            {
+              "source": "조선일보-정치",
+              "title": "李, 2차 종합 특검에 ‘조국당 추천’ 권창영 변호사 임명",
+              "link": "https://www.chosun.com/politics/blue_house/2026/02/05/TDM7HR7XMRB2XENMVZQT3CR6NY/"
+            },
+            {
+              "source": "연합뉴스-정치",
+              "title": "[속보] 李대통령, 2차 종합특검에 권창영 변호사 임명",
+              "link": "https://www.yna.co.kr/view/AKR20260205177300001"
+            }
+          ]
+        },
+        {
+          "title": "李대통령, 오늘 경남서 타운홀미팅…\"도약할 길 함께 모색\"",
+          "link": "https://www.yna.co.kr/view/AKR20260205199800001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-02-06 05:00:00",
+          "description": "(서울=연합뉴스) 황윤기 기자 = 이재명 대통령은 6일 오후 경상남도 지역 주민들과 타운홀미팅을 개최한다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 \"국가연구자制 만들 것…과학 투자가 국가운명 결정\"(종합2보)",
+          "link": "https://www.yna.co.kr/view/AKR20260205081252001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-02-05 17:24:27",
+          "description": "(서울=연합뉴스) 임형섭 황윤기 기자 = 이재명 대통령은 5일 &quot;과학기술은 그 나라의 국가역량 그 자체&quot;라며 과학기술 인재 육성에 힘을 쏟겠다고...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "Science/Tech",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, '박찬대 前원내지도부' 만찬…'계엄 때 고생' 격려(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260205180351001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-02-05 23:38:41",
+          "description": "(서울=연합뉴스) 임형섭 최평천 박재하 안정훈 기자 = 이재명 대통령이 5일 오후 청와대에서 자신이 당 대표였던 시절 호흡을 맞춘 박찬대 전 원...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 \"피해주며 혼자 잘살면 좋나…고물가에 공권력 총동원\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260205127851001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-02-05 17:26:53",
+          "description": "(서울=연합뉴스) 임형섭 황윤기 기자 = 이재명 대통령은 5일 &quot;독과점을 이용해 국민에게 고물가를 강요하는 행위는 국가의 공권력을 총동원해 반드...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 \"국가연구자制 만들 것…과학 투자가 국가운명 결정\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260205081251001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-02-05 12:03:44",
+          "description": "(서울=연합뉴스) 임형섭 황윤기 기자 = 이재명 대통령은 5일 &quot;과학기술은 그 나라의 국가역량 그 자체&quot;라며 과학기술 인재 육성에 힘을 쏟겠다고...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 \"공공기관 이전 서둘러야…기업에도 파격적 인센티브\"",
+          "link": "https://www.yna.co.kr/view/AKR20260205135100001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-02-05 15:13:43",
+          "description": "(서울=연합뉴스) 임형섭 황윤기 기자 = 이재명 대통령은 5일 &quot;지방 주도 성장으로의 대전환을 위해 재정·세제·금융·조달 등 국가행정 전반에 있...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "靑 \"브라질 룰라, 李대통령 초청 수락…방한 일정 조율 중\"",
+          "link": "https://www.yna.co.kr/view/AKR20260205155900001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-02-05 16:21:25",
+          "description": "(서울=연합뉴스) 고동욱 기자 = 청와대는 5일 &quot;루이스 이나시우 룰라 다 시우바 브라질 대통령의 방한 일정을 조율 중&quot;이라고 밝혔다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 \"뜨거운 응원과 관심을…대한민국 선수단 파이팅\"",
+          "link": "https://www.yna.co.kr/view/AKR20260205128200001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-02-05 15:08:22",
+          "description": "(서울=연합뉴스) 설승은 황윤기 기자 = 이재명 대통령은 5일 2026 밀라노·코르티나담페초 동계올림픽에 대한 관심을 당부하며 &quot;우리 선수단 모...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 지지율, 2주前보다 4%p↑ 63%…6개월來 최고치[NBS](종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260205082951001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-02-05 11:46:00",
+          "description": "(서울=연합뉴스) 김치연 기자 = 이재명 대통령의 국정운영을 긍정적으로 평가한 비율이 63%로 집계됐다는 여론조사 결과가 5일 나왔다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 “똘똘한 한채? 안 하는 게 이익일 것”",
+          "link": "https://www.chosun.com/politics/blue_house/2026/02/05/Q5ZVQRXTLZF5JLWH4E7GNXLZ2I/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-02-05 09:39:48",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "“야망 있으시네” 李 대통령 자리 앉을 뻔한 정의선에 간담회장 폭소",
+          "link": "https://www.chosun.com/economy/industry-company/2026/02/05/KRCFLK23NVC6LIKU73MNNXUX5M/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-02-05 17:02:36",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "sector": "자동차",
+          "related_full_sources": []
+        },
+        {
+          "title": "“버티지 말고 팔아라” 이재명 발언에 1·29 대책에... 서울 집값 상승폭 꺾였다",
+          "link": "https://www.mk.co.kr/news/realestate/11954134",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-02-05 14:00:00",
+          "description": "2월 첫째주 전국 아파트값 동향 서울 상승폭 올 들어 처음으로 둔화 강남·한강벨트 다주택자 매물 영향 대규모 공급부지 노원·과천도 둔화이재명 대통령이 다주택자 양도소득세 중과유예 ..",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 13,
+      "role": "한국 대통령"
+    },
+    "트럼프": {
+      "articles": [
+        {
+          "title": "비트코인, 1년 3개월 만에 1억선 붕괴…트럼프 당선 이후 처음",
+          "link": "https://www.donga.com/news/Inter/article/all/20260206/133309232/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-02-06 01:17:38",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/02/06/133309233.1.jpg\" vspace=\"10\" />비트코인(BTC) 가격이 1년 3개월 만에 1억원 선 아래로 내려갔다.6일 오전 0시 22분 업비트 기준 국내 비트코인 가격은 전날 오전 9시 대비 7.29% 하락한 9999만 9000원을 기록했다. 비트코인 가격이 1억 원 아래로 내려가 거래된건 도널드 트럼프 미국 대통령 당선 전인 지난 2024년 11월 6일 이후 처음이다. 트럼프 대통령 당선이 확실시된 2024년 11월 7일 이후 비트코인 가격은 급등했다. 이후 1억 원 선을 유지했다. 지난해 4월 조정을 받을 때도 1억 1000만원대 수준이었다. 최근 비트코인 가격 하락은 미국 가상자산 시장구조법안(클래리티 법) 지연으로 인한 규제 불확실성, 인공지능(AI) 붐, 금 가격 랠리 등에 따른 자금 이탈 등이 영향을 미친 것으로 분석된다. 기관투자자 자금도 지속적으로 빠져나가는 모양새다. 실제 기관투자자 비중이 높은 미국 비트코인 현물 상장지수펀드(ETF)는 지난달 20일 이후 단 이틀을 제외하고 줄곧 ‘순유출’을 기록하",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프 “뉴스타트 연장 말고 새 현대화된 조약 마련해야”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260206/133309333/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-02-06 04:44:05",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/02/06/133309334.1.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령이 5일(현지 시간) 만료된 ‘신전략무기감축조약(New START·뉴스타트)’을 대체할 새로운 핵 군축 조약 마련을 촉구했다.트럼프 대통령은 이날 자신의 소셜미디어(SNS) 트루스소셜에 “뉴스타트를 연장하기보다는 우리의 핵 전문가들이 미래까지 오래 지속될 수 있는 새로운(new), 개선된(improved), 현대화된(modernized) 조약을 마련하는 작업을 해야 한다”고 밝혔다.그는 뉴스타트를 “미국이 부실하게 협상한 합의”라고 평가하며 “무엇보다도 심각하게 위반되고 있다”고 주장했다.트럼프 행정부는 미·러가 조약에 묶여 있는 사이 중국이 핵무기 역량을 고도화해 왔다고 보고, 뉴스타트 만료 이후 새로운 핵 군축 합의를 추진하겠다는 입장을 시사해 왔다.트럼프 대통령은 지난달 8일 공개된 뉴욕타임스 인터뷰에서 “(뉴스타트가) 만료되면 만료되는 것이고, 더 나은 합의를 할 것”이라며 “아마 다른 플레이어도 몇 명 끌어들이고 싶을 것”이라고 말했다.다만",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프 ‘희토류 블록’… 中 독점 판 뒤엎는다",
+          "link": "https://www.donga.com/news/Inter/article/all/20260206/133308832/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-02-06 04:30:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/02/06/133309287.1.jpg\" vspace=\"10\" />도널드 트럼프 미국 행정부가 핵심광물의 원활한 공급망 확보를 위해 새로운 무역블록 구축에 나섰다. 이 블록은 전 세계 희토류 정제의 90% 이상을 독점해 온 중국의 ‘희토류 무기화’에 대응하기 위한 것으로 미국이 동맹·우방을 규합해 핵심광물 생태계를 재편하려는 시도다. 이에 사실상 강도 높은 ‘대(對)중국 경제 봉쇄’란 평가가 나온다. 4일(현지 시간) J D 밴스 미국 부통령은 워싱턴 미 국무부 청사에서 핵심광물 장관급 회의를 주재하고 “트럼프 행정부는 세계 핵심광물 시장을 더 건강하고 경쟁적인 상태로 되돌리기 위한 구체적인 메커니즘을 제안한다”고 밝혔다. 그러면서 “이는 가격 하한선 설정을 통해 외부 충격으로부터 보호되는 핵심광물을 위한 ‘특혜 무역지대(preferential trade zone)’를 만드는 것”이라고 했다. 중국이 핵심광물 가격이나 공급 통제에 나서는 걸 막기 위해 참여국 간 현실을 반영한 기준 가격을 설정하겠다는 것이다. 마코 루비오 국무장관도 “우리는 광물",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "시진핑 “대만에 무기판매 신중하길” 트럼프 “중국측 우려 중시”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260206/133308527/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-02-06 04:30:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/02/06/133309293.1.jpg\" vspace=\"10\" />4월 중국 방문을 앞둔 도널드 트럼프 미국 대통령이 4일(현지 시간) 시진핑(習近平) 중국 국가주석과 통화했다. 두 사람은 대만에 대한 미국의 무기 판매, 중국의 미국산 원유·농산물 구매, 우크라이나 전쟁, 이란 정정 불안 등의 의제를 논의했다. 트럼프 대통령은 이날 시 주석과의 통화를 마친 뒤 트루스소셜을 통해 “대만, 러시아-우크라이나 전쟁, 이란 등 다양하고 중요한 주제들이 논의됐다. 모두 매우 긍정적이었다”고 밝혔다. 또 “시 주석과의 개인적인 관계가 매우 훌륭하며, 두 사람 모두 현 상태를 유지하는 것이 얼마나 중요한지 알고 있다”고 했다. 대만 문제를 논의했다는 것을 직접 언급하며 동시에 시 주석과의 우호적인 분위기도 강조한 것이다. 시 주석도 대만 문제에 대해 비중 있게 언급한 것으로 드러났다. 중국 관영 신화통신에 따르면 시 주석은 “대만은 중미 관계에서 가장 중요한 사안”이라며 “(미국이) 대만에 무기를 판매하는 일을 신중히 처리해야 한다”고 밝혔다. 지난해 11",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "밀러가 ‘反이민’ 배후… 트럼프 ‘韓근로자 조지아 구금’ 몰랐다",
+          "link": "https://www.donga.com/news/Inter/article/all/20260206/133308315/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-02-06 04:30:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/02/06/133306392.4.jpg\" vspace=\"10\" />도널드 트럼프 2기 미국 행정부의 강력한 반(反)이민 정책의 배후에 스티븐 밀러 백악관 부비서실장(41)이 있다고 월스트리트저널(WSJ)이 4일 진단했다. 트럼프 대통령은 지금 같은 강경한 이민 정책을 원치 않았지만 밀러 부비서실장의 주도하에 연이은 민간인 사망을 낳은 과도한 불법 이민자 단속, 베네수엘라 마약선 격침 등의 조치가 시행되고 있다는 것이다. 특히 지난해 9월 조지아주에서 벌어진 현대자동차-LG에너지솔루션 공장의 한국인 근로자 체포 및 구금 때도 정작 트럼프 대통령은 아무것도 모르고 있었다고 WSJ는 전했다. 당시 집권 공화당 소속 브라이언 켐프 조지아 주지사가 트럼프 대통령에게 전화를 걸어 한국 노동자의 석방을 요청했을 때 대통령이 “나는 단속이 진행되고 있다는 사실조차 몰랐다”는 취지로 발언했다는 것이다.● “트럼프, 조지아 구금 사태 몰랐다” 이날 WSJ는 ‘스티븐 밀러는 어떻게 트럼프의 한계를 넘어서는 충동을 부추기는가’라는 기사를 통해 밀러 부비서실장이 트",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프, 日 선거 앞 “다카이치 전적 지지…내달 백악관 온다”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260206/133309318/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-02-06 04:08:52",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/02/06/133309319.1.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령이 일본 중의원(하원) 선거를 사흘 앞두고 다카이치 사나에(高市早苗) 일본 총리를 전적으로 지지한다고 밝혔다.선거 국면에서 일본 여당에 힘을 실어주기 위한 의도로 보이는데 사실상 일본 국내 정치에 개입한 모양새라 부적절하다는 비판이 예상된다.트럼프 대통령은 5일(현지 시간) 소셜미디어(SNS) 트루스소셜에 “미국 대통령으로서 그녀와 그녀가 속한 연립여당을 완전하고 전적으로 지지하게 된 것을 큰 영광으로 생각한다”면서 “그녀는 일본 국민을 결코 실망시키지 않을 것이다. 매우 중요한 일요일(8일) 선거에서 행운을 빈다”고 적었다.트럼프 대통령은 “이번 선거 결과는 일본의 미래에 매우 중요하다”며 “다카이치 총리는 이미 강력하고 유능하며 현명한 지도자임을 입증했고 조국을 진심으로 사랑한다”고 강조했다.이어 “3월 19일 백악관에서 다카이치 총리를 맞이하게 된 것을 고대하고 있다”며 “일본 방문 당시 저를 비롯한 대표단은 그녀에게 깊은 감명을 받았다”고 했다",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "美법원, 트럼프 암살 시도범에 종신형 선고…“사악한 계획”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260205/133305316/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-02-05 16:08:24",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/02/05/133305317.1.jpg\" vspace=\"10\" />2024년 대선 기간 도널드 트럼프 당시 공화당 후보를 암살하려 시도한 미수범이 종신형을 선고받았다.4일(현지 시간) ABC, 뉴욕타임스(NYT) 등에 따르면 에일린 캐넌 미국 플로리다주 포트피어스 연방지방법원 판사는 이날 2024년 9월 플로리다주 웨스트팜비치 골프장에서 암살을 시도한 혐의로 재판에 넘겨진 라이언 라우스(59)에게 종신형을 선고했다.대통령 후보 암살 시도 범행에 내려진 최고 형량이다.캐넌 판사는 “주요 대선 후보를 살해할 의도를 가졌다는 데 의심의 여지가 없다”며 “그 사악한 계획을 거의 실행에 옮길 뻔했다”고 판단했다.라우스는 법정 발언 기회를 얻어 우크라이나 등 자신의 범죄와 무관한 주제에 대해 진술하려 했지만 저지됐다. 판결이 선고되는 동안 침착한 모습이었다. 방청석에 앉아 있는 형제들을 향해 미소 짓기도 했다.캐시 파텔 연방수사국(FBI) 국장은 성명을 내 “라우스는 우리 민주주의 체제에 대한 비열한 공격을 저질렀다”며 “선고된 형량은 사법 제도가",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프 “금리 올린다 했으면 탈락”…워시 연준 수장 발탁 조건 밝혔다",
+          "link": "https://www.donga.com/news/Inter/article/all/20260205/133302670/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-02-05 10:46:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/02/05/133302544.3.jpg\" vspace=\"10\" />트럼프 대통령이 케빈 워시 연준 의장 후보 지명 배경을 밝히며 금리 인상 반대 입장을 재확인했다. 인준 과정에서 연준 독립성 논란이 쟁점으로 떠오르고 있다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프, 나이키 ‘백인 역차별’ 정조준…DEI 정책 전면 조사",
+          "link": "https://www.donga.com/news/Inter/article/all/20260205/133302400/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-02-05 10:18:34",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/02/05/133302401.1.jpg\" vspace=\"10\" />도널드 트럼프 미국 행정부가 글로벌 스포츠 브랜드 나이키를 상대로 ‘백인 근로자 차별’ 의혹에 대한 조사에 착수했다. 이는 기업의 다양성·형평성·포용(DEI) 정책을 ‘역차별’로 규정해온 트럼프 행정부의 의지가 반영된 첫 주요 조치로 풀이된다. 4일(현지 시간) CNN, BBC 등 외신에 따르면 미국 평등고용기회위원회(EEOC)는 나이키에 2018년부터 현재까지의 고용 관련 자료 전반을 제출하라는 소환장을 발부했다. 조사 범위에는 인종·민족별 고용 데이터는 물론, 해당 지표가 임원 보상 체계에 영향을 미쳤는지 여부까지 포함됐다. EEOC는 이번 조사가 나이키의 ‘2025년 DEI 목표’ 등 내부 정책이 백인 근로자에 대한 차별적 결과로 이어졌을 가능성을 확인하기 위한 것이라고 밝혔다. 이번 조사는 트럼프 대통령 측근 스티븐 밀러 백악관 부비서실장이 설립한 보수 단체 ‘아메리카 퍼스트 리걸(AFL)’의 문제 제기로 촉발됐다. 이 단체는 기업 내 DEI 정책 해체를 최우선 과제로",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프도 몰랐던 조지아 구금 사태…‘反이민’ 스티븐 밀러가 주도",
+          "link": "https://www.donga.com/news/Inter/article/all/20260205/133304395/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-02-05 16:05:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/02/05/133305004.1.jpg\" vspace=\"10\" />도널드 트럼프 2기 미국 행정부의 강력한 반(反)이민 정책의 배후에 스티븐 밀러 백악관 부비서실장(41)이 있다고 월스트리트저널(WSJ)이 4일 진단했다. 트럼프 대통령은 지금 같은 강경한 이민정책을 원치 않았지만 밀러 부비서실장의 주도하에 연이은 민간인 사망을 낳은 과도한 불법 이민자 단속, 베네수엘라 마약선 격침 등의 조치가 시행되고 있다는 것이다.특히 지난해 9월 조지아주에서 벌어진 현대자동차-LG에너지솔루션 공장의 한국인 근로자 체포 및 구금 때도 정작 트럼프 대통령은 아무것도 모르고 있었다고 WSJ는 전했다. 당시 집권 공화당 소속 브라이언 켐프 조지아 주지사가 트럼프 대통령에게 전화를 걸어 한국 노동자의 석방을 요청했을 때 대통령이 “나는 단속이 진행되고 있다는 사실조차 몰랐다”는 취지로 발언했다는 것이다.● “트럼프, 조지아 구금 사태 몰랐다”이날 WSJ는 ‘스티븐 밀러는 어떻게 트럼프의 한계를 넘어서는 충동을 부추기는가’라는 기사를 통해 밀러 부비서실장이 트럼프",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 10,
+      "role": "미국 대통령"
+    },
+    "장동혁": {
+      "articles": [
+        {
+          "title": "張, 사퇴 요구에 벼랑끝 전술… “직 걸고 당원 투표하자”",
+          "link": "https://www.chosun.com/politics/assembly/2026/02/06/WD7KBPNVGVE45PVL26PTK4PZSU/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-02-06 00:48:00",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "장동혁 \"누구든 재신임 요구시 전당원투표…부결시 의원직 사퇴\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260205125451001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-02-05 15:25:42",
+          "description": "(서울=연합뉴스) 김치연 김유아 기자 = 국민의힘 장동혁 대표는 5일 한동훈 전 대표 제명 이후 당 일각에서 제기되는 자신에 대한 재신임 투표와...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": true,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "장동혁 \"누구든 재신임 요구시 전당원투표…부결시 의원직 사퇴\"",
+              "link": "https://www.yna.co.kr/view/AKR20260205125400001"
+            },
+            {
+              "source": "연합뉴스-정치",
+              "title": "[속보] 장동혁 \"누구든 재신임 요구시 전당원 투표…부결시 의원직도 사퇴\"",
+              "link": "https://www.yna.co.kr/view/AKR20260205121700001"
+            }
+          ]
+        },
+        {
+          "title": "한동훈 내친 장동혁, '교체 권고' 당협위원장 37명엔 '일단 보류'",
+          "link": "https://www.yna.co.kr/view/AKR20260205075000001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-02-05 11:33:38",
+          "description": "(서울=연합뉴스) 김연정 조다운 기자 = 한동훈 전 대표를 내친 국민의힘 장동혁 대표가 6·3 지방선거 전에는 당협위원장(지역위원장)을 교체하지...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "장동혁 “다주택자 마귀?...청와대에도, 내각에도 마귀 한둘 아냐”",
+          "link": "https://www.chosun.com/politics/politics_general/2026/02/05/3KFB7IQQLZHNFAQQQF62LA4ITA/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-02-05 10:06:05",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        }
+      ],
+      "count": 4,
+      "role": "국민의힘 국회의원"
+    },
+    "윤석열": {
+      "articles": [
+        {
+          "title": "감사원, YTN 매각·尹대통령실 비밀통로 의혹 살핀다(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260205089351001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-02-05 17:32:03",
+          "description": "(서울=연합뉴스) 이상현 기자 = 감사원이 윤석열 정부 시기의 YTN 헐값 매각 및 용산 대통령실의 비밀통로 의혹 등 사안에 대한 감사에 착수한...",
+          "category": "domestic",
+          "priority_score": 5,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "尹내란 2심 맡을 서울고법 내란전담재판부 2곳 지정…23일 가동(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260205131151004",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-02-05 16:22:08",
+          "description": "(서울=연합뉴스) 이미령 기자 = 윤석열 전 대통령의 내란 우두머리 사건 등 내란·외환죄 사건 2심을 담당할 서울고법 내란전담재판부 2개가 구성...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "尹 집무실 비밀 통로·국유 자산 헐값 매각, 감사원이 들여다본다",
+          "link": "https://www.chosun.com/politics/goverment/2026/02/05/DWRQ4UHMGVGDHKQDZZI5OVZA3A/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-02-05 14:30:42",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": false,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "한국 대통령"
+    }
+  }
+}
