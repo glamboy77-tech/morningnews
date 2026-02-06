@@ -1,19 +1,29 @@
 from google import genai
+from openai import OpenAI
 import json
 import os
 import time
 import glob
 import random
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from config import config
 
 class SentimentAnalyzer:
     def __init__(self):
         self.client = genai.Client(api_key=config.gemini_api_key)
+        self.openai_client = OpenAI(api_key=config.openai_api_key) if config.openai_api_key else None
         self.cache_dir = "sentiment_cache"
         os.makedirs(self.cache_dir, exist_ok=True)
         self.tts_dir = "scripts"
         os.makedirs(self.tts_dir, exist_ok=True)
+
+    @staticmethod
+    def _kst_now():
+        return datetime.now(timezone(timedelta(hours=9)))
+
+    @staticmethod
+    def _format_korean_date(date_obj: datetime) -> str:
+        return f"{date_obj.month}월 {date_obj.day}일"
 
     # -----------------------------
     # Cache helpers
@@ -140,7 +150,7 @@ class SentimentAnalyzer:
         캐시 파일명 생성
         """
         if date_str is None:
-            date_str = datetime.now().strftime("%Y%m%d")
+            date_str = self._kst_now().strftime("%Y%m%d")
         return os.path.join(self.cache_dir, f"sentiment_{date_str}.json")
 
     def _find_latest_cache_file(self, exclude_date_str=None, max_age_days: int | None = 2):
@@ -254,6 +264,42 @@ class SentimentAnalyzer:
                 raise
 
         # Should never reach here
+        raise last_err
+
+    def _generate_tts_script_with_openai(self, prompt: str, *, model: str, max_retries: int = 3, base_sleep_sec: float = 3.0) -> dict:
+        if not self.openai_client:
+            raise RuntimeError("OPENAI_API_KEY is not configured")
+
+        last_err = None
+        for attempt in range(1, max_retries + 1):
+            try:
+                resp = self.openai_client.responses.create(
+                    model=model,
+                    input=[
+                        {
+                            "role": "system",
+                            "content": "You generate strict JSON only. Do not include markdown or commentary.",
+                        },
+                        {
+                            "role": "user",
+                            "content": prompt,
+                        },
+                    ],
+                    text={"format": {"type": "json_object"}},
+                )
+                payload = resp.output_text
+                return json.loads(payload)
+            except Exception as e:
+                last_err = e
+                if attempt < max_retries and self._is_retryable_error(e):
+                    jitter = random.uniform(0.0, base_sleep_sec * 0.6)
+                    sleep_sec = base_sleep_sec * (2 ** (attempt - 1)) + jitter
+                    print(f"⚠️ OpenAI 호출 실패(재시도 {attempt}/{max_retries}): {e}")
+                    print(f"   -> {sleep_sec:.1f}s 후 재시도")
+                    time.sleep(sleep_sec)
+                    continue
+                raise
+
         raise last_err
     
     def merge_sentiment_data(self, current_data, cached_data):
@@ -369,7 +415,7 @@ class SentimentAnalyzer:
             return data
 
         if date_str is None:
-            date_str = datetime.now().strftime("%Y%m%d")
+            date_str = self._kst_now().strftime("%Y%m%d")
         date_str_dash = f"{date_str[:4]}-{date_str[4:6]}-{date_str[6:8]}"
 
         tts_script = data.get("tts_script")
@@ -400,7 +446,7 @@ class SentimentAnalyzer:
             return []
 
         if date_str is None:
-            date_str = datetime.now().strftime("%Y%m%d")
+            date_str = self._kst_now().strftime("%Y%m%d")
         date_str_dash = f"{date_str[:4]}-{date_str[4:6]}-{date_str[6:8]}"
 
         section_summaries = briefing_data.get("section_summaries", {}) or {}
@@ -437,7 +483,7 @@ class SentimentAnalyzer:
             return None
 
         if date_str is None:
-            date_str = datetime.now().strftime("%Y%m%d")
+            date_str = self._kst_now().strftime("%Y%m%d")
 
         briefing_data = self._ensure_tts_script(briefing_data, date_str)
         tts_script = briefing_data.get("tts_script") or {}
@@ -491,6 +537,80 @@ class SentimentAnalyzer:
             print(f"⚠️ TTS 스크립트 저장 실패: {e}")
             return None
 
+    def regenerate_tts_only(self, briefing_data: dict, date_str: str | None = None, *, max_retries: int = 3) -> dict:
+        if briefing_data is None:
+            raise ValueError("briefing_data is required for TTS-only regeneration")
+
+        if date_str is None:
+            date_str = self._kst_now().strftime("%Y%m%d")
+
+        date_str_dash = f"{date_str[:4]}-{date_str[4:6]}-{date_str[6:8]}"
+        kst_korean_date = self._format_korean_date(self._kst_now())
+
+        section_summaries = briefing_data.get("section_summaries", {}) or {}
+        hojae = briefing_data.get("hojae", []) or []
+        akjae = briefing_data.get("akjae", []) or []
+
+        context_lines = ["섹션 요약:"]
+        for key in ["정치", "경제/거시", "기업/산업", "부동산", "국제"]:
+            summary = section_summaries.get(key, "") if isinstance(section_summaries, dict) else ""
+            context_lines.append(f"- {key}: {summary}")
+        if hojae:
+            context_lines.append("호재:")
+            context_lines.extend([f"- {item}" for item in hojae])
+        if akjae:
+            context_lines.append("악재:")
+            context_lines.extend([f"- {item}" for item in akjae])
+
+        tts_prompt = f"""
+당신은 한국어 TTS 스크립트 작가입니다. 아래 JSON 스키마에 맞춰 tts_script만 생성하세요.
+
+필수 규칙:
+1. 5분 낭독 기준(4분30초~5분30초)으로 55~75줄 내외 작성.
+2. 기사체 금지. 말하기체로 짧은 문장(한 줄=한 문장).
+3. 섹션 전환 멘트 포함: "다음은…", "한편…", "정리하면…" 등.
+4. 숫자/약어/단위는 TTS가 읽기 쉬운 형태로 변환하거나 pronunciations에 등록.
+   - 예: "3.2%" → "삼쩜이 퍼센트", "1,200달러" → "천이백 달러"
+5. 마지막 줄은 반드시 고정 문구 사용:
+   "오늘 뉴스 요약은 여기까지입니다. 내일 아침에 또 만나요."
+6. 첫 줄은 반드시 날짜를 포함해 아래 형식을 지키세요:
+   "[SMILE] 좋은 아침입니다. {kst_korean_date} 모닝뉴스 시작합니다. [PAUSE 0.4]"
+7. title은 반드시 "오늘의 모닝뉴스 ({date_str_dash})"로 설정하세요.
+8. Output JSON은 tts_script만 포함하며 다른 키는 넣지 마세요.
+
+Output JSON Schema:
+{{
+  "tts_script": {{
+    "duration_sec_target": 300,
+    "title": "오늘의 모닝뉴스 ({date_str_dash})",
+    "pronunciations": [
+      {{"term": "S&P 500", "say": "에스엔피 오백"}},
+      {{"term": "BTC", "say": "비트코인"}},
+      {{"term": "ETH", "say": "이더리움"}}
+    ],
+    "lines": [
+      "[SMILE] 좋은 아침입니다. {kst_korean_date} 모닝뉴스 시작합니다. [PAUSE 0.4]",
+      "...(한 줄=한 문장, 짧게, 말하기체)..."
+    ]
+  }}
+}}
+
+참고 요약:
+""" + "\n".join(context_lines)
+
+        tts_data = self._generate_tts_script_with_openai(
+            tts_prompt,
+            model=config.openai_model_tts,
+            max_retries=max_retries,
+        )
+        if isinstance(tts_data, dict) and isinstance(tts_data.get("tts_script"), dict):
+            briefing_data = {**briefing_data}
+            briefing_data["tts_script"] = tts_data["tts_script"]
+            briefing_data.setdefault("meta", {})["tts_generated_by"] = "openai"
+            return self._normalize_tts_script(briefing_data, date_str)
+
+        raise ValueError("OpenAI TTS generation returned unexpected payload")
+
     def analyze_sentiment(self, categorized_news, date_str=None, *, use_cache=True, allow_stale=True, max_retries: int = 3):
         """브리핑 + 호재/악재 생성.
 
@@ -502,7 +622,7 @@ class SentimentAnalyzer:
             return self._fallback_briefing(error="no categorized_news")
 
         if date_str is None:
-            date_str = datetime.now().strftime("%Y%m%d")
+            date_str = self._kst_now().strftime("%Y%m%d")
 
         if use_cache:
             cached = self.load_cached_data(date_str)
@@ -570,6 +690,10 @@ class SentimentAnalyzer:
 }
 """.strip()
 
+        kst_now = self._kst_now()
+        date_str_dash = f"{date_str[:4]}-{date_str[4:6]}-{date_str[6:8]}"
+        kst_korean_date = self._format_korean_date(kst_now)
+
         briefing_prompt = f"""
 당신은 오늘의 뉴스 브리핑 작성자입니다. 오늘 분류된 뉴스 데이터를 바탕으로 간단히 읽기 좋은 아침 브리핑을 작성하세요.
 
@@ -594,11 +718,51 @@ TTS 스크립트 생성 규칙:
    - 예: "3.2%" → "삼쩜이 퍼센트", "1,200달러" → "천이백 달러"
 5. 마지막 줄은 반드시 고정 문구 사용:
    "오늘 뉴스 요약은 여기까지입니다. 내일 아침에 또 만나요."
+6. 첫 줄은 반드시 날짜를 포함해 아래 형식을 지키세요:
+   "[SMILE] 좋은 아침입니다. {kst_korean_date} 모닝뉴스 시작합니다. [PAUSE 0.4]"
+7. title은 반드시 "오늘의 모닝뉴스 ({date_str_dash})"로 설정하세요.
 
 Output JSON Format:
 {briefing_json_schema}
 
 News List:
+{briefing_context}
+"""
+
+        tts_prompt = f"""
+당신은 한국어 TTS 스크립트 작가입니다. 아래 JSON 스키마에 맞춰 tts_script만 생성하세요.
+
+필수 규칙:
+1. 5분 낭독 기준(4분30초~5분30초)으로 55~75줄 내외 작성.
+2. 기사체 금지. 말하기체로 짧은 문장(한 줄=한 문장).
+3. 섹션 전환 멘트 포함: "다음은…", "한편…", "정리하면…" 등.
+4. 숫자/약어/단위는 TTS가 읽기 쉬운 형태로 변환하거나 pronunciations에 등록.
+   - 예: "3.2%" → "삼쩜이 퍼센트", "1,200달러" → "천이백 달러"
+5. 마지막 줄은 반드시 고정 문구 사용:
+   "오늘 뉴스 요약은 여기까지입니다. 내일 아침에 또 만나요."
+6. 첫 줄은 반드시 날짜를 포함해 아래 형식을 지키세요:
+   "[SMILE] 좋은 아침입니다. {kst_korean_date} 모닝뉴스 시작합니다. [PAUSE 0.4]"
+7. title은 반드시 "오늘의 모닝뉴스 ({date_str_dash})"로 설정하세요.
+8. Output JSON은 tts_script만 포함하며 다른 키는 넣지 마세요.
+
+Output JSON Schema:
+{{
+  "tts_script": {{
+    "duration_sec_target": 300,
+    "title": "오늘의 모닝뉴스 ({date_str_dash})",
+    "pronunciations": [
+      {{"term": "S&P 500", "say": "에스엔피 오백"}},
+      {{"term": "BTC", "say": "비트코인"}},
+      {{"term": "ETH", "say": "이더리움"}}
+    ],
+    "lines": [
+      "[SMILE] 좋은 아침입니다. {kst_korean_date} 모닝뉴스 시작합니다. [PAUSE 0.4]",
+      "...(한 줄=한 문장, 짧게, 말하기체)..."
+    ]
+  }}
+}}
+
+참고할 뉴스 목록:
 {briefing_context}
 """
         try:
@@ -632,6 +796,43 @@ News List:
                     "generated_at": datetime.now().isoformat(),
                 },
             }
+
+            try:
+                tts_data = self._generate_tts_script_with_openai(
+                    tts_prompt,
+                    model=config.openai_model_tts,
+                    max_retries=max_retries,
+                )
+                if isinstance(tts_data, dict) and isinstance(tts_data.get("tts_script"), dict):
+                    final_data["tts_script"] = tts_data["tts_script"]
+                    final_data.setdefault("meta", {})["tts_generated_by"] = "openai"
+            except Exception as e:
+                print(f"⚠️ OpenAI TTS 생성 실패: {e}")
+                final_data.setdefault("meta", {})["tts_generated_by"] = "gemini_fallback"
+
+            final_data = self._normalize_tts_script(final_data, date_str)
+            if not self._validate_tts_script(final_data, date_str):
+                print("⚠️ TTS 스크립트 검증 실패: 재생성 시도")
+                retry_prompt = briefing_prompt + "\n\n중요: 위 규칙을 반드시 지키세요. 날짜/줄 수를 위반하면 실패입니다."
+                briefing_data = self._generate_json_with_retry(
+                    retry_prompt,
+                    model=config.model_flash,
+                    max_retries=max_retries,
+                )
+                final_data = {
+                    **self._ensure_tts_script(briefing_data, date_str),
+                    "analysis_mode": current_mode,
+                    "is_holiday_next_day": is_first_day_after_holiday,
+                    "meta": {
+                        "generated_by": "gemini_retry",
+                        "generated_at": datetime.now().isoformat(),
+                    },
+                }
+                final_data = self._normalize_tts_script(final_data, date_str)
+
+            if not self._validate_tts_script(final_data, date_str):
+                print("⚠️ TTS 스크립트 검증 실패: 폴백 스크립트로 대체")
+                final_data = self._apply_tts_fallback(final_data, date_str)
 
             # 휴일 다음 날이면 캐시 병합 및 통합 리포트
             if is_first_day_after_holiday:
@@ -675,6 +876,113 @@ News List:
                         return stale
 
             return self._fallback_briefing(error=str(e))
+
+    def _normalize_tts_script(self, data: dict, date_str: str) -> dict:
+        if not data:
+            return data
+
+        kst_now = self._kst_now()
+        date_str_dash = f"{date_str[:4]}-{date_str[4:6]}-{date_str[6:8]}"
+        kst_korean_date = self._format_korean_date(kst_now)
+
+        tts_script = data.get("tts_script") or {}
+        tts_script["title"] = f"오늘의 모닝뉴스 ({date_str_dash})"
+
+        lines = tts_script.get("lines", [])
+        if isinstance(lines, str):
+            lines = [lines]
+        if not isinstance(lines, list):
+            lines = []
+
+        intro = f"[SMILE] 좋은 아침입니다. {kst_korean_date} 모닝뉴스 시작합니다. [PAUSE 0.4]"
+        if lines:
+            lines[0] = intro
+        else:
+            lines = [intro]
+
+        tts_script["lines"] = [str(line).strip() for line in lines if str(line).strip()]
+        data["tts_script"] = tts_script
+        return data
+
+    def _validate_tts_script(self, data: dict, date_str: str) -> bool:
+        if not data:
+            return False
+
+        tts_script = data.get("tts_script") or {}
+        title = tts_script.get("title", "")
+        lines = tts_script.get("lines", [])
+        if isinstance(lines, str):
+            lines = [lines]
+        if not isinstance(lines, list):
+            return False
+
+        date_str_dash = f"{date_str[:4]}-{date_str[4:6]}-{date_str[6:8]}"
+        kst_korean_date = self._format_korean_date(self._kst_now())
+
+        if date_str_dash not in title:
+            return False
+
+        if not lines:
+            return False
+
+        if kst_korean_date not in lines[0]:
+            return False
+
+        line_count = len(lines)
+        if not (55 <= line_count <= 75):
+            return False
+
+        return True
+
+    def _apply_tts_fallback(self, data: dict, date_str: str) -> dict:
+        if not data:
+            data = {}
+
+        kst_now = self._kst_now()
+        date_str_dash = f"{date_str[:4]}-{date_str[4:6]}-{date_str[6:8]}"
+        kst_korean_date = self._format_korean_date(kst_now)
+
+        intro = f"[SMILE] 좋은 아침입니다. {kst_korean_date} 모닝뉴스 시작합니다. [PAUSE 0.4]"
+        outro = "오늘 뉴스 요약은 여기까지입니다. 내일 아침에 또 만나요."
+
+        tts_script = data.get("tts_script") or {}
+        lines = tts_script.get("lines", [])
+        if isinstance(lines, str):
+            lines = [lines]
+        if not isinstance(lines, list):
+            lines = []
+
+        core_lines = [line for line in lines[1:] if isinstance(line, str)]
+        core_lines = [line for line in core_lines if line.strip() and line.strip() != outro]
+        if not core_lines:
+            core_lines = [
+                "오늘의 주요 뉴스 흐름을 정리해 드립니다.",
+                "정치권에서는 지역 순회 일정과 정책 논의가 이어졌습니다.",
+                "경제는 외국인 수급과 환율 변동이 동시에 주목받았습니다.",
+                "기업 현장에서는 반도체 투자 확대와 실적 발표가 화두였습니다.",
+                "부동산 시장은 매물 증가로 가격 상승세가 다소 진정되었습니다.",
+                "해외는 지정학적 변수와 미국 정치 이슈가 혼재했습니다.",
+            ]
+
+        target_lines = [intro]
+        target_lines.extend(core_lines)
+        target_lines.append(outro)
+
+        # pad or trim to 55 lines
+        while len(target_lines) < 55:
+            target_lines.insert(-1, "주요 이슈를 차분히 확인해 보시기 바랍니다.")
+        if len(target_lines) > 75:
+            target_lines = target_lines[:74] + [outro]
+
+        tts_script["title"] = f"오늘의 모닝뉴스 ({date_str_dash})"
+        tts_script["lines"] = target_lines
+        data["tts_script"] = tts_script
+        data.setdefault("meta", {})
+        data["meta"].update({
+            "tts_fallback": True,
+            "generated_at": datetime.now().isoformat(),
+        })
+        return data
     
     def _merge_holiday_cache(self, current_data):
         """
