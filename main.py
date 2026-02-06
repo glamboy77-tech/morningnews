@@ -248,11 +248,12 @@ def main(send_push=True, use_cache=True):
         print("🔄 캐시된 감성/브리핑 데이터 로드 중...")
         briefing_data = sentiment.load_cached_data(today_str)
     if briefing_data is None:
+        # 당일 브리핑/스크립트가 반드시 생성되도록 stale 캐시 사용 금지
         briefing_data = sentiment.analyze_sentiment(
             domestic_categorized,
             today_str,
             use_cache=use_cache,
-            allow_stale=True,
+            allow_stale=False,
             max_retries=3,
         )
 
