@@ -30,7 +30,7 @@ pip install -r requirements.txt
 # 3) 오늘자 결과가 이미 있으면 스킵 (이중실행 방지)
 TODAY=$(date +'%Y%m%d')
 DONE_MARKER="$REPO_DIR/.run_state/done_${TODAY}.json"
-if [ -f "$DONE_MARKER" ] && [ -f "output/morning_news_${TODAY}.html" ] && [ -f "scripts/youtube_tts_${TODAY}.txt" ] && [ -f "sentiment_cache/sentiment_${TODAY}.json" ]; then
+if [ -f "$DONE_MARKER" ] && [ -f "output/morning_news_${TODAY}.html" ] && [ -f "scripts/youtube_tts_${TODAY}.txt" ]; then
   echo "[INFO] Already generated today (done marker + required outputs). Skipping."
   exit 0
 fi

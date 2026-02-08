@@ -1,0 +1,70 @@
+{
+  "timestamp": "2026-02-09T06:04:14.389095",
+  "date": "20260209",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "‘2차 특검 추천’ 놓고 또 터진 명·청 갈등",
+          "link": "https://www.chosun.com/politics/assembly/2026/02/09/2ESURB43C5D5RN2BFXBRRIXSV4/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-02-09 00:55:00",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "“한명이 수백채씩” 李대통령, 이번엔 임대사업자 조준",
+          "link": "https://www.chosun.com/politics/politics_general/2026/02/09/WSWYN65IGRBTBPXVE4CQKKQKB4/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-02-09 00:57:00",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "국회, 대정부질문 시작…李정부 공과 놓고 사흘간 여야 대격돌",
+          "link": "https://www.yna.co.kr/view/AKR20260208045500001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-02-09 05:00:00",
+          "description": "(서울=연합뉴스) 박재하 기자 = 국회가 9일부터 사흘간 대정부질문에 나선다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "與특검추천에 李대통령 질타…원팀 강조에도 거듭되는 당청 이상기류",
+          "link": "https://www.yna.co.kr/view/AKR20260208011700001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-02-08 09:14:50",
+          "description": "(서울=연합뉴스) 임형섭 기자 = 이재명 대통령이 2차 종합특검 후보 가운데 더불어민주당이 아닌 조국혁신당이 추천한 인사를 낙점한 가운데 민주당...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李 대한상의 ‘가짜뉴스’ 질타에 野 “대통령은 좌표 찍고 도덕적 단죄 내리는 자리 아니다”",
+          "link": "https://www.chosun.com/economy/economy_general/2026/02/08/GEZTMY3GHA2DGNZZMQ2GKMBUMM/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-02-08 12:24:40",
+          "description": "이재명 대통령이 7일 SNS에 대한상공회의소(대한상의)의 보고서 내용이 잘못됐다며 ‘고의적 가짜 뉴스’라고 저격하자 국민의힘이 “대통령은 좌표를 찍고 도덕적 단죄를 내리는 자리가 아니다”라고 8일 비판했다.  이날 박성훈 수석대변인은 논평에서 “잘못된 통계 인용의 적절성은 따질 수 있으나, 대통령이 직접 나서 법률에 따라 설립된 경제 단체를 ‘민주주의의 적",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 5,
+      "role": "한국 대통령"
+    }
+  }
+}

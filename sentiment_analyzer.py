@@ -1,6 +1,7 @@
 from google import genai
 from openai import OpenAI
 import json
+import re
 import os
 import time
 import glob
@@ -16,6 +17,8 @@ class SentimentAnalyzer:
         os.makedirs(self.cache_dir, exist_ok=True)
         self.tts_dir = "scripts"
         os.makedirs(self.tts_dir, exist_ok=True)
+        self.brief_dir = "scripts"
+        os.makedirs(self.brief_dir, exist_ok=True)
 
     @staticmethod
     def _kst_now():
@@ -266,7 +269,7 @@ class SentimentAnalyzer:
         # Should never reach here
         raise last_err
 
-    def _generate_tts_script_with_openai(self, prompt: str, *, model: str, max_retries: int = 3, base_sleep_sec: float = 3.0) -> dict:
+    def _generate_text_with_openai(self, prompt: str, *, model: str, max_retries: int = 3, base_sleep_sec: float = 3.0) -> str:
         if not self.openai_client:
             raise RuntimeError("OPENAI_API_KEY is not configured")
 
@@ -278,17 +281,76 @@ class SentimentAnalyzer:
                     input=[
                         {
                             "role": "system",
-                            "content": "You generate strict JSON only. Do not include markdown or commentary.",
+                            "content": "You output plain text only. Do not include JSON, markdown, or commentary.",
                         },
                         {
                             "role": "user",
                             "content": prompt,
                         },
                     ],
-                    text={"format": {"type": "json_object"}},
                 )
-                payload = resp.output_text
-                return json.loads(payload)
+                payload = resp.output_text or ""
+                return payload.strip()
+            except Exception as e:
+                last_err = e
+                if attempt < max_retries and self._is_retryable_error(e):
+                    jitter = random.uniform(0.0, base_sleep_sec * 0.6)
+                    sleep_sec = base_sleep_sec * (2 ** (attempt - 1)) + jitter
+                    print(f"⚠️ OpenAI 호출 실패(재시도 {attempt}/{max_retries}): {e}")
+                    print(f"   -> {sleep_sec:.1f}s 후 재시도")
+                    time.sleep(sleep_sec)
+                    continue
+                raise
+
+        raise last_err
+
+    def _generate_tts_script_with_openai(self, prompt: str, *, model: str, max_retries: int = 3, base_sleep_sec: float = 3.0) -> dict:
+        """Generate TTS script using OpenAI chat.completions API and return JSON.
+        
+        Args:
+            prompt: The prompt to send to OpenAI
+            model: The model to use (e.g., "gpt-4o")
+            max_retries: Maximum number of retry attempts
+            base_sleep_sec: Base sleep duration for exponential backoff
+            
+        Returns:
+            dict: Parsed JSON response containing source_script only
+        """
+        if not self.openai_client:
+            raise RuntimeError("OPENAI_API_KEY is not configured")
+
+        last_err = None
+        for attempt in range(1, max_retries + 1):
+            try:
+                resp = self.openai_client.chat.completions.create(
+                    model=model,
+                    messages=[
+                        {
+                            "role": "system",
+                            "content": "You are a Korean news briefing script writer. Output ONLY valid JSON, no markdown, no commentary, no code blocks.",
+                        },
+                        {
+                            "role": "user",
+                            "content": prompt,
+                        },
+                    ],
+                    response_format={"type": "json_object"},
+                    temperature=0.7,
+                )
+                
+                content = resp.choices[0].message.content
+                if not content:
+                    raise ValueError("OpenAI returned empty content")
+                
+                # Parse JSON response
+                try:
+                    result = json.loads(content)
+                    return result
+                except json.JSONDecodeError as je:
+                    print(f"⚠️ JSON 파싱 실패: {je}")
+                    print(f"   응답 내용: {content[:200]}...")
+                    raise ValueError(f"Invalid JSON response from OpenAI: {je}")
+                    
             except Exception as e:
                 last_err = e
                 if attempt < max_retries and self._is_retryable_error(e):
@@ -413,6 +475,19 @@ class SentimentAnalyzer:
         """Ensure tts_script exists and is well-formed for backward compatibility."""
         if data is None:
             return data
+        if not isinstance(data, dict):
+            print(f"⚠️ _ensure_tts_script received non-dict: {type(data)}")
+            return {
+                "section_summaries": {"정치": "", "경제/거시": "", "기업/산업": "", "부동산": "", "국제": ""},
+                "hojae": [],
+                "akjae": [],
+                "tts_script": {},
+                "meta": {
+                    "generated_by": "fallback",
+                    "error": f"non-dict briefing data: {type(data)}",
+                    "generated_at": datetime.now().isoformat(),
+                },
+            }
 
         if date_str is None:
             date_str = self._kst_now().strftime("%Y%m%d")
@@ -477,6 +552,77 @@ class SentimentAnalyzer:
 
         return lines
 
+    def _build_tts_lines_from_source_script(self, source_script: dict | None) -> list[str]:
+        """Flatten OpenAI source_script into a list of TTS lines.
+        
+        source_script contains the master content in structured format.
+        This function flattens it and splits long sentences for better TTS readability.
+        """
+        if not isinstance(source_script, dict):
+            return []
+
+        lines: list[str] = []
+
+        def _split_long_line(text: str) -> list[str]:
+            if not text:
+                return []
+            parts = re.split(r"(?<=[.!?。？！])\s+|,\s+|·\s+|그리고\s+|또\s+|하지만\s+", text)
+            cleaned = [p.strip() for p in parts if p and p.strip()]
+            return cleaned if cleaned else [text.strip()]
+
+        def _extend(part):
+            if isinstance(part, list):
+                for item in part:
+                    text = str(item).strip()
+                    if not text:
+                        continue
+                    lines.extend(_split_long_line(text))
+            elif isinstance(part, str):
+                value = part.strip()
+                if value:
+                    lines.extend(_split_long_line(value))
+
+        _extend(source_script.get("intro"))
+
+        sections = source_script.get("sections", {})
+        if not isinstance(sections, dict):
+            sections = {}
+        for key in ["정치", "경제/거시", "기업/산업", "부동산", "국제"]:
+            _extend(sections.get(key))
+
+        positive = source_script.get("positive", {})
+        if isinstance(positive, dict):
+            _extend(positive.get("theme"))
+            _extend(positive.get("items"))
+
+        negative = source_script.get("negative", {})
+        if isinstance(negative, dict):
+            _extend(negative.get("theme"))
+            _extend(negative.get("items"))
+
+        _extend(source_script.get("outro"))
+
+        return [line for line in lines if line]
+
+    def _pad_tts_lines(self, lines: list[str], target_min: int = 55, target_max: int = 75) -> list[str]:
+        """Ensure TTS lines count falls within target range by splitting/padding."""
+        if not lines:
+            return lines
+        # 최소 줄 수 강제는 비활성화: 뉴스가 적은 날은 짧게 허용
+        if len(lines) > target_max:
+            lines = lines[: target_max - 1] + [lines[-1]]
+
+        return lines
+
+    def _ensure_tts_outro(self, lines: list[str]) -> list[str]:
+        """Force the last TTS line to the fixed outro."""
+        if not lines:
+            return lines
+        outro = "오늘 뉴스 요약은 여기까지입니다. 내일 아침에 또 만나요."
+        if lines[-1] != outro:
+            lines[-1] = outro
+        return lines
+
     def save_tts_script_text(self, briefing_data: dict, date_str: str | None = None) -> str | None:
         """Save TTS script to a text file and return its path."""
         if briefing_data is None:
@@ -492,6 +638,16 @@ class SentimentAnalyzer:
             lines = [lines]
         if not isinstance(lines, list):
             lines = []
+
+        brief_scripts = briefing_data.get("brief_scripts") if isinstance(briefing_data, dict) else None
+        if isinstance(brief_scripts, dict):
+            source_script = brief_scripts.get("source_script")
+            regenerated = self._build_tts_lines_from_source_script(source_script)
+            if regenerated:
+                regenerated = self._pad_tts_lines(regenerated)
+                regenerated = self._ensure_tts_outro(regenerated)
+                lines = regenerated
+
         lines = [str(line).strip() for line in lines if str(line).strip()]
 
         filename = os.path.join(self.tts_dir, f"youtube_tts_{date_str}.txt")
@@ -537,6 +693,304 @@ class SentimentAnalyzer:
             print(f"⚠️ TTS 스크립트 저장 실패: {e}")
             return None
 
+    def save_brief_scripts_json(self, brief_scripts: dict | None, date_str: str | None = None) -> str | None:
+        """Save source/read scripts to a single JSON file and return its path."""
+        if not brief_scripts or not isinstance(brief_scripts, dict):
+            return None
+
+        if date_str is None:
+            date_str = self._kst_now().strftime("%Y%m%d")
+
+        filename = os.path.join(self.brief_dir, f"brief_{date_str}.json")
+        tmp_file = f"{filename}.tmp"
+        payload = {
+            "source_script": brief_scripts.get("source_script"),
+
+        }
+
+        try:
+            os.makedirs(self.brief_dir, exist_ok=True)
+            with open(tmp_file, "w", encoding="utf-8") as f:
+                json.dump(payload, f, ensure_ascii=False, indent=2)
+            os.replace(tmp_file, filename)
+            return filename
+        except Exception as e:
+            if os.path.exists(tmp_file):
+                try:
+                    os.remove(tmp_file)
+                except Exception:
+                    pass
+            print(f"⚠️ 브리프 스크립트 저장 실패: {e}")
+            return None
+
+    def save_srt_script_json(self, source_script: dict | None, date_str: str | None = None) -> str | None:
+        """Save source_script JSON for SRT use."""
+        if not source_script or not isinstance(source_script, dict):
+            return None
+
+        if date_str is None:
+            date_str = self._kst_now().strftime("%Y%m%d")
+
+        filename = os.path.join(self.brief_dir, f"srt_{date_str}.json")
+        tmp_file = f"{filename}.tmp"
+
+        try:
+            os.makedirs(self.brief_dir, exist_ok=True)
+            with open(tmp_file, "w", encoding="utf-8") as f:
+                json.dump(source_script, f, ensure_ascii=False, indent=2)
+            os.replace(tmp_file, filename)
+            return filename
+        except Exception as e:
+            if os.path.exists(tmp_file):
+                try:
+                    os.remove(tmp_file)
+                except Exception:
+                    pass
+            print(f"⚠️ SRT 스크립트 저장 실패: {e}")
+            return None
+
+    def save_tts_script_json(self, source_script: dict | None, date_str: str | None = None) -> str | None:
+        """Save source_script JSON for reference (deprecated, kept for backward compatibility)."""
+        if not source_script or not isinstance(source_script, dict):
+            return None
+
+        if date_str is None:
+            date_str = self._kst_now().strftime("%Y%m%d")
+
+        filename = os.path.join(self.brief_dir, f"tts_{date_str}.json")
+        tmp_file = f"{filename}.tmp"
+
+        try:
+            os.makedirs(self.brief_dir, exist_ok=True)
+            with open(tmp_file, "w", encoding="utf-8") as f:
+                json.dump(source_script, f, ensure_ascii=False, indent=2)
+            os.replace(tmp_file, filename)
+            return filename
+        except Exception as e:
+            if os.path.exists(tmp_file):
+                try:
+                    os.remove(tmp_file)
+                except Exception:
+                    pass
+            print(f"⚠️ TTS JSON 스크립트 저장 실패: {e}")
+            return None
+
+    def _build_brief_prompt_from_context(self, context_lines: list[str]) -> str:
+        """Build OpenAI brief prompt with escaped braces."""
+        template = """
+# 한국어 오디오 뉴스 브리핑 대본 작가 (v4.1 · 최종 · 1회 호출 · SRT/TTS 분리 저장)
+
+당신은 **한국어 오디오 뉴스 브리핑 대본 작가**입니다.
+
+아래 JSON 입력은 이미 **선별·요약된 뉴스 결과물**입니다.  
+당신의 역할은 이 입력만을 기반으로,  
+**자막 없이 들어도 이해되는 4~5분 분량의 아침 뉴스 브리핑 대본**을 작성하는 것입니다.
+
+이 작업은 **LLM 호출 1회로** 아래 두 가지 결과물을 **동시에** 생성하는 것을 목표로 합니다.
+
+- `source_script` : **원본 대본 (SRT 자막용 정본)**
+
+
+---
+
+## ⚠️ 매우 중요 (절대 위반 금지)
+
+- 새로운 사실, 해석, 의견, 예측을 **절대 추가하지 마세요**.
+- 입력에 없는 내용을 **보충하지 마세요**.
+- 정치적·외교적 판단, 선동, 결론 유도는 **금지**합니다.
+- “뉴스를 분석”하지 말고,  
+  **“뉴스를 이해 가능하게 풀어 읽는 대본”**만 만드세요.
+
+---
+
+## 🎯 목표 분량 및 스타일
+
+- 전체 낭독 분량: **4~5분**
+- 글자 수 기준: **약 1,100 ~ 1,400자**
+- 문장은 짧고 명확하게 작성하세요.
+- 청취자는 운전, 출근 준비, 집안일 중일 수 있습니다.
+- **자막 없이 들어도 의미가 따라와야 합니다.**
+
+---
+
+## 🧠 2벌 스크립트 생성의 핵심 원칙 (가장 중요)
+
+### 🔑 source_script 와 read_script의 관계
+
+- 두 스크립트는 **의미, 정보, 표현이 완전히 동일**해야 합니다.
+- 차이는 **형식**뿐입니다.
+
+### A) source_script (원본 대본 · SRT용)
+
+- **내용의 정본(master)** 입니다.
+- 뉴스 내용을 이미 **쉽게 이해되도록 풀어 쓴 상태**여야 합니다.
+- 문장은 비교적 자연스러운 길이를 유지해도 됩니다.
+- 이 스크립트를 그대로 SRT 자막으로 사용할 수 있어야 합니다.
+
+### B) read_script (읽기용 대본 · TTS용)
+
+- source_script의 **동일한 문장과 단어**만 사용합니다.
+- 다음 행위만 허용됩니다:
+  - 문장을 더 잘게 **나누기**
+  - 줄 단위로 **재배치**
+- 다음은 **절대 금지**입니다:
+  - 단어 변경
+  - 표현 수정
+  - 문장 추가/삭제
+  - 의미 재구성
+
+> **read_script는 source_script를 다시 쓰는 것이 아니라,  
+> 말로 읽기 좋게 ‘줄 단위로 쪼갠 동일 사본’입니다.**
+
+---
+
+## 🗣️ 오디오 이해도 기준 용어 처리 규칙 (핵심)
+
+뉴스에 등장하는 표현 중,
+
+- 자막 없이 **소리로 들었을 때**
+- 의미가 즉시 떠오르기 어렵고
+- 추상적이거나 관료적인 표현이라면
+
+**새로운 사실을 추가하지 않는 범위에서**,  
+같은 의미를 유지한 채,  
+**일상적인 말로 한 번만 풀어 설명**하세요.
+
+이 설명은 다음 원칙을 따릅니다.
+
+- 정의를 나열하지 않습니다.
+- 괄호를 사용하지 않습니다.
+- 문장 흐름 안에서 자연스럽게 이어집니다.
+
+### 설명하지 않는 대상
+
+아래와 같이 **일반 뉴스 청취자에게 익숙한 표현**은  
+설명하지 않습니다.
+
+- 금리, 물가, 환율
+- 국회, 총선, 대통령, 정부
+- 기업명, 국가명, 지역명
+
+---
+
+## 🚫 금지된 문장 종료 방식
+
+다음과 같은 문장으로 끝내지 마세요.
+
+- “~라는 발언이 나왔습니다”
+- “~라고 전해졌습니다”
+
+→ 반드시 **같은 문단 안에서 한 문장을 더 붙여**,  
+왜 이 말이 나왔는지,  
+왜 이 내용이 뉴스로 다뤄지는지를 설명하세요.
+
+단, 입력에 포함된 맥락을  
+**말로 풀어 설명하는 것만 허용**됩니다.
+
+---
+
+## 📉 중요도가 낮은 뉴스 처리 규칙
+
+- 주말 기사, 비시기 기사, 생활·광고성 기사는
+  - 맥락만 짧게 설명하고
+  - 분량과 톤을 낮게 유지하세요.
+- 억지로 분량을 채우지 마세요.
+
+---
+
+## 🧱 출력 형식 (아주 중요)
+
+아래 **JSON 형식으로만 출력**하세요.  
+설명, 마크다운, 주석, 추가 텍스트는 **절대 포함하지 마세요**.
+
+Output JSON:
+{{
+  "source_script": {{
+    "intro": ["문장1", "문장2", "문장3"],
+    "sections": {{
+      "정치": ["문장1", "문장2", "문장3"],
+      "경제/거시": ["문장1", "문장2", "문장3"],
+      "기업/산업": ["문장1", "문장2", "문장3"],
+      "부동산": ["문장1", "문장2", "문장3"],
+      "국제": ["문장1", "문장2", "문장3"]
+    }},
+    "positive": {{
+      "theme": "문장1",
+      "items": ["문장1", "문장2", "문장3", "문장4"]
+    }},
+    "negative": {{
+      "theme": "문장1",
+      "items": ["문장1", "문장2", "문장3", "문장4"]
+    }},
+    "outro": "문장1"
+  }},
+
+  "read_script": {{
+    "intro": ["읽기용 문장1", "읽기용 문장2", "읽기용 문장3"],
+    "sections": {{
+      "정치": ["읽기용 문장1", "읽기용 문장2", "읽기용 문장3"],
+      "경제/거시": ["읽기용 문장1", "읽기용 문장2", "읽기용 문장3"],
+      "기업/산업": ["읽기용 문장1", "읽기용 문장2", "읽기용 문장3"],
+      "부동산": ["읽기용 문장1", "읽기용 문장2", "읽기용 문장3"],
+      "국제": ["읽기용 문장1", "읽기용 문장2", "읽기용 문장3"]
+    }},
+    "positive": {{
+      "theme": "읽기용 문장1",
+      "items": ["읽기용 문장1", "읽기용 문장2", "읽기용 문장3", "읽기용 문장4"]
+    }},
+    "negative": {{
+      "theme": "읽기용 문장1",
+      "items": ["읽기용 문장1", "읽기용 문장2", "읽기용 문장3", "읽기용 문장4"]
+    }},
+    "outro": "읽기용 문장1"
+  }}
+}}
+
+입력 데이터(JSON):
+{input_data}
+"""
+        return template.format(input_data="\n".join(context_lines))
+
+    def ensure_brief_scripts(self, briefing_data: dict, date_str: str | None = None, *, max_retries: int = 3) -> dict:
+        """Ensure brief_scripts are generated using existing briefing data."""
+        if briefing_data is None:
+            raise ValueError("briefing_data is required")
+
+        if date_str is None:
+            date_str = self._kst_now().strftime("%Y%m%d")
+
+        section_summaries = briefing_data.get("section_summaries", {}) or {}
+        hojae = briefing_data.get("hojae", []) or []
+        akjae = briefing_data.get("akjae", []) or []
+
+        context_lines = ["섹션 요약:"]
+        for key in ["정치", "경제/거시", "기업/산업", "부동산", "국제"]:
+            summary = section_summaries.get(key, "") if isinstance(section_summaries, dict) else ""
+            context_lines.append(f"- {key}: {summary}")
+        if hojae:
+            context_lines.append("호재:")
+            context_lines.extend([f"- {item}" for item in hojae])
+        if akjae:
+            context_lines.append("악재:")
+            context_lines.extend([f"- {item}" for item in akjae])
+
+        brief_prompt = self._build_brief_prompt_from_context(context_lines)
+
+        brief_data = self._generate_tts_script_with_openai(
+            brief_prompt,
+            model=config.openai_model_tts,
+            max_retries=max_retries,
+        )
+        if isinstance(brief_data, dict) and isinstance(brief_data.get("source_script"), dict):
+            briefing_data = {**briefing_data}
+            briefing_data["brief_scripts"] = {
+                "source_script": brief_data.get("source_script"),
+            }
+            briefing_data.setdefault("meta", {})["brief_generated_by"] = "openai"
+            return briefing_data
+
+        raise ValueError("OpenAI brief script generation returned unexpected payload")
+
     def regenerate_tts_only(self, briefing_data: dict, date_str: str | None = None, *, max_retries: int = 3) -> dict:
         if briefing_data is None:
             raise ValueError("briefing_data is required for TTS-only regeneration")
@@ -562,54 +1016,22 @@ class SentimentAnalyzer:
             context_lines.append("악재:")
             context_lines.extend([f"- {item}" for item in akjae])
 
-        tts_prompt = f"""
-당신은 한국어 TTS 스크립트 작가입니다. 아래 JSON 스키마에 맞춰 tts_script만 생성하세요.
+        brief_prompt = self._build_brief_prompt_from_context(context_lines)
 
-필수 규칙:
-1. 5분 낭독 기준(4분30초~5분30초)으로 55~75줄 내외 작성.
-2. 기사체 금지. 말하기체로 짧은 문장(한 줄=한 문장).
-3. 섹션 전환 멘트 포함: "다음은…", "한편…", "정리하면…" 등.
-4. 숫자/약어/단위는 TTS가 읽기 쉬운 형태로 변환하거나 pronunciations에 등록.
-   - 예: "3.2%" → "삼쩜이 퍼센트", "1,200달러" → "천이백 달러"
-5. 마지막 줄은 반드시 고정 문구 사용:
-   "오늘 뉴스 요약은 여기까지입니다. 내일 아침에 또 만나요."
-6. 첫 줄은 반드시 날짜를 포함해 아래 형식을 지키세요:
-   "[SMILE] 좋은 아침입니다. {kst_korean_date} 모닝뉴스 시작합니다. [PAUSE 0.4]"
-7. title은 반드시 "오늘의 모닝뉴스 ({date_str_dash})"로 설정하세요.
-8. Output JSON은 tts_script만 포함하며 다른 키는 넣지 마세요.
-
-Output JSON Schema:
-{{
-  "tts_script": {{
-    "duration_sec_target": 300,
-    "title": "오늘의 모닝뉴스 ({date_str_dash})",
-    "pronunciations": [
-      {{"term": "S&P 500", "say": "에스엔피 오백"}},
-      {{"term": "BTC", "say": "비트코인"}},
-      {{"term": "ETH", "say": "이더리움"}}
-    ],
-    "lines": [
-      "[SMILE] 좋은 아침입니다. {kst_korean_date} 모닝뉴스 시작합니다. [PAUSE 0.4]",
-      "...(한 줄=한 문장, 짧게, 말하기체)..."
-    ]
-  }}
-}}
-
-참고 요약:
-""" + "\n".join(context_lines)
-
-        tts_data = self._generate_tts_script_with_openai(
-            tts_prompt,
+        brief_data = self._generate_tts_script_with_openai(
+            brief_prompt,
             model=config.openai_model_tts,
             max_retries=max_retries,
         )
-        if isinstance(tts_data, dict) and isinstance(tts_data.get("tts_script"), dict):
+        if isinstance(brief_data, dict) and isinstance(brief_data.get("source_script"), dict):
             briefing_data = {**briefing_data}
-            briefing_data["tts_script"] = tts_data["tts_script"]
-            briefing_data.setdefault("meta", {})["tts_generated_by"] = "openai"
-            return self._normalize_tts_script(briefing_data, date_str)
+            briefing_data["brief_scripts"] = {
+                "source_script": brief_data.get("source_script"),
+            }
+            briefing_data.setdefault("meta", {})["brief_generated_by"] = "openai"
+            return briefing_data
 
-        raise ValueError("OpenAI TTS generation returned unexpected payload")
+        raise ValueError("OpenAI brief script generation returned unexpected payload")
 
     def analyze_sentiment(self, categorized_news, date_str=None, *, use_cache=True, allow_stale=True, max_retries: int = 3):
         """브리핑 + 호재/악재 생성.
@@ -628,7 +1050,24 @@ Output JSON Schema:
             cached = self.load_cached_data(date_str)
             if cached is not None:
                 print(f"✅ 감성/브리핑 캐시 재사용: {self.get_cache_filename(date_str)}")
-                return self._ensure_tts_script(cached, date_str)
+                cached = self._ensure_tts_script(cached, date_str)
+                brief_scripts_cached = cached.get("brief_scripts")
+                if isinstance(brief_scripts_cached, dict):
+                    openai_tts_lines = self._build_tts_lines_from_source_script(
+                        brief_scripts_cached.get("source_script")
+                    )
+                    if openai_tts_lines:
+                        openai_tts_lines = self._pad_tts_lines(openai_tts_lines)
+                        openai_tts_lines = self._ensure_tts_outro(openai_tts_lines)
+                        cached.setdefault("tts_script", {})
+                        cached["tts_script"]["lines"] = openai_tts_lines
+                        cached.setdefault("meta", {})["tts_lines_generated_by"] = "openai_source_script"
+                        if isinstance(cached.get("meta"), dict):
+                            cached["meta"].pop("tts_fallback", None)
+                        cached = self._normalize_tts_script(cached, date_str)
+                        if use_cache:
+                            self.save_cached_data(cached, date_str)
+                return cached
 
             # 캐시 재사용 모드인데 오늘 캐시가 없으면, Gemini 호출 없이 최신 캐시를 폴백으로 사용
             if allow_stale:
@@ -674,19 +1113,6 @@ Output JSON Schema:
   },
   "hojae": ["회사명: 사유"],
   "akjae": ["회사명: 사유"],
-  "tts_script": {
-    "duration_sec_target": 300,
-    "title": "오늘의 모닝뉴스 (YYYY-MM-DD)",
-    "pronunciations": [
-      {"term": "S&P 500", "say": "에스엔피 오백"},
-      {"term": "BTC", "say": "비트코인"},
-      {"term": "ETH", "say": "이더리움"}
-    ],
-    "lines": [
-      "[SMILE] 좋은 아침입니다. 2월 4일 모닝뉴스 시작합니다. [PAUSE 0.4]",
-      "...(한 줄=한 문장, 짧게, 말하기체)..."
-    ]
-  }
 }
 """.strip()
 
@@ -729,42 +1155,6 @@ News List:
 {briefing_context}
 """
 
-        tts_prompt = f"""
-당신은 한국어 TTS 스크립트 작가입니다. 아래 JSON 스키마에 맞춰 tts_script만 생성하세요.
-
-필수 규칙:
-1. 5분 낭독 기준(4분30초~5분30초)으로 55~75줄 내외 작성.
-2. 기사체 금지. 말하기체로 짧은 문장(한 줄=한 문장).
-3. 섹션 전환 멘트 포함: "다음은…", "한편…", "정리하면…" 등.
-4. 숫자/약어/단위는 TTS가 읽기 쉬운 형태로 변환하거나 pronunciations에 등록.
-   - 예: "3.2%" → "삼쩜이 퍼센트", "1,200달러" → "천이백 달러"
-5. 마지막 줄은 반드시 고정 문구 사용:
-   "오늘 뉴스 요약은 여기까지입니다. 내일 아침에 또 만나요."
-6. 첫 줄은 반드시 날짜를 포함해 아래 형식을 지키세요:
-   "[SMILE] 좋은 아침입니다. {kst_korean_date} 모닝뉴스 시작합니다. [PAUSE 0.4]"
-7. title은 반드시 "오늘의 모닝뉴스 ({date_str_dash})"로 설정하세요.
-8. Output JSON은 tts_script만 포함하며 다른 키는 넣지 마세요.
-
-Output JSON Schema:
-{{
-  "tts_script": {{
-    "duration_sec_target": 300,
-    "title": "오늘의 모닝뉴스 ({date_str_dash})",
-    "pronunciations": [
-      {{"term": "S&P 500", "say": "에스엔피 오백"}},
-      {{"term": "BTC", "say": "비트코인"}},
-      {{"term": "ETH", "say": "이더리움"}}
-    ],
-    "lines": [
-      "[SMILE] 좋은 아침입니다. {kst_korean_date} 모닝뉴스 시작합니다. [PAUSE 0.4]",
-      "...(한 줄=한 문장, 짧게, 말하기체)..."
-    ]
-  }}
-}}
-
-참고할 뉴스 목록:
-{briefing_context}
-"""
         try:
             briefing_data = self._generate_json_with_retry(
                 briefing_prompt,
@@ -797,18 +1187,45 @@ Output JSON Schema:
                 },
             }
 
+            brief_scripts_payload = None
             try:
-                tts_data = self._generate_tts_script_with_openai(
-                    tts_prompt,
+                brief_context_lines = ["섹션 요약:"]
+                for key in ["정치", "경제/거시", "기업/산업", "부동산", "국제"]:
+                    summary = briefing_data.get("section_summaries", {}).get(key, "") if isinstance(briefing_data.get("section_summaries"), dict) else ""
+                    brief_context_lines.append(f"- {key}: {summary}")
+                if briefing_data.get("hojae"):
+                    brief_context_lines.append("호재:")
+                    brief_context_lines.extend([f"- {item}" for item in briefing_data.get("hojae", [])])
+                if briefing_data.get("akjae"):
+                    brief_context_lines.append("악재:")
+                    brief_context_lines.extend([f"- {item}" for item in briefing_data.get("akjae", [])])
+
+                brief_prompt = self._build_brief_prompt_from_context(brief_context_lines)
+                brief_data = self._generate_tts_script_with_openai(
+                    brief_prompt,
                     model=config.openai_model_tts,
                     max_retries=max_retries,
                 )
-                if isinstance(tts_data, dict) and isinstance(tts_data.get("tts_script"), dict):
-                    final_data["tts_script"] = tts_data["tts_script"]
-                    final_data.setdefault("meta", {})["tts_generated_by"] = "openai"
+                if isinstance(brief_data, dict) and isinstance(brief_data.get("source_script"), dict):
+                    brief_scripts_payload = {
+                        "source_script": brief_data.get("source_script"),
+                    }
+                    final_data["brief_scripts"] = brief_scripts_payload
+                    final_data.setdefault("meta", {})["brief_generated_by"] = "openai"
+                    openai_tts_lines = self._build_tts_lines_from_source_script(
+                        brief_scripts_payload.get("source_script")
+                    )
+                    if openai_tts_lines:
+                        openai_tts_lines = self._pad_tts_lines(openai_tts_lines)
+                        openai_tts_lines = self._ensure_tts_outro(openai_tts_lines)
+                        final_data.setdefault("tts_script", {})
+                        final_data["tts_script"]["lines"] = openai_tts_lines
+                        final_data.setdefault("meta", {})["tts_lines_generated_by"] = "openai_source_script"
+                        if isinstance(final_data.get("meta"), dict):
+                            final_data["meta"].pop("tts_fallback", None)
             except Exception as e:
-                print(f"⚠️ OpenAI TTS 생성 실패: {e}")
-                final_data.setdefault("meta", {})["tts_generated_by"] = "gemini_fallback"
+                print(f"⚠️ OpenAI 브리프 스크립트 생성 실패: {e}")
+                final_data.setdefault("meta", {})["brief_generated_by"] = "gemini_fallback"
 
             final_data = self._normalize_tts_script(final_data, date_str)
             if not self._validate_tts_script(final_data, date_str):
@@ -819,6 +1236,8 @@ Output JSON Schema:
                     model=config.model_flash,
                     max_retries=max_retries,
                 )
+                if not isinstance(briefing_data, dict):
+                    raise ValueError(f"Unexpected briefing_data type after retry: {type(briefing_data)}")
                 final_data = {
                     **self._ensure_tts_script(briefing_data, date_str),
                     "analysis_mode": current_mode,
@@ -828,11 +1247,43 @@ Output JSON Schema:
                         "generated_at": datetime.now().isoformat(),
                     },
                 }
+                if brief_scripts_payload:
+                    final_data["brief_scripts"] = brief_scripts_payload
+                    final_data.setdefault("meta", {})["brief_generated_by"] = "openai"
+                    openai_tts_lines = self._build_tts_lines_from_source_script(
+                        brief_scripts_payload.get("source_script")
+                    )
+                    if openai_tts_lines:
+                        openai_tts_lines = self._pad_tts_lines(openai_tts_lines)
+                        openai_tts_lines = self._ensure_tts_outro(openai_tts_lines)
+                        final_data.setdefault("tts_script", {})
+                        final_data["tts_script"]["lines"] = openai_tts_lines
+                        final_data.setdefault("meta", {})["tts_lines_generated_by"] = "openai_source_script"
+                        if isinstance(final_data.get("meta"), dict):
+                            final_data["meta"].pop("tts_fallback", None)
                 final_data = self._normalize_tts_script(final_data, date_str)
 
             if not self._validate_tts_script(final_data, date_str):
-                print("⚠️ TTS 스크립트 검증 실패: 폴백 스크립트로 대체")
-                final_data = self._apply_tts_fallback(final_data, date_str)
+                print("⚠️ TTS 스크립트 검증 실패: OpenAI 기반 스크립트로 대체")
+                if brief_scripts_payload:
+                    openai_tts_lines = self._build_tts_lines_from_source_script(
+                        brief_scripts_payload.get("source_script")
+                    )
+                    if openai_tts_lines:
+                        openai_tts_lines = self._pad_tts_lines(openai_tts_lines)
+                        openai_tts_lines = self._ensure_tts_outro(openai_tts_lines)
+                        final_data.setdefault("tts_script", {})
+                        final_data["tts_script"]["lines"] = openai_tts_lines
+                        final_data.setdefault("meta", {})["tts_lines_generated_by"] = "openai_source_script"
+                        if isinstance(final_data.get("meta"), dict):
+                            final_data["meta"].pop("tts_fallback", None)
+                        final_data = self._normalize_tts_script(final_data, date_str)
+                if not self._validate_tts_script(final_data, date_str):
+                    print("⚠️ TTS 스크립트 검증 실패: 폴백 스크립트로 대체")
+                    final_data = self._apply_tts_fallback(final_data, date_str)
+                if brief_scripts_payload:
+                    final_data["brief_scripts"] = brief_scripts_payload
+                    final_data.setdefault("meta", {})["brief_generated_by"] = "openai"
 
             # 휴일 다음 날이면 캐시 병합 및 통합 리포트
             if is_first_day_after_holiday:
@@ -929,7 +1380,9 @@ Output JSON Schema:
             return False
 
         line_count = len(lines)
-        if not (55 <= line_count <= 75):
+        if line_count < 1:
+            return False
+        if line_count > 75:
             return False
 
         return True

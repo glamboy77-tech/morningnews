@@ -69,7 +69,7 @@ def get_missing_required_outputs(date_str: str, output_path: str, cache: DataCac
         missing.append("output/morning_news")
     return missing
 
-def main(send_push=True, use_cache=True, *, ignore_done_marker: bool = False, tts_only: bool = False):
+def main(send_push=True, use_cache=True, *, ignore_done_marker: bool = False, tts_only: bool = False, scripts_only: bool = False):
     print("=== Morning News Bot Started ===")
 
     # 시간대 통일: GitHub Actions는 기본 UTC로 실행되므로, 모든 판단/캐시 키는 KST 기준으로 맞춘다.
@@ -81,7 +81,7 @@ def main(send_push=True, use_cache=True, *, ignore_done_marker: bool = False, tt
     today_str = now_kst.strftime("%Y%m%d")
 
     # done marker 기반 LLM 스킵 (운영 모드에서만)
-    if use_cache and not ignore_done_marker and has_done_marker(today_str):
+    if use_cache and not ignore_done_marker and has_done_marker(today_str) and not scripts_only:
         required_missing = get_missing_required_outputs(
             today_str,
             os.path.join("output", f"morning_news_{today_str}.html"),
@@ -117,7 +117,7 @@ def main(send_push=True, use_cache=True, *, ignore_done_marker: bool = False, tt
     html_gen = HTMLGenerator()
     wm = WeatherManager()
     
-    if tts_only:
+    if tts_only or scripts_only:
         print("\n[Phase 1~2.5] TTS-only 모드: 캐시된 데이터만 사용합니다.")
         if not (cache_status["rss"] and cache_status["ai_analysis"] and cache_status["key_persons"]):
             print("⚠️ TTS-only 모드에 필요한 캐시가 없습니다. 먼저 전체 실행으로 캐시를 생성하세요.")
@@ -264,7 +264,7 @@ def main(send_push=True, use_cache=True, *, ignore_done_marker: bool = False, tt
         else:
             print("  - No key persons found with 3+ articles")
 
-    if tts_only:
+    if tts_only or scripts_only:
         domestic_raw_all = [n for n in all_news if n.get('category') == 'domestic']
         science_raw = [n for n in domestic_raw_all if "사이언스타임즈" in n.get('source', '')]
         science_raw.sort(key=lambda x: x['published_dt'], reverse=True)
@@ -285,17 +285,24 @@ def main(send_push=True, use_cache=True, *, ignore_done_marker: bool = False, tt
     if use_cache and os.path.exists(sentiment.get_cache_filename(today_str)):
         print("🔄 캐시된 감성/브리핑 데이터 로드 중...")
         briefing_data = sentiment.load_cached_data(today_str)
-    if tts_only:
+    if tts_only or scripts_only:
         if briefing_data is None:
             print("⚠️ TTS-only 모드인데 오늘 감성/브리핑 캐시가 없습니다. 먼저 전체 실행을 진행하세요.")
             print("   예: python main.py --no-push")
             return
         try:
-            briefing_data = sentiment.regenerate_tts_only(
-                briefing_data,
-                today_str,
-                max_retries=3,
-            )
+            if scripts_only:
+                briefing_data = sentiment.ensure_brief_scripts(
+                    briefing_data,
+                    today_str,
+                    max_retries=3,
+                )
+            else:
+                briefing_data = sentiment.regenerate_tts_only(
+                    briefing_data,
+                    today_str,
+                    max_retries=3,
+                )
             if use_cache:
                 sentiment.save_cached_data(briefing_data, today_str)
         except Exception as e:
@@ -311,13 +318,18 @@ def main(send_push=True, use_cache=True, *, ignore_done_marker: bool = False, tt
             max_retries=3,
         )
 
-    # Save YouTube TTS script (separate text file) - always on
-    tts_path = sentiment.save_tts_script_text(briefing_data, today_str)
-    if tts_path:
-        tts_lines = briefing_data.get("tts_script", {}).get("lines", []) if briefing_data else []
-        print(f"✅ TTS 스크립트 저장 완료: {tts_path} (lines={len(tts_lines)})")
-    else:
-        print("⚠️ TTS 스크립트 저장 실패 또는 데이터 없음")
+    if not scripts_only:
+        # Save YouTube TTS script (separate text file) - always on
+        tts_path = sentiment.save_tts_script_text(briefing_data, today_str)
+        if tts_path:
+            tts_lines = briefing_data.get("tts_script", {}).get("lines", []) if briefing_data else []
+            print(f"✅ TTS 스크립트 저장 완료: {tts_path} (lines={len(tts_lines)})")
+        else:
+            print("⚠️ TTS 스크립트 저장 실패 또는 데이터 없음")
+
+    if scripts_only:
+        print("\n=== Finished Scripts-Only Successfully ===")
+        return
  
     # 5. Generate Main HTML
     print("\n[Phase 4] Generating Main HTML...")
@@ -394,11 +406,12 @@ def main(send_push=True, use_cache=True, *, ignore_done_marker: bool = False, tt
             print(f"⚠️ done marker 보류: 누락된 산출물 -> {', '.join(missing)}")
 
 if __name__ == "__main__":
-    # 커맨드라인 인자: --no-push, --no-cache, --ignore-done-marker, --tts-only
+    # 커맨드라인 인자: --no-push, --no-cache, --ignore-done-marker, --tts-only, --scripts-only
     send_push = True
     use_cache = True
     ignore_done_marker = False
     tts_only = False
+    scripts_only = False
     
     for arg in sys.argv[1:]:
         if arg == "--no-push":
@@ -409,10 +422,13 @@ if __name__ == "__main__":
             ignore_done_marker = True
         elif arg == "--tts-only":
             tts_only = True
+        elif arg == "--scripts-only":
+            scripts_only = True
     
     main(
         send_push,
         use_cache,
         ignore_done_marker=ignore_done_marker,
         tts_only=tts_only,
+        scripts_only=scripts_only,
     )
