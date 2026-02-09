@@ -305,14 +305,14 @@ class SentimentAnalyzer:
         raise last_err
 
     def _generate_tts_script_with_openai(self, prompt: str, *, model: str, max_retries: int = 3, base_sleep_sec: float = 3.0) -> dict:
-        """Generate TTS script using OpenAI chat.completions API and return JSON.
-        
+        """Generate anchor script using OpenAI chat.completions API and return JSON.
+
         Args:
             prompt: The prompt to send to OpenAI
             model: The model to use (e.g., "gpt-4o")
             max_retries: Maximum number of retry attempts
             base_sleep_sec: Base sleep duration for exponential backoff
-            
+
         Returns:
             dict: Parsed JSON response containing source_script only
         """
@@ -345,6 +345,10 @@ class SentimentAnalyzer:
                 # Parse JSON response
                 try:
                     result = json.loads(content)
+                    # Expect source_script to be plain text (string)
+                    source_script = result.get("source_script") if isinstance(result, dict) else None
+                    if not isinstance(source_script, str) or not source_script.strip():
+                        raise ValueError("OpenAI response missing valid source_script text")
                     return result
                 except json.JSONDecodeError as je:
                     print(f"⚠️ JSON 파싱 실패: {je}")
@@ -552,13 +556,14 @@ class SentimentAnalyzer:
 
         return lines
 
-    def _build_tts_lines_from_source_script(self, source_script: dict | None) -> list[str]:
+    def _build_tts_lines_from_source_script(self, source_script: dict | str | None) -> list[str]:
         """Flatten OpenAI source_script into a list of TTS lines.
-        
-        source_script contains the master content in structured format.
-        This function flattens it and splits long sentences for better TTS readability.
+
+        source_script is the master content. It can be either a plain text string
+        (new format) or a structured dict (legacy format). This function flattens
+        it and splits long sentences for better TTS readability.
         """
-        if not isinstance(source_script, dict):
+        if source_script is None:
             return []
 
         lines: list[str] = []
@@ -566,7 +571,7 @@ class SentimentAnalyzer:
         def _split_long_line(text: str) -> list[str]:
             if not text:
                 return []
-            parts = re.split(r"(?<=[.!?。？！])\s+|,\s+|·\s+|그리고\s+|또\s+|하지만\s+", text)
+            parts = re.split(r"(?<=[.!?。？！])\s+|,\s+|·\s+|그리고\s+|하지만\s+", text)
             cleaned = [p.strip() for p in parts if p and p.strip()]
             return cleaned if cleaned else [text.strip()]
 
@@ -581,6 +586,20 @@ class SentimentAnalyzer:
                 value = part.strip()
                 if value:
                     lines.extend(_split_long_line(value))
+
+        if isinstance(source_script, str):
+            paragraphs = [p.strip() for p in re.split(r"\n\s*\n", source_script) if p.strip()]
+            for paragraph in paragraphs:
+                sentence_chunks = re.split(r"(?<=[.!?。？！])\s+", paragraph)
+                for chunk in sentence_chunks:
+                    text = chunk.strip()
+                    if not text:
+                        continue
+                    lines.extend(_split_long_line(text))
+            return [line for line in lines if line]
+
+        if not isinstance(source_script, dict):
+            return []
 
         _extend(source_script.get("intro"))
 
@@ -778,175 +797,53 @@ class SentimentAnalyzer:
     def _build_brief_prompt_from_context(self, context_lines: list[str]) -> str:
         """Build OpenAI brief prompt with escaped braces."""
         template = """
-# 한국어 오디오 뉴스 브리핑 대본 작가 (v4.1 · 최종 · 1회 호출 · SRT/TTS 분리 저장)
+당신은 **한국어 라디오 모닝뉴스 앵커**입니다.
 
-당신은 **한국어 오디오 뉴스 브리핑 대본 작가**입니다.
+당신의 임무는 기사 요약이 아니라,
+출근길에 라디오를 틀어둔 청취자가 자연스럽게 끝까지 들을 수 있는
+5분 내외의 아침 뉴스 브리핑 원고를 작성하는 것입니다.
 
-아래 JSON 입력은 이미 **선별·요약된 뉴스 결과물**입니다.  
-당신의 역할은 이 입력만을 기반으로,  
-**자막 없이 들어도 이해되는 4~5분 분량의 아침 뉴스 브리핑 대본**을 작성하는 것입니다.
+아래 입력은 이미 선별·요약된 뉴스 데이터입니다.
+이 입력만 사용해 원고를 작성하세요.
 
-이 작업은 **LLM 호출 1회로** 아래 두 가지 결과물을 **동시에** 생성하는 것을 목표로 합니다.
+절대 규칙:
+- 기사 목록처럼 나열하지 마세요.
+- 섹션 제목을 쓰지 마세요. (정치, 경제 같은 말 금지)
+- 불릿, 번호, 목록형 문장 금지
+- “~입니다, ~했습니다” 톤의 낭독체만 사용하세요.
+- 한 문장은 너무 길지 않게, 말로 읽히는 리듬을 유지하세요.
+- 같은 뉴스 소재를 두 번 이상 반복하지 마세요.
 
-- `source_script` : **원본 대본 (SRT 자막용 정본)**
+반드시 지켜야 할 구성 흐름:
+1. 오프닝: 짧은 인사 + 오늘 뉴스의 큰 흐름 예고
+2. 국내 주요 이슈: 정치·정책·행정 이슈를 하나의 흐름으로 연결 (사실 → 맥락 → 현재 분위기)
+3. 경제·생활 체감 뉴스: 물가, 증시, 생활과 연결되는 이슈 (체감/분위기/반응 표현 활용)
+4. 산업·기술 흐름: 반도체, 방산, AI 등은 경쟁 구도 중심으로 설명 (기업명 최소화)
+5. 부동산·주거 이슈: 가격 나열 금지, 시장 심리/체감 중심
+6. 국제·안보 이슈: 지역별 묶어 자연스럽게 연결 (긴장/변화/관측 표현 활용)
+7. 클로징: 오늘 뉴스 핵심 한 문장 정리 + 내일 다시 만난다는 말
 
+문장 작성 가이드:
+- “~로 보입니다”
+- “~라는 반응도 나옵니다”
+- “분위기가 이어지고 있습니다”
+- “체감상 변화가 크지 않다는 말도 나옵니다”
+- “해석은 엇갈립니다”
 
----
+팩트 + 해석 1줄은 허용됩니다.
+의견·평가·예측 추가는 금지합니다.
 
-## ⚠️ 매우 중요 (절대 위반 금지)
+출력 형식:
+- 하나의 연속된 원고로 작성하세요.
+- 줄바꿈은 문단 구분용으로만 사용하세요.
+- 섹션 제목, 소제목, 구분자 사용 금지
 
-- 새로운 사실, 해석, 의견, 예측을 **절대 추가하지 마세요**.
-- 입력에 없는 내용을 **보충하지 마세요**.
-- 정치적·외교적 판단, 선동, 결론 유도는 **금지**합니다.
-- “뉴스를 분석”하지 말고,  
-  **“뉴스를 이해 가능하게 풀어 읽는 대본”**만 만드세요.
-
----
-
-## 🎯 목표 분량 및 스타일
-
-- 전체 낭독 분량: **4~5분**
-- 글자 수 기준: **약 1,100 ~ 1,400자**
-- 문장은 짧고 명확하게 작성하세요.
-- 청취자는 운전, 출근 준비, 집안일 중일 수 있습니다.
-- **자막 없이 들어도 의미가 따라와야 합니다.**
-
----
-
-## 🧠 2벌 스크립트 생성의 핵심 원칙 (가장 중요)
-
-### 🔑 source_script 와 read_script의 관계
-
-- 두 스크립트는 **의미, 정보, 표현이 완전히 동일**해야 합니다.
-- 차이는 **형식**뿐입니다.
-
-### A) source_script (원본 대본 · SRT용)
-
-- **내용의 정본(master)** 입니다.
-- 뉴스 내용을 이미 **쉽게 이해되도록 풀어 쓴 상태**여야 합니다.
-- 문장은 비교적 자연스러운 길이를 유지해도 됩니다.
-- 이 스크립트를 그대로 SRT 자막으로 사용할 수 있어야 합니다.
-
-### B) read_script (읽기용 대본 · TTS용)
-
-- source_script의 **동일한 문장과 단어**만 사용합니다.
-- 다음 행위만 허용됩니다:
-  - 문장을 더 잘게 **나누기**
-  - 줄 단위로 **재배치**
-- 다음은 **절대 금지**입니다:
-  - 단어 변경
-  - 표현 수정
-  - 문장 추가/삭제
-  - 의미 재구성
-
-> **read_script는 source_script를 다시 쓰는 것이 아니라,  
-> 말로 읽기 좋게 ‘줄 단위로 쪼갠 동일 사본’입니다.**
-
----
-
-## 🗣️ 오디오 이해도 기준 용어 처리 규칙 (핵심)
-
-뉴스에 등장하는 표현 중,
-
-- 자막 없이 **소리로 들었을 때**
-- 의미가 즉시 떠오르기 어렵고
-- 추상적이거나 관료적인 표현이라면
-
-**새로운 사실을 추가하지 않는 범위에서**,  
-같은 의미를 유지한 채,  
-**일상적인 말로 한 번만 풀어 설명**하세요.
-
-이 설명은 다음 원칙을 따릅니다.
-
-- 정의를 나열하지 않습니다.
-- 괄호를 사용하지 않습니다.
-- 문장 흐름 안에서 자연스럽게 이어집니다.
-
-### 설명하지 않는 대상
-
-아래와 같이 **일반 뉴스 청취자에게 익숙한 표현**은  
-설명하지 않습니다.
-
-- 금리, 물가, 환율
-- 국회, 총선, 대통령, 정부
-- 기업명, 국가명, 지역명
-
----
-
-## 🚫 금지된 문장 종료 방식
-
-다음과 같은 문장으로 끝내지 마세요.
-
-- “~라는 발언이 나왔습니다”
-- “~라고 전해졌습니다”
-
-→ 반드시 **같은 문단 안에서 한 문장을 더 붙여**,  
-왜 이 말이 나왔는지,  
-왜 이 내용이 뉴스로 다뤄지는지를 설명하세요.
-
-단, 입력에 포함된 맥락을  
-**말로 풀어 설명하는 것만 허용**됩니다.
-
----
-
-## 📉 중요도가 낮은 뉴스 처리 규칙
-
-- 주말 기사, 비시기 기사, 생활·광고성 기사는
-  - 맥락만 짧게 설명하고
-  - 분량과 톤을 낮게 유지하세요.
-- 억지로 분량을 채우지 마세요.
-
----
-
-## 🧱 출력 형식 (아주 중요)
-
-아래 **JSON 형식으로만 출력**하세요.  
-설명, 마크다운, 주석, 추가 텍스트는 **절대 포함하지 마세요**.
-
-Output JSON:
+Output JSON (JSON 형식만 허용):
 {{
-  "source_script": {{
-    "intro": ["문장1", "문장2", "문장3"],
-    "sections": {{
-      "정치": ["문장1", "문장2", "문장3"],
-      "경제/거시": ["문장1", "문장2", "문장3"],
-      "기업/산업": ["문장1", "문장2", "문장3"],
-      "부동산": ["문장1", "문장2", "문장3"],
-      "국제": ["문장1", "문장2", "문장3"]
-    }},
-    "positive": {{
-      "theme": "문장1",
-      "items": ["문장1", "문장2", "문장3", "문장4"]
-    }},
-    "negative": {{
-      "theme": "문장1",
-      "items": ["문장1", "문장2", "문장3", "문장4"]
-    }},
-    "outro": "문장1"
-  }},
-
-  "read_script": {{
-    "intro": ["읽기용 문장1", "읽기용 문장2", "읽기용 문장3"],
-    "sections": {{
-      "정치": ["읽기용 문장1", "읽기용 문장2", "읽기용 문장3"],
-      "경제/거시": ["읽기용 문장1", "읽기용 문장2", "읽기용 문장3"],
-      "기업/산업": ["읽기용 문장1", "읽기용 문장2", "읽기용 문장3"],
-      "부동산": ["읽기용 문장1", "읽기용 문장2", "읽기용 문장3"],
-      "국제": ["읽기용 문장1", "읽기용 문장2", "읽기용 문장3"]
-    }},
-    "positive": {{
-      "theme": "읽기용 문장1",
-      "items": ["읽기용 문장1", "읽기용 문장2", "읽기용 문장3", "읽기용 문장4"]
-    }},
-    "negative": {{
-      "theme": "읽기용 문장1",
-      "items": ["읽기용 문장1", "읽기용 문장2", "읽기용 문장3", "읽기용 문장4"]
-    }},
-    "outro": "읽기용 문장1"
-  }}
+  "source_script": "원고 전체 텍스트"
 }}
 
-입력 데이터(JSON):
+입력 데이터:
 {input_data}
 """
         return template.format(input_data="\n".join(context_lines))
@@ -981,7 +878,7 @@ Output JSON:
             model=config.openai_model_tts,
             max_retries=max_retries,
         )
-        if isinstance(brief_data, dict) and isinstance(brief_data.get("source_script"), dict):
+        if isinstance(brief_data, dict) and isinstance(brief_data.get("source_script"), str):
             briefing_data = {**briefing_data}
             briefing_data["brief_scripts"] = {
                 "source_script": brief_data.get("source_script"),
@@ -1023,7 +920,7 @@ Output JSON:
             model=config.openai_model_tts,
             max_retries=max_retries,
         )
-        if isinstance(brief_data, dict) and isinstance(brief_data.get("source_script"), dict):
+        if isinstance(brief_data, dict) and isinstance(brief_data.get("source_script"), str):
             briefing_data = {**briefing_data}
             briefing_data["brief_scripts"] = {
                 "source_script": brief_data.get("source_script"),
@@ -1206,7 +1103,7 @@ News List:
                     model=config.openai_model_tts,
                     max_retries=max_retries,
                 )
-                if isinstance(brief_data, dict) and isinstance(brief_data.get("source_script"), dict):
+                if isinstance(brief_data, dict) and isinstance(brief_data.get("source_script"), str):
                     brief_scripts_payload = {
                         "source_script": brief_data.get("source_script"),
                     }

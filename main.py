@@ -327,6 +327,15 @@ def main(send_push=True, use_cache=True, *, ignore_done_marker: bool = False, tt
         else:
             print("⚠️ TTS 스크립트 저장 실패 또는 데이터 없음")
 
+        # Save brief source_script JSON (single output)
+        brief_scripts = briefing_data.get("brief_scripts") if isinstance(briefing_data, dict) else None
+        if isinstance(brief_scripts, dict) and isinstance(brief_scripts.get("source_script"), str):
+            brief_path = sentiment.save_brief_scripts_json(brief_scripts, today_str)
+            if brief_path:
+                print(f"✅ 브리프 스크립트 저장 완료: {brief_path}")
+            else:
+                print("⚠️ 브리프 스크립트 저장 실패")
+
     if scripts_only:
         print("\n=== Finished Scripts-Only Successfully ===")
         return
