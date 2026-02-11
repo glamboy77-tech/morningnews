@@ -355,6 +355,10 @@ class SentimentAnalyzer:
                     source_script = result.get("source_script") if isinstance(result, dict) else None
                     if not isinstance(source_script, str) or not source_script.strip():
                         raise ValueError("OpenAI response missing valid source_script text")
+                    keywords = self._normalize_keywords(result.get("keywords") if isinstance(result, dict) else None)
+                    if len(keywords) != 3:
+                        raise ValueError("OpenAI response missing valid keywords(3)")
+                    result["keywords"] = keywords
                     return result
                 except json.JSONDecodeError as je:
                     print(f"⚠️ JSON 파싱 실패: {je}")
@@ -373,6 +377,27 @@ class SentimentAnalyzer:
                 raise
 
         raise last_err
+
+    @staticmethod
+    def _normalize_keywords(raw_keywords) -> list[str]:
+        if isinstance(raw_keywords, str):
+            items = [p.strip() for p in re.split(r"[,/|\n]", raw_keywords) if p.strip()]
+        elif isinstance(raw_keywords, list):
+            items = [str(p).strip() for p in raw_keywords if str(p).strip()]
+        else:
+            items = []
+
+        # 중복 제거(순서 유지)
+        normalized = []
+        seen = set()
+        for item in items:
+            key = item.lower()
+            if key in seen:
+                continue
+            seen.add(key)
+            normalized.append(item)
+
+        return normalized[:3]
 
     def _load_prompt_template(self, path: str) -> str:
         """Load prompt template from file using UTF-8 encoding."""
@@ -755,6 +780,36 @@ class SentimentAnalyzer:
             print(f"⚠️ 브리프 스크립트 저장 실패: {e}")
             return None
 
+    def save_keywords_text(self, keywords: list[str] | None, date_str: str | None = None) -> str | None:
+        """Save extracted keywords to scripts/keyword_YYYYMMDD.txt."""
+        if not isinstance(keywords, list):
+            return None
+
+        normalized = self._normalize_keywords(keywords)
+        if len(normalized) != 3:
+            return None
+
+        if date_str is None:
+            date_str = self._kst_now().strftime("%Y%m%d")
+
+        filename = os.path.join(self.brief_dir, f"keyword_{date_str}.txt")
+        tmp_file = f"{filename}.tmp"
+
+        try:
+            os.makedirs(self.brief_dir, exist_ok=True)
+            with open(tmp_file, "w", encoding="utf-8") as f:
+                f.write("\n".join(normalized) + "\n")
+            os.replace(tmp_file, filename)
+            return filename
+        except Exception as e:
+            if os.path.exists(tmp_file):
+                try:
+                    os.remove(tmp_file)
+                except Exception:
+                    pass
+            print(f"⚠️ 키워드 파일 저장 실패: {e}")
+            return None
+
     def save_srt_script_json(self, source_script: dict | None, date_str: str | None = None) -> str | None:
         """Save source_script JSON for SRT use."""
         if not source_script or not isinstance(source_script, dict):
@@ -847,6 +902,7 @@ class SentimentAnalyzer:
             briefing_data = {**briefing_data}
             briefing_data["brief_scripts"] = {
                 "source_script": brief_data.get("source_script"),
+                "keywords": brief_data.get("keywords", []),
             }
             briefing_data.setdefault("meta", {})["brief_generated_by"] = "openai"
             return briefing_data
@@ -889,6 +945,7 @@ class SentimentAnalyzer:
             briefing_data = {**briefing_data}
             briefing_data["brief_scripts"] = {
                 "source_script": brief_data.get("source_script"),
+                "keywords": brief_data.get("keywords", []),
             }
             briefing_data.setdefault("meta", {})["brief_generated_by"] = "openai"
             return briefing_data
@@ -1071,6 +1128,7 @@ News List:
                 if isinstance(brief_data, dict) and isinstance(brief_data.get("source_script"), str):
                     brief_scripts_payload = {
                         "source_script": brief_data.get("source_script"),
+                        "keywords": brief_data.get("keywords", []),
                     }
                     final_data["brief_scripts"] = brief_scripts_payload
                     final_data.setdefault("meta", {})["brief_generated_by"] = "openai"

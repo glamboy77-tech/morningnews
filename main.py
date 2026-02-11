@@ -336,6 +336,12 @@ def main(send_push=True, use_cache=True, *, ignore_done_marker: bool = False, tt
             else:
                 print("⚠️ 브리프 스크립트 저장 실패")
 
+            keyword_path = sentiment.save_keywords_text(brief_scripts.get("keywords"), today_str)
+            if keyword_path:
+                print(f"✅ 키워드 파일 저장 완료: {keyword_path}")
+            else:
+                print("⚠️ 키워드 파일 저장 실패 또는 키워드 데이터 없음")
+
     if scripts_only:
         print("\n=== Finished Scripts-Only Successfully ===")
         return

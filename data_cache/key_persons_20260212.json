@@ -1,0 +1,60 @@
+{
+  "timestamp": "2026-02-12T06:04:35.810454",
+  "date": "20260212",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "李대통령, 靑서 정청래·장동혁과 오찬…초당적 협력 당부할 듯",
+          "link": "https://www.yna.co.kr/view/AKR20260211172500001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-02-12 05:00:02",
+          "description": "(서울=연합뉴스) 설승은 기자 = 이재명 대통령은 12일 청와대로 더불어민주당 정청래 대표와 국민의힘 장동혁 대표를 초청해 오찬을 함께 한다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "明心 천기누설 친명...합당 전쟁에서 상처뿐인 승리",
+          "link": "https://www.chosun.com/politics/assembly/2026/02/12/PIKOSXGDP5EFLJUTDIXPBUFO6E/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-02-12 03:00:00",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "'입법속도' 강조한 李대통령…여야 소통으로 국정동력 모색",
+          "link": "https://www.yna.co.kr/view/AKR20260211137400001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-02-11 15:54:51",
+          "description": "(서울=연합뉴스) 임형섭 기자 = 이재명 대통령이 12일 청와대에서 더불어민주당 정청래 대표, 국민의힘 장동혁 대표와 오찬을 갖기로 한 데에는 ...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "국힘, '李대통령 공소취소' 與모임에 \"사법정의 외면·국민배신\"",
+          "link": "https://www.yna.co.kr/view/AKR20260211135600001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-02-11 16:00:28",
+          "description": "(서울=연합뉴스) 김유아 기자 = 국민의힘은 11일 더불어민주당 일부 의원이 이른바 &apos;이재명 대통령 공소 취소&apos; 추진 모임을 만든 것을 두고 &quot;...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": true,
+          "related_full_sources": []
+        }
+      ],
+      "count": 4,
+      "role": "한국 대통령"
+    }
+  }
+}
