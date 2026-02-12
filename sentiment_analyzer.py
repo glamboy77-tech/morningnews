@@ -609,7 +609,10 @@ class SentimentAnalyzer:
         def _split_long_line(text: str) -> list[str]:
             if not text:
                 return []
-            parts = re.split(r"(?<=[.!?。？！])\s+|,\s+|·\s+|그리고\s+|하지만\s+", text)
+            parts = re.split(
+                r"(?<=[.!?。？！])\s+|,\s*|·\s*|그리고\s+|하지만\s+|반면\s+|한편\s+|동시에\s+|또한\s+|이어\s+",
+                text,
+            )
             cleaned = [p.strip() for p in parts if p and p.strip()]
             return cleaned if cleaned else [text.strip()]
 
@@ -665,6 +668,47 @@ class SentimentAnalyzer:
         """Ensure TTS lines count falls within target range by splitting/padding."""
         if not lines:
             return lines
+
+        def _split_by_length(text: str, max_chars: int = 38) -> list[str]:
+            value = (text or "").strip()
+            if not value:
+                return []
+            if len(value) <= max_chars:
+                return [value]
+
+            # 1차: 접속/나열 표현 기준 분할
+            chunks = re.split(
+                r",\s*|·\s*|그리고\s+|하지만\s+|반면\s+|한편\s+|동시에\s+|또한\s+|이어\s+|및\s+",
+                value,
+            )
+            chunks = [c.strip() for c in chunks if c and c.strip()]
+
+            # 2차: 여전히 긴 조각은 공백 기준으로 안전 분할
+            out: list[str] = []
+            for chunk in chunks if chunks else [value]:
+                if len(chunk) <= max_chars:
+                    out.append(chunk)
+                    continue
+
+                rest = chunk
+                while len(rest) > max_chars:
+                    cut = rest.rfind(" ", 0, max_chars + 1)
+                    if cut <= 0:
+                        cut = max_chars
+                    left = rest[:cut].strip()
+                    if left:
+                        out.append(left)
+                    rest = rest[cut:].strip()
+                if rest:
+                    out.append(rest)
+
+            return out if out else [value]
+
+        normalized_lines: list[str] = []
+        for line in lines:
+            normalized_lines.extend(_split_by_length(str(line)))
+        lines = [line for line in normalized_lines if line]
+
         # 최소 줄 수 강제는 비활성화: 뉴스가 적은 날은 짧게 허용
         if len(lines) > target_max:
             lines = lines[: target_max - 1] + [lines[-1]]

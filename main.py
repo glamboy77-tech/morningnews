@@ -318,29 +318,28 @@ def main(send_push=True, use_cache=True, *, ignore_done_marker: bool = False, tt
             max_retries=3,
         )
 
-    if not scripts_only:
-        # Save YouTube TTS script (separate text file) - always on
-        tts_path = sentiment.save_tts_script_text(briefing_data, today_str)
-        if tts_path:
-            tts_lines = briefing_data.get("tts_script", {}).get("lines", []) if briefing_data else []
-            print(f"✅ TTS 스크립트 저장 완료: {tts_path} (lines={len(tts_lines)})")
+    # Save YouTube TTS script (separate text file) - always on
+    tts_path = sentiment.save_tts_script_text(briefing_data, today_str)
+    if tts_path:
+        tts_lines = briefing_data.get("tts_script", {}).get("lines", []) if briefing_data else []
+        print(f"✅ TTS 스크립트 저장 완료: {tts_path} (lines={len(tts_lines)})")
+    else:
+        print("⚠️ TTS 스크립트 저장 실패 또는 데이터 없음")
+
+    # Save brief source_script JSON (single output)
+    brief_scripts = briefing_data.get("brief_scripts") if isinstance(briefing_data, dict) else None
+    if isinstance(brief_scripts, dict) and isinstance(brief_scripts.get("source_script"), str):
+        brief_path = sentiment.save_brief_scripts_json(brief_scripts, today_str)
+        if brief_path:
+            print(f"✅ 브리프 스크립트 저장 완료: {brief_path}")
         else:
-            print("⚠️ TTS 스크립트 저장 실패 또는 데이터 없음")
+            print("⚠️ 브리프 스크립트 저장 실패")
 
-        # Save brief source_script JSON (single output)
-        brief_scripts = briefing_data.get("brief_scripts") if isinstance(briefing_data, dict) else None
-        if isinstance(brief_scripts, dict) and isinstance(brief_scripts.get("source_script"), str):
-            brief_path = sentiment.save_brief_scripts_json(brief_scripts, today_str)
-            if brief_path:
-                print(f"✅ 브리프 스크립트 저장 완료: {brief_path}")
-            else:
-                print("⚠️ 브리프 스크립트 저장 실패")
-
-            keyword_path = sentiment.save_keywords_text(brief_scripts.get("keywords"), today_str)
-            if keyword_path:
-                print(f"✅ 키워드 파일 저장 완료: {keyword_path}")
-            else:
-                print("⚠️ 키워드 파일 저장 실패 또는 키워드 데이터 없음")
+        keyword_path = sentiment.save_keywords_text(brief_scripts.get("keywords"), today_str)
+        if keyword_path:
+            print(f"✅ 키워드 파일 저장 완료: {keyword_path}")
+        else:
+            print("⚠️ 키워드 파일 저장 실패 또는 키워드 데이터 없음")
 
     if scripts_only:
         print("\n=== Finished Scripts-Only Successfully ===")
