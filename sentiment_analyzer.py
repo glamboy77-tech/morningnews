@@ -610,7 +610,7 @@ class SentimentAnalyzer:
             if not text:
                 return []
             parts = re.split(
-                r"(?<=[.!?。？！])\s+|,\s*|·\s*|그리고\s+|하지만\s+|반면\s+|한편\s+|동시에\s+|또한\s+|이어\s+",
+                r"(?<=[.!?。？！])\s+|(?<!\d),(?!\d)\s*|·\s*|그리고\s+|하지만\s+|반면\s+|한편\s+|동시에\s+|또한\s+|이어\s+",
                 text,
             )
             cleaned = [p.strip() for p in parts if p and p.strip()]
@@ -678,7 +678,7 @@ class SentimentAnalyzer:
 
             # 1차: 접속/나열 표현 기준 분할
             chunks = re.split(
-                r",\s*|·\s*|그리고\s+|하지만\s+|반면\s+|한편\s+|동시에\s+|또한\s+|이어\s+|및\s+",
+                r"(?<!\d),(?!\d)\s*|·\s*|그리고\s+|하지만\s+|반면\s+|한편\s+|동시에\s+|또한\s+|이어\s+|및\s+",
                 value,
             )
             chunks = [c.strip() for c in chunks if c and c.strip()]
@@ -716,13 +716,113 @@ class SentimentAnalyzer:
         return lines
 
     def _ensure_tts_outro(self, lines: list[str]) -> list[str]:
-        """Force the last TTS line to the fixed outro."""
+        """Force the last TTS line to the fixed outro and remove duplicate endings."""
         if not lines:
             return lines
-        outro = "오늘 뉴스 요약은 여기까지입니다. 내일 아침에 또 만나요."
-        if lines[-1] != outro:
-            lines[-1] = outro
+
+        outro = "지금까지 모닝뉴스였습니다. 내일 아침에 또 만나요."
+        closing_patterns = [
+            r"^지금까지\s*모닝뉴스였습니다\.?$",
+            r"^내일\s*아침에\s*다시\s*인사드리겠습니다\.?$",
+            r"^오늘\s*뉴스\s*요약은\s*여기까지입니다\.\s*내일\s*아침에\s*또\s*만나요\.?$",
+            r"^지금까지\s*모닝뉴스였습니다\.\s*내일\s*아침에\s*다시\s*인사드리겠습니다\.?$",
+        ]
+
+        # 꼬리의 중복 엔딩 문구 정리
+        while lines:
+            tail = str(lines[-1]).strip()
+            if any(re.fullmatch(p, tail) for p in closing_patterns):
+                lines.pop()
+            else:
+                break
+
+        lines.append(outro)
         return lines
+
+    def _normalize_tts_lines_for_broadcast(self, lines: list[str]) -> list[str]:
+        """Broadcast 품질 기준으로 TTS 라인을 정규화.
+
+        - 숫자 줄 분리(예: 5 / 500선) 결합
+        - 금액/지수 숫자 표기 정리
+        - 대표 오탈자 치환
+        """
+        if not lines:
+            return []
+
+        typo_map = {
+            "오거니제이션": "오거나이제이션",
+        }
+
+        cleaned = [re.sub(r"\s+", " ", str(line)).strip() for line in lines if str(line).strip()]
+
+        merged: list[str] = []
+        i = 0
+        while i < len(cleaned):
+            cur = cleaned[i]
+            if i + 1 < len(cleaned):
+                nxt = cleaned[i + 1]
+
+                # 예: "5" + "500선을 돌파했습니다." / "1" + "300조원에..."
+                if re.fullmatch(r"\d{1,2}", cur) and re.match(r"^\d{3}(?:\D|$)", nxt):
+                    cur = f"{cur},{nxt}"
+                    i += 1
+
+                # 예: "코스피가 사상 처음으로 5" + "500선을 돌파..."
+                elif re.search(r"\b\d{1,2}$", cur) and re.match(r"^\d{3}(?:\D|$)", nxt):
+                    cur = re.sub(r"(\d{1,2})$", rf"\1,{nxt}", cur)
+                    i += 1
+
+            merged.append(cur)
+            i += 1
+
+        normalized: list[str] = []
+        for line in merged:
+            for wrong, right in typo_map.items():
+                line = line.replace(wrong, right)
+
+            # 숫자 분리 흔적 보정: "5 500선" -> "5,500선"
+            line = re.sub(r"\b(\d{1,2})\s+(\d{3})(?=(선|명|건|원|조원|억원|만원|%|퍼센트)\b)", r"\1,\2", line)
+
+            # 금액 단위 표기 통일: 4,866억 -> 4,866억 원
+            line = re.sub(r"\b(\d[\d,]*)(억|조)\b(?!\s*원)", r"\1\2 원", line)
+
+            normalized.append(line.strip())
+
+        return [line for line in normalized if line]
+
+    def _validate_tts_lines_quality(self, lines: list[str]) -> tuple[bool, list[str]]:
+        """TTS 라인 품질 검사."""
+        issues: list[str] = []
+        if not lines:
+            return False, ["empty_lines"]
+
+        for idx in range(len(lines) - 1):
+            cur = lines[idx].strip()
+            nxt = lines[idx + 1].strip()
+            if re.fullmatch(r"\d{1,2}", cur) and re.match(r"^\d{3}(?:\D|$)", nxt):
+                issues.append(f"split_number_line:{idx}")
+
+        for idx, line in enumerate(lines):
+            if "\n" in line:
+                issues.append(f"embedded_newline:{idx}")
+            if re.search(r"\b\d{1,2}\s+\d{3}(?=\D|$)", line):
+                issues.append(f"spaced_number:{idx}")
+
+        return len(issues) == 0, issues
+
+    def _apply_tts_quality_gate(self, lines: list[str]) -> list[str]:
+        """정규화 + 검증을 수행하고 필요 시 1회 재정규화."""
+        normalized = self._normalize_tts_lines_for_broadcast(lines)
+        ok, issues = self._validate_tts_lines_quality(normalized)
+        if ok:
+            return normalized
+
+        # 1회 재시도
+        normalized = self._normalize_tts_lines_for_broadcast(normalized)
+        ok2, issues2 = self._validate_tts_lines_quality(normalized)
+        if not ok2:
+            print(f"⚠️ TTS 품질 게이트 경고: {issues2 or issues}")
+        return normalized
 
     def save_tts_script_text(self, briefing_data: dict, date_str: str | None = None) -> str | None:
         """Save TTS script to a text file and return its path."""
@@ -750,6 +850,7 @@ class SentimentAnalyzer:
                 lines = regenerated
 
         lines = [str(line).strip() for line in lines if str(line).strip()]
+        lines = self._apply_tts_quality_gate(lines)
 
         filename = os.path.join(self.tts_dir, f"youtube_tts_{date_str}.txt")
         tmp_file = f"{filename}.tmp"
@@ -1106,7 +1207,7 @@ TTS 스크립트 생성 규칙:
 4. 숫자/약어/단위는 TTS가 읽기 쉬운 형태로 변환하거나 pronunciations에 등록.
    - 예: "3.2%" → "삼쩜이 퍼센트", "1,200달러" → "천이백 달러"
 5. 마지막 줄은 반드시 고정 문구 사용:
-   "오늘 뉴스 요약은 여기까지입니다. 내일 아침에 또 만나요."
+   "지금까지 모닝뉴스였습니다. 내일 아침에 또 만나요."
 6. 첫 줄은 반드시 날짜를 포함해 아래 형식을 지키세요:
    "[SMILE] 좋은 아침입니다. {kst_korean_date} 모닝뉴스 시작합니다. [PAUSE 0.4]"
 7. title은 반드시 "오늘의 모닝뉴스 ({date_str_dash})"로 설정하세요.
@@ -1360,7 +1461,7 @@ News List:
         kst_korean_date = self._format_korean_date(kst_now)
 
         intro = f"[SMILE] 좋은 아침입니다. {kst_korean_date} 모닝뉴스 시작합니다. [PAUSE 0.4]"
-        outro = "오늘 뉴스 요약은 여기까지입니다. 내일 아침에 또 만나요."
+        outro = "지금까지 모닝뉴스였습니다. 내일 아침에 또 만나요."
 
         tts_script = data.get("tts_script") or {}
         lines = tts_script.get("lines", [])

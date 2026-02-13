@@ -25,6 +25,18 @@
                   }
               });
 
+              // 앱 시작 시 자동 1회 업데이트 체크 (세션당 1회)
+              function runInitialAutoRefreshOnce() {
+                  const sessionKey = 'mnInitialAutoRefreshDone';
+                  if (sessionStorage.getItem(sessionKey) === '1') return;
+                  sessionStorage.setItem(sessionKey, '1');
+                  checkForUpdate();
+              }
+
+              document.addEventListener('DOMContentLoaded', function() {
+                  runInitialAutoRefreshOnce();
+              });
+
               function checkForUpdate() {
                   // 현재 페이지의 'Last-Modified' 헤더를 서버에 요청해서 확인
                   fetch(window.location.href, { method: 'HEAD' })
@@ -32,8 +44,16 @@
                           const serverLastModified = response.headers.get('Last-Modified');
                           const localLastModified = localStorage.getItem('pageLastModified');
 
+                          if (!serverLastModified) return;
+
+                          // 첫 방문/초기 상태에서는 기준값만 저장하고 종료
+                          if (!localLastModified) {
+                              localStorage.setItem('pageLastModified', serverLastModified);
+                              return;
+                          }
+
                           // 서버의 파일 수정 시간이 저장된 시간과 다르면 새로고침
-                          if (serverLastModified && serverLastModified !== localLastModified) {
+                          if (serverLastModified !== localLastModified) {
                               localStorage.setItem('pageLastModified', serverLastModified);
                               location.reload(true);
                           }
