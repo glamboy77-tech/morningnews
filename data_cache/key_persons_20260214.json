@@ -1,0 +1,136 @@
+{
+  "timestamp": "2026-02-14T06:02:56.864821",
+  "date": "20260214",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "李대통령 “한·캄 공조로 온라인 스캠 130여명 검거…초국가범죄 협력 강화”",
+          "link": "https://www.chosun.com/economy/economy_general/2026/02/13/MJTDQMBSHA3WGZLBMUZDSNJWGI/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-02-13 21:22:18",
+          "description": "이재명 대통령은 13일 캄보디아와의 공조로 온라인 스캠 범죄 피의자 130여명을 검거했다며, 초국가범죄 근절을 위한 협력을 더욱 강화하겠다고 밝혔다. 이 대통령은 이날 페이스북에 글을 올려 “훈 마넷 캄보디아 총리와 합의해 출범한 코리아전담반이 활동 두 달 만에 온라인 스캠 범죄 피의자 130여명을 검거하는 성과를 거뒀다”고 말했다. 이어 “정부는 앞으로",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "'李대통령 변호사비 대납의혹 고발사건' 뇌물 혐의도 불기소처분",
+          "link": "https://www.yna.co.kr/view/AKR20260213153200061",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-02-13 16:24:53",
+          "description": "(수원=연합뉴스) 이영주 기자 = 2022년 제20대 대선 과정에서 불거졌던 이재명 대통령의 &apos;변호사비 대납 의혹&apos; 사건이 검찰에서 모두 불기소...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 \"다주택자 대출연장 공정한가…아직도 판단 안 서시나\"(종합2보)",
+          "link": "https://www.yna.co.kr/view/AKR20260213013352001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-02-13 11:42:17",
+          "description": "(서울=연합뉴스) 임형섭 기자 = 이재명 대통령은 13일 &quot;다주택자들의 기존 대출은 만기가 되면 어떻게 처리해야 하나&quot;라며 &quot;집값 안정이라는 국...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": true,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "李대통령 \"다주택자 대출연장 공정한가…아직도 판단 안 서시나\"(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20260213013351001"
+            }
+          ]
+        },
+        {
+          "title": "李대통령 지지율 63%로 5%p↑…민주 44%·국힘 22%[한국갤럽](종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260213064851001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-02-13 11:12:44",
+          "description": "(서울=연합뉴스) 안정훈 기자 = 이재명 대통령의 국정 지지율이 63%를 기록했다는 여론조사 결과가 13일 나왔다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "李대통령 지지율 63%로 전주보다 5%p↑…민주 44%·국힘 22%[갤럽]",
+              "link": "https://www.yna.co.kr/view/AKR20260213064800001"
+            }
+          ]
+        },
+        {
+          "title": "李대통령, 스노보드金 최가온·쇼트트랙銅 임종언에 \"진심 축하\"",
+          "link": "https://www.yna.co.kr/view/AKR20260213078200001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-02-13 11:07:17",
+          "description": "(서울=연합뉴스) 설승은 기자 = 이재명 대통령은 13일 2026 밀라노·코르티나담페초 동계올림픽에서 한국 스키·스노보드 사상 최초로 올림픽 금...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 “다주택자 대출연장 추가혜택 공정한가” SNS로 또 압박",
+          "link": "https://www.mk.co.kr/news/politics/11963120",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-02-13 22:25:34",
+          "description": "양도세 중과 유예 종료 이어 관행적 대출연장 불허 방침 시사 당국, 다주택자 대출 실태조사이재명 대통령이 13일 “양도세까지 깎아주며 수년간 기회를 주었는데도 다주택을 해소하지 않..",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 6,
+      "role": "한국 대통령"
+    },
+    "장동혁": {
+      "articles": [
+        {
+          "title": "장동혁 “서울·부산시장 선거에 내 정치 생명이 달렸다”",
+          "link": "https://www.chosun.com/politics/assembly/2026/02/14/AUOUBN4IAJF6RIIZPA5FVYSK4E/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-02-14 00:56:00",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "장동혁 \"협치하자며 악법 일방처리, '초딩'도 상상조차 않는 일\"",
+          "link": "https://www.yna.co.kr/view/AKR20260213094000001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-02-13 12:18:23",
+          "description": "(서울=연합뉴스) 김연정 조다운 기자 = 국민의힘 장동혁 대표는 13일 자신의 불참 통보로 무산된 청와대 오찬 회동과 관련해 &quot;그 어디에도 협치...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "장동혁 주장 ‘선거 연령 18→16세’, 국민 77% 반대 [한국갤럽]",
+          "link": "https://www.chosun.com/politics/opinion-poll/2026/02/13/4FTMWTVMZJFS7AURP42T66LXUI/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-02-13 10:43:38",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "국민의힘 국회의원"
+    }
+  }
+}
