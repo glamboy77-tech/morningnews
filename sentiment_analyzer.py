@@ -405,6 +405,77 @@ class SentimentAnalyzer:
             raise FileNotFoundError(f"Prompt template file not found: {path}")
         with open(path, "r", encoding="utf-8") as f:
             return f.read()
+
+    def _load_key_persons_for_date(self, date_str: str | None) -> dict:
+        """Load data_cache/key_persons_YYYYMMDD.json['data'] safely."""
+        if not date_str:
+            return {}
+        try:
+            path = os.path.join(self._base_dir, "data_cache", f"key_persons_{date_str}.json")
+            if not os.path.exists(path):
+                return {}
+            with open(path, "r", encoding="utf-8") as f:
+                payload = json.load(f)
+            data = payload.get("data") if isinstance(payload, dict) else None
+            return data if isinstance(data, dict) else {}
+        except Exception as e:
+            print(f"⚠️ key_persons 로드 실패({date_str}): {e}")
+            return {}
+
+    def _load_ai_titles_for_date(self, date_str: str | None) -> list[str]:
+        """Load titles from data_cache/ai_analysis_YYYYMMDD.json for simple fact guards."""
+        if not date_str:
+            return []
+        try:
+            path = os.path.join(self._base_dir, "data_cache", f"ai_analysis_{date_str}.json")
+            if not os.path.exists(path):
+                return []
+            with open(path, "r", encoding="utf-8") as f:
+                payload = json.load(f)
+            data = payload.get("data") if isinstance(payload, dict) else None
+            if not isinstance(data, dict):
+                return []
+            titles: list[str] = []
+            for _, items in data.items():
+                if not isinstance(items, list):
+                    continue
+                for item in items:
+                    if isinstance(item, dict):
+                        title = item.get("title")
+                        if isinstance(title, str) and title.strip():
+                            titles.append(title.strip())
+            return titles
+        except Exception as e:
+            print(f"⚠️ ai_analysis 타이틀 로드 실패({date_str}): {e}")
+            return []
+
+    def _apply_person_name_guard(self, source_script: str, date_str: str | None) -> str:
+        """Apply lightweight name-disambiguation guard to avoid critical person swaps."""
+        if not isinstance(source_script, str) or not source_script.strip():
+            return source_script
+
+        script = source_script
+        key_persons = self._load_key_persons_for_date(date_str)
+        ai_titles = self._load_ai_titles_for_date(date_str)
+
+        # 현재 한국 대통령 추정(당일 key_persons 우선, 실패 시 기본값)
+        current_kor_president = "이재명"
+        for name, info in key_persons.items():
+            if not isinstance(name, str) or not isinstance(info, dict):
+                continue
+            role = str(info.get("role", ""))
+            if "한국 대통령" in role:
+                current_kor_president = name.strip()
+                break
+
+        titles_text = " ".join(ai_titles)
+
+        # 핵심 오인 방지: 원천 기사가 李대통령 문맥인데 본문에 이명박 전 대통령이 나오면 교정
+        if "李대통령" in titles_text and current_kor_president != "이명박":
+            if "이명박 전 대통령" in script:
+                script = script.replace("이명박 전 대통령", f"{current_kor_president} 대통령")
+
+        return script
     
     def merge_sentiment_data(self, current_data, cached_data):
         """
@@ -1044,6 +1115,10 @@ class SentimentAnalyzer:
             max_retries=max_retries,
         )
         if isinstance(brief_data, dict) and isinstance(brief_data.get("source_script"), str):
+            brief_data["source_script"] = self._apply_person_name_guard(
+                brief_data.get("source_script"),
+                date_str,
+            )
             briefing_data = {**briefing_data}
             briefing_data["brief_scripts"] = {
                 "source_script": brief_data.get("source_script"),
@@ -1087,6 +1162,10 @@ class SentimentAnalyzer:
             max_retries=max_retries,
         )
         if isinstance(brief_data, dict) and isinstance(brief_data.get("source_script"), str):
+            brief_data["source_script"] = self._apply_person_name_guard(
+                brief_data.get("source_script"),
+                date_str,
+            )
             briefing_data = {**briefing_data}
             briefing_data["brief_scripts"] = {
                 "source_script": brief_data.get("source_script"),
@@ -1271,6 +1350,10 @@ News List:
                     max_retries=max_retries,
                 )
                 if isinstance(brief_data, dict) and isinstance(brief_data.get("source_script"), str):
+                    brief_data["source_script"] = self._apply_person_name_guard(
+                        brief_data.get("source_script"),
+                        date_str,
+                    )
                     brief_scripts_payload = {
                         "source_script": brief_data.get("source_script"),
                         "keywords": brief_data.get("keywords", []),

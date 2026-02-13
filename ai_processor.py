@@ -1,6 +1,7 @@
 from google import genai
 import json
 import re
+import os
 from difflib import SequenceMatcher
 from config import config
 
@@ -237,6 +238,61 @@ class AIProcessor:
         """Categorize and filter international news."""
         return self.process_domestic_news(news_items) # Reuse logic
 
+    @staticmethod
+    def _load_current_leaders():
+        """Load current leader anchors from file if present, otherwise fallback defaults."""
+        defaults = {
+            "한국 대통령": "이재명",
+            "미국 대통령": "트럼프",
+            "중국 국가주석": "시진핑",
+            "러시아 대통령": "푸틴",
+            "일본 총리": "다카이치 사나에",
+        }
+
+        try:
+            base_dir = os.path.dirname(os.path.abspath(__file__))
+            path = os.path.join(base_dir, "data_cache", "current_leaders.json")
+            if not os.path.exists(path):
+                return defaults
+
+            with open(path, "r", encoding="utf-8") as f:
+                payload = json.load(f)
+
+            if isinstance(payload, dict):
+                data = payload.get("data", payload)
+                if isinstance(data, dict):
+                    merged = {**defaults}
+                    for k, v in data.items():
+                        if isinstance(k, str) and isinstance(v, str) and k.strip() and v.strip():
+                            merged[k.strip()] = v.strip()
+                    return merged
+        except Exception as e:
+            print(f"⚠️ current_leaders 로드 실패(기본값 사용): {e}")
+
+        return defaults
+
+    @staticmethod
+    def _normalize_person_name(name: str, role: str, leaders: dict[str, str]) -> str:
+        n = (name or "").strip()
+        r = (role or "").strip()
+        if not n:
+            return n
+
+        # 한자/약칭 보정: 대통령 직책 문맥의 李 계열은 현재 한국 대통령으로 정규화
+        if "대통령" in r and n in {"李", "李대통령", "이 대통령", "이대통령"}:
+            return leaders.get("한국 대통령", n)
+
+        # 역할 포함 이름 정리: "트럼프 대통령" -> "트럼프"
+        n = re.sub(r"\s*(대통령|총리|국가주석|위원장|장관)$", "", n).strip()
+        return n
+
+    @staticmethod
+    def _normalize_person_role(role: str) -> str:
+        r = re.sub(r"\s+", " ", (role or "")).strip()
+        # 과도한 접두 제거(보수적): "現 "만 제거, "전"은 문맥상 의미가 있어 유지
+        r = re.sub(r"^現\s*", "", r)
+        return r
+
     def generate_briefing(self, categorized_news):
         """
         DEPRECATED: Use SentimentAnalyzer.analyze_sentiment() instead.
@@ -280,6 +336,9 @@ class AIProcessor:
         
         # Create context for AI
         context = "\n".join([f"ID:{a['id']} | {a['category']} | {a['title']}" for a in articles_list])
+        current_leaders = self._load_current_leaders()
+        leader_anchor_lines = [f"- {role}: {name}" for role, name in current_leaders.items()]
+        leader_anchor_text = "\n".join(leader_anchor_lines)
         
         prompt = f"""
         당신은 뉴스 분석 전문가입니다. 다음 뉴스 기사들에서 자주 등장하는 주요 인물을 찾아주세요.
@@ -293,7 +352,10 @@ class AIProcessor:
         6. role은 현재 직책/역할을 최대한 정확하게 표기 (예: "한국 대통령", "미국 대통령", "중국 국가주석")
            - "전 대통령", "前 대통령" 같은 과거 직책 표기는 최소화
            - 뉴스에서 현재 활동 중이면 현재 역할로 표기
-        7. 현재 한국 대통령은 이재명, 미국 대통령은 트럼프, 중국 국가주석은 시진핑, 러시아 대통령은 푸틴, 일본 총리는 다카이치 사나에 입니다.
+        7. 아래 "현재 지도자 기준"을 우선 참조하세요.
+
+        현재 지도자 기준:
+        {leader_anchor_text}
 
         출력 JSON 형식:
         {{
@@ -323,31 +385,42 @@ class AIProcessor:
             
             # Process each person
             for person_info in result.get('key_persons', []):
-                name = person_info.get('name')
+                raw_name = person_info.get('name')
                 article_ids = person_info.get('article_ids', [])
-                count = person_info.get('count', 0)
-                role = person_info.get('role', '')
+                role = self._normalize_person_role(person_info.get('role', ''))
+                name = self._normalize_person_name(raw_name, role, current_leaders)
                 
                 # Filter: only keep persons with 3+ articles
-                if not name or count < 3:
+                if not name:
                     continue
-                
-                # 역할 정보 정제: "전 대통령", "前 대통령" 같은 과거 직책 표기 제거
-                role = role.replace('前', '').replace('전 ', '').strip()
-                # 여전히 "전대통령" 같은 형태가 있을 수 있으니 정규식으로도 처리
-                import re
-                role = re.sub(r'^전\s*', '', role)
+
+                # article_ids 정합성 보정 및 중복 제거
+                valid_ids = []
+                seen_ids = set()
+                if isinstance(article_ids, list):
+                    for aid in article_ids:
+                        if isinstance(aid, int) and aid in article_map and aid not in seen_ids:
+                            seen_ids.add(aid)
+                            valid_ids.append(aid)
                 
                 # Collect actual articles
                 related_articles = []
-                for aid in article_ids:
-                    if aid in article_map:
-                        related_articles.append(article_map[aid]['original_item'])
+                for aid in valid_ids:
+                    related_articles.append(article_map[aid]['original_item'])
+
+                # LLM count 신뢰 대신 실제 기사 수로 재계산
+                count = len(related_articles)
                 
                 if len(related_articles) >= 3:
+                    # 역할 비어있으면 현재 지도자 앵커에서 보강
+                    if not role:
+                        for leader_role, leader_name in current_leaders.items():
+                            if leader_name == name:
+                                role = leader_role
+                                break
                     persons_data[name] = {
                         'articles': related_articles,
-                        'count': len(related_articles),
+                        'count': count,
                         'role': role
                     }
             
