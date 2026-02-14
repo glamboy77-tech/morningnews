@@ -5,11 +5,11 @@
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Morning News 2026.02.15</title>
-            <link rel="manifest" href="manifest.json">
+            <link rel="manifest" href="../manifest.json">
             <script>
               // Service Worker Registration
               if ('serviceWorker' in navigator) {
-                navigator.serviceWorker.register('sw.js')
+                navigator.serviceWorker.register('../sw.js')
                   .then(registration => {
                     console.log('Service Worker registered:', registration);
                   })
@@ -96,7 +96,6 @@
                   if (geminiLoadTimer) clearTimeout(geminiLoadTimer);
                   geminiLoadTimer = setTimeout(() => {
                       if (!geminiLoaded) {
-                          // Keep the hint visible but allow interaction if needed.
                           setGeminiLoading(false);
                       }
                   }, 15000);
@@ -965,7 +964,7 @@
         
                     <button id="subscribeBtn" class="push-subscribe-btn" onclick="saveSubscription()">🔔 Get Notifications</button>
                 </header>
-        <div class="sticky-nav"><a href="#" class="nav-pill" onclick="openGeminiNavigator(); return false;">🔎 Gemini 네비게이터</a><a href="archive.html" class="nav-pill">🗓️ 아카이브</a><a href="#인물별" class="nav-pill">👤 인물별 (5)</a><a href="#정치" class="nav-pill">정치 (11)</a><a href="#경제/거시" class="nav-pill">경제/거시 (3)</a><a href="#기업/산업" class="nav-pill">기업/산업 (2)</a><a href="#부동산" class="nav-pill">부동산 (2)</a><a href="#국제" class="nav-pill">국제 (7)</a><a href="#science" class="nav-pill">테크 (10)</a></div><div class="briefing-card"><div class="briefing-title">⚡ Morning Briefing</div>
+        <div class="sticky-nav"><a href="#" class="nav-pill" onclick="openGeminiNavigator(); return false;">🔎 Gemini 네비게이터</a><a href="../archive.html" class="nav-pill">🗓️ 아카이브</a><a href="#인물별" class="nav-pill">👤 인물별 (5)</a><a href="#정치" class="nav-pill">정치 (11)</a><a href="#경제/거시" class="nav-pill">경제/거시 (3)</a><a href="#기업/산업" class="nav-pill">기업/산업 (2)</a><a href="#부동산" class="nav-pill">부동산 (2)</a><a href="#국제" class="nav-pill">국제 (7)</a><a href="#science" class="nav-pill">테크 (10)</a></div><div class="briefing-card"><div class="briefing-title">⚡ Morning Briefing</div>
                     <div class="briefing-item">
                         <span class="briefing-label">정치</span>
                         <span class="briefing-content">한일 양국의 리더십 비교가 화두에 오른 가운데 국내 여권에서는 징계 문제를 둘러싼 내부분열 양상이 감지되고 있습니다. 야권 인사의 재판과 검찰의 증거 조작 여부를 두고 공방이 이어지고 있으며, 광역단체장은 재정비 사업의 연속성을 강조하고 있습니다. 한편 아프리카돼지열병 발생에 따른 방역 조치와 소비자 피해 구제 신청 증가 등 민생 현안도 지속적으로 보고되고 있습니다.</span>
@@ -1353,11 +1352,7 @@
             <div id="geminiOverlay" class="gemini-overlay" role="dialog" aria-modal="true" aria-label="Gemini Navigator">
                 <div class="gemini-overlay-header">
                     <div class="gemini-overlay-title">🔎 Gemini 네비게이터</div>
-                    <div class="gemini-overlay-actions">
-                        <button class="gemini-icon-btn" type="button" title="새로고침" onclick="reloadGeminiNavigator()">↻</button>
-                        <button class="gemini-icon-btn" type="button" title="새 창으로 열기" onclick="openGeminiInNewTab()">↗</button>
-                        <button class="gemini-icon-btn" type="button" title="닫기" onclick="closeGeminiNavigator()">✕</button>
-                    </div>
+                    <div class="gemini-overlay-actions"><button class="gemini-icon-btn" type="button" title="새로고침" onclick="reloadGeminiNavigator()">↻</button><button class="gemini-icon-btn" type="button" title="새 창으로 열기" onclick="openGeminiInNewTab()">↗</button><button class="gemini-icon-btn" type="button" title="닫기" onclick="closeGeminiNavigator()">✕</button></div>
                 </div>
                 <div class="gemini-overlay-body">
                     <div id="geminiLoading" class="gemini-overlay-loading">

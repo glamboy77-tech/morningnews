@@ -1,0 +1,84 @@
+{
+  "timestamp": "2026-02-15T06:03:16.221892",
+  "date": "20260215",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "朴·아베, 李·다카이치…한일 남녀 리더십 두 장면",
+          "link": "https://www.chosun.com/politics/diplomacy-defense/2026/02/15/P6OOILC4MBEOHEVODJWJJ5UJBI/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-02-15 05:30:00",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李·張 합심 ‘협치 이벤트’마저 깨버린 스포일러 정청래",
+          "link": "https://www.chosun.com/politics/assembly/2026/02/15/SMVTJIGHQRC4DITM4WX246XLSQ/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-02-15 03:00:00",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 “정영학 녹취록, 증거조작” 또 검찰 비판",
+          "link": "https://www.chosun.com/politics/politics_general/2026/02/14/X6MZFGETRJE4VCVKB4ORWM3CIQ/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-02-14 09:13:58",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": true,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "李대통령, '정영학 녹취록'에 \"황당한 증거조작\"…검찰 비판",
+              "link": "https://www.yna.co.kr/view/AKR20260214009900001"
+            }
+          ]
+        },
+        {
+          "title": "장동혁, 조희대에 “모든 재판 중단 없어야”...李대통령 재판 겨냥",
+          "link": "https://www.chosun.com/politics/politics_general/2026/02/14/JFMHFKUPXJBBLDATGOWXSEO6UM/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-02-14 12:05:00",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 \"집 팔라고 강요 안 해…투기 부당특혜 회수하려는 것\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260214024551001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-02-14 20:15:15",
+          "description": "(서울=연합뉴스) 설승은 기자 = 이재명 대통령은 14일 부동산 시장 안정화 드라이브와 관련해 &quot;부동산 투자·투기에 주어진 부당한 특혜를 회수하...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": true,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "李대통령 \"집 팔라고 강요 안 해…투기 부당특혜 회수하려는 것\"",
+              "link": "https://www.yna.co.kr/view/AKR20260214024500001"
+            }
+          ]
+        }
+      ],
+      "count": 5,
+      "role": "한국 대통령"
+    }
+  }
+}

@@ -34,6 +34,32 @@ class SentimentAnalyzer:
     def _format_korean_date(date_obj: datetime) -> str:
         return f"{date_obj.month}월 {date_obj.day}일"
 
+    @staticmethod
+    def _format_dot_date(date_str: str) -> str:
+        return f"{date_str[:4]}.{date_str[4:6]}.{date_str[6:8]}"
+
+    def _build_tts_title(self, date_str: str, keywords: list[str] | None = None) -> str:
+        """Build YouTube/TTS title in the new channel format.
+
+        Format:
+        - "{핵심키워드1} · {핵심키워드2}( · {핵심키워드3}) | 데일리 맥락 YYYY.MM.DD"
+        - fallback: "데일리 맥락 YYYY.MM.DD"
+        """
+        date_str_dot = self._format_dot_date(date_str)
+        normalized = self._normalize_keywords(keywords)
+        if normalized:
+            lead_keywords = " · ".join(normalized[:3])
+            return f"{lead_keywords} | 데일리 맥락 {date_str_dot}"
+        return f"데일리 맥락 {date_str_dot}"
+
+    def _extract_brief_keywords(self, data: dict | None) -> list[str]:
+        if not isinstance(data, dict):
+            return []
+        brief_scripts = data.get("brief_scripts")
+        if isinstance(brief_scripts, dict):
+            return self._normalize_keywords(brief_scripts.get("keywords"))
+        return []
+
     # -----------------------------
     # Cache helpers
     # -----------------------------
@@ -611,7 +637,7 @@ class SentimentAnalyzer:
             tts_script = {}
 
         tts_script.setdefault("duration_sec_target", 300)
-        tts_script.setdefault("title", f"오늘의 모닝뉴스 ({date_str_dash})")
+        tts_script.setdefault("title", self._build_tts_title(date_str, self._extract_brief_keywords(data)))
 
         pronunciations = tts_script.get("pronunciations", [])
         if not isinstance(pronunciations, list):
@@ -642,7 +668,7 @@ class SentimentAnalyzer:
         akjae = briefing_data.get("akjae", []) or []
 
         lines: list[str] = [
-            f"Title: 오늘의 모닝뉴스 ({date_str_dash})",
+            f"Title: {self._build_tts_title(date_str, self._extract_brief_keywords(briefing_data))}",
             f"Date: {date_str_dash}",
             "Sections:",
         ]
@@ -791,8 +817,9 @@ class SentimentAnalyzer:
         if not lines:
             return lines
 
-        outro = "지금까지 모닝뉴스였습니다. 내일 아침에 또 만나요."
+        outro = "지금까지 데일리 맥락이었습니다. 내일 아침에 또 만나요."
         closing_patterns = [
+            r"^지금까지\s*데일리\s*맥락이었습니다\.\s*내일\s*아침에\s*또\s*만나요\.?$",
             r"^지금까지\s*모닝뉴스였습니다\.?$",
             r"^내일\s*아침에\s*다시\s*인사드리겠습니다\.?$",
             r"^오늘\s*뉴스\s*요약은\s*여기까지입니다\.\s*내일\s*아침에\s*또\s*만나요\.?$",
@@ -1286,10 +1313,10 @@ TTS 스크립트 생성 규칙:
 4. 숫자/약어/단위는 TTS가 읽기 쉬운 형태로 변환하거나 pronunciations에 등록.
    - 예: "3.2%" → "삼쩜이 퍼센트", "1,200달러" → "천이백 달러"
 5. 마지막 줄은 반드시 고정 문구 사용:
-   "지금까지 모닝뉴스였습니다. 내일 아침에 또 만나요."
-6. 첫 줄은 반드시 날짜를 포함해 아래 형식을 지키세요:
-   "[SMILE] 좋은 아침입니다. {kst_korean_date} 모닝뉴스 시작합니다. [PAUSE 0.4]"
-7. title은 반드시 "오늘의 모닝뉴스 ({date_str_dash})"로 설정하세요.
+   "지금까지 데일리 맥락이었습니다. 내일 아침에 또 만나요."
+6. 첫 줄은 반드시 아래 형식을 지키세요:
+   "[SMILE] 안녕하십니까. 오늘의 흐름을 압축해 드리는 데일리 맥락입니다. [PAUSE 0.4]"
+7. title은 반드시 "핵심키워드1 · 핵심키워드2( · 핵심키워드3) | 데일리 맥락 YYYY.MM.DD" 형식을 따르세요. 키워드가 없으면 "데일리 맥락 YYYY.MM.DD"를 사용하세요.
 
 Output JSON Format:
 {briefing_json_schema}
@@ -1485,7 +1512,7 @@ News List:
         kst_korean_date = self._format_korean_date(kst_now)
 
         tts_script = data.get("tts_script") or {}
-        tts_script["title"] = f"오늘의 모닝뉴스 ({date_str_dash})"
+        tts_script["title"] = self._build_tts_title(date_str, self._extract_brief_keywords(data))
 
         lines = tts_script.get("lines", [])
         if isinstance(lines, str):
@@ -1493,7 +1520,7 @@ News List:
         if not isinstance(lines, list):
             lines = []
 
-        intro = f"[SMILE] 좋은 아침입니다. {kst_korean_date} 모닝뉴스 시작합니다. [PAUSE 0.4]"
+        intro = "[SMILE] 안녕하십니까. 오늘의 흐름을 압축해 드리는 데일리 맥락입니다. [PAUSE 0.4]"
         if lines:
             lines[0] = intro
         else:
@@ -1516,15 +1543,16 @@ News List:
             return False
 
         date_str_dash = f"{date_str[:4]}-{date_str[4:6]}-{date_str[6:8]}"
-        kst_korean_date = self._format_korean_date(self._kst_now())
+        date_str_dot = self._format_dot_date(date_str)
+        required_intro_phrase = "오늘의 흐름을 압축해 드리는 데일리 맥락입니다"
 
-        if date_str_dash not in title:
+        if date_str_dash not in title and date_str_dot not in title:
             return False
 
         if not lines:
             return False
 
-        if kst_korean_date not in lines[0]:
+        if required_intro_phrase not in lines[0]:
             return False
 
         line_count = len(lines)
@@ -1543,8 +1571,8 @@ News List:
         date_str_dash = f"{date_str[:4]}-{date_str[4:6]}-{date_str[6:8]}"
         kst_korean_date = self._format_korean_date(kst_now)
 
-        intro = f"[SMILE] 좋은 아침입니다. {kst_korean_date} 모닝뉴스 시작합니다. [PAUSE 0.4]"
-        outro = "지금까지 모닝뉴스였습니다. 내일 아침에 또 만나요."
+        intro = "[SMILE] 안녕하십니까. 오늘의 흐름을 압축해 드리는 데일리 맥락입니다. [PAUSE 0.4]"
+        outro = "지금까지 데일리 맥락이었습니다. 내일 아침에 또 만나요."
 
         tts_script = data.get("tts_script") or {}
         lines = tts_script.get("lines", [])
@@ -1575,7 +1603,7 @@ News List:
         if len(target_lines) > 75:
             target_lines = target_lines[:74] + [outro]
 
-        tts_script["title"] = f"오늘의 모닝뉴스 ({date_str_dash})"
+        tts_script["title"] = self._build_tts_title(date_str, self._extract_brief_keywords(data))
         tts_script["lines"] = target_lines
         data["tts_script"] = tts_script
         data.setdefault("meta", {})
