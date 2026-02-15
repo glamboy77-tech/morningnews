@@ -822,14 +822,26 @@ class SentimentAnalyzer:
             r"^지금까지\s*데일리\s*맥락이었습니다\.\s*내일\s*아침에\s*또\s*만나요\.?$",
             r"^지금까지\s*모닝뉴스였습니다\.?$",
             r"^내일\s*아침에\s*다시\s*인사드리겠습니다\.?$",
+            r"^내일(?:\s*아침에)?\s*또\s*만나요\.?$",
             r"^오늘\s*뉴스\s*요약은\s*여기까지입니다\.\s*내일\s*아침에\s*또\s*만나요\.?$",
             r"^지금까지\s*모닝뉴스였습니다\.\s*내일\s*아침에\s*다시\s*인사드리겠습니다\.?$",
         ]
 
+        def _is_closing_line(text: str) -> bool:
+            line = str(text).strip()
+            return any(re.fullmatch(p, line) for p in closing_patterns)
+
+        # 마지막 구간(최대 5줄) 내 중복 엔딩 문구 정리
+        tail_window = 5
+        start = max(0, len(lines) - tail_window)
+        head = lines[:start]
+        tail = [line for line in lines[start:] if not _is_closing_line(line)]
+        lines = head + tail
+
         # 꼬리의 중복 엔딩 문구 정리
         while lines:
             tail = str(lines[-1]).strip()
-            if any(re.fullmatch(p, tail) for p in closing_patterns):
+            if _is_closing_line(tail):
                 lines.pop()
             else:
                 break
