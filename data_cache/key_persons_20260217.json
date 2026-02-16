@@ -1,0 +1,52 @@
+{
+  "timestamp": "2026-02-17T06:03:09.122474",
+  "date": "20260217",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "李대통령 지지도 56.5%…\"부동산 정책·경제 호조에 국정신뢰↑\"[리얼미터](종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260216011351001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-02-16 09:10:27",
+          "description": "(서울=연합뉴스) 김정진 기자 = 이재명 대통령의 국정수행 지지도가 56.5%로 3주 연속 상승세를 보였다는 여론조사 결과가 16일 나왔다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 설 인사…\"모두의 대통령 다짐, 흔들림없이 걸어갈 것\"",
+          "link": "https://www.yna.co.kr/view/AKR20260215028000001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-02-17 05:00:02",
+          "description": "(서울=연합뉴스) 이상현 기자 = 이재명 대통령과 부인 김혜경 여사의 설 맞이 인사 영상이 17일 공개됐다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 \"살지도 않을 집 사모아 온갖 사회문제…부담 지워야\"",
+          "link": "https://www.yna.co.kr/view/AKR20260216012600001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-02-16 09:07:56",
+          "description": "(서울=연합뉴스) 고동욱 기자 = 이재명 대통령은 16일 다주택 보유에 대해 &quot;긍정적 효과보다 부정적 효과가 큰 것은 분명한 만큼 국가적으로 세...",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": [
+            {
+              "source": "매일경제-부동산",
+              "title": "이재명 대통령 “살지도 않을 집 사모아 온갖 사회문제…부담 지워야”",
+              "link": "https://www.mk.co.kr/news/realestate/11963972"
+            }
+          ]
+        }
+      ],
+      "count": 3,
+      "role": "한국 대통령"
+    }
+  }
+}
