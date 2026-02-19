@@ -3,6 +3,7 @@ from openai import OpenAI
 import json
 import re
 import os
+import html
 import time
 import glob
 import random
@@ -813,7 +814,7 @@ class SentimentAnalyzer:
         return lines
 
     def _ensure_tts_outro(self, lines: list[str]) -> list[str]:
-        """Force the last TTS line to the fixed outro and remove duplicate endings."""
+        """Force the fixed outro exactly once at the end of TTS lines."""
         if not lines:
             return lines
 
@@ -831,23 +832,11 @@ class SentimentAnalyzer:
             line = str(text).strip()
             return any(re.fullmatch(p, line) for p in closing_patterns)
 
-        # 마지막 구간(최대 5줄) 내 중복 엔딩 문구 정리
-        tail_window = 5
-        start = max(0, len(lines) - tail_window)
-        head = lines[:start]
-        tail = [line for line in lines[start:] if not _is_closing_line(line)]
-        lines = head + tail
-
-        # 꼬리의 중복 엔딩 문구 정리
-        while lines:
-            tail = str(lines[-1]).strip()
-            if _is_closing_line(tail):
-                lines.pop()
-            else:
-                break
-
-        lines.append(outro)
-        return lines
+        # 전체 라인에서 엔딩류 문구 제거 후 마지막에 1회만 추가
+        stripped = [line for line in lines if not _is_closing_line(str(line))]
+        stripped = [str(line).strip() for line in stripped if str(line).strip()]
+        stripped.append(outro)
+        return stripped
 
     def _normalize_tts_lines_for_broadcast(self, lines: list[str]) -> list[str]:
         """Broadcast 품질 기준으로 TTS 라인을 정규화.
@@ -961,6 +950,8 @@ class SentimentAnalyzer:
 
         lines = [str(line).strip() for line in lines if str(line).strip()]
         lines = self._apply_tts_quality_gate(lines)
+        if lines:
+            lines = self._ensure_tts_outro(lines)
 
         filename = os.path.join(self.tts_dir, f"youtube_tts_{date_str}.txt")
         tmp_file = f"{filename}.tmp"
@@ -1123,7 +1114,233 @@ class SentimentAnalyzer:
         template = self._load_prompt_template(self._brief_prompt_template_path)
         return template.replace("{input_data}", input_data_text)
 
-    def ensure_brief_scripts(self, briefing_data: dict, date_str: str | None = None, *, max_retries: int = 3) -> dict:
+    @staticmethod
+    def _has_required_brief_flow(source_script: str) -> bool:
+        """Validate ordered transition anchors to keep stable narrative flow."""
+        if not isinstance(source_script, str) or not source_script.strip():
+            return False
+        anchors = [
+            "먼저 정치와 국내 이슈부터 보겠습니다.",
+            "이제 거시경제와 생활 체감으로 넘어가겠습니다.",
+            "이어서 기업과 산업 기술 흐름을 보겠습니다.",
+            "다음은 부동산과 주거 이슈를 짚어보겠습니다.",
+            "마지막으로 국제와 안보 흐름을 보겠습니다.",
+            "이제 오늘의 호재를 정리하겠습니다.",
+            "이어서 오늘의 악재를 정리하겠습니다.",
+        ]
+        pos = -1
+        for anchor in anchors:
+            nxt = source_script.find(anchor, pos + 1)
+            if nxt == -1:
+                return False
+            pos = nxt
+        return True
+
+    def _generate_brief_with_flow_guard(
+        self,
+        *,
+        context_lines: list[str],
+        date_str: str,
+        max_retries: int,
+    ) -> dict:
+        """Generate brief script and enforce fixed section flow via one corrective retry."""
+        brief_prompt = self._build_brief_prompt_from_context(context_lines)
+        brief_data = self._generate_tts_script_with_openai(
+            brief_prompt,
+            model=config.openai_model_tts,
+            max_retries=max_retries,
+        )
+
+        if isinstance(brief_data, dict) and isinstance(brief_data.get("source_script"), str):
+            source = self._apply_person_name_guard(brief_data.get("source_script"), date_str)
+            if self._has_required_brief_flow(source):
+                brief_data["source_script"] = source
+                return brief_data
+
+            corrective_prompt = (
+                brief_prompt
+                + "\n\n중요 추가 지시: 아래 전환 문장을 정확히 그대로, 각 1회씩 반드시 포함하고 순서를 절대 바꾸지 마세요.\n"
+                + "1) 먼저 정치와 국내 이슈부터 보겠습니다.\n"
+                + "2) 이제 거시경제와 생활 체감으로 넘어가겠습니다.\n"
+                + "3) 이어서 기업과 산업 기술 흐름을 보겠습니다.\n"
+                + "4) 다음은 부동산과 주거 이슈를 짚어보겠습니다.\n"
+                + "5) 마지막으로 국제와 안보 흐름을 보겠습니다.\n"
+                + "6) 이제 오늘의 호재를 정리하겠습니다.\n"
+                + "7) 이어서 오늘의 악재를 정리하겠습니다.\n"
+            )
+            retry_data = self._generate_tts_script_with_openai(
+                corrective_prompt,
+                model=config.openai_model_tts,
+                max_retries=max_retries,
+            )
+            if isinstance(retry_data, dict) and isinstance(retry_data.get("source_script"), str):
+                retry_source = self._apply_person_name_guard(retry_data.get("source_script"), date_str)
+                retry_data["source_script"] = retry_source
+                return retry_data
+
+        raise ValueError("OpenAI brief script generation returned unexpected payload")
+
+    @staticmethod
+    def _strip_html_text(value: str, *, max_len: int = 420) -> str:
+        """Normalize RSS description/body snippet for prompt input."""
+        if not isinstance(value, str):
+            return ""
+        text = html.unescape(value)
+        text = re.sub(r"<[^>]+>", " ", text)
+        text = re.sub(r"\s+", " ", text).strip()
+        if len(text) > max_len:
+            text = text[: max_len - 1].rstrip() + "…"
+        return text
+
+    @staticmethod
+    def _title_similarity(a: str, b: str) -> float:
+        a_tokens = {t for t in re.split(r"\W+", (a or "").lower()) if t}
+        b_tokens = {t for t in re.split(r"\W+", (b or "").lower()) if t}
+        if not a_tokens or not b_tokens:
+            return 0.0
+        inter = len(a_tokens & b_tokens)
+        union = len(a_tokens | b_tokens)
+        return inter / union if union else 0.0
+
+    def _pick_representative_articles(
+        self,
+        categorized_news: dict | None,
+        *,
+        per_category: int = 2,
+    ) -> dict[str, list[dict]]:
+        """Pick representative articles while preserving category coverage/diversity."""
+        categories = ["정치", "경제/거시", "기업/산업", "부동산", "국제"]
+        result: dict[str, list[dict]] = {k: [] for k in categories}
+        if not isinstance(categorized_news, dict):
+            return result
+
+        for category in categories:
+            items = categorized_news.get(category, [])
+            if not isinstance(items, list) or not items:
+                continue
+
+            if category == "정치":
+                ordered = [it for it in items if isinstance(it, dict) and it.get("is_representative")]
+                ordered.extend([it for it in items if isinstance(it, dict) and not it.get("is_representative")])
+            else:
+                ordered = [it for it in items if isinstance(it, dict)]
+
+            picked: list[dict] = []
+            seen_links: set[str] = set()
+            seen_titles: list[str] = []
+            used_sectors: set[str] = set()
+
+            for item in ordered:
+                if len(picked) >= per_category:
+                    break
+                title = str(item.get("title", "")).strip()
+                if not title:
+                    continue
+
+                link = str(item.get("link", "")).strip()
+                if link and link in seen_links:
+                    continue
+
+                if any(self._title_similarity(title, t) >= 0.72 for t in seen_titles):
+                    continue
+
+                if category == "기업/산업":
+                    sector = str(item.get("sector", "")).strip()
+                    if sector and sector in used_sectors and len(picked) + 1 < per_category:
+                        continue
+                    if sector:
+                        used_sectors.add(sector)
+
+                picked.append(item)
+                if link:
+                    seen_links.add(link)
+                seen_titles.append(title)
+
+            if not picked:
+                first = ordered[0]
+                if isinstance(first, dict):
+                    picked = [first]
+
+            result[category] = picked
+
+        return result
+
+    def _build_hybrid_brief_context_lines(
+        self,
+        *,
+        briefing_data: dict,
+        categorized_news: dict | None,
+        max_total_chars: int = 7600,
+        per_category: int = 2,
+        snippet_max_len: int = 420,
+    ) -> list[str]:
+        """Build a hybrid context (summary + representative raw snippets)."""
+        section_summaries = briefing_data.get("section_summaries", {}) or {}
+        hojae = briefing_data.get("hojae", []) or []
+        akjae = briefing_data.get("akjae", []) or []
+
+        lines: list[str] = ["섹션 요약:"]
+        for key in ["정치", "경제/거시", "기업/산업", "부동산", "국제"]:
+            summary = section_summaries.get(key, "") if isinstance(section_summaries, dict) else ""
+            lines.append(f"- {key}: {summary}")
+
+        if hojae:
+            lines.append("호재:")
+            lines.extend([f"- {item}" for item in hojae[:8]])
+        if akjae:
+            lines.append("악재:")
+            lines.extend([f"- {item}" for item in akjae[:8]])
+
+        selected = self._pick_representative_articles(
+            categorized_news,
+            per_category=per_category,
+        )
+        lines.append("")
+        lines.append("카테고리별 대표 기사 원문 발췌(제목 + 본문 일부):")
+
+        for category in ["정치", "경제/거시", "기업/산업", "부동산", "국제"]:
+            article_list = selected.get(category, [])
+            if not article_list:
+                continue
+            lines.append(f"[{category}]")
+            for item in article_list:
+                title = str(item.get("title", "")).strip()
+                source = str(item.get("source", "")).strip()
+                desc = self._strip_html_text(
+                    str(item.get("description", "")),
+                    max_len=snippet_max_len,
+                )
+                if not title:
+                    continue
+                lines.append(f"- 제목: {title}")
+                if source:
+                    lines.append(f"  출처: {source}")
+                if category == "기업/산업":
+                    sector = str(item.get("sector", "")).strip()
+                    if sector:
+                        lines.append(f"  섹터: {sector}")
+                if desc:
+                    lines.append(f"  원문발췌: {desc}")
+
+        # hard budget guard
+        clipped: list[str] = []
+        total = 0
+        for line in lines:
+            line_len = len(line) + 1
+            if total + line_len > max_total_chars:
+                break
+            clipped.append(line)
+            total += line_len
+        return clipped if clipped else lines[:]
+
+    def ensure_brief_scripts(
+        self,
+        briefing_data: dict,
+        date_str: str | None = None,
+        *,
+        categorized_news: dict | None = None,
+        max_retries: int = 3,
+    ) -> dict:
         """Ensure brief_scripts are generated using existing briefing data."""
         if briefing_data is None:
             raise ValueError("briefing_data is required")
@@ -1131,33 +1348,17 @@ class SentimentAnalyzer:
         if date_str is None:
             date_str = self._kst_now().strftime("%Y%m%d")
 
-        section_summaries = briefing_data.get("section_summaries", {}) or {}
-        hojae = briefing_data.get("hojae", []) or []
-        akjae = briefing_data.get("akjae", []) or []
+        context_lines = self._build_hybrid_brief_context_lines(
+            briefing_data=briefing_data,
+            categorized_news=categorized_news,
+        )
 
-        context_lines = ["섹션 요약:"]
-        for key in ["정치", "경제/거시", "기업/산업", "부동산", "국제"]:
-            summary = section_summaries.get(key, "") if isinstance(section_summaries, dict) else ""
-            context_lines.append(f"- {key}: {summary}")
-        if hojae:
-            context_lines.append("호재:")
-            context_lines.extend([f"- {item}" for item in hojae])
-        if akjae:
-            context_lines.append("악재:")
-            context_lines.extend([f"- {item}" for item in akjae])
-
-        brief_prompt = self._build_brief_prompt_from_context(context_lines)
-
-        brief_data = self._generate_tts_script_with_openai(
-            brief_prompt,
-            model=config.openai_model_tts,
+        brief_data = self._generate_brief_with_flow_guard(
+            context_lines=context_lines,
+            date_str=date_str,
             max_retries=max_retries,
         )
         if isinstance(brief_data, dict) and isinstance(brief_data.get("source_script"), str):
-            brief_data["source_script"] = self._apply_person_name_guard(
-                brief_data.get("source_script"),
-                date_str,
-            )
             briefing_data = {**briefing_data}
             briefing_data["brief_scripts"] = {
                 "source_script": brief_data.get("source_script"),
@@ -1168,43 +1369,31 @@ class SentimentAnalyzer:
 
         raise ValueError("OpenAI brief script generation returned unexpected payload")
 
-    def regenerate_tts_only(self, briefing_data: dict, date_str: str | None = None, *, max_retries: int = 3) -> dict:
+    def regenerate_tts_only(
+        self,
+        briefing_data: dict,
+        date_str: str | None = None,
+        *,
+        categorized_news: dict | None = None,
+        max_retries: int = 3,
+    ) -> dict:
         if briefing_data is None:
             raise ValueError("briefing_data is required for TTS-only regeneration")
 
         if date_str is None:
             date_str = self._kst_now().strftime("%Y%m%d")
 
-        date_str_dash = f"{date_str[:4]}-{date_str[4:6]}-{date_str[6:8]}"
-        kst_korean_date = self._format_korean_date(self._kst_now())
+        context_lines = self._build_hybrid_brief_context_lines(
+            briefing_data=briefing_data,
+            categorized_news=categorized_news,
+        )
 
-        section_summaries = briefing_data.get("section_summaries", {}) or {}
-        hojae = briefing_data.get("hojae", []) or []
-        akjae = briefing_data.get("akjae", []) or []
-
-        context_lines = ["섹션 요약:"]
-        for key in ["정치", "경제/거시", "기업/산업", "부동산", "국제"]:
-            summary = section_summaries.get(key, "") if isinstance(section_summaries, dict) else ""
-            context_lines.append(f"- {key}: {summary}")
-        if hojae:
-            context_lines.append("호재:")
-            context_lines.extend([f"- {item}" for item in hojae])
-        if akjae:
-            context_lines.append("악재:")
-            context_lines.extend([f"- {item}" for item in akjae])
-
-        brief_prompt = self._build_brief_prompt_from_context(context_lines)
-
-        brief_data = self._generate_tts_script_with_openai(
-            brief_prompt,
-            model=config.openai_model_tts,
+        brief_data = self._generate_brief_with_flow_guard(
+            context_lines=context_lines,
+            date_str=date_str,
             max_retries=max_retries,
         )
         if isinstance(brief_data, dict) and isinstance(brief_data.get("source_script"), str):
-            brief_data["source_script"] = self._apply_person_name_guard(
-                brief_data.get("source_script"),
-                date_str,
-            )
             briefing_data = {**briefing_data}
             briefing_data["brief_scripts"] = {
                 "source_script": brief_data.get("source_script"),
@@ -1371,28 +1560,17 @@ News List:
 
             brief_scripts_payload = None
             try:
-                brief_context_lines = ["섹션 요약:"]
-                for key in ["정치", "경제/거시", "기업/산업", "부동산", "국제"]:
-                    summary = briefing_data.get("section_summaries", {}).get(key, "") if isinstance(briefing_data.get("section_summaries"), dict) else ""
-                    brief_context_lines.append(f"- {key}: {summary}")
-                if briefing_data.get("hojae"):
-                    brief_context_lines.append("호재:")
-                    brief_context_lines.extend([f"- {item}" for item in briefing_data.get("hojae", [])])
-                if briefing_data.get("akjae"):
-                    brief_context_lines.append("악재:")
-                    brief_context_lines.extend([f"- {item}" for item in briefing_data.get("akjae", [])])
+                brief_context_lines = self._build_hybrid_brief_context_lines(
+                    briefing_data=briefing_data,
+                    categorized_news=categorized_news,
+                )
 
-                brief_prompt = self._build_brief_prompt_from_context(brief_context_lines)
-                brief_data = self._generate_tts_script_with_openai(
-                    brief_prompt,
-                    model=config.openai_model_tts,
+                brief_data = self._generate_brief_with_flow_guard(
+                    context_lines=brief_context_lines,
+                    date_str=date_str,
                     max_retries=max_retries,
                 )
                 if isinstance(brief_data, dict) and isinstance(brief_data.get("source_script"), str):
-                    brief_data["source_script"] = self._apply_person_name_guard(
-                        brief_data.get("source_script"),
-                        date_str,
-                    )
                     brief_scripts_payload = {
                         "source_script": brief_data.get("source_script"),
                         "keywords": brief_data.get("keywords", []),

@@ -295,12 +295,14 @@ def main(send_push=True, use_cache=True, *, ignore_done_marker: bool = False, tt
                 briefing_data = sentiment.ensure_brief_scripts(
                     briefing_data,
                     today_str,
+                    categorized_news=domestic_categorized,
                     max_retries=3,
                 )
             else:
                 briefing_data = sentiment.regenerate_tts_only(
                     briefing_data,
                     today_str,
+                    categorized_news=domestic_categorized,
                     max_retries=3,
                 )
             if use_cache:
