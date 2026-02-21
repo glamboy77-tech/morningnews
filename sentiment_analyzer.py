@@ -807,9 +807,73 @@ class SentimentAnalyzer:
             normalized_lines.extend(_split_by_length(str(line)))
         lines = [line for line in normalized_lines if line]
 
+        def _find_anchor_index(target: str) -> int:
+            for idx, line in enumerate(lines):
+                if str(line).strip() == target:
+                    return idx
+            return -1
+
+        def _trim_preserving_tail(max_len: int) -> list[str]:
+            if len(lines) <= max_len:
+                return lines
+
+            hojae_anchor = "이제 오늘의 호재를 정리하겠습니다."
+            akjae_anchor = "이어서 오늘의 악재를 정리하겠습니다."
+            intl_anchor = "마지막으로 국제와 안보 흐름을 보겠습니다."
+
+            idx_hojae = _find_anchor_index(hojae_anchor)
+            idx_akjae = _find_anchor_index(akjae_anchor)
+            idx_intl = _find_anchor_index(intl_anchor)
+
+            tail_start = -1
+            if idx_hojae != -1:
+                tail_start = idx_hojae
+            elif idx_akjae != -1:
+                tail_start = max(0, idx_akjae - 2)
+            elif idx_intl != -1:
+                tail_start = idx_intl
+
+            if tail_start == -1:
+                return lines[: max_len - 1] + [lines[-1]]
+
+            tail = lines[tail_start:]
+
+            # tail 자체가 너무 길면 호재/악재 핵심 줄만 남긴 compact tail 구성
+            if len(tail) >= max_len - 6:
+                compact: list[str] = []
+                if idx_hojae != -1:
+                    compact.append(lines[idx_hojae])
+                    if idx_akjae != -1 and idx_akjae > idx_hojae + 1:
+                        compact.extend(lines[idx_hojae + 1 : min(idx_akjae, idx_hojae + 3)])
+
+                if idx_akjae != -1:
+                    compact.append(lines[idx_akjae])
+                    compact.extend(lines[idx_akjae + 1 : min(len(lines), idx_akjae + 3)])
+
+                if len(lines) >= 2:
+                    compact.append(lines[-2])
+                compact.append(lines[-1])
+
+                deduped: list[str] = []
+                seen = set()
+                for item in compact:
+                    key = str(item).strip()
+                    if not key or key in seen:
+                        continue
+                    seen.add(key)
+                    deduped.append(key)
+                tail = deduped if deduped else [lines[-1]]
+
+            head_budget = max_len - len(tail)
+            head = lines[: max(0, min(head_budget, tail_start))]
+            trimmed = head + tail
+            if len(trimmed) > max_len:
+                trimmed = trimmed[: max_len - 1] + [trimmed[-1]]
+            return trimmed
+
         # 최소 줄 수 강제는 비활성화: 뉴스가 적은 날은 짧게 허용
         if len(lines) > target_max:
-            lines = lines[: target_max - 1] + [lines[-1]]
+            lines = _trim_preserving_tail(target_max)
 
         return lines
 
@@ -837,6 +901,60 @@ class SentimentAnalyzer:
         stripped = [str(line).strip() for line in stripped if str(line).strip()]
         stripped.append(outro)
         return stripped
+
+    def _enforce_tts_line_limit(self, lines: list[str], max_lines: int = 75) -> list[str]:
+        """Ensure final TTS lines do not exceed max while preserving ending section context."""
+        if not lines or len(lines) <= max_lines:
+            return lines
+
+        outro = "지금까지 데일리 맥락이었습니다. 내일 아침에 또 만나요."
+        hojae_anchor = "이제 오늘의 호재를 정리하겠습니다."
+        akjae_anchor = "이어서 오늘의 악재를 정리하겠습니다."
+
+        def _find_anchor(target: str) -> int:
+            for idx, line in enumerate(lines):
+                if str(line).strip() == target:
+                    return idx
+            return -1
+
+        idx_hojae = _find_anchor(hojae_anchor)
+        idx_akjae = _find_anchor(akjae_anchor)
+
+        # 기본: 끝 라인(outro)은 고정 유지
+        if idx_hojae == -1 and idx_akjae == -1:
+            return lines[: max_lines - 1] + [lines[-1]]
+
+        tail_start = idx_hojae if idx_hojae != -1 else max(0, idx_akjae - 2)
+        tail = lines[tail_start:]
+
+        # tail이 너무 길면 최소 구성만 남김(호재/악재 앵커 + 각 1~2줄 + outro)
+        if len(tail) >= max_lines - 4:
+            compact: list[str] = []
+            if idx_hojae != -1:
+                compact.append(lines[idx_hojae])
+                end = idx_akjae if idx_akjae != -1 and idx_akjae > idx_hojae else len(lines)
+                compact.extend(lines[idx_hojae + 1 : min(end, idx_hojae + 3)])
+            if idx_akjae != -1:
+                compact.append(lines[idx_akjae])
+                compact.extend(lines[idx_akjae + 1 : min(len(lines), idx_akjae + 3)])
+            compact.append(outro)
+
+            deduped: list[str] = []
+            seen = set()
+            for item in compact:
+                key = str(item).strip()
+                if not key or key in seen:
+                    continue
+                seen.add(key)
+                deduped.append(key)
+            tail = deduped if deduped else [outro]
+
+        head_budget = max_lines - len(tail)
+        head = lines[: max(0, min(head_budget, tail_start))]
+        trimmed = head + tail
+        if len(trimmed) > max_lines:
+            trimmed = trimmed[: max_lines - 1] + [trimmed[-1]]
+        return trimmed
 
     def _normalize_tts_lines_for_broadcast(self, lines: list[str]) -> list[str]:
         """Broadcast 품질 기준으로 TTS 라인을 정규화.
@@ -895,6 +1013,16 @@ class SentimentAnalyzer:
         if not lines:
             return False, ["empty_lines"]
 
+        hojae_anchor = "이제 오늘의 호재를 정리하겠습니다."
+        akjae_anchor = "이어서 오늘의 악재를 정리하겠습니다."
+        outro = "지금까지 데일리 맥락이었습니다. 내일 아침에 또 만나요."
+
+        def _find_anchor(target: str) -> int:
+            for idx, line in enumerate(lines):
+                if str(line).strip() == target:
+                    return idx
+            return -1
+
         for idx in range(len(lines) - 1):
             cur = lines[idx].strip()
             nxt = lines[idx + 1].strip()
@@ -906,6 +1034,33 @@ class SentimentAnalyzer:
                 issues.append(f"embedded_newline:{idx}")
             if re.search(r"\b\d{1,2}\s+\d{3}(?=\D|$)", line):
                 issues.append(f"spaced_number:{idx}")
+
+        idx_hojae = _find_anchor(hojae_anchor)
+        idx_akjae = _find_anchor(akjae_anchor)
+
+        if idx_hojae == -1:
+            issues.append("missing_hojae_anchor")
+        if idx_akjae == -1:
+            issues.append("missing_akjae_anchor")
+        if idx_hojae != -1 and idx_akjae != -1:
+            if idx_akjae <= idx_hojae:
+                issues.append("invalid_hojae_akjae_order")
+            else:
+                hojae_body = [
+                    str(line).strip()
+                    for line in lines[idx_hojae + 1 : idx_akjae]
+                    if str(line).strip()
+                ]
+                if not hojae_body:
+                    issues.append("empty_hojae_body")
+
+                akjae_body = [
+                    str(line).strip()
+                    for line in lines[idx_akjae + 1 :]
+                    if str(line).strip() and str(line).strip() != outro
+                ]
+                if not akjae_body:
+                    issues.append("empty_akjae_body")
 
         return len(issues) == 0, issues
 
@@ -952,6 +1107,7 @@ class SentimentAnalyzer:
         lines = self._apply_tts_quality_gate(lines)
         if lines:
             lines = self._ensure_tts_outro(lines)
+            lines = self._enforce_tts_line_limit(lines, max_lines=75)
 
         filename = os.path.join(self.tts_dir, f"youtube_tts_{date_str}.txt")
         tmp_file = f"{filename}.tmp"
