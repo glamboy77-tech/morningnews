@@ -704,15 +704,45 @@ class SentimentAnalyzer:
 
         lines: list[str] = []
 
-        def _split_long_line(text: str) -> list[str]:
+        def _split_long_line(text: str, hard_max_chars: int = 110) -> list[str]:
             if not text:
                 return []
-            parts = re.split(
-                r"(?<=[.!?。？！])\s+|(?<!\d),(?!\d)\s*|·\s*|그리고\s+|하지만\s+|반면\s+|한편\s+|동시에\s+|또한\s+|이어\s+",
-                text,
-            )
-            cleaned = [p.strip() for p in parts if p and p.strip()]
-            return cleaned if cleaned else [text.strip()]
+            # 1) 기본은 문장부호 중심 분할만 수행하여 과도한 줄 폭증을 방지
+            sentence_parts = re.split(r"(?<=[.!?。？！])\s+", text)
+            sentence_parts = [p.strip() for p in sentence_parts if p and p.strip()]
+            if not sentence_parts:
+                sentence_parts = [text.strip()]
+
+            # 2) 아주 긴 문장만 제한적으로 추가 분할 (쉼표/공백 중심)
+            out: list[str] = []
+            for part in sentence_parts:
+                if len(part) <= hard_max_chars:
+                    out.append(part)
+                    continue
+
+                chunks = re.split(r"(?<!\d),(?!\d)\s*|·\s*", part)
+                chunks = [c.strip() for c in chunks if c and c.strip()]
+                if not chunks:
+                    chunks = [part]
+
+                for chunk in chunks:
+                    if len(chunk) <= hard_max_chars:
+                        out.append(chunk)
+                        continue
+
+                    rest = chunk
+                    while len(rest) > hard_max_chars:
+                        cut = rest.rfind(" ", 0, hard_max_chars + 1)
+                        if cut <= 0:
+                            cut = hard_max_chars
+                        left = rest[:cut].strip()
+                        if left:
+                            out.append(left)
+                        rest = rest[cut:].strip()
+                    if rest:
+                        out.append(rest)
+
+            return out if out else [text.strip()]
 
         def _extend(part):
             if isinstance(part, list):
@@ -762,23 +792,27 @@ class SentimentAnalyzer:
 
         return [line for line in lines if line]
 
-    def _pad_tts_lines(self, lines: list[str], target_min: int = 55, target_max: int = 75) -> list[str]:
+    def _pad_tts_lines(
+        self,
+        lines: list[str],
+        target_min: int = 55,
+        target_max: int = 75,
+        *,
+        allow_trim: bool = True,
+    ) -> list[str]:
         """Ensure TTS lines count falls within target range by splitting/padding."""
         if not lines:
             return lines
 
-        def _split_by_length(text: str, max_chars: int = 38) -> list[str]:
+        def _split_by_length(text: str, max_chars: int = 72) -> list[str]:
             value = (text or "").strip()
             if not value:
                 return []
             if len(value) <= max_chars:
                 return [value]
 
-            # 1차: 접속/나열 표현 기준 분할
-            chunks = re.split(
-                r"(?<!\d),(?!\d)\s*|·\s*|그리고\s+|하지만\s+|반면\s+|한편\s+|동시에\s+|또한\s+|이어\s+|및\s+",
-                value,
-            )
+            # 1차: 최소한의 구두점 기준 분할(접속사 분할 최소화)
+            chunks = re.split(r"(?<!\d),(?!\d)\s*|·\s*", value)
             chunks = [c.strip() for c in chunks if c and c.strip()]
 
             # 2차: 여전히 긴 조각은 공백 기준으로 안전 분할
@@ -872,7 +906,7 @@ class SentimentAnalyzer:
             return trimmed
 
         # 최소 줄 수 강제는 비활성화: 뉴스가 적은 날은 짧게 허용
-        if len(lines) > target_max:
+        if allow_trim and len(lines) > target_max:
             lines = _trim_preserving_tail(target_max)
 
         return lines
@@ -1078,6 +1112,76 @@ class SentimentAnalyzer:
             print(f"⚠️ TTS 품질 게이트 경고: {issues2 or issues}")
         return normalized
 
+    @staticmethod
+    def _brief_flow_anchors() -> list[tuple[str, str]]:
+        return [
+            ("정치", "먼저 정치와 국내 이슈부터 보겠습니다."),
+            ("거시", "이제 거시경제와 생활 체감으로 넘어가겠습니다."),
+            ("기업", "이어서 기업과 산업 기술 흐름을 보겠습니다."),
+            ("부동산", "다음은 부동산과 주거 이슈를 짚어보겠습니다."),
+            ("국제", "마지막으로 국제와 안보 흐름을 보겠습니다."),
+            ("호재", "이제 오늘의 호재를 정리하겠습니다."),
+            ("악재", "이어서 오늘의 악재를 정리하겠습니다."),
+        ]
+
+    def _extract_anchor_order_from_source_script(self, source_script: str | None) -> list[str]:
+        if not isinstance(source_script, str) or not source_script.strip():
+            return []
+
+        indexed: list[tuple[int, str]] = []
+        for key, phrase in self._brief_flow_anchors():
+            idx = source_script.find(phrase)
+            if idx != -1:
+                indexed.append((idx, key))
+        indexed.sort(key=lambda x: x[0])
+        return [key for _, key in indexed]
+
+    def _extract_anchor_order_from_tts_lines(self, lines: list[str]) -> list[str]:
+        if not isinstance(lines, list) or not lines:
+            return []
+
+        found: list[tuple[int, str]] = []
+        seen: set[str] = set()
+        for idx, line in enumerate(lines):
+            line_text = str(line).strip()
+            if not line_text:
+                continue
+            for key, phrase in self._brief_flow_anchors():
+                if key in seen:
+                    continue
+                if phrase in line_text:
+                    found.append((idx, key))
+                    seen.add(key)
+        found.sort(key=lambda x: x[0])
+        return [key for _, key in found]
+
+    def _validate_tts_anchor_flow(
+        self,
+        source_script: str | None,
+        lines: list[str],
+    ) -> tuple[bool, list[str]]:
+        src_order = self._extract_anchor_order_from_source_script(source_script)
+        tts_order = self._extract_anchor_order_from_tts_lines(lines)
+
+        if not src_order:
+            return True, []
+
+        issues: list[str] = []
+        tts_set = set(tts_order)
+        missing = [key for key in src_order if key not in tts_set]
+        if missing:
+            issues.append(f"missing_anchors:{','.join(missing)}")
+
+        tts_filtered = [key for key in tts_order if key in src_order]
+        if tts_filtered != src_order:
+            issues.append(
+                "order_mismatch:"
+                + f"src={'->'.join(src_order)}"
+                + f"|tts={'->'.join(tts_filtered)}"
+            )
+
+        return len(issues) == 0, issues
+
     def save_tts_script_text(self, briefing_data: dict, date_str: str | None = None) -> str | None:
         """Save TTS script to a text file and return its path."""
         if briefing_data is None:
@@ -1094,20 +1198,46 @@ class SentimentAnalyzer:
         if not isinstance(lines, list):
             lines = []
 
+        source_script_for_validation = None
+        generated_from_source_script = False
         brief_scripts = briefing_data.get("brief_scripts") if isinstance(briefing_data, dict) else None
         if isinstance(brief_scripts, dict):
             source_script = brief_scripts.get("source_script")
+            source_script_for_validation = source_script if isinstance(source_script, str) else None
             regenerated = self._build_tts_lines_from_source_script(source_script)
             if regenerated:
-                regenerated = self._pad_tts_lines(regenerated)
+                regenerated = self._pad_tts_lines(regenerated, allow_trim=False)
                 regenerated = self._ensure_tts_outro(regenerated)
                 lines = regenerated
+                generated_from_source_script = True
 
         lines = [str(line).strip() for line in lines if str(line).strip()]
         lines = self._apply_tts_quality_gate(lines)
         if lines:
             lines = self._ensure_tts_outro(lines)
-            lines = self._enforce_tts_line_limit(lines, max_lines=75)
+
+            # source_script 기반 재생성 경로에서는 하드컷을 적용하지 않는다.
+            if not generated_from_source_script:
+                lines = self._enforce_tts_line_limit(lines, max_lines=75)
+
+            # 섹션 전환 앵커 순서 검증 + 1회 자동 복구
+            if generated_from_source_script and source_script_for_validation:
+                flow_ok, flow_issues = self._validate_tts_anchor_flow(source_script_for_validation, lines)
+                if not flow_ok:
+                    print(f"⚠️ TTS 앵커 순서 검증 실패(1차): {flow_issues}")
+
+                    recovered = self._build_tts_lines_from_source_script(source_script_for_validation)
+                    if recovered:
+                        recovered = self._pad_tts_lines(recovered, allow_trim=False)
+                        recovered = self._apply_tts_quality_gate(recovered)
+                        recovered = self._ensure_tts_outro(recovered)
+
+                        lines = [str(line).strip() for line in recovered if str(line).strip()]
+                        flow_ok2, flow_issues2 = self._validate_tts_anchor_flow(source_script_for_validation, lines)
+                        if not flow_ok2:
+                            print(f"⚠️ TTS 앵커 순서 검증 실패(2차): {flow_issues2}")
+                        else:
+                            print("✅ TTS 앵커 순서 자동 복구 성공")
 
         filename = os.path.join(self.tts_dir, f"youtube_tts_{date_str}.txt")
         tmp_file = f"{filename}.tmp"

@@ -1,0 +1,139 @@
+{
+  "timestamp": "2026-02-23T06:03:52.179951",
+  "date": "20260223",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "李대통령, 오늘 룰라 브라질 대통령과 회담…협력 강화방안 논의",
+          "link": "https://www.yna.co.kr/view/AKR20260222050700001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-02-23 05:00:00",
+          "description": "(서울=연합뉴스) 설승은 기자 = 이재명 대통령은 23일 오전 국빈 방한한 루이스 이나시우 룰라 다시우바 브라질 대통령과 정상회담을 한다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "[美관세 위법판결] 당정청 \"대미투자법 조속입법 최선…내달 9일까지 처리\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260222032651001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-02-22 22:07:38",
+          "description": "(서울=연합뉴스) 설승은 안정훈 기자 = 더불어민주당과 정부, 청와대는 22일 도널드 트럼프 미국 행정부의 이른바 &apos;상호관세&apos;가 미국 연방대법원...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "룰라 브라질 대통령 오늘 국빈 방한…내일 李대통령과 정상회담",
+          "link": "https://www.yna.co.kr/view/AKR20260222022600001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-02-22 10:45:17",
+          "description": "(서울=연합뉴스) 설승은 기자 = 루이스 이나시우 룰라 다시우바 브라질 대통령이 이재명 대통령 초청을 받아 22일 2박 3일 일정으로 국빈 방한...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "[美관세 위법판결] 당정청, 관세·통상 대책회의…美동향·상황 점검",
+          "link": "https://www.yna.co.kr/view/AKR20260222032600001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-02-22 13:04:40",
+          "description": "(서울=연합뉴스) 설승은 기자 = 더불어민주당과 정부, 청와대는 22일 도널드 트럼프 미국 행정부의 이른바 &apos;상호관세&apos;가 미국 연방대법원에서 위...",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": [
+            {
+              "source": "조선일보-정치",
+              "title": "당정청, 관세·통상 대책회의…美 동향 점검",
+              "link": "https://www.chosun.com/politics/politics_general/2026/02/22/7AWVQIR7D5GMLCD34ZXTB2PGSM/"
+            }
+          ]
+        },
+        {
+          "title": "이 대통령 “다주택 규제하면 서민주거 안정…전월세 오른다는 주장은 억지”",
+          "link": "https://www.mk.co.kr/news/realestate/11968134",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-02-22 10:23:11",
+          "description": "SNS에서 야당 주장 반박 “주택시장 매물 늘어나면 집값 안정, 실거주 매수도 증가 그에 따라 전월세 수요도 줄 것”이재명 대통령이 정부의 다주택자 규제 정책이 전월세 가격 상승으..",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 5,
+      "role": "한국 대통령"
+    },
+    "트럼프": {
+      "articles": [
+        {
+          "title": "[美관세 위법판결] 당정청 \"대미투자법 조속입법 최선…내달 9일까지 처리\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260222032651001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-02-22 22:07:38",
+          "description": "(서울=연합뉴스) 설승은 안정훈 기자 = 더불어민주당과 정부, 청와대는 22일 도널드 트럼프 미국 행정부의 이른바 &apos;상호관세&apos;가 미국 연방대법원...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "美 관세 불확실성 장기화에… 안개 낀 韓 경제",
+          "link": "https://www.chosun.com/economy/economy_general/2026/02/22/G42DOYTEMNTDQODFGVSTKNZXG4/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-02-22 17:35:30",
+          "description": "미국이 전 세계를 대상으로 부과했던 ‘상호 관세’가 무효라는 미 연방대법원의 판결이 나오면서, 관세 불확실성이 우리 경제의 새로운 변수로 떠올랐다. 도널드 트럼프 미국 대통령이 국가별로 차이를 두고 부과한 상호 관세가 위법으로 인정된 것은 경제엔 청신호다. 하지만 트럼프 대통령이 15%의 글로벌 관세를 예고한 데다 품목별 관세는 여전히 살아있다는 점은 리",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "[美관세 위법판결] 당정청, 관세·통상 대책회의…美동향·상황 점검",
+          "link": "https://www.yna.co.kr/view/AKR20260222032600001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-02-22 13:04:40",
+          "description": "(서울=연합뉴스) 설승은 기자 = 더불어민주당과 정부, 청와대는 22일 도널드 트럼프 미국 행정부의 이른바 &apos;상호관세&apos;가 미국 연방대법원에서 위...",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": [
+            {
+              "source": "조선일보-정치",
+              "title": "당정청, 관세·통상 대책회의…美 동향 점검",
+              "link": "https://www.chosun.com/politics/politics_general/2026/02/22/7AWVQIR7D5GMLCD34ZXTB2PGSM/"
+            }
+          ]
+        },
+        {
+          "title": "美, 이란 압박에…한화에어로 급등",
+          "link": "https://www.hankyung.com/article/2026022264741",
+          "source": "한국경제-기업",
+          "published_dt": "2026-02-22 17:42:25",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "sector": "기타산업",
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프 관세 폭주, 美대법이 막자 “15% 새로 부과”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260223/133398954/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-02-23 04:30:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/02/23/133398953.3.jpg\" vspace=\"10\" />미국 연방대법원이 20일(현지 시간) 도널드 트럼프 대통령이 ‘국제비상경제권한법(IEEPA)’에 근거해 지난해 4월부터 전 세계를 상대로 부과한 상호관세와 마약류인 펜타닐 유입을 명분으로 중국 멕시코 캐나다에 부과한 관세가 위법하다고 판결했다. 그러자 트럼프 대통령은 즉각 ‘무역법 122조’를 근거로 전 세계에 10%의 대체 관세를 부과했고, 21일에는 이를 15%로 올렸다. 트럼프 대통령이 다른 행정조치를 통해 관세 부과 효과를 유지하려 하고 있지만, 연방대법원이 그의 핵심 정책으로 꼽혀 온 관세 정책에 정면으로 제동을 건 만큼 그의 통상 전략이 근간부터 흔들리게 됐다는 평가가 나온다.  연방대법관들은 이날 판결에서 1977년 제정된 IEEPA가 의회가 아닌 대통령에게 교역 상대국의 상품에 광범위한 수입 관세를 부과할 권한까진 부여하지 않는다고 명시했다. 이어 트럼프 대통령이 “수량, 기간, 범위에 제한 없는 관세를 일방적으로 부과하는 엄청난 권한을 주장하고 있다”며 “이런 권한",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 5,
+      "role": "미국 대통령"
+    }
+  }
+}
