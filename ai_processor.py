@@ -293,6 +293,39 @@ class AIProcessor:
         r = re.sub(r"^現\s*", "", r)
         return r
 
+    @staticmethod
+    def _infer_current_first_lady(leaders: dict[str, str]) -> str:
+        """Infer current first lady from current leader anchors (conservative mapping)."""
+        spouse_map = {
+            "이재명": "김혜경",
+            "윤석열": "김건희",
+        }
+        current_kor_president = leaders.get("한국 대통령", "") if isinstance(leaders, dict) else ""
+        return spouse_map.get(current_kor_president, "")
+
+    @staticmethod
+    def _disambiguate_person_identity(name: str, role: str, leaders: dict[str, str]) -> tuple[str, str]:
+        """Disambiguate person/role for high-risk homonym cases.
+
+        규칙(보수적):
+        - 김건희가 영부인/대통령 배우자 계열 역할로 분류됐는데,
+          현재 영부인이 김건희가 아닐 경우 "전 대통령 배우자"로 교정한다.
+        """
+        n = (name or "").strip()
+        r = (role or "").strip()
+
+        if not n:
+            return n, r
+
+        current_first_lady = AIProcessor._infer_current_first_lady(leaders)
+        role_tokens = ["영부인", "대통령 부인", "대통령 배우자"]
+        is_first_lady_like_role = any(tok in r for tok in role_tokens)
+
+        if n == "김건희" and is_first_lady_like_role and current_first_lady and current_first_lady != "김건희":
+            return n, "전 대통령 배우자"
+
+        return n, r
+
     def generate_briefing(self, categorized_news):
         """
         DEPRECATED: Use SentimentAnalyzer.analyze_sentiment() instead.
@@ -389,6 +422,7 @@ class AIProcessor:
                 article_ids = person_info.get('article_ids', [])
                 role = self._normalize_person_role(person_info.get('role', ''))
                 name = self._normalize_person_name(raw_name, role, current_leaders)
+                name, role = self._disambiguate_person_identity(name, role, current_leaders)
                 
                 # Filter: only keep persons with 3+ articles
                 if not name:

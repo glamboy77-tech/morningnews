@@ -1,0 +1,52 @@
+{
+  "timestamp": "2026-02-27T06:02:14.812044",
+  "date": "20260227",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "李대통령 \"대북 모욕행위, 평화 도움됐나…끊임없이 대화 노력\"",
+          "link": "https://www.yna.co.kr/view/AKR20260226135800001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-02-26 15:02:45",
+          "description": "(서울=연합뉴스) 임형섭 기자 = 이재명 대통령은 26일 김정은 북한 국무위원장이 최근 한국 정부를 비판한 것과 관련해 &quot;우리가 추구해야 할 가...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "이 대통령 “주식시장 개혁·부동산투기공화국 탈출은 앞으로도 쭈욱”",
+          "link": "https://www.mk.co.kr/news/stock/11972553",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-02-26 09:44:44",
+          "description": "“불법계곡시설 정비 방해 공직자, 마지막 기회줬다”이재명 대통령은 26일 “주식시장 개혁, 자본시장 선진화, 주택시장 안정, 부동산투기공화국 탈출은 앞으로도 쭈욱 계속된다”며 정부..",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "[속보] 李대통령 “서울 집값 하락…부동산공화국 해체 못 넘을 벽 아냐”",
+          "link": "https://www.mk.co.kr/news/realestate/11972883",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-02-26 14:23:33",
+          "description": "이재명 대통령은 26일 “망국적인 부동산 공화국을 해체하는 것 역시 결코 넘지 못할 벽이 아니다”라고 밝혔다. 이 대통령은 이날 청와대 수석보좌관 회의에서 “비정상적인 부동산 시장..",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "[속보] 李대통령 \"서울 집값 하락…부동산공화국 해체 못 넘을 벽 아냐\"",
+              "link": "https://www.yna.co.kr/view/AKR20260226124300001"
+            }
+          ]
+        }
+      ],
+      "count": 3,
+      "role": "한국 대통령"
+    }
+  }
+}

@@ -28,6 +28,65 @@ class SentimentAnalyzer:
         )
 
     @staticmethod
+    def _load_current_leaders() -> dict:
+        """Load current leader anchors from file if present, otherwise fallback defaults."""
+        defaults = {
+            "한국 대통령": "이재명",
+            "미국 대통령": "트럼프",
+            "중국 국가주석": "시진핑",
+            "러시아 대통령": "푸틴",
+            "일본 총리": "다카이치 사나에",
+        }
+
+        try:
+            base_dir = os.path.dirname(os.path.abspath(__file__))
+            path = os.path.join(base_dir, "data_cache", "current_leaders.json")
+            if not os.path.exists(path):
+                return defaults
+
+            with open(path, "r", encoding="utf-8") as f:
+                payload = json.load(f)
+
+            if isinstance(payload, dict):
+                data = payload.get("data", payload)
+                if isinstance(data, dict):
+                    merged = {**defaults}
+                    for k, v in data.items():
+                        if isinstance(k, str) and isinstance(v, str) and k.strip() and v.strip():
+                            merged[k.strip()] = v.strip()
+                    return merged
+        except Exception as e:
+            print(f"⚠️ current_leaders 로드 실패(기본값 사용): {e}")
+
+        return defaults
+
+    def _infer_current_first_lady(self, key_persons: dict, ai_titles: list[str]) -> str:
+        """Infer current first lady with conservative heuristics."""
+        # 1) key_persons에 명시적 영부인/대통령 배우자 역할이 있으면 우선
+        for name, info in key_persons.items():
+            if not isinstance(name, str) or not isinstance(info, dict):
+                continue
+            role = str(info.get("role", ""))
+            if any(token in role for token in ["영부인", "대통령 배우자", "대통령 부인"]):
+                return name.strip()
+
+        titles_text = " ".join([t for t in ai_titles if isinstance(t, str)])
+
+        # 2) 기사 제목에 명시 실명+여사가 있으면 사용
+        for candidate in ["김혜경", "김건희"]:
+            if f"{candidate} 여사" in titles_text or f"{candidate}여사" in titles_text:
+                return candidate
+
+        # 3) 현재 대통령 기준 휴리스틱
+        leaders = self._load_current_leaders()
+        current_kor_president = leaders.get("한국 대통령", "")
+        spouse_map = {
+            "이재명": "김혜경",
+            "윤석열": "김건희",
+        }
+        return spouse_map.get(current_kor_president, "")
+
+    @staticmethod
     def _kst_now():
         return datetime.now(timezone(timedelta(hours=9)))
 
@@ -501,6 +560,22 @@ class SentimentAnalyzer:
         if "李대통령" in titles_text and current_kor_president != "이명박":
             if "이명박 전 대통령" in script:
                 script = script.replace("이명박 전 대통령", f"{current_kor_president} 대통령")
+
+        # 핵심 오인 방지: 기사 원문이 '金여사/김여사'인데 브리핑에서 잘못 실명 확장되는 경우 교정
+        inferred_first_lady = self._infer_current_first_lady(key_persons, ai_titles)
+        has_kim_honorific_title = ("金여사" in titles_text) or ("김여사" in titles_text)
+        has_explicit_kimgeonhee_honorific_title = any(
+            isinstance(t, str) and ("김건희 여사" in t or "김건희여사" in t)
+            for t in ai_titles
+        )
+
+        if (
+            has_kim_honorific_title
+            and inferred_first_lady
+            and inferred_first_lady != "김건희"
+            and not has_explicit_kimgeonhee_honorific_title
+        ):
+            script = re.sub(r"김건희\s*여사", f"{inferred_first_lady} 여사", script)
 
         return script
     
