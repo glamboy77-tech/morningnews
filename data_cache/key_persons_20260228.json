@@ -1,0 +1,160 @@
+{
+  "timestamp": "2026-02-28T06:04:42.768392",
+  "date": "20260228",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "李, 비거주 1주택 정조준… 분당 아파트 내놨다",
+          "link": "https://www.chosun.com/economy/real_estate/2026/02/28/3YCPJI7NR5H5JDZNZ7A6RWRALM/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-02-28 00:56:00",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, 내달 1~4일 싱가포르·필리핀 순방",
+          "link": "https://www.chosun.com/politics/politics_general/2026/02/28/GEDCMFP6T5CVJOXH7AKTFMMOJM/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-02-28 00:52:00",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 \"'배급충이냐'고도 하지만…농어촌 기본소득 확대할 것\"",
+          "link": "https://www.yna.co.kr/view/AKR20260227145500001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-02-27 17:17:04",
+          "description": "(서울=연합뉴스) 임형섭 기자 = 이재명 대통령은 27일 농어촌 기본소득 사업과 관련해 &quot;성과를 보면서 계속 확대를 해 나갈 것&quot;이라고 말했다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, 내달 1∼4일 싱가포르·필리핀 방문…AI·원전 논의",
+          "link": "https://www.yna.co.kr/view/AKR20260227041200001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-02-27 09:33:32",
+          "description": "(서울=연합뉴스) 임형섭 기자 = 이재명 대통령이 다음 달 1∼4일 싱가포르와 필리핀을 국빈 방문한다고 청와대 강유정 대변인이 27일 서면 브리...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": [
+            {
+              "source": "조선일보-정치",
+              "title": "李 대통령, 내달 1~4일 싱가포르·필리핀 국빈 방문",
+              "link": "https://www.chosun.com/politics/politics_general/2026/02/27/ENDRS2Z5XBCT3FLSVB7XHGBLPM/"
+            }
+          ]
+        },
+        {
+          "title": "李대통령 지지율 64%로 2주前보다 1%p↑…최고치 65%에 근접[한국갤럽](종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260227057351001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-02-27 11:22:39",
+          "description": "(서울=연합뉴스) 박재하 기자 = 이재명 대통령의 국정 지지율이 64%를 기록했다는 여론조사 결과가 27일 나왔다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "李대통령 지지율 64%로 2주전보다 1%p↑…민주 43%·국힘 22%[한국갤럽]",
+              "link": "https://www.yna.co.kr/view/AKR20260227057300001"
+            }
+          ]
+        },
+        {
+          "title": "‘李 최측근’ 김용 출마 시사... “선거에서 역할 하고싶다”",
+          "link": "https://www.chosun.com/politics/assembly/2026/02/27/AVG56QTPYBBMVFSP4DDLX3Z7QA/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-02-27 13:03:28",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李, 강남 똘똘한 한채 겨냥 “비거주자 매각이 낫게할 것”",
+          "link": "https://www.chosun.com/politics/blue_house/2026/02/27/2253REEN5FFPHFTWTOGMD2VGYM/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-02-27 08:59:39",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李정부 출범이후 서울지역 증여 65%↑",
+          "link": "https://www.mk.co.kr/news/realestate/11974251",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-02-27 09:49:08",
+          "description": "[MK 세무 교육] 증여·상속의 모든 것 ‘13기’▶5월 9일, 양도세 중과 유예 종료 확정 ▶장기보유특별공제·비거주 1주택자 ▶다주택자·등록 임대사업자 등 ▶증여·양도·보유세 절..",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 8,
+      "role": "한국 대통령"
+    },
+    "오세훈": {
+      "articles": [
+        {
+          "title": "“反헌법은 보수 아니다 장동혁 대표 결단하라” 오세훈, 절윤 재차 요구",
+          "link": "https://www.chosun.com/politics/assembly/2026/02/28/3M42QTGJJJB23E7NDA3TEZGCQM/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-02-28 00:50:00",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "민주당 서울시당, 오세훈 선거법 위반 고발…“정치적 중립 위반”",
+          "link": "https://www.chosun.com/economy/economy_general/2026/02/27/GZRTAY3BMM2DIMZYGQYWGZJQGY/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-02-27 19:55:51",
+          "description": "더불어민주당 서울시당이 오세훈 서울시장을 공직선거법 위반 혐의로 고발하고 나섰다. 민주당 서울시당은 27일 이인애 대변인 명의의 서면 브리핑을 내고 “오 시장이 이제는 공무원으로서 지켜야 할 정치적 중립마저 스스로 걷어차고 있다”면서 “오 시장을 공직선거법 위반 혐의로 고발했다”고 밝혔다. 이 대변인은 이어 “공무원은 직위를 이용해 선거에 영향을 미쳐서는",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "오세훈 \"장동혁 노선, 과연 국힘의 길인가…이제 결론 내자\"",
+          "link": "https://www.yna.co.kr/view/AKR20260227075600004",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-02-27 11:31:30",
+          "description": "(서울=연합뉴스) 정수연 기자 = 오세훈 서울시장은 27일 이른바 &apos;절윤&apos;(윤석열 전 대통령과의 절연)을 거부한 국민의힘 장동혁 대표의 노선에 ...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "서울시장"
+    }
+  }
+}
