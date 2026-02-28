@@ -1,4 +1,5 @@
 import os
+import json
 
 class HTMLGenerator:
     def __init__(self):
@@ -536,32 +537,66 @@ class HTMLGenerator:
                 text-transform: uppercase;
             }
 
-            /* Push Notification Button */
-            .push-subscribe-btn {
+            .header-actions {
                 position: relative;
                 z-index: 1;
+                margin: 20px auto 0;
+                display: flex;
+                justify-content: center;
+            }
+
+            .action-btn {
                 background: transparent;
                 color: var(--text-secondary);
                 border: 1px solid var(--border);
                 padding: 10px 20px;
                 border-radius: 100px;
                 font-size: 0.75rem;
-                font-weight: 400;
+                font-weight: 500;
                 cursor: pointer;
-                margin: 20px auto 0;
-                display: block;
                 transition: var(--transition);
                 text-transform: uppercase;
                 letter-spacing: 1px;
             }
-            .push-subscribe-btn:hover {
+            .action-btn:hover {
                 border-color: var(--primary);
                 color: var(--text);
                 background: var(--surface);
             }
-            .push-subscribe-btn.subscribed {
-                opacity: 0.5;
-                cursor: default;
+
+            .briefing-cta {
+                margin-top: 16px;
+                padding-top: 14px;
+                border-top: 1px solid var(--border);
+                font-size: 0.85rem;
+            }
+
+            .briefing-cta a {
+                color: var(--primary);
+                text-decoration: none;
+                font-weight: 400;
+            }
+
+            .share-toast {
+                position: fixed;
+                left: 50%;
+                bottom: 24px;
+                transform: translateX(-50%) translateY(20px);
+                background: rgba(10, 10, 10, 0.9);
+                color: #fff;
+                border: 1px solid var(--border);
+                border-radius: 12px;
+                padding: 10px 14px;
+                font-size: 0.82rem;
+                z-index: 4000;
+                opacity: 0;
+                pointer-events: none;
+                transition: all 0.25s ease;
+            }
+
+            .share-toast.show {
+                opacity: 1;
+                transform: translateX(-50%) translateY(0);
             }
 
         </style>
@@ -590,6 +625,15 @@ class HTMLGenerator:
         # Output pages live under /output/, so "../archive.html" is correct.
         # Root pages (index.html, archive.html) should use "archive.html".
         archive_href = "../archive.html" if is_output_page else "archive.html"
+        youtube_channel_url = "https://www.youtube.com/@morning5min"
+
+        share_base_lines = ["📰 오늘의 모닝뉴스 브리핑"]
+        section_summaries = (briefing_data or {}).get('section_summaries', {}) if isinstance(briefing_data, dict) else {}
+        if section_summaries:
+            for section, summary in list(section_summaries.items())[:3]:
+                if summary:
+                    share_base_lines.append(f"- {section}: {summary}")
+        share_base_text = "\n".join(share_base_lines)
 
         html = f"""
         <!DOCTYPE html>
@@ -665,13 +709,65 @@ class HTMLGenerator:
                       }});
               }};
               
-              // 알림 권한 요청
-              if ("Notification" in window) {{
-                  Notification.requestPermission().then(permission => {{
-                      if (permission === "granted") {{
-                          console.log("알림 권한 허용됨!");
+              const YOUTUBE_CHANNEL_URL = {json.dumps(youtube_channel_url, ensure_ascii=False)};
+              const SHARE_BASE_TEXT = {json.dumps(share_base_text, ensure_ascii=False)};
+
+              function buildShareInstallUrl() {{
+                  const url = new URL(window.location.href);
+                  url.searchParams.set('from', 'share-install');
+                  return url.toString();
+              }}
+
+              function showShareToast(message) {{
+                  const toast = document.getElementById('shareToast');
+                  if (!toast) return;
+                  toast.textContent = message;
+                  toast.classList.add('show');
+                  setTimeout(() => toast.classList.remove('show'), 1300);
+              }}
+
+              async function copyTextFallback(text) {{
+                  if (navigator.clipboard && window.isSecureContext) {{
+                      await navigator.clipboard.writeText(text);
+                      return;
+                  }}
+
+                  const textarea = document.createElement('textarea');
+                  textarea.value = text;
+                  textarea.style.position = 'fixed';
+                  textarea.style.opacity = '0';
+                  document.body.appendChild(textarea);
+                  textarea.focus();
+                  textarea.select();
+                  document.execCommand('copy');
+                  textarea.remove();
+              }}
+
+              async function shareMorningBriefing() {{
+                  const shareInstallUrl = buildShareInstallUrl();
+                  const shareTitle = `Morning News ${date_str}`;
+                  const shareText = `${{SHARE_BASE_TEXT}}\n\n영상 요약: ${{YOUTUBE_CHANNEL_URL}}\n읽어보고 괜찮으면 베타 앱 설치도 해보세요 👉 ${{shareInstallUrl}}`;
+
+                  if (navigator.share) {{
+                      try {{
+                          await navigator.share({{
+                              title: shareTitle,
+                              text: shareText,
+                              url: shareInstallUrl
+                          }});
+                          return;
+                      }} catch (error) {{
+                          if (error && error.name === 'AbortError') return;
                       }}
-                  }});
+                  }}
+
+                  try {{
+                      await copyTextFallback(`${{shareTitle}}\n${{shareText}}`);
+                      showShareToast('브리핑 문구가 복사되었습니다.');
+                  }} catch (error) {{
+                      console.error('Share fallback failed:', error);
+                      alert('공유에 실패했습니다. 잠시 후 다시 시도해주세요.');
+                  }}
               }}
 
               // --- Gemini Navigator Overlay (in-app) ---
@@ -739,173 +835,6 @@ class HTMLGenerator:
                   if (e.key === 'Escape') closeGeminiNavigator();
               }});
               
-              // Base64url을 Uint8Array로 변환하는 헬퍼 함수
-              function urlBase64ToUint8Array(base64String) {{
-                  const padding = '='.repeat((4 - base64String.length % 4) % 4);
-                  const base64 = (base64String + padding)
-                      .replace(/-/g, '+')
-                      .replace(/_/g, '/');
-                  const rawData = atob(base64);
-                  const outputArray = new Uint8Array(rawData.length);
-                  for (let i = 0; i < rawData.length; ++i) {{
-                      outputArray[i] = rawData.charCodeAt(i);
-                  }}
-                  return outputArray;
-              }}
-              
-              // Push 구독 저장 함수
-              async function saveSubscription() {{
-                  console.log('saveSubscription() 함수 호출됨!');
-                  const btn = document.getElementById('subscribeBtn');
-                  console.log('버튼 요소:', btn);
-                  
-                  // Check if Service Worker is supported
-                  if (!('serviceWorker' in navigator)) {{
-                      console.error('Service Worker 미지원');
-                      alert('이 브라우저는 푸시 알림을 지원하지 않습니다.');
-                      return;
-                  }}
-                  console.log('Service Worker 지원 확인');
-                  
-                  if (!('PushManager' in window)) {{
-                      console.error('PushManager 미지원');
-                      alert('이 브라우저는 푸시 알림을 지원하지 않습니다.');
-                      return;
-                  }}
-                  console.log('PushManager 지원 확인');
-                  
-                  // Request notification permission first
-                  console.log('현재 알림 권한:', Notification.permission);
-                  if (Notification.permission === 'default') {{
-                      console.log('알림 권한 요청 중...');
-                      const permission = await Notification.requestPermission();
-                      console.log('알림 권한 결과:', permission);
-                      if (permission !== 'granted') {{
-                          alert('알림 권한이 필요합니다. 브라우저 설정에서 알림을 허용해주세요.');
-                          return;
-                      }}
-                  }} else if (Notification.permission === 'denied') {{
-                      alert('알림 권한이 거부되었습니다. 브라우저 설정에서 알림을 허용해주세요.');
-                      return;
-                  }}
-                  
-                  try {{
-                      // Wait for Service Worker to be ready
-                      console.log('Service Worker ready 대기 중...');
-                      const registration = await navigator.serviceWorker.ready;
-                      console.log('Service Worker ready:', registration);
-                      
-                      // Check if already subscribed
-                      console.log('기존 구독 확인 중...');
-                      const existingSubscription = await registration.pushManager.getSubscription();
-                      console.log('기존 구독:', existingSubscription);
-                      if (existingSubscription) {{
-                          alert('이미 푸시 알림을 구독하고 있습니다!');
-                          if (btn) {{
-                              btn.textContent = '✓ 알림 구독 완료';
-                              btn.classList.add('subscribed');
-                              btn.disabled = true;
-                          }}
-                          return;
-                      }}
-                      
-                      // VAPID Public Key
-                      const VAPID_PUBLIC_KEY = 'BKNrtTTrz1YQEk7x1b6mRtb66K2Oebg7d1a592iVbJ1V2Z4pJefsB28WI8dH6l32tSik2JlWOHuwskDb0IsiVLQ';
-
-                      console.log('VAPID 키로 구독 시작...');
-                      const applicationServerKey = urlBase64ToUint8Array(VAPID_PUBLIC_KEY);
-                      console.log('변환된 applicationServerKey:', applicationServerKey);
-                      
-                      // Subscribe to push notifications
-                      const subscription = await registration.pushManager.subscribe({{
-                          userVisibleOnly: true,
-                          applicationServerKey: applicationServerKey
-                      }});
-                      
-                      console.log('Push Subscription 성공:', JSON.stringify(subscription));
-                      
-                      // Send subscription to server
-                      console.log('서버에 구독 정보 전송 중...');
-                      // API 서버 주소 - 로컬 테스트용
-                      const apiUrl = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
-                          ? 'http://localhost:5000/api/save-subscription'
-                          : '/api/save-subscription';
-                      
-                      console.log('API URL:', apiUrl);
-                      const response = await fetch(apiUrl, {{
-                          method: 'POST',
-                          headers: {{ 'Content-Type': 'application/json' }},
-                          body: JSON.stringify(subscription)
-                      }});
-                      
-                      console.log('서버 응답 상태:', response.status);
-                      const result = await response.json();
-                      console.log('Server response:', result);
-                      
-                      if (response.ok) {{
-                          alert('푸시 알림 구독이 완료되었습니다!\\n매일 아침 새로운 뉴스를 알려드립니다.');
-                          if (btn) {{
-                              btn.textContent = '✓ 알림 구독 완료';
-                              btn.classList.add('subscribed');
-                              btn.disabled = true;
-                          }}
-                      }} else {{
-                          alert('구독 저장 실패: ' + (result.error || 'Unknown error'));
-                      }}
-                  }} catch (error) {{
-                      console.error('Subscription error:', error);
-                      alert('구독 중 오류 발생: ' + error.message + '\\n\\nService Worker가 등록되지 않았을 수 있습니다. 페이지를 새로고침 해보세요.');
-                  }}
-              }}
-              
-              // Push 구독 해제 함수
-              async function unsubscribePush() {{
-                  try {{
-                      const registration = await navigator.serviceWorker.ready;
-                      const subscription = await registration.pushManager.getSubscription();
-                      
-                      if (subscription) {{
-                          await subscription.unsubscribe();
-                          console.log('Push subscription unsubscribed');
-                          
-                          const btn = document.getElementById('subscribeBtn');
-                          if (btn) {{
-                              btn.textContent = '🔔 Get Notifications';
-                              btn.classList.remove('subscribed');
-                              btn.disabled = false;
-                          }}
-                          
-                          alert('푸시 알림 구독이 해제되었습니다.\\n다시 구독하려면 버튼을 눌러주세요.');
-                      }} else {{
-                          alert('구독 정보가 없습니다.');
-                      }}
-                  }} catch (error) {{
-                      console.error('Unsubscribe error:', error);
-                      alert('구독 해제 중 오류 발생: ' + error.message);
-                  }}
-              }}
-              
-                document.addEventListener('DOMContentLoaded', async function() {{
-                    if ('serviceWorker' in navigator && 'PushManager' in window) {{
-                        try {{
-                            const registration = await navigator.serviceWorker.ready;
-                            const subscription = await registration.pushManager.getSubscription();
-                            const btn = document.getElementById('subscribeBtn');
-                            
-                            if (subscription && btn) {{
-                                btn.textContent = '✓ 알림 구독 완료';
-                                btn.classList.add('subscribed');
-                                btn.disabled = true;
-                                
-                                // 더블클릭으로 구독 해제 가능하도록
-                                btn.ondblclick = unsubscribePush;
-                            }}
-                        }} catch (error) {{
-                            console.error('Error checking subscription:', error);
-                        }}
-                    }}
-                }});
-
                 // --- Animated Weather Logic ---
                 const weatherIcons = {{
                     sunny: `<svg class="weather-svg" viewBox="0 0 64 64"><circle class="sun" cx="32" cy="32" r="12"/><g stroke="#FFD60A" stroke-width="2"><line x1="32" y1="8" x2="32" y2="14"/><line x1="32" y1="50" x2="32" y2="56"/><line x1="8" y1="32" x2="14" y2="32"/><line x1="50" y1="32" x2="56" y2="32"/><line x1="15" y1="15" x2="19" y2="19"/><line x1="45" y1="45" x2="49" y2="49"/><line x1="15" y1="49" x2="19" y2="45"/><line x1="45" y1="19" x2="49" y2="15"/></g></svg>`,
@@ -979,7 +908,9 @@ class HTMLGenerator:
                     </div>
                     <h1>Morning News</h1>
                     {self._generate_weather_html(weather_data)}
-                    <button id="subscribeBtn" class="push-subscribe-btn" onclick="saveSubscription()">🔔 Get Notifications</button>
+                    <div class="header-actions">
+                        <button class="action-btn" onclick="shareMorningBriefing()">📤 오늘 브리핑 공유</button>
+                    </div>
                 </header>
         """
         
@@ -994,6 +925,7 @@ class HTMLGenerator:
 
         # Archive
         html += f'<a href="{archive_href}" class="nav-pill">🗓️ 아카이브</a>'
+        html += f'<a href="{youtube_channel_url}" class="nav-pill" target="_blank" rel="noopener noreferrer">🎬 데일리 맥락</a>'
         
         # Key Persons (if exists)
         if key_persons:
@@ -1056,6 +988,8 @@ class HTMLGenerator:
                         html += f'<div class="sentiment-item">{item}</div>'
                     html += '</div></div>'
                 html += '</div>'
+
+        html += f'<div class="briefing-cta"><a href="{youtube_channel_url}" target="_blank" rel="noopener noreferrer">🎬 영상 요약은 유튜브 @morning5min 에서 확인하기</a></div>'
 
         html += '</div>'
 
@@ -1222,6 +1156,7 @@ class HTMLGenerator:
         html += """
                 <footer>&copy; 2025 PREMIUM MORNING NEWS BOT</footer>
             </div>
+            <div id="shareToast" class="share-toast" aria-live="polite"></div>
 
             <!-- Gemini Navigator Overlay -->
             <div id="geminiOverlay" class="gemini-overlay" role="dialog" aria-modal="true" aria-label="Gemini Navigator">

@@ -8,7 +8,7 @@ from sentiment_analyzer import SentimentAnalyzer
 from data_cache import DataCache
 
 from weather_manager import WeatherManager
-from notifier import send_notification, send_telegram_hojae
+from notifier import send_telegram_hojae
 from archive_generator import generate_archive
 from retrofit_output_pages import retrofit_output_pages
 
@@ -349,31 +349,28 @@ def main(send_push=True, use_cache=True, *, ignore_done_marker: bool = False, tt
  
     # 5. Generate Main HTML
     print("\n[Phase 4] Generating Main HTML...")
-    if not os.path.exists(main_file_path):
-        # Generate date-specific file
-        html_gen.generate_main_page(
-            domestic_categorized, 
-            science_raw, 
-            briefing_data,
-            weather_data, 
-            main_file_path, 
-            date_str_dot,
-            key_persons
-        )
-        
-        # Also generate index.html in root folder (as a copy of the latest report)
-        index_file_path = "index.html"
-        html_gen.generate_main_page(
-            domestic_categorized, 
-            science_raw, 
-            briefing_data,
-            weather_data, 
-            index_file_path, 
-            date_str_dot,
-            key_persons
-        )
-    else:
-        print(f"✅ 오늘자 HTML 이미 존재: {main_file_path}")
+    # 최신 템플릿 반영을 위해 오늘자 페이지와 index.html은 항상 재생성한다.
+    html_gen.generate_main_page(
+        domestic_categorized,
+        science_raw,
+        briefing_data,
+        weather_data,
+        main_file_path,
+        date_str_dot,
+        key_persons
+    )
+
+    # Also generate index.html in root folder (as a copy of the latest report)
+    index_file_path = "index.html"
+    html_gen.generate_main_page(
+        domestic_categorized,
+        science_raw,
+        briefing_data,
+        weather_data,
+        index_file_path,
+        date_str_dot,
+        key_persons
+    )
 
     # 5.0 Retrofit old output pages for GitHub Pages subpath + Archive nav
     try:
@@ -397,13 +394,11 @@ def main(send_push=True, use_cache=True, *, ignore_done_marker: bool = False, tt
     except Exception as e:
         print(f"⚠️ 텔레그램 알림 실패: {e}")
     
-    # 6. Send Push Notification
+    # 6. Push Notification 기능 제거
     if send_push:
-        print("\n[Phase 5] Sending Push Notification...")
-        total_articles = domestic_count + len(science_raw)
-        send_notification(date_str_dot, total_articles, main_filename)
+        print("\n[Phase 5] Push 알림 기능은 제거되어 더 이상 발송하지 않습니다.")
     else:
-        print("\n[Phase 5] (테스트 모드) 알림은 발송하지 않습니다.")
+        print("\n[Phase 5] Push 알림 기능 제거됨 (--no-push 옵션은 하위 호환용).")
     print("\n=== Finished Successfully ===")
 
     # done marker 생성 (모든 필수 산출물 완비 시에만)
