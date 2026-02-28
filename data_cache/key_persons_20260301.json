@@ -1,0 +1,70 @@
+{
+  "timestamp": "2026-03-01T06:03:13.910413",
+  "date": "20260301",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "[美 이란 공격] 李대통령, 상황 보고받아…\"교민안전 최우선\" 지시",
+          "link": "https://www.yna.co.kr/view/AKR20260228046300001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-02-28 17:17:48",
+          "description": "(서울=연합뉴스) 임형섭 기자 = 이재명 대통령은 28일 미국과 이스라엘의 이란 폭격 상황을 보고받고 국내에 미치는 영향 및 향후 대책을 점검했...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "\"큰 거 온다\"던 李대통령, 틱톡 가입…SNS 소통 행보 박차",
+          "link": "https://www.yna.co.kr/view/AKR20260228028700001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-02-28 10:54:26",
+          "description": "(서울=연합뉴스) 임형섭 기자 = 이재명 대통령이 28일 SNS 플랫폼 &apos;틱톡&apos;에 가입했다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, 신임 산림청장에 박은식 임명…일주일 만에 공백 해소(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260228035352001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-02-28 14:30:41",
+          "description": "(서울=연합뉴스) 임형섭 기자 = 이재명 대통령은 28일 신임 산림청장으로 박은식 현 산림청 차장을 임명했다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, 송광사 방문…\"봄기운처럼 국민에 희망 스며들도록\"",
+          "link": "https://www.yna.co.kr/view/AKR20260228033600001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-02-28 13:33:23",
+          "description": "(서울=연합뉴스) 임형섭 기자 = 이재명 대통령은 28일 자신의 인스타그램을 통해 전날 있었던 전북 완주 송광사 방문 사진을 공개했다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "이재명 대통령 분당아파트, 29억 내놓자 매수 문의 쏟아져",
+          "link": "https://www.mk.co.kr/news/realestate/11975308",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-02-28 10:46:42",
+          "description": "이재명 대통령이 지난 27일 김혜경 여사와 공동 보유하고 있는 경기 성남시 분당구 아파트를 29억원에 매물로 내놓은 지 얼마 안 돼 매수 문의가 빗발쳤다. 28일 등기부등본을 보면..",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 5,
+      "role": "한국 대통령"
+    }
+  }
+}
