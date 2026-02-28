@@ -106,6 +106,13 @@
                   textarea.remove();
               }
 
+              function isLikelyMobileDevice() {
+                  if (navigator.userAgentData && typeof navigator.userAgentData.mobile === 'boolean') {
+                      return navigator.userAgentData.mobile;
+                  }
+                  return /Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent || '');
+              }
+
               async function shareMorningBriefing() {
                   const shareInstallUrl = buildShareInstallUrl();
                   const shareTitle = `Morning News $2026.02.28`;
@@ -114,12 +121,24 @@
 영상 요약: ${YOUTUBE_CHANNEL_URL}
 읽어보고 괜찮으면 베타 앱 설치도 해보세요 👉 ${shareInstallUrl}`;
 
+                  // 데스크톱 PWA/브라우저에서는 Web Share API가 새 창만 떴다가 종료되는 케이스가 있어
+                  // 안정적으로 클립보드 복사 fallback을 우선 사용한다.
+                  if (!isLikelyMobileDevice()) {
+                      try {
+                          await copyTextFallback(`${shareTitle}
+${shareText}`);
+                          showShareToast('PC에서는 공유 문구를 클립보드에 복사했어요.');
+                          return;
+                      } catch (error) {
+                          console.error('Desktop share fallback failed:', error);
+                      }
+                  }
+
                   if (navigator.share) {
                       try {
                           await navigator.share({
                               title: shareTitle,
-                              text: shareText,
-                              url: shareInstallUrl
+                              text: shareText
                           });
                           return;
                       } catch (error) {
