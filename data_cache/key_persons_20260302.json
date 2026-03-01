@@ -1,0 +1,86 @@
+{
+  "timestamp": "2026-03-02T06:02:59.467170",
+  "date": "20260302",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "[하메네이 사망] 李대통령 \"내각 철저대비…국민은 안심하고 일상 즐겨달라\"",
+          "link": "https://www.yna.co.kr/view/AKR20260301057600001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-03-01 18:48:16",
+          "description": "(싱가포르=연합뉴스) 임형섭 황윤기 기자 = 싱가포르를 국빈 방문 중인 이재명 대통령은 1일(현지시간) 미국과 이스라엘의 이란 공격으로 아야톨라...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, 오늘 싱가포르 총리와 정상회담…AI 협력 방안 논의",
+          "link": "https://www.yna.co.kr/view/AKR20260301067600001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-03-02 05:00:00",
+          "description": "(싱가포르=연합뉴스) 임형섭 황윤기 기자 = 싱가포르를 국빈 방문 중인 이재명 대통령은 2일(현지시간) 로렌스 웡 총리와 취임 후 두 번째 정상...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 “정전체제를 평화체제로 전환” 첫 언급",
+          "link": "https://www.chosun.com/politics/blue_house/2026/03/02/LHJTDS6FNFG5TMOQXSK5SR54RA/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-03-02 00:51:00",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 \"세계교민 민원 전수조사…주권자 목소리 귀기울일 것\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260301064751001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-03-01 22:29:35",
+          "description": "(싱가포르=연합뉴스) 임형섭 황윤기 기자 = 싱가포르를 국빈 방문 중인 이재명 대통령은 1일(현지시간) &quot;최근 외교부에 전 세계 동포사회의 민원...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 “다주택 팔기 싫으면 두라…이익·손해는 정부가 정한다”",
+          "link": "https://www.chosun.com/economy/economy_general/2026/03/01/GMYGCNBWMFSGIMTDMEZDKYJRGU/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-03-01 20:40:40",
+          "description": "이재명 대통령은 1일 다주택 보유 논란과 관련해 “집을 팔고 사는 것은 개인의 자유지만, 그것이 이익이 되게 할지 손해가 되게 할지는 정부가 정한다”고 밝혔다. 향후 세금·금융·규제 정책을 통해 부동산 투기가 이익이 되지 않도록 하겠다는 뜻을 분명히 한 것이다. 싱가포르를 국빈 방문 중인 이 대통령은 이날 현지시각 엑스(X·옛 트위터)에 글을 올려 “다주",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "李대통령 \"다주택 팔기 싫으면 두라…이익·손해는 정부가 정해\"(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20260301062951001"
+            },
+            {
+              "source": "연합뉴스-정치",
+              "title": "李대통령 \"다주택 팔기 싫으면 두라…이익·손해는 정부가 정해\"",
+              "link": "https://www.yna.co.kr/view/AKR20260301062900001"
+            },
+            {
+              "source": "연합뉴스-정치",
+              "title": "[속보] 李대통령 \"다주택 팔기 싫으면 두라…이익·손해는 정부가 정해\"",
+              "link": "https://www.yna.co.kr/view/AKR20260301062300001"
+            }
+          ]
+        }
+      ],
+      "count": 5,
+      "role": "한국 대통령"
+    }
+  }
+}
