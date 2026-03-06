@@ -864,8 +864,47 @@ class HTMLGenerator:
 
                 async function updateWeather() {{
                     try {{
-                        const lat = 37.68;
-                        const lon = 126.82;
+                        const DEFAULT_WEATHER_COORDS = {{ lat: 37.68, lon: 126.82, label: '기본 지역(고양)' }};
+                        if (!window.__weatherState) {{
+                            window.__weatherState = {{
+                                coords: DEFAULT_WEATHER_COORDS,
+                                locationLabel: DEFAULT_WEATHER_COORDS.label,
+                                geolocationResolved: false
+                            }};
+                        }}
+
+                        async function resolveWeatherCoords() {{
+                            const state = window.__weatherState;
+                            if (state.geolocationResolved) return state.coords;
+                            state.geolocationResolved = true;
+
+                            if (!navigator.geolocation) return state.coords;
+
+                            try {{
+                                const position = await new Promise((resolve, reject) => {{
+                                    navigator.geolocation.getCurrentPosition(resolve, reject, {{
+                                        enableHighAccuracy: false,
+                                        timeout: 8000,
+                                        maximumAge: 30 * 60 * 1000
+                                    }});
+                                }});
+
+                                state.coords = {{
+                                    lat: position.coords.latitude,
+                                    lon: position.coords.longitude,
+                                    label: '내 위치'
+                                }};
+                                state.locationLabel = '내 위치';
+                            }} catch (geoErr) {{
+                                console.warn('Geolocation unavailable, fallback to default:', geoErr);
+                            }}
+
+                            return state.coords;
+                        }}
+
+                        const coords = await resolveWeatherCoords();
+                        const lat = coords.lat;
+                        const lon = coords.lon;
                         const url = `https://api.open-meteo.com/v1/forecast?latitude=${{lat}}&longitude=${{lon}}&current=temperature_2m,weather_code&hourly=temperature_2m,precipitation_probability&daily=temperature_2m_max,temperature_2m_min&timezone=Asia%2FSeoul&past_days=1`;
 
                         const res = await fetch(url);
@@ -883,6 +922,8 @@ class HTMLGenerator:
                         document.getElementById('temp-val').textContent = `${{temp}}°`;
                         document.getElementById('weather-range').textContent = `${{min}}° / ${{max}}°`;
                         document.getElementById('weather-desc').textContent = `강수 확률: ${{rainProb}}%`;
+                        const locationEl = document.getElementById('weather-location');
+                        if (locationEl) locationEl.textContent = `${{window.__weatherState.locationLabel}} 기준`;
 
                         // 어제 동일 시간 기온과 실시간 비교
                         try {{
@@ -1220,6 +1261,7 @@ class HTMLGenerator:
                     <span id="weather-range">--° / --°</span>
                 </div>
                 <div class="weather-extra" id="weather-desc">LOADING...</div>
+                <div class="weather-extra" id="weather-location">위치 확인 중...</div>
                 <div class="weather-diff-box" id="weather-diff-box">{diff_msg}</div>
             </div>
         </div>
