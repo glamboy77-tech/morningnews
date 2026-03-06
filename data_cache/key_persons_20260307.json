@@ -1,0 +1,78 @@
+{
+  "timestamp": "2026-03-07T06:02:48.974314",
+  "date": "20260307",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "李대통령 지지율 65%, 취임후 최고치 동률…민주 46%·국힘 21%[한국갤럽](종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260306064951001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-03-06 11:01:03",
+          "description": "(서울=연합뉴스) 김정진 기자 = 이재명 대통령의 국정 지지율이 취임 이후 최고치인 65%를 기록했다는 여론조사 결과가 6일 나왔다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": true,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "李대통령 지지율 65%, 취임후 최고치 동률…민주 46%·국힘 21%[한국갤럽]",
+              "link": "https://www.yna.co.kr/view/AKR20260306064900001"
+            }
+          ]
+        },
+        {
+          "title": "전현희 \"'李대통령 공소취소 국민청원' 법사위 심사 즉각 개시\"",
+          "link": "https://www.yna.co.kr/view/AKR20260306118200001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-03-06 15:35:49",
+          "description": "(서울=연합뉴스) 안정훈 기자 = 국회 법제사법위원회 청원심사소위원장인 더불어민주당 전현희 의원은 이재명 대통령 사건에 대한 검찰의 공소취소를 ...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "대통령이 꼽은 7대 비정상 과제…마약부터 부동산 불법행위까지",
+          "link": "https://www.yna.co.kr/view/AKR20260306089700001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-03-06 12:50:18",
+          "description": "(서울=연합뉴스) 황윤기 기자 = 이재명 대통령은 6일 수석보좌관회의에서 한국 사회의 &apos;7대 비정상&apos;을 제시하며 제도 정비와 집행에 속도를 내달...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, 13일 충북서 타운홀미팅…\"미래 먹거리 핵심거점\"",
+          "link": "https://www.yna.co.kr/view/AKR20260306043500001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-03-06 09:24:32",
+          "description": "(서울=연합뉴스) 황윤기 기자 = 이재명 대통령은 오는 13일 충청북도에서 타운홀미팅을 개최한다고 6일 밝혔다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "지방/행정",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 \"중동상황 대응 정책수단 총동원…바가지 등 엄정대응\"",
+          "link": "https://www.yna.co.kr/view/AKR20260306079100001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-03-06 11:24:32",
+          "description": "(서울=연합뉴스) 임형섭 황윤기 기자 = 이재명 대통령은 6일 미국의 이란 공격으로 중동지역의 위기가 고조되는 상황과 관련해 &quot;중동 상황이 금융...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        }
+      ],
+      "count": 5,
+      "role": "한국 대통령"
+    }
+  }
+}
