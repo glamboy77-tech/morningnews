@@ -10,7 +10,7 @@ class Config:
     def __init__(self):
         self.gemini_api_key = os.getenv("GEMINI_API_KEY")
         self.openai_api_key = os.getenv("OPENAI_API_KEY")
-        self.openai_model_tts = os.getenv("OPENAI_MODEL_TTS", "gpt-5.2")
+        self.openai_model_tts = os.getenv("OPENAI_MODEL_TTS", "gpt-5.4")
         # Multi-model setup - prioritize FLASH (gemini-3-flash-preview) as requested
         self.model_flash = os.getenv("GEMINI_MODEL_FLASH", "gemini-3-flash-preview")
         self.model_lite = os.getenv("GEMINI_MODEL_LITE", "gemini-3-flash-preview")
