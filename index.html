@@ -73,7 +73,7 @@
               };
               
               const YOUTUBE_CHANNEL_URL = "https://www.youtube.com/@morning5min";
-              const SHARE_BASE_TEXT = "📰 오늘의 모닝뉴스 브리핑\n- 경제/거시: 브리핑 생성에 실패했습니다. 잠시 후 다시 시도해주세요.";
+              const SHARE_BASE_TEXT = "📰 오늘의 모닝뉴스 브리핑\n- 정치: 국민의힘 내에서는 한동훈 대표와 오세훈 시장 간의 노선 갈등이 표출되고 있으며, 트럼프 행정부의 방위비 증액 요구에 따른 안보 불안 문제가 주요 화두로 떠올랐습니다.\n- 경제/거시: 국제 유가가 배럴당 구십 달러를 돌파하며 서울 기름값이 이천 원대에 진입했고, 고환율과 스태그플레이션 공포가 금융 시장 전반을 압박하고 있습니다.\n- 기업/산업: 전기차 시장 침체로 에스케이온이 미국 조지아 공장 인력의 삼분의 일을 감원하기로 결정한 반면, 서울대 연구진의 화장품 기술은 해외 수출 대박을 터뜨리며 선전하고 있습니다.";
 
               function buildShareInstallUrl() {
                   const url = new URL(window.location.href);
@@ -928,7 +928,7 @@ ${shareText}`);
                 <header>
                     <div class="header-meta">
                         <span class="header-date">2026.03.08</span>
-                        <span class="header-time">Generated at 06:00:19</span>
+                        <span class="header-time">Generated at 08:00:11</span>
                     </div>
                     <h1>Morning News</h1>
                     
@@ -943,7 +943,7 @@ ${shareText}`);
                 </div>
                 <div class="weather-extra" id="weather-desc">LOADING...</div>
                 <div class="weather-extra" id="weather-location">위치 확인 중...</div>
-                <div class="weather-diff-box" id="weather-diff-box">어제와 기온이 같습니다</div>
+                <div class="weather-diff-box" id="weather-diff-box"></div>
             </div>
         </div>
         
@@ -951,12 +951,393 @@ ${shareText}`);
                         <button class="action-btn" onclick="shareMorningBriefing()">📤 오늘 브리핑 공유</button>
                     </div>
                 </header>
-        <div class="sticky-nav"><a href="archive.html" class="nav-pill">🗓️ 아카이브</a><a href="https://www.youtube.com/@morning5min" class="nav-pill" target="_blank" rel="noopener noreferrer">🎬 데일리 맥락</a><a href="#science" class="nav-pill">테크 (10)</a></div><div class="briefing-card"><div class="briefing-title">⚡ Morning Briefing</div>
+        <div class="sticky-nav"><a href="archive.html" class="nav-pill">🗓️ 아카이브</a><a href="https://www.youtube.com/@morning5min" class="nav-pill" target="_blank" rel="noopener noreferrer">🎬 데일리 맥락</a><a href="#정치" class="nav-pill">정치 (16)</a><a href="#경제/거시" class="nav-pill">경제/거시 (6)</a><a href="#기업/산업" class="nav-pill">기업/산업 (4)</a><a href="#부동산" class="nav-pill">부동산 (2)</a><a href="#국제" class="nav-pill">국제 (11)</a><a href="#science" class="nav-pill">테크 (10)</a></div><div class="briefing-card"><div class="briefing-title">⚡ Morning Briefing</div>
+                    <div class="briefing-item">
+                        <span class="briefing-label">정치</span>
+                        <span class="briefing-content">국민의힘 내에서는 한동훈 대표와 오세훈 시장 간의 노선 갈등이 표출되고 있으며, 트럼프 행정부의 방위비 증액 요구에 따른 안보 불안 문제가 주요 화두로 떠올랐습니다.</span>
+                    </div>
+                    
                     <div class="briefing-item">
                         <span class="briefing-label">경제/거시</span>
-                        <span class="briefing-content">브리핑 생성에 실패했습니다. 잠시 후 다시 시도해주세요.</span>
+                        <span class="briefing-content">국제 유가가 배럴당 구십 달러를 돌파하며 서울 기름값이 이천 원대에 진입했고, 고환율과 스태그플레이션 공포가 금융 시장 전반을 압박하고 있습니다.</span>
                     </div>
-                    <div class="briefing-cta"><a href="https://www.youtube.com/@morning5min" target="_blank" rel="noopener noreferrer">🎬 영상 요약은 유튜브 @morning5min 에서 확인하기</a></div></div><div id="science" class="section-title">테크</div>
+                    
+                    <div class="briefing-item">
+                        <span class="briefing-label">기업/산업</span>
+                        <span class="briefing-content">전기차 시장 침체로 에스케이온이 미국 조지아 공장 인력의 삼분의 일을 감원하기로 결정한 반면, 서울대 연구진의 화장품 기술은 해외 수출 대박을 터뜨리며 선전하고 있습니다.</span>
+                    </div>
+                    
+                    <div class="briefing-item">
+                        <span class="briefing-label">부동산</span>
+                        <span class="briefing-content">서울 아파트 평균 월세가 처음으로 백오십만 원을 넘어서며 역대 최고치를 기록했고, 수도권에서는 수지와 동탄 지역의 전세 시장이 강세를 유지하고 있습니다.</span>
+                    </div>
+                    
+                    <div class="briefing-item">
+                        <span class="briefing-label">국제</span>
+                        <span class="briefing-content">이스라엘과 이란의 상호 보복 공습으로 중동 정세가 전면전 위기에 처했으며, 트럼프 당선인이 지상군 투입과 무기 생산 확대를 언급하며 긴장감이 최고조에 달했습니다.</span>
+                    </div>
+                    <div class="sentiment-box"><div class="sentiment-row"><span class="sentiment-type hojae">📈 호재</span> <div class="sentiment-items"><div class="sentiment-item">서울대 연구팀: K뷰티 핵심기술 수출 대박</div><div class="sentiment-item">삼성전자: 파운드리 흑자 목표</div><div class="sentiment-item">삼화페인트: 반도체 소재 양산 성공</div><div class="sentiment-item">삼성전자: S26 사전판매 신기록</div><div class="sentiment-item">셀트리온: 2조원 자사주 소각</div><div class="sentiment-item">시지바이오: 6천억 규모 인수합병</div><div class="sentiment-item">LIG넥스원: 천궁-II 조기 공급</div><div class="sentiment-item">NHN: 아시아 매출 1위 달성</div><div class="sentiment-item">현대차: 새만금 대규모 투자</div><div class="sentiment-item">HS화성: 784억 해외 수주</div><div class="sentiment-item">LH: 전세임대 조기 공급</div><div class="sentiment-item">대우건설: 자사주 소각 주주환원</div><div class="sentiment-item">SK: 테라파워 원전 건설</div><div class="sentiment-item">동부건설: 738억 지하 공사 수주</div></div></div><div class="sentiment-row"><span class="sentiment-type akjae">📉 악재</span> <div class="sentiment-items"><div class="sentiment-item">파라마운트: 인수 후 승자의 저주</div><div class="sentiment-item">SK온: 미국 공장 인력 삼분의 일 해고</div><div class="sentiment-item">CJ제일제당: 역대 최악 실적 기록</div><div class="sentiment-item">설탕·밀가루업계: 6조원대 담합 제재</div><div class="sentiment-item">우정바이오: 경영권 매각 결정</div><div class="sentiment-item">현대건설: 강남 아파트값 하락세</div><div class="sentiment-item">다원시스: 납품 지연 감사원 감사</div><div class="sentiment-item">제주중문삼성홈스테이: 분양가 폭락 공매</div><div class="sentiment-item">서울역개발: 이조 원대 사업 위기</div><div class="sentiment-item">넥슨: 주요 모바일 게임 추락</div><div class="sentiment-item">LIG넥스원: 호재에도 주가 급락</div><div class="sentiment-item">고려아연: 경영권 분쟁 격화</div></div></div></div><div class="briefing-cta"><a href="https://www.youtube.com/@morning5min" target="_blank" rel="noopener noreferrer">🎬 영상 요약은 유튜브 @morning5min 에서 확인하기</a></div></div><div id="정치" class="section-title">정치</div><div class="sector-subheading">🗂️ 정상/외교 (2)</div>
+                    <div class="card  representative">
+                        <a href="https://www.yna.co.kr/view/AKR20260307051500504" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">조현, 바레인 외교장관에 '귀국희망 국민 120명' 지원 요청</a>
+                        <div class="card-meta">
+                            <span>연합뉴스-정치</span>
+                            <span>03.07 17:59</span>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="card ">
+                        <a href="https://www.chosun.com/politics/diplomacy-defense/2026/03/08/Y446LVVPDJELLONWG4LJVJ57TE/" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">트럼프의 전쟁 ‘지원 청구서’에 한국은 어떻게 응할까</a>
+                        <div class="card-meta">
+                            <span>조선일보-정치</span>
+                            <span>03.08 05:30</span>
+                        </div>
+                        
+                    </div>
+                    <div class="sector-subheading">🗂️ 당내 정국 (7)</div>
+                    <div class="card  representative">
+                        <a href="https://www.chosun.com/politics/assembly/2026/03/07/SCTWQFIAJZE6HH4X7Y64EL6PQM/" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">한동훈 “윤 어게인 노선 끊고 보수 재건해야…부산 대역전 필요”</a>
+                        <div class="card-meta">
+                            <span>조선일보-정치</span>
+                            <span>03.07 17:35</span>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="card ">
+                        <a href="https://www.chosun.com/politics/2026/03/08/SY23BJIOKRBLPAW2YBRYDNUUC4/" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">“여론조사, 그거 조작 아니냐”…전화조사실, 직접 가보니</a>
+                        <div class="card-meta">
+                            <span>조선일보-정치</span>
+                            <span>03.08 05:00</span>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="card ">
+                        <a href="https://www.chosun.com/politics/2026/03/08/EO354DBXBJEFTAPZC3J43POQDY/" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">윤어게인도 광화문파·여의도파 있다…아스팔트 보수 주도권 전쟁</a>
+                        <div class="card-meta">
+                            <span>조선일보-정치</span>
+                            <span>03.08 05:00</span>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="card ">
+                        <a href="https://www.yna.co.kr/view/AKR20260307051400055" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">민주당 전북도당, 공천 접수 432명 중 35명 '부적격' 결정</a>
+                        <div class="card-meta">
+                            <span>연합뉴스-정치</span>
+                            <span>03.07 17:53</span>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="card ">
+                        <a href="https://www.yna.co.kr/view/AKR20260307046000001" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">나경원 "오세훈, 시장으로 평가 안좋아…당 탓말고 반성이 먼저"</a>
+                        <div class="card-meta">
+                            <span>연합뉴스-정치</span>
+                            <span>03.07 16:05</span>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="card ">
+                        <a href="https://www.yna.co.kr/view/AKR20260307032200001" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">국힘 "지지율 월등히 높은 후보는 단수·우선 공천 적극 검토"</a>
+                        <div class="card-meta">
+                            <span>연합뉴스-정치</span>
+                            <span>03.07 11:04</span>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="card ">
+                        <a href="https://www.chosun.com/politics/assembly/2026/03/07/MIKF7CZXVJE5NI4WUKJKFYL2KE/" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">오세훈 “당, 수도권 선거 포기…노선 정상화부터 해야”</a>
+                        <div class="card-meta">
+                            <span>조선일보-정치</span>
+                            <span>03.07 09:51</span>
+                        </div>
+                        
+                    </div>
+                    <div class="sector-subheading">🗂️ 사법/의혹 (2)</div>
+                    <div class="card ">
+                        <a href="https://www.chosun.com/politics/assembly/2026/03/08/FUSO6ABTRBB7HEBDSXKLZC4TXI/" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">‘이재명 저격수’ 이기인 “김현지, 정권의 아킬레스건 될 것”</a>
+                        <div class="card-meta">
+                            <span>조선일보-정치</span>
+                            <span>03.08 05:00</span>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="card ">
+                        <a href="https://www.chosun.com/politics/politics_general/2026/03/07/XVKLVY5KHJDYBIDKSOHHNY7WJQ/" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">시민단체, 李팬카페 통해 “’반명수괴’ 김어준, 명예훼손 고발”</a>
+                        <div class="card-meta">
+                            <span>조선일보-정치</span>
+                            <span>03.07 09:06</span>
+                        </div>
+                        
+                    </div>
+                    <div class="sector-subheading">🗂️ 지방/행정 (2)</div>
+                    <div class="card  representative">
+                        <a href="https://www.yna.co.kr/view/AKR20260307046900056" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">문대림, 제주지사 선거 출마 선언…"제주 확 바꾸겠다"</a>
+                        <div class="card-meta">
+                            <span>연합뉴스-정치</span>
+                            <span>03.07 16:11</span>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="card ">
+                        <a href="https://www.yna.co.kr/view/AKR20260307038200001" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">올해 국가공무원 5급·외교관 1차 시험 응시율 67.8%</a>
+                        <div class="card-meta">
+                            <span>연합뉴스-정치</span>
+                            <span>03.07 13:33</span>
+                        </div>
+                        
+                    </div>
+                    <div class="sector-subheading">🗂️ 입법/정책 (3)</div>
+                    <div class="card  representative">
+                        <a href="https://www.chosun.com/economy/economy_general/2026/03/08/MFSWKZRSGJQWCN3DMUZDMZDGMI/" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">李 대통령 “국민 무서움 잊지 말아야… 집권했다고 마음대로 해선 안돼”</a>
+                        <div class="card-meta">
+                            <span>조선일보-경제</span>
+                            <span>03.08 00:27</span>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="card ">
+                        <a href="https://www.chosun.com/politics/assembly/2026/03/07/6GLRL5MNRJAGRFLVWEFALJ4VLM/" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">野 “주한미군 전력 차출 가능성에 안보 불안”…與 “정쟁 말라” (외 1건)</a>
+                        <div class="card-meta">
+                            <span>조선일보-정치</span>
+                            <span>03.07 17:48</span>
+                        </div>
+                        
+                        <details class="related-sources">
+                            <summary>1개 관련 기사 보기</summary>
+                            <a href="https://www.yna.co.kr/view/AKR20260307041000001" class="related-link" target="_blank">🔗 野 "주한미군전력 중동차출 가능성에 안보불안"…與 "정쟁말라" - 연합뉴스-정치</a>
+                        </details>
+                        
+                    </div>
+                    
+                    <div class="card ">
+                        <a href="https://www.yna.co.kr/view/AKR20260307045500001" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">여야 "'왕사남' 1천만 돌파 축하…한국 영화산업 저력 보여줘"</a>
+                        <div class="card-meta">
+                            <span>연합뉴스-정치</span>
+                            <span>03.07 15:34</span>
+                        </div>
+                        
+                    </div>
+                    <div id="경제/거시" class="section-title">경제/거시</div>
+                <div class="card ">
+                    <a href="https://www.chosun.com/economy/industry-company/2026/03/07/QOTYJ2E3DZCX7MZ7FTPXXWGEL4/" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">“주말에 車 몰기가 겁난다”... 서울 기름값 2000원 눈앞</a>
+                    <div class="card-meta">
+                        <span>조선일보-경제</span>
+                        <span>03.07 11:35</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card ">
+                    <a href="https://www.chosun.com/economy/economy_general/2026/03/07/GFTDQMRRMQ3WKMZSG43WCNDFME/" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">김정관·여한구 방미… 美 추가 관세·쿠팡 301조 조사 대응</a>
+                    <div class="card-meta">
+                        <span>조선일보-경제</span>
+                        <span>03.07 15:32</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card ">
+                    <a href="https://www.chosun.com/economy/economy_general/2026/03/07/2AR7IW2WSRD5HJFTNDUTDRLBOY/" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">1500원 육박했던 환율, 美 고용 쇼크에 1480원대 초반 마감</a>
+                    <div class="card-meta">
+                        <span>조선일보-경제</span>
+                        <span>03.07 10:07</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card ">
+                    <a href="https://www.chosun.com/economy/industry-company/2026/03/07/MLYTXWN7Z5FWTBGCILTIW4GWDE/" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">美유가 하루에만 12% 급등해 90달러 돌파…원유 공급이 말라간다</a>
+                    <div class="card-meta">
+                        <span>조선일보-경제</span>
+                        <span>03.07 09:42</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card ">
+                    <a href="https://www.hankyung.com/article/202603064551i" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">[마켓칼럼] 모험자본시장과 함께 성장할 크레딧 시장</a>
+                    <div class="card-meta">
+                        <span>한국경제-기업</span>
+                        <span>03.07 09:00</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card ">
+                    <a href="https://www.hankyung.com/article/202603074916i" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">트럼프 "항복아니면 노딜"…밀려오는 스태그플레이션 공포 [김현석의 월스트리트나우]</a>
+                    <div class="card-meta">
+                        <span>한국경제-기업</span>
+                        <span>03.07 08:35</span>
+                    </div>
+                    
+                </div>
+                <div id="기업/산업" class="section-title">기업/산업</div><div class="sector-subheading">📌 반도체 (1)</div>
+                    <div class="card ">
+                        <a href="https://www.chosun.com/economy/economy_general/2026/03/07/UIWO3WZYNZD5FF572AD5SCHMWE/" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">“사진이 안 찍혀요” 도움 요청에… 이재용 회장이 건넨 한마디</a>
+                        <div class="card-meta">
+                            <span>조선일보-경제</span>
+                            <span>03.07 14:16</span>
+                        </div>
+                        
+                    </div>
+                    <div class="sector-subheading">📌 배터리/에너지 (1)</div>
+                    <div class="card ">
+                        <a href="https://www.chosun.com/economy/industry-company/2026/03/07/MYZWIMLBMI2WGY3FGM4TANDGGE/" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">전기차 부진 여파… SK온, 美 조지아 배터리 공장 직원 3분의1 해고 (외 1건)</a>
+                        <div class="card-meta">
+                            <span>조선일보-경제</span>
+                            <span>03.07 13:41</span>
+                        </div>
+                        
+                        <details class="related-sources">
+                            <summary>1개 관련 기사 보기</summary>
+                            <a href="https://www.chosun.com/economy/industry-company/2026/03/07/S75PKXBXVVCA5P4RW2JM4LZJJE/" class="related-link" target="_blank">🔗 전기차 수요 둔화 직격탄…SK온 美 배터리 공장 3분의 1 해고 - 조선일보-경제</a>
+                        </details>
+                        
+                    </div>
+                    <div class="sector-subheading">📌 바이오/제약 (1)</div>
+                    <div class="card ">
+                        <a href="https://www.chosun.com/economy/startup_story/2026/03/08/GBK245TS4FBZJFC4MOPNWLVOYM/" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">서울대 연구진 모여 보톡스 성분 화장품 개발, 美·日·中 수출 대박</a>
+                        <div class="card-meta">
+                            <span>조선일보-경제</span>
+                            <span>03.08 05:10</span>
+                        </div>
+                        
+                    </div>
+                    <div class="sector-subheading">📌 금융 (1)</div>
+                    <div class="card ">
+                        <a href="https://www.hankyung.com/article/2026030642186" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">"내 계좌 터지나" 개미들 밤잠 설치더니…폭락장서 19% 껑충 [종목+]</a>
+                        <div class="card-meta">
+                            <span>한국경제-기업</span>
+                            <span>03.07 11:03</span>
+                        </div>
+                        
+                    </div>
+                    <div id="부동산" class="section-title">부동산</div>
+                <div class="card ">
+                    <a href="https://www.mk.co.kr/news/realestate/11981714" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">“강남은 꺾였는데 여기는 여전하네”…서울 전월세난 우려에 수지·동탄 강세</a>
+                    <div class="card-meta">
+                        <span>매일경제-부동산</span>
+                        <span>03.07 19:04</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card ">
+                    <a href="https://www.chosun.com/economy/real_estate/2026/03/07/XSFTF4WXRFDUJN26BTJWSVTLP4/" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">서울 아파트 평균 월세 150만원 돌파…역대 최고치 찍었다</a>
+                    <div class="card-meta">
+                        <span>조선일보-경제</span>
+                        <span>03.07 12:34</span>
+                    </div>
+                    
+                </div>
+                <div id="국제" class="section-title">국제</div>
+                <div class="card ">
+                    <a href="https://www.donga.com/news/Inter/article/all/20260307/133482804/1" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">트럼프 “이란 오늘 매우 강력한 타격”…공격 확대 시사</a>
+                    <div class="card-meta">
+                        <span>동아일보-국제</span>
+                        <span>03.07 20:55</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card ">
+                    <a href="https://www.chosun.com/economy/tech_it/2026/03/07/RBOAH7LQUNAMJAV47DCZBALGTE/" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">인도네시아도 16세 미만 SNS 계정 막는다</a>
+                    <div class="card-meta">
+                        <span>조선일보-경제</span>
+                        <span>03.07 17:44</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card ">
+                    <a href="https://www.donga.com/news/Inter/article/all/20260307/133482602/1" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">최정예 美공수부대 돌연 훈련 취소…‘이란 지상전’ 임박?</a>
+                    <div class="card-meta">
+                        <span>동아일보-국제</span>
+                        <span>03.07 16:52</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card ">
+                    <a href="https://www.donga.com/news/Inter/article/all/20260307/133482538/1" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">이스라엘 대규모 공습에 테헤란 곳곳 폭발…“이란 미사일 반격”</a>
+                    <div class="card-meta">
+                        <span>동아일보-국제</span>
+                        <span>03.07 14:37</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card ">
+                    <a href="https://www.donga.com/news/Inter/article/all/20260307/133482489/1" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">푸틴, 이란 대통령과 통화…“즉각 휴전·외교적 해결” 촉구</a>
+                    <div class="card-meta">
+                        <span>동아일보-국제</span>
+                        <span>03.07 13:43</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card ">
+                    <a href="https://www.chosun.com/economy/economy_general/2026/03/07/GZQTMM3GGE3TMNLCME2GCZBZGM/" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">문재인 전 대통령 “트럼프 방중, 한반도 평화 모멘텀 될수도”</a>
+                    <div class="card-meta">
+                        <span>조선일보-경제</span>
+                        <span>03.07 13:07</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card ">
+                    <a href="https://www.donga.com/news/Economy/article/all/20260307/133477033/1" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">미국은 미사일이 부족하다? 현대전 바꾼 ‘가성비의 역습’[딥다이브]</a>
+                    <div class="card-meta">
+                        <span>동아일보-국제</span>
+                        <span>03.07 12:29</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card ">
+                    <a href="https://www.donga.com/news/Inter/article/all/20260307/133482409/1" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">‘아이언맨·존 윅’ 짜깁기한 백악관 전쟁 홍보 영상…온라인서 조롱 세례</a>
+                    <div class="card-meta">
+                        <span>동아일보-국제</span>
+                        <span>03.07 12:03</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card ">
+                    <a href="https://www.donga.com/news/Inter/article/all/20260307/133482406/1" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">자산 3조 두바이 재벌의 일침…“누가 이란 전쟁 결정했나”</a>
+                    <div class="card-meta">
+                        <span>동아일보-국제</span>
+                        <span>03.07 12:03</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card ">
+                    <a href="https://www.donga.com/news/Inter/article/all/20260307/133482219/1" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">“트럼프 지상군 투입 진지하게 고려”-NBC</a>
+                    <div class="card-meta">
+                        <span>동아일보-국제</span>
+                        <span>03.07 09:05</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card ">
+                    <a href="https://www.donga.com/news/Inter/article/all/20260307/133482181/2" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">트럼프 “최첨단 수준 무기 생산량 4배로 늘릴 것…이미 생산 중”</a>
+                    <div class="card-meta">
+                        <span>동아일보-국제</span>
+                        <span>03.07 08:37</span>
+                    </div>
+                    
+                </div>
+                <div id="science" class="section-title">테크</div>
                 <a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxOMTdHVXp0d0VPZ2g5UFI1U0ZocEF0a0Z0Z1NzMHpVbnY0NmZPalY1S1RLVk1KcmNjbzFFTjM0akd6UnEzRWM2QjlIQUJzeGIwMmF3UFlZYzFzcXZkSDM5b0ZWUFdMUkR6Ty16d2laRXRiaEh3Smxnb2tyOVdpRUY5T3lkelFzay03ZEZMTzBOMA?oc=5" class="card" target="_blank">
                     <div class="card-title">무려 180년 만의 귀환이다 - 사이언스타임즈</div>
                     <div class="card-meta">
