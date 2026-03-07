@@ -979,9 +979,6 @@ class HTMLGenerator:
         
         html += '<div class="sticky-nav">'
 
-        # Gemini Navigator (in-app overlay)
-        html += '<a href="#" class="nav-pill" onclick="openGeminiNavigator(); return false;">🔎 Gemini 네비게이터</a>'
-
         # Archive
         html += f'<a href="{archive_href}" class="nav-pill">🗓️ 아카이브</a>'
         html += f'<a href="{youtube_channel_url}" class="nav-pill" target="_blank" rel="noopener noreferrer">🎬 데일리 맥락</a>'
