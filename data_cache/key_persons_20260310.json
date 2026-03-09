@@ -1,0 +1,60 @@
+{
+  "timestamp": "2026-03-10T06:03:17.570541",
+  "date": "20260310",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "국힘, ‘尹 절연’ 결의문 썼다…“국민께 용서 받고 이재명에 맞서자”",
+          "link": "https://www.chosun.com/economy/economy_general/2026/03/09/MQYTAMZYG44DQYJXGVRWCZJQMM/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-03-09 18:23:40",
+          "description": "국민의힘이 9일 의원총회를 열고 ‘절윤(윤석열 전 대통령과의 절연)’에 합의했다. 국민의힘 의원 일동 명의로 결의문을 작성했다. 국민의힘은 이날 오후 국회에서 긴급 의원총회를 열고 당의 노선 전환 문제를 논의했다. 최근 당 지지율이 저조한 상황에서 오세훈 서울시장이 노선 변화 요구에 대한 지도부의 대응에 반발해 서울시장 경선 접수를 거부하면서 당내 위기감이",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 \"비상한 각오로 선제대응…석유 최고가격제 신속 시행\"",
+          "link": "https://www.yna.co.kr/view/AKR20260309089000001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-03-09 12:03:21",
+          "description": "(서울=연합뉴스) 임형섭 기자 = 이재명 대통령은 9일 미국의 이란 공격으로 촉발된 중동 상황과 관련해 &quot;향후 전개 양상을 예단하기 어려운 만큼...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 '외과시술 개혁' 강조…與내부도 '강경파' 우려 목소리",
+          "link": "https://www.yna.co.kr/view/AKR20260309083000001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-03-09 12:35:18",
+          "description": "(서울=연합뉴스) 서혜림 김정진 안정훈 기자 = 중대범죄수사청(중수청)과 공소청 설치법을 둘러싼 더불어민주당 내 논쟁이 이어지는 가운데 이를 조...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 “석유 최고가격제 신속 시행... 시장 안정 100조 적극 확대”",
+          "link": "https://www.chosun.com/politics/politics_general/2026/03/09/JII7UZ6D6ZBGPHTA4W5KKZGJGA/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-03-09 11:37:39",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": true,
+          "related_full_sources": []
+        }
+      ],
+      "count": 4,
+      "role": "한국 대통령"
+    }
+  }
+}
