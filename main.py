@@ -285,6 +285,9 @@ def main(send_push=True, use_cache=True, *, ignore_done_marker: bool = False, tt
     if use_cache and os.path.exists(sentiment.get_cache_filename(today_str)):
         print("🔄 캐시된 감성/브리핑 데이터 로드 중...")
         briefing_data = sentiment.load_cached_data(today_str)
+
+    if isinstance(briefing_data, dict):
+        briefing_data = sentiment.sanitize_briefing_data(briefing_data, today_str)
     if tts_only or scripts_only:
         if briefing_data is None:
             print("⚠️ TTS-only 모드인데 오늘 감성/브리핑 캐시가 없습니다. 먼저 전체 실행을 진행하세요.")

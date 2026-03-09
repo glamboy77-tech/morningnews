@@ -556,10 +556,16 @@ class SentimentAnalyzer:
 
         titles_text = " ".join(ai_titles)
 
-        # 핵심 오인 방지: 원천 기사가 李대통령 문맥인데 본문에 이명박 전 대통령이 나오면 교정
-        if "李대통령" in titles_text and current_kor_president != "이명박":
-            if "이명박 전 대통령" in script:
-                script = script.replace("이명박 전 대통령", f"{current_kor_president} 대통령")
+        # 핵심 오인 방지: 원천 기사가 李대통령/이재명 대통령 문맥인데
+        # 본문에 이명박 계열 표기가 나오면 실명 추정 대신 모호 약칭으로 보수 교정
+        has_current_li_president_context = (
+            "李대통령" in titles_text
+            or "이재명 대통령" in titles_text
+        )
+        if has_current_li_president_context and current_kor_president != "이명박":
+            script = script.replace("이명박 전 대통령", "이 대통령")
+            script = script.replace("이명박 대통령", "이 대통령")
+            script = script.replace("이명박대통령", "이 대통령")
 
         # 핵심 오인 방지: 기사 원문이 '金여사/김여사'인데 브리핑에서 잘못 실명 확장되는 경우 교정
         inferred_first_lady = self._infer_current_first_lady(key_persons, ai_titles)
@@ -577,7 +583,105 @@ class SentimentAnalyzer:
         ):
             script = re.sub(r"김건희\s*여사", f"{inferred_first_lady} 여사", script)
 
+        # 현직 역할로 추출된 인물에 대해서는 '전 대통령/전 총리' 오기 방지
+        for person_name, info in key_persons.items():
+            if not isinstance(person_name, str) or not isinstance(info, dict):
+                continue
+            role = str(info.get("role", ""))
+            clean_name = person_name.strip()
+            if not clean_name:
+                continue
+
+            if "대통령" in role and "전" not in role:
+                script = re.sub(rf"{re.escape(clean_name)}\s*전\s*대통령", f"{clean_name} 대통령", script)
+            if "총리" in role and "전" not in role:
+                script = re.sub(rf"{re.escape(clean_name)}\s*전\s*총리", f"{clean_name} 총리", script)
+
         return script
+
+    def _apply_person_name_guard_to_section_summaries(self, section_summaries: dict | None, date_str: str | None) -> dict:
+        """Apply person-name guard to section summaries as well."""
+        if not isinstance(section_summaries, dict):
+            return section_summaries if isinstance(section_summaries, dict) else {}
+
+        normalized: dict = {}
+        for key, value in section_summaries.items():
+            if isinstance(value, str):
+                normalized[key] = self._apply_person_name_guard(value, date_str)
+            else:
+                normalized[key] = value
+        return normalized
+
+    def sanitize_briefing_data(self, briefing_data: dict | None, date_str: str | None = None) -> dict | None:
+        """Normalize person-title consistency across briefing payload."""
+        if not isinstance(briefing_data, dict):
+            return briefing_data
+
+        if date_str is None:
+            date_str = self._kst_now().strftime("%Y%m%d")
+
+        briefing_data["section_summaries"] = self._apply_person_name_guard_to_section_summaries(
+            briefing_data.get("section_summaries"),
+            date_str,
+        )
+
+        brief_scripts = briefing_data.get("brief_scripts")
+        if isinstance(brief_scripts, dict) and isinstance(brief_scripts.get("source_script"), str):
+            brief_scripts["source_script"] = self._apply_person_name_guard(
+                brief_scripts.get("source_script"),
+                date_str,
+            )
+            briefing_data["brief_scripts"] = brief_scripts
+
+        return briefing_data
+
+    def _build_current_role_anchor_lines(self, date_str: str | None) -> list[str]:
+        """Build dynamic role anchors injected into brief generation prompt."""
+        leaders = self._load_current_leaders()
+        key_persons = self._load_key_persons_for_date(date_str)
+        ai_titles = self._load_ai_titles_for_date(date_str)
+        current_first_lady = self._infer_current_first_lady(key_persons, ai_titles)
+
+        anchors: list[str] = [
+            "[현재 직책 앵커]",
+            f"- 한국 대통령: {leaders.get('한국 대통령', '미상')}",
+            f"- 미국 대통령: {leaders.get('미국 대통령', '미상')}",
+            f"- 중국 국가주석: {leaders.get('중국 국가주석', '미상')}",
+            f"- 러시아 대통령: {leaders.get('러시아 대통령', '미상')}",
+            f"- 일본 총리: {leaders.get('일본 총리', '미상')}",
+        ]
+
+        if current_first_lady:
+            anchors.append(f"- 영부인: {current_first_lady}")
+
+        for name, info in key_persons.items():
+            if not isinstance(name, str) or not isinstance(info, dict):
+                continue
+            role = str(info.get("role", "")).strip()
+            if not role:
+                continue
+            if any(token in role for token in ["총리", "영부인", "대통령 배우자"]):
+                anchors.append(f"- {role}: {name.strip()}")
+
+        anchors.extend([
+            "",
+            "[표기 강제 규칙]",
+            "- 위 직책 앵커와 충돌하는 인물 호칭을 쓰지 마세요.",
+            "- '전 대통령', '전 총리' 표기는 입력 데이터에 명시된 경우에만 사용하세요.",
+            "- '李대통령', '이 대통령', '김총리', '김여사', '金여사' 같은 약칭은 임의 실명 확장 금지입니다.",
+        ])
+
+        seen = set()
+        deduped: list[str] = []
+        for line in anchors:
+            key = line.strip()
+            if key and key in seen:
+                continue
+            if key:
+                seen.add(key)
+            deduped.append(line)
+
+        return deduped
     
     def merge_sentiment_data(self, current_data, cached_data):
         """
@@ -1469,11 +1573,16 @@ class SentimentAnalyzer:
             print(f"⚠️ TTS JSON 스크립트 저장 실패: {e}")
             return None
 
-    def _build_brief_prompt_from_context(self, context_lines: list[str]) -> str:
+    def _build_brief_prompt_from_context(self, context_lines: list[str], date_str: str | None = None) -> str:
         """Build OpenAI brief prompt with escaped braces."""
         input_data_text = "\n".join(context_lines)
+        role_anchors_text = "\n".join(self._build_current_role_anchor_lines(date_str))
         template = self._load_prompt_template(self._brief_prompt_template_path)
-        return template.replace("{input_data}", input_data_text)
+        return (
+            template
+            .replace("{role_anchors}", role_anchors_text)
+            .replace("{input_data}", input_data_text)
+        )
 
     @staticmethod
     def _has_required_brief_flow(source_script: str) -> bool:
@@ -1505,7 +1614,7 @@ class SentimentAnalyzer:
         max_retries: int,
     ) -> dict:
         """Generate brief script and enforce fixed section flow via one corrective retry."""
-        brief_prompt = self._build_brief_prompt_from_context(context_lines)
+        brief_prompt = self._build_brief_prompt_from_context(context_lines, date_str)
         brief_data = self._generate_tts_script_with_openai(
             brief_prompt,
             model=config.openai_model_tts,
@@ -1783,6 +1892,7 @@ class SentimentAnalyzer:
             if cached is not None:
                 print(f"✅ 감성/브리핑 캐시 재사용: {self.get_cache_filename(date_str)}")
                 cached = self._ensure_tts_script(cached, date_str)
+                cached = self.sanitize_briefing_data(cached, date_str)
                 brief_scripts_cached = cached.get("brief_scripts")
                 if isinstance(brief_scripts_cached, dict):
                     openai_tts_lines = self._build_tts_lines_from_source_script(
@@ -1902,6 +2012,7 @@ News List:
             if not isinstance(section_summaries, dict):
                 section_summaries = {}
             merged_sections = {**base_sections, **{k: v for k, v in section_summaries.items() if isinstance(k, str)}}
+            merged_sections = self._apply_person_name_guard_to_section_summaries(merged_sections, date_str)
             briefing_data["section_summaries"] = merged_sections
 
             if not isinstance(briefing_data.get("hojae"), list):
@@ -1953,6 +2064,7 @@ News List:
                 print(f"⚠️ OpenAI 브리프 스크립트 생성 실패: {e}")
                 final_data.setdefault("meta", {})["brief_generated_by"] = "gemini_fallback"
 
+            final_data = self.sanitize_briefing_data(final_data, date_str)
             final_data = self._normalize_tts_script(final_data, date_str)
             if not self._validate_tts_script(final_data, date_str):
                 print("⚠️ TTS 스크립트 검증 실패: 재생성 시도")
@@ -1987,6 +2099,7 @@ News List:
                         final_data.setdefault("meta", {})["tts_lines_generated_by"] = "openai_source_script"
                         if isinstance(final_data.get("meta"), dict):
                             final_data["meta"].pop("tts_fallback", None)
+                final_data = self.sanitize_briefing_data(final_data, date_str)
                 final_data = self._normalize_tts_script(final_data, date_str)
 
             if not self._validate_tts_script(final_data, date_str):
@@ -2004,6 +2117,7 @@ News List:
                         if isinstance(final_data.get("meta"), dict):
                             final_data["meta"].pop("tts_fallback", None)
                         final_data = self._normalize_tts_script(final_data, date_str)
+                final_data = self.sanitize_briefing_data(final_data, date_str)
                 if not self._validate_tts_script(final_data, date_str):
                     print("⚠️ TTS 스크립트 검증 실패: 폴백 스크립트로 대체")
                     final_data = self._apply_tts_fallback(final_data, date_str)
