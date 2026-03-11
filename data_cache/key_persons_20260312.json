@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-03-12T06:05:19.061553",
+  "date": "20260312",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "李 공소취소 놓고… 與는 “국조” 野는 “특검”",
+          "link": "https://www.chosun.com/politics/assembly/2026/03/12/X5OC2S6IY5EL5JRDMTYSAYKB2U/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-03-12 00:55:00",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 \"초콜릿으로 행복 선사\"…가나 대통령 \"김치 사달라더라\"",
+          "link": "https://www.yna.co.kr/view/AKR20260311138400001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-03-11 16:18:13",
+          "description": "(서울=연합뉴스) 임형섭 기자 = 이재명 대통령은 11일 청와대 본관에서 존 마하마 가나 대통령과 정상회담을 하고 양국의 협력 강화 방안을 논의...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, 내주 與초선들과 만찬…檢개혁 등 국정논의 전망",
+          "link": "https://www.yna.co.kr/view/AKR20260311129700001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-03-11 15:29:38",
+          "description": "(서울=연합뉴스) 설승은 기자 = 이재명 대통령이 다음 주 여당 초선 의원들과 국정 논의를 위한 만찬 회동을 한다고 청와대 강유정 대변인이 11...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "김어준 발 ‘李 공소 취소-檢 수사권’ 거래 의혹에 野 “특검 해야” 총공세",
+          "link": "https://www.chosun.com/politics/assembly/2026/03/11/2W5UGFKLSNDNFGYPURPNX3TD3I/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-03-11 10:27:22",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "우의장 \"李대통령 국정과제 1호는 개헌…나와 의견 일치\"",
+          "link": "https://www.yna.co.kr/view/AKR20260311058600001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-03-11 10:12:30",
+          "description": "(서울=연합뉴스) 박재하 기자 = 우원식 국회의장은 11일 6·3 지방선거에서 개헌 국민투표를 함께 진행하자고 제안한 점과 관련해 &quot;충분히 대통...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        }
+      ],
+      "count": 5,
+      "role": "한국 대통령"
+    },
+    "김정은": {
+      "articles": [
+        {
+          "title": "김정은, 일주일만에 또 미사일 시험발사 참관 “핵무력 다각적 운용”",
+          "link": "https://www.chosun.com/politics/north_korea/2026/03/12/BU62M73XJFHBTIEQWHVJVECNXM/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-03-12 00:50:00",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "김정은, 최현호 순항미사일 발사 참관…\"핵무력, 다각 운용단계\"(종합3보)",
+          "link": "https://www.yna.co.kr/view/AKR20260311015653504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-03-11 11:49:02",
+          "description": "(서울=연합뉴스) 전명훈 김호준 하채림 기자 = 김정은 북한 국무위원장이 취역을 앞둔 5천t급 신형 구축함 &apos;최현호&apos;의 전략순항미사일 시험발사를...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "김정은, 최현호 순항미사일 발사 참관…\"핵무력, 다각 운용단계\"(종합2보)",
+              "link": "https://www.yna.co.kr/view/AKR20260311015652504"
+            }
+          ]
+        },
+        {
+          "title": "김정은, 김주애 대동 전략순항미사일 시험발사 참관",
+          "link": "https://www.chosun.com/politics/north_korea/2026/03/11/5ISXNSZLFRGVRNGO7DP6HPIVRY/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-03-11 08:31:07",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "북한 국무위원장"
+    }
+  }
+}
