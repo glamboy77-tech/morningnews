@@ -1,0 +1,140 @@
+{
+  "timestamp": "2026-03-13T06:03:32.514732",
+  "date": "20260313",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "李대통령 오늘 충북서 타운홀 미팅…도민 200명여과 자유토론",
+          "link": "https://www.yna.co.kr/view/AKR20260312163800001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-03-13 05:00:02",
+          "description": "(서울=연합뉴스) 황윤기 기자 = 이재명 대통령은 13일 충청북도 지역 주민을 직접 만나 국정 운영 및 지역 현안에 대한 의견을 듣는다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "지방/행정",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, 대미투자특별법 국회 통과에 \"차질 없이 후속 조치\"",
+          "link": "https://www.yna.co.kr/view/AKR20260312144400001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-03-12 16:33:58",
+          "description": "(서울=연합뉴스) 고동욱 기자 = 이재명 대통령은 12일 &apos;대한민국과 미합중국 간 전략적 투자의 운영 및 관리를 위한 특별법&apos;(대미투자특별법)이...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "野 ‘李 공소취소 의혹’ 당론으로 특검 추진...“국정 농단”",
+          "link": "https://www.chosun.com/politics/politics_general/2026/03/12/ORQSOOOEKBF3LCGBSQAZWN3BJQ/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-03-12 14:25:23",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 \"골든타임 허비 안 돼…신속하게 추경 편성해달라\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260312114551001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-03-12 15:06:55",
+          "description": "(서울=연합뉴스) 임형섭 황윤기 기자 = 이재명 대통령은 12일 &quot;위기일수록 민생 안정과 경제 회복이 뒷걸음질 치지 않도록 재정의 신속한 투입이...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, '무안참사 유해 부실 수습' 책임자 엄중문책 지시",
+          "link": "https://www.yna.co.kr/view/AKR20260312131500001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-03-12 15:41:25",
+          "description": "(서울=연합뉴스) 임형섭 황윤기 기자 = 이재명 대통령은 12·29 제주항공 여객기 참사 일부 희생자의 유해가 사고 발생 1년 2개월이 지나서야...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "[속보] 李대통령, '무안참사 유해수습 지연' 책임자 엄중문책 지시",
+              "link": "https://www.yna.co.kr/view/AKR20260312124600001"
+            }
+          ]
+        },
+        {
+          "title": "李대통령 국정 지지율 67% 최고치 유지…민주 43%·국힘 17%[NBS](종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260312080251001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-03-12 11:56:23",
+          "description": "(서울=연합뉴스) 김치연 기자 = 이재명 대통령의 국정운영을 긍정적으로 평가한 비율이 67%로 집계됐다는 여론조사 결과가 12일 나왔다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 \"식용유·라면값 내달 인하…위기극복 동참 기업 감사\"",
+          "link": "https://www.yna.co.kr/view/AKR20260312118100001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-03-12 14:46:23",
+          "description": "(서울=연합뉴스) 고동욱 황윤기 기자 = 이재명 대통령이 12일 식용유·라면 업계의 가격 인하 계획을 직접 공개하며 &quot;위기 극복에 동참해준 기업...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "[속보] 李대통령 \"식용유·라면 가격인하…위기극복 동참 기업에 감사\"",
+              "link": "https://www.yna.co.kr/view/AKR20260312115300001"
+            }
+          ]
+        },
+        {
+          "title": "李대통령, BTS 공연에 \"현장 관리 철저…바가지 상술 엄정 단속\"",
+          "link": "https://www.yna.co.kr/view/AKR20260312124400001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-03-12 15:27:05",
+          "description": "(서울=연합뉴스) 고동욱 황윤기 기자 = 이재명 대통령이 오는 21일 서울 광화문 일대에서 열리는 방탄소년단(BTS)의 컴백 행사를 앞두고 &quot;수...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "지방/행정",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, 18일 '자본시장 4대 개혁안' 간담회…\"근본체질 개선\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260312142851001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-03-12 17:43:53",
+          "description": "(서울=연합뉴스) 황윤기 기자 = 이재명 대통령이 기관·개인 투자자들과 만나 자본시장 안정화 및 체질 개선 방안을 논의한다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 \"부당한 가격 인상 더는 안 돼…철저히 감시·제재\"",
+          "link": "https://www.yna.co.kr/view/AKR20260312160000001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-03-12 17:31:19",
+          "description": "(서울=연합뉴스) 고동욱 황윤기 기자 = 이재명 대통령은 12일 물가 관리와 관련해 &quot;상품 가격 인하는 쉽지 않은 일이지만, 철저한 시장 감시와...",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 10,
+      "role": "한국 대통령"
+    }
+  }
+}
