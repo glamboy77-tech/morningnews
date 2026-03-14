@@ -1,0 +1,108 @@
+{
+  "timestamp": "2026-03-15T06:03:10.783572",
+  "date": "20260315",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "李대통령, 패럴림픽 ‘단일 대회 최다 메달’ 김윤지 “새 역사 썼다”",
+          "link": "https://www.chosun.com/economy/economy_general/2026/03/14/GI3WCMJVMUZTGZRYHA3TGYZVMY/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-03-14 15:29:03",
+          "description": "이재명 대통령은 2026 밀라노·코르티나담페초 동계패럴림픽에서 네 개의 메달을 딴 김윤지에게 14일 “개인전 단일 대회 최다 메달의 새 역사를 썼다”고 했다. 이 대통령은 이날 소셜미디어(SNS)에서 “김윤지 선수의 네 번째 메달을 축하한다”며 이같이 밝혔다. 올해 패럴림픽에 처음 출전한 김윤지는 지난 8일 바이애슬론 여자 개인 12.5㎞에서 한국 여자 최",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "李대통령, 패럴림픽 '개인전 메달 4개' 김윤지에 \"새 역사 썼다\"",
+              "link": "https://www.yna.co.kr/view/AKR20260314036600001"
+            }
+          ]
+        },
+        {
+          "title": "둘로 나뉜 여권 집회…\"대통령 흔들지 말라\"·\"철저한 검찰개혁\"",
+          "link": "https://www.yna.co.kr/view/AKR20260314047800004",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-03-14 17:38:38",
+          "description": "(서울=연합뉴스) 최윤선 기자 = 이른바 &apos;공소취소 거래설&apos;이 불거진 뒤 첫 주말인 14일 서울 도심 곳곳에서 여권 지지자들의 집회가 이어졌다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, '쉰들러 ISDS 정부 승소'에 \"소중한 혈세 지켜내\"",
+          "link": "https://www.yna.co.kr/view/AKR20260314051200001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-03-14 19:14:15",
+          "description": "(서울=연합뉴스) 설승은 기자 = 이재명 대통령은 14일 스위스에 본사를 둔 승강기업체 &apos;쉰들러 홀딩 아게&apos;가 한국 정부를 상대로 낸 국제투자분...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": true,
+          "related_full_sources": [
+            {
+              "source": "조선일보-경제",
+              "title": "李 대통령, ISDS 정부 승소에 “소중한 혈세 지켜내”",
+              "link": "https://www.chosun.com/economy/economy_general/2026/03/14/GNTDGZRXG4ZDSNRUMVTGGNRRME/"
+            }
+          ]
+        },
+        {
+          "title": "李대통령 \"좋은나라 만들면서 부자되는 법\"…주가조작 신고 독려",
+          "link": "https://www.yna.co.kr/view/AKR20260314041000001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-03-14 15:24:22",
+          "description": "(서울=연합뉴스) 설승은 기자 = 이재명 대통령은 14일 주가 조작 신고 포상금 상한선 폐지와 관련해 &quot;좋은 나라 만들면서 부자 되는 방법&quot;이라...",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 4,
+      "role": "한국 대통령"
+    },
+    "트럼프": {
+      "articles": [
+        {
+          "title": "金총리, 트럼프 집무실서 '깜짝회동'…백악관 환대 속 20분 대화",
+          "link": "https://www.yna.co.kr/view/AKR20260314035500001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-03-14 15:18:27",
+          "description": "(서울=연합뉴스) 설승은 기자 = 미국을 방문 중인 김민석 국무총리가 13일(현지시간) 도널드 트럼프 대통령과 &apos;깜짝 회동&apos;하면서 정치권의 시선...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프, 호르무즈 봉쇄 풀 '다국적군' 구상…韓, 군함 보낼까",
+          "link": "https://www.yna.co.kr/view/AKR20260315000700071",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-03-15 02:05:33",
+          "description": "(워싱턴=연합뉴스) 홍정규 특파원 = 도널드 트럼프 미국 대통령이 이란과의 전쟁에서 최대 승부처로 부상한 호르무즈 해협에 한국을 포함한 5개국의...",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프 행정부, 틱톡 매각 중재로 15조원 수수료",
+          "link": "https://www.chosun.com/economy/tech_it/2026/03/14/C2STK7J54ZEXJO3AGPIQQNPJAI/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-03-14 13:45:34",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "미국 대통령"
+    }
+  }
+}
