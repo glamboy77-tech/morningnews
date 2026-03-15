@@ -26,6 +26,11 @@ class SentimentAnalyzer:
             "prompts",
             "brief_source_script_prompt.txt",
         )
+        self._shorts_prompt_template_path = os.path.join(
+            self._base_dir,
+            "prompts",
+            "shorts_script_prompt.txt",
+        )
 
     @staticmethod
     def _load_current_leaders() -> dict:
@@ -1584,6 +1589,323 @@ class SentimentAnalyzer:
             .replace("{input_data}", input_data_text)
         )
 
+    def _normalize_shorts_items(self, items) -> list[dict]:
+        """Normalize shorts item payload to stable schema."""
+        if not isinstance(items, list):
+            return []
+
+        normalized: list[dict] = []
+        for idx, item in enumerate(items, 1):
+            if not isinstance(item, dict):
+                continue
+
+            title = str(item.get("title", "")).strip()
+            hook = str(item.get("hook", "")).strip()
+            cta = str(item.get("cta", "")).strip()
+            fmt = str(item.get("format", "general")).strip() or "general"
+
+            raw_lines = item.get("lines", [])
+            if isinstance(raw_lines, str):
+                raw_lines = [raw_lines]
+            lines = [str(x).strip() for x in raw_lines if str(x).strip()] if isinstance(raw_lines, list) else []
+
+            hashtags_raw = item.get("hashtags", [])
+            if isinstance(hashtags_raw, str):
+                hashtags_raw = [p.strip() for p in re.split(r"[\s,]+", hashtags_raw) if p.strip()]
+            hashtags = [str(x).strip() for x in hashtags_raw if str(x).strip()] if isinstance(hashtags_raw, list) else []
+            hashtags = [x if x.startswith("#") else f"#{x}" for x in hashtags][:5]
+
+            duration_sec_target = item.get("duration_sec_target", 25)
+            try:
+                duration_sec_target = int(duration_sec_target)
+            except Exception:
+                duration_sec_target = 25
+            duration_sec_target = max(12, min(duration_sec_target, 45))
+
+            if not title or not hook or not cta or not lines:
+                continue
+
+            normalized.append({
+                "id": str(item.get("id", f"s{idx}_{fmt}"))[:48],
+                "format": fmt,
+                "duration_sec_target": duration_sec_target,
+                "title": title,
+                "hook": hook,
+                "lines": lines,
+                "cta": cta,
+                "hashtags": hashtags,
+            })
+
+        return normalized[:6]
+
+    def _build_shorts_prompt_from_source_script(
+        self,
+        *,
+        source_script: str,
+        date_str: str,
+        keywords: list[str] | None = None,
+    ) -> str:
+        keywords_text = ", ".join(self._normalize_keywords(keywords))
+        template = self._load_prompt_template(self._shorts_prompt_template_path)
+        return (
+            template
+            .replace("{date_str_dot}", self._format_dot_date(date_str))
+            .replace("{keywords_text}", keywords_text)
+            .replace("{source_script}", source_script)
+        )
+
+    def _build_shorts_fallback_items(self, *, source_script: str, keywords: list[str] | None = None) -> list[dict]:
+        """Fallback shorts when OpenAI generation fails."""
+        lines = [s.strip() for s in re.split(r"[\n]+", source_script or "") if s.strip()]
+        key = self._normalize_keywords(keywords)
+
+        pick = [s for s in lines if len(s) <= 80][:6]
+        if len(pick) < 4:
+            pick.extend([
+                "오늘의 핵심 이슈를 짧게 정리해드립니다.",
+                "시장에 영향을 줄 변수는 계속 확인이 필요합니다.",
+                "생활 체감과 연결되는 뉴스부터 보시면 좋습니다.",
+                "전체 흐름은 본편에서 5분 안에 확인할 수 있습니다.",
+            ])
+
+        k1 = key[0] if key else "핵심 이슈"
+        k2 = key[1] if len(key) > 1 else "시장 흐름"
+
+        return [
+            {
+                "id": "s1_10sec_summary",
+                "format": "10sec_conclusion",
+                "duration_sec_target": 18,
+                "title": f"오늘 {k1}, 18초 요약",
+                "hook": "오늘 뉴스, 딱 3포인트만 보겠습니다.",
+                "lines": pick[:3],
+                "cta": "전체 맥락은 데일리 맥락 본편에서 확인하세요.",
+                "hashtags": ["#뉴스쇼츠", "#데일리맥락", "#아침브리핑"],
+            },
+            {
+                "id": "s2_life_impact",
+                "format": "life_impact",
+                "duration_sec_target": 24,
+                "title": f"{k2}, 내 생활에 오는 순서",
+                "hook": "이 뉴스, 내 지갑과 무슨 상관일까요?",
+                "lines": pick[1:4],
+                "cta": "숫자와 배경은 오늘 본편에서 이어집니다.",
+                "hashtags": ["#경제뉴스", "#생활물가", "#뉴스요약"],
+            },
+        ]
+
+    def _generate_shorts_with_openai(self, prompt: str, *, model: str, max_retries: int = 3, base_sleep_sec: float = 3.0) -> list[dict]:
+        if not self.openai_client:
+            raise RuntimeError("OPENAI_API_KEY is not configured")
+
+        last_err = None
+        for attempt in range(1, max_retries + 1):
+            try:
+                resp = self.openai_client.chat.completions.create(
+                    model=model,
+                    messages=[
+                        {
+                            "role": "system",
+                            "content": "You are a Korean shorts script writer. Output ONLY valid JSON object.",
+                        },
+                        {
+                            "role": "user",
+                            "content": prompt,
+                        },
+                    ],
+                    response_format={"type": "json_object"},
+                    temperature=0.7,
+                )
+
+                content = resp.choices[0].message.content
+                if not content:
+                    raise ValueError("OpenAI returned empty content for shorts")
+
+                payload = json.loads(content)
+                items = payload.get("items") if isinstance(payload, dict) else None
+                normalized = self._normalize_shorts_items(items)
+                if len(normalized) < 2:
+                    raise ValueError("OpenAI shorts payload has insufficient valid items")
+                return normalized
+
+            except Exception as e:
+                last_err = e
+                if attempt < max_retries and self._is_retryable_error(e):
+                    jitter = random.uniform(0.0, base_sleep_sec * 0.6)
+                    sleep_sec = base_sleep_sec * (2 ** (attempt - 1)) + jitter
+                    print(f"⚠️ OpenAI 쇼츠 생성 실패(재시도 {attempt}/{max_retries}): {e}")
+                    print(f"   -> {sleep_sec:.1f}s 후 재시도")
+                    time.sleep(sleep_sec)
+                    continue
+                raise
+
+        raise last_err
+
+    def generate_shorts_scripts(
+        self,
+        *,
+        source_script: str,
+        date_str: str,
+        keywords: list[str] | None = None,
+        max_retries: int = 3,
+    ) -> dict:
+        """Generate shorts scripts derived from brief source script."""
+        if not isinstance(source_script, str) or not source_script.strip():
+            raise ValueError("source_script is required for shorts generation")
+
+        prompt = self._build_shorts_prompt_from_source_script(
+            source_script=source_script,
+            date_str=date_str,
+            keywords=keywords,
+        )
+
+        try:
+            items = self._generate_shorts_with_openai(
+                prompt,
+                model=config.openai_model_tts,
+                max_retries=max_retries,
+            )
+            generated_by = "openai"
+        except Exception as e:
+            print(f"⚠️ 쇼츠 스크립트 생성 실패, fallback 사용: {e}")
+            items = self._build_shorts_fallback_items(source_script=source_script, keywords=keywords)
+            items = self._normalize_shorts_items(items)
+            generated_by = "fallback"
+
+        return {
+            "date": date_str,
+            "source": "brief_source_script",
+            "items": items,
+            "meta": {
+                "generated_by": generated_by,
+                "version": "shorts_v1",
+                "generated_at": datetime.now().isoformat(),
+            },
+        }
+
+    def save_shorts_scripts_json(self, shorts_scripts: dict | None, date_str: str | None = None) -> str | None:
+        """Save shorts scripts to scripts/shorts_YYYYMMDD.json."""
+        if not isinstance(shorts_scripts, dict):
+            return None
+
+        items = self._normalize_shorts_items(shorts_scripts.get("items"))
+        if not items:
+            return None
+
+        if date_str is None:
+            date_str = self._kst_now().strftime("%Y%m%d")
+
+        payload = {
+            "date": date_str,
+            "source": shorts_scripts.get("source", "brief_source_script"),
+            "items": items,
+            "meta": shorts_scripts.get("meta", {}),
+        }
+
+        filename = os.path.join(self.brief_dir, f"shorts_{date_str}.json")
+        tmp_file = f"{filename}.tmp"
+        try:
+            os.makedirs(self.brief_dir, exist_ok=True)
+            with open(tmp_file, "w", encoding="utf-8") as f:
+                json.dump(payload, f, ensure_ascii=False, indent=2)
+            os.replace(tmp_file, filename)
+            return filename
+        except Exception as e:
+            if os.path.exists(tmp_file):
+                try:
+                    os.remove(tmp_file)
+                except Exception:
+                    pass
+            print(f"⚠️ 쇼츠 스크립트 저장 실패: {e}")
+            return None
+
+    def save_shorts_scripts_text(self, shorts_scripts: dict | None, date_str: str | None = None) -> str | None:
+        """Save shorts scripts to scripts/shorts_YYYYMMDD.txt."""
+        if not isinstance(shorts_scripts, dict):
+            return None
+
+        items = self._normalize_shorts_items(shorts_scripts.get("items"))
+        if not items:
+            return None
+
+        if date_str is None:
+            date_str = self._kst_now().strftime("%Y%m%d")
+
+        lines: list[str] = []
+        lines.append(f"Date: {date_str}")
+        lines.append(f"Count: {len(items)}")
+        lines.append("")
+
+        for idx, item in enumerate(items, 1):
+            lines.append(f"[{idx}] {item.get('title', '')}")
+            lines.append(f"- id: {item.get('id', '')}")
+            lines.append(f"- format: {item.get('format', '')}")
+            lines.append(f"- duration_sec_target: {item.get('duration_sec_target', '')}")
+            lines.append(f"- hook: {item.get('hook', '')}")
+            lines.append("- lines:")
+            for line in item.get("lines", []):
+                lines.append(f"  - {line}")
+            lines.append(f"- cta: {item.get('cta', '')}")
+            hashtags = item.get("hashtags", [])
+            if isinstance(hashtags, list) and hashtags:
+                lines.append(f"- hashtags: {' '.join(hashtags)}")
+            else:
+                lines.append("- hashtags:")
+            lines.append("")
+
+        filename = os.path.join(self.brief_dir, f"shorts_{date_str}.txt")
+        tmp_file = f"{filename}.tmp"
+        try:
+            os.makedirs(self.brief_dir, exist_ok=True)
+            with open(tmp_file, "w", encoding="utf-8") as f:
+                f.write("\n".join(lines).rstrip() + "\n")
+            os.replace(tmp_file, filename)
+            return filename
+        except Exception as e:
+            if os.path.exists(tmp_file):
+                try:
+                    os.remove(tmp_file)
+                except Exception:
+                    pass
+            print(f"⚠️ 쇼츠 TXT 저장 실패: {e}")
+            return None
+
+    def _attach_shorts_scripts_from_brief(
+        self,
+        briefing_data: dict,
+        date_str: str,
+        *,
+        max_retries: int = 3,
+    ) -> dict:
+        """Attach shorts_scripts derived from brief_scripts.source_script when available."""
+        if not isinstance(briefing_data, dict):
+            return briefing_data
+
+        brief_scripts = briefing_data.get("brief_scripts")
+        if not isinstance(brief_scripts, dict):
+            return briefing_data
+
+        source_script = brief_scripts.get("source_script")
+        if not isinstance(source_script, str) or not source_script.strip():
+            return briefing_data
+
+        try:
+            shorts_scripts = self.generate_shorts_scripts(
+                source_script=source_script,
+                date_str=date_str,
+                keywords=brief_scripts.get("keywords", []),
+                max_retries=max_retries,
+            )
+            if isinstance(shorts_scripts, dict) and shorts_scripts.get("items"):
+                briefing_data["shorts_scripts"] = shorts_scripts
+                briefing_data.setdefault("meta", {})["shorts_generated_by"] = (
+                    shorts_scripts.get("meta", {}).get("generated_by", "openai")
+                )
+        except Exception as e:
+            print(f"⚠️ 쇼츠 스크립트 연결 실패: {e}")
+
+        return briefing_data
+
     @staticmethod
     def _has_required_brief_flow(source_script: str) -> bool:
         """Validate ordered transition anchors to keep stable narrative flow."""
@@ -1835,6 +2157,11 @@ class SentimentAnalyzer:
                 "keywords": brief_data.get("keywords", []),
             }
             briefing_data.setdefault("meta", {})["brief_generated_by"] = "openai"
+            briefing_data = self._attach_shorts_scripts_from_brief(
+                briefing_data,
+                date_str,
+                max_retries=max_retries,
+            )
             return briefing_data
 
         raise ValueError("OpenAI brief script generation returned unexpected payload")
@@ -1870,6 +2197,11 @@ class SentimentAnalyzer:
                 "keywords": brief_data.get("keywords", []),
             }
             briefing_data.setdefault("meta", {})["brief_generated_by"] = "openai"
+            briefing_data = self._attach_shorts_scripts_from_brief(
+                briefing_data,
+                date_str,
+                max_retries=max_retries,
+            )
             return briefing_data
 
         raise ValueError("OpenAI brief script generation returned unexpected payload")
@@ -1909,6 +2241,11 @@ class SentimentAnalyzer:
                         cached = self._normalize_tts_script(cached, date_str)
                         if use_cache:
                             self.save_cached_data(cached, date_str)
+                cached = self._attach_shorts_scripts_from_brief(
+                    cached,
+                    date_str,
+                    max_retries=max_retries,
+                )
                 return cached
 
             # 캐시 재사용 모드인데 오늘 캐시가 없으면, Gemini 호출 없이 최신 캐시를 폴백으로 사용
@@ -2130,6 +2467,12 @@ News List:
                 print("🔄 휴일 다음 날: 캐시 데이터 통합 중...")
                 final_data = self._merge_holiday_cache(final_data)
                 self._clear_holiday_cache()
+
+            final_data = self._attach_shorts_scripts_from_brief(
+                final_data,
+                date_str,
+                max_retries=max_retries,
+            )
 
             # 누적 모드일 경우 캐시 병합
             if current_mode == 'accumulation':

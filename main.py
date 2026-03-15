@@ -346,6 +346,21 @@ def main(send_push=True, use_cache=True, *, ignore_done_marker: bool = False, tt
         else:
             print("⚠️ 키워드 파일 저장 실패 또는 키워드 데이터 없음")
 
+    # Save shorts scripts JSON (derived from brief source script)
+    shorts_scripts = briefing_data.get("shorts_scripts") if isinstance(briefing_data, dict) else None
+    if isinstance(shorts_scripts, dict) and shorts_scripts.get("items"):
+        shorts_path = sentiment.save_shorts_scripts_json(shorts_scripts, today_str)
+        if shorts_path:
+            print(f"✅ 쇼츠 스크립트 저장 완료: {shorts_path}")
+        else:
+            print("⚠️ 쇼츠 스크립트 저장 실패")
+
+        shorts_txt_path = sentiment.save_shorts_scripts_text(shorts_scripts, today_str)
+        if shorts_txt_path:
+            print(f"✅ 쇼츠 TXT 저장 완료: {shorts_txt_path}")
+        else:
+            print("⚠️ 쇼츠 TXT 저장 실패")
+
     if scripts_only:
         print("\n=== Finished Scripts-Only Successfully ===")
         return
