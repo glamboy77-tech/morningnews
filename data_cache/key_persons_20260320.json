@@ -1,0 +1,197 @@
+{
+  "timestamp": "2026-03-20T06:03:28.375173",
+  "date": "20260320",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "金총리 \"정치 교과서 김대중 없었으면 盧·文·이재명도 없어\"",
+          "link": "https://www.yna.co.kr/view/AKR20260319190000001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-03-19 22:43:43",
+          "description": "(서울=연합뉴스) 이상현 기자 = 김민석 국무총리는 19일 &quot;김대중(DJ·전 대통령)이 없었으면 노무현(전 대통령)이 없었고, 김대중이 없었으면...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, 전한길뉴스 비자금 주장에 “한심하고 악질적”",
+          "link": "https://www.chosun.com/politics/politics_general/2026/03/19/NH3IB7W4E5D7XOTJI5XXXJOR5I/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-03-19 20:49:05",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": false,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "李대통령, 전한길뉴스 '비자금 주장' 방영에 \"한심하고 악질적\"",
+              "link": "https://www.yna.co.kr/view/AKR20260319180900001"
+            }
+          ]
+        },
+        {
+          "title": "李 “고용 유연성 확장이 이상적… 노동자 일방 희생은 안돼”",
+          "link": "https://www.chosun.com/politics/politics_general/2026/03/20/2WUYABXLCRCP3CBVNSMG472RBI/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-03-20 00:57:00",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 \"지역 관광 활성화 위한 획기적 아이디어 내달라\"",
+          "link": "https://www.yna.co.kr/view/AKR20260319168200001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-03-19 17:44:53",
+          "description": "(서울=연합뉴스) 설승은 기자 = 이재명 대통령은 19일 &quot;지역 문화 콘텐츠를 알리고 지역 관광을 활성화할 수 있는 획기적인 아이디어를 많이 내...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 “‘전쟁 추경’ 속도가 생명… 지방 우대 원칙 준수해야”",
+          "link": "https://www.chosun.com/politics/blue_house/2026/03/19/AXGJV6GGKBDSFLABLX5RYYQ5Z4/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-03-19 15:23:41",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, 스토킹 전수조사 지시…BTS 공연엔 입국장 첫인상 강조",
+          "link": "https://www.yna.co.kr/view/AKR20260319124800001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-03-19 14:51:04",
+          "description": "(서울=연합뉴스) 설승은 황윤기 기자 = 이재명 대통령은 19일 경기 남양주시에서 발생한 스토킹 살해사건과 관련, &quot;경찰은 접수된 스토킹 신고를...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李 대통령 '언급'에…한국거래소, '50년 룰' 바꾸는 까닭은",
+          "link": "https://www.hankyung.com/article/202603191850i",
+          "source": "한국경제-기업",
+          "published_dt": "2026-03-19 20:00:18",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 7,
+      "role": "한국 대통령"
+    },
+    "트럼프": {
+      "articles": [
+        {
+          "title": "金총리, 순방 마치고 귀국…트럼프 등 만나며 광폭 '외교행보'",
+          "link": "https://www.yna.co.kr/view/AKR20260319171600001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-03-19 18:18:48",
+          "description": "(서울=연합뉴스) 이상현 기자 = 김민석 국무총리가 미국·스위스 순방을 마치고 19일 저녁 인천국제공항을 통해 귀국했다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "전쟁 중 터진 트럼프의 호통 “은행들, 스테이블코인 합의 서둘러라”",
+          "link": "https://www.chosun.com/economy/economy_general/2026/03/20/QMZ633N7CJGLDNUBKBKMVTXE2Y/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-03-20 03:00:00",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "日 “美, 왜 전쟁 알리지 않았냐”…트럼프 “진주만 공습 때 미리 말 해줬냐”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260320/133568613/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-03-20 05:07:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/03/20/133568628.1.jpg\" vspace=\"10\" />“기습에 대해 일본보다 잘 아는 나라가 어디 있느냐?”19일(현지 시간) 미국 수도 워싱턴의 백악관 집무실. 도널드 트럼프 미국 대통령이 갑작스런 발언에 옆자리에서 두 손을 모으고 경청하던 다카이치 사나에 일본 총리의 표정이 잠시 굳어졌다. 회담 내내 밝은 표정을 유지하던 다카이치 총리의 얼굴에서 미소는 사라지고, 놀란 듯 눈썹은 치켜 올라갔다. 이후 그는 애써 태연한 듯 다시 옅은 미소를 지었지만, 트럼프 대통령의 발언이 끝나자 손목에 찬 시계를 보는 등 불안한 기색을 감추지 못했다.트럼프 대통령과 다카이치 총리가 정상회담을 가진 이날, 회담 전부터 관심은 트럼프 대통령이 일본에 대(對)이란 군사 작전 관련해 어떤 청구서를 내밀지에 관심이 집중됐다. 그는 앞서 14일 한국·중국·일본·영국·프랑스 등 5개국에 중동산 원유의 핵심 수송로인 호르무즈 해협을 호위하기 위해 군함을 보내라고 요구했다. 이후에도 연일 ‘파병 청구서’를 들이밀며 압박 수위를 높여왔다. 이날 역시 이와 관련한",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "‘이란 임박한 핵 위협’ 판단, 트럼프에 떠넘긴 美 정보 수장",
+          "link": "https://www.donga.com/news/Inter/article/all/20260320/133568108/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-03-20 04:30:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/03/20/133565751.5.jpg\" vspace=\"10\" />털시 개버드 미국 국가정보국(DNI) 국장이 18일 미 상원 정보위원회 청문회에서 대이란 전쟁과 관련해 “무엇이 임박한 위협인지 결정할 수 있는 유일한 사람은 대통령”이라고 밝혔다. 국가안보의 위협 요소를 객관적으로 평가해 보고해야 하는 정보기관 수장이 자신의 역할을 도널드 트럼프 대통령에게 떠넘겼다는 지적이 나왔다. 개버드 국장은 이날 청문회에서 ‘이란 정권이 임박한 핵 위협을 가하고 있다는 게 정보기관의 판단이냐’는 존 오소프 민주당 상원의원의 질문에 “정보기관은 대통령이 판단을 내리는 데 필요한 정보를 제공하는 역할을 한다”며 즉답을 피했다. 앞서 전날 DNI 산하 국가대테러센터(NCTC)를 총괄한 조 켄트 센터장이 물러나며 “이란은 우리나라에 임박한 위협을 가하지 않았다”고 주장했다. 미 뉴욕타임스(NYT)는 “개버드는 이란의 긴급한 핵 위협에 대한 트럼프 대통령의 발언과 자신이 신뢰하는 보좌관의 사직을 조율해야 하는 난처한 임무를 맡았다”고 전했다. 트럼프 대통령의 눈",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프 “카타르 LNG시설 또 공격땐 이란 가스전 날려버릴 것”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260319/133565346/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-03-19 16:37:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/03/19/133565314.3.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령은 18일(현지 시간) 이란이 카타르의 주요 가스 생산 시설을 폭격한 것과 관련해 “카타르 액화천연가스(LNG) 시설을 다시 공격할 경우 사우스파르스 가스전을 날려버리겠다”고 경고했다.트럼프 대통령은 이날 트루스소셜에 “이스라엘은 중동 사태에 대한 분노로 이란의 주요 가스 시설인 사우스파르스 가스전을 무차별 공격했다”며 “(사우스파르스 가스전은) 전체 시설 중 비교적 작은 부분만 공격받았다”고 말했다.이어 “미국은 이 공격에 대해 전혀 알지 못했으며, 카타르는 이 공격과 어떠한 관련도 없으며, 공격이 일어날 것이라는 사실조차 몰랐다”며 “불행히도 이란은 이러한 사실이나 사우스파르스 공격과 관련된 중요한 정보를 전혀 알지 못한 채, 정당하지 않고 부당하게 카타르의 LNG 가스 시설 일부를 공격했다”고 했다.트럼프 대통령은 “이란이 무모하게 아무런 잘못도 없는 카타르를 공격하지 않는 한, 이스라엘은 매우 중요하고 가치 있는 사우스파르스 가스전에 대한 추가",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 5,
+      "role": "미국 대통령"
+    },
+    "리사 수": {
+      "articles": [
+        {
+          "title": "리사 수 만난 업스테이지 대표… GPU 도입 논의",
+          "link": "https://www.chosun.com/economy/tech_it/2026/03/20/ZKZFM4TVFNBGVFFG72AKWNP2KI/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-03-20 00:34:00",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "sector": "AI/로봇",
+          "related_full_sources": []
+        },
+        {
+          "title": "리사 수 만나도 잠잠…네이버 주가 지지부진",
+          "link": "https://www.hankyung.com/article/2026031932751",
+          "source": "한국경제-기업",
+          "published_dt": "2026-03-19 17:34:06",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "sector": "통신/IT",
+          "related_full_sources": []
+        },
+        {
+          "title": "리사 수 만난 김성훈 업스테이지 대표 “GPU 1만장 필요”",
+          "link": "https://www.chosun.com/economy/tech_it/2026/03/19/A3LLVXV2IBAWVFQJO2GHFHWA3Q/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-03-19 16:02:17",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "sector": "AI/로봇",
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "AMD CEO"
+    }
+  }
+}
