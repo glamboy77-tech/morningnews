@@ -5,10 +5,10 @@ Wants=network-online.target
 
 [Service]
 Type=oneshot
-User=REPLACE_WITH_RUN_USER
-WorkingDirectory=REPLACE_WITH_MORNINGNEWS_DIR
-EnvironmentFile=REPLACE_WITH_MORNINGNEWS_DIR/.env
-ExecStart=/bin/bash REPLACE_WITH_MORNINGNEWS_DIR/run_morningnews.sh
+User=glamboy
+WorkingDirectory=/data/projects/morningnews
+EnvironmentFile=/data/projects/morningnews/.env
+ExecStart=/bin/bash /data/projects/morningnews/run_morningnews.sh
 
 [Install]
 WantedBy=multi-user.target

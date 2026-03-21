@@ -6,9 +6,9 @@ Wants=network-online.target
 [Service]
 Type=oneshot
 User=REPLACE_WITH_RUN_USER
-WorkingDirectory=REPLACE_WITH_MORNINGNEWS_YOUTUBE_DIR
-EnvironmentFile=REPLACE_WITH_MORNINGNEWS_YOUTUBE_DIR/.env
-ExecStart=/bin/bash REPLACE_WITH_MORNINGNEWS_YOUTUBE_DIR/bin/run_daily.sh
+WorkingDirectory=/data/projects/morningnews-youtube
+EnvironmentFile=/data/projects/morningnews-youtube/.env
+ExecStart=/bin/bash /data/projects/morningnews-youtube/bin/run_daily.sh
 
 [Install]
 WantedBy=multi-user.target
