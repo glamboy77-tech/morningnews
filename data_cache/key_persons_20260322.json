@@ -1,0 +1,283 @@
+{
+  "timestamp": "2026-03-22T06:05:09.393202",
+  "date": "20260322",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "李대통령, 대전 화재 참사에 “원인 철저규명…끝까지 책임지겠다”",
+          "link": "https://www.chosun.com/politics/politics_general/2026/03/21/FQETLKLRAJF2TAXPMCUHHZIQ3I/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-03-21 21:11:03",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": [
+            {
+              "source": "조선일보-경제",
+              "title": "李대통령, 대전 안전공업 화재 참사에 “끝까지 책임지겠다”",
+              "link": "https://www.chosun.com/economy/economy_general/2026/03/21/MNSDIMJXMM2WINJZGZSTSZBVG4/"
+            },
+            {
+              "source": "연합뉴스-정치",
+              "title": "李대통령, 대전화재 참사에 \"원인 철저규명…끝까지 책임지겠다\"",
+              "link": "https://www.yna.co.kr/view/AKR20260321053300001"
+            }
+          ]
+        },
+        {
+          "title": "金여사, 文 前대통령 장모상 빈소 찾아 조문…애도의 뜻 전해(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260321036351001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-03-21 18:56:44",
+          "description": "(서울=연합뉴스) 설승은 기자 = 이재명 대통령의 부인 김혜경 여사는 21일 문재인 전 대통령의 배우자 김정숙 여사의 모친상 빈소를 찾아 조문했...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "金여사, 文 前대통령 장모상 빈소 찾아 조문…유족 위로",
+              "link": "https://www.yna.co.kr/view/AKR20260321036300001"
+            }
+          ]
+        },
+        {
+          "title": "국힘 선거 지리멸렬... 여권은 지역구 쇼핑",
+          "link": "https://www.chosun.com/politics/2026/03/22/P3OOMVQ3XJDXHPLKM7JKXREDT4/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-03-22 05:00:00",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "'檢조작기소' 국조요구서 오늘 본회의 의결…3박4일 필버 종료",
+          "link": "https://www.yna.co.kr/view/AKR20260321050500001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-03-22 05:00:00",
+          "description": "(서울=연합뉴스) 서혜림 기자 = 더불어민주당이 추진하는 이른바 &apos;윤석열 정권 시절 검찰의 이른바 조작기소 의혹에 관한 국정조사&apos; 계획서가 22...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "與전남광주특별시장 경선 후보 정체불명 득표율 문건 유포 파장(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260321028351054",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-03-21 18:05:44",
+          "description": "(광주=연합뉴스) 박철홍 기자 = 더불어민주당 전남광주통합특별시장 후보 예비경선 결과 발표 이후 각 후보자 권리당원 득표율을 담은 &apos;예비경선 결...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "지방/행정",
+          "is_representative": false,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "與전남광주특별시장 경선 '정체불명 득표율 문건' 무차별 유포",
+              "link": "https://www.yna.co.kr/view/AKR20260321028300054"
+            }
+          ]
+        },
+        {
+          "title": "기획처 석달만에 수장 맞나…박홍근號, 추경·미래전략 방향타",
+          "link": "https://www.yna.co.kr/view/AKR20260321044500002",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-03-22 05:45:00",
+          "description": "(세종=연합뉴스) 이준서 기자 = 올해 1월 기획예산처 출범 이후로 석 달 가까이 지속된 &apos;수장 공백 사태&apos;가 조만간 마침표를 찍을 것으로 보인...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "與 \"지방선거 선거구 획정안 등 내달 16일까지 본회의 의결돼야\"",
+          "link": "https://www.yna.co.kr/view/AKR20260321044700001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-03-21 16:53:04",
+          "description": "(서울=연합뉴스) 서혜림 정연솔 기자 = 더불어민주당은 6·3 지방선거에서 적용할 선거구 획정 등의 사안을 다음 달 16일까지 국회 본회의에서 ...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, ‘사업대출 집구매’ 경고… “선제적 자발 상환하라”",
+          "link": "https://www.chosun.com/economy/economy_general/2026/03/21/MNRTEOBYGM3DQYTGMUYDQN3BGM/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-03-21 14:07:05",
+          "description": "이재명 대통령은 21일 개인 사업자용 대출을 받아 주택을 구매하는 ‘용도 외 유용’ 사례를 겨냥해 형사처벌 등의 불이익을 받기 전에 대출금을 자진 상환하라고 권고했다.  이 대통령은 이날 엑스(X·옛 트위터)에 지난해 하반기 주택 구입 시 사업자 대출을 자금 조달 수단으로 사용한 사례가 전년 동기 대비 35% 늘어 국세청이 전수 검증하기로 했다는 내용의 기",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": [
+            {
+              "source": "조선일보-정치",
+              "title": "李대통령, ‘사업대출 집 구매’에 “선제적 자발 상환하라” 거듭 경고",
+              "link": "https://www.chosun.com/politics/politics_general/2026/03/21/M4CKV6WKQFH65KVEJOJ2AE65FU/"
+            }
+          ]
+        }
+      ],
+      "count": 8,
+      "role": "한국 대통령"
+    },
+    "트럼프": {
+      "articles": [
+        {
+          "title": "미 경제 석학 “4~5년 내 장기금리 급등 동반한 금융 충격올 것”",
+          "link": "https://www.chosun.com/economy/economy_general/2026/03/21/4PTRSHKOKJHLVGXM4H35GCISJE/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-03-21 18:12:11",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "[다음주 경제] 이란사태로 소비심리 나빠졌나…추경안도 관심",
+          "link": "https://www.yna.co.kr/view/AKR20260321020500002",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-03-21 08:54:08",
+          "description": "(서울=연합뉴스) 신호경 이준서 임수정 기자 = 다음 주(3월 23∼27일)에는 최근 소비자 체감 경기와 출생·혼인 추이를 가늠할 수 있는 지표...",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "골드만 CEO “신용 사이클 사라지지 않았다”...사모대출 위험 경고",
+          "link": "https://www.chosun.com/economy/economy_general/2026/03/21/XX4UQAHAFVGZXK77Y3VEJIEPOI/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-03-21 10:50:29",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "손정의, 美에 750조 투자... 초대형 AI 데이터센터 짓는다",
+          "link": "https://www.chosun.com/economy/economy_general/2026/03/21/5AGPUJQZXJE4DENI4PK7UVLRXM/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-03-21 14:08:35",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "sector": "AI/로봇",
+          "related_full_sources": []
+        },
+        {
+          "title": "쿠팡 로저스 대표, 10시간 심야배송 뛰고 6500원 콩나물 국밥 회동",
+          "link": "https://www.chosun.com/economy/industry-company/2026/03/21/7LAEZF7OAZDUNHK3HNIBIN4UJE/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-03-21 08:34:12",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "sector": "유통/소매",
+          "related_full_sources": []
+        },
+        {
+          "title": "이스라엘 “이번 주 이란 공격 수위 대폭 강화…정권 무력화”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260321/133577816/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-03-21 22:16:26",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/03/21/133577817.1.jpg\" vspace=\"10\" />이스라엘 카츠 이스라엘 국방장관이 이번 주 미군과 합동으로 이란에 대한 공격 수위를 대폭 끌어올리겠다고 선언했다. AP에 따르면 카츠 장관은 21일(현지 시간) 텔아비브 이스라엘군 본부 지하 지휘소에서 열린 군 고위 관계자들과 전황 평가 회의에서 이같이 밝혔다.그는 “이번 주 이스라엘군과 미군이 이란 테러 정권과 그 기반 시설을 대상으로 가할 공격의 강도가 대폭 강화할 것”이라고 말했다. 이어 “이스라엘은 이란 정권의 지휘부를 무력화하고 전략적 역량을 저지하기 위해 공세를 지속하기로 결정했다”며 “이스라엘과 역내 미국의 이해관계에 대한 모든 안보 위협이 제거될 때까지 멈추지 않을 것”이라고 강조했다. 카츠 장관은 “이스라엘군은 강하며, 이스라엘 후방 역시 견고하다”면서 “모든 전쟁 목표가 달성될 때까지 우리는 공격을 중단하지 않을 것”이라고 덧붙였다.[서울=뉴시스]",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 6,
+      "role": "미국 대통령"
+    },
+    "김부겸": {
+      "articles": [
+        {
+          "title": "\"마냥 거부하긴 어렵다\" 김부겸 대구시장 출마 결정 임박",
+          "link": "https://www.yna.co.kr/view/AKR20260320110800053",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-03-22 05:30:00",
+          "description": "(대구=연합뉴스) 박세진 기자 = 김부겸 전 국무총리의 오는 6월 대구시장 선거 출마 여부가 조만간 결정될 예정이어서 지역 정가에 관심이 집중되...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "지방/행정",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "[BTS 컴백] 金총리, 행사장 점검…\"K컬처 경쟁력, 안전으로 완성\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260321034351001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-03-21 15:07:25",
+          "description": "(서울=연합뉴스) 설승은 기자 = 김민석 국무총리는 21일 방탄소년단(BTS) 컴백 공연이 열리는 서울 광화문 광장을 찾아 행사장 안전 관리 상...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "[다음주 경제] 이란사태로 소비심리 나빠졌나…추경안도 관심",
+          "link": "https://www.yna.co.kr/view/AKR20260321020500002",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-03-21 08:54:08",
+          "description": "(서울=연합뉴스) 신호경 이준서 임수정 기자 = 다음 주(3월 23∼27일)에는 최근 소비자 체감 경기와 출생·혼인 추이를 가늠할 수 있는 지표...",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "전 국무총리, 대구시장 후보"
+    },
+    "오세훈": {
+      "articles": [
+        {
+          "title": "박주민 \"서울시장에 관리자 안돼\"…정원오 \"난 국힘 이길 후보\"",
+          "link": "https://www.yna.co.kr/view/AKR20260321036500001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-03-21 15:02:33",
+          "description": "(서울=연합뉴스) 서혜림 정연솔 기자 = 더불어민주당 서울시장 후보 예비경선(23∼24일)을 앞두고 21일 진행된 합동연설회에서 5명의 후보는 ...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "지방/행정",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "결국 시장 후보 등록한 오세훈... “내가 안 나가면 시의회 넘어가”",
+          "link": "https://www.chosun.com/politics/2026/03/22/TVPAH35CRNHRJOSWB3UJFE3MNE/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-03-22 05:00:00",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "지방/행정",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "“더 싸게 팔게요”…보유세 폭탄 우려에 매물 던지는 ‘마용성’ 집주인들",
+          "link": "https://www.mk.co.kr/news/realestate/11994514",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-03-21 22:04:40",
+          "description": "강남3구(강남·서초·송파구)와 용산구에서 시작된 집값하락 움직임이 ‘한강벨트’로 확산하며 서울 집값 상승세가 주춤하는 모양새다. 공시가격 발표에 따른 보유세 증가 우려에 따라 가격..",
+          "category": "domestic",
+          "priority_score": 5,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "서울시장"
+    }
+  }
+}
