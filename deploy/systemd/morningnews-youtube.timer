@@ -1,0 +1,10 @@
+[Unit]
+Description=Run MorningNews YouTube follow-up every day at 06:15 KST
+
+[Timer]
+OnCalendar=*-*-* 06:15:00 Asia/Seoul
+Persistent=true
+Unit=morningnews-youtube.service
+
+[Install]
+WantedBy=timers.target

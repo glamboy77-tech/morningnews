@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-REPO_DIR="/home/glamboy77/morningnews"
+SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+REPO_DIR="$SCRIPT_DIR"
 LOG_DIR="$REPO_DIR/logs"
 LOG_FILE="$LOG_DIR/morningnews_$(date +'%Y%m%d').log"
 

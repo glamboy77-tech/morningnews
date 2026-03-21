@@ -1,0 +1,14 @@
+[Unit]
+Description=MorningNews daily generation job
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=REPLACE_WITH_RUN_USER
+WorkingDirectory=REPLACE_WITH_MORNINGNEWS_DIR
+EnvironmentFile=REPLACE_WITH_MORNINGNEWS_DIR/.env
+ExecStart=/bin/bash REPLACE_WITH_MORNINGNEWS_DIR/run_morningnews.sh
+
+[Install]
+WantedBy=multi-user.target
