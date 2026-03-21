@@ -1366,6 +1366,52 @@ class SentimentAnalyzer:
 
         return len(issues) == 0, issues
 
+    @staticmethod
+    def _sanitize_brief_transition_sentences(source_script: str | None) -> str:
+        """Remove duplicated or near-duplicate transition sentences around fixed anchors."""
+        if not isinstance(source_script, str) or not source_script.strip():
+            return source_script or ""
+
+        anchors = [phrase for _, phrase in SentimentAnalyzer._brief_flow_anchors()]
+        anchor_set = set(anchors)
+
+        # 문장 단위 분리(문장부호+개행)
+        sentences = [
+            s.strip()
+            for s in re.split(r"(?<=[.!?。？！])\s+|\n+", source_script)
+            if s and s.strip()
+        ]
+
+        transition_re = re.compile(r"(이제|이어서|다음은|먼저|마지막으로|넘어가겠습니다|보겠습니다|짚어보겠습니다)")
+        section_re = re.compile(r"(정치|국내|거시|생활|기업|산업|기술|부동산|주거|국제|안보|호재|악재)")
+
+        cleaned: list[str] = []
+        last_anchor_idx = -10
+
+        for sent in sentences:
+            is_anchor = sent in anchor_set
+
+            if is_anchor:
+                # 동일 앵커 중복 제거
+                if sent in cleaned:
+                    continue
+                cleaned.append(sent)
+                last_anchor_idx = len(cleaned) - 1
+                continue
+
+            # 앵커 직후 유사 전환문 제거
+            if (
+                len(cleaned) - last_anchor_idx <= 1
+                and transition_re.search(sent)
+                and section_re.search(sent)
+            ):
+                continue
+
+            cleaned.append(sent)
+
+        # 문단 리듬 복원
+        return "\n\n".join(cleaned)
+
     def save_tts_script_text(self, briefing_data: dict, date_str: str | None = None) -> str | None:
         """Save TTS script to a text file and return its path."""
         if briefing_data is None:
@@ -1908,7 +1954,7 @@ class SentimentAnalyzer:
 
     @staticmethod
     def _has_required_brief_flow(source_script: str) -> bool:
-        """Validate ordered transition anchors to keep stable narrative flow."""
+        """Validate ordered transition anchors and enforce each anchor appears exactly once."""
         if not isinstance(source_script, str) or not source_script.strip():
             return False
         anchors = [
@@ -1920,6 +1966,12 @@ class SentimentAnalyzer:
             "이제 오늘의 호재를 정리하겠습니다.",
             "이어서 오늘의 악재를 정리하겠습니다.",
         ]
+
+        # 각 앵커 정확히 1회
+        for anchor in anchors:
+            if source_script.count(anchor) != 1:
+                return False
+
         pos = -1
         for anchor in anchors:
             nxt = source_script.find(anchor, pos + 1)
@@ -1945,6 +1997,7 @@ class SentimentAnalyzer:
 
         if isinstance(brief_data, dict) and isinstance(brief_data.get("source_script"), str):
             source = self._apply_person_name_guard(brief_data.get("source_script"), date_str)
+            source = self._sanitize_brief_transition_sentences(source)
             if self._has_required_brief_flow(source):
                 brief_data["source_script"] = source
                 return brief_data
@@ -1959,6 +2012,8 @@ class SentimentAnalyzer:
                 + "5) 마지막으로 국제와 안보 흐름을 보겠습니다.\n"
                 + "6) 이제 오늘의 호재를 정리하겠습니다.\n"
                 + "7) 이어서 오늘의 악재를 정리하겠습니다.\n"
+                + "8) 위 7개 문장 외에 유사한 섹션 전환 문장을 추가하지 마세요.\n"
+                + "9) 각 전환 문장은 정확히 1회만 사용하세요.\n"
             )
             retry_data = self._generate_tts_script_with_openai(
                 corrective_prompt,
@@ -1967,6 +2022,7 @@ class SentimentAnalyzer:
             )
             if isinstance(retry_data, dict) and isinstance(retry_data.get("source_script"), str):
                 retry_source = self._apply_person_name_guard(retry_data.get("source_script"), date_str)
+                retry_source = self._sanitize_brief_transition_sentences(retry_source)
                 retry_data["source_script"] = retry_source
                 return retry_data
 
