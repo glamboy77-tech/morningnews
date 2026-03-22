@@ -1,0 +1,211 @@
+{
+  "timestamp": "2026-03-23T06:03:09.790153",
+  "date": "20260323",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "李대통령, 오늘 '통합방위회의' 주재…WSJ 편집장 접견도",
+          "link": "https://www.yna.co.kr/view/AKR20260322052500001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-03-23 05:00:03",
+          "description": "(서울=연합뉴스) 황윤기 기자 = 이재명 대통령은 23일 오후 청와대에서 제59차 중앙통합방위회의를 주재한다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "뉴 이재명은 기회주의자? 유시민 ‘ABC론’ 논란",
+          "link": "https://www.chosun.com/politics/politics_general/2026/03/22/QMALNB7HJFFY7CBU7XT37SGN6M/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-03-22 14:12:06",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李 “다주택 공직자, 부동산 정책 업무서 빼라”",
+          "link": "https://www.chosun.com/politics/politics_general/2026/03/23/ZOSYFEIJ7RE3VNEAQ6CAI6TJ6I/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-03-23 00:48:00",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": [
+            {
+              "source": "조선일보-경제",
+              "title": "李대통령의 결단…\"다주택 공직자 부동산 정책서 빠져라\"",
+              "link": "https://www.chosun.com/economy/realty/realestate_news/2026/03/22/GJQTINJWMYYTAOJTGEZTIOLGGE/"
+            },
+            {
+              "source": "땅집고-부동산",
+              "title": "李대통령의 결단…\"다주택 공직자 부동산 정책서 빠져라\"",
+              "link": "https://realty.chosun.com/site/data/html_dir/2026/03/22/2026032200907.html"
+            }
+          ]
+        },
+        {
+          "title": "‘李 공소 취소’ 국조, 여당 주도로 통과",
+          "link": "https://www.chosun.com/politics/assembly/2026/03/23/EJD4J5BDDVCLZMKQQUTQ4NVNF4/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-03-23 00:47:00",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, 부동산 정책 논의서 '다주택 공직자' 배제 지시",
+          "link": "https://www.yna.co.kr/view/AKR20260322018600001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-03-22 10:07:27",
+          "description": "(서울=연합뉴스) 임형섭 기자 = 이재명 대통령은 22일 &quot;주택과 부동산 정책의 논의·입안·보고·결재 과정에서 다주택자와 비거주 고가 주택 소유...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": true,
+          "related_full_sources": [
+            {
+              "source": "조선일보-정치",
+              "title": "李 대통령 “부동산 정책서 다주택 공직자 배제”",
+              "link": "https://www.chosun.com/politics/politics_general/2026/03/22/CAXE3R3C3NACNJO36J5RGVACOE/"
+            }
+          ]
+        },
+        {
+          "title": "李, ‘사과 요구 비판’ SBS 노조에 “언론자유 특권 아냐”",
+          "link": "https://www.chosun.com/economy/economy_general/2026/03/22/MZTDANBQG5RTKMBZGY2TEY3FGQ/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-03-22 11:58:59",
+          "description": "이재명 대통령이 20대 대선 후보 당시 제기된 ‘조폭 연루설’과 관련해 청와대의 사과 요구에 반발한 SBS 노조를 향해 “언론의 자유가 언론의 특권을 의미하는 것은 아니다”라고 했다. 앞서 청와대가 해당 의혹을 보도한 모든 언론에 ‘조폭 연루설을 허위’라는 취지의 추후보도를 청구하고, 의혹을 제기한 국민의힘과 SBS ‘그것이 알고싶다’ 측에 공개 사과를 요",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        }
+      ],
+      "count": 6,
+      "role": "한국 대통령"
+    },
+    "트럼프": {
+      "articles": [
+        {
+          "title": "트럼프 ‘48시간 통첩’… “호르무즈 개방 안하면 이란 발전소들 초토화”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260323/133582463/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-03-23 04:30:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/03/22/133578414.3.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령이 21일(현지 시간) 트루스소셜을 통해 “이란이 지금부터 48시간 안에 호르무즈 해협을 완전히 개방하지 않는다면 미국은 가장 큰 발전소를 시작으로 이란의 각종 발전소를 공격해 초토화시킬 것”이라고 밝혔다. 이란의 위협으로 중동산 원유의 핵심 수송로인 호르무즈 해협이 봉쇄돼 국제유가 급등 현상 등이 지속되자 최후통첩을 날린 것이다. 트럼프 대통령이 민간 부문에도 충격을 줄 수 있는 발전소 공격을 언급한 건 이란의 국가 운영을 마비시키는 수준으로 공격을 확대할 가능성을 시사한 것이란 해석이 나온다. 이란은 강경 대응을 예고했다. 22일 이란 타스님통신에 따르면 이란군은 “적대국의 어떠한 공격에도 더 심각한 결과로 대응할 것”이라고 밝혔다. 같은 날 로이터통신에 따르면 이란군은 미국이 이란의 연료 및 에너지 인프라를 공격할 경우 역내 모든 미국의 에너지, 정보기술(IT), 담수화 시설을 공격할 것이라고도 했다. 앞서 이란은 20일 자국에서 4000km 떨어진",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프 “日, 헌법 제약에도 美 도울것” 압박",
+          "link": "https://www.donga.com/news/Inter/article/all/20260323/133582448/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-03-23 04:30:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/03/23/133580757.4.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령(사진)이 20일 이란이 봉쇄 중인 호르무즈 해협의 안전 확보에 일본이 더 기여해줄 것을 재차 요구했다. 특히 일본 헌법상 자위대 파병에 어려움이 있다는 점을 언급하면서도 미국이 원하면 일본이 나서줄 것이란 인식을 드러냈다. 아사히신문과 교도통신 등은 22일 호르무즈 해협 상황을 비롯한 중동 정세가 전반적으로 안정되면 일본이 기뢰 제거용 함정을 해협에 파견하는 것을 미국에 제안할 가능성이 있다고 전했다.트럼프 대통령은 20일 폭스뉴스와의 인터뷰에서 전날 열린 미일 정상회담에서 자위대 파병 논의가 있었느냐는 질문에 “(일본) 헌법상의 제약은 있지만, 우리(미국)가 필요로 한다면 일본은 지원해 줄 것”이라고 했다.앞서 다카이치 사나에(高市早苗) 일본 총리는 트럼프 대통령과 정상회담을 마친 뒤 “호르무즈 해협의 안전 확보는 매우 중요하지만, 일본의 법적 테두리 내에서 할 수 있는 것과 할 수 없는 것이 있으며 이에 대해 상세히 명확하게 설명했다”고 했다. 일본",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": [
+            {
+              "source": "동아일보-국제",
+              "title": "트럼프, 미일회담 다음날 “日, 헌법 제약에도 美 도울 것” 압박",
+              "link": "https://www.donga.com/news/Inter/article/all/20260322/133579036/1"
+            }
+          ]
+        },
+        {
+          "title": "‘대선 러 개입’ 수사 뮬러 前FBI국장 별세…트럼프 “기쁘다”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260322/133581762/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-03-22 21:17:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/03/22/133581970.1.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령이 21일 2017년 대선 과정에서 자신과 러시아의 유착 의혹을 수사한 로버트 뮬러 전 연방수사국(FBI) 국장이 전날 숨지자 “그가 죽어서 기쁘다”고 밝혔다. 이른바 ‘러시아 게이트’ 수사를 정치 조작이라며 반발해 온 트럼프가 수사 책임자의 죽음에 원색적으로 앙금을 드러낸 것이다.이날 그는 자신의 트루스소셜에 “로버트 뮬러가 방금 죽었다. 잘됐다. 그가 죽어서 기쁘다. 이제 더는 무고한 사람들을 해칠 수 없다”고 썼다. 이에 공화당 내에서도 “기독교적 가치에 어긋나는 잘못된 발언”(돈 베이컨 하원의원)이라는 비판이 나왔다.앞서 뮬러 전 국장 유족은 이날 성명을 통해 고인이 향년 81세로 전날 세상을 떠났다고 밝혔다. 사망 원인이나 장소는 공개되지 않았다. 뉴욕타임스(NYT)는 그가 2021년 여름 파킨슨병 진단을 받았다고 보도한 바 있다. 고인은 베트남전 참전용사이자 퍼플하트 훈장 수훈자로, 2001년 9·11 테러 일주일 전 FBI 국장에 취임했다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "美 공항 ‘셧다운 혼란’에…트럼프 “ICE 투입” 민주당 압박",
+          "link": "https://www.donga.com/news/Inter/article/all/20260322/133579524/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-03-22 17:19:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/03/22/133581016.1.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령이 자국내 공항 혼란을 수습하기 위해 23일부터 주요 공항들에 이민세관단속국(ICE) 요원을 배치하겠다고 밝혔다. 앞서 미국 의회의 예산안 합의 결렬로 국토안보부의 셧다운(일시 업무 정지)이 5주째 이어진 데 따른 조치다. 불법 이민 단속 대상이 미국 거주자에서 입국자로 확대되는 조치란 분석이 제기된다. 그간 ICE 요원들이 보여준 거친 단속 행태를 감안할 때 공항 이용 과정에서의 불편과 혼란이 가중될 것으로 보인다. 일각에선 공항 보안과 관련된 단속 수위를 높이고, 운영에 불편함을 가중시키는 것을 통해 야당인 민주당이 예산안에 합의하게끔 압박하는 조치란 평가도 나온다.트럼프 대통령은 21일 자신의 트루스소셜에 “급진 좌파 민주당이 미국, 특히 공항을 다시 자유롭고 안전해지도록 하는 합의에 즉각 서명하지 않는다면, 우리의 뛰어나고 애국적인 ICE 요원들을 공항에 투입할 것”이라고 썼다. 이어 “ICE 요원들은 이전에 누구도 본 적 없는 방식으로 (공항) 보",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프 이란에 48시간 통첩…“호르무즈 안 열면 발전소 파괴”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260322/133578373/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-03-22 09:34:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/03/22/133578414.3.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령은 21일(현지 시간) 이란을 향해 “지금으로부터 48시간 이내에 어떠한 위협도 없이 호르무즈 해협을 전면 개방하지 않을 경우 이란의 여러 발전소를 파괴하겠다”고 경고했다. 이에 이란도 자국의 연료·에너지 시설이 공격받으면 미국 에너지 시설에 보복하겠다고 위협했다.트럼프 대통령은 소셜미디어 트루스소셜을 통해 “가장 큰 발전소부터 (파괴를) 시작할 것”이라고 말했다.이후 이란군 작전사령부는 “만약 미국이 이란의 연료 및 에너지 기반 시설을 공격한다면 이란은 역내 미국 에너지·정보기술·담수화 시설을 공격 대상으로 삼을 것”이라고 밝혔다고 로이터통신이 보도했다.트럼프 대통령의 해당 발언은 이란에 대한 군사 공격을 점차 축소하겠다고 밝힌 지 하루 만에 나왔다. 트럼프 대통령은 전날엔 트루스소셜에서 “우리는 이란 테러 정권에 대한 중동에서의 대규모 군사 작전을 단계적으로 축소하는 방안을 검토하면서 목표 달성에 매우 근접해 있다”고 했다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 5,
+      "role": "미국 대통령"
+    },
+    "정청래": {
+      "articles": [
+        {
+          "title": "與, 봉하마을 현장 최고위…정청래, 양산서 민생 일정",
+          "link": "https://www.yna.co.kr/view/AKR20260322052800001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-03-23 05:00:00",
+          "description": "(서울=연합뉴스) 오규진 기자 = 더불어민주당 정청래 대표는 23일 노무현 전 대통령의 묘역이 있는 경남 김해 봉하마을을 찾는다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "정청래 “미국식으로 후반기 상임위원장 100% 민주당 몫”",
+          "link": "https://www.chosun.com/economy/economy_general/2026/03/22/GJTGCOJQGNRGEYZQMRSGIYJVME/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-03-22 17:45:14",
+          "description": "정청래 더불어민주당 대표가 제22대 국회 후반기 상임위원회 구성과 관련해 여당인 민주당이 모든 상임위의 위원장을 맡겠다고 밝혔다. 이재명 대통령이 최근 국무회의에서 야당 소속 위원장을 둔 국회 정무위원회를 직격하자, 여당 대표가 ‘100% 여당 위원장’을 예고한 것이다.  정 대표는 22일 국회에서 열린 의원총회에서 “중동 사태로 민생경제가 어려움에 처해",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "정청래 \"후반기 상임위원장 100%, 일하는 민주당이 맡아 책임\"",
+              "link": "https://www.yna.co.kr/view/AKR20260322047800001"
+            }
+          ]
+        },
+        {
+          "title": "“영광 군수, 사업 계약 대가로 딸 통해 3000만원 수수” 의혹... 정청래 “감찰 지시”",
+          "link": "https://www.chosun.com/politics/assembly/2026/03/22/VTZQHKIH7ZE7TFUFKZ7GBGWU5A/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-03-22 15:03:19",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": true,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "더불어민주당 수석최고위원"
+    }
+  }
+}
