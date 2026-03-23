@@ -5,11 +5,11 @@
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Morning News 2026.03.24</title>
-            <link rel="manifest" href="manifest.json">
+            <link rel="manifest" href="../manifest.json">
             <script>
               // Service Worker Registration
               if ('serviceWorker' in navigator) {
-                navigator.serviceWorker.register('sw.js')
+                navigator.serviceWorker.register('../sw.js')
                   .then(registration => {
                     console.log('Service Worker registered:', registration);
                   })
@@ -171,7 +171,6 @@ ${shareText}`);
                   if (geminiLoadTimer) clearTimeout(geminiLoadTimer);
                   geminiLoadTimer = setTimeout(() => {
                       if (!geminiLoaded) {
-                          // Keep the hint visible but allow interaction if needed.
                           setGeminiLoading(false);
                       }
                   }, 15000);
@@ -951,7 +950,7 @@ ${shareText}`);
                         <button class="action-btn" onclick="shareMorningBriefing()">📤 오늘 브리핑 공유</button>
                     </div>
                 </header>
-        <div class="sticky-nav"><a href="archive.html" class="nav-pill">🗓️ 아카이브</a><a href="https://www.youtube.com/@morning5min" class="nav-pill" target="_blank" rel="noopener noreferrer">🎬 데일리 맥락</a><a href="#인물별" class="nav-pill">👤 인물별 (19)</a><a href="#정치" class="nav-pill">정치 (39)</a><a href="#경제/거시" class="nav-pill">경제/거시 (26)</a><a href="#기업/산업" class="nav-pill">기업/산업 (63)</a><a href="#부동산" class="nav-pill">부동산 (12)</a><a href="#국제" class="nav-pill">국제 (24)</a><a href="#science" class="nav-pill">테크 (10)</a></div><div class="briefing-card"><div class="briefing-title">⚡ Morning Briefing</div>
+        <div class="sticky-nav"><a href="../archive.html" class="nav-pill">🗓️ 아카이브</a><a href="https://www.youtube.com/@morning5min" class="nav-pill" target="_blank" rel="noopener noreferrer">🎬 데일리 맥락</a><a href="#인물별" class="nav-pill">👤 인물별 (19)</a><a href="#정치" class="nav-pill">정치 (39)</a><a href="#경제/거시" class="nav-pill">경제/거시 (26)</a><a href="#기업/산업" class="nav-pill">기업/산업 (63)</a><a href="#부동산" class="nav-pill">부동산 (12)</a><a href="#국제" class="nav-pill">국제 (24)</a><a href="#science" class="nav-pill">테크 (10)</a></div><div class="briefing-card"><div class="briefing-title">⚡ Morning Briefing</div>
                     <div class="briefing-item">
                         <span class="briefing-label">정치</span>
                         <span class="briefing-content">중동 사태 확산으로 총리의 방중 일정이 취소되는 등 정부의 비상 대응 체계가 가동되었습니다. 외교부는 이란 측에 우리 선원의 안전을 요청하고 에너지 공급망 협력을 논의하는 등 긴박하게 움직이고 있습니다. 한편 여야는 지방선거를 앞두고 공천 갈등과 지지율 변동 속에 내부 결속에 주력하는 분위기입니다.</span>
@@ -2713,11 +2712,7 @@ ${shareText}`);
             <div id="geminiOverlay" class="gemini-overlay" role="dialog" aria-modal="true" aria-label="Gemini Navigator">
                 <div class="gemini-overlay-header">
                     <div class="gemini-overlay-title">🔎 Gemini 네비게이터</div>
-                    <div class="gemini-overlay-actions">
-                        <button class="gemini-icon-btn" type="button" title="새로고침" onclick="reloadGeminiNavigator()">↻</button>
-                        <button class="gemini-icon-btn" type="button" title="새 창으로 열기" onclick="openGeminiInNewTab()">↗</button>
-                        <button class="gemini-icon-btn" type="button" title="닫기" onclick="closeGeminiNavigator()">✕</button>
-                    </div>
+                    <div class="gemini-overlay-actions"><button class="gemini-icon-btn" type="button" title="새로고침" onclick="reloadGeminiNavigator()">↻</button><button class="gemini-icon-btn" type="button" title="새 창으로 열기" onclick="openGeminiInNewTab()">↗</button><button class="gemini-icon-btn" type="button" title="닫기" onclick="closeGeminiNavigator()">✕</button></div>
                 </div>
                 <div class="gemini-overlay-body">
                     <div id="geminiLoading" class="gemini-overlay-loading">
