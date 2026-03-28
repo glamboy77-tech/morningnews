@@ -1640,6 +1640,14 @@ class SentimentAnalyzer:
         if not isinstance(items, list):
             return []
 
+        allowed_formats = {
+            "positive_flow",
+            "risk_flow",
+            "macro_context",
+            "sector_focus",
+            "company_focus",
+        }
+
         normalized: list[dict] = []
         for idx, item in enumerate(items, 1):
             if not isinstance(item, dict):
@@ -1649,6 +1657,8 @@ class SentimentAnalyzer:
             hook = str(item.get("hook", "")).strip()
             cta = str(item.get("cta", "")).strip()
             fmt = str(item.get("format", "general")).strip() or "general"
+            if fmt not in allowed_formats:
+                continue
 
             raw_lines = item.get("lines", [])
             if isinstance(raw_lines, str):
@@ -1682,7 +1692,112 @@ class SentimentAnalyzer:
                 "hashtags": hashtags,
             })
 
-        return normalized[:6]
+        slot_order = [
+            "positive_flow",
+            "risk_flow",
+            "macro_context",
+            "sector_focus",
+            "company_focus",
+        ]
+        unique_by_format: dict[str, dict] = {}
+        for item in normalized:
+            unique_by_format.setdefault(item["format"], item)
+
+        ordered = [unique_by_format[fmt] for fmt in slot_order if fmt in unique_by_format]
+        return ordered[:5]
+
+    @staticmethod
+    def _shorts_slot_order() -> list[str]:
+        return [
+            "positive_flow",
+            "risk_flow",
+            "macro_context",
+            "sector_focus",
+            "company_focus",
+        ]
+
+    def _build_single_shorts_fallback_item(
+        self,
+        *,
+        slot: str,
+        source_lines: list[str],
+        keywords: list[str] | None = None,
+    ) -> dict:
+        keys = self._normalize_keywords(keywords)
+        k1 = keys[0] if keys else "오늘 흐름"
+        k2 = keys[1] if len(keys) > 1 else "시장 흐름"
+
+        snippets = [line for line in source_lines if line and len(line) <= 90]
+        while len(snippets) < 6:
+            snippets.append("오늘 뉴스의 핵심 흐름을 본편에서 더 자세히 확인할 수 있습니다.")
+
+        templates = {
+            "positive_flow": {
+                "title": f"지금 {k1}, 좋아 보이는 이유",
+                "hook": "오늘 아침, 긍정 신호 하나를 보겠습니다.",
+                "lines": [snippets[0], snippets[1], "장기적으로 보면 우호적인 흐름으로 읽힐 수 있습니다."],
+                "cta": "본편에서 왜 이 흐름이 의미 있는지 맥락까지 확인해보세요.",
+                "hashtags": ["#긍정신호", "#아침브리핑", "#데일리맥락"],
+            },
+            "risk_flow": {
+                "title": f"지금 {k2}, 부담 커진 이유",
+                "hook": "오늘 아침, 조심해서 볼 흐름이 있습니다.",
+                "lines": [snippets[1], snippets[2], "비용과 심리 측면에서 부담 요인으로 거론될 수 있습니다."],
+                "cta": "본편에서 어떤 리스크로 이어질 수 있는지 정리해드립니다.",
+                "hashtags": ["#리스크체크", "#생활경제", "#데일리맥락"],
+            },
+            "macro_context": {
+                "title": "오늘 돈의 흐름 한 줄 정리",
+                "hook": "오늘 뉴스는 한 줄로 연결됩니다.",
+                "lines": [snippets[0], snippets[2], "결국 오늘 핵심은 하나의 큰 흐름으로 이어진다는 점입니다."],
+                "cta": "본편에서 전체 맥락을 5분 안에 확인해보세요.",
+                "hashtags": ["#거시흐름", "#시장맥락", "#뉴스요약"],
+            },
+            "sector_focus": {
+                "title": f"지금 {k1} 분야가 중요한 이유",
+                "hook": "오늘은 이 분야를 눈여겨볼 만합니다.",
+                "lines": [snippets[2], snippets[3], "업종 단위로 보면 의미 있는 변화가 감지됩니다."],
+                "cta": "본편에서 이 분야가 오늘 왜 중요했는지 함께 보세요.",
+                "hashtags": ["#섹터포커스", "#산업트렌드", "#데일리맥락"],
+            },
+            "company_focus": {
+                "title": "이 기업이 다시 언급되는 배경",
+                "hook": "오늘은 이 기업이 유독 눈에 띕니다.",
+                "lines": [snippets[3], snippets[4], "당장 추천보다, 왜 다시 주목받는지 보는 게 중요합니다."],
+                "cta": "본편에서 이 기업 관련 흐름을 차분히 정리해드립니다.",
+                "hashtags": ["#기업포커스", "#시장체크", "#아침뉴스"],
+            },
+        }
+
+        payload = templates.get(slot, templates["macro_context"])
+        return {
+            "id": f"{slot}_{random.randint(1000, 9999)}",
+            "format": slot,
+            "duration_sec_target": 22,
+            "title": payload["title"],
+            "hook": payload["hook"],
+            "lines": payload["lines"],
+            "cta": payload["cta"],
+            "hashtags": payload["hashtags"],
+        }
+
+    def _ensure_five_shorts_items(self, items: list[dict], *, source_script: str, keywords: list[str] | None = None) -> list[dict]:
+        normalized = self._normalize_shorts_items(items)
+        by_format = {item.get("format"): item for item in normalized if isinstance(item, dict)}
+        source_lines = [s.strip() for s in re.split(r"[\n]+", source_script or "") if s.strip()]
+
+        completed: list[dict] = []
+        for slot in self._shorts_slot_order():
+            item = by_format.get(slot)
+            if item is None:
+                item = self._build_single_shorts_fallback_item(
+                    slot=slot,
+                    source_lines=source_lines,
+                    keywords=keywords,
+                )
+            completed.append(item)
+
+        return self._normalize_shorts_items(completed)
 
     def _build_shorts_prompt_from_source_script(
         self,
@@ -1703,41 +1818,13 @@ class SentimentAnalyzer:
     def _build_shorts_fallback_items(self, *, source_script: str, keywords: list[str] | None = None) -> list[dict]:
         """Fallback shorts when OpenAI generation fails."""
         lines = [s.strip() for s in re.split(r"[\n]+", source_script or "") if s.strip()]
-        key = self._normalize_keywords(keywords)
-
-        pick = [s for s in lines if len(s) <= 80][:6]
-        if len(pick) < 4:
-            pick.extend([
-                "오늘의 핵심 이슈를 짧게 정리해드립니다.",
-                "시장에 영향을 줄 변수는 계속 확인이 필요합니다.",
-                "생활 체감과 연결되는 뉴스부터 보시면 좋습니다.",
-                "전체 흐름은 본편에서 5분 안에 확인할 수 있습니다.",
-            ])
-
-        k1 = key[0] if key else "핵심 이슈"
-        k2 = key[1] if len(key) > 1 else "시장 흐름"
-
         return [
-            {
-                "id": "s1_10sec_summary",
-                "format": "10sec_conclusion",
-                "duration_sec_target": 18,
-                "title": f"오늘 {k1}, 18초 요약",
-                "hook": "오늘 뉴스, 딱 3포인트만 보겠습니다.",
-                "lines": pick[:3],
-                "cta": "전체 맥락은 데일리 맥락 본편에서 확인하세요.",
-                "hashtags": ["#뉴스쇼츠", "#데일리맥락", "#아침브리핑"],
-            },
-            {
-                "id": "s2_life_impact",
-                "format": "life_impact",
-                "duration_sec_target": 24,
-                "title": f"{k2}, 내 생활에 오는 순서",
-                "hook": "이 뉴스, 내 지갑과 무슨 상관일까요?",
-                "lines": pick[1:4],
-                "cta": "숫자와 배경은 오늘 본편에서 이어집니다.",
-                "hashtags": ["#경제뉴스", "#생활물가", "#뉴스요약"],
-            },
+            self._build_single_shorts_fallback_item(
+                slot=slot,
+                source_lines=lines,
+                keywords=keywords,
+            )
+            for slot in self._shorts_slot_order()
         ]
 
     def _generate_shorts_with_openai(self, prompt: str, *, model: str, max_retries: int = 3, base_sleep_sec: float = 3.0) -> list[dict]:
@@ -1770,7 +1857,7 @@ class SentimentAnalyzer:
                 payload = json.loads(content)
                 items = payload.get("items") if isinstance(payload, dict) else None
                 normalized = self._normalize_shorts_items(items)
-                if len(normalized) < 2:
+                if len(normalized) < 3:
                     raise ValueError("OpenAI shorts payload has insufficient valid items")
                 return normalized
 
@@ -1815,8 +1902,13 @@ class SentimentAnalyzer:
         except Exception as e:
             print(f"⚠️ 쇼츠 스크립트 생성 실패, fallback 사용: {e}")
             items = self._build_shorts_fallback_items(source_script=source_script, keywords=keywords)
-            items = self._normalize_shorts_items(items)
             generated_by = "fallback"
+
+        items = self._ensure_five_shorts_items(
+            items,
+            source_script=source_script,
+            keywords=keywords,
+        )
 
         return {
             "date": date_str,
@@ -1824,7 +1916,7 @@ class SentimentAnalyzer:
             "items": items,
             "meta": {
                 "generated_by": generated_by,
-                "version": "shorts_v1",
+                "version": "shorts_v2_fixed5",
                 "generated_at": datetime.now().isoformat(),
             },
         }
