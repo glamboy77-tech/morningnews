@@ -2,12 +2,35 @@ from google import genai
 import json
 import re
 import os
+import signal
 from difflib import SequenceMatcher
 from config import config
+
+
+class _GeminiCallTimeout(Exception):
+    pass
 
 class AIProcessor:
     def __init__(self):
         self.client = genai.Client(api_key=config.gemini_api_key)
+
+    @staticmethod
+    def _alarm_handler(signum, frame):
+        raise _GeminiCallTimeout("Gemini API call timed out")
+
+    def _generate_content_with_timeout(self, *, model: str, contents: str, timeout_sec: int = 90, response_mime_type: str = 'application/json'):
+        previous_handler = signal.getsignal(signal.SIGALRM)
+        try:
+            signal.signal(signal.SIGALRM, self._alarm_handler)
+            signal.alarm(timeout_sec)
+            return self.client.models.generate_content(
+                model=model,
+                contents=contents,
+                config={'response_mime_type': response_mime_type}
+            )
+        finally:
+            signal.alarm(0)
+            signal.signal(signal.SIGALRM, previous_handler)
 
     @staticmethod
     def _normalize_title(title: str) -> str:
@@ -140,10 +163,10 @@ class AIProcessor:
         """
         
         try:
-            response = self.client.models.generate_content(
+            response = self._generate_content_with_timeout(
                 model=config.model_flash,
                 contents=prompt,
-                config={'response_mime_type': 'application/json'}
+                timeout_sec=120,
             )
             
             categorized_data = json.loads(response.text)
@@ -407,10 +430,10 @@ class AIProcessor:
         """
         
         try:
-            response = self.client.models.generate_content(
+            response = self._generate_content_with_timeout(
                 model=config.model_flash,
                 contents=prompt,
-                config={'response_mime_type': 'application/json'}
+                timeout_sec=90,
             )
             
             result = json.loads(response.text)
@@ -463,6 +486,9 @@ class AIProcessor:
             
             return persons_data
             
+        except _GeminiCallTimeout as e:
+            print(f"⚠️ 주요 인물 추출 시간 초과: {e}. 인물 없이 진행합니다.")
+            return {}
         except Exception as e:
             print(f"Error extracting key persons: {e}")
             # Important: return None on failure so callers can avoid overwriting caches.
