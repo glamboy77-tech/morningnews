@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-03-30T06:03:13.204460",
+  "date": "20260330",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "李대통령, 위안부 피해자 별세에 “비통한 마음… 명예 회복에 모든 노력”",
+          "link": "https://www.chosun.com/economy/economy_general/2026/03/29/GUZDEZJUMYYTKYRUGM4WCNZSME/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-03-29 15:38:18",
+          "description": "이재명 대통령은 29일 일본군 위안부 피해자 A씨의 별세 소식에 “고인의 숭고한 뜻과 용기를 오래도록 기억하겠다”고 애도하며 피해자 명예 회복을 위한 정부의 책임을 강조했다. 이 대통령은 이날 페이스북에 “또 한 분의 일본군 ‘위안부’ 피해자께서 우리 곁을 떠나셨다”며 “비통한 마음으로 삼가 고인의 명복을 빈다”고 밝혔다. 이어 “고인께서는 인간의 존엄이",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "李대통령, 위안부 피해자 별세에 \"비통한 마음…용기 기억할 것\"",
+              "link": "https://www.yna.co.kr/view/AKR20260329027200001"
+            }
+          ]
+        },
+        {
+          "title": "李 “국가 범죄, 나치 전범처럼 영구 책임지게 할 것”",
+          "link": "https://www.chosun.com/politics/politics_general/2026/03/30/YFLUTSYN6ZGHHKV737HO7O2TQQ/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-03-30 00:48:00",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 \"국가폭력범죄 훈장박탈 당연…공소시효 배제도 추진\"",
+          "link": "https://www.yna.co.kr/view/AKR20260329009600001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-03-29 09:15:43",
+          "description": "(서울=연합뉴스) 설승은 기자 = 이재명 대통령은 29일 경찰이 과거 고문과 사건조작 등에 가담한 수사기관 관계자들이 받은 서훈에 대해 취소 조...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "與국조특위 \"검찰, 李대통령 잡으려 진술조작 확인…총체적 불법\"",
+          "link": "https://www.yna.co.kr/view/AKR20260329023700001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-03-29 12:55:20",
+          "description": "(서울=연합뉴스) 김정진 박재하 기자 = 국회 &apos;윤석열 정권 정치검찰 조작 기소 의혹 사건 진상규명 국정조사 특별위원회&apos; 소속 더불어민주당 의원...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": true,
+          "related_full_sources": []
+        }
+      ],
+      "count": 4,
+      "role": "한국 대통령"
+    },
+    "김부겸": {
+      "articles": [
+        {
+          "title": "與, 김부겸 앞세워 영남 동진… 野 이정현은 호남 출마시사",
+          "link": "https://www.chosun.com/politics/assembly/2026/03/30/HC2TJMS3UVALTFYIVVCY4U6PEU/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-03-30 00:47:00",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "金총리 \"마스크·요소수 기억 생생…생필품 수급 차질 선제대처\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260329028051001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-03-29 17:08:58",
+          "description": "(서울=연합뉴스) 설승은 기자 = 김민석 국무총리는 29일 중동전쟁으로 인한 경제 위기 대응과 관련해 &quot;최우선 과제 중 하나로 국민 생활필수품 ...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": true,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "金총리 \"마스크·요소수 기억 생생…생필품 수급 차질 선제대처\"",
+              "link": "https://www.yna.co.kr/view/AKR20260329028000001"
+            }
+          ]
+        },
+        {
+          "title": "김부겸, 민주당 총력 설득 끝 등판…대구 선거판 흔드나(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260327144651053",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-03-29 10:59:47",
+          "description": "(대구=연합뉴스) 박세진 기자 = 더불어민주당의 &apos;삼고초려&apos; 끝에 대구시장에 출마하는 김부겸 전 국무총리가 이번 6·3 지방선거 &apos;태풍의 눈&apos;이...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "지방/행정",
+          "is_representative": false,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "민주당 총력 설득 끝 등판…김부겸, 대구 선거판 흔드나",
+              "link": "https://www.yna.co.kr/view/AKR20260327144600053"
+            }
+          ]
+        }
+      ],
+      "count": 3,
+      "role": "더불어민주당 상임공동선대위원장"
+    }
+  }
+}
