@@ -73,7 +73,7 @@
               };
               
               const YOUTUBE_CHANNEL_URL = "https://www.youtube.com/@morning5min";
-              const SHARE_BASE_TEXT = "📰 오늘의 모닝뉴스 브리핑\n- 경제/거시: 브리핑 생성에 실패했습니다. 잠시 후 다시 시도해주세요.";
+              const SHARE_BASE_TEXT = "📰 오늘의 모닝뉴스 브리핑\n- 정치: 이 대통령은 다음 달 2일 26조 원 규모의 전쟁 추경을 위한 시정 연설에 나설 예정이며, 인도네시아 대통령과의 정상회담을 통해 방산 협력을 논의합니다. 한편 국회에서는 환율 안정 3법이 통과되어 국장 회귀 시 양도세 면제 혜택의 길이 열렸으며, 여당 내 공천 갈등과 특검의 범죄단체조직죄 수사 등 정치적 공방이 이어졌습니다.\n- 경제/거시: 원·달러 환율이 1,530원을 돌파하고 코스피가 하락하는 등 중동 전쟁 여파로 인한 금융 시장 변동성이 극대화되었습니다. 한국은행은 작년 4분기 환율 방어를 위해 역대 최대인 34조 원을 투입한 것으로 확인되었으며, 정부는 중동발 공급망 위기에 대응하기 위해 추경 편성에 속도를 내고 있습니다.\n- 기업/산업: AI 반도체 스타트업 리벨리온이 6,400억 원의 투자를 유치하며 기업가치 3.4조 원을 인정받았고, AWS는 한국에 7조 원 추가 투자를 발표했습니다. 반면 삼성바이오로직스 노조의 파업 예고와 대한항공의 비상경영 전환, 삼천당제약의 주가 조작 의혹 등 산업계 내 위기 신호도 함께 포착되었습니다.";
 
               function buildShareInstallUrl() {
                   const url = new URL(window.location.href);
@@ -927,20 +927,55 @@ ${shareText}`);
                 <header>
                     <div class="header-meta">
                         <span class="header-date">2026.04.01</span>
-                        <span class="header-time">Generated at 06:03:21</span>
+                        <span class="header-time">Generated at 06:58:07</span>
                     </div>
                     <h1>Morning News</h1>
                     
+        <div class="weather-container">
+            <div id="weather-icon-wrapper">
+                <!-- Dynamic SVG Icon -->
+            </div>
+            <div class="weather-details">
+                <div id="weather-temp-main">
+                    <span id="temp-val">--°</span>
+                    <span id="weather-range">--° / --°</span>
+                </div>
+                <div class="weather-extra" id="weather-desc">LOADING...</div>
+                <div class="weather-extra" id="weather-location">위치 확인 중...</div>
+                <div class="weather-diff-box" id="weather-diff-box"></div>
+            </div>
+        </div>
+        
                     <div class="header-actions">
                         <button class="action-btn" onclick="shareMorningBriefing()">📤 오늘 브리핑 공유</button>
                     </div>
                 </header>
         <div class="sticky-nav"><a href="../archive.html" class="nav-pill">🗓️ 아카이브</a><a href="https://www.youtube.com/@morning5min" class="nav-pill" target="_blank" rel="noopener noreferrer">🎬 데일리 맥락</a><a href="#인물별" class="nav-pill">👤 인물별 (9)</a><a href="#정치" class="nav-pill">정치 (9)</a><a href="#경제/거시" class="nav-pill">경제/거시 (14)</a><a href="#기업/산업" class="nav-pill">기업/산업 (52)</a><a href="#부동산" class="nav-pill">부동산 (30)</a><a href="#국제" class="nav-pill">국제 (21)</a><a href="#science" class="nav-pill">테크 (10)</a></div><div class="briefing-card"><div class="briefing-title">⚡ Morning Briefing</div>
                     <div class="briefing-item">
-                        <span class="briefing-label">경제/거시</span>
-                        <span class="briefing-content">브리핑 생성에 실패했습니다. 잠시 후 다시 시도해주세요.</span>
+                        <span class="briefing-label">정치</span>
+                        <span class="briefing-content">이 대통령은 다음 달 2일 26조 원 규모의 전쟁 추경을 위한 시정 연설에 나설 예정이며, 인도네시아 대통령과의 정상회담을 통해 방산 협력을 논의합니다. 한편 국회에서는 환율 안정 3법이 통과되어 국장 회귀 시 양도세 면제 혜택의 길이 열렸으며, 여당 내 공천 갈등과 특검의 범죄단체조직죄 수사 등 정치적 공방이 이어졌습니다.</span>
                     </div>
-                    <div class="briefing-cta"><a href="https://www.youtube.com/@morning5min" target="_blank" rel="noopener noreferrer">🎬 영상 요약은 유튜브 @morning5min 에서 확인하기</a></div></div><div id="인물별" class="section-title">🔍 주요 인물별 뉴스</div><div class="sector-subheading">👤 이재명 (한국 대통령) (5건)</div>
+                    
+                    <div class="briefing-item">
+                        <span class="briefing-label">경제/거시</span>
+                        <span class="briefing-content">원·달러 환율이 1,530원을 돌파하고 코스피가 하락하는 등 중동 전쟁 여파로 인한 금융 시장 변동성이 극대화되었습니다. 한국은행은 작년 4분기 환율 방어를 위해 역대 최대인 34조 원을 투입한 것으로 확인되었으며, 정부는 중동발 공급망 위기에 대응하기 위해 추경 편성에 속도를 내고 있습니다.</span>
+                    </div>
+                    
+                    <div class="briefing-item">
+                        <span class="briefing-label">기업/산업</span>
+                        <span class="briefing-content">AI 반도체 스타트업 리벨리온이 6,400억 원의 투자를 유치하며 기업가치 3.4조 원을 인정받았고, AWS는 한국에 7조 원 추가 투자를 발표했습니다. 반면 삼성바이오로직스 노조의 파업 예고와 대한항공의 비상경영 전환, 삼천당제약의 주가 조작 의혹 등 산업계 내 위기 신호도 함께 포착되었습니다.</span>
+                    </div>
+                    
+                    <div class="briefing-item">
+                        <span class="briefing-label">부동산</span>
+                        <span class="briefing-content">강남권에서는 '아크로 드 서초' 등 이른바 로또 청약에 수백 대 일의 경쟁률이 몰리는 반면, 원자재 가격 상승으로 공사비 인상 통보가 잇따르며 정비사업이 멈춰 서는 모습입니다. 서울시는 토지임대부 반값 아파트 6,000가구 공급 계획을 발표했으나, 전국적으로 준공 후 미분양이 3만 가구를 넘어서며 시장 양극화가 심화되고 있습니다.</span>
+                    </div>
+                    
+                    <div class="briefing-item">
+                        <span class="briefing-label">국제</span>
+                        <span class="briefing-content">미국이 이란 탄약고에 벙커버스터를 투하하고 이란이 호르무즈 해협 통행료를 징수하는 등 중동 내 군사적·경제적 긴장이 최고조에 달했습니다. 트럼프 대통령은 동맹국의 에너지 자구책을 요구하며 압박 수위를 높였고, 나스닥은 상장 초기 기업의 지수 편입 기간을 대폭 단축하는 등 제도 변화를 꾀하고 있습니다.</span>
+                    </div>
+                    <div class="sentiment-box"><div class="sentiment-row"><span class="sentiment-type hojae">📈 호재</span> <div class="sentiment-items"><div class="sentiment-item">리벨리온: 6400억 투자유치</div><div class="sentiment-item">한화오션: 美군수지원함 수주</div><div class="sentiment-item">삼성중공업: 美군수지원함 수주</div><div class="sentiment-item">AWS: 7조원 한국투자</div><div class="sentiment-item">무신사: 역대최대실적달성</div><div class="sentiment-item">토스: 역대최대실적기록</div><div class="sentiment-item">삼성전기: AI기판 판가인상</div></div></div><div class="sentiment-row"><span class="sentiment-type akjae">📉 악재</span> <div class="sentiment-items"><div class="sentiment-item">삼성바이오로직스: 노조파업예고</div><div class="sentiment-item">대한항공: 비상경영전환</div><div class="sentiment-item">삼천당제약: 주가조작의혹</div><div class="sentiment-item">BYD: 내수점유율급락</div></div></div></div><div class="briefing-cta"><a href="https://www.youtube.com/@morning5min" target="_blank" rel="noopener noreferrer">🎬 영상 요약은 유튜브 @morning5min 에서 확인하기</a></div></div><div id="인물별" class="section-title">🔍 주요 인물별 뉴스</div><div class="sector-subheading">👤 이재명 (한국 대통령) (5건)</div>
                 <div class="card">
                     <a href="https://www.chosun.com/politics/blue_house/2026/03/31/RBWHIJXARBGIXBXJNU4GAIJVVI/" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">李대통령, 내달 2일 ‘26조 전쟁추경’ 시정 연설</a>
                     <div class="card-meta">
