@@ -2489,6 +2489,9 @@ News List:
                 max_retries=max_retries,
             )
 
+            if isinstance(briefing_data, list) and len(briefing_data) > 0 and isinstance(briefing_data[0], dict):
+                briefing_data = briefing_data[0]
+
             if not isinstance(briefing_data, dict):
                 raise ValueError(f"Unexpected briefing_data type: {type(briefing_data)}")
 
@@ -2559,6 +2562,10 @@ News List:
                     model=config.model_flash,
                     max_retries=max_retries,
                 )
+
+                if isinstance(briefing_data, list) and len(briefing_data) > 0 and isinstance(briefing_data[0], dict):
+                    briefing_data = briefing_data[0]
+
                 if not isinstance(briefing_data, dict):
                     raise ValueError(f"Unexpected briefing_data type after retry: {type(briefing_data)}")
                 final_data = {
