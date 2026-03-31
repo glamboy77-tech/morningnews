@@ -1,6 +1,9 @@
-# GitHub Actions 설정 가이드
+# 모닝뉴스 자동화 설정 가이드
 
-이 문서는 모닝뉴스봇을 GitHub Actions로 자동화하기 위한 설정 가이드입니다.
+이 문서는 모닝뉴스봇의 자동화 설정에 대한 가이드입니다.
+
+> **현재 시스템은 systemd 타이머를 사용하여 실행됩니다.**
+> GitHub Actions는 백업/수동 실행용으로만 설정되어 있습니다.
 
 ## 1. GitHub Repository 생성
 
@@ -55,20 +58,46 @@ BBC_WORLD="https://feeds.bbci.co.uk/news/world/rss.xml"
 
 **참고**: 민감하지 않은 공개 RSS 주소이므로 리포지토리에 안전하게 커밋할 수 있습니다.
 
-## 3. 실행 스케줄
+## 3. 실행 스케줄 (현재: systemd 타이머)
 
-GitHub Actions workflow는 다음과 같이 실행됩니다:
+**현재 시스템은 systemd 타이머를 사용하여 매일 오전 6시에 자동 실행됩니다.**
 
-- **자동 실행**: 매일 오전 8시 30분 (KST) - UTC 23:30
+### systemd 타이머 설정
+- **메인 뉴스**: 매일 오전 6:00 KST (`morningnews.timer` → `morningnews.service`)
+- **YouTube 뉴스**: 매일 오전 6:10 KST (`morningnews-youtube.timer` → `morningnews-youtube.service`)
+
+### 실행 흐름
+1. systemd 타이머가 `run_morningnews.sh` 스크립트 실행
+2. `git pull --ff-only`로 최신 코드 동기화
+3. `python3 main.py`로 뉴스 생성
+4. 변경사항을 자동으로 `git commit` → `git push`
+5. GitHub Pages를 통해 PWA 앱에서 확인
+
+### 타이머 상태 확인
+```bash
+# 타이머 상태 확인
+systemctl status morningnews.timer
+
+# 실행 로그 확인
+cat /data/projects/morningnews/logs/morningnews_$(date +'%Y%m%d').log
+```
+
+## 4. GitHub Actions (백업/수동 실행용)
+
+GitHub Actions는 `workflow_dispatch`로 설정되어 있어 수동 실행만 가능합니다.
+
 - **수동 실행**: GitHub Actions 탭에서 "Run workflow" 버튼 클릭
+- **용도**: 서버 접근 불가 시 백업용 또는 테스트용 실행
 
-## 4. 스케줄 시간 변경
+### GitHub Actions에 cron 스케줄 추가 방법 (선택사항)
 
-`.github/workflows/morning-news.yml` 파일에서 cron 표현식을 수정하세요:
+`.github/workflows/morning-news.yml` 파일에 schedule을 추가하면 자동 실행도 설정할 수 있습니다:
 
 ```yaml
-schedule:
-  - cron: '30 23 * * *'  # UTC 시간 기준
+on:
+  workflow_dispatch:  # 수동 실행
+  schedule:
+    - cron: '30 23 * * *'  # 매일 UTC 23:30 (KST 08:30)
 ```
 
 ### Cron 표현식 예시
@@ -82,16 +111,15 @@ schedule:
 
 생성된 뉴스 파일은 다음 방법으로 확인할 수 있습니다:
 
-1. **GitHub Actions Artifacts**: 
+1. **PWA 앱**: GitHub Pages URL에서 직접 확인
+2. **Repository 파일**: `output/` 폴더에 날짜별 HTML 파일이 저장됩니다
+3. **GitHub Actions Artifacts** (수동 실행 시):
    - Actions 탭 > 해당 workflow 클릭 > Artifacts 섹션에서 `morning-news-output` 다운로드
-
-2. **Repository 파일**:
-   - `output/` 폴더에 자동으로 커밋되어 저장됩니다
 
 ## 6. 로그 확인
 
-- GitHub Actions 탭에서 각 실행 결과의 상세 로그를 확인할 수 있습니다
-- `run_job.log` 파일도 Artifacts에 포함됩니다
+- **systemd 실행 로그**: `/data/projects/morningnews/logs/morningnews_YYYYMMDD.log`
+- **GitHub Actions 로그**: Actions 탭에서 각 실행 결과의 상세 로그 확인
 
 ## 7. 문제 해결
 
