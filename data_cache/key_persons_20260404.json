@@ -1,0 +1,584 @@
+{
+  "timestamp": "2026-04-04T07:07:39.454247",
+  "date": "20260404",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "李대통령 \"중동전쟁, 국제질서 흔들어\"…마크롱 \"폭력 진정돼야\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260403077451001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-04-03 20:59:25",
+          "description": "(서울=연합뉴스) 임형섭 기자 = 이재명 대통령과 에마뉘엘 마크롱 프랑스 대통령은 3일 청와대에서 정상회담을 갖고 중동 전쟁으로 인한 국제정세 ...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李, 정청래·장동혁과 7일 민생·경제 회담 “중동 위기 대응 논의”",
+          "link": "https://www.chosun.com/politics/politics_general/2026/04/04/43PNSQPRFJCXLEVZWXJED3FI6Y/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-04-04 00:51:00",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "이시바 前 일본 총리 내주 방한… 李대통령 만나 양국 협력 논의",
+          "link": "https://www.donga.com/news/Inter/article/all/20260403/133673510/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-04-04 01:40:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/04/03/133671266.6.jpg\" vspace=\"10\" />이시바 시게루(石破茂·사진) 전 일본 총리가 다음 주 방한해 이재명 대통령과 면담할 것으로 알려졌다. 3일 정부 소식통에 따르면 이시바 전 총리는 8일 서울에서 열리는 아산정책연구원 주최 ‘아산 플래넘 2026’ 참석차 방한한다. 동맹 현대화를 주제로 열리는 포럼에서 이시바 전 총리는 기조연설을 할 예정이다. 7, 8일 1박 2일 방한 기간 이 대통령을 예방하는 일정이 조율되는 것으로 전해졌다. 이 대통령은 이시바 전 총리를 만나 한일 파트너십 강화 방안 등을 논의할 것으로 보인다. 일본 정계에서 대표적인 지한파 인사인 이시바 전 총리는 재임 기간이었던 지난해 6, 8, 9월 이 대통령과 3차례 정상회담을 가지면서 현 한일 관계 훈풍을 조성한 것으로 평가된다. 특히 과거사는 물밑에서 관리하고 미래지향적 협력을 강호하는 파트너십을 구축했고 이는 다카이치 사나에(高市早苗) 정부로도 이어져 왔다. 또 정상 간 상호 방문인 셔틀외교를 복원했고 ‘한일 공통 사회문제 협의체’를 구성하기로",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, 한국노총 이어 10일 민주노총 만나…노동정책 의견수렴",
+          "link": "https://www.yna.co.kr/view/AKR20260403144900001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-04-03 17:59:46",
+          "description": "(서울=연합뉴스) 설승은 기자 = 이재명 대통령이 오는 10일 양대 노총 가운데 하나인 전국민주노동조합총연맹(민주노총)과 정책 간담회를 한다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 \"제주 4·3 희생자 애도…국가폭력 공소시효 폐지\"",
+          "link": "https://www.yna.co.kr/view/AKR20260403113300001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-04-03 15:53:50",
+          "description": "(서울=연합뉴스) 설승은 기자 = 이재명 대통령은 제주 4·3 사건 78주년인 3일 &quot;다시는 국가의 이름으로 국민이 희생되고 고통받는 일이 되풀...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 “한·프, 원자력·풍력 에너지 안보 강화…호르무즈 수송로도 협력”",
+          "link": "https://www.donga.com/news/Politics/article/all/20260403/133669169/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-04-03 13:31:28",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/04/03/133669170.1.jpg\" vspace=\"10\" />이재명 대통령이 3일 프랑스와의 정상회담과 관련 “원자력·해상 풍력 분야의 협력을 확대하고 에너지 안보를 강화했다”며 “호르무즈 해협 내 안전한 해상수송로 확보를 위해 협력하겠다는 의지도 확인했다”고 밝혔다.이 대통령은 이날 마크롱 프랑스 대통령과 정상회담 이후 열린 공동언론발표에서 “중동전쟁이 야기한 경제 및 에너지 위기에 공동 대응하고자 정책 경험과 전략을 공유하기로 했다”며 이같이 말했다.이날 한국과 프랑스는 양국 관계를 ‘글로벌 전략적 동반자’로 격상하기로 했다. 2004년 ‘21세기 포괄적 동반자’ 관계를 맺은 지 22년 만이다.이 대통령은 마크롱 대통령이 올해 6월 프랑스 에비앙에서 열리는 G7 정상회의에 초청한 사실을 언급하며 “대한민국도 열심히 지혜를 보태겠다”고 참석 의사를 전하기도 했다.또 오는 9월 국제영화영상산업 정상회의를 한국와 공동으로 주최하자는 제안에도 “우리 영화영상산업에 대한 대통령님의 높은 평가와 관심, 저에 대한 초청에 깊이 감사드린다”며 “",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, 7일 정청래·장동혁 오찬…중동戰에 여야정 민생 협의",
+          "link": "https://www.yna.co.kr/view/AKR20260403107500001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-04-03 15:17:42",
+          "description": "(서울=연합뉴스) 임형섭 설승은 기자 = 이재명 대통령이 오는 7일 더불어민주당 정청래 대표와 국민의힘 장동혁 대표 등을 청와대로 초청해 &apos;여야...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "[속보] 李대통령, 7일 정청래·장동혁 등과 여야정 민생협의체 회담",
+              "link": "https://www.yna.co.kr/view/AKR20260403104600001"
+            }
+          ]
+        },
+        {
+          "title": "李대통령 지지율 67%로 취임후 최고치 동률…민주 48%·국힘 18%[한국갤럽](종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260403052551001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-04-03 11:01:40",
+          "description": "(서울=연합뉴스) 박재하 기자 = 이재명 대통령의 국정 지지율이 67%를 기록했다는 여론조사 결과가 3일 나왔다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "李대통령 지지율 67%로 취임후 최고치 동률…민주 48%·국힘 18%[한국갤럽]",
+              "link": "https://www.yna.co.kr/view/AKR20260403052500001"
+            }
+          ]
+        },
+        {
+          "title": "한동훈 부산 보선 몸 푸나…부산발전법 두고 李대통령 비판",
+          "link": "https://www.yna.co.kr/view/AKR20260403052600051",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-04-03 10:31:53",
+          "description": "(부산=연합뉴스) 오수희 기자 = 국민의힘 한동훈 전 대표가 이재명 대통령이 부산 글로벌허브 도시 특별법을 &apos;의원 입법의 포퓰리즘적 사례&apos;로 지...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "與 \"박상용 설계\"·국힘 \"대통령 정범\"…국조서 '대북송금' 충돌",
+          "link": "https://www.yna.co.kr/view/AKR20260403075651001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-04-03 14:56:42",
+          "description": "(서울=연합뉴스) 최평천 오규진 기자 = 여야는 3일 국회에서 열린 &apos;윤석열 정권 정치검찰 조작 기소 의혹 사건 진상규명 국정조사&apos;에서 이른바 ...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": true,
+          "related_full_sources": []
+        }
+      ],
+      "count": 10,
+      "role": "한국 대통령"
+    },
+    "트럼프": {
+      "articles": [
+        {
+          "title": "트럼프 “이란 최대 다리 파괴… 늦기전 협상하라”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260403/133673476/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-04-04 01:40:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/04/03/133673390.3.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령이 2일(현지 시간) 트루스소셜에 “이란에서 가장 큰 다리가 무너져 내렸다. 늦기 전에 (미국과의 종전) 협상에 나서야 한다”고 이란을 압박했다. 그는 미군의 공습을 받은 이란 수도 테헤란 인근의 대형 교량 ‘B1’에서 검은 연기가 치솟는 동영상도 게재했다. 그는 같은 날 “이란에 남아 있는 것들을 파괴하는 일은 아직 시작조차 하지 않았다. 다음은 다리, 그다음은 발전소”라고 거듭 위협했다. 그는 하루 전 대국민 연설에서도 “이란에 2, 3주간 극도로 강한 공격을 가해 ‘석기 시대’로 되돌려 놓겠다”고 했다. 트럼프 대통령은 3일에도 트루스소셜에 “조금의 시간만 있다면 우리가 호르무즈 해협을 쉽게 열고 원유를 가져와 부를 쌓을 수 있다”고 전쟁 승리를 자신했다. 블룸버그통신과 일본 아사히신문에 따르면 각각 2일과 3일 프랑스와 일본 선박이 전쟁 발발 후 이란이 봉쇄 중인 원유 수송로 호르무즈 해협을 무사히 통과했다. 영국 파이낸셜타임스(FT)는 이란 혁",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "전쟁중에 법무장관 경질한 트럼프… 美국방은 육참총장 쫓아내",
+          "link": "https://www.donga.com/news/Inter/article/all/20260403/133673560/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-04-04 01:40:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/04/04/133673707.1.jpg\" vspace=\"10\" />이란 전쟁 와중에 도널드 트럼프 미국 행정부가 팸 본디 법무장관, 랜디 조지 육군 참모총장 등 주요 인사를 잇달아 경질했다. 트럼프 대통령은 2일(현지 시간) 트루스소셜에 “본디는 민간의 중요하고 필수적인 직책으로 자리를 옮긴다”고 밝혔다. 당분간 토드 블랜치 법무차관이 법무장관 대행을 맡을 것이라고 덧붙였다.검사 출신인 본디 장관은 2016년 미국 대선 때부터 트럼프 대통령을 지지해 왔다. 다만 대통령과 성범죄자 제프리 엡스타인의 연루 의혹을 명쾌하게 떨쳐내지 못했고, 대통령이 요구한 야당 민주당의 주요 인사에 대한 수사 또한 지지부진해 대통령의 불신을 산 것으로 보인다.본디 장관은 지난해 2월 폭스뉴스 인터뷰에서 엡스타인의 성범죄 고객 명단에 관한 문답을 하다가 “(해당 명단이) 내 책상 위에 있다”고 답했다. 이 발언으로 명단이 진짜로 존재한다는 인식이 굳어졌다. 또 법무부가 지난해 말 공개한 엡스타인 관련 자료에 트럼프 대통령과 엡스타인이 같이 찍은 사진 등이 포함된 것",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "마크롱 “트럼프 매일 말 뒤집어…진지하게 행동하라”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260403/133673318/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-04-03 21:34:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/04/03/133673341.3.jpg\" vspace=\"10\" />에마뉘엘 마크롱 프랑스 대통령은 2일(현지시간) 도널드 트럼프 미국 대통령을 향해 “혼란을 야기하고 있다”며 “진지하게 행동하라”고 비판했다. 트럼프 대통령이 중동 전쟁과 관련해 북대서양조약기구(NATO·나토) 탈퇴 가능성을 시사하거나 발언을 자주 번복하는 것을 꼬집은 것이다.가디언 등 외신에 따르면 마크롱 대통령은 이날 한국을 방문한 자리에서 트럼프 대통령이 전쟁에 대해 진지하지 않은 태도를 보이고 나토의 위상을 훼손하는 발언을 하고 있다고 지적했다. 마크롱 대통령은 “진지해야 한다. 진지해지고 싶다면, 매일 전날 말한 것과 정반대의 말을 해서는 안된다”며 “어쩌면 매일 말을 하지 않는 게 좋을지 모른다”고 꼬집었다. 트럼프 대통령의 잦은 ‘발언 번복’을 지적한 것이다.또 트럼프 대통령이 나토 탈퇴를 강력하게 검토 중이라는 발언과 관련해선 “매일같이 의문을 제기함으로써 대서양 방위 동맹을 훼손하고 있다”고 비난했다. 마크롱 대통령은 “나토와 같은 조직과 동맹은 말로 드러나지",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "“타이슨에게 쳐맞은 기분일 것” 트럼프 ‘중간선거 참패→퇴진’ 경고 나왔다",
+          "link": "https://www.donga.com/news/Inter/article/all/20260403/133669959/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-04-03 15:00:38",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/04/03/133669960.1.jpg\" vspace=\"10\" />민주당의 베테랑 전략가 제임스 카빌이 오는 11월 중간선거에서 도널드 트럼프 대통령이 뼈아픈 패배를 당하며 정치적 파멸을 맞이할 것이라고 직격탄을 날렸다.2일(현지시간) 미국의 더힐에 따르면 빌 클린턴 전 대통령의 핵심 참모였던 카빌은 정치 매체 폴리티콘에 출연해 트럼프 대통령을 향해 “마이크 타이슨에게 입을 얻어맞은 기분을 느끼게 될 것”이라고 밝혔다. 카빌은 “보좌진들이 선거 패배 소식을 완곡하게 전하겠지만, 실제 결과는 상상 이상으로 가혹할 것”이라며 “타이슨에게 맞는 것을 상상하는 것과 실제로 맞는 것은 전혀 다르며, 그것이 11월에 벌어질 일”이라고 강조했다.카빌은 선거 이후의 고립에 대해서도 상세히 언급했다. 그는 민주당이 의회 권력을 탈환할 경우 트럼프 대통령의 자녀와 사위 등 일가에 대한 전방위 조사가 시작될 것이라고 내다봤다. 특히 이란과의 갈등 상황을 두고 “트럼프 대통령이 전쟁 범죄의 선에 아주 가까이 가 있으며 곧 선을 넘을 것”이라며 국제형사재판소(ICC)",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프 “이란 파괴, 시작도 안 해…다음은 교량·발전소”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260403/133669588/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-04-03 14:23:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/04/03/133669610.3.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령이 2일(현지 시간) “세계 어디를 보더라도 단연코 가장 위대하고 강력한 우리의 군은 이란에 남아 있는 것들을 파괴하는 일을 아직 시작조차 하지 않았다”며 “다음은 교량, 그다음은 발전소”라고 경고했다.트럼프 대통령은 전날 이란 전쟁 관련 대(對)국민 연설에서 “앞으로 2, 3주 동안 그들(이란)에 극도로 강력한 공격을 가해 ‘석기시대’로 되돌려 놓을 것”이라고 말한 지 하루 만인 2일 이란의 최대 교량을 공격하는 영상을 올리는 등 이란에 대한 고강도 공격 가능성을 시사하고 있다.트럼프 대통령은 2일 소셜미디어 트루스소셜에 글을 올려 교량 발전소 등 핵심 인프라를 향한 공격 가능성을 시사하며 “(이란의) 새 정권 지도부는 무엇이 이뤄져야 하는지, 얼마나 신속하게 실행해야 하는지 잘 알고 있다”고 했다.트럼프 대통령은 같은 날 이란 최대 교량이 무너지는 영상도 공개했다. 전날 이란 전쟁 관련 대(對)국민 연설에서 “앞으로 2, 3주 동안 그들(이란)에 극",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "전쟁 중에 참모총장 자른 美국방…트럼프 심기 건드린 죄?",
+          "link": "https://www.donga.com/news/Inter/article/all/20260403/133668646/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-04-03 13:54:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/04/03/133672524.1.jpg\" vspace=\"10\" />이란 전쟁 와중에 도널드 트럼프 미국 행정부가 팸 본디 법무장관, 랜디 조지 육군 참모총장 등 주요 인사를 잇따라 경질했다. 트럼프 대통령은 2일(현지 시간) 트루스소셜에 “본디는 민간의 중요하고 필수적인 직책으로 자리를 옮긴다”고 밝혔다. 당분간 토드 블랜치 법무차관이 법무장관 대행을 맡을 것이라고 덧붙였다.검사 출신인 본디 장관은 2016년 미국 대선 때부터 트럼프 대통령을 지지해 왔다. 다만 대통령과 성범죄자 제프리 엡스타인의 연루 의혹을 명쾌하게 떨쳐내지 못했고, 대통령이 요구한 야당 민주당의 주요 인사에 대한 수사 또한 지지부진해 대통령의 불신을 산 것으로 보인다.본디 장관은 지난해 2월 폭스뉴스 인터뷰에서 엡스타인의 성범죄 고객 명단에 관한 문답을 하다가 “(해당 명단이) 내 책상 위에 있다”고 답했다. 이 발언으로 명단이 진짜로 존재한다는 인식이 굳어졌다. 또 법무부가 지난해 말 공개한 엡스타인 관련 자료에 트럼프 대통령과 엡스타인이 같이 찍은 사진 등이 포함된 것",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "‘아내’ 공격받은 마크롱 “트럼프 진지해져라…말수 좀 줄이고”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260403/133668862/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-04-03 12:16:04",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/04/03/133668863.1.jpg\" vspace=\"10\" />에마뉘엘 마크롱 프랑스 대통령이 도널드 트럼프 미국 대통령을 향해 날선 비판을 쏟아냈다. 이란 전쟁과 북대서양조약기구(NATO·나토) 등의 현안은 물론 부인까지 걸고 넘어지자 그 동안의 자제 모드를 풀고 트럼프 대통령을 정면으로 겨냥하고 있다.뉴욕타임스(NYT)와 BBC에 따르면 마크롱 대통령은 2일 한국을 방문한 자리에서 트럼프 대통령이 전쟁에 대해 진지하지 않은 태도를 보이고 나토를 향해 도움이 되지 않는 비판을 쏟아낸다고 지적했다.그는 “진지해지고 싶다면, 매일 전날 말한 것과 정반대의 말을 해서는 안된다”며 “어쩌면 매일 말을 하지 않는 게 좋을지 모른다. 그냥 조용히 잠잠해지게 두는 것”이라고 말했다.마크롱은 이란 전쟁은 “쇼가 아니다”라며 우리는 전쟁과 평화, 전투에 참여해 목숨을 잃은 군인들과 민간인, 전쟁이 경제에 끼친 영향에 대해 진지하게 논의해야 한다고 말했다.나토 탈퇴를 진지하게 고민한다는 트럼프 대통령 발언에 대해서는 “자신의 헌신에 대해 매일 의구심을",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "우라늄 확보한다더니, 트럼프 “신경 안 써”…탈취작전 포기하나",
+          "link": "https://www.donga.com/news/Inter/article/all/20260403/133668736/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-04-03 11:54:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/04/03/133668762.1.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령이 1일(현지 시간) 대국민 담화에서 “이란 우라늄 확보에 나서겠다”는 언급을 하지 않으며 미국이 450kg(핵무기 10기 분량)에 해당하는 이란의 고농축 우라늄의 탈취를 위한 군사 작전을 포기한 것 아니냐는 해석이 나온다.트럼프 대통령은 1일 대국민 연설에서 핵 개발이 실제로 이뤄지는지 위성으로 지켜보겠다고 밝혔다. 그는 이날 오전 로이터통신과의 전화 인터뷰에선 이란의 고농축 우라늄 행방이 묘연한 문제에 대해 “신경 쓰지 않는다”고 말했다. 지난달 31일 CBS방송 인터뷰에서도 “그건(고농축 우라늄) 너무 깊숙이 묻혀 있어 누구도 반출하기 매우 어려울 것”이라며 발을 빼는 듯한 모습을 보였다.미군은 이날 연설에 앞서 트럼프 대통령에게 우라늄 탈취 작전 계획을 보고한 것으로 알려졌다. 워싱턴포스트(WP)는 1일 “지난주 미군은 트럼프 대통령 요구에 따라 약 1000파운드(450kg)의 고농축 우라늄 확보 계획을 대통령에게 보고했다”고 보도했다. WP에 따",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 8,
+      "role": "미국 대통령"
+    },
+    "마크롱": {
+      "articles": [
+        {
+          "title": "李대통령 \"중동전쟁, 국제질서 흔들어\"…마크롱 \"폭력 진정돼야\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260403077451001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-04-03 20:59:25",
+          "description": "(서울=연합뉴스) 임형섭 기자 = 이재명 대통령과 에마뉘엘 마크롱 프랑스 대통령은 3일 청와대에서 정상회담을 갖고 중동 전쟁으로 인한 국제정세 ...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "최수연 네이버 대표, 佛 마크롱 대통령 면담… AI 산업 협력 논의",
+          "link": "https://www.chosun.com/economy/tech_it/2026/04/03/MI4DKNRRMRSDCOJSGZSDGNRUGY/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-04-03 20:22:26",
+          "description": "최수연 네이버(NAVER) 대표가 3일 에마뉘엘 마크롱 프랑스 대통령을 만났다. 마크롱 대통령은 한·불 수교 140주년을 맞아 지난 2일부터 국빈 방한 중이다.  최 대표는 마크롱 대통령에게 프랑스 그르노블에 있는 인공지능(AI) 연구소인 ‘네이버랩스 유럽’ 운영 경험과 플뢰르 펠르랭 전 프랑스 디지털경제 장관이 설립한 코렐리야 캐피탈 출자 참여 등 네이버",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "Science/Tech",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 “한·프, 원자력·풍력 에너지 안보 강화…호르무즈 수송로도 협력”",
+          "link": "https://www.donga.com/news/Politics/article/all/20260403/133669169/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-04-03 13:31:28",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/04/03/133669170.1.jpg\" vspace=\"10\" />이재명 대통령이 3일 프랑스와의 정상회담과 관련 “원자력·해상 풍력 분야의 협력을 확대하고 에너지 안보를 강화했다”며 “호르무즈 해협 내 안전한 해상수송로 확보를 위해 협력하겠다는 의지도 확인했다”고 밝혔다.이 대통령은 이날 마크롱 프랑스 대통령과 정상회담 이후 열린 공동언론발표에서 “중동전쟁이 야기한 경제 및 에너지 위기에 공동 대응하고자 정책 경험과 전략을 공유하기로 했다”며 이같이 말했다.이날 한국과 프랑스는 양국 관계를 ‘글로벌 전략적 동반자’로 격상하기로 했다. 2004년 ‘21세기 포괄적 동반자’ 관계를 맺은 지 22년 만이다.이 대통령은 마크롱 대통령이 올해 6월 프랑스 에비앙에서 열리는 G7 정상회의에 초청한 사실을 언급하며 “대한민국도 열심히 지혜를 보태겠다”고 참석 의사를 전하기도 했다.또 오는 9월 국제영화영상산업 정상회의를 한국와 공동으로 주최하자는 제안에도 “우리 영화영상산업에 대한 대통령님의 높은 평가와 관심, 저에 대한 초청에 깊이 감사드린다”며 “",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "국중박 찾은 韓佛 영부인…외규장각 의궤 관람·시민들에 손하트",
+          "link": "https://www.yna.co.kr/view/AKR20260403102600001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-04-03 15:34:47",
+          "description": "(서울=연합뉴스) 설승은 기자 = 이재명 대통령의 부인 김혜경 여사는 3일 국빈 방한한 에마뉘엘 마크롱 프랑스 대통령의 부인 브리지트 마크롱 여...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "마크롱 \"호르무즈, 다자주의 중요…존중하는 동맹 위해 노력\"",
+          "link": "https://www.yna.co.kr/view/AKR20260403103000001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-04-03 15:20:21",
+          "description": "(서울=연합뉴스) 임형섭 기자 = 한국을 국빈 방문한 에마뉘엘 마크롱 프랑스 대통령은 3일 중동 전쟁 문제와 관련해 &quot;호르무즈 해협 (항행이) ...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "마크롱 “트럼프 매일 말 뒤집어…진지하게 행동하라”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260403/133673318/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-04-03 21:34:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/04/03/133673341.3.jpg\" vspace=\"10\" />에마뉘엘 마크롱 프랑스 대통령은 2일(현지시간) 도널드 트럼프 미국 대통령을 향해 “혼란을 야기하고 있다”며 “진지하게 행동하라”고 비판했다. 트럼프 대통령이 중동 전쟁과 관련해 북대서양조약기구(NATO·나토) 탈퇴 가능성을 시사하거나 발언을 자주 번복하는 것을 꼬집은 것이다.가디언 등 외신에 따르면 마크롱 대통령은 이날 한국을 방문한 자리에서 트럼프 대통령이 전쟁에 대해 진지하지 않은 태도를 보이고 나토의 위상을 훼손하는 발언을 하고 있다고 지적했다. 마크롱 대통령은 “진지해야 한다. 진지해지고 싶다면, 매일 전날 말한 것과 정반대의 말을 해서는 안된다”며 “어쩌면 매일 말을 하지 않는 게 좋을지 모른다”고 꼬집었다. 트럼프 대통령의 잦은 ‘발언 번복’을 지적한 것이다.또 트럼프 대통령이 나토 탈퇴를 강력하게 검토 중이라는 발언과 관련해선 “매일같이 의문을 제기함으로써 대서양 방위 동맹을 훼손하고 있다”고 비난했다. 마크롱 대통령은 “나토와 같은 조직과 동맹은 말로 드러나지",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "‘아내’ 공격받은 마크롱 “트럼프 진지해져라…말수 좀 줄이고”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260403/133668862/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-04-03 12:16:04",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/04/03/133668863.1.jpg\" vspace=\"10\" />에마뉘엘 마크롱 프랑스 대통령이 도널드 트럼프 미국 대통령을 향해 날선 비판을 쏟아냈다. 이란 전쟁과 북대서양조약기구(NATO·나토) 등의 현안은 물론 부인까지 걸고 넘어지자 그 동안의 자제 모드를 풀고 트럼프 대통령을 정면으로 겨냥하고 있다.뉴욕타임스(NYT)와 BBC에 따르면 마크롱 대통령은 2일 한국을 방문한 자리에서 트럼프 대통령이 전쟁에 대해 진지하지 않은 태도를 보이고 나토를 향해 도움이 되지 않는 비판을 쏟아낸다고 지적했다.그는 “진지해지고 싶다면, 매일 전날 말한 것과 정반대의 말을 해서는 안된다”며 “어쩌면 매일 말을 하지 않는 게 좋을지 모른다. 그냥 조용히 잠잠해지게 두는 것”이라고 말했다.마크롱은 이란 전쟁은 “쇼가 아니다”라며 우리는 전쟁과 평화, 전투에 참여해 목숨을 잃은 군인들과 민간인, 전쟁이 경제에 끼친 영향에 대해 진지하게 논의해야 한다고 말했다.나토 탈퇴를 진지하게 고민한다는 트럼프 대통령 발언에 대해서는 “자신의 헌신에 대해 매일 의구심을",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 7,
+      "role": "프랑스 대통령"
+    },
+    "김부겸": {
+      "articles": [
+        {
+          "title": "金총리 \"'비축석유 北유입설' 말도 안돼…사법당국 엄하게 수사\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260403121351001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-04-03 18:26:50",
+          "description": "(서울=연합뉴스) 이상현 기자 = 김민석 국무총리는 3일 최근 일부 유튜버들이 주장한 이른바 석유 90만 배럴 북한 유입설에 &quot;말이 안 되는 얘...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "金총리 \"'비축석유 北유입설' 말도 안돼…사법당국 엄하게 수사\"",
+              "link": "https://www.yna.co.kr/view/AKR20260403121300001"
+            }
+          ]
+        },
+        {
+          "title": "[인터뷰] 김부겸 \"국힘 30년, 해준 것 없다…대구 지금이 마지막 기회\"",
+          "link": "https://www.yna.co.kr/view/AKR20260403081300053",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-04-04 06:01:01",
+          "description": "(대구=연합뉴스) 박세진 기자 = 6·3 지방선거 더불어민주당 대구시장 후보로 확정된 김부겸 전 국무총리는 &quot;내가 시장이 된다는 것은 대구가 김...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "金총리 \"공소취소 거래설, 가짜라 할 필요도 없는 황당한 얘기\"",
+          "link": "https://www.yna.co.kr/view/AKR20260403151600001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-04-03 18:25:07",
+          "description": "(서울=연합뉴스) 이상현 기자 = 김민석 국무총리는 3일 이른바 &apos;공소취소 거래설&apos;에 대해 &quot;가짜라고 할 필요조차 없는 황당한 얘기&quot;라고 평가했...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "김부겸 \"대구시민 입장서 목소리 낼 것…당에 무조건 안 맞춰\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260403060751001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-04-03 11:45:36",
+          "description": "(서울=연합뉴스) 김정진 오규진 기자 = 더불어민주당이 6·3 지방선거를 두달 앞둔 3일 김부겸 전 총리를 대구시장 후보로 공천했다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "지방/행정",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "金총리 \"희생자·유족 명예회복 최선…결코 4·3과 작별 않겠다\"",
+          "link": "https://www.yna.co.kr/view/AKR20260403067500001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-04-03 11:33:54",
+          "description": "(서울=연합뉴스) 이상현 기자 = 김민석 국무총리는 3일 &quot;4·3의 진실을 마주하고 올바른 역사를 기록하는 일은 우리 모두가 완수해야 할 시대적...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": true,
+          "related_full_sources": []
+        }
+      ],
+      "count": 5,
+      "role": "한국 국무총리"
+    },
+    "박상용": {
+      "articles": [
+        {
+          "title": "與 \"박상용 설계\"·국힘 \"대통령 정범\"…국조서 '대북송금' 충돌(종합2보)",
+          "link": "https://www.yna.co.kr/view/AKR20260403075653001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-04-03 22:54:47",
+          "description": "(서울=연합뉴스) 최평천 노선웅 오규진 기자 = 여야는 3일 국회에서 열린 &apos;윤석열 정권 정치검찰 조작 기소 의혹 사건 진상규명 국정조사&apos;에서 ...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": true,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "與 \"박상용 설계\"·국힘 \"대통령 정범\"…국조서 '대북송금' 충돌(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20260403075652001"
+            }
+          ]
+        },
+        {
+          "title": "정성호 \"검찰 자정능력 있나…박상용 증인선서 거부 부적절\"",
+          "link": "https://www.yna.co.kr/view/AKR20260403171800004",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-04-03 22:31:14",
+          "description": "(서울=연합뉴스) 이밝음 기자 = 정성호 법무부 장관은 3일 국회에서 열린 &apos;윤석열 정권 정치검찰 조작기소 의혹 사건 진상규명 국정조사&apos;에서 &quot;...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "검찰, 종합특검에 박상용 '진술회유 의혹' 넘긴다…특검 수사(종합2보)",
+          "link": "https://www.yna.co.kr/view/AKR20260403070052004",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-04-03 17:59:34",
+          "description": "(서울=연합뉴스) 정윤주 기자 = 검찰이 서울고검 인권 침해점검 태스크포스(TF)가 맡아 자체 조사하던 &apos;진술 회유 의혹&apos; 사건을 권창영 2차 ...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "與 \"박상용 설계\"·국힘 \"대통령 정범\"…국조서 '대북송금' 충돌",
+          "link": "https://www.yna.co.kr/view/AKR20260403075651001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-04-03 14:56:42",
+          "description": "(서울=연합뉴스) 최평천 오규진 기자 = 여야는 3일 국회에서 열린 &apos;윤석열 정권 정치검찰 조작 기소 의혹 사건 진상규명 국정조사&apos;에서 이른바 ...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": true,
+          "related_full_sources": []
+        }
+      ],
+      "count": 4,
+      "role": "수원지검 검사"
+    },
+    "오세훈": {
+      "articles": [
+        {
+          "title": "명태균 증언에 오세훈측은 신빙성 공격…법원 \"선거 이후 선고\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260403153451004",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-04-03 20:32:06",
+          "description": "(서울=연합뉴스) 이도흔 기자 = 오세훈 서울시장이 정치자금법 위반 혐의 재판에서 6·3 지방선거 전까지 재판 일정을 멈추거나 선고 기일을 선거...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "오세훈 \"명태균 일당과 민중기 특검, 반드시 대가 치를 것\"",
+          "link": "https://www.yna.co.kr/view/AKR20260403054400004",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-04-03 10:36:13",
+          "description": "(서울=연합뉴스) 황재하 기자 = 오세훈 서울시장이 &apos;정치 브로커&apos; 명태균씨의 주장과 이를 기반으로 &apos;짜 맞춘 진술&apos;로 자신을 기소했다며 민중기...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "오세훈 “전월세 재앙이 몰려와…정부 규제 합리화해야”",
+          "link": "https://www.mk.co.kr/news/realestate/12007299",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-04-03 14:22:29",
+          "description": "등록임대 활성화가 현실적 해법오세훈 서울시장은 3일 “전월세 재앙이 현실이 될 것이라는 불안감이 몰려오고 있다”며 전월세 시장 불안의 심각성을 경고했다. 정부가 등록임대 활성화 같..",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "서울시장"
+    },
+    "정청래": {
+      "articles": [
+        {
+          "title": "李, 정청래·장동혁과 7일 민생·경제 회담 “중동 위기 대응 논의”",
+          "link": "https://www.chosun.com/politics/politics_general/2026/04/04/43PNSQPRFJCXLEVZWXJED3FI6Y/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-04-04 00:51:00",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, 7일 정청래·장동혁 오찬…중동戰에 여야정 민생 협의",
+          "link": "https://www.yna.co.kr/view/AKR20260403107500001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-04-03 15:17:42",
+          "description": "(서울=연합뉴스) 임형섭 설승은 기자 = 이재명 대통령이 오는 7일 더불어민주당 정청래 대표와 국민의힘 장동혁 대표 등을 청와대로 초청해 &apos;여야...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "[속보] 李대통령, 7일 정청래·장동혁 등과 여야정 민생협의체 회담",
+              "link": "https://www.yna.co.kr/view/AKR20260403104600001"
+            }
+          ]
+        },
+        {
+          "title": "정청래 \"국가폭력 형사공소시효·민사소멸시효 폐지 조속 처리\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260403040251001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-04-03 11:54:38",
+          "description": "(제주·서울=연합뉴스) 이슬기 정연솔 기자 = 더불어민주당 정청래 대표는 제주 4·3 사건 78주년인 3일 국가폭력의 형사 공소시효와 민사 소멸...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": true,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "국회의원"
+    },
+    "장동혁": {
+      "articles": [
+        {
+          "title": "李, 정청래·장동혁과 7일 민생·경제 회담 “중동 위기 대응 논의”",
+          "link": "https://www.chosun.com/politics/politics_general/2026/04/04/43PNSQPRFJCXLEVZWXJED3FI6Y/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-04-04 00:51:00",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, 7일 정청래·장동혁 오찬…중동戰에 여야정 민생 협의",
+          "link": "https://www.yna.co.kr/view/AKR20260403107500001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-04-03 15:17:42",
+          "description": "(서울=연합뉴스) 임형섭 설승은 기자 = 이재명 대통령이 오는 7일 더불어민주당 정청래 대표와 국민의힘 장동혁 대표 등을 청와대로 초청해 &apos;여야...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "[속보] 李대통령, 7일 정청래·장동혁 등과 여야정 민생협의체 회담",
+              "link": "https://www.yna.co.kr/view/AKR20260403104600001"
+            }
+          ]
+        },
+        {
+          "title": "국힘 지도부 4년만 4·3 추념식 참석…張 \"역사왜곡 있을 수 없어\"",
+          "link": "https://www.yna.co.kr/view/AKR20260403071600001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-04-03 11:40:55",
+          "description": "(서울=연합뉴스) 노선웅 기자 = 국민의힘 장동혁 대표는 3일 &quot;4·3 관련 재산 피해에 대해서도 합당한 보상이 이뤄져야 한다&quot;고 말했다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "지방/행정",
+          "is_representative": true,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "국회의원"
+    }
+  }
+}
