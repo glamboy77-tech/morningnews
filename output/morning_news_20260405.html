@@ -5,11 +5,11 @@
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Morning News 2026.04.05</title>
-            <link rel="manifest" href="manifest.json">
+            <link rel="manifest" href="../manifest.json">
             <script>
               // Service Worker Registration
               if ('serviceWorker' in navigator) {
-                navigator.serviceWorker.register('sw.js')
+                navigator.serviceWorker.register('../sw.js')
                   .then(registration => {
                     console.log('Service Worker registered:', registration);
                   })
@@ -171,7 +171,6 @@ ${shareText}`);
                   if (geminiLoadTimer) clearTimeout(geminiLoadTimer);
                   geminiLoadTimer = setTimeout(() => {
                       if (!geminiLoaded) {
-                          // Keep the hint visible but allow interaction if needed.
                           setGeminiLoading(false);
                       }
                   }, 15000);
@@ -951,7 +950,7 @@ ${shareText}`);
                         <button class="action-btn" onclick="shareMorningBriefing()">📤 오늘 브리핑 공유</button>
                     </div>
                 </header>
-        <div class="sticky-nav"><a href="archive.html" class="nav-pill">🗓️ 아카이브</a><a href="https://www.youtube.com/@morning5min" class="nav-pill" target="_blank" rel="noopener noreferrer">🎬 데일리 맥락</a><a href="#인물별" class="nav-pill">👤 인물별 (16)</a><a href="#정치" class="nav-pill">정치 (18)</a><a href="#경제/거시" class="nav-pill">경제/거시 (2)</a><a href="#기업/산업" class="nav-pill">기업/산업 (6)</a><a href="#부동산" class="nav-pill">부동산 (1)</a><a href="#국제" class="nav-pill">국제 (6)</a><a href="#science" class="nav-pill">테크 (10)</a></div><div class="briefing-card"><div class="briefing-title">⚡ Morning Briefing</div>
+        <div class="sticky-nav"><a href="../archive.html" class="nav-pill">🗓️ 아카이브</a><a href="https://www.youtube.com/@morning5min" class="nav-pill" target="_blank" rel="noopener noreferrer">🎬 데일리 맥락</a><a href="#인물별" class="nav-pill">👤 인물별 (16)</a><a href="#정치" class="nav-pill">정치 (18)</a><a href="#경제/거시" class="nav-pill">경제/거시 (2)</a><a href="#기업/산업" class="nav-pill">기업/산업 (6)</a><a href="#부동산" class="nav-pill">부동산 (1)</a><a href="#국제" class="nav-pill">국제 (6)</a><a href="#science" class="nav-pill">테크 (10)</a></div><div class="briefing-card"><div class="briefing-title">⚡ Morning Briefing</div>
                     <div class="briefing-item">
                         <span class="briefing-label">정치</span>
                         <span class="briefing-content">이란의 한국 선박 억류 사건 전말이 드러나는 가운데, 일본 이시바 전 총리의 방한과 대통령 면담 조율 소식이 전해졌습니다. 국민의힘은 수도권 공천 갈등으로 긴장감이 흐르고 있으며, 민주당은 호남과 수도권 주요 지역의 경선 후보를 확정하며 선거 채비에 속도를 내고 있습니다.</span>
@@ -1515,11 +1514,7 @@ ${shareText}`);
             <div id="geminiOverlay" class="gemini-overlay" role="dialog" aria-modal="true" aria-label="Gemini Navigator">
                 <div class="gemini-overlay-header">
                     <div class="gemini-overlay-title">🔎 Gemini 네비게이터</div>
-                    <div class="gemini-overlay-actions">
-                        <button class="gemini-icon-btn" type="button" title="새로고침" onclick="reloadGeminiNavigator()">↻</button>
-                        <button class="gemini-icon-btn" type="button" title="새 창으로 열기" onclick="openGeminiInNewTab()">↗</button>
-                        <button class="gemini-icon-btn" type="button" title="닫기" onclick="closeGeminiNavigator()">✕</button>
-                    </div>
+                    <div class="gemini-overlay-actions"><button class="gemini-icon-btn" type="button" title="새로고침" onclick="reloadGeminiNavigator()">↻</button><button class="gemini-icon-btn" type="button" title="새 창으로 열기" onclick="openGeminiInNewTab()">↗</button><button class="gemini-icon-btn" type="button" title="닫기" onclick="closeGeminiNavigator()">✕</button></div>
                 </div>
                 <div class="gemini-overlay-body">
                     <div id="geminiLoading" class="gemini-overlay-loading">
