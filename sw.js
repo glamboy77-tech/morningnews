@@ -1,8 +1,8 @@
 // Service Worker for PWA + Archive + Offline-friendly caching
 // NOTE: This SW is designed to work under GitHub Pages subpaths (e.g. /morningnews/)
 
-const CORE_CACHE = 'morning-news-core-v2';
-const PAGES_CACHE = 'morning-news-pages-v2';
+const CORE_CACHE = 'morning-news-core-v3';
+const PAGES_CACHE = 'morning-news-pages-v3';
 
 const CORE_ASSETS = [
     './',
@@ -62,6 +62,22 @@ async function staleWhileRevalidate(request, cacheName) {
     return cached || (await fetchPromise);
 }
 
+async function networkFirst(request, cacheName) {
+    const cache = await caches.open(cacheName);
+
+    try {
+        const response = await fetch(request, { cache: 'no-store' });
+        if (response && response.ok) {
+            cache.put(request, response.clone());
+        }
+        return response;
+    } catch (error) {
+        const cached = await cache.match(request);
+        if (cached) return cached;
+        throw error;
+    }
+}
+
 async function cacheFirst(request, cacheName) {
     const cache = await caches.open(cacheName);
     const cached = await cache.match(request);
@@ -81,10 +97,11 @@ self.addEventListener('fetch', (event) => {
     if (url.origin !== self.location.origin) return;
 
     // HTML pages (index, archive, output/*.html)
+    // 앱 진입 시 어제자 HTML을 먼저 보여주지 않도록 network-first를 사용한다.
     if (isHtmlRequest(request)) {
         event.respondWith(
             (async () => {
-                const response = await staleWhileRevalidate(request, PAGES_CACHE);
+                const response = await networkFirst(request, PAGES_CACHE);
                 if (response) return response;
 
                 // Offline fallback: try cached index.html
