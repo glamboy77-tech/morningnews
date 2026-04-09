@@ -1,0 +1,398 @@
+{
+  "timestamp": "2026-04-10T06:03:24.429773",
+  "date": "20260410",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "李대통령, 오늘 민주노총과 간담회…'노동권 보장' 정책 토론",
+          "link": "https://www.yna.co.kr/view/AKR20260409135100001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-04-10 05:00:00",
+          "description": "(서울=연합뉴스) 설승은 기자 = 이재명 대통령은 10일 오전 청와대로 양대 노총 중 하나인 전국민주노동조합총연맹(민주노총) 지도부를 초청해 간...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李 “비정규직 월급 더 줘야… 자발적 실업에 수당 안 주는 건 문제”",
+          "link": "https://www.chosun.com/politics/politics_general/2026/04/10/LTIOW5UEWJFLVFEM7QWZ3X55OQ/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-04-10 00:57:00",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 \"일할 시간 4년 1개월 밖에 안 남아…잠 더 줄이자\"",
+          "link": "https://www.yna.co.kr/view/AKR20260409124800001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-04-09 15:21:23",
+          "description": "(서울=연합뉴스) 설승은 황윤기 기자 = 이재명 대통령은 9일 중동발 국제정세 불안과 관련해 &quot;여러 복합적인 위기를 앞에 두고 우리 스스로 분열...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 지지율 69%로 최고치 동률…민주 47%·국힘 18%[NBS](종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260409081651001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-04-09 11:55:28",
+          "description": "(서울=연합뉴스) 김치연 기자 = 이재명 대통령의 국정운영을 긍정적으로 평가한 비율이 69%로 지난해 6월 취임 이래 최고치와 동률을 기록했다는...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 \"작업 넘어가면 안 돼\"…'하정우 차출론'에 공개 언급(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260409093151001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-04-09 16:37:58",
+          "description": "(서울=연합뉴스) 설승은 황윤기 기자 = 이재명 대통령은 9일 여당에서 부산 북구갑 국회의원 보궐선거 차출 요구가 나오는 하정우 청와대 AI미래...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": true,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "李대통령 \"작업 넘어가면 안 돼\"…'하정우 차출론'에 공개 언급",
+              "link": "https://www.yna.co.kr/view/AKR20260409093100001"
+            }
+          ]
+        },
+        {
+          "title": "김남국, 안산갑 보선 출마선언…\"李정부 성공 완성하겠다\"",
+          "link": "https://www.yna.co.kr/view/AKR20260409120600061",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-04-09 15:17:52",
+          "description": "(안산·서울 =연합뉴스) 김인유 서혜림 기자 = 더불어민주당 김남국 대변인이 9일 6·3 지방선거와 함께 치러지는 안산갑 보궐선거 출마를 공식 ...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "지방/행정",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 \"노동정책도 실용적 접근해야…이념에 매여선 안 돼\"",
+          "link": "https://www.yna.co.kr/view/AKR20260409094100001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-04-09 12:18:50",
+          "description": "(서울=연합뉴스) 임형섭 기자 = 이재명 대통령은 9일 노동정책에 있어서도 &quot;이념이나 가치에 매여선 안 되며, 실용적으로 접근해야 한다&quot;며 필요...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "“러시아産 원유 확보해야”...李 주재 경제자문회의서 보고",
+          "link": "https://www.chosun.com/economy/economy_general/2026/04/09/GA2DENLDGNTGIOJQMRSDIOBWGM/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-04-09 16:25:09",
+          "description": "이란이 미국과의 휴전 발효 후 일시 개방했던 호르무즈 해협을 다시 폐쇄한 가운데, 거리가 가까운 러시아 또는 이란산(産) 원유 수입을 적극 추진해야 한다는 제안이 대통령직속 연구기관에서 나왔다. 우리나라의 중동 원유 의존도는 70%에 달하는데, 중동 전쟁을 계기로 수급 다변화에 속도를 내자는 것이다. 특히 미국 WTI(서부 텍사스산 원유) 등 경질유 정제가",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령에 쏟아진 경제제언…\"전기료 조정·배당소득 세제혜택\"",
+          "link": "https://www.yna.co.kr/view/AKR20260409091300001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-04-09 12:26:38",
+          "description": "(서울=연합뉴스) 황윤기 기자 = 이재명 대통령이 9일 주재한 국민경제자문회의 전체회의에는 각 분야 경제 전문가들이 참석해 한국경제의 위기 극복...",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "李 대통령 “소액주주 배당소득 분리과세 검토”",
+          "link": "https://www.chosun.com/politics/politics_general/2026/04/09/R3CR5QGRBJE7BBCGPMFYEVZBTA/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-04-09 11:29:19",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 “기업 보유 非업무용 부동산, 대대적인 보유 부담 안겨야”",
+          "link": "https://www.chosun.com/politics/blue_house/2026/04/09/YBEY4PCWYBGRTFUKSYOYXKO2AA/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-04-09 11:17:27",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "李, 기업 비업무용 부동산도 겨냥 “대대적인 보유 부담 안기도록 검토”",
+          "link": "https://www.chosun.com/economy/real_estate/2026/04/10/FCB2EKMNSRDF5FCGBWMPQXZ4SQ/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-04-10 00:54:00",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 12,
+      "role": "한국 대통령"
+    },
+    "트럼프": {
+      "articles": [
+        {
+          "title": "“트럼프, 이란 전쟁에 협조 안한 나토국서 미군 철수 검토”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260410/133710956/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-04-10 04:30:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/04/10/133709157.4.jpg\" vspace=\"10\" />도널드 트럼프 미국 행정부가 이란과의 전쟁 중에 미국에 협조적이지 않았던 북대서양조약기구(NATO·나토) 회원국을 겨냥해 ‘나토 주둔 미군 재배치’ 방안 등을 검토 중이라고 월스트리트저널(WSJ)이 8일 보도했다. 전쟁 발발 뒤 이란이 봉쇄 중인 중동의 핵심 원유 수송로 호르무즈 해협의 안정을 위해 군함을 파견해 달라는 미국의 요청을 나토 회원국들이 거부한 데 따른 보복성 조치인 것으로 풀이된다. 이에 따라, 실제 재배치 등의 작업이 진행되면 상당한 후폭풍이 일 것으로 보인다.● 스페인과 독일 미군 기지 폐쇄 방안 거론 WSJ에 따르면 트럼프 행정부는 이번 전쟁 과정 중 미국에 도움을 주지 않은 나토 회원국에 주둔 중인 미군을 이란 전쟁을 강하게 지지한 국가로 이동시키는 방안을 검토하고 있다. 아직 초기 단계지만 최근 몇 주 동안 일부 미 고위 관계자들 사이에서 논의됐고, 긍정적인 반응을 얻은 것으로 전해졌다. 최소 하나의 유럽 국가에서 아예 미군 기지 전체를 폐쇄하는 방안도",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프 “합의 완전 이행까지 미군 무장전력 이란 주변 주둔”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260409/133706533/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-04-09 13:55:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/04/09/133706592.3.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령이 이란과의 ‘2주 휴전’ 합의 발표 다음 날인 8일(현지 시간) “이미 상당한 타격을 입은 적을 치명적으로 제압하고 소탕하는 데 적합하고 필요한 추가 탄약, 무기 및 기타 모든 장비를 갖춘 미국의 모든 함정, 항공기 및 군 인력은 체결된 ‘진정한 합의(REAL AGREEMENT)’가 완전히 이행될 때까지 이란 및 그 주변 지역에 계속 주둔할 것”이라고 했다.트럼프 대통령은 이날 소셜미디어 트루스쇼셜을 통해 이렇게 밝히며 “만약 어떤 이유로든 합의가 이행되지 않는다면(그럴 가능성은 매우 낮지만) 그 누구도 본 적 없는 규모로, 더 강력하고 더 효과적인 ‘사격’이 시작될 것”이라고 했다.또한 트럼프 대통령은 “모든 허위 선동에도 불구하고 핵무기는 허용되지 않으며 호르무즈 해협은 열리고 안전할 것”이라고 했다. 그러면서 “우리의 위대한 군대는 전열을 가다듬으며 휴식을 취하고 있다”며 “사실상 다음 정복을 고대하고 있다”고 덧붙였다.이러한 메시지는 트럼프 대",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프, 나토에 뒤끝?…WSJ “비협조 국가서 미군 철수 검토”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260409/133706458/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-04-09 15:13:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/04/09/133707532.1.jpg\" vspace=\"10\" />도널드 트럼프 미국 행정부가 이란과의 전쟁 중에 미국에 협조적이지 않았던 북대서양조약기구(NATO·나토) 회원국을 겨냥해 ‘나토 주둔 미군 재배치’ 방안 등을 검토 중이라고 월스트리트저널(WSJ)이 8일 보도했다. 전쟁 발발 뒤 이란이 봉쇄 중인 중동의 핵심 원유 수송로 호르무즈 해협의 안정을 위해 군함을 파견해 달라는 미국의 요청을 나토 회원국들이 거부한 데 따른 보복성 조치인 것으로 풀이된다. 이에 따라, 실제 재배치 등의 작업이 진행되면 상당한 후폭풍이 일 것으로 보인다.WSJ에 따르면 트럼프 행정부는 이번 전쟁 과정 중 미국에 도움을 주지 않은 나토 회원국에 주둔 중인 미군을 이란 전쟁을 강하게 지지한 국가로 이동시키는 방안을 검토하고 있다. 아직 초기 단계지만 최근 몇 주 동안 일부 미 고위 관계자들 사이에서 논의됐고, 긍정적인 반응을 얻은 것으로 전해졌다.최소 하나의 유럽 국가에서 아예 미군 기지 전체를 폐쇄하는 방안도 거론된다. WSJ는 스페인과 독일 등이 미군 기지",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "미국 대통령"
+    },
+    "조현": {
+      "articles": [
+        {
+          "title": "한국 선박 1척 호르무즈 인근 이동… 조현 “이란에 특사 파견”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260410/133711394/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-04-10 04:30:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/04/10/133711678.1.jpg\" vspace=\"10\" />미국과 이란이 2주 휴전을 선언하자 한국 해운사인 HMM 선박 한 척이 사우디아라비아 항구에 정박하다 호르무즈 해협 인근으로 이동한 것으로 확인됐다. 하지만 여전한 호르무즈 해협을 둘러싼 불확실성에 해협을 통과하지 못한 상태다. 한국과 관련된 나머지 25척도 긴박감 속에 상황을 주시하고 있다. 9일(현지 시간) HMM에 따르면 페르시아만에 머무르던 이 회사 소속의 한 컨테이너선이 이날 이동을 시작해 호르무즈해 인근으로 위치를 옮겼다. 6m 크기 컨테이너 1만6000여 개(TEU)를 실을 수 있는 이 배는 지난달 중순 이후 사우디 주바일항에 정박해 있다 580km를 이동해 이날 아랍에미리트(UAE) 두바이의 제벨알리항으로 위치를 옮겼다. 제벨알리항에서 호르무즈 해협까지는 210km가량 떨어져 있다. 이 선박 외에 다른 선박들도 다수 호르무즈 해협 인근으로 위치를 바짝 당기는 모습이 포착됐다. 이란의 허가 없이 호르무즈 해협을 통과할 수 없지만, 허가를 받는 대로 최대한 빠르게 해협",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "IAEA 사무총장 14일 방한… 조현 외교장관과 원잠 등 논의",
+          "link": "https://www.chosun.com/politics/diplomacy-defense/2026/04/09/LFKL6WDMUFCP3K2OL2IHFXI5QY/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-04-09 16:53:15",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "IAEA 사무총장 내주 방한…조현 외교장관과 핵잠 등 논의",
+          "link": "https://www.yna.co.kr/view/AKR20260409143800504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-04-09 16:38:05",
+          "description": "(서울=연합뉴스) 김지헌 민선희 기자 = 라파엘 그로시 국제원자력기구(IAEA) 사무총장이 조현 외교부 장관 초청으로 오는 14∼15일 한국을 ...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "외교부 장관"
+    },
+    "김재원": {
+      "articles": [
+        {
+          "title": "양향자 \"이게 공천?\"·김재원 \"이철우 안 돼\"…난장판된 국힘(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260409076051001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-04-09 14:58:50",
+          "description": "(서울=연합뉴스) 박수윤 조다운 노선웅 기자 = 6·3 지방선거를 50여일 앞두고 국민의힘 최고위가 9일 다시 난장판이 됐다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "양향자 \"이게 공천?\"·김재원 \"이철우 안 돼\"…난장판된 국힘",
+              "link": "https://www.yna.co.kr/view/AKR20260409076000001"
+            }
+          ]
+        },
+        {
+          "title": "박덕흠, 김재원·양향자에 \"공개석상서 본인선거 발언 자제하라\"",
+          "link": "https://www.yna.co.kr/view/AKR20260409097500001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-04-09 14:10:59",
+          "description": "(서울=연합뉴스) 박수윤 노선웅 기자 = 국민의힘 박덕흠 공천관리위원장은 9일 최고위에서 공천 절차에 대한 문제를 제기하거나 경쟁 후보를 비판한...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "국힘 경북지사 경선 막바지…이철우·김재원 공방 격화(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260409127651053",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-04-09 16:26:43",
+          "description": "(안동=연합뉴스) 이승형 기자 = 국민의힘 경북도지사 공천 경쟁이 막바지로 치달으면서 김재원·이철우(가나다순) 예비후보 간 공방전이 격화되고 있...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "지방/행정",
+          "is_representative": true,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "국힘 경북지사 경선 막바지…이철우·김재원 공방 격화",
+              "link": "https://www.yna.co.kr/view/AKR20260409127600053"
+            }
+          ]
+        }
+      ],
+      "count": 3,
+      "role": "국민의힘 정치인"
+    },
+    "이철우": {
+      "articles": [
+        {
+          "title": "양향자 \"이게 공천?\"·김재원 \"이철우 안 돼\"…난장판된 국힘(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260409076051001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-04-09 14:58:50",
+          "description": "(서울=연합뉴스) 박수윤 조다운 노선웅 기자 = 6·3 지방선거를 50여일 앞두고 국민의힘 최고위가 9일 다시 난장판이 됐다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "양향자 \"이게 공천?\"·김재원 \"이철우 안 돼\"…난장판된 국힘",
+              "link": "https://www.yna.co.kr/view/AKR20260409076000001"
+            }
+          ]
+        },
+        {
+          "title": "국힘 경북지사 경선 막바지…이철우·김재원 공방 격화(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260409127651053",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-04-09 16:26:43",
+          "description": "(안동=연합뉴스) 이승형 기자 = 국민의힘 경북도지사 공천 경쟁이 막바지로 치달으면서 김재원·이철우(가나다순) 예비후보 간 공방전이 격화되고 있...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "지방/행정",
+          "is_representative": true,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "국힘 경북지사 경선 막바지…이철우·김재원 공방 격화",
+              "link": "https://www.yna.co.kr/view/AKR20260409127600053"
+            }
+          ]
+        },
+        {
+          "title": "이철우, 경북형 '첫걸음 연금' 공약…0세부터 자산형성 지원",
+          "link": "https://www.yna.co.kr/view/AKR20260409141000053",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-04-09 16:15:14",
+          "description": "(안동=연합뉴스) 이승형 기자 = 국민의힘 이철우 경북도지사 예비후보는 9일 국민의힘 경북도당에서 기자회견을 열고 &apos;만원의 희망, 경북 첫걸음 ...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "지방/행정",
+          "is_representative": false,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "경북도지사"
+    },
+    "김": {
+      "articles": [
+        {
+          "title": "金총리 \"제도·인프라 한계로 응급실 뺑뺑이…전체적 개선 필요\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260409163051001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-04-09 20:40:06",
+          "description": "(서울=연합뉴스) 이상현 기자 = 김민석 국무총리는 9일 이른바 &apos;응급실 뺑뺑이&apos; 문제와 관련, &quot;의료진의 헌신성이나 노력에도 여러 가지 제도적...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "金총리 \"제도·인프라 한계로 응급실 뺑뺑이…전체적 개선 필요\"",
+              "link": "https://www.yna.co.kr/view/AKR20260409163000001"
+            }
+          ]
+        },
+        {
+          "title": "金총리 \"중동전쟁으로 건설자재 전반에 영향…선제 조치해야\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260409118451001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-04-09 16:26:16",
+          "description": "(서울=연합뉴스) 이상현 기자 = 김민석 국무총리는 9일 세종시의 아스콘(아스팔트와 골재를 섞은 도로 포장재) 생산업체를 방문해 자재 수급 문제...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": true,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "金총리 \"중동전쟁으로 건설자재 전반에 영향…선제 조치해야\"",
+              "link": "https://www.yna.co.kr/view/AKR20260409118400001"
+            }
+          ]
+        },
+        {
+          "title": "金총리 “정유사 원가 공개 검토하라”",
+          "link": "https://www.chosun.com/politics/goverment/2026/04/09/X3O56R2RAJHFLEZ5SRN2XFA4FA/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-04-09 15:56:18",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": [
+            {
+              "source": "조선일보-경제",
+              "title": "金총리 “정유사 원가 공개 검토하라”",
+              "link": "https://www.chosun.com/politics/goverment/2026/04/09/X3O56R2RAJHFLEZ5SRN2XFA4FA/"
+            }
+          ]
+        }
+      ],
+      "count": 3,
+      "role": "국무총리"
+    }
+  }
+}
