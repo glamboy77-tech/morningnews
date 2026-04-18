@@ -1,0 +1,57 @@
+{
+  "timestamp": "2026-04-19T06:03:24.363744",
+  "date": "20260419",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "李대통령, 與 차지호 의원에 감사패…\"글로벌 AI허브 설립 지원\"",
+          "link": "https://www.yna.co.kr/view/AKR20260418025900001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-04-18 09:38:23",
+          "description": "(서울=연합뉴스) 황윤기 기자 = 이재명 대통령이 정부의 인공지능(AI) 정책 설계와 글로벌 AI 허브 유치 활동을 지원한 더불어민주당 차지호 ...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, 오늘부터 인도·베트남 국빈방문…공급망 안정 모색",
+          "link": "https://www.yna.co.kr/view/AKR20260418047900001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-04-19 05:00:01",
+          "description": "(서울=연합뉴스) 황윤기 기자 = 이재명 대통령은 5박 6일간의 인도·베트남 국빈 방문을 위해 19일 출국한다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 \"장기보유특별공제 폐지가 세금폭탄? 명백한 거짓선동\"",
+          "link": "https://www.yna.co.kr/view/AKR20260418037100001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-04-18 13:20:56",
+          "description": "(서울=연합뉴스) 황윤기 기자 = 이재명 대통령은 18일 부동산 양도세 장기보유특별공제(장특공제)를 폐지하면 &apos;세금 폭탄&apos;으로 이어질 것이라는 ...",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": [
+            {
+              "source": "조선일보-경제",
+              "title": "李 “국힘 ‘장기보유특별공제 폐지는 세금폭탄’ 주장, 명백한 거짓선동”",
+              "link": "https://www.chosun.com/economy/economy_general/2026/04/18/MY2GIZBZG5STMZBQGRQTCZBQGE/"
+            },
+            {
+              "source": "조선일보-정치",
+              "title": "李대통령 “장특공제 폐지가 1주택자 세금폭탄? 거짓 선동”",
+              "link": "https://www.chosun.com/politics/blue_house/2026/04/18/D3VLWV2GJBDMRNQJ5N4N4RNIK4/"
+            }
+          ]
+        }
+      ],
+      "count": 3,
+      "role": "한국 대통령"
+    }
+  }
+}
