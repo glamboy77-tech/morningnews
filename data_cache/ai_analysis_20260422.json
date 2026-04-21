@@ -1,0 +1,1721 @@
+{
+  "timestamp": "2026-04-22T06:01:54.152126",
+  "date": "20260422",
+  "data": {
+    "정치": [
+      {
+        "title": "李대통령, 오늘 또 럼 서기장과 정상회담…원전 등 에너지 협력",
+        "link": "https://www.yna.co.kr/view/AKR20260421095700001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-04-22 05:00:01",
+        "description": "(하노이=연합뉴스) 임형섭 황윤기 기자 = 베트남을 국빈 방문한 이재명 대통령은 22일(현지시간) 또 럼 공산당 서기장 겸 국가주석과 정상회담을...",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "정상/외교",
+        "is_representative": true,
+        "related_full_sources": []
+      },
+      {
+        "title": "국민의힘 지도부, 양양서 강원 지역 공약 발표·고유가 점검",
+        "link": "https://www.yna.co.kr/view/AKR20260421172000001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-04-22 05:00:04",
+        "description": "(서울=연합뉴스) 김유아 기자 = 국민의힘 지도부는 22일 강원도 양양을 찾아 강원 지역 공약을 발표하는 등 6·3 지방선거를 겨냥한 지역 행보...",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "당내 정국",
+        "is_representative": true,
+        "related_full_sources": []
+      },
+      {
+        "title": "선거 전에 ‘조작기소 특검’ 띄우겠다는 與",
+        "link": "https://www.chosun.com/politics/assembly/2026/04/22/EXZVP2G4LVENFBHXLAGU7N6PSM/",
+        "source": "조선일보-정치",
+        "published_dt": "2026-04-22 00:47:00",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "사법/의혹",
+        "is_representative": true,
+        "related_full_sources": []
+      },
+      {
+        "title": "국힘 경기지사 후보 내달 2일 ‘지각 발표’",
+        "link": "https://www.chosun.com/politics/assembly/2026/04/22/C5BTLYBMQ5HOLEG4LDCJFWNLHY/",
+        "source": "조선일보-정치",
+        "published_dt": "2026-04-22 00:48:00",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "지방/행정",
+        "is_representative": true,
+        "related_full_sources": []
+      },
+      {
+        "title": "과학기술·정보통신 유공자 164명 포상",
+        "link": "https://www.hankyung.com/article/2026042167341",
+        "source": "한국경제-IT",
+        "published_dt": "2026-04-21 17:51:04",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "Science/Tech",
+        "is_representative": true,
+        "related_full_sources": []
+      },
+      {
+        "title": "빅터 차, 정동영에 반박… “CSIS는 그런 보고서 안 냈다”",
+        "link": "https://www.chosun.com/politics/politics_general/2026/04/22/ZLONPPTWTRAQLELACWYJAN6W5E/",
+        "source": "조선일보-정치",
+        "published_dt": "2026-04-22 00:49:00",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "사법/의혹",
+        "is_representative": false,
+        "related_full_sources": []
+      },
+      {
+        "title": "정대철 “北 두국가론은 반민족적…영구분단 반대에 타협 없어야”",
+        "link": "https://www.chosun.com/politics/assembly/2026/04/21/YZJU2NKEIBBCHJJ47VKERN2JIA/",
+        "source": "조선일보-정치",
+        "published_dt": "2026-04-21 21:52:55",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "정상/외교",
+        "is_representative": false,
+        "related_full_sources": [
+          {
+            "source": "연합뉴스-정치",
+            "title": "정대철 \"北 두국가론은 반민족적…영구분단 반대에 타협 없어야\"",
+            "link": "https://www.yna.co.kr/view/AKR20260421162100001"
+          }
+        ]
+      },
+      {
+        "title": "정청래, 고구마 순 심는 김남국에 “그래 갖고 공천 받겠어?”",
+        "link": "https://www.chosun.com/politics/assembly/2026/04/21/UAOWVC4YUJE6NDRGNSO2IVHJ3Y/",
+        "source": "조선일보-정치",
+        "published_dt": "2026-04-21 22:26:38",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "당내 정국",
+        "is_representative": false,
+        "related_full_sources": []
+      },
+      {
+        "title": "金총리, 대구 응급환자 이송체계 점검…\"미스매치 최소화\"",
+        "link": "https://www.yna.co.kr/view/AKR20260421165400001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-04-21 19:41:38",
+        "description": "(서울=연합뉴스) 이상현 기자 = 김민석 국무총리는 21일 대구지역 응급환자 이송체계 점검 회의를 열어 개선 방안을 논의했다.",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "입법/정책",
+        "is_representative": false,
+        "related_full_sources": []
+      },
+      {
+        "title": "전주시의원, 의정 기간에 '협찬 광고 블로그 운영' 논란",
+        "link": "https://www.yna.co.kr/view/AKR20260421148300055",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-04-21 16:58:41",
+        "description": "(전주=연합뉴스) 김동철 기자 = 더불어민주당 소속 전북 전주시의원이 임기 중 업체로부터 물품을 제공받고 블로그에 협찬 광고 글을 지속해서 올려...",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "사법/의혹",
+        "is_representative": false,
+        "related_full_sources": []
+      },
+      {
+        "title": "이석연, 국립중앙박물관 찾아 \"역사에 공감하는 국민통합의 장\"",
+        "link": "https://www.yna.co.kr/view/AKR20260421145200001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-04-21 16:52:07",
+        "description": "(서울=연합뉴스) 고동욱 기자 = 대통령 직속 국민통합위원회 이석연 위원장은 21일 국립중앙박물관을 방문, 유홍준 관장과 만나 문화유산의 사회적...",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "지방/행정",
+        "is_representative": false,
+        "related_full_sources": []
+      },
+      {
+        "title": "이정현 \"5·18정신 헌법수록 찬성…개헌 표결 자율투표 제안\"",
+        "link": "https://www.yna.co.kr/view/AKR20260421144000054",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-04-21 16:45:45",
+        "description": "(광주=연합뉴스) 박철홍 기자 = 이정현 국민의힘 전남광주통합특별시장 예비후보는 21일 &quot;오래전부터 5·18 정신의 헌법 전문 수록에 찬성해 왔...",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "입법/정책",
+        "is_representative": false,
+        "related_full_sources": []
+      },
+      {
+        "title": "정부, 日다카이치 야스쿠니 공물에 \"깊은 실망과 유감\"(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260421108551504",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-04-21 16:34:53",
+        "description": "(서울=연합뉴스) 김지헌 기자 = 정부가 21일 일본 다카이치 사나에 총리의 야스쿠니 신사 공물 봉납을 비판했다.",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "정상/외교",
+        "is_representative": false,
+        "related_full_sources": []
+      },
+      {
+        "title": "국힘 경남도당 \"공천심사때 제보 접수, 진주시장 수사의뢰 예정\"",
+        "link": "https://www.yna.co.kr/view/AKR20260421137600052",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-04-21 16:24:52",
+        "description": "(창원=연합뉴스) 이정훈 기자 = 국민의힘 경남도당은 진주시장 후보 공천심사 과정에서 조규일 진주시장에 대한 비리 제보가 들어와 수사기관에 정식...",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "사법/의혹",
+        "is_representative": false,
+        "related_full_sources": []
+      },
+      {
+        "title": "李대통령, 인도 일정 마치고 베트남으로...내일 정상회담",
+        "link": "https://www.chosun.com/politics/politics_general/2026/04/21/ZUHWWFXP4ZGDTD3U3WDJCYJZYA/",
+        "source": "조선일보-정치",
+        "published_dt": "2026-04-21 12:50:05",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "정상/외교",
+        "is_representative": true,
+        "related_full_sources": []
+      },
+      {
+        "title": "정부, 日다카이치 야스쿠니 공물에 \"깊은 실망과 유감\"",
+        "link": "https://www.yna.co.kr/view/AKR20260421108500504",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-04-21 14:14:52",
+        "description": "(서울=연합뉴스) 김지헌 기자 = 정부가 21일 일본 다카이치 사나에 총리의 야스쿠니 신사 공물 봉납을 비판했다.",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "정상/외교",
+        "is_representative": false,
+        "related_full_sources": []
+      },
+      {
+        "title": "한병도 \"끝까지 마무리\"…與원내대표 연임 도전 공식화(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260421076351001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-04-21 15:10:51",
+        "description": "(서울=연합뉴스) 박재하 정연솔 기자 = 더불어민주당 한병도 원내대표가 21일 원내대표직을 사퇴하며 여당 원내대표 연임 도전을 공식화했다.",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "당내 정국",
+        "is_representative": true,
+        "related_full_sources": []
+      },
+      {
+        "title": "국힘 경기 의원들 \"우리가 책임지고 선거할 것\"…張과 거리두기",
+        "link": "https://www.yna.co.kr/view/AKR20260421078000001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-04-21 11:29:45",
+        "description": "(서울=연합뉴스) 김치연 김유아 기자 = 국민의힘 경기 지역 의원 전원은 21일 &quot;경기도를 잃으면 수도권을 잃는다&quot;며 6·3 지방선거 대비를 위...",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "당내 정국",
+        "is_representative": false,
+        "related_full_sources": []
+      },
+      {
+        "title": "\"美, 北기술 관련 정보공유 일부 제한…미사일 감시는 정상\"(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260420159251504",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-04-21 13:42:33",
+        "description": "(서울=연합뉴스) 이정현 김철선 하채림 기자 = 미국이 정동영 통일부 장관의 &apos;구성 핵시설&apos; 발언에 항의하며 공유를 제한한 대북 정보는 미측이 ...",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "사법/의혹",
+        "is_representative": true,
+        "related_full_sources": []
+      },
+      {
+        "title": "국조특위, 與주도 유병호 동행명령장 발부…김태효 출석구두명령",
+        "link": "https://www.yna.co.kr/view/AKR20260421090500001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-04-21 12:04:05",
+        "description": "(서울=연합뉴스) 서혜림 기자 = 국회 &apos;윤석열 정권 정치검찰 조작기소 의혹 사건 진상규명 국정조사 특별위원회&apos;는 21일 유병호 감사원 감사위원...",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "사법/의혹",
+        "is_representative": false,
+        "related_full_sources": []
+      },
+      {
+        "title": "金총리 \"전쟁 추경 생명은 속도…비상경제대응체계 굳건 유지\"(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260421083851001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-04-21 12:18:03",
+        "description": "(서울=연합뉴스) 이상현 기자 = 김민석 국무총리는 21일 추경 집행 문제와 관련, &quot;행정안전부는 고유가 피해지원 등을 포함한 20개 사업 예산...",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "입법/정책",
+        "is_representative": true,
+        "related_full_sources": [
+          {
+            "source": "연합뉴스-정치",
+            "title": "金총리 \"전쟁 추경 생명은 속도…비상경제대응체계 굳건 유지\"",
+            "link": "https://www.yna.co.kr/view/AKR20260421083800001"
+          }
+        ]
+      },
+      {
+        "title": "5월 9일까지 신청하면 다주택 양도세 중과 배제…국무회의 의결",
+        "link": "https://www.yna.co.kr/view/AKR20260421048900001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-04-21 11:31:39",
+        "description": "(서울=연합뉴스) 고동욱 기자 = 다주택자가 보유한 조정대상지역 주택에 대해 5월 9일까지만 토지거래 허가 신청을 완료하면 양도소득세 중과를 적...",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "입법/정책",
+        "is_representative": false,
+        "related_full_sources": []
+      },
+      {
+        "title": "국민의힘 강원도당, 강릉 제외 17개 시군 단체장 공천 마무리",
+        "link": "https://www.yna.co.kr/view/AKR20260421135000062",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-04-21 15:58:00",
+        "description": "(춘천=연합뉴스) 양지웅 기자 = 국민의힘 강원특별자치도당이 강릉을 뺀 17개 시군 단체장 후보 공천을 마무리했다.",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "지방/행정",
+        "is_representative": true,
+        "related_full_sources": []
+      },
+      {
+        "title": "고두갑·김해룡·이정선, 전남광주 교육감 후보 단일화 합의",
+        "link": "https://www.yna.co.kr/view/AKR20260421085800054",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-04-21 11:29:02",
+        "description": "(광주=연합뉴스) 장아름 기자 = 고두갑·김해룡·이정선 전남광주 통합특별시 교육감 선거 예비후보가 단일화에 합의했다.",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "지방/행정",
+        "is_representative": false,
+        "related_full_sources": []
+      },
+      {
+        "title": "광주 기업들 \"통합시장, 기업유치 위해 저비용 전력공급해야\"",
+        "link": "https://www.yna.co.kr/view/AKR20260421134300054",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-04-21 16:03:45",
+        "description": "(광주=연합뉴스) 장아름 기자 = 광주 지역 기업인들이 전남광주통합특별시 최우선 정책 과제로 주요 기업 유치를 꼽고 이를 위해 저비용 전력 공급...",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "지방/행정",
+        "is_representative": false,
+        "related_full_sources": []
+      },
+      {
+        "title": "金총리 \"과학기술 5대강국 목표로 과감한 투자와 제도 혁신\"",
+        "link": "https://www.yna.co.kr/view/AKR20260421126500001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-04-21 15:32:34",
+        "description": "(서울=연합뉴스) 이상현 기자 = 김민석 국무총리는 21일 과학기술 정책과 관련, &quot;자율과 창의를 토대로 실패를 두려워하지 않고 도전할 수 있는...",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "Science/Tech",
+        "is_representative": true,
+        "related_full_sources": []
+      },
+      {
+        "title": "오중기 민주당 경북지사 후보 \"30년 독점 권력 책임 물어야\"",
+        "link": "https://www.yna.co.kr/view/AKR20260421132500053",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-04-21 15:56:59",
+        "description": "(안동=연합뉴스) 이승형 기자 = 오중기 더불어민주당 경북도지사 예비후보는 21일 &quot;경북도민의 먹고사는 문제에 정치적 목숨을 걸겠다&quot;며 &quot;죽어가...",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "지방/행정",
+        "is_representative": false,
+        "related_full_sources": []
+      },
+      {
+        "title": "우원식 \"국회의원들 자유투표 하면 개헌안 통과할 수 있어\"",
+        "link": "https://www.yna.co.kr/view/AKR20260421127300054",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-04-21 15:36:45",
+        "description": "(광주=연합뉴스) 김혜인 기자 = 우원식 국회의장은 21일 &quot;5·18 정신을 헌법 전문에 수록하고, 다시는 내란을 꿈도 꾸지 못하게 개헌을 성사...",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "입법/정책",
+        "is_representative": false,
+        "related_full_sources": []
+      },
+      {
+        "title": "호르무즈 해협 앞까지 이동한 우리 선박들…통항 재개 대비",
+        "link": "https://www.yna.co.kr/view/AKR20260421125600051",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-04-21 15:28:33",
+        "description": "(부산=연합뉴스) 박성제 기자 = 호르무즈 해협 내측에 발이 묶였던 우리 선박들이 대부분 해협 인근 해역으로 이동한 것으로 파악됐다.",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "정상/외교",
+        "is_representative": false,
+        "related_full_sources": []
+      },
+      {
+        "title": "국힘 교통공약 띄우기…노인 전국 시내버스 무료·농어촌 우버",
+        "link": "https://www.yna.co.kr/view/AKR20260421124600001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-04-21 15:21:16",
+        "description": "(서울=연합뉴스) 김연정 김유아 기자 = 국민의힘은 6·3 지방선거를 앞두고 &apos;교통 분야 공약&apos;으로 만 70세 이상 노인들이 평일 출퇴근 시간을...",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "입법/정책",
+        "is_representative": false,
+        "related_full_sources": []
+      },
+      {
+        "title": "[영상] 김정은이 꺼내든 히든카드…우리는 막을 수 있나",
+        "link": "https://www.yna.co.kr/view/AKR20260421112100797",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-04-21 14:53:23",
+        "description": "(서울=연합뉴스) 이정진 기자 = 북한이 19일 &apos;악마의 무기&apos;라고 불리는 집속탄을 시험 발사했습니다.",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "정상/외교",
+        "is_representative": false,
+        "related_full_sources": []
+      },
+      {
+        "title": "육군 39사단 솔개여단, 경남 8개 시·군서 27∼30일 전술훈련",
+        "link": "https://www.yna.co.kr/view/AKR20260421116700052",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-04-21 14:51:48",
+        "description": "(함안=연합뉴스) 박영민 기자 = 육군 제39보병사단 예하 솔개여단은 전투준비태세 확립 등을 위해 오는 27일부터 30일까지 경남지역 일원에서 ...",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "지방/행정",
+        "is_representative": false,
+        "related_full_sources": []
+      },
+      {
+        "title": "민주 \"尹정부 실패로 집값↑\"…국힘 \"공급부족·대출규제 문제\"",
+        "link": "https://www.yna.co.kr/view/AKR20260421089900001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-04-21 11:58:56",
+        "description": "(서울=연합뉴스) 이슬기 기자 = 여야는 21일 지방선거 정책토론 대결에서 부동산 정책, 중동사태 장기화에 따른 고유가 충격 해소 등 민생경제 ...",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "입법/정책",
+        "is_representative": false,
+        "related_full_sources": []
+      },
+      {
+        "title": "국가관광전략회의 대통령 소속으로 격상…정책 실행력 강화",
+        "link": "https://www.yna.co.kr/view/AKR20260421086400030",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-04-21 11:36:03",
+        "description": "(서울=연합뉴스) 구정모 기자 = 문화체육관광부는 국가관광전략회의를 대통령 소속으로 격상하는 내용을 담은 &apos;관광기본법&apos; 개정안이 국무회의를 통과...",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "입법/정책",
+        "is_representative": false,
+        "related_full_sources": []
+      },
+      {
+        "title": "주민등록등·초본 표기 '배우자 자녀→세대원'…\"재혼가정 보호\"",
+        "link": "https://www.yna.co.kr/view/AKR20260421069200530",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-04-21 10:49:49",
+        "description": "(서울=연합뉴스) 양정우 기자 = 앞으로는 주민등록표 등·초본에 재혼가정의 사생활이 노출되지 않도록 세대주와 관계 표기 방식이 개선된다.",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "지방/행정",
+        "is_representative": false,
+        "related_full_sources": []
+      },
+      {
+        "title": "온실가스 배출권 가격 널뛰기 잡는다…정부 예비분 제도 법제화",
+        "link": "https://www.yna.co.kr/view/AKR20260421059600530",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-04-21 10:47:49",
+        "description": "(서울=연합뉴스) 옥성구 기자 = 온실가스 배출권거래제에서 정부의 시장안정화 예비분 확보의 법적 근거가 마련됐다.",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "입법/정책",
+        "is_representative": false,
+        "related_full_sources": []
+      },
+      {
+        "title": "“억울함 세상에 전달됐다” 우원식 의장, 단식 11일 안호영에 중단 요청",
+        "link": "https://www.chosun.com/politics/assembly/2026/04/21/YLUXGBKBS5H7BF7HEY7B5KKOXM/",
+        "source": "조선일보-정치",
+        "published_dt": "2026-04-21 10:19:25",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "사법/의혹",
+        "is_representative": false,
+        "related_full_sources": []
+      }
+    ],
+    "경제/거시": [
+      {
+        "title": "박홍근 기획처 장관 “2차 추경, 누구도 예단할 수 없어”",
+        "link": "https://www.chosun.com/economy/economy_general/2026/04/21/NMFSAWEVRJE3BLUBZBBAXJSMBE/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-04-21 17:01:00",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "사상 최고치 경신 코스피…중동 리스크에도 G20 국가 중 상승률 1위",
+        "link": "https://www.chosun.com/economy/stock-finance/2026/04/21/G43DKZLGGFTGEMZQGY4WKOLGHE/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-04-21 17:52:46",
+        "description": "21일 코스피가 사상 최고치를 경신한 가운데, 이달 들어 주요 20개국(G20) 중 가장 높은 상승률을 기록한 것으로 나타났다. 한국거래소에 따르면 이날 코스피는 종가 기준 6388.47포인트로 장을 마쳤다. 지난 2월 26일 6307.27포인트 이후 약 2개월 만에 사상 최고치를 경신했다. 장중 최고치였던 2월 27일 6347.41포인트도 넘어섰다. 시가",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "신현송 한국은행 총재, 구윤철 부총리와 23일 첫 회동",
+        "link": "https://www.chosun.com/economy/economy_general/2026/04/21/MFTDOYTBMI4DSNRYHFSWMZTGGQ/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-04-21 17:33:05",
+        "description": "한국의 경제·통화 정책 수장인 신현송 한국은행 총재와 구윤철 경제부총리 겸 재정경제부 장관이 23일 첫 만남을 가진다. 21일 한국은행·재정경제부에 따르면, 신 총재와 구 부총리는 23일 오전 서울 중구 은행회관 뱅커스클럽에서 조찬 회동을 한다. 신 총재가 취임한 지 사흘 만으로, 한은 총재와 부총리의 역대 만남 중 가장 이른 시점이다. 이번 만남은 구 부",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "“세계 경제 대전환기, 중앙銀 역할 달라져야”",
+        "link": "https://www.chosun.com/economy/economy_general/2026/04/22/JWXMRJNIGFGIPHP3LIHKQMDKZA/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-04-22 00:32:00",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "한달 남았다… 해외 주식 수익 세금 안 내도 되는 시한",
+        "link": "https://www.chosun.com/economy/money/2026/04/22/H6MIVJNCWFHD3CBXG3WCWI6ADM/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-04-22 03:00:00",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "“오락가락 전황보다 업황 믿는다”… 외국인이 쏘아올린 불장 증시",
+        "link": "https://www.chosun.com/economy/money/2026/04/22/ZDZSIR5RTBA3XPHTJO44CRHQYQ/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-04-22 00:51:00",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "서학개미도 ‘유턴’ “미국 주식 팔자”",
+        "link": "https://www.chosun.com/economy/money/2026/04/22/L57WDRPJHJAYBBNPEBZ6PUAYTQ/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-04-22 00:51:00",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "개인 투자자, 美 국채 매도 한달 새 3배로 늘어",
+        "link": "https://www.chosun.com/economy/money/2026/04/22/5UP5NAO6WJAX3JYP7OAKJBRNSE/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-04-22 00:35:00",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "[주식 매매 상위 종목 및 환율] 2026년 4월 21일자",
+        "link": "https://www.chosun.com/economy/stock-finance/2026/04/22/Z653C4DSAVHMBGQ3KM2VYVGFAA/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-04-22 00:35:00",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "은행권 ‘모임통장’ 大戰",
+        "link": "https://www.chosun.com/economy/economy_general/2026/04/22/QS5EGSXQ2JFWFPKQSSFSO5JQEA/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-04-22 00:32:00",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "삼성전자·하이닉스 ‘2배 베팅 ETF’ 내달 22일 나온다",
+        "link": "https://www.chosun.com/economy/stock-finance/2026/04/22/JG6W35BK6BGS3C6GCBA3OJRM7U/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-04-22 00:31:00",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "[주요경제지표] 2026년 4월 21일자",
+        "link": "https://www.chosun.com/economy/stock-finance/2026/04/22/OHDJ7RTNY5GJLNHGJADVJJ52AU/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-04-22 00:31:00",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "JP모간 \"코스피 8500 간다\"…\"이젠 이태원 담아라\"",
+        "link": "https://www.hankyung.com/article/2026042168131",
+        "source": "한국경제-기업",
+        "published_dt": "2026-04-21 18:16:56",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "형 못 따라가는 코스닥…전고점 언제 뚫을까",
+        "link": "https://www.hankyung.com/article/2026042168151",
+        "source": "한국경제-기업",
+        "published_dt": "2026-04-21 18:14:22",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "'매달 1조 유입' 액티브 ETF…운용사들은 수익률 전쟁 중",
+        "link": "https://www.hankyung.com/article/2026042167191",
+        "source": "한국경제-기업",
+        "published_dt": "2026-04-21 17:32:52",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "'단일종목 레버리지 ETF' 내달 22일 출시",
+        "link": "https://www.hankyung.com/article/2026042167181",
+        "source": "한국경제-기업",
+        "published_dt": "2026-04-21 17:30:32",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "\"월분배+특별분배까지\"…키움운용, 삼전닉스채권혼합50 ETF 상장",
+        "link": "https://www.hankyung.com/article/202604216537i",
+        "source": "한국경제-기업",
+        "published_dt": "2026-04-21 16:57:11",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "[속보] 코스피, 사상 최고가 마감…2.72% 오른 6388.47",
+        "link": "https://www.hankyung.com/article/2026042162456",
+        "source": "한국경제-기업",
+        "published_dt": "2026-04-21 15:32:17",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "“6월엔 나아진다” vs “지금 당장이 문제”…카페업계-정부, 온도차 뚜렷",
+        "link": "https://www.chosun.com/economy/smb-venture/2026/04/21/HFQTAOJWGZTGEOBWGE2DMNDGGM/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-04-21 16:13:18",
+        "description": "중동 지역 긴장과 나프타 공급 차질로 플라스틱 포장재 가격이 급등하면서 카페 업계의 부담이 커지고 있는 가운데, 21일 서울 영등포구에서 중소벤처기업부와 전국카페사장협동조합, 소상공인연합회 간 간담회가 열렸다. 현장에서는 한계에 다다랐다는 절박한 목소리가 나온 반면, 정부는 수급 개선 가능성에 무게를 두면서 양측의 온도차가 드러났다.  이날 고장수 전국카페",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "금감원, 회사채 영업에 계열사·내부 부서 동원한 증권사 6곳 징계",
+        "link": "https://www.chosun.com/economy/stock-finance/2026/04/21/MFRGGNRXMY2WEZJWGRTGCZJSGU/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-04-21 15:54:58",
+        "description": "금융당국이 회사채 발행 과정에서 계열사와 사내 부서를 동원한 ‘캡티브 영업’ 관행에 제동을 걸었다. 발행 주관 부서와 운용 부서 간 독립성이 훼손되며 내부통제가 제대로 작동하지 않았다는 판단에서다.  21일 금융투자업계에 따르면 금융감독원은 지난 7일 삼성증권, 미래에셋증권, NH투자증권, 한국투자증권, KB증권, 신한투자증권 등 대형 증권사 6곳을 대상으",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "iM뱅크, AX·디지털 12개 분야 전문직 공채… 20명 내외 규모",
+        "link": "https://www.chosun.com/economy/stock-finance/2026/04/21/GRSTQZJTGNRGGZBTGUZTSMDFGA/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-04-21 15:44:00",
+        "description": "iM뱅크는 올해 상반기 전문직원 공개채용을 실시한다고 21일 밝혔다.  이번 전문직원 채용 분야는 ▲인공지능 전환(AX) ▲디지털 ▲뱅킹·안드로이드 개발자 ▲사용자 경험·환경(UX·UI) ▲신탁 전문가 ▲자금운용 ▲회계사 ▲정보보호 ▲리스크 ▲여신심사 ▲여신전문검사 ▲여신감리 등 총 12개 분야다. 지원서는 오는 5월 3일까지 iM뱅크 홈페이지 채용 공고란",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "KB운용 ‘RISE 삼전닉스 채권혼합50 ETF’ 순자산 1조 돌파",
+        "link": "https://www.chosun.com/economy/stock-finance/2026/04/21/GYZTGNRXGZQWINDEHFRDANBZGY/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-04-21 15:41:50",
+        "description": "KB자산운용은 ‘RISE 삼성전자SK하이닉스채권혼합50 ETF’의 순자산이 지난 20일 기준 1조원을 넘어섰다고 21일 밝혔다. 지난 2월 26일 상장 이후 36영업일 만으로, 국내 채권혼합형 상장지수펀드(ETF) 중 가장 빨리 1조원을 돌파했다. 이 상품은 국내 대표 반도체 기업인 삼성전자와 SK하이닉스에 집중 투자하면서 채권을 통해 안정성까지 보강한 국",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "iM증권, 비대면 국내 주식 입고 이벤트 실시…“최대 40만원 리워드”",
+        "link": "https://www.chosun.com/economy/stock-finance/2026/04/21/MUZWMYRXMZQTMNLFGRRDSZRTHE/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-04-21 15:40:02",
+        "description": "iM증권은 올해 7월 20일까지 비대면(스마트지점) 국내 주식 입고 이벤트를 진행한다고 21일 밝혔다. 이벤트 기간 내 iM증권 스마트지점에 국내 주식을 입고하는 모든 비대면 고객은 순입고 금액 및 거래 금액에 따라 리워드를 지급받을 수 있다. 300만원 이상 순입고 후 100만원 이상 거래하면 현금 1만원이 지급된다. 500만원 이상이면 5만원, 1000",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "하나금융, 금감원과 청년 금융인재 양성 프로젝트 출범",
+        "link": "https://www.chosun.com/economy/stock-finance/2026/04/21/JVQF6I3FGVCTJFWUDGACSQOSVA/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-04-21 14:09:00",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      }
+    ],
+    "기업/산업": [
+      {
+        "title": "애플 시총 10배 만든 팀 쿡, 15년만에 물러난다",
+        "link": "https://www.donga.com/news/People/article/all/20260422/133786034/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-04-22 04:30:00",
+        "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/04/22/133783810.4.png\" vspace=\"10\" />팀 쿡 애플 최고경영자(CEO·66)가 15년 만에 CEO에서 내려와 이사회 의장으로 물러난다. 후임으로는 존 터너스 애플 하드웨어 엔지니어링 담당 수석부사장(51)이 선임됐다.쿡 CEO는 20일(현지 시간) 임직원에게 보낸 서한을 통해 “애플 CEO로서 이처럼 특별한 회사를 이끈 것은 제 인생 최고의 영광이었다”며 “(후임인) 터너스는 엔지니어의 두뇌와 혁신가의 영혼을 지닌, 애플의 미래를 이끌 적임자”라고 밝혔다. 터너스 새 CEO는 9월부터 회사를 맡게 된다. 쿡 CEO는 2011년 애플 창업자 스티브 잡스의 병세가 악화돼 사망하기 직전, 세간의 우려 속에 애플 사령탑을 맡았다. 맥북, 아이팟, 아이폰 등을 세상에 내놓은 잡스를 대체할 수 있을지 우려가 컸기 때문이다. 하지만 공급망 전문가로서 잡스의 비전을 상품화하고 이익률을 높이는 데 탁월한 재능이 있던 쿡 CEO는 재임 15년 동안 애플 시가총액을 4조 달러(약 5878조 원)로 10배 이상 키워내며 경영 능력을 증명",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "통신/IT",
+        "related_full_sources": []
+      },
+      {
+        "title": "퀄컴 CEO, 삼성·SK·LG 경영진과 회동",
+        "link": "https://www.chosun.com/economy/tech_it/2026/04/22/4HMDRSYBIVDGTL7F55BDQ5ZHX4/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-04-22 00:32:00",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "반도체",
+        "related_full_sources": []
+      },
+      {
+        "title": "홈플러스 익스프레스 우선협상대상자에 하림 계열 NS홈쇼핑",
+        "link": "https://www.chosun.com/economy/market_trend/2026/04/22/KIZFVLTRSFA2TEEYISON7LY37M/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-04-22 00:46:00",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "유통/소매",
+        "related_full_sources": []
+      },
+      {
+        "title": "AI 비서 된 브라우저…'제미나이 인 크롬' 출시",
+        "link": "https://www.hankyung.com/article/2026042168391",
+        "source": "한국경제-IT",
+        "published_dt": "2026-04-21 17:45:37",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "AI/로봇",
+        "related_full_sources": []
+      },
+      {
+        "title": "AI 동맹 진화…아마존, 앤스로픽에 최대 250억달러 투자",
+        "link": "https://www.hankyung.com/article/202604216505i",
+        "source": "한국경제-IT",
+        "published_dt": "2026-04-21 16:39:06",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "AI/로봇",
+        "related_full_sources": []
+      },
+      {
+        "title": "오픈AI vs 어도비, 이미지 생성 AI 경쟁 격화",
+        "link": "https://www.hankyung.com/article/2026042171951",
+        "source": "한국경제-IT",
+        "published_dt": "2026-04-22 04:00:01",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "AI/로봇",
+        "related_full_sources": []
+      },
+      {
+        "title": "삼성전자, 갤 S24까지 AI 신기능 업데이트 지원",
+        "link": "https://www.chosun.com/economy/tech_it/2026/04/22/TWSJC6R5D5HWPGRZYBBD45OUDI/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-04-22 00:34:00",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "통신/IT",
+        "related_full_sources": []
+      },
+      {
+        "title": "안티푸라민으로 출발… 항암제·희귀병 치료제 성과",
+        "link": "https://www.chosun.com/economy/science/2026/04/22/YMNJ7ORCBBBV3BCGBNZ6JYUYQY/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-04-22 00:36:00",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "바이오/제약",
+        "related_full_sources": []
+      },
+      {
+        "title": "韓원유수입 5위 쿠웨이트 ‘수출 불가항력’ 선언… 7월물 확보 비상",
+        "link": "https://www.donga.com/news/Economy/article/all/20260422/133786184/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-04-22 04:30:00",
+        "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/04/22/133783858.5.jpg\" vspace=\"10\" />호르무즈 해협 개방을 둘러싼 ‘희망 고문’으로 글로벌 유가가 롤러코스터를 타고 있다. 여기에 쿠웨이트가 원유 수출 ‘불가항력(Force Majeure)’을 선언하면서 원유 수급난 장기화 우려가 현실화하고 있다. 당장 7월물 원유를 확보해야 하는 정유업계와 정부의 고심이 깊어지고 있다. 여름 휴가철 ‘항공 대란’ 우려도 커지는 상황이다.● 전쟁 후 유가 변동성 300% 폭증20일(현지 시간) 파이낸셜타임스(FT)에 따르면 미국-이란 전쟁 이후 글로벌 유가 변동성은 300% 이상 폭증했다. 실제 글로벌 벤치마크인 브렌트유는 17일 이란이 호르무즈 해협 봉쇄를 풀겠다고 발표하면서 배럴당 90.38달러로 9% 넘게 급락했다가, 협상 불발 우려가 커진 20일에는 다시 95.48달러로 5.6% 급등했다. 서부텍사스산원유(WTI) 역시 같은 기간 94.69달러에서 83.84달러로 떨어졌다가, 다시 89.61달러로 오르는 등 시장 전반이 극심한 널뛰기 장세를 보이고 있다.  이런 극단적인 변",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "배터리/에너지",
+        "related_full_sources": []
+      },
+      {
+        "title": "폭발하는 주식에 올라타라, ‘제2의 엔비디아’ 나온다는 이 업종",
+        "link": "https://www.chosun.com/economy/money/2026/04/18/GKHPWFHCWZF6XPG4CKJDIWUUZU/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-04-22 05:30:00",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "반도체",
+        "related_full_sources": []
+      },
+      {
+        "title": "반도체 빼면 ‘얼음’… 상장사 60%는 전쟁 전 주가 회복 못해",
+        "link": "https://www.chosun.com/economy/money/2026/04/22/GYHCQJBN7REHZBLAZEDUBRJPJ4/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-04-22 00:51:00",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "반도체",
+        "related_full_sources": []
+      },
+      {
+        "title": "K제철소·삼륜 전기차·조선소… 인도 공략 속도",
+        "link": "https://www.chosun.com/economy/industry-company/2026/04/22/2SKOG6NTBJEPNEFNEU3B2O5NJY/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-04-22 00:33:00",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "자동차",
+        "related_full_sources": []
+      },
+      {
+        "title": "캐즘 뚫고 수주 행진…2차전지도 상승랠리",
+        "link": "https://www.hankyung.com/article/2026042167231",
+        "source": "한국경제-기업",
+        "published_dt": "2026-04-21 17:33:42",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "배터리/에너지",
+        "related_full_sources": []
+      },
+      {
+        "title": "노동위, 크레인노조 원청교섭 첫 인정…건설사 '노봉법 리스크' 비상",
+        "link": "https://www.mk.co.kr/news/realestate/12023173",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-04-21 17:44:33",
+        "description": "지난달 10일 개정 노동조합법(노란봉투법) 시행 이후 원청 건설사가 하청 건설노조(타워크레인 노조)와 교섭해야 한다는 노동위원회의 첫 결정이 나왔다. 산업 특성상 다단계 하청 구조..",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "건설",
+        "related_full_sources": []
+      },
+      {
+        "title": "우울한 쿠팡…과징금 리스크에 '발목'",
+        "link": "https://www.hankyung.com/article/2026042166891",
+        "source": "한국경제-기업",
+        "published_dt": "2026-04-21 17:34:49",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "유통/소매",
+        "related_full_sources": []
+      },
+      {
+        "title": "'마케팅비 0원'의 마법…팬덤 뷰티에 VC 뭉칫돈",
+        "link": "https://www.hankyung.com/article/2026042167011",
+        "source": "한국경제-IT",
+        "published_dt": "2026-04-21 17:33:17",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "유통/소매",
+        "related_full_sources": []
+      },
+      {
+        "title": "버거 접고 로봇 조리 식당 닫고... 한화 김동선, 이번엔 ‘파인 다이닝’",
+        "link": "https://www.chosun.com/economy/2026/04/21/IL6RE72JAFHBJGZ552NRFXEM6E/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-04-21 17:23:41",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "유통/소매",
+        "related_full_sources": []
+      },
+      {
+        "title": "금융위, 국민 목소리 정책에 반영… ‘금융 정상화 제안센터’ 개설",
+        "link": "https://www.chosun.com/economy/stock-finance/2026/04/21/MM3DQMLCMJRDMNLGGFTDEMJWGQ/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-04-21 17:13:43",
+        "description": "금융위원회는 국민 체감 과제를 발굴·개선하기 위해 금융 분야 국민 제안 창구를 개설했다고 21일 밝혔다. 전날 개설된 ‘금융 분야 정상화 과제 제안센터’는 금융 현장에서 느끼는 불합리한 관행이나 제도적 개선 방안 등을 수렴해 정책에 반영하기 위해 마련됐다. 금융위 홈페이지를 통해 누구나 참여할 수 있다. 금융 분야에서 불편하거나 개선이 필요하다고 판단되는",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "금융",
+        "related_full_sources": []
+      },
+      {
+        "title": "한국이 개척한 ‘원자 한 층 자석’ 연구… 세계 물리학계 주요 분야로",
+        "link": "https://www.chosun.com/economy/science/2026/04/22/MZQTINZXHBTDCNTCMQ2GMNJVGA/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-04-22 00:00:00",
+        "description": "원자 한 층짜리 자석이 가능할까. 이 질문에 답하기 위해 한국 연구진이 오랜 기간 개척해 온 2차원 자성 연구가 세계 물리학계의 주요 분야로 자리 잡았다. 박제근 서울대 물리천문학부 교수 연구진은 2차원 자성 반데르발스 물질의 연구 성과와 향후 과제를 정리한 논문을 물리학 분야 국제 학술지인 ‘리뷰스 오브 모던 피직스(Reviews of Modern Phy",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "화학/소재",
+        "related_full_sources": []
+      },
+      {
+        "title": "[단독] 승무원, 구두 대신 운동화... 대한항공 57년 ‘금기’ 깨진다",
+        "link": "https://www.chosun.com/economy/industry-company/2026/04/21/22CGEDRJHFELDPLEBSCAHLDINQ/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-04-21 17:26:01",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "기타산업",
+        "related_full_sources": []
+      },
+      {
+        "title": "웹젠, “하운드13과 드래곤소드 스팀 출시 합의 없어”… 법원에 소송·가처분",
+        "link": "https://www.chosun.com/economy/tech_it/2026/04/21/GE2TMNBTMNSDGNZSGMYWIOJQMQ/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-04-21 16:51:00",
+        "description": "모바일 게임 ‘드래곤소드’를 두고 갈등을 빚어온 웹젠과 하운드13이 결국 법적 분쟁에 돌입했다. 21일 게임 업계에 따르면, 웹젠은 전날 서울중앙지법에 하운드13을 상대로 드래곤소드의 퍼블리싱 계약 확인 소송을 제기하고, 자체 퍼블리싱을 금지해달라는 가처분도 함께 신청했다. 웹젠은 이날 드래곤소드 공식 홈페이지를 통해 “최근 외부로 알려진 하운드13의 스팀",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "통신/IT",
+        "related_full_sources": []
+      },
+      {
+        "title": "이통3사 긴급구조 위치정확도 개선…아이폰 첫 측정서 응답 17초",
+        "link": "https://www.hankyung.com/article/202604216470g",
+        "source": "한국경제-IT",
+        "published_dt": "2026-04-21 16:32:32",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "통신/IT",
+        "related_full_sources": []
+      },
+      {
+        "title": "해외 대신 국내로 떠나요… 리조트 예약 몰려",
+        "link": "https://www.chosun.com/economy/market_trend/2026/04/22/VSAQ64PNAVBMVPY4MV3H2PAFKM/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-04-22 00:33:00",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "기타산업",
+        "related_full_sources": []
+      },
+      {
+        "title": "“내일 출근했다간 노조에 찍힐라”… 삼성전자 직원들 줄줄이 휴가원",
+        "link": "https://www.chosun.com/economy/industry-company/2026/04/22/AGMAPT5NPRATPFCOVXNJKZX62A/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-04-22 00:33:00",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "기타산업",
+        "related_full_sources": []
+      },
+      {
+        "title": "신라스테이, 中 옌청에 개관… 글로벌 확장 본격화",
+        "link": "https://www.chosun.com/economy/market_trend/2026/04/22/7DAABZOFTRAXZJRYU6TIIIDW6E/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-04-22 00:33:00",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "기타산업",
+        "related_full_sources": []
+      },
+      {
+        "title": "주유소서 다른 브랜드 기름 판매 허용 놓고 현장선 “신뢰 훼손, 영세 주유소 부담 가중”",
+        "link": "https://www.chosun.com/economy/industry-company/2026/04/22/Y75FJHMTQZBNZBQ2PME36G2LCY/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-04-22 00:32:00",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "기타산업",
+        "related_full_sources": []
+      },
+      {
+        "title": "삼성SDS, \"80분 업무 10분만에\"…실무 AI 에이전트 공개",
+        "link": "https://www.hankyung.com/article/2026042151501",
+        "source": "한국경제-IT",
+        "published_dt": "2026-04-21 15:59:31",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "AI/로봇",
+        "related_full_sources": []
+      },
+      {
+        "title": "고점 공포에 개미 삼전닉스 ’10조' 던질 때... 외인은 ‘3조’ 빈집 채웠다",
+        "link": "https://www.chosun.com/economy/stock-finance/2026/04/21/GU2GGNDFMNQTOZLDMUZTCZRYMU/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-04-21 16:02:47",
+        "description": "반도체 업황 개선 기대감으로 외국인이 국내 반도체 대형주를 쓸어 담는 사이 개인 투자자들은 매물을 쏟아내며 정반대의 행보를 보이고 있다. 반도체 주가가 단기간 급등하자 개인 투자자들이 차익 실현에 나서거나 고점 인식을 반영해 역베팅에 나선 것으로 풀이된다. 21일 한국거래소에 따르면 이달 들어 전날까지 외국인은 유가증권시장에서 4조963억원어치를 순매수했다",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "반도체",
+        "related_full_sources": []
+      },
+      {
+        "title": "삼성SDI, 벤츠 배터리 공급 계약에 10%대 급등",
+        "link": "https://www.hankyung.com/article/2026042150626",
+        "source": "한국경제-기업",
+        "published_dt": "2026-04-21 10:05:10",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "배터리/에너지",
+        "related_full_sources": []
+      },
+      {
+        "title": "부광약품, 1분기 영업익 전년比 63% 감소…“외주 생산 늘어난 탓”",
+        "link": "https://www.chosun.com/economy/science/2026/04/21/HBSTGNLGMJRWMMTDHBQTKYZYGI/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-04-21 15:58:45",
+        "description": "부광약품은 올해 1분기 연결 기준 영업이익이 11억원으로 전년 동기 대비 62.6% 줄어든 것으로 잠정 집계됐다고 21일 밝혔다. 같은 기간 매출액도 478억원으로 0.1% 줄었다. 이제영 부광약품 대표는 이날 콘퍼런스콜에서 “품절 대응을 위한 생산 캐파 확보 과정에서 외주 생산이 늘어나며 제조원가 부담이 커진 것이 주요 원인”이라고 설명했다. 이어 “몇",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "바이오/제약",
+        "related_full_sources": []
+      },
+      {
+        "title": "수입차 ‘투톱’의 엇갈린 재무 전략… 벤츠는 현금, BMW는 재고 늘렸다",
+        "link": "https://www.chosun.com/economy/industry-company/2026/04/21/GIYDEY3BMFRGEMBZGJRDCMZYGE/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-04-21 16:10:00",
+        "description": "독일 고급 브랜드의 대명사로 꼽히는 메르세데스-벤츠와 BMW가 지난해 국내에서 비슷한 수준의 매출을 올렸지만, 재무 전략은 엇갈린 것으로 나타났다. 벤츠는 국내 판매 방식 변화 등 여러 경영 변수를 감안해 현금을 쌓은 반면 BMW는 판매량을 최대한 확대하기 위해 차량 재고를 늘린 것이다. 21일 각 사가 공개한 지난해 감사보고서에 따르면 벤츠코리아와 BMW",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "자동차",
+        "related_full_sources": []
+      },
+      {
+        "title": "딥엑스·현대차 로보틱스랩, 차세대 로봇 AI 플랫폼 공동 개발",
+        "link": "https://www.hankyung.com/article/202604216400i",
+        "source": "한국경제-IT",
+        "published_dt": "2026-04-21 16:07:34",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "AI/로봇",
+        "related_full_sources": []
+      },
+      {
+        "title": "네이버·크래프톤·미래에셋, 인도서 최대 1조원 투자펀드 조성",
+        "link": "https://www.chosun.com/economy/tech_it/2026/04/21/GFTDQNLGHFRGCMTBMRSDOMLBMM/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-04-21 16:03:55",
+        "description": "네이버가 21일(현지 시각) 크래프톤, 미래에셋과 함께 인도 뉴델리에서 최대 1조원 규모의 ‘유니콘 그로스 펀드(Unicorn Growth Fund·UGF)’를 조성했다. 네이버는 이날 인도 뉴델리에서 크래프톤, 미래에셋과 함께 UGF 조성 기념 간담회를 개최했다고 밝혔다. 이날 간담회는 이재명 대통령의 인도 순방을 계기로 인도 현지 기업과 벤처캐피털(VC",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "금융",
+        "related_full_sources": []
+      },
+      {
+        "title": "왓챠 인수전 22일 본입찰 마감… CJ ENM 참전 속 29일 우협 발표 유력",
+        "link": "https://www.chosun.com/economy/stock-finance/2026/04/21/GM3WCYTCGYYTCOBUME4GKMJRMI/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-04-21 15:57:44",
+        "description": "국내 온라인 동영상 서비스(OTT) 기업 왓챠 인수합병(M&amp;A) 본입찰이 22일 마감된다. 21일 투자은행(IB) 업계에 따르면 서울회생법원은 왓챠에 대한 공개경쟁입찰을 오는 22일 마감한다. 우선협상대상자(우협) 선정은 이달 29일이 유력한 것으로 전해졌다. 우협이 선정되면 본계약을 거쳐 왓챠의 새 주인이 결정된다. 본입찰 이후 우선협상대상자 선정까지 최",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "유통/소매",
+        "related_full_sources": []
+      },
+      {
+        "title": "티비씨, 주식병합 결정…\"주가 안정화·기업가치 제고\"",
+        "link": "https://www.hankyung.com/article/2026042161986",
+        "source": "한국경제-기업",
+        "published_dt": "2026-04-21 15:57:04",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "기타산업",
+        "related_full_sources": []
+      },
+      {
+        "title": "피앤씨테크, 엠티씨코리아 흡수합병 결정",
+        "link": "https://www.hankyung.com/article/2026042161046",
+        "source": "한국경제-기업",
+        "published_dt": "2026-04-21 15:55:47",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "기타산업",
+        "related_full_sources": []
+      },
+      {
+        "title": "삼성물산 건설노조 “중동 직원 위험 수당 지급하라… 경쟁사는 복지 강화하는데”",
+        "link": "https://www.chosun.com/economy/real_estate/2026/04/21/GY2DGNRZME2TOODFGBQTQYJUGM/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-04-21 15:55:37",
+        "description": "삼성물산 건설부문 노동조합이 중동 현장에 대한 급지 변경과 현지 근무 직원에 대한 위험 수당 지급을 요청했다. 전쟁 장기화로 중동 정세의 불안이 지속되자 사측의 대응을 요구한 것이다. 삼성E&amp;A, GS건설 등 동종 업계의 중동 현장 직원 지원 강화도 이번 요청에 영향을 미친 것으로 보인다. 21일 건설 업계에 따르면 삼성물산 건설부문 노조는 전날 ‘중동 현",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "건설",
+        "related_full_sources": []
+      },
+      {
+        "title": "러닝화 브랜드 파브, 가성비 카본화 ‘카본 내비’ 출시",
+        "link": "https://www.chosun.com/economy/market_trend/2026/04/21/ME4TKOJUMYZTKMRWMM2GCODDHA/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-04-21 15:52:14",
+        "description": "러닝화 브랜드 파브(FAAB)코리아가 카본 러닝화 신제품을 선보였다. 새처럼 자유롭게(Free As A Bird)라는 뜻을 담은 파브는 20여 년간 소규모 제품을 생산·유통해 국내 마라토너 등 소수 마니아층 사이에서 고기능 가성비 브랜드로 알려져 있다.  파브코리아는 풀카본 플레이트를 적용한 러닝화 ‘카본 내비(CARBON-NAVI)’를 출시했다고 21일",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "유통/소매",
+        "related_full_sources": []
+      },
+      {
+        "title": "과기정통부, 혁신 中企·스타트업 수출길 연다",
+        "link": "https://www.hankyung.com/article/2026042151571",
+        "source": "한국경제-IT",
+        "published_dt": "2026-04-21 15:40:20",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "통신/IT",
+        "related_full_sources": []
+      },
+      {
+        "title": "온코닉테라퓨틱스, '네수파립' 췌장암 비임상 결과 AACR서 발표",
+        "link": "https://www.hankyung.com/article/202604216197i",
+        "source": "한국경제-IT",
+        "published_dt": "2026-04-21 15:27:13",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "바이오/제약",
+        "related_full_sources": []
+      },
+      {
+        "title": "케이엔에스 \"지름 46mm 원통형 배터리 장비 수주\"",
+        "link": "https://www.hankyung.com/article/2026042161616",
+        "source": "한국경제-기업",
+        "published_dt": "2026-04-21 15:03:08",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "배터리/에너지",
+        "related_full_sources": []
+      },
+      {
+        "title": "LS일렉트릭, 1분기 영업익 1265억…전년비 44% 증가",
+        "link": "https://www.hankyung.com/article/2026042159006",
+        "source": "한국경제-기업",
+        "published_dt": "2026-04-21 14:12:06",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "기타산업",
+        "related_full_sources": []
+      },
+      {
+        "title": "\"AI 에이전트 덕분에\"…중동 불안 속 샌디스크 '나홀로 질주'",
+        "link": "https://www.hankyung.com/article/202604215353i",
+        "source": "한국경제-기업",
+        "published_dt": "2026-04-21 14:03:18",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "기타산업",
+        "related_full_sources": []
+      },
+      {
+        "title": "'내비' 아니라 '지도 앱'…티맵, 홈 화면 갈아엎었다",
+        "link": "https://www.hankyung.com/article/202604215736g",
+        "source": "한국경제-IT",
+        "published_dt": "2026-04-21 12:32:52",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "통신/IT",
+        "related_full_sources": []
+      },
+      {
+        "title": "방시혁 의장 구속영장 소식에…하이브, 장중 4%대 급락",
+        "link": "https://www.hankyung.com/article/2026042154916",
+        "source": "한국경제-기업",
+        "published_dt": "2026-04-21 11:18:07",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "기타산업",
+        "related_full_sources": []
+      },
+      {
+        "title": "SGC에너지, 1분기 영업익 356억…전년비 102% 증가",
+        "link": "https://www.hankyung.com/article/2026042152526",
+        "source": "한국경제-기업",
+        "published_dt": "2026-04-21 10:25:46",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "화학/소재",
+        "related_full_sources": []
+      },
+      {
+        "title": "'10거래일째 상승' 삼성전기, 실적 기대감에 최고가 행진",
+        "link": "https://www.hankyung.com/article/2026042152326",
+        "source": "한국경제-기업",
+        "published_dt": "2026-04-21 10:18:08",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "반도체",
+        "related_full_sources": []
+      }
+    ],
+    "부동산": [
+      {
+        "title": "이주비 안 받았는데 이자내라고? 재건축·재개발조합 후불제 논란",
+        "link": "https://www.mk.co.kr/news/realestate/12023103",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-04-21 17:29:08",
+        "description": "정비사업 조합에서 이주비 대출을 받지 않은 조합원까지 이주비 대출 관련 사업비 이자를 함께 부담하면서 논란이 커지고 있다. 이주비 대출 이자는 조합원별 대출 규모와 기간에 따라 차..",
+        "category": "domestic",
+        "priority_score": 10,
+        "related_full_sources": []
+      },
+      {
+        "title": "압구정3 재건축 우협대상에 현대건설",
+        "link": "https://www.mk.co.kr/news/realestate/12023105",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-04-21 17:29:09",
+        "description": "현대건설이 서울 강남구 압구정동 재건축 구역 중 '노른자'로 평가받는 압구정3구역 재건축 사업 우선협상 대상자에 선정됐다. \n지난해 압구정2구역 사업을 수주한 데 이어 3구역 수주..",
+        "category": "domestic",
+        "priority_score": 5,
+        "related_full_sources": []
+      },
+      {
+        "title": "[단독] 서울역 금싸라기땅에 쪽방촌…동자동 공공개발 놓고 주민들 반대",
+        "link": "https://www.mk.co.kr/news/realestate/12023252",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-04-21 18:24:49",
+        "description": "서울역근처 동자동 쪽방촌 개발두고 토지소유주 62% “민간개발 원한다” 국토부 간담회장서 “명분없다” 시위  5년째 첫 단추도 못끼워…표류 조짐서울역 근처 동자동 쪽방촌을 두고 공..",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "오세훈 “장특공 폐지, 침묵말라” 정원오 “실거주 1주택 보호돼야”",
+        "link": "https://www.chosun.com/politics/assembly/2026/04/21/NTRPN3J47JFXFBQWC6OAORQVLM/",
+        "source": "조선일보-정치",
+        "published_dt": "2026-04-21 21:34:12",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "10년만에 창동역 'K-엔터타운' 본격화..전 시장 사업 오세훈이 이어간다",
+        "link": "https://www.chosun.com/economy/realty/realestate_industry/2026/04/21/MJTDGMBTMJTDGYRXGUYDKZDGGM/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-04-21 17:53:08",
+        "description": "창동에 ‘K-엔터타운’ 조성, 총 2.7조 투입\n오세훈 시장 “동북권 문화예술 거점 역할 할  것” [땅집고] 서울시가 도봉구 창동 일대에 약 2조7000억원의 자금을 투입해 대형 공연장 중심의 문화·산업·관광 기능을 결합한 ‘K-엔터타운’을 조성한다.\n \n서울시는 21일 서울시청에서 기자설명회를 열고 ‘글로벌 문화중심지 K-엔터타운, 창동’ 조성 계획을",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": [
+          {
+            "source": "땅집고-부동산",
+            "title": "10년만에 창동역 'K-엔터타운' 본격화..전 시장 사업 오세훈이 이어간다",
+            "link": "https://realty.chosun.com/site/data/html_dir/2026/04/21/2026042103772.html"
+          }
+        ]
+      },
+      {
+        "title": "슬세권부터 병세권까지… 직접 살아봐야 아는 잠실의 진짜 매력 7가지",
+        "link": "https://www.chosun.com/economy/real_estate/2026/04/22/Q2EUA2PUVZDEVNLNPQZMNI7CLU/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-04-22 03:00:00",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "지하 2층~지상 1층… 3개층 사용하는 복층 아파트도 있네",
+        "link": "https://www.chosun.com/economy/realty/2026/04/22/GYXB7DO4Q5ADVFKZRC2ENAG5A4/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-04-22 00:37:00",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "“여윳돈 있으세요?… 경매로 알짜 매물 싸게 잡을 기회”",
+        "link": "https://www.chosun.com/economy/realty/2026/04/22/LGRJV3BVH5FMTMPO7B26SYIYHQ/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-04-22 00:37:00",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "“서울 한복판 1000실 시니어타운 만듭니다”",
+        "link": "https://www.chosun.com/economy/realty/2026/04/22/N6ERR2OCPZEFFL2CISIZ6WLVXY/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-04-22 00:37:00",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "유튜브 ‘땅집고 TV’ 채널… 29일 무료 경매 라이브 특강",
+        "link": "https://www.chosun.com/economy/realty/2026/04/22/BFZGS4CYAJEXBFIZBJ7MIZLMHU/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-04-22 00:37:00",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "강남 44㎡에 '6인가구 만점통장'이 당첨",
+        "link": "https://www.mk.co.kr/news/realestate/12023102",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-04-21 17:29:08",
+        "description": "최대 수십억 원의 시세차익을 기대할 수 있는 강남권 분양가상한제 단지에서 대가족 만점 통장이 소형 평형에 청약해 당첨되는 사례가 잇따라 등장하고 있다. 주택공급 취지에 맞지 않고 ..",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "민주 “윤석열 정부 실패로 집값 올라” vs 국힘 “이재명 정부 공급부족·대출규제 문제”",
+        "link": "https://www.mk.co.kr/news/realestate/12023079",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-04-21 17:22:52",
+        "description": "선관위 주최 지방선거 정책토론 “석유 최고가격제 불가피”·“전면 재검토해야”“이재명 정부 출범과 함께 찾아온 수도권의 공급 불안과 주택가격 상승은 윤석열 정부의 공급 정책 실패로 ..",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "현대건설, 압구정3구역 재건축 우선협상대상자 선정",
+        "link": "https://www.mk.co.kr/news/realestate/12022728",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-04-21 11:38:45",
+        "description": "압구정 최대어...공사비 5조5610억원현대건설이 서울 강남구 압구정동 재건축 구역 중 ‘노른자’로 평가받는 압구정 3구역 재건축 사업 우선협상 대상자에 선정됐다. 지난해 압구정2..",
+        "category": "domestic",
+        "priority_score": 5,
+        "related_full_sources": [
+          {
+            "source": "땅집고-부동산",
+            "title": "현대건설, 압구정3구역 재건축 우선협상대상자 선정…공사비 5조5610억",
+            "link": "https://realty.chosun.com/site/data/html_dir/2026/04/21/2026042101207.html"
+          }
+        ]
+      },
+      {
+        "title": "2년간 30억 폭등, 반포 아파트의 비밀…2000가구 80%가 한강변",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/04/21/2026042101777.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-04-21 10:56:41",
+        "description": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"3\" width=\"100%\"><tr><td><img border=\"0\" src=\"https://image.chosun.com/sitedata/thumbnail/202604/21/2026042101773_0_thumb.jpg\" /></td></tr></table>\n\t한강변 48층·2056가구 ‘디에이치 르블랑’\n2056가구中, 일반분양 단 225가구\n전용 137㎡ 70억 찍었다\n \n \n[땅집고] “신반포2차는 향후 원베일리를 넘어서는 대장주가 될거에요. 한강변을 따라 최고 49층으로 올라서는 데다, 약 780m에 이르는 수평 한강 조망을 확보할 수 있다는 점이 가장 큰 메리트죠” (라인공인중개사 사무소 박은미 대표)\n \n서울 서초구 잠원동 신반포2차 일대에 천지개벽이 예상된다. 반포대교 남단 한강변 핵심 입지에 자리한 이 단지는 최근 재건축 통합심의를 통과하면서 한강변 라인의 차기 대장주 기대...",
+        "category": "domestic",
+        "priority_score": 5,
+        "related_full_sources": []
+      },
+      {
+        "title": "“세금 얼마나 뛸까요”…비거주 1주택 대상 장특공제 손질 나서나",
+        "link": "https://www.mk.co.kr/news/economy/12022935",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-04-21 15:24:29",
+        "description": "이 대통령, 양도세 장특공제 거주와 무관 지적 전문가들, 실거주 1주택자  최대 공제율 40~80% 결정 전망 거래·매물 동시 감소 우려도비거주 1주택자에 대한 양도소득세 혜택 축..",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "허윤홍 GS건설 대표, 인도 찾아 재생에너지기업과 MOU",
+        "link": "https://www.mk.co.kr/news/realestate/12022947",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-04-21 15:37:55",
+        "description": "인도 재생에너지기업 2곳과 MOU 태양광·풍력·에너지저장장치 결합허윤홍 GS건설 대표가 지난 20일 인도 델리를 방문해 현지 재생에너지 기업인 아리 에너지 및 수즐론 에너지와 업무..",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "[단독]공공이냐 민간이냐…동자동 쪽방촌 개발 다시 충돌",
+        "link": "https://www.mk.co.kr/news/realestate/12022953",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-04-21 15:44:28",
+        "description": "서울역 근처 동자동 쪽방촌 개발 두고 ‘민간 vs 공공’ 의견 차이에 갈등 격화 국토부 간담회장 앞에서 시위 진행  “원치 않는 공공개발 명분 없다” 비판서울역 근처 동자동 쪽방촌..",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "“소득·자산 기준 없이 최장 8년 거주”…LH, 4200가구 전세임대형 든든주택 입주자 모집",
+        "link": "https://www.mk.co.kr/news/economy/12022838",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-04-21 14:26:11",
+        "description": "1순위 신생아가구·다자녀가구 2순위 (예비)신혼부부 대상  내달 4~8일 LH 청약플러스 신청 접수한국토지주택공사(LH)가 21일부터 신생아가구, 다자녀가구, (예비)신혼부부를 대..",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "“원수에게 권한다”는 지주택 사업,  좀 나아질까… ‘알박기’ 차단 나선다",
+        "link": "https://www.mk.co.kr/news/economy/12022633",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-04-21 10:55:48",
+        "description": "국토부, 지주택 피해예방·사업정상화 방안 사업승인 토지소유권 확보기준 완화 부실 대행업체 진입 차단 시공사와 공사비 분쟁도 예방 조합 ‘깜깜이 운영’ 방지책도 마련정부가 지역주택조..",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "성북구 정릉공영차고지, 체육시설 갖춘 복합 플랫폼 조성 추진",
+        "link": "https://www.chosun.com/economy/real_estate/2026/04/21/MQ3TIYZWME2GIMJVMY2TCMRSMU/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-04-21 16:02:34",
+        "description": "서울 성북구 정릉공영차고지가 수영장, 다목적체육관, 헬스장 등 시설과 버스 운수 시설을 갖춘 복합 플랫폼으로 탈바꿈한다. 오세훈 서울시장은 21일 정릉동 771-7번지 정릉공영차고지를 방문해 이 같은 복합개발 추진 계획을 발표했다. 서울시는 차고지 상부를 활용해 주민 편의시설을 도입하는 기본 구상안을 마련했다. 오는 6월 행정안전부 중앙투자심사를 의뢰해 설",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "'부품 결함' 서해선 전동차, 연결기 전량 교체 완료… 20일부터 정상 운행",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/04/21/2026042103231.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-04-21 15:20:55",
+        "description": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"3\" width=\"100%\"><tr><td><img border=\"0\" src=\"https://image.chosun.com/sitedata/thumbnail/202604/21/2026042103226_0_thumb.jpg\" /></td></tr></table>\n\t \n[땅집고] 객차 분리 사고로 열차 운행이 대폭 축소돼 시민들에게 출퇴근길 불편을 안겼던 서해선이 마침내 정상 운행에 돌입한다.\n \n국토교통부는 결함이 발견됐던 서해선 전동차 10편성의 중간연결기 전량 교체 작업을 16일 완료하고, 오는 20일부터 서해선 전 구간 열차 운행을 정상화한다고 밝혔다.\n \n☞구글·테슬라 임직원이 선택한30일 이상 단기임대 운영1위‘블루그라운드’ 예약하기\n \n앞서 지난해 10월 22일, 다원시스가 제작해 납품한 서해선 전동차에서 연결기 부품 결함으로 인해 객차가 분리되는 사고가 발생했다. 이에 국토부와 ...",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "케어닥, 마곡 VL르웨스트에 시니어 통합돌봄센터 오픈",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/04/21/2026042102893.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-04-21 14:41:03",
+        "description": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"3\" width=\"100%\"><tr><td><img border=\"0\" src=\"https://image.chosun.com/sitedata/thumbnail/202604/21/2026042102888_0_thumb.jpg\" /></td></tr></table>\n\t케어닥, VL르웨스트에 ‘통합돌봄 복합센터’ 오픈\n긴급 돌봄부터 정기 케어까지\n거주 공간 기반 원스톱 케어\n  \n[땅집고] 최근 시니어 레지던스 시장이 확장하면서 시니어 생애주기 맞춤형 전문 서비스 수요 역시 커지고 있다. 시니어 토탈 케어 기업 케어닥도 재가요양 콘셉트의 특화 지점 가맹사업 확충에 나섰다.\n \n케어닥은 21일, 마곡 VL르웨스트에 ‘케어닥 통합돌봄 복합센터 VL르웨스트점’을 오픈했다. 서울 지하철 마곡역 5호선과 도보로 5분 거리인 이곳은 만 60세 이상 액티브 시니어를 대상으로 한다. 총 810가구로 적지 않은 ...",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "창동에 2조7000억 승부수…서울시, ‘K팝 성지’로 키운다",
+        "link": "https://www.mk.co.kr/news/realestate/12022727",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-04-21 11:38:34",
+        "description": "내년 개관 서울아레나, 새로운 K팝 성지로 문화 공연이 지역 경제 발전 이끌 수 있게 2조7000억원 투입해 인프라 추가 투자도봉구 창동 일대가 내년에 문을 여는 ‘서울아레나’를 ..",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "같은 지역에서 분양했는데 청약 경쟁률 2배 차이나는 이유는",
+        "link": "https://www.mk.co.kr/news/realestate/12022714",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-04-21 11:30:28",
+        "description": "지속적인 분양가 상승과 함께 대출 규제 심화로 청약 시장에서 단지별 ‘옥석 가리기’ 현상이 심화하고 있다. 이에 따라 비슷한 시기에 같은 동네에서 분양한 아파트의 청약 경쟁률까지 ..",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "서울 청약 당첨자 10명 중 7명이 30대 이하",
+        "link": "https://www.mk.co.kr/news/realestate/12022600",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-04-21 10:34:22",
+        "description": "최근 서울과 경기 아파트 청약 당첨자의 절반 이상이 30대 이하인 것으로 나타났다. 수도권 전반에서 젊은 층 중심 당첨 구조가 확산하면서 청약 시장의 연령별 구성이 바뀌는 모습이다..",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      }
+    ],
+    "국제": [
+      {
+        "title": "[속보]이란 “협상 불참” 통보에…트럼프 “그들은 분열, 휴전 연장”",
+        "link": "https://www.donga.com/news/Inter/article/all/20260422/133787072/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-04-22 05:38:00",
+        "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/04/22/133787080.1.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령이 이란과의 2차 종전협상을 앞두고 휴전 기간을 연장한다고 전격 발표했다. 파키스탄의 요청에 따라 이란이 통일된 종전 제안을 가져올 때까지 공격을 멈추는 대신, 해협 역봉쇄는 유지하겠다고 했다. 하지만 이란은 협상에 불참하겠다는 뜻을 통보했다고 이란 언론이 전했다. 트럼프 대통령은 21일(현지 시간) 트루소셜을 통해 “이란 정부가 심각하게 분열됐다는 사실은 놀라운 일이 아니다”며 “파키스탄의 아심 무니르 군 총사령관과  셰바즈 샤리프 총리로부터 이란 지도부와 대표들이 통일된 제안을 내놓을 때까지 공격을 중단해 달라는 요청을 받았다”고 밝혔다. 이전에 밝힌 휴전기간이 끝나기 하루 전에 연장 방침을 밝힌 것이다. 트럼프 대통령은 “이에 따라, 우리 군에 (역)봉쇄를 계속하도록 지시했으며, 모든 면에서 준비 태세를 유지할 것”이라며 “이란 측에서 제안을 제출하고 협상이 타결될 때까지 휴전을 연장할 것”이라고 밝혔다. 현지 미국과 이란은 파키스탄 수도 이슬라",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "美, 인태 해상서 이란 연계 선박 또 나포… 협상앞 봉쇄범위 확대",
+        "link": "https://www.donga.com/news/Inter/article/all/20260422/133786690/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-04-22 04:30:00",
+        "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/04/22/133786689.3.jpg\" vspace=\"10\" />미국 국방부가 21일(현지 시간) X를 통해 인도태평양 공해상에서 이란과 연계된 무국적 제재 선박 ‘티파니’호를 나포했다고 밝혔다. 19일 중동산 원유의 핵심 수송로인 호르무즈 해협을 항행하던 이란 화물선 ‘투스카’호에 이어 또 한 번 미국이 이란 관련 선박을 나포한 것이다. 미국이 이란 경제에 타격을 주기 위한 호르무즈 해협 역(逆)봉쇄 조치를 취한 뒤, 이란 항구를 오가는 선박을 막는 작전을 호르무즈 해협뿐 아니라 다른 해역으로 확장하려는 움직임을 보이고 있다는 평가가 나온다.  실제로 미 국방부는 이날 “이란에 물질적 지원을 제공하는 제재 대상 선박과 불법 네트워크를 차단하기 위해 전 세계 해상에서 단속 작전을 계속 펼칠 것”이라고 강조했다.  이런 가운데 미국이 호르무즈 해협 일대에서 이란 연계 선박을 겨냥한 역봉쇄 조치를 본격화하면서 최소 27척의 선박이 항로를 변경하거나, 회항했다고 중동을 관할하는 미군 중부사령부가 20일 밝혔다. 또 미군은 투스카호에 실린 약 500",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "공화당 의원 50명 “한국 정부, 美기업 차별… 中플랫폼은 우대“",
+        "link": "https://www.chosun.com/international/us/2026/04/22/DTY3DUMKLFCSRBFP5FAIDIPWDQ/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-04-22 05:33:16",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "日, 살상무기 수출 허용… 군사대국화 가속 전망",
+        "link": "https://www.donga.com/news/Inter/article/all/20260421/133786077/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-04-22 04:30:00",
+        "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/04/21/133783012.1.jpg\" vspace=\"10\" />일본 정부가 21일 살상무기에 대한 수출 규제를 풀었다. 제2차 세계대전에서 패한 뒤 ‘평화국가’를 지향해온 일본의 안보정책이 큰 전환점을 맞았다는 평가가 나온다. 아사히신문 등에 따르면 이날 일본 정부는 각의(국무회의)와 국가안전보장회의(NSC)에서 방위장비의 수출 규정을 정한 방위장비 이전 3원칙과 운용 지침을 개정했다. 이에 따라 비전투 목적으로 한정된 기존 무기수출 규정이 폐지되고, 살상무기 수출이 가능하게 됐다. 그동안 일본 정부는 수출이 가능한 방위장비를 구난, 수송, 경계, 감시, 소해(掃海·기뢰 등 위험물을 없애는 것) 등 비전투 목적의 5개 유형으로 제한해 왔다. 이에 따라 호위함과 전투기 등 살상무기는 외국과의 공동개발 및 생산 등의 예외가 아니면 해외에 수출할 수 없었다. 하지만 이번 개정을 통해 이 같은 제한을 철폐했다. 일본 정부가 방위산업 성장을 위한 정책 지원에 나서면서 군사대국화 속도가 더 빨라질 수 있다는 평가도 나온다. 이번 개정을 통해 전투기",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "美-쿠바, 최근 아바나서 회담… “외교적 합의 가능성”",
+        "link": "https://www.donga.com/news/Inter/article/all/20260421/133786079/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-04-22 04:30:00",
+        "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/04/21/133783274.1.jpg\" vspace=\"10\" />미국이 경제 및 군사적 제재를 가해 온 쿠바와 10일 쿠바의 수도 아바나에서 고위급 양자회담을 진행했다고 로이터통신 등이 20일 보도했다. 올 초 도널드 트럼프 미국 대통령은 전격적인 군사작전을 통해 니콜라스 마두로 베네수엘라 대통령을 체포한 뒤 쿠바에 대한 군사개입 가능성도 거론했다. 이로 인해 양국 관계는 급격히 악화됐다. 로이터는 “이번 회담은 양국이 외교적 합의에 이를 수도 있다는 신호”라고 평가했다. 이날 로이터에 따르면 미국 대표단이 쿠바를 방문한 건 2016년 버락 오바마 행정부 이후 10년 만이다. 미 국무부 고위 당국자는 로이터에 “쿠바 경제가 돌이킬 수 없을 정도로 악화하기 전에 미국이 지원하는 핵심 개혁을 단행할 시간이 얼마 남지 않았다는 메시지를 전했다”고 말했다. 이와 함께 쿠바에 외국인 투자 유치, 통신 인프라 개선, 1959년 공산혁명 이후 몰수된 미국인 자산에 대한 보상, 정치범 석방 등을 요구했다고 한다. 이 당국자는 “트럼프 대통령은 가능하면 외교",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "이 와중에… 이스라엘, 휴전 4일만에 레바논 공습",
+        "link": "https://www.donga.com/news/Inter/article/all/20260422/133786684/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-04-22 04:30:00",
+        "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/04/21/133781694.1.jpg\" vspace=\"10\" />이스라엘이 20일(현지 시간) 레바논 남부의 친(親)이란 무장단체 헤즈볼라 대원들을 겨냥한 공습을 감행했다. 미국의 중재로 17일부터 ‘열흘 휴전’에 들어갔던 양측의 군사적 충돌이 계속되고 있고, 공습 강도도 높아지는 상황이라 미국과 이란의 2차 종전 협상에 악영향을 줄 수 있다는 우려가 제기된다. 이스라엘군은 이날 “휴전 합의를 위반하고 우리를 위협했기 때문에 헤즈볼라 대원 여러 명을 제거했다”고 밝혔다. 이스라엘군은 헤즈볼라 대원들이 레바논 남부 빈트즈베일 인근에서 이스라엘군에 즉각적인 위협을 가하는 방식으로 접근해 공습을 가했다고 주장했다. 또 리타니강 인근에서도 자국을 위협한 헤즈볼라 대원들을 식별해 공군이 이들을 공격했다고 밝혔다. 이스라엘은 18일 현재 점령 중인 레바논 남부 지역에 최종 방어선에 해당하는 ‘옐로라인’을 임의로 설정했다. 헤즈볼라 대원들이 옐로라인에 접근하거나 무력 행위를 보일 시 즉각 공격하겠다는 의지를 분명히 나타낸 것이다. 이스라엘은 지난해 10월",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "[쇼츠] 이것이 美해군 6세대 함재기?…후보 콘셉트 영상 공개",
+        "link": "https://www.yna.co.kr/view/AKR20260421154600704",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-04-21 17:28:23",
+        "description": "(서울=연합뉴스) 미 해군의 6세대 전투기 F/A-XX 개발 사업 최종 선정을 두고 보잉과 경쟁 중인 두고 노스롭 그루먼이 콘셉트 영상을 전격 ...",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "‘불륜-예산남용 의혹’ 美노동장관 사임, 트럼프 2기 세번째 낙마",
+        "link": "https://www.donga.com/news/Inter/article/all/20260422/133786082/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-04-22 04:30:00",
+        "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/04/22/133786792.1.jpg\" vspace=\"10\" />미국 도널드 트럼프 행정부가 20일 로리 차베즈더리머 노동부 장관의 사임을 발표했다. 트럼프 2기 행정부 들어 세 번째 장관 교체로, 세 명 모두 여성 각료이다. 최근 한 달 반 사이 각료 세 명이 연달아 교체된 데 대해 미국·이스라엘과 이란 전쟁 등으로 트럼프 대통령의 지지율이 크게 하락하는 상황에서 국정 쇄신 이미지를 부각시키려는 게 아니냐는 분석이 나온다. 또 표면상으론 ‘사임’이지만, 차베즈더리머 장관의 비위에 대한 감찰이 수개월째 진행됐다는 점에서 사실상 경질이라는 해석도 나온다.● 예산 남용, 사내 불륜, 괴롭힘, 음주근무 의혹 줄줄이이날 스티븐 청 백악관 공보국장은 X를 통해 “차베즈더리머 장관이 민간 부문 자리를 위해 행정부를 떠날 예정”이라고 밝혔다. 이어 “장관은 미국 노동자를 보호하고 공정한 노동 관행을 확립했으며, 미국인들이 삶을 개선할 수 있도록 새로운 기술을 습득할 수 있게 돕는 등 탁월한 성과를 거뒀다”고 했다. 키스 손덜링 노동부 부장관이 장관 대행을",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "이란전쟁 와중에… 美국방-육군장관 갈등 격화",
+        "link": "https://www.donga.com/news/Inter/article/all/20260421/133786074/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-04-22 04:30:00",
+        "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/04/21/133786783.1.jpg\" vspace=\"10\" />이란 전쟁의 장기화 와중에 피트 헤그세스 미국 국방장관(46)과 댄 드리스컬 미국 육군장관(40)의 갈등이 격화하고 있다. 특히 최근 헤그세스 장관이 랜디 조지 전 육군 참모총장을 전격 경질한 것이 조지 전 참모총장과 가까운 드리스컬 장관에 대한 견제 차원이었다는 보도까지 나오면서 파장이 확산되고 있다. 드리스컬 장관은 J D 밴스 미국 부통령(42)의 예일대 로스쿨 동문 겸 최측근이어서 두 장관의 갈등이 도널드 트럼프 미국 행정부 전반으로 번질 가능성 또한 배제할 수 없다는 관측이 나온다. 20일 월스트리트저널(WSJ)에 따르면 헤그세스 장관은 앞서 2일 조지 전 참모총장을 전화로 전격 해임했다. 별다른 이유를 설명하지 않은 채 조지 전 참모총장의 사퇴 및 즉시 전역을 요구했다고 한다. 당시 드리스컬 장관은 가족과 노스캐롤라이나주에서 휴가를 보내고 있었다. 조지 전 참모총장은 조 바이든 전 행정부 시절인 2023년 8월 육군 참모총장직에 오른 4성 장군 출신이다. 관례적으로 육",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "트럼프 \"훌륭한 합의할 것\"...애플 새 리더 평가는 [빈난새의 개장전요것만]",
+        "link": "https://www.hankyung.com/article/202604217181i",
+        "source": "한국경제-기업",
+        "published_dt": "2026-04-21 23:55:05",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "외교부, 호주와 에너지·공급망 협력 강화 논의",
+        "link": "https://www.yna.co.kr/view/AKR20260421149500504",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-04-21 17:54:31",
+        "description": "(서울=연합뉴스) 김지헌 기자 = 외교부는 김희상 G20(주요 20개국) 셰르파가 리사 엘리스턴 호주 G20 셰르파와 21일 화상으로 면담하면서...",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "살상력 극대화한 北집속탄, 軍방공망으로 방어 가능할까",
+        "link": "https://www.yna.co.kr/view/AKR20260421149600504",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-04-21 17:52:20",
+        "description": "(서울=연합뉴스) 이정현 김철선 기자 = 북한이 최근 연이어 집속탄(확산탄)을 실은 탄도미사일을 시험발사하면서 우리 군의 기존 방공망으로 집속탄...",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "중국 AI서버 부품 제조사…빅토리자이언트, 홍콩 상장",
+        "link": "https://www.hankyung.com/article/2026042166881",
+        "source": "한국경제-기업",
+        "published_dt": "2026-04-21 17:34:16",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "日 하네다 등 공항 관제 장애로 1만4600명 발 묶여",
+        "link": "https://www.donga.com/news/Inter/article/all/20260421/133783557/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-04-21 17:03:54",
+        "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/04/21/133783558.1.jpg\" vspace=\"10\" />일본에서 21일 하네다(羽田) 등 전국 공항의 관제 시스템에 문제가 발생해 항공편 결항 등이 잇따랐다. 약 1만4600명에게 영향을 끼쳤다. 일본 공영 NHK, TV아사히뉴스 등에 따르면 국토교통성은 이날 오전 5시37분께 고베(神戸)시에 있는 국토교통성 고베항공교통관제부에 관제 시스템 장애가 발생해 관제 처리 능력이 저하됐다고 발표했다. 원인을 조사한 결과 후쿠오카(福岡) 항공교통관제부의 관제 시스템 결함으로 인한 것으로 밝혀졌다. 국토교통성은 이 결함으로 후쿠오카 관제부가 각 공항에 비행 계획 등을 정상적으로 전달하지 못했음을 확인했다. 이에 백업 기관인 도쿄 항공교통관제부 시스템으로 전환됐으며, 오전 10시 52분께 시스템 장애는 해소됐다. 이로 인해 오전 11시 기준 하네다 공항에서 일본항공(JAL) 53편, 전일본공수(ANA) 30편, 에어두 4편이 결항됐다. 이로 인해 총 1만4600명에게 영향을 주게 됐다. 이날 정오 기준 결항지연된 항공편은 170편으로 늘어",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "78세 찰스 3세 “사랑하는 엄마”…여왕 탄생 100주년 헌사",
+        "link": "https://www.donga.com/news/Inter/article/all/20260421/133781773/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-04-21 16:49:00",
+        "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/04/21/133783247.1.jpg\" vspace=\"10\" />영국 찰스 3세 국왕(78)이 21일(현지 시간) 고(故) 엘리자베스 2세 여왕(1926~2022)의 탄생 100주년을 맞아 “사랑하는 엄마(darling mama)는 영원히 우리 마음에 남아 있을 것”이라는 헌사를 바쳤다.이날 공개된 영상 메시지에서 찰스 3세는 “여왕은 영국과 영연방, 그 너머 수많은 사람들의 삶에 감동을 주었다”며 “수십년의 세월에도 그는 한결 같고 굳건하게, 온전히 자신이 섬긴 국민에게 헌신했다”고 밝혔다.1926년 4월 21일 태어난 엘리자베스 2세는 1952년 25세에 즉위해 70년간 재임한 영국 역사상 최장수 군주다. 워싱턴포스트(WP)는 “그는 암울했던 전후 시기 영국인들에게 희망을 불어넣었던 화려한 젊은 군주에서 코로나19 기간 국민을 하나로 뭉치게 한 사랑받는 ‘국민의 할머니’로 거듭났다”고 평가했다.찰스 3세는 “우리가 살고 있는 시대의 많은 일들이 어머니를 깊이 괴롭혔을 것”이라며 “그러나 선함은 언제나 승리한다는 어머니의 믿음에서 위안을",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "“친구(Ami)로서, 한국과 함께 글로벌 시장서 성장할 것”",
+        "link": "https://www.donga.com/news/Economy/article/all/20260421/133781593/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-04-21 14:41:00",
+        "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/04/21/133779931.1.jpg\" vspace=\"10\" />“한국은 아미(Ami) 브랜드에 영감을 주는 시장이다.”9일 서울 중구 신라호텔에서 만난 니콜라 상티 베유(Nicolas Santi-Weil) 아미 최고경영자(CEO)는 동아일보 기자와 만나 이렇게 말했다. 상티베유 CEO는 올해 1월 새로 문을 연 한옥 콘셉트의 용산구 한남 플래그십 스토어 기념 행사를 방문하기 위해 8일부터 3일간 한국을 찾았다. 아미가 프렌치 스타일이 아닌 해당 국가의 전통 문화를 반영한 플래그십 스토어를 조성한 것은 이번이 처음이다.그는 이번 한남 플래그십 스토어가 “한국 시장이 아미에게 얼마나 중요한지를 보여주는 방식”이라고 말한다.이는 국내 플래그십 매장 매출의 84%가 외국인 고객에서 나오는 등 한국 매장이 ‘수출 전초기지’ 역할을 한다는 점을 고려한 것이다. 그는 “최근에는 K-팝 등 한국 문화가 프랑스에도 영향을 주고 있고 특히 젊은 세대에게 인기를 끌고 있다”며 “이는 프렌치 스타일에도 영감을 주고 있는 만큼 1년에 한 번은 한국을 찾아 한국적인 문",
+        "category": "domestic",
+        "priority_score": 5,
+        "related_full_sources": []
+      },
+      {
+        "title": "불륜-예산남용 美노동장관 사임…트럼프, 한달반새 女장관 세번째 교체",
+        "link": "https://www.donga.com/news/Inter/article/all/20260421/133781753/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-04-21 16:15:00",
+        "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/04/21/133779355.1.jpg\" vspace=\"10\" />미국 도널드 트럼프 행정부가 20일 로리 차베즈더리머 노동부 장관의 사임을 발표했다. 트럼프 2기 행정부 들어 세 번째 장관 교체로, 세 명 모두 여성 각료이다. 최근 한 달 반 사이 각료 세 명이 연달아 교체된 데 대해 미국·이스라엘과 이란 전쟁 등으로 트럼프 대통령의 지지율이 크게 하락하는 상황에서 국정 쇄신 이미지를 부각시키려는 게 아니냐는 분석이 나온다. 또 표면상으론 ‘사임’이지만, 차베즈더리머 장관의 비위에 대한 감찰이 수개월째 진행됐다는 점에서 사실상 경질이라는 해석도 나온다.● 예산 남용, 사내 불륜, 괴롭힘, 음주근무 의혹 줄줄이이날 스티븐 청 백악관 공보국장은 X를 통해 “차베즈더리머 장관이 민간 부문 자리를 위해 행정부를 떠날 예정”이라고 밝혔다. 이어 “장관은 미국 노동자를 보호하고 공정한 노동 관행을 확립했으며, 미국인들이 삶을 개선할 수 있도록 새로운 기술을 습득할 수 있게 돕는 등 탁월한 성과를 거뒀다”고 했다. 키스 손덜링 노동부 부장관이 장관 대행을",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "“가치는 변하지 않는다”…애플 CEO 교체, 팀 쿡·터너스 메모 보니",
+        "link": "https://www.donga.com/news/Inter/article/all/20260421/133780326/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-04-21 14:43:08",
+        "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/04/21/133780564.3.jpg\" vspace=\"10\" />애플이 9월 CEO를 팀 쿡에서 존 터너스로 교체한다. 내부 메모에는 ‘변하지 않는 가치’와 함께 하드웨어 중심 전략 전환 신호가 담겼다.",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "트럼프 “이란 핵시설은 작년에 완전 파괴…잔해 파내는 게 어려워”",
+        "link": "https://www.donga.com/news/Inter/article/all/20260421/133781879/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-04-21 14:58:00",
+        "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/04/21/133781900.3.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령이 20일(현지시간) 이란의 핵시설이 지난해 6월 ‘미드나잇 해머’ 작전으로 인해 완전히 파괴됐다는 주장을 다시 펼쳤다. 트럼프 대통령은 이날 자신의 트루스소셜을 통해 “‘미드나잇 해머’ 작전은 이란 내 핵먼지 시설을 완전하고 철저하게 파괴했다”고 밝혔다. 트럼프 대통령은 “그렇기 때문에 그 잔해를 파내는 일은 길고 어려운 과정이 될 것”이라고 덧붙였다.  이어 “가짜뉴스 CNN을 비롯한 부패한 언론사들과 플랫폼들은 (당시 작전에 참여한) 우리 위대한 조종사들에게 마땅히 돌려야 할 공로를 인정하지 않고, 늘 그들을 깎아내리려 한다”며 이들을 “패배자들(losers)”이라고 비난했다.다만, 자신의 주장에 별다른 근거는 덧붙이지 않았다. 앞서 CNN방송 등은 작전이 완전히 성공했다는 트럼프 대통령의 기존 주장을 놓고 사실과 다르다고 보도했는데, 이를 반박하려는 취지로 해석된다. 트럼프 대통령이 언급한 핵먼지(nucleardust)는 잔해 아래 묻힌 것으",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "中청년실업률 6개월 만에 상승…역대급 졸업시즌 앞두고 ‘설상가상’",
+        "link": "https://www.donga.com/news/Inter/article/all/20260421/133782643/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-04-21 16:03:31",
+        "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/04/21/133782644.1.jpg\" vspace=\"10\" />중국의 1분기 경제성장률이 시장의 예상을 웃돌며 회복세를 보였음에도 불구하고, 청년 고용 시장은 오히려 역행하고 있다. 특히 역대 최대 규모의 졸업생들이 구직 시장에 쏟아져 나오는 시점과 맞물리며 고용 절벽에 대한 우려가 커지는 상황이다.21일 홍콩 사우스차이나모닝포스트(SCMP)가 중국 국가통계국 데이터를 분석한 보도에 따르면, 지난 3월 학생을 제외한 16~24세 청년 실업률은 16.9%를 나타냈다. 이는 전월 기록한 16.1%보다 0.8%p 상승한 수치로, 지난 6개월 동안 완만한 하락 곡선을 그리던 청년 실업 지표가 다시 반등세로 돌아섰음을 의미한다.현재 중국 고용 시장은 디플레이션 압력과 대외 불확실성이라는 이중고를 겪고 있는데, 이는 전문 경력이 부족한 청년들에게 특히 어려운 상황으로 작용하고 있다.이에 많은 청년이 스펙을 쌓기 위해 대학원 진학을 택하거나 입사 시기를 늦추고 있으며 일부는 이른바 ‘철밥통’이라 불리는 공무원 시험에 매달리고 있다. 그러나 최근 시험",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "日자위대 전차 훈련중 포신 내부서 포탄 폭발…3명 사망",
+        "link": "https://www.donga.com/news/Inter/article/all/20260421/133781928/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-04-21 15:02:00",
+        "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/04/21/133781950.2.jpg\" vspace=\"10\" />일본 육상자위대가 전차에서 사격 훈련을 하던 도중 포탄이 내부에서 폭발해 대원 3명이 숨지고 1명이 다쳤다.21일 다카이치 사나에 일본 총리는 엑스(X·옛 트위터)에 “이날 오전 8시 39분경 오이타현 히주다이 연습장에서 육상자위대 서부 방면 전차부대가 ‘10식 전차’를 이용해 사격 훈련을 하던 중 포탄이 포신 내부에서 폭발하는 사고가 발생했다”고 밝혔다.이어 “전차에 탑승했던 대원 4명 중 3명이 사망하고 1명이 다쳤다는 보고를 받았다”고 전했다. 현지 소방에 따르면 부상자는 닥터헬기를 통해 후쿠오카현의 병원으로 이송됐으며, 현재 의식이 있는 상태다.사고 당시 대원들이 탑승해 있던 ‘10식 전차’는 육상자위대의 주력 설비로, 전장 약 9.5m, 폭 약 3.2m, 높이 약 2.3m다. 기관총 등을 장착하면 무게는 약 44톤(t)이다.육상자위대는 자세한 사고 원인을 조사 중이다.다카이치 총리는 “이러한 상황에 이르게 된 것은 매우 유감”이라며 “자세한 사실 관계와 원인에 대해",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "노벨상 수상자, 핵전쟁 경고하며 “인류에게 남은 시간 35년”",
+        "link": "https://www.donga.com/news/It/article/all/20260421/133781642/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-04-21 14:33:47",
+        "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/04/21/133781622.3.jpg\" vspace=\"10\" />노벨 물리학상 수상자인 이론물리학자 데이비드 그로스 박사가 핵전쟁 위협을 근거로 인류의 생존 가능 시간이 약 35년에 불과하다는 진단을 내놨다. 그는 “2% 확률로 매년 핵전쟁이 일어날 경우, 예상 수명은 약 35년”이라고 경고했다.",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "다카이치 “함께 식사하면 립스틱 못 고쳐”…‘요정정치’ 막내렸다",
+        "link": "https://www.donga.com/news/Inter/article/all/20260421/133782132/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-04-21 15:41:00",
+        "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/04/21/133782422.1.jpg\" vspace=\"10\" />‘요정 정치’가 막을 내리고 ‘문서 정치’로 바꿨다.  다카이치 사나에(高市早苗) 일본 총리의 취임 반년을 맞은 21일 아사히신문, 요미우리신문 등은 특집 기사를 통해 첫 여성 총리 탄생 후 일본 정치의 변화상을 이렇게 요약했다. 앞선 남성 총리들이 저녁을 곁들인 대면 소통에 무게를 뒀던 반면 첫 여성 총리인 다카이치 총리는 ‘나홀로 공부’를 즐기며 비대면 서면 보고를 통해 주요 결정을 내리고 있다는 것. 일본 정가에서는 “총리의 정책 결정이 신속해졌다”며 반기는 분위기도 있지만, “소통이 부족한 가운데 톱다운식 결정에 치중한다”는 평가도 나온다.  다카이치 총리는 보통 저녁 자리를 갖지 않고 오후 6시쯤이면 남편인 야마모토 다쿠(山本拓) 전 중의원과 둘이 살고 있는 공저로 돌아간다. 올해 65세인 총리는 가사도우미를 두지 않기에 9살 연상인 남편의 간병 및 세탁 등 집안일을 직접한다. 이후 밤늦게까지 국회 답변서나 부처 자료를 검토하는 것이 반복되는 일상이다.  총리는 보고",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      }
+    ]
+  }
+}
