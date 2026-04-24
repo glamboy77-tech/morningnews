@@ -1,0 +1,168 @@
+{
+  "timestamp": "2026-04-25T06:02:46.626913",
+  "date": "20260425",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "李대통령, 인도·베트남 순방 마치고 귀국",
+          "link": "https://www.chosun.com/economy/economy_general/2026/04/24/MNRWGMRQHE2DEYJYMQ3DKM3EGI/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-04-24 22:28:02",
+          "description": "이재명 대통령이 5박 6일간의 인도·베트남 순방을 마치고 24일 서울공항을 통해 귀국했다. 김민석 국무총리와 윤호중 행정안전부 장관, 정청래 더불어민주당 대표, 강훈식 대통령비서실장, 홍익표 정무수석이 나와 이 대통령 부부를 맞이했다. 이 대통령은 중동 전쟁으로 국제 정세가 극도로 불안정한 가운데 나렌드라 모디 인도 총리, 또 럼 베트남 공산당 서기장 겸",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "“정원오, 李대통령 예스맨” “오세훈, 마치 윤석열 같아”",
+          "link": "https://www.chosun.com/politics/assembly/2026/04/25/U5STMYP7ZRA27KKRJGZB3Y7Z7Y/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-04-25 00:50:00",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "지방/행정",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 \"실거주기간 양도세 감면은 필요…비거주엔 축소해야\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260424072651001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-04-24 16:04:38",
+          "description": "(서울=연합뉴스) 고동욱 설승은 기자 = 이재명 대통령은 24일 부동산 양도세 장기보유특별공제(장특공) 제도와 관련해 &quot;1주택을 보호하려면 실거...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "'알파고 아버지' 허사비스, 27일 이재명 대통령 만난다",
+          "link": "https://www.hankyung.com/article/2026042454031",
+          "source": "한국경제-IT",
+          "published_dt": "2026-04-24 17:30:15",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "Science/Tech",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, 모디 총리에 '신라 반가사유상·호랑이 수묵화' 선물",
+          "link": "https://www.yna.co.kr/view/AKR20260424084700001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-04-24 13:12:29",
+          "description": "(하노이=연합뉴스) 임형섭 황윤기 기자 = 인도·베트남을 국빈 방문한 이재명 대통령이 각국 정상들의 취향과 국정 철학을 담은 선물을 건넸다고 청...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": [
+            {
+              "source": "조선일보-정치",
+              "title": "李대통령, 모디 총리에 신라 반가사유상과 호랑이 수묵화 선물",
+              "link": "https://www.chosun.com/politics/blue_house/2026/04/24/VZECTNORKFHLPGC5DSHIJTYETI/"
+            }
+          ]
+        },
+        {
+          "title": "李대통령 지지율 67%로 최고치 동률…TK 등 전지역 60% 이상[한국갤럽](종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260424055251001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-04-24 11:01:20",
+          "description": "(서울=연합뉴스) 박재하 기자 = 이재명 대통령의 국정 지지율이 67%를 기록했다는 여론조사 결과가 24일 나왔다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "국힘, 李대통령 '대장동 취재상 취소' 요구에 \"노골적 언론탄압\"",
+          "link": "https://www.yna.co.kr/view/AKR20260424113800001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-04-24 15:29:18",
+          "description": "(서울=연합뉴스) 김치연 기자 = 국민의힘은 24일 이재명 대통령이 대장동 관련 의혹 보도로 3년전 한국신문상을 받은 한 일간지의 수상을 취소해...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 \"실거주기간 양도세 감면은 필요…비거주엔 축소해야\"",
+          "link": "https://www.yna.co.kr/view/AKR20260424072600001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-04-24 11:19:11",
+          "description": "(서울=연합뉴스) 고동욱 기자 = 이재명 대통령은 24일 부동산 양도세 장기보유특별공제(장특공) 제도와 관련해 &quot;1주택을 보호하려면 실거주 기간...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, 27일 '알파고 아버지' 허사비스 면담…AI 협력 논의",
+          "link": "https://www.yna.co.kr/view/AKR20260424100300001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-04-24 14:30:09",
+          "description": "(서울=연합뉴스) 고동욱 기자 = 이재명 대통령이 데미스 허사비스 구글 딥마인드 최고경영자(CEO)와 만나 인공지능(AI) 관련 협력 방안을 논...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "Science/Tech",
+          "is_representative": true,
+          "related_full_sources": []
+        }
+      ],
+      "count": 9,
+      "role": "한국 대통령"
+    },
+    "장동혁": {
+      "articles": [
+        {
+          "title": "장동혁 \"사퇴가 선거승리 도움 되나\"…친한계 \"이미 권위 소멸\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260424060651001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-04-24 15:34:39",
+          "description": "(서울=연합뉴스) 박수윤 김치연 조다운 노선웅 기자 = 6·3 지방선거를 한 달여 앞두고 국민의힘이 끝없이 추락하고 있으나 &apos;선거 최대 리스크&apos;...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "장동혁 비판한 배현진, 또 국힘 윤리위 제소됐다",
+          "link": "https://www.chosun.com/politics/assembly/2026/04/24/G4HRJQFKZNDSRHDBX24K64J56M/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-04-24 21:37:52",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "장동혁 \"지방선거 마무리하고 당당히 평가받겠다\"…사퇴론 일축",
+          "link": "https://www.yna.co.kr/view/AKR20260424089600001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-04-24 14:02:00",
+          "description": "(서울=연합뉴스) 박수윤 기자 = 국민의힘 장동혁 대표는 24일 &quot;최선을 다해 지방선거를 마무리하고 당당하게 평가받겠다&quot;면서 6·3 지방선거 전...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": true,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "국민의힘 국회의원"
+    }
+  }
+}
