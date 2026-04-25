@@ -1,0 +1,54 @@
+{
+  "timestamp": "2026-04-26T06:02:43.126636",
+  "date": "20260426",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "李대통령, 주사기 매점매석에 \"반사회적 행태 엄중 단죄할 것\"",
+          "link": "https://www.yna.co.kr/view/AKR20260425037300001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-04-25 16:22:34",
+          "description": "(서울=연합뉴스) 설승은 기자 = 이재명 대통령은 25일 보건당국 특별 단속에서 &apos;주사기 매점매석 업체&apos;가 무더기로 적발된 것과 관련, &quot;공동체...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": true,
+          "related_full_sources": [
+            {
+              "source": "조선일보-경제",
+              "title": "李 대통령, 주사기 매점매석 “엄중 단죄할 것… 같이 삽시다”",
+              "link": "https://www.chosun.com/economy/economy_general/2026/04/25/MY2TSNRWGY3TKMTGGNQTGMJQG4/"
+            }
+          ]
+        },
+        {
+          "title": "여권 강타한 ‘뉴 이재명’ 현상... 뉴 박근혜·뉴 문재인도 있었다",
+          "link": "https://www.chosun.com/politics/2026/04/26/OXJV5CEDVNCCXD5KPBCEHTZGJQ/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-04-26 05:30:00",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "野이종배 “李대통령 ‘대장동 보도’ 수상 취소 요구는 권력의 폭압”",
+          "link": "https://www.chosun.com/economy/economy_general/2026/04/25/MYYDGODBHBQTKMJWGQ3TIZBTMQ/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-04-25 16:07:41",
+          "description": "이재명 대통령이 3년 전 대장동 관련 의혹 보도로 한국신문상을 수상한 언론사에 수상 취소와 정정 보도를 요구했다. 이에 대해 이종배 국민의힘 의원이 “공소취소를 위해 보내는 가이드라인 아니냐”고 했다. 이 의원은 25일 자신의 페이스북에 올린 글에서 “이재명 대통령이 24일 ‘대장동 개발 의혹’ 관련 보도로 한국신문상을 수상한 동아일보에게 수상취소와 정정보",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "한국 대통령"
+    }
+  }
+}
