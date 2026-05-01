@@ -1,0 +1,130 @@
+{
+  "timestamp": "2026-05-02T06:03:14.861801",
+  "date": "20260502",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "李대통령 지지율, 64%로 전주대비 3%p↓…민주 46%·국힘 21%[한국갤럽](종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260501027551001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-05-01 10:58:48",
+          "description": "(서울=연합뉴스) 김정진 기자 = 이재명 대통령 국정 지지율이 전주 대비 하락한 64%를 기록했다는 여론조사 결과가 1일 나왔다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "李대통령 지지율 64%로 전주 대비 3%p↓…민주 46%·국힘 21%[한국갤럽]",
+              "link": "https://www.yna.co.kr/view/AKR20260501027500001"
+            }
+          ]
+        },
+        {
+          "title": "특검에 李 공소취소권, 지방선거 최대 이슈로",
+          "link": "https://www.chosun.com/politics/assembly/2026/05/02/RPSQXSHGNZCOBCEZNDIK6CDYDU/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-05-02 00:56:00",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李 대통령 “노동 빠진 성장은 반쪽… 기업과 노동계 상생으로 ‘진짜 성장’”",
+          "link": "https://www.chosun.com/economy/economy_general/2026/05/01/MRRDIMJWGMZDGYRXMQYGGYTGHA/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-05-01 10:29:47",
+          "description": "올해부터 첫 법정공휴일로 지정된 노동절을 맞아 이재명 대통령이 기념사를 전했다. 이 대통령은 1일 청와대에서 열린 노동절 기념식에서 “생산의 주체이자 경제 성장의 핵심 동력이며 우리 대한민국 발전의 주역이신 이 땅의 모든 노동자 여러분께 존경과 감사의 마음을 전합니다”며 “노동은 한 사람의 일상을 지탱하며 가족의 오늘을 지키고, 우리 공동체를 내일로 나아가",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "1분기 보이스피싱 피해 감소… 李 대통령 “일선 공직자 헌신 덕”",
+          "link": "https://www.chosun.com/economy/economy_general/2026/05/01/MZSTSYJQHFQWCNJSGBTDOZJYME/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-05-01 14:30:06",
+          "description": "이재명 대통령이 보이스피싱 피해 예방을 위해 헌신한 공직자들을 공개적으로 격려했다. 이 대통령은 1일 엑스(X·옛 트위터)에 올해 1분기 보이스피싱 피해가 45% 감소했다는 기사를 소개하면서 “단기간에 국민의 피해가 줄어 참으로 다행”이라고 했다. 해당 보도에 따르면 올해 1~3월 보이스피싱 피해액이 1702억원으로 전년 동기 3116억원 대비 크게 감소했",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李 대통령, HMM 부산 이전 합의에 “대승적 결단 내려준 임직원에 감사”",
+          "link": "https://www.chosun.com/economy/economy_general/2026/05/01/MVRDSMJVMZSTMMTBME4GIY3FGQ/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-05-01 09:35:40",
+          "description": "이재명 대통령이 컨테이너 선사 HMM의 부산 본사 이전 합의에 대해 감사 인사를 전했다. 이 대통령은 지난달 30일 엑스(X·옛 트위터)를 통해 “대승적 결단을 내려준 임직원 여러분께 깊은 감사를 전한다”며 “어려운 협상을 이어온 노사 양측 모두 고생 많으셨다”고 밝혔다. 이 대통령은 “이번 합의가 우리나라 해운 산업의 경쟁력을 높이고 지역 균형 발전에도",
+          "category": "domestic",
+          "priority_score": 0,
+          "sector": "조선해양",
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 경고에 ‘勞勞 갈등’… LG유플 노조 “삼전, 비겁한 처사”",
+          "link": "https://www.chosun.com/economy/tech_it/2026/05/01/QLVP7J6R7JHTVIGEQ7CAI4ARJM/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-05-01 21:07:43",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "sector": "통신/IT",
+          "related_full_sources": [
+            {
+              "source": "조선일보-경제",
+              "title": "李대통령 경고에 벌어진 ‘勞勞갈등’… LG유플러스 노조 “삼전 노조, 책임 돌리기”",
+              "link": "https://www.chosun.com/economy/tech_it/2026/05/01/GQ2TINBWGMZWCZJSMZTDSNBQHE/"
+            }
+          ]
+        }
+      ],
+      "count": 6,
+      "role": "한국 대통령"
+    },
+    "트럼프": {
+      "articles": [
+        {
+          "title": "트럼프 “이란 제안에 불만족…완전 박살내는 것도 선택지”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260502/133850353/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-05-02 03:44:57",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/05/02/133850354.1.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령은 1일(현지 시간) 이란이 새로운 종전안을 제안한 것에 대해 “그들은 합의를 원하고 있지만 저는 그것에 만족하지 않는다”고 말했다.트럼프 대통령은 이날 백악관 경내에서 취재진과 만나 이같이 말하며 “그래서 우리는 지켜봐야할 것이다. 저들은 사실상 남은 군대도 없고 합의를 원하지만, 나는 그 제안에 만족하지 않는다”고 반복했다.이란은 전날 밤 중재국인 파키스탄에 새로운 협상안을 제시한 것으로 알려졌다. 지난 주말에 이어 수정안이 전달되면서 협상 진전에 대한 기대가 나왔으나, 트럼프 대통령은 불만을 표한 것이다.구체적으로 어떤 부분이 불만이냐는 취재진 질문에는 “그들은 내가 동의할 수 없는 것들을 요구하고 있다”고 답했다.좀처럼 협상이 진전되지 않는 것에 대해서는 이란 내부 갈등에 책임을 돌렸다.그는 “엄청난 불화가 있고, 그들은 이란 내에서 화합하는데 엄청난 문제를 겪고 있다. 지도부는 매우 분열돼 있는데 2~3개, 어쩌면 4개의 파벌이 있다”며",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프, 獨 이어 伊-스페인 미군 감축 가능성에 “아마도”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260502/133850180/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-05-02 01:40:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/05/01/133848254.4.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령이 이란 전쟁에 협조하지 않았다는 이유로 독일에 이어 이탈리아, 스페인에 대해서도 현지에 주둔 중인 미군을 감축할 수 있다고 지난달 30일(현지 시간) 밝혔다. 전날 트루스소셜을 통해 주독미군 감축 가능성을 언급한 지 하루 만이다. 이날 트럼프 대통령은 ‘이란 전쟁에서 기지 사용을 두고 미국과 갈등을 빚은 이탈리아, 스페인에서도 미군을 철수시킬 의향이 있느냐’는 기자의 질문에 “그들이 그다지 협조적이진 않았다”며 “아마 감축할 것”이라고 했다. 이어 “왜 안 하겠느냐. 이탈리아는 전혀 도움이 되지 않았고, 스페인은 끔찍했다. 정말 끔찍했다”고 덧붙였다. 한편, 주한미군 감축 가능성을 묻는 동아일보 질문에 미 국방부 관계자는 “잠재적인 병력 태세 조정에 대해선 언급하지 않는다”며 “주한미군은 계속해서 억제력 유지와 대비 태세에 중점을 두고 있다”고 답변했다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프 덕분?…7년만에 美-베네수엘라 직항 재개 ‘축하 물대포’",
+          "link": "https://www.donga.com/news/Inter/article/all/20260501/133846818/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-05-01 13:07:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/05/01/133846825.3.jpg\" vspace=\"10\" />미국과 베네수엘라 간 직항 상업 항공편 운항이 재개됐다. 미국 국토안보부가 2019년 보안 문제를 제기하며 무기한 운항 중단 조치를 내린 지 7년 만이다.로이터통신, AP통신 등에 따르면 미국 아메리칸항공 자회사인 엔보이 에어 소속 항공편 AA3599편이 지난달 30일(현지 시간) 오전 10시 11분경 미국 마이애미 국제공항을 출발해 3시간 만에 베네수엘라 수도 카라카스의 시몬 볼리바르 국제공항에 도착했다. 이 항공편은 같은 날 마이애미로 돌아갔다.미국과 베네수엘라 간 직항 상업 항공편 운항이 재개되면서 양국 국민은 직항기를 타고 미국과 베네수엘라로 갈 수 있게 됐다. 직항 운항이 중단된 7년 동안 양국 국민은 다른 국가를 경유하는 항공편이나 제3국 항공사를 이용해야만 했다. 아메리칸 항공 직원들은 AA3599편이 베네수엘라로 향하기 전 마이애미 국제공항에서 승객들에게 작은 베네수엘라 국기를 건네줬다. 게이트는 노란색, 파란색, 빨간색 풍선으로 장식됐다.한 탑승객은 AP통신에",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "미국 대통령"
+    }
+  }
+}
