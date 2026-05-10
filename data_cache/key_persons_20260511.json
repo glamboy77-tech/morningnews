@@ -1,0 +1,151 @@
+{
+  "timestamp": "2026-05-11T06:03:02.024223",
+  "date": "20260511",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "정부 \"미상비행체가 호르무즈 韓선박 타격\"…외부공격 공식 인정(종합3보)",
+          "link": "https://www.yna.co.kr/view/AKR20260510044554504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-05-10 21:28:01",
+          "description": "(서울=연합뉴스) 김동현 김지헌 민선희 기자 = 정부는 지난 4일 호르무즈 해협에서 일어난 한국 선박(나무호) 화재 사건은 미상 비행체의 타격에...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "與 지선 선대위 출범…\"내란세력 심판·민주주의 바로 세워야\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260510020551001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-05-10 18:02:01",
+          "description": "(서울=연합뉴스) 김정진 오규진 기자 = 더불어민주당은 10일 6·3 지방선거를 24일 앞두고 선거대책위원회 출범식을 열어 본격적인 선거 체제로...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "조승래 與 총괄선대본부장 “김관영 무소속 출마 후안무치…영구 복당 불허”",
+          "link": "https://www.chosun.com/economy/economy_general/2026/05/10/GQYTONZQGQYTAOJRMIZGGM3GGA/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-05-10 15:34:07",
+          "description": "조승래 더불어민주당 총괄선대본부장이 10일 무소속 출마를 선언한 김관영 전북지사를 향해 “(무소속 출마는) 중대한 해당 행위에 해당하기 때문에 영원히 복당히 불가능하다”며 “무소속 김관영 지사를 돕는 당원이 있다면 역시 명백한 해당 행위이기 때문에 엄정한 조치를 취하겠다”고 했다. 조 본부장은 이날 오후 국회에서 기자간담회를 갖고 “당에서 징계를 받아 제명",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "한미 정부, 마스가 프로젝트 첫 단추...전략 투자 프로젝트 논의",
+          "link": "https://www.chosun.com/economy/industry-company/2026/05/10/L2G3JAWA7FCXFBJPKIIN6ZTIUA/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-05-10 13:19:37",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "청와대, 국내 조선소 MRO 사업장 보안 대책 회의...美 “기밀 유출 우려”",
+          "link": "https://www.chosun.com/economy/industry-company/2026/05/10/DB45ILX62VCOHNQF4P6SWXQMCQ/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-05-10 20:37:51",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "sector": "조선해양",
+          "related_full_sources": []
+        },
+        {
+          "title": "한국인 또 배 타고 가자지구行…정부 보호조치 지속",
+          "link": "https://www.yna.co.kr/view/AKR20260510021100504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-05-10 11:40:40",
+          "description": "(서울=연합뉴스) 김지헌 기자 = 팔레스타인 가자지구 봉쇄에 반대하는 한국인이 배를 타고 가자지구를 향해 출발함에 따라 정부가 보호 조치에 나섰...",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 6,
+      "role": "한국 대통령"
+    },
+    "트럼프": {
+      "articles": [
+        {
+          "title": "한미 정부, 마스가 프로젝트 첫 단추...전략 투자 프로젝트 논의",
+          "link": "https://www.chosun.com/economy/industry-company/2026/05/10/L2G3JAWA7FCXFBJPKIIN6ZTIUA/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-05-10 13:19:37",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프 SNS 업체, 비트코인 투자 등 6000억 손실",
+          "link": "https://www.donga.com/news/People/article/all/20260511/133895066/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-05-11 04:30:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/05/10/133892468.1.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령이 만든 소셜미디어 ‘트루스소셜’의 모회사 트럼프미디어앤드테크놀로지그룹(TMTG)이 가상화폐 비트코인의 투자 실패로 막대한 손실을 입었다. 가상화폐 사업에 적극적으로 관여해 온 트럼프 대통령 일가가 하락장 와중에 무리하게 비트코인을 매입한 것이 화근이라는 평가가 나온다. 9일(현지 시간) 블룸버그통신 등에 따르면 TMTG의 올 1분기(1∼3월) 순손실은 4억590만 달러(약 5966억 원)로 집계됐다고 밝혔다. 이 회사는 지난해 비트코인 가격이 급등하던 시기에 대규모 매입에 나섰다. 특히 지난해 7월에는 비트코인을 개당 평균 10만8519달러(약 1억5995만 원)에 사들인 것으로 알려졌다. 하지만 이후 가상화폐 가격이 꾸준히 하락하면서 손실이 불어났다. 10일 오후 8시 기준 비트코인 가격은 8만 달러(약 1억1760만 원) 내외를 기록하고 있다. 올 2월에는 한때 7만 달러(약 1억290만 원) 이하로 떨어졌다. 이 여파로 당시 TMTG 또한 2000",
+          "category": "domestic",
+          "priority_score": 0,
+          "sector": "통신/IT",
+          "related_full_sources": []
+        },
+        {
+          "title": "청와대, 국내 조선소 MRO 사업장 보안 대책 회의...美 “기밀 유출 우려”",
+          "link": "https://www.chosun.com/economy/industry-company/2026/05/10/DB45ILX62VCOHNQF4P6SWXQMCQ/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-05-10 20:37:51",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "sector": "조선해양",
+          "related_full_sources": []
+        },
+        {
+          "title": "14~15일 미중정상회담 ‘5B’ vs ‘3T’ 구도… 베선트 “13일 서울서 中 허리펑과 회담”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260511/133895325/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-05-11 04:30:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/05/10/133895251.1.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령이 14, 15일 중국을 방문할 예정인 것으로 알려진 가운데 시진핑(習近平) 중국 국가주석과 정상회담 시 무역 갈등, 대만, 이란 전쟁의 종전 해법 등이 비중 있게 논의될 것으로 보인다. 다만 주요 의제에 대한 양국의 이견이 커 두 정상이 만족할 만한 합의에 이를지는 미지수란 관측이 제기된다. 당초 트럼프 대통령은 올 3월 말∼4월 초 중국 방문을 추진하려 했지만 이란 전쟁 여파로 한 차례 연기됐다.9일(현지 시간) 뉴욕타임스(NYT) 등에 따르면 미국은 중국 측에 보잉(Boing) 항공기, 미국산 쇠고기(Beef)와 대두(Bean) 구매 등을 압박할 것으로 보인다. 또 양국 경제 교류를 확대하기 위한 투자위원회(Board)와 무역위원회(Board) 설립 등 이른바 ‘5B’ 의제를 내세우고 있다. 반면 중국은 미국에 관세(Tariff), 반도체 등 기술(Technology) 규제 해제, 대만(Taiwan)이라는 ‘3T’ 의제로 맞서고 있다.스콧 베선트 미",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "이틀 뜸들인 이란 “美 종전제안 답변, 파키스탄측에 전달”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260511/133895316/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-05-11 04:30:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/05/11/133895534.1.jpg\" vspace=\"10\" />미국과 이란의 종전 협상이 교착 상태에 빠진 가운데 도널드 트럼프 미 대통령은 8일(현지 시간) 미국의 종전 제안에 대한 이란의 답변을 “오늘 밤 받을 것으로 기대한다”고 밝혔다. 이란은 이틀 후인 10일에야 미국 측 종전 제안에 대한 공식 답변을 중재국인 파키스탄 측에 전달했다고 이란 국영 IRNA통신이 보도했다.  IRNA통신에 따르면 이란 측이 답한 내용은 전쟁 종식에 전적으로 초점이 맞춰져 있다. 이를 감안할 때, 미국이 줄곧 이란 측에 요구해 온 이란의 핵 능력 억제 등 민감한 의제에 대한 답변은 포함되지 않았을 가능성이 크다. 앞서 미국은 6일 이란에 종전을 위한 14개 항목을 담은 1쪽짜리 양해각서(MOU)를 제안하며 48시간 내 답변을 요구했다. 해당 MOU에는 두 나라가 종전을 선언하고 양측이 모두 봉쇄 중인 원유 수송로 호르무즈 해협의 개방, 이란의 핵 프로그램 제한, 미국의 대(對)이란 경제 제재 해제, 추가 세부 합의 도출을 위한 30일간의 협상 개시 등이",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "미중 정상회담 앞…美, ‘최강 스텔스기’ F-22 日 가데나 배치",
+          "link": "https://www.donga.com/news/Politics/article/all/20260510/133891281/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-05-10 12:07:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/05/10/133891283.1.jpg\" vspace=\"10\" />미 공군이 최근 F-22 랩터 스텔스전투기 전력을 일본 오키나와 가데나 공군기지에 순환배치했다고 밝혔다. 14~15일(현지시간)로 예정된 미중정상회담을 앞두고 대중 봉쇄와 견제를 핵심 기조로 내건 도널드 트럼프 행정부의 인도태평양 전략은 확고하다는 메시지인 동시에 북-중-러 연대 강화에 경고장을 날린 것으로 풀이된다.8일(현지시간) 미 공군에 따르면 알래스카주 엘멘도르프-리처드슨 합동기지의  제90전투비행대대와 버지니아주 랭글리-유스티스 합동기지의 제27전투비행대대 소속 F-22 전투기가 이달 초 가데나 기지에 도착했다.이는 인도-태평양 지역 작전을 지원하는 최신 전투기 순환 배치의 일환이자 동맹국과의 상호 운용성을 강화하고 첨단 기술력을 지속적으로 유지하기 위한 차원이라고 미 공군은 설명했다.미 공군은 “태평양의 핵심지역인 가데나에 배치되는 동안 F-22는 다른 정찰기와 4세대, 5세대 전투기와 함께 작전을 수행하여 해당 지역에서 지속적이고 신뢰할 수 있는 전투기 전력을 보장",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 6,
+      "role": "미국 대통령"
+    }
+  }
+}
