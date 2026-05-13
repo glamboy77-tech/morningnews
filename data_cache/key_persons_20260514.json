@@ -1,0 +1,194 @@
+{
+  "timestamp": "2026-05-14T06:02:29.722516",
+  "date": "20260514",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "李대통령, 美中정상회담 앞 베선트·허리펑 연쇄접견…협력 강조(종합2보)",
+          "link": "https://www.yna.co.kr/view/AKR20260513049552001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-05-13 19:50:57",
+          "description": "(서울=연합뉴스) 고동욱 황윤기 기자 = 이재명 대통령은 13일 한국에서 열리는 미·중 정상회담 사전 협의를 앞두고 양국 대표를 잇달아 만나 글...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "6·3 지선 후보등록 시작…\"尹지방권력 심판\" vs \"李정부 심판\"",
+          "link": "https://www.yna.co.kr/view/AKR20260513130100001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-05-14 05:00:01",
+          "description": "(서울=연합뉴스) 최평천 기자 = 6·3 지방선거와 국회의원 재·보궐 선거 후보자 등록이 14일 시작된다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "지방/행정",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 \"김용범은 '초과세수' 거론…'초과이윤' 주장은 음해\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260513088951001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-05-13 15:49:26",
+          "description": "(서울=연합뉴스) 황윤기 기자 = 이재명 대통령은 13일 김용범 청와대 정책실장의 국민배당금 언급을 겨냥한 일각의 비판에 &quot;음해성 가짜뉴스&quot;라고...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": true,
+          "related_full_sources": [
+            {
+              "source": "조선일보-정치",
+              "title": "李대통령 “김용범 말은 ‘초과세수 배당’… 초과이윤 주장은 음해\"",
+              "link": "https://www.chosun.com/politics/politics_general/2026/05/13/D5ZZ473PBRCTHK5SXVYIUGGYZQ/"
+            }
+          ]
+        },
+        {
+          "title": "李대통령, 美中정상회담 앞 베선트·허리펑 연쇄접견…협력 강조(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260513049551001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-05-13 15:56:04",
+          "description": "(서울=연합뉴스) 고동욱 황윤기 기자 = 이재명 대통령은 13일 한국에서 열리는 미·중 정상회담 사전 협의를 앞두고 양국 대표를 잇달아 만나 글...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        }
+      ],
+      "count": 4,
+      "role": "한국 대통령"
+    },
+    "시진핑": {
+      "articles": [
+        {
+          "title": "李대통령, 美中정상회담 앞 베선트·허리펑 연쇄접견…협력 강조(종합2보)",
+          "link": "https://www.yna.co.kr/view/AKR20260513049552001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-05-13 19:50:57",
+          "description": "(서울=연합뉴스) 고동욱 황윤기 기자 = 이재명 대통령은 13일 한국에서 열리는 미·중 정상회담 사전 협의를 앞두고 양국 대표를 잇달아 만나 글...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, 美中정상회담 앞 베선트·허리펑 연쇄접견…협력 강조(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260513049551001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-05-13 15:56:04",
+          "description": "(서울=연합뉴스) 고동욱 황윤기 기자 = 이재명 대통령은 13일 한국에서 열리는 미·중 정상회담 사전 협의를 앞두고 양국 대표를 잇달아 만나 글...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프 “시진핑에 中개방 요구할 것”…젠슨황도 동행",
+          "link": "https://www.donga.com/news/Inter/article/all/20260513/133913372/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-05-13 13:54:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/05/13/133913383.3.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령이 12일(현지 시간) 방중 대표단에 젠슨 황 엔비디아 최고경영자(CEO) 등이 포함됐다고 확인하며, 미중 정상회담에서 중국 시장 개방을 요구할 예정이라고 밝혔다.트럼프 대통령은 이날 트루스소셜에 자신의 방중에 동행하는 미국 대표 경영자들을 나열하며 “시진핑 중국 국가주석에게 중국을 개방해 달라고 요청할 것이다. 그래야 이 뛰어난 인재들이 놀라운 역량을 발휘해 중국을 더 높은 수준으로 끌어올릴 수 있다”고 했다.이어 “(중국 개방은) 우리가 몇 시간 뒤에 만날 때 제가 가장 먼저 요청할 사항”이라며 “믿을 수 없을 만큼 놀라운 우리 두 나라에 이보다 더 큰 도움이 될 만한 아이디어를 본 적도, 들은 적도 없다”고 강조했다.그는 방중 대표단에 황 CEO가 포함되지 않았다는 미국 언론의 보도를 부인하며 “황 CEO는 현재 에어포스원(대통령 전용기)에 탑승 중”이라고 밝혔다.CNBC에 따르면 엔비디아 대변인은 성명을 내고 “황 CEO는 미국과 행정부의 목표",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "‘황제의 공간’ 초대하는 시진핑…9년전엔 자금성, 이번엔 톈탄공원",
+          "link": "https://www.donga.com/news/Inter/article/all/20260513/133914523/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-05-13 15:42:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/05/13/133914594.1.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령이 13일 저녁 베이징에 도착할 예정인 가운데 트럼프 대통령이 방문하게 될 톈탄 공원에 대한 관심도 높아지고 있다. 로이터통신은 “과거 황제들이 풍년을 기원하던 장소에서 두 정상은 서로 다른 ‘풍년’을 기대하고 있을 것”이라고 12일(현지시간) 보도했다.미 백악관에 따르면 트럼프 대통령과 시진핑 중국 국가주석은 14일 오전 환영행사와 정상회담을 가진 뒤 톈탄 공원을 함께 둘러볼 예정이다. 톈탄 공원은 미중 정상의 방문에 대비해 13, 14일 일반인들의 출입을 금지한 상태다.톈탄공원은 자금성에서 남쪽으로 약 7km 떨어져 있고, 1420년에 명나라 황제 시절에 지어졌다. 이후 대대로 명·청 시대 황제들이 하늘에 풍년을 위해 하늘에 기도하고 곡식을 바치던 곳이다. 특히 공원 가운데 있는 치녠뎬(祈年殿)은 사당 안에서 제사를 지낸 장소로 사진 촬영 명소로 꼽힌다. 전체 면적은 약 270만㎡로 평소 베이징을 여행하는 관광객은 물론 베이징 시민들도 자주 찾는다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 4,
+      "role": "중국 국가주석"
+    },
+    "트럼프": {
+      "articles": [
+        {
+          "title": "트럼프 대통령 中도착…2박3일 국빈 방문 일정 시작",
+          "link": "https://www.donga.com/news/Inter/article/all/20260513/133918356/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-05-13 21:15:58",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/05/13/133918357.1.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령이 13일 저녁 베이징에 도착했다고 관영 신화통신·CCTV 등이 보도했다. CCTV는 “트럼프 대통령이 시진핑 주석의 초청에 따라 13~15일 중국을 국빈 방문한다”며 “양국 정상은 지난해 10월 부산 회담에 이어 다시 회담하는 것이자 트럼프 대통령이 9년만에 다시 중국을 방문하는 것”이라고 설명했다. 그러면서 “시진핑 주석은 트럼프 대통령과 함께 중미 관계 및 세계 평화와 발전에 중대한 문제에 대해 심도있는 의견을 교환할 것”이라고 밝혔다.(서울·베이징=뉴스1)",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프 “시진핑에 中개방 요구할 것”…젠슨황도 동행",
+          "link": "https://www.donga.com/news/Inter/article/all/20260513/133913372/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-05-13 13:54:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/05/13/133913383.3.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령이 12일(현지 시간) 방중 대표단에 젠슨 황 엔비디아 최고경영자(CEO) 등이 포함됐다고 확인하며, 미중 정상회담에서 중국 시장 개방을 요구할 예정이라고 밝혔다.트럼프 대통령은 이날 트루스소셜에 자신의 방중에 동행하는 미국 대표 경영자들을 나열하며 “시진핑 중국 국가주석에게 중국을 개방해 달라고 요청할 것이다. 그래야 이 뛰어난 인재들이 놀라운 역량을 발휘해 중국을 더 높은 수준으로 끌어올릴 수 있다”고 했다.이어 “(중국 개방은) 우리가 몇 시간 뒤에 만날 때 제가 가장 먼저 요청할 사항”이라며 “믿을 수 없을 만큼 놀라운 우리 두 나라에 이보다 더 큰 도움이 될 만한 아이디어를 본 적도, 들은 적도 없다”고 강조했다.그는 방중 대표단에 황 CEO가 포함되지 않았다는 미국 언론의 보도를 부인하며 “황 CEO는 현재 에어포스원(대통령 전용기)에 탑승 중”이라고 밝혔다.CNBC에 따르면 엔비디아 대변인은 성명을 내고 “황 CEO는 미국과 행정부의 목표",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "이스라엘 “지친 트럼프, 이란과 ‘나쁜 합의’ 맺을까 불안”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260513/133913336/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-05-13 14:15:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/05/13/133913605.1.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령이 이란과의 종전 합의를 서두르자, 이스라엘 정부가 극도의 불안감을 감추지 못하고 있다고 CNN이 12일(현지 시간) 전했다.CNN은 이스라엘 측 소식통을 인용해 교착 상태에 빠진 종전 협상에 지친 트럼프 대통령이 전쟁의 근본 원인을 해결하지 못한 ‘나쁜 합의’(Bad Deal)에 서명할 가능성을 이스라엘이 강하게 우려하고 있다고 전했다. 이스라엘이 가장 두려워하는 시나리오는 미국의 협상 목표 축소다. 당초 미국은 이란의 핵무기 개발 차단은 물론 탄도미사일 프로그램의 폐기와 헤즈볼라 등 중동 내 대리 세력 지원 중단까지 목표로 잡았다. 그러나 최근 종전 협상이 고농축 우라늄 문제와 호르무즈 해협 개방에만 집중되며 미사일과 대리 세력 문제는 협상 테이블에서 사라진 것으로 알려졌다. 협상이 교착 상태를 반복하며 핵 문제에 한정한 제한적 합의로 후퇴할 수 있다는 관측이 나오는 상황. 헤즈볼라 등 친이란 저항 세력 궤멸을 원했던 이스라엘 입장에선 이번 전쟁이 ‘",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "미국 대통령"
+    },
+    "김부겸": {
+      "articles": [
+        {
+          "title": "초접전 대구시장 선거…김부겸 '외연확장' vs 추경호 '보수결집'(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260513050051053",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-05-13 15:08:38",
+          "description": "(대구=연합뉴스) 한무선 박세진 기자 = 대구시장 선거가 3주 앞으로 다가오면서 초접전 중인 더불어민주당 김부겸 예비후보와 국민의힘 추경호 예비...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "지방/행정",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "金총리, 유엔 인권최고대표 접견…AI·인권 분야 협력 논의",
+          "link": "https://www.yna.co.kr/view/AKR20260513107800001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-05-13 14:47:47",
+          "description": "(서울=연합뉴스) 이상현 기자 = 김민석 국무총리는 13일 정부서울청사에서 방한 중인 폴커 튀르크 유엔 인권최고대표를 접견하고 협력 방안을 논의...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "金총리 \"원유 등 수급 비교적 안정적…정부, 물가관리 전력\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260513040951001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-05-13 16:00:49",
+          "description": "(서울=연합뉴스) 이상현 기자 = 김민석 국무총리는 13일 &quot;재정경제부를 비롯한 관계부처는 석유화학 제품 등 관련 있는 품목과 국민 생활에 밀접...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "국무총리"
+    }
+  }
+}
