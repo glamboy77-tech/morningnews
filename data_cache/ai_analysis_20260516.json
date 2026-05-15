@@ -1,0 +1,1150 @@
+{
+  "timestamp": "2026-05-16T06:01:42.458855",
+  "date": "20260516",
+  "data": {
+    "정치": [
+      {
+        "title": "李, 울산·성남 동네시장 돌고 TK서 모내기",
+        "link": "https://www.chosun.com/economy/economy_general/2026/05/15/ME2DENJZMJSWCMTCGUYWGY3CMY/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-05-15 17:44:16",
+        "description": "이재명 대통령이 15일 TK(대구·경북)를 찾아 초등학교 은사와 동문들, 대구경북통합신공항 건설 현장 관계자들, 모내기에 돌입한 농민들을 잇따라 만났다. 지난 8일 남대문시장 깜짝방문을 시작으로 울산 조선업 간담회와 동구 남목마성시장 방문, 성남 모란시장 장보기에 이어 TK에서도 4개 일정을 줄줄이 소화했다.  청와대에 따르면, 이 대통령은 이날 대구경북통",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "정상/외교",
+        "is_representative": true,
+        "related_full_sources": []
+      },
+      {
+        "title": "李, 19일 고향 안동서 다카이치와 정상회담",
+        "link": "https://www.chosun.com/politics/politics_general/2026/05/16/NNKNJWZC6JAFPFSGUXY6WZWKAQ/",
+        "source": "조선일보-정치",
+        "published_dt": "2026-05-16 00:49:00",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "정상/외교",
+        "is_representative": false,
+        "related_full_sources": []
+      },
+      {
+        "title": "복지부 1차관에 현수엽, 관세청장에 이종욱 임명",
+        "link": "https://www.chosun.com/politics/blue_house/2026/05/16/KJIRJ7MC3VGATHDE3VIOPNHIBI/",
+        "source": "조선일보-정치",
+        "published_dt": "2026-05-16 00:49:00",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "정상/외교",
+        "is_representative": false,
+        "related_full_sources": [
+          {
+            "source": "조선일보-정치",
+            "title": "李, 복지부 1차관에 현수엽 임명…관세청장 이종욱",
+            "link": "https://www.chosun.com/politics/blue_house/2026/05/15/MD72OT63JVDOLJXSJ5K6KBX6GE/"
+          }
+        ]
+      },
+      {
+        "title": "한미 관계 이상 기류 속... 외교 1차관 18~21일 미국 방문",
+        "link": "https://www.chosun.com/politics/diplomacy-defense/2026/05/15/ZSGQ4COOFVANPO4J6VXAK3IBAU/",
+        "source": "조선일보-정치",
+        "published_dt": "2026-05-15 13:49:35",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "정상/외교",
+        "is_representative": false,
+        "related_full_sources": []
+      },
+      {
+        "title": "김관영 “친청 후보 꽂으려 제명… 정청래 연임용 공천 심판을”",
+        "link": "https://www.chosun.com/politics/election2026/2026/05/16/Y43ONUJSFZDEFITE4EV6B5DFII/",
+        "source": "조선일보-정치",
+        "published_dt": "2026-05-16 00:49:00",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "당내 정국",
+        "is_representative": true,
+        "related_full_sources": []
+      },
+      {
+        "title": "국힘, 시흥시장 후보 결국 못냈다… 與 임병택, 무투표로 3선",
+        "link": "https://www.chosun.com/politics/assembly/2026/05/16/BX63LSVRINCBFMU6TJCJZNLDI4/",
+        "source": "조선일보-정치",
+        "published_dt": "2026-05-16 00:50:00",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "당내 정국",
+        "is_representative": false,
+        "related_full_sources": []
+      },
+      {
+        "title": "與 “조작기소 특검은 이미 정리된 이슈…조국, 공방 자제해야”",
+        "link": "https://www.chosun.com/politics/election2026/2026/05/15/ZYEN4NOFDRBQZO6HRYTDTDED2E/",
+        "source": "조선일보-정치",
+        "published_dt": "2026-05-15 19:23:29",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "사법/의혹",
+        "is_representative": true,
+        "related_full_sources": []
+      },
+      {
+        "title": "‘현실 속 이수지’ 챙기러 간 정원오 “어린이집 보조교사 권한 문제 풀겠다”",
+        "link": "https://www.chosun.com/economy/economy_general/2026/05/15/GJRTIY3FMQ3DAZBRMM2TOMDEHE/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-05-15 18:56:18",
+        "description": "최근 방송인 이수지씨의 ‘유치원 선생님 패러디 영상’이 큰 화제가 되며 유치원과 어린이집 교사들의 열악한 근무환경이 공론화됐다. 정원오 더불어민주당 서울시장 후보가 15일 서울 시내 한 어린이집을 찾아 보육 현장의 고충을 들었다. 이날 교사들은 “아파도 출근해서 겨우 눈치보며 병원 다녀오겠다고 보고하고 링겔 맞고 다시 원으로 돌아가 직무를 수행하는 것이 현",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "지방/행정",
+        "is_representative": true,
+        "related_full_sources": []
+      },
+      {
+        "title": "지방선거 후보 1인당 재산 평균 9억원… 1위 ‘1049억원’ 이 사람",
+        "link": "https://www.chosun.com/economy/economy_general/2026/05/16/GM2WKZDEG4YTQOJTHFQTAZLCHE/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-05-16 00:32:59",
+        "description": "제9회 전국동시지방선거(6·3 지방선거) 광역단체장·기초단체장·광역의원·기초의원 후보로 7569명이 등록한 가운데 이들의 평균 재산은 약 9억원으로 집계됐다. 중앙선거관리위원회는 15일 오후 9시 기준으로 지방선거에 등록한 후보들의 재산 등을 공개했다. 전체 후보들의 1인당 재산은 평균 8억9514만원이었다.  박근량 국민의힘 통영시의원 후보가 재산 104",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "지방/행정",
+        "is_representative": false,
+        "related_full_sources": []
+      },
+      {
+        "title": "[데스크 칼럼] 선거 끝나면 바꿔야 할 유통 규제",
+        "link": "https://www.chosun.com/economy/economy_general/2026/05/16/GQ2WIYLFGI2DGMDDHE3DEZTEGA/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-05-16 04:00:00",
+        "description": "이재명 정부 출범 후 1년 만에 치러지는 첫 전국 단위 선거인 6·3 지방선거가 코앞으로 다가왔다. 선거를 앞두고 정치권이 유권자 눈치를 보느라 처리를 미뤄둔 법안도 적지 않다. 대표적인 사례가 유통산업발전법이다. 이 법은 2012년 개정을 통해 소상공인 보호를 명분으로 오프라인 유통업체에 영업 규제를 도입한 것이 핵심이다. 현재는 온라인 플랫폼과 오프라인",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "입법/정책",
+        "is_representative": true,
+        "related_full_sources": []
+      },
+      {
+        "title": "“가스 분사해 교내 총기 난사범 제압” 드론 기술 시연",
+        "link": "https://www.chosun.com/economy/tech_it/2026/05/16/CQSPD4CV65BX7EDF5XFDSFSPDE/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-05-16 00:45:00",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "Science/Tech",
+        "is_representative": true,
+        "related_full_sources": []
+      },
+      {
+        "title": "‘나무호 공격 비행체 잔해’ 한국 도착…정밀분석 예정",
+        "link": "https://www.donga.com/news/Inter/article/all/20260515/133932388/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-05-15 17:53:00",
+        "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/05/15/133932389.2.jpg\" vspace=\"10\" />호르무즈 해협에서 한국 HMM 소속 화물선 ‘나무호’를 공격한 비행체의 잔해가 15일 한국에 도착했다. 외교부는 이날 언론 공지를 통해 “(비행체) 잔해는 UAE(아랍에미리트) 정부와 협의를 통해 항공편으로 15일 한국에 도착했다“며 ”전문 기관에서 정밀 분석을 할 예정”이라고 했다. 그간 잔해는 UAE 한국 대사관에서 보관해 왔다. 앞서 4일(현지 시간) 호르무즈 해협에 정박해 있던 나무호에서 폭발 사고가 났다. 정부는 6일 사고 원인을 확인하기 위한 조사단을 파견했고, 10일 미상의 비행체 2기가 1분 간격으로 두 차례 나무호를 타격했다고 발표했다. 정부는 나무호에서 확보한 비행체 잔해 정밀 분석을 통해 공격 주체를 확인한다는 입장이다.",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "Science/Tech",
+        "is_representative": false,
+        "related_full_sources": [
+          {
+            "source": "조선일보-정치",
+            "title": "나무호 타격 비행체 잔해, 항공편으로 한국 도착... 정밀 분석 예정",
+            "link": "https://www.chosun.com/politics/diplomacy-defense/2026/05/15/X57QJ57EOJHIRIIIJSN5ARDGQE/"
+          }
+        ]
+      },
+      {
+        "title": "靑, 블룸버그 ‘AI 초과이익 배분’ 보도에 항의·사과요구",
+        "link": "https://www.chosun.com/economy/economy_general/2026/05/15/OKRI43JM5NDQFAPALGO4WTFZC4/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-05-15 20:19:24",
+        "description": "청와대가 김용범 정책실장의 ‘국민배당금’ 제안을 ‘기업 초과 이익 배분’으로 해석해 보도한 미국 경제 전문 매체 블룸버그 통신에 공식으로 항의 서한을 보냈다. 15일 청와대에 따르면, 청와대는 전날 블룸버그 측에 “김 실장의 개인 소셜미디어 게시물을 보도한 방식에 심각한 우려를 표한다”는 취지의 서한을 발송했다. 서한에는 블룸버그의 보도가 “시장에 혼선을",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "Science/Tech",
+        "is_representative": false,
+        "related_full_sources": [
+          {
+            "source": "조선일보-경제",
+            "title": "靑, 블룸버그 ‘AI 초과이익 배분’ 보도에 항의·사과 요구",
+            "link": "https://www.chosun.com/economy/economy_general/2026/05/15/MJSDCNZTMI3GKNZXMUYTCNBTMI/"
+          }
+        ]
+      },
+      {
+        "title": "트럼프 “‘美는 쇠퇴하는 국가’라는 시진핑, 바이든 지적한 것”",
+        "link": "https://www.donga.com/news/Inter/article/all/20260515/133928298/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-05-15 07:36:00",
+        "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/05/15/133928315.1.jpg\" vspace=\"10\" />중국을 방문 중인 도널드 트럼프 미국 대통령이 15일(현지 시간) “미중 관계가 어느 때보다 강력해지고 좋아지길 바란다”고 밝혔다.트럼프 대통령은 이날 트루스소셜을 통해 바이든 전 행정부와 트럼프 행정부의 치적을 비교하며 “지금 미국은 전세계에서 가장 주목받는 국가”라고 강조했다. 게시물에서 시진핑 중국 국가주석과의 마지막 차담 및 오찬 회담을 앞두고 트럼프 대통령은 미중 관계에 대한 이야기보다는 전임 행정부 비난에 초점을 맞췄다. 그는 “시 주석이 아주 우아하게 미국을 ‘쇠퇴하는 국가’라고 언급했을 때 그는 졸린 조 바이든과 바이든 행정부의 4년 임기 동안 발생한 엄청난 피해를 지적한 것”이라고 주장했다. 이어 “시 주석은 제가 짧은 기간 이룬 엄청난 성공들을 축하해줬다”고 덧붙였다. 다만 미국을 쇠퇴하는 국가라고 말했다는 시 주석의 발언이 실제 있었는지는 불분명하다. 트럼프 대통령은 발언의 구체적인 경위를 설명하지 않았다.",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "정상/외교",
+        "is_representative": true,
+        "related_full_sources": []
+      },
+      {
+        "title": "6·3 지방선거 후보 등록 첫날 5917명 등록...평균 경쟁률 1.4대1",
+        "link": "https://www.chosun.com/politics/politics_general/2026/05/14/NGGG2M4YBNA55L5AE57PC2IZ4M/",
+        "source": "조선일보-정치",
+        "published_dt": "2026-05-14 21:27:14",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "지방/행정",
+        "is_representative": true,
+        "related_full_sources": []
+      },
+      {
+        "title": "김용범 “AI시대 과실, 전국민에게 구조적으로 환원되어야”...국민배당금 제안",
+        "link": "https://www.chosun.com/politics/blue_house/2026/05/12/NXCEEALZEZH4VJTDCKJX3OJ43Y/",
+        "source": "조선일보-정치",
+        "published_dt": "2026-05-12 10:41:01",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "입법/정책",
+        "is_representative": true,
+        "related_full_sources": []
+      },
+      {
+        "title": "국회의장도 ‘명픽’… 조정식, 對野 강경 노선 예고",
+        "link": "https://www.chosun.com/politics/assembly/2026/05/14/7L45VOHAO5DMZIK7LCTIA3VNLM/",
+        "source": "조선일보-정치",
+        "published_dt": "2026-05-14 00:48:00",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "당내 정국",
+        "is_representative": true,
+        "related_full_sources": []
+      },
+      {
+        "title": "정원오 측 “폭행 사건, 상황 수습하려다 휘말린 것” 동석자 주장 공개",
+        "link": "https://www.chosun.com/politics/election2026/2026/05/14/STOXICA25JHKZNN7U3N7D7W4XM/",
+        "source": "조선일보-정치",
+        "published_dt": "2026-05-14 15:17:30",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "사법/의혹",
+        "is_representative": true,
+        "related_full_sources": []
+      },
+      {
+        "title": "KF-21 양산 2호기와 다목적무인기 공개",
+        "link": "https://www.chosun.com/politics/politics_general/2026/05/15/USPBLFGVX5EOHPSH4F4Y5QULQE/",
+        "source": "조선일보-정치",
+        "published_dt": "2026-05-15 00:55:15",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "pol_subcategory": "Science/Tech",
+        "is_representative": true,
+        "related_full_sources": []
+      }
+    ],
+    "경제/거시": [
+      {
+        "title": "25분만에 끝난 ’8000피 천하'",
+        "link": "https://www.chosun.com/economy/money/2026/05/16/LE3BI5TVRRGYFEGI3R3YGWSAXA/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-05-16 00:57:00",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "‘모두의 창업’에 6만2944명 도전장",
+        "link": "https://www.chosun.com/economy/smb-venture/2026/05/15/MNSWEYLDHBRGGOBSGM4WMNZSMM/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-05-15 21:59:35",
+        "description": "대국민 창업 오디션인 ‘모두의 창업’ 프로젝트에 6만명이 넘는 지원자가 몰렸다. 중소벤처기업부는 15일 오후 8시 프로젝트 접수를 마감한 결과, 도전자가 6만2944명으로 집계됐다고 밝혔다. 접수 마감 날인 이날 접속자가 급증하면서 시스템 오류가 발생, 마감 시간을 오후 4시에서 오후 8시로 4시간 연장하기도 했다. 지원자 연령대별로 보면 20대가 33.2",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "60대 보험료 17만4000원 → 4만2000원 확 내려가, 5세대 실손 뭐가 달라졌나 총정리",
+        "link": "https://www.chosun.com/economy/startup_story/2026/05/16/OESYVQCA7ZHSNOEOEE72EET3EI/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-05-16 05:30:00",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "국민연금 기금위, 중기자산배분안 중간보고 받아…28일 확정 전망",
+        "link": "https://www.chosun.com/economy/stock-finance/2026/05/15/ME4TGOJZMM4TAMJUMIZWGNTDGA/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-05-15 18:51:49",
+        "description": "국민연금 기금운용위원회는 15일 회의를 열고 오는 2027년부터 5년 동안의 자산 배분 방향을 결정하는 중기자산배분안과 관련된 중간보고를 받았다. 중기자산배분안은 오는 28일 확정될 전망이다.  국민연금 기금위는 이날 오후 4시 정부서울청사에서 2026년도 제4차 회의를 개최하고 2027~2028년 중기자산배분안 수립 중간보고 안건을 보고받았다. 중기자산배",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "김진일 금통위원 “금리, ‘보험’ 차원에서라도 반 클릭 높은 게 낫다”",
+        "link": "https://www.chosun.com/economy/economy_general/2026/05/15/63F7PCCT4ZB2NAIKUCNX33OETE/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-05-15 16:00:00",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "“더 비밀스러운 비트코인”…지캐시 급등에 다시 쏠리는 시선",
+        "link": "https://www.donga.com/news/It/article/all/20260515/133930065/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-05-15 15:18:41",
+        "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/05/15/133930186.3.jpg\" vspace=\"10\" />비트코인 초기 투자자들이 프라이버시 코인 ‘지캐시(Zcash)’ 투자에 나서고 있다. ETF 추진과 SEC 조사 종료 속 급등세를 보이고 있지만 규제 리스크와 높은 변동성 우려도 남아 있다.",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "중동 전쟁 여파로 수입 물가 전년보다 20% 상승…전월 대비는 10개월 만에 하락",
+        "link": "https://www.chosun.com/economy/economy_general/2026/05/15/CBFHJ3YDSBG7BJFYLNH4RUTAWU/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-05-15 06:00:00",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "‘달러 식민지’ 만드는 스테이블코인, 뒤에서 웃는 트럼프",
+        "link": "https://www.chosun.com/economy/economy_general/2026/05/15/BE6F24UBZ5BMXJHZD4ANISHOCM/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-05-15 03:00:00",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      }
+    ],
+    "기업/산업": [
+      {
+        "title": "평택 간 삼성전자 사장단… 노조는 “대화 없다”",
+        "link": "https://www.chosun.com/economy/tech_it/2026/05/16/XPAY7F5X6ZGENJCN73LQLSAZZU/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-05-16 00:55:00",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "반도체",
+        "related_full_sources": []
+      },
+      {
+        "title": "SK하이닉스, 1분기 엔비디아에 7.7조원 메모리 공급…전년比 62%↑",
+        "link": "https://www.chosun.com/economy/tech_it/2026/05/15/GQ3DSOBVGRSTAZTDHA4GCZLFGA/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-05-15 18:12:03",
+        "description": "SK하이닉스가 올해 1분기 엔비디아에 7조7806억원 규모의 메모리 반도체를 공급한 것으로 나타났다. 지난해 같은 기간(4조7862억원)과 비교하면 62.6% 급증한 수치로, 인공지능(AI) 인프라 확대에 따른 고대역폭 메모리(HBM) 수요가 실적을 견인한 것으로 분석된다. 15일 SK하이닉스가 공시한 분기보고서에 따르면 올해 1분기 전체 매출은 52조57",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "반도체",
+        "related_full_sources": []
+      },
+      {
+        "title": "직원 한·두명+AI면 충분하다… 실리콘밸리의 이유 있는 ‘초소형 팀’ 바람",
+        "link": "https://www.chosun.com/economy/weeklybiz/2026/05/16/P25RPYHQHJB3TB6TXQTWX76GH4/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-05-16 03:00:00",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "AI/로봇",
+        "related_full_sources": []
+      },
+      {
+        "title": "하나금융, 두나무에 1조 투자… 은행·가상자산 첫 동맹",
+        "link": "https://www.chosun.com/economy/tech_it/2026/05/16/EKBGBWSYLBA7RA2DBTVD3IOL2A/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-05-16 00:45:00",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "금융",
+        "related_full_sources": []
+      },
+      {
+        "title": "금융지주들, 美공시 후폭풍에... “포용 금융에 공감” 이례적 발표",
+        "link": "https://www.chosun.com/economy/economy_general/2026/05/15/P7PLBTV3MJA4BNRFWHP462QLJQ/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-05-15 23:01:00",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "금융",
+        "related_full_sources": []
+      },
+      {
+        "title": "‘불닭 며느리’ 삼양식품 회장님 된다",
+        "link": "https://www.chosun.com/economy/market_trend/2026/05/16/TONNIE34BBEYRAUKQ6KKRERC5U/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-05-16 00:43:00",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "유통/소매",
+        "related_full_sources": []
+      },
+      {
+        "title": "‘김범석 쿠팡 동일인 지정’, 법원이 직권으로 7월15일까지 효력 정지",
+        "link": "https://www.chosun.com/economy/industry-company/2026/05/15/XMNG2IFSEFHKFE5KXMFWUHC7NU/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-05-15 20:39:53",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "유통/소매",
+        "related_full_sources": []
+      },
+      {
+        "title": "출시 1년 안 돼 1만5000대 팔려, 3만5000원 아이리버 무선 이어폰 뭐가 다르길래",
+        "link": "https://www.chosun.com/economy/startup_story/2026/05/16/ELJ6TC7RARFUTHK6ZJD3E7VDOE/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-05-16 05:30:00",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "통신/IT",
+        "related_full_sources": []
+      },
+      {
+        "title": "“국가와 대립하면 결국 손해”… 정유업계, ‘최고가격제 손실 보전’ 정부안 수용할 듯",
+        "link": "https://www.chosun.com/economy/industry-company/2026/05/15/GIZTCZJSHEZWEZLBGNTDOOJRGA/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-05-15 17:17:14",
+        "description": "석유 최고 가격제 시행에 따른 손실 보전 기준을 두고 정부와 협상을 해 온 정유업계가 정부 제시안인 원가 기반 손실 보전 산정 방식을 수용하는데 의견을 모은 것으로 전해졌다. 정부는 미국과 이란의 전쟁으로 유가가 급등하자, 지난 3월 13일부터 석유 최고 가격제를 시행하고 유가 상승분을 반영하지 못해 발생하는 정유사의 손실을 사후에 보전해 주기로 약속한 바",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "배터리/에너지",
+        "related_full_sources": []
+      },
+      {
+        "title": "메드팩토, 우정원 신임 대표 선임",
+        "link": "https://www.chosun.com/economy/science/2026/05/15/GM4WMMZYMRSWIZLFMZRTCYRWGM/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-05-15 17:57:39",
+        "description": "메드팩토는 김성진 대표이사가 대표직에서 물러나고 우정원 사장이 신임 대표이사로 선임됐다고 15일 공시했다. 신규 파이프라인 임상과 기술이전(L/O) 등 사업화에 역량을 집중하기 위한 인사라고 회사 측은 설명했다. 우정원 신임 대표이사는 1960년생으로 서울대 약대 학사, 석사 및 미국 코넬대 미생물학 박사를 졸업했다. 이후 하버드대 의대 박사후연구원, 삼성",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "바이오/제약",
+        "related_full_sources": []
+      },
+      {
+        "title": "롯데건설, 1분기 영업이익 504억원… 전년比 13배 ↑",
+        "link": "https://www.chosun.com/economy/real_estate/2026/05/15/MM4TENTEGFRTKYZZMQZDGNLFMI/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-05-15 18:03:53",
+        "description": "롯데건설이 올해 1분기 영업이익으로 504억원을 거뒀다. 15일 롯데건설은 올해 1분기 연결기준 매출 1조 6012억원, 영업이익 504억원, 당기순이익 171억원을 기록했다고 밝혔다. 영업이익은 전년 동기(38억원)와 비교해 약 13배 증가했다. 당기순이익도 전년 동기 38억원 대비 약 4.5배 늘었다. 롯데건설은 원가 절감 등 체질 개선을 노력한 결과라",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "건설",
+        "related_full_sources": [
+          {
+            "source": "매일경제-부동산",
+            "title": "롯데건설 1분기 영업이익 504억원... 전년 동기보다 13배↑",
+            "link": "https://www.mk.co.kr/news/realestate/12049294"
+          }
+        ]
+      },
+      {
+        "title": "코오롱, 1분기 영업익 988억원…전년比 158%↑",
+        "link": "https://www.chosun.com/economy/industry-company/2026/05/15/HE3DMNJUHE4TCZRVGNRTIZRWMM/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-05-15 18:38:47",
+        "description": "코오롱은 올해 1분기 연결 기준 매출액 1조5188억원, 영업이익 988억원, 당기순손실 447억원을 기록했다고 15일 밝혔다. 지난해 1분기와 비교해 매출은 7.7%, 영업이익은 158.3% 각각 증가했다. 다만 당기순손실은 149억원 늘며 적자가 지속됐다.  코오롱인더스트리는 운영 효율화(OE) 프로젝트 성과와 산업 자재·화학 부문의 견조한 판매 확대에",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "화학/소재",
+        "related_full_sources": []
+      },
+      {
+        "title": "“호황기 파격 보상 원하면, 불황기 저임금·대량해고 받아들여야”",
+        "link": "https://www.chosun.com/economy/tech_it/2026/05/16/MVCXOLGUKRGW3FNXXPILOHKAHA/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-05-16 00:52:00",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "기타산업",
+        "related_full_sources": []
+      },
+      {
+        "title": "‘밀가루 제로’ 100% 국산 팥과 돼지감자로 맛 낸 쫄깃한 찰보리빵, 한 개 630원 초특가",
+        "link": "https://www.chosun.com/economy/startup_story/2026/05/13/BN3MYQZDGRCCBAVGIQOOK5X6GY/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-05-16 05:25:00",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "유통/소매",
+        "related_full_sources": []
+      },
+      {
+        "title": "“챗GPT 밀어준다더니”…OpenAI, 애플에 법적 조치 검토",
+        "link": "https://www.donga.com/news/Inter/article/all/20260515/133928357/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-05-15 07:51:47",
+        "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/05/15/133928358.1.jpg\" vspace=\"10\" />오픈AI가 챗GPT를 아이폰에 탑재하기로 한 계약과 관련해 애플을 상대로 법적 조치를 검토하고 있다는 보도가 나왔다. 14일(현지 시간) 파이낸셜타임스(FT)는 소식통을 인용해 오픈AI가 지난 2024년 애플과 맺은 제휴 계약과 관련해 진척이 부족하다고 판단하고 법적 대응 방안을 검토하고 있다고 전했다.한 관계자는 “오픈AI는 애플이 제휴 약속을 이행하기 위해 필요한 자원을 투입하는 데 관심을 전혀 보이지 않아서 우려하고 있다”며 “애플은 오직 자신들의 시장 지배력을 이용해 수익을 얻는 데만 집중하고 있다”고 말했다.애플은 자체 인공지능(AI) 모델·인프라 개발에 막대한 자금을 투자하기보다, 외부 업체와의 제휴를 통해 아이폰 사용자들에게 제3자 AI모델을 제공하는 전략을 택해 왔다. 특히 2024년 6월께 오픈AI와 제휴를 맺고, 애플 시리(Siri)에 챗GPT 결과를 추가하고 챗GPT가 애플 운영체제에 심층 통합되도록 합의했다. 다만 양사 갈등은 올해 초부터 본격적으로 불",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "AI/로봇",
+        "related_full_sources": []
+      },
+      {
+        "title": "[단독] 고려아연 분쟁 점입가경… MBK “美 정책 입안자에 핵심 광물 교육”",
+        "link": "https://www.chosun.com/international/us/2026/05/15/RLZZR7GD4NESTDRCF6IOYQKLT4/",
+        "source": "조선일보-정치",
+        "published_dt": "2026-05-15 05:00:00",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "기타산업",
+        "related_full_sources": []
+      },
+      {
+        "title": "현대건설·日이토추 수소 신사업 맞손",
+        "link": "https://www.mk.co.kr/news/realestate/12047825",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-05-14 17:41:45",
+        "description": "현대건설이 일본 대표 종합상사인 이토추상사와 손잡고 수소 에너지 신사업에 나선다.\n현대건설과 이토추상사는 13일 일본 도쿄 이토추상사 본사에서 수소 생산·공급 관련 신규 사업 협력..",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "배터리/에너지",
+        "related_full_sources": []
+      },
+      {
+        "title": "건설·레저 실적서 '쌍끌이' … 코오롱글로벌 부활 신호탄",
+        "link": "https://www.mk.co.kr/news/realestate/12047828",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-05-14 17:41:46",
+        "description": "코오롱글로벌이 수익성 중심의 사업 구조 재편에 힘입어 올해 1분기 실적 반등에 성공했다. 영업이익이 전년 대비 두 배 이상 급증하고 당기순이익도 흑자로 돌아섰다.\n코오롱글로벌은 올..",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "건설",
+        "related_full_sources": []
+      },
+      {
+        "title": "'주당 170만원→26만원' LG생활건강…몰락한 황제주,부활 가능할까",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/05/14/2026051403472.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-05-15 06:00:00",
+        "description": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"3\" width=\"100%\"><tr><td><img border=\"0\" src=\"https://image.chosun.com/sitedata/thumbnail/202605/14/2026051403464_0_thumb.jpg\" /></td></tr></table>\n\t[지지부진 주가 LG생활건강 집중 탐구] ① 170만원 ‘황제주’ 시절 어디갔나\n \n뷰티 사업, 지난해 창사이래 대규모 적자\n올해 1분기, 실적 반등…지속성은 미지수\n면세 구조조정·중국 법인 개선 ‘일시적 효과’\n  \n[땅집고] LG생활건강 주가가 코스피 상승장에서도 좀처럼 반등하지 못하고 있다. 2021년 국내 증시를 대표하는 ‘황제주’로 꼽히며 주당 170만원까지 치솟았던 LG생활건강은 14일 한국거래소 기준 26만 선에 거래되고 있다. 최고가 대비 약 84% 하락한 수준이다.\n \n올해 1분기 뷰티 사업 부문에서 흑자 전환에 성...",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "유통/소매",
+        "related_full_sources": []
+      },
+      {
+        "title": "농협은행 강태영 행장 연임에 돌발 변수…부실 증가와 농협리스크",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/05/12/2026051203004.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-05-13 06:00:00",
+        "description": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"3\" width=\"100%\"><tr><td><img border=\"0\" src=\"https://image.chosun.com/sitedata/thumbnail/202605/12/2026051202999_0_thumb.jpg\" /></td></tr></table>\n\t \n[땅집고] 취임 2년차에 접어든 강태영 은행장이 이끄는 NH농협은행이 올해 1분기 들어 부실 위험이 있는 대출의 비중이 커진 것으로 나타났다. 더딘 성장세 속에서 실적 방어는 성공했지만, 건전성 관리와 농협중앙회장 조기 퇴진 여부가 연임 가도의 변수가 될 전망이다.\n \nNH농협은행의 경영 실적 발표에 따르면, 올해 1분기 NH농협은행의 고정이하분류여신(NPL)이 1조7767억원으로 작년 말 1조6298억원보다 약 1500억원 증가했다. 전체 여신 중 NPL이 차지하는 비율도 0.49%에서 0.53%로 늘었다. NPL은 3개월 이...",
+        "category": "domestic",
+        "priority_score": 0,
+        "sector": "금융",
+        "related_full_sources": []
+      }
+    ],
+    "부동산": [
+      {
+        "title": "강남·송파 찾은 오세훈 “민주당, 박원순 시절과 조금도 안 바뀌어”",
+        "link": "https://www.chosun.com/economy/economy_general/2026/05/15/GBRTCOBZMEYGCMLCMI2DCOBSMQ/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-05-15 17:48:56",
+        "description": "이재명 정부의 주택 공급 정책을 집중 비판하고 있는 오세훈 국민의힘 서울시장 후보가 15일 서울 강남과 송파를 찾아 ‘부동산지옥 시민대책회의’를 진행했다. 부동산지옥 시민대책회의는 오 후보가 부동산 문제 해결을 위해 서울시 25개 자치구를 찾아가 재개발·재건축 등 주택 정비 사업과 관련한 시민들의 의견을 청취하는 방식의 간담회다.  오 후보는 이날 서울 송",
+        "category": "domestic",
+        "priority_score": 10,
+        "related_full_sources": []
+      },
+      {
+        "title": "GTX-A 삼성역 공사 철근 누락 확인",
+        "link": "https://www.mk.co.kr/news/realestate/12049704",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-05-15 23:08:59",
+        "description": "GTX-A 삼성역 구간 공사에서 대규모 철근 누락 사실이 확인되며 국토교통부가 긴급 조치에 착수했다.\n15일 국토교통부에 따르면 서울시가 시행 중인 GTX-A 삼성역 구간 복합환승..",
+        "category": "domestic",
+        "priority_score": 5,
+        "related_full_sources": [
+          {
+            "source": "매일경제-부동산",
+            "title": "GTX-A 삼성역 공사 철근 누락…국토부 감사 착수",
+            "link": "https://www.mk.co.kr/news/realestate/12049629"
+          }
+        ]
+      },
+      {
+        "title": "매물 잠김에 놀랐나… 정부, 태릉 주택 착공 1년 당긴다",
+        "link": "https://www.chosun.com/economy/real_estate/2026/05/16/TWAFYRWI2BFJ3H7PVJFR2Z3TQI/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-05-16 00:45:00",
+        "description": "",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "“잠실은 너무 비싸고, 그렇다면 여기” … 반도체 머니가 노릴 1차 수혜지",
+        "link": "https://www.mk.co.kr/news/realestate/12049098",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-05-16 04:00:00",
+        "description": "거여마천·구성남 ① 입지분석자본은 물처럼 흐른다. 현명한 투자자라면 ‘이미 돈이 흘러든 곳’이 아니라 ‘앞으로 돈이 흐를 곳’을 봐야 한다. 전문가들은 고소득 반도체 종사자들이 가..",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "\"내 고사리 말릴 거니까 차 대지마!\" 단지 내 '엽기 주차'에 황당",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/05/15/2026051501884.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-05-15 14:00:00",
+        "description": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"3\" width=\"100%\"><tr><td><img border=\"0\" src=\"https://image.chosun.com/sitedata/thumbnail/202605/15/2026051501871_0_thumb.jpg\" /></td></tr></table>\n\t \n[땅집고] “주차할 데도 없는데 고사리를 여기다 널어놓으면 어떡하나요? 여기가 주차장인지, 건조장인지 모르겠습니다.”\n \n최근 아파트 단지 내 주차 공간에 나물을 펼쳐 말리는 사례가 등장해 입주민들의 공분을 사고 있다. 공용공간을 개인 용도로 점유하는 행위가 반복되면서 입주민 간 갈등도 확산되는 분위기다.\n \n최근 한 온라인 커뮤니티에는 단지 내 주차장에 고사리를 펼쳐 말리는 사진이 올라와 화제가 됐다. 차량이 주차돼야 할 공간에 돗자리를 깔고 나물을 건조하는 모습이 포착됐고, 바람에 날리지 않도록 벽돌로까지 고정해 둔 상태였다...",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "세 번 버림받았는데…9년 만에 18억 뛰었다, 낡은 28평 빌라의 정체",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/05/13/2026051302690.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-05-14 14:17:26",
+        "description": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"3\" width=\"100%\"><tr><td><img border=\"0\" src=\"https://image.chosun.com/sitedata/thumbnail/202605/13/2026051302684_0_thumb.jpg\" /></td></tr></table>\n\t네 번째 도전 끝에 신속통합기획 선정\n이태원 이테크빌 5억6000만→24억\n국공유지 협상·상가 동의 변수\n \n \n[땅집고] 서울 용산구 한남뉴타운의 마지막 미개발 구역인 한남1구역이 재개발 사업에 다시 속도를 내고 있다. 한남2~5구역이 모두 시공사를 선정하거나 사업을 본궤도에 올린 가운데, 한남1구역도 네 번째 도전 끝에 서울시 신속통합기획 후보지로 선정되면서 사업 정상화의 발판을 마련했다. 시장에서는 한남뉴타운 전체 개발의 ‘마지막 퍼즐’이라는 기대감이 커지며 일대 아파트 가격도 급등하고 있다.\n \n12일 오후 찾은 서울 용산구...",
+        "category": "domestic",
+        "priority_score": 10,
+        "related_full_sources": []
+      },
+      {
+        "title": "분당 무지개마을10단지·S8구역 재건축, 글로벌 설계사 유엔스튜디오와 MOU",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/05/12/2026051202618.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-05-12 14:32:16",
+        "description": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"3\" width=\"100%\"><tr><td><img border=\"0\" src=\"https://image.chosun.com/sitedata/thumbnail/202605/12/2026051202613_0_thumb.jpg\" /></td></tr></table>\n\t[땅집고] 정비업계에 따르면, 경기 성남시 분당구 구미동 ‘무지개마을 10단지&amp;S8구역’ 재건축추진준비위원회는 글로벌 건축설계사무소 ‘유엔스튜디오’와 업무협약(MOU)를 맺었다고 11일 밝혔다.\n \n이 구역은 무지개마을 10단지 삼성건영과 소규모 단지인 S8구역(극동빌라, 대우빌라, 동부썬빌라)가 결합한 통합재건축 구역이다. 무지개마을 10단지는 1996년 준공한 498가구 규모 아파트다. 현재 용적률은 무지개마을 10단지 약 152%, S8구역 92%다.\n \n재준위는 한국토지신탁을 예비사업시행자로 선정하고 신탁 방식으로 재...",
+        "category": "domestic",
+        "priority_score": 10,
+        "related_full_sources": []
+      },
+      {
+        "title": "송파 재건축도 “상가빼고”…공실지옥·입주권요구 다 거부한 조합",
+        "link": "https://www.mk.co.kr/news/realestate/12048666",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-05-15 07:23:54",
+        "description": "올림픽기자촌, 정비계획안에 상가제외 상가소유주는 “단지구조 훼손” 호소문 애물단지 된 상가…재건축 갈등요소로재건축 사업에서 상가가 ‘애물단지’로 전락하고 있는 상황에서 이를 둘러싼..",
+        "category": "domestic",
+        "priority_score": 5,
+        "related_full_sources": []
+      },
+      {
+        "title": "한남뉴타운 '마지막 퍼즐' 1구역 잰걸음",
+        "link": "https://www.mk.co.kr/news/realestate/12047826",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-05-14 17:41:45",
+        "description": "한남뉴타운 재개발 사업이 2~5구역을 중심으로 속도를 내면서, 아직 정비구역으로 지정되지 않은 한남1구역에도 관심이 커지고 있다. 한남1구역은 한남뉴타운의 '마지막 조각'으로 꼽히..",
+        "category": "domestic",
+        "priority_score": 5,
+        "related_full_sources": []
+      },
+      {
+        "title": "\"20년 기다렸는데 또 멈추나\"…세운4구역 주민들, 세계유산영향평가 철회 촉구",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/05/14/2026051403456.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-05-14 16:44:32",
+        "description": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"3\" width=\"100%\"><tr><td><img border=\"0\" src=\"https://image.chosun.com/sitedata/thumbnail/202605/14/2026051403448_0_thumb.jpg\" /></td></tr></table>\n\t \n[땅집고] 서울 종로구 세운4구역 주민들이 재개발 사업에 앞서 세계유산영향평가(HIA)를 받으라는 국가유산청의 명령을 철회하라고 요구했다. 세운4구역은 종묘 맞은편에 위치한 노후 도심 재개발 구역으로, 최근 서울시가 고도 제한을 대폭 완화하면서 사업 추진에 속도가 붙은 곳이다.\n \n세운4구역 주민대표회의는 14일 오전 세운상가 앞에서 기자회견을 열고 “국가유산청이 법률상 의무가 없는 세계유산영향평가를 강제하고 있다”며 “불법적인 인허가 방해 행위를 즉각 중단해야 한다”고 밝혔다.\n \n☞170조 황금알 시장을 선점하라! 시니어 시...",
+        "category": "domestic",
+        "priority_score": 5,
+        "related_full_sources": []
+      },
+      {
+        "title": "[단독] 한때 재벌 3세 살던 한강뷰 용산 아파트 22억에 경매로",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/05/14/2026051403003.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-05-14 15:13:38",
+        "description": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"3\" width=\"100%\"><tr><td><img border=\"0\" src=\"https://image.chosun.com/sitedata/thumbnail/202605/14/2026051402998_0_thumb.jpg\" /></td></tr></table>\n\t5억 싸게 나온 용산 아파트, 알고보니 사장님 집\n이촌역 초역세권 ‘한강대우’, 22.8억에 입찰\n시세 수준에 낙찰될 가능성 높아\n \n  \n[땅집고] 집값이 비싼 서울에서도 부촌으로 꼽히는 용산구 이촌동 아파트가 이달 시세보다 최소 5억원 저렴하게 경매로 나와 투자자 관심을 끌고 있다. 이런 가운데 해당 주택 소유자가 설영기 전 대한방직 사장 소유인 것으로 확인됐다.\n \n땅집고옥션(▶바로가기)에 따르면 서울 용산구 이촌동 ‘한강대우’ 전용 84㎡(34평) 8층 아파트가 이달 26일 최저입찰가 22억8000만원에 2회차 경매를 진행한...",
+        "category": "domestic",
+        "priority_score": 5,
+        "related_full_sources": []
+      },
+      {
+        "title": "'압구정 갤러리아' 재건축, 도쿄 아자부다이힐스 설계한 헤더윅 디자인 적용",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/05/14/2026051401510.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-05-14 10:23:37",
+        "description": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"3\" width=\"100%\"><tr><td><img border=\"0\" src=\"https://image.chosun.com/sitedata/thumbnail/202605/14/2026051401506_0_thumb.jpg\" /></td></tr></table>\n\t동·서관에 헤더윅 설계 적용…지하광장·정원 연결한 개방형 복합공간으로 재편\n \n \n[땅집고] 서울 강남권 대표 상권인 압구정 갤러리아가 세계적 건축가 토마스 헤더윅의 설계를 적용한 개방형 복합공간으로 재탄생한다.\n \n서울시는 지난 12일 제7차 건축위원회를 열고 강남구 압구정로 일대 압구정 갤러리아 동·서관 건립사업 안건을 심의·통과시켰다고 13일 밝혔다.\n \n압구정 갤러리아는 1990년대 국내 최초로 명품관 전략을 도입하며 압구정·청담동 일대를 대표하는 고급 상권 형성에 핵심 역할을 했다. 쇼핑 공간을 단순 상업시설이 아닌 도시 ...",
+        "category": "domestic",
+        "priority_score": 5,
+        "related_full_sources": []
+      },
+      {
+        "title": "압구정4구역 수의계약 앞둔 삼성물산 공사비 조건두고 반발",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/05/13/2026051303368.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-05-14 06:00:00",
+        "description": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"3\" width=\"100%\"><tr><td><img border=\"0\" src=\"https://image.chosun.com/sitedata/thumbnail/202605/13/2026051303362_0_thumb.jpg\" /></td></tr></table>\n\t압구정4구역서 삼성물산 조건 반발 확산\n2·5구역 대비 공사비 높고 공기는 길어\n23일 총회 변수로 부상\n \n \n[땅집고] 서울 재건축 최대어로 꼽히는 강남구 압구정 현대아파트 지구에서 시공사 선정을 앞두고 파열음이 터져 나오고 있다. 삼성물산과의 수의계약이 유력했던 압구정4구역에서 일부 조합원들이 “압구정 다른 구역보다 현격히 불리한 조건”이라며 반발에 나섰다. 공사비와 사업비 금리, 공사기간 등의 조건 수정을 요구하는 방안을 검토 중이다.\n \n13일 정비업계에 따르면, ‘압구정4구역 바른재건축을 희망하는 조합원 일동’은 삼성물산...",
+        "category": "domestic",
+        "priority_score": 5,
+        "related_full_sources": []
+      },
+      {
+        "title": "서울 주택 인허가 75% 급감…'공급 무대책'에 진보매체도 비판",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/05/13/2026051303877.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-05-14 06:00:00",
+        "description": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"3\" width=\"100%\"><tr><td><img border=\"0\" src=\"https://image.chosun.com/sitedata/thumbnail/202605/13/2026051303871_0_thumb.jpg\" /></td></tr></table>\n\t용산·과천 등 핵심 부지 ‘올스톱’\n선거 국면 맞물려 동력 상실\n신규 택지 발굴도 ‘감감무소식’\n서울 아파트 인허가 75% 급감\n  \n[땅집고] 서울을 중심으로 한 주택 공급난 우려가 갈수록 커지고 있다. 정부가 1·29 공급대책을 발표하면서 주택 공급 확대를 예고했지만, 용산·과천 등 핵심 사업지는 여전히 제자리걸음이다. 신규 택지 발굴도 사실상 멈춰서면서 “이재명 정부 이후까지 공급 절벽이 이어질 수 있다”는 전망까지 나온다.\n \n최근엔 진보 성향 언론과 부동산 전문가들 사이에서도 정부 공급 정책의 실효성을 비판하며 신규 택지 ...",
+        "category": "domestic",
+        "priority_score": 5,
+        "related_full_sources": []
+      },
+      {
+        "title": "\"서울역 직접 연결\" 단기임대 블루그라운드, 트윈시티 남산에 31호점",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/05/13/2026051303916.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-05-13 17:58:17",
+        "description": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"3\" width=\"100%\"><tr><td><img border=\"0\" src=\"https://image.chosun.com/sitedata/thumbnail/202605/13/2026051303910_0_thumb.jpg\" /></td></tr></table>\n\t블루그라운드, ‘트윈시티 남산’서 단기임대 시작\n서울역과 지하 아케이드로 바로 연결\n외국계 기업·공공기관 직장인 수요 겨냥\n \n \n[땅집고] 글로벌 단기임대 기업 블루그라운드가 서울 용산구 서울역 앞 트윈시티 남산에 국내 31번째 신규 지점을 열고 운영에 들어간다. 서울 핵심 업무지구를 중심으로 직주근접 수요가 높은 지역으로 서비스 영역을 넓히고 있다.\n \n블루그라운드는 서울시 용산구 동자동 56에 위치한 트윈시티 남산에서 단기임대 운영을 시작했다고 12일 밝혔다.\n \n트윈시티 남산은 지하 7층~지상 30층, 총 567실 규모의 주...",
+        "category": "domestic",
+        "priority_score": 5,
+        "related_full_sources": []
+      },
+      {
+        "title": "1년만 10억 뛴 '논현 동현아파트' 재건축 추진위 승인…한은총재도 보유",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/05/13/2026051302001.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-05-13 11:11:44",
+        "description": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"3\" width=\"100%\"><tr><td><img border=\"0\" src=\"https://image.chosun.com/sitedata/thumbnail/202605/13/2026051301995_0_thumb.jpg\" /></td></tr></table>\n\t재건축 추진위 “내년 상반기 시공사 선정”\n1년 새 매매가 10억 상승\n삼성·대우·롯데 등 대형 건설사도 눈독\n \n \n[땅집고] 서울 강남구 논현동 동현아파트 재건축 사업이 정비구역 해제 위기를 넘기고 다시 속도를 내고 있다. 일부 주민들의 반대로 사업이 흔들렸지만, 최근 재건축 추진 여론이 다시 힘을 얻으면서 조합설립추진위원회 구성까지 마무리됐다. 이 단지는 지난달 한국은행 총재로 취임한 신현송 총재가 보유한 아파트로도 알려져 있다.\n \n☞상가·오피스는 끝났다, 시니어 주거 개발이 유일한 골든타임\n \n13일 정비업계에 따르면 강남...",
+        "category": "domestic",
+        "priority_score": 5,
+        "related_full_sources": []
+      },
+      {
+        "title": "자취 감춘 다주택 급매…강남구 집값도 상승 전환",
+        "link": "https://www.mk.co.kr/news/realestate/12047942",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-05-14 18:25:17",
+        "description": "서울 양도세 중과 재개 첫주  매물 없어 석달 만에 오름세 영등포·성북 등 25개구 상승다주택자에 대한 양도소득세 중과가 시작된 첫 주에 서울 아파트값이 껑충 뛰었다. 석 달 동안..",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": [
+          {
+            "source": "매일경제-부동산",
+            "title": "자취 감춘 다주택 급매…강남구 집값도 상승 전환",
+            "link": "https://www.mk.co.kr/news/realestate/12047933"
+          }
+        ]
+      },
+      {
+        "title": "부동산과 금융 절연이 낳은 부작용…기업대출, 연체율도 동반 상승",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/05/14/2026051403683.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-05-15 06:00:00",
+        "description": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"3\" width=\"100%\"><tr><td><img border=\"0\" src=\"https://image.chosun.com/sitedata/thumbnail/202605/14/2026051403675_0_thumb.jpg\" /></td></tr></table>\n\t5대 은행, 기업대출 21.3조 증가하자 연체율도 상승\n‘부동산-금융 절연’ 기조에 건전성 경고등\n“글로벌 트렌드 따라야, 주식-수출 호조가 기회”\n  \n[땅집고] 정부 기조에 맞춰 기업대출을 늘렸지만, 동시에 연체율이 높아지는 부작용이 나타나고 있어 건전성 관리가 필요하다는 의견이 나온다.\n \n금융권에 따르면, 2026년 1분기 말 5대 은행의 기업대출 연체율은 0.46%로 2025년 12월 말 0.37%보다 0.09%포인트(p) 증가한 것으로 집계됐다. 기업대출 잔액은 작년 말과 비교하면 21조3392억원 늘어난 866조646억...",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "매수자 3명 중 1명은 서울 사람, 경기 '이 동네'로 몰려든 까닭",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/05/14/2026051403833.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-05-15 06:00:00",
+        "description": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"3\" width=\"100%\"><tr><td><img border=\"0\" src=\"https://image.chosun.com/sitedata/thumbnail/202605/14/2026051403825_0_thumb.jpg\" /></td></tr></table>\n\t전세난·집값 상승에 “차라리 매수” 확산\n서울 외곽 넘어 경기 인접지로 실수요자 이동\n \n \n[땅집고] 서울 아파트 전세난과 매매가격 상승, 대출 규제 강화 등이 맞물리면서 ‘서울 탈출’ 흐름이 강해지고 있다. 특히 서울과 가까우면서도 상대적으로 집값 부담이 낮은 경기 구리시로 수요가 몰리는 모습이다.\n \n14일 법원 등기정보광장의 소유권이전등기(매매) 신청 매수인 현황 자료에 따르면 지난 4월 경기 구리시 집합건물 매수인 780명 가운데 서울 거주자는 277명으로 전체의 35.5%를 차지했다. 구리에 집을 산 사람 3명 중 1명이...",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "“이주민에 주택 되팔면 돼요”…인천서 ‘20억 사기혐의’ 공인중개사 부부 피소",
+        "link": "https://www.mk.co.kr/news/realestate/12048073",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-05-14 20:00:02",
+        "description": "공인중개사가 부동산 투자자를 모집한 뒤 약속한 수익금과 원금을 돌려주지 않았다는 고소장이 접수돼 경찰이 수사에 착수했다. 14일 인천 미추홀경찰서에 따르면 사기와 유사수신행위의 규..",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "[단독] 나인원한남 156억 '갭투자' 했다고? 20대 청년의 대박 신화",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/05/13/2026051303701.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-05-14 17:45:13",
+        "description": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"3\" width=\"100%\"><tr><td><img border=\"0\" src=\"https://image.chosun.com/sitedata/thumbnail/202605/13/2026051303695_0_thumb.jpg\" /></td></tr></table>\n\t올해 ‘나인원한남’ 156억에 산 20대\n액상 전자담배 장사로 백억대 매출 올려\n전주서 올라와 40억 전세 끼고 갭투자\n  \n[땅집고] 지난 3월 서울 대표 고가 아파트인 ‘나인원한남’을 156억5000만원에 매수하면서 올해 최고가 거래를 체결한 주인공이 전북 전주시에 거주 중인 20대 청년이란 사실이 알려지면서 화제를 모았다. 더군다나 그가 매매대금을 전액 현금으로 납부해 젊은 나이에 어떻게 돈을 벌었는지 궁금해하는 사람들이 적지 않았는데, 확인 결과 온라인 액상 전자담배 사업으로 100억대 매출을 올렸던 덕분인 것으로 드러났다....",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "'두산위브 트리니뷰 구명역' 견본주택 15일 개관",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/05/14/2026051403761.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-05-14 17:42:34",
+        "description": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"3\" width=\"100%\"><tr><td><img border=\"0\" src=\"https://image.chosun.com/sitedata/thumbnail/202605/14/2026051403753_0_thumb.jpg\" /></td></tr></table>\n\t \n[땅집고] 두산건설이 분양하는 '두산위브 트리니뷰 구명역'이 오는 15일 견본주택을 열고 본격적인 분양에 돌입한다.\n \n두산위브 트리니뷰 구명역은 부산시 북구 구포동 일원에 분양하는 단지다. 지하 3층~지상 26층, 8개 동, 전용면적 74·84㎡ 총 839가구 규모로 조성한다. 일반분양 물량은 288가구다.\n \n단지 인근에는 부산 지하철 2호선 구명역이 있고, 도보권의 KTX·3호선이 지나는 구포역이 있다. 도로망으로는 '만덕-센텀 도시고속화도로(대심도)'를 이용해 동부산권 핵심 업무지구까지 닿을 수 있다. 가람중학교가 단지와...",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "AI가 외벽 균열도 잡는다…호반건설, 로봇 현장 실증",
+        "link": "https://www.mk.co.kr/news/realestate/12047827",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-05-14 17:41:46",
+        "description": "호반건설이 외벽 균열 점검에 인공지능(AI) 기반 로봇 기술을 적용하는 방안을 검토한다.\n호반건설은 13일 경기도 소재 공동주택 현장에서 AI 기반 외벽 균열 점검 로봇의 실증을 ..",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "서초 코오롱스포렉스 용지…189m 역삼각형 랜드마크로",
+        "link": "https://www.mk.co.kr/news/realestate/12047823",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-05-14 17:41:44",
+        "description": "서울 서초구 코오롱 스포렉스 용지에 역삼각형 디자인의 189ｍ 높이 랜드마크 건물이 들어선다.\n서울시는 지난 13일 진행한 제8차 도시·건축공동위원회에서 서초구 서초동 1324-2..",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "지방아파트 거래량 5년 만에 최대",
+        "link": "https://www.mk.co.kr/news/realestate/12047824",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-05-14 17:41:44",
+        "description": "지방 아파트 시장이 오랜 미분양 침체에서 벗어나 회복 조짐을 보이고 있다. 올해 1분기 지방 아파트 거래량이 2021년 이후 최대 수준으로 늘고, 대구·전주·창원 등 주요 지방 거..",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "전세 씨 말랐다 … 정부, 빌라 등 非아파트 공급 긴급점검",
+        "link": "https://www.mk.co.kr/news/realestate/12047799",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-05-14 17:30:19",
+        "description": "서울 아파트 전세가격 상승세가 10년6개월여 만에 가장 높은 수치를 기록한 가운데 빌라 등 비아파트 시장의 공급마저 위축되면서 서민들의 주거 사다리가 붕괴할 수 있다는 위기감이 커..",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "VL르웨스트 “어버이날, 입주민에게 카네이션으로 고마움 전달”",
+        "link": "https://www.mk.co.kr/news/realestate/12047772",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-05-14 17:19:46",
+        "description": "5월 8일 어버이날 맞아  입주민 대상 감성 이벤트 진행 카네이션·선물 증정VL르웨스트가 어버이날인 지난 지난 8일 오전 입주민들에게 카네이션과 선물을 증정하는 행사를 개최했다. ..",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "광주연구개발특구 산업단지 인접 입지…'호반써밋 첨단3지구' 6월 분양",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/05/14/2026051403240.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-05-14 16:35:18",
+        "description": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"3\" width=\"100%\"><tr><td><img border=\"0\" src=\"https://image.chosun.com/sitedata/thumbnail/202605/14/2026051403235_0_thumb.jpg\" /></td></tr></table>\n\t‘호반써밋 첨단3지구’, 6월 분양\n첨단 산업 인프라 배후 주거단지\n \n \n \n[땅집고] 전라남도 광주연구개발특구 첨단3지구에 들어서는 ‘호반써밋 첨단3지구’가 오는 6월 분양에 나선다.\n \n‘호반써밋 첨단3지구’는 광주광역시 첨단3지구 A7·A8블록에 총 805가구 규모로 조성한다. A7블록은 지하 1층~지상 최고 20층, 5개 동, 전용 84㎡ 단일 면적 356가구로 구성한다. A8블록은 지하 1층~지상 최고 20층, 6개 동, 전용 117~135㎡ 449가구 규모다. 시행은 첨단678피에프브이㈜, 시공은 호반건설이 맡았다.\n ...",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "계약금 넣었는데 대출 불가?…고수들만 아는 대출 사전심사 디테일",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/05/14/2026051401951.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-05-14 16:11:07",
+        "description": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"3\" width=\"100%\"><tr><td><img border=\"0\" src=\"https://image.chosun.com/sitedata/thumbnail/202605/14/2026051401947_0_thumb.jpg\" /></td></tr></table>\n\t[신보연의 부동산개발 처방] ④수백억원 개발 자금, 누구에게 어떻게 빌려야 좋을까\n  \n[땅집고] 부동산 개발 사업은 수 년에 걸쳐 최소 수십억원부터 많게는 수백억원 이상 자금이 투입되는 장기 대규모 사업이다. 이렇게 긴 시간에 걸쳐 막대한 자금이 소요되는 만큼, 자기 자본만으로는 사업을 이끌어가기란 현실적으로 어렵다. 따라서 자기 자본 외 개발 사업에 필요한 나머지 재원은 금융권을 통해 조달해야 한다. \n \n하지만 최근처럼 금융 환경이 보수적인 시기에는 ‘토지비 80%, 공사비 80%’ 같은 희망 비율을 제시하는 순간 심사 자체가...",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "“바닥 찍고 반등?”…대구·구미·울산 등 영남권 아파트 신고가 릴레이",
+        "link": "https://www.mk.co.kr/news/economy/12047586",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-05-14 15:33:27",
+        "description": "범어동 힐스테이트 범어 전용 84㎡  신고가 17.8억원에 매매계약 2023년 말 대비 올해 2월 미분양 물량  대구 4818가구↓·구미 1077가구↓포항 1411가구↓한동안 미분..",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "“전세난 난리인데, 2년뒤엔 진짜 악소리”…비거주 1주택 실거주 유예 ‘후폭풍’",
+        "link": "https://www.mk.co.kr/news/realestate/12047557",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-05-14 15:12:12",
+        "description": "‘실거주 유예’ 전세시장 영향 촉각 국토부 “전세 물량 총량 변동없어 ”토지거래허가구역 내 실거주 의무 유예 조치가 거래 활성화에는 도움이 될 수 있지만, 이미 매물이 줄어든 서울..",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "“사전청약 제외 물량 대상”…우미건설 ‘고양 창릉 우미린 그레니티’ 14일 분양일정 돌입",
+        "link": "https://www.mk.co.kr/news/realestate/12047417",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-05-14 11:40:44",
+        "description": "14·15일 사전청약 당첨자 대상 관람 16일부터 일반고객도 관람 가능 18~19일 사전청약 당첨자 청약 후  26일 특공·27~28일 일반공급 청약우미건설이 14일 3기 신도시 ..",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "“강북 아파트에서 매달 300만원 따박따박”…非강남 월세, 강남 뺨치네",
+        "link": "https://www.mk.co.kr/news/economy/12047327",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-05-14 10:43:44",
+        "description": "강북구 100만원 이상 월세 계약 1년 새 29→41% 급증 “매물 부족이 월셋값 상승 견인”서울 외곽 지역을 중심으로 100만원 이상 고가 월세 계약이 빠르게 늘며 세입자들의 주..",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "국민연금도 '복합형 실버타운' 짓는다…호주 등 해외에선 이미 투자",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/05/13/2026051303211.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-05-14 06:00:00",
+        "description": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"3\" width=\"100%\"><tr><td><img border=\"0\" src=\"https://image.chosun.com/sitedata/thumbnail/202605/13/2026051303205_0_thumb.jpg\" /></td></tr></table>\n\t국민연금, 공공형 시니어주택 검토\n국민연금 기금 활용해 중산층 새 주거 모델 개발\n형평성 논란…수익성·복지 두 토끼 잡을까\n \n \n[땅집고] 국민연금공단이 공공형 노인복지주택 사업 검토에 본격 착수했다. 국민연금 기금을 활용해 주거와 의료, 건강관리, 커뮤니티 서비스를 결합한 새로운 형태의 시니어 타운  모델을 마련하겠다는 구상이다.\n \n◇국민연금 기금으로 시니어주택\n \n13일 금융투자업계에 따르면 최근 국민연금은 ‘노인복지주택 사업성 검토 연구용역’을 발주했다. 이번 용역은 연금 수급자를 대상으로 하는 ‘공단형 노인복지주택’의 기...",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "정원오 \"역세권 도시형 생활주택 인센티브\" vs 오세훈 \"강북권 용도 상향 인센티브\"",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/05/13/2026051302819.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-05-13 14:32:21",
+        "description": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"3\" width=\"100%\"><tr><td><img border=\"0\" src=\"https://image.chosun.com/sitedata/thumbnail/202605/13/2026051302813_0_thumb.jpg\" /></td></tr></table>\n\t표심 가를 부동산 대책에 방점…정원오는 강남, 오세훈은 강북 공략\n  \n[땅집고] 6·3 지방선거 서울시장 선거를 앞두고 정원오 더불어민주당 후보와 오세훈 국민의힘 후보 간 정책 공방이 날로 격화하고 있다. 주식시장 활황에도 여전히 대다수 유권자의 가장 큰 관심사인 부동산 문제가 표심을 자극하는 이슈인 만큼, 양쪽은 부동산 정책을 두고 치열한 공격과 방어에 매진하고 있다. 정 후보는 강남, 오 후보는 강북 등 각자 취약한 지역에서 특화된 부동산 정책을 내놓고 있다.\n \n◇정원오 “3136+ 착착 포트폴리오…리모델링·소규모 정비 전폭...",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "\"호텔 대신 살 곳 찾는다\"…마곡 외국인 임직원이 꽂힌 '이곳'",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/05/13/2026051302211.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-05-13 11:51:01",
+        "description": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"3\" width=\"100%\"><tr><td><img border=\"0\" src=\"https://image.chosun.com/sitedata/thumbnail/202605/13/2026051302205_0_thumb.jpg\" /></td></tr></table>\n\t블루그라운드, 헬리그라프마곡에디션 29호점 오픈\nLG·에스오일·오스템임플란트 등 마곡 업무지구 수요 겨냥\n \n[땅집고] 12일 오전 서울 지하철 5호선 송정역 1번 출구를 나와 6분가량 걷자 회색빛 신축 건물이 눈에 들어왔다. 마곡지구 일대에서 처음 분양한 하이엔드 주거 단지 ‘헬리그라프 마곡 에디션’이다.\n \n이 단지는 송정역 외에도 5호선 마곡역까지 도보 15분, 차량으로는 5분이면 닿는다. 마곡업무지구와 김포공항, 항공사 관련 업무시설을 배후로 둔 직주근접형 단지다. 지하 2층~지상 15층 규모로 오피스텔 66가구와 도시형생활...",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "[인사] 국토교통부",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/05/13/2026051301262.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-05-13 09:36:34",
+        "description": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"3\" width=\"100%\"><tr><td><img border=\"0\" src=\"https://realty.chosun.com/site/data/rss/rss.xml\" /></td></tr></table>\n\t◇ 실장급 전보\n▲ 주택토지실장 김영국",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "망한 버스 회사의 120억 차고지, 헐값에 사들인 낙찰자의 큰 그림",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/05/12/2026051203113.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-05-13 06:00:00",
+        "description": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"3\" width=\"100%\"><tr><td><img border=\"0\" src=\"https://image.chosun.com/sitedata/thumbnail/202605/12/2026051203108_0_thumb.jpg\" /></td></tr></table>\n\t \n[땅집고] 강원 원주시의 버스 회사가 부도가 나면서 경매에 나온 약 3600평의 차고지가 감정가의 3분의 1 수준의 금액에 헐값 매각되는 사례가 나왔다. 당장은 다른 용도로 사용하거나 재매각 수익을 기대할 수 없지만, 장기적으로 개발 호재를 바라보고 선점한 것이라는 분석이 뒤따른다.\n \n땅집고옥션(▶바로가기)에 따르면, 해당 물건은 원주시 관설동 637-2 일원에 위치한 토지와 건물이다. 토지 면적은 총 1만1944㎡(약 3613평), 건물 6개동과 부속시설 등으로 구성돼있다. 사건번호는 2025타경20530이다.\n \n이 물건은...",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "\"'올파포' 주말 내 40건 팔렸는데\"…급매 소진 후 호가 치솟는 강동",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/05/12/2026051203225.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-05-13 06:00:00",
+        "description": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"3\" width=\"100%\"><tr><td><img border=\"0\" src=\"https://image.chosun.com/sitedata/thumbnail/202605/12/2026051203220_0_thumb.jpg\" /></td></tr></table>\n\t양도세 중과 유예 종료하자 ‘매물잠김’ 본격화\n다주택자 매물 팔린 강동구 매물 19% 급감\n실거주 수요 겹친 노원에서는 신고가 속출\n  \n[땅집고] “주말에 사람이 들끓던 게 꿈이었나 싶어요. 양도세 중과 유예 종료 직전 주말까지만 해도 올림픽파크포레온 한 단지에서 막판 매매가 40건 넘게 이뤄졌는데, 지금은 다주택자뿐 아니라 일반 매물까지 자취를 감췄습니다.” (강동구 다원공인중개사 김영 대표)\n \n12일 부동산업계에 따르면, 지난 9일 다주택자 양도소득세 중과 유예가 종료된 후 서울 외곽 지역을 중심으로 ‘매물 잠김’ 현상이 본...",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "[단독] 8.2조 '골프 관광도시' 굴욕, 12만평 땅 태양광 업체가 100억 낙찰",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/05/11/2026051101476.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-05-12 17:40:58",
+        "description": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"3\" width=\"100%\"><tr><td><img border=\"0\" src=\"https://image.chosun.com/sitedata/thumbnail/202605/11/2026051101475_0_thumb.jpg\" /></td></tr></table>\n\t전남도 8.2조짜리 초대형 개발사업 ‘솔라시도’ \n삼호지구 12.8만평 경매서 100억에 팔려\n태양광 업체가 낙찰…전남도 “이의신청 할 것”\n  \n[땅집고] 과거 노무현 정부 시절 등장해 올해로 22년째  추진 중인  전라남도 초대형 개발사업 ‘솔라시도’ 부지 일부가 경매로 팔렸다. 당초 사업지 내 골프장과 연계한 리조트와 주택단지 등을 짓기로 계획됐던 땅인데, 한 태양광 개발업체가 부지를 경매로 100억원대에 낙찰받아가면서 사업이 반쪽짜리가 될 위기에 처했다. \n \n땅집고옥션(▶바로가기)에 따르면 이달 4일 전남 영암군 삼호읍 난...",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "숲속에 갇힌 38년 된 아파트가 500억에 팔렸다고요?",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/05/12/2026051202356.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-05-12 13:43:52",
+        "description": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"3\" width=\"100%\"><tr><td><img border=\"0\" src=\"https://image.chosun.com/sitedata/thumbnail/202605/12/2026051202351_0_thumb.jpg\" /></td></tr></table>\n\t  \n[땅집고] “헐, 숲속에 갇힌 외딴 섬같은 아파트인데 집값이 500억원이나 한다고요? 대체 왜 이렇게 비싼거죠?”\n \n전세계를 통틀어서도 집값이 비싼 국가로 통하는 홍콩. 남부지역인 타이탐 일대는 초대형 산맥 줄기가 지나는 바람에 대부분 땅이 울창한 숲으로 이뤄졌다. 그런데 이 숲 속 한복판에 웬 초대형 아파트 단지가 들어서 있는 모습이 눈에 띈다. \n \n얼핏 도심과 단절돼있는 만큼 집값이 저렴할 것이라고 생각할 수 있지만 실상은 정반대다. 지난해 말 이 단지 40평 주택이 무려 510억원대에 거래된 것. 아무리 홍콩 집값이 ...",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "'입지깡패' 주유소, 임대주택·시니어시설·카페로 화려한 대변신",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/05/11/2026051103029.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-05-12 06:00:00",
+        "description": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"3\" width=\"100%\"><tr><td><img border=\"0\" src=\"https://image.chosun.com/sitedata/thumbnail/202605/11/2026051103027_0_thumb.jpg\" /></td></tr></table>\n\t임대주택부터 대리점, 이색카페까지…입지 장점에 시행사들 ‘군침’\n외곽 입지는 처참…철거비 못 내 방치된 ‘좀비 주유소’도 속출\n  \n[땅집고] 전기차 보급 확산과 유가 상승, 업계 간 경쟁 심화로 벼랑 끝에 몰린 주유소 부지가 도심의 ‘알짜 부동산’으로 재탄생하고 있다. 대로변 코너 등 탁월한 입지 조건을 갖춘 덕에 주상복합, 코리빙하우스, 카페 등으로 화려한 변신에 나서고 있다.\n \n11일 건설업계에 따르면 한국토지주택공사(LH)는 최근 지가 상승률이 가파른 경기도 안양시에서만 세 곳의 주유소 부지를 매입약정으로 인수해 임대주택을...",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "길 하나 두고 학생 수 10배 차이…분당도 예외 없다, 초교 양극화",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/05/11/2026051102947.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-05-12 06:00:00",
+        "description": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"3\" width=\"100%\"><tr><td><img border=\"0\" src=\"https://image.chosun.com/sitedata/thumbnail/202605/11/2026051102945_0_thumb.jpg\" /></td></tr></table>\n\t“횡단보도 안 건너는 학교로”…같은 동네인데도 학생 수 10배 차이\n폐교 위기 학교 늘고 과밀학급 문제는 심화\n \n \n[땅집고] 동일 생활권 안에서도 학교별 학생 수 격차가 극단적으로 벌어지는 기현상이 나타나고 있다. 한 학교는 학생들이 몰려 과밀 상태를 겪는 반면, 다른 학교는 학생 수 감소로 폐교 수순에 들어가면서 그 배경에 관심이 쏠린다.\n \n대전 서구에 위치한 대전성천초와 대전성룡초는 도로 하나를 사이에 두고 있음에도 학교 규모 격차가 약 10배에 달한다. 학교알리미에 따르면, 올해 기준 성천초 전교생은 64명 수준인 반면 ...",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "[단독] '59㎡ 22억' 강남보다 비싼 분양가 노량진 단지, 사실상 완판",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/05/11/2026051102526.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-05-11 15:38:46",
+        "description": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"3\" width=\"100%\"><tr><td><img border=\"0\" src=\"https://image.chosun.com/sitedata/thumbnail/202605/11/2026051102525_0_thumb.jpg\" /></td></tr></table>\n\t  \n[땅집고] 지난달 청약을 받은 서울 동작구 노량진동 ‘라클라체 자이드파인’이 이달 정당계약을 진행한 결과 2가구만 빼고 전부 분양 완료된 것으로 확인됐다. 분양률을 계산하면 99.4%다. 전용 59㎡(25평) 분양가가 최고 22억원대로 서울 강남권보다 비싸 고분양가 논란을 빚었는데도 초기 분양률이 거의 100%에 육박한 것이다. \n \n11일 정비업계에 따르면 이날 노량진6구역 조합은 이달 4~9일 진행한 ‘라클라체 자이드파인’ 정당계약 결과를 집계해 공개했다. 전체 아파트 총 1499가구 중 369가구를 일반분양했는데, 이 중...",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "은평서 '3억 로또'… 래미안 대장 단지, 시세보다 3억 싼 경매로",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/05/11/2026051102465.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-05-11 15:21:10",
+        "description": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"3\" width=\"100%\"><tr><td><img border=\"0\" src=\"https://image.chosun.com/sitedata/thumbnail/202605/11/2026051102464_0_thumb.jpg\" /></td></tr></table>\n\t[경매핫!딜] 서울 래미안 아파트, 12억대에 경매 등장\n  \n[땅집고] 서울에서 ‘래미안’ 브랜드를 적용한 아파트가 12억원대에 경매로 등장해 실수요자와 투자자 관심을 동시에 받고 있다. 올해 들어 서울 아파트 평균 매매가격은 물론이고 이 단지 매매 호가가 15억원을 돌파한 것과 비교하면 3억원 정도 저렴해서다. 이달 진행하는 최초 경매에서 곧바로 낙찰자를 찾을 가능성이 클 것이라는 전망이 나온다. \n \n땅집고옥션(▶바로가기)에 따르면 서울 은평구 녹번동 ‘래미안 베라힐즈’ 전용 84㎡(34평) 14층 아파트가 이달 19일 1회차...",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "반얀트리 부산 해운대 11월 개관…195실 전 객실 풀빌라",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/05/11/2026051101575.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-05-11 13:21:42",
+        "description": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"3\" width=\"100%\"><tr><td><img border=\"0\" src=\"https://image.chosun.com/sitedata/thumbnail/202605/11/2026051101574_0_thumb.jpg\" /></td></tr></table>\n\t‘반얀트리’ 부산 기장군에 11월 개관\n \n \n[땅집고] 태국 푸켓이나 방콕, 몰디브 등 해외 유명 휴양지에서나 만날 수 있었던 세계적 럭셔리 호텔 브랜드 ‘반얀트리’가 부산 기장군 연화 해변에 들어선다. 반얀 그룹의 최상위 플래그십 브랜드인 ‘반얀트리’가 국내에서 처음으로 회원제 휴양 호텔 형태로 문을 여는 것이다. 현재 오시리아 관광단지 최전면부인 기장 연화 해변 일대에서 2026년 11월 그랜드 오픈을 목표로 대수선 공정이 한창 진행 중이다.\n \n반얀트리 부산 해운대는 브랜드 고유의 철학인 프라이빗 풀 빌라의 가치를 극대화했다...",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "국토부의 '환헤지' 오지랖에 1000억 공중분해 제이알리츠",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/05/08/2026050803131.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-05-11 06:00:00",
+        "description": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"3\" width=\"100%\"><tr><td><img border=\"0\" src=\"https://image.chosun.com/sitedata/thumbnail/202605/08/2026050803122_0_thumb.jpg\" /></td></tr></table>\n\t해외부동산 ‘환헤지’ 안전장치, 환율 급등으로 수천억 정산금\n영업인가 당시 국토부 ‘비율 100% 권고’, 결국 법정관리 ‘나비효과’\n  \n[땅집고] 해외 부동산에 투자하는 리츠(REIT’s)가 안전 장치로 맺은 ‘환헤지’ 계약이 원화 가치 급락으로 거액의 빚으로 되돌아왔다. 인가 과정에서 국토교통부의 환헤지 비율 100% 권고가 제이알글로벌리츠 ‘흑자 부도’로 이어지는 나비 효과를 일으켰다는 분석이다. \n \n부동산업계에 따르면, 제이알글로벌리츠는 지난달 4일 지급 예정이던 환헤지 정산금 약 1000억원 중 800억원에 대한 만기를...",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      }
+    ],
+    "국제": [
+      {
+        "title": "‘금빛 랠리’였던 금값 주춤… “금리 오르면 현금이 유리” 심리 퍼져[글로벌 포커스]",
+        "link": "https://www.donga.com/news/Economy/article/all/20260515/133932747/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-05-16 01:40:00",
+        "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/05/15/133933963.1.jpg\" vspace=\"10\" />‘전쟁이 나면 금을 사야 한다.’ 대표적인 안전 자산으로 꼽히는 금은 전쟁이 터질 때면 이같이 생각하는 수요가 많아져 값이 올랐다. 금은 화폐와 달리 발행 주체가 없기 때문에 전쟁으로 국가가 붕괴해도 가치를 잃지 않기 때문이다. 전쟁이 터지거나 도널드 트럼프 미국 대통령이 무역 전쟁을 벌일 때면 금값은 대부분 상승했다. 하지만 이번 중동 전쟁은 양상이 다르다. 2월 28일(현지 시간) 미국과 이란의 전쟁이 시작된 뒤 투자 시장의 상식이 뒤집히는 모양새다. 금은 매일 발생하는 이슈에 따라 오르락내리락하지만 이번 전쟁 발발 이후엔 대체로 주춤하는 분위기다. 시장이 복잡한 변수들 속에 금 투자를 망설이는 것으로 보인다. 전쟁 이후 국제 유가가 크게 오르자, 주요국의 기준금리 인상 압력이 커져 금 수요가 시들해졌다는 분석이 나온다. 지난해 금값이 워낙 많이 올라 차익 실현을 하려는 수요가 적지 않다는 시각도 있다.● 유가 상승에 금리 인상 압력, 금 매력 떨어뜨려지난해 국제 금값은",
+        "category": "domestic",
+        "priority_score": 5,
+        "related_full_sources": []
+      },
+      {
+        "title": "트럼프-시진핑, 치킨게임 막고 ‘무역휴전’ 유지",
+        "link": "https://www.donga.com/news/Inter/article/all/20260516/133934036/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-05-16 01:40:00",
+        "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/05/16/133932153.6.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령의 2박 3일간 중국 국빈 방문 일정이 15일 마무리됐다. 2017년 11월 이후 8년 6개월 만에 중국을 찾은 트럼프 대통령은 시진핑(習近平) 중국 국가주석과 여섯 차례 만나 대만 문제, 이란 전쟁, 무역 갈등 등 양국 핵심 현안을 논의했다. 이를 통해 두 정상은 지난해 트럼프 2기 행정부 출범 후 관세전쟁 등으로 한동안 ‘치킨 게임’ 양상으로 치달았던 양국 관계를 일단 ‘안정화’ 수준으로 계속 관리하는 데 합의한 것으로 보인다. 하지만 핵심 현안에선 실질적인 합의를 이끌어 내는 데는 사실상 실패했다. 두 정상 간 공동성명 발표도 없었다. 이번 회담에서 트럼프 대통령은 미국산 항공기, 농산물, 원유 수출 확대 등 경제 이슈에 방점을 찍은 반면, 시 주석은 대만에 대한 중국의 ‘레드라인’을 강조했다. 또 시 주석은 ‘중-미 전략적 안정 관계’라는 미중 관계의 중장기 프레임을 제시하며, 단기적 경제 거래에 집중한 트럼프 대통령과 차별화된 전략을 선보였다.",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "백악관 “호르무즈 개방 합의” 발표에도…국제유가, 소폭 상승",
+        "link": "https://www.donga.com/news/Inter/article/all/20260515/133929039/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-05-15 10:20:15",
+        "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/05/15/133929040.1.jpg\" vspace=\"10\" />백악관이 미중 정상이 호르무즈 해협 개방에 합의했다고 밝혔으나, 국제 유가가 소폭 올라 움직이고 있다.CNBC 등에 따르면 유럽 ICE선물거래소에서 국제유가 기준인 브렌트유 7월물 가격은 한국시간 15일 오전 9시51분께 전장 대비 0.87% 오른 배럴당 106.64달러를 기록하고 있다.뉴욕상품거래소에서 미국 서부텍사스원유(WTI) 6월물 가격도 같은 시간 전장 대비 0.77% 오른 배럴당 101.95달러에 거래 중이다.시장에 유가 상·하방 요인이 교차하는 가운데 투자자들은 관망세를 이어가는 것으로 보인다.앞서 백악관은 정상 회담 결과를 설명하며 “양측이 호르무즈 개방에 동의했다”며 “시 주석은 호르무즈 해협 군사화나 사용료 부과 시도에 반대 입장을 분명히 했다”고 밝혔다.중국 선박과 연계된 유조선의 해협 통항 사례가 잇달아 보도되고, 13일 저녁부터 이란 혁명수비대 해군과 협력한 약 30척의 선박이 호르무즈 해협을 통과했다는 소식도 들려왔다.다만 호르무즈 해협을 둘러싼",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "젤렌스키 “러, 전후 최대규모 순항미사일 공격…24명 사망 48명 부상”",
+        "link": "https://www.donga.com/news/Inter/article/all/20260515/133931889/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-05-15 17:18:53",
+        "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/05/15/133931890.1.jpg\" vspace=\"10\" />볼로디미르 젤렌스키 우크라이나 대통령은 15일 하루 전 수도 키이우의 9층 짜리 아파트 건물에 대한 러시아의 순항미사일 공격으로 어린이 3명을 포함해 24명이 사망했다며 이번 공격은 전쟁 발발 후 순항미사일을 이용한 최대 규모 공격이라고 밝혔다.젤렌스키 대통령은 X에 구조대원들이 하루 넘게 계속된 건물 잔해를 수색 작업을 마쳤다며 이같이 밝혔다.그는 또 이번 공격이 주로 우크라이나 수도를 겨냥했으며, 어린이 2명을 포함해 48명이 부상을 입었다고 덧붙였다.키이우는 15일을 희생자들을 추모하는 공식 애도의 날로 지정했다.젤렌스키는 우크라이나 전문가들이 잔해를 분석한 후 건물을 타격한 순항미사일이 올해 2분기에 제작됐다고 말했다.그는 14일 밤 X에 올린 또 다른 게시물에서 “이는 러시아가 여전히 글로벌 제재를 우회해 미사일 생산에 필요한 부품, 자원, 장비를 수입하고 있다는 것을 의미한다”며, “러시아의 제재 회피 계획을 막는 것은 모든 파트너에게 진정한 우선순위가 돼야 한다",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "역대급 실적에도 해고 칼바람… ‘AI 올인’ 美 빅테크, 올해 10만명 이상 감원",
+        "link": "https://www.chosun.com/economy/tech_it/2026/05/15/MU2TSOJZGUYDEY3FGNSTIYRZMU/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-05-15 16:50:06",
+        "description": "“성장 경쟁이 치열해지고 인프라 비용은 계속 증가하는 가운데 인공지능(AI)이 일하는 방식을 재편하고 있다. 미래 경쟁력을 확보하기 위해 비용 절감이 필요하다.”링크드인이 인력의 약 5%를 감원하기로 결정한 뒤 직원들에게 보낸 이메일 中 미국 빅테크 기업을 중심으로 한 번에 수백명에서 수천명의 직원을 내보내는 ‘해고 칼바람’이 불고 있다. 주요 기업은 올해",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "日 미야기 앞바다서 규모 6.3 지진…“쓰나미 우려 없어”",
+        "link": "https://www.donga.com/news/Inter/article/all/20260515/133933894/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-05-15 21:35:31",
+        "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/05/15/133933895.1.jpg\" vspace=\"10\" />일본 미야기현 앞바다에서 15일 밤 규모 6.3의 지진이 발생했다. 일본 기상청은 이번 지진으로 인한 쓰나미 우려는 없다고 밝혔다.일본기상협회의 날씨 예보 전문 매체 ‘텐키’에 따르면, 이날 오후 8시22분 미야기현 앞바다를 진원으로 하는 지진이 발생했다. 지진 규모는 6.3, 진원의 깊이는 약 50㎞로 추정됐다.이번 지진으로 미야기현 일부 지역에서는 최대 진도 5약의 흔들림이 관측됐다. TBS NEWS DIG는 미야기현 도메시, 오사키시 등에서 진도 5약이 기록됐다고 전했다. 진도 5약은 많은 사람이 공포를 느끼고, 선반 위 식기나 책 등이 떨어질 수 있는 수준이다.일본 기상청은 지진 발생 직후 쓰나미 우려는 없다고 밝혔다. 현재까지 대규모 피해나 인명 피해는 확인되지 않았다. 일본 당국은 지진 이후 피해 여부를 확인하고 있다. 다만 비교적 강한 흔들림이 관측된 만큼, 일본 당국은 낙하물과 여진 가능성에 주의할 것을 당부했다.[서울=뉴시스]",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "다카이치, 트럼프와 통화 추진…향후 대중정책 협의할 듯",
+        "link": "https://www.donga.com/news/Inter/article/all/20260515/133930723/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-05-15 15:26:00",
+        "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/05/15/133930800.1.jpg\" vspace=\"10\" />다카이치 사나에(高市早苗) 일본 총리가 미중 정상회담 직후 도널드 트럼프 미국 대통령과의 전화 회담을 조기에 추진 중인 것으로 전해졌다. 관심 사항인 대만 문제 등을 둘러싼 미중 정상간 논의 내용을 공유받고, 향후 대중 정책을 협의하려는 의도로 분석된다.일본 언론들에 따르면 미중 정상회담이 끝나자마자 미일 정상 간 전화 회담이 추진되고 있다. 니혼게이자이신문(닛케이)는 15일 미일 전화 회담에 대해 “미일 정상 간에 중국에 대한 인식을 조율하는 것이 목적”이라며 “트럼프 대통령의 방중 직후 전화 협의를 통해 미일 동맹의 결속을 보여주는 의도도 있다”고 전했다. 다카이치 총리가 지난해 11월 일본 국회에서 ‘대만 유사시 개입’ 발언을 한 이후 중일 관계는 경색된 상황이다. 이런 가운데 시진핑 중국 국가주석은 14일 베이징 인민대회당에서 열린 트럼프 대통령과의 정상회담에서 “대만 문제는 중미 관계에서 가장 중요한 문제”라면서 “잘못 처리하면 양국이 부딪히거나 충돌할 수 있다”고 경고했다",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "美대법원 “낙태약 우편 배송 계속 가능”…하급심 판결 제동",
+        "link": "https://www.donga.com/news/Inter/article/all/20260515/133930673/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-05-15 15:04:44",
+        "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/05/15/133930674.1.jpg\" vspace=\"10\" />미국 연방대법원이 의사의 대면 진찰 없이도 우편으로 낙태약을 배송할 수 있도록 허용하면서 임신중절에 가장 널리 사용되는 약물인 미페프리스톤에 대한 접근성이 당분간 유지되게 됐다.CNN에 따르면 대법원은 14일(현지 시간) 긴급 심리를 통해 미페프리스톤 접근을 제한하려던 제5순회항소법원의 판결 효력을 정지한다고 결정했다. 이에 따라 원격진료를 통한 처방과 우편 배송은 하급심 소송이 진행되는 동안 계속 허용된다.이번 사건은 미페프리스톤 제조업체인 단코 연구소 등 제약사들이 긴급 항소를 제기하면서 대법원으로 넘어왔다. 앞서 제5순회항소법원은 미국 식품의약국(FDA)이 조 바이든 행정부 시절 미페프리스톤 규제를 완화하는 과정에서 결함 있는 데이터를 근거로 삼았을 가능성이 있다며 루이지애나주의 손을 들어준 바 있다.보수 성향의 새뮤얼 앨리토 대법관과 클래런스 토머스 대법관은 반대 의견을 냈다. 앨리토 대법관은 6페이지 분량의 반대 의견에서 우편을 통한 낙태약 접근 확대가 2022년",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "네타냐후 “급진 이슬람과 계속 싸울것…이란정권 약해졌다”",
+        "link": "https://www.donga.com/news/Inter/article/all/20260515/133928256/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-05-15 07:10:32",
+        "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/05/15/133928257.1.jpg\" vspace=\"10\" />베냐민 네타냐후 이스라엘 총리가 이란을 비롯한 이슬람 적대국과 전쟁을 이어가겠다는 입장을 재확인했다.타임스오브이스라엘(TOI) 등에 따르면 네타냐후 총리는 14일(현지 시간) ‘예루살렘 재통일’ 59주년을 기념하는 예루살렘의 날 행사에서 “이란의 테러 정권은 어느 때보다 약해졌고 이스라엘 국가는 어느 때보다 강해졌다”고 말했다.예루살렘의 날은 1967년 발발한 제3차 중동 전쟁에서 이스라엘이 당시 요르단 영토였던 동예루살렘을 점령한 것을 기리는 기념일로, 매년 이스라엘-팔레스타인간 긴장이 고조되는 민감한 날이다.네타냐후 총리는 연설에서 “이스라엘이 2025년 6월과 올해 초 이란의 핵·탄도미사일 프로그램에 대한 군사 작전을 시작하지 않았다면 이란은 이미 핵무기를 보유하고 있었을 것”이라고 주장했다.그러면서 예루살렘 성지를 지켜내자는 취지의 전쟁 당위를 설파했다. 그는 “우리는 모든 급진 이슬람 위협에 대해 단호하게 계속 싸울 것”이라며 “적들은 우리를 파괴하는 것 외에 우리를",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      },
+      {
+        "title": "프랑스 서부 낭트 시 근교에서 총격사건, 1명 죽고 2명 중상",
+        "link": "https://www.donga.com/news/Inter/article/all/20260515/133928259/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-05-15 07:10:45",
+        "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/05/15/133928260.1.jpg\" vspace=\"10\" />프랑스 서부 도시 낭트 시에서 14일(현지 시간) 총격 사건이 발생해서 1명이 사망하고 2명이 다쳤다고 프랑스 일간지 ‘르 파리지앵’이 보도했다. 이 신문 보도에 따르면 사건은  저녁 8시께 (현지시간) 그 곳 포르-보이에 구역에서 일어났다.  총에 맞은 14세 청소년이 숨졌고,  다른 2명은 중상으로 병원에 옮겨졌다고 현지 경찰관이 말했다.  총격 용의자들은 현장에서 달아났다.  이들은 아직 잡히지 않았다고 프랑스 매체들은 보도했다.   사건이 발생한 지역은 4월 말 부터 마약밀수와 관련된 총격전이 자주 일어나서 피해가 컸던 곳이라고 이 번 수사와 관련된 정통한 소식통이 전했다. 올해 초 부터 낭트 시내에서 일어난 이런 종류의 총격 사건은 이미 26회나 된다.[서울=뉴시스]",
+        "category": "domestic",
+        "priority_score": 0,
+        "related_full_sources": []
+      }
+    ]
+  }
+}
