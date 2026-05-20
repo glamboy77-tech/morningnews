@@ -1,0 +1,136 @@
+{
+  "timestamp": "2026-05-21T06:02:08.745761",
+  "date": "20260521",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "李대통령, 가자구호선단 나포 강력비판…네타냐후 체포영장 언급(종합2보)",
+          "link": "https://www.yna.co.kr/view/AKR20260520139552001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-05-20 21:47:04",
+          "description": "(서울=연합뉴스) 고동욱 황윤기 기자 = 이재명 대통령은 20일 한국인 활동가가 탑승한 구호선단이 가자지구에 접근하다 이스라엘군에 나포된 데 대...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "李대통령, 가자구호선단 나포 강력비판…네타냐후 체포영장 언급(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20260520139551001"
+            }
+          ]
+        },
+        {
+          "title": "李대통령 “급격한 탈탄소, 산업에 장애물 돼선 안 돼”",
+          "link": "https://www.chosun.com/economy/economy_general/2026/05/21/4BDVLRSW6ZBAXPS5M47LHM6TU4/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-05-21 00:33:00",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, 스벅이어 무신사 비판…\"민주항쟁 모욕, 심각한 문제\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260520061351001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-05-20 15:08:25",
+          "description": "(서울=연합뉴스) 임형섭 설승은 황윤기 기자 = 이재명 대통령은 20일 6월 민주항쟁에 대한 비하 표현을 담은 무신사의 옛 광고 문구를 겨냥해 ...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, 메시지 수위 높여 '실용적 개입'…긴급조정권 기로에",
+          "link": "https://www.yna.co.kr/view/AKR20260520143500001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-05-20 16:24:12",
+          "description": "(서울=연합뉴스) 이상현 기자 = 삼성전자 노사의 협상이 결렬되면서 파업이 현실화할 위기에 놓인 가운데 이재명 대통령이 어조를 높여 마지막까지 ...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, 가자구호선단 나포 강력비판…네타냐후 체포영장 언급",
+          "link": "https://www.yna.co.kr/view/AKR20260520139500001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-05-20 16:02:26",
+          "description": "(서울=연합뉴스) 고동욱 황윤기 기자 = 이재명 대통령은 20일 한국인 활동가가 탑승한 구호선단이 가자지구에 접근하다 이스라엘군에 나포된 데 대...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, 1주년 앞두고 \"고비 잘 헤쳐 나가…초심 되새길 때\"",
+          "link": "https://www.yna.co.kr/view/AKR20260520123000001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-05-20 14:38:29",
+          "description": "(서울=연합뉴스) 고동욱 황윤기 기자 = 이재명 대통령은 취임 1주년을 보름 앞둔 20일 &quot;국민의 삶에 더 크고 실질적인 변화를 만들어내기 위해...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        }
+      ],
+      "count": 6,
+      "role": "한국 대통령"
+    },
+    "트럼프": {
+      "articles": [
+        {
+          "title": "트럼프보다 푸틴 의전 높인 시진핑 “내정간섭 말라” 美견제 밀착",
+          "link": "https://www.donga.com/news/Inter/article/all/20260521/133964480/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-05-21 04:30:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/05/21/133961743.5.jpg\" vspace=\"10\" />시진핑(習近平) 중국 국가주석이 20일 블라디미르 푸틴 러시아 대통령과의 정상회담에서 “패권주의가 횡행하고 있는 가운데 중-러 양국이 공정하고 합리적인 글로벌 거버넌스 체계를 구축해야 한다”고 밝혔다. 푸틴 대통령은 “러시아는 중국과 함께 각국의 주권적 발전 권리를 존중하며 민주적인 세계 질서를 구축하기 위해 노력하고 있다”고 했다. 그는 또 “‘총알의 이익’에 따라 재편되는 복잡한 국제질서 속에서 중-러 협력은 국제 정세 안정의 핵심 기둥”이라고 말했다고 홍콩 사우스차이나모닝포스트(SCMP)가 전했다. 앞서 도널드 트럼프 미국 대통령은 13∼15일 중국을 국빈 방문했다. 이후 5일 만에 만난 중-러 정상이 이란과 전쟁을 벌이는 미국을 비판하며 일종의 공동 전선을 형성하고, 양국 간 협력 강화를 다짐했다는 분석이 나온다.● “중동 휴전, 더 미룰 수 없어” 중국 관영 신화통신에 따르면 시 주석은 이날 “중동의 전면적 휴전은 더 이상 늦출 수 없다. 전쟁 재개는 더욱 바람직하지",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프 “라이칭더 총통과 대화할 것…대만 문제 다룰 것”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260521/133964570/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-05-21 00:03:55",
+          "description": "도널드 트럼프 미국 대통령이 20일(현지시간) 대만 문제 해결을 위해 나설 뜻을 밝혔다.로이터 통신에 따르면, 트럼프 대통령은 이날 기자들과 만나 “라이칭더 총통과 대화할 것이다. 나는 모두와 대화한다”며 “우리는 그 문제, 대만 문제를 다룰 것”이라고 말했다.트럼프 대통령의 지난주 시진핑 중국 국가주석과의 정상회담에서 대만 독립에 반대하는 듯한 발언을 했다.그는 대만 해협의 긴장 상태와 관련해 “독립을 추진하는 것은 위험한 일이며, 그들이 독립하려는 이유는 전쟁을 원하기 때문이고 미국이 자신들의 등 뒤에 있다고 생각하기 때문”이라고 말했다.또한 대만에 대한 약 140억 달러(약 21조 원) 규모의 무기 판매와 관련해 이를 “매우 좋은 협상 카드”라고 말했다.로이터는 트럼프 대통령과 라이칭더 총통의 대화가 성사되면 중대한 외교적 진전이라고 평가했다. 미국은 1979년 중국과 수교를 맺으면서 대만과 단교한 후 양국 정상과 직접 대화를 한 적은 없었다.(서울=뉴스1)",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프 발표 직전 1조원대 원유 거래…美당국, ‘내부정보 샜나’ 캔다",
+          "link": "https://www.donga.com/news/Inter/article/all/20260520/133962326/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-05-20 17:44:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/05/20/133964345.1.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령이 이란 에너지 시설 공격을 보류한다고 밝히기 직전 원유선물 시장에서 1조원대 거래가 몰린 것으로 나타났다. 미국 상품선물거래위원회(CFTC)는 대통령 발표 내용을 미리 안 인물이 거래했거나 관련 정보를 외부에 흘렸는지 조사하고 있다.미국 월스트리트저널(WSJ)은 19일(현지시간) 트럼프 대통령이 지난 3월23일 오전 소셜미디어에 테헤란 에너지 기반시설 공격을 연기한다는 글을 올리기 직전, 미국과 국제 원유선물 8억달러 이상이 수분 사이 거래됐다고 보도했다. 원화로는 1조원대 규모다.트럼프 대통령이 공격 보류 방침을 밝힌 뒤 미국 원유 가격은 한때 13% 급락했다. WSJ가 확인한 거래 기록에 따르면 당시 원유선물을 사고판 업체 가운데 최소 5곳은 각각 500만달러 이상의 이익을 낸 것으로 추산됐다.CFTC는 이 거래량 급증이 단순한 시장 반응이었는지, 아니면 비공개 정보를 활용한 거래였는지 들여다보고 있다. 조사 당국은 트럼프 대통령의 글을 사전에 알",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "정책발표 직전 사고 팔고…‘트럼프 계좌’ 거래 올해 3700건",
+          "link": "https://www.donga.com/news/Inter/article/all/20260520/133957755/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-05-20 13:40:19",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/05/20/133957756.2.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령의 1분기 개인 투자 기록이 공개되며 빅테크 집중 매입·매도 시점과 정책 판단을 둘러싼 이해충돌 논란이 확산하고 있다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 4,
+      "role": "미국 대통령"
+    }
+  }
+}
