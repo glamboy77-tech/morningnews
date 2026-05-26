@@ -1,0 +1,78 @@
+{
+  "timestamp": "2026-05-27T06:02:22.472924",
+  "date": "20260527",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "李의 원잠 언급 직후에… 北, 탄도미사일·방사포 ‘섞어 쏘기’ 도발",
+          "link": "https://www.chosun.com/politics/diplomacy-defense/2026/05/27/RH25OBI7HFFGVBGG3CFQRQERBY/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-05-27 00:52:00",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李 “집값 오른다는데 대책을 세우고 있나”",
+          "link": "https://www.chosun.com/politics/politics_general/2026/05/27/W7CZRZJ7QZE2HFDELFDNHJHQDE/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-05-27 00:49:00",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": [
+            {
+              "source": "조선일보-정치",
+              "title": "이 대통령 “집값 다시 오른다는데 대책 세우고 있나”",
+              "link": "https://www.chosun.com/politics/politics_general/2026/05/26/CNVMNVBJHRHHHMYMSVM36JF27U/"
+            }
+          ]
+        },
+        {
+          "title": "李 “국회 입법 기다리면 몇 년씩 걸려... 시행령으로 하라”",
+          "link": "https://www.chosun.com/politics/blue_house/2026/05/26/CLWXILQWQVHT3EBPERFKFWKYJU/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-05-26 15:28:09",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, 오전엔 “동남권 전략적 투자” 오후엔 부산 자갈치시장 방문",
+          "link": "https://www.chosun.com/politics/blue_house/2026/05/26/DYTASYL23VC2LJ4BTR5JCLURIY/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-05-26 22:47:02",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "지방/행정",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 “핵추진잠수함 도입 속도내야...전작권 환수도 신속히”",
+          "link": "https://www.chosun.com/politics/politics_general/2026/05/26/OCQMZL3QARGQVBJFEM6NUFRW5M/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-05-26 10:41:18",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        }
+      ],
+      "count": 5,
+      "role": "한국 대통령"
+    }
+  }
+}
