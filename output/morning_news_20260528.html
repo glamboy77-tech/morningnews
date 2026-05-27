@@ -5,11 +5,11 @@
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Morning News 2026.05.28</title>
-            <link rel="manifest" href="manifest.json">
+            <link rel="manifest" href="../manifest.json">
             <script>
               // Service Worker Registration
               if ('serviceWorker' in navigator) {
-                navigator.serviceWorker.register('sw.js')
+                navigator.serviceWorker.register('../sw.js')
                   .then(registration => {
                     console.log('Service Worker registered:', registration);
                   })
@@ -171,7 +171,6 @@ ${shareText}`);
                   if (geminiLoadTimer) clearTimeout(geminiLoadTimer);
                   geminiLoadTimer = setTimeout(() => {
                       if (!geminiLoaded) {
-                          // Keep the hint visible but allow interaction if needed.
                           setGeminiLoading(false);
                       }
                   }, 15000);
@@ -951,7 +950,7 @@ ${shareText}`);
                         <button class="action-btn" onclick="shareMorningBriefing()">📤 오늘 브리핑 공유</button>
                     </div>
                 </header>
-        <div class="sticky-nav"><a href="archive.html" class="nav-pill">🗓️ 아카이브</a><a href="https://www.youtube.com/@morning5min" class="nav-pill" target="_blank" rel="noopener noreferrer">🎬 데일리 맥락</a><a href="#인물별" class="nav-pill">👤 인물별 (9)</a><a href="#정치" class="nav-pill">정치 (57)</a><a href="#경제/거시" class="nav-pill">경제/거시 (16)</a><a href="#기업/산업" class="nav-pill">기업/산업 (34)</a><a href="#부동산" class="nav-pill">부동산 (31)</a><a href="#국제" class="nav-pill">국제 (29)</a><a href="#science" class="nav-pill">테크 (10)</a></div><div class="briefing-card"><div class="briefing-title">⚡ Morning Briefing</div>
+        <div class="sticky-nav"><a href="../archive.html" class="nav-pill">🗓️ 아카이브</a><a href="https://www.youtube.com/@morning5min" class="nav-pill" target="_blank" rel="noopener noreferrer">🎬 데일리 맥락</a><a href="#인물별" class="nav-pill">👤 인물별 (9)</a><a href="#정치" class="nav-pill">정치 (57)</a><a href="#경제/거시" class="nav-pill">경제/거시 (16)</a><a href="#기업/산업" class="nav-pill">기업/산업 (34)</a><a href="#부동산" class="nav-pill">부동산 (31)</a><a href="#국제" class="nav-pill">국제 (29)</a><a href="#science" class="nav-pill">테크 (10)</a></div><div class="briefing-card"><div class="briefing-title">⚡ Morning Briefing</div>
                     <div class="briefing-item">
                         <span class="briefing-label">정치</span>
                         <span class="briefing-content">정부는 나무호 타격 비행체가 이란의 대함미사일일 가능성이 높다고 결론지었으며, 이와 관련해 오후 5시 조사 결과를 발표합니다. 내일부터 이틀간 지방선거 사전투표가 시작되는 가운데 여야는 유세 현장에서의 언행 주의보를 내리는 한편 박근혜 전 대통령의 등판과 대통령의 지방 행보를 두고 선거 개입 공방을 벌이고 있습니다. 또한 조달청 공무원의 자녀 채용 청탁 적발과 국정자원 화재 대응 중 숨진 공무원의 순직 인정 소식이 전해졌습니다.</span>
@@ -2670,11 +2669,7 @@ ${shareText}`);
             <div id="geminiOverlay" class="gemini-overlay" role="dialog" aria-modal="true" aria-label="Gemini Navigator">
                 <div class="gemini-overlay-header">
                     <div class="gemini-overlay-title">🔎 Gemini 네비게이터</div>
-                    <div class="gemini-overlay-actions">
-                        <button class="gemini-icon-btn" type="button" title="새로고침" onclick="reloadGeminiNavigator()">↻</button>
-                        <button class="gemini-icon-btn" type="button" title="새 창으로 열기" onclick="openGeminiInNewTab()">↗</button>
-                        <button class="gemini-icon-btn" type="button" title="닫기" onclick="closeGeminiNavigator()">✕</button>
-                    </div>
+                    <div class="gemini-overlay-actions"><button class="gemini-icon-btn" type="button" title="새로고침" onclick="reloadGeminiNavigator()">↻</button><button class="gemini-icon-btn" type="button" title="새 창으로 열기" onclick="openGeminiInNewTab()">↗</button><button class="gemini-icon-btn" type="button" title="닫기" onclick="closeGeminiNavigator()">✕</button></div>
                 </div>
                 <div class="gemini-overlay-body">
                     <div id="geminiLoading" class="gemini-overlay-loading">
