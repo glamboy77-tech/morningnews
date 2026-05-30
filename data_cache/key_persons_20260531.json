@@ -1,0 +1,70 @@
+{
+  "timestamp": "2026-05-31T06:02:16.249702",
+  "date": "20260531",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "李대통령 “투표 포기, 중립 아닌 공동체 해치는 그들 편 드는 것”",
+          "link": "https://www.chosun.com/economy/economy_general/2026/05/30/GNSDONRQGM2DSNLBHA4GMMLCMQ/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-05-30 10:24:14",
+          "description": "이재명 대통령이 6·3 지방선거 사전투표 둘째 날인 30일 유권자들을 향해 투표 참여를 독려했다. 이 대통령은 이날 엑스(X·옛 트위터)에 올린 ‘꼭 투표합시다’라는 제목의 글에서 “투표는 민주주의의 생명줄”이라며 “투표를 포기하는 것은 나와 가족의 미래를 포기하는 것과 같다”고 강조했다. 이 대통령은 또한 “투표 포기는 중립이 아니라 내 삶과 공동체를 해",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": [
+            {
+              "source": "조선일보-정치",
+              "title": "李대통령 “투표 포기, 공동체 해치는 그들 편드는 것”",
+              "link": "https://www.chosun.com/politics/election2026/2026/05/30/JFI6I37WGZHPVEBB3GX6MEWHSM/"
+            },
+            {
+              "source": "연합뉴스-정치",
+              "title": "李대통령 \"투표 포기, 내 삶과 공동체 해치는 그들 편드는 것\"",
+              "link": "https://www.yna.co.kr/view/AKR20260530021000001"
+            }
+          ]
+        },
+        {
+          "title": "국힘, '투표지 노출 논란'에 李대통령 고발…與 \"억지 정치공세\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260530047351001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-05-30 20:12:36",
+          "description": "(하동·서울=연합뉴스) 최평천 권희원 정연솔 기자 = 국민의힘은 30일 이재명 대통령의 &apos;사전투표 투표지 노출 논란&apos;과 관련, 이 대통령을 공직...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": true,
+          "related_full_sources": [
+            {
+              "source": "조선일보-경제",
+              "title": "국힘, ‘투표지 노출 논란’ 李대통령 고발…민주 “억지 공격”",
+              "link": "https://www.chosun.com/economy/economy_general/2026/05/30/GQYGIOBZGI3DOYJSHFRTAZTFGU/"
+            },
+            {
+              "source": "연합뉴스-정치",
+              "title": "국힘, '투표지 노출 논란'에 李대통령 고발…與 \"억지 정치공세\"",
+              "link": "https://www.yna.co.kr/view/AKR20260530047300001"
+            }
+          ]
+        },
+        {
+          "title": "“李 선거개입 중단하라”…野, ‘서울시청 압수수색’ 경찰 항의 방문",
+          "link": "https://www.chosun.com/politics/election2026/2026/05/30/EJH5O66PEVF7FC35STVNPMJ7LQ/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-05-30 12:48:41",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": false,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "한국 대통령"
+    }
+  }
+}
