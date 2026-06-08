@@ -9,11 +9,12 @@ import glob
 import random
 from datetime import datetime, timedelta, timezone
 from config import config
+from llm_errors import is_fatal_llm_error, is_retryable_llm_error
 
 class SentimentAnalyzer:
     def __init__(self):
-        self.client = genai.Client(api_key=config.gemini_api_key)
-        self.openai_client = OpenAI(api_key=config.openai_api_key) if config.openai_api_key else None
+        self.client = genai.Client(api_key=config.gemini_api_key) if config.gemini_api_key else None
+        self.openai_client = OpenAI(api_key=config.openai_api_key, timeout=120.0) if config.openai_api_key else None
         self.cache_dir = "sentiment_cache"
         os.makedirs(self.cache_dir, exist_ok=True)
         self.tts_dir = "scripts"
@@ -331,27 +332,36 @@ class SentimentAnalyzer:
     # -----------------------------
     @staticmethod
     def _is_retryable_error(err: Exception) -> bool:
-        msg = str(err)
-        # Gemini/Google GenAI commonly returns "503 UNAVAILABLE" when overloaded.
-        return (
-            "503" in msg
-            or "UNAVAILABLE" in msg
-            or "RESOURCE_EXHAUSTED" in msg
-            or "429" in msg
-            or "overloaded" in msg.lower()
-            or "rate" in msg.lower() and "limit" in msg.lower()
-        )
+        # Only transient availability/timeout errors are retryable.  Quota,
+        # billing, 400, and 429 errors are deliberately not retried because
+        # they create noisy failed calls and do not recover within the same job.
+        return is_retryable_llm_error(err)
 
     def _generate_json_with_retry(self, prompt: str, *, model: str, max_retries: int = 3, base_sleep_sec: float = 3.0):
+        if self.openai_client:
+            try:
+                return self._generate_json_with_openai_retry(
+                    prompt,
+                    model=config.openai_model_summary,
+                    max_retries=max_retries,
+                    base_sleep_sec=base_sleep_sec,
+                )
+            except Exception as openai_error:
+                print(f"⚠️ OpenAI JSON 생성 실패, Gemini fallback 시도: {openai_error}")
+                if is_fatal_llm_error(openai_error):
+                    raise
+
         last_err = None
         for attempt in range(1, max_retries + 1):
             try:
+                if not self.client:
+                    raise RuntimeError("GEMINI_API_KEY is not configured")
                 resp = self.client.models.generate_content(
                     model=model,
                     contents=prompt,
                     config={'response_mime_type': 'application/json'}
                 )
-                return json.loads(resp.text)
+                return self._parse_json_payload(resp.text, source=f"gemini:{model}")
             except Exception as e:
                 last_err = e
                 if attempt < max_retries and self._is_retryable_error(e):
@@ -366,6 +376,49 @@ class SentimentAnalyzer:
         # Should never reach here
         raise last_err
 
+    def _generate_json_with_openai_retry(self, prompt: str, *, model: str, max_retries: int = 3, base_sleep_sec: float = 3.0):
+        if not self.openai_client:
+            raise RuntimeError("OPENAI_API_KEY is not configured")
+
+        last_err = None
+        for attempt in range(1, max_retries + 1):
+            try:
+                started = time.time()
+                print(f"⏳ OpenAI summary JSON 호출 시작: model={model}, prompt_chars={len(prompt)}")
+                resp = self.openai_client.with_options(timeout=120.0).chat.completions.create(
+                    model=model,
+                    messages=[
+                        {
+                            "role": "system",
+                            "content": "You are a Korean news briefing analysis engine. Output ONLY valid JSON, no markdown, no commentary.",
+                        },
+                        {
+                            "role": "user",
+                            "content": prompt,
+                        },
+                    ],
+                    response_format={"type": "json_object"},
+                )
+                content = resp.choices[0].message.content
+                if not content:
+                    raise ValueError("OpenAI returned empty JSON payload")
+                print(f"✅ OpenAI summary JSON 호출 완료: model={model}, elapsed={time.time() - started:.1f}s")
+                return self._parse_json_payload(content, source=f"openai-summary:{model}")
+            except Exception as e:
+                last_err = e
+                if attempt < max_retries and self._is_retryable_error(e):
+                    jitter = random.uniform(0.0, base_sleep_sec * 0.6)
+                    sleep_sec = base_sleep_sec * (2 ** (attempt - 1)) + jitter
+                    print(f"⚠️ OpenAI JSON 호출 실패(재시도 {attempt}/{max_retries}): {e}")
+                    print(f"   -> {sleep_sec:.1f}s 후 재시도")
+                    time.sleep(sleep_sec)
+                    continue
+                if is_fatal_llm_error(e):
+                    raise
+                raise
+
+        raise last_err
+
     def _generate_text_with_openai(self, prompt: str, *, model: str, max_retries: int = 3, base_sleep_sec: float = 3.0) -> str:
         if not self.openai_client:
             raise RuntimeError("OPENAI_API_KEY is not configured")
@@ -373,7 +426,7 @@ class SentimentAnalyzer:
         last_err = None
         for attempt in range(1, max_retries + 1):
             try:
-                resp = self.openai_client.responses.create(
+                resp = self.openai_client.with_options(timeout=120.0).responses.create(
                     model=model,
                     input=[
                         {
@@ -401,6 +454,52 @@ class SentimentAnalyzer:
 
         raise last_err
 
+    @staticmethod
+    def _extract_first_json_object(text: str) -> str | None:
+        if not isinstance(text, str):
+            return None
+
+        decoder = json.JSONDecoder()
+        for idx, ch in enumerate(text):
+            if ch not in "[{":
+                continue
+            try:
+                _, end = decoder.raw_decode(text[idx:])
+                return text[idx: idx + end]
+            except Exception:
+                continue
+        return None
+
+    def _parse_json_payload(self, raw_text: str, *, source: str = "llm"):
+        if not isinstance(raw_text, str):
+            raise ValueError(f"{source} returned non-string payload: {type(raw_text)}")
+
+        text = raw_text.strip()
+        if not text:
+            raise ValueError(f"{source} returned empty payload")
+
+        candidates = [text]
+
+        fenced = re.findall(r"```(?:json)?\s*([\s\S]*?)```", text, re.IGNORECASE)
+        candidates.extend(chunk.strip() for chunk in fenced if isinstance(chunk, str) and chunk.strip())
+
+        first_json = self._extract_first_json_object(text)
+        if first_json:
+            candidates.append(first_json.strip())
+
+        seen = set()
+        for candidate in candidates:
+            if not candidate or candidate in seen:
+                continue
+            seen.add(candidate)
+            try:
+                return json.loads(candidate)
+            except json.JSONDecodeError:
+                continue
+
+        preview = text[:300].replace("\n", "\\n")
+        raise ValueError(f"Invalid JSON response from {source}: {preview}")
+
     def _generate_tts_script_with_openai(self, prompt: str, *, model: str, max_retries: int = 3, base_sleep_sec: float = 3.0) -> dict:
         """Generate anchor script using OpenAI chat.completions API and return JSON.
 
@@ -419,7 +518,9 @@ class SentimentAnalyzer:
         last_err = None
         for attempt in range(1, max_retries + 1):
             try:
-                resp = self.openai_client.chat.completions.create(
+                started = time.time()
+                print(f"⏳ OpenAI brief script 호출 시작: model={model}, prompt_chars={len(prompt)}")
+                resp = self.openai_client.with_options(timeout=120.0).chat.completions.create(
                     model=model,
                     messages=[
                         {
@@ -432,16 +533,16 @@ class SentimentAnalyzer:
                         },
                     ],
                     response_format={"type": "json_object"},
-                    temperature=0.7,
                 )
                 
                 content = resp.choices[0].message.content
                 if not content:
                     raise ValueError("OpenAI returned empty content")
+                print(f"✅ OpenAI brief script 호출 완료: model={model}, elapsed={time.time() - started:.1f}s")
                 
                 # Parse JSON response
                 try:
-                    result = json.loads(content)
+                    result = self._parse_json_payload(content, source=f"openai-brief:{model}")
                     # Expect source_script to be plain text (string)
                     source_script = result.get("source_script") if isinstance(result, dict) else None
                     if not isinstance(source_script, str) or not source_script.strip():
@@ -794,6 +895,55 @@ class SentimentAnalyzer:
                 "generated_at": datetime.now().isoformat(),
             },
         }
+
+    def validate_publishable_briefing(self, data: dict | None) -> list[str]:
+        """Return quality gate issues that should prevent publishing outputs."""
+
+        issues: list[str] = []
+        if not isinstance(data, dict):
+            return ["briefing_data_not_dict"]
+
+        meta = data.get("meta") if isinstance(data.get("meta"), dict) else {}
+        generated_by = str(meta.get("generated_by", "")).lower()
+        if generated_by in {"fallback", "stale_cache"}:
+            issues.append(f"meta_generated_by_{generated_by}")
+
+        combined_text_parts: list[str] = []
+        section_summaries = data.get("section_summaries")
+        if isinstance(section_summaries, dict):
+            combined_text_parts.extend(str(v) for v in section_summaries.values())
+
+        brief_scripts = data.get("brief_scripts")
+        source_script = None
+        if isinstance(brief_scripts, dict):
+            source_script = brief_scripts.get("source_script")
+        if isinstance(source_script, str):
+            combined_text_parts.append(source_script)
+        else:
+            issues.append("missing_brief_source_script")
+
+        tts_script = data.get("tts_script")
+        lines = tts_script.get("lines") if isinstance(tts_script, dict) else None
+        if not isinstance(lines, list) or len([line for line in lines if str(line).strip()]) < 20:
+            issues.append("tts_lines_too_short")
+        else:
+            combined_text_parts.extend(str(line) for line in lines)
+
+        shorts_scripts = data.get("shorts_scripts")
+        shorts_items = shorts_scripts.get("items") if isinstance(shorts_scripts, dict) else None
+        if not isinstance(shorts_items, list) or len(shorts_items) < 3:
+            issues.append("missing_or_short_shorts_scripts")
+
+        combined_text = "\n".join(combined_text_parts)
+        failure_tokens = [
+            "브리핑 생성에 실패했습니다",
+            "잠시 후 다시 시도해주세요",
+            "오늘 브리핑 생성에 실패",
+        ]
+        if any(token in combined_text for token in failure_tokens):
+            issues.append("contains_failure_message")
+
+        return issues
 
     def _ensure_tts_script(self, data: dict, date_str: str | None = None) -> dict:
         """Ensure tts_script exists and is well-formed for backward compatibility."""
@@ -1646,6 +1796,12 @@ class SentimentAnalyzer:
             "macro_context",
             "sector_focus",
             "company_focus",
+            "person_news",
+            "company_industry",
+            "politics_policy",
+            "living_economy",
+            "real_estate",
+            "global_security",
         }
 
         normalized: list[dict] = []
@@ -1656,7 +1812,7 @@ class SentimentAnalyzer:
             title = str(item.get("title", "")).strip()
             hook = str(item.get("hook", "")).strip()
             cta = str(item.get("cta", "")).strip()
-            fmt = str(item.get("format", "general")).strip() or "general"
+            fmt = str(item.get("format") or item.get("category") or "general").strip() or "general"
             if fmt not in allowed_formats:
                 continue
 
@@ -1693,6 +1849,12 @@ class SentimentAnalyzer:
             })
 
         slot_order = [
+            "living_economy",
+            "company_industry",
+            "politics_policy",
+            "real_estate",
+            "global_security",
+            "person_news",
             "positive_flow",
             "risk_flow",
             "macro_context",
@@ -1709,12 +1871,125 @@ class SentimentAnalyzer:
     @staticmethod
     def _shorts_slot_order() -> list[str]:
         return [
+            "living_economy",
+            "company_industry",
+            "politics_policy",
+            "real_estate",
+            "global_security",
+        ]
+
+    @staticmethod
+    def _legacy_shorts_slot_order() -> list[str]:
+        return [
             "positive_flow",
             "risk_flow",
             "macro_context",
             "sector_focus",
             "company_focus",
         ]
+
+    @staticmethod
+    def _is_bad_shorts_source_line(line: str) -> bool:
+        text = re.sub(r"\s+", " ", (line or "")).strip()
+        if not text:
+            return True
+        bad_exact = {
+            "안녕하십니까.",
+            "오늘의 흐름을 압축해 드리는 데일리 맥락입니다.",
+            "먼저 정치와 국내 이슈부터 보겠습니다.",
+            "이제 거시경제와 생활 체감으로 넘어가겠습니다.",
+            "이어서 기업과 산업 기술 흐름을 보겠습니다.",
+            "다음은 부동산과 주거 이슈를 짚어보겠습니다.",
+            "마지막으로 국제와 안보 흐름을 보겠습니다.",
+            "이제 오늘의 호재를 정리하겠습니다.",
+            "이어서 오늘의 악재를 정리하겠습니다.",
+        }
+        if text in bad_exact:
+            return True
+        bad_prefixes = (
+            "오늘은 ",
+            "먼저 ",
+            "이제 ",
+            "이어서 ",
+            "다음은 ",
+            "마지막으로 ",
+        )
+        transition_tokens = ("살펴보겠습니다", "보겠습니다", "짚어보겠습니다", "넘어가겠습니다", "정리하겠습니다", "전해드리겠습니다")
+        if text.startswith(bad_prefixes) and any(token in text for token in transition_tokens):
+            return True
+        # 본편 전체 흐름 예고 문장은 쇼츠 본문에 들어가면 맥락이 흐려집니다.
+        if "차례로" in text and any(token in text for token in transition_tokens):
+            return True
+        return False
+
+    @staticmethod
+    def _split_source_script_for_shorts(source_script: str) -> list[str]:
+        raw_parts = re.split(r"\n+|(?<=[.!?。])\s+", source_script or "")
+        lines: list[str] = []
+        seen: set[str] = set()
+        for part in raw_parts:
+            text = re.sub(r"\s+", " ", part).strip()
+            if not text or SentimentAnalyzer._is_bad_shorts_source_line(text):
+                continue
+            if len(text) < 18 or len(text) > 115:
+                continue
+            if text in seen:
+                continue
+            seen.add(text)
+            lines.append(text)
+        return lines
+
+    @staticmethod
+    def _line_matches_any(line: str, tokens: tuple[str, ...]) -> bool:
+        return any(token in line for token in tokens)
+
+    def _pick_shorts_lines(self, source_lines: list[str], *, tokens: tuple[str, ...], start_index: int = 0, count: int = 3) -> list[str]:
+        picked: list[str] = []
+        for line in source_lines:
+            if self._line_matches_any(line, tokens):
+                picked.append(line)
+            if len(picked) >= count:
+                return picked[:count]
+
+        for line in source_lines[start_index:]:
+            if line not in picked:
+                picked.append(line)
+            if len(picked) >= count:
+                return picked[:count]
+
+        for line in source_lines:
+            if line not in picked:
+                picked.append(line)
+            if len(picked) >= count:
+                break
+        while len(picked) < count:
+            picked.append("오늘 본편에서 이 이슈가 생활과 시장에 이어지는 맥락을 더 짚어드립니다.")
+        return picked[:count]
+
+    @staticmethod
+    def _short_title_from_keyword(keyword: str, suffix: str) -> str:
+        clean = re.sub(r"\s+", " ", keyword or "").strip() or "오늘 이슈"
+        clean = clean[:14]
+        return f"{clean}, {suffix}"
+
+    @staticmethod
+    def _keyword_from_lines(lines: list[str], fallback: str) -> str:
+        text = " ".join(lines or [])
+        candidates = [
+            "생활물가", "국제유가", "환율", "금리", "대출", "전셋값", "주거 시장",
+            "삼성전자", "SK하이닉스", "한국전력", "삼성중공업", "반도체", "AI", "공급망", "대형 수주",
+            "지방선거", "추가 관세", "통상 압박", "중동 긴장", "부동산", "개인정보",
+        ]
+        for candidate in candidates:
+            if candidate in text:
+                return candidate
+
+        # 고유명사/핵심 명사 후보를 보수적으로 추출
+        compact = re.sub(r"[^0-9A-Za-z가-힣·]+", " ", text).strip()
+        for token in compact.split():
+            if 2 <= len(token) <= 12 and token not in {"오늘", "시장", "흐름", "분위기", "모습", "해석", "관측", "반응"}:
+                return token
+        return fallback
 
     def _build_single_shorts_fallback_item(
         self,
@@ -1724,48 +1999,125 @@ class SentimentAnalyzer:
         keywords: list[str] | None = None,
     ) -> dict:
         keys = self._normalize_keywords(keywords)
-        k1 = keys[0] if keys else "오늘 흐름"
-        k2 = keys[1] if len(keys) > 1 else "시장 흐름"
+        k1 = keys[0] if keys else "오늘 이슈"
+        k2 = keys[1] if len(keys) > 1 else "생활 부담"
+        k3 = keys[2] if len(keys) > 2 else "시장 변수"
 
-        snippets = [line for line in source_lines if line and len(line) <= 90]
-        while len(snippets) < 6:
-            snippets.append("오늘 뉴스의 핵심 흐름을 본편에서 더 자세히 확인할 수 있습니다.")
+        snippets = [line for line in source_lines if line and not self._is_bad_shorts_source_line(line)]
+        while len(snippets) < 8:
+            snippets.append("오늘 본편에서는 이 흐름이 생활과 시장에 어떻게 이어지는지 더 짚어드립니다.")
+
+        category_tokens = {
+            "living_economy": ("물가", "유가", "환율", "금리", "대출", "생활", "소비", "부담", "장바구니", "고용"),
+            "company_industry": ("삼성", "SK", "현대", "기업", "산업", "반도체", "AI", "배터리", "조선", "수주", "공급망"),
+            "politics_policy": ("정부", "국회", "대통령", "여야", "정책", "선거", "규제", "법안", "행정"),
+            "real_estate": ("부동산", "주거", "전세", "월세", "집값", "청약", "재건축", "분양", "공급", "아파트"),
+            "global_security": ("미국", "중국", "일본", "이란", "중동", "관세", "안보", "러시아", "우크라이나", "국제"),
+            "person_news": ("대통령", "총리", "장관", "대표", "후보", "회장", "트럼프", "시진핑", "푸틴"),
+            "positive_flow": ("수주", "계약", "반등", "상승", "개선", "확대", "회복", "성과", "호재"),
+            "risk_flow": ("부담", "리스크", "우려", "불안", "하락", "급락", "파업", "관세", "악재"),
+            "macro_context": ("환율", "금리", "증시", "성장률", "물가", "시장", "경제"),
+            "sector_focus": ("산업", "반도체", "AI", "방산", "배터리", "건설", "조선"),
+            "company_focus": ("삼성", "SK", "현대", "카카오", "테슬라", "애플", "기업"),
+        }
+        starts = {
+            "living_economy": 0,
+            "company_industry": 3,
+            "politics_policy": 0,
+            "real_estate": 6,
+            "global_security": 9,
+            "person_news": 0,
+            "positive_flow": 0,
+            "risk_flow": 2,
+            "macro_context": 4,
+            "sector_focus": 5,
+            "company_focus": 6,
+        }
+        picked = self._pick_shorts_lines(
+            snippets,
+            tokens=category_tokens.get(slot, ()),
+            start_index=starts.get(slot, 0),
+            count=3,
+        )
+        line_keyword = self._keyword_from_lines(picked, k1)
 
         templates = {
+            "living_economy": {
+                "title": self._short_title_from_keyword(self._keyword_from_lines(picked, k2), "생활비 변수"),
+                "hook": "이 뉴스는 생활비와 바로 연결됩니다.",
+                "lines": picked,
+                "cta": "본편에서는 이 부담이 어디까지 이어질지 함께 봅니다.",
+                "hashtags": ["#데일리맥락", "#뉴스요약", "#shorts", "#생활경제"],
+            },
+            "company_industry": {
+                "title": self._short_title_from_keyword(line_keyword, "산업 흐름"),
+                "hook": "오늘 산업 뉴스는 이 지점이 중요합니다.",
+                "lines": picked,
+                "cta": "본편에서 기업과 산업 흐름을 차분히 이어서 정리했습니다.",
+                "hashtags": ["#데일리맥락", "#뉴스요약", "#shorts", "#산업뉴스"],
+            },
+            "politics_policy": {
+                "title": self._short_title_from_keyword(line_keyword, "정책 영향"),
+                "hook": "정치 뉴스도 결국 생활과 시장으로 이어집니다.",
+                "lines": picked,
+                "cta": "본편에서는 정책과 민생 흐름을 함께 연결해 봅니다.",
+                "hashtags": ["#데일리맥락", "#뉴스요약", "#shorts", "#정책뉴스"],
+            },
+            "real_estate": {
+                "title": self._short_title_from_keyword("주거 시장", "체감 부담"),
+                "hook": "집값보다 먼저 체감되는 부담이 있습니다.",
+                "lines": picked,
+                "cta": "본편에서는 주거 심리가 왜 흔들리는지 이어서 설명드립니다.",
+                "hashtags": ["#데일리맥락", "#뉴스요약", "#shorts", "#부동산"],
+            },
+            "global_security": {
+                "title": self._short_title_from_keyword(line_keyword, "한국 영향"),
+                "hook": "해외 뉴스가 국내 부담으로 번질 수 있습니다.",
+                "lines": picked,
+                "cta": "본편에서 국제 변수가 시장과 생활에 닿는 지점을 정리했습니다.",
+                "hashtags": ["#데일리맥락", "#뉴스요약", "#shorts", "#국제뉴스"],
+            },
+            "person_news": {
+                "title": self._short_title_from_keyword(k1, "오늘의 인물"),
+                "hook": "오늘 뉴스의 중심에 선 인물이 있습니다.",
+                "lines": picked,
+                "cta": "본편에서 이 인물이 오늘 흐름에 왜 중요한지 확인해보세요.",
+                "hashtags": ["#데일리맥락", "#뉴스요약", "#shorts", "#인물뉴스"],
+            },
             "positive_flow": {
                 "title": f"지금 {k1}, 좋아 보이는 이유",
                 "hook": "오늘 아침, 긍정 신호 하나를 보겠습니다.",
-                "lines": [snippets[0], snippets[1], "장기적으로 보면 우호적인 흐름으로 읽힐 수 있습니다."],
+                "lines": picked,
                 "cta": "본편에서 왜 이 흐름이 의미 있는지 맥락까지 확인해보세요.",
-                "hashtags": ["#긍정신호", "#아침브리핑", "#데일리맥락"],
+                "hashtags": ["#데일리맥락", "#뉴스요약", "#shorts", "#긍정신호"],
             },
             "risk_flow": {
                 "title": f"지금 {k2}, 부담 커진 이유",
                 "hook": "오늘 아침, 조심해서 볼 흐름이 있습니다.",
-                "lines": [snippets[1], snippets[2], "비용과 심리 측면에서 부담 요인으로 거론될 수 있습니다."],
+                "lines": picked,
                 "cta": "본편에서 어떤 리스크로 이어질 수 있는지 정리해드립니다.",
-                "hashtags": ["#리스크체크", "#생활경제", "#데일리맥락"],
+                "hashtags": ["#데일리맥락", "#뉴스요약", "#shorts", "#리스크체크"],
             },
             "macro_context": {
                 "title": "오늘 돈의 흐름 한 줄 정리",
                 "hook": "오늘 뉴스는 한 줄로 연결됩니다.",
-                "lines": [snippets[0], snippets[2], "결국 오늘 핵심은 하나의 큰 흐름으로 이어진다는 점입니다."],
+                "lines": picked,
                 "cta": "본편에서 전체 맥락을 5분 안에 확인해보세요.",
-                "hashtags": ["#거시흐름", "#시장맥락", "#뉴스요약"],
+                "hashtags": ["#데일리맥락", "#뉴스요약", "#shorts", "#거시흐름"],
             },
             "sector_focus": {
                 "title": f"지금 {k1} 분야가 중요한 이유",
                 "hook": "오늘은 이 분야를 눈여겨볼 만합니다.",
-                "lines": [snippets[2], snippets[3], "업종 단위로 보면 의미 있는 변화가 감지됩니다."],
+                "lines": picked,
                 "cta": "본편에서 이 분야가 오늘 왜 중요했는지 함께 보세요.",
-                "hashtags": ["#섹터포커스", "#산업트렌드", "#데일리맥락"],
+                "hashtags": ["#데일리맥락", "#뉴스요약", "#shorts", "#섹터포커스"],
             },
             "company_focus": {
                 "title": "이 기업이 다시 언급되는 배경",
                 "hook": "오늘은 이 기업이 유독 눈에 띕니다.",
-                "lines": [snippets[3], snippets[4], "당장 추천보다, 왜 다시 주목받는지 보는 게 중요합니다."],
+                "lines": picked,
                 "cta": "본편에서 이 기업 관련 흐름을 차분히 정리해드립니다.",
-                "hashtags": ["#기업포커스", "#시장체크", "#아침뉴스"],
+                "hashtags": ["#데일리맥락", "#뉴스요약", "#shorts", "#기업포커스"],
             },
         }
 
@@ -1783,11 +2135,20 @@ class SentimentAnalyzer:
 
     def _ensure_five_shorts_items(self, items: list[dict], *, source_script: str, keywords: list[str] | None = None) -> list[dict]:
         normalized = self._normalize_shorts_items(items)
+        if len(normalized) >= 5:
+            return normalized[:5]
+
         by_format = {item.get("format"): item for item in normalized if isinstance(item, dict)}
-        source_lines = [s.strip() for s in re.split(r"[\n]+", source_script or "") if s.strip()]
+        source_lines = self._split_source_script_for_shorts(source_script)
+
+        has_current_categories = any(
+            fmt in by_format
+            for fmt in ["living_economy", "company_industry", "politics_policy", "real_estate", "global_security", "person_news"]
+        )
+        slot_order = self._shorts_slot_order() if has_current_categories else self._legacy_shorts_slot_order()
 
         completed: list[dict] = []
-        for slot in self._shorts_slot_order():
+        for slot in slot_order:
             item = by_format.get(slot)
             if item is None:
                 item = self._build_single_shorts_fallback_item(
@@ -1817,7 +2178,7 @@ class SentimentAnalyzer:
 
     def _build_shorts_fallback_items(self, *, source_script: str, keywords: list[str] | None = None) -> list[dict]:
         """Fallback shorts when OpenAI generation fails."""
-        lines = [s.strip() for s in re.split(r"[\n]+", source_script or "") if s.strip()]
+        lines = self._split_source_script_for_shorts(source_script)
         return [
             self._build_single_shorts_fallback_item(
                 slot=slot,
@@ -1834,7 +2195,9 @@ class SentimentAnalyzer:
         last_err = None
         for attempt in range(1, max_retries + 1):
             try:
-                resp = self.openai_client.chat.completions.create(
+                started = time.time()
+                print(f"⏳ OpenAI shorts 호출 시작: model={model}, prompt_chars={len(prompt)}")
+                resp = self.openai_client.with_options(timeout=120.0).chat.completions.create(
                     model=model,
                     messages=[
                         {
@@ -1847,14 +2210,14 @@ class SentimentAnalyzer:
                         },
                     ],
                     response_format={"type": "json_object"},
-                    temperature=0.7,
                 )
 
                 content = resp.choices[0].message.content
                 if not content:
                     raise ValueError("OpenAI returned empty content for shorts")
+                print(f"✅ OpenAI shorts 호출 완료: model={model}, elapsed={time.time() - started:.1f}s")
 
-                payload = json.loads(content)
+                payload = self._parse_json_payload(content, source=f"openai-shorts:{model}")
                 items = payload.get("items") if isinstance(payload, dict) else None
                 normalized = self._normalize_shorts_items(items)
                 if len(normalized) < 3:
@@ -1895,7 +2258,7 @@ class SentimentAnalyzer:
         try:
             items = self._generate_shorts_with_openai(
                 prompt,
-                model=config.openai_model_tts,
+                model=config.openai_model_shorts,
                 max_retries=max_retries,
             )
             generated_by = "openai"

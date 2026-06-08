@@ -1,10 +1,14 @@
 from google import genai
+from openai import OpenAI
 import json
 import re
 import os
 import signal
+import time
+import random
 from difflib import SequenceMatcher
 from config import config
+from llm_errors import FatalLLMError, is_fatal_llm_error, is_retryable_llm_error
 
 
 class _GeminiCallTimeout(Exception):
@@ -12,13 +16,16 @@ class _GeminiCallTimeout(Exception):
 
 class AIProcessor:
     def __init__(self):
-        self.client = genai.Client(api_key=config.gemini_api_key)
+        self.client = genai.Client(api_key=config.gemini_api_key) if config.gemini_api_key else None
+        self.openai_client = OpenAI(api_key=config.openai_api_key, timeout=120.0) if config.openai_api_key else None
 
     @staticmethod
     def _alarm_handler(signum, frame):
         raise _GeminiCallTimeout("Gemini API call timed out")
 
     def _generate_content_with_timeout(self, *, model: str, contents: str, timeout_sec: int = 90, response_mime_type: str = 'application/json'):
+        if not self.client:
+            raise RuntimeError("GEMINI_API_KEY is not configured")
         previous_handler = signal.getsignal(signal.SIGALRM)
         try:
             signal.signal(signal.SIGALRM, self._alarm_handler)
@@ -32,12 +39,83 @@ class AIProcessor:
             signal.alarm(0)
             signal.signal(signal.SIGALRM, previous_handler)
 
+    def _generate_json_with_openai(self, prompt: str, *, model: str, max_retries: int = 3, base_sleep_sec: float = 3.0):
+        if not self.openai_client:
+            raise RuntimeError("OPENAI_API_KEY is not configured")
+
+        last_err = None
+        for attempt in range(1, max_retries + 1):
+            try:
+                resp = self.openai_client.with_options(timeout=120.0).chat.completions.create(
+                    model=model,
+                    messages=[
+                        {
+                            "role": "system",
+                            "content": "You are a Korean news analysis engine. Output ONLY valid JSON, no markdown, no commentary.",
+                        },
+                        {
+                            "role": "user",
+                            "content": prompt,
+                        },
+                    ],
+                    response_format={"type": "json_object"},
+                )
+                content = resp.choices[0].message.content
+                return self._parse_json_payload(content)
+            except Exception as e:
+                last_err = e
+                if attempt < max_retries and is_retryable_llm_error(e):
+                    jitter = random.uniform(0.0, base_sleep_sec * 0.6)
+                    sleep_sec = base_sleep_sec * (2 ** (attempt - 1)) + jitter
+                    print(f"⚠️ OpenAI JSON 호출 실패(재시도 {attempt}/{max_retries}): {e}")
+                    print(f"   -> {sleep_sec:.1f}s 후 재시도")
+                    time.sleep(sleep_sec)
+                    continue
+                raise
+
+        raise last_err
+
     @staticmethod
     def _normalize_title(title: str) -> str:
         # Lowercase, remove punctuation, collapse whitespace for stable similarity checks
         cleaned = re.sub(r"[^\w\s]", " ", title.lower())
         cleaned = re.sub(r"\s+", " ", cleaned).strip()
         return cleaned
+
+    @staticmethod
+    def _parse_json_payload(raw_text: str):
+        """Parse a JSON object from model output with minimal cleanup."""
+        if not isinstance(raw_text, str) or not raw_text.strip():
+            raise ValueError("Gemini returned empty JSON payload")
+
+        text = raw_text.strip()
+        candidates = [text]
+
+        fenced = re.findall(r"```(?:json)?\s*([\s\S]*?)```", text, re.IGNORECASE)
+        candidates.extend(chunk.strip() for chunk in fenced if isinstance(chunk, str) and chunk.strip())
+
+        decoder = json.JSONDecoder()
+        for idx, ch in enumerate(text):
+            if ch not in "[{":
+                continue
+            try:
+                _, end = decoder.raw_decode(text[idx:])
+                candidates.append(text[idx: idx + end].strip())
+                break
+            except Exception:
+                continue
+
+        seen = set()
+        for candidate in candidates:
+            if not candidate or candidate in seen:
+                continue
+            seen.add(candidate)
+            try:
+                return json.loads(candidate)
+            except json.JSONDecodeError:
+                continue
+
+        raise ValueError(f"Invalid JSON response from Gemini: {text[:200]}")
 
     @staticmethod
     def _looks_like_same_event(main_item: dict, candidate: dict) -> bool:
@@ -93,7 +171,7 @@ class AIProcessor:
         news_text = "\n".join(news_input)
         
         prompt = f"""
-        당신은 모닝뉴스봇의 전문 뉴스 분류기입니다. Gemini 3 Flash의 향상된 문맥 파악 능력을 활용해 아래 규칙대로 처리하세요.
+        당신은 모닝뉴스봇의 전문 뉴스 분류기입니다. 아래 규칙대로 처리하세요.
 
         1단계: 필터링 (포용적)
         - ❌ 제외: 연예/가십, 단순 영화 홍보, 경기 스코어만 나열된 스포츠
@@ -163,13 +241,27 @@ class AIProcessor:
         """
         
         try:
-            response = self._generate_content_with_timeout(
-                model=config.model_flash,
-                contents=prompt,
-                timeout_sec=120,
-            )
-            
-            categorized_data = json.loads(response.text)
+            provider = "openai"
+            try:
+                categorized_data = self._generate_json_with_openai(
+                    prompt,
+                    model=config.openai_model_classify,
+                    max_retries=3,
+                )
+            except Exception as openai_error:
+                print(f"⚠️ OpenAI 뉴스 분류 실패, Gemini fallback 시도: {openai_error}")
+                if is_fatal_llm_error(openai_error):
+                    raise FatalLLMError(f"OpenAI news categorization fatal error: {openai_error}") from openai_error
+                provider = "gemini"
+                response = self._generate_content_with_timeout(
+                    model=config.model_flash,
+                    contents=prompt,
+                    timeout_sec=120,
+                )
+                categorized_data = self._parse_json_payload(response.text)
+
+            if not isinstance(categorized_data, dict):
+                raise ValueError(f"{provider} categorization returned non-object payload: {type(categorized_data)}")
             
             # Map of possible AI outputs to our canonical keys
             category_map = {
@@ -191,7 +283,11 @@ class AIProcessor:
             for ai_category, groups in categorized_data.items():
                 canonical_category = category_map.get(ai_category)
                 if canonical_category and canonical_category in final_result:
+                    if not isinstance(groups, list):
+                        continue
                     for group in groups:
+                        if not isinstance(group, dict):
+                            continue
                         main_id = group.get('id')
                         if main_id is not None and 0 <= main_id < len(news_items):
                             item = news_items[main_id].copy()
@@ -229,6 +325,8 @@ class AIProcessor:
 
         except Exception as e:
             print(f"Error in AI Processing: {e}")
+            if is_fatal_llm_error(e):
+                raise FatalLLMError(f"Gemini news categorization fatal error: {e}") from e
             try:
                 if 'response' in locals() and hasattr(response, 'text'):
                     print(f"Response snippet: {response.text[:200]}...")
@@ -430,13 +528,25 @@ class AIProcessor:
         """
         
         try:
-            response = self._generate_content_with_timeout(
-                model=config.model_flash,
-                contents=prompt,
-                timeout_sec=90,
-            )
-            
-            result = json.loads(response.text)
+            try:
+                result = self._generate_json_with_openai(
+                    prompt,
+                    model=config.openai_model_extract,
+                    max_retries=3,
+                )
+            except Exception as openai_error:
+                print(f"⚠️ OpenAI 주요 인물 추출 실패, Gemini fallback 시도: {openai_error}")
+                if is_fatal_llm_error(openai_error):
+                    raise FatalLLMError(f"OpenAI key-person extraction fatal error: {openai_error}") from openai_error
+                response = self._generate_content_with_timeout(
+                    model=config.model_flash,
+                    contents=prompt,
+                    timeout_sec=90,
+                )
+                result = json.loads(response.text)
+
+            if not isinstance(result, dict):
+                raise ValueError(f"key-person extraction returned non-object payload: {type(result)}")
             persons_data = {}
             
             # Process each person
@@ -491,6 +601,8 @@ class AIProcessor:
             return {}
         except Exception as e:
             print(f"Error extracting key persons: {e}")
+            if is_fatal_llm_error(e):
+                raise FatalLLMError(f"Gemini key-person extraction fatal error: {e}") from e
             # Important: return None on failure so callers can avoid overwriting caches.
             return None
 
