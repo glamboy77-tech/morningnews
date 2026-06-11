@@ -1,0 +1,241 @@
+{
+  "timestamp": "2026-06-12T06:01:18.307351",
+  "date": "20260612",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "李대통령, 14일 伊 로마에서 화상회의...투표용지 부족사태 논의",
+          "link": "https://www.chosun.com/politics/politics_general/2026/06/12/NSQWI3RNPVE5DGN3AQYBRYXFS4/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-06-12 02:13:50",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "李대통령, 14일 伊 현지서 '화상 수보회의'…투표용지 사태 논의",
+              "link": "https://www.yna.co.kr/view/AKR20260612002000001"
+            }
+          ]
+        },
+        {
+          "title": "李대통령 “女소방관 사망, 갑질 사실이면 최대 문책”... 총리실 조사 착수",
+          "link": "https://www.chosun.com/politics/goverment/2026/06/11/IH54FHJBKBFABLI2IKGK6OX5Y4/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-06-11 19:42:47",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 \"소방관 사망, 음주강요·감찰묵살 사실이면 최대문책\"",
+          "link": "https://www.yna.co.kr/view/AKR20260611112500001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-06-11 14:46:39",
+          "description": "(서울=연합뉴스) 설승은 기자 = 이재명 대통령은 한 여성 소방관이 지난해 숨진 사건을 두고 소방본부의 음주 강요 및 유족의 감찰 요구 묵살 의...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 \"소송패소 노동자 부담, 법탓 어쩔수 없어…안타깝다\"",
+          "link": "https://www.yna.co.kr/view/AKR20260611104300001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-06-11 14:02:26",
+          "description": "(서울=연합뉴스) 황윤기 기자 = 이재명 대통령은 11일 정부가 국가배상 소송에 패소한 비정규직 노동자들에게 소송비용을 청구한 것을 두고 &quot;어쩔...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 지지율 57%로 3주前보다 9%p 하락…민주 41%·국힘 25%[NBS](종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260611086651001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-06-11 12:10:22",
+          "description": "(서울=연합뉴스) 권희원 기자 = 6·3 지방선거가 치러진 이후 이재명 대통령의 국정운영을 긍정적으로 평가한 비율이 큰 폭으로 하락했다는 여론조...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "李대통령 지지율 57%로 3주前보다 9%p 하락…민주 41%·국힘 25%[NBS]",
+              "link": "https://www.yna.co.kr/view/AKR20260611086600001"
+            },
+            {
+              "source": "조선일보-정치",
+              "title": "李대통령 지지율 9%p 하락… 민주 41% 국힘 25% [NBS]",
+              "link": "https://www.chosun.com/politics/opinion-poll/2026/06/11/H346YHL2EZF6ZHQQL2GULX7KAE/"
+            }
+          ]
+        },
+        {
+          "title": "국힘, 李대통령 '희생양 악순환' 발언에 \"피해자 코스프레 참담\"",
+          "link": "https://www.yna.co.kr/view/AKR20260611080000001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-06-11 11:36:01",
+          "description": "(서울=연합뉴스) 노선웅 기자 = 국민의힘은 11일 이재명 대통령이 영국 시사지 이코노미스트 인터뷰에서 탄핵당하거나 구속된 전직 대통령의 사례를...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        }
+      ],
+      "count": 6,
+      "role": "한국 대통령"
+    },
+    "한성숙": {
+      "articles": [
+        {
+          "title": "한성숙, 재산 250억원 신고…주택 2채·오피스텔·주식 등 보유",
+          "link": "https://www.yna.co.kr/view/AKR20260611138400001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-06-11 16:58:37",
+          "description": "(서울=연합뉴스) 오규진 기자 = 한성숙 국무총리 후보자는 11일 국회에 제출된 인사청문 요청안에서 본인과 모친 명의 재산으로 총 253억9천1...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "한성숙 총리 후보자, 재산 250억 신고… 집 3채, 예금 100억, 美주식 20억",
+          "link": "https://www.chosun.com/politics/goverment/2026/06/11/I3UWDN7NUZA7TJHCM34F5FRCIE/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-06-11 18:50:12",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "한성숙, '거짓 영농계획서 논란' 농지 최근까지도 보유",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/06/11/2026061103044.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-06-11 17:52:23",
+          "description": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"3\" width=\"100%\"><tr><td><img border=\"0\" src=\"https://image.chosun.com/sitedata/thumbnail/202606/11/2026061103041_0_thumb.jpg\" /></td></tr></table>\n\t한 후보자, 양평군 농지에 여전히 소유자로 등기\n영농계획서 ‘자경’ 제출로   불법 취득 논란\n이 대통령 ‘농지  매각령’에도 계속 보유\n \n \n[땅집고] 한성숙 국무총리 후보자가 2009년 취득한 경기 양평군의 농지를 최근까지도 그대로 보유하고 있었던 것으로 확인됐다. 이재명 대통령은 다주택 보유자와 ‘가짜 영농인’의 농지 투기를 강하게 비판한 바 있다. 이에 따르면 한 후보자는 4주택을 보유한 다주택자이면서 농지 투기자이기도 한데, 국무총리 후보자로 적절한지가 앞으로 인사청문회에서 쟁점으로 떠오를 전망이다.\n \n11일 땅집고가 ...",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": [
+            {
+              "source": "조선일보-경제",
+              "title": "한성숙, '거짓 영농계획서 논란' 농지 최근까지도 보유",
+              "link": "https://www.chosun.com/economy/realty/realestate_news/2026/06/11/G5QWKMBUGA3GMYRZHE2TMYJYMY/"
+            }
+          ]
+        },
+        {
+          "title": "'4주택' 한성숙, 강남 오피스텔 5억 손해 '급급매'…아파트는 29억 차익",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/06/11/2026061101508.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-06-11 10:57:56",
+          "description": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"3\" width=\"100%\"><tr><td><img border=\"0\" src=\"https://image.chosun.com/sitedata/thumbnail/202606/11/2026061101505_0_thumb.jpg\" /></td></tr></table>\n\t한성숙, 10일 저녁 ‘급매가’ 19억에서 15억으로 더 낮춰\n계약 체결되면 5억 정도 양도차손 발생\n \n \n[땅집고] 한성숙 국무총리 후보자가 강남구 역삼동 소재의 고급 오피스텔을 분양가 20억원보다 5억원이 낮은 15억원에 급매로 매물로 내놓았다. 그가 잠실동 아파트를 지난달 매도해 약 29억원의 차익을 거둔 데 이어 이어 두번째 주택 매각에 성공할 수 있을지에 관심이 쏠린다. 한 후보자가 중기부 장관 시절이던 지난 2월 4주택 중 3채를 팔겠다고 약속한 이후로도 지지부진하던 주택 매각이 국무총리 인사청문회를 앞두고 속도를 내는...",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 4,
+      "role": "기업인"
+    },
+    "트럼프": {
+      "articles": [
+        {
+          "title": "트럼프 “이란과 문서 조율만 남아…주말 유럽서 서명식 열수도”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260612/134097413/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-06-12 05:43:38",
+          "description": "도널드 트럼프 미국 대통령은 11일(현지시간) 이란과의 종전 협상이 최종 문서 조율만 남겨두고 있으며, 이번 주말 유럽에서 서명식이 열릴 수도 있다고 밝혔다.트럼프 대통령은 이날 워싱턴DC 백악관에서 열린 포고문 서명식에서 “우리는 방금 이란과의 전쟁과 관련해 훌륭한 합의를 끌어냈고, 이제 최종 문서 작업만 남겨두고 있다”고 말했다.이어 “향후 며칠 내로 문서를 전달받고 서명식을 갖게 될 것”이라면서 “아마 유럽에 열릴 것 같다”라고 덧붙였다.트럼프는 “무엇보다 중요한 것은 이란이 절대 핵무기를 갖지 못하게 하는 합의를 이뤄냈다는 점”이라면서 “곧 마무리될 것이고, 꽤 신속하게 진행될 것”이라고도 했다.그는 “서명이 완료되는 즉시 (호르무즈) 해협도 개방될 것”이라고 밝혔다.트럼프 대통령은 “나는 서명식에 참석하지 못하겠지만, JD 밴스 부통령이 참석할 것”이라고 말했다.(워싱턴·서울=뉴스1)",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "“트럼프 女신체 집착 놓고 격론”…백악관 벙커서 엡스타인 대책회의",
+          "link": "https://www.donga.com/news/Inter/article/all/20260611/134093305/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-06-11 20:17:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/06/11/134096179.1.jpg\" vspace=\"10\" />“엡스타인 사태는 도널드 트럼프 대통령의 ‘이란-콘트라(Iran-contra) 사건’이 될 것이다.”지난해 7월 댄 본지노 당시 미 연방수사국(FBI) 부국장이 월가 출신 억만장자 성범죄자 제프리 엡스타인의 미성년자 성착취 범죄에 트럼프 대통령이 연루됐다는 의혹이 정권에 치명타가 될 거라고 경고했다고 뉴욕타임스(NYT)가 10일 전했다. 이란-콘트라 사건은 1980년대 로널드 레이건 행정부가 적국인 이란에 무기를 판 돈으로 중남미 국가인 니카라과의 반군을 지원한 사건으로, 정권의 도덕성에 흠집을 낸 대형 정치 스캔들이다.NYT에 따르면 미 법무부가 지난해 7월 엡스타인의 성매매 고객 명단이 포함돼 있다는 의혹이 제기된 수사 기록(엡스타인 파일)을  공개하지 않겠다고 발표한 직후 트럼프 행정부 핵심 고위 참모들이 극심한 의견 충돌을 겪었다. 2024년 미 대선 전 파일 공개를 약속한 트럼프 대통령이 말을 바꿨다며 핵심 지지층인 ‘마가(MAGA)’ 진영에서 거센 비판이 제기됐기 때문",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프 건강 검진에 “역대 최다” 22명 전문의 참여",
+          "link": "https://www.donga.com/news/Inter/article/all/20260611/134090564/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-06-11 10:26:03",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/06/11/134090565.1.jpg\" vspace=\"10\" />도널드 트럼프 미 대통령의 건강검진에 사상 최다인 22명의 전문의가 참여했다고 미 워싱턴포스트(WP)가 10일(현지시각) 보도했다. 1989년 조지 H.W. 부시 대통령의 첫 건강검진에는 5명의 전문의가 참여했으며 그의 아들 조지 W. 부시는 12년 뒤 첫 대통령 건강검진에서 12명의 전문의에게 진찰을 받았다.트럼프가 새 기준을 세운 것으로 보인다. 백악관이 최근 공개한 의료 보고서에 따르면 22명의 전문의가 최근 건강검진에 참여했다. 이 숫자는 1기 대통령 시절 트럼프가 건강검진을 받을 때 평가에 참여한 전문의 수의 거의 2배에 달한다. 트럼프는 2019년 건강검진에서 11명의 전문의를, 지난해 건강검진에서는 14명의 전문의를 만났다.이 숫자는 또 대통령을 평가한 전문의 수로는 역대 최다로 80세가 되는 트럼프의 건강에 관한 백악관의 공개 내용에 의문을 제기해온 일부 의사들이 재차 문제를 제기하는 계기가 됐다. 딕 체니 전 부통령의 심장내과 주치의였던 조너선 라이너는 “",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "미국 대통령"
+    },
+    "정청래": {
+      "articles": [
+        {
+          "title": "정청래, 오늘 광주 5·18국립묘지 참배…현장 최고위도",
+          "link": "https://www.yna.co.kr/view/AKR20260611154100001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-06-12 05:00:00",
+          "description": "(서울=연합뉴스) 최평천 기자 = 더불어민주당 정청래 대표가 12일 광주를 찾는다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "정청래 \"국민만 믿고, 국민만 보고 가야…우리가 분열하면 패배\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260611078851001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-06-11 15:40:01",
+          "description": "(서울=연합뉴스) 서혜림 안정훈 정연솔 기자 = 더불어민주당 일각에서 6·3 지방선거가 미완의 승리로 끝난 것에 대한 &apos;정청래 대표 책임론&apos;이 ...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "정청래 \"국민만 믿고, 국민만 보고 가야…우리가 분열하면 패배\"",
+              "link": "https://www.yna.co.kr/view/AKR20260611078800001"
+            }
+          ]
+        },
+        {
+          "title": "與, 정청래 사퇴론 쏟아졌다... “선거, 심리적으로 참패 이상”",
+          "link": "https://www.chosun.com/politics/assembly/2026/06/11/2FXWRMI4L5EM7JXRSG3LA5R464/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-06-11 13:25:47",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "정치인"
+    }
+  }
+}

@@ -15,7 +15,7 @@ cd "$REPO_DIR"
 WORKTREE_DIRTY=0
 if [ -n "$(git status --porcelain)" ]; then
   WORKTREE_DIRTY=1
-  echo "[WARN] Working tree has local changes. Will skip git pull/push to avoid interfering with in-progress edits."
+  echo "[WARN] Working tree has local changes. Will skip git pull, but will still try to commit only generated outputs."
 fi
 
 # 1) 안전하게 원격 동기화 (분기 발생 시 즉시 실패)
@@ -49,17 +49,67 @@ fi
 # 4) 실행
 python3 main.py
 
-# 5) 변경사항 커밋/푸시
-if [ "$WORKTREE_DIRTY" -eq 1 ]; then
-  echo "[INFO] Skipping git commit/push because the working tree already had local changes."
-elif ! git diff --quiet || ! git diff --staged --quiet; then
-  git add .
+# 4.5) 발행 품질 게이트: done marker와 필수 산출물이 없으면 커밋/푸시 금지
+REQUIRED_OUTPUTS=(
+  "$DONE_MARKER"
+  "output/morning_news_${TODAY}.html"
+  "data_cache/rss_${TODAY}.json"
+  "data_cache/ai_analysis_${TODAY}.json"
+  "data_cache/key_persons_${TODAY}.json"
+  "sentiment_cache/sentiment_${TODAY}.json"
+  "scripts/youtube_tts_${TODAY}.txt"
+  "scripts/brief_${TODAY}.json"
+  "scripts/keyword_${TODAY}.txt"
+  "scripts/shorts_${TODAY}.json"
+  "scripts/shorts_${TODAY}.txt"
+)
+
+for path in "${REQUIRED_OUTPUTS[@]}"; do
+  if [ ! -s "$path" ]; then
+    echo "[ERROR] Required publish output missing or empty: $path"
+    echo "[ERROR] Will not commit/push partial or broken outputs."
+    exit 1
+  fi
+done
+
+if grep -q "브리핑 생성에 실패했습니다\|잠시 후 다시 시도해주세요\|RawScript:" "scripts/youtube_tts_${TODAY}.txt"; then
+  echo "[ERROR] TTS script contains fallback/failure text. Will not commit/push."
+  exit 1
+fi
+
+# 5) 생성 산출물만 선택적으로 커밋/푸시
+TARGETS=(
+  "index.html"
+  "archive.html"
+  "output/morning_news_${TODAY}.html"
+  "data_cache/rss_${TODAY}.json"
+  "data_cache/ai_analysis_${TODAY}.json"
+  "data_cache/key_persons_${TODAY}.json"
+  "sentiment_cache/sentiment_${TODAY}.json"
+  "scripts/youtube_tts_${TODAY}.txt"
+  "scripts/brief_${TODAY}.json"
+  "scripts/keyword_${TODAY}.txt"
+  "scripts/shorts_${TODAY}.json"
+  "scripts/shorts_${TODAY}.txt"
+)
+
+STAGE_TARGETS=()
+for path in "${TARGETS[@]}"; do
+  if [ -e "$path" ]; then
+    STAGE_TARGETS+=("$path")
+  fi
+done
+
+if [ "${#STAGE_TARGETS[@]}" -eq 0 ]; then
+  echo "[INFO] No generated targets found to stage."
+else
+  git add -- "${STAGE_TARGETS[@]}"
   if ! git diff --cached --quiet; then
     git commit -m "🗞️ Generate morning news $(date +'%Y-%m-%d')"
     git push origin main
+  else
+    echo "[INFO] No generated output changes to commit."
   fi
-else
-  echo "[INFO] No changes to commit."
 fi
 
 echo "[INFO] $(date) Job finished"
