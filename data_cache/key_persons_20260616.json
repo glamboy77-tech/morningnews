@@ -1,0 +1,164 @@
+{
+  "timestamp": "2026-06-16T06:02:08.427155",
+  "date": "20260616",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "李대통령, G7 정상회의 참석…확대회담 등서 글로벌 현안 논의",
+          "link": "https://www.yna.co.kr/view/AKR20260615165500001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-06-16 05:00:01",
+          "description": "(바티칸=연합뉴스) 임형섭 고동욱 기자 = 이재명 대통령은 16일(현지시간) 유럽 순방의 마지막 순서인 주요 7개국(G7) 정상회의에 참석한다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "[미·이란 종전] 李대통령 \"중동 협상타결 환영…국제사회 공조해 역할 수행\"",
+          "link": "https://www.yna.co.kr/view/AKR20260615171251001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-06-15 23:34:36",
+          "description": "(서울=연합뉴스) 황윤기 기자 = 이재명 대통령은 15일 미국과 이란의 종전 협상 타결 소식에 &quot;국제사회가 오랫동안 기대해 온 사태 해결을 위한...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "[속보] 李대통령 \"중동 협상타결 환영…국제사회 공조해 필요역할 수행\"",
+              "link": "https://www.yna.co.kr/view/AKR20260615171200001"
+            }
+          ]
+        },
+        {
+          "title": "李대통령 '與책임 강조'에 친청·비당권파 대치…당권경쟁 전초전",
+          "link": "https://www.yna.co.kr/view/AKR20260615083300001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-06-15 12:19:11",
+          "description": "(서울=연합뉴스) 최평천 김정진 정연솔 기자 = 이재명 대통령이 여당을 향해 책임을 강조하는 메시지를 내놓으면서 더불어민주당 내 계파 간 대치 ...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 \"6·15 선언, 한반도 평화공존 출발점…포기할수 없다\"",
+          "link": "https://www.yna.co.kr/view/AKR20260615114800001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-06-15 15:02:11",
+          "description": "(서울=연합뉴스) 황윤기 기자 = 이재명 대통령은 15일 &quot;6·15 남북정상회담과 남북공동선언은 한반도 평화공존의 출발점&quot;이라며 26주년을 맞이...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "정청래 \"李대통령, 외교역량으로 월드클래스 지도자로 자리매김\"",
+          "link": "https://www.yna.co.kr/view/AKR20260615056700001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-06-15 10:20:25",
+          "description": "(서울=연합뉴스) 김남권 정연솔 기자 = 더불어민주당 정청래 대표는 15일 &quot;외교의 역량으로 이재명 대통령은 월드 클래스의 세계적인 지도자로 자...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 지지도 51.5%, 4주 연속↓…국힘 44.3%로 민주 역전[리얼미터](종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260615025151001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-06-15 09:22:22",
+          "description": "(서울=연합뉴스) 김정진 기자 = 이재명 대통령 국정수행 지지도가 4주 연속 내림세를 보이며 한 달 만에 9%포인트(p) 하락했다는 여론조사 결...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "伊동포 만난 李대통령 \"투표권 행사 못하는 건 심각한 문제\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260615165451001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-06-16 00:45:02",
+          "description": "(바티칸=연합뉴스) 임형섭 고동욱 기자 = 바티칸을 공식 방문 중인 이재명 대통령은 15일(현지시간) 이탈리아에 거주 중인 한국 교민들을 오찬 ...",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "伊동포 만난 李대통령 \"투표권 행사 못하는 건 심각한 문제\"",
+              "link": "https://www.yna.co.kr/view/AKR20260615165400001"
+            }
+          ]
+        }
+      ],
+      "count": 7,
+      "role": "한국 대통령"
+    },
+    "트럼프": {
+      "articles": [
+        {
+          "title": "[영상] '나토 동부 최전선' 폴란드, 美 F-35 전투기 3대 첫 실전배치",
+          "link": "https://www.yna.co.kr/view/AKR20260615080000704",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-06-15 11:32:08",
+          "description": "(서울=연합뉴스) 폴란드가 미국으로부터 처음으로 인도받은 최신예 5세대 F-35 스텔스 전투기 3대를 실전 배치했습니다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "Science/Tech",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "네타냐후 “트럼프와 시각 다를때도 있다…레바논 주둔 지속”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260616/134117944/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-06-16 04:54:48",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/06/16/134117945.1.jpg\" vspace=\"10\" />도널드 트럼프 미국 행정부와 이란 정권이 레바논 전쟁 중단을 포함하는 종전 양해각서(MOU)에 서명한 가운데, 베냐민 네타냐후 이스라엘 총리가 이란 및 헤즈볼라 등 대리세력과의 투쟁을 이어가겠다는 입장을 밝혔다.네타냐후 총리는 15일(현지 시간) 히브리어로 진행한 기자회견을 통해 “이란의 핵무장을 막는 것은 내 인생의 사명”이라며 “합의가 있든 없든, 이란은 오늘내일 중(not today and not tomorrow)으로는 핵무기를 가질 수 없다. 내가 총리로 있는 한 그런 일은 일어나지 않을 것”이라고 말했다.네타냐후 총리는 먼저 자신이 트럼프 행정부와 함께 대(對)이란 전쟁을 승리로 이끌었다고 주장했다.그는 “우리는 사상 최대 규모의 공격 작전을 통해 (이란) 핵 과학자와 테러 정권 지도부를 제거하고 핵 시설과 미사일 공장을 파괴했다. 수많은 군수 기반시설을 타격하고 해군과 공군을 무너뜨렸으며 이란 국민을 학살한 지휘관들을 제거했다”며 “우리는 이스라엘 국가를 말살로부터",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프, 워터게이트급 NYT 폭로에 뿔났다",
+          "link": "https://www.donga.com/news/People/article/all/20260616/134117449/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-06-16 04:30:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/06/16/134117929.1.jpg\" vspace=\"10\" />도널드 트럼프 2기 행정부의 각종 내부 이야기를 담은 뉴욕타임스(NYT) 기자들의 신간 ‘정권교체(Regime Change·사진)’의 23일 출간을 앞두고 백악관 고위 관계자들 사이에서 우려가 커지고 있다고 정치매체 액시오스가 14일(현지 시간) 보도했다. NYT의 백악관 담당인 매기 해버먼 기자와 조너선 스완 기자는 2023년 봄부터 올해 봄까지 트럼프 대통령의 대선 캠프 및 2기 행정부의 주요 인사와 1000건이 넘는 인터뷰를 진행했다. 이를 통해 그 기간에 벌어진 각종 사건을 생생히 다룬 이 책을 출간하기로 했다. NYT가 공개한 발췌문에는 이란 전쟁, 억만장자 성범죄자 제프리 엡스타인의 문건 공개 등을 둘러싼 백악관 상황실 회의 내용이 상세히 담겼다.  이란에 적대적인 베냐민 네타냐후 이스라엘 총리는 올 2월 7일 미국 워싱턴 백악관 내 상황실을 찾아 ‘이란의 신정일치 정권 교체가 가능하다’며 트럼프 대통령에게 이란을 공격하자고 설득했다. 하지만 마코 루비오 미 국무장관은",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "美밴스 “대선출마 여부, 아내와 상의뒤 결정”",
+          "link": "https://www.donga.com/news/People/article/all/20260616/134117434/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-06-16 04:30:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/06/16/134115681.4.jpg\" vspace=\"10\" />미국 집권 공화당의 대표적인 ‘포스트 트럼프 주자’로 꼽히는 JD 밴스 부통령이 올 11월 중간선거가 끝난 뒤 2028년 대선 출마 여부를 결정하겠다고 밝혔다. 14일(현지 시간) 워싱턴포스트(WP)에 따르면 밴스 부통령은 이날 미 CBS방송의 ‘선데이 모닝’ 인터뷰에서 2028년 대선 출마 계획에 대해 “중간선거 뒤 아내와 상의하게 될 것”이라고 답했다. 공화당 특히 도널드 트럼프 대통령의 핵심 지지층인 ‘마가(MAGA·미국을 다시 위대하게) 진영’에서 유력한 다음 대선 후보로 거론되는 밴스 부통령은 아직 공개적으로 대선 출마 의향을 밝히지 않은 상태다. 그는 다음 달 넷째 자녀가 태어날 때까지 출마 여부를 결정하지 않겠다고 주변에 밝힌 것으로 전해졌다. 이날 밴스 부통령은 트럼프 대통령이 차기 대권 도전 여부에 대한 자신의 결정을 지지해 줄 것이라고 자신감을 드러냈다. 다만 그는 “그 결정이 무엇이 될지 아직 실제로 이야기를 나누지 않았다”며 트럼프 대통령과 사전 의견 교환은",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "꾸벅꾸벅 졸고 동문서답까지…‘80세’ 트럼프 건강 우려 재점화",
+          "link": "https://www.donga.com/news/Inter/article/all/20260615/134113861/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-06-15 14:52:36",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/06/15/134113862.1.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령이 80세 생일을 맞아 다시 건강 논란에 휩싸였다. 백악관은 트럼프 대통령이 밤늦게까지 통화와 회의를 이어가며 강행군을 소화했다고 강조했다. 하지만 공개 석상에서 눈을 감거나 몸을 기울이는 장면이 잇따라 포착되면서 건강 우려가 이어졌다.14일(현지시간) 뉴욕타임스(NYT)는 트럼프 대통령의 최근 일정과 여론 동향을 분석해 보도했다. 백악관은 트럼프 대통령이 공개석상에 거의 모습을 드러내지 않았던 기간을 둘러싼 의혹에 대응해 5월27일부터 6월10일까지의 세부 일정표를 공개했다. 일정표에 따르면 트럼프 대통령은 공개 일정이 없는 날에도 다수의 전화 통화와 회의를 소화했다.5월27일에는 오전 7시15분 첫 통화를 시작으로 8차례의 전화 통화와 각료회의 준비 브리핑에 참석했다. 오후에는 이란 협상 관련 2건을 포함해 총 7건의 회의와 3건의 전화 통화를 진행했다.이튿날인 28일에도 전화 통화 11건과 회의 8건을 마친 후 오후 11시35분에 퇴근했다. 공식",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 5,
+      "role": "미국 대통령"
+    }
+  }
+}
