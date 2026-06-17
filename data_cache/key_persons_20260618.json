@@ -1,0 +1,60 @@
+{
+  "timestamp": "2026-06-18T06:01:39.142262",
+  "date": "20260618",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "집안 싸움 빠지면 정권은 ‘폭망’…이재명 정부 뒤흔드는 당·청 갈등",
+          "link": "https://www.chosun.com/politics/assembly/2026/06/18/ZEMFUYNMKFBCBNQUAOH5ZR2WIU/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-06-18 03:00:00",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李 대통령, G7 마치고 귀국길…첫 9박 10일 유럽순방 종료",
+          "link": "https://www.chosun.com/economy/economy_general/2026/06/18/MI3DSNJXMNTDKNJRGE4TSNDDHA/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-06-18 00:54:52",
+          "description": "이재명 대통령이 9박 10일간의 유럽 순방 및 주요7개국(G7) 정상회의 참석을 마치고 귀국길에 올랐다.  이 대통령은 17일(현지 시각) 스위스 제네바 국제공항에서 대통령 전용기인 공군 1호기를 타고 한국으로 출발했다. 우리 측에서는 윤성미 주제네바 대사와 권혁운 주프랑스 대사 등이, 스위스 측에서는 빌레테르 스위스 외교부 의전장과 벤 살렘 제네바 주정부",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 출국 행사 불참한 정청래, 내일 귀국행사 참석(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260617122952001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-06-17 17:02:01",
+          "description": "(에비앙·서울=연합뉴스) 임형섭 고동욱 김정진 기자 = 이재명 대통령이 주요 7개국(G7) 정상회의 참석을 위한 유럽 순방을 마치고 오는 18일...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, G7 확대회의서 '에너지·핵심광물 공급망 회복' 논의",
+          "link": "https://www.yna.co.kr/view/AKR20260617113900001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-06-17 15:00:01",
+          "description": "(에비앙=연합뉴스) 임형섭 고동욱 기자 = 주요 7개국(G7) 정상회의 참석을 위해 프랑스 에비앙을 찾은 이재명 대통령은 17일(현지시간) 확대...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        }
+      ],
+      "count": 4,
+      "role": "한국 대통령"
+    }
+  }
+}
