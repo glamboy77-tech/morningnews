@@ -1,0 +1,168 @@
+{
+  "timestamp": "2026-06-27T06:04:18.313800",
+  "date": "20260627",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "유시민 \"지지층 증축 원해, 李대통령은 재건축…자신감 지나쳐\"",
+          "link": "https://www.yna.co.kr/view/AKR20260627000500001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-06-27 00:33:07",
+          "description": "(서울=연합뉴스) 김남권 기자 = 범여권 논객인 유시민 작가는 26일 이재명 대통령이 포용·통합 기조를 강조하며 중도·보수 확장에 나선 것과 관...",
+          "category": "domestic",
+          "priority_score": 5,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 \"1조 이상 가치 혁신기업 5곳 육성…팔란티어와 경쟁\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260626115251001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-06-26 16:57:04",
+          "description": "(서울=연합뉴스) 임형섭 황윤기 기자 = 이재명 대통령은 26일 &quot;기술 우위가 곧 안보 우위&quot;라며 &quot;대한민국이 전통적인 방산 강국에서 글로벌 신...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, 이진국 감사원 감사위원 임명안 재가(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260626143951001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-06-26 22:01:26",
+          "description": "(서울=연합뉴스) 황윤기 이상현 기자 = 이재명 대통령이 26일 이진국(59) 감사원 감사위원(차관급)의 임명안을 재가했다고 감사원이 밝혔다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "與 \"국힘, 李정부 지역발전 폄훼말아야…호남에 국한되지 않아\"",
+          "link": "https://www.yna.co.kr/view/AKR20260626127900001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-06-26 16:17:31",
+          "description": "(서울=연합뉴스) 안정훈 기자 = 더불어민주당은 국민의힘이 이재명 대통령과 정부를 겨냥해 &apos;이른바 삼전닉스의 호남 반도체 투자설&apos;을 고리로 공세...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "[한반도 심포지엄] 한병도 \"안보 바탕 실리 외교가 이재명 정부 지향점\"",
+          "link": "https://www.yna.co.kr/view/AKR20260626091100001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-06-26 14:07:16",
+          "description": "(서울=연합뉴스) 안정훈 기자 = 더불어민주당 한병도 당 대표 직무대행 겸 원내대표는 26일 &quot;어떤 불확실성 속에서도 변하지 않는 최우선 가치는...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "한동훈 “李정권 호남 반도체 투자 압박, 박근혜 미르재단과 뭐가 다르냐”",
+          "link": "https://www.chosun.com/politics/assembly/2026/06/26/I2RYHPOVQRGP7NFRJDDHOP7YGI/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-06-26 12:49:52",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": true,
+          "related_full_sources": [
+            {
+              "source": "조선일보-경제",
+              "title": "한동훈 “李정권 호남 반도체 투자 압박, 박근혜 미르재단과 뭐가 다르냐”",
+              "link": "https://www.chosun.com/politics/assembly/2026/06/26/I2RYHPOVQRGP7NFRJDDHOP7YGI/"
+            }
+          ]
+        },
+        {
+          "title": "李대통령, 오늘 청와대서 新안보혁신기업 육성 전략회의",
+          "link": "https://www.yna.co.kr/view/AKR20260626045700001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-06-26 09:55:41",
+          "description": "(서울=연합뉴스) 임형섭 기자 = 이재명 대통령은 26일 청와대에서 &apos;미래 신(新)안보 혁신기업 육성 전략회의&apos;를 열고 방위산업 발전 방향을 논...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "Science/Tech",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "이재명 정부 1년, 규제폭탄에 文정부 압살하는 전셋값 급등",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/06/26/2026062600734.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-06-26 08:51:14",
+          "description": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"3\" width=\"100%\"><tr><td><img border=\"0\" src=\"https://image.chosun.com/sitedata/thumbnail/202606/26/2026062600730_0_thumb.jpg\" /></td></tr></table>\n\t \n[땅집고] 이번주 서울 아파트 주간 전세금이 12년8개월만에 가장 큰 폭으로 급등한 것으로 나타났다. 한동안 주춤했던 서울 강남구 아파트 매매가격도 올 들어 최대 상승 폭을 기록했다. 이재명 대통령이 취임 1년동안 펼친 각종 부동산 대책들이 효과가 전무했음을 확인한 청와대가 위기 의식을 느낀다는 신호가 읽히는만큼, 정부의 정책 기조에 변화가 나타날 지에 관심이 쏠린다. 가령 연초부터 “부동산 정상화는 5천피보다 훨씬 쉽다”는 등 부동산 정책에 강한 자신감을 보이던 대통령도 전세대란이 본격화되면서 관련 발언을 자제하고 있다.\n \n...",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 8,
+      "role": "한국 대통령"
+    },
+    "트럼프": {
+      "articles": [
+        {
+          "title": "트럼프 “디지털세 부과국 100% 관세…무역합의보다 우선”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260627/134192414/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-06-27 02:58:38",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/06/27/134192415.1.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령이 디지털 서비스세를 도입하는 국가에 100% 추가관세를 부과하겠다고 26일(현지 시간) 경고했다.트럼프 대통령은 이날 소셜미디어(SNS) 트루스소셜에 “수많은 유럽국가들이 미국 기업들을 대상으로 디지털세의 조만간 시행을 논의해왔고, 이들 중 일부는 실제 시행에 근접했다”고 지적했다.이어 “이러한 세금을 부과하는 모든 국가는 미국으로 보내는 모든 상품에 대해 100% 관세가 즉시 부과될 것임을 밝힌다”고 강조했다.미국과 이미 무역합의를 체결해 관세율이 결정된 국가들이라도 예외가 아니라고 주장했다.트럼프 대통령은 “이 관세는 해당 국가와의 무역협정이 이행 중이던 서명됐든 아니든 우선 적용된다”며 “만약 그들이 강행할 경우 100% 관세가 즉시 부과될 것이다”고 전했다. 다만 어떤 방법을 통해 100% 관세를 부과할지는 언급하지 않았다. CNBC는 12개국 이상이 디지털 서비스세를 부과했으며 메타와 구글, 아마존 등 미국 기업들이 주요 대상이라고 전했",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "“이란戰-고유가 트럼프 심판” vs “선거구 재편은 공화당 유리”[글로벌 포커스]",
+          "link": "https://www.donga.com/news/Inter/article/all/20260626/134191773/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-06-27 01:40:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/06/26/134192026.1.jpg\" vspace=\"10\" />⟪美 중간선거 넉달 앞, 미리 보는 판세11월 3일 미국 중간선거가 약 넉 달 앞으로 다가왔다. 이란 전쟁의 장기화로 공화당이 불리하다는 전망과 민주당 내 뚜렷한 구심점이 없고 선거구 재편 또한 공화당에 유리해 판세를 단정하기 어렵다는 예상이 팽팽히 맞선다.⟫“내가 다시 출마해야 할까?(Should I run again?)” 도널드 트럼프 미국 대통령이 23일(현지 시간) 펜실베이니아주 머컨지의 한 트럭 공장을 찾았다. 이곳에서 그는 3선 도전 가능성을 거론했다. 또 자신이 재집권한 뒤 관세 정책 등을 앞세워 미국 노동자들을 보호했다고 자찬했다.  헌법이 3선을 금지해 불가능하다는 점을 알면서도 트럼프 대통령이 굳이 2028년 대선 도전 가능성을 거론한 것은 다분히 의도적이라는 분석이 나온다. 올해 11월 3일 치러지는 중간선거(mid-term)를 앞두고 핵심 지지층인 보수 유권자를 규합하기 위한 발언이라는 의미다.  그가 펜실베이니아주를 찾은 것 또한 선거와 무관하지 않다",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "美동아태차관보 “韓의 전작권 조속 전환 의지 이해…조건 충족되게 집중”",
+          "link": "https://www.donga.com/news/Politics/article/all/20260626/134187709/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-06-26 14:29:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/06/26/134188212.1.jpg\" vspace=\"10\" />미국 국무부에서 한반도 정책 실무를 총괄하는 마이클 디솜브리 동아시아·태평양국 차관보가 25일(현지 시간) 전시작전통제권(전작권) 전환과 관련해 “한국 정부가 가능한 한 조속히 추진하려는 의지를 이해하고 있다. 필요한 조건들이 빨리 갖춰질 수 있도록 집중하고 있다”고 밝혔다. 다만 정확한 전환 시기에 대해서는 “논의가 진행 중”이라고만 했다.디솜브리 차관보는 이날 하원 외교위원회의 동아시아태평양 소위원회 청문회에서 “전작권 전환에 관한 합의는 조건에 기반한 합의”라며 이같이 말했다. 또 한국이 전작권을 넘겨받은 후에도 한국에서 필요한 억지력이 유지될 것이란 점에 한미 모두 확신을 가질 수 있어야 한다고 강조했다. 조속한 전작권 전환을 추진하는 이재명 정부 입장을 이해하지만 대(對)북한 억지력, 연합 방위태세를 안정적으로 유지할 여건 등을 먼저 갖추라는 뜻으로 풀이된다.디솜브리 차관보는 또 쿠팡의 고객 정보 유출 사태와 관해 “한국이 쿠팡을 대하는 방식에 만족하지 않는다는 점을 (",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "美동아태차관보 “韓의 전작권 조속 전환 의지 이해…조건 충족되게 집중”",
+          "link": "https://www.donga.com/news/Politics/article/all/20260626/134187709/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-06-26 14:29:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/06/26/134188212.1.jpg\" vspace=\"10\" />미국 국무부에서 한반도 정책 실무를 총괄하는 마이클 디솜브리 동아시아·태평양국 차관보가 25일(현지 시간) 전시작전통제권(전작권) 전환과 관련해 “한국 정부가 가능한 한 조속히 추진하려는 의지를 이해하고 있다. 필요한 조건들이 빨리 갖춰질 수 있도록 집중하고 있다”고 밝혔다. 다만 정확한 전환 시기에 대해서는 “논의가 진행 중”이라고만 했다.디솜브리 차관보는 이날 하원 외교위원회의 동아시아태평양 소위원회 청문회에서 “전작권 전환에 관한 합의는 조건에 기반한 합의”라며 이같이 말했다. 또 한국이 전작권을 넘겨받은 후에도 한국에서 필요한 억지력이 유지될 것이란 점에 한미 모두 확신을 가질 수 있어야 한다고 강조했다. 조속한 전작권 전환을 추진하는 이재명 정부 입장을 이해하지만 대(對)북한 억지력, 연합 방위태세를 안정적으로 유지할 여건 등을 먼저 갖추라는 뜻으로 풀이된다.디솜브리 차관보는 또 쿠팡의 고객 정보 유출 사태와 관해 “한국이 쿠팡을 대하는 방식에 만족하지 않는다는 점을 (",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "미 법원, “트럼프 성폭행” 주장 여성 인터뷰 공개 명령",
+          "link": "https://www.donga.com/news/Inter/article/all/20260626/134186711/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-06-26 09:36:15",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/06/26/134186712.1.jpg\" vspace=\"10\" />미 워싱턴 연방지방법원이 25일(현지시각) 성범죄자 제프리 엡스타인 관련 파일에서 미성년 시절 도널드 트럼프 미 대통령에게 성폭행 당했다고 주장한 여성 인터뷰 내용 중 삭제 처리한 대목을 복원해 공개하라고 법무부에 명령했다고 미 더 힐(THE HILL)이 보도했다. 에밋 설리번 판사는 파일 내 주요 관심 문서들에서 삭제 처리를 제거하도록 지시했다. 이에는  “미성년자를 포함한 젊은 여성들과의 성행위 및 ‘고문 동영상’과 관련해 엡스타인과 주고받은 이메일 8건 이상”과 트럼프에게 미성년 시절 성폭행을 당했다고 주장하는 한 여성과의 인터뷰가 포함된다.법무부는 해당 문서들을 제출하거나 이행할 수 없는 이유를 “소명”해야 한다.미 연방수사국(FBI)은 트럼프가 성폭행했다는 여성이 신뢰할 수 있다고 판단해 네 차례 인터뷰를 진행했다. 법무부는 의회의 공개 요구에 따라 인터뷰 관련 파일을 공개했으나 이후 여러 매체들이 문서 일련번호를 검토해 진술 내용 37페이지가 누락돼 있다고 보도해왔",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 5,
+      "role": "미국 대통령"
+    }
+  }
+}
