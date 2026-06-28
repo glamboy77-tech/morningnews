@@ -5,11 +5,11 @@
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Morning News 2026.06.29</title>
-            <link rel="manifest" href="manifest.json">
+            <link rel="manifest" href="../manifest.json">
             <script>
               // Service Worker Registration
               if ('serviceWorker' in navigator) {
-                navigator.serviceWorker.register('sw.js')
+                navigator.serviceWorker.register('../sw.js')
                   .then(registration => {
                     console.log('Service Worker registered:', registration);
                   })
@@ -171,7 +171,6 @@ ${shareText}`);
                   if (geminiLoadTimer) clearTimeout(geminiLoadTimer);
                   geminiLoadTimer = setTimeout(() => {
                       if (!geminiLoaded) {
-                          // Keep the hint visible but allow interaction if needed.
                           setGeminiLoading(false);
                       }
                   }, 15000);
@@ -951,7 +950,7 @@ ${shareText}`);
                         <button class="action-btn" onclick="shareMorningBriefing()">📤 오늘 브리핑 공유</button>
                     </div>
                 </header>
-        <div class="sticky-nav"><a href="archive.html" class="nav-pill">🗓️ 아카이브</a><a href="https://www.youtube.com/@morning5min" class="nav-pill" target="_blank" rel="noopener noreferrer">🎬 데일리 맥락</a><a href="#인물별" class="nav-pill">👤 인물별 (9)</a><a href="#정치" class="nav-pill">정치 (23)</a><a href="#경제/거시" class="nav-pill">경제/거시 (45)</a><a href="#기업/산업" class="nav-pill">기업/산업 (18)</a><a href="#부동산" class="nav-pill">부동산 (4)</a><a href="#국제" class="nav-pill">국제 (21)</a><a href="#science" class="nav-pill">테크 (10)</a></div><div class="briefing-card"><div class="briefing-title">⚡ Morning Briefing</div>
+        <div class="sticky-nav"><a href="../archive.html" class="nav-pill">🗓️ 아카이브</a><a href="https://www.youtube.com/@morning5min" class="nav-pill" target="_blank" rel="noopener noreferrer">🎬 데일리 맥락</a><a href="#인물별" class="nav-pill">👤 인물별 (9)</a><a href="#정치" class="nav-pill">정치 (23)</a><a href="#경제/거시" class="nav-pill">경제/거시 (45)</a><a href="#기업/산업" class="nav-pill">기업/산업 (18)</a><a href="#부동산" class="nav-pill">부동산 (4)</a><a href="#국제" class="nav-pill">국제 (21)</a><a href="#science" class="nav-pill">테크 (10)</a></div><div class="briefing-card"><div class="briefing-title">⚡ Morning Briefing</div>
                     <div class="briefing-item">
                         <span class="briefing-label">정치</span>
                         <span class="briefing-content">서울시가 독립유공자 후손에게 장학금을 지원하는 등 역사적 배려를 보이고 있습니다. 이재명 대통령은 청와대에서 '메가프로젝트' 관련 보고회를 갖고 호남 지역 반도체 투자 계획을 발표했습니다. 여야는 국회 원구성 논의에서 법사위 위원장 자리를 두고 강 대 강 대치를 이어가고 있습니다. 한편 한일 국방 당국은 교류 협력을 강화하기로 하였으며, 중러 군용기들이 한국의 방공식별구역을 침범하는 긴장도 있었습니다. 정치권 내에서는 당내 갈등과 징계 문제가 계속되고 있고, 납북자 문제 해결을 위한 대화와 협력도 강조되고 있습니다.</span>
@@ -2143,11 +2142,7 @@ ${shareText}`);
             <div id="geminiOverlay" class="gemini-overlay" role="dialog" aria-modal="true" aria-label="Gemini Navigator">
                 <div class="gemini-overlay-header">
                     <div class="gemini-overlay-title">🔎 Gemini 네비게이터</div>
-                    <div class="gemini-overlay-actions">
-                        <button class="gemini-icon-btn" type="button" title="새로고침" onclick="reloadGeminiNavigator()">↻</button>
-                        <button class="gemini-icon-btn" type="button" title="새 창으로 열기" onclick="openGeminiInNewTab()">↗</button>
-                        <button class="gemini-icon-btn" type="button" title="닫기" onclick="closeGeminiNavigator()">✕</button>
-                    </div>
+                    <div class="gemini-overlay-actions"><button class="gemini-icon-btn" type="button" title="새로고침" onclick="reloadGeminiNavigator()">↻</button><button class="gemini-icon-btn" type="button" title="새 창으로 열기" onclick="openGeminiInNewTab()">↗</button><button class="gemini-icon-btn" type="button" title="닫기" onclick="closeGeminiNavigator()">✕</button></div>
                 </div>
                 <div class="gemini-overlay-body">
                     <div id="geminiLoading" class="gemini-overlay-loading">
