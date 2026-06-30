@@ -1,0 +1,380 @@
+{
+  "timestamp": "2026-07-01T06:02:03.204214",
+  "date": "20260701",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "李대통령 “서남권 반도체, 호남에 대한 역사적 보상”",
+          "link": "https://www.chosun.com/politics/politics_general/2026/07/01/J6RE2IVC7RHV7JAMRZPUQX5UL4/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-07-01 00:55:00",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, 오늘 문재인 전 대통령과 청와대서 오찬",
+          "link": "https://www.yna.co.kr/view/AKR20260630176100001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-07-01 05:00:01",
+          "description": "(서울=연합뉴스) 황윤기 기자 = 이재명 대통령은 1일 문재인 전 대통령을 청와대 영빈관으로 초청해 오찬을 함께한다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 \"용인·서남권 클러스터 동시 추진…확실히 책임질 것\"",
+          "link": "https://www.yna.co.kr/view/AKR20260630152400001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-06-30 16:19:43",
+          "description": "(서울=연합뉴스) 임형섭 황윤기 기자 = 이재명 대통령은 30일 정부가 전날 발표한 서남권 반도체 클러스터 조성사업을 포함한 &apos;대한민국 대도약 ...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "강유정 “전·현직 대통령 향한 멸칭어는 독(毒)… 李대통령, 가장 큰 상처 입은 분”",
+          "link": "https://www.chosun.com/politics/politics_general/2026/06/30/EZJKODMVV5EFVJ2JG6LFQSDDV4/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-06-30 16:26:33",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 \"사용되지 않는 포인트 수십조…지역화폐 전환 추진\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260630073551001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-06-30 14:44:34",
+          "description": "(서울=연합뉴스) 임형섭 황윤기 기자 = 이재명 대통령은 30일 &quot;카드 결제나 쇼핑 멤버십 가입 등을 하면 소위 포인트를 적립해주는데, 이 포인...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "李대통령 \"사용되지 않는 포인트 수십조…지역화폐 전환 추진\"",
+              "link": "https://www.yna.co.kr/view/AKR20260630073500001"
+            }
+          ]
+        },
+        {
+          "title": "李, 광주·아산·진주에서 ‘반도체 투자 국민보고회’",
+          "link": "https://www.chosun.com/politics/politics_general/2026/06/30/4XTZAYWKOJGP3KDEI3DCZQ3T2Q/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-06-30 12:45:43",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, 당으로 돌아가는 김민석 총리 향해 “국민 목숨 살린 총리”",
+          "link": "https://www.chosun.com/politics/politics_general/2026/06/30/CDMS6W2KMRDYRI4WR36O4GX4AA/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-06-30 10:39:11",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "與 친명계 “李 지지율 하락, 선거 정신승리 때문…지도부 제대로 만들어야”",
+          "link": "https://www.chosun.com/politics/assembly/2026/06/30/GO2WPR6FQNFKDMMFHYJC3U55XU/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-06-30 09:37:03",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        }
+      ],
+      "count": 8,
+      "role": "한국 대통령"
+    },
+    "정청래": {
+      "articles": [
+        {
+          "title": "宋 사과했지만 \"정청래 FTA 반대\"…鄭측 \"편파적 파묘\" 격앙(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260630089651001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-06-30 17:11:39",
+          "description": "(서울=연합뉴스) 서혜림 김정진 오규진 기자 = 이른바 &apos;적통 논란&apos;을 촉발한 더불어민주당 송영길 의원이 30일 사과했지만, 당권주자 간 충돌은...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "宋 사과했지만 \"정청래 FTA 반대\"…鄭측 \"편파적 파묘\" 격앙(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260630089651001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-06-30 17:11:39",
+          "description": "(서울=연합뉴스) 서혜림 김정진 오규진 기자 = 이른바 &apos;적통 논란&apos;을 촉발한 더불어민주당 송영길 의원이 30일 사과했지만, 당권주자 간 충돌은...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "宋 사과했지만 \"정청래 FTA 반대\"…鄭측 \"편파적 파묘\" 격앙(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260630089651001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-06-30 17:11:39",
+          "description": "(서울=연합뉴스) 서혜림 김정진 오규진 기자 = 이른바 &apos;적통 논란&apos;을 촉발한 더불어민주당 송영길 의원이 30일 사과했지만, 당권주자 간 충돌은...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "宋 사과했지만 \"정청래 FTA 반대\"…鄭측 \"편파적 파묘\" 격앙",
+          "link": "https://www.yna.co.kr/view/AKR20260630089600001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-06-30 11:41:06",
+          "description": "(서울=연합뉴스) 서혜림 김정진 최주성 기자 = 이른바 &apos;적통 논란&apos;을 촉발한 더불어민주당 송영길 의원이 30일 사과했지만, 당권주자 간 충돌은...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "송영길 “정청래, 한미 FTA 반대 선봉”…鄭 “소모적 논쟁”",
+          "link": "https://www.chosun.com/politics/assembly/2026/06/30/VH674MEHHVHGVLKZVTRWQGAV4I/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-06-30 09:52:28",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        }
+      ],
+      "count": 5,
+      "role": "정치인"
+    },
+    "트럼프": {
+      "articles": [
+        {
+          "title": "美대법 “대통령, 연준 이사 해임 불가” 트럼프에 제동",
+          "link": "https://www.donga.com/news/Inter/article/all/20260701/134212748/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-01 04:30:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/07/01/134213238.1.jpg\" vspace=\"10\" />미국 연방대법원이 지난달 29일 도널드 트럼프 대통령의 권한 및 개인사에 관한 판결을 잇따라 내렸다. 대법원은 이날 트럼프 대통령이 지난해 3월 야당 민주당이 추천한 리베카 슬로터 연방거래위원회(FTC) 위원을 “정책 노선이 맞지 않는다”며 해임한 것이 적법하다고 판단했다. 종신직인 대법관 9명 중 보수 성향의 여섯 대법관이 모두 찬성했고, 진보 성향인 세 대법관은 반대했다. ‘정당한 사유나 비위 행위가 없다면 대통령이 정책적 견해차만으로는 독립 규제기관의 인사를 해임할 수 없다’는 1935년의 판례를 91년 만에 뒤집었다. 이에 따라 한국의 공정거래위원회와 유사한 FTC는 물론 연방통신위원회(FCC), 증권거래위원회(SEC) 등 20여 개의 독립기관이 대통령의 직접적인 통제를 받을 가능성이 커졌다. 트럼프 대통령은 트루스소셜에 “엄청난 승리”라고 반겼다. 다만 대법원은 트럼프 대통령이 흑인 여성 민주당원인 리사 쿡 연방준비제도(Fed) 이사를 해임하려는 시도를 반대했다. 진보",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "美출생시민권 유지된다…보수성향 대법원이 트럼프 제동",
+          "link": "https://www.donga.com/news/Inter/article/all/20260701/134213383/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-01 01:38:05",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/07/01/134213384.1.jpg\" vspace=\"10\" />미국에서 태어난 아이들에게 자동으로 시민권을 부여하는 출생시민권 제도가 유지돼야 한다고 미 연방대법원이 30일(현지 시간) 판결했다.도널드 트럼프 미국 대통령은 2기 행정부 취임 첫날 행정명령을 통해 150년 이상 이어진 출생시민권제도를 사실상 폐지하려 했으나, 보수성향의 대법원 조차도 위헌적이라며 제동을 걸었다. AP통신 등에 따르면 미 연방대법원은 이날 도널드 트럼프 행정부의 출생시민권 폐지 행정명령이 위헌이라고 판단했다. 워싱턴포스트는 “외교관 자녀나 기타 드문 경우를 제외하고 미국에서 태어난 모든 어린이에게 수정헌법 14조에 따라 자동으로 시민권이 부여된다는 오랜 이해를 재확인 한 것”이라고 전했다. 트럼프 대통령은 지난해 1월 취임 직후 시민권자와 영주권자가 아닌 임시체류 신분의 외국인 자녀나 불법체류자 자녀는 미국에서 태어나도 시민권을 주지 않는다는 행정명령에 서명했다. 사실상 미국의 출생시민권제도를 폐지하는 조치로, 트럼프 행정부의 대표적 반(反)이민 정책이다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "“트럼프 지지로 오해받을라”…성조기 거꾸로 건 미국인들",
+          "link": "https://www.donga.com/news/Inter/article/all/20260630/134210235/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-06-30 16:55:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/06/30/134212448.1.jpg\" vspace=\"10\" />미국 건국 250주년을 앞두고 미국에서 성조기 게양을 둘러싼 논란이 일고 있다. 국가적 자부심과 애국심의 상징이던 성조기가 정치적 양극화 속에서 도널드 트럼프 대통령 지지 진영인 ‘MAGA’의 상징물로 사용되고 있기 때문이다. 미국 언론 NBC뉴스는 29일 미국인들 사이에서 성조기 게양을 둘러싼 논쟁이 확산하고 있다고 보도했다. 트럼프 대통령 지지자들은 국기 게양을 자랑스러워해야 한다는 입장이지만, 반대 진영 시민들은 성조기를 내걸 경우 트럼프 행정부를 지지하는 것으로 오해받을 수 있다고 걱정하고 있다.아이오와주에 사는 디나 배닉 씨는 트럼프 대통령에게 항의한다는 뜻으로 성조기를 ‘거꾸로’ 게양할 계획이라고 밝혔다. 그는 “트럼프 대통령이 모든 것을 뒤집었으니 국기도 거꾸로 달리는 것이 당연하다”고 말했다. 매사추세츠주의 브루스 왓슨 씨도 성조기를 게양하되 “우리가 MAGA 소속이 아니라는 표지판을 세울 것”이라고 했다.일부 시민은 성조기 대신 주(州) 깃발을 내걸고 있다. 펜",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "‘성추행 배상’ 재심 요청 기각된 트럼프 “대법에 맞서 싸울 것”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260630/134207510/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-06-30 11:36:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/06/30/134207748.1.jpg\" vspace=\"10\" />미국 연방대법원이 29일(현지 시간) 도널드 트럼프 미국 대통령의 성추행 사건 판결에 관한 재심 요청을 기각했다고 AP통신 등이 보도했다. 트럼프 대통령은 1996년 뉴욕의 고급 백화점 버그도프 굿맨 탈의실에서 여성 작가 E 진 캐럴을 성추행하고 명예훼손한 혐의로 2023년 민사 소송에서 500만 달러(약 77억 원) 배상 판결을 받았다. 대법원에 재심을 요청했지만 이번에 기각됐다.대법원은 기각 사유나 공개 반대 의견은 밝히지 않았다. 트럼프 대통령은 즉각 트루스소셜을 통해 대법원 결정을 비난했다. 그는 “놀랍게도 대법원은 내가 만난 적도 없는 여성이 제기한 허위 소송을 재심하지 않기로 결정했다”며 “나는 이 우스꽝스러운 명예훼손 소송을 포함해 나를 상대로 한 사법 케이스와 무기화에 맞서 모든 힘과 역량을 다해 계속 싸울 것”이라고 게시했다. 또 “이번 건은 미국과 미국의 지향점에 맞서는 것이며, 다른 어떤 대통령이나 대통령 후보자에게도 일어나선 안될 것”이라고도 덧붙였다.뉴욕타임스",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "대통령직 기념에 진심인 트럼프, 공원에 47그루 심는다",
+          "link": "https://www.donga.com/news/Inter/article/all/20260630/134207460/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-06-30 11:01:17",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/06/30/134207461.1.jpg\" vspace=\"10\" />도널드 트럼프 미 대통령이 백악관 건너편 라파예트 공원에 자신의 임기를 가리키는 숫자인 47그루의 단풍나무를 심을 계획이라고 미 워싱턴포스트(WP)가 29일(현지시각) 보도했다. 단풍나무는 트럼프가 가장 좋아하는 나무다. 이 공원에는 기존에 수십 그루의 나무가 있었으나 리노베이션 과정에서 일부가 제거됐다. 트럼프가 47그루를 채우기 위해 추가로 심을 나무가 몇 그루인지, 그 과정에서 기존 나무를 제거할 것인지는 불분명하다. 라파예트 광장은 백악관 단지 바로 북쪽에 위치하며 대통령 공원의 일부로서 국립공원관리청이 관리한다. 시공사들이 지난 1월부터 공원을 리노베이션하고 있으며, 트럼프는 공원의 분수를 고치고 부지를 정비하는 작업을 칭찬해 왔다.트럼프는 지난 3일 집무실에서 “라파예트 파크 건너편으로 걸어가면 믿기 힘든 광경을 보게 될 것”이라며 “독립기념일 이전에 개장할 것”이라고 말했다.그러나 공원 계획에 정통한 사람들에 따르면 공원은 빨라도 8월 이전에 개장하는 일정으로 진",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 5,
+      "role": "미국 대통령"
+    },
+    "장동혁": {
+      "articles": [
+        {
+          "title": "국힘 윤리위 소집에 친한계 반발…장동혁發 징계내전 '전운'(종합2보)",
+          "link": "https://www.yna.co.kr/view/AKR20260630069052001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-06-30 20:19:44",
+          "description": "(서울=연합뉴스) 박수윤 권희원 노선웅 기자 = 국민의힘 중앙윤리위원회가 반(反)장동혁 성향의 인사들을 겨냥한 징계를 재개할 조짐을 보이면서 당...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "장동혁 \"올림픽공원 외면 안 돼…선거 소청 직접 맡겠다\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260630167151001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-06-30 18:30:39",
+          "description": "(서울=연합뉴스) 노선웅 기자 = 국민의힘 장동혁 대표는 30일 &quot;올림픽 공원의 함성을 외면하고 그들과 함께 목숨걸고 싸우지 않는다면 결국 그 ...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "국힘 윤리위 소집에 친한계 반발…장동혁發 징계내전 '전운'(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260630069051001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-06-30 16:11:55",
+          "description": "(서울=연합뉴스) 박수윤 권희원 노선웅 기자 = 국민의힘 중앙윤리위원회가 반(反)장동혁 성향의 인사들을 겨냥한 징계를 재개할 조짐을 보이면서 당...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": true,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "국힘 윤리위 소집에 친한계 반발…장동혁發 징계내전 '전운'",
+              "link": "https://www.yna.co.kr/view/AKR20260630069000001"
+            }
+          ]
+        },
+        {
+          "title": "장동혁 “與 법사위 고수 이유는 결국 ‘李 재판 취소’”",
+          "link": "https://www.chosun.com/politics/assembly/2026/06/30/HNX7YKSN7JEZLMWX6EWMIHE62Y/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-06-30 14:43:01",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        }
+      ],
+      "count": 4,
+      "role": "국민의힘 인사"
+    },
+    "이광재": {
+      "articles": [
+        {
+          "title": "[속보] 운영 한병도·예결 이광재…본회의서 與주도 선출 예정",
+          "link": "https://www.yna.co.kr/view/AKR20260630176000001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-06-30 18:06:32",
+          "description": "(",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "[프로필] 이광재 예결위원장…실용노선 걷는 노무현의 오른팔",
+          "link": "https://www.yna.co.kr/view/AKR20260630176700001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-06-30 21:27:14",
+          "description": "(서울=연합뉴스) 안정훈 기자 = 노무현 전 대통령의 보좌관 출신으로 안희정 전 충남지사와 함께 이른바 &apos;우광재 좌희정&apos;으로 불린, 친노(친노무...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "지방/행정",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "민주당, 법사위원장에 서영교 추천…재경위 조승래·예결위 이광재",
+          "link": "https://www.chosun.com/politics/assembly/2026/06/30/ZFBD7ORPONEWJE72BIN6KDNRMA/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-06-30 18:33:45",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "예결위원장"
+    },
+    "한병도": {
+      "articles": [
+        {
+          "title": "한병도 “與 상임위원장 아닌 곳까지 막힘 없이”... 국회법 개정 추진",
+          "link": "https://www.chosun.com/politics/assembly/2026/06/30/RQKXCO6RPFC7TED33NFJ7I5BJY/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-06-30 19:46:53",
+          "description": "",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "[속보] 운영 한병도·예결 이광재…본회의서 與주도 선출 예정",
+          "link": "https://www.yna.co.kr/view/AKR20260630176000001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-06-30 18:06:32",
+          "description": "(",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "[프로필] 한병도 운영위원장…與 '첫 연임' 원내대표",
+          "link": "https://www.yna.co.kr/view/AKR20260630185300001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-06-30 21:30:15",
+          "description": "(서울=연합뉴스) 박재하 기자 = 더불어민주당 최초로 원내대표 연임에 성공한 호남 중진.",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "지방/행정",
+          "is_representative": false,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "운영위원장"
+    }
+  }
+}
