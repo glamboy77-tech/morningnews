@@ -5,11 +5,11 @@
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Morning News 2026.07.05</title>
-            <link rel="manifest" href="manifest.json">
+            <link rel="manifest" href="../manifest.json">
             <script>
               // Service Worker Registration
               if ('serviceWorker' in navigator) {
-                navigator.serviceWorker.register('sw.js')
+                navigator.serviceWorker.register('../sw.js')
                   .then(registration => {
                     console.log('Service Worker registered:', registration);
                   })
@@ -171,7 +171,6 @@ ${shareText}`);
                   if (geminiLoadTimer) clearTimeout(geminiLoadTimer);
                   geminiLoadTimer = setTimeout(() => {
                       if (!geminiLoaded) {
-                          // Keep the hint visible but allow interaction if needed.
                           setGeminiLoading(false);
                       }
                   }, 15000);
@@ -951,7 +950,7 @@ ${shareText}`);
                         <button class="action-btn" onclick="shareMorningBriefing()">📤 오늘 브리핑 공유</button>
                     </div>
                 </header>
-        <div class="sticky-nav"><a href="archive.html" class="nav-pill">🗓️ 아카이브</a><a href="https://www.youtube.com/@morning5min" class="nav-pill" target="_blank" rel="noopener noreferrer">🎬 데일리 맥락</a><a href="#정치" class="nav-pill">정치 (7)</a><a href="#경제/거시" class="nav-pill">경제/거시 (3)</a><a href="#기업/산업" class="nav-pill">기업/산업 (5)</a><a href="#부동산" class="nav-pill">부동산 (4)</a><a href="#국제" class="nav-pill">국제 (9)</a><a href="#science" class="nav-pill">테크 (10)</a></div><div class="briefing-card"><div class="briefing-title">⚡ Morning Briefing</div>
+        <div class="sticky-nav"><a href="../archive.html" class="nav-pill">🗓️ 아카이브</a><a href="https://www.youtube.com/@morning5min" class="nav-pill" target="_blank" rel="noopener noreferrer">🎬 데일리 맥락</a><a href="#정치" class="nav-pill">정치 (7)</a><a href="#경제/거시" class="nav-pill">경제/거시 (3)</a><a href="#기업/산업" class="nav-pill">기업/산업 (5)</a><a href="#부동산" class="nav-pill">부동산 (4)</a><a href="#국제" class="nav-pill">국제 (9)</a><a href="#science" class="nav-pill">테크 (10)</a></div><div class="briefing-card"><div class="briefing-title">⚡ Morning Briefing</div>
                     <div class="briefing-item">
                         <span class="briefing-label">정치</span>
                         <span class="briefing-content">여권의 전당대회를 앞두고 김 후보 등장의 움직임과 정세균, 송영길 세 후보의 각기 다른 전략이 눈에 띕니다. 문재인 전 대통령의 평양 방문 시 이재명 후보가 제외돼 친문과 친명 계파간 거리감이 더해졌고, 이병태 교수의 5·18 논란으로 청와대가 엄중 경고하는 상황입니다. 주진우 씨는 새 정보통신망법을 ‘국민 입막음법’이라며 헌법소원을 예고했고, 오세훈 서울시장은 윤석열 대통령 판단에 대해 비판했으나 지지 세력과 관계 유지 필요성을 강조했습니다. 야당은 대규모 프로젝트를 국정지지율용과 전당대회용 정치 이벤트로 평가하며 여권과 날 선 대립을 보이고 있습니다.</span>
@@ -1327,11 +1326,7 @@ ${shareText}`);
             <div id="geminiOverlay" class="gemini-overlay" role="dialog" aria-modal="true" aria-label="Gemini Navigator">
                 <div class="gemini-overlay-header">
                     <div class="gemini-overlay-title">🔎 Gemini 네비게이터</div>
-                    <div class="gemini-overlay-actions">
-                        <button class="gemini-icon-btn" type="button" title="새로고침" onclick="reloadGeminiNavigator()">↻</button>
-                        <button class="gemini-icon-btn" type="button" title="새 창으로 열기" onclick="openGeminiInNewTab()">↗</button>
-                        <button class="gemini-icon-btn" type="button" title="닫기" onclick="closeGeminiNavigator()">✕</button>
-                    </div>
+                    <div class="gemini-overlay-actions"><button class="gemini-icon-btn" type="button" title="새로고침" onclick="reloadGeminiNavigator()">↻</button><button class="gemini-icon-btn" type="button" title="새 창으로 열기" onclick="openGeminiInNewTab()">↗</button><button class="gemini-icon-btn" type="button" title="닫기" onclick="closeGeminiNavigator()">✕</button></div>
                 </div>
                 <div class="gemini-overlay-body">
                     <div id="geminiLoading" class="gemini-overlay-loading">
