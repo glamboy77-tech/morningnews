@@ -5,11 +5,11 @@
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Morning News 2026.07.08</title>
-            <link rel="manifest" href="manifest.json">
+            <link rel="manifest" href="../manifest.json">
             <script>
               // Service Worker Registration
               if ('serviceWorker' in navigator) {
-                navigator.serviceWorker.register('sw.js')
+                navigator.serviceWorker.register('../sw.js')
                   .then(registration => {
                     console.log('Service Worker registered:', registration);
                   })
@@ -171,7 +171,6 @@ ${shareText}`);
                   if (geminiLoadTimer) clearTimeout(geminiLoadTimer);
                   geminiLoadTimer = setTimeout(() => {
                       if (!geminiLoaded) {
-                          // Keep the hint visible but allow interaction if needed.
                           setGeminiLoading(false);
                       }
                   }, 15000);
@@ -951,7 +950,7 @@ ${shareText}`);
                         <button class="action-btn" onclick="shareMorningBriefing()">📤 오늘 브리핑 공유</button>
                     </div>
                 </header>
-        <div class="sticky-nav"><a href="archive.html" class="nav-pill">🗓️ 아카이브</a><a href="https://www.youtube.com/@morning5min" class="nav-pill" target="_blank" rel="noopener noreferrer">🎬 데일리 맥락</a><a href="#인물별" class="nav-pill">👤 인물별 (10)</a><a href="#정치" class="nav-pill">정치 (36)</a><a href="#경제/거시" class="nav-pill">경제/거시 (9)</a><a href="#기업/산업" class="nav-pill">기업/산업 (22)</a><a href="#부동산" class="nav-pill">부동산 (15)</a><a href="#국제" class="nav-pill">국제 (28)</a><a href="#science" class="nav-pill">테크 (10)</a></div><div class="briefing-card"><div class="briefing-title">⚡ Morning Briefing</div>
+        <div class="sticky-nav"><a href="../archive.html" class="nav-pill">🗓️ 아카이브</a><a href="https://www.youtube.com/@morning5min" class="nav-pill" target="_blank" rel="noopener noreferrer">🎬 데일리 맥락</a><a href="#인물별" class="nav-pill">👤 인물별 (10)</a><a href="#정치" class="nav-pill">정치 (36)</a><a href="#경제/거시" class="nav-pill">경제/거시 (9)</a><a href="#기업/산업" class="nav-pill">기업/산업 (22)</a><a href="#부동산" class="nav-pill">부동산 (15)</a><a href="#국제" class="nav-pill">국제 (28)</a><a href="#science" class="nav-pill">테크 (10)</a></div><div class="briefing-card"><div class="briefing-title">⚡ Morning Briefing</div>
                     <div class="briefing-item">
                         <span class="briefing-label">정치</span>
                         <span class="briefing-content">미국 정부가 한국 조선사에 전투함과 급유함 공급 가능성을 타진하며 방위산업 협력을 모색하고 있습니다. 선거관리위원회 국정조사 특별위원회는 투표용지 사태 관련 전문가 간담회를 개최합니다. 여야 내부에서는 민주당 내전과 국민의힘 윤리위원회 운영에 따른 갈등이 이어지고 있습니다. 윤 대통령은 튀르키예로 출국해 유럽 방산외교 일정을 시작하며 한미일 외교장관회의가 개최되어 안보 및 경제 협력이 논의됐습니다. 국회에서는 검찰개혁 법안과 인구감소 지역 주택 취득세 감면 법안 등이 발표되고, 농산물 가격 하락분에 대한 가격안정제도 다음 달부터 시행됩니다.</span>
@@ -2152,11 +2151,7 @@ ${shareText}`);
             <div id="geminiOverlay" class="gemini-overlay" role="dialog" aria-modal="true" aria-label="Gemini Navigator">
                 <div class="gemini-overlay-header">
                     <div class="gemini-overlay-title">🔎 Gemini 네비게이터</div>
-                    <div class="gemini-overlay-actions">
-                        <button class="gemini-icon-btn" type="button" title="새로고침" onclick="reloadGeminiNavigator()">↻</button>
-                        <button class="gemini-icon-btn" type="button" title="새 창으로 열기" onclick="openGeminiInNewTab()">↗</button>
-                        <button class="gemini-icon-btn" type="button" title="닫기" onclick="closeGeminiNavigator()">✕</button>
-                    </div>
+                    <div class="gemini-overlay-actions"><button class="gemini-icon-btn" type="button" title="새로고침" onclick="reloadGeminiNavigator()">↻</button><button class="gemini-icon-btn" type="button" title="새 창으로 열기" onclick="openGeminiInNewTab()">↗</button><button class="gemini-icon-btn" type="button" title="닫기" onclick="closeGeminiNavigator()">✕</button></div>
                 </div>
                 <div class="gemini-overlay-body">
                     <div id="geminiLoading" class="gemini-overlay-loading">
