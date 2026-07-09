@@ -1,0 +1,106 @@
+{
+  "timestamp": "2026-07-10T06:01:59.875297",
+  "date": "20260710",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "李대통령, 몽골 교민들과 오찬 간담회…이태준 열사 기념관 방문",
+          "link": "https://www.yna.co.kr/view/AKR20260709181500001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-07-10 05:00:01",
+          "description": "(울란바타르=연합뉴스) 임형섭 설승은 기자 = 이재명 대통령은 10일(현지시간) 몽골 국빈 방문 이틀째 일정을 이어간다.",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, IMF '韓 성장률 상향'에 \"모두의 성장 되도록 노력\"",
+          "link": "https://www.yna.co.kr/view/AKR20260709101900001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-07-09 11:44:41",
+          "description": "(서울=연합뉴스) 고동욱 기자 = 이재명 대통령은 9일 국제통화기금(IMF)이 한국의 경제성장률을 상향 조정한 것과 관련해 &quot;높은 경제성장률이 ...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "경제/거시",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "한병도 \"張, 李대통령에 저급한 막말정치…野 태업 지속시 결단\"",
+          "link": "https://www.yna.co.kr/view/AKR20260709072300001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-07-09 10:26:46",
+          "description": "(서울=연합뉴스) 김남권 안정훈 기자 = 더불어민주당 한병도 대표 직무대행 겸 원내대표는 9일 국민의힘 장동혁 대표가 6·3 지방선거 투표용지 ...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, IMF '韓 성장률 상향'에 \"모두의 성장 되도록 노력\"",
+          "link": "https://www.yna.co.kr/view/AKR20260709101900001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-07-09 11:44:41",
+          "description": "(서울=연합뉴스) 고동욱 기자 = 이재명 대통령은 9일 국제통화기금(IMF)이 한국의 경제성장률을 상향 조정한 것과 관련해 &quot;높은 경제성장률이 ...",
+          "category": "domestic",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 4,
+      "role": "한국 대통령"
+    },
+    "장동혁": {
+      "articles": [
+        {
+          "title": "장동혁 \"중앙선관위 선거소청 기각 지침 내려…명백한 직권남용\"",
+          "link": "https://www.yna.co.kr/view/AKR20260709133700001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-07-09 14:57:07",
+          "description": "(서울=연합뉴스) 권희원 기자 = 국민의힘 장동혁 대표는 9일 중앙선거관리위원회가 서울시선관위원들에게 전달했다는 참고자료가 선거소청 기각을 위한...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "장동혁 \"야당이 추천하는 '참정권 회복 특검' 즉각 수용해야\"",
+          "link": "https://www.yna.co.kr/view/AKR20260709060000001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-07-09 10:07:29",
+          "description": "(서울=연합뉴스) 김연정 조다운 기자 = 국민의힘 장동혁 대표는 9일 &quot;지금 대한민국에 필요한 특검은 단 하나다. 바로 짓밟힌 국민의 한 표를 ...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "장동혁, 韓총리 회동 취소…'장윤기 사건' 광주경찰청장 면담(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260708179951001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-07-09 08:47:31",
+          "description": "(서울=연합뉴스) 노선웅 기자 = 국민의힘 장동혁 대표는 9일 예정된 한성숙 신임 국무총리와의 회동을 취소하고 광주에서 여고생이 피살된 &apos;장윤기...",
+          "category": "domestic",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": false,
+          "related_full_sources": [
+            {
+              "source": "조선일보-정치",
+              "title": "장동혁, 韓총리 회동 취소... ‘장윤기 사건’ 면담차 광주행",
+              "link": "https://www.chosun.com/politics/politics_general/2026/07/09/N6THRRSGW5F27CL5OOZ67RRQAU/"
+            }
+          ]
+        }
+      ],
+      "count": 3,
+      "role": "국회의원"
+    }
+  }
+}
