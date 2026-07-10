@@ -158,15 +158,21 @@ class AIProcessor:
         news_input = []
         for idx, item in enumerate(news_items):
             # Calculate priority score based on keywords
-            score = 0
+            source_weight = float(item.get('source_weight', 1.0) or 1.0)
+            score = int(round((source_weight - 1.0) * 10))
             for kw in config.target_keywords:
                 if kw in item['title'] or kw in item.get('description', ''):
                     score += 5
+            if item.get('source_type') in ('official', 'disclosure'):
+                score += 4
+            if item.get('deduped_sources'):
+                score += min(len(item.get('deduped_sources', [])), 5)
             item['priority_score'] = score
             
             # Include description for better context
             desc = item.get('description', '')[:100] if item.get('description') else ''
-            news_input.append(f"ID:{idx} | Source:{item['source']} | Title:{item['title']} | Desc:{desc}")
+            source_badge = item.get('source_badge', '')
+            news_input.append(f"ID:{idx} | Source:{item['source']}({source_badge}) | Score:{score} | Title:{item['title']} | Desc:{desc}")
             
         news_text = "\n".join(news_input)
         
@@ -470,8 +476,14 @@ class AIProcessor:
         article_map = {}
         idx = 0
         
+        # 주요 인물 추출은 부가 섹션이므로 전체 발행을 지연시키지 않도록
+        # 카테고리별 대표 기사만 제한적으로 사용한다.
+        max_per_category = 25
+        max_total_articles = 120
         for category, items in categorized_news.items():
-            for item in items:
+            for item in items[:max_per_category]:
+                if idx >= max_total_articles:
+                    break
                 article_info = {
                     'id': idx,
                     'title': item['title'],
@@ -484,6 +496,8 @@ class AIProcessor:
                 articles_list.append(article_info)
                 article_map[idx] = article_info
                 idx += 1
+            if idx >= max_total_articles:
+                break
         
         if not articles_list:
             return {}

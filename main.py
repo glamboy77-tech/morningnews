@@ -1,7 +1,11 @@
 import os
 import sys
 import datetime
+import signal
+from llm_errors import FatalLLMError
 from rss_manager import RSSManager
+from rss_manager import deduplicate_news_items
+from dart_manager import DARTManager
 from ai_processor import AIProcessor
 from html_generator import HTMLGenerator
 from sentiment_analyzer import SentimentAnalyzer
@@ -17,13 +21,13 @@ class DualLogger:
     def __init__(self, file_path, mode='a'):
         self.file = open(file_path, mode, encoding='utf-8', buffering=1)
         self.console = sys.stdout
-        
+
     def write(self, msg):
         self.console.write(msg)
         self.file.write(msg)
         self.console.flush()
         self.file.flush()
-        
+
     def flush(self):
         self.console.flush()
         self.file.flush()
@@ -69,6 +73,63 @@ def get_missing_required_outputs(date_str: str, output_path: str, cache: DataCac
         missing.append("output/morning_news")
     return missing
 
+def count_categorized_articles(categorized: dict | None) -> int:
+    if not isinstance(categorized, dict):
+        return 0
+    return sum(len(items) for items in categorized.values() if isinstance(items, list))
+
+def merge_batch_result(target: dict, batch_result: dict):
+    if not isinstance(batch_result, dict):
+        return
+    for category, items in batch_result.items():
+        if not isinstance(items, list):
+            continue
+        if category not in target:
+            target[category] = []
+        target[category].extend(items)
+
+def abort_job(message: str, *, exit_code: int = 1):
+    print(f"❌ {message}")
+    raise SystemExit(exit_code)
+
+
+def fetch_fresh_news(rss: RSSManager, dart: DARTManager, *, use_dart: bool = True):
+    """Fetch all fresh source layers and perform a final conservative dedupe."""
+    all_news = rss.fetch_feeds()
+    if use_dart:
+        dart_news = dart.fetch_disclosures(days=1)
+        if dart_news:
+            print(f"  - DART 공시 병합: {len(dart_news)}건")
+            all_news = deduplicate_news_items((all_news or []) + dart_news)
+    return all_news
+
+
+class _KeyPersonExtractionTimeout(Exception):
+    pass
+
+
+def extract_key_persons_with_timeout(ai: AIProcessor, categorized_news: dict, *, timeout_sec: int = 90):
+    """Run optional key-person extraction with a hard timeout.
+
+    주요 인물 섹션은 부가 기능이므로 LLM/API 지연이 전체 뉴스 발행을 막지
+    않도록 제한 시간 초과 시 빈 결과로 진행한다.
+    """
+
+    def _handle_timeout(signum, frame):
+        raise _KeyPersonExtractionTimeout()
+
+    previous_handler = signal.getsignal(signal.SIGALRM)
+    signal.signal(signal.SIGALRM, _handle_timeout)
+    signal.alarm(timeout_sec)
+    try:
+        return ai.extract_key_persons(categorized_news)
+    except _KeyPersonExtractionTimeout:
+        print(f"⚠️ 주요 인물 추출이 {timeout_sec}초를 초과해 인물 섹션 없이 진행합니다.")
+        return {}
+    finally:
+        signal.alarm(0)
+        signal.signal(signal.SIGALRM, previous_handler)
+
 def main(send_push=True, use_cache=True, *, ignore_done_marker: bool = False, tts_only: bool = False, scripts_only: bool = False):
     print("=== Morning News Bot Started ===")
 
@@ -94,191 +155,194 @@ def main(send_push=True, use_cache=True, *, ignore_done_marker: bool = False, tt
             return
         print(f"⚠️ done marker는 있으나 누락 산출물 존재: {', '.join(required_missing)}")
         print("➡️ 누락 산출물 재생성을 위해 작업을 계속 진행합니다.")
-    
+
     # 캐시 상태 확인
     cache_status = cache.get_cache_status(today_str)
     print(f"📊 오늘의 캐시 상태: RSS={cache_status['rss']}, AI분석={cache_status['ai_analysis']}, 인물={cache_status['key_persons']}")
-    
+
     # 1. Setup (KST 기준)
     date_str_dot = now_kst.strftime("%Y.%m.%d")
     date_str_file = now_kst.strftime("%Y%m%d")
-    
+
     # Output Directory
     output_dir = "output"
     os.makedirs(output_dir, exist_ok=True)
-    
+
     main_filename = f"morning_news_{date_str_file}.html"
     main_file_path = os.path.join(output_dir, main_filename)
-    
+
     # Initialize managers
     rss = RSSManager()
+    dart = DARTManager()
     ai = AIProcessor()
     sentiment = SentimentAnalyzer()
     html_gen = HTMLGenerator()
     wm = WeatherManager()
-    
+
     if tts_only or scripts_only:
-        print("\n[Phase 1~2.5] TTS-only 모드: 캐시된 데이터만 사용합니다.")
-        if not (cache_status["rss"] and cache_status["ai_analysis"] and cache_status["key_persons"]):
-            print("⚠️ TTS-only 모드에 필요한 캐시가 없습니다. 먼저 전체 실행으로 캐시를 생성하세요.")
-            print("   예: python main.py --no-push")
-            return
+        print("ℹ️ YouTube/TTS/쇼츠 운영이 중단되어 --tts-only / --scripts-only 모드는 더 이상 실행하지 않습니다.")
+        return
+
+    # 2. Fetch Feeds & Weather (시간 기반 캐시 로직)
+    print("\n[Phase 1] Fetching RSS Feeds & Weather...")
+
+    if use_cache and cache_status["rss"]:
         print("🔄 캐시된 RSS 데이터 로드 중...")
-        all_news = cache.load_rss_data(today_str) or []
-        print("🔄 캐시된 AI 분석 데이터 로드 중...")
-        domestic_categorized_raw = cache.load_ai_analysis(today_str) or {}
-        print("🔄 캐시된 주요 인물 데이터 로드 중...")
-        key_persons = cache.load_key_persons(today_str) or {}
-        weather_data = wm.get_weather()
-    else:
-        # 2. Fetch Feeds & Weather (시간 기반 캐시 로직)
-        print("\n[Phase 1] Fetching RSS Feeds & Weather...")
-    
-        if use_cache and cache_status["rss"]:
-            print("🔄 캐시된 RSS 데이터 로드 중...")
-            all_news = cache.load_rss_data(today_str)
-            if all_news:
-                print(f"  - 캐시된 RSS 로드: {len(all_news)}건")
-            else:
-                print("  - 캐시 로드 실패, 새로 수집...")
-                all_news = rss.fetch_feeds()
-                if use_cache:
-                    cache.save_rss_data(all_news, today_str)
+        all_news = cache.load_rss_data(today_str)
+        if all_news:
+            print(f"  - 캐시된 RSS 로드: {len(all_news)}건")
         else:
-            all_news = rss.fetch_feeds()
+            print("  - 캐시 로드 실패, 새로 수집...")
+            all_news = fetch_fresh_news(rss, dart)
             if use_cache:
                 cache.save_rss_data(all_news, today_str)
-        
-        weather_data = wm.get_weather()
-        print(f"  - Total feeds fetched: {len(all_news)}")
-        
-        domestic_raw_all = [n for n in all_news if n['category'] == 'domestic']
-        print(f"  - Total domestic articles: {len(domestic_raw_all)}")
-        
-        # Separate Science Times
-        science_raw = [n for n in domestic_raw_all if "사이언스타임즈" in n['source']]
-        domestic_raw = [n for n in domestic_raw_all if "사이언스타임즈" not in n['source']]
-        print(f"  - Science articles: {len(science_raw)}")
-        print(f"  - Non-science domestic articles: {len(domestic_raw)}")
-        
-        # Sort and limit Science Times to latest 10
-        science_raw.sort(key=lambda x: x['published_dt'], reverse=True)
-        science_raw = science_raw[:10]
-        
-        # Sort general news by date to ensure recent ones are prioritized across all sources
-        domestic_raw.sort(key=lambda x: x['published_dt'], reverse=True)
-        
-        # 배치 처리: 200개씩 나눠서 AI 분류 후 병합
-        batch_size = 200
-        domestic_categorized_raw = {}
-        
-        # 3. AI Processing (시간 기반 캐시 로직)
-        print("\n[Phase 2] AI Processing...")
-        
-        if use_cache and cache_status["ai_analysis"]:
-            print("🔄 캐시된 AI 분석 데이터 로드 중...")
-            domestic_categorized_raw = cache.load_ai_analysis(today_str)
-            if domestic_categorized_raw:
-                print(f"  - 캐시된 AI 분석 로드: {sum(len(v) for v in domestic_categorized_raw.values())}건")
-            else:
-                print("  - 캐시 로드 실패, 새로 분석...")
-                for batch_start in range(0, len(domestic_raw), batch_size):
-                    batch_end = min(batch_start + batch_size, len(domestic_raw))
-                    batch = domestic_raw[batch_start:batch_end]
-                    print(f"  - Processing batch: articles {batch_start+1}~{batch_end} ({len(batch)} articles)")
-                    
-                    batch_result = ai.process_domestic_news(batch)
-                    
-                    # 배치 결과를 전체 결과에 병합
-                    for category, items in batch_result.items():
-                        if category not in domestic_categorized_raw:
-                            domestic_categorized_raw[category] = []
-                        domestic_categorized_raw[category].extend(items)
-                if use_cache:
-                    cache.save_ai_analysis(domestic_categorized_raw, today_str)
+    else:
+        all_news = fetch_fresh_news(rss, dart)
+        if use_cache:
+            cache.save_rss_data(all_news, today_str)
+
+    weather_data = wm.get_weather()
+    print(f"  - Total feeds fetched: {len(all_news)}")
+
+    domestic_raw_all = [n for n in all_news if n['category'] == 'domestic']
+    print(f"  - Total domestic articles: {len(domestic_raw_all)}")
+
+    # Separate Science Times
+    science_raw = [n for n in domestic_raw_all if "사이언스타임즈" in n['source']]
+    domestic_raw = [n for n in domestic_raw_all if "사이언스타임즈" not in n['source']]
+    print(f"  - Science articles: {len(science_raw)}")
+    print(f"  - Non-science domestic articles: {len(domestic_raw)}")
+
+    # Sort and limit Science Times to latest 10
+    science_raw.sort(key=lambda x: x['published_dt'], reverse=True)
+    science_raw = science_raw[:10]
+
+    # Sort general news by date to ensure recent ones are prioritized across all sources
+    domestic_raw.sort(key=lambda x: x['published_dt'], reverse=True)
+
+    # 배치 처리: 200개씩 나눠서 AI 분류 후 병합
+    batch_size = 200
+    domestic_categorized_raw = {}
+
+    # 3. AI Processing (시간 기반 캐시 로직)
+    print("\n[Phase 2] AI Processing...")
+
+    if use_cache and cache_status["ai_analysis"]:
+        print("🔄 캐시된 AI 분석 데이터 로드 중...")
+        domestic_categorized_raw = cache.load_ai_analysis(today_str)
+        if count_categorized_articles(domestic_categorized_raw) > 0:
+            print(f"  - 캐시된 AI 분석 로드: {sum(len(v) for v in domestic_categorized_raw.values())}건")
         else:
+            print("  - 캐시 로드 실패 또는 빈 캐시 감지, 새로 분석...")
+            domestic_categorized_raw = {}
+            successful_batches = 0
+            failed_batches = 0
             for batch_start in range(0, len(domestic_raw), batch_size):
                 batch_end = min(batch_start + batch_size, len(domestic_raw))
                 batch = domestic_raw[batch_start:batch_end]
                 print(f"  - Processing batch: articles {batch_start+1}~{batch_end} ({len(batch)} articles)")
-                
-                batch_result = ai.process_domestic_news(batch)
-                
-                # 배치 결과를 전체 결과에 병합
-                for category, items in batch_result.items():
-                    if category not in domestic_categorized_raw:
-                        domestic_categorized_raw[category] = []
-                    domestic_categorized_raw[category].extend(items)
+
+                try:
+                    batch_result = ai.process_domestic_news(batch)
+                except FatalLLMError as e:
+                    abort_job(f"Gemini AI 분류 치명 오류로 중단합니다: {e}")
+                batch_count = count_categorized_articles(batch_result)
+                if batch_count > 0:
+                    successful_batches += 1
+                    merge_batch_result(domestic_categorized_raw, batch_result)
+                else:
+                    failed_batches += 1
+                    print("  - ⚠️ batch returned 0 categorized articles")
+            if count_categorized_articles(domestic_categorized_raw) == 0:
+                abort_job("AI 분석 결과가 0건입니다. 빈 캐시/HTML/TTS 생성을 막기 위해 중단합니다.")
+            if failed_batches and not successful_batches:
+                abort_job("모든 AI 분석 batch가 실패했습니다. 발행을 중단합니다.")
             if use_cache:
                 cache.save_ai_analysis(domestic_categorized_raw, today_str)
-        
-        total_returned = sum(len(v) for v in domestic_categorized_raw.values())
-        print(f"  - AI returned {total_returned} articles across {len(domestic_categorized_raw)} categories.")
-        
-        # Apply "At least 20" logic per category
-        domestic_categorized = {}
-        from config import config
-        start_time = config.filter_start_time
-        
-        for category, items in domestic_categorized_raw.items():
-            # Separate recent and older
-            recent_items = [it for it in items if it['published_dt'] >= start_time]
-            older_items = [it for it in items if it['published_dt'] < start_time]
-            
-            # Keep all items (remove minimum threshold)
-            # If there are at least some recent items, prefer them over older ones
-            if recent_items:
-                domestic_categorized[category] = recent_items
+    else:
+        successful_batches = 0
+        failed_batches = 0
+        for batch_start in range(0, len(domestic_raw), batch_size):
+            batch_end = min(batch_start + batch_size, len(domestic_raw))
+            batch = domestic_raw[batch_start:batch_end]
+            print(f"  - Processing batch: articles {batch_start+1}~{batch_end} ({len(batch)} articles)")
+
+            try:
+                batch_result = ai.process_domestic_news(batch)
+            except FatalLLMError as e:
+                abort_job(f"Gemini AI 분류 치명 오류로 중단합니다: {e}")
+            batch_count = count_categorized_articles(batch_result)
+            if batch_count > 0:
+                successful_batches += 1
+                merge_batch_result(domestic_categorized_raw, batch_result)
             else:
-                # Use older items only if no recent items exist
-                domestic_categorized[category] = older_items
-        
-        # Count valid domestic items
-        domestic_count = sum(len(items) for items in domestic_categorized.values())
-        print(f"  - Classified {domestic_count} domestic articles (with fallback).")
-        print(f"  - Domestic Categories: {list(domestic_categorized.keys())}")
-    
-        # 3.5. Extract Key Persons (시간 기반 캐시 로직)
-        print("\n[Phase 2.5] Extracting Key Persons...")
-        
-        if use_cache and cache_status["key_persons"]:
-            print("🔄 캐시된 주요 인물 데이터 로드 중...")
-            key_persons = cache.load_key_persons(today_str)
-            # NOTE: 빈 dict({})도 '정상 로드(인물 없음)'일 수 있으므로 None 여부로 판단
-            if key_persons is not None:
-                print(f"  - 캐시된 주요 인물 로드: {len(key_persons)}명")
-            else:
-                print("  - 캐시 로드 실패, 새로 추출...")
-                key_persons = ai.extract_key_persons(domestic_categorized)
-                if key_persons is not None and use_cache:
-                    cache.save_key_persons(key_persons, today_str)
+                failed_batches += 1
+                print("  - ⚠️ batch returned 0 categorized articles")
+        if count_categorized_articles(domestic_categorized_raw) == 0:
+            abort_job("AI 분석 결과가 0건입니다. 빈 캐시/HTML/TTS 생성을 막기 위해 중단합니다.")
+        if failed_batches and not successful_batches:
+            abort_job("모든 AI 분석 batch가 실패했습니다. 발행을 중단합니다.")
+        if use_cache:
+            cache.save_ai_analysis(domestic_categorized_raw, today_str)
+
+    total_returned = sum(len(v) for v in domestic_categorized_raw.values())
+    print(f"  - AI returned {total_returned} articles across {len(domestic_categorized_raw)} categories.")
+
+    # Apply "At least 20" logic per category
+    domestic_categorized = {}
+    from config import config
+    start_time = config.filter_start_time
+
+    for category, items in domestic_categorized_raw.items():
+        # Separate recent and older
+        recent_items = [it for it in items if it['published_dt'] >= start_time]
+        older_items = [it for it in items if it['published_dt'] < start_time]
+
+        # Keep all items (remove minimum threshold)
+        # If there are at least some recent items, prefer them over older ones
+        if recent_items:
+            domestic_categorized[category] = recent_items
         else:
-            key_persons = ai.extract_key_persons(domestic_categorized)
+            # Use older items only if no recent items exist
+            domestic_categorized[category] = older_items
+
+    # Count valid domestic items
+    domestic_count = sum(len(items) for items in domestic_categorized.values())
+    print(f"  - Classified {domestic_count} domestic articles (with fallback).")
+    print(f"  - Domestic Categories: {list(domestic_categorized.keys())}")
+
+    # 3.5. Extract Key Persons (시간 기반 캐시 로직)
+    print("\n[Phase 2.5] Extracting Key Persons...")
+
+    if use_cache and cache_status["key_persons"]:
+        print("🔄 캐시된 주요 인물 데이터 로드 중...")
+        key_persons = cache.load_key_persons(today_str)
+        # NOTE: 빈 dict({})도 '정상 로드(인물 없음)'일 수 있으므로 None 여부로 판단
+        if key_persons is not None:
+            print(f"  - 캐시된 주요 인물 로드: {len(key_persons)}명")
+        else:
+            print("  - 캐시 로드 실패, 새로 추출...")
+            try:
+                key_persons = extract_key_persons_with_timeout(ai, domestic_categorized)
+            except FatalLLMError as e:
+                abort_job(f"Gemini 주요 인물 추출 치명 오류로 중단합니다: {e}")
             if key_persons is not None and use_cache:
                 cache.save_key_persons(key_persons, today_str)
-        
-        if key_persons:
-            print(f"  - Found {len(key_persons)} key persons:")
-            for person_name, person_data in key_persons.items():
-                print(f"    · {person_name} ({person_data['role']}): {person_data['count']}건")
-        else:
-            print("  - No key persons found with 3+ articles")
+    else:
+        try:
+            key_persons = extract_key_persons_with_timeout(ai, domestic_categorized)
+        except FatalLLMError as e:
+            abort_job(f"Gemini 주요 인물 추출 치명 오류로 중단합니다: {e}")
+        if key_persons is not None and use_cache:
+            cache.save_key_persons(key_persons, today_str)
 
-    if tts_only or scripts_only:
-        domestic_raw_all = [n for n in all_news if n.get('category') == 'domestic']
-        science_raw = [n for n in domestic_raw_all if "사이언스타임즈" in n.get('source', '')]
-        science_raw.sort(key=lambda x: x['published_dt'], reverse=True)
-        science_raw = science_raw[:10]
+    if key_persons:
+        print(f"  - Found {len(key_persons)} key persons:")
+        for person_name, person_data in key_persons.items():
+            print(f"    · {person_name} ({person_data['role']}): {person_data['count']}건")
+    else:
+        print("  - No key persons found with 3+ articles")
 
-        domestic_categorized = {}
-        from config import config
-        start_time = config.filter_start_time
-        for category, items in domestic_categorized_raw.items():
-            recent_items = [it for it in items if it['published_dt'] >= start_time]
-            older_items = [it for it in items if it['published_dt'] < start_time]
-            domestic_categorized[category] = recent_items if recent_items else older_items
-        domestic_count = sum(len(items) for items in domestic_categorized.values())
- 
     # 4. Generate Briefing (SentimentAnalyzer는 항상 실행)
     print("\n[Phase 3] Generating Morning Briefing...")
     briefing_data = None
@@ -288,32 +352,7 @@ def main(send_push=True, use_cache=True, *, ignore_done_marker: bool = False, tt
 
     if isinstance(briefing_data, dict):
         briefing_data = sentiment.sanitize_briefing_data(briefing_data, today_str)
-    if tts_only or scripts_only:
-        if briefing_data is None:
-            print("⚠️ TTS-only 모드인데 오늘 감성/브리핑 캐시가 없습니다. 먼저 전체 실행을 진행하세요.")
-            print("   예: python main.py --no-push")
-            return
-        try:
-            if scripts_only:
-                briefing_data = sentiment.ensure_brief_scripts(
-                    briefing_data,
-                    today_str,
-                    categorized_news=domestic_categorized,
-                    max_retries=3,
-                )
-            else:
-                briefing_data = sentiment.regenerate_tts_only(
-                    briefing_data,
-                    today_str,
-                    categorized_news=domestic_categorized,
-                    max_retries=3,
-                )
-            if use_cache:
-                sentiment.save_cached_data(briefing_data, today_str)
-        except Exception as e:
-            print(f"⚠️ TTS-only 재생성 실패: {e}")
-            return
-    elif briefing_data is None:
+    if briefing_data is None:
         # 당일 브리핑/스크립트가 반드시 생성되도록 stale 캐시 사용 금지
         briefing_data = sentiment.analyze_sentiment(
             domestic_categorized,
@@ -323,48 +362,14 @@ def main(send_push=True, use_cache=True, *, ignore_done_marker: bool = False, tt
             max_retries=3,
         )
 
-    # Save YouTube TTS script (separate text file) - always on
-    tts_path = sentiment.save_tts_script_text(briefing_data, today_str)
-    if tts_path:
-        tts_lines = briefing_data.get("tts_script", {}).get("lines", []) if briefing_data else []
-        print(f"✅ TTS 스크립트 저장 완료: {tts_path} (lines={len(tts_lines)})")
-    else:
-        print("⚠️ TTS 스크립트 저장 실패 또는 데이터 없음")
+    publish_issues = sentiment.validate_publishable_briefing(briefing_data)
+    if publish_issues:
+        abort_job(
+            "브리핑 품질 게이트 실패로 발행을 중단합니다: " + ", ".join(publish_issues)
+        )
 
-    # Save brief source_script JSON (single output)
-    brief_scripts = briefing_data.get("brief_scripts") if isinstance(briefing_data, dict) else None
-    if isinstance(brief_scripts, dict) and isinstance(brief_scripts.get("source_script"), str):
-        brief_path = sentiment.save_brief_scripts_json(brief_scripts, today_str)
-        if brief_path:
-            print(f"✅ 브리프 스크립트 저장 완료: {brief_path}")
-        else:
-            print("⚠️ 브리프 스크립트 저장 실패")
+    print("ℹ️ YouTube/TTS/쇼츠 운영 중단: scripts/youtube_tts, brief, keyword, shorts 파일은 더 이상 생성하지 않습니다.")
 
-        keyword_path = sentiment.save_keywords_text(brief_scripts.get("keywords"), today_str)
-        if keyword_path:
-            print(f"✅ 키워드 파일 저장 완료: {keyword_path}")
-        else:
-            print("⚠️ 키워드 파일 저장 실패 또는 키워드 데이터 없음")
-
-    # Save shorts scripts JSON (derived from brief source script)
-    shorts_scripts = briefing_data.get("shorts_scripts") if isinstance(briefing_data, dict) else None
-    if isinstance(shorts_scripts, dict) and shorts_scripts.get("items"):
-        shorts_path = sentiment.save_shorts_scripts_json(shorts_scripts, today_str)
-        if shorts_path:
-            print(f"✅ 쇼츠 스크립트 저장 완료: {shorts_path}")
-        else:
-            print("⚠️ 쇼츠 스크립트 저장 실패")
-
-        shorts_txt_path = sentiment.save_shorts_scripts_text(shorts_scripts, today_str)
-        if shorts_txt_path:
-            print(f"✅ 쇼츠 TXT 저장 완료: {shorts_txt_path}")
-        else:
-            print("⚠️ 쇼츠 TXT 저장 실패")
-
-    if scripts_only:
-        print("\n=== Finished Scripts-Only Successfully ===")
-        return
- 
     # 5. Generate Main HTML
     print("\n[Phase 4] Generating Main HTML...")
     # 최신 템플릿 반영을 위해 오늘자 페이지와 index.html은 항상 재생성한다.
@@ -411,7 +416,7 @@ def main(send_push=True, use_cache=True, *, ignore_done_marker: bool = False, tt
         send_telegram_hojae(briefing_data, date_str_dot, total_articles)
     except Exception as e:
         print(f"⚠️ 텔레그램 알림 실패: {e}")
-    
+
     # 6. Push Notification 기능 제거
     if send_push:
         print("\n[Phase 5] Push 알림 기능은 제거되어 더 이상 발송하지 않습니다.")
@@ -435,13 +440,14 @@ def main(send_push=True, use_cache=True, *, ignore_done_marker: bool = False, tt
             print(f"⚠️ done marker 보류: 누락된 산출물 -> {', '.join(missing)}")
 
 if __name__ == "__main__":
-    # 커맨드라인 인자: --no-push, --no-cache, --ignore-done-marker, --tts-only, --scripts-only
+    # 커맨드라인 인자: --no-push, --no-cache, --ignore-done-marker
+    # --tts-only / --scripts-only 는 YouTube 운영 중단으로 no-op 처리됩니다.
     send_push = True
     use_cache = True
     ignore_done_marker = False
     tts_only = False
     scripts_only = False
-    
+
     for arg in sys.argv[1:]:
         if arg == "--no-push":
             send_push = False
@@ -453,7 +459,7 @@ if __name__ == "__main__":
             tts_only = True
         elif arg == "--scripts-only":
             scripts_only = True
-    
+
     main(
         send_push,
         use_cache,

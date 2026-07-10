@@ -64,7 +64,14 @@ BBC_WORLD="https://feeds.bbci.co.uk/news/world/rss.xml"
 
 ### systemd 타이머 설정
 - **메인 뉴스**: 매일 오전 6:00 KST (`morningnews.timer` → `morningnews.service`)
-- **YouTube 뉴스**: 매일 오전 6:10 KST (`morningnews-youtube.timer` → `morningnews-youtube.service`)
+- **YouTube 뉴스**: 운영 중단됨. `morningnews-youtube.timer` / `morningnews-youtube.service`는 비활성화 권장
+
+YouTube 자동화를 완전히 중지하려면 서버에서 다음을 실행합니다:
+
+```bash
+sudo systemctl disable --now morningnews-youtube.timer
+sudo systemctl disable --now morningnews-youtube.service
+```
 
 ### 실행 흐름
 1. systemd 타이머가 `run_morningnews.sh` 스크립트 실행

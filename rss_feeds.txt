@@ -9,4 +9,46 @@
 한국경제-IT="https://www.hankyung.com/feed/it"
 사이언스타임즈="https://news.google.com/rss/search?q=site:sciencetimes.co.kr&hl=ko&gl=KR&ceid=KR:ko"
 
+# 경제/산업 보강
+연합뉴스-경제="https://www.yna.co.kr/rss/economy.xml"
+연합뉴스-산업="https://www.yna.co.kr/rss/industry.xml"
+매일경제-경제="https://www.mk.co.kr/rss/30100041/"
+매일경제-기업="https://www.mk.co.kr/rss/30100042/"
+한국경제-경제="https://www.hankyung.com/feed/economy"
+서울경제-경제="https://www.sedaily.com/rss/GA01.xml"
+이데일리-경제="https://www.edaily.co.kr/rss/rss_eco.xml"
+# 보류: 아래 광역 RSS는 스포츠/연예/포토 노이즈가 많아 경제 전용 RSS 확인 전까지 제외
+# 머니투데이-경제="https://rss.mt.co.kr/mt_news.xml"
+# 조선비즈="https://biz.chosun.com/arc/outboundfeeds/rss/?outputType=xml"
+
+# IT/테크/과학 보강
+전자신문="https://rss.etnews.com/Section901.xml"
+ZDNetKorea="https://feeds.feedburner.com/zdkorea"
+디지털데일리="https://www.ddaily.co.kr/rss/allArticle.xml"
+AI타임스="https://www.aitimes.com/rss/allArticle.xml"
+블로터="https://www.bloter.net/feed"
+
+# 부동산/건설 보강
+한국경제-부동산="https://www.hankyung.com/feed/realestate"
+이데일리-부동산="https://www.edaily.co.kr/rss/rss_realestate.xml"
+대한경제="https://www.dnews.co.kr/rss.xml"
+
+# 공식/정책 보도자료 보강 (Google News RSS 기반)
+공식-한국은행="https://news.google.com/rss/search?q=site:bok.or.kr+보도자료+when:2d&hl=ko&gl=KR&ceid=KR:ko"
+공식-금융위원회="https://news.google.com/rss/search?q=site:fsc.go.kr+보도자료+when:2d&hl=ko&gl=KR&ceid=KR:ko"
+공식-금융감독원="https://news.google.com/rss/search?q=site:fss.or.kr+보도자료+when:2d&hl=ko&gl=KR&ceid=KR:ko"
+공식-기획재정부="https://news.google.com/rss/search?q=site:moef.go.kr+보도자료+when:2d&hl=ko&gl=KR&ceid=KR:ko"
+공식-국토교통부="https://news.google.com/rss/search?q=site:molit.go.kr+보도자료+when:2d&hl=ko&gl=KR&ceid=KR:ko"
+공식-산업통상자원부="https://news.google.com/rss/search?q=site:motie.go.kr+보도자료+when:2d&hl=ko&gl=KR&ceid=KR:ko"
+공식-통계청="https://news.google.com/rss/search?q=site:kostat.go.kr+보도자료+when:2d&hl=ko&gl=KR&ceid=KR:ko"
+공식-공정거래위원회="https://news.google.com/rss/search?q=site:ftc.go.kr+보도자료+when:2d&hl=ko&gl=KR&ceid=KR:ko"
+공식-서울시="https://news.google.com/rss/search?q=site:seoul.go.kr+보도자료+부동산+OR+교통+OR+경제+when:2d&hl=ko&gl=KR&ceid=KR:ko"
+
+# 관심 키워드 보강 (Google News RSS)
+키워드-금리환율코스피="https://news.google.com/rss/search?q=금리+OR+환율+OR+코스피+when:1d&hl=ko&gl=KR&ceid=KR:ko"
+키워드-반도체AI="https://news.google.com/rss/search?q=반도체+AI+삼성전자+OR+SK하이닉스+when:1d&hl=ko&gl=KR&ceid=KR:ko"
+키워드-부동산정책="https://news.google.com/rss/search?q=재건축+OR+분양가+OR+GTX+OR+전세+when:1d&hl=ko&gl=KR&ceid=KR:ko"
+키워드-용산일산="https://news.google.com/rss/search?q=용산+국제업무지구+OR+일산+1기신도시+when:2d&hl=ko&gl=KR&ceid=KR:ko"
+키워드-에너지물가="https://news.google.com/rss/search?q=국제유가+OR+전기요금+OR+생활물가+when:1d&hl=ko&gl=KR&ceid=KR:ko"
+
 # 해외 기사 RSS 주소

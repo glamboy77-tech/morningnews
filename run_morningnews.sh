@@ -41,8 +41,8 @@ pip install -r requirements.txt
 # 3) 오늘자 결과가 이미 있으면 스킵 (이중실행 방지)
 TODAY=$(date +'%Y%m%d')
 DONE_MARKER="$REPO_DIR/.run_state/done_${TODAY}.json"
-if [ -f "$DONE_MARKER" ] && [ -f "output/morning_news_${TODAY}.html" ] && [ -f "scripts/youtube_tts_${TODAY}.txt" ]; then
-  echo "[INFO] Already generated today (done marker + required outputs). Skipping."
+if [ -f "$DONE_MARKER" ] && [ -f "output/morning_news_${TODAY}.html" ]; then
+  echo "[INFO] Already generated today (done marker + HTML output). Skipping."
   exit 0
 fi
 
@@ -57,11 +57,6 @@ REQUIRED_OUTPUTS=(
   "data_cache/ai_analysis_${TODAY}.json"
   "data_cache/key_persons_${TODAY}.json"
   "sentiment_cache/sentiment_${TODAY}.json"
-  "scripts/youtube_tts_${TODAY}.txt"
-  "scripts/brief_${TODAY}.json"
-  "scripts/keyword_${TODAY}.txt"
-  "scripts/shorts_${TODAY}.json"
-  "scripts/shorts_${TODAY}.txt"
 )
 
 for path in "${REQUIRED_OUTPUTS[@]}"; do
@@ -72,11 +67,6 @@ for path in "${REQUIRED_OUTPUTS[@]}"; do
   fi
 done
 
-if grep -q "브리핑 생성에 실패했습니다\|잠시 후 다시 시도해주세요\|RawScript:" "scripts/youtube_tts_${TODAY}.txt"; then
-  echo "[ERROR] TTS script contains fallback/failure text. Will not commit/push."
-  exit 1
-fi
-
 # 5) 생성 산출물만 선택적으로 커밋/푸시
 TARGETS=(
   "index.html"
@@ -86,11 +76,6 @@ TARGETS=(
   "data_cache/ai_analysis_${TODAY}.json"
   "data_cache/key_persons_${TODAY}.json"
   "sentiment_cache/sentiment_${TODAY}.json"
-  "scripts/youtube_tts_${TODAY}.txt"
-  "scripts/brief_${TODAY}.json"
-  "scripts/keyword_${TODAY}.txt"
-  "scripts/shorts_${TODAY}.json"
-  "scripts/shorts_${TODAY}.txt"
 )
 
 STAGE_TARGETS=()

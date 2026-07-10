@@ -43,11 +43,10 @@
   - `output/morning_news_YYYYMMDD.html`
   - `index.html`
   - `archive.html`
-  - `scripts/youtube_tts_YYYYMMDD.txt`
-  - `scripts/shorts_YYYYMMDD.json`
   - `.run_state/done_YYYYMMDD.json`
 
 ### `morningnews-youtube`
+- 운영 중단됨. 새 서버에서는 systemd timer/service를 등록하지 않는 것을 권장합니다.
 - 진입 스크립트: `bin/run_daily.sh`
 - 주요 동작:
   - 외부 스크립트(`MORNINGNEWS_SCRIPTS_DIR`) 읽기
@@ -250,11 +249,11 @@ bash run_morningnews.sh
 - [ ] 로그 파일 생성: `logs/morningnews_YYYYMMDD.log`
 - [ ] HTML 생성: `output/morning_news_YYYYMMDD.html`
 - [ ] 루트 페이지 갱신: `index.html`, `archive.html`
-- [ ] 유튜브 대본 생성: `scripts/youtube_tts_YYYYMMDD.txt`
-- [ ] 쇼츠 JSON 생성: `scripts/shorts_YYYYMMDD.json` 또는 legacy 파일
 - [ ] done marker 생성: `.run_state/done_YYYYMMDD.json`
 
 ### 10-2. morningnews-youtube 수동 실행
+> 운영 중단됨. 새 서버에서는 이 단계를 수행하지 않습니다.
+
 ```bash
 cd /경로/morningnews-youtube
 bash bin/run_daily.sh
@@ -274,28 +273,21 @@ bash bin/run_daily.sh
 
 권장 실행 순서:
 - `morningnews.timer` → 매일 **06:00 KST**
-- `morningnews-youtube.timer` → 매일 **06:15 KST**
-
-> 기존 06:10도 가능하지만, LLM 호출/네트워크 지연을 감안하면 06:15가 더 안전합니다.
+- `morningnews-youtube.timer` → **운영 중단**. 등록하지 않습니다.
 
 배포 템플릿은 아래 경로를 참고합니다.
 
 - `morningnews/deploy/systemd/morningnews.service`
 - `morningnews/deploy/systemd/morningnews.timer`
-- `morningnews/deploy/systemd/morningnews-youtube.service`
-- `morningnews/deploy/systemd/morningnews-youtube.timer`
 
 배포 예시:
 
 ```bash
 sudo cp morningnews/deploy/systemd/morningnews.service /etc/systemd/system/
 sudo cp morningnews/deploy/systemd/morningnews.timer /etc/systemd/system/
-sudo cp morningnews/deploy/systemd/morningnews-youtube.service /etc/systemd/system/
-sudo cp morningnews/deploy/systemd/morningnews-youtube.timer /etc/systemd/system/
 
 sudo systemctl daemon-reload
 sudo systemctl enable --now morningnews.timer
-sudo systemctl enable --now morningnews-youtube.timer
 ```
 
 ---

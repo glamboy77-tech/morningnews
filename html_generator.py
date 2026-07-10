@@ -625,8 +625,6 @@ class HTMLGenerator:
         # Output pages live under /output/, so "../archive.html" is correct.
         # Root pages (index.html, archive.html) should use "archive.html".
         archive_href = "../archive.html" if is_output_page else "archive.html"
-        youtube_channel_url = "https://www.youtube.com/@morning5min"
-
         share_base_lines = ["📰 오늘의 모닝뉴스 브리핑"]
         section_summaries = (briefing_data or {}).get('section_summaries', {}) if isinstance(briefing_data, dict) else {}
         if section_summaries:
@@ -709,7 +707,6 @@ class HTMLGenerator:
                       }});
               }};
               
-              const YOUTUBE_CHANNEL_URL = {json.dumps(youtube_channel_url, ensure_ascii=False)};
               const SHARE_BASE_TEXT = {json.dumps(share_base_text, ensure_ascii=False)};
 
               function buildShareInstallUrl() {{
@@ -753,7 +750,7 @@ class HTMLGenerator:
               async function shareMorningBriefing() {{
                   const shareInstallUrl = buildShareInstallUrl();
                   const shareTitle = `Morning News ${date_str}`;
-                  const shareText = `${{SHARE_BASE_TEXT}}\n\n영상 요약: ${{YOUTUBE_CHANNEL_URL}}\n읽어보고 괜찮으면 베타 앱 설치도 해보세요 👉 ${{shareInstallUrl}}`;
+                  const shareText = `${{SHARE_BASE_TEXT}}\n\n모닝뉴스 앱에서 오늘의 흐름을 확인해보세요 👉 ${{shareInstallUrl}}`;
 
                   // 데스크톱 PWA/브라우저에서는 Web Share API가 새 창만 떴다가 종료되는 케이스가 있어
                   // 안정적으로 클립보드 복사 fallback을 우선 사용한다.
@@ -981,7 +978,6 @@ class HTMLGenerator:
 
         # Archive
         html += f'<a href="{archive_href}" class="nav-pill">🗓️ 아카이브</a>'
-        html += f'<a href="{youtube_channel_url}" class="nav-pill" target="_blank" rel="noopener noreferrer">🎬 데일리 맥락</a>'
         
         # Key Persons (if exists)
         if key_persons:
@@ -1044,8 +1040,6 @@ class HTMLGenerator:
                         html += f'<div class="sentiment-item">{item}</div>'
                     html += '</div></div>'
                 html += '</div>'
-
-        html += f'<div class="briefing-cta"><a href="{youtube_channel_url}" target="_blank" rel="noopener noreferrer">🎬 영상 요약은 유튜브 @morning5min 에서 확인하기</a></div>'
 
         html += '</div>'
 
@@ -1155,11 +1149,13 @@ class HTMLGenerator:
                         else:
                             count_badge = ""
 
+                        source_badge = item.get('source_badge', '언론')
+
                         html += f"""
                     <div class="card {priority_class}">
                         <a href="{item['link']}" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">{item['title']}{count_badge}{representative_badge}</a>
                         <div class="card-meta">
-                            <span>{item['source']}</span>
+                            <span>{item['source']} · {source_badge}</span>
                             <span>{time_str}</span>
                         </div>
                         {related_info}
@@ -1184,11 +1180,13 @@ class HTMLGenerator:
                     </details>
                     """
 
+                    source_badge = item.get('source_badge', '언론')
+
                     html += f"""
                 <div class="card {priority_class}">
                     <a href="{item['link']}" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">{item['title']}</a>
                     <div class="card-meta">
-                        <span>{item['source']}</span>
+                        <span>{item['source']} · {source_badge}</span>
                         <span>{time_str}</span>
                     </div>
                     {related_info}

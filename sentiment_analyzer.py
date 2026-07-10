@@ -913,26 +913,12 @@ class SentimentAnalyzer:
         if isinstance(section_summaries, dict):
             combined_text_parts.extend(str(v) for v in section_summaries.values())
 
-        brief_scripts = data.get("brief_scripts")
-        source_script = None
-        if isinstance(brief_scripts, dict):
-            source_script = brief_scripts.get("source_script")
-        if isinstance(source_script, str):
-            combined_text_parts.append(source_script)
-        else:
-            issues.append("missing_brief_source_script")
-
-        tts_script = data.get("tts_script")
-        lines = tts_script.get("lines") if isinstance(tts_script, dict) else None
-        if not isinstance(lines, list) or len([line for line in lines if str(line).strip()]) < 20:
-            issues.append("tts_lines_too_short")
-        else:
-            combined_text_parts.extend(str(line) for line in lines)
-
-        shorts_scripts = data.get("shorts_scripts")
-        shorts_items = shorts_scripts.get("items") if isinstance(shorts_scripts, dict) else None
-        if not isinstance(shorts_items, list) or len(shorts_items) < 3:
-            issues.append("missing_or_short_shorts_scripts")
+        # YouTube/TTS/Shorts 운영 중단 후에는 웹 뉴스 발행에 필요한
+        # section_summaries + hojae/akjae만 품질 게이트 대상으로 삼는다.
+        # brief_scripts, tts_script, shorts_scripts는 과거 유튜브 산출물용
+        # 선택 필드이며 없더라도 HTML 발행을 막지 않는다.
+        if not combined_text_parts:
+            issues.append("missing_section_summaries")
 
         combined_text = "\n".join(combined_text_parts)
         failure_tokens = [
@@ -2734,29 +2720,7 @@ class SentimentAnalyzer:
             cached = self.load_cached_data(date_str)
             if cached is not None:
                 print(f"✅ 감성/브리핑 캐시 재사용: {self.get_cache_filename(date_str)}")
-                cached = self._ensure_tts_script(cached, date_str)
                 cached = self.sanitize_briefing_data(cached, date_str)
-                brief_scripts_cached = cached.get("brief_scripts")
-                if isinstance(brief_scripts_cached, dict):
-                    openai_tts_lines = self._build_tts_lines_from_source_script(
-                        brief_scripts_cached.get("source_script")
-                    )
-                    if openai_tts_lines:
-                        openai_tts_lines = self._pad_tts_lines(openai_tts_lines)
-                        openai_tts_lines = self._ensure_tts_outro(openai_tts_lines)
-                        cached.setdefault("tts_script", {})
-                        cached["tts_script"]["lines"] = openai_tts_lines
-                        cached.setdefault("meta", {})["tts_lines_generated_by"] = "openai_source_script"
-                        if isinstance(cached.get("meta"), dict):
-                            cached["meta"].pop("tts_fallback", None)
-                        cached = self._normalize_tts_script(cached, date_str)
-                        if use_cache:
-                            self.save_cached_data(cached, date_str)
-                cached = self._attach_shorts_scripts_from_brief(
-                    cached,
-                    date_str,
-                    max_retries=max_retries,
-                )
                 return cached
 
             # 캐시 재사용 모드인데 오늘 캐시가 없으면, Gemini 호출 없이 최신 캐시를 폴백으로 사용
@@ -2771,7 +2735,6 @@ class SentimentAnalyzer:
                             "source_date": stale_date,
                             "generated_at": datetime.now().isoformat(),
                         })
-                        stale = self._ensure_tts_script(stale, date_str)
                         # 다음 실행부터는 당일 캐시로 바로 로드 가능하도록 저장
                         self.save_cached_data(stale, date_str)
                         print(f"✅ 오늘 캐시가 없어 최근 브리핑 캐시({stale_date})로 대체합니다.")
@@ -2826,18 +2789,6 @@ class SentimentAnalyzer:
    - 이유 표기: 각 기업 옆에 10자 이내의 아주 짧은 사유를 덧붙이세요.
    - 형식: "회사명: 사유"
 
-TTS 스크립트 생성 규칙:
-1. 5분 낭독 기준(4분30초~5분30초)으로 55~75줄 내외 작성.
-2. 기사체 금지. 말하기체로 짧은 문장(한 줄=한 문장).
-3. 섹션 전환 멘트 포함: "다음은…", "한편…", "정리하면…" 등.
-4. 숫자/약어/단위는 TTS가 읽기 쉬운 형태로 변환하거나 pronunciations에 등록.
-   - 예: "3.2%" → "삼쩜이 퍼센트", "1,200달러" → "천이백 달러"
-5. 마지막 줄은 반드시 고정 문구 사용:
-   "지금까지 데일리 맥락이었습니다. 내일 아침에 또 만나요."
-6. 첫 줄은 반드시 아래 형식을 지키세요:
-   "[SMILE] 안녕하십니까. 오늘의 흐름을 압축해 드리는 데일리 맥락입니다. [PAUSE 0.4]"
-7. title은 반드시 "핵심키워드1 · 핵심키워드2( · 핵심키워드3) | 데일리 맥락 YYYY.MM.DD" 형식을 따르세요. 키워드가 없으면 "데일리 맥락 YYYY.MM.DD"를 사용하세요.
-
 Output JSON Format:
 {briefing_json_schema}
 
@@ -2872,7 +2823,7 @@ News List:
                 briefing_data["akjae"] = []
 
             final_data = {
-                **self._ensure_tts_script(briefing_data, date_str),
+                **briefing_data,
                 "analysis_mode": current_mode,
                 "is_holiday_next_day": is_first_day_after_holiday,
                 "meta": {
@@ -2881,116 +2832,13 @@ News List:
                 },
             }
 
-            brief_scripts_payload = None
-            try:
-                brief_context_lines = self._build_hybrid_brief_context_lines(
-                    briefing_data=briefing_data,
-                    categorized_news=categorized_news,
-                )
-
-                brief_data = self._generate_brief_with_flow_guard(
-                    context_lines=brief_context_lines,
-                    date_str=date_str,
-                    max_retries=max_retries,
-                )
-                if isinstance(brief_data, dict) and isinstance(brief_data.get("source_script"), str):
-                    brief_scripts_payload = {
-                        "source_script": brief_data.get("source_script"),
-                        "keywords": brief_data.get("keywords", []),
-                    }
-                    final_data["brief_scripts"] = brief_scripts_payload
-                    final_data.setdefault("meta", {})["brief_generated_by"] = "openai"
-                    openai_tts_lines = self._build_tts_lines_from_source_script(
-                        brief_scripts_payload.get("source_script")
-                    )
-                    if openai_tts_lines:
-                        openai_tts_lines = self._pad_tts_lines(openai_tts_lines)
-                        openai_tts_lines = self._ensure_tts_outro(openai_tts_lines)
-                        final_data.setdefault("tts_script", {})
-                        final_data["tts_script"]["lines"] = openai_tts_lines
-                        final_data.setdefault("meta", {})["tts_lines_generated_by"] = "openai_source_script"
-                        if isinstance(final_data.get("meta"), dict):
-                            final_data["meta"].pop("tts_fallback", None)
-            except Exception as e:
-                print(f"⚠️ OpenAI 브리프 스크립트 생성 실패: {e}")
-                final_data.setdefault("meta", {})["brief_generated_by"] = "gemini_fallback"
-
             final_data = self.sanitize_briefing_data(final_data, date_str)
-            final_data = self._normalize_tts_script(final_data, date_str)
-            if not self._validate_tts_script(final_data, date_str):
-                print("⚠️ TTS 스크립트 검증 실패: 재생성 시도")
-                retry_prompt = briefing_prompt + "\n\n중요: 위 규칙을 반드시 지키세요. 날짜/줄 수를 위반하면 실패입니다."
-                briefing_data = self._generate_json_with_retry(
-                    retry_prompt,
-                    model=config.model_flash,
-                    max_retries=max_retries,
-                )
-
-                if isinstance(briefing_data, list) and len(briefing_data) > 0 and isinstance(briefing_data[0], dict):
-                    briefing_data = briefing_data[0]
-
-                if not isinstance(briefing_data, dict):
-                    raise ValueError(f"Unexpected briefing_data type after retry: {type(briefing_data)}")
-                final_data = {
-                    **self._ensure_tts_script(briefing_data, date_str),
-                    "analysis_mode": current_mode,
-                    "is_holiday_next_day": is_first_day_after_holiday,
-                    "meta": {
-                        "generated_by": "gemini_retry",
-                        "generated_at": datetime.now().isoformat(),
-                    },
-                }
-                if brief_scripts_payload:
-                    final_data["brief_scripts"] = brief_scripts_payload
-                    final_data.setdefault("meta", {})["brief_generated_by"] = "openai"
-                    openai_tts_lines = self._build_tts_lines_from_source_script(
-                        brief_scripts_payload.get("source_script")
-                    )
-                    if openai_tts_lines:
-                        openai_tts_lines = self._pad_tts_lines(openai_tts_lines)
-                        openai_tts_lines = self._ensure_tts_outro(openai_tts_lines)
-                        final_data.setdefault("tts_script", {})
-                        final_data["tts_script"]["lines"] = openai_tts_lines
-                        final_data.setdefault("meta", {})["tts_lines_generated_by"] = "openai_source_script"
-                        if isinstance(final_data.get("meta"), dict):
-                            final_data["meta"].pop("tts_fallback", None)
-                final_data = self.sanitize_briefing_data(final_data, date_str)
-                final_data = self._normalize_tts_script(final_data, date_str)
-
-            if not self._validate_tts_script(final_data, date_str):
-                print("⚠️ TTS 스크립트 검증 실패: OpenAI 기반 스크립트로 대체")
-                if brief_scripts_payload:
-                    openai_tts_lines = self._build_tts_lines_from_source_script(
-                        brief_scripts_payload.get("source_script")
-                    )
-                    if openai_tts_lines:
-                        openai_tts_lines = self._pad_tts_lines(openai_tts_lines)
-                        openai_tts_lines = self._ensure_tts_outro(openai_tts_lines)
-                        final_data.setdefault("tts_script", {})
-                        final_data["tts_script"]["lines"] = openai_tts_lines
-                        final_data.setdefault("meta", {})["tts_lines_generated_by"] = "openai_source_script"
-                        if isinstance(final_data.get("meta"), dict):
-                            final_data["meta"].pop("tts_fallback", None)
-                        final_data = self._normalize_tts_script(final_data, date_str)
-                final_data = self.sanitize_briefing_data(final_data, date_str)
-                if not self._validate_tts_script(final_data, date_str):
-                    print("⚠️ TTS 스크립트 검증 실패: 폴백 스크립트로 대체")
-                    final_data = self._apply_tts_fallback(final_data, date_str)
-                if brief_scripts_payload:
-                    final_data["brief_scripts"] = brief_scripts_payload
-                    final_data.setdefault("meta", {})["brief_generated_by"] = "openai"
 
             # 휴일 다음 날이면 캐시 병합 및 통합 리포트
             if is_first_day_after_holiday:
                 print("🔄 휴일 다음 날: 캐시 데이터 통합 중...")
                 final_data = self._merge_holiday_cache(final_data)
                 self._clear_holiday_cache()
-
-            final_data = self._attach_shorts_scripts_from_brief(
-                final_data,
-                date_str,
-                max_retries=max_retries,
-            )
 
             # 누적 모드일 경우 캐시 병합
             if current_mode == 'accumulation':
@@ -3021,7 +2869,6 @@ News List:
                             "source_date": stale_date,
                             "generated_at": datetime.now().isoformat(),
                         })
-                        stale = self._ensure_tts_script(stale, date_str)
                         # 저장해두면 다음 실행에서 당일 캐시로 바로 로드 가능
                         if use_cache:
                             self.save_cached_data(stale, date_str)

@@ -16,6 +16,7 @@ class Config:
         self.openai_model_summary = os.getenv("OPENAI_MODEL_SUMMARY", self.openai_model_light)
         self.openai_model_tts = os.getenv("OPENAI_MODEL_TTS", "gpt-5.5")
         self.openai_model_shorts = os.getenv("OPENAI_MODEL_SHORTS", self.openai_model_tts)
+        self.open_dart_api_key = os.getenv("OPEN_DART_API_KEY") or os.getenv("DART_API_KEY")
         # Multi-model setup - prioritize FLASH (gemini-3-flash-preview) as requested
         self.model_flash = os.getenv("GEMINI_MODEL_FLASH", "gemini-3-flash-preview")
         self.model_lite = os.getenv("GEMINI_MODEL_LITE", "gemini-3-flash-preview")
