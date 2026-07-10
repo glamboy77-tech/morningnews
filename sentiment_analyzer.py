@@ -2766,6 +2766,9 @@ class SentimentAnalyzer:
   },
   "hojae": ["회사명: 사유"],
   "akjae": ["회사명: 사유"],
+  "trending_keywords": [
+    {"keyword": "핵심 키워드", "reason": "반복 언급된 맥락", "categories": ["정치", "경제/거시"]}
+  ]
 }
 """.strip()
 
@@ -2788,6 +2791,11 @@ class SentimentAnalyzer:
    - 악재 선정: 어닝 쇼크, 법적 분쟁, 대규모 리콜, 자금 유동성 위기, 주요 생산 시설 사고.
    - 이유 표기: 각 기업 옆에 10자 이내의 아주 짧은 사유를 덧붙이세요.
    - 형식: "회사명: 사유"
+3. **오늘의 키워드 후보**: 여러 기사 제목에서 반복적으로 등장하고 오늘의 흐름을 설명하는 핵심 키워드 후보를 10개 이내로 고르세요.
+   - 단순 동사/상태어(예: 본격화, 급등, 추가, 사업, 개발 등)는 제외하세요.
+   - 사람 이름은 가능한 제외하고, 정책/산업/시장/국제 이슈 중심으로 고르세요.
+   - 기사 수는 직접 세지 마세요. count는 별도 코드가 계산합니다.
+   - keyword는 2~12자 내외의 짧은 명사형으로 작성하세요.
 
 Output JSON Format:
 {briefing_json_schema}
@@ -2821,6 +2829,8 @@ News List:
                 briefing_data["hojae"] = []
             if not isinstance(briefing_data.get("akjae"), list):
                 briefing_data["akjae"] = []
+            if not isinstance(briefing_data.get("trending_keywords"), list):
+                briefing_data["trending_keywords"] = []
 
             final_data = {
                 **briefing_data,

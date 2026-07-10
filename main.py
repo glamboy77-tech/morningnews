@@ -352,31 +352,6 @@ def main(send_push=True, use_cache=True, *, ignore_done_marker: bool = False, tt
     else:
         print("  - No key persons found with 3+ articles")
 
-    # 3.6. Extract Trending Keywords (로컬 계산 + 캐시)
-    print("\n[Phase 2.6] Extracting Trending Keywords...")
-    trending_keywords = None
-    if use_cache:
-        print("🔄 캐시된 오늘의 키워드 데이터 로드 중...")
-        trending_keywords = cache.load_trending_keywords(today_str)
-        if trending_keywords is not None:
-            print(f"  - 캐시된 오늘의 키워드 로드: {len(trending_keywords)}개")
-
-    if trending_keywords is None:
-        trending_keywords = keyword_analyzer.extract_top_keywords(
-            domestic_categorized,
-            science_raw,
-            limit=10,
-            key_persons=key_persons,
-        )
-        if use_cache:
-            cache.save_trending_keywords(trending_keywords, today_str)
-
-    if trending_keywords:
-        preview = ", ".join([f"#{item.get('rank')} {item.get('keyword')}" for item in trending_keywords[:5]])
-        print(f"  - Today Keywords: {preview}")
-    else:
-        print("  - No trending keywords extracted")
-
     # 4. Generate Briefing (SentimentAnalyzer는 항상 실행)
     print("\n[Phase 3] Generating Morning Briefing...")
     briefing_data = None
@@ -403,6 +378,49 @@ def main(send_push=True, use_cache=True, *, ignore_done_marker: bool = False, tt
         )
 
     print("ℹ️ YouTube/TTS/쇼츠 운영 중단: scripts/youtube_tts, brief, keyword, shorts 파일은 더 이상 생성하지 않습니다.")
+
+    # 4.5. Extract Trending Keywords (브리핑 LLM 후보 + 로컬 검증/카운트)
+    print("\n[Phase 3.5] Extracting Trending Keywords...")
+    llm_keyword_candidates = briefing_data.get("trending_keywords", []) if isinstance(briefing_data, dict) else []
+    if isinstance(llm_keyword_candidates, list) and llm_keyword_candidates:
+        print(f"  - 브리핑 LLM 키워드 후보: {len(llm_keyword_candidates)}개")
+    else:
+        print("  - 브리핑 LLM 키워드 후보 없음: 로컬 빈도 기반으로 보충")
+
+    trending_keywords = None
+    if use_cache:
+        print("🔄 캐시된 오늘의 키워드 데이터 로드 중...")
+        cached_keywords = cache.load_trending_keywords(today_str)
+        if cached_keywords is not None:
+            cache_mode = "hybrid" if llm_keyword_candidates else "local"
+            cached_mode = None
+            if cached_keywords and isinstance(cached_keywords[0], dict):
+                cached_mode = cached_keywords[0].get("ranking_mode")
+            if cached_mode == cache_mode:
+                trending_keywords = cached_keywords
+                print(f"  - 캐시된 오늘의 키워드 로드: {len(trending_keywords)}개 ({cached_mode})")
+            else:
+                print("  - 기존 키워드 캐시는 현재 브리핑 후보 방식과 달라 재계산")
+
+    if trending_keywords is None:
+        trending_keywords = keyword_analyzer.extract_hybrid_keywords(
+            domestic_categorized,
+            science_raw,
+            llm_candidates=llm_keyword_candidates,
+            limit=10,
+            key_persons=key_persons,
+        )
+        ranking_mode = "hybrid" if llm_keyword_candidates else "local"
+        for item in trending_keywords:
+            item["ranking_mode"] = ranking_mode
+        if use_cache:
+            cache.save_trending_keywords(trending_keywords, today_str)
+
+    if trending_keywords:
+        preview = ", ".join([f"#{item.get('rank')} {item.get('keyword')}" for item in trending_keywords[:5]])
+        print(f"  - Today Keywords: {preview}")
+    else:
+        print("  - No trending keywords extracted")
 
     # 5. Generate Main HTML
     print("\n[Phase 4] Generating Main HTML...")

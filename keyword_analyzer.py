@@ -3,10 +3,10 @@ from collections import defaultdict
 
 
 class KeywordAnalyzer:
-    """Local, deterministic keyword ranking for daily news.
+    """Hybrid keyword ranking for daily news.
 
-    LLM을 쓰지 않고 제목/설명 반복 출현, 기사 수, 출처 다양성, 카테고리 다양성을
-    점수화해 포털 키워드 랭킹처럼 TOP 키워드를 만든다.
+    브리핑 LLM이 뽑은 후보가 있으면 그 후보를 우선 검증/카운트하고,
+    부족한 경우 로컬 빈도 기반 후보로 보충한다. 별도 LLM 호출은 하지 않는다.
     """
 
     STOPWORDS = {
@@ -89,6 +89,20 @@ class KeywordAnalyzer:
         return {str(name).strip() for name in key_persons.keys() if str(name).strip()}
 
     @classmethod
+    def _normalize_llm_candidate(cls, candidate):
+        if isinstance(candidate, str):
+            keyword = candidate
+        elif isinstance(candidate, dict):
+            keyword = candidate.get("keyword") or candidate.get("name") or candidate.get("term")
+        else:
+            return None
+
+        normalized = cls._normalize_keyword(str(keyword or ""))
+        if not cls._is_valid_keyword(normalized):
+            return None
+        return normalized
+
+    @classmethod
     def _is_valid_keyword(cls, token: str) -> bool:
         if not token:
             return False
@@ -139,7 +153,44 @@ class KeywordAnalyzer:
                     yield "테크", item
 
     def extract_top_keywords(self, categorized_news, science_news=None, *, limit: int = 10, key_persons=None):
+        return self._rank_keywords(
+            categorized_news,
+            science_news,
+            limit=limit,
+            key_persons=key_persons,
+            preferred_keywords=None,
+        )
+
+    def extract_hybrid_keywords(
+        self,
+        categorized_news,
+        science_news=None,
+        *,
+        llm_candidates=None,
+        limit: int = 10,
+        key_persons=None,
+    ):
+        preferred_keywords = []
+        seen = set()
+        if isinstance(llm_candidates, list):
+            for candidate in llm_candidates:
+                normalized = self._normalize_llm_candidate(candidate)
+                if not normalized or normalized in seen:
+                    continue
+                preferred_keywords.append(normalized)
+                seen.add(normalized)
+
+        return self._rank_keywords(
+            categorized_news,
+            science_news,
+            limit=limit,
+            key_persons=key_persons,
+            preferred_keywords=preferred_keywords,
+        )
+
+    def _rank_keywords(self, categorized_news, science_news=None, *, limit: int = 10, key_persons=None, preferred_keywords=None):
         excluded_person_names = self._person_names_from_key_persons(key_persons)
+        preferred_order = {keyword: idx for idx, keyword in enumerate(preferred_keywords or [])}
         stats = defaultdict(lambda: {
             "title_hits": 0,
             "description_hits": 0,
@@ -182,6 +233,7 @@ class KeywordAnalyzer:
             # 최소 2개 기사 이상 + 제목 반복 1회 이상이어야 랭킹 후보로 인정
             if article_count < 2 or data["title_hits"] < 1:
                 continue
+            is_llm_candidate = keyword in preferred_order
 
             score = (
                 data["title_hits"] * 3.0
@@ -189,6 +241,7 @@ class KeywordAnalyzer:
                 + article_count * 2.0
                 + source_count * 0.9
                 + category_count * 1.2
+                + (3.0 if is_llm_candidate else 0.0)
             )
             ranked.append({
                 "keyword": keyword,
@@ -197,11 +250,22 @@ class KeywordAnalyzer:
                 "source_count": source_count,
                 "categories": sorted(data["categories"]),
                 "sample_titles": data["sample_titles"],
+                "llm_candidate": is_llm_candidate,
             })
 
         # 사용자가 보는 랭킹은 "많이 언급된 키워드"에 가까워야 하므로 기사 수를 최우선으로 정렬한다.
-        # score는 동률일 때 출처/카테고리 다양성과 제목 노출도를 반영하는 보조 기준이다.
-        ranked.sort(key=lambda x: (x["article_count"], x["source_count"], len(x["categories"]), x["score"]), reverse=True)
+        # LLM 후보 여부는 동률 근처에서 의미 있는 키워드를 위로 올리는 보조 기준으로만 쓴다.
+        ranked.sort(
+            key=lambda x: (
+                x["article_count"],
+                x["source_count"],
+                len(x["categories"]),
+                1 if x.get("llm_candidate") else 0,
+                x["score"],
+                -preferred_order.get(x["keyword"], 999),
+            ),
+            reverse=True,
+        )
         top = ranked[:limit]
         for idx, item in enumerate(top, start=1):
             item["rank"] = idx
