@@ -1,0 +1,200 @@
+{
+  "timestamp": "2026-07-11T06:01:53.289178",
+  "date": "20260711",
+  "data": [
+    {
+      "keyword": "SK",
+      "score": 86.4,
+      "article_count": 19,
+      "source_count": 8,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "‘하닉’ ADR 첫날 13%...뉴욕증시 상승 [월가월부]",
+        "반도체 중소기업 지원 위해 하나은행, 1000억 보증대출",
+        "증시 꺾이자 누그러지는 외국인 매도…환율 방향 가를 ‘숨은 변수’ 따져보니 [백석현의 환율 노트]"
+      ],
+      "llm_candidate": false,
+      "rank": 1,
+      "ranking_mode": "hybrid"
+    },
+    {
+      "keyword": "하이닉스",
+      "score": 87.4,
+      "article_count": 18,
+      "source_count": 8,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "‘하닉’ ADR 첫날 13%...뉴욕증시 상승 [월가월부]",
+        "반도체 중소기업 지원 위해 하나은행, 1000억 보증대출",
+        "증시 꺾이자 누그러지는 외국인 매도…환율 방향 가를 ‘숨은 변수’ 따져보니 [백석현의 환율 노트]"
+      ],
+      "llm_candidate": false,
+      "rank": 2,
+      "ranking_mode": "hybrid"
+    },
+    {
+      "keyword": "반도체",
+      "score": 73.9,
+      "article_count": 17,
+      "source_count": 9,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "반도체 중소기업 지원 위해 하나은행, 1000억 보증대출",
+        "러트닉 “삼성·SK, 美에 반도체 팹 지어야”",
+        "“삼전도 닉스도 현대차도”…주도주 목표가 줄줄이 낮춘 증권가"
+      ],
+      "llm_candidate": false,
+      "rank": 3,
+      "ranking_mode": "hybrid"
+    },
+    {
+      "keyword": "SK하이닉스",
+      "score": 76.4,
+      "article_count": 17,
+      "source_count": 8,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "‘하닉’ ADR 첫날 13%...뉴욕증시 상승 [월가월부]",
+        "반도체 중소기업 지원 위해 하나은행, 1000억 보증대출",
+        "증시 꺾이자 누그러지는 외국인 매도…환율 방향 가를 ‘숨은 변수’ 따져보니 [백석현의 환율 노트]"
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "hybrid"
+    },
+    {
+      "keyword": "AI",
+      "score": 81.3,
+      "article_count": 16,
+      "source_count": 9,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업",
+        "부동산",
+        "정치"
+      ],
+      "sample_titles": [
+        "“이제 AI가 공직사회 기본 역량” 韓총리 드라이브에 총리실 ‘AI 아침 강연’까지",
+        "원로들 \"AI시대 일자리 늘어날수도…유망직업 찾아가야\"",
+        "[단독] 초장기 기술투자 전문 … 공공 주도 운용사 설립"
+      ],
+      "llm_candidate": false,
+      "rank": 5,
+      "ranking_mode": "hybrid"
+    },
+    {
+      "keyword": "투자",
+      "score": 50.3,
+      "article_count": 10,
+      "source_count": 7,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "‘검은 화·수요일’ 후폭풍 이 정도일 줄이야…하루 새 1422억 강제 청산",
+        "'미국 AI 광통신주 투자' 등 ETF 6종 14일 신규상장",
+        "SK하이닉스, 나스닥 상장 첫날 13% 급등…\"로봇·에이전트로 수요 폭발\""
+      ],
+      "llm_candidate": false,
+      "rank": 6,
+      "ranking_mode": "hybrid"
+    },
+    {
+      "keyword": "부동산",
+      "score": 48.4,
+      "article_count": 10,
+      "source_count": 4,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "[AI 부동산 투데이] 착공식 열고 멈춘 GTX-C…2년 만에 공사 본궤도 - 뉴스핌",
+        "총 4회에 걸쳐 '부동산 대토론회' … 공급·대출·세금, 여론에 묻는다",
+        "한화갤러리아 ‘더피크 도산’ 2367억에 낙찰…명품관 DNA 입힌 하이엔드 주거 만들까"
+      ],
+      "llm_candidate": false,
+      "rank": 7,
+      "ranking_mode": "hybrid"
+    },
+    {
+      "keyword": "삼성전자",
+      "score": 37.2,
+      "article_count": 9,
+      "source_count": 6,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "반도체 중소기업 지원 위해 하나은행, 1000억 보증대출",
+        "“삼전도 닉스도 현대차도”…주도주 목표가 줄줄이 낮춘 증권가",
+        "횡보장에 녹아내리는 계좌…‘삼전닉스’ 레버리지 덫에 靑 “제도 고민 중”"
+      ],
+      "llm_candidate": false,
+      "rank": 8,
+      "ranking_mode": "hybrid"
+    },
+    {
+      "keyword": "함께",
+      "score": 40.0,
+      "article_count": 9,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업",
+        "부동산",
+        "정치"
+      ],
+      "sample_titles": [
+        "트럼프 “내가 틱톡 넘버원”…팔로워 수 놓고 또 엉터리 주장",
+        "금융인재개발원, 전주시·전북신보와 ‘함께 금융 아카데미’ 업무협약식 가져",
+        "'시작도 돌봄도 일상도 다 함께'…천안시, 인구의 날 행사"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "ranking_mode": "hybrid"
+    },
+    {
+      "keyword": "나스닥",
+      "score": 33.8,
+      "article_count": 7,
+      "source_count": 6,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "‘하닉’ ADR 첫날 13%...뉴욕증시 상승 [월가월부]",
+        "하이닉스 ADR 상장 기대·달러 약세에 환율 장중 1,500원 하회",
+        "SK하이닉스, 나스닥 상장 첫날 13% 급등…\"로봇·에이전트로 수요 폭발\""
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "ranking_mode": "hybrid"
+    }
+  ]
+}
