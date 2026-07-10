@@ -1,5 +1,6 @@
 import os
 import json
+import html as html_escape
 
 class HTMLGenerator:
     def __init__(self):
@@ -264,6 +265,63 @@ class HTMLGenerator:
             }
             .hojae { color: #ff4b4b; } 
             .akjae { color: #4facfe; } 
+
+            .keyword-card {
+                background: linear-gradient(135deg, rgba(79, 172, 254, 0.08), rgba(255, 255, 255, 0.025));
+                border: 1px solid var(--border);
+                border-radius: 24px;
+                padding: 22px;
+                margin-bottom: 40px;
+                backdrop-filter: blur(10px);
+            }
+            .keyword-list {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+            }
+            .keyword-row {
+                display: grid;
+                grid-template-columns: 42px 1fr auto;
+                gap: 12px;
+                align-items: center;
+                padding: 12px 0;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+            }
+            .keyword-row:last-child {
+                border-bottom: 0;
+            }
+            .keyword-rank {
+                color: var(--primary);
+                font-size: 0.85rem;
+                font-weight: 700;
+                letter-spacing: 0.5px;
+            }
+            .keyword-main {
+                min-width: 0;
+            }
+            .keyword-word {
+                color: var(--text);
+                font-size: 1.02rem;
+                font-weight: 600;
+                line-height: 1.25;
+            }
+            .keyword-meta {
+                color: var(--text-secondary);
+                font-size: 0.74rem;
+                margin-top: 4px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+            .keyword-count {
+                color: #d7ecff;
+                border: 1px solid rgba(79, 172, 254, 0.25);
+                border-radius: 999px;
+                padding: 4px 9px;
+                font-size: 0.75rem;
+                background: rgba(79, 172, 254, 0.08);
+                white-space: nowrap;
+            }
 
             /* Sticky Nav */
             .sticky-nav {
@@ -602,7 +660,7 @@ class HTMLGenerator:
         </style>
         """
 
-    def generate_main_page(self, domestic_data, international_data, briefing_data, weather_data, filename, date_str, key_persons=None):
+    def generate_main_page(self, domestic_data, international_data, briefing_data, weather_data, filename, date_str, key_persons=None, trending_keywords=None):
         from datetime import datetime, timezone, timedelta
         kst_now = datetime.now(timezone(timedelta(hours=9)))  # Ensure KST regardless of runner timezone
         gen_time = kst_now.strftime("%H:%M:%S")
@@ -983,6 +1041,9 @@ class HTMLGenerator:
         if key_persons:
             person_count = sum(p['count'] for p in key_persons.values())
             html += f'<a href="#인물별" class="nav-pill">👤 인물별 ({person_count})</a>'
+
+        if trending_keywords:
+            html += f'<a href="#keywords" class="nav-pill">🔥 키워드 ({len(trending_keywords)})</a>'
         
         # Domestic Counts (필터링 후 개수)
         for category in order:
@@ -1042,6 +1103,31 @@ class HTMLGenerator:
                 html += '</div>'
 
         html += '</div>'
+
+
+        if trending_keywords:
+            html += '<div id="keywords" class="keyword-card">'
+            html += '<div class="briefing-title">🔥 오늘의 키워드 TOP10</div>'
+            html += '<div class="keyword-list">'
+            for item in trending_keywords[:10]:
+                rank = item.get('rank', '')
+                keyword = html_escape.escape(str(item.get('keyword', '')))
+                article_count = item.get('article_count', 0)
+                source_count = item.get('source_count', 0)
+                categories = item.get('categories', []) or []
+                categories_text = ' · '.join([str(c) for c in categories[:3]])
+                categories_text = html_escape.escape(categories_text)
+                html += f"""
+                <div class="keyword-row">
+                    <div class="keyword-rank">#{rank}</div>
+                    <div class="keyword-main">
+                        <div class="keyword-word">{keyword}</div>
+                        <div class="keyword-meta">{categories_text} · {source_count}개 출처</div>
+                    </div>
+                    <div class="keyword-count">{article_count}건</div>
+                </div>
+                """
+            html += '</div></div>'
 
 
         # Key Persons Section (if exists)

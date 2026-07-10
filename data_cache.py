@@ -11,7 +11,7 @@ class DataCache:
     def get_cache_filename(self, cache_type, date_str=None):
         """
         캐시 파일명 생성
-        cache_type: 'rss', 'ai_analysis', 'key_persons'
+        cache_type: 'rss', 'ai_analysis', 'key_persons', 'trending_keywords'
         """
         if date_str is None:
             date_str = datetime.now().strftime("%Y%m%d")
@@ -138,6 +138,43 @@ class DataCache:
             except Exception as e:
                 print(f"❌ 주요 인물 캐시 로드 실패: {e}")
         return None
+
+    def save_trending_keywords(self, keywords, date_str=None):
+        """오늘의 키워드 TOP10 캐시 저장"""
+        cache_file = self.get_cache_filename('trending_keywords', date_str)
+        tmp_file = f"{cache_file}.tmp"
+        try:
+            cache_data = {
+                "timestamp": datetime.now().isoformat(),
+                "date": date_str or datetime.now().strftime("%Y%m%d"),
+                "data": keywords
+            }
+            with open(tmp_file, 'w', encoding='utf-8') as f:
+                json.dump(cache_data, f, ensure_ascii=False, indent=2, default=str)
+            os.replace(tmp_file, cache_file)
+            print(f"✅ 오늘의 키워드 데이터 캐시 저장: {cache_file}")
+            return True
+        except Exception as e:
+            if os.path.exists(tmp_file):
+                try:
+                    os.remove(tmp_file)
+                except Exception:
+                    pass
+            print(f"❌ 오늘의 키워드 캐시 저장 실패: {e}")
+            return False
+
+    def load_trending_keywords(self, date_str=None):
+        """오늘의 키워드 TOP10 캐시 로드"""
+        cache_file = self.get_cache_filename('trending_keywords', date_str)
+        if os.path.exists(cache_file):
+            try:
+                with open(cache_file, 'r', encoding='utf-8') as f:
+                    cache_data = json.load(f)
+                print(f"✅ 오늘의 키워드 데이터 캐시 로드: {cache_file}")
+                return cache_data.get("data", [])
+            except Exception as e:
+                print(f"❌ 오늘의 키워드 캐시 로드 실패: {e}")
+        return None
     
     def has_cache(self, cache_type, date_str=None):
         """특정 타입의 캐시가 존재하는지 확인"""
@@ -154,13 +191,15 @@ class DataCache:
             "rss": self.has_cache('rss', date_str),
             "ai_analysis": self.has_cache('ai_analysis', date_str),
             "key_persons": self.has_cache('key_persons', date_str),
+            "trending_keywords": self.has_cache('trending_keywords', date_str),
             "all_complete": False
         }
         
         status["all_complete"] = all([
             status["rss"],
             status["ai_analysis"], 
-            status["key_persons"]
+            status["key_persons"],
+            status["trending_keywords"]
         ])
         
         return status
@@ -182,7 +221,7 @@ class DataCache:
             if date_str is None:
                 date_str = datetime.now().strftime("%Y%m%d")
             
-            for cache_type in ['rss', 'ai_analysis', 'key_persons']:
+            for cache_type in ['rss', 'ai_analysis', 'key_persons', 'trending_keywords']:
                 self.clear_cache(cache_type, date_str)
         
         return False

@@ -56,6 +56,7 @@ REQUIRED_OUTPUTS=(
   "data_cache/rss_${TODAY}.json"
   "data_cache/ai_analysis_${TODAY}.json"
   "data_cache/key_persons_${TODAY}.json"
+  "data_cache/trending_keywords_${TODAY}.json"
   "sentiment_cache/sentiment_${TODAY}.json"
 )
 
@@ -75,6 +76,7 @@ TARGETS=(
   "data_cache/rss_${TODAY}.json"
   "data_cache/ai_analysis_${TODAY}.json"
   "data_cache/key_persons_${TODAY}.json"
+  "data_cache/trending_keywords_${TODAY}.json"
   "sentiment_cache/sentiment_${TODAY}.json"
 )
 

@@ -10,6 +10,7 @@ from ai_processor import AIProcessor
 from html_generator import HTMLGenerator
 from sentiment_analyzer import SentimentAnalyzer
 from data_cache import DataCache
+from keyword_analyzer import KeywordAnalyzer
 
 from weather_manager import WeatherManager
 from notifier import send_telegram_hojae
@@ -67,6 +68,8 @@ def get_missing_required_outputs(date_str: str, output_path: str, cache: DataCac
         missing.append("data_cache/ai_analysis")
     if not cache.has_cache("key_persons", date_str):
         missing.append("data_cache/key_persons")
+    if not cache.has_cache("trending_keywords", date_str):
+        missing.append("data_cache/trending_keywords")
     if not os.path.exists(sentiment.get_cache_filename(date_str)):
         missing.append("sentiment_cache/sentiment")
     if not os.path.exists(output_path):
@@ -158,7 +161,12 @@ def main(send_push=True, use_cache=True, *, ignore_done_marker: bool = False, tt
 
     # 캐시 상태 확인
     cache_status = cache.get_cache_status(today_str)
-    print(f"📊 오늘의 캐시 상태: RSS={cache_status['rss']}, AI분석={cache_status['ai_analysis']}, 인물={cache_status['key_persons']}")
+    print(
+        f"📊 오늘의 캐시 상태: RSS={cache_status['rss']}, "
+        f"AI분석={cache_status['ai_analysis']}, "
+        f"인물={cache_status['key_persons']}, "
+        f"키워드={cache_status.get('trending_keywords', False)}"
+    )
 
     # 1. Setup (KST 기준)
     date_str_dot = now_kst.strftime("%Y.%m.%d")
@@ -175,6 +183,7 @@ def main(send_push=True, use_cache=True, *, ignore_done_marker: bool = False, tt
     rss = RSSManager()
     dart = DARTManager()
     ai = AIProcessor()
+    keyword_analyzer = KeywordAnalyzer()
     sentiment = SentimentAnalyzer()
     html_gen = HTMLGenerator()
     wm = WeatherManager()
@@ -343,6 +352,30 @@ def main(send_push=True, use_cache=True, *, ignore_done_marker: bool = False, tt
     else:
         print("  - No key persons found with 3+ articles")
 
+    # 3.6. Extract Trending Keywords (로컬 계산 + 캐시)
+    print("\n[Phase 2.6] Extracting Trending Keywords...")
+    trending_keywords = None
+    if use_cache:
+        print("🔄 캐시된 오늘의 키워드 데이터 로드 중...")
+        trending_keywords = cache.load_trending_keywords(today_str)
+        if trending_keywords is not None:
+            print(f"  - 캐시된 오늘의 키워드 로드: {len(trending_keywords)}개")
+
+    if trending_keywords is None:
+        trending_keywords = keyword_analyzer.extract_top_keywords(
+            domestic_categorized,
+            science_raw,
+            limit=10,
+        )
+        if use_cache:
+            cache.save_trending_keywords(trending_keywords, today_str)
+
+    if trending_keywords:
+        preview = ", ".join([f"#{item.get('rank')} {item.get('keyword')}" for item in trending_keywords[:5]])
+        print(f"  - Today Keywords: {preview}")
+    else:
+        print("  - No trending keywords extracted")
+
     # 4. Generate Briefing (SentimentAnalyzer는 항상 실행)
     print("\n[Phase 3] Generating Morning Briefing...")
     briefing_data = None
@@ -380,7 +413,8 @@ def main(send_push=True, use_cache=True, *, ignore_done_marker: bool = False, tt
         weather_data,
         main_file_path,
         date_str_dot,
-        key_persons
+        key_persons,
+        trending_keywords
     )
 
     # Also generate index.html in root folder (as a copy of the latest report)
@@ -392,7 +426,8 @@ def main(send_push=True, use_cache=True, *, ignore_done_marker: bool = False, tt
         weather_data,
         index_file_path,
         date_str_dot,
-        key_persons
+        key_persons,
+        trending_keywords
     )
 
     # 5.0 Retrofit old output pages for GitHub Pages subpath + Archive nav
