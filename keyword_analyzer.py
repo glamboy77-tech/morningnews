@@ -17,12 +17,14 @@ class KeywordAnalyzer:
         "발표", "공개", "논의", "대응", "지원", "강화", "개최", "참석", "시작", "종료",
         "따르면", "밝혔다", "밝힌", "밝혀", "있다", "있는", "했다", "한다", "됐다", "된다",
         "위해", "위한", "통해", "대한", "대해", "두고", "앞서", "이어", "가운데", "현지", "온라인",
-        "시간", "이날", "것으로", "것은", "것이", "것을", "있는", "없는", "보다", "면서", "까지",
+        "시간", "이날", "것으로", "것은", "것이", "것을", "있는", "없는", "보다", "면서", "까지", "만에",
         "대상", "경우", "이후", "이전", "다시", "처음", "최대", "최소", "전체", "일부",
         "글로벌", "서비스", "전환", "출시", "운영", "개선", "활용", "기반", "확인",
         "가장", "추가", "도입", "완료", "재개", "선정", "주요", "핵심", "이상", "이하",
         "중심", "속도", "대폭", "연속", "사실", "역대", "모두", "동시", "대비", "유지",
+        "본격화", "급등", "급락", "급증", "감소", "증가", "돌파", "부각", "확산", "회복",
         "가능성", "전망", "분석", "계획", "상황", "문제", "이슈", "사태", "관계", "정책",
+        "사업", "중구", "동구", "서구", "남구", "북구", "강남", "강북", "도심", "지방",
         "대통령", "대표", "위원장", "장관", "후보", "의원", "총리", "회장", "부회장",
         "연합뉴스", "조선일보", "동아일보", "매일경제", "한국경제", "서울경제", "이데일리",
         "전자신문", "ZDNetKorea", "ZDNet", "사이언스타임즈", "땅집고", "머니투데이", "블로터",
@@ -42,8 +44,9 @@ class KeywordAnalyzer:
         "북한", "우크라이나", "러시아", "이스라엘", "중동", "트럼프", "연준", "FOMC",
     ]
 
-    # 너무 흔한 회사/기관 접미 표현을 정리할 때 사용한다.
-    TRAILING_PARTICLES = "은는이가을를의에와과도만로으로에서부터까지보다"
+    # 너무 흔한 조사 접미 표현을 정리할 때 사용한다. rstrip(char set)을 쓰면
+    # "레버리지" 같은 정상 단어가 "레버리"로 잘릴 수 있어 suffix 단위로만 제거한다.
+    TRAILING_PARTICLES = ("으로", "에서", "부터", "까지", "보다", "은", "는", "이", "가", "을", "를", "의", "에", "와", "과", "도", "만", "로")
 
     def __init__(self):
         self._phrase_patterns = [
@@ -63,7 +66,10 @@ class KeywordAnalyzer:
         token = (token or "").strip("'\"“”‘’()[]{}<>.,!?…·:;|/\\")
         token = re.sub(r"\s+", " ", token)
         if len(token) > 3:
-            token = token.rstrip(cls.TRAILING_PARTICLES)
+            for suffix in cls.TRAILING_PARTICLES:
+                if token.endswith(suffix) and len(token) - len(suffix) >= 2:
+                    token = token[:-len(suffix)]
+                    break
         aliases = {
             "에이아이": "AI",
             "인공지능": "AI",
@@ -72,8 +78,15 @@ class KeywordAnalyzer:
             "오픈AI": "OpenAI",
             "오픈ai": "OpenAI",
             "에스케이하이닉스": "SK하이닉스",
+            "국힘": "국민의힘",
         }
         return aliases.get(token, token)
+
+    @staticmethod
+    def _person_names_from_key_persons(key_persons) -> set[str]:
+        if not isinstance(key_persons, dict):
+            return set()
+        return {str(name).strip() for name in key_persons.keys() if str(name).strip()}
 
     @classmethod
     def _is_valid_keyword(cls, token: str) -> bool:
@@ -125,7 +138,8 @@ class KeywordAnalyzer:
                 if isinstance(item, dict):
                     yield "테크", item
 
-    def extract_top_keywords(self, categorized_news, science_news=None, *, limit: int = 10):
+    def extract_top_keywords(self, categorized_news, science_news=None, *, limit: int = 10, key_persons=None):
+        excluded_person_names = self._person_names_from_key_persons(key_persons)
         stats = defaultdict(lambda: {
             "title_hits": 0,
             "description_hits": 0,
@@ -146,6 +160,8 @@ class KeywordAnalyzer:
             all_candidates = title_candidates | desc_candidates
 
             for keyword in all_candidates:
+                if keyword in excluded_person_names:
+                    continue
                 data = stats[keyword]
                 if keyword in title_candidates:
                     data["title_hits"] += 1
@@ -183,7 +199,9 @@ class KeywordAnalyzer:
                 "sample_titles": data["sample_titles"],
             })
 
-        ranked.sort(key=lambda x: (x["score"], x["article_count"], x["source_count"]), reverse=True)
+        # 사용자가 보는 랭킹은 "많이 언급된 키워드"에 가까워야 하므로 기사 수를 최우선으로 정렬한다.
+        # score는 동률일 때 출처/카테고리 다양성과 제목 노출도를 반영하는 보조 기준이다.
+        ranked.sort(key=lambda x: (x["article_count"], x["source_count"], len(x["categories"]), x["score"]), reverse=True)
         top = ranked[:limit]
         for idx, item in enumerate(top, start=1):
             item["rank"] = idx

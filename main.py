@@ -366,6 +366,7 @@ def main(send_push=True, use_cache=True, *, ignore_done_marker: bool = False, tt
             domestic_categorized,
             science_raw,
             limit=10,
+            key_persons=key_persons,
         )
         if use_cache:
             cache.save_trending_keywords(trending_keywords, today_str)
