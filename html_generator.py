@@ -277,18 +277,31 @@ class HTMLGenerator:
             .keyword-list {
                 display: flex;
                 flex-direction: column;
-                gap: 10px;
+                gap: 0;
             }
             .keyword-row {
-                display: grid;
-                grid-template-columns: 42px 1fr auto;
-                gap: 12px;
-                align-items: flex-start;
-                padding: 12px 0;
                 border-bottom: 1px solid rgba(255, 255, 255, 0.06);
             }
             .keyword-row:last-child {
                 border-bottom: 0;
+            }
+            .keyword-row[open] {
+                padding-bottom: 12px;
+            }
+            .keyword-summary {
+                display: grid;
+                grid-template-columns: 42px 1fr auto 18px;
+                gap: 12px;
+                align-items: center;
+                padding: 12px 0;
+                cursor: pointer;
+                list-style: none;
+            }
+            .keyword-summary::-webkit-details-marker {
+                display: none;
+            }
+            .keyword-summary:hover .keyword-word {
+                color: #d7ecff;
             }
             .keyword-rank {
                 color: var(--primary);
@@ -304,13 +317,34 @@ class HTMLGenerator:
                 font-size: 1.02rem;
                 font-weight: 600;
                 line-height: 1.25;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
             }
             .keyword-reason {
                 color: #c9d7e6;
                 font-size: 0.82rem;
                 line-height: 1.45;
-                margin-top: 5px;
+                margin: 2px 0 10px 54px;
                 font-weight: 300;
+            }
+            .keyword-expand-icon {
+                color: var(--text-secondary);
+                font-size: 0.75rem;
+                transition: transform 0.2s ease;
+            }
+            .keyword-row[open] .keyword-expand-icon {
+                transform: rotate(180deg);
+                color: var(--primary);
+            }
+            .keyword-details {
+                margin-left: 54px;
+                padding: 0 0 2px;
+            }
+            .keyword-articles {
+                display: flex;
+                flex-direction: column;
+                gap: 7px;
             }
             .keyword-article {
                 display: block;
@@ -318,7 +352,6 @@ class HTMLGenerator:
                 text-decoration: none;
                 font-size: 0.86rem;
                 line-height: 1.4;
-                margin-top: 8px;
                 padding: 9px 11px;
                 border-radius: 12px;
                 background: rgba(79, 172, 254, 0.07);
@@ -351,7 +384,16 @@ class HTMLGenerator:
                 font-size: 0.75rem;
                 background: rgba(79, 172, 254, 0.08);
                 white-space: nowrap;
-                margin-top: 2px;
+            }
+
+            @media (max-width: 430px) {
+                .keyword-summary {
+                    grid-template-columns: 34px 1fr auto 14px;
+                    gap: 8px;
+                }
+                .keyword-details, .keyword-reason {
+                    margin-left: 42px;
+                }
             }
 
             /* Sticky Nav */
@@ -1149,18 +1191,27 @@ class HTMLGenerator:
                 categories = item.get('categories', []) or []
                 categories_text = ' · '.join([str(c) for c in categories[:3]])
                 categories_text = html_escape.escape(categories_text)
-                representative = item.get('representative_article') or {}
-                article_html = ''
-                if isinstance(representative, dict) and representative.get('link') and representative.get('title'):
-                    article_title = html_escape.escape(str(representative.get('title', '')))
-                    article_link = html_escape.escape(str(representative.get('link', '')))
-                    article_source = html_escape.escape(str(representative.get('source', '') or '관련 기사'))
-                    article_html = f"""
-                        <a class="keyword-article" href="{article_link}" target="_blank" rel="noopener noreferrer">
-                            🔗 {article_title}
-                            <span class="keyword-article-source">{article_source}</span>
-                        </a>
-                    """
+                related_articles = item.get('related_articles') or []
+                if not related_articles and item.get('representative_article'):
+                    related_articles = [item.get('representative_article')]
+
+                articles_html = ''
+                if isinstance(related_articles, list):
+                    for article in related_articles[:5]:
+                        if not isinstance(article, dict) or not article.get('link') or not article.get('title'):
+                            continue
+                        article_title = html_escape.escape(str(article.get('title', '')))
+                        article_link = html_escape.escape(str(article.get('link', '')))
+                        article_source = html_escape.escape(str(article.get('source', '') or '관련 기사'))
+                        articles_html += f"""
+                            <a class="keyword-article" href="{article_link}" target="_blank" rel="noopener noreferrer">
+                                🔗 {article_title}
+                                <span class="keyword-article-source">{article_source}</span>
+                            </a>
+                        """
+
+                if articles_html:
+                    articles_html = f'<div class="keyword-articles">{articles_html}</div>'
 
                 reason_html = f'<div class="keyword-reason">{reason}</div>' if reason else ''
                 meta_parts = []
@@ -1170,16 +1221,21 @@ class HTMLGenerator:
                     meta_parts.append(f'{source_count}개 출처')
                 keyword_meta = ' · '.join(meta_parts)
                 html += f"""
-                <div class="keyword-row">
-                    <div class="keyword-rank">#{rank}</div>
-                    <div class="keyword-main">
-                        <div class="keyword-word">{keyword}</div>
+                <details class="keyword-row">
+                    <summary class="keyword-summary">
+                        <div class="keyword-rank">#{rank}</div>
+                        <div class="keyword-main">
+                            <div class="keyword-word">{keyword}</div>
+                        </div>
+                        <div class="keyword-count">{article_count}건</div>
+                        <div class="keyword-expand-icon">⌄</div>
+                    </summary>
+                    <div class="keyword-details">
                         {reason_html}
-                        {article_html}
+                        {articles_html}
                         <div class="keyword-meta">{keyword_meta}</div>
                     </div>
-                    <div class="keyword-count">{article_count}건</div>
-                </div>
+                </details>
                 """
             html += '</div></div>'
 

@@ -305,16 +305,20 @@ class KeywordAnalyzer:
         return score, text_score
 
     @staticmethod
-    def _article_payload(item):
-        return {
+    def _article_payload(item, *, score=None):
+        payload = {
             "title": item.get("title", ""),
             "link": item.get("link", ""),
             "source": item.get("source", ""),
             "published_dt": item.get("published_dt", ""),
         }
+        if score is not None:
+            payload["match_score"] = round(score, 2)
+        return payload
 
     def _build_llm_keyword_item(self, detail, categorized_news, science_news=None):
         best = None
+        article_matches = []
         related_links = set()
         sources = set()
         categories = set(detail.get("categories") or [])
@@ -327,6 +331,7 @@ class KeywordAnalyzer:
                 related_links.add(link)
                 sources.add(item.get("source", "") or "unknown")
                 categories.add(category)
+                article_matches.append((score, text_score, category, item))
                 if item.get("title") and len(sample_titles) < 3:
                     sample_titles.append(item.get("title"))
 
@@ -339,14 +344,26 @@ class KeywordAnalyzer:
         score = 0.0
         if best and (best[1] > 0 or best[2] in set(detail.get("categories") or [])):
             score = best[0]
-            representative_article = self._article_payload(best[3])
+            representative_article = self._article_payload(best[3], score=best[0])
             categories.add(best[2])
             if best[3].get("source"):
                 sources.add(best[3].get("source"))
             if best[3].get("link"):
                 related_links.add(best[3].get("link"))
+            article_matches.append(best)
             if best[3].get("title") and best[3].get("title") not in sample_titles and len(sample_titles) < 3:
                 sample_titles.append(best[3].get("title"))
+
+        related_articles = []
+        seen_article_links = set()
+        for match_score, text_score, category, item in sorted(article_matches, key=lambda x: x[0], reverse=True):
+            link = item.get("link") or f"{item.get('source', '')}:{item.get('title', '')}"
+            if not link or link in seen_article_links:
+                continue
+            seen_article_links.add(link)
+            related_articles.append(self._article_payload(item, score=match_score))
+            if len(related_articles) >= 5:
+                break
 
         return {
             "keyword": detail.get("keyword", ""),
@@ -357,6 +374,7 @@ class KeywordAnalyzer:
             "categories": sorted(categories),
             "sample_titles": sample_titles,
             "representative_article": representative_article,
+            "related_articles": related_articles,
             "llm_candidate": True,
         }
 
@@ -415,6 +433,7 @@ class KeywordAnalyzer:
                     science_news,
                 )
                 item["representative_article"] = linked.get("representative_article")
+                item["related_articles"] = linked.get("related_articles", [])
                 result.append(item)
                 existing_keywords.add(keyword)
                 if len(result) >= limit:

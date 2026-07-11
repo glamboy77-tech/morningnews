@@ -595,18 +595,31 @@ ${shareText}`);
             .keyword-list {
                 display: flex;
                 flex-direction: column;
-                gap: 10px;
+                gap: 0;
             }
             .keyword-row {
-                display: grid;
-                grid-template-columns: 42px 1fr auto;
-                gap: 12px;
-                align-items: flex-start;
-                padding: 12px 0;
                 border-bottom: 1px solid rgba(255, 255, 255, 0.06);
             }
             .keyword-row:last-child {
                 border-bottom: 0;
+            }
+            .keyword-row[open] {
+                padding-bottom: 12px;
+            }
+            .keyword-summary {
+                display: grid;
+                grid-template-columns: 42px 1fr auto 18px;
+                gap: 12px;
+                align-items: center;
+                padding: 12px 0;
+                cursor: pointer;
+                list-style: none;
+            }
+            .keyword-summary::-webkit-details-marker {
+                display: none;
+            }
+            .keyword-summary:hover .keyword-word {
+                color: #d7ecff;
             }
             .keyword-rank {
                 color: var(--primary);
@@ -622,13 +635,34 @@ ${shareText}`);
                 font-size: 1.02rem;
                 font-weight: 600;
                 line-height: 1.25;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
             }
             .keyword-reason {
                 color: #c9d7e6;
                 font-size: 0.82rem;
                 line-height: 1.45;
-                margin-top: 5px;
+                margin: 2px 0 10px 54px;
                 font-weight: 300;
+            }
+            .keyword-expand-icon {
+                color: var(--text-secondary);
+                font-size: 0.75rem;
+                transition: transform 0.2s ease;
+            }
+            .keyword-row[open] .keyword-expand-icon {
+                transform: rotate(180deg);
+                color: var(--primary);
+            }
+            .keyword-details {
+                margin-left: 54px;
+                padding: 0 0 2px;
+            }
+            .keyword-articles {
+                display: flex;
+                flex-direction: column;
+                gap: 7px;
             }
             .keyword-article {
                 display: block;
@@ -636,7 +670,6 @@ ${shareText}`);
                 text-decoration: none;
                 font-size: 0.86rem;
                 line-height: 1.4;
-                margin-top: 8px;
                 padding: 9px 11px;
                 border-radius: 12px;
                 background: rgba(79, 172, 254, 0.07);
@@ -669,7 +702,16 @@ ${shareText}`);
                 font-size: 0.75rem;
                 background: rgba(79, 172, 254, 0.08);
                 white-space: nowrap;
-                margin-top: 2px;
+            }
+
+            @media (max-width: 430px) {
+                .keyword-summary {
+                    grid-template-columns: 34px 1fr auto 14px;
+                    gap: 8px;
+                }
+                .keyword-details, .keyword-reason {
+                    margin-left: 42px;
+                }
             }
 
             /* Sticky Nav */
@@ -1014,7 +1056,7 @@ ${shareText}`);
                 <header>
                     <div class="header-meta">
                         <span class="header-date">2026.07.11</span>
-                        <span class="header-time">Generated at 11:38:12</span>
+                        <span class="header-time">Generated at 13:26:52</span>
                     </div>
                     <h1>Morning News</h1>
                     
@@ -1063,165 +1105,375 @@ ${shareText}`);
                         <span class="briefing-content">중국과 미국 간 반도체 관련 경쟁과 공급망 불안이 지속되는 가운데, 시진핑과 박태성 북한 총리 접견으로 전략적 협력 관계가 강조되었습니다. 이란-미국 협상 불확실성과 유가 급등, 영국 노동당 대표 버넘 총리 후보 확정, 민주콩고 에볼라 사망자 급증 등 국제 정세의 긴장이 고조되고 있습니다.</span>
                     </div>
                     <div class="sentiment-box"><div class="sentiment-row"><span class="sentiment-type hojae">📈 호재</span> <div class="sentiment-items"><div class="sentiment-item">SK하이닉스: 나스닥 상장 대성공</div><div class="sentiment-item">삼성바이오에피스: 대규모 계약 체결</div><div class="sentiment-item">한화큐셀: 美 재생에너지 단지 구축</div><div class="sentiment-item">금융인재개발원: 금융 아카데미 협약</div><div class="sentiment-item">농협상호금융: AI 로봇 금융 지원</div></div></div><div class="sentiment-row"><span class="sentiment-type akjae">📉 악재</span> <div class="sentiment-items"><div class="sentiment-item">기아: 美 46만대 리콜</div><div class="sentiment-item">폭스바겐: 10만명 감원 추진</div><div class="sentiment-item">쿠팡: 카드 발급 중단</div><div class="sentiment-item">테슬라: 국내 리콜 소식 미비</div><div class="sentiment-item">신세계아이앤씨: 노조 첫 출범</div></div></div></div></div><div id="keywords" class="keyword-card"><div class="briefing-title">🔥 오늘의 키워드 TOP10</div><div class="keyword-list">
-                <div class="keyword-row">
-                    <div class="keyword-rank">#1</div>
-                    <div class="keyword-main">
-                        <div class="keyword-word">SK하이닉스</div>
+                <details class="keyword-row">
+                    <summary class="keyword-summary">
+                        <div class="keyword-rank">#1</div>
+                        <div class="keyword-main">
+                            <div class="keyword-word">SK하이닉스</div>
+                        </div>
+                        <div class="keyword-count">28건</div>
+                        <div class="keyword-expand-icon">⌄</div>
+                    </summary>
+                    <div class="keyword-details">
                         <div class="keyword-reason">나스닥 상장 및 미국 투자 활발</div>
+                        <div class="keyword-articles">
+                            <a class="keyword-article" href="https://www.aitimes.com/news/articleView.html?idxno=212651" target="_blank" rel="noopener noreferrer">
+                                🔗 SK하이닉스, 나스닥 상장 첫날 13% 급등…&quot;로봇·에이전트로 수요 폭발&quot;
+                                <span class="keyword-article-source">AI타임스</span>
+                            </a>
                         
-                        <a class="keyword-article" href="https://www.aitimes.com/news/articleView.html?idxno=212651" target="_blank" rel="noopener noreferrer">
-                            🔗 SK하이닉스, 나스닥 상장 첫날 13% 급등…&quot;로봇·에이전트로 수요 폭발&quot;
-                            <span class="keyword-article-source">AI타임스</span>
-                        </a>
-                    
+                            <a class="keyword-article" href="https://www.donga.com/news/Inter/article/all/20260710/134274556/1" target="_blank" rel="noopener noreferrer">
+                                🔗 “1년 전엔 이름도 몰랐는데”…외신이 본 SK하이닉스 美 상장의 의미
+                                <span class="keyword-article-source">동아일보-국제</span>
+                            </a>
+                        
+                            <a class="keyword-article" href="https://www.yna.co.kr/view/AKR20260710121000003" target="_blank" rel="noopener noreferrer">
+                                🔗 SK하이닉스 미국 상장 전날 밤…뉴욕 한복판에 뜬 초대형 태극기
+                                <span class="keyword-article-source">연합뉴스-산업</span>
+                            </a>
+                        
+                            <a class="keyword-article" href="https://www.etnews.com/20260710000011" target="_blank" rel="noopener noreferrer">
+                                🔗 SK하이닉스, ADR 공모가 149달러 확정…국내 주가보다 높게 형성
+                                <span class="keyword-article-source">전자신문</span>
+                            </a>
+                        
+                            <a class="keyword-article" href="https://news.google.com/rss/articles/CBMic0FVX3lxTE1WWVhoX2lmVjV5UVpNeW9NRkNzTk1pM0JkNGZsa0ltN3lUeHRoLU42LTYwSWRhUEc3TGcwSktSOXZfM3VwZGVsUFhIVGM2RmkzQlF6NVFlM0EyNzdXQmdwLXFXY1FEYkdtX3F2T2M0S2NKdWc?oc=5" target="_blank" rel="noopener noreferrer">
+                                🔗 &#x27;삼성전자 SK하이닉스 협업&#x27; 반도체 장비사 CEO &quot;수요 2년 이상 견조&quot;, AI 투자 장기 지속 시사 - 비즈니스포스트
+                                <span class="keyword-article-source">키워드-반도체AI</span>
+                            </a>
+                        </div>
                         <div class="keyword-meta">경제/거시 · 국제 · 기업/산업 · 9개 출처</div>
                     </div>
-                    <div class="keyword-count">28건</div>
-                </div>
+                </details>
                 
-                <div class="keyword-row">
-                    <div class="keyword-rank">#2</div>
-                    <div class="keyword-main">
-                        <div class="keyword-word">재생에너지</div>
+                <details class="keyword-row">
+                    <summary class="keyword-summary">
+                        <div class="keyword-rank">#2</div>
+                        <div class="keyword-main">
+                            <div class="keyword-word">재생에너지</div>
+                        </div>
+                        <div class="keyword-count">5건</div>
+                        <div class="keyword-expand-icon">⌄</div>
+                    </summary>
+                    <div class="keyword-details">
                         <div class="keyword-reason">한화큐셀 미국 대규모 단지 조성</div>
+                        <div class="keyword-articles">
+                            <a class="keyword-article" href="https://www.etnews.com/20260710000217" target="_blank" rel="noopener noreferrer">
+                                🔗 한화큐셀, 美에 &#x27;여의도 22배&#x27; 재생에너지 단지 짓는다
+                                <span class="keyword-article-source">전자신문</span>
+                            </a>
                         
-                        <a class="keyword-article" href="https://www.etnews.com/20260710000217" target="_blank" rel="noopener noreferrer">
-                            🔗 한화큐셀, 美에 &#x27;여의도 22배&#x27; 재생에너지 단지 짓는다
-                            <span class="keyword-article-source">전자신문</span>
-                        </a>
-                    
+                            <a class="keyword-article" href="https://www.mk.co.kr/news/realestate/12094437" target="_blank" rel="noopener noreferrer">
+                                🔗 IPARK현대산업개발, 美 글로벌 설계사 겐슬러와 광명 하안주공 6·7단지 랜드마크로 바꾼다
+                                <span class="keyword-article-source">매일경제-부동산</span>
+                            </a>
+                        
+                            <a class="keyword-article" href="https://www.yna.co.kr/view/AKR20260710141200054" target="_blank" rel="noopener noreferrer">
+                                🔗 여수산단 산업부산물, 에너지 전환…친환경 산단 조성
+                                <span class="keyword-article-source">연합뉴스-산업</span>
+                            </a>
+                        
+                            <a class="keyword-article" href="https://www.etnews.com/20260710000093" target="_blank" rel="noopener noreferrer">
+                                🔗 마이크론 대규모 투자에…러트닉 美 상무 “삼전닉스, 질투해 따라올 것”
+                                <span class="keyword-article-source">전자신문</span>
+                            </a>
+                        
+                            <a class="keyword-article" href="https://realty.chosun.com/site/data/html_dir/2026/07/08/2026070802647.html" target="_blank" rel="noopener noreferrer">
+                                🔗 &quot;목동 재건축은 내 성과&quot; 양천 3선의원 해명에…&quot;탈락 단지는 어쩔&quot; 재반박
+                                <span class="keyword-article-source">땅집고-부동산</span>
+                            </a>
+                        </div>
                         <div class="keyword-meta">경제/거시 · 기업/산업 · 부동산 · 4개 출처</div>
                     </div>
-                    <div class="keyword-count">5건</div>
-                </div>
+                </details>
                 
-                <div class="keyword-row">
-                    <div class="keyword-rank">#3</div>
-                    <div class="keyword-main">
-                        <div class="keyword-word">부동산정책</div>
+                <details class="keyword-row">
+                    <summary class="keyword-summary">
+                        <div class="keyword-rank">#3</div>
+                        <div class="keyword-main">
+                            <div class="keyword-word">부동산정책</div>
+                        </div>
+                        <div class="keyword-count">18건</div>
+                        <div class="keyword-expand-icon">⌄</div>
+                    </summary>
+                    <div class="keyword-details">
                         <div class="keyword-reason">청년 대출 완화, 고가주택 보유세 논의</div>
+                        <div class="keyword-articles">
+                            <a class="keyword-article" href="https://www.etnews.com/20260710000127" target="_blank" rel="noopener noreferrer">
+                                🔗 李대통령, 결국 &#x27;숙의 정치&#x27; 꺼냈다…정부·靑, 부동산 정책 토론회 개최
+                                <span class="keyword-article-source">전자신문</span>
+                            </a>
                         
-                        <a class="keyword-article" href="https://www.etnews.com/20260710000127" target="_blank" rel="noopener noreferrer">
-                            🔗 李대통령, 결국 &#x27;숙의 정치&#x27; 꺼냈다…정부·靑, 부동산 정책 토론회 개최
-                            <span class="keyword-article-source">전자신문</span>
-                        </a>
-                    
+                            <a class="keyword-article" href="https://www.mk.co.kr/news/realestate/12095652" target="_blank" rel="noopener noreferrer">
+                                🔗 靑 &quot;청년대출 완화 고민&quot;… 보유세는 &#x27;초고가 기준&#x27; 쟁점
+                                <span class="keyword-article-source">매일경제-부동산</span>
+                            </a>
+                        
+                            <a class="keyword-article" href="https://www.mk.co.kr/news/politics/12095533" target="_blank" rel="noopener noreferrer">
+                                🔗 “적정 보유세 부터 초고가 주택 기준까지 논의”…李대통령 7개 부동산 쟁점 제시
+                                <span class="keyword-article-source">매일경제-부동산</span>
+                            </a>
+                        
+                            <a class="keyword-article" href="https://realty.chosun.com/site/data/html_dir/2026/07/07/2026070702751.html" target="_blank" rel="noopener noreferrer">
+                                🔗 LH사장 &quot;집은 투기대상 아닌 공공재&quot; 주택공급 확대할 비법은?
+                                <span class="keyword-article-source">땅집고-부동산</span>
+                            </a>
+                        
+                            <a class="keyword-article" href="https://www.mk.co.kr/news/realestate/12095658" target="_blank" rel="noopener noreferrer">
+                                🔗 총 4회에 걸쳐 &#x27;부동산 대토론회&#x27; … 공급·대출·세금, 여론에 묻는다
+                                <span class="keyword-article-source">매일경제-부동산</span>
+                            </a>
+                        </div>
                         <div class="keyword-meta">경제/거시 · 국제 · 기업/산업 · 8개 출처</div>
                     </div>
-                    <div class="keyword-count">18건</div>
-                </div>
+                </details>
                 
-                <div class="keyword-row">
-                    <div class="keyword-rank">#4</div>
-                    <div class="keyword-main">
-                        <div class="keyword-word">한미경제협력</div>
+                <details class="keyword-row">
+                    <summary class="keyword-summary">
+                        <div class="keyword-rank">#4</div>
+                        <div class="keyword-main">
+                            <div class="keyword-word">한미경제협력</div>
+                        </div>
+                        <div class="keyword-count">4건</div>
+                        <div class="keyword-expand-icon">⌄</div>
+                    </summary>
+                    <div class="keyword-details">
                         <div class="keyword-reason">한미 조선협력센터 개소 등 협력 강화</div>
+                        <div class="keyword-articles">
+                            <a class="keyword-article" href="https://www.yna.co.kr/view/AKR20260710150800003" target="_blank" rel="noopener noreferrer">
+                                🔗 한미 조선협력센터 문 연다…&#x27;마스가&#x27; 협력 속도낼까
+                                <span class="keyword-article-source">연합뉴스-정치</span>
+                            </a>
                         
-                        <a class="keyword-article" href="https://www.yna.co.kr/view/AKR20260710150800003" target="_blank" rel="noopener noreferrer">
-                            🔗 한미 조선협력센터 문 연다…&#x27;마스가&#x27; 협력 속도낼까
-                            <span class="keyword-article-source">연합뉴스-정치</span>
-                        </a>
-                    
+                            <a class="keyword-article" href="https://www.yna.co.kr/view/AKR20260710117200063" target="_blank" rel="noopener noreferrer">
+                                🔗 대전시, 머크사 생산센터 준공 앞두고 지역인재 채용 협력
+                                <span class="keyword-article-source">연합뉴스-경제</span>
+                            </a>
+                        
+                            <a class="keyword-article" href="https://www.mk.co.kr/news/economy/12095346" target="_blank" rel="noopener noreferrer">
+                                🔗 이준석 “젊은층, 미디어법에 우려”에...한성숙 “기업 자율·정부 협력으로 해소”
+                                <span class="keyword-article-source">매일경제-경제</span>
+                            </a>
+                        
+                            <a class="keyword-article" href="https://www.donga.com/news/Inter/article/all/20260710/134277806/1" target="_blank" rel="noopener noreferrer">
+                                🔗 시진핑, ‘방중’ 박태성 北총리 접견…“전략적 협력” 강조
+                                <span class="keyword-article-source">동아일보-국제</span>
+                            </a>
+                        </div>
                         <div class="keyword-meta">경제/거시 · 국제 · 기업/산업 · 4개 출처</div>
                     </div>
-                    <div class="keyword-count">4건</div>
-                </div>
+                </details>
                 
-                <div class="keyword-row">
-                    <div class="keyword-rank">#5</div>
-                    <div class="keyword-main">
-                        <div class="keyword-word">에볼라</div>
+                <details class="keyword-row">
+                    <summary class="keyword-summary">
+                        <div class="keyword-rank">#5</div>
+                        <div class="keyword-main">
+                            <div class="keyword-word">에볼라</div>
+                        </div>
+                        <div class="keyword-count">1건</div>
+                        <div class="keyword-expand-icon">⌄</div>
+                    </summary>
+                    <div class="keyword-details">
                         <div class="keyword-reason">민주콩고 확산 및 사망자 증가</div>
-                        
-                        <a class="keyword-article" href="https://www.donga.com/news/Inter/article/all/20260710/134273358/1" target="_blank" rel="noopener noreferrer">
-                            🔗 민주콩고 에볼라 사망자 600명 돌파…“역대 가장 빠른 확산”
-                            <span class="keyword-article-source">동아일보-국제</span>
-                        </a>
-                    
+                        <div class="keyword-articles">
+                            <a class="keyword-article" href="https://www.donga.com/news/Inter/article/all/20260710/134273358/1" target="_blank" rel="noopener noreferrer">
+                                🔗 민주콩고 에볼라 사망자 600명 돌파…“역대 가장 빠른 확산”
+                                <span class="keyword-article-source">동아일보-국제</span>
+                            </a>
+                        </div>
                         <div class="keyword-meta">국제 · 1개 출처</div>
                     </div>
-                    <div class="keyword-count">1건</div>
-                </div>
+                </details>
                 
-                <div class="keyword-row">
-                    <div class="keyword-rank">#6</div>
-                    <div class="keyword-main">
-                        <div class="keyword-word">자동차리콜</div>
+                <details class="keyword-row">
+                    <summary class="keyword-summary">
+                        <div class="keyword-rank">#6</div>
+                        <div class="keyword-main">
+                            <div class="keyword-word">자동차리콜</div>
+                        </div>
+                        <div class="keyword-count">4건</div>
+                        <div class="keyword-expand-icon">⌄</div>
+                    </summary>
+                    <div class="keyword-details">
                         <div class="keyword-reason">기아 텔루라이드 대규모 리콜과 폭스바겐 감원</div>
+                        <div class="keyword-articles">
+                            <a class="keyword-article" href="https://www.donga.com/news/Economy/article/all/20260711/134278097/2" target="_blank" rel="noopener noreferrer">
+                                🔗 폭스바겐 10만명 감원 추진… 車업계 사상 최대 구조조정
+                                <span class="keyword-article-source">동아일보-국제</span>
+                            </a>
                         
-                        <a class="keyword-article" href="https://www.donga.com/news/Economy/article/all/20260711/134278097/2" target="_blank" rel="noopener noreferrer">
-                            🔗 폭스바겐 10만명 감원 추진… 車업계 사상 최대 구조조정
-                            <span class="keyword-article-source">동아일보-국제</span>
-                        </a>
-                    
+                            <a class="keyword-article" href="https://www.chosun.com/economy/industry-company/2026/07/11/HA4WGMDGMQ3GMYJTGQ3GINJXMY/" target="_blank" rel="noopener noreferrer">
+                                🔗 기아, 화재 위험에 美서 텔루라이드 46만대 리콜 조치
+                                <span class="keyword-article-source">조선일보-경제</span>
+                            </a>
+                        
+                            <a class="keyword-article" href="https://www.etnews.com/20260710000093" target="_blank" rel="noopener noreferrer">
+                                🔗 마이크론 대규모 투자에…러트닉 美 상무 “삼전닉스, 질투해 따라올 것”
+                                <span class="keyword-article-source">전자신문</span>
+                            </a>
+                        
+                            <a class="keyword-article" href="https://www.yna.co.kr/view/AKR20260710106600054" target="_blank" rel="noopener noreferrer">
+                                🔗 기아 오토랜드광주·원광대병원, 취약계층 찾아가 의료봉사
+                                <span class="keyword-article-source">연합뉴스-경제</span>
+                            </a>
+                        </div>
                         <div class="keyword-meta">경제/거시 · 기업/산업 · 4개 출처</div>
                     </div>
-                    <div class="keyword-count">4건</div>
-                </div>
+                </details>
                 
-                <div class="keyword-row">
-                    <div class="keyword-rank">#7</div>
-                    <div class="keyword-main">
-                        <div class="keyword-word">AI기술</div>
+                <details class="keyword-row">
+                    <summary class="keyword-summary">
+                        <div class="keyword-rank">#7</div>
+                        <div class="keyword-main">
+                            <div class="keyword-word">AI기술</div>
+                        </div>
+                        <div class="keyword-count">27건</div>
+                        <div class="keyword-expand-icon">⌄</div>
+                    </summary>
+                    <div class="keyword-details">
                         <div class="keyword-reason">농협 AI 로봇 금융 지원, AI 배전망 ESS 수주</div>
+                        <div class="keyword-articles">
+                            <a class="keyword-article" href="https://www.yna.co.kr/view/AKR20260710105100003" target="_blank" rel="noopener noreferrer">
+                                🔗 삼성SDI, 첫 &#x27;AI 배전망 ESS&#x27; 66% 수주…LG엔솔은 사업자로 선정
+                                <span class="keyword-article-source">연합뉴스-산업</span>
+                            </a>
                         
-                        <a class="keyword-article" href="https://www.yna.co.kr/view/AKR20260710105100003" target="_blank" rel="noopener noreferrer">
-                            🔗 삼성SDI, 첫 &#x27;AI 배전망 ESS&#x27; 66% 수주…LG엔솔은 사업자로 선정
-                            <span class="keyword-article-source">연합뉴스-산업</span>
-                        </a>
-                    
+                            <a class="keyword-article" href="https://www.yna.co.kr/view/AKR20260710152400030" target="_blank" rel="noopener noreferrer">
+                                🔗 농협상호금융, AI 로봇으로 농촌 고령층 금융 접근성 높인다
+                                <span class="keyword-article-source">연합뉴스-경제</span>
+                            </a>
+                        
+                            <a class="keyword-article" href="https://www.donga.com/news/Inter/article/all/20260710/134272222/1" target="_blank" rel="noopener noreferrer">
+                                🔗 베트남 전국 수석, 美아이비리그 대신 KAIST 선택…이유는?
+                                <span class="keyword-article-source">동아일보-국제</span>
+                            </a>
+                        
+                            <a class="keyword-article" href="https://www.mk.co.kr/news/economy/12094661" target="_blank" rel="noopener noreferrer">
+                                🔗 “이거 위조 신분증 아냐?”…이젠 네·카·토도 모바일 주민증 사진 대조한다
+                                <span class="keyword-article-source">매일경제-경제</span>
+                            </a>
+                        
+                            <a class="keyword-article" href="https://www.etnews.com/20260710000223" target="_blank" rel="noopener noreferrer">
+                                🔗 &#x27;앤트로픽&#x27;에 독설 퍼붓던 머스크…“내가 틀렸다, 그들은 AI 선두주자”
+                                <span class="keyword-article-source">전자신문</span>
+                            </a>
+                        </div>
                         <div class="keyword-meta">경제/거시 · 국제 · 기업/산업 · 11개 출처</div>
                     </div>
-                    <div class="keyword-count">27건</div>
-                </div>
+                </details>
                 
-                <div class="keyword-row">
-                    <div class="keyword-rank">#8</div>
-                    <div class="keyword-main">
-                        <div class="keyword-word">국채매입</div>
+                <details class="keyword-row">
+                    <summary class="keyword-summary">
+                        <div class="keyword-rank">#8</div>
+                        <div class="keyword-main">
+                            <div class="keyword-word">국채매입</div>
+                        </div>
+                        <div class="keyword-count">5건</div>
+                        <div class="keyword-expand-icon">⌄</div>
+                    </summary>
+                    <div class="keyword-details">
                         <div class="keyword-reason">일본 공적연금 대규모 한국 국채 매입</div>
+                        <div class="keyword-articles">
+                            <a class="keyword-article" href="https://www.mk.co.kr/news/economy/12095532" target="_blank" rel="noopener noreferrer">
+                                🔗 WGBI 편입에 일본 공적연금 석 달간 한국 국채 9조 사들여
+                                <span class="keyword-article-source">매일경제-경제</span>
+                            </a>
                         
-                        <a class="keyword-article" href="https://www.mk.co.kr/news/economy/12095532" target="_blank" rel="noopener noreferrer">
-                            🔗 WGBI 편입에 일본 공적연금 석 달간 한국 국채 9조 사들여
-                            <span class="keyword-article-source">매일경제-경제</span>
-                        </a>
-                    
+                            <a class="keyword-article" href="https://www.yna.co.kr/view/AKR20260710136951008" target="_blank" rel="noopener noreferrer">
+                                🔗 환율·일본국채 금리 하락에 국고채 금리↓…3년물 연 3.768%(종합)
+                                <span class="keyword-article-source">연합뉴스-경제</span>
+                            </a>
+                        
+                            <a class="keyword-article" href="https://news.google.com/rss/articles/CBMiakFVX3lxTFB0VHdCaWxDcjVqeEVVZm5STHJpa2xNOFlMLTdQMGVjSnBveUJ4OTc2Mk12NjJjSU1PLUNTdWhNODV4Y19aaVhtbjRpNjZhWUhubzFncUI3ZDVfM3I5dW9SRnQ3YXM1aTJKZ2c?oc=5" target="_blank" rel="noopener noreferrer">
+                                🔗 트럼프 “이란 MOU 끝난 듯”… 요동치는 국제유가 6% 급등·유럽 국채 금리도 상승 - sisaworld.kr
+                                <span class="keyword-article-source">키워드-에너지물가</span>
+                            </a>
+                        
+                            <a class="keyword-article" href="https://www.etnews.com/20260710000093" target="_blank" rel="noopener noreferrer">
+                                🔗 마이크론 대규모 투자에…러트닉 美 상무 “삼전닉스, 질투해 따라올 것”
+                                <span class="keyword-article-source">전자신문</span>
+                            </a>
+                        
+                            <a class="keyword-article" href="https://realty.chosun.com/site/data/html_dir/2026/07/08/2026070802765.html" target="_blank" rel="noopener noreferrer">
+                                🔗 63빌딩서 방 빼는 한화갤러리아…순화동 새사옥 매입
+                                <span class="keyword-article-source">땅집고-부동산</span>
+                            </a>
+                        </div>
                         <div class="keyword-meta">경제/거시 · 기업/산업 · 부동산 · 5개 출처</div>
                     </div>
-                    <div class="keyword-count">5건</div>
-                </div>
+                </details>
                 
-                <div class="keyword-row">
-                    <div class="keyword-rank">#9</div>
-                    <div class="keyword-main">
-                        <div class="keyword-word">정치갈등</div>
+                <details class="keyword-row">
+                    <summary class="keyword-summary">
+                        <div class="keyword-rank">#9</div>
+                        <div class="keyword-main">
+                            <div class="keyword-word">정치갈등</div>
+                        </div>
+                        <div class="keyword-count">3건</div>
+                        <div class="keyword-expand-icon">⌄</div>
+                    </summary>
+                    <div class="keyword-details">
                         <div class="keyword-reason">김태효 구속 등 여야 내홍 지속</div>
+                        <div class="keyword-articles">
+                            <a class="keyword-article" href="https://www.yna.co.kr/view/AKR20260710171351004" target="_blank" rel="noopener noreferrer">
+                                🔗 &#x27;내란가담&#x27; 尹정부 외교안보 실세 김태효 구속…&quot;증거인멸 염려&quot;(종합)
+                                <span class="keyword-article-source">연합뉴스-정치</span>
+                            </a>
                         
-                        <a class="keyword-article" href="https://www.yna.co.kr/view/AKR20260710171351004" target="_blank" rel="noopener noreferrer">
-                            🔗 &#x27;내란가담&#x27; 尹정부 외교안보 실세 김태효 구속…&quot;증거인멸 염려&quot;(종합)
-                            <span class="keyword-article-source">연합뉴스-정치</span>
-                        </a>
-                    
+                            <a class="keyword-article" href="https://www.mk.co.kr/news/economy/12094687" target="_blank" rel="noopener noreferrer">
+                                🔗 신현송 &quot;당분간 고물가 지속 … 적절한 시기 금리인상 필요&quot;
+                                <span class="keyword-article-source">매일경제-경제</span>
+                            </a>
+                        
+                            <a class="keyword-article" href="https://news.google.com/rss/articles/CBMic0FVX3lxTE1WWVhoX2lmVjV5UVpNeW9NRkNzTk1pM0JkNGZsa0ltN3lUeHRoLU42LTYwSWRhUEc3TGcwSktSOXZfM3VwZGVsUFhIVGM2RmkzQlF6NVFlM0EyNzdXQmdwLXFXY1FEYkdtX3F2T2M0S2NKdWc?oc=5" target="_blank" rel="noopener noreferrer">
+                                🔗 &#x27;삼성전자 SK하이닉스 협업&#x27; 반도체 장비사 CEO &quot;수요 2년 이상 견조&quot;, AI 투자 장기 지속 시사 - 비즈니스포스트
+                                <span class="keyword-article-source">키워드-반도체AI</span>
+                            </a>
+                        </div>
                         <div class="keyword-meta">경제/거시 · 기업/산업 · 정치 · 3개 출처</div>
                     </div>
-                    <div class="keyword-count">3건</div>
-                </div>
+                </details>
                 
-                <div class="keyword-row">
-                    <div class="keyword-rank">#10</div>
-                    <div class="keyword-main">
-                        <div class="keyword-word">반도체</div>
+                <details class="keyword-row">
+                    <summary class="keyword-summary">
+                        <div class="keyword-rank">#10</div>
+                        <div class="keyword-main">
+                            <div class="keyword-word">반도체</div>
+                        </div>
+                        <div class="keyword-count">18건</div>
+                        <div class="keyword-expand-icon">⌄</div>
+                    </summary>
+                    <div class="keyword-details">
                         
+                        <div class="keyword-articles">
+                            <a class="keyword-article" href="https://www.mk.co.kr/news/economy/12095628" target="_blank" rel="noopener noreferrer">
+                                🔗 반도체 중소기업 지원 위해 하나은행, 1000억 보증대출
+                                <span class="keyword-article-source">매일경제-경제</span>
+                            </a>
                         
-                        <a class="keyword-article" href="https://www.mk.co.kr/news/economy/12095628" target="_blank" rel="noopener noreferrer">
-                            🔗 반도체 중소기업 지원 위해 하나은행, 1000억 보증대출
-                            <span class="keyword-article-source">매일경제-경제</span>
-                        </a>
-                    
+                            <a class="keyword-article" href="https://www.mk.co.kr/news/realestate/12094683" target="_blank" rel="noopener noreferrer">
+                                🔗 반도체 산단 들어설 광주 군공항 … 14일부터 토지거래허가구역 지정
+                                <span class="keyword-article-source">매일경제-부동산</span>
+                            </a>
+                        
+                            <a class="keyword-article" href="https://www.donga.com/news/Inter/article/all/20260710/134277416/1" target="_blank" rel="noopener noreferrer">
+                                🔗 中, 헬륨 수출 돌연 금지…‘반도체 핵심 소재’ 공급 불안 가중
+                                <span class="keyword-article-source">동아일보-국제</span>
+                            </a>
+                        
+                            <a class="keyword-article" href="https://news.google.com/rss/articles/CBMic0FVX3lxTE1WWVhoX2lmVjV5UVpNeW9NRkNzTk1pM0JkNGZsa0ltN3lUeHRoLU42LTYwSWRhUEc3TGcwSktSOXZfM3VwZGVsUFhIVGM2RmkzQlF6NVFlM0EyNzdXQmdwLXFXY1FEYkdtX3F2T2M0S2NKdWc?oc=5" target="_blank" rel="noopener noreferrer">
+                                🔗 &#x27;삼성전자 SK하이닉스 협업&#x27; 반도체 장비사 CEO &quot;수요 2년 이상 견조&quot;, AI 투자 장기 지속 시사 - 비즈니스포스트
+                                <span class="keyword-article-source">키워드-반도체AI</span>
+                            </a>
+                        
+                            <a class="keyword-article" href="https://www.yna.co.kr/view/AKR20260710139500064" target="_blank" rel="noopener noreferrer">
+                                🔗 &quot;대학보다 삼성·하이닉스&quot;…전국서 몰린 충북반도체고 설명회
+                                <span class="keyword-article-source">연합뉴스-산업</span>
+                            </a>
+                        </div>
                         <div class="keyword-meta">경제/거시 · 국제 · 기업/산업 · 9개 출처</div>
                     </div>
-                    <div class="keyword-count">18건</div>
-                </div>
+                </details>
                 </div></div><div id="인물별" class="section-title">🔍 주요 인물별 뉴스</div><div class="sector-subheading">👤 이재명 (한국 대통령) (5건)</div>
                 <div class="card">
                     <a href="https://www.yna.co.kr/view/AKR20260710163000001" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">李대통령, 몽골 최대명절 '나담축제' 주빈참석…국빈방문 마무리</a>
