@@ -1,0 +1,453 @@
+{
+  "timestamp": "2026-07-12T06:01:47.307894",
+  "date": "20260712",
+  "data": [
+    {
+      "keyword": "통화긴축",
+      "reason": "금리 인상 및 가계대출 제한 논의",
+      "score": 30.62,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "통화긴축 시작된다…전문가들 \"7월 이어 8월이나 10월 인상\""
+      ],
+      "representative_article": {
+        "title": "통화긴축 시작된다…전문가들 \"7월 이어 8월이나 10월 인상\"",
+        "link": "https://www.yna.co.kr/view/AKR20260710147700002",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-07-12 05:45:01",
+        "match_score": 30.62
+      },
+      "related_articles": [
+        {
+          "title": "통화긴축 시작된다…전문가들 \"7월 이어 8월이나 10월 인상\"",
+          "link": "https://www.yna.co.kr/view/AKR20260710147700002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-07-12 05:45:01",
+          "match_score": 30.62
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "나스닥 상장",
+      "reason": "SK하이닉스 미국시장 진출과 주가 급등",
+      "score": 44.76,
+      "article_count": 10,
+      "source_count": 3,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "외환시장에 '통화스와프급' 달러 폭탄 퍼붓는 SK하이닉스",
+        "나스닥 사장 “SK하이닉스 상장, 대박”…“삼성전자도 상장하나?” 물었더니",
+        "최태원 “메모리 공급 늘려야, 조건 맞으면 美든 어디든 팹 투자…액면분할 요청시 검토”"
+      ],
+      "representative_article": {
+        "title": "최태원 “AI 시대가 미국 상장 적기”…SK하이닉스, 나스닥 상장으로 글로벌 자본시장 행보 확대 - 광교신문",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE91ckNfeFZsNEdJdlktbXBLNHB5NTVIRGtUM2dlb1d6UFBPN0ZQODJiQm1tTGhWRWREd2xoZ3djVkRnNG1zZmhfMmJJYWsyeVdSWXRUTFlFYk9nVjlkSTlPYWM5Qm5yY21m0gFsQVVfeXFMTXg2aVYtVjVXaUo2b3lsNVJRRU9taVVVQTlVVkRtajVMMXNyUW5Pb3lUOWVzOV9QZHY3UkNMS0Rhc0R0VnJKOWRVWHhkV3Jjb2ROX29vcVltbWFOQWQ0VFNqWEYxSTVjY2lmM0Jn?oc=5",
+        "source": "키워드-반도체AI",
+        "published_dt": "2026-07-11 22:14:12",
+        "match_score": 44.76
+      },
+      "related_articles": [
+        {
+          "title": "최태원 “AI 시대가 미국 상장 적기”…SK하이닉스, 나스닥 상장으로 글로벌 자본시장 행보 확대 - 광교신문",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE91ckNfeFZsNEdJdlktbXBLNHB5NTVIRGtUM2dlb1d6UFBPN0ZQODJiQm1tTGhWRWREd2xoZ3djVkRnNG1zZmhfMmJJYWsyeVdSWXRUTFlFYk9nVjlkSTlPYWM5Qm5yY21m0gFsQVVfeXFMTXg2aVYtVjVXaUo2b3lsNVJRRU9taVVVQTlVVkRtajVMMXNyUW5Pb3lUOWVzOV9QZHY3UkNMS0Rhc0R0VnJKOWRVWHhkV3Jjb2ROX29vcVltbWFOQWQ0VFNqWEYxSTVjY2lmM0Jn?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-07-11 22:14:12",
+          "match_score": 44.76
+        },
+        {
+          "title": "외환시장에 '통화스와프급' 달러 폭탄 퍼붓는 SK하이닉스",
+          "link": "https://www.yna.co.kr/view/AKR20260710148400003",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-07-12 05:45:01",
+          "match_score": 17.82
+        },
+        {
+          "title": "최태원 “메모리 공급 늘려야, 조건 맞으면 美든 어디든 팹 투자…액면분할 요청시 검토”",
+          "link": "https://www.etnews.com/20260711000015",
+          "source": "전자신문",
+          "published_dt": "2026-07-11 11:40:00",
+          "match_score": 13.8
+        },
+        {
+          "title": "나스닥 사장 “SK하이닉스 상장, 대박”…“삼성전자도 상장하나?” 물었더니",
+          "link": "https://www.etnews.com/20260711000043",
+          "source": "전자신문",
+          "published_dt": "2026-07-11 20:47:41",
+          "match_score": 10.3
+        },
+        {
+          "title": "SK하이닉스 나스닥 데뷔 13% 급등…美 메모리 생산 유치전 가열",
+          "link": "https://www.etnews.com/20260711000013",
+          "source": "전자신문",
+          "published_dt": "2026-07-11 09:19:25",
+          "match_score": 9.4
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "메모리 산업",
+      "reason": "글로벌 투자 확대 및 기술 경쟁 심화",
+      "score": 39.36,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "[ 오늘의 Pick!]SK하이닉스, 뉴욕서 'AI 인프라 기업'으로 재평가…메모리 산업 새 시대 열었다 - 코리아포스트 한글판"
+      ],
+      "representative_article": {
+        "title": "[ 오늘의 Pick!]SK하이닉스, 뉴욕서 'AI 인프라 기업'으로 재평가…메모리 산업 새 시대 열었다 - 코리아포스트 한글판",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5teEFMSWI0UXI5UjFmSjVKOUx1UjVJMmVrMUxGVmI0VG9jT0ZrS1NCR1I1SXBQbVVrTUlEWXd4TVdCOTJSQnFlVWQxTEIzcHdxaDBYelhjQ3pOX3JQQWFzaEF6bGhjLWtCX2Y5WHFR?oc=5",
+        "source": "키워드-반도체AI",
+        "published_dt": "2026-07-11 22:19:55",
+        "match_score": 39.36
+      },
+      "related_articles": [
+        {
+          "title": "[ 오늘의 Pick!]SK하이닉스, 뉴욕서 'AI 인프라 기업'으로 재평가…메모리 산업 새 시대 열었다 - 코리아포스트 한글판",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5teEFMSWI0UXI5UjFmSjVKOUx1UjVJMmVrMUxGVmI0VG9jT0ZrS1NCR1I1SXBQbVVrTUlEWXd4TVdCOTJSQnFlVWQxTEIzcHdxaDBYelhjQ3pOX3JQQWFzaEF6bGhjLWtCX2Y5WHFR?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-07-11 22:19:55",
+          "match_score": 39.36
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재개발",
+      "reason": "군포시 사업 및 창원 용호1구역 갈등",
+      "score": 39.21,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "한대희 군포시장 재개발·재건축 군포 미래 경쟁력 좌우하는 핵심 사업 - 아주경제",
+        "공공성 vs 사업성…창원 용호1구역 재건축 '폐도' 논란 확산 - 동행미디어 시대"
+      ],
+      "representative_article": {
+        "title": "한대희 군포시장 재개발·재건축 군포 미래 경쟁력 좌우하는 핵심 사업 - 아주경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1pRS1ZcnpBcUtHLXZLeEpjZWdJU0hzRE5aZ0YzZV9YNTZ1d2JUazBmQ0hUQ2ZXZUNIbUFGcXlNUTRwN3FiRlFyQjExMTFCZXhTS2Y1cDBFUkwyQdIBWEFVX3lxTE52S0lCSkpVR3JMMGItZ3pCMVpRUl8xX1padW5KQU1vWlh4MzF3YnJrRTNBdS1yeW1KdmtPaVZrc0dtdUxtWk1lUDh6WmZNZk9yTVZhS25iWk4?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-07-11 12:35:03",
+        "match_score": 39.21
+      },
+      "related_articles": [
+        {
+          "title": "한대희 군포시장 재개발·재건축 군포 미래 경쟁력 좌우하는 핵심 사업 - 아주경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1pRS1ZcnpBcUtHLXZLeEpjZWdJU0hzRE5aZ0YzZV9YNTZ1d2JUazBmQ0hUQ2ZXZUNIbUFGcXlNUTRwN3FiRlFyQjExMTFCZXhTS2Y1cDBFUkwyQdIBWEFVX3lxTE52S0lCSkpVR3JMMGItZ3pCMVpRUl8xX1padW5KQU1vWlh4MzF3YnJrRTNBdS1yeW1KdmtPaVZrc0dtdUxtWk1lUDh6WmZNZk9yTVZhS25iWk4?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-07-11 12:35:03",
+          "match_score": 39.21
+        },
+        {
+          "title": "공공성 vs 사업성…창원 용호1구역 재건축 '폐도' 논란 확산 - 동행미디어 시대",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBGYUliMHNZOWlxNWQ5Q0ZQUmdPNHgyZ3VfZk1UenlBSTNHZ21CSmdzTHBTcTVJejRxU1A3S21UcV8tQXRCWkVJbF9fNlZiVUxrbUNoSFdjOURCeFE2NUE?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-07-11 16:38:52",
+          "match_score": 6.91
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "태풍 바비",
+      "reason": "대만 긴장과 필리핀 산사태 피해",
+      "score": 43.6,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "태풍 바비 접근에 대만 전역 긴장…필리핀 산사태로 15명 사망"
+      ],
+      "representative_article": {
+        "title": "태풍 바비 접근에 대만 전역 긴장…필리핀 산사태로 15명 사망",
+        "link": "https://www.donga.com/news/Inter/article/all/20260711/134279353/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-07-11 20:12:19",
+        "match_score": 43.6
+      },
+      "related_articles": [
+        {
+          "title": "태풍 바비 접근에 대만 전역 긴장…필리핀 산사태로 15명 사망",
+          "link": "https://www.donga.com/news/Inter/article/all/20260711/134279353/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-11 20:12:19",
+          "match_score": 43.6
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "미·이란 긴장",
+      "reason": "중동 정세 불안 지속",
+      "score": 31.0,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "미·이란 긴장 재고조…파키스탄·사우디 “누구에게도 이익 안 돼”"
+      ],
+      "representative_article": {
+        "title": "미·이란 긴장 재고조…파키스탄·사우디 “누구에게도 이익 안 돼”",
+        "link": "https://www.donga.com/news/Inter/article/all/20260711/134279467/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-07-11 22:49:26",
+        "match_score": 31.0
+      },
+      "related_articles": [
+        {
+          "title": "미·이란 긴장 재고조…파키스탄·사우디 “누구에게도 이익 안 돼”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260711/134279467/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-11 22:49:26",
+          "match_score": 31.0
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI 인프라",
+      "reason": "SK하이닉스 기술 혁신 중심",
+      "score": 43.56,
+      "article_count": 9,
+      "source_count": 3,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "외환시장에 '통화스와프급' 달러 폭탄 퍼붓는 SK하이닉스",
+        "나스닥 사장 “SK하이닉스 상장, 대박”…“삼성전자도 상장하나?” 물었더니",
+        "SK하이닉스, HBM 이후 '메모리 연산' 기술 검증"
+      ],
+      "representative_article": {
+        "title": "[ 오늘의 Pick!]SK하이닉스, 뉴욕서 'AI 인프라 기업'으로 재평가…메모리 산업 새 시대 열었다 - 코리아포스트 한글판",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5teEFMSWI0UXI5UjFmSjVKOUx1UjVJMmVrMUxGVmI0VG9jT0ZrS1NCR1I1SXBQbVVrTUlEWXd4TVdCOTJSQnFlVWQxTEIzcHdxaDBYelhjQ3pOX3JQQWFzaEF6bGhjLWtCX2Y5WHFR?oc=5",
+        "source": "키워드-반도체AI",
+        "published_dt": "2026-07-11 22:19:55",
+        "match_score": 43.56
+      },
+      "related_articles": [
+        {
+          "title": "[ 오늘의 Pick!]SK하이닉스, 뉴욕서 'AI 인프라 기업'으로 재평가…메모리 산업 새 시대 열었다 - 코리아포스트 한글판",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5teEFMSWI0UXI5UjFmSjVKOUx1UjVJMmVrMUxGVmI0VG9jT0ZrS1NCR1I1SXBQbVVrTUlEWXd4TVdCOTJSQnFlVWQxTEIzcHdxaDBYelhjQ3pOX3JQQWFzaEF6bGhjLWtCX2Y5WHFR?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-07-11 22:19:55",
+          "match_score": 43.56
+        },
+        {
+          "title": "외환시장에 '통화스와프급' 달러 폭탄 퍼붓는 SK하이닉스",
+          "link": "https://www.yna.co.kr/view/AKR20260710148400003",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-07-12 05:45:01",
+          "match_score": 8.22
+        },
+        {
+          "title": "나스닥 사장 “SK하이닉스 상장, 대박”…“삼성전자도 상장하나?” 물었더니",
+          "link": "https://www.etnews.com/20260711000043",
+          "source": "전자신문",
+          "published_dt": "2026-07-11 20:47:41",
+          "match_score": 7.9
+        },
+        {
+          "title": "SK하이닉스, HBM 이후 '메모리 연산' 기술 검증",
+          "link": "https://www.etnews.com/20260710000052",
+          "source": "전자신문",
+          "published_dt": "2026-07-11 09:00:00",
+          "match_score": 7.9
+        },
+        {
+          "title": "SK하이닉스 나스닥 데뷔 13% 급등…美 메모리 생산 유치전 가열",
+          "link": "https://www.etnews.com/20260711000013",
+          "source": "전자신문",
+          "published_dt": "2026-07-11 09:19:25",
+          "match_score": 7.9
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "경제정책 비판",
+      "reason": "정치권의 경제실적 문제 지적",
+      "score": 6.67,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "정치"
+      ],
+      "sample_titles": [
+        "국힘 \"부동산·금융 등 경제정책 성적 처참…김용범 사퇴해야\""
+      ],
+      "representative_article": {
+        "title": "국힘 \"부동산·금융 등 경제정책 성적 처참…김용범 사퇴해야\"",
+        "link": "https://www.yna.co.kr/view/AKR20260711029400001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-07-11 12:45:11",
+        "match_score": 6.67
+      },
+      "related_articles": [
+        {
+          "title": "국힘 \"부동산·금융 등 경제정책 성적 처참…김용범 사퇴해야\"",
+          "link": "https://www.yna.co.kr/view/AKR20260711029400001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-07-11 12:45:11",
+          "match_score": 6.67
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "SK",
+      "score": 62.7,
+      "article_count": 10,
+      "source_count": 3,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "외환시장에 '통화스와프급' 달러 폭탄 퍼붓는 SK하이닉스",
+        "나스닥 사장 “SK하이닉스 상장, 대박”…“삼성전자도 상장하나?” 물었더니",
+        "최태원 “메모리 공급 늘려야, 조건 맞으면 美든 어디든 팹 투자…액면분할 요청시 검토”"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "외환시장에 '통화스와프급' 달러 폭탄 퍼붓는 SK하이닉스",
+        "link": "https://www.yna.co.kr/view/AKR20260710148400003",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-07-12 05:45:01",
+        "match_score": 37.83
+      },
+      "related_articles": [
+        {
+          "title": "외환시장에 '통화스와프급' 달러 폭탄 퍼붓는 SK하이닉스",
+          "link": "https://www.yna.co.kr/view/AKR20260710148400003",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-07-12 05:45:01",
+          "match_score": 37.83
+        },
+        {
+          "title": "나스닥 사장 “SK하이닉스 상장, 대박”…“삼성전자도 상장하나?” 물었더니",
+          "link": "https://www.etnews.com/20260711000043",
+          "source": "전자신문",
+          "published_dt": "2026-07-11 20:47:41",
+          "match_score": 37.49
+        },
+        {
+          "title": "SK하이닉스, HBM 이후 '메모리 연산' 기술 검증",
+          "link": "https://www.etnews.com/20260710000052",
+          "source": "전자신문",
+          "published_dt": "2026-07-11 09:00:00",
+          "match_score": 37.49
+        },
+        {
+          "title": "SK하이닉스 나스닥 데뷔 13% 급등…美 메모리 생산 유치전 가열",
+          "link": "https://www.etnews.com/20260711000013",
+          "source": "전자신문",
+          "published_dt": "2026-07-11 09:19:25",
+          "match_score": 37.49
+        },
+        {
+          "title": "[ 오늘의 Pick!]SK하이닉스, 뉴욕서 'AI 인프라 기업'으로 재평가…메모리 산업 새 시대 열었다 - 코리아포스트 한글판",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5teEFMSWI0UXI5UjFmSjVKOUx1UjVJMmVrMUxGVmI0VG9jT0ZrS1NCR1I1SXBQbVVrTUlEWXd4TVdCOTJSQnFlVWQxTEIzcHdxaDBYelhjQ3pOX3JQQWFzaEF6bGhjLWtCX2Y5WHFR?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-07-11 22:19:55",
+          "match_score": 36.96
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "하이닉스",
+      "score": 62.7,
+      "article_count": 10,
+      "source_count": 3,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "외환시장에 '통화스와프급' 달러 폭탄 퍼붓는 SK하이닉스",
+        "나스닥 사장 “SK하이닉스 상장, 대박”…“삼성전자도 상장하나?” 물었더니",
+        "최태원 “메모리 공급 늘려야, 조건 맞으면 美든 어디든 팹 투자…액면분할 요청시 검토”"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "외환시장에 '통화스와프급' 달러 폭탄 퍼붓는 SK하이닉스",
+        "link": "https://www.yna.co.kr/view/AKR20260710148400003",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-07-12 05:45:01",
+        "match_score": 37.83
+      },
+      "related_articles": [
+        {
+          "title": "외환시장에 '통화스와프급' 달러 폭탄 퍼붓는 SK하이닉스",
+          "link": "https://www.yna.co.kr/view/AKR20260710148400003",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-07-12 05:45:01",
+          "match_score": 37.83
+        },
+        {
+          "title": "나스닥 사장 “SK하이닉스 상장, 대박”…“삼성전자도 상장하나?” 물었더니",
+          "link": "https://www.etnews.com/20260711000043",
+          "source": "전자신문",
+          "published_dt": "2026-07-11 20:47:41",
+          "match_score": 37.49
+        },
+        {
+          "title": "SK하이닉스, HBM 이후 '메모리 연산' 기술 검증",
+          "link": "https://www.etnews.com/20260710000052",
+          "source": "전자신문",
+          "published_dt": "2026-07-11 09:00:00",
+          "match_score": 37.49
+        },
+        {
+          "title": "SK하이닉스 나스닥 데뷔 13% 급등…美 메모리 생산 유치전 가열",
+          "link": "https://www.etnews.com/20260711000013",
+          "source": "전자신문",
+          "published_dt": "2026-07-11 09:19:25",
+          "match_score": 37.49
+        },
+        {
+          "title": "[ 오늘의 Pick!]SK하이닉스, 뉴욕서 'AI 인프라 기업'으로 재평가…메모리 산업 새 시대 열었다 - 코리아포스트 한글판",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5teEFMSWI0UXI5UjFmSjVKOUx1UjVJMmVrMUxGVmI0VG9jT0ZrS1NCR1I1SXBQbVVrTUlEWXd4TVdCOTJSQnFlVWQxTEIzcHdxaDBYelhjQ3pOX3JQQWFzaEF6bGhjLWtCX2Y5WHFR?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-07-11 22:19:55",
+          "match_score": 36.96
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
