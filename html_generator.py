@@ -283,7 +283,7 @@ class HTMLGenerator:
                 display: grid;
                 grid-template-columns: 42px 1fr auto;
                 gap: 12px;
-                align-items: center;
+                align-items: flex-start;
                 padding: 12px 0;
                 border-bottom: 1px solid rgba(255, 255, 255, 0.06);
             }
@@ -305,6 +305,36 @@ class HTMLGenerator:
                 font-weight: 600;
                 line-height: 1.25;
             }
+            .keyword-reason {
+                color: #c9d7e6;
+                font-size: 0.82rem;
+                line-height: 1.45;
+                margin-top: 5px;
+                font-weight: 300;
+            }
+            .keyword-article {
+                display: block;
+                color: #d7ecff;
+                text-decoration: none;
+                font-size: 0.86rem;
+                line-height: 1.4;
+                margin-top: 8px;
+                padding: 9px 11px;
+                border-radius: 12px;
+                background: rgba(79, 172, 254, 0.07);
+                border: 1px solid rgba(79, 172, 254, 0.18);
+                transition: var(--transition);
+            }
+            .keyword-article:hover {
+                background: rgba(79, 172, 254, 0.13);
+                border-color: rgba(79, 172, 254, 0.32);
+            }
+            .keyword-article-source {
+                display: block;
+                color: var(--text-secondary);
+                font-size: 0.72rem;
+                margin-top: 3px;
+            }
             .keyword-meta {
                 color: var(--text-secondary);
                 font-size: 0.74rem;
@@ -321,6 +351,7 @@ class HTMLGenerator:
                 font-size: 0.75rem;
                 background: rgba(79, 172, 254, 0.08);
                 white-space: nowrap;
+                margin-top: 2px;
             }
 
             /* Sticky Nav */
@@ -1112,17 +1143,40 @@ class HTMLGenerator:
             for item in trending_keywords[:10]:
                 rank = item.get('rank', '')
                 keyword = html_escape.escape(str(item.get('keyword', '')))
+                reason = html_escape.escape(str(item.get('reason', '') or ''))
                 article_count = item.get('article_count', 0)
                 source_count = item.get('source_count', 0)
                 categories = item.get('categories', []) or []
                 categories_text = ' · '.join([str(c) for c in categories[:3]])
                 categories_text = html_escape.escape(categories_text)
+                representative = item.get('representative_article') or {}
+                article_html = ''
+                if isinstance(representative, dict) and representative.get('link') and representative.get('title'):
+                    article_title = html_escape.escape(str(representative.get('title', '')))
+                    article_link = html_escape.escape(str(representative.get('link', '')))
+                    article_source = html_escape.escape(str(representative.get('source', '') or '관련 기사'))
+                    article_html = f"""
+                        <a class="keyword-article" href="{article_link}" target="_blank" rel="noopener noreferrer">
+                            🔗 {article_title}
+                            <span class="keyword-article-source">{article_source}</span>
+                        </a>
+                    """
+
+                reason_html = f'<div class="keyword-reason">{reason}</div>' if reason else ''
+                meta_parts = []
+                if categories_text:
+                    meta_parts.append(categories_text)
+                if source_count:
+                    meta_parts.append(f'{source_count}개 출처')
+                keyword_meta = ' · '.join(meta_parts)
                 html += f"""
                 <div class="keyword-row">
                     <div class="keyword-rank">#{rank}</div>
                     <div class="keyword-main">
                         <div class="keyword-word">{keyword}</div>
-                        <div class="keyword-meta">{categories_text} · {source_count}개 출처</div>
+                        {reason_html}
+                        {article_html}
+                        <div class="keyword-meta">{keyword_meta}</div>
                     </div>
                     <div class="keyword-count">{article_count}건</div>
                 </div>

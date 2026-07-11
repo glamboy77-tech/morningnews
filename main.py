@@ -392,7 +392,7 @@ def main(send_push=True, use_cache=True, *, ignore_done_marker: bool = False, tt
         print("🔄 캐시된 오늘의 키워드 데이터 로드 중...")
         cached_keywords = cache.load_trending_keywords(today_str)
         if cached_keywords is not None:
-            cache_mode = "hybrid" if llm_keyword_candidates else "local"
+            cache_mode = "llm_linked" if llm_keyword_candidates else "local"
             cached_mode = None
             if cached_keywords and isinstance(cached_keywords[0], dict):
                 cached_mode = cached_keywords[0].get("ranking_mode")
@@ -410,7 +410,7 @@ def main(send_push=True, use_cache=True, *, ignore_done_marker: bool = False, tt
             limit=10,
             key_persons=key_persons,
         )
-        ranking_mode = "hybrid" if llm_keyword_candidates else "local"
+        ranking_mode = "llm_linked" if llm_keyword_candidates else "local"
         for item in trending_keywords:
             item["ranking_mode"] = ranking_mode
         if use_cache:

@@ -103,6 +103,29 @@ class KeywordAnalyzer:
         return normalized
 
     @classmethod
+    def _normalize_llm_candidate_detail(cls, candidate):
+        """LLM 키워드 후보를 화면 표시/기사 매칭에 쓸 수 있는 형태로 보존한다."""
+        keyword = cls._normalize_llm_candidate(candidate)
+        if not keyword:
+            return None
+
+        reason = ""
+        categories = []
+        if isinstance(candidate, dict):
+            reason = str(candidate.get("reason") or "").strip()
+            raw_categories = candidate.get("categories") or []
+            if isinstance(raw_categories, list):
+                categories = [str(c).strip() for c in raw_categories if str(c).strip()]
+            elif isinstance(raw_categories, str) and raw_categories.strip():
+                categories = [raw_categories.strip()]
+
+        return {
+            "keyword": keyword,
+            "reason": reason,
+            "categories": categories,
+        }
+
+    @classmethod
     def _is_valid_keyword(cls, token: str) -> bool:
         if not token:
             return False
@@ -138,6 +161,37 @@ class KeywordAnalyzer:
 
         return candidates
 
+    @classmethod
+    def _compact(cls, text: str) -> str:
+        return re.sub(r"[^0-9A-Za-z가-힣]+", "", str(text or "")).lower()
+
+    @classmethod
+    def _match_terms_for_llm_keyword(cls, keyword: str, reason: str = ""):
+        """의미형 LLM 키워드와 reason에서 기사 매칭용 힌트 단어를 느슨하게 만든다."""
+        terms = []
+        for raw in [keyword, reason]:
+            clean = cls._plain_text(raw)
+            if not clean:
+                continue
+            terms.append(clean)
+            terms.append(cls._compact(clean))
+            for token in re.findall(r"[A-Za-z]{2,12}|[A-Za-z0-9가-힣]{2,16}|[가-힣]{2,12}", clean):
+                normalized = cls._normalize_keyword(token)
+                if cls._is_valid_keyword(normalized):
+                    terms.append(normalized)
+                    terms.append(cls._compact(normalized))
+
+        # 너무 짧거나 중복된 힌트 제거. 순서는 보존한다.
+        seen = set()
+        unique_terms = []
+        for term in terms:
+            term = str(term or "").strip()
+            if len(term) < 2 or term in seen:
+                continue
+            seen.add(term)
+            unique_terms.append(term)
+        return unique_terms
+
     @staticmethod
     def _iter_articles(categorized_news, science_news=None):
         if isinstance(categorized_news, dict):
@@ -170,23 +224,205 @@ class KeywordAnalyzer:
         limit: int = 10,
         key_persons=None,
     ):
-        preferred_keywords = []
+        preferred_details = []
         seen = set()
         if isinstance(llm_candidates, list):
             for candidate in llm_candidates:
-                normalized = self._normalize_llm_candidate(candidate)
-                if not normalized or normalized in seen:
+                detail = self._normalize_llm_candidate_detail(candidate)
+                if not detail or detail["keyword"] in seen:
                     continue
-                preferred_keywords.append(normalized)
-                seen.add(normalized)
+                preferred_details.append(detail)
+                seen.add(detail["keyword"])
+
+        if preferred_details:
+            return self._rank_llm_linked_keywords(
+                categorized_news,
+                science_news,
+                limit=limit,
+                key_persons=key_persons,
+                preferred_details=preferred_details,
+            )
 
         return self._rank_keywords(
             categorized_news,
             science_news,
             limit=limit,
             key_persons=key_persons,
-            preferred_keywords=preferred_keywords,
+            preferred_keywords=None,
         )
+
+    def _score_article_for_llm_keyword(self, detail, category, item):
+        keyword = detail.get("keyword", "")
+        reason = detail.get("reason", "")
+        preferred_categories = set(detail.get("categories") or [])
+        title = self._plain_text(item.get("title", ""))
+        description = self._plain_text(item.get("description", ""))[:500]
+        title_compact = self._compact(title)
+        desc_compact = self._compact(description)
+        keyword_compact = self._compact(keyword)
+        terms = self._match_terms_for_llm_keyword(keyword, reason)
+
+        score = 0.0
+        text_score = 0.0
+
+        if keyword and keyword in title:
+            score += 14.0
+            text_score += 14.0
+        if keyword and keyword in description:
+            score += 5.0
+            text_score += 5.0
+        if keyword_compact and keyword_compact in title_compact:
+            score += 12.0
+            text_score += 12.0
+        if keyword_compact and keyword_compact in desc_compact:
+            score += 4.0
+            text_score += 4.0
+
+        for term in terms:
+            term_compact = self._compact(term)
+            if not term_compact or term_compact == keyword_compact:
+                continue
+            if term in title or term_compact in title_compact:
+                score += 2.5
+                text_score += 2.5
+            elif term in description or term_compact in desc_compact:
+                score += 0.9
+                text_score += 0.9
+
+        if category in preferred_categories:
+            score += 2.0
+        if item.get("is_representative"):
+            score += 1.0
+        try:
+            score += min(float(item.get("source_weight") or 0), 1.5) * 0.3
+        except Exception:
+            pass
+        try:
+            score += min(float(item.get("priority_score") or 0), 5.0) * 0.15
+        except Exception:
+            pass
+
+        return score, text_score
+
+    @staticmethod
+    def _article_payload(item):
+        return {
+            "title": item.get("title", ""),
+            "link": item.get("link", ""),
+            "source": item.get("source", ""),
+            "published_dt": item.get("published_dt", ""),
+        }
+
+    def _build_llm_keyword_item(self, detail, categorized_news, science_news=None):
+        best = None
+        related_links = set()
+        sources = set()
+        categories = set(detail.get("categories") or [])
+        sample_titles = []
+
+        for category, item in self._iter_articles(categorized_news, science_news):
+            score, text_score = self._score_article_for_llm_keyword(detail, category, item)
+            link = item.get("link") or f"{item.get('source', '')}:{item.get('title', '')}"
+            if text_score >= 2.5:
+                related_links.add(link)
+                sources.add(item.get("source", "") or "unknown")
+                categories.add(category)
+                if item.get("title") and len(sample_titles) < 3:
+                    sample_titles.append(item.get("title"))
+
+            if score <= 0:
+                continue
+            if best is None or score > best[0]:
+                best = (score, text_score, category, item)
+
+        representative_article = None
+        score = 0.0
+        if best and (best[1] > 0 or best[2] in set(detail.get("categories") or [])):
+            score = best[0]
+            representative_article = self._article_payload(best[3])
+            categories.add(best[2])
+            if best[3].get("source"):
+                sources.add(best[3].get("source"))
+            if best[3].get("link"):
+                related_links.add(best[3].get("link"))
+            if best[3].get("title") and best[3].get("title") not in sample_titles and len(sample_titles) < 3:
+                sample_titles.append(best[3].get("title"))
+
+        return {
+            "keyword": detail.get("keyword", ""),
+            "reason": detail.get("reason", ""),
+            "score": round(score, 2),
+            "article_count": len(related_links),
+            "source_count": len(sources),
+            "categories": sorted(categories),
+            "sample_titles": sample_titles,
+            "representative_article": representative_article,
+            "llm_candidate": True,
+        }
+
+    @staticmethod
+    def _is_near_duplicate_keyword(keyword: str, existing_keywords: set[str]) -> bool:
+        compact = re.sub(r"[^0-9A-Za-z가-힣]+", "", str(keyword or "")).lower()
+        if not compact:
+            return True
+        for existing in existing_keywords:
+            existing_compact = re.sub(r"[^0-9A-Za-z가-힣]+", "", str(existing or "")).lower()
+            if compact == existing_compact:
+                return True
+            if len(compact) >= 2 and compact in existing_compact:
+                return True
+            if len(existing_compact) >= 2 and existing_compact in compact:
+                return True
+        return False
+
+    def _rank_llm_linked_keywords(self, categorized_news, science_news=None, *, limit: int = 10, key_persons=None, preferred_details=None):
+        excluded_person_names = self._person_names_from_key_persons(key_persons)
+        result = []
+        existing_keywords = set()
+
+        for detail in preferred_details or []:
+            keyword = detail.get("keyword")
+            if not keyword or keyword in excluded_person_names:
+                continue
+            if self._is_near_duplicate_keyword(keyword, existing_keywords):
+                continue
+            item = self._build_llm_keyword_item(detail, categorized_news, science_news)
+            result.append(item)
+            existing_keywords.add(keyword)
+            if len(result) >= limit:
+                break
+
+        if len(result) < limit:
+            local_ranked = self._rank_keywords(
+                categorized_news,
+                science_news,
+                limit=limit * 3,
+                key_persons=key_persons,
+                preferred_keywords=[d.get("keyword") for d in preferred_details or []],
+            )
+            for item in local_ranked:
+                keyword = item.get("keyword")
+                if self._is_near_duplicate_keyword(keyword, existing_keywords):
+                    continue
+                item["llm_candidate"] = False
+                linked = self._build_llm_keyword_item(
+                    {
+                        "keyword": keyword,
+                        "reason": "",
+                        "categories": item.get("categories", []),
+                    },
+                    categorized_news,
+                    science_news,
+                )
+                item["representative_article"] = linked.get("representative_article")
+                result.append(item)
+                existing_keywords.add(keyword)
+                if len(result) >= limit:
+                    break
+
+        for idx, item in enumerate(result[:limit], start=1):
+            item["rank"] = idx
+        return result[:limit]
 
     def _rank_keywords(self, categorized_news, science_news=None, *, limit: int = 10, key_persons=None, preferred_keywords=None):
         excluded_person_names = self._person_names_from_key_persons(key_persons)
