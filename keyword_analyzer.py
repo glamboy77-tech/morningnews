@@ -48,6 +48,17 @@ class KeywordAnalyzer:
     # "레버리지" 같은 정상 단어가 "레버리"로 잘릴 수 있어 suffix 단위로만 제거한다.
     TRAILING_PARTICLES = ("으로", "에서", "부터", "까지", "보다", "은", "는", "이", "가", "을", "를", "의", "에", "와", "과", "도", "만", "로")
 
+    # LLM reason을 기사 매칭 힌트로 쓸 때는 너무 넓은 단어를 제외한다.
+    # 예: "대규모", "협력"만으로는 해당 키워드의 관련 기사라고 보기 어렵다.
+    MATCH_STOPWORDS = {
+        "대규모", "단지", "조성", "협력", "강화", "지속", "활발", "확산", "증가",
+        "완화", "논의", "대상", "관련", "지원", "수주", "선택", "이유", "추진",
+        "가능", "기대", "우려", "흐름", "사례", "소식", "사업", "시장", "기업",
+        "금융", "정부", "한국", "미국", "일본", "중국", "국내", "글로벌",
+        "기술", "시대", "일자리", "모바일",
+        "AI", "ai",
+    }
+
     def __init__(self):
         self._phrase_patterns = [
             (phrase, re.compile(re.escape(phrase).replace("\\ ", r"\s*"), re.IGNORECASE))
@@ -177,7 +188,7 @@ class KeywordAnalyzer:
             terms.append(cls._compact(clean))
             for token in re.findall(r"[A-Za-z]{2,12}|[A-Za-z0-9가-힣]{2,16}|[가-힣]{2,12}", clean):
                 normalized = cls._normalize_keyword(token)
-                if cls._is_valid_keyword(normalized):
+                if cls._is_valid_keyword(normalized) and normalized not in cls.MATCH_STOPWORDS:
                     terms.append(normalized)
                     terms.append(cls._compact(normalized))
 
@@ -261,33 +272,56 @@ class KeywordAnalyzer:
         desc_compact = self._compact(description)
         keyword_compact = self._compact(keyword)
         terms = self._match_terms_for_llm_keyword(keyword, reason)
+        reason_terms = [
+            self._compact(self._normalize_keyword(token))
+            for token in re.findall(r"[A-Za-z]{2,12}|[A-Za-z0-9가-힣]{2,16}|[가-힣]{2,12}", self._plain_text(reason))
+            if self._normalize_keyword(token) not in self.MATCH_STOPWORDS
+        ]
+        reason_terms = [term for term in reason_terms if len(term) >= 2]
 
         score = 0.0
         text_score = 0.0
+        strong_match = False
+        reason_match = False
 
         if keyword and keyword in title:
             score += 14.0
             text_score += 14.0
+            strong_match = True
         if keyword and keyword in description:
             score += 5.0
             text_score += 5.0
+            strong_match = True
         if keyword_compact and keyword_compact in title_compact:
             score += 12.0
             text_score += 12.0
+            strong_match = True
         if keyword_compact and keyword_compact in desc_compact:
             score += 4.0
             text_score += 4.0
+            strong_match = True
 
         for term in terms:
             term_compact = self._compact(term)
             if not term_compact or term_compact == keyword_compact:
                 continue
+            is_specific_term = len(term_compact) >= 4 or (re.search(r"[A-Za-z0-9]", term_compact) and len(term_compact) >= 3)
             if term in title or term_compact in title_compact:
-                score += 2.5
-                text_score += 2.5
+                term_score = 3.0 if is_specific_term else 1.2
+                score += term_score
+                text_score += term_score
+                if is_specific_term:
+                    strong_match = True
+                if term_compact in reason_terms:
+                    reason_match = True
             elif term in description or term_compact in desc_compact:
-                score += 0.9
-                text_score += 0.9
+                term_score = 1.1 if is_specific_term else 0.3
+                score += term_score
+                text_score += term_score
+                if is_specific_term and term_score >= 1.0:
+                    strong_match = True
+                if term_compact in reason_terms:
+                    reason_match = True
 
         if category in preferred_categories:
             score += 2.0
@@ -302,7 +336,10 @@ class KeywordAnalyzer:
         except Exception:
             pass
 
-        return score, text_score
+        if reason_terms and not reason_match:
+            strong_match = False
+
+        return score, text_score, strong_match
 
     @staticmethod
     def _article_payload(item, *, score=None):
@@ -325,20 +362,20 @@ class KeywordAnalyzer:
         sample_titles = []
 
         for category, item in self._iter_articles(categorized_news, science_news):
-            score, text_score = self._score_article_for_llm_keyword(detail, category, item)
+            score, text_score, strong_match = self._score_article_for_llm_keyword(detail, category, item)
             link = item.get("link") or f"{item.get('source', '')}:{item.get('title', '')}"
-            if text_score >= 2.5:
+            if strong_match and text_score >= 4.0:
                 related_links.add(link)
                 sources.add(item.get("source", "") or "unknown")
                 categories.add(category)
-                article_matches.append((score, text_score, category, item))
+                article_matches.append((score, text_score, category, item, strong_match))
                 if item.get("title") and len(sample_titles) < 3:
                     sample_titles.append(item.get("title"))
 
             if score <= 0:
                 continue
             if best is None or score > best[0]:
-                best = (score, text_score, category, item)
+                best = (score, text_score, category, item, strong_match)
 
         representative_article = None
         score = 0.0
@@ -356,7 +393,7 @@ class KeywordAnalyzer:
 
         related_articles = []
         seen_article_links = set()
-        for match_score, text_score, category, item in sorted(article_matches, key=lambda x: x[0], reverse=True):
+        for match_score, text_score, category, item, strong_match in sorted(article_matches, key=lambda x: x[0], reverse=True):
             link = item.get("link") or f"{item.get('source', '')}:{item.get('title', '')}"
             if not link or link in seen_article_links:
                 continue
