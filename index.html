@@ -601,7 +601,7 @@ ${shareText}`);
                 display: grid;
                 grid-template-columns: 42px 1fr auto;
                 gap: 12px;
-                align-items: center;
+                align-items: flex-start;
                 padding: 12px 0;
                 border-bottom: 1px solid rgba(255, 255, 255, 0.06);
             }
@@ -623,6 +623,36 @@ ${shareText}`);
                 font-weight: 600;
                 line-height: 1.25;
             }
+            .keyword-reason {
+                color: #c9d7e6;
+                font-size: 0.82rem;
+                line-height: 1.45;
+                margin-top: 5px;
+                font-weight: 300;
+            }
+            .keyword-article {
+                display: block;
+                color: #d7ecff;
+                text-decoration: none;
+                font-size: 0.86rem;
+                line-height: 1.4;
+                margin-top: 8px;
+                padding: 9px 11px;
+                border-radius: 12px;
+                background: rgba(79, 172, 254, 0.07);
+                border: 1px solid rgba(79, 172, 254, 0.18);
+                transition: var(--transition);
+            }
+            .keyword-article:hover {
+                background: rgba(79, 172, 254, 0.13);
+                border-color: rgba(79, 172, 254, 0.32);
+            }
+            .keyword-article-source {
+                display: block;
+                color: var(--text-secondary);
+                font-size: 0.72rem;
+                margin-top: 3px;
+            }
             .keyword-meta {
                 color: var(--text-secondary);
                 font-size: 0.74rem;
@@ -639,6 +669,7 @@ ${shareText}`);
                 font-size: 0.75rem;
                 background: rgba(79, 172, 254, 0.08);
                 white-space: nowrap;
+                margin-top: 2px;
             }
 
             /* Sticky Nav */
@@ -983,7 +1014,7 @@ ${shareText}`);
                 <header>
                     <div class="header-meta">
                         <span class="header-date">2026.07.11</span>
-                        <span class="header-time">Generated at 06:01:53</span>
+                        <span class="header-time">Generated at 11:38:12</span>
                     </div>
                     <h1>Morning News</h1>
                     
@@ -998,7 +1029,7 @@ ${shareText}`);
                 </div>
                 <div class="weather-extra" id="weather-desc">LOADING...</div>
                 <div class="weather-extra" id="weather-location">위치 확인 중...</div>
-                <div class="weather-diff-box" id="weather-diff-box">어제보다 0.1° 낮습니다</div>
+                <div class="weather-diff-box" id="weather-diff-box"></div>
             </div>
         </div>
         
@@ -1006,7 +1037,7 @@ ${shareText}`);
                         <button class="action-btn" onclick="shareMorningBriefing()">📤 오늘 브리핑 공유</button>
                     </div>
                 </header>
-        <div class="sticky-nav"><a href="archive.html" class="nav-pill">🗓️ 아카이브</a><a href="#인물별" class="nav-pill">👤 인물별 (12)</a><a href="#keywords" class="nav-pill">🔥 키워드 (10)</a><a href="#정치" class="nav-pill">정치 (34)</a><a href="#경제/거시" class="nav-pill">경제/거시 (48)</a><a href="#기업/산업" class="nav-pill">기업/산업 (30)</a><a href="#부동산" class="nav-pill">부동산 (24)</a><a href="#국제" class="nav-pill">국제 (28)</a><a href="#science" class="nav-pill">테크 (10)</a></div><div class="briefing-card"><div class="briefing-title">⚡ Morning Briefing</div>
+        <div class="sticky-nav"><a href="archive.html" class="nav-pill">🗓️ 아카이브</a><a href="#인물별" class="nav-pill">👤 인물별 (12)</a><a href="#keywords" class="nav-pill">🔥 키워드 (10)</a><a href="#정치" class="nav-pill">정치 (37)</a><a href="#경제/거시" class="nav-pill">경제/거시 (70)</a><a href="#기업/산업" class="nav-pill">기업/산업 (33)</a><a href="#부동산" class="nav-pill">부동산 (46)</a><a href="#국제" class="nav-pill">국제 (30)</a></div><div class="briefing-card"><div class="briefing-title">⚡ Morning Briefing</div>
                     <div class="briefing-item">
                         <span class="briefing-label">정치</span>
                         <span class="briefing-content">이 대통령이 몽골 나담축제 참석을 끝으로 국빈방문을 마무리한 가운데, 윤석열 정부 외교안보 실세 김태효 구속 소식과 여당의 선호투표제 도입 논의가 또다시 불발되는 등 내홍이 이어지고 있습니다. 여소야대 상황에서 부산시의회 민주당 일부가 제2부의장직 거부, 종합특검 기간 연장 법안 의결 등 정치적 갈등과 행보가 지속되고 있습니다.</span>
@@ -1035,91 +1066,161 @@ ${shareText}`);
                 <div class="keyword-row">
                     <div class="keyword-rank">#1</div>
                     <div class="keyword-main">
-                        <div class="keyword-word">SK</div>
-                        <div class="keyword-meta">경제/거시 · 국제 · 기업/산업 · 8개 출처</div>
+                        <div class="keyword-word">SK하이닉스</div>
+                        <div class="keyword-reason">나스닥 상장 및 미국 투자 활발</div>
+                        
+                        <a class="keyword-article" href="https://www.aitimes.com/news/articleView.html?idxno=212651" target="_blank" rel="noopener noreferrer">
+                            🔗 SK하이닉스, 나스닥 상장 첫날 13% 급등…&quot;로봇·에이전트로 수요 폭발&quot;
+                            <span class="keyword-article-source">AI타임스</span>
+                        </a>
+                    
+                        <div class="keyword-meta">경제/거시 · 국제 · 기업/산업 · 9개 출처</div>
                     </div>
-                    <div class="keyword-count">19건</div>
+                    <div class="keyword-count">28건</div>
                 </div>
                 
                 <div class="keyword-row">
                     <div class="keyword-rank">#2</div>
                     <div class="keyword-main">
-                        <div class="keyword-word">하이닉스</div>
+                        <div class="keyword-word">재생에너지</div>
+                        <div class="keyword-reason">한화큐셀 미국 대규모 단지 조성</div>
+                        
+                        <a class="keyword-article" href="https://www.etnews.com/20260710000217" target="_blank" rel="noopener noreferrer">
+                            🔗 한화큐셀, 美에 &#x27;여의도 22배&#x27; 재생에너지 단지 짓는다
+                            <span class="keyword-article-source">전자신문</span>
+                        </a>
+                    
+                        <div class="keyword-meta">경제/거시 · 기업/산업 · 부동산 · 4개 출처</div>
+                    </div>
+                    <div class="keyword-count">5건</div>
+                </div>
+                
+                <div class="keyword-row">
+                    <div class="keyword-rank">#3</div>
+                    <div class="keyword-main">
+                        <div class="keyword-word">부동산정책</div>
+                        <div class="keyword-reason">청년 대출 완화, 고가주택 보유세 논의</div>
+                        
+                        <a class="keyword-article" href="https://www.etnews.com/20260710000127" target="_blank" rel="noopener noreferrer">
+                            🔗 李대통령, 결국 &#x27;숙의 정치&#x27; 꺼냈다…정부·靑, 부동산 정책 토론회 개최
+                            <span class="keyword-article-source">전자신문</span>
+                        </a>
+                    
                         <div class="keyword-meta">경제/거시 · 국제 · 기업/산업 · 8개 출처</div>
                     </div>
                     <div class="keyword-count">18건</div>
                 </div>
                 
                 <div class="keyword-row">
-                    <div class="keyword-rank">#3</div>
-                    <div class="keyword-main">
-                        <div class="keyword-word">반도체</div>
-                        <div class="keyword-meta">경제/거시 · 국제 · 기업/산업 · 9개 출처</div>
-                    </div>
-                    <div class="keyword-count">17건</div>
-                </div>
-                
-                <div class="keyword-row">
                     <div class="keyword-rank">#4</div>
                     <div class="keyword-main">
-                        <div class="keyword-word">SK하이닉스</div>
-                        <div class="keyword-meta">경제/거시 · 국제 · 기업/산업 · 8개 출처</div>
+                        <div class="keyword-word">한미경제협력</div>
+                        <div class="keyword-reason">한미 조선협력센터 개소 등 협력 강화</div>
+                        
+                        <a class="keyword-article" href="https://www.yna.co.kr/view/AKR20260710150800003" target="_blank" rel="noopener noreferrer">
+                            🔗 한미 조선협력센터 문 연다…&#x27;마스가&#x27; 협력 속도낼까
+                            <span class="keyword-article-source">연합뉴스-정치</span>
+                        </a>
+                    
+                        <div class="keyword-meta">경제/거시 · 국제 · 기업/산업 · 4개 출처</div>
                     </div>
-                    <div class="keyword-count">17건</div>
+                    <div class="keyword-count">4건</div>
                 </div>
                 
                 <div class="keyword-row">
                     <div class="keyword-rank">#5</div>
                     <div class="keyword-main">
-                        <div class="keyword-word">AI</div>
-                        <div class="keyword-meta">경제/거시 · 국제 · 기업/산업 · 9개 출처</div>
+                        <div class="keyword-word">에볼라</div>
+                        <div class="keyword-reason">민주콩고 확산 및 사망자 증가</div>
+                        
+                        <a class="keyword-article" href="https://www.donga.com/news/Inter/article/all/20260710/134273358/1" target="_blank" rel="noopener noreferrer">
+                            🔗 민주콩고 에볼라 사망자 600명 돌파…“역대 가장 빠른 확산”
+                            <span class="keyword-article-source">동아일보-국제</span>
+                        </a>
+                    
+                        <div class="keyword-meta">국제 · 1개 출처</div>
                     </div>
-                    <div class="keyword-count">16건</div>
+                    <div class="keyword-count">1건</div>
                 </div>
                 
                 <div class="keyword-row">
                     <div class="keyword-rank">#6</div>
                     <div class="keyword-main">
-                        <div class="keyword-word">투자</div>
-                        <div class="keyword-meta">경제/거시 · 국제 · 기업/산업 · 7개 출처</div>
+                        <div class="keyword-word">자동차리콜</div>
+                        <div class="keyword-reason">기아 텔루라이드 대규모 리콜과 폭스바겐 감원</div>
+                        
+                        <a class="keyword-article" href="https://www.donga.com/news/Economy/article/all/20260711/134278097/2" target="_blank" rel="noopener noreferrer">
+                            🔗 폭스바겐 10만명 감원 추진… 車업계 사상 최대 구조조정
+                            <span class="keyword-article-source">동아일보-국제</span>
+                        </a>
+                    
+                        <div class="keyword-meta">경제/거시 · 기업/산업 · 4개 출처</div>
                     </div>
-                    <div class="keyword-count">10건</div>
+                    <div class="keyword-count">4건</div>
                 </div>
                 
                 <div class="keyword-row">
                     <div class="keyword-rank">#7</div>
                     <div class="keyword-main">
-                        <div class="keyword-word">부동산</div>
-                        <div class="keyword-meta">부동산 · 4개 출처</div>
+                        <div class="keyword-word">AI기술</div>
+                        <div class="keyword-reason">농협 AI 로봇 금융 지원, AI 배전망 ESS 수주</div>
+                        
+                        <a class="keyword-article" href="https://www.yna.co.kr/view/AKR20260710105100003" target="_blank" rel="noopener noreferrer">
+                            🔗 삼성SDI, 첫 &#x27;AI 배전망 ESS&#x27; 66% 수주…LG엔솔은 사업자로 선정
+                            <span class="keyword-article-source">연합뉴스-산업</span>
+                        </a>
+                    
+                        <div class="keyword-meta">경제/거시 · 국제 · 기업/산업 · 11개 출처</div>
                     </div>
-                    <div class="keyword-count">10건</div>
+                    <div class="keyword-count">27건</div>
                 </div>
                 
                 <div class="keyword-row">
                     <div class="keyword-rank">#8</div>
                     <div class="keyword-main">
-                        <div class="keyword-word">삼성전자</div>
-                        <div class="keyword-meta">경제/거시 · 국제 · 기업/산업 · 6개 출처</div>
+                        <div class="keyword-word">국채매입</div>
+                        <div class="keyword-reason">일본 공적연금 대규모 한국 국채 매입</div>
+                        
+                        <a class="keyword-article" href="https://www.mk.co.kr/news/economy/12095532" target="_blank" rel="noopener noreferrer">
+                            🔗 WGBI 편입에 일본 공적연금 석 달간 한국 국채 9조 사들여
+                            <span class="keyword-article-source">매일경제-경제</span>
+                        </a>
+                    
+                        <div class="keyword-meta">경제/거시 · 기업/산업 · 부동산 · 5개 출처</div>
                     </div>
-                    <div class="keyword-count">9건</div>
+                    <div class="keyword-count">5건</div>
                 </div>
                 
                 <div class="keyword-row">
                     <div class="keyword-rank">#9</div>
                     <div class="keyword-main">
-                        <div class="keyword-word">함께</div>
-                        <div class="keyword-meta">경제/거시 · 국제 · 기업/산업 · 4개 출처</div>
+                        <div class="keyword-word">정치갈등</div>
+                        <div class="keyword-reason">김태효 구속 등 여야 내홍 지속</div>
+                        
+                        <a class="keyword-article" href="https://www.yna.co.kr/view/AKR20260710171351004" target="_blank" rel="noopener noreferrer">
+                            🔗 &#x27;내란가담&#x27; 尹정부 외교안보 실세 김태효 구속…&quot;증거인멸 염려&quot;(종합)
+                            <span class="keyword-article-source">연합뉴스-정치</span>
+                        </a>
+                    
+                        <div class="keyword-meta">경제/거시 · 기업/산업 · 정치 · 3개 출처</div>
                     </div>
-                    <div class="keyword-count">9건</div>
+                    <div class="keyword-count">3건</div>
                 </div>
                 
                 <div class="keyword-row">
                     <div class="keyword-rank">#10</div>
                     <div class="keyword-main">
-                        <div class="keyword-word">나스닥</div>
-                        <div class="keyword-meta">경제/거시 · 국제 · 기업/산업 · 6개 출처</div>
+                        <div class="keyword-word">반도체</div>
+                        
+                        
+                        <a class="keyword-article" href="https://www.mk.co.kr/news/economy/12095628" target="_blank" rel="noopener noreferrer">
+                            🔗 반도체 중소기업 지원 위해 하나은행, 1000억 보증대출
+                            <span class="keyword-article-source">매일경제-경제</span>
+                        </a>
+                    
+                        <div class="keyword-meta">경제/거시 · 국제 · 기업/산업 · 9개 출처</div>
                     </div>
-                    <div class="keyword-count">7건</div>
+                    <div class="keyword-count">18건</div>
                 </div>
                 </div></div><div id="인물별" class="section-title">🔍 주요 인물별 뉴스</div><div class="sector-subheading">👤 이재명 (한국 대통령) (5건)</div>
                 <div class="card">
@@ -1217,7 +1318,16 @@ ${shareText}`);
                         <span>07.10 16:43</span>
                     </div>
                 </div>
-                <div id="정치" class="section-title">정치</div><div class="sector-subheading">🗂️ 정상/외교 (1)</div>
+                <div id="정치" class="section-title">정치</div><div class="sector-subheading">🗂️ 정상/외교 (2)</div>
+                    <div class="card  representative">
+                        <a href="https://www.chosun.com/politics/politics_general/2026/07/10/RQE5XHFPNBAU3EPGWL2QHC3V5Q/" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">李 “몽골과 광물 파트너십 강화… 황금시대 열자”</a>
+                        <div class="card-meta">
+                            <span>조선일보-정치 · 언론</span>
+                            <span>07.10 00:48</span>
+                        </div>
+                        
+                    </div>
+                    
                     <div class="card priority">
                         <a href="https://www.yna.co.kr/view/AKR20260710119200504" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">'2025 외교백서' 발간…"국익 중심 실용외교 추진"</a>
                         <div class="card-meta">
@@ -1262,7 +1372,7 @@ ${shareText}`);
                         </div>
                         
                     </div>
-                    <div class="sector-subheading">🗂️ 사법/의혹 (10)</div>
+                    <div class="sector-subheading">🗂️ 사법/의혹 (11)</div>
                     <div class="card priority representative">
                         <a href="https://www.yna.co.kr/view/AKR20260710171351004" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">'내란가담' 尹정부 외교안보 실세 김태효 구속…"증거인멸 염려"(종합)</a>
                         <div class="card-meta">
@@ -1286,6 +1396,15 @@ ${shareText}`);
                         <div class="card-meta">
                             <span>연합뉴스-정치 · 통신</span>
                             <span>07.10 15:32</span>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="card  representative">
+                        <a href="https://www.chosun.com/politics/assembly/2026/07/10/NVDF6K6CCVCNHPHHP2OG6XFQUI/" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">與, 검찰 보완수사권 없애고 수사 요구권만 남겼다</a>
+                        <div class="card-meta">
+                            <span>조선일보-정치 · 언론</span>
+                            <span>07.10 00:56</span>
                         </div>
                         
                     </div>
@@ -1425,7 +1544,7 @@ ${shareText}`);
                         </div>
                         
                     </div>
-                    <div class="sector-subheading">🗂️ 입법/정책 (10)</div>
+                    <div class="sector-subheading">🗂️ 입법/정책 (11)</div>
                     <div class="card priority representative">
                         <a href="https://www.yna.co.kr/view/AKR20260710159500001" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">與이수진, 간호사 직장내 괴롭힘 '태움' 방지법 발의</a>
                         <div class="card-meta">
@@ -1440,6 +1559,15 @@ ${shareText}`);
                         <div class="card-meta">
                             <span>연합뉴스-정치 · 통신</span>
                             <span>07.10 16:03</span>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="card  representative">
+                        <a href="https://www.chosun.com/politics/goverment/2026/07/09/BX24WVFQ5RAO5AGWGIWY4OLTSQ/" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">3기 신도시 현장 찾은 韓총리 “수도권 시장 안정 위해 신속 공급”</a>
+                        <div class="card-meta">
+                            <span>조선일보-정치 · 언론</span>
+                            <span>07.09 19:52</span>
                         </div>
                         
                     </div>
@@ -1798,6 +1926,15 @@ ${shareText}`);
                 </div>
                 
                 <div class="card priority">
+                    <a href="https://news.google.com/rss/articles/CBMiggFBVV95cUxNVmhSdkhwVTZoU19DSXAwbW10QlVVWmZPVVZIQmRyU245bmxaRVVpT3BBWFU4WmtNeHl6MVNmN3FKTzdMZGEwcmVKMGRMWGlmZ0dZYXhsdmtOZG5zNFNac1hkSkszamtHeEVBbDV1c3lMcVJTazQ1S2sxSWtYbVRqUjN3?oc=5" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">서울소식 - 서울특별시</a>
+                    <div class="card-meta">
+                        <span>공식-서울시 · 공식</span>
+                        <span>07.10 06:40</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card priority">
                     <a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxPM2lwSWxDV1BIblZ1dXNISzYzVmxBaFU2Y1ZaRXJLbXlMeVBrY1FSWHA3V0w4Q3F6VVg5R1g4Ukt5TWJJX3pWMDNpbWMweENvM09QRjFxaW5jQnp6Y2JsVHBVazJkQjFUY1dLcTVKVnNkNDhlYkhYNDVnSW5hbEY1OHUzTmtlODlBMy1xZVl4TFl4NE93TTBFTW5yZzlwdU9u?oc=5" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">보도자료 - 금융위원회</a>
                     <div class="card-meta">
                         <span>공식-금융위원회 · 공식</span>
@@ -1808,6 +1945,24 @@ ${shareText}`);
                         <summary>Explore 1 more sources</summary>
                         <a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxNd2VMMm5PN3BnbmFjcFhaX2c1emJYX2F1OXJjSFdYNVdXSUdMNF9EZVFzV0JGSkV6Rkh3cWdScXN6VVg2QU5MV25fdWh4VXNMMEpHVkhLb25JVUdJa00xZk5TY1NtUWdUdVdoUkJvbzZlNWFFN0tibG0xLW81Mm9OcW05N05XdFhSTXJ2TW9sRjViVjlJSzhVNHlsV2RWS2Iw?oc=5" class="related-link" target="_blank">🔗 보도자료 - 금융위원회 - 공식-금융위원회</a>
                     </details>
+                    
+                </div>
+                
+                <div class="card priority">
+                    <a href="https://news.google.com/rss/articles/CBMiggFBVV95cUxNVmhSdkhwVTZoU19DSXAwbW10QlVVWmZPVVZIQmRyU245bmxaRVVpT3BBWFU4WmtNeHl6MVNmN3FKTzdMZGEwcmVKMGRMWGlmZ0dZYXhsdmtOZG5zNFNac1hkSkszamtHeEVBbDV1c3lMcVJTazQ1S2sxSWtYbVRqUjN3?oc=5" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">서울소식 - 서울특별시</a>
+                    <div class="card-meta">
+                        <span>공식-서울시 · 공식</span>
+                        <span>07.10 06:40</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card priority">
+                    <a href="https://news.google.com/rss/articles/CBMiggFBVV95cUxNVmhSdkhwVTZoU19DSXAwbW10QlVVWmZPVVZIQmRyU245bmxaRVVpT3BBWFU4WmtNeHl6MVNmN3FKTzdMZGEwcmVKMGRMWGlmZ0dZYXhsdmtOZG5zNFNac1hkSkszamtHeEVBbDV1c3lMcVJTazQ1S2sxSWtYbVRqUjN3?oc=5" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">서울소식 - 서울특별시</a>
+                    <div class="card-meta">
+                        <span>공식-서울시 · 공식</span>
+                        <span>07.10 06:40</span>
+                    </div>
                     
                 </div>
                 
@@ -1911,6 +2066,20 @@ ${shareText}`);
                 </div>
                 
                 <div class="card priority">
+                    <a href="https://www.mk.co.kr/news/economy/12095039" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">“알리바바 넘었다” SK하닉, ADR공모가 149달러…외국기업 美 IPO 사상 최대</a>
+                    <div class="card-meta">
+                        <span>매일경제-경제 · 경제</span>
+                        <span>07.10 08:11</span>
+                    </div>
+                    
+                    <details class="related-sources">
+                        <summary>Explore 1 more sources</summary>
+                        <a href="https://www.donga.com/news/Economy/article/all/20260710/134271639/1" class="related-link" target="_blank">🔗 SK하이닉스 ADR 공모가 주당 149달러…외국기업 美 IPO 사상 최대 - 동아일보-국제</a>
+                    </details>
+                    
+                </div>
+                
+                <div class="card priority">
                     <a href="https://www.mk.co.kr/news/economy/12095155" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">‘우리금융 편입 1주년’ ABL생명, 임직원 걷기 캠페인 누적 4190만보</a>
                     <div class="card-meta">
                         <span>매일경제-경제 · 경제</span>
@@ -1933,6 +2102,15 @@ ${shareText}`);
                     <div class="card-meta">
                         <span>매일경제-경제 · 경제</span>
                         <span>07.10 14:48</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card priority">
+                    <a href="https://www.mk.co.kr/news/economy/12095014" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">“따자하오 대신 신짜오 자주 들리더니”…중국 입국자수 제친 베트남</a>
+                    <div class="card-meta">
+                        <span>매일경제-경제 · 경제</span>
+                        <span>07.10 06:52</span>
                     </div>
                     
                 </div>
@@ -1981,7 +2159,160 @@ ${shareText}`);
                     </div>
                     
                 </div>
-                <div id="기업/산업" class="section-title">기업/산업</div><div class="sector-subheading">📌 AI/로봇 (3)</div>
+                
+                <div class="card priority">
+                    <a href="https://www.mk.co.kr/news/economy/12095039" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">“알리바바 넘었다” SK하닉, ADR공모가 149달러…외국기업 美 IPO 사상 최대</a>
+                    <div class="card-meta">
+                        <span>매일경제-경제 · 경제</span>
+                        <span>07.10 08:11</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card priority">
+                    <a href="https://www.mk.co.kr/news/economy/12094687" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">신현송 "당분간 고물가 지속 … 적절한 시기 금리인상 필요"</a>
+                    <div class="card-meta">
+                        <span>매일경제-경제 · 경제</span>
+                        <span>07.09 17:48</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card priority">
+                    <a href="https://www.mk.co.kr/news/economy/12094652" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">“1.3억 촌집 살면서 통장에 월 65만원 꽂힌다” … 올해 ‘확’ 바뀐 주택연금</a>
+                    <div class="card-meta">
+                        <span>매일경제-경제 · 경제</span>
+                        <span>07.10 05:10</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card priority">
+                    <a href="https://www.mk.co.kr/news/economy/12094844" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">카톡으로 축의금·선물 보냈더니 신용점수 올랐네?…비금융정보 반영</a>
+                    <div class="card-meta">
+                        <span>매일경제-경제 · 경제</span>
+                        <span>07.09 20:43</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card priority">
+                    <a href="https://www.mk.co.kr/news/economy/12094818" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">“연봉 1억5천으론 풀칠도 못 해”…美중산층의 가계부 [홍키자의 美쿡]</a>
+                    <div class="card-meta">
+                        <span>매일경제-경제 · 경제</span>
+                        <span>07.09 19:46</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card priority">
+                    <a href="https://www.mk.co.kr/news/economy/12094816" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">“커피 4800원→2000원”…정부, 고속도로 휴게소 싹 바꾼다</a>
+                    <div class="card-meta">
+                        <span>매일경제-경제 · 경제</span>
+                        <span>07.09 19:27</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card priority">
+                    <a href="https://www.mk.co.kr/news/economy/12094785" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">안 잡히는 집값, 또 대출만 잡는다…은행들 줄줄이 주담대 관리모드</a>
+                    <div class="card-meta">
+                        <span>매일경제-경제 · 경제</span>
+                        <span>07.09 18:43</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card priority">
+                    <a href="https://www.mk.co.kr/news/economy/12094811" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">예별손보 우선협상자 OK금융그룹 내정</a>
+                    <div class="card-meta">
+                        <span>매일경제-경제 · 경제</span>
+                        <span>07.09 19:16</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card priority">
+                    <a href="https://www.mk.co.kr/news/economy/12094725" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">공정위, 미래에셋·코빗 기업결합 승인</a>
+                    <div class="card-meta">
+                        <span>매일경제-경제 · 경제</span>
+                        <span>07.09 17:53</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card priority">
+                    <a href="https://www.mk.co.kr/news/economy/12094688" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">정부 '1호 대미투자처' 내달 국회 보고 추진</a>
+                    <div class="card-meta">
+                        <span>매일경제-경제 · 경제</span>
+                        <span>07.09 17:48</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card priority">
+                    <a href="https://www.mk.co.kr/news/economy/12094685" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">베트남 입국자 中 첫 추월 … 외국인력 시장 재편 가속</a>
+                    <div class="card-meta">
+                        <span>매일경제-경제 · 경제</span>
+                        <span>07.09 17:48</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card priority">
+                    <a href="https://www.mk.co.kr/news/economy/12094686" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">AI발 고용충격 막아라 … '新사회계약' 추진</a>
+                    <div class="card-meta">
+                        <span>매일경제-경제 · 경제</span>
+                        <span>07.09 17:48</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card priority">
+                    <a href="https://www.mk.co.kr/news/economy/12094663" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">"고령자 인지검사 강화 … 페달 오조작 방지장치 의무화"</a>
+                    <div class="card-meta">
+                        <span>매일경제-경제 · 경제</span>
+                        <span>07.09 17:47</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card priority">
+                    <a href="https://www.mk.co.kr/news/economy/12094661" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">“이거 위조 신분증 아냐?”…이젠 네·카·토도 모바일 주민증 사진 대조한다</a>
+                    <div class="card-meta">
+                        <span>매일경제-경제 · 경제</span>
+                        <span>07.09 17:45</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card priority">
+                    <a href="https://www.mk.co.kr/news/economy/12094640" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">대출 풍선효과 차단하라 … 보험사도 주담대 조이기</a>
+                    <div class="card-meta">
+                        <span>매일경제-경제 · 경제</span>
+                        <span>07.09 17:34</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card priority">
+                    <a href="https://www.mk.co.kr/news/economy/12094616" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">[표] 외국환율고시표</a>
+                    <div class="card-meta">
+                        <span>매일경제-경제 · 경제</span>
+                        <span>07.09 17:24</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card priority">
+                    <a href="https://www.mk.co.kr/news/economy/12094614" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">암 치료 이력 있어도 가입가능 … 현대해상, 유병자 맞춤형 보험</a>
+                    <div class="card-meta">
+                        <span>매일경제-경제 · 경제</span>
+                        <span>07.09 17:24</span>
+                    </div>
+                    
+                </div>
+                <div id="기업/산업" class="section-title">기업/산업</div><div class="sector-subheading">📌 AI/로봇 (4)</div>
                     <div class="card priority">
                         <a href="https://www.yna.co.kr/view/AKR20260710152400030" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">농협상호금융, AI 로봇으로 농촌 고령층 금융 접근성 높인다</a>
                         <div class="card-meta">
@@ -2005,6 +2336,15 @@ ${shareText}`);
                         <div class="card-meta">
                             <span>전자신문 · 테크</span>
                             <span>07.10 15:02</span>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="card priority">
+                        <a href="https://www.etnews.com/20260710000005" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">메타, 첫 유료 AI 모델 출시…저커버그 “가격 매력적일 것”</a>
+                        <div class="card-meta">
+                            <span>전자신문 · 테크</span>
+                            <span>07.10 07:53</span>
                         </div>
                         
                     </div>
@@ -2161,7 +2501,7 @@ ${shareText}`);
                         </div>
                         
                     </div>
-                    <div class="sector-subheading">📌 건설 (2)</div>
+                    <div class="sector-subheading">📌 건설 (3)</div>
                     <div class="card priority">
                         <a href="https://www.yna.co.kr/view/AKR20260710146000003" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">호반건설, 한진칼 지분 20% 넘겨…조원태 회장과 0.42%p 차 (외 1건)</a>
                         <div class="card-meta">
@@ -2189,7 +2529,16 @@ ${shareText}`);
                         </details>
                         
                     </div>
-                    <div class="sector-subheading">📌 기타산업 (7)</div>
+                    
+                    <div class="card priority">
+                        <a href="https://www.mk.co.kr/news/realestate/12094437" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">IPARK현대산업개발, 美 글로벌 설계사 겐슬러와 광명 하안주공 6·7단지 랜드마크로 바꾼다</a>
+                        <div class="card-meta">
+                            <span>매일경제-부동산 · 부동산</span>
+                            <span>07.09 15:30</span>
+                        </div>
+                        
+                    </div>
+                    <div class="sector-subheading">📌 기타산업 (8)</div>
                     <div class="card priority">
                         <a href="https://www.yna.co.kr/view/AKR20260710134900053" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">상반기 대구 제조업 생산·수출↑…건설경기는 큰 폭 '위축'</a>
                         <div class="card-meta">
@@ -2249,6 +2598,15 @@ ${shareText}`);
                         <div class="card-meta">
                             <span>연합뉴스-산업 · 통신</span>
                             <span>07.10 15:18</span>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="card priority">
+                        <a href="https://realty.chosun.com/site/data/html_dir/2026/07/08/2026070802575.html" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">영업익 세계 1위 찍고도 왜? 삼성전자, LG 따라 모듈러 주택 도전장</a>
+                        <div class="card-meta">
+                            <span>땅집고-부동산 · 부동산</span>
+                            <span>07.09 06:00</span>
                         </div>
                         
                     </div>
@@ -2465,6 +2823,204 @@ ${shareText}`);
                     <div class="card-meta">
                         <span>매일경제-부동산 · 부동산</span>
                         <span>07.10 08:30</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card priority">
+                    <a href="https://www.mk.co.kr/news/realestate/12094660" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">17억이 31억된 공덕 재개발 … 지금도 로또일까</a>
+                    <div class="card-meta">
+                        <span>매일경제-부동산 · 부동산</span>
+                        <span>07.10 04:07</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card priority">
+                    <a href="https://realty.chosun.com/site/data/html_dir/2026/07/08/2026070802647.html" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">"목동 재건축은 내 성과" 양천 3선의원 해명에…"탈락 단지는 어쩔" 재반박</a>
+                    <div class="card-meta">
+                        <span>땅집고-부동산 · 부동산</span>
+                        <span>07.09 06:00</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card priority">
+                    <a href="https://realty.chosun.com/site/data/html_dir/2026/07/08/2026070802320.html" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">'2조 규모' 성수2지구, 시공자 선정 입찰공고…DL·현산 대결 관심</a>
+                    <div class="card-meta">
+                        <span>땅집고-부동산 · 부동산</span>
+                        <span>07.08 15:16</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card priority">
+                    <a href="https://www.mk.co.kr/news/realestate/12094683" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">반도체 산단 들어설 광주 군공항 … 14일부터 토지거래허가구역 지정</a>
+                    <div class="card-meta">
+                        <span>매일경제-부동산 · 부동산</span>
+                        <span>07.09 17:48</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card priority">
+                    <a href="https://www.mk.co.kr/news/realestate/12094680" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">신길뉴타운 옆동네도 천지개벽 … 신풍역에 7천가구</a>
+                    <div class="card-meta">
+                        <span>매일경제-부동산 · 부동산</span>
+                        <span>07.09 17:48</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card priority">
+                    <a href="https://www.mk.co.kr/news/realestate/12094678" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">전세난 내몰린 30대, 급매 뜨면 바로 '줍줍'</a>
+                    <div class="card-meta">
+                        <span>매일경제-부동산 · 부동산</span>
+                        <span>07.09 17:48</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card priority">
+                    <a href="https://www.mk.co.kr/news/realestate/12094641" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">59㎡도 12억인데 대출 3억뿐이라니 …"막차 타자" 은행 오픈런</a>
+                    <div class="card-meta">
+                        <span>매일경제-부동산 · 부동산</span>
+                        <span>07.09 17:34</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card priority">
+                    <a href="https://realty.chosun.com/site/data/html_dir/2026/07/09/2026070902898.html" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">"입주 반년 됐는데"…'평당 8000만원' 이문아이파크자이 상가 누수 논란</a>
+                    <div class="card-meta">
+                        <span>땅집고-부동산 · 부동산</span>
+                        <span>07.09 17:13</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card priority">
+                    <a href="https://realty.chosun.com/site/data/html_dir/2026/07/09/2026070902826.html" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">'파크로쉬 서울원' 정당계약 오늘까지…평균 경쟁률 5.8대 1 흥행</a>
+                    <div class="card-meta">
+                        <span>땅집고-부동산 · 부동산</span>
+                        <span>07.09 16:51</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card priority">
+                    <a href="https://realty.chosun.com/site/data/html_dir/2026/07/09/2026070902735.html" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">"정부 말 바꾸기에 청년들 피눈물"…뉴홈 당첨자들 국회 기자회견</a>
+                    <div class="card-meta">
+                        <span>땅집고-부동산 · 부동산</span>
+                        <span>07.09 16:27</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card priority">
+                    <a href="https://realty.chosun.com/site/data/html_dir/2026/07/08/2026070803313.html" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">미분양 무덤의 반전 검단신도시…대장주 '호우금' 6년 만에 교체하나</a>
+                    <div class="card-meta">
+                        <span>땅집고-부동산 · 부동산</span>
+                        <span>07.09 06:00</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card priority">
+                    <a href="https://realty.chosun.com/site/data/html_dir/2026/07/08/2026070802765.html" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">63빌딩서 방 빼는 한화갤러리아…순화동 새사옥 매입</a>
+                    <div class="card-meta">
+                        <span>땅집고-부동산 · 부동산</span>
+                        <span>07.09 06:00</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card priority">
+                    <a href="https://realty.chosun.com/site/data/html_dir/2026/07/08/2026070803014.html" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">이성훈 LH 신임 사장, "서리풀지구 착공 1년 앞당겨 2028년에"</a>
+                    <div class="card-meta">
+                        <span>땅집고-부동산 · 부동산</span>
+                        <span>07.08 17:44</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card priority">
+                    <a href="https://realty.chosun.com/site/data/html_dir/2026/07/08/2026070802521.html" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">용인 동백지구 '동백리틀포레', 7월 오픈해 분양 돌입…'선시공-후분양' 방식</a>
+                    <div class="card-meta">
+                        <span>땅집고-부동산 · 부동산</span>
+                        <span>07.08 16:12</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card priority">
+                    <a href="https://realty.chosun.com/site/data/html_dir/2026/07/08/2026070802335.html" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">'추징금 130억 완납' 차은우가 5년전 선택한 청담 펜트하우스, 현재 가격은</a>
+                    <div class="card-meta">
+                        <span>땅집고-부동산 · 부동산</span>
+                        <span>07.08 15:22</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card priority">
+                    <a href="https://realty.chosun.com/site/data/html_dir/2026/07/08/2026070802162.html" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">동탄 국평 최초 20억, 2달 만에 돌연 계약 취소 "집값 띄우기 혹은…"</a>
+                    <div class="card-meta">
+                        <span>땅집고-부동산 · 부동산</span>
+                        <span>07.08 14:47</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card priority">
+                    <a href="https://realty.chosun.com/site/data/html_dir/2026/07/08/2026070800898.html" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">"깜깜이 사전청약 폐해, 서민에게 떠넘겨" 대출 삭제 두고 여당서도 비판</a>
+                    <div class="card-meta">
+                        <span>땅집고-부동산 · 부동산</span>
+                        <span>07.08 09:19</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card priority">
+                    <a href="https://realty.chosun.com/site/data/html_dir/2026/07/07/2026070702523.html" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">KB금융 차기 회장 양종희 연임 무게 속 부문장·은행장 6인 각축</a>
+                    <div class="card-meta">
+                        <span>땅집고-부동산 · 부동산</span>
+                        <span>07.08 06:00</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card priority">
+                    <a href="https://realty.chosun.com/site/data/html_dir/2026/07/07/2026070702889.html" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">내실 다졌지만 수주 곳간 '비상'… 재해 리스크 탈출 안간힘</a>
+                    <div class="card-meta">
+                        <span>땅집고-부동산 · 부동산</span>
+                        <span>07.08 06:00</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card priority">
+                    <a href="https://realty.chosun.com/site/data/html_dir/2026/07/07/2026070702254.html" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">"공실 어째" 비-김태희가 920억에 사들인 서초동 빌딩, 5년 지난 지금은</a>
+                    <div class="card-meta">
+                        <span>땅집고-부동산 · 부동산</span>
+                        <span>07.08 06:00</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card priority">
+                    <a href="https://realty.chosun.com/site/data/html_dir/2026/07/07/2026070702251.html" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">한때 전국 1위 아파트값 상승률 세종시 참사…수억원씩 뚝뚝, 왜?</a>
+                    <div class="card-meta">
+                        <span>땅집고-부동산 · 부동산</span>
+                        <span>07.08 06:00</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card priority">
+                    <a href="https://realty.chosun.com/site/data/html_dir/2026/07/07/2026070702751.html" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">LH사장 "집은 투기대상 아닌 공공재" 주택공급 확대할 비법은?</a>
+                    <div class="card-meta">
+                        <span>땅집고-부동산 · 부동산</span>
+                        <span>07.07 17:15</span>
                     </div>
                     
                 </div>
@@ -2720,86 +3276,24 @@ ${shareText}`);
                     </div>
                     
                 </div>
-                <div id="science" class="section-title">테크</div>
-                <a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxOeUQtZFRxc1dwSENjUVJaODhKVnFWV2xfU1c4MEUxMkFpNVZMb0pleXJha2F6LVl2WGs2WFdPWE1NMHIwSFZZWlpnZDJNYWp4bzYtdWtKNDdfM2RHaWkzYlZ3VFd4X2o4NjBUU0t6MWMxQ3ltZDV0ZXZpclVlZFA0dUdaWVRYd1cwNl95VldnYw?oc=5" class="card" target="_blank">
-                    <div class="card-title">사이언스타임즈/사용자메뉴/과학기술/생명과학·의학 - 사이언스타임즈</div>
-                    <div class="card-meta">
-                        <span>사이언스타임즈</span>
-                        <span>07.07 09:04</span>
-                    </div>
-                </a>
                 
-                <a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxQemFaTUc2SHhQa0pqY2dQVEFfMDVrbTFoR0dSaGVoLUxlTUxqUFlmR0VTT2t4OUxuZVJrUnpnYkl5bXJXTGlPSG9kR0RvYm5ic3c3WklmZzVVczVDQ2l1WW9KSVF2emJoN3dJX2ZZRFZjNTRWaHRtbVdEdUxoS1pRNXZkT1ppQXNRRThaLTBBdw?oc=5" class="card" target="_blank">
-                    <div class="card-title">"하루 몇분만 숨찬 운동 해도 치매·당뇨병 등 위험 크게 감소" - 사이언스타임즈</div>
+                <div class="card ">
+                    <a href="https://www.donga.com/news/Inter/article/all/20260710/134271613/1" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">이스라엘 국방 “대이란 공습 단행 준비 돼 있어”</a>
                     <div class="card-meta">
-                        <span>사이언스타임즈</span>
-                        <span>03.31 16:00</span>
+                        <span>동아일보-국제 · 언론</span>
+                        <span>07.10 06:12</span>
                     </div>
-                </a>
+                    
+                </div>
                 
-                <a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxQX2UyYzhWeTBKaEhLMEhHeGJjYWdLNG8wbFpyc2VFWVB4VmwxZU93aFFDOXZwMko0ZFdUeEE4RFhuT1IxWFlpanNmbHAzM2U3NlJ5TmVmSFVYVVVRSTlBNldYenlYOWpUS0FsYnQ5MlVEYml3V0oxcTV6cklXalBjVXo3ZVY5QlhsU3oyZHpwbw?oc=5" class="card" target="_blank">
-                    <div class="card-title">사이언스타임즈/사용자메뉴/과학문화/사타가 간다 - 사이언스타임즈</div>
+                <div class="card priority">
+                    <a href="https://realty.chosun.com/site/data/html_dir/2026/07/09/2026070902773.html" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">4천명 떼부자 만든 스페이스X IPO, 이 동네 집값 통째로 흔든다</a>
                     <div class="card-meta">
-                        <span>사이언스타임즈</span>
-                        <span>03.05 17:00</span>
+                        <span>땅집고-부동산 · 부동산</span>
+                        <span>07.10 06:00</span>
                     </div>
-                </a>
-                
-                <a href="https://news.google.com/rss/articles/CBMiWEFVX3lxTE5iRmJna1J5NFF4b2daNTZLcElBZUJTZWp5cEgyU0xLZTBEaVdzZ1E5N2loa2VVVHlEdmtpTzVTTXhIMHRjLTVYQ2lLTEo1OHAwUzZFMjFBRDM?oc=5" class="card" target="_blank">
-                    <div class="card-title">사이언스타임즈/사용자메뉴/과학기술/생명과학·의학 - 사이언스타임즈</div>
-                    <div class="card-meta">
-                        <span>사이언스타임즈</span>
-                        <span>08.19 16:00</span>
-                    </div>
-                </a>
-                
-                <a href="https://news.google.com/rss/articles/CBMiWEFVX3lxTE84U0hUaFRYNzA0M1hpc3RWZlE4SHNoSGNMNmpNY0lBWk5oT3oxMG8wdTRDOFRHUGZVeUVGMW54eXVMN1Fyb2lFS1lPMkhrU180SnQ1ejl2SWE?oc=5" class="card" target="_blank">
-                    <div class="card-title">아 스마트폰 그만해야하는데... - 사이언스타임즈</div>
-                    <div class="card-meta">
-                        <span>사이언스타임즈</span>
-                        <span>08.08 16:00</span>
-                    </div>
-                </a>
-                
-                <a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxON2VBT0k1Mmt2dnVEeTl5clFiWGFONG9TUXdXUDFHQVFtbWhNbGdyX1VhZFFCbWRJQ1VEdzJFX2g4aW9hU2VKbGkwQ0tybmRwNjB6MkVXek10RDJudHVJelNCTHFfV1RkcDB4TkFIY29hb1Bpd1VaWkVaMFExMlNmdTBoQk5EX1ktaHpfSkZTSQ?oc=5" class="card" target="_blank">
-                    <div class="card-title">추상화 앞에서 당신의 뇌는 어떻게 작동하는가? - 사이언스타임즈</div>
-                    <div class="card-meta">
-                        <span>사이언스타임즈</span>
-                        <span>04.30 16:00</span>
-                    </div>
-                </a>
-                
-                <a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxONUI0U2Fpc2hXZmN0LTBtelJoLXlPXy1NellRY0RLY2EzWnF2NzgzV05hYThhdmo0ekx2eXZ3TzBTLS1BV0hZamVnT2g1YWh1VE4wLXJrYUJhN3dLWVRQZHlfelBScmdPSFNNWVUyaTJZQWJwVElQQ2p6dW1UWWE4YUhLbm10cTQ0cTRTTWFFcw?oc=5" class="card" target="_blank">
-                    <div class="card-title">사이언스타임즈/사용자메뉴/과학기술/생명과학·의학 - 사이언스타임즈</div>
-                    <div class="card-meta">
-                        <span>사이언스타임즈</span>
-                        <span>12.09 17:00</span>
-                    </div>
-                </a>
-                
-                <a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE9WWHAtVU1abTR3ckVYcVhNVjN3UWNRanBaUWl3Y0EwOVpaY0Y3YThGdjVrcWUycnFRRnNDX2ZkNmlid2hUQ3p4VTVlVWhZeUtYVnc?oc=5" class="card" target="_blank">
-                    <div class="card-title">시험을 잘 보는 과학적인 방법 - 사이언스타임즈</div>
-                    <div class="card-meta">
-                        <span>사이언스타임즈</span>
-                        <span>11.07 17:00</span>
-                    </div>
-                </a>
-                
-                <a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE1YaFpFOWJWdHJIS2FPV2JXUm5yRXpiNWFMOUFPcS1fcnVrVHVTZS1HRjdZWE9Od2g3TVVRcFN6aU9oakVMN1hFS2dpZ2ZDM24zc3c?oc=5" class="card" target="_blank">
-                    <div class="card-title">‘벌들의 전쟁?’ 토종 꿀벌이 침입자 말벌에 대한 방어태세를 갖추기 시작하다 - 사이언스타임즈</div>
-                    <div class="card-meta">
-                        <span>사이언스타임즈</span>
-                        <span>12.08 17:00</span>
-                    </div>
-                </a>
-                
-                <a href="https://news.google.com/rss/articles/CBMi1gJBVV95cUxOZXh1NTE4U0dBSFRpcnBhdHJqWWpIVG9BX2xyQlpvTVVweW00c1lWVWF4aG1DS3BVd2tiYVZzZFIwbFR6TDM3bFRsNDNKX0dJNVFuZnA0ZjNUS2xlWkJUNndMM3VkWWRaYV9ZT1ZBdmE1NnRMUjA4cU9aVlBzZ3l6RUF6SE9IUmlSVXVJSU5sQVNfUXpWa29Oc3owV3NNYTR5WjgwUWR6azM3UnlaN1k4UXVYakFzaEEzakEwaUFDWlBYSDNEVFFhWnQyWHQzR3NxMDFDSVY5Qk96SWQwVVdNbXZVaFFEUkNxZGMxVEhCVHRKX2Nfb1BTZFczZXpwb1Jvd2hkYVkwYkstRnB6RDE3NGctYm1VbkhuNUIxOXZzeEZRNGFpZ052MldxV2lPc3phSUZ1YTlQbFNVenlWSHN4WWdwSkFZSUVZcWU0ejdiNXRVa0hyMEE?oc=5" class="card" target="_blank">
-                    <div class="card-title">노벨 생리·의학상, mRNA 코로나 백신을 만드는 데 큰 기여를 한 카탈린 카피코 그리고 드루 와이스먼 - 사이언스타임즈</div>
-                    <div class="card-meta">
-                        <span>사이언스타임즈</span>
-                        <span>10.04 16:00</span>
-                    </div>
-                </a>
+                    
+                </div>
                 
                 <footer>&copy; 2025 PREMIUM MORNING NEWS BOT</footer>
             </div>
