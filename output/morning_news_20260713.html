@@ -5,11 +5,11 @@
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Morning News 2026.07.13</title>
-            <link rel="manifest" href="manifest.json">
+            <link rel="manifest" href="../manifest.json">
             <script>
               // Service Worker Registration
               if ('serviceWorker' in navigator) {
-                navigator.serviceWorker.register('sw.js')
+                navigator.serviceWorker.register('../sw.js')
                   .then(registration => {
                     console.log('Service Worker registered:', registration);
                   })
@@ -169,7 +169,6 @@ ${shareText}`);
                   if (geminiLoadTimer) clearTimeout(geminiLoadTimer);
                   geminiLoadTimer = setTimeout(() => {
                       if (!geminiLoaded) {
-                          // Keep the hint visible but allow interaction if needed.
                           setGeminiLoading(false);
                       }
                   }, 15000);
@@ -1079,7 +1078,7 @@ ${shareText}`);
                         <button class="action-btn" onclick="shareMorningBriefing()">📤 오늘 브리핑 공유</button>
                     </div>
                 </header>
-        <div class="sticky-nav"><a href="archive.html" class="nav-pill">🗓️ 아카이브</a><a href="#인물별" class="nav-pill">👤 인물별 (5)</a><a href="#keywords" class="nav-pill">🔥 키워드 (10)</a><a href="#정치" class="nav-pill">정치 (12)</a><a href="#경제/거시" class="nav-pill">경제/거시 (33)</a><a href="#기업/산업" class="nav-pill">기업/산업 (44)</a><a href="#부동산" class="nav-pill">부동산 (14)</a><a href="#국제" class="nav-pill">국제 (24)</a><a href="#science" class="nav-pill">테크 (10)</a></div><div class="briefing-card"><div class="briefing-title">⚡ Morning Briefing</div>
+        <div class="sticky-nav"><a href="../archive.html" class="nav-pill">🗓️ 아카이브</a><a href="#인물별" class="nav-pill">👤 인물별 (5)</a><a href="#keywords" class="nav-pill">🔥 키워드 (10)</a><a href="#정치" class="nav-pill">정치 (12)</a><a href="#경제/거시" class="nav-pill">경제/거시 (33)</a><a href="#기업/산업" class="nav-pill">기업/산업 (44)</a><a href="#부동산" class="nav-pill">부동산 (14)</a><a href="#국제" class="nav-pill">국제 (24)</a><a href="#science" class="nav-pill">테크 (10)</a></div><div class="briefing-card"><div class="briefing-title">⚡ Morning Briefing</div>
                     <div class="briefing-item">
                         <span class="briefing-label">정치</span>
                         <span class="briefing-content">국민의힘은 오늘 의총에서 더불어민주당의 보완수사권 폐지 추진에 대응 방안을 논의한다. 여당 내에서는 당권주자들 사이 정청래 의원에 대한 집중포화가 이어지고 있으며, 통일부는 동해상 해군 함정 승조원 실종 사건과 관련해 북한에 수색 및 송환 협조를 요청했다. 국민 사이에는 경찰 수사 문제 발생 시 검찰 보완수사 필요성이 다수 제기되고 있다. 국힘 내에서는 안철수가 한동훈의 복당을 반대하며 당내 의견 충돌도 나타나고 있다.</span>
@@ -2691,11 +2690,7 @@ ${shareText}`);
             <div id="geminiOverlay" class="gemini-overlay" role="dialog" aria-modal="true" aria-label="Gemini Navigator">
                 <div class="gemini-overlay-header">
                     <div class="gemini-overlay-title">🔎 Gemini 네비게이터</div>
-                    <div class="gemini-overlay-actions">
-                        <button class="gemini-icon-btn" type="button" title="새로고침" onclick="reloadGeminiNavigator()">↻</button>
-                        <button class="gemini-icon-btn" type="button" title="새 창으로 열기" onclick="openGeminiInNewTab()">↗</button>
-                        <button class="gemini-icon-btn" type="button" title="닫기" onclick="closeGeminiNavigator()">✕</button>
-                    </div>
+                    <div class="gemini-overlay-actions"><button class="gemini-icon-btn" type="button" title="새로고침" onclick="reloadGeminiNavigator()">↻</button><button class="gemini-icon-btn" type="button" title="새 창으로 열기" onclick="openGeminiInNewTab()">↗</button><button class="gemini-icon-btn" type="button" title="닫기" onclick="closeGeminiNavigator()">✕</button></div>
                 </div>
                 <div class="gemini-overlay-body">
                     <div id="geminiLoading" class="gemini-overlay-loading">
