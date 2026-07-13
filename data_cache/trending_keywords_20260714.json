@@ -1,0 +1,420 @@
+{
+  "timestamp": "2026-07-14T06:02:08.843257",
+  "date": "20260714",
+  "data": [
+    {
+      "keyword": "금리인상",
+      "reason": "한국은행 금리 인상 신호",
+      "score": 19.81,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "한은 '금리 인상 신호' 나왔다 … 6월 의사록에 \"리스크 점검\"",
+        "증시·환율 출렁이는데 여유로운 한은…금리 인상 유력해도 더 봐야 할 것은 [동여의도 위클리]"
+      ],
+      "representative_article": {
+        "title": "한은 '금리 인상 신호' 나왔다 … 6월 의사록에 \"리스크 점검\"",
+        "link": "https://www.mk.co.kr/news/economy/12097487",
+        "source": "매일경제-경제",
+        "published_dt": "2026-07-13 17:53:05",
+        "match_score": 19.81
+      },
+      "related_articles": [
+        {
+          "title": "한은 '금리 인상 신호' 나왔다 … 6월 의사록에 \"리스크 점검\"",
+          "link": "https://www.mk.co.kr/news/economy/12097487",
+          "source": "매일경제-경제",
+          "published_dt": "2026-07-13 17:53:05",
+          "match_score": 19.81
+        },
+        {
+          "title": "증시·환율 출렁이는데 여유로운 한은…금리 인상 유력해도 더 봐야 할 것은 [동여의도 위클리]",
+          "link": "https://www.mk.co.kr/news/economy/12097538",
+          "source": "매일경제-경제",
+          "published_dt": "2026-07-13 18:09:06",
+          "match_score": 18.16
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재건축",
+      "reason": "분당·서울 등 재건축 속도",
+      "score": 39.3,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "3028가구 분당 파크타운 통합 재건축…특별정비계획 수립으로 '속도전'"
+      ],
+      "representative_article": {
+        "title": "3028가구 분당 파크타운 통합 재건축…특별정비계획 수립으로 '속도전'",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/07/13/2026071302464.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-07-13 17:35:14",
+        "match_score": 39.3
+      },
+      "related_articles": [
+        {
+          "title": "3028가구 분당 파크타운 통합 재건축…특별정비계획 수립으로 '속도전'",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/07/13/2026071302464.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-07-13 17:35:14",
+          "match_score": 39.3
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI기술",
+      "reason": "에너지, 주거 등 AI 활용 증가",
+      "score": 6.67,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "AI 안경으로 국가자격시험 부정행위…검찰, 약식기소"
+      ],
+      "representative_article": {
+        "title": "AI 안경으로 국가자격시험 부정행위…검찰, 약식기소",
+        "link": "https://www.yna.co.kr/view/AKR20260713164600054",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-07-13 22:01:04",
+        "match_score": 6.67
+      },
+      "related_articles": [
+        {
+          "title": "AI 안경으로 국가자격시험 부정행위…검찰, 약식기소",
+          "link": "https://www.yna.co.kr/view/AKR20260713164600054",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-07-13 22:01:04",
+          "match_score": 6.67
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "국제유",
+      "reason": "미-이란 긴장에 급등",
+      "score": 38.5,
+      "article_count": 5,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "[특징주] 국제유가 급등에 정유주 줄줄이 상승(종합)",
+        "[국제유가] 대이란 봉쇄 재개에 9% 폭등…브렌트유, 83.30달러 - 파이낸셜뉴스",
+        "트럼프 ‘호르무즈 안전비용 징수’ 발표에 국제 유가 5% 이상 급등"
+      ],
+      "representative_article": {
+        "title": "트럼프, 이란 해상봉쇄 재개…국제유가 9% 넘게 폭등",
+        "link": "https://www.donga.com/news/Inter/article/all/20260714/134292686/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-07-14 05:16:14",
+        "match_score": 38.5
+      },
+      "related_articles": [
+        {
+          "title": "트럼프, 이란 해상봉쇄 재개…국제유가 9% 넘게 폭등",
+          "link": "https://www.donga.com/news/Inter/article/all/20260714/134292686/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-14 05:16:14",
+          "match_score": 38.5
+        },
+        {
+          "title": "[특징주] 국제유가 급등에 정유주 줄줄이 상승(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260713034651008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-07-13 15:56:54",
+          "match_score": 37.97
+        },
+        {
+          "title": "[국제유가] 대이란 봉쇄 재개에 9% 폭등…브렌트유, 83.30달러 - 파이낸셜뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5pQXdXREJ6Zkkybm1DcHNTUzYxNjRNOWljcm8taTZxR21TdzlzUEdHcFN2N1AxcjROazVCX3l2YUg0QTZJX3d6alZLWGQyQzEyRWlrQmV0aERqQQ?oc=5",
+          "source": "키워드-에너지물가",
+          "published_dt": "2026-07-14 04:43:42",
+          "match_score": 36.16
+        },
+        {
+          "title": "국제유가, 美 대이란 재봉쇄에 급등…WTI 10% 가까이 수직상승(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260714004951072",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-07-14 04:25:50",
+          "match_score": 33.88
+        },
+        {
+          "title": "트럼프 ‘호르무즈 안전비용 징수’ 발표에 국제 유가 5% 이상 급등",
+          "link": "https://www.donga.com/news/Inter/article/all/20260714/134292676/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-14 04:20:54",
+          "match_score": 16.6
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "주가급락",
+      "reason": "SK하이닉스 등 증시 하락",
+      "score": 8.56,
+      "article_count": 3,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "반도체주 '우두둑'…SK하이닉스 15.4%·삼성전자 10.7% 폭락(종합2보)",
+        "[증시타임] SK하이닉스 40조 조달…AI 반도체 경쟁 본격화 - v.daum.net",
+        "SK하이닉스 ADR, 프리마켓서 9% 하락…본주 급락 여파"
+      ],
+      "representative_article": {
+        "title": "[증시타임] SK하이닉스 40조 조달…AI 반도체 경쟁 본격화 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE8yZnBQNmVtQUlhamx1OW85MnlDMHh5Y19kZTc3RUZ0SzRJd1dpQjNGWmZEZnBlSHUzTGxuTnNDRGxjQzdnSlZqcXNmcw?oc=5",
+        "source": "키워드-반도체AI",
+        "published_dt": "2026-07-13 10:21:38",
+        "match_score": 8.56
+      },
+      "related_articles": [
+        {
+          "title": "[증시타임] SK하이닉스 40조 조달…AI 반도체 경쟁 본격화 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE8yZnBQNmVtQUlhamx1OW85MnlDMHh5Y19kZTc3RUZ0SzRJd1dpQjNGWmZEZnBlSHUzTGxuTnNDRGxjQzdnSlZqcXNmcw?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-07-13 10:21:38",
+          "match_score": 8.56
+        },
+        {
+          "title": "반도체주 '우두둑'…SK하이닉스 15.4%·삼성전자 10.7% 폭락(종합2보)",
+          "link": "https://www.yna.co.kr/view/AKR20260713035052008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-07-13 16:01:56",
+          "match_score": 8.08
+        },
+        {
+          "title": "SK하이닉스 ADR, 프리마켓서 9% 하락…본주 급락 여파",
+          "link": "https://www.donga.com/news/Inter/article/all/20260714/134292679/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-14 04:21:57",
+          "match_score": 6.0
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "검찰개혁",
+      "reason": "형사소송법 개정안 논의",
+      "score": 5.97,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "與, 의총 열어 '檢보완수사권 폐지' 형소법 개정안 논의"
+      ],
+      "representative_article": {
+        "title": "與, 의총 열어 '檢보완수사권 폐지' 형소법 개정안 논의",
+        "link": "https://www.yna.co.kr/view/AKR20260713137000001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-07-14 05:00:04",
+        "match_score": 5.97
+      },
+      "related_articles": [
+        {
+          "title": "與, 의총 열어 '檢보완수사권 폐지' 형소법 개정안 논의",
+          "link": "https://www.yna.co.kr/view/AKR20260713137000001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-07-14 05:00:04",
+          "match_score": 5.97
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "부동산시장",
+      "reason": "고가 아파트 수요 유지",
+      "score": 6.09,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "서울 초고가 아파트 수요 탄탄 … 원베일리 67평 130억원 신고가"
+      ],
+      "representative_article": {
+        "title": "서울 초고가 아파트 수요 탄탄 … 원베일리 67평 130억원 신고가",
+        "link": "https://www.mk.co.kr/news/realestate/12097135",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-07-14 04:47:00",
+        "match_score": 6.09
+      },
+      "related_articles": [
+        {
+          "title": "서울 초고가 아파트 수요 탄탄 … 원베일리 67평 130억원 신고가",
+          "link": "https://www.mk.co.kr/news/realestate/12097135",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-07-14 04:47:00",
+          "match_score": 6.09
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI접근성",
+      "reason": "국제 AI 정책 이슈",
+      "score": 15.5,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "中 즈푸AI 창업자 “AI 접근성 제한 말아야”"
+      ],
+      "representative_article": {
+        "title": "中 즈푸AI 창업자 “AI 접근성 제한 말아야”",
+        "link": "https://www.donga.com/news/Economy/article/all/20260713/134290823/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-07-14 00:30:00",
+        "match_score": 15.5
+      },
+      "related_articles": [
+        {
+          "title": "中 즈푸AI 창업자 “AI 접근성 제한 말아야”",
+          "link": "https://www.donga.com/news/Economy/article/all/20260713/134290823/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-14 00:30:00",
+          "match_score": 15.5
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "서민경제",
+      "reason": "소득격차·3고 부담",
+      "score": 6.5,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "소득 격차 5년來 최대… 서민들 ‘3高’ 고통",
+        "소득 격차 5년來 최대… 서민들 ‘3高’ 고통"
+      ],
+      "representative_article": {
+        "title": "소득 격차 5년來 최대… 서민들 ‘3高’ 고통",
+        "link": "https://www.chosun.com/economy/economy_general/2026/07/14/YKZFD54UJJFHPEH5OHWGEYXQW4/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-07-14 00:30:00",
+        "match_score": 6.5
+      },
+      "related_articles": [
+        {
+          "title": "소득 격차 5년來 최대… 서민들 ‘3高’ 고통",
+          "link": "https://www.chosun.com/economy/economy_general/2026/07/14/YKZFD54UJJFHPEH5OHWGEYXQW4/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-07-14 00:30:00",
+          "match_score": 6.5
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 9,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "인공지능",
+      "score": 55.1,
+      "article_count": 15,
+      "source_count": 5,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "李 \"추가 세수로 미래 대응 … 3대 메가프로젝트에 집중 투자\"",
+        "[금융 라운지] 난관 부딪힌 은행 '수도권 데이터센터'",
+        "“과도한 쏠림, 사이클 정점 신호”…글로벌 큰손들, 삼전닉스서 발 뺀다"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "“미래 주거 표준 만들 것”…GS건설, LG전자와 ‘차세대 인공지능 홈’ 공동개발 맞손",
+        "link": "https://www.mk.co.kr/news/realestate/12096936",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-07-13 11:07:29",
+        "match_score": 28.49
+      },
+      "related_articles": [
+        {
+          "title": "“미래 주거 표준 만들 것”…GS건설, LG전자와 ‘차세대 인공지능 홈’ 공동개발 맞손",
+          "link": "https://www.mk.co.kr/news/realestate/12096936",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-07-13 11:07:29",
+          "match_score": 28.49
+        },
+        {
+          "title": "동서발전, AI 활용 에너지저장장치 구축지원 사업에 선정",
+          "link": "https://www.yna.co.kr/view/AKR20260713149700057",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-07-13 17:56:46",
+          "match_score": 11.68
+        },
+        {
+          "title": "AI 안경으로 국가자격시험 부정행위…검찰, 약식기소",
+          "link": "https://www.yna.co.kr/view/AKR20260713164600054",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-07-13 22:01:04",
+          "match_score": 11.68
+        },
+        {
+          "title": "무료 AI 시대 연다…정부 '모두의 AI' 프로젝트 본격화(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260713108901017",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-07-13 16:55:04",
+          "match_score": 11.68
+        },
+        {
+          "title": "李 \"추가 세수로 미래 대응 … 3대 메가프로젝트에 집중 투자\"",
+          "link": "https://www.mk.co.kr/news/economy/12097468",
+          "source": "매일경제-경제",
+          "published_dt": "2026-07-13 17:49:52",
+          "match_score": 11.66
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "timestamp": "2026-07-14T06:01:52.674744",
+  "date": "20260714",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "李대통령 \"정치역량이 흥망 결정…정치권, 더 잘하기 경쟁해야\"",
+          "link": "https://www.yna.co.kr/view/AKR20260713142600001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-07-13 17:51:39",
+          "description": "(서울=연합뉴스) 설승은 황윤기 기자 = 이재명 대통령은 13일 &quot;대체 불가 대한민국을 만들 엄청난 기회가 주어져 있다&quot;며 &quot;저를 포함한 정치권...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "deduped_sources": [
+            {
+              "source": "연합뉴스-경제",
+              "title": "李대통령 \"정치역량이 흥망 결정…정치권, 더 잘하기 경쟁해야\"",
+              "link": "https://www.yna.co.kr/view/AKR20260713142600001"
+            }
+          ],
+          "priority_score": 3,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, 17일 시민들 靑 초청…'빛의 위원회' 출범 기념행사",
+          "link": "https://www.yna.co.kr/view/AKR20260713141500001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-07-13 17:01:48",
+          "description": "(서울=연합뉴스) 임형섭 기자 = 이재명 대통령은 17일 청와대에서 &apos;빛의 위원회&apos; 출범을 기념하는 시민 초청 행사를 갖는다고 청와대가 13일 ...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "정청래, 당대표 출마선언…\"대선출마 안해, 李대통령 지킬 것\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260713101351001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-07-13 15:21:53",
+          "description": "(서울=연합뉴스) 박경준 최주성 기자 = 더불어민주당 정청래 전 대표는 13일 국회에서 민주당 당 대표 경선 출마를 선언하고 &quot;지금까지 그래왔듯...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李 \"추가 세수로 미래 대응 … 3대 메가프로젝트에 집중 투자\"",
+          "link": "https://www.mk.co.kr/news/economy/12097468",
+          "source": "매일경제-경제",
+          "published_dt": "2026-07-13 17:49:52",
+          "description": "정부가 내년도 100조원에 가까운 역대급 추가세수를 활용해 '3대 메가프로젝트'를 육성하고 청년 고용에 활력을 불어넣기로 했다. 반도체에 이어 인공지능(AI) 데이터센터와 피지컬 ..",
+          "category": "domestic",
+          "feed_url": "https://www.mk.co.kr/rss/30100041/",
+          "source_type": "economy",
+          "source_weight": 1.2,
+          "source_badge": "경제",
+          "priority_score": 2,
+          "related_full_sources": []
+        },
+        {
+          "title": "李 \"추가 세수로 미래 대응 … 3대 메가프로젝트에 집중 투자\"",
+          "link": "https://www.mk.co.kr/news/economy/12097468",
+          "source": "매일경제-경제",
+          "published_dt": "2026-07-13 17:49:52",
+          "description": "정부가 내년도 100조원에 가까운 역대급 추가세수를 활용해 '3대 메가프로젝트'를 육성하고 청년 고용에 활력을 불어넣기로 했다. 반도체에 이어 인공지능(AI) 데이터센터와 피지컬 ..",
+          "category": "domestic",
+          "feed_url": "https://www.mk.co.kr/rss/30100041/",
+          "source_type": "economy",
+          "source_weight": 1.2,
+          "source_badge": "경제",
+          "priority_score": 2,
+          "sector": "AI/로봇",
+          "related_full_sources": []
+        }
+      ],
+      "count": 5,
+      "role": "한국 대통령"
+    },
+    "트럼프": {
+      "articles": [
+        {
+          "title": "트럼프 ‘호르무즈 안전비용 징수’ 발표에 국제 유가 5% 이상 급등",
+          "link": "https://www.donga.com/news/Inter/article/all/20260714/134292676/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-14 04:20:54",
+          "description": "도널드 트럼프 미국 대통령이 이란에 대한 해상 봉쇄를 재개하고 안전한 통항 보장을 대가로 호르무즈 해협을 통과하는 화물가액의 20%를 ‘안전 비용’ 명목으로 부과하겠다고 발표하자 13일(현지시간) 국제 유가가 5% 이상 상승했다.로이터통신에 따르면 미 동부시간 기준으로 이날 오후 12시 44분(한국시간 14일 오전 1시 44분) 브렌트유 선물은 배럴당 4.06달러(5.34%) 상승한 80.07달러, 미국 서부텍사스원유(WTI)는 배럴당 3.74달러(5.24%) 오른 75.15달러를 기록했다.에너지 시장 자문업체인 ‘겔버 앤 어소시에이츠’ 분석가들은 보고서에서 “트럼프 대통령이 이란 해상 교통에 대한 제한 조치를 재개한 데다 보복 공격이 이어지고, 호르무즈 해협을 통과하는 선박 통행량이 급감하면서 단기적인 공급 가용성에 대한 우려가 고조되고 있다”고 설명했다.앞서 트럼프 대통령은 이날 트루스소셜에 “호르무즈 해협은 이란의 참여 여부와 관계없이 계속 개방될 것”이라며 “우리는 ‘",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "[속보] 트럼프 “13~14일 이란 강하게 칠 것…MOU는 테스트였다”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260714/134292691/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-14 05:25:54",
+          "description": "[속보] 트럼프 “13~14일 이란 강하게 칠 것…MOU는 테스트였다”",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "“트럼프, 16일 대국민 연설서 외국의 2020년 대선 개입 다룰 예정”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260714/134292689/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-14 05:18:26",
+          "description": "도널드 트럼프 미국 대통령이 오는 16일 대국민 연설에서 지난 2020년 미국 대선에 외국 세력이 개입하려 했다는 정보 보고서를 언급할 예정인 것으로 알려졌다.미국의 진보 성향 케이블 뉴스 채널인 MS NOW의 제이크 테일러 기자는 13일(현지시간) 엑스(X)에서 두 명의 백악관 관계자를 인용해 트럼프 대통령이 16일 연설에서 “2020년 대선에 개입하려는 외국 세력의 계획을 드러낸다고 백악관이 주장하는 최근 기밀 해제된 정보 보고서에 대해 언급할 예정”이라고 전했다.트럼프 대통령은 자신이 조 바이든 전 대통령에게 패배한 2020년 대선이 부정 선거였다는 주장을 고수해 왔다.이와 관련해 지난 2021년 미국 국가정보국(DNI)은 러시아와 이란이 2020년 대선에 개입했다고 보고서를 통해 밝힌 바 있다. 보고서에서 DNI는 러시아가 트럼프 대통령의 재선을 돕기 위해 바이든 대통령에 대한 허위 정보를 퍼뜨린 반면, 이란은 재선을 막으려 했다고 전했다.앞서 이날 트럼프 대통령은",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프, 이란 해상봉쇄 재개…국제유가 9% 넘게 폭등",
+          "link": "https://www.donga.com/news/Inter/article/all/20260714/134292686/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-14 05:16:14",
+          "description": "도널드 트럼프 미국 대통령이 이란 선박에 대한 해상봉쇄를 재개한다고 발표하면서 국제유가가 9% 넘게 폭등했다.13일(현지시간) 브렌트유 선물은 전 거래일보다 9.6% 급등한 배럴당 83.30달러, 미국 서부텍사스산원유(WTI) 선물은 9.4% 오른 78.14달러를 기록했다.유가는 트럼프 대통령이 미국이 이란에 대한 해상봉쇄를 다시 시행한다고 발표한 직후 급등했다.트럼프 대통령은 자신의 소셜미디어를 통해 “이란 선박과 이란의 고객만 출입을 막는 ‘이란 봉쇄(Iranian Blockade)’를 재개한다”며 “다른 모든 국가는 호르무즈 해협을 공정하고 자유롭게 이용할 수 있을 것”이라고 밝혔다.그는 이어 미국이 호르무즈 해협의 항행 안전을 보장하겠지만, 그 대가로 모든 화물 운송액의 20%에 해당하는 비용을 보상받아야 한다고 주장했다.이번 조치는 주말 동안 미국과 이란이 호르무즈 해협 통제권을 둘러싸고 다시 공습을 주고받은 가운데 나왔다.미 중부사령부(CENTCOM)는 이란",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": [
+            {
+              "source": "키워드-에너지물가",
+              "title": "트럼프, 이란 해상봉쇄 재개…국제유가 9% 넘게 폭등 - 뉴스1",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5FOTROTDEzRDlFcmZUMTVZbjRrbHlQSmhRckVHcnEzRHZNZWhodk1wZTh1TUE5TXNpQ1ZTWnEtWXlMS3Y4ckpRZXZHa3hDdGdxV21NdXlxZ3RiWlhteFZhVmlvNjc1YUU?oc=5"
+            }
+          ]
+        }
+      ],
+      "count": 4,
+      "role": "미국 대통령"
+    }
+  }
+}
