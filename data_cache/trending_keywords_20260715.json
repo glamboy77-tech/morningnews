@@ -1,0 +1,377 @@
+{
+  "timestamp": "2026-07-15T06:01:55.302989",
+  "date": "20260715",
+  "data": [
+    {
+      "keyword": "수출강국",
+      "reason": "수출 5대 강국 목표 집중",
+      "score": 8.97,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "정치"
+      ],
+      "sample_titles": [
+        "韓총리 \"수출 5대 강국 목표에 집중…'모두의 수출' 위해 노력\""
+      ],
+      "representative_article": {
+        "title": "韓총리 \"수출 5대 강국 목표에 집중…'모두의 수출' 위해 노력\"",
+        "link": "https://www.yna.co.kr/view/AKR20260714164600001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-07-14 18:26:12",
+        "match_score": 8.97
+      },
+      "related_articles": [
+        {
+          "title": "韓총리 \"수출 5대 강국 목표에 집중…'모두의 수출' 위해 노력\"",
+          "link": "https://www.yna.co.kr/view/AKR20260714164600001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-07-14 18:26:12",
+          "match_score": 8.97
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "최저임금",
+      "reason": "내년 시간당 1만700원 인상",
+      "score": 43.08,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "내년 최저임금 시간당 1만700원…올해보다 3.7% 인상(종합2보)"
+      ],
+      "representative_article": {
+        "title": "내년 최저임금 시간당 1만700원…올해보다 3.7% 인상(종합2보)",
+        "link": "https://www.yna.co.kr/view/AKR20260714185552530",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-07-15 00:53:51",
+        "match_score": 43.08
+      },
+      "related_articles": [
+        {
+          "title": "내년 최저임금 시간당 1만700원…올해보다 3.7% 인상(종합2보)",
+          "link": "https://www.yna.co.kr/view/AKR20260714185552530",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-07-15 00:53:51",
+          "match_score": 43.08
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI기술",
+      "reason": "오픈AI GPT-5.6 출시와 AI 데이터센터 지원",
+      "score": 9.1,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "오픈AI '코덱스' 활성 사용자 700만 돌파...'GPT-5.6' 출시 효과 톡톡"
+      ],
+      "representative_article": {
+        "title": "오픈AI '코덱스' 활성 사용자 700만 돌파...'GPT-5.6' 출시 효과 톡톡",
+        "link": "https://www.aitimes.com/news/articleView.html?idxno=212728",
+        "source": "AI타임스",
+        "published_dt": "2026-07-15 04:31:17",
+        "match_score": 9.1
+      },
+      "related_articles": [
+        {
+          "title": "오픈AI '코덱스' 활성 사용자 700만 돌파...'GPT-5.6' 출시 효과 톡톡",
+          "link": "https://www.aitimes.com/news/articleView.html?idxno=212728",
+          "source": "AI타임스",
+          "published_dt": "2026-07-15 04:31:17",
+          "match_score": 9.1
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "국회갈등",
+      "reason": "재검표 및 특검 추천 이견 지속",
+      "score": 6.27,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "여야, 국회 정상화 협상 또 불발…특검 추천·상임위 배분 이견"
+      ],
+      "representative_article": {
+        "title": "여야, 국회 정상화 협상 또 불발…특검 추천·상임위 배분 이견",
+        "link": "https://www.yna.co.kr/view/AKR20260714144600001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-07-14 16:31:13",
+        "match_score": 6.27
+      },
+      "related_articles": [
+        {
+          "title": "여야, 국회 정상화 협상 또 불발…특검 추천·상임위 배분 이견",
+          "link": "https://www.yna.co.kr/view/AKR20260714144600001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-07-14 16:31:13",
+          "match_score": 6.27
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "해킹피해",
+      "reason": "티빙 해킹으로 가입자 피해 우려",
+      "score": 7.47,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "티빙 해킹, 제휴 가입자까지 털렸다…피해 확산 우려"
+      ],
+      "representative_article": {
+        "title": "티빙 해킹, 제휴 가입자까지 털렸다…피해 확산 우려",
+        "link": "https://www.yna.co.kr/view/AKR20260714141400017",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-07-14 16:19:00",
+        "match_score": 7.47
+      },
+      "related_articles": [
+        {
+          "title": "티빙 해킹, 제휴 가입자까지 털렸다…피해 확산 우려",
+          "link": "https://www.yna.co.kr/view/AKR20260714141400017",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-07-14 16:19:00",
+          "match_score": 7.47
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "부동산분양",
+      "reason": "분양 및 공공주택지구 보상 착수",
+      "score": 7.9,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "“계획보다 4개월 앞당겨”…LH, 광명시흥 공공주택지구 보상 착수",
+        "LH, 광명시흥 공공주택지구 보상 착수…“2027년 말 착공 목표”"
+      ],
+      "representative_article": {
+        "title": "“계획보다 4개월 앞당겨”…LH, 광명시흥 공공주택지구 보상 착수",
+        "link": "https://www.mk.co.kr/news/realestate/12098061",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-07-14 12:10:36",
+        "match_score": 7.9
+      },
+      "related_articles": [
+        {
+          "title": "“계획보다 4개월 앞당겨”…LH, 광명시흥 공공주택지구 보상 착수",
+          "link": "https://www.mk.co.kr/news/realestate/12098061",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-07-14 12:10:36",
+          "match_score": 7.9
+        },
+        {
+          "title": "LH, 광명시흥 공공주택지구 보상 착수…“2027년 말 착공 목표”",
+          "link": "https://www.mk.co.kr/news/realestate/12097958",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-07-14 10:28:20",
+          "match_score": 7.9
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "외국인투자",
+      "reason": "국내 주식 대규모 매도 발생",
+      "score": 6.9,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "외국인, 6월 국내 주식 323억달러 '역대 최대' 매도…상반기만 170조 탈한국"
+      ],
+      "representative_article": {
+        "title": "외국인, 6월 국내 주식 323억달러 '역대 최대' 매도…상반기만 170조 탈한국",
+        "link": "https://www.etnews.com/20260714000391",
+        "source": "전자신문",
+        "published_dt": "2026-07-14 15:19:42",
+        "match_score": 6.9
+      },
+      "related_articles": [
+        {
+          "title": "외국인, 6월 국내 주식 323억달러 '역대 최대' 매도…상반기만 170조 탈한국",
+          "link": "https://www.etnews.com/20260714000391",
+          "source": "전자신문",
+          "published_dt": "2026-07-14 15:19:42",
+          "match_score": 6.9
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "국제긴장",
+      "reason": "호르무즈 봉쇄 가능성 및 미중 외교 문제",
+      "score": 6.5,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "위태로운 휴전… 트럼프 “호르무즈 다시 봉쇄”"
+      ],
+      "representative_article": {
+        "title": "위태로운 휴전… 트럼프 “호르무즈 다시 봉쇄”",
+        "link": "https://www.donga.com/news/Inter/article/all/20260715/134300360/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-07-15 04:30:00",
+        "match_score": 6.5
+      },
+      "related_articles": [
+        {
+          "title": "위태로운 휴전… 트럼프 “호르무즈 다시 봉쇄”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260715/134300360/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-15 04:30:00",
+          "match_score": 6.5
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "청소년SNS규제",
+      "reason": "EU 청소년 SNS 사용 제한법 준비",
+      "score": 14.3,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "EU, 청소년 SNS 제한법 곧 공개…‘3~12세 감독아래 사용’ 유력",
+        "호주 “18~24세 男, SNS 성착취 협박 최대 피해…플랫폼 대응 미흡”"
+      ],
+      "representative_article": {
+        "title": "EU, 청소년 SNS 제한법 곧 공개…‘3~12세 감독아래 사용’ 유력",
+        "link": "https://www.donga.com/news/Inter/article/all/20260714/134295771/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-07-14 15:15:00",
+        "match_score": 14.3
+      },
+      "related_articles": [
+        {
+          "title": "EU, 청소년 SNS 제한법 곧 공개…‘3~12세 감독아래 사용’ 유력",
+          "link": "https://www.donga.com/news/Inter/article/all/20260714/134295771/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-14 15:15:00",
+          "match_score": 14.3
+        },
+        {
+          "title": "호주 “18~24세 男, SNS 성착취 협박 최대 피해…플랫폼 대응 미흡”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260714/134294847/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-14 11:37:54",
+          "match_score": 8.3
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 9,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "반도체",
+      "score": 58.8,
+      "article_count": 12,
+      "source_count": 6,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "비명이 비명 불렀다…골드만 “레버리지 ETF 기계적 매도가 낙폭 키워”",
+        "정부 “‘3·4·5’ 비전 통해 올해 경제성장률 3%”…반년 만에 1%P 상향 [하반기 경제성장전략]",
+        "엔비디아 AI칩 中 우회 공급 차단…구매기업 '화이트리스트' 도입"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "호남권 반도체 산단 용수공급 속도전…기후부, 2030년 공급기반 구축 추진",
+        "link": "https://www.etnews.com/20260714000336",
+        "source": "전자신문",
+        "published_dt": "2026-07-14 14:24:56",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "호남권 반도체 산단 용수공급 속도전…기후부, 2030년 공급기반 구축 추진",
+          "link": "https://www.etnews.com/20260714000336",
+          "source": "전자신문",
+          "published_dt": "2026-07-14 14:24:56",
+          "match_score": 37.49
+        },
+        {
+          "title": "‘반도체→외교→부동산’ 숨가쁜 국정 드라이브…李 지지율 반등 이어갈까",
+          "link": "https://www.mk.co.kr/news/realestate/12097939",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-07-14 10:17:00",
+          "match_score": 37.49
+        },
+        {
+          "title": "반도체株 약세속 애플 주가는 사상 최고…‘저위험 안전자산’ 재평가",
+          "link": "https://www.donga.com/news/Economy/article/all/20260714/134294344/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-14 11:18:00",
+          "match_score": 37.3
+        },
+        {
+          "title": "미국 AI 반도체주 하루 만에 반등…SK하이닉스 ADR 27%↑ - 뉴스1",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE55VGNvMWo3YkJrQjZ5VjlzMzd2MDNLWEYwdFJOaGJNWHdvTHNmd2VOWlNGRnRfOFRrYjVHVk9TdEJSaFlJdTYxT19PYWpHamxkTUwwLUdGN1VyT3k5QzdGS3RKQVF1YUE?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-07-15 05:37:23",
+          "match_score": 36.96
+        },
+        {
+          "title": "AI 반도체 일제 매도…SK하이닉스 미국 상장이 부른 ‘수입된 변동성’ - AI 매터스",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5WRWdNS3FtRFJ5SGoyYmNVb01lMzRlRmhGcHo1Snl2YndVbmRGWURFT2ttOF9DcnJYbjBHRWNQMWFTRnhtY3d0enlGd3NUME5yc21IWQ?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-07-14 17:27:21",
+          "match_score": 36.96
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}

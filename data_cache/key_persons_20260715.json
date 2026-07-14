@@ -1,0 +1,195 @@
+{
+  "timestamp": "2026-07-15T06:01:34.604059",
+  "date": "20260715",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "李대통령, 오늘부터 국민참여형 업무보고…국정성과 점검",
+          "link": "https://www.yna.co.kr/view/AKR20260714163100001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-07-15 05:00:00",
+          "description": "(서울=연합뉴스) 황윤기 기자 = 이재명 대통령은 15일 취임 후 두 번째로 부처별 업무보고를 받는다.",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 \"난 이제 집 없다\"…분당 아파트 매도 완료 임박",
+          "link": "https://www.yna.co.kr/view/AKR20260714158300001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-07-14 17:27:42",
+          "description": "(서울=연합뉴스) 임형섭 기자 = 이재명 대통령이 부인 김혜경 여사와 공동 보유한 경기도 성남시 분당구 아파트의 매도가 곧 완료될 것으로 14일...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "deduped_sources": [
+            {
+              "source": "연합뉴스-경제",
+              "title": "李대통령 \"난 이제 집 없다\"…분당 아파트 매도 완료 임박",
+              "link": "https://www.yna.co.kr/view/AKR20260714158300001"
+            }
+          ],
+          "priority_score": 3,
+          "pol_subcategory": "지방/행정",
+          "is_representative": true,
+          "related_full_sources": [
+            {
+              "source": "조선일보-정치",
+              "title": "李대통령 “난 이제 집 없다”... 분당아파트 팔렸다",
+              "link": "https://www.chosun.com/politics/politics_general/2026/07/14/J7AEUWLGZZG7BEBIFEOORWV5JM/"
+            }
+          ]
+        },
+        {
+          "title": "李대통령, 카타르 前군주 서거에 조전 발송…강훈식 특사파견(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260714026451001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-07-14 14:16:39",
+          "description": "(서울=연합뉴스) 황윤기 기자 = 이재명 대통령은 셰이크 하마드 빈 할리파 알사니 전 카타르 군주(에미르)의 서거 소식에 14일 조전을 발송하고...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "오세훈 “부동산 한 말씀만”… 李대통령 “그 얘기는 나중에”",
+          "link": "https://www.chosun.com/politics/politics_general/2026/07/14/7RWBLPXPCVF4NHJJFVSDN3GVHE/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-07-14 11:27:56",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "지방/행정",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 “잠재성장률 3%·무역 4강·국민소득 5만불 도약 원년”",
+          "link": "https://www.chosun.com/politics/blue_house/2026/07/14/HG3H2O2F5BAUBE5TDN2UKVANJU/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-07-14 11:12:56",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "“나는 이제 집이 없다”…이 대통령 분당 아파트 5개월만에 팔려",
+          "link": "https://www.mk.co.kr/news/realestate/12098379",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-07-14 16:53:52",
+          "description": "이재명 대통령이 지난 2월 매물로 내놓은 경기 성남시 분당구의 아파트가 매각 절차 완료를 앞둔 것으로 알려졌다. 청와대 관계자는 14일 이 대통령과 김혜경 여사가 보유한 분당 아파..",
+          "category": "domestic",
+          "feed_url": "https://www.mk.co.kr/rss/50300009/",
+          "source_type": "realestate",
+          "source_weight": 1.15,
+          "source_badge": "부동산",
+          "priority_score": 1,
+          "related_full_sources": []
+        },
+        {
+          "title": "초고가 기준 놓고 이 대통령 “20억 하면 큰일 나…30억도 가혹한듯”",
+          "link": "https://www.mk.co.kr/news/realestate/12098080",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-07-14 13:26:16",
+          "description": "이재명 대통령이 14일 “부동산 세제로 집값을 눌러보겠다는 것은 아니고 정상화가 1차 목표”라고 말했다. 이 대통령은 이날 오전 청와대에서 열린 제30회 국무회의에서 “두번째 (목..",
+          "category": "domestic",
+          "feed_url": "https://www.mk.co.kr/rss/50300009/",
+          "source_type": "realestate",
+          "source_weight": 1.15,
+          "source_badge": "부동산",
+          "priority_score": 1,
+          "related_full_sources": []
+        }
+      ],
+      "count": 7,
+      "role": "한국 대통령"
+    },
+    "트럼프": {
+      "articles": [
+        {
+          "title": "위태로운 휴전… 트럼프 “호르무즈 다시 봉쇄”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260715/134300360/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-15 04:30:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/07/15/134300611.1.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령이 중동의 핵심 원유 수송로인 호르무즈 해협에서 이란을 겨냥한 해상 봉쇄를 전격 재개한다고 13일(현지 시간) 밝혔다. 중동 지역을 관할하는 미군 중부사령부는 이날까지 사흘 연속 이란에 대규모 공습을 진행했다. 뉴욕타임스(NYT)는 트럼프 대통령이 이란에 대한 군사행동이 7일 재개됐다는 내용이 담긴 서한을 지난주 미 의회에 공식 발송했다며 “양측이 합의했던 휴전은 사실상 깨졌고, 다시 공개적인 무력 충돌 국면으로 돌아가고 있다”고 진단했다. 트럼프 대통령은 13일 트루스소셜을 통해 “이란 봉쇄를 재개한다”며 “미국은 지금부터 ‘호르무즈 해협의 수호자(GUARDIAN)’로 알려질 것”이라고 밝혔다. 같은 날 보수 성향 라디오 진행자 휴 휴잇과의 인터뷰에선 이란과 체결한 종전을 위한 양해각서(MOU)가 이란을 “시험하기 위해 만든 것(built to test)”이라고 했다. MOU가 지속 가능한 평화와 협상을 위한 합의라기보다는 이란의 진정성을 떠보기 위한 장",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "별세한 그레이엄 美상원 잔여임기, 여동생이 맡는다…트럼프 추천",
+          "link": "https://www.donga.com/news/Inter/article/all/20260714/134296609/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-14 16:14:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/07/14/134297061.1.jpg\" vspace=\"10\" />11일(현지 시간) 심장마비로 숨진 린지 그레이엄 미국 공화당 상원의원의 내년 1월까지 잔여 임기를 그의 여동생이 맡게 됐다.13일 헨리 맥마스터 미 사우스캐롤라이나 주지시는 기자 회견을 열고 그레이엄 의원의 잔여 임기를 채울 임시 의원으로 고인의 여동생인 노돈이 지명했다고 밝혔다. 사우스캐롤라이나의 첫 여성 상원의원이다. 사우스 캐롤라이나 주법은 연방의원 궐위 시 주지사가 후임을 지명하도록 규정하고 있다. 폴리티코 등에 따르면 맥마스터 주지사는 그레이엄 상원 의원의 부고가 전해진 12일 오전 10시경 노돈에게 전화를 걸어 임시 의원 지명 수락을 제안했다. 노돈 지명은 도널드 트럼프 미 대통령의 추천으로 어느 정도 예상됐다. 트럼프 대통령은 기자회견이 열리기 몇시간 전 트루스소셜에 “나는 맥매스터 주지사에게 린지 그레이엄의 훌륭한 여동생을 사우스캐롤라이나주의 임시 상원의원으로 추천했다. 이는 그녀를 깊이 사랑한 린지에게 바치는 멋진 헌사가 될 것”이라고 적었다. 노돈은 이날 회견에서",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "국세청 압박해 세금혜택 받은 트럼프…美법원 “부적절” 제동",
+          "link": "https://www.donga.com/news/Inter/article/all/20260714/134295106/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-14 15:17:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/07/14/134296410.1.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령이 미 국세청을 상대로 제기한 소송과 합의 결과에 대해 연방법원이 “정부로부터 개인적인 이득을 취득하기 위해 사법 시스템 조작을 시도했다”며 이례적으로 강하게 비판했다.13일 뉴욕타임스(NYT)와 월스트리트저널(WSJ) 등에 따르면 미국 마이애미 연방법원의 캐슬린 윌리엄스 판사는 트럼프 대통령이 올 1월 국세청을 상대로 제기한 소송에 대해 “부적절한 사익 추구 행위”라며 “그로 인해 받은 이례적인 세금 감면 혜택이 합법적 합의의 일부라고 주장하는 것을 금지한다”고 판결했다. 또 트럼프 대통령과 법무부, 국세청에게 “앞으로 사법, 행정, 규제 등 그 어떤 공식 절차에서도 이 합의서 내용을 증거로 제출하거나 인용할 수 없다”고 명령했다.앞서 트럼프 대통령은 집권 1기 재임 시절 수년간 소득세를 내지 않았다는 사실이 보도돼 정치적으로 큰 타격을 입었다. 이에 트럼프 대통령은 “국세청이 보안 관리를 못해 개인정보가 유출됐으니 정부가 책임져야 한다”며 국세청을 상",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "룰라 “해적과 싸우던 美, 이제 해적이 되려 해” 트럼프 통행료 비판",
+          "link": "https://www.donga.com/news/Inter/article/all/20260714/134294332/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-14 11:04:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/07/14/134294513.1.jpg\" vspace=\"10\" />루이스 이나시우 룰라 다 시우바 브라질 대통령은 13일(현지시간) 도널드 트럼프 미국 대통령의 호르무즈 해협 통행료 부과 방침에 대해 “이런 행위는 해적 행위“라고 비판했다. 유엔 산하 국제해사기구(IMO) 역시 ”단호히 반대한다“고 밝혔다.로이터 등 외신에 따르면 룰라 대통령은 이날 상파울루에서 열린 공개 행사에서 “트럼프 대통령이 호르무즈 해협을 열겠다고 트윗했다”며 “하지만 해협을 통과하도록 허용되는 모든 선박에 대해 원유 소유주는 20%를 지불하도록 했다”고 지적했다.앞서 트럼프 대통령은 이날 트루스소셜을 통해 호르무즈해협을 통과하는 화물에 20%를 ‘안전 비용’ 명목으로 부과하겠다고 밝혔다. 일부 매체는 초대형 유조선 기준으로 그 비용이 척당 약 450억 원에 이를 것이라고 분석했다. 이에 룰라 대통령은 ”과거엔 이런 행위를 해적 행위로 여겼다“며 ”미국처럼 오랫동안 해적 행위와 싸워온 강대국이 이제는 해적이 되어선 안 된다“고 강조했다. 또 이 같은 분쟁으로 브라질에",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 4,
+      "role": "미국 대통령"
+    }
+  }
+}
