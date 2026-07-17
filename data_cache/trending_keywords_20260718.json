@@ -1,0 +1,417 @@
+{
+  "timestamp": "2026-07-18T06:01:55.085252",
+  "date": "20260718",
+  "data": [
+    {
+      "keyword": "보완수사권",
+      "reason": "정치권 공개토론과 여론조사",
+      "score": 41.67,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "이건태-한동훈, '檢보완수사권 폐지냐 존치냐' 공개 토론 성사",
+        "보완수사권 유지 61%·폐지 23%…韓 복당 찬성 28%·반대 37%[한국갤럽]"
+      ],
+      "representative_article": {
+        "title": "이건태-한동훈, '檢보완수사권 폐지냐 존치냐' 공개 토론 성사",
+        "link": "https://www.yna.co.kr/view/AKR20260717037900001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-07-17 14:48:42",
+        "match_score": 41.67
+      },
+      "related_articles": [
+        {
+          "title": "이건태-한동훈, '檢보완수사권 폐지냐 존치냐' 공개 토론 성사",
+          "link": "https://www.yna.co.kr/view/AKR20260717037900001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-07-17 14:48:42",
+          "match_score": 41.67
+        },
+        {
+          "title": "보완수사권 유지 61%·폐지 23%…韓 복당 찬성 28%·반대 37%[한국갤럽]",
+          "link": "https://www.yna.co.kr/view/AKR20260717027400001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-07-17 10:44:16",
+          "match_score": 39.77
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "금리인상",
+      "reason": "고령층 타격·주담대 금리증가",
+      "score": 31.51,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "금리인상 후폭풍 … 고령층부터 타격"
+      ],
+      "representative_article": {
+        "title": "금리인상 후폭풍 … 고령층부터 타격",
+        "link": "https://www.mk.co.kr/news/economy/12101110",
+        "source": "매일경제-경제",
+        "published_dt": "2026-07-17 17:50:29",
+        "match_score": 31.51
+      },
+      "related_articles": [
+        {
+          "title": "금리인상 후폭풍 … 고령층부터 타격",
+          "link": "https://www.mk.co.kr/news/economy/12101110",
+          "source": "매일경제-경제",
+          "published_dt": "2026-07-17 17:50:29",
+          "match_score": 31.51
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI혁신",
+      "reason": "기업 투자와 기술 경쟁 확산",
+      "score": 3.88,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "[유럽 혁신현장] ② 룩셈부르크, 한국의 유럽 진출 교두보로 뜬다"
+      ],
+      "representative_article": {
+        "title": "[유럽 혁신현장] ② 룩셈부르크, 한국의 유럽 진출 교두보로 뜬다",
+        "link": "https://www.yna.co.kr/view/AKR20260717005500017",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-07-17 11:00:06",
+        "match_score": 3.88
+      },
+      "related_articles": [
+        {
+          "title": "[유럽 혁신현장] ② 룩셈부르크, 한국의 유럽 진출 교두보로 뜬다",
+          "link": "https://www.yna.co.kr/view/AKR20260717005500017",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-07-17 11:00:06",
+          "match_score": 3.88
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재건축",
+      "reason": "용산역·한강변 개발 가속",
+      "score": 41.61,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "'용산역+한강변'…재건축·재개발 속도낸다 - 한국경제"
+      ],
+      "representative_article": {
+        "title": "'용산역+한강변'…재건축·재개발 속도낸다 - 한국경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE93ek96SEtYTWdDUU9RTVhYTkxDZS1OVlBVVFN0NWllby1odGgycTBxcFllbDY4cU1yZHhFV1JqRGVQa1pWYjVYaEdpaXhHNnUtOEFKSjF6VFdXdw?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-07-17 16:50:54",
+        "match_score": 41.61
+      },
+      "related_articles": [
+        {
+          "title": "'용산역+한강변'…재건축·재개발 속도낸다 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE93ek96SEtYTWdDUU9RTVhYTkxDZS1OVlBVVFN0NWllby1odGgycTBxcFllbDY4cU1yZHhFV1JqRGVQa1pWYjVYaEdpaXhHNnUtOEFKSjF6VFdXdw?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-07-17 16:50:54",
+          "match_score": 41.61
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "호르무즈해협",
+      "reason": "미국과 이란 간 군사 긴장",
+      "score": 39.1,
+      "article_count": 3,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "미군 “호르무즈 해협 상선 추적용 이란 감시탑 성공적 파괴”",
+        "美, 공항-철도 등 이란 비군사시설도 공격…공습 범위 확대",
+        "美, 이란 본토로 공습 확대…‘봉쇄’ 호르무즈해협서는 13척만 통과"
+      ],
+      "representative_article": {
+        "title": "美, 이란 본토로 공습 확대…‘봉쇄’ 호르무즈해협서는 13척만 통과",
+        "link": "https://www.donga.com/news/Inter/article/all/20260717/134315929/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-07-17 08:38:27",
+        "match_score": 39.1
+      },
+      "related_articles": [
+        {
+          "title": "美, 이란 본토로 공습 확대…‘봉쇄’ 호르무즈해협서는 13척만 통과",
+          "link": "https://www.donga.com/news/Inter/article/all/20260717/134315929/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-17 08:38:27",
+          "match_score": 39.1
+        },
+        {
+          "title": "미군 “호르무즈 해협 상선 추적용 이란 감시탑 성공적 파괴”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260718/134319630/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-18 02:55:34",
+          "match_score": 19.5
+        },
+        {
+          "title": "美, 공항-철도 등 이란 비군사시설도 공격…공습 범위 확대",
+          "link": "https://www.donga.com/news/Inter/article/all/20260717/134317304/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-17 16:01:00",
+          "match_score": 9.0
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "메모리수요",
+      "reason": "SK하이닉스 실적 기대",
+      "score": 23.35,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "최태원 “SK하이닉스株 우상향, 샀다 팔았다 말고 갖고 있어라” - 동아일보",
+        "최태원 회장 “AI 시대 메모리 수요 확대…SK하이닉스 주식 그냥 갖고 있으라” - 소비자가 만드는 신문"
+      ],
+      "representative_article": {
+        "title": "최태원 회장 “AI 시대 메모리 수요 확대…SK하이닉스 주식 그냥 갖고 있으라” - 소비자가 만드는 신문",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5xaUsxQi13ZWdrNURQcEJMV1cyUEMteVdNMl92aTJMc1lobUVQSDVGbS0zVmJiMEpUV09RMk5ndklxMGJGTE01RHJyWE82NG9sVzZXNWtkZHV4WHd1ZG5xdml6UTNPN1dzN1JqTW43cUNGclE?oc=5",
+        "source": "키워드-반도체AI",
+        "published_dt": "2026-07-17 11:40:39",
+        "match_score": 23.35
+      },
+      "related_articles": [
+        {
+          "title": "최태원 회장 “AI 시대 메모리 수요 확대…SK하이닉스 주식 그냥 갖고 있으라” - 소비자가 만드는 신문",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5xaUsxQi13ZWdrNURQcEJMV1cyUEMteVdNMl92aTJMc1lobUVQSDVGbS0zVmJiMEpUV09RMk5ndklxMGJGTE01RHJyWE82NG9sVzZXNWtkZHV4WHd1ZG5xdml6UTNPN1dzN1JqTW43cUNGclE?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-07-17 11:40:39",
+          "match_score": 23.35
+        },
+        {
+          "title": "최태원 “SK하이닉스株 우상향, 샀다 팔았다 말고 갖고 있어라” - 동아일보",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBWeDhKdDQxUElEUl9zZDF5THRlVTFQbE9KUXdTRFFzSnc4emg2ZEg2TDEtZ2JoY1NDNUlVdDN2b3BJb3o5OVY1RWtlcHhJVld2SnBNV0o2RjBLLWF4dF9FVnhKcXhLMGxGNzZlTXdsUUNva1J2MnfSAWZBVV95cUxPeDYxdWFDVzFaY184eGtRYWJ6a3RYaV95Q3NWRVZ2ZGdpRnBzY2tfT0Rvc0lzT2Q3UnJxQnBobkxCejJ0REh6MXhkYmFIQW56SGFocG1qcG9aVU84QktZeFVUUENjcXc?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-07-18 01:40:00",
+          "match_score": 7.36
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "국제협의체",
+      "reason": "한국 중견국 가입 확대",
+      "score": 35.06,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "한국, 중견국 16개 국제협의체 신규 가입"
+      ],
+      "representative_article": {
+        "title": "한국, 중견국 16개 국제협의체 신규 가입",
+        "link": "https://www.mk.co.kr/news/economy/12101073",
+        "source": "매일경제-경제",
+        "published_dt": "2026-07-17 17:32:25",
+        "match_score": 35.06
+      },
+      "related_articles": [
+        {
+          "title": "한국, 중견국 16개 국제협의체 신규 가입",
+          "link": "https://www.mk.co.kr/news/economy/12101073",
+          "source": "매일경제-경제",
+          "published_dt": "2026-07-17 17:32:25",
+          "match_score": 35.06
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "강진",
+      "reason": "멕시코 규모 7.4 지진 발생",
+      "score": 40.3,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "멕시코 남부 해안서 규모 7.4 강진…쓰나미 위협 경고"
+      ],
+      "representative_article": {
+        "title": "멕시코 남부 해안서 규모 7.4 강진…쓰나미 위협 경고",
+        "link": "https://www.donga.com/news/Inter/article/all/20260718/134319581/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-07-18 01:24:12",
+        "match_score": 40.3
+      },
+      "related_articles": [
+        {
+          "title": "멕시코 남부 해안서 규모 7.4 강진…쓰나미 위협 경고",
+          "link": "https://www.donga.com/news/Inter/article/all/20260718/134319581/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-18 01:24:12",
+          "match_score": 40.3
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "더불어민주당",
+      "score": 27.5,
+      "article_count": 8,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "與전대에 대표 5명·최고위원 14명 후보등록…21일 컷오프",
+        "이건태-한동훈, '檢보완수사권 폐지냐 존치냐' 공개 토론 성사",
+        "김민석, DJ·盧 묘역 참배…\"집권당다운 집권당 만들 것\""
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "더불어민주당 충북도당, 장천배 증평군의장 제명 수순",
+        "link": "https://www.yna.co.kr/view/AKR20260717033100064",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-07-17 12:49:47",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "더불어민주당 충북도당, 장천배 증평군의장 제명 수순",
+          "link": "https://www.yna.co.kr/view/AKR20260717033100064",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-07-17 12:49:47",
+          "match_score": 37.67
+        },
+        {
+          "title": "與전대에 대표 5명·최고위원 14명 후보등록…21일 컷오프",
+          "link": "https://www.yna.co.kr/view/AKR20260717055200001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-07-17 19:58:56",
+          "match_score": 12.68
+        },
+        {
+          "title": "이건태-한동훈, '檢보완수사권 폐지냐 존치냐' 공개 토론 성사",
+          "link": "https://www.yna.co.kr/view/AKR20260717037900001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-07-17 14:48:42",
+          "match_score": 12.68
+        },
+        {
+          "title": "與최고위, 송영길·김용에 '후보자격 예외' 인정…출마 허용(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260717022452001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-07-17 10:55:17",
+          "match_score": 12.68
+        },
+        {
+          "title": "보완수사권 유지 61%·폐지 23%…韓 복당 찬성 28%·반대 37%[한국갤럽]",
+          "link": "https://www.yna.co.kr/view/AKR20260717027400001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-07-17 10:44:16",
+          "match_score": 12.68
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "이란",
+      "score": 27.9,
+      "article_count": 6,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "미군 “호르무즈 해협 상선 추적용 이란 감시탑 성공적 파괴”",
+        "트럼프, 연설서 또 ‘부정선거’ 꺼내… 美 주요 방송사 생중계 거부",
+        "美해병대, 오만만서 유조선 승선 검문"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "미군 “호르무즈 해협 상선 추적용 이란 감시탑 성공적 파괴”",
+        "link": "https://www.donga.com/news/Inter/article/all/20260718/134319630/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-07-18 02:55:34",
+        "match_score": 37.3
+      },
+      "related_articles": [
+        {
+          "title": "미군 “호르무즈 해협 상선 추적용 이란 감시탑 성공적 파괴”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260718/134319630/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-18 02:55:34",
+          "match_score": 37.3
+        },
+        {
+          "title": "美, 공항-철도 등 이란 비군사시설도 공격…공습 범위 확대",
+          "link": "https://www.donga.com/news/Inter/article/all/20260717/134317304/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-17 16:01:00",
+          "match_score": 37.3
+        },
+        {
+          "title": "트럼프, “이란이 미국민 석방”발표에 이란사법부 “석방없었다”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260717/134315949/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-17 08:48:09",
+          "match_score": 37.3
+        },
+        {
+          "title": "美, 이란 본토로 공습 확대…‘봉쇄’ 호르무즈해협서는 13척만 통과",
+          "link": "https://www.donga.com/news/Inter/article/all/20260717/134315929/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-17 08:38:27",
+          "match_score": 37.3
+        },
+        {
+          "title": "트럼프, 연설서 또 ‘부정선거’ 꺼내… 美 주요 방송사 생중계 거부",
+          "link": "https://www.donga.com/news/Inter/article/all/20260717/134319194/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-18 01:40:00",
+          "match_score": 11.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
