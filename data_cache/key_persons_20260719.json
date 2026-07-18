@@ -1,0 +1,57 @@
+{
+  "timestamp": "2026-07-19T06:01:23.770426",
+  "date": "20260719",
+  "data": {
+    "시진핑": {
+      "articles": [
+        {
+          "title": "[팩트체크] 세 번 출산한 판다, 중국 반환 안 해도 된다?…\"사실무근\"",
+          "link": "https://www.yna.co.kr/view/AKR20260716087600518",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-07-18 08:30:00",
+          "description": "(서울=연합뉴스) 권혜진 기자 = 지난달 3일 경기 용인 에버랜드에서 자이언트 판다 아이바오가 새끼를 낳으면서 온라인에서는 &apos;반환 면제설&apos;이 돌...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "지방/행정",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "[바이오사이언스] 중국 바이오와 손잡는 K바이오…약일까 독일까",
+          "link": "https://www.yna.co.kr/view/AKR20260717049700017",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-07-18 11:20:00",
+          "description": "(서울=연합뉴스) 박상현 기자 = 풍부한 인적·물적 자원을 활용해 바이오산업을 육성하고 있는 중국과 손잡는 한국 제약·바이오 업체가 늘고 있다.",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/industry.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "sector": "바이오/제약",
+          "related_full_sources": []
+        },
+        {
+          "title": "“화장품·밥솥 쓸어담더니 이젠 집”…中부자들 몰리는 日부동산",
+          "link": "https://www.donga.com/news/Inter/article/all/20260716/134294951/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-18 10:00:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/07/16/134294865.3.jpg\" vspace=\"10\" />한때 일본에서 전기밥솥과 화장품을 대량 구매하던 중국인들의 소비 패턴이 일본 부동산 투자로 옮겨가고 있다는 분석이 나왔다. 중국 부동산 경기 침체와 최장 70년 토지 사용권 제도, 엔화 약세, 외국인의 부동산 취득 제한이 거의 없는 일본의 제도가 맞물리며 중국 부유층의 일본 부동산 투자 수요가 확대되고 있다는 내용이다. 일본 경제매체 도요게이자이는 일본 부동산이 사실상 &apos;바겐세일&apos; 상태라며 이러한 추세가 이어질 것으로 전망했다.",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "중국 국가주석"
+    }
+  }
+}

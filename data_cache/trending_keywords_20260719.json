@@ -1,0 +1,343 @@
+{
+  "timestamp": "2026-07-19T06:01:45.277835",
+  "date": "20260719",
+  "data": [
+    {
+      "keyword": "기준금리 인상",
+      "reason": "금융시장과 가계 영향",
+      "score": 43.11,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "0.25%p 기준금리 인상 가계 이자 부담 1.8조↑…취약 차주 관리 '비상' - 글로벌이코노믹",
+        "[비즈토크] 긴축 들어간 한국은행…기준금리 인상 영향은 - 경제 | 기사 - 더팩트"
+      ],
+      "representative_article": {
+        "title": "0.25%p 기준금리 인상 가계 이자 부담 1.8조↑…취약 차주 관리 '비상' - 글로벌이코노믹",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOT0J1M3VrZnpjTHNBWTdPcEhCajRrNjEyRExRVElMYTFNMGVMejhacXFPUjh4cGwyamhPN1YxeVZGZ0VTTGZPTXpLR0pGemhkUVRvX0NoaDlDd2NqYWhnNU5CYlBhc3l1elhmS2tndHNYakpWTjZET3JxaVdZeVkxcmJiWQ?oc=5",
+        "source": "키워드-금리환율코스피",
+        "published_dt": "2026-07-19 05:00:00",
+        "match_score": 43.11
+      },
+      "related_articles": [
+        {
+          "title": "0.25%p 기준금리 인상 가계 이자 부담 1.8조↑…취약 차주 관리 '비상' - 글로벌이코노믹",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOT0J1M3VrZnpjTHNBWTdPcEhCajRrNjEyRExRVElMYTFNMGVMejhacXFPUjh4cGwyamhPN1YxeVZGZ0VTTGZPTXpLR0pGemhkUVRvX0NoaDlDd2NqYWhnNU5CYlBhc3l1elhmS2tndHNYakpWTjZET3JxaVdZeVkxcmJiWQ?oc=5",
+          "source": "키워드-금리환율코스피",
+          "published_dt": "2026-07-19 05:00:00",
+          "match_score": 43.11
+        },
+        {
+          "title": "[비즈토크] 긴축 들어간 한국은행…기준금리 인상 영향은 - 경제 | 기사 - 더팩트",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE03ank1RnBqMkJEaE5LckNFSUQwcEgtSTZVakRIYzI5c1hYdUVjdlhQdUl3S0pld1Fqb21wdVJuSU9qYjZYeGhtM1BmWnRaNVJJZk41LWIzaFZ1dw?oc=5",
+          "source": "키워드-금리환율코스피",
+          "published_dt": "2026-07-19 00:03:01",
+          "match_score": 43.11
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "쿠팡 물류센터 화재",
+      "reason": "대형 화재와 진압 진행",
+      "score": 20.07,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "기업/산업",
+        "정치"
+      ],
+      "sample_titles": [
+        "李대통령 \"쿠팡 물류창고 화재 진압에 총력…소방대 안전 철저\"(종합)",
+        "인천 쿠팡물류센터 화재, 밤샘 진화에도 불길 안 잡혀"
+      ],
+      "representative_article": {
+        "title": "인천 쿠팡물류센터 화재, 밤샘 진화에도 불길 안 잡혀",
+        "link": "https://www.yna.co.kr/view/AKR20260719003400065",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-07-19 04:26:51",
+        "match_score": 20.07
+      },
+      "related_articles": [
+        {
+          "title": "인천 쿠팡물류센터 화재, 밤샘 진화에도 불길 안 잡혀",
+          "link": "https://www.yna.co.kr/view/AKR20260719003400065",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-07-19 04:26:51",
+          "match_score": 20.07
+        },
+        {
+          "title": "李대통령 \"쿠팡 물류창고 화재 진압에 총력…소방대 안전 철저\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260718039751001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-07-18 17:44:08",
+          "match_score": 8.68
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "보스턴다이내믹스",
+      "reason": "투자와 지분 확대",
+      "score": 38.88,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "정의선, 보스턴다이내믹스 지분 25%로…사재 1천200억 추가투입"
+      ],
+      "representative_article": {
+        "title": "정의선, 보스턴다이내믹스 지분 25%로…사재 1천200억 추가투입",
+        "link": "https://www.yna.co.kr/view/AKR20260718038700003",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-07-19 05:55:01",
+        "match_score": 38.88
+      },
+      "related_articles": [
+        {
+          "title": "정의선, 보스턴다이내믹스 지분 25%로…사재 1천200억 추가투입",
+          "link": "https://www.yna.co.kr/view/AKR20260718038700003",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-07-19 05:55:01",
+          "match_score": 38.88
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "충북 화장품",
+      "reason": "대규모 수출계약",
+      "score": 34.23,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "충북 화장품기업 10개사, 미국 박람회서 156억원 수출계약"
+      ],
+      "representative_article": {
+        "title": "충북 화장품기업 10개사, 미국 박람회서 156억원 수출계약",
+        "link": "https://www.yna.co.kr/view/AKR20260716189000064",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-07-18 09:00:07",
+        "match_score": 34.23
+      },
+      "related_articles": [
+        {
+          "title": "충북 화장품기업 10개사, 미국 박람회서 156억원 수출계약",
+          "link": "https://www.yna.co.kr/view/AKR20260716189000064",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-07-18 09:00:07",
+          "match_score": 34.23
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "에볼라 유행",
+      "reason": "보건 위기 경고",
+      "score": 15.2,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "사상 최대 유행 경고 에볼라, 대응 약물 개발까지 최소 6개월"
+      ],
+      "representative_article": {
+        "title": "사상 최대 유행 경고 에볼라, 대응 약물 개발까지 최소 6개월",
+        "link": "https://www.donga.com/news/Inter/article/all/20260718/134319803/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-07-18 08:55:00",
+        "match_score": 15.2
+      },
+      "related_articles": [
+        {
+          "title": "사상 최대 유행 경고 에볼라, 대응 약물 개발까지 최소 6개월",
+          "link": "https://www.donga.com/news/Inter/article/all/20260718/134319803/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-18 08:55:00",
+          "match_score": 15.2
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "한국은행",
+      "reason": "기준금리 정책",
+      "score": 40.71,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "[비즈토크] 긴축 들어간 한국은행…기준금리 인상 영향은 - 경제 | 기사 - 더팩트"
+      ],
+      "representative_article": {
+        "title": "[비즈토크] 긴축 들어간 한국은행…기준금리 인상 영향은 - 경제 | 기사 - 더팩트",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE03ank1RnBqMkJEaE5LckNFSUQwcEgtSTZVakRIYzI5c1hYdUVjdlhQdUl3S0pld1Fqb21wdVJuSU9qYjZYeGhtM1BmWnRaNVJJZk41LWIzaFZ1dw?oc=5",
+        "source": "키워드-금리환율코스피",
+        "published_dt": "2026-07-19 00:03:01",
+        "match_score": 40.71
+      },
+      "related_articles": [
+        {
+          "title": "[비즈토크] 긴축 들어간 한국은행…기준금리 인상 영향은 - 경제 | 기사 - 더팩트",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE03ank1RnBqMkJEaE5LckNFSUQwcEgtSTZVakRIYzI5c1hYdUVjdlhQdUl3S0pld1Fqb21wdVJuSU9qYjZYeGhtM1BmWnRaNVJJZk41LWIzaFZ1dw?oc=5",
+          "source": "키워드-금리환율코스피",
+          "published_dt": "2026-07-19 00:03:01",
+          "match_score": 40.71
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재개발 재건축",
+      "reason": "부동산 시장 관심",
+      "score": 22.6,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "재개발·재건축 조합, 시공사에 끌려다니지 않으려면[똑똑한부동산] - edaily.co.kr"
+      ],
+      "representative_article": {
+        "title": "재개발·재건축 조합, 시공사에 끌려다니지 않으려면[똑똑한부동산] - edaily.co.kr",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPaWZQbWt3RlUwNk1zQjktTDc3c2RsU3FWOXJ2RmhTLW54ZHpseFFGMFB1U1dnWnJOR0xyem9sZGFzTXdKMGtXZlpMQ1NtbzdfcVo0bzJfcER3Mmt3NGp5endXdEYyY2VadVhhWFBnQmhmLTZWN043ODkxUmE3WjlmSw?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-07-18 11:00:04",
+        "match_score": 22.6
+      },
+      "related_articles": [
+        {
+          "title": "재개발·재건축 조합, 시공사에 끌려다니지 않으려면[똑똑한부동산] - edaily.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPaWZQbWt3RlUwNk1zQjktTDc3c2RsU3FWOXJ2RmhTLW54ZHpseFFGMFB1U1dnWnJOR0xyem9sZGFzTXdKMGtXZlpMQ1NtbzdfcVo0bzJfcER3Mmt3NGp5endXdEYyY2VadVhhWFBnQmhmLTZWN043ODkxUmE3WjlmSw?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-07-18 11:00:04",
+          "match_score": 22.6
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "이란 MOU 중단",
+      "reason": "국제 외교 갈등",
+      "score": 10.7,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "이란 외무차관 “美, MOU 완전히 저버려…우리도 의무이행 중단”"
+      ],
+      "representative_article": {
+        "title": "이란 외무차관 “美, MOU 완전히 저버려…우리도 의무이행 중단”",
+        "link": "https://www.donga.com/news/Inter/article/all/20260718/134320357/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-07-18 22:26:44",
+        "match_score": 10.7
+      },
+      "related_articles": [
+        {
+          "title": "이란 외무차관 “美, MOU 완전히 저버려…우리도 의무이행 중단”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260718/134320357/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-18 22:26:44",
+          "match_score": 10.7
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "코스닥 상장",
+      "reason": "기업 공개 및 성장",
+      "score": 4.03,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "하정우 \"AI로 고용 감소…초과 세수 청년성장에 투자해야\""
+      ],
+      "representative_article": {
+        "title": "하정우 \"AI로 고용 감소…초과 세수 청년성장에 투자해야\"",
+        "link": "https://www.yna.co.kr/view/AKR20260718028800003",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-07-18 12:23:16",
+        "match_score": 4.03
+      },
+      "related_articles": [
+        {
+          "title": "하정우 \"AI로 고용 감소…초과 세수 청년성장에 투자해야\"",
+          "link": "https://www.yna.co.kr/view/AKR20260718028800003",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-07-18 12:23:16",
+          "match_score": 4.03
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 9,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "원화 절상",
+      "reason": "환율 변동 주요 이슈",
+      "score": 40.38,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "이달 원화 절상률 주요국 1위…원/엔 1년8개월 만에 최저"
+      ],
+      "representative_article": {
+        "title": "이달 원화 절상률 주요국 1위…원/엔 1년8개월 만에 최저",
+        "link": "https://www.yna.co.kr/view/AKR20260718018300002",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-07-19 05:51:00",
+        "match_score": 40.38
+      },
+      "related_articles": [
+        {
+          "title": "이달 원화 절상률 주요국 1위…원/엔 1년8개월 만에 최저",
+          "link": "https://www.yna.co.kr/view/AKR20260718018300002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-07-19 05:51:00",
+          "match_score": 40.38
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 10,
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
