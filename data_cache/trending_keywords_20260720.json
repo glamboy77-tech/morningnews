@@ -1,0 +1,424 @@
+{
+  "timestamp": "2026-07-20T06:01:34.733799",
+  "date": "20260720",
+  "data": [
+    {
+      "keyword": "중동 긴장",
+      "reason": "중동 사태 악화, 군사 충돌과 긴장 고조",
+      "score": 33.27,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "외교2차관 \"중동 긴장 고조…단기체류자 조속히 출국 권고\""
+      ],
+      "representative_article": {
+        "title": "외교2차관 \"중동 긴장 고조…단기체류자 조속히 출국 권고\"",
+        "link": "https://www.yna.co.kr/view/AKR20260719054000504",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-07-19 19:30:31",
+        "match_score": 33.27
+      },
+      "related_articles": [
+        {
+          "title": "외교2차관 \"중동 긴장 고조…단기체류자 조속히 출국 권고\"",
+          "link": "https://www.yna.co.kr/view/AKR20260719054000504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-07-19 19:30:31",
+          "match_score": 33.27
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "반도체",
+      "reason": "교역조건 개선, 산업 중심 이슈",
+      "score": 40.83,
+      "article_count": 5,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "한은 \"반도체發 교역조건 개선, 내수 파급효과 과거보다 클 것\"(종합)",
+        "한은 \"반도체發 교역조건 개선, 내수 파급효과 과거보다 클 것\"",
+        "충남, 반도체·디스플레이 등 중소 제조 AX 지원 시동…공정 데이터 자산화·표준화 지원"
+      ],
+      "representative_article": {
+        "title": "한은 \"반도체發 교역조건 개선, 내수 파급효과 과거보다 클 것\"(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260716190951002",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-07-19 19:15:58",
+        "match_score": 40.83
+      },
+      "related_articles": [
+        {
+          "title": "한은 \"반도체發 교역조건 개선, 내수 파급효과 과거보다 클 것\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260716190951002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-07-19 19:15:58",
+          "match_score": 40.83
+        },
+        {
+          "title": "한은 \"반도체發 교역조건 개선, 내수 파급효과 과거보다 클 것\"",
+          "link": "https://www.yna.co.kr/view/AKR20260716190900002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-07-19 12:00:06",
+          "match_score": 40.83
+        },
+        {
+          "title": "충남, 반도체·디스플레이 등 중소 제조 AX 지원 시동…공정 데이터 자산화·표준화 지원",
+          "link": "https://www.etnews.com/20260716000293",
+          "source": "전자신문",
+          "published_dt": "2026-07-19 09:00:00",
+          "match_score": 37.79
+        },
+        {
+          "title": "“GPT-4 넘어섰다”…中 가성비 ‘키미 K3’에 AI-반도체업계 발칵",
+          "link": "https://www.donga.com/news/Economy/article/all/20260719/134321653/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-19 13:50:00",
+          "match_score": 35.6
+        },
+        {
+          "title": "최신 AI칩 없이도 고성능… 中 AI ‘키미 K3’, 美 아성 위협",
+          "link": "https://www.donga.com/news/Economy/article/all/20260719/134323796/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-20 00:30:00",
+          "match_score": 9.6
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "금융시장",
+      "reason": "대출 여력 소진, 금리 상승, 금융규제 변화",
+      "score": 6.75,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "은행권 대출 여력 소진…주담대 금리 7.5% 육박 - v.daum.net"
+      ],
+      "representative_article": {
+        "title": "은행권 대출 여력 소진…주담대 금리 7.5% 육박 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1xQTN3MElTODFlbW9kQjV0QWpkNENvRUVHemxpYVNEZXd4Wks5NWd4YmhpTnZUa3AwWGI2N2ZkazNlTE03VEZrV3VaT0R6d2c?oc=5",
+        "source": "키워드-금리환율코스피",
+        "published_dt": "2026-07-20 05:27:31",
+        "match_score": 6.75
+      },
+      "related_articles": [
+        {
+          "title": "은행권 대출 여력 소진…주담대 금리 7.5% 육박 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1xQTN3MElTODFlbW9kQjV0QWpkNENvRUVHemxpYVNEZXd4Wks5NWd4YmhpTnZUa3AwWGI2N2ZkazNlTE03VEZrV3VaT0R6d2c?oc=5",
+          "source": "키워드-금리환율코스피",
+          "published_dt": "2026-07-20 05:27:31",
+          "match_score": 6.75
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI 기술",
+      "reason": "삼성전자 신제품, 중국 AI칩 경쟁",
+      "score": 6.39,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "삼성전자, 프리미엄 ‘폴드8 울트라'·AI 안경 출격 준비"
+      ],
+      "representative_article": {
+        "title": "삼성전자, 프리미엄 ‘폴드8 울트라'·AI 안경 출격 준비",
+        "link": "https://www.aitimes.com/news/articleView.html?idxno=212916",
+        "source": "AI타임스",
+        "published_dt": "2026-07-20 14:13:48",
+        "match_score": 6.39
+      },
+      "related_articles": [
+        {
+          "title": "삼성전자, 프리미엄 ‘폴드8 울트라'·AI 안경 출격 준비",
+          "link": "https://www.aitimes.com/news/articleView.html?idxno=212916",
+          "source": "AI타임스",
+          "published_dt": "2026-07-20 14:13:48",
+          "match_score": 6.39
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "부동산 세제",
+      "reason": "양도세 유예 논의, 공급 정책 변화",
+      "score": 33.29,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산",
+        "정치"
+      ],
+      "sample_titles": [
+        "“양도세 강화 1년 유예 후 시행 검토”…靑, 부동산 세제 시간차 조정 시사"
+      ],
+      "representative_article": {
+        "title": "“양도세 강화 1년 유예 후 시행 검토”…靑, 부동산 세제 시간차 조정 시사",
+        "link": "https://www.mk.co.kr/news/economy/12101666",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-07-19 15:28:04",
+        "match_score": 33.29
+      },
+      "related_articles": [
+        {
+          "title": "“양도세 강화 1년 유예 후 시행 검토”…靑, 부동산 세제 시간차 조정 시사",
+          "link": "https://www.mk.co.kr/news/economy/12101666",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-07-19 15:28:04",
+          "match_score": 33.29
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "국제유",
+      "reason": "중동 사태 영향 유가 변동 우려",
+      "score": 39.36,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "국제"
+      ],
+      "sample_titles": [
+        "중동사태 악화, 국제유가·증시 불안 우려↑…이란 공격에 미군 2명 전사·1명 실종 - 디지털데일리"
+      ],
+      "representative_article": {
+        "title": "중동사태 악화, 국제유가·증시 불안 우려↑…이란 공격에 미군 2명 전사·1명 실종 - 디지털데일리",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1Jc1VnaHZhZ0lHdGZJYTdQY0VnN2tXQmNUb0lSTUo2RGFDMnlNWlBsMWFjLVRVS085ZkVrN0xOZ2JQMlBQNGttbjJQTTlYZTRpOVJCNG5FQ21WTmZ4eHRIaWlxaW4?oc=5",
+        "source": "키워드-에너지물가",
+        "published_dt": "2026-07-19 12:09:34",
+        "match_score": 39.36
+      },
+      "related_articles": [
+        {
+          "title": "중동사태 악화, 국제유가·증시 불안 우려↑…이란 공격에 미군 2명 전사·1명 실종 - 디지털데일리",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1Jc1VnaHZhZ0lHdGZJYTdQY0VnN2tXQmNUb0lSTUo2RGFDMnlNWlBsMWFjLVRVS085ZkVrN0xOZ2JQMlBQNGttbjJQTTlYZTRpOVJCNG5FQ21WTmZ4eHRIaWlxaW4?oc=5",
+          "source": "키워드-에너지물가",
+          "published_dt": "2026-07-19 12:09:34",
+          "match_score": 39.36
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "배달시장",
+      "reason": "우버 DH 인수, 쿠팡과 경쟁 본격화",
+      "score": 24.49,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "우버, DH 인수로 국내 배달 시장 재진입…쿠팡이츠와 멤버십 경쟁 본격화"
+      ],
+      "representative_article": {
+        "title": "우버, DH 인수로 국내 배달 시장 재진입…쿠팡이츠와 멤버십 경쟁 본격화",
+        "link": "https://www.etnews.com/20260719000030",
+        "source": "전자신문",
+        "published_dt": "2026-07-19 15:05:00",
+        "match_score": 24.49
+      },
+      "related_articles": [
+        {
+          "title": "우버, DH 인수로 국내 배달 시장 재진입…쿠팡이츠와 멤버십 경쟁 본격화",
+          "link": "https://www.etnews.com/20260719000030",
+          "source": "전자신문",
+          "published_dt": "2026-07-19 15:05:00",
+          "match_score": 24.49
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "노조설립",
+      "reason": "스타벅스코리아 국내 최초 노조 설립",
+      "score": 21.27,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "스타벅스코리아, 국내 프랜차이즈 커피업계 최초 노조 설립(종합)"
+      ],
+      "representative_article": {
+        "title": "스타벅스코리아, 국내 프랜차이즈 커피업계 최초 노조 설립(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260719030151030",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-07-19 14:28:59",
+        "match_score": 21.27
+      },
+      "related_articles": [
+        {
+          "title": "스타벅스코리아, 국내 프랜차이즈 커피업계 최초 노조 설립(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260719030151030",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-07-19 14:28:59",
+          "match_score": 21.27
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "수출",
+      "score": 29.3,
+      "article_count": 5,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "무역협회, '무역의날' 수출의탑·유공자 포상 신청 접수",
+        "수요 몰린 중기부 바우처 사업…경영안정 95%, 혁신·수출도 70% 돌파",
+        "최신 AI칩 없이도 고성능… 中 AI ‘키미 K3’, 美 아성 위협"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "무역협회, '무역의날' 수출의탑·유공자 포상 신청 접수",
+        "link": "https://www.yna.co.kr/view/AKR20260719015700003",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-07-19 11:00:03",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "무역협회, '무역의날' 수출의탑·유공자 포상 신청 접수",
+          "link": "https://www.yna.co.kr/view/AKR20260719015700003",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-07-19 11:00:03",
+          "match_score": 37.67
+        },
+        {
+          "title": "수요 몰린 중기부 바우처 사업…경영안정 95%, 혁신·수출도 70% 돌파",
+          "link": "https://www.etnews.com/20260716000001",
+          "source": "전자신문",
+          "published_dt": "2026-07-19 14:00:00",
+          "match_score": 37.49
+        },
+        {
+          "title": "이란, 美 봉쇄해제 한달간 9조어치 원유 수출…대부분 중국行",
+          "link": "https://www.donga.com/news/Inter/article/all/20260719/134321709/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-19 13:44:00",
+          "match_score": 37.3
+        },
+        {
+          "title": "최신 AI칩 없이도 고성능… 中 AI ‘키미 K3’, 美 아성 위협",
+          "link": "https://www.donga.com/news/Economy/article/all/20260719/134323796/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-20 00:30:00",
+          "match_score": 11.3
+        },
+        {
+          "title": "“GPT-4 넘어섰다”…中 가성비 ‘키미 K3’에 AI-반도체업계 발칵",
+          "link": "https://www.donga.com/news/Economy/article/all/20260719/134321653/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-19 13:50:00",
+          "match_score": 11.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "하반기",
+      "score": 25.5,
+      "article_count": 5,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "기업/산업",
+        "정치"
+      ],
+      "sample_titles": [
+        "국회 문턱 못 넘은 디지털자산법…하반기 논의도 '험로'",
+        "與정무위, 내일 금융위 등과 당정협의…레버리지 ETF 논의 주목",
+        "절치부심 우리금융, 고객 기반 확 늘린다"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "“고객이 성장의 근간”…우리금융, 하반기 고객기반 확대 총력전",
+        "link": "https://www.mk.co.kr/news/economy/12101582",
+        "source": "매일경제-경제",
+        "published_dt": "2026-07-19 10:17:58",
+        "match_score": 37.66
+      },
+      "related_articles": [
+        {
+          "title": "“고객이 성장의 근간”…우리금융, 하반기 고객기반 확대 총력전",
+          "link": "https://www.mk.co.kr/news/economy/12101582",
+          "source": "매일경제-경제",
+          "published_dt": "2026-07-19 10:17:58",
+          "match_score": 37.66
+        },
+        {
+          "title": "국회 문턱 못 넘은 디지털자산법…하반기 논의도 '험로'",
+          "link": "https://www.yna.co.kr/view/AKR20260717061400002",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-07-20 05:53:01",
+          "match_score": 29.82
+        },
+        {
+          "title": "삼성전자, 프리미엄 ‘폴드8 울트라'·AI 안경 출격 준비",
+          "link": "https://www.aitimes.com/news/articleView.html?idxno=212916",
+          "source": "AI타임스",
+          "published_dt": "2026-07-20 14:13:48",
+          "match_score": 12.1
+        },
+        {
+          "title": "與정무위, 내일 금융위 등과 당정협의…레버리지 ETF 논의 주목",
+          "link": "https://www.yna.co.kr/view/AKR20260719033800001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-07-19 14:37:36",
+          "match_score": 11.68
+        },
+        {
+          "title": "절치부심 우리금융, 고객 기반 확 늘린다",
+          "link": "https://www.mk.co.kr/news/economy/12101796",
+          "source": "매일경제-경제",
+          "published_dt": "2026-07-19 17:18:05",
+          "match_score": 11.66
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
