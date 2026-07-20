@@ -1,0 +1,102 @@
+{
+  "timestamp": "2026-07-21T06:03:08.798987",
+  "date": "20260721",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "국힘 \"李대통령 집 매수인에 17억 근저당…전대미문 부동산꼼수\"",
+          "link": "https://www.yna.co.kr/view/AKR20260720150500001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-07-20 18:09:25",
+          "description": "(서울=연합뉴스) 노선웅 기자 = 국민의힘은 20일 이재명 대통령이 경기도 성남시 분당구 아파트를 매도하는 과정에서 매수인들을 채무자로 해 17...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "지방/행정",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李 분당 집 매수자 잔금 모자라… 근저당 설정해 처리",
+          "link": "https://www.chosun.com/politics/politics_general/2026/07/21/PPMSSHEVRZAFBM7E27FMPSTYW4/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-07-21 00:47:00",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "지방/행정",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "金 “향후 2년 또 명청대전 볼 건가”  鄭 “난 李 옆자리서 싸운 사람”",
+          "link": "https://www.chosun.com/politics/assembly/2026/07/22/HJYBSSOV4VH6TG7D7CDOIRFPLY/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-07-21 00:46:00",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "“29억에 팔며 17억 근저당”…이 대통령 분당아파트 거래에 국힘 “전대미문 꼼수”",
+          "link": "https://www.mk.co.kr/news/realestate/12102726",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-07-20 18:41:38",
+          "description": "국민의힘은 20일 이재명 대통령이 경기도 성남시 분당구 아파트를 매도하는 과정에서 매수인들을 채무자로 해 17억원대 근저당권을 설정한 것을 두고 “꼼수”라고 비판하며 거래과정을 설..",
+          "category": "domestic",
+          "feed_url": "https://www.mk.co.kr/rss/50300009/",
+          "source_type": "realestate",
+          "source_weight": 1.15,
+          "source_badge": "부동산",
+          "priority_score": 1,
+          "related_full_sources": []
+        },
+        {
+          "title": "오세훈 \"재개발·재건축은 주택 공급 마스터키, 낡은 시각 이재명 정부에 남아\" - 비즈니스포스트",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBNMkxuQXhwdmh6U2JMUFpzdjlqb2tqQzJRVHFwTy0zcVBUQmlIcEtMcjRLTFN1OVhDT3JxZlBsdkp6aWlCQ0Q4c0ZFLVB3cTBfaHVMUy15QnRfNGN4Skc3TXBVQ09JXzFYcDhRSW5IOGJWem8?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-07-20 16:22:58",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTFBNMkxuQXhwdmh6U2JMUFpzdjlqb2tqQzJRVHFwTy0zcVBUQmlIcEtMcjRLTFN1OVhDT3JxZlBsdkp6aWlCQ0Q4c0ZFLVB3cTBfaHVMUy15QnRfNGN4Skc3TXBVQ09JXzFYcDhRSW5IOGJWem8?oc=5\" target=\"_blank\">오세훈 \"재개발·재건축은 주택 공급 마스터키, 낡은 시각 이재명 정부에 남아\"</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">비즈니스포스트</font>",
+          "category": "domestic",
+          "feed_url": "https://news.google.com/rss/search?q=재건축+OR+분양가+OR+GTX+OR+전세+when:1d&hl=ko&gl=KR&ceid=KR:ko",
+          "source_type": "google_keyword",
+          "source_weight": 0.85,
+          "source_badge": "키워드",
+          "priority_score": 8,
+          "related_full_sources": []
+        },
+        {
+          "title": "이대통령 분당 아파트, 29억원에 매각…17억7000만원 근저당 설정, 왜?",
+          "link": "https://www.mk.co.kr/news/realestate/12102450",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-07-20 15:39:37",
+          "description": "14일 매매계약 체결·16일 소유권 이전 매수인 근저당 설정 후 자금대여 “재건축 사업시행인가 전 등기 위해” 추측이재명 대통령 부부 소유의 경기 성남 분당 수내동 양지마을 아파트..",
+          "category": "domestic",
+          "feed_url": "https://www.mk.co.kr/rss/50300009/",
+          "source_type": "realestate",
+          "source_weight": 1.15,
+          "source_badge": "부동산",
+          "priority_score": 6,
+          "related_full_sources": []
+        }
+      ],
+      "count": 6,
+      "role": "한국 대통령"
+    }
+  }
+}

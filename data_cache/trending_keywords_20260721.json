@@ -1,0 +1,394 @@
+{
+  "timestamp": "2026-07-21T06:03:25.677822",
+  "date": "20260721",
+  "data": [
+    {
+      "keyword": "종합특검 연장",
+      "reason": "본회의 상정 및 여야 대치",
+      "score": 36.27,
+      "article_count": 4,
+      "source_count": 2,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "'종합특검 연장법' 오늘 본회의서 與 주도 의결 전망…필버 종료",
+        "원구성도 못했는데 종합특검 연장법안 與단독 본회의 상정",
+        "'종합특검 연장법' 본회의 상정…국힘 필버에 내일 표결 전망(종합)"
+      ],
+      "representative_article": {
+        "title": "'종합특검 연장법' 본회의 상정…국힘 필버에 내일 표결 전망(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260720100951001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-07-20 15:17:52",
+        "match_score": 36.27
+      },
+      "related_articles": [
+        {
+          "title": "'종합특검 연장법' 본회의 상정…국힘 필버에 내일 표결 전망(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260720100951001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-07-20 15:17:52",
+          "match_score": 36.27
+        },
+        {
+          "title": "'종합특검 연장법' 오늘 본회의서 與 주도 의결 전망…필버 종료",
+          "link": "https://www.yna.co.kr/view/AKR20260720114000001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-07-21 05:00:02",
+          "match_score": 35.07
+        },
+        {
+          "title": "원구성도 못했는데 종합특검 연장법안 與단독 본회의 상정",
+          "link": "https://www.chosun.com/politics/assembly/2026/07/21/GV2CUBTRHJC3DBUGRHOBXQZ2FQ/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-07-21 00:47:00",
+          "match_score": 34.9
+        },
+        {
+          "title": "국힘 \"與 종합특검 일방연장 입법폭주…필리버스터로 실체 고발\"",
+          "link": "https://www.yna.co.kr/view/AKR20260720101200001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-07-20 14:25:39",
+          "match_score": 16.18
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재개발 재건축",
+      "reason": "주요 지역 사업 본궤도",
+      "score": 21.4,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "김용범 “재개발·재건축 만능키 아냐” 오세훈의 반박은? - 문화일보"
+      ],
+      "representative_article": {
+        "title": "김용범 “재개발·재건축 만능키 아냐” 오세훈의 반박은? - 문화일보",
+        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1IcEhsYURrOWdJWm5LZERHcjFmbXRNc0hiaUZYUFdRS1JxTjQ0WlJBb3M5N1JBa2JwLVdOSlItcF9fS2hERWozOTNGRzJkVzNH?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-07-21 05:26:41",
+        "match_score": 21.4
+      },
+      "related_articles": [
+        {
+          "title": "김용범 “재개발·재건축 만능키 아냐” 오세훈의 반박은? - 문화일보",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1IcEhsYURrOWdJWm5LZERHcjFmbXRNc0hiaUZYUFdRS1JxTjQ0WlJBb3M5N1JBa2JwLVdOSlItcF9fS2hERWozOTNGRzJkVzNH?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-07-21 05:26:41",
+          "match_score": 21.4
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "국제유",
+      "reason": "중동 불안 영향 급등",
+      "score": 17.95,
+      "article_count": 4,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "국제"
+      ],
+      "sample_titles": [
+        "[특징주] 중동긴장·유가급등에 SK이터닉스 등 신재생주 급등(종합)",
+        "중동정세 불안-반도체 주가 하락에, 코스피 4.4% 급락",
+        "원유재고 최저인데 중동전 격화…브렌트유 90달러 돌파"
+      ],
+      "representative_article": {
+        "title": "美·이란 무력 충돌에 국제 유가 급등 - 조선일보",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQOWpxektYVHowNy1mcDh0bE5SeURmTWtwT29jWHRGTW1KS19Sdl9idjNsVFVwR2phNVFKYVNweEt4T044S3c0c0JKOWtZU3JCS2Z1ejVUaHVJZVpDeDcxR1VXa3QzcXpITGVRMFZZY0dFTDdIRWJpbEVNOHZrQjZpbmh2QzhXOEF0cXZCUUFB?oc=5",
+        "source": "키워드-에너지물가",
+        "published_dt": "2026-07-21 00:32:00",
+        "match_score": 17.95
+      },
+      "related_articles": [
+        {
+          "title": "美·이란 무력 충돌에 국제 유가 급등 - 조선일보",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQOWpxektYVHowNy1mcDh0bE5SeURmTWtwT29jWHRGTW1KS19Sdl9idjNsVFVwR2phNVFKYVNweEt4T044S3c0c0JKOWtZU3JCS2Z1ejVUaHVJZVpDeDcxR1VXa3QzcXpITGVRMFZZY0dFTDdIRWJpbEVNOHZrQjZpbmh2QzhXOEF0cXZCUUFB?oc=5",
+          "source": "키워드-에너지물가",
+          "published_dt": "2026-07-21 00:32:00",
+          "match_score": 17.95
+        },
+        {
+          "title": "[특징주] 중동긴장·유가급등에 SK이터닉스 등 신재생주 급등(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260720036351008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-07-20 15:44:27",
+          "match_score": 12.88
+        },
+        {
+          "title": "원유재고 최저인데 중동전 격화…브렌트유 90달러 돌파",
+          "link": "https://www.donga.com/news/Economy/article/all/20260720/134326957/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-20 11:08:00",
+          "match_score": 12.5
+        },
+        {
+          "title": "중동정세 불안-반도체 주가 하락에, 코스피 4.4% 급락",
+          "link": "https://www.donga.com/news/Economy/article/all/20260721/134332735/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-21 04:30:00",
+          "match_score": 8.7
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI 산업",
+      "reason": "기술 개발·국방 진출",
+      "score": 30.02,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "AI기본법 후속 개정안 시행…한국 AI 산업 시험대"
+      ],
+      "representative_article": {
+        "title": "AI기본법 후속 개정안 시행…한국 AI 산업 시험대",
+        "link": "https://www.yna.co.kr/view/AKR20260720150400017",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-07-21 05:30:01",
+        "match_score": 30.02
+      },
+      "related_articles": [
+        {
+          "title": "AI기본법 후속 개정안 시행…한국 AI 산업 시험대",
+          "link": "https://www.yna.co.kr/view/AKR20260720150400017",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-07-21 05:30:01",
+          "match_score": 30.02
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "금융지주 회장",
+      "reason": "3연임 제동 및 승계 변화",
+      "score": 37.06,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "금융지주 회장 3연임 제동…승계구도 지각변동 예고",
+        "금융지주 회장 3연임 제동…승계구도 지각변동 예고",
+        "금융지주 회장 3연임 제동…승계구도 지각변동 예고"
+      ],
+      "representative_article": {
+        "title": "금융지주 회장 3연임 제동…승계구도 지각변동 예고",
+        "link": "https://www.mk.co.kr/news/economy/12102610",
+        "source": "매일경제-경제",
+        "published_dt": "2026-07-20 17:36:22",
+        "match_score": 37.06
+      },
+      "related_articles": [
+        {
+          "title": "금융지주 회장 3연임 제동…승계구도 지각변동 예고",
+          "link": "https://www.mk.co.kr/news/economy/12102610",
+          "source": "매일경제-경제",
+          "published_dt": "2026-07-20 17:36:22",
+          "match_score": 37.06
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "미래금융 협력",
+      "reason": "하나금융·두나무 협력",
+      "score": 9.88,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "'미래금융 새판짜기' 의기투합한 하나금융·두나무"
+      ],
+      "representative_article": {
+        "title": "'미래금융 새판짜기' 의기투합한 하나금융·두나무",
+        "link": "https://www.yna.co.kr/view/AKR20260720151100002",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-07-21 05:53:00",
+        "match_score": 9.88
+      },
+      "related_articles": [
+        {
+          "title": "'미래금융 새판짜기' 의기투합한 하나금융·두나무",
+          "link": "https://www.yna.co.kr/view/AKR20260720151100002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-07-21 05:53:00",
+          "match_score": 9.88
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "부동산 정책",
+      "reason": "금리·세제 개편 영향",
+      "score": 7.89,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산",
+        "정치"
+      ],
+      "sample_titles": [
+        "금리인상·세제 개편 변수로 … 부동산 시장 ‘셈법’ 달라졌다"
+      ],
+      "representative_article": {
+        "title": "금리인상·세제 개편 변수로 … 부동산 시장 ‘셈법’ 달라졌다",
+        "link": "https://www.mk.co.kr/news/realestate/12102496",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-07-21 04:30:00",
+        "match_score": 7.89
+      },
+      "related_articles": [
+        {
+          "title": "금리인상·세제 개편 변수로 … 부동산 시장 ‘셈법’ 달라졌다",
+          "link": "https://www.mk.co.kr/news/realestate/12102496",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-07-21 04:30:00",
+          "match_score": 7.89
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "중동 정세",
+      "reason": "호르무즈 해협 긴장",
+      "score": 25.7,
+      "article_count": 3,
+      "source_count": 1,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "英 싱크탱크 “호르무즈 해협, 이란-걸프국가 공동 관리”",
+        "英 싱크탱크 “호르무즈 해협, 이란-걸프국가 공동 관리”",
+        "호르무즈 막히자 육로로…시리아, 중동 연료유 수송량 4분의1 장악"
+      ],
+      "representative_article": {
+        "title": "중동정세 불안-반도체 주가 하락에, 코스피 4.4% 급락",
+        "link": "https://www.donga.com/news/Economy/article/all/20260721/134332735/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-07-21 04:30:00",
+        "match_score": 25.7
+      },
+      "related_articles": [
+        {
+          "title": "중동정세 불안-반도체 주가 하락에, 코스피 4.4% 급락",
+          "link": "https://www.donga.com/news/Economy/article/all/20260721/134332735/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-21 04:30:00",
+          "match_score": 25.7
+        },
+        {
+          "title": "호르무즈 막히자 육로로…시리아, 중동 연료유 수송량 4분의1 장악",
+          "link": "https://www.donga.com/news/Inter/article/all/20260720/134327019/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-20 11:20:00",
+          "match_score": 6.8
+        },
+        {
+          "title": "英 싱크탱크 “호르무즈 해협, 이란-걸프국가 공동 관리”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260720/134327559/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-20 13:19:19",
+          "match_score": 6.5
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "성과급 논란",
+      "reason": "기업내 갈등 및 국민연금 압박",
+      "score": 4.86,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "“주가 급락에 6억 성과급? 못 참아”…삼성전자 소액주주 국민연금에 서한 발송"
+      ],
+      "representative_article": {
+        "title": "“주가 급락에 6억 성과급? 못 참아”…삼성전자 소액주주 국민연금에 서한 발송",
+        "link": "https://www.mk.co.kr/news/economy/12102757",
+        "source": "매일경제-경제",
+        "published_dt": "2026-07-20 19:44:44",
+        "match_score": 4.86
+      },
+      "related_articles": [
+        {
+          "title": "“주가 급락에 6억 성과급? 못 참아”…삼성전자 소액주주 국민연금에 서한 발송",
+          "link": "https://www.mk.co.kr/news/economy/12102757",
+          "source": "매일경제-경제",
+          "published_dt": "2026-07-20 19:44:44",
+          "match_score": 4.86
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 9,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "레버리지 ETF",
+      "reason": "주가 급락 경고",
+      "score": 40.06,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "주가 폭락에 ‘레버리지 ETF’ 경고등 켠 여당…“집중 모니터링, 추가 대책 강구”"
+      ],
+      "representative_article": {
+        "title": "주가 폭락에 ‘레버리지 ETF’ 경고등 켠 여당…“집중 모니터링, 추가 대책 강구”",
+        "link": "https://www.mk.co.kr/news/economy/12102777",
+        "source": "매일경제-경제",
+        "published_dt": "2026-07-20 20:36:46",
+        "match_score": 40.06
+      },
+      "related_articles": [
+        {
+          "title": "주가 폭락에 ‘레버리지 ETF’ 경고등 켠 여당…“집중 모니터링, 추가 대책 강구”",
+          "link": "https://www.mk.co.kr/news/economy/12102777",
+          "source": "매일경제-경제",
+          "published_dt": "2026-07-20 20:36:46",
+          "match_score": 40.06
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 10,
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
