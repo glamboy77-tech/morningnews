@@ -1,0 +1,192 @@
+{
+  "timestamp": "2026-07-22T06:01:47.145966",
+  "date": "20260722",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "유시민 \"뉴이재명 행동, '자칭 친명'의 난동 아닌 대통령 기획\"",
+          "link": "https://www.yna.co.kr/view/AKR20260721187300001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-07-21 23:30:39",
+          "description": "(서울=연합뉴스) 서혜림 최주성 기자 = 이른바 &apos;재건축론&apos;과 &apos;필패론&apos;을 잇따라 제기하며 이재명 대통령을 비판했던 범여권 논객 유시민 작가가 ...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 7,
+          "pol_subcategory": "당내 정국",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "'노동쟁의 확대' 경계한 李대통령…메가프로젝트도 염두에 둔듯",
+          "link": "https://www.yna.co.kr/view/AKR20260721175100001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-07-21 19:24:10",
+          "description": "(서울=연합뉴스) 고동욱 기자 = 이재명 대통령이 21일 노란봉투법(개정 노동조합법)으로 인한 노동쟁의의 확대 문제를 언급해 그 배경에 관심이 ...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "deduped_sources": [
+            {
+              "source": "연합뉴스-경제",
+              "title": "'노동쟁의 확대' 경계한 李대통령…메가프로젝트도 염두에 둔듯",
+              "link": "https://www.yna.co.kr/view/AKR20260721175100001"
+            }
+          ],
+          "priority_score": 3,
+          "pol_subcategory": "입법/정책",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "靑 \"李대통령, 주택 매수인 사적인연 없어…특혜주장 어불성설\"",
+          "link": "https://www.yna.co.kr/view/AKR20260721181400001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-07-21 20:41:06",
+          "description": "(서울=연합뉴스) 임형섭 기자 = 청와대는 21일 이재명 대통령이 최근 성남시 분당구 아파트를 매도한 것과 관련해 &quot;매수인과 사적 인연이나 특수...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "deduped_sources": [
+            {
+              "source": "연합뉴스-경제",
+              "title": "靑 \"李대통령, 주택 매수인 사적인연 없어…특혜주장 어불성설\"",
+              "link": "https://www.yna.co.kr/view/AKR20260721181400001"
+            }
+          ],
+          "priority_score": 3,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李 \"쟁의대상 너무 광범위\" 지적에 노동계 \"노봉법 부정한 것\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260721150951530",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-07-21 18:00:02",
+          "description": "(서울=연합뉴스) 한혜원 강태우 기자 = 이재명 대통령이 21일 노동쟁의의 대상이 과도하게 확장되지 않도록 노동조합법 시행령 등에 범위를 구체화...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/economy.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李 “영업이익 배분, 쟁의 대상 아니다”",
+          "link": "https://www.chosun.com/politics/politics_general/2026/07/22/OMQKLCQCEBDRJNAPHPP6UO5QT4/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-07-22 00:54:00",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 “쟁의 대상 너무 광범위해져” 노동부에 기준 마련 주문",
+          "link": "https://www.chosun.com/politics/politics_general/2026/07/22/E7Y6SAOMHNCRXM6FJLLGEG4CUI/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-07-22 00:49:00",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "靑, 대통령 자택 매매 논란에 “시세보다 낮게, 재건축 이익도 포기” - 미디어오늘",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9ONmU2OHdoQnRlVk9EWDlrS010WHJ4SVJScUw1c05PeHJlaGpqZmVtVmI5aU04VWFsSUVxbkV0OWZKUE9sRTJhNjExUnp1RmF6N1o2bkdVaTB3TFRTYmFpMTlfRi0wVU15ckhJbkJEUnc?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-07-21 21:43:42",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE9ONmU2OHdoQnRlVk9EWDlrS010WHJ4SVJScUw1c05PeHJlaGpqZmVtVmI5aU04VWFsSUVxbkV0OWZKUE9sRTJhNjExUnp1RmF6N1o2bkdVaTB3TFRTYmFpMTlfRi0wVU15ckhJbkJEUnc?oc=5\" target=\"_blank\">靑, 대통령 자택 매매 논란에 “시세보다 낮게, 재건축 이익도 포기”</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">미디어오늘</font>",
+          "category": "domestic",
+          "feed_url": "https://news.google.com/rss/search?q=재건축+OR+분양가+OR+GTX+OR+전세+when:1d&hl=ko&gl=KR&ceid=KR:ko",
+          "source_type": "google_keyword",
+          "source_weight": 0.85,
+          "source_badge": "키워드",
+          "priority_score": 3,
+          "related_full_sources": []
+        },
+        {
+          "title": "이재명 분당 아파트 사들여 조합원 된 매수인…재건축 분담금은 얼마",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/07/21/2026072101431.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-07-21 10:56:59",
+          "description": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"3\" width=\"100%\"><tr><td><img border=\"0\" src=\"https://image.chosun.com/sitedata/thumbnail/202607/21/2026072101426_0_thumb.jpg\" /></td></tr></table>\n\t  \n[땅집고] 이재명 대통령이 약 30년 동안 보유하던 경기 분당 양지마을금호1단지 아파트를 29억원에 처분했다. 이번 거래로 매수인은 단지가 속해 있는 양지마을 통합 재건축 사업 조합원 지위를 승계받아, 앞으로 새아파트를 분양받을 수 있게 됐다. 이 대통령이 주택을 담보로 17억7000만원 근저당을 설정한 대신 매수자에게 등기를 빨리 넘겨준 덕분이다. \n \n☞관련기사: 대통령이 담보로 잡은 분당 아파트 17억대 근저당 설정 이유는…\n \n양지마을 통합 재건축 사업은 금호1단지와 함께 청구2단지·금호3단지·한양1단지·한양2단지 등 ...",
+          "category": "domestic",
+          "feed_url": "https://realty.chosun.com/site/data/rss/rss.xml",
+          "source_type": "realestate",
+          "source_weight": 1.15,
+          "source_badge": "부동산",
+          "priority_score": 6,
+          "related_full_sources": []
+        },
+        {
+          "title": "안철수 \"사채로 이자 장사하는 이재명…부동산 시장 교란 행태\"",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/07/21/2026072101421.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-07-21 11:09:31",
+          "description": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"3\" width=\"100%\"><tr><td><img border=\"0\" src=\"https://image.chosun.com/sitedata/thumbnail/202607/21/2026072101416_0_thumb.jpg\" /></td></tr></table>\n\t  \n[땅집고] “초고가 주택 매매자들이 암암리에 활용하는 ‘셀러 파이낸싱(매도자 자금조달)’ 기법을 일국의 대통령이 구사, 사채로 이자장사를 할 줄은 상상도 못했습니다.”\n \n이재명 대통령이 약 30년째 보유하던 경기 분당 아파트를 29억원에 매도하면서, 이 주택을 담보로 매수인에게 17억7000만원 상당 근저당을 설정해준 데 대한 정치권 비판이 쏟아지고 있다. 이번 정부가 주택담보대출을 틀어막는 바람에 국민들이 주택을 자유롭게 사고 팔기가 어려워진 상황에서 정작 이 대통령은 사금융이나 다름 없다는 매매 거래 방식을 선보였다는 지...",
+          "category": "domestic",
+          "feed_url": "https://realty.chosun.com/site/data/rss/rss.xml",
+          "source_type": "realestate",
+          "source_weight": 1.15,
+          "source_badge": "부동산",
+          "priority_score": 1,
+          "related_full_sources": []
+        },
+        {
+          "title": "집주인 대출 6억 아파트 매물 등장…대통령式 아파트 매매법, 대출 규제 무력화",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/07/21/2026072101371.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-07-21 10:44:45",
+          "description": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"3\" width=\"100%\"><tr><td><img border=\"0\" src=\"https://image.chosun.com/sitedata/thumbnail/202607/21/2026072101366_0_thumb.jpg\" /></td></tr></table>\n\t \n \n[땅집고] 이재명 대통령이 경기 성남시 분당구 아파트를 매도하는 과정에서 매수자에게 17억7000만원 규모의 근저당권을 설정해 준 사실이 알려진 가운데, 강력한 대출 규제로 막힌 현 부동산 시장에서도 이와 유사한 ‘집주인 대출’ 방식이 등장해 논란이다. 은행권 주택담보대출이 사실상 막힌 상황에서 매도인이 직접 자금을 빌려주는 이른바 ‘매도자 금융(Seller Financing)’ 거래다. 이 대통령 거래 이후 실제 강남 아파트 매물에도 등장하면서 고가 주택 시장의 새로운 거래 방식으로 확산될 수 있다는 전망이 나온다.\n \n☞...",
+          "category": "domestic",
+          "feed_url": "https://realty.chosun.com/site/data/rss/rss.xml",
+          "source_type": "realestate",
+          "source_weight": 1.15,
+          "source_badge": "부동산",
+          "priority_score": 1,
+          "related_full_sources": []
+        },
+        {
+          "title": "李 17억7000만원 근저당 논란... 靑 “통상적 방식으로 부동산 통해 이뤄져”",
+          "link": "https://www.chosun.com/politics/blue_house/2026/07/21/UAJ7IANS3RAWNMEBVJCAD52654/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-07-21 20:28:46",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 11,
+      "role": "한국 대통령"
+    }
+  }
+}

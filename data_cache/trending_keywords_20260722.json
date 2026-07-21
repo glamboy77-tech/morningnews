@@ -1,0 +1,436 @@
+{
+  "timestamp": "2026-07-22T06:02:05.230290",
+  "date": "20260722",
+  "data": [
+    {
+      "keyword": "반도체",
+      "reason": "수출 신기록과 산업 호황",
+      "score": 40.23,
+      "article_count": 8,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "반도체 호조에 7월 중순 수출액 549억달러…52.3% 늘어 신기록(종합2보)",
+        "[단독] 수출 호조에 대규모 프로젝트까지…‘K원전’ 인력 4년만에 늘었다",
+        "올해 생산 10% 늘어날 때 고용 증가율 1%에 그쳤다"
+      ],
+      "representative_article": {
+        "title": "반도체 호조에 7월 중순 수출액 549억달러…52.3% 늘어 신기록(종합2보)",
+        "link": "https://www.yna.co.kr/view/AKR20260721034952002",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-07-21 19:46:25",
+        "match_score": 40.23
+      },
+      "related_articles": [
+        {
+          "title": "반도체 호조에 7월 중순 수출액 549억달러…52.3% 늘어 신기록(종합2보)",
+          "link": "https://www.yna.co.kr/view/AKR20260721034952002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-07-21 19:46:25",
+          "match_score": 40.23
+        },
+        {
+          "title": "“반도체 여전히 좋다”…7월 1~20일 수출액 549억달러 ‘역대 최고’",
+          "link": "https://www.mk.co.kr/news/economy/12103105",
+          "source": "매일경제-경제",
+          "published_dt": "2026-07-21 10:31:01",
+          "match_score": 38.86
+        },
+        {
+          "title": "반도체기업 호황에…은행 파킹자금 사상최대",
+          "link": "https://www.mk.co.kr/news/economy/12103563",
+          "source": "매일경제-경제",
+          "published_dt": "2026-07-21 17:24:45",
+          "match_score": 38.86
+        },
+        {
+          "title": "반도체로 지갑 두둑해진 기업들…은행 기업예금 107조원 넘겼다",
+          "link": "https://www.mk.co.kr/news/economy/12103858",
+          "source": "매일경제-경제",
+          "published_dt": "2026-07-21 22:07:10",
+          "match_score": 37.96
+        },
+        {
+          "title": "[단독] 수출 호조에 대규모 프로젝트까지…‘K원전’ 인력 4년만에 늘었다",
+          "link": "https://www.mk.co.kr/news/economy/12103700",
+          "source": "매일경제-경제",
+          "published_dt": "2026-07-21 18:03:59",
+          "match_score": 12.86
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "성과급",
+      "reason": "SK하이닉스 협상 관련 이슈",
+      "score": 44.28,
+      "article_count": 3,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "‘키미 K3’는 삼성·SK하이닉스에 기회일까 우려일까 - 중기이코노미",
+        "SK하이닉스 성과급 다시 협상 테이블로…노사 집중교섭 분수령",
+        "MS, 애저에 AMD AI 랙 도입···'HBM 수요 확대' 삼성·SK하이닉스 수혜 기대 - 스마트비즈"
+      ],
+      "representative_article": {
+        "title": "SK하이닉스 성과급 다시 협상 테이블로…노사 집중교섭 분수령",
+        "link": "https://www.yna.co.kr/view/AKR20260721149700003",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-07-22 05:55:01",
+        "match_score": 44.28
+      },
+      "related_articles": [
+        {
+          "title": "SK하이닉스 성과급 다시 협상 테이블로…노사 집중교섭 분수령",
+          "link": "https://www.yna.co.kr/view/AKR20260721149700003",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-07-22 05:55:01",
+          "match_score": 44.28
+        },
+        {
+          "title": "MS, 애저에 AMD AI 랙 도입···'HBM 수요 확대' 삼성·SK하이닉스 수혜 기대 - 스마트비즈",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1MLTR2Rzk4MnRJMDdNOU5qektLUW5ua1FwTkgxenVPSkNNZDQxYXRPLWtpcTBZc2lhUVBib3laMmFQQTVRV0M0cjl5TzJ3SmpKNGNOR2FSSGFfUTNGNHJZakZRVXZzVFQyWGRwZg?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-07-21 14:34:50",
+          "match_score": 7.36
+        },
+        {
+          "title": "‘키미 K3’는 삼성·SK하이닉스에 기회일까 우려일까 - 중기이코노미",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBqSWFIdVAyN1pjSXc2N01JMTJsVk9TSjMxSHhMcjBtYXRDdWNrWXpqM0NhdXAtRUI1N3NaS2NEbDgtbkZVV2JwaWQ3TF9OemxKSkFVY1FSVTFNVmpJZmhlSld2SG5PX2ExQVE?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-07-21 15:04:49",
+          "match_score": 5.36
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "수출",
+      "reason": "7월 중순 수출 증가 소식",
+      "score": 39.03,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "국제"
+      ],
+      "sample_titles": [
+        "반도체 호조에 7월 중순 수출액 549억달러…52.3% 늘어 신기록(종합2보)",
+        "“반도체 여전히 좋다”…7월 1~20일 수출액 549억달러 ‘역대 최고’",
+        "반도체 호조에 7월 중순 수출액 549억달러…52.3% 늘어 신기록(종합2보)"
+      ],
+      "representative_article": {
+        "title": "반도체 호조에 7월 중순 수출액 549억달러…52.3% 늘어 신기록(종합2보)",
+        "link": "https://www.yna.co.kr/view/AKR20260721034952002",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-07-21 19:46:25",
+        "match_score": 39.03
+      },
+      "related_articles": [
+        {
+          "title": "반도체 호조에 7월 중순 수출액 549억달러…52.3% 늘어 신기록(종합2보)",
+          "link": "https://www.yna.co.kr/view/AKR20260721034952002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-07-21 19:46:25",
+          "match_score": 39.03
+        },
+        {
+          "title": "“반도체 여전히 좋다”…7월 1~20일 수출액 549억달러 ‘역대 최고’",
+          "link": "https://www.mk.co.kr/news/economy/12103105",
+          "source": "매일경제-경제",
+          "published_dt": "2026-07-21 10:31:01",
+          "match_score": 37.96
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재개발",
+      "reason": "부동산 지역 활성화 움직임",
+      "score": 38.09,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "“모아타운, 재개발이랑 뭐가 다르죠?” … 오세훈의 ‘닥공’전략"
+      ],
+      "representative_article": {
+        "title": "“모아타운, 재개발이랑 뭐가 다르죠?” … 오세훈의 ‘닥공’전략",
+        "link": "https://www.mk.co.kr/news/realestate/12103513",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-07-22 04:10:00",
+        "match_score": 38.09
+      },
+      "related_articles": [
+        {
+          "title": "“모아타운, 재개발이랑 뭐가 다르죠?” … 오세훈의 ‘닥공’전략",
+          "link": "https://www.mk.co.kr/news/realestate/12103513",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-07-22 04:10:00",
+          "match_score": 38.09
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "종합특검",
+      "reason": "국회내 연장 및 합의 소식",
+      "score": 39.88,
+      "article_count": 4,
+      "source_count": 2,
+      "categories": [
+        "기업/산업",
+        "정치"
+      ],
+      "sample_titles": [
+        "'종합특검 연장법' 국무회의 통과…한 달 연장·20명 증원",
+        "與, 2차 종합특검 3번째 연장 강행",
+        "국힘, '종합특검 연장법안' 통과에 \"與 오만, 국민이 심판할 것\""
+      ],
+      "representative_article": {
+        "title": "'종합특검 연장법' 국무회의 통과…한 달 연장·20명 증원",
+        "link": "https://www.yna.co.kr/view/AKR20260721154600001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-07-21 17:33:53",
+        "match_score": 39.88
+      },
+      "related_articles": [
+        {
+          "title": "'종합특검 연장법' 국무회의 통과…한 달 연장·20명 증원",
+          "link": "https://www.yna.co.kr/view/AKR20260721154600001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-07-21 17:33:53",
+          "match_score": 39.88
+        },
+        {
+          "title": "국힘, '종합특검 연장법안' 통과에 \"與 오만, 국민이 심판할 것\"",
+          "link": "https://www.yna.co.kr/view/AKR20260721158200001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-07-21 17:12:09",
+          "match_score": 39.88
+        },
+        {
+          "title": "與, 2차 종합특검 3번째 연장 강행",
+          "link": "https://www.chosun.com/politics/assembly/2026/07/22/BI45H7ND7BDSVILGSLEFXDDTJE/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-07-22 00:52:00",
+          "match_score": 29.5
+        },
+        {
+          "title": "‘종합특검 연장법’ 與 주도 본회의 통과",
+          "link": "https://www.chosun.com/politics/assembly/2026/07/21/SN7SFGNFNFAADASAPJC6VNY4WY/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-07-21 15:21:26",
+          "match_score": 27.5
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "해킹",
+      "reason": "외교부 등 정보 보안 사고",
+      "score": 39.88,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "한국 외교관 전원 정보 해킹 추정…최대 1만건 유출(종합)",
+        "[단독]정보기관 요원 수백명 포함 1만명 정보 털린 외교부, 알고도 5개월 숨겨"
+      ],
+      "representative_article": {
+        "title": "한국 외교관 전원 정보 해킹 추정…최대 1만건 유출(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260721100751504",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-07-21 16:09:42",
+        "match_score": 39.88
+      },
+      "related_articles": [
+        {
+          "title": "한국 외교관 전원 정보 해킹 추정…최대 1만건 유출(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260721100751504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-07-21 16:09:42",
+          "match_score": 39.88
+        },
+        {
+          "title": "[단독]정보기관 요원 수백명 포함 1만명 정보 털린 외교부, 알고도 5개월 숨겨",
+          "link": "https://www.donga.com/news/Politics/article/all/20260722/134340594/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-22 04:30:00",
+          "match_score": 13.7
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "노동쟁",
+      "reason": "대통령 발언 및 노사 갈등",
+      "score": 38.83,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "'노동쟁의 확대' 경계한 李대통령…메가프로젝트도 염두에 둔듯"
+      ],
+      "representative_article": {
+        "title": "'노동쟁의 확대' 경계한 李대통령…메가프로젝트도 염두에 둔듯",
+        "link": "https://www.yna.co.kr/view/AKR20260721175100001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-07-21 19:24:10",
+        "match_score": 38.83
+      },
+      "related_articles": [
+        {
+          "title": "'노동쟁의 확대' 경계한 李대통령…메가프로젝트도 염두에 둔듯",
+          "link": "https://www.yna.co.kr/view/AKR20260721175100001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-07-21 19:24:10",
+          "match_score": 38.83
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "군사시설",
+      "reason": "보호구역 해제 관련 논란",
+      "score": 40.33,
+      "article_count": 3,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "부동산"
+      ],
+      "sample_titles": [
+        "고양시장 \"군사시설보호구역 해제 환영…지역경제 활성화\"",
+        "“우리 동네도 풀리나?”…‘여의도 10배’ 면적 軍 보호구역 해제",
+        "軍규제 풀린 평택고덕에 1만호 … 창릉 고밀개발도 탄력"
+      ],
+      "representative_article": {
+        "title": "고양시장 \"군사시설보호구역 해제 환영…지역경제 활성화\"",
+        "link": "https://www.yna.co.kr/view/AKR20260721148800060",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-07-21 16:22:49",
+        "match_score": 40.33
+      },
+      "related_articles": [
+        {
+          "title": "고양시장 \"군사시설보호구역 해제 환영…지역경제 활성화\"",
+          "link": "https://www.yna.co.kr/view/AKR20260721148800060",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-07-21 16:22:49",
+          "match_score": 40.33
+        },
+        {
+          "title": "“우리 동네도 풀리나?”…‘여의도 10배’ 면적 軍 보호구역 해제",
+          "link": "https://www.mk.co.kr/news/realestate/12103456",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-07-21 16:05:15",
+          "match_score": 16.3
+        },
+        {
+          "title": "軍규제 풀린 평택고덕에 1만호 … 창릉 고밀개발도 탄력",
+          "link": "https://www.mk.co.kr/news/realestate/12103569",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-07-21 17:25:33",
+          "match_score": 12.9
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "중동정세",
+      "reason": "홍해 선박 피격 및 긴장",
+      "score": 3.8,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "쿠웨이트, 유조선 피격에 이란 대사 초치…“불법 공격 멈춰라”"
+      ],
+      "representative_article": {
+        "title": "쿠웨이트, 유조선 피격에 이란 대사 초치…“불법 공격 멈춰라”",
+        "link": "https://www.donga.com/news/Inter/article/all/20260722/134340970/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-07-22 04:29:06",
+        "match_score": 3.8
+      },
+      "related_articles": [
+        {
+          "title": "쿠웨이트, 유조선 피격에 이란 대사 초치…“불법 공격 멈춰라”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260722/134340970/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-22 04:29:06",
+          "match_score": 3.8
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 9,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI기술",
+      "reason": "산업별 AI 활용 및 신기술 도입",
+      "score": 12.5,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "ULI 한국, 박래익 신임 회장 취임 “AI·기술혁신 시대, 부동산 산업 글로벌 경쟁력 강화”"
+      ],
+      "representative_article": {
+        "title": "ULI 한국, 박래익 신임 회장 취임 “AI·기술혁신 시대, 부동산 산업 글로벌 경쟁력 강화”",
+        "link": "https://www.mk.co.kr/news/realestate/12103164",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-07-21 11:14:35",
+        "match_score": 12.5
+      },
+      "related_articles": [
+        {
+          "title": "ULI 한국, 박래익 신임 회장 취임 “AI·기술혁신 시대, 부동산 산업 글로벌 경쟁력 강화”",
+          "link": "https://www.mk.co.kr/news/realestate/12103164",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-07-21 11:14:35",
+          "match_score": 12.5
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 10,
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
