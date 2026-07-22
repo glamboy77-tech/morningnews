@@ -1,0 +1,435 @@
+{
+  "timestamp": "2026-07-23T06:02:47.319961",
+  "date": "20260723",
+  "data": [
+    {
+      "keyword": "AI",
+      "reason": "반도체·산업혁신·교육강화",
+      "score": 38.83,
+      "article_count": 5,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업",
+        "정치"
+      ],
+      "sample_titles": [
+        "한미 AI 공급망 협력 무대 선다…반도체·빅테크 수장 샌프란시스코 집결 - 직썰",
+        "日 6월 무역수지 3.6조원 적자…“원유 수입액 급증에 2달째 역조”",
+        "'반도체 위협'이라던 저가 중국 AI, 되레 호재…SK하이닉스 ADR 14%↑ - 뉴시스"
+      ],
+      "representative_article": {
+        "title": "강훈식 \"AI시대 안전망 촘촘히…한국형 보편적 지원제도 필요\"",
+        "link": "https://www.yna.co.kr/view/AKR20260722165600001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-07-22 19:10:49",
+        "match_score": 38.83
+      },
+      "related_articles": [
+        {
+          "title": "강훈식 \"AI시대 안전망 촘촘히…한국형 보편적 지원제도 필요\"",
+          "link": "https://www.yna.co.kr/view/AKR20260722165600001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-07-22 19:10:49",
+          "match_score": 38.83
+        },
+        {
+          "title": "한미 AI 공급망 협력 무대 선다…반도체·빅테크 수장 샌프란시스코 집결 - 직썰",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8tcDZqWUo2V2t2R01mZ2IweHNSN29xOUNHanU3WG9vU0FOYkwxd2ZKMXQ5Y2xJYWFVS1ZGUGQtaEhYOTlJVkhmQ0VRVl91T083a3FVUnNqNlhOLXNna3BRc09MY0k3MkJO0gFsQVVfeXFMTW1hamtqQU5xakRXZktFeF9JenBoZVFxbU04UnJkdWlURkkzZmphcFVmNk0yN3ZiaHNMSmRqY0RzdS1kdmhYNXJkbzhLVWRyRFExUGNTblBiSmlGZUt5MFhzWW5fWUpOOVdQSmox?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-07-22 18:12:06",
+          "match_score": 38.16
+        },
+        {
+          "title": "'반도체 위협'이라던 저가 중국 AI, 되레 호재…SK하이닉스 ADR 14%↑ - 뉴시스",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBueWxMZElYakN2SXpZY1dSNWl4eThoRTV5a3BZRXFTV0xIYndUZF9fUHQ2WklWd0prWHhqU1RBcFowbVlXVUhvUUJpdHNZOHQxTEhJWXlkdDVKQ3Z4U1ZXUkZJZVJLWFM5R2xfcy1aZlRhanFzREtUcNIBeEFVX3lxTFBueWxMZElYakN2SXpZY1dSNWl4eThoRTV5a3BZRXFTV0xIYndUZF9fUHQ2WklWd0prWHhqU1RBcFowbVlXVUhvUUJpdHNZOHQxTEhJWXlkdDVKQ3Z4U1ZXUkZJZVJLWFM5R2xfcy1aZlRhanFzREtUcA?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-07-22 11:13:09",
+          "match_score": 38.16
+        },
+        {
+          "title": "美 때릴수록 中 팽창… ‘AI 신냉전’ 불붙는다",
+          "link": "https://www.donga.com/news/Economy/article/all/20260723/134348170/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-23 04:30:00",
+          "match_score": 37.6
+        },
+        {
+          "title": "日 6월 무역수지 3.6조원 적자…“원유 수입액 급증에 2달째 역조”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260722/134342930/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-22 12:27:22",
+          "match_score": 11.6
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "부동산",
+      "reason": "재건축·공급·대출규제",
+      "score": 38.67,
+      "article_count": 9,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "부동산",
+        "정치"
+      ],
+      "sample_titles": [
+        "서울 준공업지 20%만 풀어도 5만가구 가능",
+        "“‘국평’ 전용 60㎡로 줄이면 주택공급 30% 확대 효과”",
+        "부동산 토론회 청원 95% “대출 규제 풀어달라”"
+      ],
+      "representative_article": {
+        "title": "李대통령, 오늘 국민과 '부동산 대토론회'…보유세 등 쟁점",
+        "link": "https://www.yna.co.kr/view/AKR20260722162400001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-07-23 05:00:02",
+        "match_score": 38.67
+      },
+      "related_articles": [
+        {
+          "title": "李대통령, 오늘 국민과 '부동산 대토론회'…보유세 등 쟁점",
+          "link": "https://www.yna.co.kr/view/AKR20260722162400001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-07-23 05:00:02",
+          "match_score": 38.67
+        },
+        {
+          "title": "부동산 토론회 청원 95% “대출 규제 풀어달라”",
+          "link": "https://www.chosun.com/economy/real_estate/2026/07/23/AUIH66LD2BHXJIXPCVZTEHH5TA/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-07-23 00:32:00",
+          "match_score": 31.3
+        },
+        {
+          "title": "오세훈, 대통령 '근저당 매매' 겨냥…\"규제 실패 몸소 증명, 대출규제 완화해야\"",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/07/22/2026072202345.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-07-22 15:35:28",
+          "match_score": 14.5
+        },
+        {
+          "title": "집주인 대출 6억 아파트 매물 등장…대통령式 아파트 매매법, 대출 규제 무력화",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/07/21/2026072101371.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-07-22 14:29:56",
+          "match_score": 14.5
+        },
+        {
+          "title": "외신도 조명한 '李 17.7억 근저당'…로이터 \"대출 규제 우회한 거래\"",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/07/22/2026072201271.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-07-22 11:47:15",
+          "match_score": 14.5
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "한미협력",
+      "reason": "안보·원자력·경제협력",
+      "score": 4.88,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "한미 안보협의 후속 논의는 언제…전쟁·투자 등 현안 산적"
+      ],
+      "representative_article": {
+        "title": "한미 안보협의 후속 논의는 언제…전쟁·투자 등 현안 산적",
+        "link": "https://www.yna.co.kr/view/AKR20260722139800504",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-07-22 16:58:19",
+        "match_score": 4.88
+      },
+      "related_articles": [
+        {
+          "title": "한미 안보협의 후속 논의는 언제…전쟁·투자 등 현안 산적",
+          "link": "https://www.yna.co.kr/view/AKR20260722139800504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-07-22 16:58:19",
+          "match_score": 4.88
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "국제유",
+      "reason": "중동 긴장·경제영향",
+      "score": 37.67,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "국제"
+      ],
+      "sample_titles": [
+        "미·이란 강대강 대치에 국제유가 급등…브렌트유 94달러대"
+      ],
+      "representative_article": {
+        "title": "미·이란 강대강 대치에 국제유가 급등…브렌트유 94달러대",
+        "link": "https://www.yna.co.kr/view/AKR20260723007100072",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-07-23 05:14:13",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "미·이란 강대강 대치에 국제유가 급등…브렌트유 94달러대",
+          "link": "https://www.yna.co.kr/view/AKR20260723007100072",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-07-23 05:14:13",
+          "match_score": 37.67
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "반도체",
+      "reason": "투자·신제품·미래산업",
+      "score": 37.67,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "정부, 용인 반도체산단 전기공급 11년 앞당긴다…2042년 완료"
+      ],
+      "representative_article": {
+        "title": "정부, 용인 반도체산단 전기공급 11년 앞당긴다…2042년 완료",
+        "link": "https://www.yna.co.kr/view/AKR20260722145000530",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-07-22 16:49:25",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "정부, 용인 반도체산단 전기공급 11년 앞당긴다…2042년 완료",
+          "link": "https://www.yna.co.kr/view/AKR20260722145000530",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-07-22 16:49:25",
+          "match_score": 37.67
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "금융시장",
+      "reason": "연체율·대출·세무조사",
+      "score": 38.2,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "부동산"
+      ],
+      "sample_titles": [
+        "“세금 낼 돈도 없어요”…종부세 급등에 은행 찾는 집주인들",
+        "금융시장동향 - 금융위원회"
+      ],
+      "representative_article": {
+        "title": "금융시장동향 - 금융위원회",
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZTRhWUdVN1hFX3Bvb3VsVDBfUnpWVFlfMWNfTHBjZVZfRkkyTDBRRk8xS0h5dVJEejM1WXZPYlpseGlENW03akJsaTFVTWs0OElFQzBoY21YTXk0TmZlSW14c2NoUnVUeWdsd2dDNFZEZHhWdExWUnM1THlmSWhQck1TcGtZSVBLNDZTU3Fual9IZmo4RGhZa2xjNlJEamlF?oc=5",
+        "source": "공식-금융위원회",
+        "published_dt": "2026-07-22 23:46:38",
+        "match_score": 38.2
+      },
+      "related_articles": [
+        {
+          "title": "금융시장동향 - 금융위원회",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZTRhWUdVN1hFX3Bvb3VsVDBfUnpWVFlfMWNfTHBjZVZfRkkyTDBRRk8xS0h5dVJEejM1WXZPYlpseGlENW03akJsaTFVTWs0OElFQzBoY21YTXk0TmZlSW14c2NoUnVUeWdsd2dDNFZEZHhWdExWUnM1THlmSWhQck1TcGtZSVBLNDZTU3Fual9IZmo4RGhZa2xjNlJEamlF?oc=5",
+          "source": "공식-금융위원회",
+          "published_dt": "2026-07-22 23:46:38",
+          "match_score": 38.2
+        },
+        {
+          "title": "“세금 낼 돈도 없어요”…종부세 급등에 은행 찾는 집주인들",
+          "link": "https://www.mk.co.kr/news/realestate/12104304",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-07-22 14:04:28",
+          "match_score": 9.8
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재개발",
+      "reason": "서울·수도권 공급확대",
+      "score": 38.09,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "“모아타운, 재개발이랑 뭐가 다르죠?”…오세훈의 ‘닥공’전략 [부동산 심머니]"
+      ],
+      "representative_article": {
+        "title": "“모아타운, 재개발이랑 뭐가 다르죠?”…오세훈의 ‘닥공’전략 [부동산 심머니]",
+        "link": "https://www.mk.co.kr/news/realestate/12104776",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-07-22 19:11:57",
+        "match_score": 38.09
+      },
+      "related_articles": [
+        {
+          "title": "“모아타운, 재개발이랑 뭐가 다르죠?”…오세훈의 ‘닥공’전략 [부동산 심머니]",
+          "link": "https://www.mk.co.kr/news/realestate/12104776",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-07-22 19:11:57",
+          "match_score": 38.09
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "신약개발",
+      "reason": "바이오투자·기술진행",
+      "score": 14.68,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "삼성바이오에피스·인투셀, ADC 신약 개발 본격화"
+      ],
+      "representative_article": {
+        "title": "삼성바이오에피스·인투셀, ADC 신약 개발 본격화",
+        "link": "https://www.yna.co.kr/view/AKR20260722148700017",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-07-22 16:59:34",
+        "match_score": 14.68
+      },
+      "related_articles": [
+        {
+          "title": "삼성바이오에피스·인투셀, ADC 신약 개발 본격화",
+          "link": "https://www.yna.co.kr/view/AKR20260722148700017",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-07-22 16:59:34",
+          "match_score": 14.68
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "세무조사",
+      "reason": "정부정책·기업감독",
+      "score": 37.66,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "세무조사 건수에 집착 안해 … 민생침해 탈세엔 엄정 대응"
+      ],
+      "representative_article": {
+        "title": "세무조사 건수에 집착 안해 … 민생침해 탈세엔 엄정 대응",
+        "link": "https://www.mk.co.kr/news/economy/12104726",
+        "source": "매일경제-경제",
+        "published_dt": "2026-07-22 17:58:34",
+        "match_score": 37.66
+      },
+      "related_articles": [
+        {
+          "title": "세무조사 건수에 집착 안해 … 민생침해 탈세엔 엄정 대응",
+          "link": "https://www.mk.co.kr/news/economy/12104726",
+          "source": "매일경제-경제",
+          "published_dt": "2026-07-22 17:58:34",
+          "match_score": 37.66
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 9,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "아파트",
+      "score": 50.8,
+      "article_count": 12,
+      "source_count": 6,
+      "categories": [
+        "경제/거시",
+        "부동산",
+        "정치"
+      ],
+      "sample_titles": [
+        "與, 국힘 '李대통령 근저당' 공세에 \"張 주택 6채 처분했나\"",
+        "아파트 1만2천호 공급 '세종 조치원·연기 주택사업' 무산 수순",
+        "“이사 코앞인데 대출 접수조차 안돼요”…무주택 실수요자 ‘잔금 대란’ 공포"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "아파트 1만2천호 공급 '세종 조치원·연기 주택사업' 무산 수순",
+        "link": "https://www.yna.co.kr/view/AKR20260722154500063",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-07-22 17:24:57",
+        "match_score": 37.83
+      },
+      "related_articles": [
+        {
+          "title": "아파트 1만2천호 공급 '세종 조치원·연기 주택사업' 무산 수순",
+          "link": "https://www.yna.co.kr/view/AKR20260722154500063",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-07-22 17:24:57",
+          "match_score": 37.83
+        },
+        {
+          "title": "집주인 대출 6억 아파트 매물 등장…대통령式 아파트 매매법, 대출 규제 무력화",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/07/21/2026072101371.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-07-22 14:29:56",
+          "match_score": 37.49
+        },
+        {
+          "title": "희소성 높은 서울 새 아파트…‘쌍용 더 플래티넘 서대문’ 8월 분양",
+          "link": "https://www.mk.co.kr/news/realestate/12104318",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-07-22 14:17:48",
+          "match_score": 28.49
+        },
+        {
+          "title": "\"시세보다 2억 싸다\" 개발 호재 몰린 서울·수도권 경매 6곳 노려라",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/07/22/2026072201583.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-07-22 11:46:55",
+          "match_score": 12.1
+        },
+        {
+          "title": "與, 국힘 '李대통령 근저당' 공세에 \"張 주택 6채 처분했나\"",
+          "link": "https://www.yna.co.kr/view/AKR20260722148800001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-07-22 17:29:03",
+          "match_score": 11.68
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}

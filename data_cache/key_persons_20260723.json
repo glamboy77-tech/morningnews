@@ -1,0 +1,182 @@
+{
+  "timestamp": "2026-07-23T06:02:26.236182",
+  "date": "20260723",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "李대통령, 오늘 국민과 '부동산 대토론회'…보유세 등 쟁점",
+          "link": "https://www.yna.co.kr/view/AKR20260722162400001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-07-23 05:00:02",
+          "description": "(서울=연합뉴스) 황윤기 기자 = 이재명 대통령은 23일 대규모 토론회를 열고 국민들과 부동산 정책 방향을 논의한다.",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "입법/정책",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李, 근저당 이자 안 받기로… 靑 “증여세는 규정대로 처리”",
+          "link": "https://www.chosun.com/politics/politics_general/2026/07/23/NZNCWM3KPBCVLP6EBQT6JXZNXU/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-07-23 00:49:00",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "靑 \"李대통령, 17억 근저당 이자 안 받기로…매수인 배려 차원\"",
+          "link": "https://www.mk.co.kr/news/realestate/12104702",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-07-22 17:57:40",
+          "description": "이재명 대통령이 분당 아파트를 매도하는 과정에서 설정한 17억7000만원 규모 근저당을 둘러싸고 논란이 일자 청와대가 \"은행 대출과 다름없다\"는 입장을 22일 밝혔다. 청와대는 이..",
+          "category": "domestic",
+          "feed_url": "https://www.mk.co.kr/rss/50300009/",
+          "source_type": "realestate",
+          "source_weight": 1.15,
+          "source_badge": "부동산",
+          "priority_score": 1,
+          "related_full_sources": []
+        },
+        {
+          "title": "세입자는 전세, 집주인은 월세…李정부 '안심신탁' 연내 재추진 - 뉴스1",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9zMkJ5eTZRQzJXTTlSVTZWSmF1OTNMNTUzRTBTZVpCeXZKbS1tMzE2YnBBekU0aFNWOUg3QWhDcWhDaUJLSW5xaE9Ha3liVnpOX2xnOHoybTNjblk?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-07-23 05:05:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE9zMkJ5eTZRQzJXTTlSVTZWSmF1OTNMNTUzRTBTZVpCeXZKbS1tMzE2YnBBekU0aFNWOUg3QWhDcWhDaUJLSW5xaE9Ha3liVnpOX2xnOHoybTNjblk?oc=5\" target=\"_blank\">세입자는 전세, 집주인은 월세…李정부 '안심신탁' 연내 재추진</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">뉴스1</font>",
+          "category": "domestic",
+          "feed_url": "https://news.google.com/rss/search?q=재건축+OR+분양가+OR+GTX+OR+전세+when:1d&hl=ko&gl=KR&ceid=KR:ko",
+          "source_type": "google_keyword",
+          "source_weight": 0.85,
+          "source_badge": "키워드",
+          "priority_score": -2,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, '개혁의 정쟁화' 경계…“의료개혁, 대화·설득으로 가능했다”",
+          "link": "https://www.etnews.com/20260722000326",
+          "source": "전자신문",
+          "published_dt": "2026-07-22 15:08:00",
+          "description": "이 대통령이 의료개혁을 강조하며 자신의 국정 운영 기조인 '조용한 개혁'을 재차 부각했다. 개혁을 정쟁화하지 않고 사회적 설득을 거쳐 추진해야 한다는 취지로 풀이된다. 아울러 의료수가 현실화에 긍정적으로 반응했고 지역·공공·필수의료의 국가 책임도 언급했다. 이 대통령은 22일 청와대 영빈관에서 열린 지역·필수·공공의료 간담회에서 “잠시 우리 의료 체계에 혼란이 있긴 했지만 '어느 사이에 이렇게 조용해졌나'라는 생각이 들 정도로 큰 무리 없이 필",
+          "category": "domestic",
+          "feed_url": "https://rss.etnews.com/Section901.xml",
+          "source_type": "tech",
+          "source_weight": 1.15,
+          "source_badge": "테크",
+          "priority_score": 1,
+          "related_full_sources": []
+        },
+        {
+          "title": "집주인 대출 6억 아파트 매물 등장…대통령式 아파트 매매법, 대출 규제 무력화",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/07/21/2026072101371.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-07-22 14:29:56",
+          "description": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"3\" width=\"100%\"><tr><td><img border=\"0\" src=\"https://image.chosun.com/sitedata/thumbnail/202607/21/2026072101366_0_thumb.jpg\" /></td></tr></table>\n\t \n \n[땅집고] 이재명 대통령이 경기 성남시 분당구 아파트를 매도하는 과정에서 매수자에게 17억7000만원 규모의 근저당권을 설정해 준 사실이 알려진 가운데, 강력한 대출 규제로 막힌 현 부동산 시장에서도 이와 유사한 ‘집주인 대출’ 방식이 등장해 논란이다. 은행권 주택담보대출이 사실상 막힌 상황에서 매도인이 직접 자금을 빌려주는 이른바 ‘매도자 금융(Seller Financing)’ 거래다. 이 대통령 거래 이후 실제 강남 아파트 매물에도 등장하면서 고가 주택 시장의 새로운 거래 방식으로 확산될 수 있다는 전망이 나온다.\n \n☞...",
+          "category": "domestic",
+          "feed_url": "https://realty.chosun.com/site/data/rss/rss.xml",
+          "source_type": "realestate",
+          "source_weight": 1.15,
+          "source_badge": "부동산",
+          "priority_score": 1,
+          "related_full_sources": []
+        }
+      ],
+      "count": 6,
+      "role": "한국 대통령"
+    },
+    "오세훈": {
+      "articles": [
+        {
+          "title": "명태균 연락처 먼저 물어본 오세훈…5번 여론조사 유죄 근거는(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260722168151004",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-07-22 21:51:12",
+          "description": "(서울=연합뉴스) 이승연 기자 = &apos;명태균 여론조사 대납 의혹&apos;으로 기소된 오세훈 서울시장이 유죄를 선고받은 데에는 오 시장 주도로 이뤄진 여론...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "오세훈 내년 1월쯤 대법 판단... 野, 유력 대선주자 잃을 위기",
+          "link": "https://www.chosun.com/politics/politics_general/2026/07/23/Q2AA6MPUUND6FCBVD5HF2QSLZI/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-07-23 00:50:00",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "\"어떻게 만든 서울시장인데…\" 국힘, 吳 공직상실형에 당혹",
+          "link": "https://www.yna.co.kr/view/AKR20260722147000001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-07-22 17:35:22",
+          "description": "(서울=연합뉴스) 박수윤 노선웅 조다운 기자 = 오세훈 서울시장이 정치자금법 위반 혐의 1심 재판에서 공직 상실형을 선고받자 오 시장의 친정인 ...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "“모아타운, 재개발이랑 뭐가 다르죠?”…오세훈의 ‘닥공’전략 [부동산 심머니]",
+          "link": "https://www.mk.co.kr/news/realestate/12104776",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-07-22 19:11:57",
+          "description": "모아주택·모아타운 투자의 ABC노후 빌라 투자에 대한 관심이 커지고 있다. 선택지는 크게 두 가지다. 재개발 구역 또는 모아주택·모아타운 사업지에서 고르는 것이다. 모아주택·모아타..",
+          "category": "domestic",
+          "feed_url": "https://www.mk.co.kr/rss/50300009/",
+          "source_type": "realestate",
+          "source_weight": 1.15,
+          "source_badge": "부동산",
+          "priority_score": 11,
+          "related_full_sources": []
+        },
+        {
+          "title": "오세훈, 대통령 '근저당 매매' 겨냥…\"규제 실패 몸소 증명, 대출규제 완화해야\"",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/07/22/2026072202345.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-07-22 15:35:28",
+          "description": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"3\" width=\"100%\"><tr><td><img border=\"0\" src=\"https://image.chosun.com/sitedata/thumbnail/202607/22/2026072202341_0_thumb.jpg\" /></td></tr></table>\n\t \n[땅집고] 오세훈 서울시장이 이재명 대통령의 분당 아파트 근저당권 설정 매매를 두고 “현행 부동산 규제가 시장을 얼마나 비정상으로 만들었는지 보여주는 사례”라며 정면 비판에 나섰다.\n \n오 시장은 22일 자신의 인스타그램에서 “대통령조차 집 한 채를 팔기 위해 이런 방법을 고민해야 하는 시장이다. 이보다 확실한 규제 실패의 증거가 어디 있겠느냐”고 밝혔다.\n \n그는 “1000만 서울시민에게도 1000만 개의 사정이 있다”며 “대통령의 거래를 비난할 생각은 없다”고 말했다. 이어 그는 “오히려 감사할 일인지도 모른다”며 “현행 부...",
+          "category": "domestic",
+          "feed_url": "https://realty.chosun.com/site/data/rss/rss.xml",
+          "source_type": "realestate",
+          "source_weight": 1.15,
+          "source_badge": "부동산",
+          "priority_score": 1,
+          "related_full_sources": []
+        }
+      ],
+      "count": 5,
+      "role": "서울시장"
+    }
+  }
+}
