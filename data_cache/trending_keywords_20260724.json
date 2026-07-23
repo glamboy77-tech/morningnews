@@ -1,0 +1,382 @@
+{
+  "timestamp": "2026-07-24T06:02:44.685287",
+  "date": "20260724",
+  "data": [
+    {
+      "keyword": "AI 데이터센터",
+      "reason": "SK텔레콤, AI 인프라 투자 확대",
+      "score": 38.38,
+      "article_count": 4,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "메타도 엔비디아도 '빚투'…경쟁하듯 'AI 베팅', 빅테크 현금이 마른다",
+        "춘천 수열에너지 클러스터, AI 데이터센터 투자처 급부상",
+        "SK텔레콤 \"계열사 에스케이하이퍼 주식 3천300억원에 취득\""
+      ],
+      "representative_article": {
+        "title": "SKT, 'SK하이퍼' 설립…AI 데이터센터 15GW 청사진",
+        "link": "https://www.yna.co.kr/view/AKR20260723150800017",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-07-23 17:31:32",
+        "match_score": 38.38
+      },
+      "related_articles": [
+        {
+          "title": "SKT, 'SK하이퍼' 설립…AI 데이터센터 15GW 청사진",
+          "link": "https://www.yna.co.kr/view/AKR20260723150800017",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-07-23 17:31:32",
+          "match_score": 38.38
+        },
+        {
+          "title": "춘천 수열에너지 클러스터, AI 데이터센터 투자처 급부상",
+          "link": "https://www.yna.co.kr/view/AKR20260723159000062",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-07-23 16:44:27",
+          "match_score": 37.03
+        },
+        {
+          "title": "SK텔레콤 \"계열사 에스케이하이퍼 주식 3천300억원에 취득\"",
+          "link": "https://www.yna.co.kr/view/AKR20260723172600008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-07-23 17:32:02",
+          "match_score": 16.37
+        },
+        {
+          "title": "메타도 엔비디아도 '빚투'…경쟁하듯 'AI 베팅', 빅테크 현금이 마른다",
+          "link": "https://www.etnews.com/20260723000459",
+          "source": "전자신문",
+          "published_dt": "2026-07-23 21:50:55",
+          "match_score": 13.2
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "미·이란 긴장",
+      "reason": "국제 유가 급등 및 군사 충돌 우려",
+      "score": 5.97,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "국제"
+      ],
+      "sample_titles": [
+        "미·이란 충돌에 홍해 유조선 피격까지…브렌트유 100달러 돌파(종합)"
+      ],
+      "representative_article": {
+        "title": "미·이란 충돌에 홍해 유조선 피격까지…브렌트유 100달러 돌파(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260723195252072",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-07-23 22:54:24",
+        "match_score": 5.97
+      },
+      "related_articles": [
+        {
+          "title": "미·이란 충돌에 홍해 유조선 피격까지…브렌트유 100달러 돌파(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260723195252072",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-07-23 22:54:24",
+          "match_score": 5.97
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "3기 신도시",
+      "reason": "입주 기간 단축 및 임대주택 확대",
+      "score": 47.2,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산",
+        "정치"
+      ],
+      "sample_titles": [
+        "李 \"3기 신도시 입주 5년 → 2년6개월 단축 … 역세권엔 임대주택\"",
+        "李 \"3기 신도시 입주 5년 → 2년6개월 단축 … 역세권엔 임대주택\""
+      ],
+      "representative_article": {
+        "title": "李 \"3기 신도시 입주 5년 → 2년6개월 단축 … 역세권엔 임대주택\"",
+        "link": "https://www.mk.co.kr/news/realestate/12105696",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-07-23 17:31:11",
+        "match_score": 47.2
+      },
+      "related_articles": [
+        {
+          "title": "李 \"3기 신도시 입주 5년 → 2년6개월 단축 … 역세권엔 임대주택\"",
+          "link": "https://www.mk.co.kr/news/realestate/12105696",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-07-23 17:31:11",
+          "match_score": 47.2
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "현대차 파업",
+      "reason": "노조 파업 장기화 및 이익 감소",
+      "score": 7.47,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업",
+        "정치"
+      ],
+      "sample_titles": [
+        "현대차 노조, 29∼31일 또 매일 4시간 파업…장기화하나(종합)"
+      ],
+      "representative_article": {
+        "title": "현대차 노조, 29∼31일 또 매일 4시간 파업…장기화하나(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260723136851057",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-07-23 21:32:20",
+        "match_score": 7.47
+      },
+      "related_articles": [
+        {
+          "title": "현대차 노조, 29∼31일 또 매일 4시간 파업…장기화하나(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260723136851057",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-07-23 21:32:20",
+          "match_score": 7.47
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "금융 실적",
+      "reason": "KB·신한 역대 최대 순익 기록",
+      "score": 6.27,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "증권사 어닝시즌 개막…KB·NH 최대 실적에 '호실적 랠리' 기대"
+      ],
+      "representative_article": {
+        "title": "증권사 어닝시즌 개막…KB·NH 최대 실적에 '호실적 랠리' 기대",
+        "link": "https://www.yna.co.kr/view/AKR20260723173300008",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-07-23 17:40:31",
+        "match_score": 6.27
+      },
+      "related_articles": [
+        {
+          "title": "증권사 어닝시즌 개막…KB·NH 최대 실적에 '호실적 랠리' 기대",
+          "link": "https://www.yna.co.kr/view/AKR20260723173300008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-07-23 17:40:31",
+          "match_score": 6.27
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "보완수사권",
+      "reason": "여당 형소법 개정안 집중 논의",
+      "score": 41.08,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "與, '보완수사권 폐지' 형소법 개정안 논의 의총…당론추인 주목"
+      ],
+      "representative_article": {
+        "title": "與, '보완수사권 폐지' 형소법 개정안 논의 의총…당론추인 주목",
+        "link": "https://www.yna.co.kr/view/AKR20260723193600001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-07-24 05:00:02",
+        "match_score": 41.08
+      },
+      "related_articles": [
+        {
+          "title": "與, '보완수사권 폐지' 형소법 개정안 논의 의총…당론추인 주목",
+          "link": "https://www.yna.co.kr/view/AKR20260723193600001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-07-24 05:00:02",
+          "match_score": 41.08
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "주한미군",
+      "reason": "미국 의회 유지 법안 통과",
+      "score": 39.1,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "“주한미군 감축 안돼”…美국방수권법, 공화당 주도로 하원 통과",
+        "美국방수권법, 공화 주도 하원통과…‘주한미군 유지·한미 조선협력’"
+      ],
+      "representative_article": {
+        "title": "“주한미군 감축 안돼”…美국방수권법, 공화당 주도로 하원 통과",
+        "link": "https://www.donga.com/news/Inter/article/all/20260723/134350571/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-07-23 15:54:00",
+        "match_score": 39.1
+      },
+      "related_articles": [
+        {
+          "title": "“주한미군 감축 안돼”…美국방수권법, 공화당 주도로 하원 통과",
+          "link": "https://www.donga.com/news/Inter/article/all/20260723/134350571/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-23 15:54:00",
+          "match_score": 39.1
+        },
+        {
+          "title": "美국방수권법, 공화 주도 하원통과…‘주한미군 유지·한미 조선협력’",
+          "link": "https://www.donga.com/news/Inter/article/all/20260723/134352011/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-23 15:29:39",
+          "match_score": 29.8
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "유가 급등",
+      "reason": "국제 정세 불안으로 100달러 돌파",
+      "score": 36.16,
+      "article_count": 3,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "유가 급등에 미국채 금리도 상승세…10년물 4.7% 돌파",
+        "후티 ‘홍해 위협’ 현실로…“봉쇄령 어긴 유조선 2척 공격”",
+        "유가 급등에 미국채 금리도 상승세…10년물 4.7% 돌파 - 연합뉴스"
+      ],
+      "representative_article": {
+        "title": "유가 급등에 미국채 금리도 상승세…10년물 4.7% 돌파 - 연합뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9rYnM2aG1GM0Q5RXdJdkh5UDhaMmIyTUN2eGNENTNMZWRBN1VjZGtNY0xZTWpWVGt5NGR5OTJmWmpWZzZubzM0SWIwVEhFblliSF91UWNtV0taTXR3NGg1WdIBYEFVX3lxTE9rYnM2aG1GM0Q5RXdJdkh5UDhaMmIyTUN2eGNENTNMZWRBN1VjZGtNY0xZTWpWVGt5NGR5OTJmWmpWZzZubzM0SWIwVEhFblliSF91UWNtV0taTXR3NGg1WQ?oc=5",
+        "source": "키워드-에너지물가",
+        "published_dt": "2026-07-23 22:40:51",
+        "match_score": 36.16
+      },
+      "related_articles": [
+        {
+          "title": "유가 급등에 미국채 금리도 상승세…10년물 4.7% 돌파 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9rYnM2aG1GM0Q5RXdJdkh5UDhaMmIyTUN2eGNENTNMZWRBN1VjZGtNY0xZTWpWVGt5NGR5OTJmWmpWZzZubzM0SWIwVEhFblliSF91UWNtV0taTXR3NGg1WdIBYEFVX3lxTE9rYnM2aG1GM0Q5RXdJdkh5UDhaMmIyTUN2eGNENTNMZWRBN1VjZGtNY0xZTWpWVGt5NGR5OTJmWmpWZzZubzM0SWIwVEhFblliSF91UWNtV0taTXR3NGg1WQ?oc=5",
+          "source": "키워드-에너지물가",
+          "published_dt": "2026-07-23 22:40:51",
+          "match_score": 36.16
+        },
+        {
+          "title": "유가 급등에 미국채 금리도 상승세…10년물 4.7% 돌파",
+          "link": "https://www.yna.co.kr/view/AKR20260723196200072",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-07-23 22:40:51",
+          "match_score": 30.18
+        },
+        {
+          "title": "후티 ‘홍해 위협’ 현실로…“봉쇄령 어긴 유조선 2척 공격”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260723/134351909/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-23 16:05:00",
+          "match_score": 11.9
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "넥슨 신작",
+      "reason": "마비노기 이터니티 알파 테스트",
+      "score": 12.28,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "넥슨, '마비노기 이터니티' 9월 3일 알파 테스트",
+        "넥슨, '마비노기 이터니티' 9월 3일 알파 테스트"
+      ],
+      "representative_article": {
+        "title": "넥슨, '마비노기 이터니티' 9월 3일 알파 테스트",
+        "link": "https://www.yna.co.kr/view/AKR20260723149600017",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-07-23 16:24:04",
+        "match_score": 12.28
+      },
+      "related_articles": [
+        {
+          "title": "넥슨, '마비노기 이터니티' 9월 3일 알파 테스트",
+          "link": "https://www.yna.co.kr/view/AKR20260723149600017",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-07-23 16:24:04",
+          "match_score": 12.28
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 9,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재건축·재개발",
+      "reason": "가구 수 증가는 제한적 전망",
+      "score": 22.6,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "“재건축-재개발, 가구 수 크게 안늘어… 서울 택지 찾기 어렵다” - 동아일보"
+      ],
+      "representative_article": {
+        "title": "“재건축-재개발, 가구 수 크게 안늘어… 서울 택지 찾기 어렵다” - 동아일보",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE16THRYTTBXRXVXNG9jVUNSb3kxX0lWNE40Nm5abzV3OU1WVWJ5TlVHZXd3SXNqS0xXSEpXSE1JUTYwOHowOHpzc2lBeFFTeS1iZm5YMXBjS0daSUZFOV9uYXJiY2cwY082eEFsUFM0eVR2bjE2QWfSAWZBVV95cUxPN3V6aDE4UUFxd0wzMzNWdW91aVlBNWlQYWJvR3ZGOFNrWlhmaW5zb3lzMHhJbHJUT09qelVZbm9DUXJCMWJmOUlrdkw0RjBLTHRDVmppcDBVdFVGQmhOY1NXc3hzTXc?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-07-24 04:30:00",
+        "match_score": 22.6
+      },
+      "related_articles": [
+        {
+          "title": "“재건축-재개발, 가구 수 크게 안늘어… 서울 택지 찾기 어렵다” - 동아일보",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE16THRYTTBXRXVXNG9jVUNSb3kxX0lWNE40Nm5abzV3OU1WVWJ5TlVHZXd3SXNqS0xXSEpXSE1JUTYwOHowOHpzc2lBeFFTeS1iZm5YMXBjS0daSUZFOV9uYXJiY2cwY082eEFsUFM0eVR2bjE2QWfSAWZBVV95cUxPN3V6aDE4UUFxd0wzMzNWdW91aVlBNWlQYWJvR3ZGOFNrWlhmaW5zb3lzMHhJbHJUT09qelVZbm9DUXJCMWJmOUlrdkw0RjBLTHRDVmppcDBVdFVGQmhOY1NXc3hzTXc?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-07-24 04:30:00",
+          "match_score": 22.6
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 10,
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}

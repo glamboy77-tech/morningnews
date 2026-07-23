@@ -1,0 +1,136 @@
+{
+  "timestamp": "2026-07-24T06:02:26.005856",
+  "date": "20260724",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "李대통령, 오늘부터 샌프란·남미 7박 11일 순방길",
+          "link": "https://www.yna.co.kr/view/AKR20260723173500001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-07-24 05:00:01",
+          "description": "(서울=연합뉴스) 임형섭 황윤기 기자 = 이재명 대통령은 24일 미국 샌프란시스코와 브라질·칠레·아르헨티나 등 남미 3국, 독일을 차례로 방문하...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "유시민 \"李대통령 1년의 방식, 진영을 혼돈에 몰아넣을 수도\"",
+          "link": "https://www.yna.co.kr/view/AKR20260723191300001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-07-23 21:49:31",
+          "description": "(서울=연합뉴스) 최평천 기자 = 연일 이재명 대통령을 비판 중인 범여권 논객 유시민 작가는 23일 &quot;대통령이 지난 1년간 해온 방식으로는 진영...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李 \"3기 신도시 입주 5년 → 2년6개월 단축 … 역세권엔 임대주택\"",
+          "link": "https://www.mk.co.kr/news/realestate/12105696",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-07-23 17:31:11",
+          "description": "이재명 대통령이 23일 부동산정책 국민 대토론회에서 3기 신도시 등 기존 공공택지의 사업 기간을 절반 이하로 줄이는 방안을 검토하고 있다고 밝혔다. 민간 재건축·재개발의 공급 효과..",
+          "category": "domestic",
+          "feed_url": "https://www.mk.co.kr/rss/50300009/",
+          "source_type": "realestate",
+          "source_weight": 1.15,
+          "source_badge": "부동산",
+          "priority_score": 11,
+          "pol_subcategory": "입법/정책",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李 \"3기 신도시 입주 5년 → 2년6개월 단축 … 역세권엔 임대주택\"",
+          "link": "https://www.mk.co.kr/news/realestate/12105696",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-07-23 17:31:11",
+          "description": "이재명 대통령이 23일 부동산정책 국민 대토론회에서 3기 신도시 등 기존 공공택지의 사업 기간을 절반 이하로 줄이는 방안을 검토하고 있다고 밝혔다. 민간 재건축·재개발의 공급 효과..",
+          "category": "domestic",
+          "feed_url": "https://www.mk.co.kr/rss/50300009/",
+          "source_type": "realestate",
+          "source_weight": 1.15,
+          "source_badge": "부동산",
+          "priority_score": 11,
+          "related_full_sources": []
+        }
+      ],
+      "count": 4,
+      "role": "한국 대통령"
+    },
+    "트럼프": {
+      "articles": [
+        {
+          "title": "트럼프 “대규모 공격” 전운 고조에...유가 100달러, 나스닥 -2% [월가월부]",
+          "link": "https://www.mk.co.kr/news/economy/12106225",
+          "source": "매일경제-경제",
+          "published_dt": "2026-07-24 05:45:18",
+          "description": "홍해 유조선 피격에 유가 7%↑ 유가 120~140달러 폭등 우려도이란전쟁 2라운드의 전운이 고조되자 국제유가가 다시 배럴당 100달러를 넘으며 불안심리가 확산되면서 미국 증시가 ..",
+          "category": "domestic",
+          "feed_url": "https://www.mk.co.kr/rss/30100041/",
+          "source_type": "economy",
+          "source_weight": 1.2,
+          "source_badge": "경제",
+          "priority_score": 2,
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프 “시진핑 9월 24일 방미…AI 관해 대화할 것”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260724/134355947/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-24 04:08:19",
+          "description": "도널드 트럼프 미국 대통령은 시진핑 중국 국가주석이 오는 9월 24일 미국을 방문한다고 23일(현지시간) 밝혔다.로이터통신에 따르면 트럼프 대통령은 이날 “시 주석이 9월 24일에 (미국에) 방문하기로 했다”며 “내가 (지난 5월) 베이징에 있었을 때 이야기했던 인공지능(AI) 문제에 관해 다시 논의할 것”이라고 말했다.트럼프 대통령은 지난 5월 13~15일 방중 당시 시 주석을 백악관으로 초청했다.지난 22일 마코 루비오 미 국무장관은 필리핀에서 왕이 중국 외교부장과 만나 시 주석의 방미 계획과 관련해 많은 대화를 나눴다고 밝혔다.(서울=뉴스1)",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프 “이란 대규모 공격 결정 임박, 이스라엘 요청하면 2분내 참여”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260724/134355928/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-24 02:18:19",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/07/24/134355929.1.jpg\" vspace=\"10\" />도널드 트럼프 대통령은 23일 “이란에 대한 대규모 공격 결정이 임박했으며 이스라엘은 요청하면 2분 내에 참여할 것”이라고 말했다.  트럼프 대통령은 이날 액시오스와의 인터뷰에서 이란에서 대규모 전투 작전을 재개하는 것을 진지하게 고려하고 있다고 밝혔다. 여기에는 2월 28일 시작한 ‘장대한 분노’ 작전 공격보다 더 큰 규모의 공격이 될 수 있다고 말했다. 트럼프 대통령은 “대규모 공격을 고려하고 있다. 이전과는 비교할 수 없을 정도로 큰 공격으로 곧 결정을 내릴 예정”이라며 “모든 준비를 마쳤다”고 말했다. 트럼프 대통령은 짧은 인터뷰에서 대규모 공격 결정이 파장을 낳을 것이라는 점을 인정하면서아직 결정을 내리지는 않았으며 군에 새로운 명령도 하지 않았다고 말했다. 트럼프 대통령은 이스라엘은 “내가 요청하면 2분 안에 참여할 것”이라고 말하면서도 이란에 대한 새로운 작전에 “누구의 도움도 필요하지 않다”고도 했다. 그는 이스라엘이 공습에 동참할 경우 결과가 따를 것이라",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "“서구 문명 수호” vs “철 지난 색깔론”…트럼프의 이념-문화전쟁",
+          "link": "https://www.donga.com/news/Inter/article/all/20260723/134347980/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-23 15:46:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/07/23/134352180.1.jpg\" vspace=\"10\" />“옛 소련이 붕괴된 지 35년이 흐른 지금, 도널드 트럼프 미국 대통령과 집권 공화당원들이 중간선거를 앞두고 ‘무신론적 공산주의자’에 대한 국민적 공포를 조장하려 하고 있다.”(미 정치매체 액시오스)11월 3일 미국 중간선거를 앞두고 도널드 트럼프 대통령이 야당 민주당을 겨냥한 이념 및 문화 공세의 수위를 한껏 끌어올리고 있다. 특히 트럼프 행정부는 수도 워싱턴의 국립미국사박물관(NMAH) 등 주요 박물관의 전시 내용이 좌편향 일색이라고 비판하는 보고서를 공개했다.  또 중간선거를 앞두고 민주당의 예비 선거에서 승리한 ‘민주 사회주의자(DSA·Democratic Socialists of America)’ 후보들을 연일 ‘공산주의자’라고 규정하고 있다. 현대사회의 정교분리 원칙을 도외시한 채 공공 영역에서 보수 기독교도 색채 또한 강화하려 하고 있는 것이다. 자신이 패한 2020년 대선이 부정선거라는 기존 주장 또한 되풀이하며 중간선거 패배 시 비슷한 행보에 나설 뜻을 시사했다.",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 4,
+      "role": "미국 대통령"
+    }
+  }
+}
