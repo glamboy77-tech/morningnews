@@ -1,0 +1,407 @@
+{
+  "timestamp": "2026-07-25T06:02:05.020786",
+  "date": "20260725",
+  "data": [
+    {
+      "keyword": "AI 기술",
+      "reason": "이재명 AI 선언, 엔비디아 협력, AI 공동연구소 설립",
+      "score": 9.7,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제",
+        "기업/산업",
+        "정치"
+      ],
+      "sample_titles": [
+        "KAIST·엔비디아, 'AI 공동연구소' 설립한다",
+        "KAIST·엔비디아, 'AI 공동연구소' 설립한다"
+      ],
+      "representative_article": {
+        "title": "KAIST·엔비디아, 'AI 공동연구소' 설립한다",
+        "link": "https://www.etnews.com/20260724000122",
+        "source": "전자신문",
+        "published_dt": "2026-07-24 11:17:04",
+        "match_score": 9.7
+      },
+      "related_articles": [
+        {
+          "title": "KAIST·엔비디아, 'AI 공동연구소' 설립한다",
+          "link": "https://www.etnews.com/20260724000122",
+          "source": "전자신문",
+          "published_dt": "2026-07-24 11:17:04",
+          "match_score": 9.7
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "반도체",
+      "reason": "반도체 가격 상승, 대형 공급계약 예고",
+      "score": 37.66,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "\"4700조 넘어설 수도\"…한미 AI 협력 본격화, 삼성·SK하이닉스 대형 공급계약 예고 - 지이코노미",
+        "“반도체 팔아도 달러가 새는 한국”…미국이 콕 집은 ‘서학개미’의 역설"
+      ],
+      "representative_article": {
+        "title": "“반도체 팔아도 달러가 새는 한국”…미국이 콕 집은 ‘서학개미’의 역설",
+        "link": "https://www.mk.co.kr/news/economy/12106542",
+        "source": "매일경제-경제",
+        "published_dt": "2026-07-24 13:34:32",
+        "match_score": 37.66
+      },
+      "related_articles": [
+        {
+          "title": "“반도체 팔아도 달러가 새는 한국”…미국이 콕 집은 ‘서학개미’의 역설",
+          "link": "https://www.mk.co.kr/news/economy/12106542",
+          "source": "매일경제-경제",
+          "published_dt": "2026-07-24 13:34:32",
+          "match_score": 37.66
+        },
+        {
+          "title": "\"4700조 넘어설 수도\"…한미 AI 협력 본격화, 삼성·SK하이닉스 대형 공급계약 예고 - 지이코노미",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9HemdWMXJoZ0xtMkFNY0xwcC1wNEhIUS00YWJtaE1nY1dKRENfQmU5LVN4bjMzd195cl80aVFMX3NiVzIwY0ZXUzZ1cHcwSVcxckRMaXJFVk9PalFtQnFqbkhLMlhOTEU?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-07-25 04:58:17",
+          "match_score": 7.36
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "국제유",
+      "reason": "100달러 재돌파, 중동 긴장 영향",
+      "score": 38.8,
+      "article_count": 3,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "국제"
+      ],
+      "sample_titles": [
+        "또 '블랙데이'…유가급등에 코스피 5.7%·코스닥 5.3% 급락(종합)",
+        "국제유가 100달러 재돌파… 정부, 유류세 인하 연장",
+        "중동 긴장 재점화-고유가 영향에 나스닥 2% 넘게 하락"
+      ],
+      "representative_article": {
+        "title": "국제유가 100달러 재돌파… 정부, 유류세 인하 연장",
+        "link": "https://www.donga.com/news/Economy/article/all/20260724/134362052/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-07-25 01:40:00",
+        "match_score": 38.8
+      },
+      "related_articles": [
+        {
+          "title": "국제유가 100달러 재돌파… 정부, 유류세 인하 연장",
+          "link": "https://www.donga.com/news/Economy/article/all/20260724/134362052/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-25 01:40:00",
+          "match_score": 38.8
+        },
+        {
+          "title": "중동 긴장 재점화-고유가 영향에 나스닥 2% 넘게 하락",
+          "link": "https://www.donga.com/news/Economy/article/all/20260724/134357561/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-24 13:51:00",
+          "match_score": 14.9
+        },
+        {
+          "title": "또 '블랙데이'…유가급등에 코스피 5.7%·코스닥 5.3% 급락(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260724134500008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-07-24 16:21:33",
+          "match_score": 12.28
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "삼성생명",
+      "reason": "법인 재취득, 상반기 실적 성장",
+      "score": 39.16,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "삼성생명, 10년 만에 뉴욕·런던 법인 되찾는다",
+        "삼성생명, 10년 만에 뉴욕·런던 법인 되찾는다"
+      ],
+      "representative_article": {
+        "title": "삼성생명, 10년 만에 뉴욕·런던 법인 되찾는다",
+        "link": "https://www.mk.co.kr/news/economy/12106782",
+        "source": "매일경제-경제",
+        "published_dt": "2026-07-24 16:42:24",
+        "match_score": 39.16
+      },
+      "related_articles": [
+        {
+          "title": "삼성생명, 10년 만에 뉴욕·런던 법인 되찾는다",
+          "link": "https://www.mk.co.kr/news/economy/12106782",
+          "source": "매일경제-경제",
+          "published_dt": "2026-07-24 16:42:24",
+          "match_score": 39.16
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재개발·재건축",
+      "reason": "서울 공급 확대 및 정책 논의",
+      "score": 39.41,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "부동산",
+        "정치"
+      ],
+      "sample_titles": [
+        "Q. 재개발·재건축 공급효과 없다?…A. 실제론 14년간 서울서만 5만가구 늘어",
+        "오세훈 “李대통령, 재개발·재건축에 뿌리 깊은 편견 있다” - 시사저널"
+      ],
+      "representative_article": {
+        "title": "오세훈 “李대통령, 재개발·재건축에 뿌리 깊은 편견 있다” - 시사저널",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE02bU12UHVaT1hwYUFJUlE5TkRpUkxfYWpIZlBUN1hQN2FRbDBrVW4tTzFidm1TeEdrMkVWMlJVdWlHVndIRHFCaG1Ibi1YcDBTV3dGNWtiWlVNWTllTkY4Tmt5WnBKcUx3OE5VVzl4NNIBc0FVX3lxTE5lU0d2a0d2LXg0eURKUVBGRTdOU0c3Q3RLRGpaMkRDSTBLdERlZTJ5WnNLMjBPQWhYMEJwWnd6eWNyY2I5T0R0c3FiS1dwN29zdGVnZlI1UktZcXBBQWZER09XOFlXN1NsblJKem9hUHlGczQ?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-07-24 15:19:43",
+        "match_score": 39.41
+      },
+      "related_articles": [
+        {
+          "title": "오세훈 “李대통령, 재개발·재건축에 뿌리 깊은 편견 있다” - 시사저널",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE02bU12UHVaT1hwYUFJUlE5TkRpUkxfYWpIZlBUN1hQN2FRbDBrVW4tTzFidm1TeEdrMkVWMlJVdWlHVndIRHFCaG1Ibi1YcDBTV3dGNWtiWlVNWTllTkY4Tmt5WnBKcUx3OE5VVzl4NNIBc0FVX3lxTE5lU0d2a0d2LXg0eURKUVBGRTdOU0c3Q3RLRGpaMkRDSTBLdERlZTJ5WnNLMjBPQWhYMEJwWnd6eWNyY2I5T0R0c3FiS1dwN29zdGVnZlI1UktZcXBBQWZER09XOFlXN1NsblJKem9hUHlGczQ?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-07-24 15:19:43",
+          "match_score": 39.41
+        },
+        {
+          "title": "Q. 재개발·재건축 공급효과 없다?…A. 실제론 14년간 서울서만 5만가구 늘어",
+          "link": "https://www.mk.co.kr/news/realestate/12106874",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-07-24 17:38:00",
+          "match_score": 32.69
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "보완수사권",
+      "reason": "여당 당론 추인, 정치권 쟁점",
+      "score": 31.7,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "“시간 끌면 정청래 유리” 말 나오자… 與 ‘보완수사권 폐지’ 당론 확정",
+        "與, 의총 1시간반 만에... 검찰 보완수사권 폐지 당론 추인"
+      ],
+      "representative_article": {
+        "title": "與, 의총 1시간반 만에... 검찰 보완수사권 폐지 당론 추인",
+        "link": "https://www.chosun.com/politics/assembly/2026/07/24/XHXKITGVKRF6DGWOM2DDQGZ37A/",
+        "source": "조선일보-정치",
+        "published_dt": "2026-07-24 15:32:55",
+        "match_score": 31.7
+      },
+      "related_articles": [
+        {
+          "title": "與, 의총 1시간반 만에... 검찰 보완수사권 폐지 당론 추인",
+          "link": "https://www.chosun.com/politics/assembly/2026/07/24/XHXKITGVKRF6DGWOM2DDQGZ37A/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-07-24 15:32:55",
+          "match_score": 31.7
+        },
+        {
+          "title": "“시간 끌면 정청래 유리” 말 나오자… 與 ‘보완수사권 폐지’ 당론 확정",
+          "link": "https://www.chosun.com/politics/assembly/2026/07/25/KIB6N4EUYNHT5GJZJ2NW4VQRNA/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-07-25 00:56:00",
+          "match_score": 30.5
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "금융권 실적",
+      "reason": "5대 금융사 역대 최대 순익 기록",
+      "score": 5.37,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "5대금융 상반기 순이익 13조 넘겨…'역대 최대' 실적 행렬"
+      ],
+      "representative_article": {
+        "title": "5대금융 상반기 순이익 13조 넘겨…'역대 최대' 실적 행렬",
+        "link": "https://www.yna.co.kr/view/AKR20260723180200002",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-07-24 18:10:41",
+        "match_score": 5.37
+      },
+      "related_articles": [
+        {
+          "title": "5대금융 상반기 순이익 13조 넘겨…'역대 최대' 실적 행렬",
+          "link": "https://www.yna.co.kr/view/AKR20260723180200002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-07-24 18:10:41",
+          "match_score": 5.37
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "무역관세",
+      "reason": "미국의 韓 관세 부과, 무역갈등",
+      "score": 4.7,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "트럼프, EU 구글 과징금에 “美기업 약탈…관세 부과”"
+      ],
+      "representative_article": {
+        "title": "트럼프, EU 구글 과징금에 “美기업 약탈…관세 부과”",
+        "link": "https://www.donga.com/news/Inter/article/all/20260725/134362593/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-07-25 03:36:31",
+        "match_score": 4.7
+      },
+      "related_articles": [
+        {
+          "title": "트럼프, EU 구글 과징금에 “美기업 약탈…관세 부과”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260725/134362593/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-25 03:36:31",
+          "match_score": 4.7
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "에너지 전환",
+      "reason": "지역 상생 협력 및 현장 점검",
+      "score": 40.08,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "하동군-한국남부발전, 에너지 전환·지역 상생 상호협력 협약"
+      ],
+      "representative_article": {
+        "title": "하동군-한국남부발전, 에너지 전환·지역 상생 상호협력 협약",
+        "link": "https://www.yna.co.kr/view/AKR20260724142400052",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-07-24 16:39:00",
+        "match_score": 40.08
+      },
+      "related_articles": [
+        {
+          "title": "하동군-한국남부발전, 에너지 전환·지역 상생 상호협력 협약",
+          "link": "https://www.yna.co.kr/view/AKR20260724142400052",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-07-24 16:39:00",
+          "match_score": 40.08
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 9,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "함께",
+      "score": 46.8,
+      "article_count": 12,
+      "source_count": 6,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "서민금융진흥원 대구경북본부, 피해 예방 ‘불법사금융 NO!’ 캠페인",
+        "더존비즈온, 개발 조직 전체에 '클로드' 지원…'AX 퍼스트무버' 전략 가속화",
+        "[르포]NHN KCP, 스테이블코인 써보니…상용화 문턱까지 왔다"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "벨기에에서 이비자로 또 그 너머 세상으로: 벨로*, 투모로우랜드와 함께 &apos;에코 오브 투모로우랜드&apos; 통해 자기표현 기려",
+        "link": "https://zdnet.co.kr/view/?no=20260724221004",
+        "source": "ZDNetKorea",
+        "published_dt": "2026-07-24 22:10:04",
+        "match_score": 29.09
+      },
+      "related_articles": [
+        {
+          "title": "벨기에에서 이비자로 또 그 너머 세상으로: 벨로*, 투모로우랜드와 함께 &apos;에코 오브 투모로우랜드&apos; 통해 자기표현 기려",
+          "link": "https://zdnet.co.kr/view/?no=20260724221004",
+          "source": "ZDNetKorea",
+          "published_dt": "2026-07-24 22:10:04",
+          "match_score": 29.09
+        },
+        {
+          "title": "파주경찰-서울우유 맞손…우유팩에 보이스피싱 예방 홍보",
+          "link": "https://www.yna.co.kr/view/AKR20260724149900060",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-07-24 17:07:11",
+          "match_score": 11.68
+        },
+        {
+          "title": "서민금융진흥원 대구경북본부, 피해 예방 ‘불법사금융 NO!’ 캠페인",
+          "link": "https://www.mk.co.kr/news/economy/12106803",
+          "source": "매일경제-경제",
+          "published_dt": "2026-07-24 16:58:48",
+          "match_score": 11.66
+        },
+        {
+          "title": "더존비즈온, 개발 조직 전체에 '클로드' 지원…'AX 퍼스트무버' 전략 가속화",
+          "link": "https://www.etnews.com/20260724000272",
+          "source": "전자신문",
+          "published_dt": "2026-07-24 15:24:51",
+          "match_score": 11.5
+        },
+        {
+          "title": "[르포]NHN KCP, 스테이블코인 써보니…상용화 문턱까지 왔다",
+          "link": "https://www.etnews.com/20260724000152",
+          "source": "전자신문",
+          "published_dt": "2026-07-24 13:11:39",
+          "match_score": 11.5
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
