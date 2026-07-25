@@ -5,11 +5,11 @@
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Morning News 2026.07.26</title>
-            <link rel="manifest" href="manifest.json">
+            <link rel="manifest" href="../manifest.json">
             <script>
               // Service Worker Registration
               if ('serviceWorker' in navigator) {
-                navigator.serviceWorker.register('sw.js')
+                navigator.serviceWorker.register('../sw.js')
                   .then(registration => {
                     console.log('Service Worker registered:', registration);
                   })
@@ -169,7 +169,6 @@ ${shareText}`);
                   if (geminiLoadTimer) clearTimeout(geminiLoadTimer);
                   geminiLoadTimer = setTimeout(() => {
                       if (!geminiLoaded) {
-                          // Keep the hint visible but allow interaction if needed.
                           setGeminiLoading(false);
                       }
                   }, 15000);
@@ -1079,7 +1078,7 @@ ${shareText}`);
                         <button class="action-btn" onclick="shareMorningBriefing()">📤 오늘 브리핑 공유</button>
                     </div>
                 </header>
-        <div class="sticky-nav"><a href="archive.html" class="nav-pill">🗓️ 아카이브</a><a href="#인물별" class="nav-pill">👤 인물별 (3)</a><a href="#keywords" class="nav-pill">🔥 키워드 (10)</a><a href="#정치" class="nav-pill">정치 (4)</a><a href="#경제/거시" class="nav-pill">경제/거시 (10)</a><a href="#기업/산업" class="nav-pill">기업/산업 (4)</a><a href="#부동산" class="nav-pill">부동산 (2)</a><a href="#국제" class="nav-pill">국제 (1)</a><a href="#science" class="nav-pill">테크 (10)</a></div><div class="briefing-card"><div class="briefing-title">⚡ Morning Briefing</div>
+        <div class="sticky-nav"><a href="../archive.html" class="nav-pill">🗓️ 아카이브</a><a href="#인물별" class="nav-pill">👤 인물별 (3)</a><a href="#keywords" class="nav-pill">🔥 키워드 (10)</a><a href="#정치" class="nav-pill">정치 (4)</a><a href="#경제/거시" class="nav-pill">경제/거시 (10)</a><a href="#기업/산업" class="nav-pill">기업/산업 (4)</a><a href="#부동산" class="nav-pill">부동산 (2)</a><a href="#국제" class="nav-pill">국제 (1)</a><a href="#science" class="nav-pill">테크 (10)</a></div><div class="briefing-card"><div class="briefing-title">⚡ Morning Briefing</div>
                     <div class="briefing-item">
                         <span class="briefing-label">정치</span>
                         <span class="briefing-content">결혼세액공제 대신 보조금으로 바뀌는 등 가업상속공제 재설계가 논의되고 있습니다. 박용진 의원이 김민석 의원을 지원하며 당내 대표 선출에 관심이 쏠리고 있고, 오세훈 시장 1심 유죄 판결 이후 내부 갈등이 재점화되는 분위기입니다. 박지원 의원은 정성호 의원의 사의를 이해하지만 반려해야 한다는 입장입니다.</span>
@@ -1646,11 +1645,7 @@ ${shareText}`);
             <div id="geminiOverlay" class="gemini-overlay" role="dialog" aria-modal="true" aria-label="Gemini Navigator">
                 <div class="gemini-overlay-header">
                     <div class="gemini-overlay-title">🔎 Gemini 네비게이터</div>
-                    <div class="gemini-overlay-actions">
-                        <button class="gemini-icon-btn" type="button" title="새로고침" onclick="reloadGeminiNavigator()">↻</button>
-                        <button class="gemini-icon-btn" type="button" title="새 창으로 열기" onclick="openGeminiInNewTab()">↗</button>
-                        <button class="gemini-icon-btn" type="button" title="닫기" onclick="closeGeminiNavigator()">✕</button>
-                    </div>
+                    <div class="gemini-overlay-actions"><button class="gemini-icon-btn" type="button" title="새로고침" onclick="reloadGeminiNavigator()">↻</button><button class="gemini-icon-btn" type="button" title="새 창으로 열기" onclick="openGeminiInNewTab()">↗</button><button class="gemini-icon-btn" type="button" title="닫기" onclick="closeGeminiNavigator()">✕</button></div>
                 </div>
                 <div class="gemini-overlay-body">
                     <div id="geminiLoading" class="gemini-overlay-loading">

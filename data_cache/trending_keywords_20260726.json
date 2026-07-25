@@ -1,0 +1,377 @@
+{
+  "timestamp": "2026-07-26T06:01:29.889510",
+  "date": "20260726",
+  "data": [
+    {
+      "keyword": "AI 반도체",
+      "reason": "기업 및 경제 분야 관련 보도 다수",
+      "score": 38.16,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "삼성·SK, 美 실리콘밸리서 AI 반도체 '잭팟' - 중소기업투데이"
+      ],
+      "representative_article": {
+        "title": "삼성·SK, 美 실리콘밸리서 AI 반도체 '잭팟' - 중소기업투데이",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8tSlRta1NGTk5vT2Jyd2ozSV94Y0VlRW1oM0lhbGw2SHdfWnBiM1JSODRiQlhNLWFFYktqSmlCcmVtdnJuQnR5c0tMTkE5S2gwc2w5dW1kRFNqX3pDbXVKWDBaaElCazFHbjBmQdIBbEFVX3lxTE8tSlRta1NGTk5vT2Jyd2ozSV94Y0VlRW1oM0lhbGw2SHdfWnBiM1JSODRiQlhNLWFFYktqSmlCcmVtdnJuQnR5c0tMTkE5S2gwc2w5dW1kRFNqX3pDbXVKWDBaaElCazFHbjBmQQ?oc=5",
+        "source": "키워드-반도체AI",
+        "published_dt": "2026-07-26 02:42:15",
+        "match_score": 38.16
+      },
+      "related_articles": [
+        {
+          "title": "삼성·SK, 美 실리콘밸리서 AI 반도체 '잭팟' - 중소기업투데이",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8tSlRta1NGTk5vT2Jyd2ozSV94Y0VlRW1oM0lhbGw2SHdfWnBiM1JSODRiQlhNLWFFYktqSmlCcmVtdnJuQnR5c0tMTkE5S2gwc2w5dW1kRFNqX3pDbXVKWDBaaElCazFHbjBmQdIBbEFVX3lxTE8tSlRta1NGTk5vT2Jyd2ozSV94Y0VlRW1oM0lhbGw2SHdfWnBiM1JSODRiQlhNLWFFYktqSmlCcmVtdnJuQnR5c0tMTkE5S2gwc2w5dW1kRFNqX3pDbXVKWDBaaElCazFHbjBmQQ?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-07-26 02:42:15",
+          "match_score": 38.16
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI 데이터센터",
+      "reason": "네이버, SKT 대규모 투자 발표",
+      "score": 48.33,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "AI 데이터센터 판 키운다…네이버 14조·SKT 2GW 추진(종합)"
+      ],
+      "representative_article": {
+        "title": "AI 데이터센터 판 키운다…네이버 14조·SKT 2GW 추진(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260725033651017",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-07-25 14:43:12",
+        "match_score": 48.33
+      },
+      "related_articles": [
+        {
+          "title": "AI 데이터센터 판 키운다…네이버 14조·SKT 2GW 추진(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260725033651017",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-07-25 14:43:12",
+          "match_score": 48.33
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "주택 보유율",
+      "reason": "2030 세대 진입 어려움 보도",
+      "score": 7.47,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "주택시장 진입 '바늘구멍'…2030 세대 보유율 30% 밑으로"
+      ],
+      "representative_article": {
+        "title": "주택시장 진입 '바늘구멍'…2030 세대 보유율 30% 밑으로",
+        "link": "https://www.yna.co.kr/view/AKR20260725005700002",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-07-26 05:45:04",
+        "match_score": 7.47
+      },
+      "related_articles": [
+        {
+          "title": "주택시장 진입 '바늘구멍'…2030 세대 보유율 30% 밑으로",
+          "link": "https://www.yna.co.kr/view/AKR20260725005700002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-07-26 05:45:04",
+          "match_score": 7.47
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "중소기업 대출",
+      "reason": "금융 환경 변화 지적",
+      "score": 33.03,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "'생산적 금융'이라더니…중소기업 대출 80%에 담보·보증 요구"
+      ],
+      "representative_article": {
+        "title": "'생산적 금융'이라더니…중소기업 대출 80%에 담보·보증 요구",
+        "link": "https://www.yna.co.kr/view/AKR20260723176800002",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-07-26 05:53:01",
+        "match_score": 33.03
+      },
+      "related_articles": [
+        {
+          "title": "'생산적 금융'이라더니…중소기업 대출 80%에 담보·보증 요구",
+          "link": "https://www.yna.co.kr/view/AKR20260723176800002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-07-26 05:53:01",
+          "match_score": 33.03
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "금융지주 순익",
+      "reason": "역대 최대 실적 발표",
+      "score": 7.0,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "5대 금융지주, 상반기 순익 13조1183억원 '역대 최대'…비이자이익 급증 견인"
+      ],
+      "representative_article": {
+        "title": "5대 금융지주, 상반기 순익 13조1183억원 '역대 최대'…비이자이익 급증 견인",
+        "link": "https://www.etnews.com/20260724000327",
+        "source": "전자신문",
+        "published_dt": "2026-07-25 09:00:00",
+        "match_score": 7.0
+      },
+      "related_articles": [
+        {
+          "title": "5대 금융지주, 상반기 순익 13조1183억원 '역대 최대'…비이자이익 급증 견인",
+          "link": "https://www.etnews.com/20260724000327",
+          "source": "전자신문",
+          "published_dt": "2026-07-25 09:00:00",
+          "match_score": 7.0
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "사우디 아람코",
+      "reason": "후티 공격 사건 보도",
+      "score": 42.1,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "후티, 사우디 아람코 석유시설 공격…예멘 정부군도 후티 거점 공습"
+      ],
+      "representative_article": {
+        "title": "후티, 사우디 아람코 석유시설 공격…예멘 정부군도 후티 거점 공습",
+        "link": "https://www.donga.com/news/Inter/article/all/20260725/134363574/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-07-25 22:26:46",
+        "match_score": 42.1
+      },
+      "related_articles": [
+        {
+          "title": "후티, 사우디 아람코 석유시설 공격…예멘 정부군도 후티 거점 공습",
+          "link": "https://www.donga.com/news/Inter/article/all/20260725/134363574/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-25 22:26:46",
+          "match_score": 42.1
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "가업상속공제",
+      "reason": "정치권 세제 정책 변화 논의",
+      "score": 29.98,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "결혼세액공제 대신 보조금 준다…30년 된 가업상속공제 재설계"
+      ],
+      "representative_article": {
+        "title": "결혼세액공제 대신 보조금 준다…30년 된 가업상속공제 재설계",
+        "link": "https://www.yna.co.kr/view/AKR20260725055700002",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-07-26 05:47:01",
+        "match_score": 29.98
+      },
+      "related_articles": [
+        {
+          "title": "결혼세액공제 대신 보조금 준다…30년 된 가업상속공제 재설계",
+          "link": "https://www.yna.co.kr/view/AKR20260725055700002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-07-26 05:47:01",
+          "match_score": 29.98
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "젠슨",
+      "score": 22.9,
+      "article_count": 3,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "기업/산업",
+        "정치"
+      ],
+      "sample_titles": [
+        "李 “주식 약간 조정 중” 젠슨 황 “다시 오를겁니다”",
+        "李 대통령 “요즘 韓 주가 조정 중” 말하자…젠슨 황 “곧 다시 오를 것”",
+        "정의선, 엔비디아 본사서 젠슨 황 면담…자율주행 등 협력 논의"
+      ],
+      "llm_candidate": false,
+      "rank": 8,
+      "representative_article": {
+        "title": "정의선, 엔비디아 본사서 젠슨 황 면담…자율주행 등 협력 논의",
+        "link": "https://www.yna.co.kr/view/AKR20260725017700003",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-07-25 08:57:40",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "정의선, 엔비디아 본사서 젠슨 황 면담…자율주행 등 협력 논의",
+          "link": "https://www.yna.co.kr/view/AKR20260725017700003",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-07-25 08:57:40",
+          "match_score": 37.67
+        },
+        {
+          "title": "李 대통령 “요즘 韓 주가 조정 중” 말하자…젠슨 황 “곧 다시 오를 것”",
+          "link": "https://www.etnews.com/20260725000032",
+          "source": "전자신문",
+          "published_dt": "2026-07-25 18:47:03",
+          "match_score": 37.49
+        },
+        {
+          "title": "李 “주식 약간 조정 중” 젠슨 황 “다시 오를겁니다”",
+          "link": "https://www.chosun.com/politics/politics_general/2026/07/25/W7W377UKTNG6ZFNPCNPWSVA6QU/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-07-25 12:11:57",
+          "match_score": 29.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "정의선",
+      "score": 19.5,
+      "article_count": 3,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "李 대통령 “요즘 韓 주가 조정 중” 말하자…젠슨 황 “곧 다시 오를 것”",
+        "정의선 “AI팩토리·도시 통합...엔비디아와 로봇 플랫폼 구축”",
+        "정의선, 엔비디아 본사서 젠슨 황 면담…자율주행 등 협력 논의"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "정의선, 엔비디아 본사서 젠슨 황 면담…자율주행 등 협력 논의",
+        "link": "https://www.yna.co.kr/view/AKR20260725017700003",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-07-25 08:57:40",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "정의선, 엔비디아 본사서 젠슨 황 면담…자율주행 등 협력 논의",
+          "link": "https://www.yna.co.kr/view/AKR20260725017700003",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-07-25 08:57:40",
+          "match_score": 37.67
+        },
+        {
+          "title": "정의선 “AI팩토리·도시 통합...엔비디아와 로봇 플랫폼 구축”",
+          "link": "https://www.mk.co.kr/news/economy/12107347",
+          "source": "매일경제-경제",
+          "published_dt": "2026-07-25 18:14:59",
+          "match_score": 37.66
+        },
+        {
+          "title": "李 대통령 “요즘 韓 주가 조정 중” 말하자…젠슨 황 “곧 다시 오를 것”",
+          "link": "https://www.etnews.com/20260725000032",
+          "source": "전자신문",
+          "published_dt": "2026-07-25 18:47:03",
+          "match_score": 11.5
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "엔비디아",
+      "score": 18.7,
+      "article_count": 3,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "李 대통령 “요즘 韓 주가 조정 중” 말하자…젠슨 황 “곧 다시 오를 것”",
+        "정의선 “AI팩토리·도시 통합...엔비디아와 로봇 플랫폼 구축”",
+        "정의선, 엔비디아 본사서 젠슨 황 면담…자율주행 등 협력 논의"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "정의선, 엔비디아 본사서 젠슨 황 면담…자율주행 등 협력 논의",
+        "link": "https://www.yna.co.kr/view/AKR20260725017700003",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-07-25 08:57:40",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "정의선, 엔비디아 본사서 젠슨 황 면담…자율주행 등 협력 논의",
+          "link": "https://www.yna.co.kr/view/AKR20260725017700003",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-07-25 08:57:40",
+          "match_score": 37.67
+        },
+        {
+          "title": "정의선 “AI팩토리·도시 통합...엔비디아와 로봇 플랫폼 구축”",
+          "link": "https://www.mk.co.kr/news/economy/12107347",
+          "source": "매일경제-경제",
+          "published_dt": "2026-07-25 18:14:59",
+          "match_score": 28.66
+        },
+        {
+          "title": "李 대통령 “요즘 韓 주가 조정 중” 말하자…젠슨 황 “곧 다시 오를 것”",
+          "link": "https://www.etnews.com/20260725000032",
+          "source": "전자신문",
+          "published_dt": "2026-07-25 18:47:03",
+          "match_score": 11.5
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
