@@ -1,0 +1,357 @@
+{
+  "timestamp": "2026-07-27T06:02:06.752995",
+  "date": "20260727",
+  "data": [
+    {
+      "keyword": "한반도 비핵화",
+      "reason": "ARF 의장성명 연속 언급",
+      "score": 14.9,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "ARF 의장성명, 2년 연속 “한반도의 완전한 비핵화” 언급"
+      ],
+      "representative_article": {
+        "title": "ARF 의장성명, 2년 연속 “한반도의 완전한 비핵화” 언급",
+        "link": "https://www.chosun.com/politics/diplomacy-defense/2026/07/26/TFO54OH7S5EZ3KXCECI4KWIHNE/",
+        "source": "조선일보-정치",
+        "published_dt": "2026-07-26 16:33:04",
+        "match_score": 14.9
+      },
+      "related_articles": [
+        {
+          "title": "ARF 의장성명, 2년 연속 “한반도의 완전한 비핵화” 언급",
+          "link": "https://www.chosun.com/politics/diplomacy-defense/2026/07/26/TFO54OH7S5EZ3KXCECI4KWIHNE/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-07-26 16:33:04",
+          "match_score": 14.9
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI 동맹",
+      "reason": "국내외 빅테크 협력 확대",
+      "score": 30.7,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "韓, 빅테크와 9500억 달러 AI 동맹…‘대체불가 핵심’ 부상",
+        "韓, 빅테크와 9500억 달러 AI 동맹…‘대체불가 핵심’ 부상"
+      ],
+      "representative_article": {
+        "title": "韓, 빅테크와 9500억 달러 AI 동맹…‘대체불가 핵심’ 부상",
+        "link": "https://www.donga.com/news/Economy/article/all/20260726/134366023/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-07-26 17:21:00",
+        "match_score": 30.7
+      },
+      "related_articles": [
+        {
+          "title": "韓, 빅테크와 9500억 달러 AI 동맹…‘대체불가 핵심’ 부상",
+          "link": "https://www.donga.com/news/Economy/article/all/20260726/134366023/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-26 17:21:00",
+          "match_score": 30.7
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재개발",
+      "reason": "대형 재건축·재개발 사업 활발",
+      "score": 39.21,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "부동산"
+      ],
+      "sample_titles": [
+        "오세훈 \"李, 정비사업 왜곡된 편견...오답 증세는 낙제\" 작심비판",
+        "용인특례시, 주민 제안 재개발·재건축 정비계획 수립 비용 전국 최초 지원 - 엔디엔뉴스"
+      ],
+      "representative_article": {
+        "title": "용인특례시, 주민 제안 재개발·재건축 정비계획 수립 비용 전국 최초 지원 - 엔디엔뉴스",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1yR21PZU83VXpwSG9YbGZ2bUY1MTE2SFNGSXlOa2tkSTZMNUV1YzMxSktIU0FTeUFDcDZLdzlUS0lQdUtUTmEtb3ZyNnl5SFdjNHZJbklLRk1oSzZSeEw5YTBJVG5tTkswQWpOQVBTWW5RZ9IBckFVX3lxTE1yR21PZU83VXpwSG9YbGZ2bUY1MTE2SFNGSXlOa2tkSTZMNUV1YzMxSktIU0FTeUFDcDZLdzlUS0lQdUtUTmEtb3ZyNnl5SFdjNHZJbklLRk1oSzZSeEw5YTBJVG5tTkswQWpOQVBTWW5RZw?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-07-26 23:19:48",
+        "match_score": 39.21
+      },
+      "related_articles": [
+        {
+          "title": "용인특례시, 주민 제안 재개발·재건축 정비계획 수립 비용 전국 최초 지원 - 엔디엔뉴스",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1yR21PZU83VXpwSG9YbGZ2bUY1MTE2SFNGSXlOa2tkSTZMNUV1YzMxSktIU0FTeUFDcDZLdzlUS0lQdUtUTmEtb3ZyNnl5SFdjNHZJbklLRk1oSzZSeEw5YTBJVG5tTkswQWpOQVBTWW5RZ9IBckFVX3lxTE1yR21PZU83VXpwSG9YbGZ2bUY1MTE2SFNGSXlOa2tkSTZMNUV1YzMxSktIU0FTeUFDcDZLdzlUS0lQdUtUTmEtb3ZyNnl5SFdjNHZJbklLRk1oSzZSeEw5YTBJVG5tTkswQWpOQVBTWW5RZw?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-07-26 23:19:48",
+          "match_score": 39.21
+        },
+        {
+          "title": "오세훈 \"李, 정비사업 왜곡된 편견...오답 증세는 낙제\" 작심비판",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/07/26/2026072600692.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-07-26 10:46:25",
+          "match_score": 10.4
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "전세난",
+      "reason": "서울 아파트 전세가 상승과 대출 문제",
+      "score": 4.9,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "부동산"
+      ],
+      "sample_titles": [
+        "2금융권까지 집단대출 막혀…\"새 아파트 못들어가나\" 분통"
+      ],
+      "representative_article": {
+        "title": "2금융권까지 집단대출 막혀…\"새 아파트 못들어가나\" 분통",
+        "link": "https://www.mk.co.kr/news/realestate/12107762",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-07-26 17:31:40",
+        "match_score": 4.9
+      },
+      "related_articles": [
+        {
+          "title": "2금융권까지 집단대출 막혀…\"새 아파트 못들어가나\" 분통",
+          "link": "https://www.mk.co.kr/news/realestate/12107762",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-07-26 17:31:40",
+          "match_score": 4.9
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "미중 무역",
+      "reason": "301조 관세 분쟁 및 소송",
+      "score": 5.0,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "국제"
+      ],
+      "sample_titles": [
+        "“트럼프 301조 관세 위법”… 美 기업 2곳, 무효화 소송"
+      ],
+      "representative_article": {
+        "title": "“트럼프 301조 관세 위법”… 美 기업 2곳, 무효화 소송",
+        "link": "https://www.donga.com/news/Inter/article/all/20260726/134368113/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-07-27 04:30:00",
+        "match_score": 5.0
+      },
+      "related_articles": [
+        {
+          "title": "“트럼프 301조 관세 위법”… 美 기업 2곳, 무효화 소송",
+          "link": "https://www.donga.com/news/Inter/article/all/20260726/134368113/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-27 04:30:00",
+          "match_score": 5.0
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "배터리 혁신",
+      "reason": "LG에너지솔루션·LG화학 성과",
+      "score": 10.3,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "LG에너지솔루션, AI 에이전트·실험 자동화로 배터리 개발 혁신"
+      ],
+      "representative_article": {
+        "title": "LG에너지솔루션, AI 에이전트·실험 자동화로 배터리 개발 혁신",
+        "link": "https://www.etnews.com/20260724000112",
+        "source": "전자신문",
+        "published_dt": "2026-07-26 17:00:00",
+        "match_score": 10.3
+      },
+      "related_articles": [
+        {
+          "title": "LG에너지솔루션, AI 에이전트·실험 자동화로 배터리 개발 혁신",
+          "link": "https://www.etnews.com/20260724000112",
+          "source": "전자신문",
+          "published_dt": "2026-07-26 17:00:00",
+          "match_score": 10.3
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "방산 투자",
+      "reason": "안두릴 대규모 투자 추진",
+      "score": 6.69,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "안두릴, 146조 몸값으로 투자 추진…방산 공룡 '록히드 마틴' 턱밑 추격"
+      ],
+      "representative_article": {
+        "title": "안두릴, 146조 몸값으로 투자 추진…방산 공룡 '록히드 마틴' 턱밑 추격",
+        "link": "https://www.aitimes.com/news/articleView.html?idxno=213188",
+        "source": "AI타임스",
+        "published_dt": "2026-07-27 02:00:32",
+        "match_score": 6.69
+      },
+      "related_articles": [
+        {
+          "title": "안두릴, 146조 몸값으로 투자 추진…방산 공룡 '록히드 마틴' 턱밑 추격",
+          "link": "https://www.aitimes.com/news/articleView.html?idxno=213188",
+          "source": "AI타임스",
+          "published_dt": "2026-07-27 02:00:32",
+          "match_score": 6.69
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "일본 영주권",
+      "reason": "체류 문턱 강화 정책 발표",
+      "score": 5.9,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "“일본인 평균보다 소득 많아야 영주권”… 日, 외국인의 체류 문턱 크게 높인다"
+      ],
+      "representative_article": {
+        "title": "“일본인 평균보다 소득 많아야 영주권”… 日, 외국인의 체류 문턱 크게 높인다",
+        "link": "https://www.donga.com/news/Inter/article/all/20260726/134368028/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-07-27 04:30:00",
+        "match_score": 5.9
+      },
+      "related_articles": [
+        {
+          "title": "“일본인 평균보다 소득 많아야 영주권”… 日, 외국인의 체류 문턱 크게 높인다",
+          "link": "https://www.donga.com/news/Inter/article/all/20260726/134368028/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-27 04:30:00",
+          "match_score": 5.9
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "중대재해",
+      "reason": "카카오뱅크 파업 조짐",
+      "score": 6.88,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "성과보상체계 이견 못 좁힌 카카오뱅크…인뱅 첫 파업 사례될까"
+      ],
+      "representative_article": {
+        "title": "성과보상체계 이견 못 좁힌 카카오뱅크…인뱅 첫 파업 사례될까",
+        "link": "https://www.yna.co.kr/view/AKR20260726046800002",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-07-27 05:53:00",
+        "match_score": 6.88
+      },
+      "related_articles": [
+        {
+          "title": "성과보상체계 이견 못 좁힌 카카오뱅크…인뱅 첫 파업 사례될까",
+          "link": "https://www.yna.co.kr/view/AKR20260726046800002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-07-27 05:53:00",
+          "match_score": 6.88
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 9,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "산불",
+      "reason": "프랑스·스페인과 미국 대형 산불 발생",
+      "score": 40.9,
+      "article_count": 3,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "美 오리건도 대형 산불… 소방관들 ‘맞불 작전’",
+        "프랑스-스페인 번지는 최악 산불, 30만명 긴급대피",
+        "와인 산지도 위험하다…프랑스-스페인 대형 산불, 30만명 대피"
+      ],
+      "representative_article": {
+        "title": "와인 산지도 위험하다…프랑스-스페인 대형 산불, 30만명 대피",
+        "link": "https://www.donga.com/news/Inter/article/all/20260726/134366058/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-07-26 18:07:00",
+        "match_score": 40.9
+      },
+      "related_articles": [
+        {
+          "title": "와인 산지도 위험하다…프랑스-스페인 대형 산불, 30만명 대피",
+          "link": "https://www.donga.com/news/Inter/article/all/20260726/134366058/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-26 18:07:00",
+          "match_score": 40.9
+        },
+        {
+          "title": "프랑스-스페인 번지는 최악 산불, 30만명 긴급대피",
+          "link": "https://www.donga.com/news/Inter/article/all/20260726/134368030/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-27 04:30:00",
+          "match_score": 40.0
+        },
+        {
+          "title": "美 오리건도 대형 산불… 소방관들 ‘맞불 작전’",
+          "link": "https://www.donga.com/news/Inter/article/all/20260726/134368027/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-27 04:30:00",
+          "match_score": 38.8
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 10,
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
