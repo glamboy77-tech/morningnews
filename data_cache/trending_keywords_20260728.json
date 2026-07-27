@@ -1,0 +1,362 @@
+{
+  "timestamp": "2026-07-28T06:02:34.982123",
+  "date": "20260728",
+  "data": [
+    {
+      "keyword": "부동산 정책",
+      "reason": "여당 내 논란과 재개발 가속",
+      "score": 30.65,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산",
+        "정치"
+      ],
+      "sample_titles": [
+        "속타는 與 “부동산 정책, 이런 식이면 총선 망한다”"
+      ],
+      "representative_article": {
+        "title": "속타는 與 “부동산 정책, 이런 식이면 총선 망한다”",
+        "link": "https://www.chosun.com/politics/assembly/2026/07/28/RT7QUAQ7CVCNVF2ILZJOMH3GRE/",
+        "source": "조선일보-정치",
+        "published_dt": "2026-07-28 00:49:00",
+        "match_score": 30.65
+      },
+      "related_articles": [
+        {
+          "title": "속타는 與 “부동산 정책, 이런 식이면 총선 망한다”",
+          "link": "https://www.chosun.com/politics/assembly/2026/07/28/RT7QUAQ7CVCNVF2ILZJOMH3GRE/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-07-28 00:49:00",
+          "match_score": 30.65
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI 기술",
+      "reason": "국내외 기업 협력 및 인증",
+      "score": 3.5,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "LG전자 ‘액체 냉각 솔루션’, 엔비디아 인증 획득"
+      ],
+      "representative_article": {
+        "title": "LG전자 ‘액체 냉각 솔루션’, 엔비디아 인증 획득",
+        "link": "https://www.chosun.com/economy/tech_it/2026/07/28/3T6DS6HVSFBVHP2V6M7W4KNGTQ/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-07-28 00:33:00",
+        "match_score": 3.5
+      },
+      "related_articles": [
+        {
+          "title": "LG전자 ‘액체 냉각 솔루션’, 엔비디아 인증 획득",
+          "link": "https://www.chosun.com/economy/tech_it/2026/07/28/3T6DS6HVSFBVHP2V6M7W4KNGTQ/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-07-28 00:33:00",
+          "match_score": 3.5
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "환율 방어",
+      "reason": "대규모 외환시장 개입",
+      "score": 32.26,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "韓, 환율 방어에 280억弗 풀어…美재무부 \"개입 규모 세계 3위\""
+      ],
+      "representative_article": {
+        "title": "韓, 환율 방어에 280억弗 풀어…美재무부 \"개입 규모 세계 3위\"",
+        "link": "https://www.mk.co.kr/news/economy/12108688",
+        "source": "매일경제-경제",
+        "published_dt": "2026-07-27 17:53:54",
+        "match_score": 32.26
+      },
+      "related_articles": [
+        {
+          "title": "韓, 환율 방어에 280억弗 풀어…美재무부 \"개입 규모 세계 3위\"",
+          "link": "https://www.mk.co.kr/news/economy/12108688",
+          "source": "매일경제-경제",
+          "published_dt": "2026-07-27 17:53:54",
+          "match_score": 32.26
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재개발·재건축",
+      "reason": "신도시 속도전 및 지역별 상승",
+      "score": 40.41,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "한대희 군포시장, 12개 동 현장 방문 마무리…“재개발·재건축 속도 높인다” - 뉴스타운"
+      ],
+      "representative_article": {
+        "title": "한대희 군포시장, 12개 동 현장 방문 마무리…“재개발·재건축 속도 높인다” - 뉴스타운",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5qQXgtODVWSzNZTVJobWs0ZUllanZqSDlKUVluSUlySjlzYm1QX1N6VkVySURfQ0VEbTZiNGtVTXQxU3dTQjlfa2Nfc0lrOE1abkdfS3E2WFFXR3J4cV9wVDd0MUJyWGI5bWcxenR3?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-07-27 23:11:12",
+        "match_score": 40.41
+      },
+      "related_articles": [
+        {
+          "title": "한대희 군포시장, 12개 동 현장 방문 마무리…“재개발·재건축 속도 높인다” - 뉴스타운",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5qQXgtODVWSzNZTVJobWs0ZUllanZqSDlKUVluSUlySjlzYm1QX1N6VkVySURfQ0VEbTZiNGtVTXQxU3dTQjlfa2Nfc0lrOE1abkdfS3E2WFFXR3J4cV9wVDd0MUJyWGI5bWcxenR3?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-07-27 23:11:12",
+          "match_score": 40.41
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "영업이익",
+      "reason": "기업 실적 호조와 부진 혼재",
+      "score": 29.5,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "한화오션, ‘깜짝 실적’… 2분기 영업이익 98% 증가한 7361억",
+        "두산, 2분기 영업익 4884억…계열사 호실적에 '승승장구'"
+      ],
+      "representative_article": {
+        "title": "한화오션, ‘깜짝 실적’… 2분기 영업이익 98% 증가한 7361억",
+        "link": "https://www.chosun.com/economy/industry-company/2026/07/28/WNGZSQYRB5HLJGVSJJWJDXEWTA/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-07-28 00:36:00",
+        "match_score": 29.5
+      },
+      "related_articles": [
+        {
+          "title": "한화오션, ‘깜짝 실적’… 2분기 영업이익 98% 증가한 7361억",
+          "link": "https://www.chosun.com/economy/industry-company/2026/07/28/WNGZSQYRB5HLJGVSJJWJDXEWTA/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-07-28 00:36:00",
+          "match_score": 29.5
+        },
+        {
+          "title": "두산, 2분기 영업익 4884억…계열사 호실적에 '승승장구'",
+          "link": "https://www.etnews.com/20260727000401",
+          "source": "전자신문",
+          "published_dt": "2026-07-27 16:26:54",
+          "match_score": 12.7
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "국제 협력",
+      "reason": "한·브라질 MOU 등 경제협력",
+      "score": 15.5,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "韓-브라질, 공급망·에너지 등 MOU 7건 체결…경제협력 강화",
+        "中, 李대통령 샌프란시스코 AI선언 주목…“中 등 국제협력 중요”"
+      ],
+      "representative_article": {
+        "title": "中, 李대통령 샌프란시스코 AI선언 주목…“中 등 국제협력 중요”",
+        "link": "https://www.donga.com/news/Inter/article/all/20260727/134370349/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-07-27 11:16:44",
+        "match_score": 15.5
+      },
+      "related_articles": [
+        {
+          "title": "中, 李대통령 샌프란시스코 AI선언 주목…“中 등 국제협력 중요”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260727/134370349/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-27 11:16:44",
+          "match_score": 15.5
+        },
+        {
+          "title": "韓-브라질, 공급망·에너지 등 MOU 7건 체결…경제협력 강화",
+          "link": "https://www.donga.com/news/Politics/article/all/20260728/134375983/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-28 01:51:00",
+          "match_score": 12.5
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "사회 안전",
+      "reason": "해외 총격 및 테러 사건",
+      "score": 4.7,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "‘3명 사망’ 美시애틀 축제 총격사건 용의자는 15세 소년"
+      ],
+      "representative_article": {
+        "title": "‘3명 사망’ 美시애틀 축제 총격사건 용의자는 15세 소년",
+        "link": "https://www.donga.com/news/Inter/article/all/20260728/134376234/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-07-28 04:55:29",
+        "match_score": 4.7
+      },
+      "related_articles": [
+        {
+          "title": "‘3명 사망’ 美시애틀 축제 총격사건 용의자는 15세 소년",
+          "link": "https://www.donga.com/news/Inter/article/all/20260728/134376234/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-28 04:55:29",
+          "match_score": 4.7
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "금융권 위험",
+      "reason": "부실 여신과 순익 변화",
+      "score": 3.86,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "기은 상반기 당기순익 1.4조…중기대출 잔액은 270조 돌파"
+      ],
+      "representative_article": {
+        "title": "기은 상반기 당기순익 1.4조…중기대출 잔액은 270조 돌파",
+        "link": "https://www.mk.co.kr/news/economy/12108586",
+        "source": "매일경제-경제",
+        "published_dt": "2026-07-27 17:23:08",
+        "match_score": 3.86
+      },
+      "related_articles": [
+        {
+          "title": "기은 상반기 당기순익 1.4조…중기대출 잔액은 270조 돌파",
+          "link": "https://www.mk.co.kr/news/economy/12108586",
+          "source": "매일경제-경제",
+          "published_dt": "2026-07-27 17:23:08",
+          "match_score": 3.86
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "기술 혁신",
+      "reason": "AI와 친환경 시스템 도입",
+      "score": 3.88,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "에코프로에이치엔, 삼성E&A에 330억 온실가스 저감시스템 공급"
+      ],
+      "representative_article": {
+        "title": "에코프로에이치엔, 삼성E&A에 330억 온실가스 저감시스템 공급",
+        "link": "https://www.yna.co.kr/view/AKR20260727146600003",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-07-27 17:30:22",
+        "match_score": 3.88
+      },
+      "related_articles": [
+        {
+          "title": "에코프로에이치엔, 삼성E&A에 330억 온실가스 저감시스템 공급",
+          "link": "https://www.yna.co.kr/view/AKR20260727146600003",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-07-27 17:30:22",
+          "match_score": 3.88
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 9,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "대출 규제",
+      "reason": "부동산 및 소상공인 영향",
+      "score": 32.09,
+      "article_count": 3,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "부동산"
+      ],
+      "sample_titles": [
+        "“재방문 많이 한 식당, 대출유리” 새 소상공인 신용평가 8월부터 시범운영",
+        "“부모찬스 못쓰면 평생 무주택자인가요”…2030 주택보유 비중 역대 최저",
+        "부동산공약 180도 바꾼 李대통령..후보시절엔 \"부동산 세금 확 줄이고,대출 규제 완화\""
+      ],
+      "representative_article": {
+        "title": "부동산공약 180도 바꾼 李대통령..후보시절엔 \"부동산 세금 확 줄이고,대출 규제 완화\"",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/07/27/2026072701357.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-07-27 11:33:24",
+        "match_score": 32.09
+      },
+      "related_articles": [
+        {
+          "title": "부동산공약 180도 바꾼 李대통령..후보시절엔 \"부동산 세금 확 줄이고,대출 규제 완화\"",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/07/27/2026072701357.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-07-27 11:33:24",
+          "match_score": 32.09
+        },
+        {
+          "title": "“부모찬스 못쓰면 평생 무주택자인가요”…2030 주택보유 비중 역대 최저",
+          "link": "https://www.mk.co.kr/news/realestate/12108371",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-07-27 14:43:08",
+          "match_score": 12.4
+        },
+        {
+          "title": "“재방문 많이 한 식당, 대출유리” 새 소상공인 신용평가 8월부터 시범운영",
+          "link": "https://www.mk.co.kr/news/economy/12108392",
+          "source": "매일경제-경제",
+          "published_dt": "2026-07-27 14:56:39",
+          "match_score": 6.86
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 10,
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
