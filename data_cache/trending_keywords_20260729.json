@@ -1,0 +1,451 @@
+{
+  "timestamp": "2026-07-29T06:02:09.332475",
+  "date": "20260729",
+  "data": [
+    {
+      "keyword": "희토류 협력",
+      "reason": "한-브라질 공동성명에서 협력 강화",
+      "score": 35.07,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "한-브라질 공동성명…희토류 협력·메르코수르 협정 협상 속도(종합2보)",
+        "한-브라질 공동성명 채택…한-메르코수르 협정 협상 속도내기로(종합)"
+      ],
+      "representative_article": {
+        "title": "한-브라질 공동성명…희토류 협력·메르코수르 협정 협상 속도(종합2보)",
+        "link": "https://www.yna.co.kr/view/AKR20260728082752001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-07-29 00:34:29",
+        "match_score": 35.07
+      },
+      "related_articles": [
+        {
+          "title": "한-브라질 공동성명…희토류 협력·메르코수르 협정 협상 속도(종합2보)",
+          "link": "https://www.yna.co.kr/view/AKR20260728082752001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-07-29 00:34:29",
+          "match_score": 35.07
+        },
+        {
+          "title": "한-브라질 공동성명 채택…한-메르코수르 협정 협상 속도내기로(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260728082751001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-07-28 13:39:21",
+          "match_score": 7.88
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "연임 개헌",
+      "reason": "국회 내 현직 대통령 연임 논란 지속",
+      "score": 33.1,
+      "article_count": 3,
+      "source_count": 2,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "국힘, '연임 개헌은 국민 선택' 趙의장 발언에 \"진정한 내란\"",
+        "趙의장 \"現대통령 연임개헌 국민선택\" 논란…의장실 \"원론적 입장\"(종합3보)",
+        "친명 국회의장이 띄운 ‘현직 대통령 연임 개헌’"
+      ],
+      "representative_article": {
+        "title": "친명 국회의장이 띄운 ‘현직 대통령 연임 개헌’",
+        "link": "https://www.chosun.com/politics/assembly/2026/07/29/AUECSJAPKRCZJHBUOMK27ACEQU/",
+        "source": "조선일보-정치",
+        "published_dt": "2026-07-29 00:53:00",
+        "match_score": 33.1
+      },
+      "related_articles": [
+        {
+          "title": "친명 국회의장이 띄운 ‘현직 대통령 연임 개헌’",
+          "link": "https://www.chosun.com/politics/assembly/2026/07/29/AUECSJAPKRCZJHBUOMK27ACEQU/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-07-29 00:53:00",
+          "match_score": 33.1
+        },
+        {
+          "title": "국힘, '연임 개헌은 국민 선택' 趙의장 발언에 \"진정한 내란\"",
+          "link": "https://www.yna.co.kr/view/AKR20260728150700001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-07-28 17:37:51",
+          "match_score": 31.38
+        },
+        {
+          "title": "趙의장 \"現대통령 연임개헌 국민선택\" 논란…의장실 \"원론적 입장\"(종합3보)",
+          "link": "https://www.yna.co.kr/view/AKR20260728050453001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-07-28 19:14:49",
+          "match_score": 18.88
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI 플랫폼",
+      "reason": "KB금융과 구글 협력, AI 기술 확장",
+      "score": 33.46,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "KB금융, 구글과 손잡고 전사적 AI 플랫폼 구축",
+        "KB금융, 구글과 손잡고 전사적 AI 플랫폼 구축"
+      ],
+      "representative_article": {
+        "title": "KB금융, 구글과 손잡고 전사적 AI 플랫폼 구축",
+        "link": "https://www.mk.co.kr/news/economy/12109698",
+        "source": "매일경제-경제",
+        "published_dt": "2026-07-28 18:08:06",
+        "match_score": 33.46
+      },
+      "related_articles": [
+        {
+          "title": "KB금융, 구글과 손잡고 전사적 AI 플랫폼 구축",
+          "link": "https://www.mk.co.kr/news/economy/12109698",
+          "source": "매일경제-경제",
+          "published_dt": "2026-07-28 18:08:06",
+          "match_score": 33.46
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "2분기 실적",
+      "reason": "SK하이닉스 등 주요 기업 실적 발표",
+      "score": 12.7,
+      "article_count": 3,
+      "source_count": 3,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "SK하이닉스, 'AI버블' 우려 잠재울까…오늘 2분기 성적 공개",
+        "개인정보 유출·화재… 잇단 악재에 쿠팡 주가 반토막",
+        "엔비디아發 '순환 금융' 우려…AMD·SK하이닉스까지 동반 하락 - 지디넷코리아"
+      ],
+      "representative_article": {
+        "title": "개인정보 유출·화재… 잇단 악재에 쿠팡 주가 반토막",
+        "link": "https://www.chosun.com/economy/market_trend/2026/07/29/Y26PVBIQ6NGPRFIGT6DYC6SD5A/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-07-29 00:33:00",
+        "match_score": 12.7
+      },
+      "related_articles": [
+        {
+          "title": "개인정보 유출·화재… 잇단 악재에 쿠팡 주가 반토막",
+          "link": "https://www.chosun.com/economy/market_trend/2026/07/29/Y26PVBIQ6NGPRFIGT6DYC6SD5A/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-07-29 00:33:00",
+          "match_score": 12.7
+        },
+        {
+          "title": "SK하이닉스, 'AI버블' 우려 잠재울까…오늘 2분기 성적 공개",
+          "link": "https://www.yna.co.kr/view/AKR20260728113400003",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-07-29 05:01:00",
+          "match_score": 11.38
+        },
+        {
+          "title": "엔비디아發 '순환 금융' 우려…AMD·SK하이닉스까지 동반 하락 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBpZzNDUHpIWWFCbnR1cExjRVEwUVpoR2VjUlV3VVBSSEVZdTlTRzNOdWkxRGJYOVU4OWh6NFdjZmpueWx0VkN1NGw1WkZfY0FEcldhaEl3?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-07-28 10:12:36",
+          "match_score": 7.36
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재건축 공급",
+      "reason": "서울 아파트 재건축 연한 도래 및 공급 이슈",
+      "score": 7.5,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "서울 재건축 연한 아파트 쏟아진다…고층 중심에 '공급 기여' 한계 뚜렷 - 네이트"
+      ],
+      "representative_article": {
+        "title": "서울 재건축 연한 아파트 쏟아진다…고층 중심에 '공급 기여' 한계 뚜렷 - 네이트",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5pNGJhNVlUa0NNa2ZXSVpXQlBYT1luY0gxb1d2V0M3MDBmRHgwZV9Kc08xcVQxX014WGlhRVR6Rl82Wno3X0VGekNMZTZiNl9uek9oRENpZlQ3a05fZkh6eA?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-07-29 05:05:00",
+        "match_score": 7.5
+      },
+      "related_articles": [
+        {
+          "title": "서울 재건축 연한 아파트 쏟아진다…고층 중심에 '공급 기여' 한계 뚜렷 - 네이트",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5pNGJhNVlUa0NNa2ZXSVpXQlBYT1luY0gxb1d2V0M3MDBmRHgwZV9Kc08xcVQxX014WGlhRVR6Rl82Wno3X0VGekNMZTZiNl9uek9oRENpZlQ3a05fZkh6eA?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-07-29 05:05:00",
+          "match_score": 7.5
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "국제유",
+      "reason": "미·이란 대화 낙관론에 급락세",
+      "score": 38.16,
+      "article_count": 3,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "국제"
+      ],
+      "sample_titles": [
+        "국제유가, 미·이란 대화 낙관론에 사흘째 급락…WTI 79달러로",
+        "이란전쟁 틈에… 소말리아 해적 다시 활개[지금, 여기]",
+        "국제유가, 美 이란공습 중단에 급락…브렌트유 90달러 밑으로 - 서울경제TV"
+      ],
+      "representative_article": {
+        "title": "국제유가, 美 이란공습 중단에 급락…브렌트유 90달러 밑으로 - 서울경제TV",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5pTHpKWFZHZ0ZHcjNyVmNiaUVLalQ2NmQyUTRQdlJQRDFrek9PWW50R1FBTGRET3VVOXhRTkZvd0hRV1I3MnFMbzFtZGR3U1YwM2c5YVN1ei1zNl9acHhYMk9HMUw?oc=5",
+        "source": "키워드-에너지물가",
+        "published_dt": "2026-07-28 09:12:59",
+        "match_score": 38.16
+      },
+      "related_articles": [
+        {
+          "title": "국제유가, 美 이란공습 중단에 급락…브렌트유 90달러 밑으로 - 서울경제TV",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5pTHpKWFZHZ0ZHcjNyVmNiaUVLalQ2NmQyUTRQdlJQRDFrek9PWW50R1FBTGRET3VVOXhRTkZvd0hRV1I3MnFMbzFtZGR3U1YwM2c5YVN1ei1zNl9acHhYMk9HMUw?oc=5",
+          "source": "키워드-에너지물가",
+          "published_dt": "2026-07-28 09:12:59",
+          "match_score": 38.16
+        },
+        {
+          "title": "국제유가, 미·이란 대화 낙관론에 사흘째 급락…WTI 79달러로",
+          "link": "https://www.yna.co.kr/view/AKR20260729005500072",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-07-29 04:46:18",
+          "match_score": 36.27
+        },
+        {
+          "title": "이란전쟁 틈에… 소말리아 해적 다시 활개[지금, 여기]",
+          "link": "https://www.donga.com/news/Inter/article/all/20260728/134383573/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-29 04:30:00",
+          "match_score": 12.5
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "무역 협상",
+      "reason": "한-메르코수르 협정 협상 재개",
+      "score": 43.0,
+      "article_count": 3,
+      "source_count": 2,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "한-브라질 공동성명…희토류 협력·메르코수르 협정 협상 속도(종합2보)",
+        "한-브라질 공동성명 채택…한-메르코수르 협정 협상 속도내기로(종합)",
+        "3억명 남미 시장 연다, 韓-메르코수르 무역 협상 재개 탄력"
+      ],
+      "representative_article": {
+        "title": "3억명 남미 시장 연다, 韓-메르코수르 무역 협상 재개 탄력",
+        "link": "https://www.donga.com/news/Politics/article/all/20260729/134383561/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-07-29 04:30:00",
+        "match_score": 43.0
+      },
+      "related_articles": [
+        {
+          "title": "3억명 남미 시장 연다, 韓-메르코수르 무역 협상 재개 탄력",
+          "link": "https://www.donga.com/news/Politics/article/all/20260729/134383561/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-29 04:30:00",
+          "match_score": 43.0
+        },
+        {
+          "title": "한-브라질 공동성명…희토류 협력·메르코수르 협정 협상 속도(종합2보)",
+          "link": "https://www.yna.co.kr/view/AKR20260728082752001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-07-29 00:34:29",
+          "match_score": 9.08
+        },
+        {
+          "title": "한-브라질 공동성명 채택…한-메르코수르 협정 협상 속도내기로(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260728082751001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-07-28 13:39:21",
+          "match_score": 9.08
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "변동성 확대",
+      "reason": "서킷브레이커 잦은 발동으로 시장 불안",
+      "score": 7.17,
+      "article_count": 3,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "7월만 네차례 서킷브레이커…역대급 변동성에 시장안전장치 한계",
+        "서킷브레이커 4회·사이드카 23회 역대급 변동성…전문가들 하는 말이",
+        "삼전닉스 레버리지 25% 폭락…코스피·코스닥 서킷브레이커 발동 - 중앙일보"
+      ],
+      "representative_article": {
+        "title": "7월만 네차례 서킷브레이커…역대급 변동성에 시장안전장치 한계",
+        "link": "https://www.yna.co.kr/view/AKR20260728149200008",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-07-28 17:32:53",
+        "match_score": 7.17
+      },
+      "related_articles": [
+        {
+          "title": "7월만 네차례 서킷브레이커…역대급 변동성에 시장안전장치 한계",
+          "link": "https://www.yna.co.kr/view/AKR20260728149200008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-07-28 17:32:53",
+          "match_score": 7.17
+        },
+        {
+          "title": "서킷브레이커 4회·사이드카 23회 역대급 변동성…전문가들 하는 말이",
+          "link": "https://www.mk.co.kr/news/economy/12109859",
+          "source": "매일경제-경제",
+          "published_dt": "2026-07-28 21:08:20",
+          "match_score": 6.86
+        },
+        {
+          "title": "삼전닉스 레버리지 25% 폭락…코스피·코스닥 서킷브레이커 발동 - 중앙일보",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9oZl96bUgyQmpwMnQwNXFSdFZBRGhkaHRsNnBBa0ZZaUZLTHV2N1NUZ1hSLU80RGlNNU9xclM2d1ZlZF9TejRKOEQ2QVgtVEtXTzBOOHF3?oc=5",
+          "source": "키워드-금리환율코스피",
+          "published_dt": "2026-07-28 12:43:30",
+          "match_score": 4.16
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "개인정보 유출",
+      "reason": "쿠팡 악재로 주가 하락 불가피",
+      "score": 43.9,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "개인정보 유출·화재… 잇단 악재에 쿠팡 주가 반토막"
+      ],
+      "representative_article": {
+        "title": "개인정보 유출·화재… 잇단 악재에 쿠팡 주가 반토막",
+        "link": "https://www.chosun.com/economy/market_trend/2026/07/29/Y26PVBIQ6NGPRFIGT6DYC6SD5A/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-07-29 00:33:00",
+        "match_score": 43.9
+      },
+      "related_articles": [
+        {
+          "title": "개인정보 유출·화재… 잇단 악재에 쿠팡 주가 반토막",
+          "link": "https://www.chosun.com/economy/market_trend/2026/07/29/Y26PVBIQ6NGPRFIGT6DYC6SD5A/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-07-29 00:33:00",
+          "match_score": 43.9
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 9,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "인공지능",
+      "score": 35.4,
+      "article_count": 9,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "KB금융, 구글과 손잡고 전사적 AI 플랫폼 구축",
+        "KB금융, 구글과 손잡고 전사적 AI 플랫폼 구축",
+        "[세계 최고 기술현장 가다] \"충돌사고 사각 없애자\" 0.001초만에 근로자위험 감지"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "“건설현장 생산성 제고”…호반건설, 인공지능으로 레미콘 물량 자동 산출",
+        "link": "https://www.mk.co.kr/news/realestate/12109097",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-07-28 09:12:57",
+        "match_score": 28.49
+      },
+      "related_articles": [
+        {
+          "title": "“건설현장 생산성 제고”…호반건설, 인공지능으로 레미콘 물량 자동 산출",
+          "link": "https://www.mk.co.kr/news/realestate/12109097",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-07-28 09:12:57",
+          "match_score": 28.49
+        },
+        {
+          "title": "[강원소식] 한전 강원본부, 청소년 대상 AI 체험 교실 운영",
+          "link": "https://www.yna.co.kr/view/AKR20260728136200062",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-07-28 16:38:18",
+          "match_score": 11.68
+        },
+        {
+          "title": "KB금융, 구글과 손잡고 전사적 AI 플랫폼 구축",
+          "link": "https://www.mk.co.kr/news/economy/12109698",
+          "source": "매일경제-경제",
+          "published_dt": "2026-07-28 18:08:06",
+          "match_score": 11.66
+        },
+        {
+          "title": "[세계 최고 기술현장 가다] \"충돌사고 사각 없애자\" 0.001초만에 근로자위험 감지",
+          "link": "https://www.mk.co.kr/news/economy/12109606",
+          "source": "매일경제-경제",
+          "published_dt": "2026-07-28 17:49:33",
+          "match_score": 11.66
+        },
+        {
+          "title": "AI 반도체 유니콘… 상장 속도 늦춘다",
+          "link": "https://www.etnews.com/20260728000257",
+          "source": "전자신문",
+          "published_dt": "2026-07-28 16:00:00",
+          "match_score": 11.5
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
