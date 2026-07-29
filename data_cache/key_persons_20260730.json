@@ -1,0 +1,108 @@
+{
+  "timestamp": "2026-07-30T06:01:27.632260",
+  "date": "20260730",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "李대통령, 구마모토 강진 피해 위로…\"실종자 무사히 돌아오길\"",
+          "link": "https://www.yna.co.kr/view/AKR20260729174300001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-07-29 19:08:13",
+          "description": "(서울=연합뉴스) 고동욱 기자 = 이재명 대통령은 29일 일본 규슈 서부 구마모토현에서 발생한 강진과 관련, &quot;희생되신 분들의 명복을 빌며, 유...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, 칠레 산티아고 도착...30일 카스트 대통령과 정상회담",
+          "link": "https://www.chosun.com/politics/politics_general/2026/07/30/WW6YXRG5VRAGBFXMF2GBCOR3VM/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-07-30 05:00:31",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "靑 \"李대통령 '연임 개헌 불가능' 언급\"…논란 확산 차단 총력(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260729093951001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-07-29 16:29:41",
+          "description": "(서울=연합뉴스) 고동욱 설승은 정연솔 기자 = 청와대는 29일 조정식 국회의장의 &apos;현직 대통령 연임 개헌은 국민 선택의 문제&apos; 발언으로 정치권...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "한국 대통령"
+    },
+    "트럼프": {
+      "articles": [
+        {
+          "title": "트럼프, 젤렌스키 만나 패트리엇 생산 논의",
+          "link": "https://www.donga.com/news/Inter/article/all/20260729/134391214/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-30 04:30:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/07/29/134388724.4.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령이 28일 볼로디미르 젤렌스키 우크라이나 대통령과 만나 패트리엇 요격 미사일 생산과 대러 외교 재개 방안 등을 논의했다. 이날 젤렌스키 대통령은 워싱턴 백악관 집무실에서 트럼프 대통령과 비공개 회담을 가진 뒤 소셜미디어에 “좋은 회담이었다. 패트리엇 요격 미사일 생산 라이선스와 도움이 될 수 있는 몇 가지 다른 방안을 논의했다”고 밝혔다. 또 “외교에 대해서도 얘기를 나눴다”고 했다. 패트리엇 생산은 앞서 8일 튀르키예 수도 앙카라에서 열린 북대서양조약기구(NATO·나토) 정상회의에서 두 정상이 합의한 사안의 후속 조치다. 당시 트럼프 대통령은 젤렌스키 대통령에게 “우크라이나가 패트리엇을 만들 수 있도록 라이선스를 주겠다”고 약속한 바 있다. 우크라이나는 러시아의 탄도미사일 공격을 막기 위해 패트리엇의 추가 공급과 공동 생산을 최우선 과제로 요구해 왔다. 트럼프 대통령은 이날 젤렌스키 대통령과의 정상회담 뒤 베냐민 네타냐후 이스라엘 총리와 백악관에서 비",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프가 깎은 에어포스원 가격…보잉, 추가 비용만 4000억원",
+          "link": "https://www.donga.com/news/Inter/article/all/20260729/134391256/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-29 21:17:53",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/07/29/134391257.1.jpg\" vspace=\"10\" />미국 항공기 제조업체 보잉이 도널드 트럼프 대통령의 새 전용기인 ‘에어포스원’ 제작 사업으로 수천억 원대 추가 비용을 떠안으며 고전하고 있다. 특히 비용 초과분을 정부에 청구할 수 없는 고정가격 계약으로 사업을 수주하면서 원가 상승과 일정 지연에 따른 부담을 고스란히 떠안게 됐다.지난 28일(현지 시간) 월스트리트저널(WSJ), CBS 뉴스 등 외신에 따르면 보잉은 새 에어포스원으로 사용될 예정인 개조형 747-8 항공기의 작업 속도를 높이기 위해 2억 8000만 달러(약 4000억원)의 추가 비용을 투입할 예정이다. 이는 40억 달러(약 5조 8000억원)가 넘는 규모의 사업에서 발생한 추가 비용 중 하나다.앞서 트럼프 대통령은 취임 전인 2016년 에어포스원 교체 사업 비용을 문제 삼으며 보잉을 압박했다. 당시 그는 사회관계망서비스(SNS)에 “새 에어포스원 비용이 통제 불능 상태이며 40억 달러(약 5조 8000억원)를 넘는다”며 “주문을 취소하라”고 주장했다. 이후 트럼프",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프, 젤렌스키와 회담 뒤 “우크라內 패트리엇 생산 논의”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260729/134386220/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-29 15:13:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/07/29/134387430.1.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령이 28일 볼로디미르 젤렌스키 우크라이나 대통령과 만나 패트리엇 요격 미사일 생산과 대러 외교 재개 방안 등을 논의했다.이날 젤렌스키 대통령은 워싱턴 백악관 집무실에서 트럼프 대통령과 비공개 회담을 가진 뒤 소셜미디어에 “좋은 회담이었다. 패트리엇 요격 미사일 생산 라이선스와 도움이 될 수 있는 몇 가지 다른 방안을 논의했다”고 밝혔다. 또 “외교에 대해서도 얘기를 나눴다”고 했다.패트리엇 생산은 앞서 8일 튀르키예 수도 앙카라에서 열린 북대서양조약기구(NATO·나토) 정상회의에서 두 정상이 합의한 사안의 후속 조치다. 당시 트럼프 대통령은 젤렌스키 대통령에게 “우크라이나가 패트리엇을 만들 수 있도록 라이선스를 주겠다”고 약속한 바 있다.우크라이나는 러시아의 탄도 미사일 공격을 막기 위해 패트리엇의 추가 공급과 공동 생산을 최우선 과제로 요구해 왔다. 패트리엇은 우크라이나가 보유한 방공체계 중 러시아의 고속 탄도 미사일을 요격할 수 있는 핵심 전력이다. 젤렌",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "미국 대통령"
+    }
+  }
+}
