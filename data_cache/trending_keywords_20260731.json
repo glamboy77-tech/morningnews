@@ -1,0 +1,520 @@
+{
+  "timestamp": "2026-07-31T06:01:55.892579",
+  "date": "20260731",
+  "data": [
+    {
+      "keyword": "핵심광물",
+      "reason": "한칠레 협력 강화",
+      "score": 29.3,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "韓·칠레, 핵심광물 협력강화 합의...李 “양국, 이상적 파트너”"
+      ],
+      "representative_article": {
+        "title": "韓·칠레, 핵심광물 협력강화 합의...李 “양국, 이상적 파트너”",
+        "link": "https://www.chosun.com/politics/politics_general/2026/07/31/4BOBOESGCVBKBDUGC2BWWEOE6I/",
+        "source": "조선일보-정치",
+        "published_dt": "2026-07-31 04:17:02",
+        "match_score": 29.3
+      },
+      "related_articles": [
+        {
+          "title": "韓·칠레, 핵심광물 협력강화 합의...李 “양국, 이상적 파트너”",
+          "link": "https://www.chosun.com/politics/politics_general/2026/07/31/4BOBOESGCVBKBDUGC2BWWEOE6I/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-07-31 04:17:02",
+          "match_score": 29.3
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "배터리",
+      "reason": "3사 동시 흑자 전환",
+      "score": 40.08,
+      "article_count": 3,
+      "source_count": 2,
+      "categories": [
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "K배터리 3사, 7개 분기 만에 동시 흑자…하반기 실적도 청신호",
+        "SK이노 2분기 영업익 3조4천873억…배터리 실적 대폭개선에 흑자(종합2보)",
+        "배터리 3사, 2분기 일제히 흑자 전환… 캐즘 본격화 이후 처음"
+      ],
+      "representative_article": {
+        "title": "K배터리 3사, 7개 분기 만에 동시 흑자…하반기 실적도 청신호",
+        "link": "https://www.yna.co.kr/view/AKR20260729184600003",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-07-30 17:49:31",
+        "match_score": 40.08
+      },
+      "related_articles": [
+        {
+          "title": "K배터리 3사, 7개 분기 만에 동시 흑자…하반기 실적도 청신호",
+          "link": "https://www.yna.co.kr/view/AKR20260729184600003",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-07-30 17:49:31",
+          "match_score": 40.08
+        },
+        {
+          "title": "SK이노 2분기 영업익 3조4천873억…배터리 실적 대폭개선에 흑자(종합2보)",
+          "link": "https://www.yna.co.kr/view/AKR20260730142802527",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-07-30 17:11:43",
+          "match_score": 38.88
+        },
+        {
+          "title": "배터리 3사, 2분기 일제히 흑자 전환… 캐즘 본격화 이후 처음",
+          "link": "https://www.chosun.com/economy/industry-company/2026/07/31/QZMD5WHDINFBBKK5LI6VGUDLPA/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-07-31 00:33:00",
+          "match_score": 30.7
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재건축",
+      "reason": "서울·성남 등 재개발 가속",
+      "score": 40.41,
+      "article_count": 5,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "부동산"
+      ],
+      "sample_titles": [
+        "민영미 성남시의원, 아름마을 주민과 재건축 현안 논의 - m-i.kr",
+        "오세훈표 정비사업 속도전…서울 재건축·재개발 어디까지 - 한경매거진&북",
+        "“성남 원도심 재개발-분당 재건축 속도… 15분 전철 시대 열것” - 동아일보"
+      ],
+      "representative_article": {
+        "title": "“성남 원도심 재개발-분당 재건축 속도… 15분 전철 시대 열것” - 동아일보",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE12eFpYOUlNczFTZE5qaXVaTnVraUVfaWF5SExtc1BiQTluYlduRThKYzZVbjYyYWFyQXk0RG9lS1pnZkRnTmRVY0dVUlViVFZQQi01QVhDLVpObVRsZXhLVEFaS1hMd9IBZkFVX3lxTE12eFpYOUlNczFTZE5qaXVaTnVraUVfaWF5SExtc1BiQTluYlduRThKYzZVbjYyYWFyQXk0RG9lS1pnZkRnTmRVY0dVUlViVFZQQi01QVhDLVpObVRsZXhLVEFaS1hMdw?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-07-31 04:30:00",
+        "match_score": 40.41
+      },
+      "related_articles": [
+        {
+          "title": "“성남 원도심 재개발-분당 재건축 속도… 15분 전철 시대 열것” - 동아일보",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE12eFpYOUlNczFTZE5qaXVaTnVraUVfaWF5SExtc1BiQTluYlduRThKYzZVbjYyYWFyQXk0RG9lS1pnZkRnTmRVY0dVUlViVFZQQi01QVhDLVpObVRsZXhLVEFaS1hMd9IBZkFVX3lxTE12eFpYOUlNczFTZE5qaXVaTnVraUVfaWF5SExtc1BiQTluYlduRThKYzZVbjYyYWFyQXk0RG9lS1pnZkRnTmRVY0dVUlViVFZQQi01QVhDLVpObVRsZXhLVEFaS1hMdw?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-07-31 04:30:00",
+          "match_score": 40.41
+        },
+        {
+          "title": "오세훈표 정비사업 속도전…서울 재건축·재개발 어디까지 - 한경매거진&북",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBRbWRTSVFKb1dXMVNkR3JMWF9FUW4xSHcyNmEtcVl2VktzNEZTX3lVNTA1RjVpd0RBdEZsWVVlRkdDQlExZTFRRUxGS0p6MlRadGd6RjNqakF6UzkzWm91UDZBY25nODU5aXBWNQ?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-07-31 05:28:00",
+          "match_score": 39.21
+        },
+        {
+          "title": "서대문구, 재개발·재건축 민관 합동 점검 TF 가동 - 서울경제",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9iby1LZVotWlBENFhFdVEtUjd4eTV3YWhiWU1KTGxKXzl0Ry1xdXVJWFUycVJHaDBNUXpWUWx0cDZIZlVZa09oSEJxZ0k0OHFUZ1HSAVNBVV95cUxPYzAxRWFQTEM2bER3di13RDNSOXV2bGxxU0FRbEEwWW1oek5udk1NMEszUmlCZ1ZhVkNOSHB1RXBENUdIcnRvU0FHQ2hvckRMVDBBcw?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-07-30 23:21:34",
+          "match_score": 39.21
+        },
+        {
+          "title": "민영미 성남시의원, 아름마을 주민과 재건축 현안 논의 - m-i.kr",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAtakhIUDJPbFNkT2RnMW9ZeXRTaWJJTzRQaUhDSE1yM2xva0VKNk9BSHUydS1OTWtLMVB2eGRKQUpxekRLR0Q0UklEdHZGR1NuVkpnVkIyaEw4aFB1eDlWV0dYRkc?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-07-30 23:30:05",
+          "match_score": 38.91
+        },
+        {
+          "title": "대통령도 쓴 '근저당 매매', 자녀에게 아파트 물려주는 절세 3단계",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/07/30/2026073001615.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-07-30 11:27:53",
+          "match_score": 12.4
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI 데이터센터",
+      "reason": "미국 AI센터 추진 소식",
+      "score": 42.25,
+      "article_count": 6,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "전기차 부진 메운 ESS…배터리업계 실적 회복 본격화",
+        "개도국 AI데이터센터에 국내기업 반도체 심는다",
+        "삼성전기 “AI·전장 고성장 시장 집중”…유리기판 2028년 양산 목표"
+      ],
+      "representative_article": {
+        "title": "美, 옛 핵시설 부지에 AI 데이터센터 추진",
+        "link": "https://www.donga.com/news/Inter/article/all/20260730/134398209/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-07-31 04:30:00",
+        "match_score": 42.25
+      },
+      "related_articles": [
+        {
+          "title": "美, 옛 핵시설 부지에 AI 데이터센터 추진",
+          "link": "https://www.donga.com/news/Inter/article/all/20260730/134398209/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-31 04:30:00",
+          "match_score": 42.25
+        },
+        {
+          "title": "개도국 AI데이터센터에 국내기업 반도체 심는다",
+          "link": "https://www.mk.co.kr/news/economy/12112145",
+          "source": "매일경제-경제",
+          "published_dt": "2026-07-30 17:35:02",
+          "match_score": 27.86
+        },
+        {
+          "title": "美, 폐쇄 핵시설을 AI 기지로…데이터센터 건설 본격화",
+          "link": "https://www.donga.com/news/Inter/article/all/20260730/134394652/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-30 16:11:00",
+          "match_score": 16.25
+        },
+        {
+          "title": "삼성전기 “AI·전장 고성장 시장 집중”…유리기판 2028년 양산 목표",
+          "link": "https://www.etnews.com/20260730000332",
+          "source": "전자신문",
+          "published_dt": "2026-07-30 15:08:29",
+          "match_score": 12.9
+        },
+        {
+          "title": "AI 칩 구입에 돈 쏟아붓는 메타, 현금 마른다",
+          "link": "https://www.donga.com/news/Inter/article/all/20260730/134394825/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-30 17:46:00",
+          "match_score": 7.7
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "금리",
+      "reason": "미국 연준 기준금리 동결",
+      "score": 43.45,
+      "article_count": 6,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "국제"
+      ],
+      "sample_titles": [
+        "美금리인상 불씨 남겨…한은 추가인상 하나",
+        "“금리 인상 필요 없을 수도”…워시 연준 의장의 ‘시장 긴축’ 기대에 국채 투매│Global Money Club - 중앙일보",
+        "“잃고 나서야 소중함을 알았습니다”…증시 떠난 돈, ‘연 3%’ 예금으로 돌아오나"
+      ],
+      "representative_article": {
+        "title": "美연준 기준금리 ‘매파적 동결’…고물가에 9월 인상 관측 우세",
+        "link": "https://www.donga.com/news/Inter/article/all/20260730/134395478/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-07-30 17:36:00",
+        "match_score": 43.45
+      },
+      "related_articles": [
+        {
+          "title": "美연준 기준금리 ‘매파적 동결’…고물가에 9월 인상 관측 우세",
+          "link": "https://www.donga.com/news/Inter/article/all/20260730/134395478/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-30 17:36:00",
+          "match_score": 43.45
+        },
+        {
+          "title": "“금리 인상 필요 없을 수도”…워시 연준 의장의 ‘시장 긴축’ 기대에 국채 투매│Global Money Club - 중앙일보",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9TQ1piaDJoOW5BRVVZYkNQRHBQU1NneG44c2dBVVRBUVNHaHpPTkpRUG94SW9iVWU4cnZSOEhkLWNZSURWeDU4QVRKbVpyRjFmMnZ2MFU2TGpxZnc?oc=5",
+          "source": "키워드-금리환율코스피",
+          "published_dt": "2026-07-31 05:07:34",
+          "match_score": 38.16
+        },
+        {
+          "title": "美금리인상 불씨 남겨…한은 추가인상 하나",
+          "link": "https://www.mk.co.kr/news/economy/12112188",
+          "source": "매일경제-경제",
+          "published_dt": "2026-07-30 17:51:15",
+          "match_score": 37.96
+        },
+        {
+          "title": "반대 3표속 美 기준금리 동결…트럼프와 시장 사이에서 딜레마에 빠진 워시[BOK WATCHER]",
+          "link": "https://www.mk.co.kr/news/economy/12111567",
+          "source": "매일경제-경제",
+          "published_dt": "2026-07-30 09:21:02",
+          "match_score": 33.31
+        },
+        {
+          "title": "“잃고 나서야 소중함을 알았습니다”…증시 떠난 돈, ‘연 3%’ 예금으로 돌아오나",
+          "link": "https://www.mk.co.kr/news/economy/12111772",
+          "source": "매일경제-경제",
+          "published_dt": "2026-07-30 11:19:39",
+          "match_score": 13.21
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "해킹",
+      "reason": "위믹스 관리자 권한 탈취",
+      "score": 42.48,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "'2차 해킹' 위믹스 \"취약점 노린 공격에 관리자 권한 탈취\""
+      ],
+      "representative_article": {
+        "title": "'2차 해킹' 위믹스 \"취약점 노린 공격에 관리자 권한 탈취\"",
+        "link": "https://www.yna.co.kr/view/AKR20260730159400017",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-07-30 16:43:03",
+        "match_score": 42.48
+      },
+      "related_articles": [
+        {
+          "title": "'2차 해킹' 위믹스 \"취약점 노린 공격에 관리자 권한 탈취\"",
+          "link": "https://www.yna.co.kr/view/AKR20260730159400017",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-07-30 16:43:03",
+          "match_score": 42.48
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "한미동맹",
+      "reason": "미 대사 동맹 강조",
+      "score": 13.7,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "스틸 신임 주한미대사 “한미, 신뢰 깊은 세계에서 가장 강력한 동맹”"
+      ],
+      "representative_article": {
+        "title": "스틸 신임 주한미대사 “한미, 신뢰 깊은 세계에서 가장 강력한 동맹”",
+        "link": "https://www.donga.com/news/Inter/article/all/20260730/134396077/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-07-30 16:50:00",
+        "match_score": 13.7
+      },
+      "related_articles": [
+        {
+          "title": "스틸 신임 주한미대사 “한미, 신뢰 깊은 세계에서 가장 강력한 동맹”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260730/134396077/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-07-30 16:50:00",
+          "match_score": 13.7
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "반도체",
+      "reason": "삼성·SK 투자·주가 변동",
+      "score": 40.23,
+      "article_count": 9,
+      "source_count": 5,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업",
+        "정치"
+      ],
+      "sample_titles": [
+        "충청권 반도체 392조 투자 속도전…韓총리 “인재 육성 등 범부처 총력 지원”",
+        "삼성전자, 반도체 스타트업 투자·기술 확보에 8천억 출자",
+        "반도체주 변동성, 런던 금융가도 흔들어"
+      ],
+      "representative_article": {
+        "title": "삼성전자, 반도체 스타트업 투자·기술 확보에 8천억 출자",
+        "link": "https://www.yna.co.kr/view/AKR20260730169300003",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-07-30 17:19:50",
+        "match_score": 40.23
+      },
+      "related_articles": [
+        {
+          "title": "삼성전자, 반도체 스타트업 투자·기술 확보에 8천억 출자",
+          "link": "https://www.yna.co.kr/view/AKR20260730169300003",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-07-30 17:19:50",
+          "match_score": 40.23
+        },
+        {
+          "title": "충청권 반도체 392조 투자 속도전…韓총리 “인재 육성 등 범부처 총력 지원”",
+          "link": "https://www.etnews.com/20260730000322",
+          "source": "전자신문",
+          "published_dt": "2026-07-30 17:00:00",
+          "match_score": 39.59
+        },
+        {
+          "title": "삼성전자, 반도체·DX 스타트업에 8000억원 출자",
+          "link": "https://www.etnews.com/20260730000442",
+          "source": "전자신문",
+          "published_dt": "2026-07-30 17:40:26",
+          "match_score": 38.99
+        },
+        {
+          "title": "삼성전자, AI 반도체 질주에 분기 최대 실적 …매출 171.5조·영업익 89.5조 - 더글로벌기빙뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1mTVRiZmRVcUo2VGxlNVBweV9zZjFKejVxck5mR0E1NWhmRVdDektSVlR2dDJYd0ZmZWdWRkh6SlJEUlZUUmhHS2d2V3ZGd0o3X0xaSA?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-07-30 15:15:00",
+          "match_score": 36.16
+        },
+        {
+          "title": "반도체주 변동성, 런던 금융가도 흔들어",
+          "link": "https://www.chosun.com/economy/stock-finance/2026/07/31/UU33SBB6BRE2HOK43XFPXQLXFY/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-07-31 00:35:00",
+          "match_score": 29.5
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "전세사기",
+      "reason": "대구·동탄 전세 사기 사건",
+      "score": 40.56,
+      "article_count": 3,
+      "source_count": 2,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "특례대출에 전세사기 지원까지 … 주거정책 쌈짓돈 된 주택기금",
+        "대구 감삼동 전세 사기 피해 3년, 시행사 대표 ‘사기’ 혐의 무죄 - 뉴스민",
+        "동탄서 32억 전세사기 후 해외 도피한 검찰수사관 구속 송치 - 중앙일보"
+      ],
+      "representative_article": {
+        "title": "동탄서 32억 전세사기 후 해외 도피한 검찰수사관 구속 송치 - 중앙일보",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAxSG1rMDNzdmotREZlX2V2X3htaXA4N19Ga2pwQnFpU29HMlVyMC0xMmNfWnZhek1BZU9hLW5VcDZjSlV3X3BpdXNQRU51dHJYNTZwLV9B?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-07-30 20:35:37",
+        "match_score": 40.56
+      },
+      "related_articles": [
+        {
+          "title": "동탄서 32억 전세사기 후 해외 도피한 검찰수사관 구속 송치 - 중앙일보",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAxSG1rMDNzdmotREZlX2V2X3htaXA4N19Ga2pwQnFpU29HMlVyMC0xMmNfWnZhek1BZU9hLW5VcDZjSlV3X3BpdXNQRU51dHJYNTZwLV9B?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-07-30 20:35:37",
+          "match_score": 40.56
+        },
+        {
+          "title": "특례대출에 전세사기 지원까지 … 주거정책 쌈짓돈 된 주택기금",
+          "link": "https://www.mk.co.kr/news/realestate/12112149",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-07-30 17:35:29",
+          "match_score": 30.89
+        },
+        {
+          "title": "대구 감삼동 전세 사기 피해 3년, 시행사 대표 ‘사기’ 혐의 무죄 - 뉴스민",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1JbUFXdkxoOER3NUFfanZHSVJIZ0Y0VDAtdWhGVzE5aTBsYy1KQWhfOG82NGkta01DUENNbXlQTlVZX2JSM25ZZVB4OWVmTlk?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-07-31 01:55:31",
+          "match_score": 21.55
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 9,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "2분기",
+      "score": 102.6,
+      "article_count": 19,
+      "source_count": 8,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "증권사들 상반기 역대급 호황… 키움증권은 순이익 1조 넘어",
+        "삼성전기 2분기 영업이익 4404억원… 107% 급증",
+        "대한전선, 2분기 매출·영업익 역대 최대…수주잔고 첫 4조원"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "DL이앤씨, 2분기 영업익 26%·수주 224%↑… 555억 자사주 매입",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/07/30/2026073002924.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-07-30 15:58:33",
+        "match_score": 38.09
+      },
+      "related_articles": [
+        {
+          "title": "DL이앤씨, 2분기 영업익 26%·수주 224%↑… 555억 자사주 매입",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/07/30/2026073002924.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-07-30 15:58:33",
+          "match_score": 38.09
+        },
+        {
+          "title": "대한전선, 2분기 매출·영업익 역대 최대…수주잔고 첫 4조원",
+          "link": "https://www.yna.co.kr/view/AKR20260730149600003",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-07-30 16:04:20",
+          "match_score": 37.67
+        },
+        {
+          "title": "LG전자, 2분기 매출·영업익 '분기 최대'…관세 환급효과 3천억(종합2보)",
+          "link": "https://www.yna.co.kr/view/AKR20260730117753527",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-07-30 17:46:59",
+          "match_score": 37.67
+        },
+        {
+          "title": "금호타이어 2분기 영업이익 1천822억원…작년 동기 대비 4%↑(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260730161751527",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-07-30 17:31:27",
+          "match_score": 37.67
+        },
+        {
+          "title": "SK이노 2분기 영업익 3조4천873억…배터리 실적 대폭개선에 흑자(종합2보)",
+          "link": "https://www.yna.co.kr/view/AKR20260730142802527",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-07-30 17:11:43",
+          "match_score": 37.67
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
