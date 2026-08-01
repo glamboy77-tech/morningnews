@@ -1,0 +1,423 @@
+{
+  "timestamp": "2026-08-02T06:01:34.166848",
+  "date": "20260802",
+  "data": [
+    {
+      "keyword": "AI산업",
+      "reason": "AI 관련 개발과 협력 다수 보도",
+      "score": 3.83,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업",
+        "정치"
+      ],
+      "sample_titles": [
+        "샌프란 AI동맹·외교다변화…경제질서 격랑에 李대통령 해법찾기"
+      ],
+      "representative_article": {
+        "title": "샌프란 AI동맹·외교다변화…경제질서 격랑에 李대통령 해법찾기",
+        "link": "https://www.yna.co.kr/view/AKR20260801030100001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-08-02 05:30:00",
+        "match_score": 3.83
+      },
+      "related_articles": [
+        {
+          "title": "샌프란 AI동맹·외교다변화…경제질서 격랑에 李대통령 해법찾기",
+          "link": "https://www.yna.co.kr/view/AKR20260801030100001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-02 05:30:00",
+          "match_score": 3.83
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "반도체",
+      "reason": "수출 호조 및 장기 공급계약 언급",
+      "score": 41.16,
+      "article_count": 5,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "7월 수출 989억달러 역대 2위…반도체 두달째 400억달러대(종합)",
+        "[속보] 7월 수출 989억달러로 62.8％↑…역대 2위",
+        "문샷, 알리바바서 엔비디아 GPU 2만개 공급받아 '키미 K3' 개발"
+      ],
+      "representative_article": {
+        "title": "반도체 업계, 장기공급계약 확산-삼성·SK, AI 시대 안정 성장 기반 구축 - 미디어파인",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5Ody1uT1RFUEhuRlJDUzFKRDZNcHN1dk8yUzB4aldyM2NWRlpFYlB1bWNMNlpnQWJocl9NMVVfMjEtLW16M1k1VEZ6SUljYTB2M2NQS2JFeERIMnhNMmo1cjNkQ3RkcUZkenUwTW93?oc=5",
+        "source": "키워드-반도체AI",
+        "published_dt": "2026-08-01 13:35:57",
+        "match_score": 41.16
+      },
+      "related_articles": [
+        {
+          "title": "반도체 업계, 장기공급계약 확산-삼성·SK, AI 시대 안정 성장 기반 구축 - 미디어파인",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5Ody1uT1RFUEhuRlJDUzFKRDZNcHN1dk8yUzB4aldyM2NWRlpFYlB1bWNMNlpnQWJocl9NMVVfMjEtLW16M1k1VEZ6SUljYTB2M2NQS2JFeERIMnhNMmo1cjNkQ3RkcUZkenUwTW93?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-08-01 13:35:57",
+          "match_score": 41.16
+        },
+        {
+          "title": "7월 수출 989억달러 역대 2위…반도체 두달째 400억달러대(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260801021152003",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-08-01 10:35:11",
+          "match_score": 30.32
+        },
+        {
+          "title": "문샷, 알리바바서 엔비디아 GPU 2만개 공급받아 '키미 K3' 개발",
+          "link": "https://www.aitimes.com/news/articleView.html?idxno=213438",
+          "source": "AI타임스",
+          "published_dt": "2026-08-02 04:10:51",
+          "match_score": 13.5
+        },
+        {
+          "title": "[속보] 7월 수출 989억달러로 62.8％↑…역대 2위",
+          "link": "https://www.mk.co.kr/news/economy/12114181",
+          "source": "매일경제-경제",
+          "published_dt": "2026-08-01 09:04:18",
+          "match_score": 12.86
+        },
+        {
+          "title": "'이제는 뉴노멀'... 삼성전자ㆍSK하이닉스, 장기공급 계약 잇따라 체결 - 글로벌경제신문",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1EN0JtX3RqR0tSVmlLSWwxdmp6WHBuLV92Mm1UWGJTZDJJdzNFUFBiOXd6bV9PV0JHRXlWUHdJN1p1Vm9TbUo5blkycjVIZndOSVk4N0hYc3Y1SE53dlNuQVlzZlM1Q3dJbjNjY0ZZWHXSAXBBVV95cUxNRDdCbV90akdLUlZpS0lsMXZqelhwbi1fdjJtVFhiU2QySXczRVBQYjl3em1fT1dCR0V5VlB3STdadVZvU21KOW5ZMnI1SGZ3TklZODdIWHN2NUhOd3ZTbkFZc2ZTNUN3SW4zY2NGWVh1?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-08-01 09:28:04",
+          "match_score": 6.16
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재건축",
+      "reason": "주요 지역 재개발·재건축 사업 진행",
+      "score": 39.21,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "“재개발·재건축으로 성남 대전환… 첨단산업·교통까지 함께 바꾼다” - 동아일보"
+      ],
+      "representative_article": {
+        "title": "“재개발·재건축으로 성남 대전환… 첨단산업·교통까지 함께 바꾼다” - 동아일보",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBETm5CT1pwbjFlc1ZGTUloQ3UtNFp6QzZnU3YtYzlvdk9jOVhyNGl4YUVLODR3RnhpemVQc1Q4bkMwbVRqbWwwY0NRVWdTU3I5aWtYWWZnSnI5NElKdGY1di1DV1l0S3hlZURfYnJONjYyeEJOTnfSAWZBVV95cUxOOEtodVpfaWFBb2ZxdUdXalR6ajg3a1VBZzhnSmFYVXFQTWZrSWxIWE1ZbG1mbThXLWNEa1BQZzUyVUN2SWUwVUFsN0ctdUFXUXprVTVtLUg2WVpXM0g0T1RBZ0lHcVE?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-08-01 15:41:27",
+        "match_score": 39.21
+      },
+      "related_articles": [
+        {
+          "title": "“재개발·재건축으로 성남 대전환… 첨단산업·교통까지 함께 바꾼다” - 동아일보",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBETm5CT1pwbjFlc1ZGTUloQ3UtNFp6QzZnU3YtYzlvdk9jOVhyNGl4YUVLODR3RnhpemVQc1Q4bkMwbVRqbWwwY0NRVWdTU3I5aWtYWWZnSnI5NElKdGY1di1DV1l0S3hlZURfYnJONjYyeEJOTnfSAWZBVV95cUxOOEtodVpfaWFBb2ZxdUdXalR6ajg3a1VBZzhnSmFYVXFQTWZrSWxIWE1ZbG1mbThXLWNEa1BQZzUyVUN2SWUwVUFsN0ctdUFXUXprVTVtLUg2WVpXM0g0T1RBZ0lHcVE?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-08-01 15:41:27",
+          "match_score": 39.21
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "수출",
+      "reason": "7월 역대 2위 기록 보도",
+      "score": 37.96,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "[속보] 7월 수출 989억달러로 62.8％↑…역대 2위"
+      ],
+      "representative_article": {
+        "title": "[속보] 7월 수출 989억달러로 62.8％↑…역대 2위",
+        "link": "https://www.mk.co.kr/news/economy/12114181",
+        "source": "매일경제-경제",
+        "published_dt": "2026-08-01 09:04:18",
+        "match_score": 37.96
+      },
+      "related_articles": [
+        {
+          "title": "[속보] 7월 수출 989억달러로 62.8％↑…역대 2위",
+          "link": "https://www.mk.co.kr/news/economy/12114181",
+          "source": "매일경제-경제",
+          "published_dt": "2026-08-01 09:04:18",
+          "match_score": 37.96
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "외환시장",
+      "reason": "원화 절상과 미국 엔화 개입 소식",
+      "score": 31.07,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "美, 이례적 외환시장 개입…엔화약세 저지하려 대규모 매수"
+      ],
+      "representative_article": {
+        "title": "美, 이례적 외환시장 개입…엔화약세 저지하려 대규모 매수",
+        "link": "https://www.yna.co.kr/view/AKR20260801026600009",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-08-01 10:46:01",
+        "match_score": 31.07
+      },
+      "related_articles": [
+        {
+          "title": "美, 이례적 외환시장 개입…엔화약세 저지하려 대규모 매수",
+          "link": "https://www.yna.co.kr/view/AKR20260801026600009",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-08-01 10:46:01",
+          "match_score": 31.07
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "호르무즈",
+      "reason": "유조선 피격 사건 및 국제유가 상승",
+      "score": 40.0,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "국제",
+        "부동산"
+      ],
+      "sample_titles": [
+        "이란 \"호르무즈서 유조선 2척 타격\" 주장…국제 유가 다시 상승 - 해사신문",
+        "호르무즈 해협 입구서 유조선 또 피격…운항 불능 상태"
+      ],
+      "representative_article": {
+        "title": "호르무즈 해협 입구서 유조선 또 피격…운항 불능 상태",
+        "link": "https://www.donga.com/news/Inter/article/all/20260801/134405335/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-08-01 16:37:00",
+        "match_score": 40.0
+      },
+      "related_articles": [
+        {
+          "title": "호르무즈 해협 입구서 유조선 또 피격…운항 불능 상태",
+          "link": "https://www.donga.com/news/Inter/article/all/20260801/134405335/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-01 16:37:00",
+          "match_score": 40.0
+        },
+        {
+          "title": "이란 \"호르무즈서 유조선 2척 타격\" 주장…국제 유가 다시 상승 - 해사신문",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE44VVBPeklyX1Azdm9TdUtPMXhKRFphVHVQSUEyTi1GQ0VTXzNFamVNbi1VMDJ4Z3plVm9pWXpzOHFRcVVRQUZJYTdDdV9SMk5KRnNCUlYyNnF1UlBRXzc4Zk9JdlBraDUtUzFZ?oc=5",
+          "source": "키워드-에너지물가",
+          "published_dt": "2026-08-01 09:41:57",
+          "match_score": 37.36
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "임상시험",
+      "reason": "노보 노디스크 신약 임상 실패 언급",
+      "score": 18.2,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "노보 노디스크, 심혈관 신약 임상 3상 고배…주가 급락"
+      ],
+      "representative_article": {
+        "title": "노보 노디스크, 심혈관 신약 임상 3상 고배…주가 급락",
+        "link": "https://www.chosun.com/economy/science/2026/08/01/GA4WEMBZGI2GEZDDMQYDMMRVGA/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-08-01 10:35:50",
+        "match_score": 18.2
+      },
+      "related_articles": [
+        {
+          "title": "노보 노디스크, 심혈관 신약 임상 3상 고배…주가 급락",
+          "link": "https://www.chosun.com/economy/science/2026/08/01/GA4WEMBZGI2GEZDDMQYDMMRVGA/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-08-01 10:35:50",
+          "match_score": 18.2
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "전세",
+      "score": 25.3,
+      "article_count": 4,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "2분기 서울 아파트 평균 매매가 13.6억… 평균 전세 7.3억 - 경제타임스",
+        "전세계약 끝나니…1억이 올랐다[부동산취재로그] - 이데일리TV",
+        "시흥시, 무주택 신혼부부 전세 대출이자 지원...최대 100만원 - bizwnews.com"
+      ],
+      "llm_candidate": false,
+      "rank": 8,
+      "representative_article": {
+        "title": "2분기 서울 아파트 평균 매매가 13.6억… 평균 전세 7.3억 - 경제타임스",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1JY09GbU5faV9xU2h5Z0hsOUhta1FuVHpQOUNSMlFSdG1JR1ZfaDJDbmhReDM2TW50X3ZSeGg2dzlnYjZGYzN4cjNkM1JMY0JVWndv?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-08-01 10:00:03",
+        "match_score": 36.96
+      },
+      "related_articles": [
+        {
+          "title": "2분기 서울 아파트 평균 매매가 13.6억… 평균 전세 7.3억 - 경제타임스",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1JY09GbU5faV9xU2h5Z0hsOUhta1FuVHpQOUNSMlFSdG1JR1ZfaDJDbmhReDM2TW50X3ZSeGg2dzlnYjZGYzN4cjNkM1JMY0JVWndv?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-08-01 10:00:03",
+          "match_score": 36.96
+        },
+        {
+          "title": "전세계약 끝나니…1억이 올랐다[부동산취재로그] - 이데일리TV",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9iUFRIczZkLXpLb0k5ak5STGZtQVNScUFqWjFLRm9kTDIxbVN1cXQwZ3dDaE5weDdmQ3lVV0pLQ2NzVW5qOGF2TG5qUi1BdlVvRXVxN1lka0ZxY1BCUTNWdUc4Zm1kbHVJbmRndXZxWlBMUVhmSFVxdkRBOA?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-08-01 09:07:33",
+          "match_score": 36.96
+        },
+        {
+          "title": "시흥시, 무주택 신혼부부 전세 대출이자 지원...최대 100만원 - bizwnews.com",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE53bXhFYXVpdDY4YkxRcFJKQXlXcWNuZzVLeGs1TU5YcmcxazJ2b19sUk1PcFNPMXo3Mjg4QVlPRzhZT0YtWVRFSE1NODI2aUFvUkY4SDkzZXpadHBTY2ZOQzhBUDY5cXI2akww?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-08-01 10:34:00",
+          "match_score": 36.96
+        },
+        {
+          "title": "“대출 조여도 매수세 버틴다”…전세난에 실수요자 매매로 눈 돌려 - ddaily.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5lbXpUcHgweXNfWWJVb2xCajdWWHoyb2dqOVFueWVyNFdrMEEzX21KdFNLSkRGUE0wdXBBTDZpWm5kN3NJc29zUFZDQkJjYjhsMUxKUlFZTVdVaTBPVUE2NnpMWW8?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-08-01 14:07:43",
+          "match_score": 36.96
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "시대",
+      "score": 20.9,
+      "article_count": 3,
+      "source_count": 3,
+      "categories": [
+        "기업/산업",
+        "정치"
+      ],
+      "sample_titles": [
+        "李대통령 \"아르헨티나와 한국의 새로운 협력 시대 열릴 것\"",
+        "[테크톡노트] AI 네이티브 시대…'AI를 붙이는' 것만으론 부족하다",
+        "반도체 업계, 장기공급계약 확산-삼성·SK, AI 시대 안정 성장 기반 구축 - 미디어파인"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "반도체 업계, 장기공급계약 확산-삼성·SK, AI 시대 안정 성장 기반 구축 - 미디어파인",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5Ody1uT1RFUEhuRlJDUzFKRDZNcHN1dk8yUzB4aldyM2NWRlpFYlB1bWNMNlpnQWJocl9NMVVfMjEtLW16M1k1VEZ6SUljYTB2M2NQS2JFeERIMnhNMmo1cjNkQ3RkcUZkenUwTW93?oc=5",
+        "source": "키워드-반도체AI",
+        "published_dt": "2026-08-01 13:35:57",
+        "match_score": 36.96
+      },
+      "related_articles": [
+        {
+          "title": "반도체 업계, 장기공급계약 확산-삼성·SK, AI 시대 안정 성장 기반 구축 - 미디어파인",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5Ody1uT1RFUEhuRlJDUzFKRDZNcHN1dk8yUzB4aldyM2NWRlpFYlB1bWNMNlpnQWJocl9NMVVfMjEtLW16M1k1VEZ6SUljYTB2M2NQS2JFeERIMnhNMmo1cjNkQ3RkcUZkenUwTW93?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-08-01 13:35:57",
+          "match_score": 36.96
+        },
+        {
+          "title": "李대통령 \"아르헨티나와 한국의 새로운 협력 시대 열릴 것\"",
+          "link": "https://www.yna.co.kr/view/AKR20260801018900001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-01 08:31:57",
+          "match_score": 29.68
+        },
+        {
+          "title": "[테크톡노트] AI 네이티브 시대…'AI를 붙이는' 것만으론 부족하다",
+          "link": "https://www.yna.co.kr/view/AKR20260730156500017",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-08-01 09:30:00",
+          "match_score": 28.68
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "확보",
+      "score": 17.9,
+      "article_count": 3,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "정치"
+      ],
+      "sample_titles": [
+        "\"관저이전 무관\" 부인한 윤한홍…특검은 \"지속 관여\" 진술 확보(종합)",
+        "정부, 증시 긴급조치권한 확보 착수…금융위기·코로나 복기",
+        "李대통령, 부에노스아이레스 시장 만나…“교민 배려에 감사”"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "\"관저이전 무관\" 부인한 윤한홍…특검은 \"지속 관여\" 진술 확보(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260801047251004",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-08-01 23:03:25",
+        "match_score": 29.68
+      },
+      "related_articles": [
+        {
+          "title": "\"관저이전 무관\" 부인한 윤한홍…특검은 \"지속 관여\" 진술 확보(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260801047251004",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-01 23:03:25",
+          "match_score": 29.68
+        },
+        {
+          "title": "정부, 증시 긴급조치권한 확보 착수…금융위기·코로나 복기",
+          "link": "https://www.yna.co.kr/view/AKR20260731170600002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-08-02 05:49:00",
+          "match_score": 28.68
+        },
+        {
+          "title": "李대통령, 부에노스아이레스 시장 만나…“교민 배려에 감사”",
+          "link": "https://www.chosun.com/economy/economy_general/2026/08/01/MUZDGNBRGI3DCYJUMVSDQMRWME/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-08-01 10:11:25",
+          "match_score": 11.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}

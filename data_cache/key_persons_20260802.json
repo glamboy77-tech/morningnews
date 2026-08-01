@@ -1,0 +1,79 @@
+{
+  "timestamp": "2026-08-02T06:01:20.597183",
+  "date": "20260802",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "샌프란 AI동맹·외교다변화…경제질서 격랑에 李대통령 해법찾기",
+          "link": "https://www.yna.co.kr/view/AKR20260801030100001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-02 05:30:00",
+          "description": "(부에노스아이레스=연합뉴스) 임형섭 황윤기 기자 = 이재명 대통령이 2일 미국 샌프란시스코와 남미 3개국(브라질·칠레·아르헨티나) 순방 일정을 ...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "deduped_sources": [
+            {
+              "source": "연합뉴스-경제",
+              "title": "샌프란 AI동맹·외교다변화…경제질서 격랑에 李대통령 해법찾기",
+              "link": "https://www.yna.co.kr/view/AKR20260801030100001"
+            }
+          ],
+          "priority_score": 3,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 \"아르헨티나와 한국의 새로운 협력 시대 열릴 것\"",
+          "link": "https://www.yna.co.kr/view/AKR20260801018900001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-01 08:31:57",
+          "description": "(부에노스아이레스=연합뉴스) 임형섭 황윤기 기자 = 아르헨티나를 공식방문한 이재명 대통령은 31일(현지시간) &quot;아르헨티나와 대한민국 간의 새로운...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, 부에노스아이레스 시장 만나…“교민 배려에 감사”",
+          "link": "https://www.chosun.com/economy/economy_general/2026/08/01/MUZDGNBRGI3DCYJUMVSDQMRWME/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-08-01 10:11:25",
+          "description": "아르헨티나를 국빈 방문한 이재명 대통령은 31일(현지 시각) 수도인 부에노스아이레스의 호르헤 마크리 시장을 만났다. 이 대통령은 시내 한 호텔에서 이뤄진 접견에서 “부에노스아이레스에 우리 교민이 2만명 넘게 거주하고 있는데, 시장님께서 문화공연장 확보 등 여러 측면으로 배려해주신다고 들었다”며 “감사하다”고 말했다. 마크리 시장은 “저 역시 기쁘게 생각한다",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/economy/?outputType=xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "인니 대통령 “李대통령, ‘방북해 대화중재’ 요청…기꺼이 갈것”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260801/134405191/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-01 12:27:07",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/08/01/134405192.1.jpg\" vspace=\"10\" />이재명 대통령이 지난 4월 한국을 국빈 방문한 프라보워 수비안토 인도네시아 대통령에게 남북간 대화의 물꼬를 트는 역할을 요청했다고 프라보워 대통령이 밝혔다.아나돌루통신 등에 따르면 프라보워 대통령은 31일(현지 시간) 자카르타 대통령궁에서 기자들과 만나 “한국 대통령이 나에게 북한을 방문해 어떤 형태로든 대화의 장을 열 수 있겠느냐(visit North Korea to open some kind of dialogue)고 요청했다”고 말했다.프라보워 대통령은 이어 “나는 존중하는 마음으로, 그리고 기꺼이 ‘그렇게 하겠다’고 답했다. 내가 만약 북한에 가 달라는 공식 요청을 받는다면 나는 갈 것”이라고 강조했다.그러면서 “외국 내정에 간섭하지 않는 인도네시아의 오랜 외교 원칙 덕분에 모든 당사자들과 건설적 관계를 유지할 수 있었다”며 “인도네시아는 앞으로도 군사동맹에는 참여하지 않는 비동맹 외교 노선을 유지하며, 대화를 통한 평화와 분쟁 해결에 기여하는 외교를 계속해 나갈 것”이라",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 4,
+      "role": "한국 대통령"
+    }
+  }
+}
