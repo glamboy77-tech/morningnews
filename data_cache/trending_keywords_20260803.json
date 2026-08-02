@@ -1,0 +1,360 @@
+{
+  "timestamp": "2026-08-03T06:01:45.041716",
+  "date": "20260803",
+  "data": [
+    {
+      "keyword": "보완수사권",
+      "reason": "정치권 보완수사권 법안 논의",
+      "score": 29.68,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "與법사위 \"7대 범죄 전건송치 법안, 최대한 빨리 처리할 것\"",
+        "국힘, 오늘 靑앞 최고위…\"보완수사권 폐지법 거부권 촉구\""
+      ],
+      "representative_article": {
+        "title": "국힘, 오늘 靑앞 최고위…\"보완수사권 폐지법 거부권 촉구\"",
+        "link": "https://www.yna.co.kr/view/AKR20260802031200001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-08-03 05:00:05",
+        "match_score": 29.68
+      },
+      "related_articles": [
+        {
+          "title": "국힘, 오늘 靑앞 최고위…\"보완수사권 폐지법 거부권 촉구\"",
+          "link": "https://www.yna.co.kr/view/AKR20260802031200001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-03 05:00:05",
+          "match_score": 29.68
+        },
+        {
+          "title": "與법사위 \"7대 범죄 전건송치 법안, 최대한 빨리 처리할 것\"",
+          "link": "https://www.yna.co.kr/view/AKR20260802022500001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-02 13:12:03",
+          "match_score": 13.88
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "기준금리",
+      "reason": "미국 금리 인상 명분 부각",
+      "score": 32.71,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "美 채권자경단이 움직인다 ... 기준금리 인상 명분 강해졌다"
+      ],
+      "representative_article": {
+        "title": "美 채권자경단이 움직인다 ... 기준금리 인상 명분 강해졌다",
+        "link": "https://www.mk.co.kr/news/economy/12114546",
+        "source": "매일경제-경제",
+        "published_dt": "2026-08-03 05:00:00",
+        "match_score": 32.71
+      },
+      "related_articles": [
+        {
+          "title": "美 채권자경단이 움직인다 ... 기준금리 인상 명분 강해졌다",
+          "link": "https://www.mk.co.kr/news/economy/12114546",
+          "source": "매일경제-경제",
+          "published_dt": "2026-08-03 05:00:00",
+          "match_score": 32.71
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "채권자경단",
+      "reason": "미국 금융시장 움직임",
+      "score": 29.11,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "美 채권자경단이 움직인다 ... 기준금리 인상 명분 강해졌다"
+      ],
+      "representative_article": {
+        "title": "美 채권자경단이 움직인다 ... 기준금리 인상 명분 강해졌다",
+        "link": "https://www.mk.co.kr/news/economy/12114546",
+        "source": "매일경제-경제",
+        "published_dt": "2026-08-03 05:00:00",
+        "match_score": 29.11
+      },
+      "related_articles": [
+        {
+          "title": "美 채권자경단이 움직인다 ... 기준금리 인상 명분 강해졌다",
+          "link": "https://www.mk.co.kr/news/economy/12114546",
+          "source": "매일경제-경제",
+          "published_dt": "2026-08-03 05:00:00",
+          "match_score": 29.11
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재개발",
+      "reason": "부동산 시장 주요 이슈",
+      "score": 29.09,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "“국평 신축 입주권이 30억원” … 흑석동 재개발, 지금 들어가도 되나"
+      ],
+      "representative_article": {
+        "title": "“국평 신축 입주권이 30억원” … 흑석동 재개발, 지금 들어가도 되나",
+        "link": "https://www.mk.co.kr/news/realestate/12114661",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-08-02 18:15:30",
+        "match_score": 29.09
+      },
+      "related_articles": [
+        {
+          "title": "“국평 신축 입주권이 30억원” … 흑석동 재개발, 지금 들어가도 되나",
+          "link": "https://www.mk.co.kr/news/realestate/12114661",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-08-02 18:15:30",
+          "match_score": 29.09
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI사업",
+      "reason": "기업 AI 사업 차질 우려",
+      "score": 19.69,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "'사이버보안 특화' AI 사업 차질 우려…“기한 연장 등 특단 대책 필요”"
+      ],
+      "representative_article": {
+        "title": "'사이버보안 특화' AI 사업 차질 우려…“기한 연장 등 특단 대책 필요”",
+        "link": "https://www.etnews.com/20260731000233",
+        "source": "전자신문",
+        "published_dt": "2026-08-02 16:00:00",
+        "match_score": 19.69
+      },
+      "related_articles": [
+        {
+          "title": "'사이버보안 특화' AI 사업 차질 우려…“기한 연장 등 특단 대책 필요”",
+          "link": "https://www.etnews.com/20260731000233",
+          "source": "전자신문",
+          "published_dt": "2026-08-02 16:00:00",
+          "match_score": 19.69
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "가뭄",
+      "reason": "국내외 가뭄 현상 격상",
+      "score": 38.88,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "밀양댐 가뭄단계 '경계' 격상…농업용수 공급 중단할 수도",
+        "밀양댐 가뭄단계 '경계' 격상…농업용수 공급 중단할 수도"
+      ],
+      "representative_article": {
+        "title": "밀양댐 가뭄단계 '경계' 격상…농업용수 공급 중단할 수도",
+        "link": "https://www.yna.co.kr/view/AKR20260802013400530",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-08-02 10:07:28",
+        "match_score": 38.88
+      },
+      "related_articles": [
+        {
+          "title": "밀양댐 가뭄단계 '경계' 격상…농업용수 공급 중단할 수도",
+          "link": "https://www.yna.co.kr/view/AKR20260802013400530",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-08-02 10:07:28",
+          "match_score": 38.88
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "호르무즈",
+      "reason": "이란 협상과 국제 이슈",
+      "score": 38.8,
+      "article_count": 4,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "트럼프, ‘이란 주말 대공습’ 취소… “호르무즈 개방-핵 종식 합의 윤곽”",
+        "이란 외무 “오만과 호르무즈 협상 순항 중…막바지 단계”",
+        "트럼프 “세계 미래 위해 이란 공격 취소…협상 기본 골자 합의”"
+      ],
+      "representative_article": {
+        "title": "트럼프, ‘이란 주말 대공습’ 취소… “호르무즈 개방-핵 종식 합의 윤곽”",
+        "link": "https://www.donga.com/news/Inter/article/all/20260803/134409616/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-08-03 04:30:00",
+        "match_score": 38.8
+      },
+      "related_articles": [
+        {
+          "title": "트럼프, ‘이란 주말 대공습’ 취소… “호르무즈 개방-핵 종식 합의 윤곽”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260803/134409616/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-03 04:30:00",
+          "match_score": 38.8
+        },
+        {
+          "title": "이란 외무 “오만과 호르무즈 협상 순항 중…막바지 단계”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260803/134409978/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-03 04:01:35",
+          "match_score": 38.5
+        },
+        {
+          "title": "트럼프 “세계 미래 위해 이란 공격 취소…협상 기본 골자 합의”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260802/134406745/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-02 16:02:00",
+          "match_score": 12.8
+        },
+        {
+          "title": "트럼프 “못 버틸 때까지 타격” 다음날 “공격 취소”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260802/134406224/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-02 11:35:00",
+          "match_score": 11.6
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "수주확대",
+      "reason": "기업 신공장·수주 호재",
+      "score": 14.5,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "LG전자, '초슬림 중정압 덕트'로 글로벌 B2B HVAC 수주 확대한다"
+      ],
+      "representative_article": {
+        "title": "LG전자, '초슬림 중정압 덕트'로 글로벌 B2B HVAC 수주 확대한다",
+        "link": "https://www.etnews.com/20260731000140",
+        "source": "전자신문",
+        "published_dt": "2026-08-02 16:00:00",
+        "match_score": 14.5
+      },
+      "related_articles": [
+        {
+          "title": "LG전자, '초슬림 중정압 덕트'로 글로벌 B2B HVAC 수주 확대한다",
+          "link": "https://www.etnews.com/20260731000140",
+          "source": "전자신문",
+          "published_dt": "2026-08-02 16:00:00",
+          "match_score": 14.5
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "기술혁신",
+      "reason": "기업 신기술 개발 동향",
+      "score": 3.88,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "햇빛만 있으면 녹조 잡는다…KIST, 자율방제 수상로봇 개발"
+      ],
+      "representative_article": {
+        "title": "햇빛만 있으면 녹조 잡는다…KIST, 자율방제 수상로봇 개발",
+        "link": "https://www.yna.co.kr/view/AKR20260801044900017",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-08-02 12:00:06",
+        "match_score": 3.88
+      },
+      "related_articles": [
+        {
+          "title": "햇빛만 있으면 녹조 잡는다…KIST, 자율방제 수상로봇 개발",
+          "link": "https://www.yna.co.kr/view/AKR20260801044900017",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-08-02 12:00:06",
+          "match_score": 3.88
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 9,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "핀테크",
+      "reason": "핀테크 기업 공모 및 육성",
+      "score": 37.98,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "서울핀테크랩, 유망 핀테크 기업 15곳 모집…최대 4년 입주"
+      ],
+      "representative_article": {
+        "title": "서울핀테크랩, 유망 핀테크 기업 15곳 모집…최대 4년 입주",
+        "link": "https://www.yna.co.kr/view/AKR20260802016000004",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-08-02 11:15:01",
+        "match_score": 37.98
+      },
+      "related_articles": [
+        {
+          "title": "서울핀테크랩, 유망 핀테크 기업 15곳 모집…최대 4년 입주",
+          "link": "https://www.yna.co.kr/view/AKR20260802016000004",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-02 11:15:01",
+          "match_score": 37.98
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 10,
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}

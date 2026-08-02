@@ -1,0 +1,108 @@
+{
+  "timestamp": "2026-08-03T06:01:31.485442",
+  "date": "20260803",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "李대통령, 7박 11일 순방 일정 마무리…서울로 출발",
+          "link": "https://www.yna.co.kr/view/AKR20260802053900001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-03 00:25:00",
+          "description": "(프랑크푸르트=연합뉴스) 임형섭 황윤기 기자 = 이재명 대통령은 7박 11일간의 순방을 마무리하고 2일(현지시간) 서울행 비행기에 올랐다.",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "與순회경선 이틀차…金 \"당심이 이겨\"·鄭 \"배신한 자 또 배신\"",
+          "link": "https://www.yna.co.kr/view/AKR20260802023800001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-02 12:48:27",
+          "description": "(서울·울산=연합뉴스) 김정진 오규진 기자 = 더불어민주당 당권주자인 송영길·정청래·김민석 후보(기호순)는 8·17 전당대회 순회 경선 이틀째인...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "당내 정국",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "與법사위 \"7대 범죄 전건송치 법안, 최대한 빨리 처리할 것\"",
+          "link": "https://www.yna.co.kr/view/AKR20260802022500001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-02 13:12:03",
+          "description": "(서울=연합뉴스) 안정훈 기자 = 더불어민주당이 보완수사권 폐지에 따른 부작용 차단을 위해 추진하는 &apos;7대 범죄 전건송치&apos; 법안을 늦어도 다음 ...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "입법/정책",
+          "is_representative": true,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "한국 대통령"
+    },
+    "트럼프": {
+      "articles": [
+        {
+          "title": "트럼프, ‘이란 주말 대공습’ 취소… “호르무즈 개방-핵 종식 합의 윤곽”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260803/134409616/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-03 04:30:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/08/03/134407854.5.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령이 이스라엘과 함께 준비한 주말 대규모 이란 공격을 일단 취소한다고 1일(현지 시간) 밝혔다. 호르무즈 해협 개방, 이란 핵 위협 종식을 골자로 한 합의 윤곽이 마련된 데다 이란과 중동 국가들이 공격 보류를 요청했다는 게 이유다. 이란의 걸프국 원유 시설에 대한 보복 공습 위협과 국제유가 상승 우려 등이 공격 보류 결정에 영향을 미친 것으로 분석된다. 트럼프 대통령은 이날 자신의 소셜미디어 트루스소셜에 “이란과 다른 중동 국가들로부터 합의의 틀에 대한 동의가 이뤄졌으니 어떠한 공격도 보류해 달라는 요청을 받았다”며 “이런 요청에 따라 세계의 미래를 위해, 그리고 동시에 성공적이고 번영하는 이란의 생존을 위해 나는 신속히 합의를 이룰 수 있다는 조건 아래 공격을 취소하기로 동의했다”고 썼다. 이어 “이스라엘도 나와 함께 이 약속에 동참한다”고 덧붙였다. 앞서 CBS와 월스트리트저널(WSJ)은 미국과 이스라엘이 주말(1∼2일)에 이란의 에너지 시설에 대한 대",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프가 좌파 탓한 ‘반사 연못’ 훼손, 측근 검사장 “부실 공사”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260802/134409106/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-03 04:30:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/08/02/134407679.4.jpg\" vspace=\"10\" />11월 3일 중간선거를 앞둔 도널드 트럼프 미국 대통령이 안팎의 악재에 휩싸였다. 미국 내부에서는 의욕적으로 추진한 수도 워싱턴의 명물 ‘반사 연못(Reflecting Pool)’ 개조 공사가 부실 논란에 휩싸였다. 최측근인 토드 블랜치 법무장관 후보자의 인준도 집권 공화당의 내부 반발에 막혀 난항을 겪고 있다. 올 2월 28일 발발 후 반년 가까이 계속되는 이란과의 전쟁 또한 뚜렷한 출구를 찾지 못하고 있다. 대통령의 국정 및 당내 장악력, 전쟁 관리 능력 등이 동시에 시험대에 오르면서 중간선거에도 상당한 악재로 작용하고 있다는 평가가 나온다.● 측근도 편들어 주지 못한 ‘반사 연못’ 부실 공사 1922년 헨리 베이컨이 설계한 반사 연못은 링컨기념관과 워싱턴기념탑을 연결하는 내셔널몰의 상징적 공간이다. 길이 640m, 폭 49m로 대통령 취임식, 국가 추모 행사, 대규모 시민 집회 때 사용되는 워싱턴의 랜드마크다. 트럼프 대통령은 올 4월 반사 연못 개조 계획을 발표했고 이후",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프 “세계 미래 위해 이란 공격 취소…협상 기본 골자 합의”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260802/134406745/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-02 16:02:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/08/02/134407463.1.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령이 이스라엘과 함께 준비한 주말 대규모 이란 공격을 일단 취소한다고 1일(현지 시간) 밝혔다. 호르무즈 해협 개방, 이란 핵 위협 종식을 골자로 한 합의 윤곽이 마련된 데다 이란과 중동 국가들이 공격 보류를 요청했다는 게 이유다. 이란의 걸프국 원유 시설에 대한 보복 공습 위협과 국제유가 상승 우려 등이 공격 보류 결정에 영향을 미친 것으로 분석된다.트럼프 대통령은 이날 자신의 소셜미디어 트루스소셜에 “이란과 다른 중동 국가들로부터 합의의 틀에 대한 동의가 이뤄졌으니 어떠한 공격도 보류해 달라는 요청을 받았다”며 “이런 요청에 따라 세계의 미래를 위해, 그리고 동시에 성공적이고 번영하는 이란의 생존을 위해 나는 신속히 합의를 이룰 수 있다는 조건 아래 공격을 취소하기로 동의했다”고 썼다. 이어 “이스라엘도 나와 함께 이 약속에 동참한다”고 덧붙였다.앞서 CBS와 월스트리트저널(WSJ)은 미국과 이스라엘이 주말(1~2일)에 이란의 에너지 시설에 대한 대규모",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "미국 대통령"
+    }
+  }
+}
