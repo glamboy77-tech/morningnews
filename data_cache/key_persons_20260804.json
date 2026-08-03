@@ -1,0 +1,228 @@
+{
+  "timestamp": "2026-08-04T06:01:55.089580",
+  "date": "20260804",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "李대통령, 7시간 반 부동산·증시 점검회의…\"공급 속도 중요\"",
+          "link": "https://www.yna.co.kr/view/AKR20260803163600001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-03 23:32:58",
+          "description": "(서울=연합뉴스) 고동욱 기자 = 이재명 대통령이 7박 11일간의 미국·남미 순방을 마치고 돌아오자마자 최대 국내 현안인 부동산 및 주식시장 안...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "deduped_sources": [
+            {
+              "source": "연합뉴스-경제",
+              "title": "李대통령, 7시간 반 부동산·증시 점검회의…\"공급 속도 중요\"",
+              "link": "https://www.yna.co.kr/view/AKR20260803163600001"
+            }
+          ],
+          "priority_score": 3,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "국힘 \"李대통령 거부권 행사해야…대국민보고회, 뻔뻔한 정치쇼\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260803046751001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-03 17:29:02",
+          "description": "(서울=연합뉴스) 류미나 이율립 기자 = 국민의힘 지도부는 3일 청와대 앞에서 현장 최고위원회의를 열고 검찰 보완수사권 폐지법(형사소송법 개정안...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "입법/정책",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "장동혁 “이 대통령, 귀국하자마자 던진 것이 세금폭탄”",
+          "link": "https://www.mk.co.kr/news/realestate/12115522",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-08-03 19:31:31",
+          "description": "국민의힘 “역대 최악의 세제개편안”국민의힘은 3일 정부가 집값 안정화를 목표로 부동산 보유·거래세를 인상하는 내용 등의 세제개편안을 발표하자 “역대 최악”이라고 평가하며 공세 수위..",
+          "category": "domestic",
+          "feed_url": "https://www.mk.co.kr/rss/50300009/",
+          "source_type": "realestate",
+          "source_weight": 1.15,
+          "source_badge": "부동산",
+          "priority_score": 1,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "한국 대통령"
+    },
+    "트럼프": {
+      "articles": [
+        {
+          "title": "국제유가, 트럼프 이란공격 취소에 급락…브렌트 5%↓",
+          "link": "https://www.yna.co.kr/view/AKR20260804004400072",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-08-04 04:31:21",
+          "description": "(뉴욕=연합뉴스) 이지헌 특파원 = 도널드 트럼프 미국 대통령이 이란에 대한 대규모 공습을 예고했다가 취소하고 대화 재개로 선회하면서 3일(현지...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/economy.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "related_full_sources": [
+            {
+              "source": "키워드-에너지물가",
+              "title": "국제유가, 트럼프 이란공격 취소에 5% 안팎 급락 - 네이트",
+              "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5uWnVtSlJZMFNSUFVsbmlfNjVDTDMyaUtyaDdVdEducEI0Rk4yYUIxLU5jNUt0aVFtc2swLVJXNEFsRktpdm5qTDhseGY0VjVmTjFRby1MZHNtSTBTYVR6Zw?oc=5"
+            },
+            {
+              "source": "키워드-에너지물가",
+              "title": "국제유가, 트럼프 이란공격 취소에 급락…브렌트 5%↓ - 한국경제TV",
+              "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOTnlBaTlxSktPNF9SX0RLZV82bUF6S1MyNzVHQTIxR1Vyc2ZzcTE3cmIzSEkydGFSUlNWRlplcnFPdC1JeTE0ZURuOC1qSUhKajk5VkMyaFJXZ2s0SEV2VTJtdENxTDI5c0JBaTRSOFVTazFUQ0cwVTVoN1JsSk9kQg?oc=5"
+            }
+          ]
+        },
+        {
+          "title": "전쟁 와중에 “이게 재능” 골프 우승 자랑한 트럼프",
+          "link": "https://www.donga.com/news/People/article/all/20260804/134415525/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-04 04:30:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/08/04/134415831.1.jpg\" vspace=\"10\" />“내게는 다른 사람에게 없는 재능이 있다.” 이란과의 전쟁 장기화 와중에 ‘골프 애호가’ 도널드 트럼프 미국 대통령이 자신의 골프 재능을 과시했다. 그는 2일(현지 시간) 트루스소셜에 어프로치샷으로 골프공을 홀 가까이 붙이는 13초 분량의 동영상을 올리고 “베드민스터 클럽 챔피언십의 우승 샷”이라고 적었다. 트럼프 대통령은 이날 자신이 소유한 뉴저지주 베드민스터의 골프장에서 ‘클럽 챔피언십 시니어’ 부문에서 우승했다고 공개했다. 그는 “70타로 우승했다. 나는 다른 참가자들과 달리 많은 다른 일에 집중하느라 연습할 시간이 거의 없었는데도 우승했다”고 주장했다. 그는 “이를 재능(TALENT)이라고 부른다. 나는 그것을 갖고 있지만 다른 사람들은 그렇지 않다”고 주장했다. 70타는 18홀의 통상 기준 타수 72타보다 두 타를 적게 친 ‘2언더파’ 성적이다. CBS 등에 따르면 트럼프 행정부는 당초 1, 2일 이란 에너지 시설을 대대적으로 공습할 예정이었다. 올 2월 28일 이란",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "전쟁중 골프 우승 자랑한 트럼프 “나만의 재능 있어”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260803/134413268/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-03 16:01:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/08/03/134413414.1.jpg\" vspace=\"10\" />“내게는 다른 사람에게 없는 재능이 있다.”이란과의 전쟁 장기화 와중에 ‘골프 애호가’ 도널드 트럼프 미국 대통령이 자신의 골프 재능을 과시했다. 그는 2일(현지 시간) 트루스소셜에 어프로치샷으로 골프공을 홀 가까이 붙이는 13초 분량의 동영상을 올리고 “베드민스터 클럽 챔피언십의 우승 샷”이라고 적었다. 트럼프 대통령은 이날 자신이 소유한 뉴저지주 베드민스터의 골프장에서 ‘클럽 챔피언십 시니어’ 부문에서 우승했다고 공개했다. 그는 “70타로 우승했다. 나는 다른 참가자들과 달리 많은 다른 일에 집중하느라 연습할 시간이 거의 없었는데도 우승했다”고 주장했다.그는 “이를 재능(TALENT)이라고 부른다. 나는 그것을 갖고 있지만 다른 사람들은 그렇지 않다”고 주장했다. 70타는 18홀의 통상 기준 타수  72타보다 두 타를 적게 친 ‘2언더파’ 성적이다.CBS 등에 따르면 트럼프 행정부는 당초 1,2일 이란 에너지 시설을 대대적으로 공습할 예정이었다. 올 2월 28일 이란 전쟁",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "미국 대통령"
+    },
+    "김": {
+      "articles": [
+        {
+          "title": "鄭 \"배신에 총량없어\"·金 \"명청대전 나라 흔들\"…호남구애 경쟁도(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260803073151001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-03 17:50:37",
+          "description": "(서울=연합뉴스) 김정진 기자 = 더불어민주당 8·17 전당대회 1주차 순회경선에서 정청래·김민석 후보(기호순)가 0.99%포인트(p) 차 접전...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "鄭·金 1%p차… ‘권리당원 70%’ 호남·수도권에 달려",
+          "link": "https://www.chosun.com/politics/assembly/2026/08/04/VMSDCDC57JGQZL4IQKELNVTIOY/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-08-04 00:43:00",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "鄭 \"배신에 총량없어\"·金 \"명청대전 나라 흔들\"…호남구애 경쟁도(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260803073151001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-03 17:50:37",
+          "description": "(서울=연합뉴스) 김정진 기자 = 더불어민주당 8·17 전당대회 1주차 순회경선에서 정청래·김민석 후보(기호순)가 0.99%포인트(p) 차 접전...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "정치인"
+    },
+    "정": {
+      "articles": [
+        {
+          "title": "鄭 \"배신에 총량없어\"·金 \"명청대전 나라 흔들\"…호남구애 경쟁도(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260803073151001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-03 17:50:37",
+          "description": "(서울=연합뉴스) 김정진 기자 = 더불어민주당 8·17 전당대회 1주차 순회경선에서 정청래·김민석 후보(기호순)가 0.99%포인트(p) 차 접전...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "鄭·金 1%p차… ‘권리당원 70%’ 호남·수도권에 달려",
+          "link": "https://www.chosun.com/politics/assembly/2026/08/04/VMSDCDC57JGQZL4IQKELNVTIOY/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-08-04 00:43:00",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "鄭 \"배신에 총량없어\"·金 \"명청대전 나라 흔들\"…호남구애 경쟁도(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260803073151001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-03 17:50:37",
+          "description": "(서울=연합뉴스) 김정진 기자 = 더불어민주당 8·17 전당대회 1주차 순회경선에서 정청래·김민석 후보(기호순)가 0.99%포인트(p) 차 접전...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "정치인"
+    }
+  }
+}
