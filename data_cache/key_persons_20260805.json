@@ -1,0 +1,131 @@
+{
+  "timestamp": "2026-08-05T06:01:41.644078",
+  "date": "20260805",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "李대통령, 오전 외교·국방·통일…오후엔 검경 업무보고 청취",
+          "link": "https://www.yna.co.kr/view/AKR20260804156800001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-05 05:00:00",
+          "description": "(서울=연합뉴스) 설승은 기자 = 이재명 대통령은 5일 청와대에서 외교·안보 관련 부처 및 검경 등으로부터 업무보고를 받는다.",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "개정형소법 공포안 가결, 李대통령 서명만 남아…警수사중립 논란(종합2보)",
+          "link": "https://www.yna.co.kr/view/AKR20260804085852004",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-04 17:56:22",
+          "description": "(서울=연합뉴스) 박재현 한지은 최원정 권희원 기자 = 형사소송법 일부개정법률 공포안이 4일 국무회의에서 의결됐다. 대통령 서명과 관보 게재를 ...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "국힘, 세제개편에 \"아마추어 李정부 무능 감추려 세금 '핵폭탄'\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260804063951001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-04 16:36:55",
+          "description": "(서울=연합뉴스) 류미나 이율립 기자 = 국민의힘은 4일 부동산 보유·거래세 인상, 생산적 금융 ISA(개인종합자산관리계좌) 도입 등의 내용을 ...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "deduped_sources": [
+            {
+              "source": "연합뉴스-경제",
+              "title": "국힘, 세제개편에 \"아마추어 李정부 무능 감추려 세금 '핵폭탄'\"(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20260804063951001"
+            }
+          ],
+          "priority_score": 3,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 \"공정위, 경제檢 역할 제대로…담합 꿈 못꾸게 해달라\"",
+          "link": "https://www.yna.co.kr/view/AKR20260804138100001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-04 16:59:30",
+          "description": "(서울=연합뉴스) 임형섭 설승은 기자 = 이재명 대통령은 4일 &quot;공정거래위원회가 최근 담합, 매점매석 단속을 열심히 하면서 &apos;경제 검찰&apos; 역할을...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        }
+      ],
+      "count": 4,
+      "role": "한국 대통령"
+    },
+    "트럼프": {
+      "articles": [
+        {
+          "title": "[단독]“美 군함 4척 해외 건조”… 백악관, 첫 공식 문서화",
+          "link": "https://www.donga.com/news/Economy/article/all/20260805/134422014/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-05 04:30:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/07/22/134340924.1.jpg\" vspace=\"10\" />미국 백악관이 미 해군 수상 전투함 2척과 비전투 지원함 2척을 해외 조선소에서 건조하겠다는 구상을 공식적으로 내놨다. 동맹국 조선소를 활용한 미군 군함 건조 가능성은 그동안 꾸준히 제기됐지만 해외 건조 대상과 규모를 공식 문서에 명시한 것은 이번이 처음이다. 미국 백악관 예산관리국(OMB)은 지난달 21일 공개한 ‘2027년 국방수권법(NDAA)에 대한 행정부 정책입장서(SAP)’에서 “해군의 수상 전투함 2척과 비전투 지원함 2척을 해외 조선소에서 건조할 수 있도록 하는 것이 행정부의 우선 입법 구상”이라고 밝힌 것으로 4일 확인됐다. SAP는 의회가 추진 중인 법안에 대한 미 백악관의 공식 의견을 담은 문서다. 백악관은 또 미국 해안경비대 쇄빙선 사업에 적용 중인 ‘핀란드 모델’을 성공 사례로 제시했다. 이는 초기 물량은 해외에서 건조해 전력 공백을 메우고, 이후 생산은 미국으로 이전해 자국 조선 산업을 육성하는 방식이다. 한국 조선업계는 해당 전략이 현실화되면 한국 조선업",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프 “참수前 마지막 기회” 압박에도…이란 “협상 계획 없다”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260804/134417852/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-04 15:00:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/08/04/134416683.1.jpg\" vspace=\"10\" />3일(현지 시간) 도널드 트럼프 미국 대통령이 이란을 겨냥해 “참수(decapitation) 공격에 나서기 전 마지막 기회를 주고 있다”며 또 다시 최후통첩을 보냈다. 이란과 협상이 진행 중이라면서도, 결렬 시 이란 지도부 제거 등 고강도 군사행동에 나설 가능성을 시사하며 압박 수위를 끌어올린 것이다.이란은 미국과의 협상 사실을 부인하고 나섰다. 대신 호르무즈 해협 연안국인 오만과 해협 통과 선박에 ‘서비스 요금’을 부과하는 방안에 거의 합의했다고 뉴욕타임스(NYT)가 이날 전했다. 일각에선 트럼프 대통령이 대규모 군사행동을 예고했다가 막판에 공격을 보류하는 패턴을 반복하면서 오히려 이란에 협상 주도권만 넘겨주고 있다는 지적이 나온다.● 트럼프 “1단계 호르무즈  완전 개방, 2단계 이란 비핵화”트럼프 대통령은 이날 워싱턴 백악관 집무실에서 기자들과 만나 이란과의 협상이 “지금도 진행되고 있다”며 “이번이 마지막 기회”라고 밝혔다. 또 “이번에는 무언가를 얻어낼 수도 있다고 생",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "백악관, AI 개발사 불러모았다…“무단 해킹 차단” 보안 방안 논의",
+          "link": "https://www.donga.com/news/Inter/article/all/20260804/134417768/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-04 14:37:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/08/04/134418763.1.jpg\" vspace=\"10\" />도널드 트럼프 미국 행정부가 4일 오픈AI, 앤스로픽, 구글, 메타 등 주요 인공지능(AI) 개발사들을 워싱턴 백악관으로 소집해 트럼프 행정부가 추진하고 있는 AI 보안 테스트 관련 논의를 진행하기로 했다고 로이터통신 등이 3일 보도했다. 최근 잇따르는 첨단 AI의 해킹 사태에 실질적인 방지 대책이 마련될 지 주목된다.트럼프 행정부는 최근 최첨단 AI 모델의 해킹 능력을 측정하기 위한 사이버 보안 테스트의 최종 기준을 마련했고 이를 AI 업계와 논의할 계획이다. 다만 백악관은 테스트의 구체적인 내용, 결과 공개 방식, 사용되는 지표 등에 대해서는 밝히지 않았다. 관련한 성능 지표와 기준 수치 등이 행정명령 상 기밀로 지정됐기 때문이라고 정치매체 액시오스는 전했다.이 테스트는 AI 개발사들이 신규 모델을 정식 출시하기 전 최대 30일 동안 연방 정부와 정부가 지정한 ‘신뢰할 수 있는 파트너(trusted partners)’에 모델을 미리 제공해 사이버 보안 구조를 검증받도록 하는",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "미국 대통령"
+    }
+  }
+}

@@ -1,0 +1,390 @@
+{
+  "timestamp": "2026-08-05T06:01:57.432958",
+  "date": "20260805",
+  "data": [
+    {
+      "keyword": "형소법 개정",
+      "reason": "여야·정부 법 개정 논란",
+      "score": 7.27,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "개정형소법 공포안 가결, 李대통령 서명만 남아…警수사중립 논란(종합2보)"
+      ],
+      "representative_article": {
+        "title": "개정형소법 공포안 가결, 李대통령 서명만 남아…警수사중립 논란(종합2보)",
+        "link": "https://www.yna.co.kr/view/AKR20260804085852004",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-08-04 17:56:22",
+        "match_score": 7.27
+      },
+      "related_articles": [
+        {
+          "title": "개정형소법 공포안 가결, 李대통령 서명만 남아…警수사중립 논란(종합2보)",
+          "link": "https://www.yna.co.kr/view/AKR20260804085852004",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-04 17:56:22",
+          "match_score": 7.27
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI 산업",
+      "reason": "대통령 강조·기업 혁신",
+      "score": 5.4,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업",
+        "정치"
+      ],
+      "sample_titles": [
+        "BOK 이슈해설｜한국에도 구글이 나올 수 있을까? 대학 혁신창업의 숨겨진 문제 - bok.or.kr"
+      ],
+      "representative_article": {
+        "title": "BOK 이슈해설｜한국에도 구글이 나올 수 있을까? 대학 혁신창업의 숨겨진 문제 - bok.or.kr",
+        "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPeFppMGRQQVYzR3V5aGE4VVlEUUdCc2lFWnV3M3VrbDV3eVNIM0wtVk1OQWFHUXJRQThGSDRMTDA5RERveUEyWW1pWWtMQnBaVnVkNmd6OWdIMGdObGx2NXVMNGVlY044VWZTQ3FEUjRmU2d3OWZVSlV4bk52RGY1dVRtYlBvMmRVYlZRWGtva1lJNWxuVFVMSU9QZ1Y1OXUzWEM1cTZQTFJ1UEg3SndRMzhBSk9NTFk5eWZDdGJoWl9FcGFMcC02VXpHb3JHY3N1dUhJOHVn?oc=5",
+        "source": "공식-한국은행",
+        "published_dt": "2026-08-04 14:34:43",
+        "match_score": 5.4
+      },
+      "related_articles": [
+        {
+          "title": "BOK 이슈해설｜한국에도 구글이 나올 수 있을까? 대학 혁신창업의 숨겨진 문제 - bok.or.kr",
+          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPeFppMGRQQVYzR3V5aGE4VVlEUUdCc2lFWnV3M3VrbDV3eVNIM0wtVk1OQWFHUXJRQThGSDRMTDA5RERveUEyWW1pWWtMQnBaVnVkNmd6OWdIMGdObGx2NXVMNGVlY044VWZTQ3FEUjRmU2d3OWZVSlV4bk52RGY1dVRtYlBvMmRVYlZRWGtva1lJNWxuVFVMSU9QZ1Y1OXUzWEM1cTZQTFJ1UEg3SndRMzhBSk9NTFk5eWZDdGJoWl9FcGFMcC02VXpHb3JHY3N1dUhJOHVn?oc=5",
+          "source": "공식-한국은행",
+          "published_dt": "2026-08-04 14:34:43",
+          "match_score": 5.4
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "가계대출",
+      "reason": "금융시장과 경제 영향",
+      "score": 37.66,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "고삐풀린 가계대출, 한도 2조 초과"
+      ],
+      "representative_article": {
+        "title": "고삐풀린 가계대출, 한도 2조 초과",
+        "link": "https://www.mk.co.kr/news/economy/12116595",
+        "source": "매일경제-경제",
+        "published_dt": "2026-08-04 18:07:37",
+        "match_score": 37.66
+      },
+      "related_articles": [
+        {
+          "title": "고삐풀린 가계대출, 한도 2조 초과",
+          "link": "https://www.mk.co.kr/news/economy/12116595",
+          "source": "매일경제-경제",
+          "published_dt": "2026-08-04 18:07:37",
+          "match_score": 37.66
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "부동산 세제",
+      "reason": "정부 개편안 평가 엇갈림",
+      "score": 42.3,
+      "article_count": 6,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "부동산",
+        "정치"
+      ],
+      "sample_titles": [
+        "與 \"꼼꼼히 점검·보완\"…부동산 세제개편안에 '면밀심사' 기조(종합)",
+        "노인들을 힘들게 만드는 세법개정안 [부동산인사이트-이장원 세무사]",
+        "조국 “부동산 세제 개편안 기대 못미쳐…일부 초고가 다주택자만 세부담 강화”"
+      ],
+      "representative_article": {
+        "title": "“건설주 미칠 영향 제한적”…부동산 세제개편안 증권가 평가 보니",
+        "link": "https://www.mk.co.kr/news/realestate/12115980",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-08-04 09:37:06",
+        "match_score": 42.3
+      },
+      "related_articles": [
+        {
+          "title": "“건설주 미칠 영향 제한적”…부동산 세제개편안 증권가 평가 보니",
+          "link": "https://www.mk.co.kr/news/realestate/12115980",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-08-04 09:37:06",
+          "match_score": 42.3
+        },
+        {
+          "title": "조국 “부동산 세제 개편안 기대 못미쳐…일부 초고가 다주택자만 세부담 강화”",
+          "link": "https://www.mk.co.kr/news/realestate/12116168",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-08-04 11:29:10",
+          "match_score": 41.7
+        },
+        {
+          "title": "與 \"꼼꼼히 점검·보완\"…부동산 세제개편안에 '면밀심사' 기조(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260804084151001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-04 16:54:26",
+          "match_score": 41.43
+        },
+        {
+          "title": "국토위, 11일 전체회의…부동산 실황·세제개편 현안질의",
+          "link": "https://www.yna.co.kr/view/AKR20260804139500001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-04 17:11:53",
+          "match_score": 14.38
+        },
+        {
+          "title": "실거주 안 한 집, 3배 세금폭탄…'매도 골든타임' 잡아라",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/08/04/2026080400885.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-08-04 10:30:15",
+          "match_score": 12.4
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "독도 영유권",
+      "reason": "한일 외교 갈등",
+      "score": 41.2,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "日방위백서 또 독도 영유권 주장…외교부, 日공사 초치해 항의"
+      ],
+      "representative_article": {
+        "title": "日방위백서 또 독도 영유권 주장…외교부, 日공사 초치해 항의",
+        "link": "https://www.donga.com/news/Inter/article/all/20260804/134419015/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-08-04 16:23:00",
+        "match_score": 41.2
+      },
+      "related_articles": [
+        {
+          "title": "日방위백서 또 독도 영유권 주장…외교부, 日공사 초치해 항의",
+          "link": "https://www.donga.com/news/Inter/article/all/20260804/134419015/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-04 16:23:00",
+          "match_score": 41.2
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "삼성증권",
+      "reason": "실적 호조로 주목",
+      "score": 37.67,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "삼성증권, 2분기 영업이익 6천758억원…상반기 1.3조원"
+      ],
+      "representative_article": {
+        "title": "삼성증권, 2분기 영업이익 6천758억원…상반기 1.3조원",
+        "link": "https://www.yna.co.kr/view/AKR20260804128100008",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-08-04 16:08:26",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "삼성증권, 2분기 영업이익 6천758억원…상반기 1.3조원",
+          "link": "https://www.yna.co.kr/view/AKR20260804128100008",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-08-04 16:08:26",
+          "match_score": 37.67
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "쿠팡",
+      "reason": "대규모 손실 및 금융이슈",
+      "score": 38.88,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "[2보] 쿠팡Inc, 2분기 매출 늘었지만…영업손실 8천350억원 역대 최대"
+      ],
+      "representative_article": {
+        "title": "[2보] 쿠팡Inc, 2분기 매출 늘었지만…영업손실 8천350억원 역대 최대",
+        "link": "https://www.yna.co.kr/view/AKR20260805005151030",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-08-05 05:23:02",
+        "match_score": 38.88
+      },
+      "related_articles": [
+        {
+          "title": "[2보] 쿠팡Inc, 2분기 매출 늘었지만…영업손실 8천350억원 역대 최대",
+          "link": "https://www.yna.co.kr/view/AKR20260805005151030",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-08-05 05:23:02",
+          "match_score": 38.88
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "중국 반도체",
+      "reason": "공장 추진 및 경쟁 격화",
+      "score": 4.7,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "“CXMT, 베이징에 두 번째 공장 추진”…中 반도체 굴기 속도전"
+      ],
+      "representative_article": {
+        "title": "“CXMT, 베이징에 두 번째 공장 추진”…中 반도체 굴기 속도전",
+        "link": "https://www.donga.com/news/Inter/article/all/20260804/134417179/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-08-04 11:36:00",
+        "match_score": 4.7
+      },
+      "related_articles": [
+        {
+          "title": "“CXMT, 베이징에 두 번째 공장 추진”…中 반도체 굴기 속도전",
+          "link": "https://www.donga.com/news/Inter/article/all/20260804/134417179/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-04 11:36:00",
+          "match_score": 4.7
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "강진 피해",
+      "reason": "베네수엘라 대형 재난",
+      "score": 6.8,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "베네수엘라 강진 사망자 6000명 넘어서, 6125명으로 증가"
+      ],
+      "representative_article": {
+        "title": "베네수엘라 강진 사망자 6000명 넘어서, 6125명으로 증가",
+        "link": "https://www.donga.com/news/Inter/article/all/20260804/134416759/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-08-04 10:05:00",
+        "match_score": 6.8
+      },
+      "related_articles": [
+        {
+          "title": "베네수엘라 강진 사망자 6000명 넘어서, 6125명으로 증가",
+          "link": "https://www.donga.com/news/Inter/article/all/20260804/134416759/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-04 10:05:00",
+          "match_score": 6.8
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 9,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "국민의힘",
+      "score": 59.3,
+      "article_count": 10,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "정치"
+      ],
+      "sample_titles": [
+        "국힘 서범수, '돌려차기' 실언 논란…徐 \"깊이 사죄\"",
+        "국힘, 세제개편에 \"아마추어 李정부 무능 감추려 세금 '핵폭탄'\"(종합)",
+        "국힘 성일종 \"육군, 아군무인기 격추할뻔\"…軍 \"정상 작전절차\""
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "국민의힘 부산 국회의원·시의원, 정례 간담회 합의…협력 강화",
+        "link": "https://www.yna.co.kr/view/AKR20260804130300051",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-08-04 16:15:49",
+        "match_score": 38.67
+      },
+      "related_articles": [
+        {
+          "title": "국민의힘 부산 국회의원·시의원, 정례 간담회 합의…협력 강화",
+          "link": "https://www.yna.co.kr/view/AKR20260804130300051",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-04 16:15:49",
+          "match_score": 38.67
+        },
+        {
+          "title": "국민의힘 “보완수사권 폐지, 힘없는 피해자만 억울...李대통령 거부권 행사해야\"",
+          "link": "https://www.chosun.com/politics/assembly/2026/08/04/OI7H6GPV4VFP5EXMZJOFGFJE4Q/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-08-04 10:03:19",
+          "match_score": 28.3
+        },
+        {
+          "title": "국힘 성일종 \"육군, 아군무인기 격추할뻔\"…軍 \"정상 작전절차\"",
+          "link": "https://www.yna.co.kr/view/AKR20260804099300001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-04 14:23:05",
+          "match_score": 12.68
+        },
+        {
+          "title": "국힘, 세제개편에 \"아마추어 李정부 무능 감추려 세금 '핵폭탄'\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260804063951001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-04 16:36:55",
+          "match_score": 11.82
+        },
+        {
+          "title": "국힘 서범수, '돌려차기' 실언 논란…徐 \"깊이 사죄\"",
+          "link": "https://www.yna.co.kr/view/AKR20260804159100001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-04 20:24:00",
+          "match_score": 11.68
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
