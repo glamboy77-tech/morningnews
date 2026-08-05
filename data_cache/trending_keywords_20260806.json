@@ -1,0 +1,373 @@
+{
+  "timestamp": "2026-08-06T06:01:41.644121",
+  "date": "20260806",
+  "data": [
+    {
+      "keyword": "부동산 정책",
+      "reason": "서울시당 간담회 및 공급 논의",
+      "score": 44.23,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산",
+        "정치"
+      ],
+      "sample_titles": [
+        "與서울시당, 오늘 부동산 정책 간담회…세제 개편안 논의"
+      ],
+      "representative_article": {
+        "title": "與서울시당, 오늘 부동산 정책 간담회…세제 개편안 논의",
+        "link": "https://www.yna.co.kr/view/AKR20260805153400001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-08-06 05:00:02",
+        "match_score": 44.23
+      },
+      "related_articles": [
+        {
+          "title": "與서울시당, 오늘 부동산 정책 간담회…세제 개편안 논의",
+          "link": "https://www.yna.co.kr/view/AKR20260805153400001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-06 05:00:02",
+          "match_score": 44.23
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "경제 성장률",
+      "reason": "모건스탠리 상향 조정",
+      "score": 13.11,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "“韓경제 생각보다 강하다”…모건스탠리, 성장률·물가·금리 전망 싹 다 올렸다",
+        "모건스탠리, 올해 한국 GDP 성장률 전망치 3.4%로 상향 조정",
+        "모건스탠리, 올해 한국 GDP 성장률 전망치 3.4%로 상향 조정"
+      ],
+      "representative_article": {
+        "title": "“韓경제 생각보다 강하다”…모건스탠리, 성장률·물가·금리 전망 싹 다 올렸다",
+        "link": "https://www.mk.co.kr/news/economy/12117942",
+        "source": "매일경제-경제",
+        "published_dt": "2026-08-05 17:50:47",
+        "match_score": 13.11
+      },
+      "related_articles": [
+        {
+          "title": "“韓경제 생각보다 강하다”…모건스탠리, 성장률·물가·금리 전망 싹 다 올렸다",
+          "link": "https://www.mk.co.kr/news/economy/12117942",
+          "source": "매일경제-경제",
+          "published_dt": "2026-08-05 17:50:47",
+          "match_score": 13.11
+        },
+        {
+          "title": "모건스탠리, 올해 한국 GDP 성장률 전망치 3.4%로 상향 조정",
+          "link": "https://www.yna.co.kr/view/AKR20260805099300008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-08-05 14:27:55",
+          "match_score": 9.28
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI 인프라",
+      "reason": "기업 투자 및 소방 시스템 구축",
+      "score": 39.03,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "우정사업본부·산업은행, 1조원 규모 AI 인프라 펀드 조성"
+      ],
+      "representative_article": {
+        "title": "우정사업본부·산업은행, 1조원 규모 AI 인프라 펀드 조성",
+        "link": "https://www.yna.co.kr/view/AKR20260805041800017",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-08-05 16:33:39",
+        "match_score": 39.03
+      },
+      "related_articles": [
+        {
+          "title": "우정사업본부·산업은행, 1조원 규모 AI 인프라 펀드 조성",
+          "link": "https://www.yna.co.kr/view/AKR20260805041800017",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-08-05 16:33:39",
+          "match_score": 39.03
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "주주환원",
+      "reason": "삼성전자·SK하이닉스 검토",
+      "score": 46.9,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "로이터 “삼성전자·SK하이닉스, 주주환원 확대 검토”",
+        "솔리다임, 美 상장 공시 담당자 뽑는다… SK하이닉스는 “프리IPO 미확정”"
+      ],
+      "representative_article": {
+        "title": "로이터 “삼성전자·SK하이닉스, 주주환원 확대 검토”",
+        "link": "https://www.chosun.com/economy/stock-finance/2026/08/06/GJTGMZRSGZQTGNBSG5SWCN3EG4/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-08-06 01:49:00",
+        "match_score": 46.9
+      },
+      "related_articles": [
+        {
+          "title": "로이터 “삼성전자·SK하이닉스, 주주환원 확대 검토”",
+          "link": "https://www.chosun.com/economy/stock-finance/2026/08/06/GJTGMZRSGZQTGNBSG5SWCN3EG4/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-08-06 01:49:00",
+          "match_score": 46.9
+        },
+        {
+          "title": "솔리다임, 美 상장 공시 담당자 뽑는다… SK하이닉스는 “프리IPO 미확정”",
+          "link": "https://www.chosun.com/economy/tech_it/2026/08/05/GM4DCMDCMVSTIODCMNRTOYRZGY/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-08-05 19:00:25",
+          "match_score": 7.7
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "금리 하락",
+      "reason": "국고채 금리 동반 하락",
+      "score": 5.08,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "유가 급락에 국고채 금리 일제히 하락…3년물 연 3.669%(종합)"
+      ],
+      "representative_article": {
+        "title": "유가 급락에 국고채 금리 일제히 하락…3년물 연 3.669%(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260805133851008",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-08-05 17:17:03",
+        "match_score": 5.08
+      },
+      "related_articles": [
+        {
+          "title": "유가 급락에 국고채 금리 일제히 하락…3년물 연 3.669%(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260805133851008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-08-05 17:17:03",
+          "match_score": 5.08
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "국방비",
+      "reason": "대규모 국방 예산과 발언",
+      "score": 30.5,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "李대통령 ‘빈총 경계’에 “66조 국방비 들여놓고 화살 없으면 안 될 일”"
+      ],
+      "representative_article": {
+        "title": "李대통령 ‘빈총 경계’에 “66조 국방비 들여놓고 화살 없으면 안 될 일”",
+        "link": "https://www.chosun.com/politics/politics_general/2026/08/05/J7NNW7UI3RHBNL3QUM3MWJGIRQ/",
+        "source": "조선일보-정치",
+        "published_dt": "2026-08-05 10:47:28",
+        "match_score": 30.5
+      },
+      "related_articles": [
+        {
+          "title": "李대통령 ‘빈총 경계’에 “66조 국방비 들여놓고 화살 없으면 안 될 일”",
+          "link": "https://www.chosun.com/politics/politics_general/2026/08/05/J7NNW7UI3RHBNL3QUM3MWJGIRQ/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-08-05 10:47:28",
+          "match_score": 30.5
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "중동 긴장",
+      "reason": "호르무즈 항로 재개방 합의",
+      "score": 7.7,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "“호르무즈 60일간 무료 재개방 잠정 합의… 美-이란 발표 임박”"
+      ],
+      "representative_article": {
+        "title": "“호르무즈 60일간 무료 재개방 잠정 합의… 美-이란 발표 임박”",
+        "link": "https://www.donga.com/news/Inter/article/all/20260805/134427866/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-08-06 04:30:00",
+        "match_score": 7.7
+      },
+      "related_articles": [
+        {
+          "title": "“호르무즈 60일간 무료 재개방 잠정 합의… 美-이란 발표 임박”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260805/134427866/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-06 04:30:00",
+          "match_score": 7.7
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "사회초년생 금융",
+      "reason": "프로젝트 모집 및 지원 확대",
+      "score": 36.31,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "신용카드사회공헌재단·금융인재개발원, ‘사회초년생 금융생활 프로젝트’ 1기 모집"
+      ],
+      "representative_article": {
+        "title": "신용카드사회공헌재단·금융인재개발원, ‘사회초년생 금융생활 프로젝트’ 1기 모집",
+        "link": "https://www.mk.co.kr/news/economy/12118079",
+        "source": "매일경제-경제",
+        "published_dt": "2026-08-05 19:46:27",
+        "match_score": 36.31
+      },
+      "related_articles": [
+        {
+          "title": "신용카드사회공헌재단·금융인재개발원, ‘사회초년생 금융생활 프로젝트’ 1기 모집",
+          "link": "https://www.mk.co.kr/news/economy/12118079",
+          "source": "매일경제-경제",
+          "published_dt": "2026-08-05 19:46:27",
+          "match_score": 36.31
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "미사일 배치",
+      "reason": "북한 미사일 부대 우크라 전개",
+      "score": 7.4,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "우크라 “北 미사일 부대 러 접경지 배치…최대 120발 지원 예상”"
+      ],
+      "representative_article": {
+        "title": "우크라 “北 미사일 부대 러 접경지 배치…최대 120발 지원 예상”",
+        "link": "https://www.donga.com/news/Inter/article/all/20260805/134426730/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-08-05 17:26:00",
+        "match_score": 7.4
+      },
+      "related_articles": [
+        {
+          "title": "우크라 “北 미사일 부대 러 접경지 배치…최대 120발 지원 예상”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260805/134426730/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-05 17:26:00",
+          "match_score": 7.4
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 9,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "2분기",
+      "score": 50.3,
+      "article_count": 8,
+      "source_count": 3,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "고려아연 2분기 영업이익 5천871억원…작년 동기 대비 126.8%↑(종합)",
+        "2분기 매출 늘었지만… 쿠팡 8350억원 영업손실",
+        "AIDC 날개 단 SKT, 영업익 67%↑…\"빅테크와 인프라 협의 지속\"(종합2보)"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "고려아연 2분기 영업이익 5천871억원…작년 동기 대비 126.8%↑(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260805121151527",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-08-05 17:08:45",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "고려아연 2분기 영업이익 5천871억원…작년 동기 대비 126.8%↑(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260805121151527",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-08-05 17:08:45",
+          "match_score": 37.67
+        },
+        {
+          "title": "심텍 2분기 영업이익 629억원…작년 동기 대비 1034%↑",
+          "link": "https://www.yna.co.kr/view/AKR20260805120200527",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-08-05 15:57:46",
+          "match_score": 37.67
+        },
+        {
+          "title": "고려아연 2분기 영업이익 5천871억원…작년 동기 대비 126.8%↑",
+          "link": "https://www.yna.co.kr/view/AKR20260805121100527",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-08-05 15:56:41",
+          "match_score": 37.67
+        },
+        {
+          "title": "넷마블 2분기 영업이익 801억원…20.8%↓",
+          "link": "https://www.yna.co.kr/view/AKR20260805116900527",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-08-05 15:48:55",
+          "match_score": 37.67
+        },
+        {
+          "title": "롯데렌탈, 2분기 영업익 9.6% 증가…\"장·단기 렌탈 사업 성장\"",
+          "link": "https://www.yna.co.kr/view/AKR20260805129100030",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-08-05 16:23:04",
+          "match_score": 37.67
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
