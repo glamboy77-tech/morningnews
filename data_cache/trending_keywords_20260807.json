@@ -1,0 +1,420 @@
+{
+  "timestamp": "2026-08-07T06:02:47.450124",
+  "date": "20260807",
+  "data": [
+    {
+      "keyword": "단거리 탄도미사일",
+      "reason": "북한 미사일 발사 긴장 고조",
+      "score": 45.58,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "北, 한미훈련 앞두고 동해상으로 단거리 탄도미사일 발사(종합2보)",
+        "[속보] 합참 \"北, 원산 일대서 단거리 탄도미사일 발사\""
+      ],
+      "representative_article": {
+        "title": "北, 한미훈련 앞두고 동해상으로 단거리 탄도미사일 발사(종합2보)",
+        "link": "https://www.yna.co.kr/view/AKR20260806138552504",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-08-06 19:47:00",
+        "match_score": 45.58
+      },
+      "related_articles": [
+        {
+          "title": "北, 한미훈련 앞두고 동해상으로 단거리 탄도미사일 발사(종합2보)",
+          "link": "https://www.yna.co.kr/view/AKR20260806138552504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-06 19:47:00",
+          "match_score": 45.58
+        },
+        {
+          "title": "[속보] 합참 \"北, 원산 일대서 단거리 탄도미사일 발사\"",
+          "link": "https://www.yna.co.kr/view/AKR20260806142100504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-06 17:48:19",
+          "match_score": 33.27
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "부동산 세제개편",
+      "reason": "여당과 민심 반응 부각",
+      "score": 13.5,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산",
+        "정치"
+      ],
+      "sample_titles": [
+        "이런게 '닥공'… 개포·구로·번동서 9천가구"
+      ],
+      "representative_article": {
+        "title": "이런게 '닥공'… 개포·구로·번동서 9천가구",
+        "link": "https://www.mk.co.kr/news/realestate/12119538",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-08-06 18:17:30",
+        "match_score": 13.5
+      },
+      "related_articles": [
+        {
+          "title": "이런게 '닥공'… 개포·구로·번동서 9천가구",
+          "link": "https://www.mk.co.kr/news/realestate/12119538",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-08-06 18:17:30",
+          "match_score": 13.5
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "LGU+ 투자",
+      "reason": "대규모 AIDC 투자 발표",
+      "score": 16.02,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "LGU+ 역대 분기 최다 영업익…AIDC에 2조원 투자(종합2보)",
+        "LGU+, AIDC에 2조 투자…“외부 조달 없이 단계적 확장”"
+      ],
+      "representative_article": {
+        "title": "LGU+ 역대 분기 최다 영업익…AIDC에 2조원 투자(종합2보)",
+        "link": "https://www.yna.co.kr/view/AKR20260806048201017",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-08-06 17:09:26",
+        "match_score": 16.02
+      },
+      "related_articles": [
+        {
+          "title": "LGU+ 역대 분기 최다 영업익…AIDC에 2조원 투자(종합2보)",
+          "link": "https://www.yna.co.kr/view/AKR20260806048201017",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-08-06 17:09:26",
+          "match_score": 16.02
+        },
+        {
+          "title": "LGU+, AIDC에 2조 투자…“외부 조달 없이 단계적 확장”",
+          "link": "https://www.etnews.com/20260806000339",
+          "source": "전자신문",
+          "published_dt": "2026-08-06 15:41:38",
+          "match_score": 15.7
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "인플레이션 우려",
+      "reason": "미국 금리 상승 등 경제 변수",
+      "score": 13.97,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "정치"
+      ],
+      "sample_titles": [
+        "인플레 우려에 美 주택담보대출 금리 1년 만에 최고",
+        "인플레 우려에 美 주택담보대출 금리 1년 만에 최고"
+      ],
+      "representative_article": {
+        "title": "인플레 우려에 美 주택담보대출 금리 1년 만에 최고",
+        "link": "https://www.yna.co.kr/view/AKR20260807004700072",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-08-07 05:14:17",
+        "match_score": 13.97
+      },
+      "related_articles": [
+        {
+          "title": "인플레 우려에 美 주택담보대출 금리 1년 만에 최고",
+          "link": "https://www.yna.co.kr/view/AKR20260807004700072",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-08-07 05:14:17",
+          "match_score": 13.97
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "콘텐츠 실적",
+      "reason": "스튜디오드래곤, CJ ENM 호실적",
+      "score": 11.08,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "스튜디오드래곤 2분기 흑자 전환…'참교육' 등 콘텐츠 흥행(종합)",
+        "CJ ENM 2분기 영업익 16.9%↑…티빙 등 플랫폼 흑자전환(종합)"
+      ],
+      "representative_article": {
+        "title": "CJ ENM 2분기 영업익 16.9%↑…티빙 등 플랫폼 흑자전환(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260806088251527",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-08-06 15:49:07",
+        "match_score": 11.08
+      },
+      "related_articles": [
+        {
+          "title": "CJ ENM 2분기 영업익 16.9%↑…티빙 등 플랫폼 흑자전환(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260806088251527",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-08-06 15:49:07",
+          "match_score": 11.08
+        },
+        {
+          "title": "스튜디오드래곤 2분기 흑자 전환…'참교육' 등 콘텐츠 흥행(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260806085851527",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-08-06 16:36:17",
+          "match_score": 6.88
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "한미 안보",
+      "reason": "연합훈련·핵우산 전략 논의",
+      "score": 6.88,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "한미 해병대, 포항서 연합 훈련…전투수행능력 향상"
+      ],
+      "representative_article": {
+        "title": "한미 해병대, 포항서 연합 훈련…전투수행능력 향상",
+        "link": "https://www.yna.co.kr/view/AKR20260806140300053",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-08-06 17:30:34",
+        "match_score": 6.88
+      },
+      "related_articles": [
+        {
+          "title": "한미 해병대, 포항서 연합 훈련…전투수행능력 향상",
+          "link": "https://www.yna.co.kr/view/AKR20260806140300053",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-06 17:30:34",
+          "match_score": 6.88
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "국제유가 반등",
+      "reason": "호르무즈 협상 불확실성",
+      "score": 52.56,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "국제"
+      ],
+      "sample_titles": [
+        "호르무즈 협상 불확실성에 국제유가 반등…브렌트유 4%↑ - 동아일보"
+      ],
+      "representative_article": {
+        "title": "호르무즈 협상 불확실성에 국제유가 반등…브렌트유 4%↑ - 동아일보",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9zaUJXaW9tRF9kbEZJdFNrTGRxSlFTZzI3QTNuUldnS3ppeVJHMm5GZ0lyMC1qMEUzYjNCNmZZSDFHX20xQXBPNmZGSGd2clQ1Ylp1bHVXR2tfcnVUczBzWmhESUk5QdIBZkFVX3lxTE9zaUJXaW9tRF9kbEZJdFNrTGRxSlFTZzI3QTNuUldnS3ppeVJHMm5GZ0lyMC1qMEUzYjNCNmZZSDFHX20xQXBPNmZGSGd2clQ1Ylp1bHVXR2tfcnVUczBzWmhESUk5QQ?oc=5",
+        "source": "키워드-에너지물가",
+        "published_dt": "2026-08-07 02:28:17",
+        "match_score": 52.56
+      },
+      "related_articles": [
+        {
+          "title": "호르무즈 협상 불확실성에 국제유가 반등…브렌트유 4%↑ - 동아일보",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9zaUJXaW9tRF9kbEZJdFNrTGRxSlFTZzI3QTNuUldnS3ppeVJHMm5GZ0lyMC1qMEUzYjNCNmZZSDFHX20xQXBPNmZGSGd2clQ1Ylp1bHVXR2tfcnVUczBzWmhESUk5QdIBZkFVX3lxTE9zaUJXaW9tRF9kbEZJdFNrTGRxSlFTZzI3QTNuUldnS3ppeVJHMm5GZ0lyMC1qMEUzYjNCNmZZSDFHX20xQXBPNmZGSGd2clQ1Ylp1bHVXR2tfcnVUczBzWmhESUk5QQ?oc=5",
+          "source": "키워드-에너지물가",
+          "published_dt": "2026-08-07 02:28:17",
+          "match_score": 52.56
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "전세시장 불안",
+      "reason": "전세 매물 부족과 가격 상승",
+      "score": 7.0,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "10채 중 2채 사라져…실거주 중심 세제개편, 저무는 전세시장"
+      ],
+      "representative_article": {
+        "title": "10채 중 2채 사라져…실거주 중심 세제개편, 저무는 전세시장",
+        "link": "https://www.mk.co.kr/news/realestate/12118972",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-08-06 10:24:56",
+        "match_score": 7.0
+      },
+      "related_articles": [
+        {
+          "title": "10채 중 2채 사라져…실거주 중심 세제개편, 저무는 전세시장",
+          "link": "https://www.mk.co.kr/news/realestate/12118972",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-08-06 10:24:56",
+          "match_score": 7.0
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "정부가",
+      "score": 52.4,
+      "article_count": 14,
+      "source_count": 6,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "산업장관 \"주52시간 손봐야…일하려는 의지 막아선 안돼\"(종합)",
+        "293만명 기껏 신용사면 해줬더니…5명중 1명은 또 연체했다",
+        "기금형 퇴직연금 도입 증시 구원투수 띄운다"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "정부가 몰수한 가상자산 … 취득후 바로 경매 부친다",
+        "link": "https://www.mk.co.kr/news/economy/12119452",
+        "source": "매일경제-경제",
+        "published_dt": "2026-08-06 18:06:02",
+        "match_score": 37.66
+      },
+      "related_articles": [
+        {
+          "title": "정부가 몰수한 가상자산 … 취득후 바로 경매 부친다",
+          "link": "https://www.mk.co.kr/news/economy/12119452",
+          "source": "매일경제-경제",
+          "published_dt": "2026-08-06 18:06:02",
+          "match_score": 37.66
+        },
+        {
+          "title": "이런게 '닥공'… 개포·구로·번동서 9천가구",
+          "link": "https://www.mk.co.kr/news/realestate/12119538",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-08-06 18:17:30",
+          "match_score": 12.1
+        },
+        {
+          "title": "재건축 끝난 임대주택도… 1년 안에 팔면 세금 혜택",
+          "link": "https://www.mk.co.kr/news/realestate/12119543",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-08-06 18:17:32",
+          "match_score": 12.1
+        },
+        {
+          "title": "정부, 재건축 매입임대 양도세 혜택 기간 이전고시일 이후로 늘린다",
+          "link": "https://www.mk.co.kr/news/realestate/12119251",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-08-06 15:36:49",
+          "match_score": 12.1
+        },
+        {
+          "title": "산업장관 \"주52시간 손봐야…일하려는 의지 막아선 안돼\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260806095351003",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-08-06 18:31:00",
+          "match_score": 11.82
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "2분기",
+      "score": 68.6,
+      "article_count": 13,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "LGU+ 역대 분기 최다 영업익…AIDC에 2조원 투자(종합2보)",
+        "한국금융지주, 2분기 영업이익 1조3000억원 ‘깜짝 실적’",
+        "엘앤에프 2분기 흑자 전환…분기 최대 출하 실적 기록(종합)"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "엘앤에프 2분기 흑자 전환…분기 최대 출하 실적 기록(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260806115851527",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-08-06 17:21:14",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "엘앤에프 2분기 흑자 전환…분기 최대 출하 실적 기록(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260806115851527",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-08-06 17:21:14",
+          "match_score": 37.67
+        },
+        {
+          "title": "스튜디오드래곤 2분기 흑자 전환…'참교육' 등 콘텐츠 흥행(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260806085851527",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-08-06 16:36:17",
+          "match_score": 37.67
+        },
+        {
+          "title": "KT&G 2분기 영업익 18.5% 증가…\"해외사업·전자담배 성장\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260806116451527",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-08-06 16:24:14",
+          "match_score": 37.67
+        },
+        {
+          "title": "카페24 2분기 영업이익 82억원…26.7%↓",
+          "link": "https://www.yna.co.kr/view/AKR20260806127400527",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-08-06 16:15:02",
+          "match_score": 37.67
+        },
+        {
+          "title": "큐리옥스바이오시스템즈 2분기 영업손실 45억원…적자 확대",
+          "link": "https://www.yna.co.kr/view/AKR20260806125700527",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-08-06 16:11:08",
+          "match_score": 37.67
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
