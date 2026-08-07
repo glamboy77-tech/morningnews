@@ -1,0 +1,402 @@
+{
+  "timestamp": "2026-08-08T06:01:57.994860",
+  "date": "20260808",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "李대통령, 'ISA·주가누르기 방지' 개편안 질타…\"전면 재검토\"",
+          "link": "https://www.yna.co.kr/view/AKR20260807161300001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-07 22:01:52",
+          "description": "(서울=연합뉴스) 설승은 기자 = 이재명 대통령이 7일 최근 정부가 내놓은 세제 개편안에 담긴 &apos;개인종합자산관리계좌&apos;(ISA) 개편 및 &apos;주가 ...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, 6시간 부동산 회의…\"전환적으로 판단해 과감히 실천\"",
+          "link": "https://www.yna.co.kr/view/AKR20260807157200001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-07 20:51:44",
+          "description": "(서울=연합뉴스) 설승은 기자 = 이재명 대통령은 7일 부동산 정책 점검 2차 회의를 주재하고 수도권 공급 대책을 점검했다고 강유정 청와대 수석...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, '호우피해' 안동·의성 관할 4개면 특별재난지역 선포",
+          "link": "https://www.yna.co.kr/view/AKR20260807141600001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-07 17:55:42",
+          "description": "(서울=연합뉴스) 설승은 기자 = 이재명 대통령은 지난달 호우 피해를 본 경북 안동시와 의성군 관할 4개 면을 특별재난지역으로 선포했다고 강유정...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "지방/행정",
+          "is_representative": true,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "[속보] 李대통령 '호우 피해' 안동·의성 4개면 특별재난지역 선포",
+              "link": "https://www.yna.co.kr/view/AKR20260807141300001"
+            },
+            {
+              "source": "조선일보-경제",
+              "title": "李대통령, ‘호우 피해’ 경북 안동·의성 특별재난지역 선포",
+              "link": "https://www.chosun.com/economy/economy_general/2026/08/07/MFTGGNTFG5QWGMJRG4YDCMRRME/"
+            },
+            {
+              "source": "조선일보-정치",
+              "title": "李대통령, ‘호우 피해’ 경북 안동·의성 특별재난지역으로 선포",
+              "link": "https://www.chosun.com/politics/politics_general/2026/08/07/CYZ5YPLGY5HUTGVRQQLOTZHPEI/"
+            }
+          ]
+        },
+        {
+          "title": "[속보] 李대통령 '호우 피해' 안동·의성 4개면 특별재난지역 선포",
+          "link": "https://www.yna.co.kr/view/AKR20260807141300001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-07 17:54:59",
+          "description": "(",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "지방/행정",
+          "is_representative": false,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "李대통령, '호우피해' 안동·의성 관할 4개면 특별재난지역 선포",
+              "link": "https://www.yna.co.kr/view/AKR20260807141600001"
+            },
+            {
+              "source": "조선일보-경제",
+              "title": "李대통령, ‘호우 피해’ 경북 안동·의성 특별재난지역 선포",
+              "link": "https://www.chosun.com/economy/economy_general/2026/08/07/MFTGGNTFG5QWGMJRG4YDCMRRME/"
+            },
+            {
+              "source": "조선일보-정치",
+              "title": "李대통령, ‘호우 피해’ 경북 안동·의성 특별재난지역으로 선포",
+              "link": "https://www.chosun.com/politics/politics_general/2026/08/07/CYZ5YPLGY5HUTGVRQQLOTZHPEI/"
+            }
+          ]
+        },
+        {
+          "title": "李 “주택 공급, 기존 사고 벗어나 과감히 실천”",
+          "link": "https://www.chosun.com/politics/politics_general/2026/08/08/YO6ZX7OY25D5PNS7CXDLSVO33E/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-08-08 00:50:00",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "청년층 반발 ‘ISA 혜택 축소’에... 李 “전면 재검토하라” 질타",
+          "link": "https://www.chosun.com/politics/blue_house/2026/08/07/2SV7CTIVCND5ZAANZ7GB6GIITI/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-08-07 22:57:49",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李, 6시간동안 부동산 회의... “주택공급, 기존 사고 벗어나 과감히 실천”",
+          "link": "https://www.chosun.com/politics/blue_house/2026/08/07/FFRTLTKMDZETXCA3T2X5U2U26U/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-08-07 20:29:37",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, 6시간 동안 2차 부동산 회의… “전환적으로 과감하게 생각하라”",
+          "link": "https://www.chosun.com/economy/economy_general/2026/08/07/GA3GINBVGMYTSNRXG4YDOZLEG4/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-08-07 20:59:10",
+          "description": "이재명 대통령이 두 번째로 열린 부동산 정책 점검 회의에서 공급 물량 확대와 공급 시기 단축 방안을 검토했다. 회의는 총 6시간 동안 진행됐다.  이 대통령은 7일 오후 2시부터 8시까지 부동산 정책 점검 2차 회의를 주재했다. 지난 3일 해외 순방에서 귀국하자마자 1차 회의를 연 뒤 나흘 만이다. 이 대통령은 회의에서 관계부처 장관들과 위원장으로부터 주택",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/economy/?outputType=xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, ‘호우 피해’ 경북 안동·의성 특별재난지역으로 선포",
+          "link": "https://www.chosun.com/politics/politics_general/2026/08/07/CYZ5YPLGY5HUTGVRQQLOTZHPEI/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-08-07 17:46:37",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "지방/행정",
+          "is_representative": false,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "李대통령, '호우피해' 안동·의성 관할 4개면 특별재난지역 선포",
+              "link": "https://www.yna.co.kr/view/AKR20260807141600001"
+            },
+            {
+              "source": "연합뉴스-정치",
+              "title": "[속보] 李대통령 '호우 피해' 안동·의성 4개면 특별재난지역 선포",
+              "link": "https://www.yna.co.kr/view/AKR20260807141300001"
+            },
+            {
+              "source": "조선일보-경제",
+              "title": "李대통령, ‘호우 피해’ 경북 안동·의성 특별재난지역 선포",
+              "link": "https://www.chosun.com/economy/economy_general/2026/08/07/MFTGGNTFG5QWGMJRG4YDCMRRME/"
+            }
+          ]
+        },
+        {
+          "title": "“전폭공급 확대 방안 논의”…李대통령, 6시간 부동산 ‘마라톤’ 회의",
+          "link": "https://www.mk.co.kr/news/realestate/12121374",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-08-07 21:20:04",
+          "description": "이재명 대통령은 7일 부동산 정책 점검 2차 회의를 주재하고 수도권 공급 대책을 점검했다고 강유정 청와대 수석대변인이 서면 브리핑에서 전했다. 이 대통령은 이날 오후 2시부터 오후..",
+          "category": "domestic",
+          "feed_url": "https://www.mk.co.kr/rss/50300009/",
+          "source_type": "realestate",
+          "source_weight": 1.15,
+          "source_badge": "부동산",
+          "priority_score": 1,
+          "related_full_sources": []
+        }
+      ],
+      "count": 10,
+      "role": "한국 대통령"
+    },
+    "황희": {
+      "articles": [
+        {
+          "title": "與황희, '버스하우스' 논란 일자 \"아이디어 차원\"…국힘 \"망언\"(종합2보)",
+          "link": "https://www.yna.co.kr/view/AKR20260807114852001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-07 20:17:26",
+          "description": "(서울=연합뉴스) 김연정 김정진 기자 = 더불어민주당 3선 황희 의원이 7일 청년을 위한 주택 공급 확대책으로 폐기되는 버스를 주거 공간으로 리...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "deduped_sources": [
+            {
+              "source": "연합뉴스-경제",
+              "title": "與황희, '버스하우스' 논란 일자 \"아이디어 차원\"…국힘 \"망언\"(종합2보)",
+              "link": "https://www.yna.co.kr/view/AKR20260807114852001"
+            }
+          ],
+          "priority_score": 3,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "與황희, '버스하우스' 논란 일자 \"아이디어 차원\"…국힘 \"망언\"(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20260807114851001"
+            }
+          ]
+        },
+        {
+          "title": "與황희, '버스하우스' 논란 일자 \"아이디어 차원\"…국힘 \"망언\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260807114851001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-07 17:59:39",
+          "description": "(서울=연합뉴스) 김연정 김정진 기자 = 더불어민주당 3선 황희 의원이 7일 청년을 위한 주택 공급 확대책으로 폐기되는 버스를 주거 공간으로 리...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "deduped_sources": [
+            {
+              "source": "연합뉴스-경제",
+              "title": "與황희, '버스하우스' 논란 일자 \"아이디어 차원\"…국힘 \"망언\"(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20260807114851001"
+            }
+          ],
+          "priority_score": 3,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "與황희, '버스하우스' 논란 일자 \"아이디어 차원\"…국힘 \"망언\"(종합2보)",
+              "link": "https://www.yna.co.kr/view/AKR20260807114852001"
+            }
+          ]
+        },
+        {
+          "title": "국힘, ‘버스하우스’ 황희에 “본인부터 살아보라” 맹폭",
+          "link": "https://www.chosun.com/politics/assembly/2026/08/07/U42NH6OMUNBPJJHC5NKQQ2X5CE/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-08-07 20:15:57",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "與황희, '버스하우스' 논란 일자 \"아이디어 차원\"…국힘 \"망언\"(종합2보)",
+          "link": "https://www.yna.co.kr/view/AKR20260807114852001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-07 20:17:26",
+          "description": "(서울=연합뉴스) 김연정 김정진 기자 = 더불어민주당 3선 황희 의원이 7일 청년을 위한 주택 공급 확대책으로 폐기되는 버스를 주거 공간으로 리...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "deduped_sources": [
+            {
+              "source": "연합뉴스-경제",
+              "title": "與황희, '버스하우스' 논란 일자 \"아이디어 차원\"…국힘 \"망언\"(종합2보)",
+              "link": "https://www.yna.co.kr/view/AKR20260807114852001"
+            }
+          ],
+          "priority_score": 3,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "與황희, '버스하우스' 논란 일자 \"아이디어 차원\"…국힘 \"망언\"(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20260807114851001"
+            }
+          ]
+        },
+        {
+          "title": "“본인부터 버스하우스 입주해야”…與황희 논란에 국힘 ‘쓴소리’[종합]",
+          "link": "https://www.mk.co.kr/news/realestate/12121364",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-08-07 21:08:33",
+          "description": "더불어민주당 3선 황희 의원이 7일 청년을 위한 주택 공급 확대책으로 폐기되는 버스를 주거 공간으로 리모델링해 활용하는 자칭 ‘버스 하우스(Bus House)’를 제안했다. 이에 ..",
+          "category": "domestic",
+          "feed_url": "https://www.mk.co.kr/rss/50300009/",
+          "source_type": "realestate",
+          "source_weight": 1.15,
+          "source_badge": "부동산",
+          "priority_score": 1,
+          "related_full_sources": []
+        },
+        {
+          "title": "국힘, ‘버스하우스’ 황희에 “본인부터 살아보라” 맹폭",
+          "link": "https://www.chosun.com/politics/assembly/2026/08/07/U42NH6OMUNBPJJHC5NKQQ2X5CE/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-08-07 20:15:57",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 6,
+      "role": "국회의원"
+    },
+    "트럼프": {
+      "articles": [
+        {
+          "title": "“트럼프 일가에 30억 왜 줬나”…美 민주, 韓 기업 “잠재적 뇌물” 조사",
+          "link": "https://www.etnews.com/20260807000300",
+          "source": "전자신문",
+          "published_dt": "2026-08-07 17:14:29",
+          "description": "미국 민주당이 도널드 트럼프 대통령 일가의 기업에 200만달러(약 30억원)를 지급한 한국 기업을 상대로 사실관계 확인에 나섰다. 계열사가 미국의 고율 관세 대상에 오른 상황에서 이뤄진 거래여서 트럼프 대통령에게 영향력을 행사하려는 대가성 거래였는지를 들여다보겠다는 것이다. 워싱턴포스트(WP)는 6일(현지시간) 엘리자베스 워런, 리처드 블루먼솔, 앤디 김 민주당 상원의원이 트럼프 오거니제이션과 거래한 한국 베이스그룹에 관련 자료 제출을 요구하는",
+          "category": "domestic",
+          "feed_url": "https://rss.etnews.com/Section901.xml",
+          "source_type": "tech",
+          "source_weight": 1.15,
+          "source_badge": "테크",
+          "priority_score": 1,
+          "sector": "기타산업",
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프 ‘원정출산으로 낳은 아기, 美 시민권 금지’ 명령",
+          "link": "https://www.donga.com/news/Inter/article/all/20260807/134440761/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-08 01:40:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/08/07/134440118.1.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령이 6일(현지 시간) ‘출산 관광 종식(Ending Birth Tourism)’ 행정명령에 서명하며 소위 원정출산 차단 조치에 나섰다. 관광, 취업 등 비이민 비자로 입국해 미국 땅에서 출산하는 행위 또는 이를 용이하게 하려는 모든 시도가 원정출산이라고 규정했다. 그는 이날 ‘미 시민권의 의미와 가치에 대한 지속적 보호(Continuing to Protect the Meaning and Value of American Citizenship)’ 행정명령에도 서명했다. 이를 통해 미국 내 외교 공관 직원의 출산, 테러단체 혹은 적성국 소속 인사의 출산, 미국 내 대리모 이용 등으로 태어난 아기에게 역시 시민권을 부여하지 않기로 했다. 앞서 올 6월 30일 미 연방대법원은 트럼프 대통령이 지난해 1월 재집권 첫날 서명한 ‘미국에 불법·임시 체류하는 외국인 부모의 자녀에게는 출생시민권을 부여하지 않는다’는 행정명령을 위헌 판결했다. 이 명령이 ‘미국에서 태어나거",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "‘원정출산’ 칼빼든 트럼프…학생·취업 비자로 입국해도 해당",
+          "link": "https://www.donga.com/news/Inter/article/all/20260807/134436899/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-07 20:04:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/08/07/134440118.1.jpg\" vspace=\"10\" />“원정출산으로 혜택을 보는 사람이 (연간) 수십만 명이다.”(도널드 트럼프 미국 대통령)“출산 관광은 미국 체계에 대한 사기다.”(스티븐 밀러 미국 백악관 부비서실장)도널드 트럼프 미국 대통령이 6일(현지 시간) 원정출산을 차단하고 출생시민권을 제한하는 행정명령 2건에 서명했다. 앞서 올 6월 30일 미 연방대법원은 부모가 불법 체류자라도 미국 땅에서 태어난 모든 아기에게 시민권을 주는 ‘출생시민권(birthright citizenship)’을 금한 지난해 1월 트럼프 대통령의 행정명령을 위헌 판결했다. 이에 거듭 불만을 제기했던 트럼프 대통령은 이날 “출생시민권에 대한 대법원의 매우 불행한 판결을 받았다. 그래서 (관련 제도를) 조정하고 있는 것”이라고 행정명령의 정당성을 주장했다. 이란 전쟁 장기화, 고유가 등으로 지지율 하락에 직면한 그는 11월 3일 중간선거를 앞두고 불법 이민에 부정적인 보수 유권자의 결집을 시도하고 있다. 백악관은 이번 행정명령이 대법원의 6월 판결",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "미국 대통령"
+    }
+  }
+}
