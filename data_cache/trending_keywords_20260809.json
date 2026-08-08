@@ -1,0 +1,381 @@
+{
+  "timestamp": "2026-08-09T06:02:14.830262",
+  "date": "20260809",
+  "data": [
+    {
+      "keyword": "ISA 개편",
+      "reason": "與 대선 경선·주가 논의",
+      "score": 27.22,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "與의원, 李대통령 ISA개편·주가 누르기 방지법 재검토에 \"환영\"",
+        "국힘, 李대통령 'ISA·주가누르기 방지법' 재검토에 \"졸속 국정\""
+      ],
+      "representative_article": {
+        "title": "與의원, 李대통령 ISA개편·주가 누르기 방지법 재검토에 \"환영\"",
+        "link": "https://www.yna.co.kr/view/AKR20260808022900001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-08-08 10:32:24",
+        "match_score": 27.22
+      },
+      "related_articles": [
+        {
+          "title": "與의원, 李대통령 ISA개편·주가 누르기 방지법 재검토에 \"환영\"",
+          "link": "https://www.yna.co.kr/view/AKR20260808022900001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-08 10:32:24",
+          "match_score": 27.22
+        },
+        {
+          "title": "국힘, 李대통령 'ISA·주가누르기 방지법' 재검토에 \"졸속 국정\"",
+          "link": "https://www.yna.co.kr/view/AKR20260808023100001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-08 10:36:20",
+          "match_score": 14.18
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "주가 급락",
+      "reason": "증시 변동성 확대",
+      "score": 29.88,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "주가 급락에 빚투 탈났나…청년·고령층 마통 연체 급증"
+      ],
+      "representative_article": {
+        "title": "주가 급락에 빚투 탈났나…청년·고령층 마통 연체 급증",
+        "link": "https://www.yna.co.kr/view/AKR20260808042200002",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-08-09 05:49:00",
+        "match_score": 29.88
+      },
+      "related_articles": [
+        {
+          "title": "주가 급락에 빚투 탈났나…청년·고령층 마통 연체 급증",
+          "link": "https://www.yna.co.kr/view/AKR20260808042200002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-08-09 05:49:00",
+          "match_score": 29.88
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "환율 변동",
+      "reason": "원·달러 환율 상승",
+      "score": 14.07,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "환율 1,600원 향하다 1,300원대 눈앞…변동성 금융위기 후 최고"
+      ],
+      "representative_article": {
+        "title": "환율 1,600원 향하다 1,300원대 눈앞…변동성 금융위기 후 최고",
+        "link": "https://www.yna.co.kr/view/AKR20260808046200002",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-08-09 05:51:00",
+        "match_score": 14.07
+      },
+      "related_articles": [
+        {
+          "title": "환율 1,600원 향하다 1,300원대 눈앞…변동성 금융위기 후 최고",
+          "link": "https://www.yna.co.kr/view/AKR20260808046200002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-08-09 05:51:00",
+          "match_score": 14.07
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI 투자",
+      "reason": "SK하이닉스 대규모 투자",
+      "score": 8.55,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "블룸버그 “SK하이닉스, 中 충칭 공장 지분 매각 검토”",
+        "SK하이닉스 54조 투자, 용인 Y2·청주 M17이 여는 AI 메모리 증설 전쟁 [해설] - solnews.co.kr"
+      ],
+      "representative_article": {
+        "title": "SK하이닉스 54조 투자, 용인 Y2·청주 M17이 여는 AI 메모리 증설 전쟁 [해설] - solnews.co.kr",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA4enI1ajhNaC1wbkYzaFBJU3prLXFMRUNqVUtSVUR2NnNaSWM0bl9VQllScUlVSC1EQ0lWa0NVQ1BpcmpYTHBlQmZEMFliYW9uM0JWaFNIQThkeHZfOWluR2QxM1AzcmF5MEw0?oc=5",
+        "source": "키워드-반도체AI",
+        "published_dt": "2026-08-08 15:52:58",
+        "match_score": 8.55
+      },
+      "related_articles": [
+        {
+          "title": "SK하이닉스 54조 투자, 용인 Y2·청주 M17이 여는 AI 메모리 증설 전쟁 [해설] - solnews.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA4enI1ajhNaC1wbkYzaFBJU3prLXFMRUNqVUtSVUR2NnNaSWM0bl9VQllScUlVSC1EQ0lWa0NVQ1BpcmpYTHBlQmZEMFliYW9uM0JWaFNIQThkeHZfOWluR2QxM1AzcmF5MEw0?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-08-08 15:52:58",
+          "match_score": 8.55
+        },
+        {
+          "title": "블룸버그 “SK하이닉스, 中 충칭 공장 지분 매각 검토”",
+          "link": "https://www.chosun.com/economy/tech_it/2026/08/08/MRTDSN3GMM3DSZBYGY3TMYLFGU/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-08-08 19:27:56",
+          "match_score": 8.0
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재건축",
+      "reason": "김포 등 재개발 본격화",
+      "score": 40.41,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "김포 구도심 10곳, 재개발·재건축 마스터플랜 확정…36만㎡ 정비 예정 구역 지정 - 어반톡"
+      ],
+      "representative_article": {
+        "title": "김포 구도심 10곳, 재개발·재건축 마스터플랜 확정…36만㎡ 정비 예정 구역 지정 - 어반톡",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5HdG5aRE1EN3N4M2oteWtFUi11dGVzVk5nT2dyN0dQdUg4alREMEwwaXp0TVhDSUx6Y3dvcFlKTE1OT0kxMGdtMC1jMktPekIxT1B2S0NR?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-08-08 19:03:26",
+        "match_score": 40.41
+      },
+      "related_articles": [
+        {
+          "title": "김포 구도심 10곳, 재개발·재건축 마스터플랜 확정…36만㎡ 정비 예정 구역 지정 - 어반톡",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5HdG5aRE1EN3N4M2oteWtFUi11dGVzVk5nT2dyN0dQdUg4alREMEwwaXp0TVhDSUx6Y3dvcFlKTE1OT0kxMGdtMC1jMktPekIxT1B2S0NR?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-08-08 19:03:26",
+          "match_score": 40.41
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "독도 해양조사",
+      "reason": "일본 항의 지속",
+      "score": 33.7,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "日 \"한국 선박이 독도 주변 해양조사 활동…강력 항의\"",
+        "韓 독도 해양조사하자…日 “사전동의 없었다” 항의"
+      ],
+      "representative_article": {
+        "title": "韓 독도 해양조사하자…日 “사전동의 없었다” 항의",
+        "link": "https://www.donga.com/news/Inter/article/all/20260808/134441621/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-08-08 14:51:00",
+        "match_score": 33.7
+      },
+      "related_articles": [
+        {
+          "title": "韓 독도 해양조사하자…日 “사전동의 없었다” 항의",
+          "link": "https://www.donga.com/news/Inter/article/all/20260808/134441621/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-08 14:51:00",
+          "match_score": 33.7
+        },
+        {
+          "title": "日 \"한국 선박이 독도 주변 해양조사 활동…강력 항의\"",
+          "link": "https://www.yna.co.kr/view/AKR20260808019400073",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-08 09:12:15",
+          "match_score": 8.08
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "미국 고용쇼크",
+      "reason": "금리 인상 지연 영향",
+      "score": 7.36,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "美 고용쇼크에 9월 금리인상 급제동…물가가 최종 변수 - 글로벌이코노믹"
+      ],
+      "representative_article": {
+        "title": "美 고용쇼크에 9월 금리인상 급제동…물가가 최종 변수 - 글로벌이코노믹",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdUE0Mkh1RjFUZk13V0ZId1NJNzNYeklpMVowZFYtV1F3LWNGdzFxMTdNcTNocVRvbTNRRHltOFQtLVdpYUhIZENNZkhiQlpacG4tMFlMcUQ1VFBWcjBwUWlldVpCWG9md2FZTE1zNG9WWXN5NHhmeVFCbXg2UDNHc3pac2dFMjdC?oc=5",
+        "source": "키워드-금리환율코스피",
+        "published_dt": "2026-08-09 03:00:00",
+        "match_score": 7.36
+      },
+      "related_articles": [
+        {
+          "title": "美 고용쇼크에 9월 금리인상 급제동…물가가 최종 변수 - 글로벌이코노믹",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdUE0Mkh1RjFUZk13V0ZId1NJNzNYeklpMVowZFYtV1F3LWNGdzFxMTdNcTNocVRvbTNRRHltOFQtLVdpYUhIZENNZkhiQlpacG4tMFlMcUQ1VFBWcjBwUWlldVpCWG9md2FZTE1zNG9WWXN5NHhmeVFCbXg2UDNHc3pac2dFMjdC?oc=5",
+          "source": "키워드-금리환율코스피",
+          "published_dt": "2026-08-09 03:00:00",
+          "match_score": 7.36
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "주주권 논란",
+      "reason": "영풍 MBK 갈등",
+      "score": 24.09,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "프로젝트 반대에서 '크루서블' 홍보 나선 영풍·MBK, '말바꾸기' 이어 '주주권' 논란"
+      ],
+      "representative_article": {
+        "title": "프로젝트 반대에서 '크루서블' 홍보 나선 영풍·MBK, '말바꾸기' 이어 '주주권' 논란",
+        "link": "https://www.etnews.com/20260808000033",
+        "source": "전자신문",
+        "published_dt": "2026-08-08 11:55:11",
+        "match_score": 24.09
+      },
+      "related_articles": [
+        {
+          "title": "프로젝트 반대에서 '크루서블' 홍보 나선 영풍·MBK, '말바꾸기' 이어 '주주권' 논란",
+          "link": "https://www.etnews.com/20260808000033",
+          "source": "전자신문",
+          "published_dt": "2026-08-08 11:55:11",
+          "match_score": 24.09
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "패트리엇 공급",
+      "reason": "미·우크라 협력 강화",
+      "score": 32.8,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "젤렌스키 “美와 월간 패트리엇 공급 계약”…친러 세르비아 첫 방문"
+      ],
+      "representative_article": {
+        "title": "젤렌스키 “美와 월간 패트리엇 공급 계약”…친러 세르비아 첫 방문",
+        "link": "https://www.donga.com/news/Inter/article/all/20260808/134441984/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-08-08 23:33:21",
+        "match_score": 32.8
+      },
+      "related_articles": [
+        {
+          "title": "젤렌스키 “美와 월간 패트리엇 공급 계약”…친러 세르비아 첫 방문",
+          "link": "https://www.donga.com/news/Inter/article/all/20260808/134441984/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-08 23:33:21",
+          "match_score": 32.8
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 9,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "증시",
+      "score": 24.5,
+      "article_count": 4,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "긴장이 이어지는 증시 : 코스피 신용융자 다시 늘고 있다 - Investing.com 한국어",
+        "삼전닉스 레버리지 ETF 규제했지만… ‘코인판’처럼 흔들린 코스피 [주간 증시 해설서] - 더스쿠프",
+        "'사스포칼립스' 공포 지나자…SaaS 업계, AI 대응 여부로 희비 엇갈렸다"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "韓 개미들, 삼전닉스 떠나 美 증시 사들였더니…월가 “위험자산 줄여야 할 때” 경고",
+        "link": "https://www.etnews.com/20260808000006",
+        "source": "전자신문",
+        "published_dt": "2026-08-08 11:40:00",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "韓 개미들, 삼전닉스 떠나 美 증시 사들였더니…월가 “위험자산 줄여야 할 때” 경고",
+          "link": "https://www.etnews.com/20260808000006",
+          "source": "전자신문",
+          "published_dt": "2026-08-08 11:40:00",
+          "match_score": 37.49
+        },
+        {
+          "title": "긴장이 이어지는 증시 : 코스피 신용융자 다시 늘고 있다 - Investing.com 한국어",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE41am92ZUpqNTQ3S1ZPN1VscGNvRkdLRGpRMC1rREVMZjh3Q2xZSUhPNldLeFQ0RURacC1TQmlfSnZabGpaOTk1blVVUGVrWnVXZjhLSEFKQXRsdGltTW9FMg?oc=5",
+          "source": "키워드-금리환율코스피",
+          "published_dt": "2026-08-08 13:16:58",
+          "match_score": 36.96
+        },
+        {
+          "title": "美 일자리 줄었는데 증시는 최고치···금리인상 기대 꺾였다 - 시사저널e",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56eWE1OUhxN3pMSnlob09TVERQZnZNbC0xSVRiQzZBdTN4cERpZG84d0Zvc3p0M1RBVXYyazRKbTBlVGJaMXlPd2lDdUFJakdnQV85YjZZT0dpODh0RWJqN21LWmk3a2pKTFp4ZkNwUjlkZXlCUEHSAXZBVV95cUxOenlhNTlIcTd6TEp5aG9PU1REUGZ2TWwtMUlUYkM2QXUzeHBEaWRvOHdGb3N6dDNUQVV2Mms0Sm0wZVRiWjF5T3dpQ3VBSWpHZ0FfOWI2WU9HaTg4dEViajdtS1ppN2tqSkxaeGZDcFI5ZGV5QlBB?oc=5",
+          "source": "키워드-금리환율코스피",
+          "published_dt": "2026-08-08 11:51:02",
+          "match_score": 36.96
+        },
+        {
+          "title": "삼전닉스 레버리지 ETF 규제했지만… ‘코인판’처럼 흔들린 코스피 [주간 증시 해설서] - 더스쿠프",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9WSDRma015X2NadGtPOVVCNUNFMGJXekNWY3AxdGZ5dFYzRGZDRVhmb3pZUzkyZ3dQc0ZVTnhkYmk0UG9OaEtTZ2c5TGFuajh4OFNXdTFUV0loUURIcFlEMUxZeV9pT1VlUUlTekh3?oc=5",
+          "source": "키워드-금리환율코스피",
+          "published_dt": "2026-08-08 09:39:08",
+          "match_score": 36.96
+        },
+        {
+          "title": "'사스포칼립스' 공포 지나자…SaaS 업계, AI 대응 여부로 희비 엇갈렸다",
+          "link": "https://www.aitimes.com/news/articleView.html?idxno=213710",
+          "source": "AI타임스",
+          "published_dt": "2026-08-09 04:12:59",
+          "match_score": 12.1
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
