@@ -1,0 +1,378 @@
+{
+  "timestamp": "2026-08-10T06:02:25.062977",
+  "date": "20260810",
+  "data": [
+    {
+      "keyword": "경선",
+      "reason": "정치권 주요 당내 경쟁",
+      "score": 38.67,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "金, 2주차 경선1위 탈환…1%p대 박빙속 '광복절 호남'에 쏠린 눈"
+      ],
+      "representative_article": {
+        "title": "金, 2주차 경선1위 탈환…1%p대 박빙속 '광복절 호남'에 쏠린 눈",
+        "link": "https://www.yna.co.kr/view/AKR20260809048300001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-08-09 20:59:01",
+        "match_score": 38.67
+      },
+      "related_articles": [
+        {
+          "title": "金, 2주차 경선1위 탈환…1%p대 박빙속 '광복절 호남'에 쏠린 눈",
+          "link": "https://www.yna.co.kr/view/AKR20260809048300001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-09 20:59:01",
+          "match_score": 38.67
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "반도체",
+      "reason": "산업 및 기술 협력·경쟁",
+      "score": 37.79,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "[반도체 라이징 스타]<2>퓨리언스, HBM 공정 수율 높이는 포스트 CMP 세정 솔루션 고도화"
+      ],
+      "representative_article": {
+        "title": "[반도체 라이징 스타]<2>퓨리언스, HBM 공정 수율 높이는 포스트 CMP 세정 솔루션 고도화",
+        "link": "https://www.etnews.com/20260807000220",
+        "source": "전자신문",
+        "published_dt": "2026-08-09 17:00:00",
+        "match_score": 37.79
+      },
+      "related_articles": [
+        {
+          "title": "[반도체 라이징 스타]<2>퓨리언스, HBM 공정 수율 높이는 포스트 CMP 세정 솔루션 고도화",
+          "link": "https://www.etnews.com/20260807000220",
+          "source": "전자신문",
+          "published_dt": "2026-08-09 17:00:00",
+          "match_score": 37.79
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "유상증자",
+      "reason": "대규모 자금조달 발표",
+      "score": 37.67,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "에코프로비엠, 유상증자 정정 신고서 제출…1.2조 규모는 유지"
+      ],
+      "representative_article": {
+        "title": "에코프로비엠, 유상증자 정정 신고서 제출…1.2조 규모는 유지",
+        "link": "https://www.yna.co.kr/view/AKR20260809043800003",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-08-09 19:09:37",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "에코프로비엠, 유상증자 정정 신고서 제출…1.2조 규모는 유지",
+          "link": "https://www.yna.co.kr/view/AKR20260809043800003",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-08-09 19:09:37",
+          "match_score": 37.67
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재건축",
+      "reason": "부동산 시장 주요 이슈",
+      "score": 38.01,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "[이번주 재개발ㆍ재건축] ‘2.6조’ 목동10단지 재건축 누가 노리나 - 대한경제"
+      ],
+      "representative_article": {
+        "title": "[이번주 재개발ㆍ재건축] ‘2.6조’ 목동10단지 재건축 누가 노리나 - 대한경제",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1Oc01QdExKYVZtLUlHX2NnUDFVeXN1T0RWSkZ5NzNVRmVHTGF6Q3ktNUxmODBsZEtINVJuVzBrQTJlOUplY2VUNE1VaXB3a283TEJsS25jdzNWWDBWd1dJZFJ1ODNFejl0YTZWRGxPYkJDbWVw?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-08-10 05:00:23",
+        "match_score": 38.01
+      },
+      "related_articles": [
+        {
+          "title": "[이번주 재개발ㆍ재건축] ‘2.6조’ 목동10단지 재건축 누가 노리나 - 대한경제",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1Oc01QdExKYVZtLUlHX2NnUDFVeXN1T0RWSkZ5NzNVRmVHTGF6Q3ktNUxmODBsZEtINVJuVzBrQTJlOUplY2VUNE1VaXB3a283TEJsS25jdzNWWDBWd1dJZFJ1ODNFejl0YTZWRGxPYkJDbWVw?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-08-10 05:00:23",
+          "match_score": 38.01
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "금리",
+      "reason": "금융시장 변동 영향",
+      "score": 37.67,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "\"베선트 美재무, 장기채 금리 상승 방어의지 시장에 시사\""
+      ],
+      "representative_article": {
+        "title": "\"베선트 美재무, 장기채 금리 상승 방어의지 시장에 시사\"",
+        "link": "https://www.yna.co.kr/view/AKR20260810001800072",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-08-10 04:27:50",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "\"베선트 美재무, 장기채 금리 상승 방어의지 시장에 시사\"",
+          "link": "https://www.yna.co.kr/view/AKR20260810001800072",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-08-10 04:27:50",
+          "match_score": 37.67
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI",
+      "reason": "기술 발전 및 산업 적용",
+      "score": 38.09,
+      "article_count": 3,
+      "source_count": 2,
+      "categories": [
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "美, 中 AI기업 엔비디아칩 활용 방식 조사… “밀반입 하거나 해외 데이터센터 원격이용”",
+        "中 로봇기업 유니트리 IPO에 딥시크도 투자…공급망 결속 강화",
+        "가트너 \"2027년 중국 AI 점유율 50%…특정 국가 의존은 치명적 리스크\""
+      ],
+      "representative_article": {
+        "title": "가트너 \"2027년 중국 AI 점유율 50%…특정 국가 의존은 치명적 리스크\"",
+        "link": "https://www.aitimes.com/news/articleView.html?idxno=213719",
+        "source": "AI타임스",
+        "published_dt": "2026-08-10 03:23:55",
+        "match_score": 38.09
+      },
+      "related_articles": [
+        {
+          "title": "가트너 \"2027년 중국 AI 점유율 50%…특정 국가 의존은 치명적 리스크\"",
+          "link": "https://www.aitimes.com/news/articleView.html?idxno=213719",
+          "source": "AI타임스",
+          "published_dt": "2026-08-10 03:23:55",
+          "match_score": 38.09
+        },
+        {
+          "title": "美, 中 AI기업 엔비디아칩 활용 방식 조사… “밀반입 하거나 해외 데이터센터 원격이용”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260809/134445994/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-10 04:30:00",
+          "match_score": 35.6
+        },
+        {
+          "title": "中 로봇기업 유니트리 IPO에 딥시크도 투자…공급망 결속 강화",
+          "link": "https://www.donga.com/news/Inter/article/all/20260809/134443687/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-09 15:09:00",
+          "match_score": 9.6
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "개인정보",
+      "reason": "유출 사고 발생",
+      "score": 39.62,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "삼프로TV 개인정보 46만여건 유출…일부 계좌·카드정보 포함"
+      ],
+      "representative_article": {
+        "title": "삼프로TV 개인정보 46만여건 유출…일부 계좌·카드정보 포함",
+        "link": "https://www.yna.co.kr/view/AKR20260809039800017",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-08-09 17:48:41",
+        "match_score": 39.62
+      },
+      "related_articles": [
+        {
+          "title": "삼프로TV 개인정보 46만여건 유출…일부 계좌·카드정보 포함",
+          "link": "https://www.yna.co.kr/view/AKR20260809039800017",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-08-09 17:48:41",
+          "match_score": 39.62
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "소부장",
+      "reason": "기술 자립 강조",
+      "score": 38.86,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "\"중국발 반도체 공습 점점 거세져 … 지금이 소부장 자립 마지막 기회\""
+      ],
+      "representative_article": {
+        "title": "\"중국발 반도체 공습 점점 거세져 … 지금이 소부장 자립 마지막 기회\"",
+        "link": "https://www.mk.co.kr/news/economy/12122252",
+        "source": "매일경제-경제",
+        "published_dt": "2026-08-09 17:48:45",
+        "match_score": 38.86
+      },
+      "related_articles": [
+        {
+          "title": "\"중국발 반도체 공습 점점 거세져 … 지금이 소부장 자립 마지막 기회\"",
+          "link": "https://www.mk.co.kr/news/economy/12122252",
+          "source": "매일경제-경제",
+          "published_dt": "2026-08-09 17:48:45",
+          "match_score": 38.86
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "노숙인",
+      "reason": "사회 문제 인권 논쟁",
+      "score": 38.88,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "인천공항 노숙인 퇴거 조치…인권단체 \"졸속 추진\" 반발"
+      ],
+      "representative_article": {
+        "title": "인천공항 노숙인 퇴거 조치…인권단체 \"졸속 추진\" 반발",
+        "link": "https://www.yna.co.kr/view/AKR20260809044800065",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-08-09 18:52:38",
+        "match_score": 38.88
+      },
+      "related_articles": [
+        {
+          "title": "인천공항 노숙인 퇴거 조치…인권단체 \"졸속 추진\" 반발",
+          "link": "https://www.yna.co.kr/view/AKR20260809044800065",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-08-09 18:52:38",
+          "match_score": 38.88
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 9,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "SK",
+      "score": 71.2,
+      "article_count": 12,
+      "source_count": 8,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "SK하닉 공장서 소부장 기술 상시검증…'트리니티팹' 내년 완공",
+        "버크셔 해서웨이의 주식 매수 전환, 미국 증시 전망과 국장 반도체(삼성전자·SK하이닉스) 향방 - 네이버 프리미엄콘텐츠",
+        "모노리식3D 특허공세...美ITC, SK하이닉스 2번째 특허침해조사 착수"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "모노리식3D 특허공세...美ITC, SK하이닉스 2번째 특허침해조사 착수",
+        "link": "https://zdnet.co.kr/view/?no=20260810002022",
+        "source": "ZDNetKorea",
+        "published_dt": "2026-08-10 00:41:12",
+        "match_score": 38.09
+      },
+      "related_articles": [
+        {
+          "title": "모노리식3D 특허공세...美ITC, SK하이닉스 2번째 특허침해조사 착수",
+          "link": "https://zdnet.co.kr/view/?no=20260810002022",
+          "source": "ZDNetKorea",
+          "published_dt": "2026-08-10 00:41:12",
+          "match_score": 38.09
+        },
+        {
+          "title": "SKT, 10년 이상 장기고객 초청 '테이블 데이' 개최",
+          "link": "https://www.yna.co.kr/view/AKR20260809013400017",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-08-09 09:36:04",
+          "match_score": 37.67
+        },
+        {
+          "title": "SK하이닉스 영업비밀 中회사에 유출…前직원 2심도 징역1년6개월",
+          "link": "https://www.yna.co.kr/view/AKR20260807152300004",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-08-09 09:00:04",
+          "match_score": 37.67
+        },
+        {
+          "title": "SK하닉 공장서 소부장 기술 상시검증…'트리니티팹' 내년 완공",
+          "link": "https://www.mk.co.kr/news/economy/12122253",
+          "source": "매일경제-경제",
+          "published_dt": "2026-08-09 17:48:45",
+          "match_score": 37.66
+        },
+        {
+          "title": "송도 2년차 신축 SK뷰 아파트 발코니 무너져…주민들 추가 붕괴 우려",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/08/09/2026080900561.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-08-09 14:33:37",
+          "match_score": 37.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
