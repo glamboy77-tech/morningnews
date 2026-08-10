@@ -1,0 +1,376 @@
+{
+  "timestamp": "2026-08-11T06:02:23.167548",
+  "date": "20260811",
+  "data": [
+    {
+      "keyword": "반도체 펀드",
+      "reason": "대규모 투자 및 신성장 동력",
+      "score": 14.79,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "정부, 5조원 규모 반도체 신규 펀드 조성…메가 클러스터 구축에 속도낸다"
+      ],
+      "representative_article": {
+        "title": "정부, 5조원 규모 반도체 신규 펀드 조성…메가 클러스터 구축에 속도낸다",
+        "link": "https://www.aitimes.com/news/articleView.html?idxno=213773",
+        "source": "AI타임스",
+        "published_dt": "2026-08-11 03:10:00",
+        "match_score": 14.79
+      },
+      "related_articles": [
+        {
+          "title": "정부, 5조원 규모 반도체 신규 펀드 조성…메가 클러스터 구축에 속도낸다",
+          "link": "https://www.aitimes.com/news/articleView.html?idxno=213773",
+          "source": "AI타임스",
+          "published_dt": "2026-08-11 03:10:00",
+          "match_score": 14.79
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI 데이터센터",
+      "reason": "전력망 협업 및 기술 혁신",
+      "score": 43.5,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "“AI 데이터센터 핵심은 전력”… GS건설·LS일렉트릭, 차세대 전력망 구축 협업",
+        "“AI 데이터센터 핵심은 전력”… GS건설·LS일렉트릭, 차세대 전력망 구축 협업"
+      ],
+      "representative_article": {
+        "title": "“AI 데이터센터 핵심은 전력”… GS건설·LS일렉트릭, 차세대 전력망 구축 협업",
+        "link": "https://www.mk.co.kr/news/realestate/12122827",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-08-10 14:45:34",
+        "match_score": 43.5
+      },
+      "related_articles": [
+        {
+          "title": "“AI 데이터센터 핵심은 전력”… GS건설·LS일렉트릭, 차세대 전력망 구축 협업",
+          "link": "https://www.mk.co.kr/news/realestate/12122827",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-08-10 14:45:34",
+          "match_score": 43.5
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "지방선거",
+      "reason": "정치권 이슈와 선거 결과 논란",
+      "score": 38.88,
+      "article_count": 4,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "여야 재검표 충돌에 野 단독 청문회…국힘, 전산조작 질타(종합2보)",
+        "국힘 조직강화특위 첫 회의…'당협 정비' 본격 착수(종합)",
+        "김민석 \"지선 결과 안타까워 화 삭여…'오빠'로 부산도 못 가\"(종합)"
+      ],
+      "representative_article": {
+        "title": "경실련 \"6·3 지방선거 대전세종충남 당선인 26％가 전과자\"",
+        "link": "https://www.yna.co.kr/view/AKR20260810091100063",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-08-10 14:25:47",
+        "match_score": 38.88
+      },
+      "related_articles": [
+        {
+          "title": "경실련 \"6·3 지방선거 대전세종충남 당선인 26％가 전과자\"",
+          "link": "https://www.yna.co.kr/view/AKR20260810091100063",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-10 14:25:47",
+          "match_score": 38.88
+        },
+        {
+          "title": "김민석 \"지선 결과 안타까워 화 삭여…'오빠'로 부산도 못 가\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260810077551001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-10 16:24:00",
+          "match_score": 13.18
+        },
+        {
+          "title": "여야 재검표 충돌에 野 단독 청문회…국힘, 전산조작 질타(종합2보)",
+          "link": "https://www.yna.co.kr/view/AKR20260810066752001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-10 23:44:59",
+          "match_score": 12.98
+        },
+        {
+          "title": "국힘 조직강화특위 첫 회의…'당협 정비' 본격 착수(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260810065251001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-10 20:00:29",
+          "match_score": 11.98
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재건축",
+      "reason": "시공권 확보와 주택 시장 변화",
+      "score": 40.11,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "포스코이앤씨, 하안주공3·4단지 재건축 시공권 확보 - 한국주택경제신문",
+        "“이주비 막히면 재건축 올스톱”…정부, 주금공 보증 붙여 숨통 틔울까"
+      ],
+      "representative_article": {
+        "title": "포스코이앤씨, 하안주공3·4단지 재건축 시공권 확보 - 한국주택경제신문",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE50Y1Zmb3VBYnVWOGZjZ2lYcFBKYmVIR1RiWlVFWkNXbmJ2SzNEbGduQVBHNURlYUJzcFhGYWNJNmp2Z1lXQ3FmVHJwa3dlbjFDRWJETkN3MkxYVnFPS0Z0cDktRVgtWWFo?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-08-10 15:59:04",
+        "match_score": 40.11
+      },
+      "related_articles": [
+        {
+          "title": "포스코이앤씨, 하안주공3·4단지 재건축 시공권 확보 - 한국주택경제신문",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE50Y1Zmb3VBYnVWOGZjZ2lYcFBKYmVIR1RiWlVFWkNXbmJ2SzNEbGduQVBHNURlYUJzcFhGYWNJNmp2Z1lXQ3FmVHJwa3dlbjFDRWJETkN3MkxYVnFPS0Z0cDktRVgtWWFo?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-08-10 15:59:04",
+          "match_score": 40.11
+        },
+        {
+          "title": "“이주비 막히면 재건축 올스톱”…정부, 주금공 보증 붙여 숨통 틔울까",
+          "link": "https://www.mk.co.kr/news/realestate/12122449",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-08-10 08:40:18",
+          "match_score": 38.39
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "국고채 금리",
+      "reason": "금융시장 변동성 반영",
+      "score": 40.08,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "금융시장 주요지표(금리,주가,환율, 8.10) - bok.or.kr",
+        "하락세 끝났나…국고채 금리 다시 3일째 상승(종합)"
+      ],
+      "representative_article": {
+        "title": "하락세 끝났나…국고채 금리 다시 3일째 상승(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260810124151008",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-08-10 17:08:38",
+        "match_score": 40.08
+      },
+      "related_articles": [
+        {
+          "title": "하락세 끝났나…국고채 금리 다시 3일째 상승(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260810124151008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-08-10 17:08:38",
+          "match_score": 40.08
+        },
+        {
+          "title": "금융시장 주요지표(금리,주가,환율, 8.10) - bok.or.kr",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNVnBwREJuZkxLNDBDaFFhNnFveDF4MmRaRGUyeml6MXdicTU2Q3ZZU2UzVlNWWHJVaHVZc1RMTUxUZktmVnBzLW41REI2cUxOWmhDYmg3YkYxbmlrTDlQRE16eFR0UHdTUjktTkx2ejNfQ2k2Z3djNFcwaWRJRVNXMDZUV2FhaTJUd1h2VHlEQ0tKUjhZOFgyb3lVVEhZTTA3Rlg3NnBTYnJxcGc2clNpRWxSVVI3UTBTWWlubk9wSUs2ejVDTjFKZXY4T2hRZC1mdXUwNg?oc=5",
+          "source": "공식-한국은행",
+          "published_dt": "2026-08-10 11:31:33",
+          "match_score": 7.4
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "중동 사태",
+      "reason": "군사 공습과 국제 긴장",
+      "score": 3.5,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "‘중동판 나토’ 결성 이틀만에… 후티, 홍해 사우디군 집결지 공습"
+      ],
+      "representative_article": {
+        "title": "‘중동판 나토’ 결성 이틀만에… 후티, 홍해 사우디군 집결지 공습",
+        "link": "https://www.donga.com/news/Inter/article/all/20260810/134453675/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-08-11 04:30:00",
+        "match_score": 3.5
+      },
+      "related_articles": [
+        {
+          "title": "‘중동판 나토’ 결성 이틀만에… 후티, 홍해 사우디군 집결지 공습",
+          "link": "https://www.donga.com/news/Inter/article/all/20260810/134453675/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-11 04:30:00",
+          "match_score": 3.5
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "기업결합심사",
+      "reason": "대기업 지분 확보 및 규제",
+      "score": 30.7,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "한화그룹, KAI 지분 15% 이상 확보 “공정위에 기업결합심사 신청 예정”",
+        "한화, KAI 지분 15% 넘겨…기업결합심사 신청 예정"
+      ],
+      "representative_article": {
+        "title": "한화그룹, KAI 지분 15% 이상 확보 “공정위에 기업결합심사 신청 예정”",
+        "link": "https://www.chosun.com/economy/industry-company/2026/08/11/HTAOGHKNCRH5DFHBZZK5OKIU2Q/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-08-11 00:33:00",
+        "match_score": 30.7
+      },
+      "related_articles": [
+        {
+          "title": "한화그룹, KAI 지분 15% 이상 확보 “공정위에 기업결합심사 신청 예정”",
+          "link": "https://www.chosun.com/economy/industry-company/2026/08/11/HTAOGHKNCRH5DFHBZZK5OKIU2Q/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-08-11 00:33:00",
+          "match_score": 30.7
+        },
+        {
+          "title": "한화, KAI 지분 15% 넘겨…기업결합심사 신청 예정",
+          "link": "https://www.yna.co.kr/view/AKR20260810117500003",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-08-10 16:14:05",
+          "match_score": 29.88
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "코스닥 강세",
+      "reason": "주식시장 상승세 주도",
+      "score": 3.88,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "코스피 주춤, 코스닥만 날았다…레버리지 규제 이후 수급 개선"
+      ],
+      "representative_article": {
+        "title": "코스피 주춤, 코스닥만 날았다…레버리지 규제 이후 수급 개선",
+        "link": "https://www.yna.co.kr/view/AKR20260810082800008",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-08-10 16:36:08",
+        "match_score": 3.88
+      },
+      "related_articles": [
+        {
+          "title": "코스피 주춤, 코스닥만 날았다…레버리지 규제 이후 수급 개선",
+          "link": "https://www.yna.co.kr/view/AKR20260810082800008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-08-10 16:36:08",
+          "match_score": 3.88
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "대출금리 양극화",
+      "reason": "금융시장 불균형 심화",
+      "score": 33.16,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "대출금리 양극화…대기업·중기 격차 최대"
+      ],
+      "representative_article": {
+        "title": "대출금리 양극화…대기업·중기 격차 최대",
+        "link": "https://www.mk.co.kr/news/economy/12123159",
+        "source": "매일경제-경제",
+        "published_dt": "2026-08-10 17:56:38",
+        "match_score": 33.16
+      },
+      "related_articles": [
+        {
+          "title": "대출금리 양극화…대기업·중기 격차 최대",
+          "link": "https://www.mk.co.kr/news/economy/12123159",
+          "source": "매일경제-경제",
+          "published_dt": "2026-08-10 17:56:38",
+          "match_score": 33.16
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 9,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI 상담",
+      "reason": "금융권 신기술 확산",
+      "score": 3.86,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "농협은행 상담 AI가 직접 처리한다…KT, AICC 구축 완료"
+      ],
+      "representative_article": {
+        "title": "농협은행 상담 AI가 직접 처리한다…KT, AICC 구축 완료",
+        "link": "https://www.mk.co.kr/news/it/12122925",
+        "source": "매일경제-경제",
+        "published_dt": "2026-08-10 15:59:57",
+        "match_score": 3.86
+      },
+      "related_articles": [
+        {
+          "title": "농협은행 상담 AI가 직접 처리한다…KT, AICC 구축 완료",
+          "link": "https://www.mk.co.kr/news/it/12122925",
+          "source": "매일경제-경제",
+          "published_dt": "2026-08-10 15:59:57",
+          "match_score": 3.86
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 10,
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}

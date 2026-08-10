@@ -1,0 +1,112 @@
+{
+  "timestamp": "2026-08-11T06:02:04.007880",
+  "date": "20260811",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "보수야권, 경기도 '재정 비상선언'에 \"이재명 도정 탓\"",
+          "link": "https://www.yna.co.kr/view/AKR20260810133200001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-10 18:14:13",
+          "description": "(서울=연합뉴스) 이율립 기자 = 국민의힘 등 보수 야권은 10일 더불어민주당 소속 추미애 경기도지사가 &apos;도 재정 비상&apos; 선언에 이어 삼성전자와...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "지방/행정",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 \"2028년 중순까지 광주군공항 기능 他기지로 임시배치\"",
+          "link": "https://www.yna.co.kr/view/AKR20260810093300001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-10 14:53:02",
+          "description": "(서울=연합뉴스) 고동욱 황윤기 기자 = 이재명 대통령은 10일 이른바 3대 메가프로젝트의 속도감 있는 추진을 강조하며 &quot;속도전을 넘어 전격전을...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "[속보] 李대통령 \"2028년 중순까지 광주군공항 기능 他기지로 임시배치\"",
+              "link": "https://www.yna.co.kr/view/AKR20260810089700001"
+            }
+          ]
+        },
+        {
+          "title": "\"얼마나 졸속 대책이면…\" 이재명 정부 부동산 '추가 대책' 곧 발표",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/08/10/2026081001320.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-08-10 10:41:25",
+          "description": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"3\" width=\"100%\"><tr><td><img border=\"0\" src=\"https://image.chosun.com/sitedata/thumbnail/202608/10/2026081001319_0_thumb.jpg\" /></td></tr></table>\n\t \n[땅집고] 정부가 지난 3일 발표한 세법 개정안에 대한 국민들의 불만이 폭주하고 있다. 정부는 토지거래허가구역 실거주 의무 유예 특례를 연장하는 방안을 추진하는 등 벌써부터 보완 대책 마련에 나섰다. 13일 전후로는 주택 공급대책을 추가 발표할 예정이다.\n \n9일 법제처가 운영하는 국민참여입법센터에 따르면 지난 4일 입법예고된 종합부동산세법 개정안에는 2500여 건의 의견이 제출됐다. 양도소득세 개편 등이 담긴 소득세법 개정안에도 1600건 이상 의견이 달렸다.\n \n대표적인 것이 집에 실제 거주하지 않더라도 특별한 사유가 인정될...",
+          "category": "domestic",
+          "feed_url": "https://realty.chosun.com/site/data/rss/rss.xml",
+          "source_type": "realestate",
+          "source_weight": 1.15,
+          "source_badge": "부동산",
+          "priority_score": 1,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "한국 대통령"
+    },
+    "트럼프": {
+      "articles": [
+        {
+          "title": "트럼프, 휘발윳값 부담에 존스법 또 유예…중간선거 뒤로 연장",
+          "link": "https://www.yna.co.kr/view/AKR20260811004100071",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-08-11 04:08:28",
+          "description": "(워싱턴=연합뉴스) 홍정규 특파원 = 도널드 트럼프 미국 대통령이 국내 항구 간 운송권을 자국 선박에만 주는 &apos;존스법&apos;의 적용 유예 기간을 90...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/economy.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프, 이란 배상 요구에 맞불…“배상은 우리가 받아야”(종합)",
+          "link": "https://www.donga.com/news/Inter/article/all/20260811/134454260/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-11 05:41:17",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/08/11/134454261.1.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령이 이란의 전쟁 피해 배상 요구에 맞서 “나도 마찬가지로 이란에 배상금을 요구할 것이다”고 10일(현지 시간) 밝혔다.이란은 호르무즈 해협 재개방 조건 중 하나로 전쟁 피해 전액 배상을 내걸었는데, 미국 역시 배상을 요구하면서 이를 상쇄하겠다는 의도로 풀이된다. 다만 이란은 모든 요구가 수용돼야 호르무즈 해협을 재개방하겠다는 입장이라, 교착 상태가 이어질 가능성도 있다. 트럼프 대통령은 이날 소셜미디어(SNS) 트루스소셜에 이같이 적은 뒤 “내 협상대표들에 이 사안을 향후 모든 협상에 확실히 포함하라고 지시했다”고 전했다.트럼프 대통령은 전날 이란의 추가 요구에 대해 “우리는 낮은 강도로 대응하고 있다(We are low keying it)”며 흘려보냈으나, 이날은 맞불을 예고한 모습이다.그는 SNS에 “이란 협상대표들이 5개월간의 군사 충돌 기간 자신들이 입은 피해에 대해 배상을 요구하고 있는 것으로 안다”며 “이 충돌은 그들이 핵무기를 보유하지",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "美 전직 정보당국자들 “트럼프 통치 방식, 독재자 수순”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260810/134450260/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-10 15:08:23",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/08/10/134450261.1.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령이 집권 2기 ‘독재자’의 전략을 따르면서 권력 견제 장치를 약화시키고 미국의 안보를 위협하고 있다고 미국의 전직 고위 정보 당국자들이 경고했다.9일(현지 시간) 파이낸셜타임스(FT)에 따르면 미 중앙정보국(CIA) 등 전직 정보 당국자들이 트럼프 대통령의 권위주의적인 통치 방식에 대해 공개적으로 우려를 제기했다. 트럼프 대통령은 첫 임기 당시 자신의 권력을 제한했던 이른바 ‘딥 스테이트(deep state·비밀 권력 집단)’와의 전쟁을 선포하며 복귀했고, 재집권 이후 비판 세력의 입을 막고 주변 인사들에게 절대적인 충성을 요구해왔다고 FT는 지적했다.옛소련과 발칸 지역에서 CIA 지국장을 지낸 폴 콜베는 “독재자들이 권력을 잡고 휘두르는 방식에는 공통된 수순이 있다”며 “현재 미국에서 벌어지는 현상들은 이러한 과거의 역사와 정확히 궤를 같이한다”고 지적했다.지난해 백악관으로부터 안보 기밀 접근권을 박탈당한 뒤 법정 투쟁을 벌이고 있는 국가안보 전문",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "미국 대통령"
+    }
+  }
+}
