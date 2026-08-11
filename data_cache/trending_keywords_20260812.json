@@ -1,0 +1,492 @@
+{
+  "timestamp": "2026-08-12T06:02:12.829501",
+  "date": "20260812",
+  "data": [
+    {
+      "keyword": "반도체",
+      "reason": "산업 성장과 투자, 정책 이슈에서 자주 언급",
+      "score": 38.83,
+      "article_count": 4,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "기업/산업",
+        "정치"
+      ],
+      "sample_titles": [
+        "美, 폴리실리콘 15% 관세 부과…정부·업계 “공급망 영향 점검·대응책 착수”",
+        "“삼전닉스 덕에 최대치 찍었습니다”...2분기 수출액 389조원 기록",
+        "美, 폴리실리콘 15% 관세 부과…정부·업계 “공급망 영향 점검·대응책 착수”"
+      ],
+      "representative_article": {
+        "title": "국힘, 李대통령 '호남 반도체 속도전'에 \"與전당대회 맞춤형 쇼\"",
+        "link": "https://www.yna.co.kr/view/AKR20260811139800001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-08-11 17:12:37",
+        "match_score": 38.83
+      },
+      "related_articles": [
+        {
+          "title": "국힘, 李대통령 '호남 반도체 속도전'에 \"與전당대회 맞춤형 쇼\"",
+          "link": "https://www.yna.co.kr/view/AKR20260811139800001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-11 17:12:37",
+          "match_score": 38.83
+        },
+        {
+          "title": "'반도체 특별법' 본격 시행…업계 “인프라 신속 지원이 성패 좌우”",
+          "link": "https://www.etnews.com/20260811000258",
+          "source": "전자신문",
+          "published_dt": "2026-08-11 14:24:25",
+          "match_score": 37.79
+        },
+        {
+          "title": "“삼전닉스 덕에 최대치 찍었습니다”...2분기 수출액 389조원 기록",
+          "link": "https://www.mk.co.kr/news/economy/12124465",
+          "source": "매일경제-경제",
+          "published_dt": "2026-08-11 20:24:28",
+          "match_score": 11.96
+        },
+        {
+          "title": "美, 폴리실리콘 15% 관세 부과…정부·업계 “공급망 영향 점검·대응책 착수”",
+          "link": "https://www.etnews.com/20260811000272",
+          "source": "전자신문",
+          "published_dt": "2026-08-11 14:43:50",
+          "match_score": 11.8
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "금리인상",
+      "reason": "한은 금리 정책과 금융시장 영향 반복 보도",
+      "score": 29.5,
+      "article_count": 3,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "국제"
+      ],
+      "sample_titles": [
+        "\"특별한 충격이 없다면…\" 한은, 금리 추가인상 시사",
+        "美 고용 충격으로 금리인상 전망 후퇴… 금 ETF 수익률 반등",
+        "‘추가 금리 인상’ 언급한 유상대 부총재…8월 금리 인상 가능성엔 - 에너지경제신문"
+      ],
+      "representative_article": {
+        "title": "美 고용 충격으로 금리인상 전망 후퇴… 금 ETF 수익률 반등",
+        "link": "https://www.chosun.com/economy/stock-finance/2026/08/12/YW4M3YFDHFDNLBTYAXV3QWWY4U/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-08-12 00:35:00",
+        "match_score": 29.5
+      },
+      "related_articles": [
+        {
+          "title": "美 고용 충격으로 금리인상 전망 후퇴… 금 ETF 수익률 반등",
+          "link": "https://www.chosun.com/economy/stock-finance/2026/08/12/YW4M3YFDHFDNLBTYAXV3QWWY4U/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-08-12 00:35:00",
+          "match_score": 29.5
+        },
+        {
+          "title": "‘추가 금리 인상’ 언급한 유상대 부총재…8월 금리 인상 가능성엔 - 에너지경제신문",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1lWmxGVURua3VWem1Ubm42cURaNGpxeDkwT0t3cEwybkd2cTBrTi14c25FYzkwQ1gwT2NnYzBBaDZXZVZLeTYydk5FRV9waUVId2RvM1F6TWhONkU?oc=5",
+          "source": "키워드-금리환율코스피",
+          "published_dt": "2026-08-11 15:57:58",
+          "match_score": 17.15
+        },
+        {
+          "title": "\"특별한 충격이 없다면…\" 한은, 금리 추가인상 시사",
+          "link": "https://www.mk.co.kr/news/economy/12124233",
+          "source": "매일경제-경제",
+          "published_dt": "2026-08-11 17:34:23",
+          "match_score": 9.06
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재개발",
+      "reason": "부동산 공급과 가격 변동 중심으로 다수 기사 등장",
+      "score": 38.39,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "부동산",
+        "정치"
+      ],
+      "sample_titles": [
+        "용산 서계·청파 재개발 … 멸실 빼도 1700가구 순증",
+        "1000억 쏜 삼성물산, 성수3지구 깃발 가시화…'60일 단축' 승부수"
+      ],
+      "representative_article": {
+        "title": "용산 서계·청파 재개발 … 멸실 빼도 1700가구 순증",
+        "link": "https://www.mk.co.kr/news/realestate/12124328",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-08-11 17:53:06",
+        "match_score": 38.39
+      },
+      "related_articles": [
+        {
+          "title": "용산 서계·청파 재개발 … 멸실 빼도 1700가구 순증",
+          "link": "https://www.mk.co.kr/news/realestate/12124328",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-08-11 17:53:06",
+          "match_score": 38.39
+        },
+        {
+          "title": "1000억 쏜 삼성물산, 성수3지구 깃발 가시화…'60일 단축' 승부수",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/08/11/2026081101627.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-08-11 13:59:13",
+          "match_score": 12.4
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "강진",
+      "reason": "콜롬비아 등 지진 피해 국제 뉴스 주목",
+      "score": 41.8,
+      "article_count": 4,
+      "source_count": 2,
+      "categories": [
+        "국제",
+        "기업/산업",
+        "정치"
+      ],
+      "sample_titles": [
+        "李대통령, 콜롬비아 강진 위로…\"한 분이라도 더 무사하길\"",
+        "콜롬비아서도 규모 7.4 강진…최소 132명 사망",
+        "콜롬비아 규모 7.4 강진… 최소 213명 숨져"
+      ],
+      "representative_article": {
+        "title": "베네수엘라 강진에 엄마 잃은 형제…콜롬비아 이주했다 또 지진",
+        "link": "https://www.donga.com/news/Inter/article/all/20260811/134456161/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-08-11 11:14:00",
+        "match_score": 41.8
+      },
+      "related_articles": [
+        {
+          "title": "베네수엘라 강진에 엄마 잃은 형제…콜롬비아 이주했다 또 지진",
+          "link": "https://www.donga.com/news/Inter/article/all/20260811/134456161/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-11 11:14:00",
+          "match_score": 41.8
+        },
+        {
+          "title": "콜롬비아서도 규모 7.4 강진…최소 132명 사망",
+          "link": "https://www.donga.com/news/Inter/article/all/20260811/134456467/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-11 16:03:00",
+          "match_score": 40.9
+        },
+        {
+          "title": "콜롬비아 규모 7.4 강진… 최소 213명 숨져",
+          "link": "https://www.donga.com/news/Inter/article/all/20260812/134461520/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-12 04:30:00",
+          "match_score": 40.6
+        },
+        {
+          "title": "李대통령, 콜롬비아 강진 위로…\"한 분이라도 더 무사하길\"",
+          "link": "https://www.yna.co.kr/view/AKR20260811163900001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-11 20:15:30",
+          "match_score": 38.97
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI",
+      "reason": "기업 투자와 보안, 정책 논의에서 빈번히 거론",
+      "score": 38.7,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "보안 특화 AI '2파전'…네이버클라우드-SKT 격돌"
+      ],
+      "representative_article": {
+        "title": "보안 특화 AI '2파전'…네이버클라우드-SKT 격돌",
+        "link": "https://www.etnews.com/20260811000261",
+        "source": "전자신문",
+        "published_dt": "2026-08-11 16:00:00",
+        "match_score": 38.7
+      },
+      "related_articles": [
+        {
+          "title": "보안 특화 AI '2파전'…네이버클라우드-SKT 격돌",
+          "link": "https://www.etnews.com/20260811000261",
+          "source": "전자신문",
+          "published_dt": "2026-08-11 16:00:00",
+          "match_score": 38.7
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "대출",
+      "reason": "가계부채와 금융 정책의 핵심 이슈로 부각",
+      "score": 37.66,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "부동산"
+      ],
+      "sample_titles": [
+        "“대출 막으면 빚 줄이겠지”…‘연 15%’ 감수하고 빌린다"
+      ],
+      "representative_article": {
+        "title": "“대출 막으면 빚 줄이겠지”…‘연 15%’ 감수하고 빌린다",
+        "link": "https://www.mk.co.kr/news/economy/12124345",
+        "source": "매일경제-경제",
+        "published_dt": "2026-08-11 18:06:42",
+        "match_score": 37.66
+      },
+      "related_articles": [
+        {
+          "title": "“대출 막으면 빚 줄이겠지”…‘연 15%’ 감수하고 빌린다",
+          "link": "https://www.mk.co.kr/news/economy/12124345",
+          "source": "매일경제-경제",
+          "published_dt": "2026-08-11 18:06:42",
+          "match_score": 37.66
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "안보",
+      "reason": "국내외 정세와 연합방위 논의에서 중요한 화두",
+      "score": 37.3,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "콜비 “중견국 동맹은 망상”… 脫미국 안보 연대에 경고"
+      ],
+      "representative_article": {
+        "title": "콜비 “중견국 동맹은 망상”… 脫미국 안보 연대에 경고",
+        "link": "https://www.donga.com/news/Inter/article/all/20260812/134461526/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-08-12 04:30:00",
+        "match_score": 37.3
+      },
+      "related_articles": [
+        {
+          "title": "콜비 “중견국 동맹은 망상”… 脫미국 안보 연대에 경고",
+          "link": "https://www.donga.com/news/Inter/article/all/20260812/134461526/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-12 04:30:00",
+          "match_score": 37.3
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "수출",
+      "reason": "반도체 등 주요 산업 수출 호조가 경제동향에 반영",
+      "score": 38.86,
+      "article_count": 4,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "기업/산업",
+        "정치"
+      ],
+      "sample_titles": [
+        "美, 폴리실리콘 15% 관세 부과…정부·업계 “공급망 영향 점검·대응책 착수”",
+        "“삼전닉스 덕에 최대치 찍었습니다”...2분기 수출액 389조원 기록",
+        "반도체·화장품 수출 훈풍에… 코스피·코스닥 동반 상승 - 머니투데이 - 머니투데이"
+      ],
+      "representative_article": {
+        "title": "반도체가 이끈 ‘역대 최고 실적’…8월 초 수출 45.3% 급증",
+        "link": "https://www.mk.co.kr/news/economy/12123711",
+        "source": "매일경제-경제",
+        "published_dt": "2026-08-11 09:22:12",
+        "match_score": 38.86
+      },
+      "related_articles": [
+        {
+          "title": "반도체가 이끈 ‘역대 최고 실적’…8월 초 수출 45.3% 급증",
+          "link": "https://www.mk.co.kr/news/economy/12123711",
+          "source": "매일경제-경제",
+          "published_dt": "2026-08-11 09:22:12",
+          "match_score": 38.86
+        },
+        {
+          "title": "“삼전닉스 덕에 최대치 찍었습니다”...2분기 수출액 389조원 기록",
+          "link": "https://www.mk.co.kr/news/economy/12124465",
+          "source": "매일경제-경제",
+          "published_dt": "2026-08-11 20:24:28",
+          "match_score": 38.26
+        },
+        {
+          "title": "반도체·화장품 수출 훈풍에… 코스피·코스닥 동반 상승 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1pcWhTQ3UxdDRES1lOTC16U0JZVXlUVWloTmNYZE5tM1h5TnRRNHR6ZWpkbUtHU3BIYmkxNlVJMEx0S2NqY0M0ZUE4Q3hieEdXMVZCYzJucjB6UURYVjN2M1l5WHFqS3Rr0gFuQVVfeXFMTXExd0tUR0JOSnRzUEZrTkVoTEcyTFlNc3F5U1EzTnhETXZscmlGSldXbTJBdlpZMzZHbk9XQXFMV0JuMzdXUFFjMEZsTUVocWxaNTVselBtSTNBY250NnZnZXQ4UlYwZEx4d3hSWkE?oc=5",
+          "source": "키워드-금리환율코스피",
+          "published_dt": "2026-08-12 04:01:00",
+          "match_score": 38.16
+        },
+        {
+          "title": "美, 폴리실리콘 15% 관세 부과…정부·업계 “공급망 영향 점검·대응책 착수”",
+          "link": "https://www.etnews.com/20260811000272",
+          "source": "전자신문",
+          "published_dt": "2026-08-11 14:43:50",
+          "match_score": 12.1
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "2분기",
+      "score": 65.6,
+      "article_count": 10,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "JW중외제약, 2분기 영업이익 337억원…33% 증가",
+        "“삼전닉스 덕에 최대치 찍었습니다”...2분기 수출액 389조원 기록",
+        "대신증권 2분기 영업익 3천599억원…전년보다 165%↑"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "JW중외제약, 2분기 영업이익 337억원…33% 증가",
+        "link": "https://www.yna.co.kr/view/AKR20260811149000017",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-08-11 17:31:29",
+        "match_score": 37.83
+      },
+      "related_articles": [
+        {
+          "title": "JW중외제약, 2분기 영업이익 337억원…33% 증가",
+          "link": "https://www.yna.co.kr/view/AKR20260811149000017",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-08-11 17:31:29",
+          "match_score": 37.83
+        },
+        {
+          "title": "대신증권 2분기 영업익 3천599억원…전년보다 165%↑",
+          "link": "https://www.yna.co.kr/view/AKR20260811136500008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-08-11 16:35:01",
+          "match_score": 37.83
+        },
+        {
+          "title": "펄어비스, 붉은사막 흥행에 2분기 실적 폭등…\"DLC 연내 출시\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260811153551527",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-08-11 18:48:59",
+          "match_score": 37.67
+        },
+        {
+          "title": "쏘카, 2분기 영업익 68억원으로 271% 증가…순이익 흑자전환",
+          "link": "https://www.yna.co.kr/view/AKR20260811143200030",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-08-11 16:58:57",
+          "match_score": 37.67
+        },
+        {
+          "title": "펌텍코리아 2분기 영업이익 217억원…작년 동기 대비 11.4%↑",
+          "link": "https://www.yna.co.kr/view/AKR20260811134700527",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-08-11 16:29:10",
+          "match_score": 37.67
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "아파트",
+      "score": 44.2,
+      "article_count": 10,
+      "source_count": 2,
+      "categories": [
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "[단독] 대구 수성구 범어네거리 재건축 단지, '자이르네'로 이름 바뀐다",
+        "“한강뷰 아파트 주민들 마음도 부자네”…중병 걸린 직원 위해 1600만원 모았다",
+        "길음 국평도 20억 돌파…‘덜 똘똘한’ 한 채, 더 똘똘해질까 [부동산 손품노트]"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "“한강뷰 아파트 주민들 마음도 부자네”…중병 걸린 직원 위해 1600만원 모았다",
+        "link": "https://www.mk.co.kr/news/realestate/12124538",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-08-11 21:54:45",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "“한강뷰 아파트 주민들 마음도 부자네”…중병 걸린 직원 위해 1600만원 모았다",
+          "link": "https://www.mk.co.kr/news/realestate/12124538",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-08-11 21:54:45",
+          "match_score": 37.49
+        },
+        {
+          "title": "강남 아파트의 추락…압구정 10억, 은마 7억 급락",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/08/11/2026081101171.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-08-11 13:50:59",
+          "match_score": 37.49
+        },
+        {
+          "title": "“높은 서울 집값에 매수세 이동”…부천 아파트 거래량 69% 쑥",
+          "link": "https://www.mk.co.kr/news/realestate/12123960",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-08-11 13:31:55",
+          "match_score": 37.49
+        },
+        {
+          "title": "성산아파트3차 소규모재건축조합 시공자 선정 입찰공고 - 한국주택경제신문",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBwSS14WUNWZ2k4NUs0TkFCZEZINkpMc2h4VW5GYnZnSzNlMlRSMkVNNTdrUFZmZXVJbVJTMHhxVzhscTVKRmN1LXo4WGc1WEJjcHFyN1dMUHNodTN4TlUzcUFhUzFoRnYt?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-08-11 15:11:43",
+          "match_score": 35.71
+        },
+        {
+          "title": "박지원 “용산공원에 아파트? 나도 반대…부동산 해법은 균형발전”",
+          "link": "https://www.mk.co.kr/news/realestate/12124082",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-08-11 15:51:05",
+          "match_score": 29.09
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}

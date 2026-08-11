@@ -1,0 +1,259 @@
+{
+  "timestamp": "2026-08-12T06:01:54.447969",
+  "date": "20260812",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "국힘, 李대통령 '호남 반도체 속도전'에 \"與전당대회 맞춤형 쇼\"",
+          "link": "https://www.yna.co.kr/view/AKR20260811139800001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-11 17:12:37",
+          "description": "(서울=연합뉴스) 류미나 기자 = 국민의힘은 11일 이재명 대통령이 &apos;호남 반도체 클러스터&apos; 속도전을 주문하면서 사업 부지인 광주 군공항의 기능...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "deduped_sources": [
+            {
+              "source": "연합뉴스-산업",
+              "title": "국힘, 李대통령 '호남 반도체 속도전'에 \"與전당대회 맞춤형 쇼\"",
+              "link": "https://www.yna.co.kr/view/AKR20260811139800001"
+            }
+          ],
+          "priority_score": 3,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "이 대통령 '행정수도 세종' 완성 강조…'특별법' 통과 힘 받나",
+          "link": "https://www.yna.co.kr/view/AKR20260811149900063",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-11 17:39:17",
+          "description": "(세종=연합뉴스) 양영석 기자 = 이재명 대통령이 11일 정부세종청사에서 주재한 국무회의에서 세종시를 실질적인 행정수도로 완성해야 한다는 입장을...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "지방/행정",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, 콜롬비아 강진 위로…\"한 분이라도 더 무사하길\"",
+          "link": "https://www.yna.co.kr/view/AKR20260811163900001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-11 20:15:30",
+          "description": "(서울=연합뉴스) 고동욱 기자 = 이재명 대통령은 11일 &quot;콜롬비아 북서부 초코주에서 강진이 발생해 큰 피해가 이어지고 있다는 소식에 큰 안타까...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, 카자흐 거점 피싱조직원 검거에 \"끝까지 추적해 심판\"",
+          "link": "https://www.yna.co.kr/view/AKR20260811160700001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-11 20:14:11",
+          "description": "(서울=연합뉴스) 설승은 기자 = 이재명 대통령은 11일 동남아에서 카자흐스탄으로 거점을 옮겨 보이스피싱 범죄를 저지른 한국인 스캠 조직원들이 ...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "여야 국토위서 부동산 책임 공방…\"吳시장 탓\"·\"李정부 탓\"",
+          "link": "https://www.yna.co.kr/view/AKR20260811146600001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-11 17:22:58",
+          "description": "(서울=연합뉴스) 노선웅 기자 = 여야는 11일 국회 국토교통위원회를 열고 부동산 문제를 두고 서로 &quot;오세훈 서울시장 탓&quot;, &quot;이재명 정부 탓&quot;...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "친청·친명, '김관영 제명' 진실게임…\"만장일치였다\"·\"거짓말\"",
+          "link": "https://www.yna.co.kr/view/AKR20260811137700001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-11 16:48:06",
+          "description": "(서울=연합뉴스) 박경준 기자 = 더불어민주당 친청(친정청래)계와 친명(친이재명)계가 11일 김관영 전 전북지사의 제명 문제를 두고 공방을 벌였...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "당내 정국",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 \"제복입은 영웅 지키는 것이 국가와 국민 지키는 것\"",
+          "link": "https://www.yna.co.kr/view/AKR20260811138900001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-11 16:42:59",
+          "description": "(서울=연합뉴스) 고동욱 기자 = 이재명 대통령은 11일 &quot;소방공무원 여러분이 위기에 처한 국민을 지킬 때, 정부는 또 다른 아픔과 싸우는 여러...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "환노위서 메가프로젝트 공방…與 \"준비 충분\"·野 \"전당대회용\"",
+          "link": "https://www.yna.co.kr/view/AKR20260811124500001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-11 16:01:58",
+          "description": "(서울=연합뉴스) 안정훈 기자 = 여야는 11일 국회 기후에너지환경노동위원회 전체 회의에서 호남권의 3대 메가 프로젝트 추진을 위한 용수와 전력...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        }
+      ],
+      "count": 8,
+      "role": "한국 대통령"
+    },
+    "트럼프": {
+      "articles": [
+        {
+          "title": "‘美중심 안보질서 이탈 말라’ 메시지… 동맹에 中견제 역할 압박",
+          "link": "https://www.donga.com/news/Inter/article/all/20260812/134461538/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-12 04:30:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/08/12/134461105.4.jpg\" vspace=\"10\" />이란 전쟁의 장기화로 미국의 무기 고갈, 동맹 방어 취약 가능성에 대한 우려가 고조되고 있는 가운데 도널드 트럼프 미국 행정부의 핵심 안보 정책통인 엘브리지 콜비 미 전쟁부(국방부) 정책차관이 주요 동맹국에 미국을 배제한 안보 전략 구축에 나서지 말라고 경고했다. 동맹국에 대한 관세 부과, 방위비 증액 압박 등을 강조하는 미국의 영향력에서 벗어나 중견국들 간의 연대를 강화하자는 이른바 ‘중견국 동맹’에 대한 반대 의사를 분명히 나타낸 것이다. 또 동맹·파트너 간 협력은 반드시 미국과 통합되고 상호보완적이어야 한다고 주장했다. 동맹국들의 방위력 개선 필요성을 강조하면서도 이를 미국 중심의 안보 질서를 대체하는 방향으로 활용하는 건 용인하지 않겠다는 의미다. 한국, 일본, 필리핀 등 아시아 동맹국이 방위력을 증강해 중국 견제에 더 많은 역할을 감당해야 한다는 압박으로도 풀이된다.● 콜비, ‘중견국 동맹’에 분명한 경고 메시지 날려콜비 차관은 10일(현지 시간) 필리핀을 시작으로 인",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "美 고용 충격으로 금리인상 전망 후퇴… 금 ETF 수익률 반등",
+          "link": "https://www.chosun.com/economy/stock-finance/2026/08/12/YW4M3YFDHFDNLBTYAXV3QWWY4U/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-08-12 00:35:00",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/economy/?outputType=xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "짐 비앙코 \"연준이 패닉해야 채권시장 패닉 멈춰…금리 올려야\" - news.einfomax.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE10cHNMaXJvQTR5LTM0YklLQnVITzlqTXNGbkk4c0IwaGU4bzVBVTNBeERQTENHcEJEMFJsa2U3YkktcnNINExNQ0hodUVqLVNPaFNNTzNsUFZNUHIwb0d5WmFtYWF3c1JkdFJYazhiNXg?oc=5",
+          "source": "키워드-금리환율코스피",
+          "published_dt": "2026-08-12 05:42:32",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE10cHNMaXJvQTR5LTM0YklLQnVITzlqTXNGbkk4c0IwaGU4bzVBVTNBeERQTENHcEJEMFJsa2U3YkktcnNINExNQ0hodUVqLVNPaFNNTzNsUFZNUHIwb0d5WmFtYWF3c1JkdFJYazhiNXg?oc=5\" target=\"_blank\">짐 비앙코 \"연준이 패닉해야 채권시장 패닉 멈춰…금리 올려야\"</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">news.einfomax.co.kr</font>",
+          "category": "domestic",
+          "feed_url": "https://news.google.com/rss/search?q=금리+OR+환율+OR+코스피+when:1d&hl=ko&gl=KR&ceid=KR:ko",
+          "source_type": "google_keyword",
+          "source_weight": 0.85,
+          "source_badge": "키워드",
+          "priority_score": -2,
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프 2기, 원정출산 등 외국인 17.5만명 비자 취소",
+          "link": "https://www.donga.com/news/Inter/article/all/20260811/134461495/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-12 04:30:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/08/11/134458440.1.jpg\" vspace=\"10\" />미국 도널드 트럼프 2기 행정부가 지난해 1월 출범한 뒤 비자 요건 위반, 범죄 혐의 등의 이유로 외국인 총 17만5000여 명의 비자를 취소했다고 밝혔다. 여기엔 자녀의 미국 시민권 취득을 위한 ‘원정 출산’에 나섰거나, 트럼프 대통령에 대한 위협 발언을 한 이들도 포함됐다. 국내외 비판에도 불구하고 트럼프 행정부가 11월 중간선거를 앞두고 보수층 결집을 위해 이민자 관련 단속에 고삐를 죄고 있단 지적이 나온다. 미 국무부는 10일 보도자료를 통해 폭행이나 음주운전, 절도, 마약범죄 등을 저지른 외국인들의 비자를 취소했다고 발표했다. 난폭 운전, 성폭행, 아동학대, 사기·횡령 등의 혐의가 있는 이도 상당수라고 밝혔다. 국무부는 “미국 비자는 권리가 아닌 특권이다. 이 특권을 남용하는 자들로부터 우리 사회를 보호하기 위해 가능한 모든 수단을 동원할 것을 약속한다”고 강조했다. 국무부가 공개한 사례 중엔 북아프리카 지역 주재 미국 대사관에서 원정 출산 목적으로 입국을 신청한 100",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 4,
+      "role": "미국 대통령"
+    },
+    "오세훈": {
+      "articles": [
+        {
+          "title": "여야 국토위서 부동산 책임 공방…\"吳시장 탓\"·\"李정부 탓\"",
+          "link": "https://www.yna.co.kr/view/AKR20260811146600001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-11 17:22:58",
+          "description": "(서울=연합뉴스) 노선웅 기자 = 여야는 11일 국회 국토교통위원회를 열고 부동산 문제를 두고 서로 &quot;오세훈 서울시장 탓&quot;, &quot;이재명 정부 탓&quot;...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "吳 \"정비사업, 공급효과 분명\" - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9QQlJUU1ZPYmpabk9aYzhEeXBGdlR3TzlCSjhVY2xHRFZ6NVh0RkZwYTVZaWNTU0NDdWFqZzVjY0dTYUpiSllhZmRNd0FhOS1YZnkzczBZV3g4Ui10aXZQQlNoeW8xQlNEUTdvSTF1MNIBb0FVX3lxTE9QQlJUU1ZPYmpabk9aYzhEeXBGdlR3TzlCSjhVY2xHRFZ6NVh0RkZwYTVZaWNTU0NDdWFqZzVjY0dTYUpiSllhZmRNd0FhOS1YZnkzczBZV3g4Ui10aXZQQlNoeW8xQlNEUTdvSTF1MA?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-08-12 03:00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTE9QQlJUU1ZPYmpabk9aYzhEeXBGdlR3TzlCSjhVY2xHRFZ6NVh0RkZwYTVZaWNTU0NDdWFqZzVjY0dTYUpiSllhZmRNd0FhOS1YZnkzczBZV3g4Ui10aXZQQlNoeW8xQlNEUTdvSTF1MNIBb0FVX3lxTE9QQlJUU1ZPYmpabk9aYzhEeXBGdlR3TzlCSjhVY2xHRFZ6NVh0RkZwYTVZaWNTU0NDdWFqZzVjY0dTYUpiSllhZmRNd0FhOS1YZnkzczBZV3g4Ui10aXZQQlNoeW8xQlNEUTdvSTF1MA?oc=5\" target=\"_blank\">吳 \"정비사업, 공급효과 분명\" - 머니투데이</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">머니투데이</font>",
+          "category": "domestic",
+          "feed_url": "https://news.google.com/rss/search?q=재건축+OR+분양가+OR+GTX+OR+전세+when:1d&hl=ko&gl=KR&ceid=KR:ko",
+          "source_type": "google_keyword",
+          "source_weight": 0.85,
+          "source_badge": "키워드",
+          "priority_score": -2,
+          "related_full_sources": []
+        },
+        {
+          "title": "용산 청파동 찾은 오세훈…“정비사업 규제완화, 공급대책에 꼭 필요”",
+          "link": "https://www.mk.co.kr/news/realestate/12123686",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-08-11 10:30:00",
+          "description": "용산 서계·청파동 7개 정비사업 추진중 멸실 불구하고 6393→8088가구로 늘어 市 “정부 공급안에 정비사업 규제 완화를” 민간 용적률 1.2배·임대비율 완화등 건의서울 용산구 ..",
+          "category": "domestic",
+          "feed_url": "https://www.mk.co.kr/rss/50300009/",
+          "source_type": "realestate",
+          "source_weight": 1.15,
+          "source_badge": "부동산",
+          "priority_score": 11,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "서울시장"
+    }
+  }
+}
