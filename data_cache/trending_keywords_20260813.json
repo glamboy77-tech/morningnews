@@ -1,0 +1,422 @@
+{
+  "timestamp": "2026-08-13T06:01:35.444987",
+  "date": "20260813",
+  "data": [
+    {
+      "keyword": "첨단기술",
+      "reason": "정치권과 기업에서 기술 육성·혁신 언급",
+      "score": 39.88,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업",
+        "정치"
+      ],
+      "sample_titles": [
+        "李대통령, '7대 첨단기술' 육성 의지…\"추격 아닌 선도자 돼야\"(종합)"
+      ],
+      "representative_article": {
+        "title": "李대통령, '7대 첨단기술' 육성 의지…\"추격 아닌 선도자 돼야\"(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260812038151001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-08-12 17:22:37",
+        "match_score": 39.88
+      },
+      "related_articles": [
+        {
+          "title": "李대통령, '7대 첨단기술' 육성 의지…\"추격 아닌 선도자 돼야\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260812038151001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-12 17:22:37",
+          "match_score": 39.88
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "반도체",
+      "reason": "산자위 공방 및 투자 증가 소식 반복",
+      "score": 40.23,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업",
+        "부동산",
+        "정치"
+      ],
+      "sample_titles": [
+        "與 \"최적지\"·국힘 \"정치적\"…산자위서 '호남 반도체' 공방",
+        "與 \"최적지\"·국힘 \"정치적\"…산자위서 '호남 반도체' 공방"
+      ],
+      "representative_article": {
+        "title": "與 \"최적지\"·국힘 \"정치적\"…산자위서 '호남 반도체' 공방",
+        "link": "https://www.yna.co.kr/view/AKR20260812132300001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-08-12 16:55:31",
+        "match_score": 40.23
+      },
+      "related_articles": [
+        {
+          "title": "與 \"최적지\"·국힘 \"정치적\"…산자위서 '호남 반도체' 공방",
+          "link": "https://www.yna.co.kr/view/AKR20260812132300001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-12 16:55:31",
+          "match_score": 40.23
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재건축",
+      "reason": "강남권 사업 가속과 서울시 정책 변화",
+      "score": 39.3,
+      "article_count": 3,
+      "source_count": 2,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "\"이주 안 하고 버티면 명도소송\"… 강남권 재건축 사업 가속도",
+        "서울시, 재건축 조합 공사비 검증 의무→자율…최대 75일 절차 단축",
+        "용산 현장 찾은 오세훈 \"정비사업, 순증효과\" 李 주장에 정면 반박"
+      ],
+      "representative_article": {
+        "title": "\"이주 안 하고 버티면 명도소송\"… 강남권 재건축 사업 가속도",
+        "link": "https://www.mk.co.kr/news/realestate/12125579",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-08-12 17:44:51",
+        "match_score": 39.3
+      },
+      "related_articles": [
+        {
+          "title": "\"이주 안 하고 버티면 명도소송\"… 강남권 재건축 사업 가속도",
+          "link": "https://www.mk.co.kr/news/realestate/12125579",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-08-12 17:44:51",
+          "match_score": 39.3
+        },
+        {
+          "title": "서울시, 재건축 조합 공사비 검증 의무→자율…최대 75일 절차 단축",
+          "link": "https://www.mk.co.kr/news/realestate/12124896",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-08-12 11:15:00",
+          "match_score": 39.3
+        },
+        {
+          "title": "용산 현장 찾은 오세훈 \"정비사업, 순증효과\" 李 주장에 정면 반박",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/08/12/2026081200755.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-08-12 09:20:05",
+          "match_score": 12.4
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "대출사기",
+      "reason": "은행권에서 큰 피해 발생",
+      "score": 29.86,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "“한 건인 줄 알았는데 또 터졌다”…은행권 대출사기 속출, 490억 달해"
+      ],
+      "representative_article": {
+        "title": "“한 건인 줄 알았는데 또 터졌다”…은행권 대출사기 속출, 490억 달해",
+        "link": "https://www.mk.co.kr/news/economy/12125653",
+        "source": "매일경제-경제",
+        "published_dt": "2026-08-12 19:00:28",
+        "match_score": 29.86
+      },
+      "related_articles": [
+        {
+          "title": "“한 건인 줄 알았는데 또 터졌다”…은행권 대출사기 속출, 490억 달해",
+          "link": "https://www.mk.co.kr/news/economy/12125653",
+          "source": "매일경제-경제",
+          "published_dt": "2026-08-12 19:00:28",
+          "match_score": 29.86
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI",
+      "reason": "공공AI데이터 오류 및 기업 AI활용 언급",
+      "score": 44.86,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "1.6조 들인 공공AI데이터… 중복 판치고 오류도 방치"
+      ],
+      "representative_article": {
+        "title": "1.6조 들인 공공AI데이터… 중복 판치고 오류도 방치",
+        "link": "https://www.mk.co.kr/news/economy/12125623",
+        "source": "매일경제-경제",
+        "published_dt": "2026-08-12 17:53:46",
+        "match_score": 44.86
+      },
+      "related_articles": [
+        {
+          "title": "1.6조 들인 공공AI데이터… 중복 판치고 오류도 방치",
+          "link": "https://www.mk.co.kr/news/economy/12125623",
+          "source": "매일경제-경제",
+          "published_dt": "2026-08-12 17:53:46",
+          "match_score": 44.86
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "한화",
+      "reason": "기업결합 심사 및 실적 급증",
+      "score": 40.67,
+      "article_count": 4,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "보험 손익도 투자도 대박 … 한화생명 상반기 순익 96% 급증",
+        "한화, 공정위에 KAI 기업 결합 심사 신청… KAI 노조 “경쟁사 경영 참여 안 돼” 반발",
+        "KAI 노조, 공정위에 한화 기업결합 불허 촉구…\"경쟁구조 훼손\""
+      ],
+      "representative_article": {
+        "title": "KAI 노조, 공정위에 한화 기업결합 불허 촉구…\"경쟁구조 훼손\"",
+        "link": "https://www.yna.co.kr/view/AKR20260812136700003",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-08-12 16:50:28",
+        "match_score": 40.67
+      },
+      "related_articles": [
+        {
+          "title": "KAI 노조, 공정위에 한화 기업결합 불허 촉구…\"경쟁구조 훼손\"",
+          "link": "https://www.yna.co.kr/view/AKR20260812136700003",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-08-12 16:50:28",
+          "match_score": 40.67
+        },
+        {
+          "title": "보험 손익도 투자도 대박 … 한화생명 상반기 순익 96% 급증",
+          "link": "https://www.mk.co.kr/news/economy/12125556",
+          "source": "매일경제-경제",
+          "published_dt": "2026-08-12 17:40:41",
+          "match_score": 35.96
+        },
+        {
+          "title": "한화, 공정위에 KAI 기업 결합 심사 신청… KAI 노조 “경쟁사 경영 참여 안 돼” 반발",
+          "link": "https://www.chosun.com/economy/industry-company/2026/08/13/7RRJGDXMPJED5D3SVVPR7PRRZ4/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-08-13 00:33:00",
+          "match_score": 32.5
+        },
+        {
+          "title": "美 대중제재속 中 저가공세도 한풀 꺾여… 다시 볕 드는 K태양광",
+          "link": "https://www.donga.com/news/Economy/article/all/20260812/134467794/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-13 00:30:00",
+          "match_score": 9.6
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "북한",
+      "reason": "탄도미사일 도발, 핵잠수함 위협",
+      "score": 12.78,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "北, 엿새만에 또 탄도미사일 도발… 700㎞ 이상 날아갔다",
+        "北, 韓핵잠에 \"생존불가 보복공격으로 응대하는 힘 보유할 것\""
+      ],
+      "representative_article": {
+        "title": "北, 韓핵잠에 \"생존불가 보복공격으로 응대하는 힘 보유할 것\"",
+        "link": "https://www.yna.co.kr/view/AKR20260812134000504",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-08-12 17:00:35",
+        "match_score": 12.78
+      },
+      "related_articles": [
+        {
+          "title": "北, 韓핵잠에 \"생존불가 보복공격으로 응대하는 힘 보유할 것\"",
+          "link": "https://www.yna.co.kr/view/AKR20260812134000504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-12 17:00:35",
+          "match_score": 12.78
+        },
+        {
+          "title": "北, 엿새만에 또 탄도미사일 도발… 700㎞ 이상 날아갔다",
+          "link": "https://www.chosun.com/politics/diplomacy-defense/2026/08/13/BBRS7CLDKRF6NDR3WE4MRWHZ54/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-08-13 00:48:00",
+          "match_score": 7.5
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "구글 제소",
+      "reason": "프랑스 언론단체 AI 요약 문제 제기",
+      "score": 36.1,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "佛언론계 “AI 요약에 기사 클릭 급감” 구글 제소",
+        "“AI 요약에 독자 빼앗겼다”…프랑스 언론단체, 구글 제소"
+      ],
+      "representative_article": {
+        "title": "“AI 요약에 독자 빼앗겼다”…프랑스 언론단체, 구글 제소",
+        "link": "https://www.donga.com/news/Inter/article/all/20260812/134465373/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-08-12 16:16:00",
+        "match_score": 36.1
+      },
+      "related_articles": [
+        {
+          "title": "“AI 요약에 독자 빼앗겼다”…프랑스 언론단체, 구글 제소",
+          "link": "https://www.donga.com/news/Inter/article/all/20260812/134465373/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-12 16:16:00",
+          "match_score": 36.1
+        },
+        {
+          "title": "佛언론계 “AI 요약에 기사 클릭 급감” 구글 제소",
+          "link": "https://www.donga.com/news/Inter/article/all/20260812/134468557/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-13 04:30:00",
+          "match_score": 32.2
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "복당",
+      "reason": "정치권 인사물갈이 논란",
+      "score": 28.68,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "안철수 \"복당 운동권 근절\"…친한계 \"자기 정치 그만\"(종합)"
+      ],
+      "representative_article": {
+        "title": "안철수 \"복당 운동권 근절\"…친한계 \"자기 정치 그만\"(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260812050051001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-08-12 16:47:52",
+        "match_score": 28.68
+      },
+      "related_articles": [
+        {
+          "title": "안철수 \"복당 운동권 근절\"…친한계 \"자기 정치 그만\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260812050051001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-12 16:47:52",
+          "match_score": 28.68
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 9,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "2분기",
+      "score": 60.4,
+      "article_count": 10,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "증권사들, '역대급 증시' 2분기 실적 잔치…순익 141%↑",
+        "동원산업, 2분기 영업익 13.3% 증가…참치·고등어 유통 확대",
+        "위메이드맥스 2분기 영업손실 154억원…적자 축소"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "증권사들, '역대급 증시' 2분기 실적 잔치…순익 141%↑",
+        "link": "https://www.yna.co.kr/view/AKR20260812145300008",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-08-12 17:40:06",
+        "match_score": 37.83
+      },
+      "related_articles": [
+        {
+          "title": "증권사들, '역대급 증시' 2분기 실적 잔치…순익 141%↑",
+          "link": "https://www.yna.co.kr/view/AKR20260812145300008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-08-12 17:40:06",
+          "match_score": 37.83
+        },
+        {
+          "title": "동원산업, 2분기 영업익 13.3% 증가…참치·고등어 유통 확대",
+          "link": "https://www.yna.co.kr/view/AKR20260812143500030",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-08-12 17:21:22",
+          "match_score": 37.67
+        },
+        {
+          "title": "위메이드맥스 2분기 영업손실 154억원…적자 축소",
+          "link": "https://www.yna.co.kr/view/AKR20260812141800527",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-08-12 17:05:44",
+          "match_score": 37.67
+        },
+        {
+          "title": "애경산업, 2분기 영업익 45억원으로 59.4% 감소…매출은 최대",
+          "link": "https://www.yna.co.kr/view/AKR20260812133200030",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-08-12 16:48:35",
+          "match_score": 37.67
+        },
+        {
+          "title": "동원산업 2분기 영업익 1천515억원…작년 동기 대비 13.3%↑",
+          "link": "https://www.yna.co.kr/view/AKR20260812130000527",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-08-12 16:18:07",
+          "match_score": 37.67
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
