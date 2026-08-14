@@ -1,0 +1,394 @@
+{
+  "timestamp": "2026-08-15T06:01:43.353412",
+  "date": "20260815",
+  "data": [
+    {
+      "keyword": "용산공원",
+      "reason": "주택공급 논의와 갈등",
+      "score": 41.12,
+      "article_count": 4,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "부동산",
+        "정치"
+      ],
+      "sample_titles": [
+        "국토장관 \"용산공원 전체 주택공급 검토…20일 오세훈 면담\"",
+        "김윤덕 국토장관 “용산공원 전체를 주택 공급 후보지로 고민”",
+        "\"남산·올림픽공원도 싹 밀든가\"…'용산공원' 주택공급 두고 비아냥 쏟아져"
+      ],
+      "representative_article": {
+        "title": "국토장관 \"용산공원 전체 주택공급 검토…20일 오세훈 면담\"",
+        "link": "https://www.yna.co.kr/view/AKR20260814118800003",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-08-14 16:00:01",
+        "match_score": 41.12
+      },
+      "related_articles": [
+        {
+          "title": "국토장관 \"용산공원 전체 주택공급 검토…20일 오세훈 면담\"",
+          "link": "https://www.yna.co.kr/view/AKR20260814118800003",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-08-14 16:00:01",
+          "match_score": 41.12
+        },
+        {
+          "title": "\"남산·올림픽공원도 싹 밀든가\"…'용산공원' 주택공급 두고 비아냥 쏟아져",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/08/14/2026081402577.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-08-14 18:13:41",
+          "match_score": 41.09
+        },
+        {
+          "title": "용산공원에 닥치고 임대주택?…서울시 \"훼손 말라\" 국토부에 전면 반발",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/08/14/2026081402478.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-08-14 17:42:27",
+          "match_score": 39.49
+        },
+        {
+          "title": "김윤덕 국토장관 “용산공원 전체를 주택 공급 후보지로 고민”",
+          "link": "https://www.chosun.com/economy/real_estate/2026/08/14/MYCKNZQPK5AVPINPRTHU3BEZ5Y/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-08-14 16:52:44",
+          "match_score": 32.05
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "개헌",
+      "reason": "대통령 개헌 발언 및 논란",
+      "score": 38.67,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "'중임·연임 개헌' 직접 언급 李대통령…일관된 입장 강조(종합)"
+      ],
+      "representative_article": {
+        "title": "'중임·연임 개헌' 직접 언급 李대통령…일관된 입장 강조(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260814151351001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-08-14 21:38:05",
+        "match_score": 38.67
+      },
+      "related_articles": [
+        {
+          "title": "'중임·연임 개헌' 직접 언급 李대통령…일관된 입장 강조(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260814151351001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-14 21:38:05",
+          "match_score": 38.67
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "투자 압박",
+      "reason": "미국의 대미 투자 조기 집행 촉구",
+      "score": 31.52,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "'美 투자 압박' 보도에 靑 \"통상현안 수시로 대응\""
+      ],
+      "representative_article": {
+        "title": "'美 투자 압박' 보도에 靑 \"통상현안 수시로 대응\"",
+        "link": "https://www.yna.co.kr/view/AKR20260814183400001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-08-14 22:44:21",
+        "match_score": 31.52
+      },
+      "related_articles": [
+        {
+          "title": "'美 투자 압박' 보도에 靑 \"통상현안 수시로 대응\"",
+          "link": "https://www.yna.co.kr/view/AKR20260814183400001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-14 22:44:21",
+          "match_score": 31.52
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI 협력",
+      "reason": "기업 및 국방 AI 기술 접목",
+      "score": 26.68,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "[과학스냅] 창의재단, AI협회·정보공학기술사회와 AI 협력"
+      ],
+      "representative_article": {
+        "title": "[과학스냅] 창의재단, AI협회·정보공학기술사회와 AI 협력",
+        "link": "https://www.yna.co.kr/view/AKR20260814133000017",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-08-14 16:37:18",
+        "match_score": 26.68
+      },
+      "related_articles": [
+        {
+          "title": "[과학스냅] 창의재단, AI협회·정보공학기술사회와 AI 협력",
+          "link": "https://www.yna.co.kr/view/AKR20260814133000017",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-08-14 16:37:18",
+          "match_score": 26.68
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "코스피",
+      "reason": "증시 상승과 변동성",
+      "score": 37.67,
+      "article_count": 4,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "국제"
+      ],
+      "sample_titles": [
+        "코스피 급락에 ‘빚투’ 폭발세도 주춤…한 달에 수십조 매수했던 개미들, 지난달 급감",
+        "코스피 급락에 ‘빚투’ 폭발세도 주춤…한 달에 수십조 매수했던 개미들, 지난달 급감",
+        "1600원 넘보던 환율, 150원 급락… 對美투자 늘면 다시 뛸 수도"
+      ],
+      "representative_article": {
+        "title": "코스피 2.4%↑, 7천피 턱밑까지…이번주 내내 올랐다(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260814132200008",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-08-14 16:31:41",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "코스피 2.4%↑, 7천피 턱밑까지…이번주 내내 올랐다(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260814132200008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-08-14 16:31:41",
+          "match_score": 37.67
+        },
+        {
+          "title": "“한국 증시 믿은 내가 바보”…코스피 개미들의 눈물 외신도 조명",
+          "link": "https://www.donga.com/news/Inter/article/all/20260814/134478023/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-14 11:59:00",
+          "match_score": 36.8
+        },
+        {
+          "title": "코스피 급락에 ‘빚투’ 폭발세도 주춤…한 달에 수십조 매수했던 개미들, 지난달 급감",
+          "link": "https://www.mk.co.kr/news/economy/12127891",
+          "source": "매일경제-경제",
+          "published_dt": "2026-08-14 13:40:17",
+          "match_score": 28.96
+        },
+        {
+          "title": "1600원 넘보던 환율, 150원 급락… 對美투자 늘면 다시 뛸 수도",
+          "link": "https://www.donga.com/news/Economy/article/all/20260814/134481269/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-15 01:40:00",
+          "match_score": 10.35
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "가계대출",
+      "reason": "대출 증가 및 금융권 고민",
+      "score": 40.06,
+      "article_count": 3,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "부동산"
+      ],
+      "sample_titles": [
+        "가계대출 30조 늘렸지만 … 금융권 \"명확한 기준 필요\"",
+        "이억원 “가계대출 총량목표, 실수요 지원 위한 것…투기수요 자극 신호 아냐”",
+        "코스피 급락에 ‘빚투’ 폭발세도 주춤…한 달에 수십조 매수했던 개미들, 지난달 급감"
+      ],
+      "representative_article": {
+        "title": "가계대출 30조 늘렸지만 … 금융권 \"명확한 기준 필요\"",
+        "link": "https://www.mk.co.kr/news/economy/12128215",
+        "source": "매일경제-경제",
+        "published_dt": "2026-08-14 17:33:45",
+        "match_score": 40.06
+      },
+      "related_articles": [
+        {
+          "title": "가계대출 30조 늘렸지만 … 금융권 \"명확한 기준 필요\"",
+          "link": "https://www.mk.co.kr/news/economy/12128215",
+          "source": "매일경제-경제",
+          "published_dt": "2026-08-14 17:33:45",
+          "match_score": 40.06
+        },
+        {
+          "title": "이억원 “가계대출 총량목표, 실수요 지원 위한 것…투기수요 자극 신호 아냐”",
+          "link": "https://www.mk.co.kr/news/economy/12127835",
+          "source": "매일경제-경제",
+          "published_dt": "2026-08-14 11:51:28",
+          "match_score": 39.46
+        },
+        {
+          "title": "코스피 급락에 ‘빚투’ 폭발세도 주춤…한 달에 수십조 매수했던 개미들, 지난달 급감",
+          "link": "https://www.mk.co.kr/news/economy/12127891",
+          "source": "매일경제-경제",
+          "published_dt": "2026-08-14 13:40:17",
+          "match_score": 11.96
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "중재갈등",
+      "reason": "서울시-국토부 용산공원 대립",
+      "score": 8.5,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "용산공원에 닥치고 임대주택?…서울시 \"훼손 말라\" 국토부에 전면 반발"
+      ],
+      "representative_article": {
+        "title": "용산공원에 닥치고 임대주택?…서울시 \"훼손 말라\" 국토부에 전면 반발",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/08/14/2026081402478.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-08-14 17:42:27",
+        "match_score": 8.5
+      },
+      "related_articles": [
+        {
+          "title": "용산공원에 닥치고 임대주택?…서울시 \"훼손 말라\" 국토부에 전면 반발",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/08/14/2026081402478.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-08-14 17:42:27",
+          "match_score": 8.5
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "무역관세",
+      "reason": "미국의 중국 부품 관세 강화",
+      "score": 5.0,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "美, 中 겨냥 “드론-부품에 최대 100% 관세”… 韓은 15%"
+      ],
+      "representative_article": {
+        "title": "美, 中 겨냥 “드론-부품에 최대 100% 관세”… 韓은 15%",
+        "link": "https://www.donga.com/news/Inter/article/all/20260814/134482499/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-08-15 01:40:00",
+        "match_score": 5.0
+      },
+      "related_articles": [
+        {
+          "title": "美, 中 겨냥 “드론-부품에 최대 100% 관세”… 韓은 15%",
+          "link": "https://www.donga.com/news/Inter/article/all/20260814/134482499/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-15 01:40:00",
+          "match_score": 5.0
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "내란 기소",
+      "reason": "특검 내란 가담자 기소",
+      "score": 7.27,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "종합특검, '내란 가담' 강호필 前지작사령관 불구속 기소"
+      ],
+      "representative_article": {
+        "title": "종합특검, '내란 가담' 강호필 前지작사령관 불구속 기소",
+        "link": "https://www.yna.co.kr/view/AKR20260814180100004",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-08-14 21:45:55",
+        "match_score": 7.27
+      },
+      "related_articles": [
+        {
+          "title": "종합특검, '내란 가담' 강호필 前지작사령관 불구속 기소",
+          "link": "https://www.yna.co.kr/view/AKR20260814180100004",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-14 21:45:55",
+          "match_score": 7.27
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 9,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "기술투자",
+      "reason": "기업 R&D 및 협력 확대",
+      "score": 3.09,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "앤트로픽 \"동일 환경 투입된 에이전트, 악성코드 만들며 영역 싸움\""
+      ],
+      "representative_article": {
+        "title": "앤트로픽 \"동일 환경 투입된 에이전트, 악성코드 만들며 영역 싸움\"",
+        "link": "https://www.aitimes.com/news/articleView.html?idxno=213964",
+        "source": "AI타임스",
+        "published_dt": "2026-08-15 02:10:27",
+        "match_score": 3.09
+      },
+      "related_articles": [
+        {
+          "title": "앤트로픽 \"동일 환경 투입된 에이전트, 악성코드 만들며 영역 싸움\"",
+          "link": "https://www.aitimes.com/news/articleView.html?idxno=213964",
+          "source": "AI타임스",
+          "published_dt": "2026-08-15 02:10:27",
+          "match_score": 3.09
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 10,
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
