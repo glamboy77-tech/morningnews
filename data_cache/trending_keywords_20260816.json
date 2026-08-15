@@ -1,0 +1,394 @@
+{
+  "timestamp": "2026-08-16T06:01:33.628648",
+  "date": "20260816",
+  "data": [
+    {
+      "keyword": "가계부채",
+      "reason": "부채 규모·금리 영향 논의",
+      "score": 31.38,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "'가계부채 2천조원' 시대 진입…금리 인상기 건전성 비상",
+        "[다음주 경제] 올해 성장전망 얼마나 높아질까…가계부채 규모도 주목"
+      ],
+      "representative_article": {
+        "title": "'가계부채 2천조원' 시대 진입…금리 인상기 건전성 비상",
+        "link": "https://www.yna.co.kr/view/AKR20260815039600002",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-08-16 05:47:00",
+        "match_score": 31.38
+      },
+      "related_articles": [
+        {
+          "title": "'가계부채 2천조원' 시대 진입…금리 인상기 건전성 비상",
+          "link": "https://www.yna.co.kr/view/AKR20260815039600002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-08-16 05:47:00",
+          "match_score": 31.38
+        },
+        {
+          "title": "[다음주 경제] 올해 성장전망 얼마나 높아질까…가계부채 규모도 주목",
+          "link": "https://www.yna.co.kr/view/AKR20260815011500002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-08-15 08:54:19",
+          "match_score": 31.07
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "종전선언",
+      "reason": "이 대통령 다자논의 제안",
+      "score": 6.08,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "李대통령, 종전 위한 다자논의 제안…'북핵 중단 방안'도 모색(종합)"
+      ],
+      "representative_article": {
+        "title": "李대통령, 종전 위한 다자논의 제안…'북핵 중단 방안'도 모색(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260815031251504",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-08-15 16:29:37",
+        "match_score": 6.08
+      },
+      "related_articles": [
+        {
+          "title": "李대통령, 종전 위한 다자논의 제안…'북핵 중단 방안'도 모색(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260815031251504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-15 16:29:37",
+          "match_score": 6.08
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "패트법",
+      "reason": "국회 본회의 처리 예정",
+      "score": 33.27,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "국회, 20일 본회의서 패트법 처리 전망…부동산법안 놓고는 전운"
+      ],
+      "representative_article": {
+        "title": "국회, 20일 본회의서 패트법 처리 전망…부동산법안 놓고는 전운",
+        "link": "https://www.yna.co.kr/view/AKR20260815038400001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-08-16 05:30:01",
+        "match_score": 33.27
+      },
+      "related_articles": [
+        {
+          "title": "국회, 20일 본회의서 패트법 처리 전망…부동산법안 놓고는 전운",
+          "link": "https://www.yna.co.kr/view/AKR20260815038400001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-16 05:30:01",
+          "match_score": 33.27
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "반도체",
+      "reason": "업종 반등 및 투자 관심",
+      "score": 38.99,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "반도체 반등에 서학개미 '속슬' 다시 담는다…이틀간 9천억 대거 순매수"
+      ],
+      "representative_article": {
+        "title": "반도체 반등에 서학개미 '속슬' 다시 담는다…이틀간 9천억 대거 순매수",
+        "link": "https://www.etnews.com/20260815000027",
+        "source": "전자신문",
+        "published_dt": "2026-08-15 15:03:22",
+        "match_score": 38.99
+      },
+      "related_articles": [
+        {
+          "title": "반도체 반등에 서학개미 '속슬' 다시 담는다…이틀간 9천억 대거 순매수",
+          "link": "https://www.etnews.com/20260815000027",
+          "source": "전자신문",
+          "published_dt": "2026-08-15 15:03:22",
+          "match_score": 38.99
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재건축",
+      "reason": "사업성·속도 개선 기대",
+      "score": 39.21,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "대출한도 뛰고 기부채납 줄고…재건축·재개발, 사업성·속도 ‘두 토끼’ 잡나 - v.daum.net"
+      ],
+      "representative_article": {
+        "title": "대출한도 뛰고 기부채납 줄고…재건축·재개발, 사업성·속도 ‘두 토끼’ 잡나 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1XM1lTaF9KZ1JqLS1zVGM0QWFaTGZQdXNfYVNvT0tGTVRKeFRhT0k2NkpCUFlib003VExJd09YTXJ0aHJvV3FJWVduWXZ0TVk?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-08-16 05:31:28",
+        "match_score": 39.21
+      },
+      "related_articles": [
+        {
+          "title": "대출한도 뛰고 기부채납 줄고…재건축·재개발, 사업성·속도 ‘두 토끼’ 잡나 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1XM1lTaF9KZ1JqLS1zVGM0QWFaTGZQdXNfYVNvT0tGTVRKeFRhT0k2NkpCUFlib003VExJd09YTXJ0aHJvV3FJWVduWXZ0TVk?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-08-16 05:31:28",
+          "match_score": 39.21
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "강진",
+      "reason": "인도네시아 자연재해 피해",
+      "score": 38.7,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "인니 7.7 강진 사망자 47명…북수마트라서 또 6.9 지진",
+        "인니 7.7 강진 사망자 47명…북수마트라서 또 6.9 지진"
+      ],
+      "representative_article": {
+        "title": "인니 7.7 강진 사망자 47명…북수마트라서 또 6.9 지진",
+        "link": "https://www.donga.com/news/Inter/article/all/20260815/134483466/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-08-15 22:43:42",
+        "match_score": 38.7
+      },
+      "related_articles": [
+        {
+          "title": "인니 7.7 강진 사망자 47명…북수마트라서 또 6.9 지진",
+          "link": "https://www.donga.com/news/Inter/article/all/20260815/134483466/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-15 22:43:42",
+          "match_score": 38.7
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "사용자반발",
+      "reason": "앤트로픽 워터마크 이슈",
+      "score": 21.09,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "앤트로픽 '워터마크' 도입에 사용자 반발…'클로드' 구독 취소 확산"
+      ],
+      "representative_article": {
+        "title": "앤트로픽 '워터마크' 도입에 사용자 반발…'클로드' 구독 취소 확산",
+        "link": "https://www.aitimes.com/news/articleView.html?idxno=213998",
+        "source": "AI타임스",
+        "published_dt": "2026-08-16 03:27:49",
+        "match_score": 21.09
+      },
+      "related_articles": [
+        {
+          "title": "앤트로픽 '워터마크' 도입에 사용자 반발…'클로드' 구독 취소 확산",
+          "link": "https://www.aitimes.com/news/articleView.html?idxno=213998",
+          "source": "AI타임스",
+          "published_dt": "2026-08-16 03:27:49",
+          "match_score": 21.09
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "호르무즈해협",
+      "reason": "미국 영토 선언 발언",
+      "score": 20.7,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "트럼프 “호르무즈 해협, 美 소유…조만간 영토 선언”"
+      ],
+      "representative_article": {
+        "title": "트럼프 “호르무즈 해협, 美 소유…조만간 영토 선언”",
+        "link": "https://www.donga.com/news/Inter/article/all/20260815/134482875/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-08-15 09:09:00",
+        "match_score": 20.7
+      },
+      "related_articles": [
+        {
+          "title": "트럼프 “호르무즈 해협, 美 소유…조만간 영토 선언”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260815/134482875/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-15 09:09:00",
+          "match_score": 20.7
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "sciencetimes",
+      "score": 60.1,
+      "article_count": 10,
+      "source_count": 1,
+      "categories": [
+        "테크"
+      ],
+      "sample_titles": [
+        "뇌 노폐물 빠져 나가는 ‘미세 출구’ 찾았다 - sciencetimes.co.kr",
+        "사이언스타임즈/사용자메뉴/과학기술/생명과학·의학 - sciencetimes.co.kr",
+        "\"네안데르탈인이 남긴 유전자, 현대인 근육량 증가와 연관\" - sciencetimes.co.kr"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "뇌 노폐물 빠져 나가는 ‘미세 출구’ 찾았다 - sciencetimes.co.kr",
+        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPYlBXQ0hQWExrbUdQSWVwYWVLT25DRzVVQTQ3X3JEVXFpM0xWQlZYa0pmbms0dk9oTkZnaEVQSGl6cENUMHNRQnF2a3QwTkh0NlBFcUZnc3FueF8wdGdJam5vSnMyMW9mdEdSdDJ5UnUzbVp5bUE5MHVEeFNpLWttZm1rOXZLM0lySkh4MEIxZw?oc=5",
+        "source": "사이언스타임즈",
+        "published_dt": "2026-08-14 09:37:40",
+        "match_score": 37.34
+      },
+      "related_articles": [
+        {
+          "title": "뇌 노폐물 빠져 나가는 ‘미세 출구’ 찾았다 - sciencetimes.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPYlBXQ0hQWExrbUdQSWVwYWVLT25DRzVVQTQ3X3JEVXFpM0xWQlZYa0pmbms0dk9oTkZnaEVQSGl6cENUMHNRQnF2a3QwTkh0NlBFcUZnc3FueF8wdGdJam5vSnMyMW9mdEdSdDJ5UnUzbVp5bUE5MHVEeFNpLWttZm1rOXZLM0lySkh4MEIxZw?oc=5",
+          "source": "사이언스타임즈",
+          "published_dt": "2026-08-14 09:37:40",
+          "match_score": 37.34
+        },
+        {
+          "title": "사이언스타임즈/사용자메뉴/과학기술/생명과학·의학 - sciencetimes.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOTHM1aDE2eU9VSlFCTUF4a1V2eFpBb1RUNWxUYkpOTGFSTHdOcnY5ZThjb0t3OENfQWpiUXFxc014WVJ6clp6WnNvSGNfSURBS1c5dUpfVW0ybTcyVWZjYmd5ZFFiTTFZeTFFVG5pUzk2VW1WUzZRZEtNWTVzSE5KVG5QdDFackphRHE3WWRyUQ?oc=5",
+          "source": "사이언스타임즈",
+          "published_dt": "2026-08-12 09:03:54",
+          "match_score": 37.34
+        },
+        {
+          "title": "\"네안데르탈인이 남긴 유전자, 현대인 근육량 증가와 연관\" - sciencetimes.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZDZNY2dsWWU5eF9MZXFiV19mZTdFVkV5SHhKWmh1alVWWW1iY3dQSGtiM2Q5cjk4dzVrVkY3REdNdUo1cExtemxLNDI5dTlIdnVPaUxtOWJPUE1YOGJaa1VydHE4UHVUXzBvU0lCckNtRGdUZmw3bXg1Y1EwaTRaZjFhdG9MaTZ0ZTNfVURmTQ?oc=5",
+          "source": "사이언스타임즈",
+          "published_dt": "2026-08-10 07:04:54",
+          "match_score": 37.34
+        },
+        {
+          "title": "유럽이 타오르고 있다 - 기록적 이상기후와 재생에너지의 역전 - sciencetimes.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOd2QyWmpvUk80VGJNS2Z2bFMyVlFDLXVxaUpPa3VDMDBXYjI0T2xVWm43dV9sYUlJcnRPNlFrbXZhcWlvSzBwMUR3Y2pYbTZHNXdJWmRlOGRVUC1zWmk4c2JHWnQ0TDA0VTExNGVJSnR6RXlocTdHTmgwMldCRGEwZGt1RUxlVVMxc01MSVR4TQ?oc=5",
+          "source": "사이언스타임즈",
+          "published_dt": "2026-06-08 16:00:00",
+          "match_score": 37.34
+        },
+        {
+          "title": "사이언스타임즈/사용자메뉴/과학기술/생명과학·의학 - sciencetimes.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5iRmJna1J5NFF4b2daNTZLcElBZUJTZWp5cEgyU0xLZTBEaVdzZ1E5N2loa2VVVHlEdmtpTzVTTXhIMHRjLTVYQ2lLTEo1OHAwUzZFMjFBRDM?oc=5",
+          "source": "사이언스타임즈",
+          "published_dt": "2025-08-19 16:00:00",
+          "match_score": 37.34
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "co",
+      "score": 60.1,
+      "article_count": 10,
+      "source_count": 1,
+      "categories": [
+        "테크"
+      ],
+      "sample_titles": [
+        "뇌 노폐물 빠져 나가는 ‘미세 출구’ 찾았다 - sciencetimes.co.kr",
+        "사이언스타임즈/사용자메뉴/과학기술/생명과학·의학 - sciencetimes.co.kr",
+        "\"네안데르탈인이 남긴 유전자, 현대인 근육량 증가와 연관\" - sciencetimes.co.kr"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "뇌 노폐물 빠져 나가는 ‘미세 출구’ 찾았다 - sciencetimes.co.kr",
+        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPYlBXQ0hQWExrbUdQSWVwYWVLT25DRzVVQTQ3X3JEVXFpM0xWQlZYa0pmbms0dk9oTkZnaEVQSGl6cENUMHNRQnF2a3QwTkh0NlBFcUZnc3FueF8wdGdJam5vSnMyMW9mdEdSdDJ5UnUzbVp5bUE5MHVEeFNpLWttZm1rOXZLM0lySkh4MEIxZw?oc=5",
+        "source": "사이언스타임즈",
+        "published_dt": "2026-08-14 09:37:40",
+        "match_score": 37.34
+      },
+      "related_articles": [
+        {
+          "title": "뇌 노폐물 빠져 나가는 ‘미세 출구’ 찾았다 - sciencetimes.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPYlBXQ0hQWExrbUdQSWVwYWVLT25DRzVVQTQ3X3JEVXFpM0xWQlZYa0pmbms0dk9oTkZnaEVQSGl6cENUMHNRQnF2a3QwTkh0NlBFcUZnc3FueF8wdGdJam5vSnMyMW9mdEdSdDJ5UnUzbVp5bUE5MHVEeFNpLWttZm1rOXZLM0lySkh4MEIxZw?oc=5",
+          "source": "사이언스타임즈",
+          "published_dt": "2026-08-14 09:37:40",
+          "match_score": 37.34
+        },
+        {
+          "title": "사이언스타임즈/사용자메뉴/과학기술/생명과학·의학 - sciencetimes.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOTHM1aDE2eU9VSlFCTUF4a1V2eFpBb1RUNWxUYkpOTGFSTHdOcnY5ZThjb0t3OENfQWpiUXFxc014WVJ6clp6WnNvSGNfSURBS1c5dUpfVW0ybTcyVWZjYmd5ZFFiTTFZeTFFVG5pUzk2VW1WUzZRZEtNWTVzSE5KVG5QdDFackphRHE3WWRyUQ?oc=5",
+          "source": "사이언스타임즈",
+          "published_dt": "2026-08-12 09:03:54",
+          "match_score": 37.34
+        },
+        {
+          "title": "\"네안데르탈인이 남긴 유전자, 현대인 근육량 증가와 연관\" - sciencetimes.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZDZNY2dsWWU5eF9MZXFiV19mZTdFVkV5SHhKWmh1alVWWW1iY3dQSGtiM2Q5cjk4dzVrVkY3REdNdUo1cExtemxLNDI5dTlIdnVPaUxtOWJPUE1YOGJaa1VydHE4UHVUXzBvU0lCckNtRGdUZmw3bXg1Y1EwaTRaZjFhdG9MaTZ0ZTNfVURmTQ?oc=5",
+          "source": "사이언스타임즈",
+          "published_dt": "2026-08-10 07:04:54",
+          "match_score": 37.34
+        },
+        {
+          "title": "유럽이 타오르고 있다 - 기록적 이상기후와 재생에너지의 역전 - sciencetimes.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOd2QyWmpvUk80VGJNS2Z2bFMyVlFDLXVxaUpPa3VDMDBXYjI0T2xVWm43dV9sYUlJcnRPNlFrbXZhcWlvSzBwMUR3Y2pYbTZHNXdJWmRlOGRVUC1zWmk4c2JHWnQ0TDA0VTExNGVJSnR6RXlocTdHTmgwMldCRGEwZGt1RUxlVVMxc01MSVR4TQ?oc=5",
+          "source": "사이언스타임즈",
+          "published_dt": "2026-06-08 16:00:00",
+          "match_score": 37.34
+        },
+        {
+          "title": "사이언스타임즈/사용자메뉴/과학기술/생명과학·의학 - sciencetimes.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5iRmJna1J5NFF4b2daNTZLcElBZUJTZWp5cEgyU0xLZTBEaVdzZ1E5N2loa2VVVHlEdmtpTzVTTXhIMHRjLTVYQ2lLTEo1OHAwUzZFMjFBRDM?oc=5",
+          "source": "사이언스타임즈",
+          "published_dt": "2025-08-19 16:00:00",
+          "match_score": 37.34
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
