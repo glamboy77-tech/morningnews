@@ -1,0 +1,362 @@
+{
+  "timestamp": "2026-08-17T06:01:33.792835",
+  "date": "20260817",
+  "data": [
+    {
+      "keyword": "가계부채",
+      "reason": "사상 첫 2000조원 돌파",
+      "score": 13.31,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "영끌·빚투에 가계빚 사상 첫 2000조…기준금리 인상땐 치명타",
+        "영끌·빚투에 가계빚 사상 첫 2000조…기준금리 인상땐 치명타"
+      ],
+      "representative_article": {
+        "title": "영끌·빚투에 가계빚 사상 첫 2000조…기준금리 인상땐 치명타",
+        "link": "https://www.mk.co.kr/news/economy/12129166",
+        "source": "매일경제-경제",
+        "published_dt": "2026-08-16 23:05:30",
+        "match_score": 13.31
+      },
+      "related_articles": [
+        {
+          "title": "영끌·빚투에 가계빚 사상 첫 2000조…기준금리 인상땐 치명타",
+          "link": "https://www.mk.co.kr/news/economy/12129166",
+          "source": "매일경제-경제",
+          "published_dt": "2026-08-16 23:05:30",
+          "match_score": 13.31
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI",
+      "reason": "기업 투자와 국제경쟁 부각",
+      "score": 38.09,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "GLM-5.3, '커서' 보안 취약점 찾아냈다...AI 보안 역량 입증"
+      ],
+      "representative_article": {
+        "title": "GLM-5.3, '커서' 보안 취약점 찾아냈다...AI 보안 역량 입증",
+        "link": "https://www.aitimes.com/news/articleView.html?idxno=214011",
+        "source": "AI타임스",
+        "published_dt": "2026-08-17 03:16:38",
+        "match_score": 38.09
+      },
+      "related_articles": [
+        {
+          "title": "GLM-5.3, '커서' 보안 취약점 찾아냈다...AI 보안 역량 입증",
+          "link": "https://www.aitimes.com/news/articleView.html?idxno=214011",
+          "source": "AI타임스",
+          "published_dt": "2026-08-17 03:16:38",
+          "match_score": 38.09
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "종전논",
+      "reason": "정치권과 한미관계 주요 이슈",
+      "score": 15.68,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "국힘 \"李대통령 '종전 논의' 제안, 스스로 무장해제 평화구걸\"(종합)"
+      ],
+      "representative_article": {
+        "title": "국힘 \"李대통령 '종전 논의' 제안, 스스로 무장해제 평화구걸\"(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260816021951001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-08-16 16:58:36",
+        "match_score": 15.68
+      },
+      "related_articles": [
+        {
+          "title": "국힘 \"李대통령 '종전 논의' 제안, 스스로 무장해제 평화구걸\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260816021951001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-16 16:58:36",
+          "match_score": 15.68
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "전기이륜차",
+      "reason": "서울시 배터리 화재 및 리콜",
+      "score": 33.62,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "서울시, 전기이륜차 배터리 화재 분석…6천여대 리콜"
+      ],
+      "representative_article": {
+        "title": "서울시, 전기이륜차 배터리 화재 분석…6천여대 리콜",
+        "link": "https://www.yna.co.kr/view/AKR20260815020600004",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-08-16 11:15:04",
+        "match_score": 33.62
+      },
+      "related_articles": [
+        {
+          "title": "서울시, 전기이륜차 배터리 화재 분석…6천여대 리콜",
+          "link": "https://www.yna.co.kr/view/AKR20260815020600004",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-08-16 11:15:04",
+          "match_score": 33.62
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "브라질공장",
+      "reason": "LG전자 신설 소식",
+      "score": 6.42,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "LG전자, 브라질에 새 가전공장…냉장고 연 60만대 생산 능력"
+      ],
+      "representative_article": {
+        "title": "LG전자, 브라질에 새 가전공장…냉장고 연 60만대 생산 능력",
+        "link": "https://www.yna.co.kr/view/AKR20260816012600003",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-08-16 10:00:00",
+        "match_score": 6.42
+      },
+      "related_articles": [
+        {
+          "title": "LG전자, 브라질에 새 가전공장…냉장고 연 60만대 생산 능력",
+          "link": "https://www.yna.co.kr/view/AKR20260816012600003",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-08-16 10:00:00",
+          "match_score": 6.42
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "부동산시장",
+      "reason": "월세화·신규택지 개발",
+      "score": 5.5,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "서울 그린벨트 풀리나…7.3만호+α 신규택지, 이르면 내달 발표"
+      ],
+      "representative_article": {
+        "title": "서울 그린벨트 풀리나…7.3만호+α 신규택지, 이르면 내달 발표",
+        "link": "https://www.mk.co.kr/news/realestate/12128897",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-08-16 11:34:06",
+        "match_score": 5.5
+      },
+      "related_articles": [
+        {
+          "title": "서울 그린벨트 풀리나…7.3만호+α 신규택지, 이르면 내달 발표",
+          "link": "https://www.mk.co.kr/news/realestate/12128897",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-08-16 11:34:06",
+          "match_score": 5.5
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "대미투자",
+      "reason": "산업부 장관 미국 방문 및 정책",
+      "score": 37.6,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "국제"
+      ],
+      "sample_titles": [
+        "\"韓투자 왜 늦나\" 美불만에…산업장관 긴급방미",
+        "산업장관 “대미투자 다양한 쟁점 정리 차 방미…美관세 압박 없어”"
+      ],
+      "representative_article": {
+        "title": "산업장관 “대미투자 다양한 쟁점 정리 차 방미…美관세 압박 없어”",
+        "link": "https://www.donga.com/news/Inter/article/all/20260817/134487079/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-08-17 02:57:00",
+        "match_score": 37.6
+      },
+      "related_articles": [
+        {
+          "title": "산업장관 “대미투자 다양한 쟁점 정리 차 방미…美관세 압박 없어”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260817/134487079/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-17 02:57:00",
+          "match_score": 37.6
+        },
+        {
+          "title": "\"韓투자 왜 늦나\" 美불만에…산업장관 긴급방미",
+          "link": "https://www.mk.co.kr/news/economy/12129092",
+          "source": "매일경제-경제",
+          "published_dt": "2026-08-16 17:55:40",
+          "match_score": 6.96
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "금융권",
+      "reason": "PF 연체율 상승과 급여 증가",
+      "score": 41.28,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "금융권 PF 연체율 10년 만에 최고…부실 사업장 정리도 주춤",
+        "은행직원 상반기 급여 … 13% 늘어 7150만원"
+      ],
+      "representative_article": {
+        "title": "금융권 PF 연체율 10년 만에 최고…부실 사업장 정리도 주춤",
+        "link": "https://www.yna.co.kr/view/AKR20260815051300002",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-08-17 05:51:00",
+        "match_score": 41.28
+      },
+      "related_articles": [
+        {
+          "title": "금융권 PF 연체율 10년 만에 최고…부실 사업장 정리도 주춤",
+          "link": "https://www.yna.co.kr/view/AKR20260815051300002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-08-17 05:51:00",
+          "match_score": 41.28
+        },
+        {
+          "title": "은행직원 상반기 급여 … 13% 늘어 7150만원",
+          "link": "https://www.mk.co.kr/news/economy/12129093",
+          "source": "매일경제-경제",
+          "published_dt": "2026-08-16 17:55:41",
+          "match_score": 12.86
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "전세월세전환",
+      "reason": "서울주택 임대시장 변화",
+      "score": 2.67,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "서울 아파트 '전세의 월세화'…7년새 월세 비중 7.8%p↑"
+      ],
+      "representative_article": {
+        "title": "서울 아파트 '전세의 월세화'…7년새 월세 비중 7.8%p↑",
+        "link": "https://www.yna.co.kr/view/AKR20260811147900002",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-08-17 05:53:00",
+        "match_score": 2.67
+      },
+      "related_articles": [
+        {
+          "title": "서울 아파트 '전세의 월세화'…7년새 월세 비중 7.8%p↑",
+          "link": "https://www.yna.co.kr/view/AKR20260811147900002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-08-17 05:53:00",
+          "match_score": 2.67
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 9,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "역사문제",
+      "reason": "난징대학살 편지·야스쿠니 참배",
+      "score": 6.5,
+      "article_count": 3,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "“패잔병 1만명 죽였다” 난징대학살 일본군 편지 공개",
+        "패전일 연설서 ‘반성’ 표현 뺀 다카이치… 야스쿠니 500m 떨어진 주차장서 참배",
+        "다카이치, 야스쿠니 500m밖 ‘원격 참배’…추도사서 ‘반성’ 뺐다"
+      ],
+      "representative_article": {
+        "title": "“패잔병 1만명 죽였다” 난징대학살 일본군 편지 공개",
+        "link": "https://www.donga.com/news/Inter/article/all/20260817/134486608/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-08-17 01:40:00",
+        "match_score": 6.5
+      },
+      "related_articles": [
+        {
+          "title": "“패잔병 1만명 죽였다” 난징대학살 일본군 편지 공개",
+          "link": "https://www.donga.com/news/Inter/article/all/20260817/134486608/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-17 01:40:00",
+          "match_score": 6.5
+        },
+        {
+          "title": "패전일 연설서 ‘반성’ 표현 뺀 다카이치… 야스쿠니 500m 떨어진 주차장서 참배",
+          "link": "https://www.donga.com/news/Inter/article/all/20260816/134486682/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-17 01:40:00",
+          "match_score": 6.5
+        },
+        {
+          "title": "다카이치, 야스쿠니 500m밖 ‘원격 참배’…추도사서 ‘반성’ 뺐다",
+          "link": "https://www.donga.com/news/Inter/article/all/20260816/134484513/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-16 14:07:00",
+          "match_score": 6.5
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 10,
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
