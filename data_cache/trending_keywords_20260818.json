@@ -1,0 +1,364 @@
+{
+  "timestamp": "2026-08-18T06:01:31.953301",
+  "date": "20260818",
+  "data": [
+    {
+      "keyword": "용산공원",
+      "reason": "정치권 주택공급 논의",
+      "score": 42.12,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산",
+        "정치"
+      ],
+      "sample_titles": [
+        "김윤덕·오세훈 오는 20일 회동…용산공원 주택공급 '분수령'"
+      ],
+      "representative_article": {
+        "title": "김윤덕·오세훈 오는 20일 회동…용산공원 주택공급 '분수령'",
+        "link": "https://www.yna.co.kr/view/AKR20260817037200004",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-08-18 05:55:00",
+        "match_score": 42.12
+      },
+      "related_articles": [
+        {
+          "title": "김윤덕·오세훈 오는 20일 회동…용산공원 주택공급 '분수령'",
+          "link": "https://www.yna.co.kr/view/AKR20260817037200004",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-08-18 05:55:00",
+          "match_score": 42.12
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "한미훈련",
+      "reason": "군사 협력 및 전략 조정",
+      "score": 29.68,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "트럼프 '한미훈련 축소' 속내는…대북대화 동력 확보여부 주목"
+      ],
+      "representative_article": {
+        "title": "트럼프 '한미훈련 축소' 속내는…대북대화 동력 확보여부 주목",
+        "link": "https://www.yna.co.kr/view/AKR20260817047700504",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-08-17 16:38:48",
+        "match_score": 29.68
+      },
+      "related_articles": [
+        {
+          "title": "트럼프 '한미훈련 축소' 속내는…대북대화 동력 확보여부 주목",
+          "link": "https://www.yna.co.kr/view/AKR20260817047700504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-17 16:38:48",
+          "match_score": 29.68
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재건축",
+      "reason": "정부 지원 확대와 시장 반응",
+      "score": 38.01,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "부동산"
+      ],
+      "sample_titles": [
+        "재건축·재개발 빗장 풀리나…정부 지원 확대에 건설사 ‘활짝’ - 아시아투데이"
+      ],
+      "representative_article": {
+        "title": "재건축·재개발 빗장 풀리나…정부 지원 확대에 건설사 ‘활짝’ - 아시아투데이",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5LeUdqYXdqcE1PWllTa2xGTHZ3dUFjWmdGQ3k4dVN1V0oxLXJJWXJpT2RxWXlscmJiRlpYdFI1NDJxdXFYOHpGMGVTaUExRno5ODUzYUwtR2FDWWZEYXhQLWNOMkd2LVJCOHZweHBB?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-08-17 17:33:41",
+        "match_score": 38.01
+      },
+      "related_articles": [
+        {
+          "title": "재건축·재개발 빗장 풀리나…정부 지원 확대에 건설사 ‘활짝’ - 아시아투데이",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5LeUdqYXdqcE1PWllTa2xGTHZ3dUFjWmdGQ3k4dVN1V0oxLXJJWXJpT2RxWXlscmJiRlpYdFI1NDJxdXFYOHpGMGVTaUExRno5ODUzYUwtR2FDWWZEYXhQLWNOMkd2LVJCOHZweHBB?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-08-17 17:33:41",
+          "match_score": 38.01
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "금융지원",
+      "reason": "폭우 피해 금융지원 활성화",
+      "score": 40.08,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "4대 은행, 폭우 피해 금융지원…구호 텐트·급식 차량도(종합)",
+        "4대 은행, 폭우 피해 금융지원…구호 텐트·급식 차량도(종합)"
+      ],
+      "representative_article": {
+        "title": "4대 은행, 폭우 피해 금융지원…구호 텐트·급식 차량도(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260817058751002",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-08-17 20:23:18",
+        "match_score": 40.08
+      },
+      "related_articles": [
+        {
+          "title": "4대 은행, 폭우 피해 금융지원…구호 텐트·급식 차량도(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260817058751002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-08-17 20:23:18",
+          "match_score": 40.08
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "폴더블",
+      "reason": "삼성전자 신제품 확대 계획",
+      "score": 40.49,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "삼성전자, 내년 '와이드 폴드' 하나 더 만든다…폴더블 5종 확대"
+      ],
+      "representative_article": {
+        "title": "삼성전자, 내년 '와이드 폴드' 하나 더 만든다…폴더블 5종 확대",
+        "link": "https://www.etnews.com/20260814000059",
+        "source": "전자신문",
+        "published_dt": "2026-08-17 16:30:00",
+        "match_score": 40.49
+      },
+      "related_articles": [
+        {
+          "title": "삼성전자, 내년 '와이드 폴드' 하나 더 만든다…폴더블 5종 확대",
+          "link": "https://www.etnews.com/20260814000059",
+          "source": "전자신문",
+          "published_dt": "2026-08-17 16:30:00",
+          "match_score": 40.49
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "에볼라",
+      "reason": "국제적 보건 위기 이슈",
+      "score": 37.6,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "민주콩고 에볼라 사망자 2300명 넘어…2명 중 1명 죽었다[지금, 여기]"
+      ],
+      "representative_article": {
+        "title": "민주콩고 에볼라 사망자 2300명 넘어…2명 중 1명 죽었다[지금, 여기]",
+        "link": "https://www.donga.com/news/Inter/article/all/20260817/134489096/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-08-17 16:16:00",
+        "match_score": 37.6
+      },
+      "related_articles": [
+        {
+          "title": "민주콩고 에볼라 사망자 2300명 넘어…2명 중 1명 죽었다[지금, 여기]",
+          "link": "https://www.donga.com/news/Inter/article/all/20260817/134489096/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-17 16:16:00",
+          "match_score": 37.6
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "암모니아선박",
+      "reason": "한중 조선 경쟁 심화",
+      "score": 16.1,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "“고부가 암모니아 선박 잡아라”… 韓中 조선사 주도권 싸움"
+      ],
+      "representative_article": {
+        "title": "“고부가 암모니아 선박 잡아라”… 韓中 조선사 주도권 싸움",
+        "link": "https://www.chosun.com/economy/industry-company/2026/08/18/KJ7P6EHMHFEMZBW4QGNO5X4MOY/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-08-18 00:33:00",
+        "match_score": 16.1
+      },
+      "related_articles": [
+        {
+          "title": "“고부가 암모니아 선박 잡아라”… 韓中 조선사 주도권 싸움",
+          "link": "https://www.chosun.com/economy/industry-company/2026/08/18/KJ7P6EHMHFEMZBW4QGNO5X4MOY/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-08-18 00:33:00",
+          "match_score": 16.1
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "기후리스크",
+      "reason": "금융권 대응 및 콘퍼런스",
+      "score": 22.88,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "금감원, 이화여대와 금융권 기후 리스크 관리 국제 콘퍼런스 개최"
+      ],
+      "representative_article": {
+        "title": "금감원, 이화여대와 금융권 기후 리스크 관리 국제 콘퍼런스 개최",
+        "link": "https://www.yna.co.kr/view/AKR20260816017000002",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-08-17 12:00:02",
+        "match_score": 22.88
+      },
+      "related_articles": [
+        {
+          "title": "금감원, 이화여대와 금융권 기후 리스크 관리 국제 콘퍼런스 개최",
+          "link": "https://www.yna.co.kr/view/AKR20260816017000002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-08-17 12:00:02",
+          "match_score": 22.88
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "금값상승",
+      "reason": "국제 금값 대폭 상승",
+      "score": 4.55,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "국제"
+      ],
+      "sample_titles": [
+        "금값 한달새 11.9% 올라, 개미들 다시 ‘골드 러시’"
+      ],
+      "representative_article": {
+        "title": "금값 한달새 11.9% 올라, 개미들 다시 ‘골드 러시’",
+        "link": "https://www.donga.com/news/Economy/article/all/20260817/134490680/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-08-18 00:30:00",
+        "match_score": 4.55
+      },
+      "related_articles": [
+        {
+          "title": "금값 한달새 11.9% 올라, 개미들 다시 ‘골드 러시’",
+          "link": "https://www.donga.com/news/Economy/article/all/20260817/134490680/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-18 00:30:00",
+          "match_score": 4.55
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 9,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI",
+      "score": 65.8,
+      "article_count": 12,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "“구리 공급 걱정마세요”…수은, 글로벌 자원기업에 1.4조 금융지원",
+        "경찰·소방 손목에 AI…재난안전 스마트워치 만든다",
+        "\"AI시대 핵심소재 광섬유…한국, 고부가 기술 제조역량 키워야\""
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "\"AI시대 핵심소재 광섬유…한국, 고부가 기술 제조역량 키워야\"",
+        "link": "https://www.yna.co.kr/view/AKR20260817023300003",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-08-17 11:00:00",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "\"AI시대 핵심소재 광섬유…한국, 고부가 기술 제조역량 키워야\"",
+          "link": "https://www.yna.co.kr/view/AKR20260817023300003",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-08-17 11:00:00",
+          "match_score": 37.67
+        },
+        {
+          "title": "대전시, 청년공간 10곳에 생성형 AI 거점 조성…“청년 누구나 무료 이용”",
+          "link": "https://www.etnews.com/20260813000210",
+          "source": "전자신문",
+          "published_dt": "2026-08-17 15:00:00",
+          "match_score": 37.49
+        },
+        {
+          "title": "“향후 AI 활용이 연구 기관·조직 R&D 역량 격차 좌우하게 될 것”",
+          "link": "https://www.etnews.com/20260817000015",
+          "source": "전자신문",
+          "published_dt": "2026-08-17 13:00:00",
+          "match_score": 37.49
+        },
+        {
+          "title": "'광통신 강국' 韓, AI 핵심 '프리폼' 역량은 빈껍데기",
+          "link": "https://www.etnews.com/20260817000090",
+          "source": "전자신문",
+          "published_dt": "2026-08-17 11:38:32",
+          "match_score": 37.49
+        },
+        {
+          "title": "美 대학생 22% 전공 변경 “AI가 할 수 있는 것은 피해”",
+          "link": "https://www.etnews.com/20260817000032",
+          "source": "전자신문",
+          "published_dt": "2026-08-17 10:05:06",
+          "match_score": 37.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
