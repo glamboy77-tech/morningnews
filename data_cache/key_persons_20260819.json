@@ -1,0 +1,311 @@
+{
+  "timestamp": "2026-08-19T06:01:33.376031",
+  "date": "20260819",
+  "data": {
+    "오세훈": {
+      "articles": [
+        {
+          "title": "권영세 \"용산공원 주택공급 철회해야\"…오세훈 \"녹지공간 필수\"",
+          "link": "https://www.yna.co.kr/view/AKR20260818155800001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-18 18:16:15",
+          "description": "(서울=연합뉴스) 박수윤 황재하 기자 = 오세훈 서울시장과 용산을 지역구로 둔 국민의힘 권영세 의원은 18일 서울시청에서 만나 정부가 추진하는 ...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "deduped_sources": [
+            {
+              "source": "연합뉴스-경제",
+              "title": "권영세 \"용산공원 주택공급 철회해야\"…오세훈 \"녹지공간 필수\"",
+              "link": "https://www.yna.co.kr/view/AKR20260818155800001"
+            }
+          ],
+          "priority_score": 8,
+          "pol_subcategory": "지방/행정",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "국힘·서울시, '8·13 부동산 대책 문제점' 토론회…오세훈 참석",
+          "link": "https://www.yna.co.kr/view/AKR20260818154600001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-19 05:00:01",
+          "description": "(서울=연합뉴스) 노선웅 기자 = 국민의힘 서울시당과 서울시가 19일 최근 정부가 발표한 &apos;8·13 부동산 대책&apos;의 문제점을 진단하기 위한 토론...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "입법/정책",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "오세훈, 국무회의서 \"재건축 규제완화\"…李 \"총리와 협의해보라\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260818093051004",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-18 16:34:36",
+          "description": "(서울=연합뉴스) 김동규 기자 = 오세훈 서울시장이 18일 이재명 대통령 주재 국무회의에 참석해 주택 공급 해법으로 재건축·재개발을 제시하고 관...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "deduped_sources": [
+            {
+              "source": "연합뉴스-경제",
+              "title": "오세훈, 국무회의서 \"재건축 규제완화\"…李 \"총리와 협의해보라\"(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20260818093051004"
+            }
+          ],
+          "priority_score": 13,
+          "pol_subcategory": "지방/행정",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "국무회의 간 오세훈 \"용산공원 개발 반대…재개발·재건축 규제부터 풀어야\" - JTBC",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBGWWtGeFhVcWkxM2FNdkdiUzZIMlNPVm5MdXZ3czNTYWp6M0VxZEhLR1Y0UG84TThRZFE1azhfQzR2eHo1M1BmNEg4UFZDV01McUVTZw?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-08-18 14:37:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTFBGWWtGeFhVcWkxM2FNdkdiUzZIMlNPVm5MdXZ3czNTYWp6M0VxZEhLR1Y0UG84TThRZFE1azhfQzR2eHo1M1BmNEg4UFZDV01McUVTZw?oc=5\" target=\"_blank\">국무회의 간 오세훈 \"용산공원 개발 반대…재개발·재건축 규제부터 풀어야\"</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">JTBC</font>",
+          "category": "domestic",
+          "feed_url": "https://news.google.com/rss/search?q=재건축+OR+분양가+OR+GTX+OR+전세+when:1d&hl=ko&gl=KR&ceid=KR:ko",
+          "source_type": "google_keyword",
+          "source_weight": 0.85,
+          "source_badge": "키워드",
+          "priority_score": 13,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "이 대통령, 오세훈에 “공급 늘려야지, 집값 폭등가능성 높여선 안돼”",
+          "link": "https://www.mk.co.kr/news/realestate/12130565",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-08-18 19:25:56",
+          "description": "오세훈, 재건축·재개발 규제 완화 필요성 제기 靑·서울시, 용산공원 주택 공급 발언 진실공방이재명 대통령이 주택 공급 확대를 위한 규제 완화를 요구한 오세훈 서울시장을 향해 집값 ..",
+          "category": "domestic",
+          "feed_url": "https://www.mk.co.kr/rss/50300009/",
+          "source_type": "realestate",
+          "source_weight": 1.15,
+          "source_badge": "부동산",
+          "priority_score": 16,
+          "related_full_sources": []
+        }
+      ],
+      "count": 5,
+      "role": "서울시장"
+    },
+    "트럼프": {
+      "articles": [
+        {
+          "title": "美하원소위 여야, '트럼프탓 한국탓' 한미훈련 축소 갑론을박",
+          "link": "https://www.yna.co.kr/view/AKR20260819001900071",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-19 02:59:02",
+          "description": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령의 한미연합훈련 축소 지시를 두고 한미 관계를 관장하는 미 연방 하원 외교위원회 ...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "靑, 트럼프 SNS 메시지에 \"북미대화 이어지길 기대\"",
+          "link": "https://www.yna.co.kr/view/AKR20260818148800001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-18 17:30:27",
+          "description": "(서울=연합뉴스) 임형섭 기자 = 위성락 국가안보실장은 18일 도널드 트럼프 미국 대통령이 최근 한미 연합 군사훈련 규모 축소를 지시하면서 &quot;북...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프 “김정은, 대화 요청에 응답… 매우 긍정적”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260819/134500308/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-19 04:30:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/08/19/134500729.1.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령이 김정은 북한 국무위원장과의 대화가 현재 어떻게 진행되고 있느냐는 질문에 “매우 긍정적(very positive)”이라고 17일(현지 시간) 밝혔다. 또 김 위원장이 미국의 대화 제안에 응했느냐는 질문에는 “그렇다. 그가 응답했다”고 답했다.  그는 앞서 16일 김 위원장과 “매우 좋은 관계를 맺고 있다”며 한미 연합훈련 축소를 지시했다고 밝혔다. 이후 하루 만에 북-미 정상 간 소통이 이뤄지고 있다고 주장한 것이다.  트럼프 대통령은 이날 워싱턴 백악관에서 취재진으로부터 ‘한미 연합훈련 축소가 동맹인 한국보다 북한의 이해를 우선하는 것 아니냐’는 질문에는 “아니다. 나는 상황을 훨씬 더 안전하게 만들고 있다”고 반박했다. 그는 이어 “김정은은 항상 나를 매우 존중해 왔다. 나는 그를 이해하고 그도 나를 이해한다”고 강조했다.  트럼프 대통령의 이 같은 발언은 김 위원장과의 개인적 신뢰가 깊고, 대화할 의지가 강하다는 것을 다시 한번 드러낸 것이다.",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "美, 韓기업 투자 연계해 대미투자 압박… “한미훈련 축소에도 영향”",
+          "link": "https://www.donga.com/news/Politics/article/all/20260819/134500342/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-19 04:30:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/08/19/134500711.1.jpg\" vspace=\"10\" />도널드 트럼프 미국 행정부가 정부에 3500억 달러(약 490조 원)의 대미 전략투자를 국내 기업들의 투자와 연계하는 등 관세 압박 수위를 높인 것으로 알려졌다. 한미가 1호 대미 전략투자 프로젝트에 대한 협상을 진행 중인 가운데, 민간 기업 투자까지 거론하면서 압박 강도를 높인 것이다. 이에 따라 ‘상업적 합리성’을 강조하는 한국 정부와의 인식 차가 커지며 8월 말 합의가 불투명해지면서 한미 관계 불협화음이 커질 수 있다는 우려가 나온다.● 정부 “美 대미투자 협상 예측 불가능” 정부 소식통은 18일 “미국이 대미 전략투자 협상 과정에서 그동안의 관세협상이나 한미 정상이 합의한 조인트 팩트시트(JFS)에 없는 내용에 대해 요구한 것으로 안다”고 말했다. JFS에는 한미 조선협력 프로젝트인 ‘마스가(MASGA)’에 1500억 달러와 대미 투자 펀드를 통한 2000억 달러 규모의 투자 대신 미국은 한국에 대한 관세를 15%로 낮추는 내용이 담겼다. 미국이 JFS에 담기지 않은 국내",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "‘호르무즈는 새로운 미국 영토’ 합성지도 올린 트럼프",
+          "link": "https://www.donga.com/news/Inter/article/all/20260818/134499784/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-18 21:05:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/08/18/134499707.3.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령이 자신의 트루스소셜에 호르무즈 해협에 ‘새로운 미국 영토’라는 문구가 적힌 사진을 올렸다.18일(현지 시간) 트럼프 대통령이 올린 합성 지도에는 호르무즈 해협 일대와 함께 ‘새로운 미국 영토(NEW U.S. Territory)’라는 문구가 적혀 있다. 호르무즈 해협을 미국 영토로 편입해야 한다는 이전의 주장을 되풀이 한 것으로 보인다.이날 트럼프 대통령은 이란과의 전쟁에서 주요 쟁점으로 떠오른 호르무즈 해협을 미국 영토로 편입할 가능성을 재차 언급했다. 미국 온라인매체 악시오스에 따르면 트럼프 대통령은 이날 백악관 집무실에서 기자들과 만나 호르무즈 해협을 미국 영토로 선포하는 방안에 대해 “정말 좋은 생각이라고 생각한다”고 밝혔다. 트럼프 대통령은 미국이 현재 호르무즈 해협을 봉쇄해 통제하고 있다고 주장하면서 “해협을 미국 영토로 선포하는 아이디어가 마음에 든다”고 말했다.앞서 트럼프 대통령은 14일에도 호르무즈 해협을 조만간 미국 영토로 선언하게 될",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 5,
+      "role": "미국 대통령"
+    },
+    "이재명": {
+      "articles": [
+        {
+          "title": "李대통령, 선관위 의혹 특검에 이태한 권익위 비상임위원 임명",
+          "link": "https://www.yna.co.kr/view/AKR20260818155000001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-18 17:46:14",
+          "description": "(서울=연합뉴스) 고동욱 기자 = 제9회 전국동시지방선거 투표용지 부족 사태 등 국민참정권 침해 의혹의 진상을 규명할 특별검사로 이태한(사법연수...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "오세훈, 국무회의서 \"재건축 규제완화\"…李 \"총리와 협의해보라\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260818093051004",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-18 16:34:36",
+          "description": "(서울=연합뉴스) 김동규 기자 = 오세훈 서울시장이 18일 이재명 대통령 주재 국무회의에 참석해 주택 공급 해법으로 재건축·재개발을 제시하고 관...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "deduped_sources": [
+            {
+              "source": "연합뉴스-경제",
+              "title": "오세훈, 국무회의서 \"재건축 규제완화\"…李 \"총리와 협의해보라\"(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20260818093051004"
+            }
+          ],
+          "priority_score": 13,
+          "pol_subcategory": "지방/행정",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "이 대통령, 오세훈에 “공급 늘려야지, 집값 폭등가능성 높여선 안돼”",
+          "link": "https://www.mk.co.kr/news/realestate/12130565",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-08-18 19:25:56",
+          "description": "오세훈, 재건축·재개발 규제 완화 필요성 제기 靑·서울시, 용산공원 주택 공급 발언 진실공방이재명 대통령이 주택 공급 확대를 위한 규제 완화를 요구한 오세훈 서울시장을 향해 집값 ..",
+          "category": "domestic",
+          "feed_url": "https://www.mk.co.kr/rss/50300009/",
+          "source_type": "realestate",
+          "source_weight": 1.15,
+          "source_badge": "부동산",
+          "priority_score": 16,
+          "related_full_sources": []
+        },
+        {
+          "title": "李, 20일 왕이 中외교부장 접견…‘北과 대화’ 역할 요청할 듯",
+          "link": "https://www.donga.com/news/Politics/article/all/20260818/134496816/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-18 16:58:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/08/18/134497164.1.jpg\" vspace=\"10\" />이재명 대통령이 1박 2일 일정으로 19일 방한하는 왕이(王毅) 중국 외교부장을 20일 청와대에서 접견한다. 왕 부장의 방한은 2021년 9월 이후 5년 만이다. 이 대통령이 한반도 문제와 관련해 제안한 다자 대화와 올 1월 한중 정상회담에서 합의한 한중 관계 복원 후속 조치 등을 논의할 것으로 보인다.청와대는 18일 “이 대통령은 한국을 공식방문하는 왕 부장을 만나 한중관계 발전 방향과 역내 정세 등을 평가하고 시진핑(習近平) 중국 국가주석에게 안부를 전할 예정”이라고 밝혔다. 위성락 국가안보실장도 같은 날 왕 부장과 면담하고 오찬을 가질 계획이다. 청와대는 “한중관계와 한반도 정세를 비롯한 지역·국제 문제 등 상호 관심사에 대한 폭넓은 의견 교환이 이뤄질 것”이라고 설명했다. 왕 부장은 방한 첫날인 19일에는 조현 외교부 장관과 한중 외교장관 회담 및 공식 만찬을 갖고 한중 간 주요 현안을 논의할 예정이다.이 대통령이 15일 광복절 경축사에서 “아주 오래된 전쟁을 끝내기 위한",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 4,
+      "role": "한국 대통령"
+    },
+    "이태한": {
+      "articles": [
+        {
+          "title": "李대통령, 선관위 의혹 특검에 이태한 권익위 비상임위원 임명",
+          "link": "https://www.yna.co.kr/view/AKR20260818155000001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-18 17:46:14",
+          "description": "(서울=연합뉴스) 고동욱 기자 = 제9회 전국동시지방선거 투표용지 부족 사태 등 국민참정권 침해 의혹의 진상을 규명할 특별검사로 이태한(사법연수...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "선관위 특검에 검사 출신 이태한...  투표통계 조작 등 의혹 수사",
+          "link": "https://www.chosun.com/politics/blue_house/2026/08/18/XXSWVUCCRBA2ZI7NEYD45ZSVVM/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-08-18 17:57:41",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "[프로필] 이태한 선관위특검…특수·형사수사 잔뼈굵은 검사 출신",
+          "link": "https://www.yna.co.kr/view/AKR20260818151800004",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-18 17:29:06",
+          "description": "(서울=연합뉴스) 이밝음 최원정 기자 = &apos;6·3 지방선거 투표용지 부족 사태 등 국민참정권 침해 의혹&apos;을 수사할 특별검사로 임명된 이태한(60...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": true,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "선관위특검"
+    }
+  }
+}
