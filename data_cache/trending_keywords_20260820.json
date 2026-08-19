@@ -1,0 +1,434 @@
+{
+  "timestamp": "2026-08-20T01:45:28.199011",
+  "date": "20260820",
+  "data": [
+    {
+      "keyword": "한미훈련",
+      "reason": "군사 훈련 축소 논란",
+      "score": 32.07,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "李대통령 \"'한미훈련 축소해 대화여건 조성' 트럼프 노력 경의\"",
+        "한미훈련 축소에 日도 촉각…트럼프 압박 대비 방위비 등 인상 가능성"
+      ],
+      "representative_article": {
+        "title": "李대통령 \"'한미훈련 축소해 대화여건 조성' 트럼프 노력 경의\"",
+        "link": "https://www.yna.co.kr/view/AKR20260820000600001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-08-20 00:30:44",
+        "match_score": 32.07
+      },
+      "related_articles": [
+        {
+          "title": "李대통령 \"'한미훈련 축소해 대화여건 조성' 트럼프 노력 경의\"",
+          "link": "https://www.yna.co.kr/view/AKR20260820000600001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-20 00:30:44",
+          "match_score": 32.07
+        },
+        {
+          "title": "한미훈련 축소에 日도 촉각…트럼프 압박 대비 방위비 등 인상 가능성",
+          "link": "https://www.donga.com/news/Inter/article/all/20260819/134502013/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-19 10:46:00",
+          "match_score": 30.7
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재건축",
+      "reason": "서울 재개발 규제 완화",
+      "score": 39.21,
+      "article_count": 4,
+      "source_count": 4,
+      "categories": [
+        "부동산",
+        "정치"
+      ],
+      "sample_titles": [
+        "국힘·오세훈 국회서 '부동산 토론회'…\"재개발·재건축 풀어야\"(종합)",
+        "서울시, 재개발·재건축 조합설립 1년→4개월로 단축 - 한스경제",
+        "“집값 실패, 용산공원으로 덮지 마라”…오세훈·국민의힘, 8·13 대책 맹폭"
+      ],
+      "representative_article": {
+        "title": "서울시, 재개발·재건축 조합설립 1년→4개월로 단축 - 한스경제",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5EeVlyd2hlS0ZEdDUydHVlbUg0QXduN2JRc2NqZmoyOFhXV3Z0bkV2WFdJQTVYVkR4akx4VUNSXzNCSEFLbERmNU9NemdYVl9yazNFWUJCckxMOHYzSFBFd0ZyTEMxRDk1TC1F0gFvQVVfeXFMTVZLS05JRDZ2RXhnMGZ3YkFkOURGTG1ubnhXNVBndnM2cVBnWkxSTWRJTm04QnhGUE9RandTS0Rta2J2OFlrN1VZM2dIT2JHZVRVbEx6NEhLNTJoNDY5eUR2U2xtU2VwLW9ILXNMU25B?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-08-19 20:20:55",
+        "match_score": 39.21
+      },
+      "related_articles": [
+        {
+          "title": "서울시, 재개발·재건축 조합설립 1년→4개월로 단축 - 한스경제",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5EeVlyd2hlS0ZEdDUydHVlbUg0QXduN2JRc2NqZmoyOFhXV3Z0bkV2WFdJQTVYVkR4akx4VUNSXzNCSEFLbERmNU9NemdYVl9yazNFWUJCckxMOHYzSFBFd0ZyTEMxRDk1TC1F0gFvQVVfeXFMTVZLS05JRDZ2RXhnMGZ3YkFkOURGTG1ubnhXNVBndnM2cVBnWkxSTWRJTm04QnhGUE9RandTS0Rta2J2OFlrN1VZM2dIT2JHZVRVbEx6NEhLNTJoNDY5eUR2U2xtU2VwLW9ILXNMU25B?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-08-19 20:20:55",
+          "match_score": 39.21
+        },
+        {
+          "title": "국힘·오세훈 국회서 '부동산 토론회'…\"재개발·재건축 풀어야\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260819087151001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-19 15:06:18",
+          "match_score": 38.33
+        },
+        {
+          "title": "“집값 실패, 용산공원으로 덮지 마라”…오세훈·국민의힘, 8·13 대책 맹폭",
+          "link": "https://www.mk.co.kr/news/realestate/12131110",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-08-19 14:31:45",
+          "match_score": 12.7
+        },
+        {
+          "title": "\"집값 자극\" vs \"닥공에도 원칙\" 이재명-오세훈, 부동산서 정면충돌",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/08/19/2026081901729.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-08-19 14:05:20",
+          "match_score": 12.7
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "원화",
+      "reason": "미 금리 동결에 반등",
+      "score": 40.51,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "美금리 동결 기대에 원화 1300원대 반등"
+      ],
+      "representative_article": {
+        "title": "美금리 동결 기대에 원화 1300원대 반등",
+        "link": "https://www.mk.co.kr/news/economy/12131423",
+        "source": "매일경제-경제",
+        "published_dt": "2026-08-19 17:47:35",
+        "match_score": 40.51
+      },
+      "related_articles": [
+        {
+          "title": "美금리 동결 기대에 원화 1300원대 반등",
+          "link": "https://www.mk.co.kr/news/economy/12131423",
+          "source": "매일경제-경제",
+          "published_dt": "2026-08-19 17:47:35",
+          "match_score": 40.51
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI",
+      "reason": "기업 및 사회적 이슈 확산",
+      "score": 38.09,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "국제",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "[단독] 위례과천선 서초 우면동 경유…과천시 패싱에 반발 커질 듯",
+        "오픈AI, 오픈라우터서 'GPT-5.6' 절반가 할인...앤트로픽 사용량 2배 넘어"
+      ],
+      "representative_article": {
+        "title": "오픈AI, 오픈라우터서 'GPT-5.6' 절반가 할인...앤트로픽 사용량 2배 넘어",
+        "link": "https://www.aitimes.com/news/articleView.html?idxno=214099",
+        "source": "AI타임스",
+        "published_dt": "2026-08-20 04:54:38",
+        "match_score": 38.09
+      },
+      "related_articles": [
+        {
+          "title": "오픈AI, 오픈라우터서 'GPT-5.6' 절반가 할인...앤트로픽 사용량 2배 넘어",
+          "link": "https://www.aitimes.com/news/articleView.html?idxno=214099",
+          "source": "AI타임스",
+          "published_dt": "2026-08-20 04:54:38",
+          "match_score": 38.09
+        },
+        {
+          "title": "[단독] 위례과천선 서초 우면동 경유…과천시 패싱에 반발 커질 듯",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/08/18/2026081801378.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-08-19 15:02:27",
+          "match_score": 9.8
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "한화 K9",
+      "reason": "미국 수출 성과",
+      "score": 33.1,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "한화 K9 자주포, 美 뚫었다… 獨·英 기업 제치고 ‘차륜형’ 수출"
+      ],
+      "representative_article": {
+        "title": "한화 K9 자주포, 美 뚫었다… 獨·英 기업 제치고 ‘차륜형’ 수출",
+        "link": "https://www.chosun.com/economy/industry-company/2026/08/20/FFZD5PL2NREX3LOOMXZN66UXSU/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-08-20 00:46:00",
+        "match_score": 33.1
+      },
+      "related_articles": [
+        {
+          "title": "한화 K9 자주포, 美 뚫었다… 獨·英 기업 제치고 ‘차륜형’ 수출",
+          "link": "https://www.chosun.com/economy/industry-company/2026/08/20/FFZD5PL2NREX3LOOMXZN66UXSU/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-08-20 00:46:00",
+          "match_score": 33.1
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "미래운용",
+      "reason": "역대 최대 실적 발표",
+      "score": 28.68,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "미래운용, 상반기 순이익 '역대 최대' 1조 육박…중소형사 약진(종합)"
+      ],
+      "representative_article": {
+        "title": "미래운용, 상반기 순이익 '역대 최대' 1조 육박…중소형사 약진(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260819152451008",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-08-19 20:30:56",
+        "match_score": 28.68
+      },
+      "related_articles": [
+        {
+          "title": "미래운용, 상반기 순이익 '역대 최대' 1조 육박…중소형사 약진(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260819152451008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-08-19 20:30:56",
+          "match_score": 28.68
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "사우디",
+      "reason": "원유 비축 요청 및 협력",
+      "score": 40.9,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "국제"
+      ],
+      "sample_titles": [
+        "호르무즈 막히자…사우디·UAE, 韓日에 원유 비축 확대 요청"
+      ],
+      "representative_article": {
+        "title": "호르무즈 막히자…사우디·UAE, 韓日에 원유 비축 확대 요청",
+        "link": "https://www.donga.com/news/Inter/article/all/20260819/134503351/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-08-19 15:03:00",
+        "match_score": 40.9
+      },
+      "related_articles": [
+        {
+          "title": "호르무즈 막히자…사우디·UAE, 韓日에 원유 비축 확대 요청",
+          "link": "https://www.donga.com/news/Inter/article/all/20260819/134503351/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-19 15:03:00",
+          "match_score": 40.9
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "모더나",
+      "reason": "신약 임상 성공",
+      "score": 39.7,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "‘키트루다+mRNA 백신’ 통했다…모더나, 피부암 임상 3상 성공"
+      ],
+      "representative_article": {
+        "title": "‘키트루다+mRNA 백신’ 통했다…모더나, 피부암 임상 3상 성공",
+        "link": "https://www.chosun.com/economy/science/2026/08/20/MRTGKOJUMQ4DKZTCMVRDGNDDMU/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-08-20 00:19:50",
+        "match_score": 39.7
+      },
+      "related_articles": [
+        {
+          "title": "‘키트루다+mRNA 백신’ 통했다…모더나, 피부암 임상 3상 성공",
+          "link": "https://www.chosun.com/economy/science/2026/08/20/MRTGKOJUMQ4DKZTCMVRDGNDDMU/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-08-20 00:19:50",
+          "match_score": 39.7
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "반도체",
+      "score": 79.2,
+      "article_count": 16,
+      "source_count": 6,
+      "categories": [
+        "경제/거시",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "반도체에 가려진 가계부채 경고등 … 국채금리發 연쇄충격 '공포'",
+        "반도체 일자리 15.7만개 … 올 하반기 8천개 늘어날듯",
+        "반도체·인공지능은 ‘속도전’이라면서 전력 정책은 공론화… 여론 눈치보기?"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "광주 반도체 클러스터에 생태공원 조성…친환경 산단 구상",
+        "link": "https://www.yna.co.kr/view/AKR20260819072900054",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-08-19 16:00:16",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "광주 반도체 클러스터에 생태공원 조성…친환경 산단 구상",
+          "link": "https://www.yna.co.kr/view/AKR20260819072900054",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-08-19 16:00:16",
+          "match_score": 37.67
+        },
+        {
+          "title": "반도체 일자리 15.7만개 … 올 하반기 8천개 늘어날듯",
+          "link": "https://www.mk.co.kr/news/economy/12131393",
+          "source": "매일경제-경제",
+          "published_dt": "2026-08-19 17:40:29",
+          "match_score": 37.66
+        },
+        {
+          "title": "삼성전자, 온양캠퍼스에 6조 투자…AI 반도체 공장 내달 착공 - 뉴스락",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9mZ0dnT1BxT1VHd3JxZHBEX0pRVDh5VklHWWlqM2FBTHpxbEc1aWdOUjlmSm1Wa2hPMldMeFlNM3Y0V0NreEFKbEIxZ1VZMnN5UENvREZnLU84NTgtazlrQlRrT3FrRUF6dkZzOA?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-08-19 16:39:53",
+          "match_score": 36.96
+        },
+        {
+          "title": "저전력 AI 반도체 만드는 iHW, 520억 원 투자 유치 - 한국일보",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0zSHFTaTdscEFfWmVvcGlUd3BSdFppU194M3JXZExzU1VkTFRSbGloVlJtd0RpdWpxZFRoVkZHemVNYlJCVkNKa0pSWm0wczZsbW80TzhVdDNSX1VYVkZQbDBCRkNQUnM4QnhhbWZ0YWNlTXfSAXNBVV95cUxNM0hxU2k3bHBBX1plb3BpVHdwUnRaaVNfeDNyV2RMc1NVZExUUmxpaFZSbXdEaXVqcWRUaFZGR3plTWJSQlZDSmtKUlptMHM2bG1vNE84VXQzUl9VWFZGUGwwQkZDUFJzOEJ4YW1mdGFjZU13?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-08-19 15:49:00",
+          "match_score": 36.96
+        },
+        {
+          "title": "구글 AMD와 차기 AI 반도체 협력 전망, 삼성전자와 SK하이닉스 HBM도 수혜 커지나 - 비즈니스포스트",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5mX093cS1PTHJya19vM3ZBSGlEQU95RG1MVkVuOFRmbHBmUGZITGEzTXdSSXplLUVBQ1ktekluZkxfYzJMU2FJX1EyQ0tMWEF0YXhqX3hxbWQ4VGNzVzlCcXZLd2ZXZWttSjFTLU9hbkFoUjA?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-08-19 10:10:27",
+          "match_score": 36.96
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "인공지능",
+      "score": 50.4,
+      "article_count": 13,
+      "source_count": 6,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "기업 95%가 '무늬만 AI' … 수익률 제로",
+        "반도체·인공지능은 ‘속도전’이라면서 전력 정책은 공론화… 여론 눈치보기?",
+        "'AI'로 로컬푸드 할인 알림…전북도민 아이디어, 도정에 반영"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "반도체·인공지능은 ‘속도전’이라면서 전력 정책은 공론화… 여론 눈치보기?",
+        "link": "https://www.chosun.com/economy/economy_general/2026/08/20/7HEKXI6RHJDEPPEAQ4PCZQDUTU/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-08-20 00:32:00",
+        "match_score": 28.3
+      },
+      "related_articles": [
+        {
+          "title": "반도체·인공지능은 ‘속도전’이라면서 전력 정책은 공론화… 여론 눈치보기?",
+          "link": "https://www.chosun.com/economy/economy_general/2026/08/20/7HEKXI6RHJDEPPEAQ4PCZQDUTU/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-08-20 00:32:00",
+          "match_score": 28.3
+        },
+        {
+          "title": "'AI'로 로컬푸드 할인 알림…전북도민 아이디어, 도정에 반영",
+          "link": "https://www.yna.co.kr/view/AKR20260819131000055",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-08-19 15:50:08",
+          "match_score": 11.68
+        },
+        {
+          "title": "포항공대 졸업생·교수, 국제 AI 보안대회 우승 상금 일부 기부",
+          "link": "https://www.yna.co.kr/view/AKR20260819137000053",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-08-19 16:22:38",
+          "match_score": 11.68
+        },
+        {
+          "title": "기업 95%가 '무늬만 AI' … 수익률 제로",
+          "link": "https://www.mk.co.kr/news/economy/12131480",
+          "source": "매일경제-경제",
+          "published_dt": "2026-08-19 18:00:24",
+          "match_score": 11.66
+        },
+        {
+          "title": "SK하이닉스 40조원 자사주 매입·소각…“주주환원 기준 상향”",
+          "link": "https://www.etnews.com/20260819000356",
+          "source": "전자신문",
+          "published_dt": "2026-08-19 16:20:19",
+          "match_score": 11.5
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
