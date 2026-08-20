@@ -1,0 +1,357 @@
+{
+  "timestamp": "2026-08-21T06:01:38.578521",
+  "date": "20260821",
+  "data": [
+    {
+      "keyword": "용산공원",
+      "reason": "여야·서울시 간 활용 논의",
+      "score": 39.09,
+      "article_count": 3,
+      "source_count": 1,
+      "categories": [
+        "부동산",
+        "정치"
+      ],
+      "sample_titles": [
+        "녹지 지킨다는 吳 vs 공급 급한 金…'용산공원 밖'서 해법찾나",
+        "오세훈·김윤덕, 용산공원 주택공급 논의…‘공원 활용’ 입장차 확인",
+        "“재개발·재건축, 18년 기다리라고?”…민주, 오세훈에 “용산공원 주택공급 협력하라”"
+      ],
+      "representative_article": {
+        "title": "“재개발·재건축, 18년 기다리라고?”…민주, 오세훈에 “용산공원 주택공급 협력하라”",
+        "link": "https://www.mk.co.kr/news/realestate/12131945",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-08-20 09:51:42",
+        "match_score": 39.09
+      },
+      "related_articles": [
+        {
+          "title": "“재개발·재건축, 18년 기다리라고?”…민주, 오세훈에 “용산공원 주택공급 협력하라”",
+          "link": "https://www.mk.co.kr/news/realestate/12131945",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-08-20 09:51:42",
+          "match_score": 39.09
+        },
+        {
+          "title": "녹지 지킨다는 吳 vs 공급 급한 金…'용산공원 밖'서 해법찾나",
+          "link": "https://www.mk.co.kr/news/realestate/12132551",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-08-20 18:04:18",
+          "match_score": 38.39
+        },
+        {
+          "title": "오세훈·김윤덕, 용산공원 주택공급 논의…‘공원 활용’ 입장차 확인",
+          "link": "https://www.mk.co.kr/news/realestate/12132183",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-08-20 14:01:50",
+          "match_score": 38.39
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "SK하이닉스",
+      "reason": "대규모 투자 및 주가 영향",
+      "score": 43.49,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "SK하이닉스 40조 쏘자…“470만원 간다” “저가 매수, 강력한 신호” 글로벌 IB 호평",
+        "외국계 IB, 주주환원 하이닉스에 \"저평가…강력한 신호\"(종합2보)"
+      ],
+      "representative_article": {
+        "title": "SK하이닉스 40조 쏘자…“470만원 간다” “저가 매수, 강력한 신호” 글로벌 IB 호평",
+        "link": "https://www.etnews.com/20260820000422",
+        "source": "전자신문",
+        "published_dt": "2026-08-20 21:45:54",
+        "match_score": 43.49
+      },
+      "related_articles": [
+        {
+          "title": "SK하이닉스 40조 쏘자…“470만원 간다” “저가 매수, 강력한 신호” 글로벌 IB 호평",
+          "link": "https://www.etnews.com/20260820000422",
+          "source": "전자신문",
+          "published_dt": "2026-08-20 21:45:54",
+          "match_score": 43.49
+        },
+        {
+          "title": "외국계 IB, 주주환원 하이닉스에 \"저평가…강력한 신호\"(종합2보)",
+          "link": "https://www.yna.co.kr/view/AKR20260820106751008",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-08-20 16:16:50",
+          "match_score": 15.58
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "단거리탄도미사일",
+      "reason": "북한 미사일 발사 이슈",
+      "score": 17.07,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "[속보] 합참 \"北, 평양 일대서 단거리 탄도미사일 10여 발 발사\""
+      ],
+      "representative_article": {
+        "title": "[속보] 합참 \"北, 평양 일대서 단거리 탄도미사일 10여 발 발사\"",
+        "link": "https://www.yna.co.kr/view/AKR20260820165300504",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-08-20 17:51:35",
+        "match_score": 17.07
+      },
+      "related_articles": [
+        {
+          "title": "[속보] 합참 \"北, 평양 일대서 단거리 탄도미사일 10여 발 발사\"",
+          "link": "https://www.yna.co.kr/view/AKR20260820165300504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-20 17:51:35",
+          "match_score": 17.07
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "전월세안심신탁",
+      "reason": "정부 주거안정 정책",
+      "score": 17.95,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "부동산"
+      ],
+      "sample_titles": [
+        "월세 74만원→전세이자 53만원…정부 ‘전월세 안심신탁’ 도입 - 미디어생활"
+      ],
+      "representative_article": {
+        "title": "월세 74만원→전세이자 53만원…정부 ‘전월세 안심신탁’ 도입 - 미디어생활",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE51MVNDNDAxdE0xdkdpMkdwYkJtbW1uS0tVQlBXS0Zod2hidWFpMHJ5UTktZWNiWEx6dndKcHRXOGJLVDFaR0J0ZWJnY1ctdENJXzlPUHpTcm50NFJpbEFVR2R2MWFMQnpMWDdmbUdFQQ?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-08-21 03:12:42",
+        "match_score": 17.95
+      },
+      "related_articles": [
+        {
+          "title": "월세 74만원→전세이자 53만원…정부 ‘전월세 안심신탁’ 도입 - 미디어생활",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE51MVNDNDAxdE0xdkdpMkdwYkJtbW1uS0tVQlBXS0Zod2hidWFpMHJ5UTktZWNiWEx6dndKcHRXOGJLVDFaR0J0ZWJnY1ctdENJXzlPUHpTcm50NFJpbEFVR2R2MWFMQnpMWDdmbUdFQQ?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-08-21 03:12:42",
+          "match_score": 17.95
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "미국채",
+      "reason": "금리 변동 및 증시 영향",
+      "score": 13.76,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "국제"
+      ],
+      "sample_titles": [
+        "원화값 ‘1300원대 안착’ 기대감…엔저방어·美장기채 금리가 변수"
+      ],
+      "representative_article": {
+        "title": "원화값 ‘1300원대 안착’ 기대감…엔저방어·美장기채 금리가 변수",
+        "link": "https://www.mk.co.kr/news/economy/12132008",
+        "source": "매일경제-경제",
+        "published_dt": "2026-08-20 10:44:49",
+        "match_score": 13.76
+      },
+      "related_articles": [
+        {
+          "title": "원화값 ‘1300원대 안착’ 기대감…엔저방어·美장기채 금리가 변수",
+          "link": "https://www.mk.co.kr/news/economy/12132008",
+          "source": "매일경제-경제",
+          "published_dt": "2026-08-20 10:44:49",
+          "match_score": 13.76
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "HD현대중공업",
+      "reason": "미국 조선소 인수 추진",
+      "score": 7.1,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "[단독] HD현대重, 美 서·남부 조선소 2~3곳 인수 후보로 압축"
+      ],
+      "representative_article": {
+        "title": "[단독] HD현대重, 美 서·남부 조선소 2~3곳 인수 후보로 압축",
+        "link": "https://www.chosun.com/economy/industry-company/2026/08/21/MR3WT5TL4RF3ZOZHAMUMKYZQC4/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-08-21 05:00:00",
+        "match_score": 7.1
+      },
+      "related_articles": [
+        {
+          "title": "[단독] HD현대重, 美 서·남부 조선소 2~3곳 인수 후보로 압축",
+          "link": "https://www.chosun.com/economy/industry-company/2026/08/21/MR3WT5TL4RF3ZOZHAMUMKYZQC4/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-08-21 05:00:00",
+          "match_score": 7.1
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "한중관계",
+      "reason": "정상회담 및 소통 강화",
+      "score": 37.3,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "李, 왕이 접견하며 “한중관계 전면 복원 성과 만들고 있어”"
+      ],
+      "representative_article": {
+        "title": "李, 왕이 접견하며 “한중관계 전면 복원 성과 만들고 있어”",
+        "link": "https://www.donga.com/news/Politics/article/all/20260820/134514800/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-08-20 17:54:00",
+        "match_score": 37.3
+      },
+      "related_articles": [
+        {
+          "title": "李, 왕이 접견하며 “한중관계 전면 복원 성과 만들고 있어”",
+          "link": "https://www.donga.com/news/Politics/article/all/20260820/134514800/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-20 17:54:00",
+          "match_score": 37.3
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI기술",
+      "reason": "다수 기업 신기술 개발",
+      "score": 3.88,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "구로·세종 등 청년기숙사 2천호 공급…공공청사 200개소 개발(종합)"
+      ],
+      "representative_article": {
+        "title": "구로·세종 등 청년기숙사 2천호 공급…공공청사 200개소 개발(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260820088551002",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-08-20 16:11:57",
+        "match_score": 3.88
+      },
+      "related_articles": [
+        {
+          "title": "구로·세종 등 청년기숙사 2천호 공급…공공청사 200개소 개발(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260820088551002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-08-20 16:11:57",
+          "match_score": 3.88
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "강남아파트값",
+      "reason": "가격 하락 지속 현상",
+      "score": 3.09,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "[단독] 분당 샛별마을 재건축, 상가 반발에 '제동' 걸리나"
+      ],
+      "representative_article": {
+        "title": "[단독] 분당 샛별마을 재건축, 상가 반발에 '제동' 걸리나",
+        "link": "https://www.mk.co.kr/news/realestate/12132595",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-08-20 18:08:02",
+        "match_score": 3.09
+      },
+      "related_articles": [
+        {
+          "title": "[단독] 분당 샛별마을 재건축, 상가 반발에 '제동' 걸리나",
+          "link": "https://www.mk.co.kr/news/realestate/12132595",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-08-20 18:08:02",
+          "match_score": 3.09
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 9,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "헤즈볼라제재",
+      "reason": "미국 대테러 제재 강화",
+      "score": 3.5,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "美, 헤즈볼라 자금운반책 10명 제재…민항기로 수억달러 이동"
+      ],
+      "representative_article": {
+        "title": "美, 헤즈볼라 자금운반책 10명 제재…민항기로 수억달러 이동",
+        "link": "https://www.donga.com/news/Inter/article/all/20260821/134516812/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-08-21 05:56:25",
+        "match_score": 3.5
+      },
+      "related_articles": [
+        {
+          "title": "美, 헤즈볼라 자금운반책 10명 제재…민항기로 수억달러 이동",
+          "link": "https://www.donga.com/news/Inter/article/all/20260821/134516812/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-21 05:56:25",
+          "match_score": 3.5
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 10,
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
