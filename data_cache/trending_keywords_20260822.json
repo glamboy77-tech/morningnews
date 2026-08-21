@@ -1,0 +1,446 @@
+{
+  "timestamp": "2026-08-22T06:01:57.635112",
+  "date": "20260822",
+  "data": [
+    {
+      "keyword": "주주환원",
+      "reason": "삼성전자 대규모 환원 계획 반복",
+      "score": 42.3,
+      "article_count": 3,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "\"주주환원의 힘\"…美찬바람에도 삼전닉스 강세에 코스피 상승(종합)",
+        "삼성전자, 사상 최대 110조 규모 주주환원 단행",
+        "삼전, 주주환원 기대에 3.9% 급등 마감…하닉도 2.3%↑"
+      ],
+      "representative_article": {
+        "title": "삼성전자, 사상 최대 110조 규모 주주환원 단행",
+        "link": "https://www.aitimes.com/news/articleView.html?idxno=214236",
+        "source": "AI타임스",
+        "published_dt": "2026-08-22 14:44:04",
+        "match_score": 42.3
+      },
+      "related_articles": [
+        {
+          "title": "삼성전자, 사상 최대 110조 규모 주주환원 단행",
+          "link": "https://www.aitimes.com/news/articleView.html?idxno=214236",
+          "source": "AI타임스",
+          "published_dt": "2026-08-22 14:44:04",
+          "match_score": 42.3
+        },
+        {
+          "title": "\"주주환원의 힘\"…美찬바람에도 삼전닉스 강세에 코스피 상승(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260821084851008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-08-21 16:19:57",
+          "match_score": 30.98
+        },
+        {
+          "title": "삼전, 주주환원 기대에 3.9% 급등 마감…하닉도 2.3%↑",
+          "link": "https://www.yna.co.kr/view/AKR20260821041252008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-08-21 15:54:10",
+          "match_score": 30.98
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "반도체",
+      "reason": "역대 최대 수출 및 기술 혁신 언급",
+      "score": 38.86,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "8월 누적 수출 56% 쑥…반도체 수출 '역대 최대'",
+        "반도체 ‘역대 최대’ 수출 달성… 8월1~20일 수출도 56% 급증"
+      ],
+      "representative_article": {
+        "title": "8월 누적 수출 56% 쑥…반도체 수출 '역대 최대'",
+        "link": "https://www.mk.co.kr/news/economy/12133475",
+        "source": "매일경제-경제",
+        "published_dt": "2026-08-21 17:49:38",
+        "match_score": 38.86
+      },
+      "related_articles": [
+        {
+          "title": "8월 누적 수출 56% 쑥…반도체 수출 '역대 최대'",
+          "link": "https://www.mk.co.kr/news/economy/12133475",
+          "source": "매일경제-경제",
+          "published_dt": "2026-08-21 17:49:38",
+          "match_score": 38.86
+        },
+        {
+          "title": "반도체 ‘역대 최대’ 수출 달성… 8월1~20일 수출도 56% 급증",
+          "link": "https://www.mk.co.kr/news/economy/12133079",
+          "source": "매일경제-경제",
+          "published_dt": "2026-08-21 11:31:33",
+          "match_score": 38.86
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재건축",
+      "reason": "광명 하안 등 주요 수주 및 사업 소식",
+      "score": 40.11,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "'13조 대어' 광명 하안주공 재건축 수주전 막 올라 - 더구루"
+      ],
+      "representative_article": {
+        "title": "'13조 대어' 광명 하안주공 재건축 수주전 막 올라 - 더구루",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9xbWJXYmxVSkNpVlh3N0VFMmFST1FDSG1WZkRnNXZfQkRDY3NOaWh1OV9FSm1IUTh6N3Y3MjFRdm1SR3U1Y29PSDhlTnhPa0VnRk9nUVd5SXZjTXVFRG42ek1tRQ?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-08-22 00:00:17",
+        "match_score": 40.11
+      },
+      "related_articles": [
+        {
+          "title": "'13조 대어' 광명 하안주공 재건축 수주전 막 올라 - 더구루",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9xbWJXYmxVSkNpVlh3N0VFMmFST1FDSG1WZkRnNXZfQkRDY3NOaWh1OV9FSm1IUTh6N3Y3MjFRdm1SR3U1Y29PSDhlTnhPa0VnRk9nUVd5SXZjTXVFRG42ek1tRQ?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-08-22 00:00:17",
+          "match_score": 40.11
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "한미관계",
+      "reason": "한미 연합훈련 취소 및 미 대사 접견",
+      "score": 7.7,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "UFS 이어… 한미 해병 1만명 연합훈련도 취소"
+      ],
+      "representative_article": {
+        "title": "UFS 이어… 한미 해병 1만명 연합훈련도 취소",
+        "link": "https://www.chosun.com/politics/diplomacy-defense/2026/08/22/2327SR3DAZCL5AW7WCKTQLMPZY/",
+        "source": "조선일보-정치",
+        "published_dt": "2026-08-22 00:50:00",
+        "match_score": 7.7
+      },
+      "related_articles": [
+        {
+          "title": "UFS 이어… 한미 해병 1만명 연합훈련도 취소",
+          "link": "https://www.chosun.com/politics/diplomacy-defense/2026/08/22/2327SR3DAZCL5AW7WCKTQLMPZY/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-08-22 00:50:00",
+          "match_score": 7.7
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "카카오",
+      "reason": "인적분할 및 재편 움직임 보도",
+      "score": 41.7,
+      "article_count": 4,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "[특징주] 인적분할 악재로 부각?…카카오, 7%대 급락(종합)",
+        "카카오 노조, 본사 인적분할에 26일 판교서 공동행동",
+        "카카오 창사 이래 최대 재편…'카카오 디스카운트' 깬다(종합)"
+      ],
+      "representative_article": {
+        "title": "카카오, AI·투자사업 인적분할…'카카오AI·카카오X'로 재편",
+        "link": "https://www.etnews.com/20260821000086",
+        "source": "전자신문",
+        "published_dt": "2026-08-21 10:24:10",
+        "match_score": 41.7
+      },
+      "related_articles": [
+        {
+          "title": "카카오, AI·투자사업 인적분할…'카카오AI·카카오X'로 재편",
+          "link": "https://www.etnews.com/20260821000086",
+          "source": "전자신문",
+          "published_dt": "2026-08-21 10:24:10",
+          "match_score": 41.7
+        },
+        {
+          "title": "카카오 노조, 본사 인적분할에 26일 판교서 공동행동",
+          "link": "https://www.chosun.com/economy/tech_it/2026/08/22/GQ2GEOBWG42TQNJXGVQWGZJTMY/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-08-22 00:06:10",
+          "match_score": 40.3
+        },
+        {
+          "title": "카카오 창사 이래 최대 재편…'카카오 디스카운트' 깬다(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260821081351017",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-08-21 16:56:41",
+          "match_score": 39.03
+        },
+        {
+          "title": "[특징주] 인적분할 악재로 부각?…카카오, 7%대 급락(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260821072551008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-08-21 15:50:16",
+          "match_score": 38.67
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "금융시장",
+      "reason": "금리 상승과 금융 수요변화 관련",
+      "score": 28.68,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "한일 재무차관회의…세계 경제·금융시장 정책 대응 현황 공유"
+      ],
+      "representative_article": {
+        "title": "한일 재무차관회의…세계 경제·금융시장 정책 대응 현황 공유",
+        "link": "https://www.yna.co.kr/view/AKR20260821120200002",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-08-21 18:00:02",
+        "match_score": 28.68
+      },
+      "related_articles": [
+        {
+          "title": "한일 재무차관회의…세계 경제·금융시장 정책 대응 현황 공유",
+          "link": "https://www.yna.co.kr/view/AKR20260821120200002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-08-21 18:00:02",
+          "match_score": 28.68
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "北미사일",
+      "reason": "미국 인도태평양사령부 도발 언급",
+      "score": 34.6,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "美인태사령부, 올해 北미사일 도발 성명서 ‘규탄-불법’ 표현 뺐다"
+      ],
+      "representative_article": {
+        "title": "美인태사령부, 올해 北미사일 도발 성명서 ‘규탄-불법’ 표현 뺐다",
+        "link": "https://www.donga.com/news/Politics/article/all/20260821/134522698/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-08-22 01:40:00",
+        "match_score": 34.6
+      },
+      "related_articles": [
+        {
+          "title": "美인태사령부, 올해 北미사일 도발 성명서 ‘규탄-불법’ 표현 뺐다",
+          "link": "https://www.donga.com/news/Politics/article/all/20260821/134522698/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-22 01:40:00",
+          "match_score": 34.6
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "교육교부금",
+      "reason": "재정 절감과 대학 경쟁력 재투자",
+      "score": 41.56,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "교육교부금 개편해 '20조 절감'… 이공계 인재·대학 경쟁력에 재투자",
+        "교육교부금 ‘내국세 연동’ 55년만에 폐지한다…재정부담 20조 절감효과"
+      ],
+      "representative_article": {
+        "title": "교육교부금 개편해 '20조 절감'… 이공계 인재·대학 경쟁력에 재투자",
+        "link": "https://www.mk.co.kr/news/economy/12133426",
+        "source": "매일경제-경제",
+        "published_dt": "2026-08-21 17:39:59",
+        "match_score": 41.56
+      },
+      "related_articles": [
+        {
+          "title": "교육교부금 개편해 '20조 절감'… 이공계 인재·대학 경쟁력에 재투자",
+          "link": "https://www.mk.co.kr/news/economy/12133426",
+          "source": "매일경제-경제",
+          "published_dt": "2026-08-21 17:39:59",
+          "match_score": 41.56
+        },
+        {
+          "title": "교육교부금 ‘내국세 연동’ 55년만에 폐지한다…재정부담 20조 절감효과",
+          "link": "https://www.mk.co.kr/news/economy/12133047",
+          "source": "매일경제-경제",
+          "published_dt": "2026-08-21 11:11:17",
+          "match_score": 29.86
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "삼성전자",
+      "score": 52.2,
+      "article_count": 9,
+      "source_count": 6,
+      "categories": [
+        "경제/거시",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "\"주주환원의 힘\"…美찬바람에도 삼전닉스 강세에 코스피 상승(종합)",
+        "美 증시 약세에 국내 증시 하락…코스닥 급락에 매도 사이드카",
+        "삼성전자, AI 반도체 ‘배선 저항’ 45% 낮췄다…미세화 한계 돌파 기술 개발 - v.daum.net"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "삼성전자, 사상 최대 110조 규모 주주환원 단행",
+        "link": "https://www.aitimes.com/news/articleView.html?idxno=214236",
+        "source": "AI타임스",
+        "published_dt": "2026-08-22 14:44:04",
+        "match_score": 38.09
+      },
+      "related_articles": [
+        {
+          "title": "삼성전자, 사상 최대 110조 규모 주주환원 단행",
+          "link": "https://www.aitimes.com/news/articleView.html?idxno=214236",
+          "source": "AI타임스",
+          "published_dt": "2026-08-22 14:44:04",
+          "match_score": 38.09
+        },
+        {
+          "title": "삼성전자 DX부문 동행노조, 집회서 \"자사주 1000주 지급\" 요구",
+          "link": "https://zdnet.co.kr/view/?no=20260821181342",
+          "source": "ZDNetKorea",
+          "published_dt": "2026-08-21 22:45:47",
+          "match_score": 38.09
+        },
+        {
+          "title": "삼성전자 SAIT, AI 반도체 '초미세 배선 저항' 난제 풀 기술 구현",
+          "link": "https://www.etnews.com/20260821000219",
+          "source": "전자신문",
+          "published_dt": "2026-08-21 15:02:18",
+          "match_score": 37.49
+        },
+        {
+          "title": "금호건설, 전남광주통합특별시에 ‘삼성전자 플랙트 한국공장’ 짓는다",
+          "link": "https://www.mk.co.kr/news/realestate/12133029",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-08-21 10:57:42",
+          "match_score": 37.49
+        },
+        {
+          "title": "삼성전자, AI 반도체 ‘배선 저항’ 45% 낮췄다…미세화 한계 돌파 기술 개발 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5tc3VlOXB2Q0hkWnRiZExrQ0dkbjNKVGRBT0c2WXlVcXV4bWc5M3NlVmQ1WTNiRDZEdDVPQjZRQmwzblVxaC1wTWV0bFJWVVY0YjI4RA?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-08-21 13:38:09",
+          "match_score": 36.96
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI",
+      "score": 53.9,
+      "article_count": 9,
+      "source_count": 5,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "퀄컴, 세르지오 부니악 총괄 부사장 겸 모바일·컴퓨트·퍼스널 AI 그룹 본부장 선임",
+        "삼성전자, AI 반도체 ‘배선 저항’ 45% 낮췄다…미세화 한계 돌파 기술 개발 - v.daum.net",
+        "“삼성·TSMC가 선택한 K-IP 기술력\"... 윕스, 글로벌 반도체 기업들의 IP-AI 파트너로 우뚝 서 - 특허뉴스"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "퀄컴, 세르지오 부니악 총괄 부사장 겸 모바일·컴퓨트·퍼스널 AI 그룹 본부장 선임",
+        "link": "https://www.etnews.com/20260821000140",
+        "source": "전자신문",
+        "published_dt": "2026-08-21 12:51:58",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "퀄컴, 세르지오 부니악 총괄 부사장 겸 모바일·컴퓨트·퍼스널 AI 그룹 본부장 선임",
+          "link": "https://www.etnews.com/20260821000140",
+          "source": "전자신문",
+          "published_dt": "2026-08-21 12:51:58",
+          "match_score": 37.49
+        },
+        {
+          "title": "삼성전자 SAIT, AI 반도체 '초미세 배선 저항' 난제 풀 기술 구현",
+          "link": "https://www.etnews.com/20260821000219",
+          "source": "전자신문",
+          "published_dt": "2026-08-21 15:02:18",
+          "match_score": 37.49
+        },
+        {
+          "title": "카카오, AI·투자사업 인적분할…'카카오AI·카카오X'로 재편",
+          "link": "https://www.etnews.com/20260821000086",
+          "source": "전자신문",
+          "published_dt": "2026-08-21 10:24:10",
+          "match_score": 37.49
+        },
+        {
+          "title": "삼성전자, AI 반도체 ‘배선 저항’ 45% 낮췄다…미세화 한계 돌파 기술 개발 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5tc3VlOXB2Q0hkWnRiZExrQ0dkbjNKVGRBT0c2WXlVcXV4bWc5M3NlVmQ1WTNiRDZEdDVPQjZRQmwzblVxaC1wTWV0bFJWVVY0YjI4RA?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-08-21 13:38:09",
+          "match_score": 36.96
+        },
+        {
+          "title": "“삼성·TSMC가 선택한 K-IP 기술력\"... 윕스, 글로벌 반도체 기업들의 IP-AI 파트너로 우뚝 서 - 특허뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZeEJ0VGZiR3RPNVozSUJfdDRSSFZWalUtXzFJZk5oS1dJYXhaaFBiRnpNdTBsTXdmVXVPR0hJODZyM0VRQUpnVg?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-08-21 16:08:00",
+          "match_score": 36.96
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
