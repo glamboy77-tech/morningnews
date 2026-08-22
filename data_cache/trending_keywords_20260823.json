@@ -1,0 +1,393 @@
+{
+  "timestamp": "2026-08-23T06:01:21.349612",
+  "date": "20260823",
+  "data": [
+    {
+      "keyword": "용산공원",
+      "reason": "정치권 주택 공급 이슈",
+      "score": 41.53,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "부동산",
+        "정치"
+      ],
+      "sample_titles": [
+        "與김영배, 오세훈과 오찬회동…용산공원 주택공급 두고 평행선(종합)",
+        "오세훈 서울시장, “용산공원 본체부지 주택용지 활용 안돼” 입장 재확인...서리풀지구 비판에도 반박"
+      ],
+      "representative_article": {
+        "title": "與김영배, 오세훈과 오찬회동…용산공원 주택공급 두고 평행선(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260822034251001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-08-22 16:34:04",
+        "match_score": 41.53
+      },
+      "related_articles": [
+        {
+          "title": "與김영배, 오세훈과 오찬회동…용산공원 주택공급 두고 평행선(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260822034251001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-22 16:34:04",
+          "match_score": 41.53
+        },
+        {
+          "title": "오세훈 서울시장, “용산공원 본체부지 주택용지 활용 안돼” 입장 재확인...서리풀지구 비판에도 반박",
+          "link": "https://www.mk.co.kr/news/realestate/12133852",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-08-22 18:55:38",
+          "match_score": 39.3
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "기준금리",
+      "reason": "경제금융 전망 변화",
+      "score": 38.12,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "기준금리 전망 '혼조'…\"7·8월 연속 인상\" vs \"숨 고르기\""
+      ],
+      "representative_article": {
+        "title": "기준금리 전망 '혼조'…\"7·8월 연속 인상\" vs \"숨 고르기\"",
+        "link": "https://www.yna.co.kr/view/AKR20260822017400002",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-08-23 05:30:00",
+        "match_score": 38.12
+      },
+      "related_articles": [
+        {
+          "title": "기준금리 전망 '혼조'…\"7·8월 연속 인상\" vs \"숨 고르기\"",
+          "link": "https://www.yna.co.kr/view/AKR20260822017400002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-08-23 05:30:00",
+          "match_score": 38.12
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "삼성전자",
+      "reason": "주가 반등, 주주환원",
+      "score": 39.96,
+      "article_count": 3,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "“유학비 부담 확 줄어 좋아요”…삼전닉스 주주환원 300조원의 ‘나비효과’",
+        "삼전닉스 반등하자 서학개미 움직였다…한주간 라운드힐 ETF 1천억 사들여",
+        "반도체 호황에 현금 쌓여…삼성전자, 내년 주주환원 재원 188조 - 네이트"
+      ],
+      "representative_article": {
+        "title": "반도체 호황에 현금 쌓여…삼성전자, 내년 주주환원 재원 188조 - 네이트",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5lbk1HYWVnU0ZZbk9CaFd2SUd6S2NQU05jQmxWUEVzRExTTUNEc21abWVIQlBLbUxHRUxscjVKSGlWWGxrcENXUFI0WmJ6UGJGWl9J?oc=5",
+        "source": "키워드-반도체AI",
+        "published_dt": "2026-08-22 09:14:08",
+        "match_score": 39.96
+      },
+      "related_articles": [
+        {
+          "title": "반도체 호황에 현금 쌓여…삼성전자, 내년 주주환원 재원 188조 - 네이트",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5lbk1HYWVnU0ZZbk9CaFd2SUd6S2NQU05jQmxWUEVzRExTTUNEc21abWVIQlBLbUxHRUxscjVKSGlWWGxrcENXUFI0WmJ6UGJGWl9J?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-08-22 09:14:08",
+          "match_score": 39.96
+        },
+        {
+          "title": "“유학비 부담 확 줄어 좋아요”…삼전닉스 주주환원 300조원의 ‘나비효과’",
+          "link": "https://www.mk.co.kr/news/economy/12133765",
+          "source": "매일경제-경제",
+          "published_dt": "2026-08-22 11:37:57",
+          "match_score": 14.66
+        },
+        {
+          "title": "삼전닉스 반등하자 서학개미 움직였다…한주간 라운드힐 ETF 1천억 사들여",
+          "link": "https://www.etnews.com/20260822000001",
+          "source": "전자신문",
+          "published_dt": "2026-08-22 11:40:00",
+          "match_score": 13.0
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "테슬라리콜",
+      "reason": "중국 300만대 대규모 리콜",
+      "score": 6.7,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "테슬라, 中서 300만대 리콜…“매립형 손잡이가 화근, 사고시 문 안 열려”",
+        "불 났는데 차문 안열려…테슬라, 中서 300만 대 대규모 리콜"
+      ],
+      "representative_article": {
+        "title": "테슬라, 中서 300만대 리콜…“매립형 손잡이가 화근, 사고시 문 안 열려”",
+        "link": "https://www.etnews.com/20260822000005",
+        "source": "전자신문",
+        "published_dt": "2026-08-22 09:24:31",
+        "match_score": 6.7
+      },
+      "related_articles": [
+        {
+          "title": "테슬라, 中서 300만대 리콜…“매립형 손잡이가 화근, 사고시 문 안 열려”",
+          "link": "https://www.etnews.com/20260822000005",
+          "source": "전자신문",
+          "published_dt": "2026-08-22 09:24:31",
+          "match_score": 6.7
+        },
+        {
+          "title": "불 났는데 차문 안열려…테슬라, 中서 300만 대 대규모 리콜",
+          "link": "https://www.donga.com/news/Inter/article/all/20260822/134523260/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-22 08:50:00",
+          "match_score": 6.5
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "상생협력법",
+      "reason": "온라인유통업계 반발",
+      "score": 38.7,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "온라인유통·플랫폼업계, 상생협력법 정면 반발…개정안 전면 재검토 요구"
+      ],
+      "representative_article": {
+        "title": "온라인유통·플랫폼업계, 상생협력법 정면 반발…개정안 전면 재검토 요구",
+        "link": "https://www.etnews.com/20260821000210",
+        "source": "전자신문",
+        "published_dt": "2026-08-23 05:00:00",
+        "match_score": 38.7
+      },
+      "related_articles": [
+        {
+          "title": "온라인유통·플랫폼업계, 상생협력법 정면 반발…개정안 전면 재검토 요구",
+          "link": "https://www.etnews.com/20260821000210",
+          "source": "전자신문",
+          "published_dt": "2026-08-23 05:00:00",
+          "match_score": 38.7
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "반도체기술",
+      "reason": "GIST-삼성 기술 혁신",
+      "score": 10.29,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "GIST-삼성-MIT, Ru에 탄소원자 5개 첨가로 반도체 배선 \"저항 혁명\""
+      ],
+      "representative_article": {
+        "title": "GIST-삼성-MIT, Ru에 탄소원자 5개 첨가로 반도체 배선 \"저항 혁명\"",
+        "link": "https://zdnet.co.kr/view/?no=20260822214044",
+        "source": "ZDNetKorea",
+        "published_dt": "2026-08-22 21:40:44",
+        "match_score": 10.29
+      },
+      "related_articles": [
+        {
+          "title": "GIST-삼성-MIT, Ru에 탄소원자 5개 첨가로 반도체 배선 \"저항 혁명\"",
+          "link": "https://zdnet.co.kr/view/?no=20260822214044",
+          "source": "ZDNetKorea",
+          "published_dt": "2026-08-22 21:40:44",
+          "match_score": 10.29
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "러우크라",
+      "reason": "러·우 공습 사망 사고",
+      "score": 4.7,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "쇼핑센터 참사 하루 만에 러·우 또 공습…양국서 최소 5명 사망"
+      ],
+      "representative_article": {
+        "title": "쇼핑센터 참사 하루 만에 러·우 또 공습…양국서 최소 5명 사망",
+        "link": "https://www.donga.com/news/Inter/article/all/20260822/134523845/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-08-22 21:07:11",
+        "match_score": 4.7
+      },
+      "related_articles": [
+        {
+          "title": "쇼핑센터 참사 하루 만에 러·우 또 공습…양국서 최소 5명 사망",
+          "link": "https://www.donga.com/news/Inter/article/all/20260822/134523845/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-22 21:07:11",
+          "match_score": 4.7
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "주택매물",
+      "reason": "강남 집값 조정 움직임",
+      "score": 3.09,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "오세훈 서울시장, “용산공원 본체부지 주택용지 활용 안돼” 입장 재확인...서리풀지구 비판에도 반박"
+      ],
+      "representative_article": {
+        "title": "오세훈 서울시장, “용산공원 본체부지 주택용지 활용 안돼” 입장 재확인...서리풀지구 비판에도 반박",
+        "link": "https://www.mk.co.kr/news/realestate/12133852",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-08-22 18:55:38",
+        "match_score": 3.09
+      },
+      "related_articles": [
+        {
+          "title": "오세훈 서울시장, “용산공원 본체부지 주택용지 활용 안돼” 입장 재확인...서리풀지구 비판에도 반박",
+          "link": "https://www.mk.co.kr/news/realestate/12133852",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-08-22 18:55:38",
+          "match_score": 3.09
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "나왔다",
+      "score": 17.9,
+      "article_count": 3,
+      "source_count": 3,
+      "categories": [
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "“CI도 나왔다”…롯데케미칼-HD현대케미칼 통합법인 출격 준비",
+        "서울역·충정로역 도보 10분컷…복층에 발코니 갖춘 단기임대",
+        "“119억 매물 옆에 92억짜리 나왔다”…강남 집주인 6명 중 5명 호가 내렸다"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "“CI도 나왔다”…롯데케미칼-HD현대케미칼 통합법인 출격 준비",
+        "link": "https://www.etnews.com/20260821000153",
+        "source": "전자신문",
+        "published_dt": "2026-08-22 09:00:00",
+        "match_score": 28.49
+      },
+      "related_articles": [
+        {
+          "title": "“CI도 나왔다”…롯데케미칼-HD현대케미칼 통합법인 출격 준비",
+          "link": "https://www.etnews.com/20260821000153",
+          "source": "전자신문",
+          "published_dt": "2026-08-22 09:00:00",
+          "match_score": 28.49
+        },
+        {
+          "title": "“119억 매물 옆에 92억짜리 나왔다”…강남 집주인 6명 중 5명 호가 내렸다",
+          "link": "https://www.mk.co.kr/news/realestate/12133731",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-08-22 08:54:33",
+          "match_score": 28.49
+        },
+        {
+          "title": "서울역·충정로역 도보 10분컷…복층에 발코니 갖춘 단기임대",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/08/22/2026082200639.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-08-22 09:22:33",
+          "match_score": 11.5
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "SK",
+      "score": 16.5,
+      "article_count": 3,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "“유학비 부담 확 줄어 좋아요”…삼전닉스 주주환원 300조원의 ‘나비효과’",
+        "삼전닉스 반등하자 서학개미 움직였다…한주간 라운드힐 ETF 1천억 사들여",
+        "SK하이닉스, 일본 공장 건설 추진설 부인…투자 여부 ‘미정’ - 더퍼블릭"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "SK하이닉스, 일본 공장 건설 추진설 부인…투자 여부 ‘미정’ - 더퍼블릭",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9pMWt2elFOUkxpZUo1a0J1TGVvZXhaZG5nQ3RhZUswUHhiRFphVV9ESHk0VmxtWVB3ZmgxNHUtdTc5b3dwczVtUTRkS1R5dnJvOG1YaTN5Z2dKYkVRTjg4c2VHUllrU014LWNv0gFvQVVfeXFMUGF1SzRmcVUtVnpsRmo3dGVOWEZjbjQzWll0T0xKcUJ6cXZCRjVwOG95b1hZZUFfM3B1QnoxeFZLTjlwSW9uNE40UWtwYXJ6Tkc5akZFUEIwQVhrM0h5NkExNURBXzAtdktaRWU5WFZZ?oc=5",
+        "source": "키워드-반도체AI",
+        "published_dt": "2026-08-22 09:16:33",
+        "match_score": 36.96
+      },
+      "related_articles": [
+        {
+          "title": "SK하이닉스, 일본 공장 건설 추진설 부인…투자 여부 ‘미정’ - 더퍼블릭",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9pMWt2elFOUkxpZUo1a0J1TGVvZXhaZG5nQ3RhZUswUHhiRFphVV9ESHk0VmxtWVB3ZmgxNHUtdTc5b3dwczVtUTRkS1R5dnJvOG1YaTN5Z2dKYkVRTjg4c2VHUllrU014LWNv0gFvQVVfeXFMUGF1SzRmcVUtVnpsRmo3dGVOWEZjbjQzWll0T0xKcUJ6cXZCRjVwOG95b1hZZUFfM3B1QnoxeFZLTjlwSW9uNE40UWtwYXJ6Tkc5akZFUEIwQVhrM0h5NkExNURBXzAtdktaRWU5WFZZ?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-08-22 09:16:33",
+          "match_score": 36.96
+        },
+        {
+          "title": "“유학비 부담 확 줄어 좋아요”…삼전닉스 주주환원 300조원의 ‘나비효과’",
+          "link": "https://www.mk.co.kr/news/economy/12133765",
+          "source": "매일경제-경제",
+          "published_dt": "2026-08-22 11:37:57",
+          "match_score": 11.66
+        },
+        {
+          "title": "삼전닉스 반등하자 서학개미 움직였다…한주간 라운드힐 ETF 1천억 사들여",
+          "link": "https://www.etnews.com/20260822000001",
+          "source": "전자신문",
+          "published_dt": "2026-08-22 11:40:00",
+          "match_score": 11.5
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
