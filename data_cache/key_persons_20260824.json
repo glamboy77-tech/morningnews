@@ -1,0 +1,107 @@
+{
+  "timestamp": "2026-08-24T06:01:43.102103",
+  "date": "20260824",
+  "data": {
+    "김민석": {
+      "articles": [
+        {
+          "title": "김민석, 오늘 장동혁 등 野 지도부와 상견례",
+          "link": "https://www.yna.co.kr/view/AKR20260823041500001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-24 05:00:04",
+          "description": "(서울=연합뉴스) 정연솔 기자 = 더불어민주당 김민석 대표는 24일 국민의힘 장동혁 대표를 비롯한 야당 지도부와 취임 후 첫 상견례를 갖는다.",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "90도 인사, 복장 혁신, 의원 모두 당직… 김민석 아이디어에 의원들 당황",
+          "link": "https://www.chosun.com/politics/assembly/2026/08/24/KAHQSBO2Y5DZNB7D5CHLI6MVMU/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-08-24 00:42:00",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "김민석 \"부득이한 비거주 1주택 사유 폭넓게 인정…사각 없애야\"",
+          "link": "https://www.yna.co.kr/view/AKR20260823024500001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-23 11:31:43",
+          "description": "(서울=연합뉴스) 김남권 정연솔 기자 = 더불어민주당 김민석 대표는 23일 정부의 세제 개편안과 관련해 \"비거주 1주택자에 대해서는 현실의 다양...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "sector": "경제",
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "국회의원"
+    },
+    "트럼프": {
+      "articles": [
+        {
+          "title": "美 50% 관세에 캐나다 “전쟁이다”… 동맹도 敵 만든 트럼프",
+          "link": "https://www.donga.com/news/Inter/article/all/20260824/134528211/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-24 04:30:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2025/05/22/131661937.2.jpg\" vspace=\"10\" />미국과 국경을 맞대고 있으며 핵심 동맹 중 하나로 꼽히는 캐나다가 미국에 일종의 ‘무역 전쟁’을 선포했다. 19일부터 캐나다와 관세 협상을 벌여 온 도널드 트럼프 미국 행정부가 협상 결렬 뒤인 미 동부 시간 22일 0시(한국 시간 22일 오후 1시)부터 △유제품 △주류 △하키용품 △기계 등 200억 달러(약 27조8000억 원) 규모의 캐나다산 수입품에 50%의 관세를 부과하자 캐나다 또한 즉각 ‘맞불 관세’를 천명한 것이다. 200억 달러는 캐나다의 연간 대미 수출액의 약 5%다. 마크 카니 캐나다 총리는 이날 수도 오타와에서 대국민 연설을 갖고 “우리는 공격을 받았다. 공격을 받았다면 전쟁 상태”라고 밝혔다. 미국의 관세 부과에는 “달러 대 달러(dollar for dollar)”, 즉 같은 금액으로 보복할 것이라고 선언했다. 특히 카니 총리는 “그들(미국)은 너무 많은 것을 요구하고 너무 적은 것을 제시했다”며 “미국의 요구는 ‘나쁜 거래(bad deal)’였다”고 강조했다",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프 측근 “김정은보다 李 먼저 만나야”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260824/134528198/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-24 04:30:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/08/23/134527451.1.jpg\" vspace=\"10\" />프레드 플라이츠 미국우선주의정책연구소(AFPI) 부소장이 21일(현지 시간) “도널드 트럼프 미국 대통령은 김정은 북한 국무위원장을 만나기에 앞서 서울을 방문해 이재명 대통령부터 만나야 한다”고 주장했다. 최근 북-미 정상회담 개최에 공을 들이고 있는 트럼프 대통령이 성공적인 회담을 이뤄내려면 한국과의 긴밀한 공조가 우선이라는 취지다. 플라이츠 부소장은 트럼프 1기 행정부에서 백악관 국가안보회의(NSC) 비서실장을 지낸 친(親)트럼프 인사다. 플라이츠 부소장은 이날 미국 보수 매체 ‘아메리칸 그레이트니스’ 기고문에서 “트럼프 대통령의 방한은 한미 관계에 대한 그의 확고한 의지와 김 위원장과의 개인 외교를 재개하겠다는 결의를 보여줄 수 있다”며 “2018년 방한 때처럼 한국 국회 연설을 통해 메시지를 강화하는 것도 좋다”고 조언했다. 이어 “마코 루비오 미 국무장관을 즉시 서울로 파견해 올가을 북-미 정상회담 개최를 위한 세부 사항을 한국과 조율해야 한다”고 촉구했다.  플라이츠 부",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "‘애착 담요’ 하프, 트럼프 따라 골프장서 전력 질주…장문 편지까지",
+          "link": "https://www.donga.com/news/Inter/article/all/20260823/134524924/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-23 13:59:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/08/23/134525378.1.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령의 ‘애착 담요(comfort blanket)’라는 별칭으로 잘 알려진 내털리 하프 백악관 보좌관(35)에 관한 비화와 사진 등이 잇따라 공개되고 있다. 하프 보좌관은 트럼프 대통령이 지난달 8일 북대서양조약기구(NATO·나토) 정상회담 뒤 이란의 암살 위협을 고려해 비행기를 갈아탔을 때 대통령과 동승해 유명세를 탄 최측근이다.영국 대중 매체 ‘더 미러’가 21일(현지 시간) 공개한 사진에는 2023년 스코틀랜드 턴베리의 골프 클럽에서 카트를 타고 이동하는 트럼프 대통령을 하프 보좌관이 전력 질주로 따라가는 모습이 담겼다. 이를 두고 더 미러는 ‘인간 스프린터(human sprinter)’라고 칭했다. 평소 휴대용 프린터를 들고 다니며 대통령에 관한 뉴스 기사와 소셜미디어 게시물을 출력해 보여주는 하프 보좌관의 별명 ‘인간 프린터(human printer)’를 비튼 것으로 보인다.이후 하프 보좌관은 이 같은 자신의 행동이 트럼프 대통령을 화나게 하지 않았",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "미국 대통령"
+    }
+  }
+}
