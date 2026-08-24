@@ -1,0 +1,463 @@
+{
+  "timestamp": "2026-08-25T06:02:07.693179",
+  "date": "20260825",
+  "data": [
+    {
+      "keyword": "북핵문제",
+      "reason": "한미 대북공조 협의 및 관련 논의 반복",
+      "score": 33.88,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "한미, 대북공조 확인했지만 '비핵화' 명시 없이 '북핵문제 해결'"
+      ],
+      "representative_article": {
+        "title": "한미, 대북공조 확인했지만 '비핵화' 명시 없이 '북핵문제 해결'",
+        "link": "https://www.yna.co.kr/view/AKR20260825001300504",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-08-25 01:11:27",
+        "match_score": 33.88
+      },
+      "related_articles": [
+        {
+          "title": "한미, 대북공조 확인했지만 '비핵화' 명시 없이 '북핵문제 해결'",
+          "link": "https://www.yna.co.kr/view/AKR20260825001300504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-25 01:11:27",
+          "match_score": 33.88
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "기준금리",
+      "reason": "한국 기준금리 동결 여부 집중 보도",
+      "score": 30.61,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "韓 기준금리, 연속 인상이냐 동결이냐 … 신현송은 27일 금통위 직후 잭슨홀行"
+      ],
+      "representative_article": {
+        "title": "韓 기준금리, 연속 인상이냐 동결이냐 … 신현송은 27일 금통위 직후 잭슨홀行",
+        "link": "https://www.mk.co.kr/news/economy/12135100",
+        "source": "매일경제-경제",
+        "published_dt": "2026-08-24 17:49:22",
+        "match_score": 30.61
+      },
+      "related_articles": [
+        {
+          "title": "韓 기준금리, 연속 인상이냐 동결이냐 … 신현송은 27일 금통위 직후 잭슨홀行",
+          "link": "https://www.mk.co.kr/news/economy/12135100",
+          "source": "매일경제-경제",
+          "published_dt": "2026-08-24 17:49:22",
+          "match_score": 30.61
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "반도체",
+      "reason": "국세수입과 산업 동향에서 자주 언급",
+      "score": 37.83,
+      "article_count": 3,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "내년 '800조+α' 슈퍼예산…반도체발 국세수입 600조 넘을 듯",
+        "AI·반도체 '메가 프로젝트' 주마가편…이 대통령, 재계 총수 잇단 만남",
+        "호남권 반도체 클러스터 범시민추진위 출범"
+      ],
+      "representative_article": {
+        "title": "호남권 반도체 클러스터 범시민추진위 출범",
+        "link": "https://www.yna.co.kr/view/AKR20260824123400054",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-08-24 15:49:28",
+        "match_score": 37.83
+      },
+      "related_articles": [
+        {
+          "title": "호남권 반도체 클러스터 범시민추진위 출범",
+          "link": "https://www.yna.co.kr/view/AKR20260824123400054",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-08-24 15:49:28",
+          "match_score": 37.83
+        },
+        {
+          "title": "내년 '800조+α' 슈퍼예산…반도체발 국세수입 600조 넘을 듯",
+          "link": "https://www.yna.co.kr/view/AKR20260824145900002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-08-25 05:30:00",
+          "match_score": 31.68
+        },
+        {
+          "title": "AI·반도체 '메가 프로젝트' 주마가편…이 대통령, 재계 총수 잇단 만남",
+          "link": "https://www.etnews.com/20260824000357",
+          "source": "전자신문",
+          "published_dt": "2026-08-24 18:22:01",
+          "match_score": 28.79
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재건축",
+      "reason": "서울시와 국회에서 관련 법안과 사업 논의",
+      "score": 39.21,
+      "article_count": 3,
+      "source_count": 3,
+      "categories": [
+        "부동산",
+        "정치"
+      ],
+      "sample_titles": [
+        "서울시, '500세대 이하 재개발 인허가 자치구 이양'에 강력 반발(종합)",
+        "재건축부터 용산 개발까지…주택공급 핵심법안 26일 국회로 - 뉴스1",
+        "500가구 이하 정비구역 지정 권한 이양 방안에…서울시 “사업 지연” 반발"
+      ],
+      "representative_article": {
+        "title": "재건축부터 용산 개발까지…주택공급 핵심법안 26일 국회로 - 뉴스1",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ZdGMwbTVzU3pveFJaZjZMdWotRTRUWHItX1FxLVpnSkVWRTByYTJ6OEw4bWFnSVl2N2lpcGt5X2JpTEJtTGxJa2UxNXFqY2tfZ0w3MkFCaGRBTVXSAWBBVV95cUxPaWJVd0NFeEdSQnR3b1RiTDVVRlJ3NEQzNWtyZlNhejBfMmRfV093WEk4QzliXzJEX294UVdpdmJYbGVKQlhxU29IY0JEbGhBZFppX3dZRUVxeHZQVUJiMW4?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-08-25 05:05:00",
+        "match_score": 39.21
+      },
+      "related_articles": [
+        {
+          "title": "재건축부터 용산 개발까지…주택공급 핵심법안 26일 국회로 - 뉴스1",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ZdGMwbTVzU3pveFJaZjZMdWotRTRUWHItX1FxLVpnSkVWRTByYTJ6OEw4bWFnSVl2N2lpcGt5X2JpTEJtTGxJa2UxNXFqY2tfZ0w3MkFCaGRBTVXSAWBBVV95cUxPaWJVd0NFeEdSQnR3b1RiTDVVRlJ3NEQzNWtyZlNhejBfMmRfV093WEk4QzliXzJEX294UVdpdmJYbGVKQlhxU29IY0JEbGhBZFppX3dZRUVxeHZQVUJiMW4?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-08-25 05:05:00",
+          "match_score": 39.21
+        },
+        {
+          "title": "500가구 이하 정비구역 지정 권한 이양 방안에…서울시 “사업 지연” 반발",
+          "link": "https://www.mk.co.kr/news/realestate/12134677",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-08-24 13:47:17",
+          "match_score": 13.29
+        },
+        {
+          "title": "서울시, '500세대 이하 재개발 인허가 자치구 이양'에 강력 반발(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260824090251004",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-24 15:03:21",
+          "match_score": 12.32
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "삼성전자",
+      "reason": "주가 동향과 기술 혁신 관련 집중 보도",
+      "score": 38.88,
+      "article_count": 3,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "삼성전자, 사상 최대 주주환원에도 주가 8%↓…그룹주도 약세(종합)",
+        "삼성·SK, '핫칩스 2026'서 차세대 HBM 병목 다른 해법 제시",
+        "삼전·닉스 동반 급락에 코스피 3%↓…코스닥은 1%대 올라(종합)"
+      ],
+      "representative_article": {
+        "title": "삼성전자, 사상 최대 주주환원에도 주가 8%↓…그룹주도 약세(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260824036751008",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-08-24 16:29:19",
+        "match_score": 38.88
+      },
+      "related_articles": [
+        {
+          "title": "삼성전자, 사상 최대 주주환원에도 주가 8%↓…그룹주도 약세(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260824036751008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-08-24 16:29:19",
+          "match_score": 38.88
+        },
+        {
+          "title": "삼전·닉스 동반 급락에 코스피 3%↓…코스닥은 1%대 올라(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260824119751008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-08-24 16:22:15",
+          "match_score": 11.98
+        },
+        {
+          "title": "삼성·SK, '핫칩스 2026'서 차세대 HBM 병목 다른 해법 제시",
+          "link": "https://www.etnews.com/20260824000178",
+          "source": "전자신문",
+          "published_dt": "2026-08-24 17:00:00",
+          "match_score": 11.8
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI기술",
+      "reason": "기업과 정부의 디지털 투자 및 전략 공유",
+      "score": 5.23,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "중진공, 대전서 'D-엑스포' 개최…딥테크 기술·IP 전략 공유"
+      ],
+      "representative_article": {
+        "title": "중진공, 대전서 'D-엑스포' 개최…딥테크 기술·IP 전략 공유",
+        "link": "https://www.yna.co.kr/view/AKR20260824122000030",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-08-24 15:59:16",
+        "match_score": 5.23
+      },
+      "related_articles": [
+        {
+          "title": "중진공, 대전서 'D-엑스포' 개최…딥테크 기술·IP 전략 공유",
+          "link": "https://www.yna.co.kr/view/AKR20260824122000030",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-08-24 15:59:16",
+          "match_score": 5.23
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "외환시장",
+      "reason": "원·달러 환율 및 금융시장 움직임 언급",
+      "score": 38.2,
+      "article_count": 3,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "국제"
+      ],
+      "sample_titles": [
+        "삼전닉스 주주환원 기대감 ‘솔솔’…원화값도 ‘1370원’대로",
+        "美 국채 바이백 확대 후폭풍…헤지펀드 ‘달러 약세 베팅’ 확산",
+        "일일 금융외환시장 동향(8.24일) - bok.or.kr"
+      ],
+      "representative_article": {
+        "title": "일일 금융외환시장 동향(8.24일) - bok.or.kr",
+        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQVVpWSFFwUjYwQWV6N0tkQkVsVXFGWlktZEVVR203enVtODNYNHktNGdQRy1JUlM2bE5UWHRiUF9fdFhGVm5lNXRBcmJSLXI0aXBXZTV0bzdwemFSSGVkODhsNjhobXk1UlJTY0RVSnhlTFVQV3l3amM3eXNoT1ZNSDlZZXNER0p3LVl1S1gxbEZQT2dYb01iUTFZZGdFU1dLQ3Z3N1c4aFVON2FWbERPT3J1dkFtbVNIdWtvZjFjYnZ3VDhDUkdmT29wLVFYTTRCM2ZEdw?oc=5",
+        "source": "공식-한국은행",
+        "published_dt": "2026-08-24 22:38:39",
+        "match_score": 38.2
+      },
+      "related_articles": [
+        {
+          "title": "일일 금융외환시장 동향(8.24일) - bok.or.kr",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQVVpWSFFwUjYwQWV6N0tkQkVsVXFGWlktZEVVR203enVtODNYNHktNGdQRy1JUlM2bE5UWHRiUF9fdFhGVm5lNXRBcmJSLXI0aXBXZTV0bzdwemFSSGVkODhsNjhobXk1UlJTY0RVSnhlTFVQV3l3amM3eXNoT1ZNSDlZZXNER0p3LVl1S1gxbEZQT2dYb01iUTFZZGdFU1dLQ3Z3N1c4aFVON2FWbERPT3J1dkFtbVNIdWtvZjFjYnZ3VDhDUkdmT29wLVFYTTRCM2ZEdw?oc=5",
+          "source": "공식-한국은행",
+          "published_dt": "2026-08-24 22:38:39",
+          "match_score": 38.2
+        },
+        {
+          "title": "삼전닉스 주주환원 기대감 ‘솔솔’…원화값도 ‘1370원’대로",
+          "link": "https://www.mk.co.kr/news/economy/12134656",
+          "source": "매일경제-경제",
+          "published_dt": "2026-08-24 13:14:09",
+          "match_score": 11.96
+        },
+        {
+          "title": "美 국채 바이백 확대 후폭풍…헤지펀드 ‘달러 약세 베팅’ 확산",
+          "link": "https://www.donga.com/news/Inter/article/all/20260824/134532475/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-24 15:50:50",
+          "match_score": 10.8
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "법개정",
+      "reason": "대법관 추천위 및 개각 관련 정치 이슈",
+      "score": 31.7,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "사법부 또 흔드는 與 “대법관 추천위 법개정”",
+        "김민석 “조희대, 대법관추천위 무력화 시도…법 개정해야”"
+      ],
+      "representative_article": {
+        "title": "사법부 또 흔드는 與 “대법관 추천위 법개정”",
+        "link": "https://www.chosun.com/politics/assembly/2026/08/25/I7BYRSXQPZCW7OGFOXZKTJIZCE/",
+        "source": "조선일보-정치",
+        "published_dt": "2026-08-25 00:54:00",
+        "match_score": 31.7
+      },
+      "related_articles": [
+        {
+          "title": "사법부 또 흔드는 與 “대법관 추천위 법개정”",
+          "link": "https://www.chosun.com/politics/assembly/2026/08/25/I7BYRSXQPZCW7OGFOXZKTJIZCE/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-08-25 00:54:00",
+          "match_score": 31.7
+        },
+        {
+          "title": "김민석 “조희대, 대법관추천위 무력화 시도…법 개정해야”",
+          "link": "https://www.chosun.com/politics/assembly/2026/08/24/AUOXMO4LEBCWXJI4LPVDHR6BGI/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-08-24 11:27:52",
+          "match_score": 16.7
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "아파트",
+      "score": 47.6,
+      "article_count": 13,
+      "source_count": 2,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "“세제개편 후폭풍 세긴 세네” … 강남 집값 ‘폭락’ 이번엔 진짜일까",
+        "두산건설, 2008가구 ‘두산위브더제니스 부천’ 분양",
+        "'재건축에 임대 강요' 광명시장, 본인 소유 아파트는 임대 비율 '반 토막'"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "'재건축에 임대 강요' 광명시장, 본인 소유 아파트는 임대 비율 '반 토막'",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/08/24/2026082402077.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-08-24 15:17:51",
+        "match_score": 38.09
+      },
+      "related_articles": [
+        {
+          "title": "'재건축에 임대 강요' 광명시장, 본인 소유 아파트는 임대 비율 '반 토막'",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/08/24/2026082402077.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-08-24 15:17:51",
+          "match_score": 38.09
+        },
+        {
+          "title": "GTX-C 호재라기엔 무기한 연기…햇빛 안 드는 '영구 깜깜이 아파트' | 의왕역 한신더휴",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/08/24/2026082401144.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-08-24 10:37:17",
+          "match_score": 38.09
+        },
+        {
+          "title": "세금 폭탄에 무너진 강남 아파트..호가 폭락에 매물 쏟아져",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/08/23/2026082301138.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-08-24 09:16:40",
+          "match_score": 37.49
+        },
+        {
+          "title": "두산건설, 2008가구 ‘두산위브더제니스 부천’ 분양",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/08/24/2026082402185.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-08-24 15:43:03",
+          "match_score": 12.1
+        },
+        {
+          "title": "전국 매출 1위 입지에 1800가구 분양…상동역 롯데캐슬 시그니처' 주목",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/08/24/2026082401359.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-08-24 11:29:07",
+          "match_score": 12.1
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "분양",
+      "score": 54.8,
+      "article_count": 11,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "부동산"
+      ],
+      "sample_titles": [
+        "이억원 \"청년미래보금자리론, 새로운 추가 선택지 주는 것\"",
+        "이억원 금융위원장 \"잔금대출 기준 분양가·감정가, 은행 자율적 판단\" - 조세금융신문",
+        "이준석 “동탄도 전세 씨 말라…분양 받은 집도 못 들어가” - 문화일보"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "두산건설, 2008가구 ‘두산위브더제니스 부천’ 분양",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/08/24/2026082402185.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-08-24 15:43:03",
+        "match_score": 38.09
+      },
+      "related_articles": [
+        {
+          "title": "두산건설, 2008가구 ‘두산위브더제니스 부천’ 분양",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/08/24/2026082402185.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-08-24 15:43:03",
+          "match_score": 38.09
+        },
+        {
+          "title": "전국 매출 1위 입지에 1800가구 분양…상동역 롯데캐슬 시그니처' 주목",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/08/24/2026082401359.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-08-24 11:29:07",
+          "match_score": 38.09
+        },
+        {
+          "title": "“청약 당첨돼도 그림의 떡”…분양가 치솟자 1순위 경쟁률 13개월째 한 자릿수",
+          "link": "https://www.mk.co.kr/news/realestate/12134461",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-08-24 09:45:13",
+          "match_score": 37.49
+        },
+        {
+          "title": "이억원 금융위원장 \"잔금대출 기준 분양가·감정가, 은행 자율적 판단\" - 조세금융신문",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA0cVVaU05vSGpsYV9iZE1wOHV5d1pRa09EMjM0RHYzeVN3WlRaV2FkZzNVdU11UGx4UUZ0S1V6cTBIWjl3YVFIUHlQajNoX1FnQ0pIOTdmb0ZjWGN4S1lINWtPTQ?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-08-25 02:43:50",
+          "match_score": 36.96
+        },
+        {
+          "title": "이준석 “동탄도 전세 씨 말라…분양 받은 집도 못 들어가” - 문화일보",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBLcUtKWGdWWm1CWlJZLU1KU0pXMHVGZGx0RGw0SFJQQkE4dEh2ajMxTzRhbDQtSWVHSnkzVXdyR1FBdzVoMmVBMHNNajl2ZnQ1?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-08-24 20:37:58",
+          "match_score": 36.96
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
