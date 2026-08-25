@@ -1,0 +1,400 @@
+{
+  "timestamp": "2026-08-26T06:02:14.015881",
+  "date": "20260826",
+  "data": [
+    {
+      "keyword": "경찰개혁",
+      "reason": "여야 및 정부의 개혁 논의",
+      "score": 29.88,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "'잘못하면 檢개혁까지 역풍'…당정, 경찰개혁 전면 드라이브",
+        "국힘, '경찰 개혁 지시' 李대통령에 \"檢해체로 지옥문 열어\""
+      ],
+      "representative_article": {
+        "title": "'잘못하면 檢개혁까지 역풍'…당정, 경찰개혁 전면 드라이브",
+        "link": "https://www.yna.co.kr/view/AKR20260825160200001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-08-25 18:30:15",
+        "match_score": 29.88
+      },
+      "related_articles": [
+        {
+          "title": "'잘못하면 檢개혁까지 역풍'…당정, 경찰개혁 전면 드라이브",
+          "link": "https://www.yna.co.kr/view/AKR20260825160200001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-25 18:30:15",
+          "match_score": 29.88
+        },
+        {
+          "title": "국힘, '경찰 개혁 지시' 李대통령에 \"檢해체로 지옥문 열어\"",
+          "link": "https://www.yna.co.kr/view/AKR20260825124200001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-25 15:39:47",
+          "match_score": 20.88
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "비핵화",
+      "reason": "한미 외교부의 목표 재확인",
+      "score": 38.8,
+      "article_count": 3,
+      "source_count": 2,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "외교부 \"비핵화는 한미의 일관된 목표\"…'북핵 용인설' 일축(종합)",
+        "외교부 \"비핵화는 한미의 일관된 목표\"…'북핵 용인설' 일축",
+        "한미 외교장관 통화 보도자료서도 ‘北 비핵화’ 표현 사라졌다"
+      ],
+      "representative_article": {
+        "title": "한미 외교장관 통화 보도자료서도 ‘北 비핵화’ 표현 사라졌다",
+        "link": "https://www.donga.com/news/Politics/article/all/20260826/134543624/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-08-26 04:30:00",
+        "match_score": 38.8
+      },
+      "related_articles": [
+        {
+          "title": "한미 외교장관 통화 보도자료서도 ‘北 비핵화’ 표현 사라졌다",
+          "link": "https://www.donga.com/news/Politics/article/all/20260826/134543624/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-26 04:30:00",
+          "match_score": 38.8
+        },
+        {
+          "title": "외교부 \"비핵화는 한미의 일관된 목표\"…'북핵 용인설' 일축(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260825139951504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-25 19:40:24",
+          "match_score": 33.27
+        },
+        {
+          "title": "외교부 \"비핵화는 한미의 일관된 목표\"…'북핵 용인설' 일축",
+          "link": "https://www.yna.co.kr/view/AKR20260825139900504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-25 16:22:54",
+          "match_score": 33.27
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "가계부채",
+      "reason": "가계·기업 빚 증가 문제",
+      "score": 8.31,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "가계·기업빚 합하면 5000조…4명중 1명이 다중채무자",
+        "가계·기업빚 합하면 5000조…4명중 1명이 다중채무자"
+      ],
+      "representative_article": {
+        "title": "가계·기업빚 합하면 5000조…4명중 1명이 다중채무자",
+        "link": "https://www.mk.co.kr/news/economy/12136037",
+        "source": "매일경제-경제",
+        "published_dt": "2026-08-25 17:43:33",
+        "match_score": 8.31
+      },
+      "related_articles": [
+        {
+          "title": "가계·기업빚 합하면 5000조…4명중 1명이 다중채무자",
+          "link": "https://www.mk.co.kr/news/economy/12136037",
+          "source": "매일경제-경제",
+          "published_dt": "2026-08-25 17:43:33",
+          "match_score": 8.31
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "금리인상",
+      "reason": "금통위 기준금리 결정 주목",
+      "score": 7.25,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "내일 금통위… 기준금리 연속 인상할까"
+      ],
+      "representative_article": {
+        "title": "내일 금통위… 기준금리 연속 인상할까",
+        "link": "https://www.chosun.com/economy/economy_general/2026/08/26/L5T6WCCDW5G4FCT2423MVIBA6U/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-08-26 00:31:00",
+        "match_score": 7.25
+      },
+      "related_articles": [
+        {
+          "title": "내일 금통위… 기준금리 연속 인상할까",
+          "link": "https://www.chosun.com/economy/economy_general/2026/08/26/L5T6WCCDW5G4FCT2423MVIBA6U/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-08-26 00:31:00",
+          "match_score": 7.25
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI산업",
+      "reason": "기업들의 AI·5G 인프라 투자",
+      "score": 7.1,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "캠퍼스가 자율주행로봇·AI 테스트베드… 기업들, 앞다퉈 AI·5G 통신 인프라 구축"
+      ],
+      "representative_article": {
+        "title": "캠퍼스가 자율주행로봇·AI 테스트베드… 기업들, 앞다퉈 AI·5G 통신 인프라 구축",
+        "link": "https://www.chosun.com/economy/tech_it/2026/08/26/WJ44LXISRRHL5OFC57PK2LLEBA/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-08-26 00:33:00",
+        "match_score": 7.1
+      },
+      "related_articles": [
+        {
+          "title": "캠퍼스가 자율주행로봇·AI 테스트베드… 기업들, 앞다퉈 AI·5G 통신 인프라 구축",
+          "link": "https://www.chosun.com/economy/tech_it/2026/08/26/WJ44LXISRRHL5OFC57PK2LLEBA/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-08-26 00:33:00",
+          "match_score": 7.1
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재건축",
+      "reason": "서울·인천 대규모 주택사업 추진",
+      "score": 38.09,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "인천에 1.6만가구 재건축 … 분당보다 많다",
+        "산본 금강주공9단지 2차, 재건축 설명회 열어…용적률 800% 기대감에 SK에코플랜트도 참석"
+      ],
+      "representative_article": {
+        "title": "산본 금강주공9단지 2차, 재건축 설명회 열어…용적률 800% 기대감에 SK에코플랜트도 참석",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/08/25/2026082502049.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-08-25 15:20:02",
+        "match_score": 38.09
+      },
+      "related_articles": [
+        {
+          "title": "산본 금강주공9단지 2차, 재건축 설명회 열어…용적률 800% 기대감에 SK에코플랜트도 참석",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/08/25/2026082502049.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-08-25 15:20:02",
+          "match_score": 38.09
+        },
+        {
+          "title": "인천에 1.6만가구 재건축 … 분당보다 많다",
+          "link": "https://www.mk.co.kr/news/realestate/12135978",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-08-25 17:25:33",
+          "match_score": 30.29
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "이란제재",
+      "reason": "미국의 2차 제재 단행",
+      "score": 8.7,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "美 “이란과 거래 국가 2차 제재”… ‘경제적 왕따작전’ 돌입"
+      ],
+      "representative_article": {
+        "title": "美 “이란과 거래 국가 2차 제재”… ‘경제적 왕따작전’ 돌입",
+        "link": "https://www.donga.com/news/Inter/article/all/20260826/134544049/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-08-26 04:30:00",
+        "match_score": 8.7
+      },
+      "related_articles": [
+        {
+          "title": "美 “이란과 거래 국가 2차 제재”… ‘경제적 왕따작전’ 돌입",
+          "link": "https://www.donga.com/news/Inter/article/all/20260826/134544049/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-26 04:30:00",
+          "match_score": 8.7
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "우편투표",
+      "reason": "미국 대법원 행정명령 허용",
+      "score": 42.7,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "美대법, ‘우편투표 제한’ 행정명령 허용… 트럼프 손 들어줘",
+        "美 대법원, 트럼프의 ‘우편투표 제한’ 행정명령 시행 허용"
+      ],
+      "representative_article": {
+        "title": "美 대법원, 트럼프의 ‘우편투표 제한’ 행정명령 시행 허용",
+        "link": "https://www.donga.com/news/Inter/article/all/20260825/134539501/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-08-25 16:18:00",
+        "match_score": 42.7
+      },
+      "related_articles": [
+        {
+          "title": "美 대법원, 트럼프의 ‘우편투표 제한’ 행정명령 시행 허용",
+          "link": "https://www.donga.com/news/Inter/article/all/20260825/134539501/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-25 16:18:00",
+          "match_score": 42.7
+        },
+        {
+          "title": "美대법, ‘우편투표 제한’ 행정명령 허용… 트럼프 손 들어줘",
+          "link": "https://www.donga.com/news/Inter/article/all/20260826/134544089/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-26 04:30:00",
+          "match_score": 41.8
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "산업투자",
+      "reason": "대규모 투자 및 협약 체결",
+      "score": 6.42,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "충남도, 독일 베바스토와 1천350만달러 규모 투자협약 체결"
+      ],
+      "representative_article": {
+        "title": "충남도, 독일 베바스토와 1천350만달러 규모 투자협약 체결",
+        "link": "https://www.yna.co.kr/view/AKR20260825118200063",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-08-25 17:30:02",
+        "match_score": 6.42
+      },
+      "related_articles": [
+        {
+          "title": "충남도, 독일 베바스토와 1천350만달러 규모 투자협약 체결",
+          "link": "https://www.yna.co.kr/view/AKR20260825118200063",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-08-25 17:30:02",
+          "match_score": 6.42
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 9,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "정부가",
+      "score": 66.5,
+      "article_count": 19,
+      "source_count": 7,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "뉴홈 전용 모기지 만기 최장 40년…연 고정금리 1.9∼3.0%",
+        "[단독] 200조 성장펀드 집행 더딘데 … 부처별 유사펀드 홍수",
+        "정부·한전, 미국 원전 건설 돕고 웨스팅하우스 지분 확보 검토"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "“대출 풀고 주택 수 빼준다” … 정부가 띄우는 빌라, ‘이것’ 꼭 따지고 사라",
+        "link": "https://www.mk.co.kr/news/realestate/12135671",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-08-26 04:30:00",
+        "match_score": 28.49
+      },
+      "related_articles": [
+        {
+          "title": "“대출 풀고 주택 수 빼준다” … 정부가 띄우는 빌라, ‘이것’ 꼭 따지고 사라",
+          "link": "https://www.mk.co.kr/news/realestate/12135671",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-08-26 04:30:00",
+          "match_score": 28.49
+        },
+        {
+          "title": "뉴홈 전용 모기지 만기 최장 40년…연 고정금리 1.9∼3.0%",
+          "link": "https://www.yna.co.kr/view/AKR20260825151300003",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-08-25 16:58:52",
+          "match_score": 11.68
+        },
+        {
+          "title": "정부·한전, 미국 원전 건설 돕고 웨스팅하우스 지분 확보 검토",
+          "link": "https://www.yna.co.kr/view/AKR20260825163400003",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-08-25 18:23:34",
+          "match_score": 11.68
+        },
+        {
+          "title": "AI '실시간 대국민 상담' 체계 구축…'모두의 광장' 정책 공론화(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260825108551530",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-08-25 16:16:07",
+          "match_score": 11.68
+        },
+        {
+          "title": "[단독] 200조 성장펀드 집행 더딘데 … 부처별 유사펀드 홍수",
+          "link": "https://www.mk.co.kr/news/economy/12135966",
+          "source": "매일경제-경제",
+          "published_dt": "2026-08-25 17:24:33",
+          "match_score": 11.66
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
