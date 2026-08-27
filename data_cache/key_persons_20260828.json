@@ -1,0 +1,58 @@
+{
+  "timestamp": "2026-08-28T06:01:24.721588",
+  "date": "20260828",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "기초단체장들 만난 李 “서울서 멀수록 두텁게 지원”",
+          "link": "https://www.chosun.com/politics/politics_general/2026/08/28/OI5ROGTRY5G3ZDFJ3WMNLU7GH4/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-08-28 00:48:00",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "지방/행정",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李지지율 30%대에 김어준 “하락 원인 복기해 봐야 할 것”",
+          "link": "https://www.chosun.com/politics/assembly/2026/08/28/DSRPJHYYXREARFMQYZLIAQLS5E/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-08-28 00:49:00",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 “재외국민 9명 생사 불명한 상황…조기 생환 온 마음 성원”",
+          "link": "https://www.donga.com/news/Politics/article/all/20260827/134556801/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-27 15:16:37",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/08/27/134556802.1.jpg\" vspace=\"10\" />이재명 대통령이 27일 “우리 재외국민 9분의 생사가 불명한 상황이라서 아주 안타까운 마음”이라며 “모두 함께 조기에 생환할 수 있도록 온 마음으로 성원해 주시기 바란다”고 밝혔다.이 대통령은 이날 오전 청와대에서 열린 시장·군수·구청장 초청 오찬 간담회에서 이같이 말했다. 외교당국에 따르면 네팔 북부 지역과 중국 티베트 접경지인 라수와 지역을 덮친 대규모 돌발 홍수로 우리 국민 9명이 실종돼, 정부가 수색 및 구조 작업에 나섰다. 이 대통령은 이날 오후 청와대에서 예정된 수석·보좌관 회의를 순연하고 긴급 점검회의를 열기로 한 상황이다.이어 이 대통령은 현장에 참석한 지방자치단체장을 향해 ‘원팀 협력’을 당부했다.이 대통령은 “국민주권 정부는 지방이 주도하는 성장을 원칙으로 삼고 있다”며 “서울에서 거리가 멀수록 더 두텁게 지원될 수 있도록 지방 특례 제도를 마련했고, 또 이를 토대로 지방에 특화된 지원이 가도록 지방 특례를 통해 새롭게 계속 발굴해 나가고 있다”고 밝혔다.",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "한국 대통령"
+    }
+  }
+}
