@@ -1,0 +1,345 @@
+{
+  "timestamp": "2026-08-29T06:02:08.373736",
+  "date": "20260829",
+  "data": [
+    {
+      "keyword": "대법관 재제청",
+      "reason": "임명 관련 논쟁 및 청와대-대법원 입장",
+      "score": 32.57,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "李대통령, 숙고끝 '대법관 재제청' 카드…'임명권 존중' 요구"
+      ],
+      "representative_article": {
+        "title": "李대통령, 숙고끝 '대법관 재제청' 카드…'임명권 존중' 요구",
+        "link": "https://www.yna.co.kr/view/AKR20260828139200001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-08-28 17:06:03",
+        "match_score": 32.57
+      },
+      "related_articles": [
+        {
+          "title": "李대통령, 숙고끝 '대법관 재제청' 카드…'임명권 존중' 요구",
+          "link": "https://www.yna.co.kr/view/AKR20260828139200001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-28 17:06:03",
+          "match_score": 32.57
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "네팔 대홍수",
+      "reason": "대규모 인명 피해 및 구조 활동",
+      "score": 40.38,
+      "article_count": 3,
+      "source_count": 3,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "[네팔 대홍수] 정부 신속대응팀 현장이동 지연…헬기운항 허가 대기中",
+        "네팔 대홍수 실종자 977명→1924명 급증…사망 579명",
+        "폭 600m 빙하 조각이 2km 높이서 떨어져… '비 없는' 네팔 대홍수 참사"
+      ],
+      "representative_article": {
+        "title": "[네팔 대홍수] 정부 신속대응팀 현장이동 지연…헬기운항 허가 대기中",
+        "link": "https://www.yna.co.kr/view/AKR20260828148300504",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-08-28 17:40:20",
+        "match_score": 40.38
+      },
+      "related_articles": [
+        {
+          "title": "[네팔 대홍수] 정부 신속대응팀 현장이동 지연…헬기운항 허가 대기中",
+          "link": "https://www.yna.co.kr/view/AKR20260828148300504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-28 17:40:20",
+          "match_score": 40.38
+        },
+        {
+          "title": "네팔 대홍수 실종자 977명→1924명 급증…사망 579명",
+          "link": "https://www.donga.com/news/Inter/article/all/20260828/134567237/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-28 23:57:00",
+          "match_score": 40.3
+        },
+        {
+          "title": "폭 600m 빙하 조각이 2km 높이서 떨어져… '비 없는' 네팔 대홍수 참사",
+          "link": "https://www.etnews.com/20260828000068",
+          "source": "전자신문",
+          "published_dt": "2026-08-28 10:04:33",
+          "match_score": 31.49
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "후쿠시마 오염수",
+      "reason": "일본 방류 계획 및 국내 우려",
+      "score": 33.85,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "정부 “日 후쿠시마 오염수 23차 방류 31일 시작… 삼중수소 농도 기준치 미만”",
+        "정부 “日 후쿠시마 오염수 23차 방류 31일 시작… 삼중수소 농도 기준치 미만”",
+        "정부 “日 후쿠시마 오염수 23차 방류 31일 시작… 삼중수소 농도 기준치 미만”"
+      ],
+      "representative_article": {
+        "title": "정부 “日 후쿠시마 오염수 23차 방류 31일 시작… 삼중수소 농도 기준치 미만”",
+        "link": "https://www.chosun.com/politics/goverment/2026/08/28/G3FR4DFSHFHEFGGPTNEUYFIVZ4/",
+        "source": "조선일보-정치",
+        "published_dt": "2026-08-28 17:25:45",
+        "match_score": 33.85
+      },
+      "related_articles": [
+        {
+          "title": "정부 “日 후쿠시마 오염수 23차 방류 31일 시작… 삼중수소 농도 기준치 미만”",
+          "link": "https://www.chosun.com/politics/goverment/2026/08/28/G3FR4DFSHFHEFGGPTNEUYFIVZ4/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-08-28 17:25:45",
+          "match_score": 33.85
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI 데이터센터",
+      "reason": "기업 투자 및 서비스 확대",
+      "score": 40.6,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "“AI 데이터센터 짓는데 7조원 빚”…몸값 2배 넘게 돈 빌리는 신생기업"
+      ],
+      "representative_article": {
+        "title": "“AI 데이터센터 짓는데 7조원 빚”…몸값 2배 넘게 돈 빌리는 신생기업",
+        "link": "https://www.donga.com/news/Inter/article/all/20260828/134563215/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-08-28 15:02:28",
+        "match_score": 40.6
+      },
+      "related_articles": [
+        {
+          "title": "“AI 데이터센터 짓는데 7조원 빚”…몸값 2배 넘게 돈 빌리는 신생기업",
+          "link": "https://www.donga.com/news/Inter/article/all/20260828/134563215/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-28 15:02:28",
+          "match_score": 40.6
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "기준금리 인상",
+      "reason": "금융시장과 대출 영향",
+      "score": 41.91,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "기준금리 인상에 주담대 오르나...이자 부담도 커져 - YTN"
+      ],
+      "representative_article": {
+        "title": "기준금리 인상에 주담대 오르나...이자 부담도 커져 - YTN",
+        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5CVUpfSDVBc3V5TmFISHBNMkxFY0ltS2xmT0o5dWJpMDVDOEcwZTNiLWsxQ1BKRWRFZVNZR3JuMlh0UXRWcUdid1FyTnpZUlNrWmowalJhLU5FZEFjUlE?oc=5",
+        "source": "키워드-금리환율코스피",
+        "published_dt": "2026-08-29 05:34:00",
+        "match_score": 41.91
+      },
+      "related_articles": [
+        {
+          "title": "기준금리 인상에 주담대 오르나...이자 부담도 커져 - YTN",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5CVUpfSDVBc3V5TmFISHBNMkxFY0ltS2xmT0o5dWJpMDVDOEcwZTNiLWsxQ1BKRWRFZVNZR3JuMlh0UXRWcUdid1FyTnpZUlNrWmowalJhLU5FZEFjUlE?oc=5",
+          "source": "키워드-금리환율코스피",
+          "published_dt": "2026-08-29 05:34:00",
+          "match_score": 41.91
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재건축 부담금",
+      "reason": "부동산 가격과 정책 변화",
+      "score": 5.5,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "[단독] 재초환 부과 재건축 단지서 7억 부담금 얹은 매물 등장"
+      ],
+      "representative_article": {
+        "title": "[단독] 재초환 부과 재건축 단지서 7억 부담금 얹은 매물 등장",
+        "link": "https://www.mk.co.kr/news/realestate/12139072",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-08-28 17:52:14",
+        "match_score": 5.5
+      },
+      "related_articles": [
+        {
+          "title": "[단독] 재초환 부과 재건축 단지서 7억 부담금 얹은 매물 등장",
+          "link": "https://www.mk.co.kr/news/realestate/12139072",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-08-28 17:52:14",
+          "match_score": 5.5
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "소상공인 빚 탕감",
+      "reason": "정부 지원 정책 추진",
+      "score": 32.86,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "코로나 소상공인 빚 탕감 … 3년 이상 연체자가 대상"
+      ],
+      "representative_article": {
+        "title": "코로나 소상공인 빚 탕감 … 3년 이상 연체자가 대상",
+        "link": "https://www.mk.co.kr/news/economy/12139053",
+        "source": "매일경제-경제",
+        "published_dt": "2026-08-28 17:45:43",
+        "match_score": 32.86
+      },
+      "related_articles": [
+        {
+          "title": "코로나 소상공인 빚 탕감 … 3년 이상 연체자가 대상",
+          "link": "https://www.mk.co.kr/news/economy/12139053",
+          "source": "매일경제-경제",
+          "published_dt": "2026-08-28 17:45:43",
+          "match_score": 32.86
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "보수 통합",
+      "reason": "정치권 합종연횡 움직임",
+      "score": 32.52,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "'보수 통합 행보' 유승민, 권영세와 오찬…\"당 방향성 걱정\""
+      ],
+      "representative_article": {
+        "title": "'보수 통합 행보' 유승민, 권영세와 오찬…\"당 방향성 걱정\"",
+        "link": "https://www.yna.co.kr/view/AKR20260828134800001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-08-28 16:57:33",
+        "match_score": 32.52
+      },
+      "related_articles": [
+        {
+          "title": "'보수 통합 행보' 유승민, 권영세와 오찬…\"당 방향성 걱정\"",
+          "link": "https://www.yna.co.kr/view/AKR20260828134800001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-28 16:57:33",
+          "match_score": 32.52
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "반도체 산업",
+      "reason": "지역 투자 및 대규모 양산",
+      "score": 13.18,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "기후장관, 용인 반도체 산단 인접 주민 만나…환경 우려 청취"
+      ],
+      "representative_article": {
+        "title": "기후장관, 용인 반도체 산단 인접 주민 만나…환경 우려 청취",
+        "link": "https://www.yna.co.kr/view/AKR20260828046400530",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-08-28 16:00:01",
+        "match_score": 13.18
+      },
+      "related_articles": [
+        {
+          "title": "기후장관, 용인 반도체 산단 인접 주민 만나…환경 우려 청취",
+          "link": "https://www.yna.co.kr/view/AKR20260828046400530",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-08-28 16:00:01",
+          "match_score": 13.18
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 9,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "국고채 금리",
+      "reason": "금융시장 변동성 주목",
+      "score": 40.08,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "외인 선물 매도에 국고채 금리 상승…3년물 연 3.788%(종합)"
+      ],
+      "representative_article": {
+        "title": "외인 선물 매도에 국고채 금리 상승…3년물 연 3.788%(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260828142351008",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-08-28 16:49:20",
+        "match_score": 40.08
+      },
+      "related_articles": [
+        {
+          "title": "외인 선물 매도에 국고채 금리 상승…3년물 연 3.788%(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260828142351008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-08-28 16:49:20",
+          "match_score": 40.08
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 10,
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
