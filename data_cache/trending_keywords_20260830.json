@@ -1,0 +1,356 @@
+{
+  "timestamp": "2026-08-30T06:01:47.015492",
+  "date": "20260830",
+  "data": [
+    {
+      "keyword": "네팔 대홍수",
+      "reason": "정부 대응·복구 비용 언급",
+      "score": 41.08,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "네팔 대홍수 재건에 최대 50억 달러 소요…경제 규모 10% 육박",
+        "[네팔 대홍수] 韓 헬기 2대 수색 개시…정부대응팀 9명 추가파견(종합2보)"
+      ],
+      "representative_article": {
+        "title": "[네팔 대홍수] 韓 헬기 2대 수색 개시…정부대응팀 9명 추가파견(종합2보)",
+        "link": "https://www.yna.co.kr/view/AKR20260829029252504",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-08-29 20:57:12",
+        "match_score": 41.08
+      },
+      "related_articles": [
+        {
+          "title": "[네팔 대홍수] 韓 헬기 2대 수색 개시…정부대응팀 9명 추가파견(종합2보)",
+          "link": "https://www.yna.co.kr/view/AKR20260829029252504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-29 20:57:12",
+          "match_score": 41.08
+        },
+        {
+          "title": "네팔 대홍수 재건에 최대 50억 달러 소요…경제 규모 10% 육박",
+          "link": "https://www.donga.com/news/Inter/article/all/20260829/134568016/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-29 17:48:30",
+          "match_score": 31.0
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI 기술",
+      "reason": "삼성·SK·한미약품 등 신기술 부각",
+      "score": 5.83,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "[바이오사이언스] 석달 새 5조원 기술수출…한미약품 'R&D의 힘'"
+      ],
+      "representative_article": {
+        "title": "[바이오사이언스] 석달 새 5조원 기술수출…한미약품 'R&D의 힘'",
+        "link": "https://www.yna.co.kr/view/AKR20260828133400017",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-08-29 10:00:04",
+        "match_score": 5.83
+      },
+      "related_articles": [
+        {
+          "title": "[바이오사이언스] 석달 새 5조원 기술수출…한미약품 'R&D의 힘'",
+          "link": "https://www.yna.co.kr/view/AKR20260828133400017",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-08-29 10:00:04",
+          "match_score": 5.83
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "기준금리",
+      "reason": "금리 인상과 이자 부담 증대",
+      "score": 41.31,
+      "article_count": 3,
+      "source_count": 2,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "원화 강세 힘받나…IIF \"반도체 호조로 코로나 전 수준 회복\"",
+        "기준금리 인상에 주담대 오르나...이자 부담도 커져 - YTN",
+        "기준금리 3%에 ‘한 번 더 인상’…1000스닥 가는 길 더 험해졌다 [증시레이더] - 디지털데일리"
+      ],
+      "representative_article": {
+        "title": "기준금리 인상에 주담대 오르나...이자 부담도 커져 - YTN",
+        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5nYWE3TU04RkZRczZBSVNfMEh1Sk55b2FTTmV5UGFwRWhTTGVQRXpDLWp0Uy13dFBCak1LZHhISzZxbThIMG0xNlFqTTl2RW5VX1hYY0hlYVRRal9kVkE?oc=5",
+        "source": "키워드-금리환율코스피",
+        "published_dt": "2026-08-29 22:20:00",
+        "match_score": 41.31
+      },
+      "related_articles": [
+        {
+          "title": "기준금리 인상에 주담대 오르나...이자 부담도 커져 - YTN",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5nYWE3TU04RkZRczZBSVNfMEh1Sk55b2FTTmV5UGFwRWhTTGVQRXpDLWp0Uy13dFBCak1LZHhISzZxbThIMG0xNlFqTTl2RW5VX1hYY0hlYVRRal9kVkE?oc=5",
+          "source": "키워드-금리환율코스피",
+          "published_dt": "2026-08-29 22:20:00",
+          "match_score": 41.31
+        },
+        {
+          "title": "기준금리 3%에 ‘한 번 더 인상’…1000스닥 가는 길 더 험해졌다 [증시레이더] - 디지털데일리",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE81NEhnUWwxS0M3MFV5a0F4bGc3RWxVTEo5ZC1xbEtOd2dvOEhTb0RkNm1NNm5jbUdqOHZTTlp1OHl6dm82RjhpRUMxM2Z6N2hHazNvbTNXMm1feWNxNTRXbE5kWEY?oc=5",
+          "source": "키워드-금리환율코스피",
+          "published_dt": "2026-08-29 22:03:35",
+          "match_score": 38.91
+        },
+        {
+          "title": "원화 강세 힘받나…IIF \"반도체 호조로 코로나 전 수준 회복\"",
+          "link": "https://www.yna.co.kr/view/AKR20260829032700002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-08-30 05:53:01",
+          "match_score": 12.43
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재건축",
+      "reason": "여러 지역 재건축 활성화",
+      "score": 37.71,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "성남시의회 이군수 의원, 단대동 미도아파트 재건축 추진 당부 - 매일일보"
+      ],
+      "representative_article": {
+        "title": "성남시의회 이군수 의원, 단대동 미도아파트 재건축 추진 당부 - 매일일보",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1UNHZ2ZFpsSVQ0WVpKMXNRa01uY2R6eWlrM0pQRjhZRG56RUNwbEM3WTRvSF9NT3BIbDJkUjI1MlJKZjBhbTFwSm1TQ0laTEg5Sl9qT0h3VTZsQXRFRmc1VWIyRQ?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-08-30 02:22:25",
+        "match_score": 37.71
+      },
+      "related_articles": [
+        {
+          "title": "성남시의회 이군수 의원, 단대동 미도아파트 재건축 추진 당부 - 매일일보",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1UNHZ2ZFpsSVQ0WVpKMXNRa01uY2R6eWlrM0pQRjhZRG56RUNwbEM3WTRvSF9NT3BIbDJkUjI1MlJKZjBhbTFwSm1TQ0laTEg5Sl9qT0h3VTZsQXRFRmc1VWIyRQ?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-08-30 02:22:25",
+          "match_score": 37.71
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "전세사기",
+      "reason": "대규모 피해 및 처벌 확대",
+      "score": 38.16,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "KB국민은행, 전세사기 피해 막는다…KB부동산서 '전세안심 체크' - 뉴시스"
+      ],
+      "representative_article": {
+        "title": "KB국민은행, 전세사기 피해 막는다…KB부동산서 '전세안심 체크' - 뉴시스",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5MRUdBaThwZlJxRHBCRkZhTW1yd1JONUNad1JBekRWaVRVQkZFTTlFMUtaMXBZNXdJbWNGY3dtaWU4Y3pYNk4xR0FVOUszaTcwdmQyek9zamlSUnQ3OU5pcdIBeEFVX3lxTE1fT1lrVTgwNkgxeTU0UV82LWo1eXpvM2NZZ3BscnkwaThtUTRQcVRYWjZsM0UxX0NyTVFTWVlSYWhlRTZtNllvcEJSc3pyWmxaOXpRS1U1YW1kbk1uUlRwZEZjOXlTU0hKS0xLdm11b2N1dTlrSXNYNg?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-08-29 13:00:00",
+        "match_score": 38.16
+      },
+      "related_articles": [
+        {
+          "title": "KB국민은행, 전세사기 피해 막는다…KB부동산서 '전세안심 체크' - 뉴시스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5MRUdBaThwZlJxRHBCRkZhTW1yd1JONUNad1JBekRWaVRVQkZFTTlFMUtaMXBZNXdJbWNGY3dtaWU4Y3pYNk4xR0FVOUszaTcwdmQyek9zamlSUnQ3OU5pcdIBeEFVX3lxTE1fT1lrVTgwNkgxeTU0UV82LWo1eXpvM2NZZ3BscnkwaThtUTRQcVRYWjZsM0UxX0NyTVFTWVlSYWhlRTZtNllvcEJSc3pyWmxaOXpRS1U1YW1kbk1uUlRwZEZjOXlTU0hKS0xLdm11b2N1dTlrSXNYNg?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-08-29 13:00:00",
+          "match_score": 38.16
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "국방전략",
+      "reason": "한-프랑스 군사 공조 강화",
+      "score": 32.27,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "한-프랑스 국방전략대화…북러 군사협력에 전략적 공조 강화"
+      ],
+      "representative_article": {
+        "title": "한-프랑스 국방전략대화…북러 군사협력에 전략적 공조 강화",
+        "link": "https://www.yna.co.kr/view/AKR20260829025100504",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-08-29 11:14:02",
+        "match_score": 32.27
+      },
+      "related_articles": [
+        {
+          "title": "한-프랑스 국방전략대화…북러 군사협력에 전략적 공조 강화",
+          "link": "https://www.yna.co.kr/view/AKR20260829025100504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-29 11:14:02",
+          "match_score": 32.27
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "금융검사",
+      "reason": "고액자산가 영업 및 투자상품 검사",
+      "score": 8.08,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "미래에셋 고액자산가 영업 고강도검사 착수…스페이스X 초점"
+      ],
+      "representative_article": {
+        "title": "미래에셋 고액자산가 영업 고강도검사 착수…스페이스X 초점",
+        "link": "https://www.yna.co.kr/view/AKR20260829043400002",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-08-30 05:47:00",
+        "match_score": 8.08
+      },
+      "related_articles": [
+        {
+          "title": "미래에셋 고액자산가 영업 고강도검사 착수…스페이스X 초점",
+          "link": "https://www.yna.co.kr/view/AKR20260829043400002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-08-30 05:47:00",
+          "match_score": 8.08
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "수색작업",
+      "reason": "네팔·제주 실종자 수색",
+      "score": 6.08,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업",
+        "정치"
+      ],
+      "sample_titles": [
+        "[네팔 대홍수] 韓 헬기 2대 수색 개시…정부대응팀 9명 추가파견(종합2보)"
+      ],
+      "representative_article": {
+        "title": "[네팔 대홍수] 韓 헬기 2대 수색 개시…정부대응팀 9명 추가파견(종합2보)",
+        "link": "https://www.yna.co.kr/view/AKR20260829029252504",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-08-29 20:57:12",
+        "match_score": 6.08
+      },
+      "related_articles": [
+        {
+          "title": "[네팔 대홍수] 韓 헬기 2대 수색 개시…정부대응팀 9명 추가파견(종합2보)",
+          "link": "https://www.yna.co.kr/view/AKR20260829029252504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-08-29 20:57:12",
+          "match_score": 6.08
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "반도체",
+      "reason": "회복세와 산업 중요성 언급",
+      "score": 38.12,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "원화 강세 힘받나…IIF \"반도체 호조로 코로나 전 수준 회복\""
+      ],
+      "representative_article": {
+        "title": "원화 강세 힘받나…IIF \"반도체 호조로 코로나 전 수준 회복\"",
+        "link": "https://www.yna.co.kr/view/AKR20260829032700002",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-08-30 05:53:01",
+        "match_score": 38.12
+      },
+      "related_articles": [
+        {
+          "title": "원화 강세 힘받나…IIF \"반도체 호조로 코로나 전 수준 회복\"",
+          "link": "https://www.yna.co.kr/view/AKR20260829032700002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-08-30 05:53:01",
+          "match_score": 38.12
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 9,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "물가 상승",
+      "reason": "저소득층 식비 부담 증가",
+      "score": 35.27,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "저소득층에 더 가혹한 물가 상승…식비부담 더 크게 늘었다"
+      ],
+      "representative_article": {
+        "title": "저소득층에 더 가혹한 물가 상승…식비부담 더 크게 늘었다",
+        "link": "https://www.yna.co.kr/view/AKR20260828150700002",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-08-30 05:51:00",
+        "match_score": 35.27
+      },
+      "related_articles": [
+        {
+          "title": "저소득층에 더 가혹한 물가 상승…식비부담 더 크게 늘었다",
+          "link": "https://www.yna.co.kr/view/AKR20260828150700002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-08-30 05:51:00",
+          "match_score": 35.27
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 10,
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
