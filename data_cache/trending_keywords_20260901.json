@@ -1,0 +1,424 @@
+{
+  "timestamp": "2026-09-01T06:01:53.791813",
+  "date": "20260901",
+  "data": [
+    {
+      "keyword": "내년도 예산",
+      "reason": "국무회의 예산안 심의",
+      "score": 44.83,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "정치"
+      ],
+      "sample_titles": [
+        "李대통령, 오늘 국무회의 주재…'800조+α' 내년도 예산안 심의"
+      ],
+      "representative_article": {
+        "title": "李대통령, 오늘 국무회의 주재…'800조+α' 내년도 예산안 심의",
+        "link": "https://www.yna.co.kr/view/AKR20260831144100001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-09-01 05:00:02",
+        "match_score": 44.83
+      },
+      "related_articles": [
+        {
+          "title": "李대통령, 오늘 국무회의 주재…'800조+α' 내년도 예산안 심의",
+          "link": "https://www.yna.co.kr/view/AKR20260831144100001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-01 05:00:02",
+          "match_score": 44.83
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI 혁신",
+      "reason": "AI 관련 사업 및 직업 주목",
+      "score": 33.88,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "의정부시, 내달 5일 도시 미래 그리는 AI 혁신 포럼"
+      ],
+      "representative_article": {
+        "title": "의정부시, 내달 5일 도시 미래 그리는 AI 혁신 포럼",
+        "link": "https://www.yna.co.kr/view/AKR20260831149000060",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-08-31 17:12:49",
+        "match_score": 33.88
+      },
+      "related_articles": [
+        {
+          "title": "의정부시, 내달 5일 도시 미래 그리는 AI 혁신 포럼",
+          "link": "https://www.yna.co.kr/view/AKR20260831149000060",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-08-31 17:12:49",
+          "match_score": 33.88
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "국제유",
+      "reason": "미·이란 군사 긴장 영향",
+      "score": 38.36,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "美 이란 군사 공격에 국제유가 급등…국채금리도 상승 - 블루밍비트",
+        "미·이란 무력공방에 국제유가 3%대 급등…브렌트유 91달러대 - news.sbs.co.kr"
+      ],
+      "representative_article": {
+        "title": "美 이란 군사 공격에 국제유가 급등…국채금리도 상승 - 블루밍비트",
+        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBucTRVd2pmaDIyVVVOcG04SFIxOXFXSWRVYzhWdXBuYlFlejM1YlhRclFlWlBtM2p0NHJwNkRpNTJ0b28tM3lTQ2I1c0VyMFg5?oc=5",
+        "source": "키워드-에너지물가",
+        "published_dt": "2026-09-01 01:34:06",
+        "match_score": 38.36
+      },
+      "related_articles": [
+        {
+          "title": "美 이란 군사 공격에 국제유가 급등…국채금리도 상승 - 블루밍비트",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBucTRVd2pmaDIyVVVOcG04SFIxOXFXSWRVYzhWdXBuYlFlejM1YlhRclFlWlBtM2p0NHJwNkRpNTJ0b28tM3lTQ2I1c0VyMFg5?oc=5",
+          "source": "키워드-에너지물가",
+          "published_dt": "2026-09-01 01:34:06",
+          "match_score": 38.36
+        },
+        {
+          "title": "미·이란 무력공방에 국제유가 3%대 급등…브렌트유 91달러대 - news.sbs.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNM2kxNDloaU9IdUNBRDRuekpJM0wzQ20zQTlqaDVJcnUtMWRma0pFa1hGSER4UlNaTElHdEctYjZ1akl2UlBlZklIbUxxYVJJLVpUVmFwek1NTGJfTFZibHNRRmJRY0ZUYlFfMkNfQ1I1NVVydGdFMjg5UFc4QzduUld6bEIzQQ?oc=5",
+          "source": "키워드-에너지물가",
+          "published_dt": "2026-08-31 23:43:00",
+          "match_score": 38.16
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "한화에어",
+      "reason": "K9 유럽 수출 성공",
+      "score": 42.4,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "한화, 스페인 방산업체와 K9 자주포 계약…서유럽 시장 첫 진출",
+        "한화에어로, 스페인 K9 수출로 ‘EU 장벽 뚫었다’…“서유럽 첫 깃발”"
+      ],
+      "representative_article": {
+        "title": "한화에어로, 스페인 K9 수출로 ‘EU 장벽 뚫었다’…“서유럽 첫 깃발”",
+        "link": "https://www.donga.com/news/Politics/article/all/20260831/134576100/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-08-31 14:51:44",
+        "match_score": 42.4
+      },
+      "related_articles": [
+        {
+          "title": "한화에어로, 스페인 K9 수출로 ‘EU 장벽 뚫었다’…“서유럽 첫 깃발”",
+          "link": "https://www.donga.com/news/Politics/article/all/20260831/134576100/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-31 14:51:44",
+          "match_score": 42.4
+        },
+        {
+          "title": "한화, 스페인 방산업체와 K9 자주포 계약…서유럽 시장 첫 진출",
+          "link": "https://www.etnews.com/20260831000317",
+          "source": "전자신문",
+          "published_dt": "2026-08-31 15:36:43",
+          "match_score": 13.39
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "부산 벡스코",
+      "reason": "항공·레저 통합 행사 개최",
+      "score": 44.2,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "9월 2∼3일 부산 벡스코 개최… 항공·레저 통합, 100여 개 기업·기관 참여 - 국토교통부"
+      ],
+      "representative_article": {
+        "title": "9월 2∼3일 부산 벡스코 개최… 항공·레저 통합, 100여 개 기업·기관 참여 - 국토교통부",
+        "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5tY0hqQjZXN3NHdkphcUtpeEI1d04zOVUyNUZKYlAxNnQxUm1ZdGRpZE1uNmhpN3ZTb2ZuWks0NmUyNl9QUDRZYnRLZi1ndjA0VHZCTVpVejJBcEZSU3FwU1E0U2xIUFQxdTJFRzduSDVPVzduckNz?oc=5",
+        "source": "공식-국토교통부",
+        "published_dt": "2026-08-31 11:00:00",
+        "match_score": 44.2
+      },
+      "related_articles": [
+        {
+          "title": "9월 2∼3일 부산 벡스코 개최… 항공·레저 통합, 100여 개 기업·기관 참여 - 국토교통부",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5tY0hqQjZXN3NHdkphcUtpeEI1d04zOVUyNUZKYlAxNnQxUm1ZdGRpZE1uNmhpN3ZTb2ZuWks0NmUyNl9QUDRZYnRLZi1ndjA0VHZCTVpVejJBcEZSU3FwU1E0U2xIUFQxdTJFRzduSDVPVzduckNz?oc=5",
+          "source": "공식-국토교통부",
+          "published_dt": "2026-08-31 11:00:00",
+          "match_score": 44.2
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "대북 강경 대응",
+      "reason": "북, 미 적대정책 비판 및 대응",
+      "score": 5.9,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "트럼프 대화 제안에도… 北 “적대정책 안변해, 단호히 주권행사”"
+      ],
+      "representative_article": {
+        "title": "트럼프 대화 제안에도… 北 “적대정책 안변해, 단호히 주권행사”",
+        "link": "https://www.donga.com/news/Politics/article/all/20260901/134579874/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-09-01 04:30:00",
+        "match_score": 5.9
+      },
+      "related_articles": [
+        {
+          "title": "트럼프 대화 제안에도… 北 “적대정책 안변해, 단호히 주권행사”",
+          "link": "https://www.donga.com/news/Politics/article/all/20260901/134579874/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-01 04:30:00",
+          "match_score": 5.9
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "KTX·SRT 통합",
+      "reason": "통합 운행 및 운임 인하",
+      "score": 17.36,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "KTX·SRT 1일부터 통합 운행",
+        "KTX·SRT 내달부터 하나로…운임 평균 10% 인하"
+      ],
+      "representative_article": {
+        "title": "KTX·SRT 1일부터 통합 운행",
+        "link": "https://www.mk.co.kr/news/economy/12140614",
+        "source": "매일경제-경제",
+        "published_dt": "2026-08-31 17:47:59",
+        "match_score": 17.36
+      },
+      "related_articles": [
+        {
+          "title": "KTX·SRT 1일부터 통합 운행",
+          "link": "https://www.mk.co.kr/news/economy/12140614",
+          "source": "매일경제-경제",
+          "published_dt": "2026-08-31 17:47:59",
+          "match_score": 17.36
+        },
+        {
+          "title": "KTX·SRT 내달부터 하나로…운임 평균 10% 인하",
+          "link": "https://www.mk.co.kr/news/economy/12140482",
+          "source": "매일경제-경제",
+          "published_dt": "2026-08-31 16:28:26",
+          "match_score": 15.66
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "네팔 대홍수",
+      "reason": "인명 구조 및 피해 복구 소식",
+      "score": 40.9,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "네팔 대홍수 잔해속 ‘고양이 울음’…5살 소녀 60시간만에 극적구조"
+      ],
+      "representative_article": {
+        "title": "네팔 대홍수 잔해속 ‘고양이 울음’…5살 소녀 60시간만에 극적구조",
+        "link": "https://www.donga.com/news/Inter/article/all/20260831/134575740/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-08-31 14:44:00",
+        "match_score": 40.9
+      },
+      "related_articles": [
+        {
+          "title": "네팔 대홍수 잔해속 ‘고양이 울음’…5살 소녀 60시간만에 극적구조",
+          "link": "https://www.donga.com/news/Inter/article/all/20260831/134575740/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-08-31 14:44:00",
+          "match_score": 40.9
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "금리",
+      "score": 72.1,
+      "article_count": 12,
+      "source_count": 7,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업",
+        "부동산",
+        "정치"
+      ],
+      "sample_titles": [
+        "美 이란 군사 공격에 국제유가 급등…국채금리도 상승 - 블루밍비트",
+        "美재무 \"일본, 엔화강세 위해 조치할 것\"…9월 日금리인상 시사",
+        "대출금리 더 오른다…10년 이상 장기·고정 주담대 재추진 - news1.kr"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "美 기준금리 인상 가능성에 국고채 금리↑…상승폭은 줄어(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260831150251008",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-08-31 17:02:21",
+        "match_score": 38.12
+      },
+      "related_articles": [
+        {
+          "title": "美 기준금리 인상 가능성에 국고채 금리↑…상승폭은 줄어(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260831150251008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-08-31 17:02:21",
+          "match_score": 38.12
+        },
+        {
+          "title": "美 이란 군사 공격에 국제유가 급등…국채금리도 상승 - 블루밍비트",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBucTRVd2pmaDIyVVVOcG04SFIxOXFXSWRVYzhWdXBuYlFlejM1YlhRclFlWlBtM2p0NHJwNkRpNTJ0b28tM3lTQ2I1c0VyMFg5?oc=5",
+          "source": "키워드-에너지물가",
+          "published_dt": "2026-09-01 01:34:06",
+          "match_score": 37.96
+        },
+        {
+          "title": "[특징주] 증권주, 美 금리 인상 가능성에 대부분 하락(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260831057851008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-08-31 15:54:24",
+          "match_score": 37.67
+        },
+        {
+          "title": "국고채 금리 대체로 상승…3년물 연 3.838%",
+          "link": "https://www.yna.co.kr/view/AKR20260831150200008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-08-31 16:40:32",
+          "match_score": 37.67
+        },
+        {
+          "title": "“대출금리 좀 낮춰주세요” 268만건 몰렸는데…은행이 받아준 건 19.1%",
+          "link": "https://www.mk.co.kr/news/economy/12140467",
+          "source": "매일경제-경제",
+          "published_dt": "2026-08-31 16:12:11",
+          "match_score": 37.66
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "SK",
+      "score": 50.1,
+      "article_count": 9,
+      "source_count": 7,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "'반도체 벨트' 용인·이천, 소비 1조 늘었다",
+        "미국발 삭풍에 장초반 하락했던 삼전·닉스, 1%대 상승 마감(종합)",
+        "SK하이닉스, AI 붐 대응 위해 일본 메모리 합작공장 설립 검토"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "SK하이닉스, AI 붐 대응 위해 일본 메모리 합작공장 설립 검토",
+        "link": "https://www.aitimes.com/news/articleView.html?idxno=214667",
+        "source": "AI타임스",
+        "published_dt": "2026-09-01 03:11:40",
+        "match_score": 38.09
+      },
+      "related_articles": [
+        {
+          "title": "SK하이닉스, AI 붐 대응 위해 일본 메모리 합작공장 설립 검토",
+          "link": "https://www.aitimes.com/news/articleView.html?idxno=214667",
+          "source": "AI타임스",
+          "published_dt": "2026-09-01 03:11:40",
+          "match_score": 38.09
+        },
+        {
+          "title": "SK증권 지속가능경영보고서, 美LACP 비전어워즈 2개 부문 대상",
+          "link": "https://www.yna.co.kr/view/AKR20260831147000008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-08-31 16:29:02",
+          "match_score": 37.83
+        },
+        {
+          "title": "SK에코플랜트, SK오션플랜트 지분 전량 4천100억원에 매각",
+          "link": "https://www.yna.co.kr/view/AKR20260831162000003",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-08-31 17:43:20",
+          "match_score": 37.67
+        },
+        {
+          "title": "SK온, 美서 ESS용 배터리 1.5조원 규모 수주",
+          "link": "https://www.chosun.com/economy/industry-company/2026/09/01/LLVEM7VZ6JHIBFUHBK5ZS37TEI/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-09-01 00:33:00",
+          "match_score": 28.3
+        },
+        {
+          "title": "삼성·SK ‘주식 10억 클럽’ 非오너 임원 391명",
+          "link": "https://www.chosun.com/economy/industry-company/2026/09/01/RMVMPONKFFB63KSTNUKQEPX4JI/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-09-01 00:33:00",
+          "match_score": 28.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
