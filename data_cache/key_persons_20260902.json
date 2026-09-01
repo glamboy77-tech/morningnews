@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-09-02T06:01:51.887925",
+  "date": "20260902",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "李대통령, 국가지식재산위원장에 계승균 부산대 교수 지명",
+          "link": "https://www.yna.co.kr/view/AKR20260901158900001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-01 16:24:56",
+          "description": "(서울=연합뉴스) 설승은 기자 = 이재명 대통령은 국가지식재산위원회 위원장에 계승균 부산대 교수를 지명했다고 강유정 청와대 수석대변인이 1일 서...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 “물가 못 잡으면 지명 취소”... 이형일 부총리 후보자 “확실히 잡겠다”",
+          "link": "https://www.mk.co.kr/news/economy/12141429",
+          "source": "매일경제-경제",
+          "published_dt": "2026-09-01 16:22:32",
+          "description": "성수품 19종 18만3000t 공급 농축수산물 할인에 1030억 투입 전통시장 최대 2만원 환급 소상공인 명절자금 43조 지원 李 “필요하면 추가대책 검토”이재명 대통령이 이형일 ..",
+          "category": "domestic",
+          "feed_url": "https://www.mk.co.kr/rss/30100041/",
+          "source_type": "economy",
+          "source_weight": 1.2,
+          "source_badge": "경제",
+          "priority_score": 2,
+          "related_full_sources": []
+        },
+        {
+          "title": "“한 채라도 빨리” 이 대통령 지시에…한 총리 “직 걸고 최선”",
+          "link": "https://www.mk.co.kr/news/realestate/12141200",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-09-01 13:57:43",
+          "description": "이재명 대통령이 주택 공급 확대를 경기 회복을 위한 핵심 과제로 제시하며 신속한 인허가와 착공을 거듭 주문했다. 이 대통령은 1일 청와대에서 열린 국무회의에서 한성숙 총리에게 주택..",
+          "category": "domestic",
+          "feed_url": "https://www.mk.co.kr/rss/50300009/",
+          "source_type": "realestate",
+          "source_weight": 1.15,
+          "source_badge": "부동산",
+          "priority_score": 1,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "한국 대통령"
+    },
+    "트럼프": {
+      "articles": [
+        {
+          "title": "트럼프와 정상회담 앞둔 시진핑, 광폭 외교로 세과시",
+          "link": "https://www.donga.com/news/Inter/article/all/20260901/134587084/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-02 04:30:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/09/01/134584791.4.jpg\" vspace=\"10\" />시진핑(習近平) 중국 국가주석이 1일 중앙아시아 키르기스스탄의 수도 비슈케크에서 열린 ‘상하이협력기구(SCO)’ 정상회의 본회의에서 “외부 세력의 내정 간섭, 정치안보 위협, 지역 안정 파괴를 엄격히 막아야 한다”고 밝혔다. 이란 전쟁, 전 세계를 대상으로 한 관세 부과 정책으로 비판받는 도널드 트럼프 미국 대통령을 겨냥한 발언으로 풀이된다. 24일 미국 워싱턴에서 트럼프 대통령과의 회담을 앞두고 있는 시 주석은 하루 전 블라디미르 푸틴 러시아 대통령과 만났다. 이후 이달 내내 SCO 회원국 정상, 나렌드라 모디 인도 총리, 압둘팟타흐 시시 이집트 대통령 등과 잇따라 만나기로 한 ‘광폭 외교’를 선보이고 있다. 뉴욕타임스(NYT)는 시 주석이 비서방권의 핵심 지도자라는 자신의 위상을 부각시키고 미국 패권에 맞서려 한다고 진단했다.● 習 “다자주의와 일방주의에 맞서야” 중국 관영 신화통신에 따르면 시 주석은 이날 SCO 정상회의 본회의 연설에서 현 국제 정세를 두고 “대화와 대결",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프와 정상회담 앞둔 시진핑, 광폭 외교로 세과시",
+          "link": "https://www.donga.com/news/Inter/article/all/20260901/134587084/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-02 04:30:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/09/01/134584791.4.jpg\" vspace=\"10\" />시진핑(習近平) 중국 국가주석이 1일 중앙아시아 키르기스스탄의 수도 비슈케크에서 열린 ‘상하이협력기구(SCO)’ 정상회의 본회의에서 “외부 세력의 내정 간섭, 정치안보 위협, 지역 안정 파괴를 엄격히 막아야 한다”고 밝혔다. 이란 전쟁, 전 세계를 대상으로 한 관세 부과 정책으로 비판받는 도널드 트럼프 미국 대통령을 겨냥한 발언으로 풀이된다. 24일 미국 워싱턴에서 트럼프 대통령과의 회담을 앞두고 있는 시 주석은 하루 전 블라디미르 푸틴 러시아 대통령과 만났다. 이후 이달 내내 SCO 회원국 정상, 나렌드라 모디 인도 총리, 압둘팟타흐 시시 이집트 대통령 등과 잇따라 만나기로 한 ‘광폭 외교’를 선보이고 있다. 뉴욕타임스(NYT)는 시 주석이 비서방권의 핵심 지도자라는 자신의 위상을 부각시키고 미국 패권에 맞서려 한다고 진단했다.● 習 “다자주의와 일방주의에 맞서야” 중국 관영 신화통신에 따르면 시 주석은 이날 SCO 정상회의 본회의 연설에서 현 국제 정세를 두고 “대화와 대결",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "“트럼프, 富에 만족 못하고 폭군 돼… 내가 오판”",
+          "link": "https://www.donga.com/news/People/article/all/20260902/134587062/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-02 04:30:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/09/02/134587618.1.png\" vspace=\"10\" />“트럼프가 부자가 되는 것으로 만족할 수 있으리라 생각했다.” 세계적인 정치 석학인 프랜시스 후쿠야마 미국 스탠퍼드대 교수(74)가 자신이 도널드 트럼프 미국 대통령을 오판했다고 지난달 31일(현지 시간) 밝혔다. 후쿠야마 교수는 8일 회고록 ‘마지막 인간의 영역에서(In the Realm of the Last Man)’ 출간을 앞두고 지난달 31일 뉴욕타임스(NYT)와 인터뷰를 가졌다. 그는 트럼프 대통령이 폭군(Tyrant)이 되기보다는 단순히 엄청난 부자가 될 것이라고만 여겼다며 “내가 미처 몰랐던 건 그저 부유해지는 것만으론 그에게 충분치 않았다는 것이었다”고 회고했다. 정계에 뛰어든 트럼프 대통령이 민주주의 체제를 위협하는 인물이 될지는 몰랐다는 의미다. 후쿠야마 교수는 1989년 논문 ‘역사의 종말’을 발표하며 세계 정치학계의 스타로 부상했다. 그는 자유주의와 공산주의의 싸움에서 자유주의가 승리했으며 이념 투쟁의 역사 또한 끝났다고 선언했다. 이 논문을 발전시킨 19",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "미국 대통령"
+    }
+  }
+}

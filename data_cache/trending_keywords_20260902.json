@@ -1,0 +1,386 @@
+{
+  "timestamp": "2026-09-02T06:02:08.944774",
+  "date": "20260902",
+  "data": [
+    {
+      "keyword": "한일 경제안보대화",
+      "reason": "정치권 협력 강화",
+      "score": 43.03,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "한일 경제안보대화 도쿄서 개최…\"AI·반도체 육성 협력 모색\""
+      ],
+      "representative_article": {
+        "title": "한일 경제안보대화 도쿄서 개최…\"AI·반도체 육성 협력 모색\"",
+        "link": "https://www.yna.co.kr/view/AKR20260901165100001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-09-01 18:26:05",
+        "match_score": 43.03
+      },
+      "related_articles": [
+        {
+          "title": "한일 경제안보대화 도쿄서 개최…\"AI·반도체 육성 협력 모색\"",
+          "link": "https://www.yna.co.kr/view/AKR20260901165100001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-01 18:26:05",
+          "match_score": 43.03
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "북미 정상회담",
+      "reason": "국제 긴장 완화 기대",
+      "score": 33.5,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "국정원 “북미 정상회담 언제든 가능… 대화 징후 있다”"
+      ],
+      "representative_article": {
+        "title": "국정원 “북미 정상회담 언제든 가능… 대화 징후 있다”",
+        "link": "https://www.chosun.com/politics/assembly/2026/09/01/RWGCPQIJUNHIXJYPD6JQW772OQ/",
+        "source": "조선일보-정치",
+        "published_dt": "2026-09-01 12:47:03",
+        "match_score": 33.5
+      },
+      "related_articles": [
+        {
+          "title": "국정원 “북미 정상회담 언제든 가능… 대화 징후 있다”",
+          "link": "https://www.chosun.com/politics/assembly/2026/09/01/RWGCPQIJUNHIXJYPD6JQW772OQ/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-09-01 12:47:03",
+          "match_score": 33.5
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI 기술",
+      "reason": "기업 투자 확산",
+      "score": 4.03,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "삼성디스플레이, 아산에 67조 투자…차세대 생산라인 구축"
+      ],
+      "representative_article": {
+        "title": "삼성디스플레이, 아산에 67조 투자…차세대 생산라인 구축",
+        "link": "https://www.yna.co.kr/view/AKR20260901173400063",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-09-01 17:13:36",
+        "match_score": 4.03
+      },
+      "related_articles": [
+        {
+          "title": "삼성디스플레이, 아산에 67조 투자…차세대 생산라인 구축",
+          "link": "https://www.yna.co.kr/view/AKR20260901173400063",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-01 17:13:36",
+          "match_score": 4.03
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재개발·재건축",
+      "reason": "대규모 주택 공급",
+      "score": 40.41,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "[재개발·재건축 탐방] (26) 녹번동 도심복합 “서북권 새 도심 거점 될 것”…대단지 예고 - 대한경제"
+      ],
+      "representative_article": {
+        "title": "[재개발·재건축 탐방] (26) 녹번동 도심복합 “서북권 새 도심 거점 될 것”…대단지 예고 - 대한경제",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBxRjBIVUR1cVlKMzJ5dGlfSWQtVG5INlpkb0dUTmZMUUEtV1hXVldfX1VCY2dHUUt0OERKV0t6M3RTeEFWMHhkSHQxWXdsN2RKclRMLUJpZ1ZuZG5WSHh3SU1ZeDdvX2J6NFI2ai1JOWp3ZjVp?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-09-02 05:00:23",
+        "match_score": 40.41
+      },
+      "related_articles": [
+        {
+          "title": "[재개발·재건축 탐방] (26) 녹번동 도심복합 “서북권 새 도심 거점 될 것”…대단지 예고 - 대한경제",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBxRjBIVUR1cVlKMzJ5dGlfSWQtVG5INlpkb0dUTmZMUUEtV1hXVldfX1VCY2dHUUt0OERKV0t6M3RTeEFWMHhkSHQxWXdsN2RKclRMLUJpZ1ZuZG5WSHh3SU1ZeDdvX2J6NFI2ai1JOWp3ZjVp?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-09-02 05:00:23",
+          "match_score": 40.41
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "금리 인상",
+      "reason": "금융시장 영향",
+      "score": 30.7,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "韓銀 금리 인상 효과로 은행주 강세"
+      ],
+      "representative_article": {
+        "title": "韓銀 금리 인상 효과로 은행주 강세",
+        "link": "https://www.chosun.com/economy/money/2026/09/02/2XGHJAKUNVF3PITV55S3UMDLRM/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-09-02 00:35:00",
+        "match_score": 30.7
+      },
+      "related_articles": [
+        {
+          "title": "韓銀 금리 인상 효과로 은행주 강세",
+          "link": "https://www.chosun.com/economy/money/2026/09/02/2XGHJAKUNVF3PITV55S3UMDLRM/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-09-02 00:35:00",
+          "match_score": 30.7
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "네팔 대홍수",
+      "reason": "국제 긴급구호",
+      "score": 41.08,
+      "article_count": 4,
+      "source_count": 3,
+      "categories": [
+        "국제",
+        "부동산",
+        "정치"
+      ],
+      "sample_titles": [
+        "정부, 네팔에 군 수송기로 긴급구호대 파견... 실종자 수색·구조",
+        "韓 해외긴급구호대, 군수송기 타고 네팔로 출발",
+        "정부, 네팔에 군 수송기로 긴급구호대 파견…44명, 실종자 수색-구조"
+      ],
+      "representative_article": {
+        "title": "[네팔 대홍수] 정부, 네팔군과 합동 수색 실시…韓실종자 9명 소식 아직(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260901092751504",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-09-01 15:51:38",
+        "match_score": 41.08
+      },
+      "related_articles": [
+        {
+          "title": "[네팔 대홍수] 정부, 네팔군과 합동 수색 실시…韓실종자 9명 소식 아직(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260901092751504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-01 15:51:38",
+          "match_score": 41.08
+        },
+        {
+          "title": "정부, 네팔에 군 수송기로 긴급구호대 파견…44명, 실종자 수색-구조",
+          "link": "https://www.donga.com/news/Inter/article/all/20260901/134581200/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-01 09:49:00",
+          "match_score": 7.1
+        },
+        {
+          "title": "韓 해외긴급구호대, 군수송기 타고 네팔로 출발",
+          "link": "https://www.donga.com/news/Society/article/all/20260902/134587658/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-02 01:38:03",
+          "match_score": 6.8
+        },
+        {
+          "title": "정부, 네팔에 군 수송기로 긴급구호대 파견... 실종자 수색·구조",
+          "link": "https://www.chosun.com/politics/diplomacy-defense/2026/09/01/LPQJGQSZMBCCVKNCPYLYFCTBMQ/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-09-01 09:47:11",
+          "match_score": 4.5
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "국채금리 급등",
+      "reason": "채권시장 변동성",
+      "score": 32.77,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "美재무, 국채금리 급등 진화 안간힘…연일 \"심각한 상황 아냐\""
+      ],
+      "representative_article": {
+        "title": "美재무, 국채금리 급등 진화 안간힘…연일 \"심각한 상황 아냐\"",
+        "link": "https://www.yna.co.kr/view/AKR20260902006900071",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-09-02 05:27:57",
+        "match_score": 32.77
+      },
+      "related_articles": [
+        {
+          "title": "美재무, 국채금리 급등 진화 안간힘…연일 \"심각한 상황 아냐\"",
+          "link": "https://www.yna.co.kr/view/AKR20260902006900071",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-02 05:27:57",
+          "match_score": 32.77
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "글로벌 제약",
+      "reason": "대규모 원료 공급",
+      "score": 39.43,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "유한양행, 글로벌 제약사에 원료의약품 공급…1천311억원 규모"
+      ],
+      "representative_article": {
+        "title": "유한양행, 글로벌 제약사에 원료의약품 공급…1천311억원 규모",
+        "link": "https://www.yna.co.kr/view/AKR20260901182500017",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-09-01 17:56:43",
+        "match_score": 39.43
+      },
+      "related_articles": [
+        {
+          "title": "유한양행, 글로벌 제약사에 원료의약품 공급…1천311억원 규모",
+          "link": "https://www.yna.co.kr/view/AKR20260901182500017",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-01 17:56:43",
+          "match_score": 39.43
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "중동 긴장",
+      "reason": "국제유가 상승",
+      "score": 46.56,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "국제"
+      ],
+      "sample_titles": [
+        "[美특징주]에너지株, 중동 긴장에 국제유가 상승…EOG·셰브론 동반 강세 - edaily.co.kr"
+      ],
+      "representative_article": {
+        "title": "[美특징주]에너지株, 중동 긴장에 국제유가 상승…EOG·셰브론 동반 강세 - edaily.co.kr",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNcFNkX3ZxTThzUXBSUlNTc2pfelRyY1Zsb2hfaXIzZWgzSmNsYTJ6bDRoaWFCNVZOWkhBUEl0RkFxeENGS0JFckpQTElHdGpDc00zaXVXNHZSUmhSeEFfZVByaVI0LVlnRVVYX2xlUHA3UWxBbVBpbWtHMjdPdGsxWA?oc=5",
+        "source": "키워드-에너지물가",
+        "published_dt": "2026-09-02 05:39:36",
+        "match_score": 46.56
+      },
+      "related_articles": [
+        {
+          "title": "[美특징주]에너지株, 중동 긴장에 국제유가 상승…EOG·셰브론 동반 강세 - edaily.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNcFNkX3ZxTThzUXBSUlNTc2pfelRyY1Zsb2hfaXIzZWgzSmNsYTJ6bDRoaWFCNVZOWkhBUEl0RkFxeENGS0JFckpQTElHdGpDc00zaXVXNHZSUmhSeEFfZVByaVI0LVlnRVVYX2xlUHA3UWxBbVBpbWtHMjdPdGsxWA?oc=5",
+          "source": "키워드-에너지물가",
+          "published_dt": "2026-09-02 05:39:36",
+          "match_score": 46.56
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 9,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "반도체",
+      "score": 75.9,
+      "article_count": 13,
+      "source_count": 7,
+      "categories": [
+        "경제/거시",
+        "기업/산업",
+        "부동산",
+        "정치"
+      ],
+      "sample_titles": [
+        "한일 경제안보대화 도쿄서 개최…\"AI·반도체 육성 협력 모색\"",
+        "전남광주시-민주당 첫 당정…5조 통합지원·반도체 공조(종합)",
+        "내년 예산 821조 ‘역대 최대’...2030년엔 한국도 ‘천조국’ 된다"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "전남광주시의회, 반도체 용수·댐 주민 상생 특위 구성 추진",
+        "link": "https://www.yna.co.kr/view/AKR20260901171600054",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-09-01 17:05:42",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "전남광주시의회, 반도체 용수·댐 주민 상생 특위 구성 추진",
+          "link": "https://www.yna.co.kr/view/AKR20260901171600054",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-09-01 17:05:42",
+          "match_score": 37.67
+        },
+        {
+          "title": "막 오른 정기국회…조정식 “AI·반도체 입법, 국회가 견인차 돼야”",
+          "link": "https://www.etnews.com/20260901000334",
+          "source": "전자신문",
+          "published_dt": "2026-09-01 14:56:51",
+          "match_score": 37.49
+        },
+        {
+          "title": "8월 반도체 수출만 467억 달러…'역대 최대'",
+          "link": "https://www.etnews.com/20260901000301",
+          "source": "전자신문",
+          "published_dt": "2026-09-01 14:35:27",
+          "match_score": 37.49
+        },
+        {
+          "title": "'보상률 99%' 용인 반도체 산단, 10월 부지 공사 첫 삽",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/09/01/2026090101467.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-09-01 11:33:20",
+          "match_score": 37.49
+        },
+        {
+          "title": "용인 반도체산단 '삼성 1호팹' 2028년 착공",
+          "link": "https://www.mk.co.kr/news/realestate/12141552",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-09-01 17:37:41",
+          "match_score": 37.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
