@@ -1,0 +1,409 @@
+{
+  "timestamp": "2026-09-03T06:01:51.902089",
+  "date": "20260903",
+  "data": [
+    {
+      "keyword": "국채금리",
+      "reason": "금리 상승으로 경제 부담 고조",
+      "score": 38.88,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "국제"
+      ],
+      "sample_titles": [
+        "韓 국채금리도 4.4%로 뜀박질, 이자부담 늘고 기업투자 위축 우려",
+        "되살아난 중동 리스크…유가·국채금리 급등에 세계증시 '덜컹'(종합)",
+        "韓 국채금리도 4.4%로 뜀박질, 이자부담 늘고 기업투자 위축 우려"
+      ],
+      "representative_article": {
+        "title": "되살아난 중동 리스크…유가·국채금리 급등에 세계증시 '덜컹'(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260902082551008",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-09-02 16:28:25",
+        "match_score": 38.88
+      },
+      "related_articles": [
+        {
+          "title": "되살아난 중동 리스크…유가·국채금리 급등에 세계증시 '덜컹'(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260902082551008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-02 16:28:25",
+          "match_score": 38.88
+        },
+        {
+          "title": "韓 국채금리도 4.4%로 뜀박질, 이자부담 늘고 기업투자 위축 우려",
+          "link": "https://www.donga.com/news/Economy/article/all/20260903/134595417/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-03 04:30:00",
+          "match_score": 35.75
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI 혁신",
+      "reason": "정부 공직 개혁과 정책 화두",
+      "score": 32.07,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "韓총리, 'AI 혁신' 공직자 만나 \"정부 일하는 방식 변해야\""
+      ],
+      "representative_article": {
+        "title": "韓총리, 'AI 혁신' 공직자 만나 \"정부 일하는 방식 변해야\"",
+        "link": "https://www.yna.co.kr/view/AKR20260902159000001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-09-02 18:01:07",
+        "match_score": 32.07
+      },
+      "related_articles": [
+        {
+          "title": "韓총리, 'AI 혁신' 공직자 만나 \"정부 일하는 방식 변해야\"",
+          "link": "https://www.yna.co.kr/view/AKR20260902159000001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-02 18:01:07",
+          "match_score": 32.07
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "반도체 투자",
+      "reason": "대규모 투자 및 공급 협약 증가",
+      "score": 40.23,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "최태원, 일본에 반도체 투자 검토 이유는…탄탄한 소부장 생태계"
+      ],
+      "representative_article": {
+        "title": "최태원, 일본에 반도체 투자 검토 이유는…탄탄한 소부장 생태계",
+        "link": "https://www.yna.co.kr/view/AKR20260902134300003",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-09-02 16:36:05",
+        "match_score": 40.23
+      },
+      "related_articles": [
+        {
+          "title": "최태원, 일본에 반도체 투자 검토 이유는…탄탄한 소부장 생태계",
+          "link": "https://www.yna.co.kr/view/AKR20260902134300003",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-02 16:36:05",
+          "match_score": 40.23
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재개발",
+      "reason": "서울 전농동 신통기획 확정 소식",
+      "score": 43.5,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "서울시립대 앞 전농동 일대… 1800가구 신통기획 재개발",
+        "서울시립대 앞 전농동 재개발 신통기획 확정…1800가구 주거단지로"
+      ],
+      "representative_article": {
+        "title": "서울시립대 앞 전농동 재개발 신통기획 확정…1800가구 주거단지로",
+        "link": "https://www.mk.co.kr/news/realestate/12142305",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-09-02 14:38:24",
+        "match_score": 43.5
+      },
+      "related_articles": [
+        {
+          "title": "서울시립대 앞 전농동 재개발 신통기획 확정…1800가구 주거단지로",
+          "link": "https://www.mk.co.kr/news/realestate/12142305",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-09-02 14:38:24",
+          "match_score": 43.5
+        },
+        {
+          "title": "서울시립대 앞 전농동 일대… 1800가구 신통기획 재개발",
+          "link": "https://www.mk.co.kr/news/realestate/12142607",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-09-02 17:58:27",
+          "match_score": 42.3
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "유가 상승",
+      "reason": "중동 리스크와 국제 유가 동향",
+      "score": 6.27,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "국제"
+      ],
+      "sample_titles": [
+        "되살아난 중동 리스크…유가·국채금리 급등에 세계증시 '덜컹'(종합)"
+      ],
+      "representative_article": {
+        "title": "되살아난 중동 리스크…유가·국채금리 급등에 세계증시 '덜컹'(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260902082551008",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-09-02 16:28:25",
+        "match_score": 6.27
+      },
+      "related_articles": [
+        {
+          "title": "되살아난 중동 리스크…유가·국채금리 급등에 세계증시 '덜컹'(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260902082551008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-02 16:28:25",
+          "match_score": 6.27
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "회계 위반",
+      "reason": "금양 과징금 조치로 주목",
+      "score": 6.27,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "증선위, '회계기준 위반' 금양에 감사인지정·과징금 조치(종합2보)"
+      ],
+      "representative_article": {
+        "title": "증선위, '회계기준 위반' 금양에 감사인지정·과징금 조치(종합2보)",
+        "link": "https://www.yna.co.kr/view/AKR20260902164752002",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-09-02 20:08:56",
+        "match_score": 6.27
+      },
+      "related_articles": [
+        {
+          "title": "증선위, '회계기준 위반' 금양에 감사인지정·과징금 조치(종합2보)",
+          "link": "https://www.yna.co.kr/view/AKR20260902164752002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-02 20:08:56",
+          "match_score": 6.27
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "서민금융",
+      "reason": "금융권 대규모 자금 출연 지원",
+      "score": 40.38,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "금융권 서민금융에 4년반동안 1조5천억 출연…부실 급증에 부담도↑"
+      ],
+      "representative_article": {
+        "title": "금융권 서민금융에 4년반동안 1조5천억 출연…부실 급증에 부담도↑",
+        "link": "https://www.yna.co.kr/view/AKR20260902172500002",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-09-03 05:51:00",
+        "match_score": 40.38
+      },
+      "related_articles": [
+        {
+          "title": "금융권 서민금융에 4년반동안 1조5천억 출연…부실 급증에 부담도↑",
+          "link": "https://www.yna.co.kr/view/AKR20260902172500002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-03 05:51:00",
+          "match_score": 40.38
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "대북 대화",
+      "reason": "백악관과 정부 입장 공개",
+      "score": 5.0,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "백악관 “北과 대화 전제조건 없어” 李 “여건 우리가 만들어야”"
+      ],
+      "representative_article": {
+        "title": "백악관 “北과 대화 전제조건 없어” 李 “여건 우리가 만들어야”",
+        "link": "https://www.donga.com/news/Politics/article/all/20260903/134595479/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-09-03 04:30:00",
+        "match_score": 5.0
+      },
+      "related_articles": [
+        {
+          "title": "백악관 “北과 대화 전제조건 없어” 李 “여건 우리가 만들어야”",
+          "link": "https://www.donga.com/news/Politics/article/all/20260903/134595479/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-03 04:30:00",
+          "match_score": 5.0
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "세계",
+      "score": 47.1,
+      "article_count": 11,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업",
+        "부동산",
+        "정치"
+      ],
+      "sample_titles": [
+        "[쇼츠] 항모 빼고 세계 최대 크기…28년 만에 부활한 러 핵추진 순양함",
+        "韓 국채금리도 4.4%로 뜀박질, 이자부담 늘고 기업투자 위축 우려",
+        "가까운 이웃에서 지구촌까지, 하나님의 교회가 잇는 ‘어머니 마음’"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "[쇼츠] 항모 빼고 세계 최대 크기…28년 만에 부활한 러 핵추진 순양함",
+        "link": "https://www.yna.co.kr/view/AKR20260902145500704",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-09-02 16:27:38",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "[쇼츠] 항모 빼고 세계 최대 크기…28년 만에 부활한 러 핵추진 순양함",
+          "link": "https://www.yna.co.kr/view/AKR20260902145500704",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-02 16:27:38",
+          "match_score": 37.67
+        },
+        {
+          "title": "신세계프라퍼티, 청담동에 ‘아만 서울’ 세운다…국내 첫 진출",
+          "link": "https://www.mk.co.kr/news/realestate/12142273",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-09-02 14:08:46",
+          "match_score": 37.49
+        },
+        {
+          "title": "아르헨 상원 표창 받은 하나님의 교회 청년들…세계 곳곳서 환경·공동체 활동",
+          "link": "https://www.donga.com/news/Culture/article/all/20260902/134584083/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-03 04:30:00",
+          "match_score": 37.3
+        },
+        {
+          "title": "되살아난 중동 리스크…유가·국채금리 급등에 세계증시 '덜컹'(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260902082551008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-02 16:28:25",
+          "match_score": 28.68
+        },
+        {
+          "title": "신현송 한은 총재 인구위기 경고 ...“한국 상황은 세계의 미래”",
+          "link": "https://www.mk.co.kr/news/economy/12142241",
+          "source": "매일경제-경제",
+          "published_dt": "2026-09-02 13:38:38",
+          "match_score": 28.66
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "이란",
+      "score": 49.9,
+      "article_count": 10,
+      "source_count": 3,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "국제유가, 미·이란 공방격화에 1%안팎 상승…브렌트유 95달러대",
+        "이란-美, 서로 호르무즈 유조선 공격… ‘눈에는 눈’ 확전 기로",
+        "中, ‘19개국 합의’에 반대, G20 재무 회의 빈손"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "국제유가, 미·이란 공방격화에 1%안팎 상승…브렌트유 95달러대",
+        "link": "https://www.yna.co.kr/view/AKR20260903006500072",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-09-03 05:10:37",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "국제유가, 미·이란 공방격화에 1%안팎 상승…브렌트유 95달러대",
+          "link": "https://www.yna.co.kr/view/AKR20260903006500072",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-03 05:10:37",
+          "match_score": 37.67
+        },
+        {
+          "title": "이란-美, 서로 호르무즈 유조선 공격… ‘눈에는 눈’ 확전 기로",
+          "link": "https://www.donga.com/news/Inter/article/all/20260902/134595426/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-03 04:30:00",
+          "match_score": 37.3
+        },
+        {
+          "title": "이란전쟁 7개월 만에… 태국서 휴가 맞은 링컨 항모",
+          "link": "https://www.donga.com/news/Inter/article/all/20260902/134595421/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-03 04:30:00",
+          "match_score": 37.3
+        },
+        {
+          "title": "美 ‘이에는 이’ 전략 돌입…이란 유조선 직접 겨눠 미사일 쐈다",
+          "link": "https://www.donga.com/news/Inter/article/all/20260902/134591724/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-02 16:31:00",
+          "match_score": 37.3
+        },
+        {
+          "title": "국제유가 3거래일째 상승…미·이란 충돌에 브렌트유 95달러 돌파 - 네이트",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBBMHdVM3QzSFFnWVIwbWZIbnJNbFFCUm5TUU1JU2RwWWMyb3cyU2hNMEo2MUstRUhMb0tmeWRzQWE2cEJVekZpZVN6RHp2eVhPM2tUbHZBRVNsYmdmdmtGVw?oc=5",
+          "source": "키워드-에너지물가",
+          "published_dt": "2026-09-03 05:49:00",
+          "match_score": 36.96
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
