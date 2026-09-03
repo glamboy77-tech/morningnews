@@ -1,0 +1,352 @@
+{
+  "timestamp": "2026-09-04T06:01:54.527568",
+  "date": "20260904",
+  "data": [
+    {
+      "keyword": "미국 첨단기업 투자",
+      "reason": "대규모 투자 유치 및 전략 발표",
+      "score": 8.22,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "산업부·코트라, 미국 첨단기업 4곳 2.8조원 투자 유치",
+        "산업부·코트라, 미국 첨단기업 4곳 2.8조원 투자 유치"
+      ],
+      "representative_article": {
+        "title": "산업부·코트라, 미국 첨단기업 4곳 2.8조원 투자 유치",
+        "link": "https://www.yna.co.kr/view/AKR20260903183100003",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-09-04 04:00:01",
+        "match_score": 8.22
+      },
+      "related_articles": [
+        {
+          "title": "산업부·코트라, 미국 첨단기업 4곳 2.8조원 투자 유치",
+          "link": "https://www.yna.co.kr/view/AKR20260903183100003",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-04 04:00:01",
+          "match_score": 8.22
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "한미일 재난 협력",
+      "reason": "해외 긴급구호 협력 논의",
+      "score": 10.28,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "한미일, 해외 재난 시 긴급구호·피해복구 협력 논의"
+      ],
+      "representative_article": {
+        "title": "한미일, 해외 재난 시 긴급구호·피해복구 협력 논의",
+        "link": "https://www.yna.co.kr/view/AKR20260903171100504",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-09-03 18:46:09",
+        "match_score": 10.28
+      },
+      "related_articles": [
+        {
+          "title": "한미일, 해외 재난 시 긴급구호·피해복구 협력 논의",
+          "link": "https://www.yna.co.kr/view/AKR20260903171100504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-03 18:46:09",
+          "match_score": 10.28
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "국민연금",
+      "reason": "자산운용 중심 및 포럼",
+      "score": 41.88,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "전북의 자산운용 중심 도약 모색…국민연금서 '제7회 지니포럼'"
+      ],
+      "representative_article": {
+        "title": "전북의 자산운용 중심 도약 모색…국민연금서 '제7회 지니포럼'",
+        "link": "https://www.yna.co.kr/view/AKR20260903146800055",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-09-03 16:24:01",
+        "match_score": 41.88
+      },
+      "related_articles": [
+        {
+          "title": "전북의 자산운용 중심 도약 모색…국민연금서 '제7회 지니포럼'",
+          "link": "https://www.yna.co.kr/view/AKR20260903146800055",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-03 16:24:01",
+          "match_score": 41.88
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "GTX-A·SRT 동탄역",
+      "reason": "분양 및 부동산 시장 영향",
+      "score": 50.91,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "[분양 포커스] 도보권에 GTX-A·SRT 동탄역, 청약 통장·주택 수 제한 없어 - 중앙일보"
+      ],
+      "representative_article": {
+        "title": "[분양 포커스] 도보권에 GTX-A·SRT 동탄역, 청약 통장·주택 수 제한 없어 - 중앙일보",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9mb2JQVVptUFp6bjBJLXZLX3hpbXZTWFlCbkc1LTJXWUFFYmxMbngzbHNxQk9Qa1hobXRzTmRjVmhXQl90RjdKcW1vZEV3WnhyRzlxU2J3?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-09-04 05:30:01",
+        "match_score": 50.91
+      },
+      "related_articles": [
+        {
+          "title": "[분양 포커스] 도보권에 GTX-A·SRT 동탄역, 청약 통장·주택 수 제한 없어 - 중앙일보",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9mb2JQVVptUFp6bjBJLXZLX3hpbXZTWFlCbkc1LTJXWUFFYmxMbngzbHNxQk9Qa1hobXRzTmRjVmhXQl90RjdKcW1vZEV3WnhyRzlxU2J3?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-09-04 05:30:01",
+          "match_score": 50.91
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI 기술",
+      "reason": "오픈AI 신모델·기업 AI 국산화",
+      "score": 3.88,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "대한항공, 무인기 기술교류회 열고 '피지컬 AI 국산화' 공유"
+      ],
+      "representative_article": {
+        "title": "대한항공, 무인기 기술교류회 열고 '피지컬 AI 국산화' 공유",
+        "link": "https://www.yna.co.kr/view/AKR20260903136900003",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-09-03 16:15:22",
+        "match_score": 3.88
+      },
+      "related_articles": [
+        {
+          "title": "대한항공, 무인기 기술교류회 열고 '피지컬 AI 국산화' 공유",
+          "link": "https://www.yna.co.kr/view/AKR20260903136900003",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-09-03 16:15:22",
+          "match_score": 3.88
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "외환보유액",
+      "reason": "최대치 경신 및 반도체 수출 호조",
+      "score": 40.06,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "외환보유액 51개월만에 최대… 반도체 수출 힘입어 4423억弗",
+        "반도체 호황에 넘치는 달러… 8월 외환보유액 143억달러 늘어"
+      ],
+      "representative_article": {
+        "title": "외환보유액 51개월만에 최대… 반도체 수출 힘입어 4423억弗",
+        "link": "https://www.mk.co.kr/news/economy/12143670",
+        "source": "매일경제-경제",
+        "published_dt": "2026-09-03 17:53:19",
+        "match_score": 40.06
+      },
+      "related_articles": [
+        {
+          "title": "외환보유액 51개월만에 최대… 반도체 수출 힘입어 4423억弗",
+          "link": "https://www.mk.co.kr/news/economy/12143670",
+          "source": "매일경제-경제",
+          "published_dt": "2026-09-03 17:53:19",
+          "match_score": 40.06
+        },
+        {
+          "title": "반도체 호황에 넘치는 달러… 8월 외환보유액 143억달러 늘어",
+          "link": "https://www.chosun.com/economy/economy_general/2026/09/04/6DWE4PAVRNHQXKOGKN5FDB2LQA/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-09-04 00:31:00",
+          "match_score": 29.5
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "중국 대외정책",
+      "reason": "왕이 발언 관련 항의",
+      "score": 5.7,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "中, 왕이 방한 때 ‘남북 두 국가’ 표현… 정부 “엄중히 항의”"
+      ],
+      "representative_article": {
+        "title": "中, 왕이 방한 때 ‘남북 두 국가’ 표현… 정부 “엄중히 항의”",
+        "link": "https://www.chosun.com/politics/north_korea/2026/09/04/CGZSTXLPKBGTBOQ2HUH2XUP7RM/",
+        "source": "조선일보-정치",
+        "published_dt": "2026-09-04 00:49:00",
+        "match_score": 5.7
+      },
+      "related_articles": [
+        {
+          "title": "中, 왕이 방한 때 ‘남북 두 국가’ 표현… 정부 “엄중히 항의”",
+          "link": "https://www.chosun.com/politics/north_korea/2026/09/04/CGZSTXLPKBGTBOQ2HUH2XUP7RM/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-09-04 00:49:00",
+          "match_score": 5.7
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "보톡스 분쟁",
+      "reason": "대웅제약-메디톡스 소송 확대",
+      "score": 37.37,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "[특징주] 대웅제약, '보톡스 분쟁' 메디톡스 청구액 확대에 7%↓(종합)",
+        "[특징주] 대웅제약, '보톡스 분쟁' 메디톡스 청구액 확대에 7%↓(종합)"
+      ],
+      "representative_article": {
+        "title": "[특징주] 대웅제약, '보톡스 분쟁' 메디톡스 청구액 확대에 7%↓(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260903048351008",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-09-03 16:32:45",
+        "match_score": 37.37
+      },
+      "related_articles": [
+        {
+          "title": "[특징주] 대웅제약, '보톡스 분쟁' 메디톡스 청구액 확대에 7%↓(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260903048351008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-03 16:32:45",
+          "match_score": 37.37
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "항만공사 통합",
+      "reason": "전국 4개 공사 통합",
+      "score": 34.07,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "4개 항만公 '한국항만공사'로 통합",
+        "20여년 만의 전국 4개 항만공사 통합…항만체제 개편 촉각"
+      ],
+      "representative_article": {
+        "title": "20여년 만의 전국 4개 항만공사 통합…항만체제 개편 촉각",
+        "link": "https://www.yna.co.kr/view/AKR20260903158000065",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-09-03 17:17:30",
+        "match_score": 34.07
+      },
+      "related_articles": [
+        {
+          "title": "20여년 만의 전국 4개 항만공사 통합…항만체제 개편 촉각",
+          "link": "https://www.yna.co.kr/view/AKR20260903158000065",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-09-03 17:17:30",
+          "match_score": 34.07
+        },
+        {
+          "title": "4개 항만公 '한국항만공사'로 통합",
+          "link": "https://www.mk.co.kr/news/economy/12143747",
+          "source": "매일경제-경제",
+          "published_dt": "2026-09-03 18:03:20",
+          "match_score": 8.06
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 9,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "네팔 홍수",
+      "reason": "한국인 실종 및 수색 지속",
+      "score": 35.67,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "네팔 홍수로 한국인 9명 실종 9일째…정부, 수색 상황 점검"
+      ],
+      "representative_article": {
+        "title": "네팔 홍수로 한국인 9명 실종 9일째…정부, 수색 상황 점검",
+        "link": "https://www.yna.co.kr/view/AKR20260903185600504",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-09-03 23:09:34",
+        "match_score": 35.67
+      },
+      "related_articles": [
+        {
+          "title": "네팔 홍수로 한국인 9명 실종 9일째…정부, 수색 상황 점검",
+          "link": "https://www.yna.co.kr/view/AKR20260903185600504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-03 23:09:34",
+          "match_score": 35.67
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 10,
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
