@@ -1,0 +1,444 @@
+{
+  "timestamp": "2026-09-07T06:01:22.386304",
+  "date": "20260907",
+  "data": [
+    {
+      "keyword": "파병",
+      "reason": "국내외 정치권, 중동 긴장과 연계",
+      "score": 38.88,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "국힘 \"호르무즈 파병 간보기, 국내외서 '욕먹기 외교' 돼\""
+      ],
+      "representative_article": {
+        "title": "국힘 \"호르무즈 파병 간보기, 국내외서 '욕먹기 외교' 돼\"",
+        "link": "https://www.yna.co.kr/view/AKR20260906030300001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-09-06 15:22:42",
+        "match_score": 38.88
+      },
+      "related_articles": [
+        {
+          "title": "국힘 \"호르무즈 파병 간보기, 국내외서 '욕먹기 외교' 돼\"",
+          "link": "https://www.yna.co.kr/view/AKR20260906030300001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-06 15:22:42",
+          "match_score": 38.88
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI기술",
+      "reason": "기업 산업 분야에서 기술 혁신 핵심",
+      "score": 3.99,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "한국·호주 양자산업 생태계 연결...양자 스타트업 요람 KIST, '퀀텀 넥서스 2026' 개최"
+      ],
+      "representative_article": {
+        "title": "한국·호주 양자산업 생태계 연결...양자 스타트업 요람 KIST, '퀀텀 넥서스 2026' 개최",
+        "link": "https://www.etnews.com/20260904000009",
+        "source": "전자신문",
+        "published_dt": "2026-09-06 12:00:00",
+        "match_score": 3.99
+      },
+      "related_articles": [
+        {
+          "title": "한국·호주 양자산업 생태계 연결...양자 스타트업 요람 KIST, '퀀텀 넥서스 2026' 개최",
+          "link": "https://www.etnews.com/20260904000009",
+          "source": "전자신문",
+          "published_dt": "2026-09-06 12:00:00",
+          "match_score": 3.99
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재건축",
+      "reason": "부동산 시장 재개발 활발 보도",
+      "score": 39.21,
+      "article_count": 3,
+      "source_count": 2,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "용적률 1.2배 높이면 성산시영 분담금 1억 뚝",
+        "[부동산 손품노트] \"재개발 투자금만 봤다가 稅폭탄\"…장특공 세제변화 영향 주목해야",
+        "[이번주 재개발ㆍ재건축] 2.4조 목동13단지 입찰 마감 - 대한경제"
+      ],
+      "representative_article": {
+        "title": "[이번주 재개발ㆍ재건축] 2.4조 목동13단지 입찰 마감 - 대한경제",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBSRlVZSGZWTEt6UGY4N1R5eHhLNUlKbkc4QUZPTldsX2kxN2VqZ3lNTTB5VEpkY09aTy1LMmpjWkJvTDB5YzgzWTZWdVBmTWZqcmE3SEJLbkpYUDl5emRYVkhlZnFUb2thbjR2TnN5Y21iZzZJ?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-09-07 05:00:52",
+        "match_score": 39.21
+      },
+      "related_articles": [
+        {
+          "title": "[이번주 재개발ㆍ재건축] 2.4조 목동13단지 입찰 마감 - 대한경제",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBSRlVZSGZWTEt6UGY4N1R5eHhLNUlKbkc4QUZPTldsX2kxN2VqZ3lNTTB5VEpkY09aTy1LMmpjWkJvTDB5YzgzWTZWdVBmTWZqcmE3SEJLbkpYUDl5emRYVkhlZnFUb2thbjR2TnN5Y21iZzZJ?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-09-07 05:00:52",
+          "match_score": 39.21
+        },
+        {
+          "title": "[부동산 손품노트] \"재개발 투자금만 봤다가 稅폭탄\"…장특공 세제변화 영향 주목해야",
+          "link": "https://www.mk.co.kr/news/realestate/12145488",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-09-06 17:29:25",
+          "match_score": 14.49
+        },
+        {
+          "title": "용적률 1.2배 높이면 성산시영 분담금 1억 뚝",
+          "link": "https://www.mk.co.kr/news/realestate/12145460",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-09-06 17:12:16",
+          "match_score": 12.4
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "중동사태",
+      "reason": "국제 정세 불안과 경제 파급 영향",
+      "score": 29.26,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "국제"
+      ],
+      "sample_titles": [
+        "중동사태 장기화로 유가 뛰면 … \"한국, 내년 물가 0.4%P 더 오른다\""
+      ],
+      "representative_article": {
+        "title": "중동사태 장기화로 유가 뛰면 … \"한국, 내년 물가 0.4%P 더 오른다\"",
+        "link": "https://www.mk.co.kr/news/economy/12145533",
+        "source": "매일경제-경제",
+        "published_dt": "2026-09-06 17:43:32",
+        "match_score": 29.26
+      },
+      "related_articles": [
+        {
+          "title": "중동사태 장기화로 유가 뛰면 … \"한국, 내년 물가 0.4%P 더 오른다\"",
+          "link": "https://www.mk.co.kr/news/economy/12145533",
+          "source": "매일경제-경제",
+          "published_dt": "2026-09-06 17:43:32",
+          "match_score": 29.26
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "수출",
+      "reason": "경제 성장 및 무역 호조 중심",
+      "score": 37.66,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "성미숙 회장 “여성벤처 투자 1.8% 불과…500억 이상 스케일업 펀드 필요”",
+        "韓수출 '세계 4강' 보인다 … 반도체 호황에 벌써 신기록"
+      ],
+      "representative_article": {
+        "title": "韓수출 '세계 4강' 보인다 … 반도체 호황에 벌써 신기록",
+        "link": "https://www.mk.co.kr/news/economy/12145512",
+        "source": "매일경제-경제",
+        "published_dt": "2026-09-06 17:38:02",
+        "match_score": 37.66
+      },
+      "related_articles": [
+        {
+          "title": "韓수출 '세계 4강' 보인다 … 반도체 호황에 벌써 신기록",
+          "link": "https://www.mk.co.kr/news/economy/12145512",
+          "source": "매일경제-경제",
+          "published_dt": "2026-09-06 17:38:02",
+          "match_score": 37.66
+        },
+        {
+          "title": "성미숙 회장 “여성벤처 투자 1.8% 불과…500억 이상 스케일업 펀드 필요”",
+          "link": "https://www.etnews.com/20260906000034",
+          "source": "전자신문",
+          "published_dt": "2026-09-06 15:00:00",
+          "match_score": 9.8
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "녹취록",
+      "reason": "정치권 갈등 핵심 이슈",
+      "score": 3.67,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "韓 \"과장선에서 막혀? 알았어…영장판사는 단짝\" 김승원 녹취공개(종합2보)"
+      ],
+      "representative_article": {
+        "title": "韓 \"과장선에서 막혀? 알았어…영장판사는 단짝\" 김승원 녹취공개(종합2보)",
+        "link": "https://www.yna.co.kr/view/AKR20260906018152001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-09-06 23:09:24",
+        "match_score": 3.67
+      },
+      "related_articles": [
+        {
+          "title": "韓 \"과장선에서 막혀? 알았어…영장판사는 단짝\" 김승원 녹취공개(종합2보)",
+          "link": "https://www.yna.co.kr/view/AKR20260906018152001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-06 23:09:24",
+          "match_score": 3.67
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "금융안정",
+      "reason": "중국 자본 확충 및 국내 금융정책",
+      "score": 5.08,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "中, 국유 은행·보험사에 대규모 자본 확충…금융권 안정성 강화"
+      ],
+      "representative_article": {
+        "title": "中, 국유 은행·보험사에 대규모 자본 확충…금융권 안정성 강화",
+        "link": "https://www.yna.co.kr/view/AKR20260906048400083",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-09-06 20:32:57",
+        "match_score": 5.08
+      },
+      "related_articles": [
+        {
+          "title": "中, 국유 은행·보험사에 대규모 자본 확충…금융권 안정성 강화",
+          "link": "https://www.yna.co.kr/view/AKR20260906048400083",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-06 20:32:57",
+          "match_score": 5.08
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "이란",
+      "score": 41.1,
+      "article_count": 7,
+      "source_count": 5,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "美 “한국 파병 기다려” 이란 “침략 간주”… 고심 깊은 정부",
+        "美·이란 충돌에 국제유가 급등… 원유 ETF 수익률 1·2위 [투자의 맥] - 시장경제신문",
+        "이란 제재망 '뜻밖의 구멍'은 美 은행…연간 수십억달러 통과"
+      ],
+      "llm_candidate": false,
+      "rank": 8,
+      "representative_article": {
+        "title": "이란 제재망 '뜻밖의 구멍'은 美 은행…연간 수십억달러 통과",
+        "link": "https://www.yna.co.kr/view/AKR20260906035900009",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-09-06 16:31:40",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "이란 제재망 '뜻밖의 구멍'은 美 은행…연간 수십억달러 통과",
+          "link": "https://www.yna.co.kr/view/AKR20260906035900009",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-06 16:31:40",
+          "match_score": 37.67
+        },
+        {
+          "title": "이란유조선 타격, 미군함에 보복공격…미궁속 전쟁, 끝이 안보인다",
+          "link": "https://www.mk.co.kr/news/economy/12145635",
+          "source": "매일경제-경제",
+          "published_dt": "2026-09-06 23:34:40",
+          "match_score": 37.66
+        },
+        {
+          "title": "고민 커진 호르무즈 파병, 이란 “전쟁 참여 간주”",
+          "link": "https://www.donga.com/news/Politics/article/all/20260907/134615775/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-07 04:30:00",
+          "match_score": 37.3
+        },
+        {
+          "title": "美중부사 “이란 해상봉쇄에 92척 항로 변경…F-35A도 순찰”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260906/134615898/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-06 22:25:42",
+          "match_score": 37.3
+        },
+        {
+          "title": "美·이란 충돌에 국제유가 급등… 원유 ETF 수익률 1·2위 [투자의 맥] - 시장경제신문",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE05TEM4UGgwMVdPWWNzUmpLektCR2RFZlp3dE5vSHB4SUJ2Z3ZINVVIYmpQRFRVT3NEUmk2VnVpeXByUFg4cXkyRHFKV21kUnAxMUVCVzVFLUhtUWZzZG9FaWZzQjM2b0w1MDc4TS1maHU?oc=5",
+          "source": "키워드-에너지물가",
+          "published_dt": "2026-09-06 11:50:00",
+          "match_score": 36.96
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "국민의힘",
+      "score": 28.5,
+      "article_count": 7,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "장동혁, 공군사관학교 방문…'사관학교 통폐합' 반대 토론회도",
+        "정점식 \"李정부 인사, 김현지 중심 언더조직이 굴리나\"(종합)",
+        "국힘 \"호르무즈 파병 간보기, 국내외서 '욕먹기 외교' 돼\""
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "장동혁, 공군사관학교 방문…'사관학교 통폐합' 반대 토론회도",
+        "link": "https://www.yna.co.kr/view/AKR20260906046900001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-09-07 05:00:04",
+        "match_score": 12.68
+      },
+      "related_articles": [
+        {
+          "title": "장동혁, 공군사관학교 방문…'사관학교 통폐합' 반대 토론회도",
+          "link": "https://www.yna.co.kr/view/AKR20260906046900001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-07 05:00:04",
+          "match_score": 12.68
+        },
+        {
+          "title": "정점식 \"李정부 인사, 김현지 중심 언더조직이 굴리나\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260906019251001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-06 14:45:45",
+          "match_score": 11.68
+        },
+        {
+          "title": "국힘 \"호르무즈 파병 간보기, 국내외서 '욕먹기 외교' 돼\"",
+          "link": "https://www.yna.co.kr/view/AKR20260906030300001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-06 15:22:42",
+          "match_score": 11.68
+        },
+        {
+          "title": "이진숙, '여자 히틀러' 김민석 발언 모욕죄 고소…영등포서 출석",
+          "link": "https://www.yna.co.kr/view/AKR20260906029700004",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-06 14:59:02",
+          "match_score": 11.68
+        },
+        {
+          "title": "與 \"장동혁, 이승만연구원과도 회동…국힘판 리박스쿨 만드나\"",
+          "link": "https://www.yna.co.kr/view/AKR20260906027400001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-06 14:14:45",
+          "match_score": 11.68
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "하는",
+      "score": 29.3,
+      "article_count": 6,
+      "source_count": 5,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "대미투자 협상 마무리 수순 … 산업부, 7일 與에 결과보고",
+        "2030년 적자성 채무 1천300조대…나랏빚 이자비용 50조 넘어(종합)",
+        "AIDC 가르는 '기술기준' 나왔다"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "아 스마트폰 그만해야하는데... - 사이언스타임즈",
+        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE84U0hUaFRYNzA0M1hpc3RWZlE4SHNoSGNMNmpNY0lBWk5oT3oxMG8wdTRDOFRHUGZVeUVGMW54eXVMN1Fyb2lFS1lPMkhrU180SnQ1ejl2SWE?oc=5",
+        "source": "사이언스타임즈",
+        "published_dt": "2025-08-08 16:00:00",
+        "match_score": 35.34
+      },
+      "related_articles": [
+        {
+          "title": "아 스마트폰 그만해야하는데... - 사이언스타임즈",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE84U0hUaFRYNzA0M1hpc3RWZlE4SHNoSGNMNmpNY0lBWk5oT3oxMG8wdTRDOFRHUGZVeUVGMW54eXVMN1Fyb2lFS1lPMkhrU180SnQ1ejl2SWE?oc=5",
+          "source": "사이언스타임즈",
+          "published_dt": "2025-08-08 16:00:00",
+          "match_score": 35.34
+        },
+        {
+          "title": "AI 구독부터 마라톤까지… ‘취향 저격’하는 카드들",
+          "link": "https://www.chosun.com/economy/market_trend/2026/09/07/P53JNAR2WJA4VKYIAONJESBS4I/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-09-07 00:37:00",
+          "match_score": 28.3
+        },
+        {
+          "title": "“연금만으론 빠듯”⋯ 73세까지 일해야 하는 한일 노인들 실상",
+          "link": "https://www.chosun.com/economy/2026/09/07/GAPK6EGHMFAQVHPYNBYIOTAFBM/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-09-07 03:00:00",
+          "match_score": 28.3
+        },
+        {
+          "title": "최윤범이 키운 자원순환 사업…한국 희토류 공급망 대안으로",
+          "link": "https://zdnet.co.kr/view/?no=20260906230958",
+          "source": "ZDNetKorea",
+          "published_dt": "2026-09-06 23:11:40",
+          "match_score": 12.1
+        },
+        {
+          "title": "CU, 15일부터 아시안게임 맞아 주류·간식 등 70여종 할인",
+          "link": "https://www.yna.co.kr/view/AKR20260906021600030",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-06 11:06:18",
+          "match_score": 11.82
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
