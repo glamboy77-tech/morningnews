@@ -1,0 +1,410 @@
+{
+  "timestamp": "2026-09-08T06:01:46.720196",
+  "date": "20260908",
+  "data": [
+    {
+      "keyword": "중수청",
+      "reason": "임명 논란과 검찰개혁 이슈",
+      "score": 38.67,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "혁신당 \"중수청장 후보, 檢개혁 원칙 훼손…강력히 우려\"",
+        "李대통령, 김지용 중수청장 후보 지명키로…\"중수청 안착 적임\""
+      ],
+      "representative_article": {
+        "title": "李대통령, 김지용 중수청장 후보 지명키로…\"중수청 안착 적임\"",
+        "link": "https://www.yna.co.kr/view/AKR20260908004600001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-09-08 05:48:53",
+        "match_score": 38.67
+      },
+      "related_articles": [
+        {
+          "title": "李대통령, 김지용 중수청장 후보 지명키로…\"중수청 안착 적임\"",
+          "link": "https://www.yna.co.kr/view/AKR20260908004600001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-08 05:48:53",
+          "match_score": 38.67
+        },
+        {
+          "title": "혁신당 \"중수청장 후보, 檢개혁 원칙 훼손…강력히 우려\"",
+          "link": "https://www.yna.co.kr/view/AKR20260907154200001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-07 19:24:28",
+          "match_score": 29.78
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI 데이터센터",
+      "reason": "대규모 투자·산업 성장 중심",
+      "score": 35.66,
+      "article_count": 4,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "30조원 투입해 美 데이터센터 전력 공급… '대미투자 1호' 국회 보고",
+        "대미투자 1호 가스발전소 사업, AI데이터센터에 전력판매가 관건",
+        "‘대미투자 1호’ 텍사스 가스발전소… 2호는 원전 8기 검토"
+      ],
+      "representative_article": {
+        "title": "AI 데이터센터 신청 60%, 서울·경기 등 수도권에 몰려",
+        "link": "https://www.mk.co.kr/news/economy/12146407",
+        "source": "매일경제-경제",
+        "published_dt": "2026-09-07 17:55:52",
+        "match_score": 35.66
+      },
+      "related_articles": [
+        {
+          "title": "AI 데이터센터 신청 60%, 서울·경기 등 수도권에 몰려",
+          "link": "https://www.mk.co.kr/news/economy/12146407",
+          "source": "매일경제-경제",
+          "published_dt": "2026-09-07 17:55:52",
+          "match_score": 35.66
+        },
+        {
+          "title": "대미투자 1호 가스발전소 사업, AI데이터센터에 전력판매가 관건",
+          "link": "https://www.donga.com/news/Economy/article/all/20260907/134621737/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-07 20:23:00",
+          "match_score": 27.5
+        },
+        {
+          "title": "30조원 투입해 美 데이터센터 전력 공급… '대미투자 1호' 국회 보고",
+          "link": "https://www.etnews.com/20260907000478",
+          "source": "전자신문",
+          "published_dt": "2026-09-07 19:00:44",
+          "match_score": 7.0
+        },
+        {
+          "title": "‘대미투자 1호’ 텍사스 가스발전소… 2호는 원전 8기 검토",
+          "link": "https://www.donga.com/news/Economy/article/all/20260908/134623622/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-08 04:30:00",
+          "match_score": 6.9
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "대미투자",
+      "reason": "미국 내 발전소 건설 사업",
+      "score": 38.8,
+      "article_count": 4,
+      "source_count": 3,
+      "categories": [
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "6.3GW 가스복합발전 건설… 생산 전력은 데이터센터로",
+        "30조원 투입해 美 데이터센터 전력 공급… '대미투자 1호' 국회 보고",
+        "대미투자 1호 가스발전소 사업, AI데이터센터에 전력판매가 관건"
+      ],
+      "representative_article": {
+        "title": "대미투자 1호 가스발전소 사업, AI데이터센터에 전력판매가 관건",
+        "link": "https://www.donga.com/news/Economy/article/all/20260907/134621737/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-09-07 20:23:00",
+        "match_score": 38.8
+      },
+      "related_articles": [
+        {
+          "title": "대미투자 1호 가스발전소 사업, AI데이터센터에 전력판매가 관건",
+          "link": "https://www.donga.com/news/Economy/article/all/20260907/134621737/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-07 20:23:00",
+          "match_score": 38.8
+        },
+        {
+          "title": "‘대미투자 1호’ 텍사스 가스발전소… 2호는 원전 8기 검토",
+          "link": "https://www.donga.com/news/Economy/article/all/20260908/134623622/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-08 04:30:00",
+          "match_score": 38.8
+        },
+        {
+          "title": "30조원 투입해 美 데이터센터 전력 공급… '대미투자 1호' 국회 보고",
+          "link": "https://www.etnews.com/20260907000478",
+          "source": "전자신문",
+          "published_dt": "2026-09-07 19:00:44",
+          "match_score": 37.79
+        },
+        {
+          "title": "6.3GW 가스복합발전 건설… 생산 전력은 데이터센터로",
+          "link": "https://www.mk.co.kr/news/economy/12146406",
+          "source": "매일경제-경제",
+          "published_dt": "2026-09-07 17:55:51",
+          "match_score": 13.16
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "원전 건설",
+      "reason": "미국 대형 원전 8기 추진 계획",
+      "score": 14.0,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "대미투자 1호 가스발전소 사업, AI데이터센터에 전력판매가 관건",
+        "‘대미투자 1호’ 텍사스 가스발전소… 2호는 원전 8기 검토"
+      ],
+      "representative_article": {
+        "title": "‘대미투자 1호’ 텍사스 가스발전소… 2호는 원전 8기 검토",
+        "link": "https://www.donga.com/news/Economy/article/all/20260908/134623622/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-09-08 04:30:00",
+        "match_score": 14.0
+      },
+      "related_articles": [
+        {
+          "title": "‘대미투자 1호’ 텍사스 가스발전소… 2호는 원전 8기 검토",
+          "link": "https://www.donga.com/news/Economy/article/all/20260908/134623622/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-08 04:30:00",
+          "match_score": 14.0
+        },
+        {
+          "title": "대미투자 1호 가스발전소 사업, AI데이터센터에 전력판매가 관건",
+          "link": "https://www.donga.com/news/Economy/article/all/20260907/134621737/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-07 20:23:00",
+          "match_score": 11.9
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "원화 강세",
+      "reason": "환율 변화 및 국민연금 정책",
+      "score": 31.06,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "원화값 두 달새 200원 치솟자 … 국민연금 환헤지 중단",
+        "1530원까지 갔던 원화값, 두 달 만에 1330원대…원화 강세 어디까지"
+      ],
+      "representative_article": {
+        "title": "1530원까지 갔던 원화값, 두 달 만에 1330원대…원화 강세 어디까지",
+        "link": "https://www.mk.co.kr/news/economy/12145891",
+        "source": "매일경제-경제",
+        "published_dt": "2026-09-07 11:10:56",
+        "match_score": 31.06
+      },
+      "related_articles": [
+        {
+          "title": "1530원까지 갔던 원화값, 두 달 만에 1330원대…원화 강세 어디까지",
+          "link": "https://www.mk.co.kr/news/economy/12145891",
+          "source": "매일경제-경제",
+          "published_dt": "2026-09-07 11:10:56",
+          "match_score": 31.06
+        },
+        {
+          "title": "원화값 두 달새 200원 치솟자 … 국민연금 환헤지 중단",
+          "link": "https://www.mk.co.kr/news/economy/12146455",
+          "source": "매일경제-경제",
+          "published_dt": "2026-09-07 18:01:02",
+          "match_score": 6.86
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "부동산 시장",
+      "reason": "서울 빌라 착공 급증·가격 변동",
+      "score": 5.5,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "서울에 빌라가 돌아왔다 … 올해 착공물량 81% 급증"
+      ],
+      "representative_article": {
+        "title": "서울에 빌라가 돌아왔다 … 올해 착공물량 81% 급증",
+        "link": "https://www.mk.co.kr/news/realestate/12146370",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-09-07 17:51:30",
+        "match_score": 5.5
+      },
+      "related_articles": [
+        {
+          "title": "서울에 빌라가 돌아왔다 … 올해 착공물량 81% 급증",
+          "link": "https://www.mk.co.kr/news/realestate/12146370",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-09-07 17:51:30",
+          "match_score": 5.5
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "방산협력",
+      "reason": "한-필리핀 국방회담 주요 내용",
+      "score": 30.02,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "안규백, 필리핀 국방장관과 양자회담…방산협력 강화 논의",
+        "안규백, 필리핀 국방장관과 양자회담…방산협력 강화 논의"
+      ],
+      "representative_article": {
+        "title": "안규백, 필리핀 국방장관과 양자회담…방산협력 강화 논의",
+        "link": "https://www.yna.co.kr/view/AKR20260907153500504",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-09-07 19:11:02",
+        "match_score": 30.02
+      },
+      "related_articles": [
+        {
+          "title": "안규백, 필리핀 국방장관과 양자회담…방산협력 강화 논의",
+          "link": "https://www.yna.co.kr/view/AKR20260907153500504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-07 19:11:02",
+          "match_score": 30.02
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "노동절 유",
+      "reason": "미국 노동절 기름값 최고치",
+      "score": 5.37,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "국제"
+      ],
+      "sample_titles": [
+        "美노동절 기름값 사상최고…\"이란전탓 소비자 135조원 추가부담\""
+      ],
+      "representative_article": {
+        "title": "美노동절 기름값 사상최고…\"이란전탓 소비자 135조원 추가부담\"",
+        "link": "https://www.yna.co.kr/view/AKR20260908001000071",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-09-08 02:13:03",
+        "match_score": 5.37
+      },
+      "related_articles": [
+        {
+          "title": "美노동절 기름값 사상최고…\"이란전탓 소비자 135조원 추가부담\"",
+          "link": "https://www.yna.co.kr/view/AKR20260908001000071",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-08 02:13:03",
+          "match_score": 5.37
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "선거법 고발",
+      "reason": "국힘 전재수 시장 고발 사건",
+      "score": 8.38,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "국힘, 선거법 위반 혐의로 전재수 시장 고발…민주 \"정치공세\"(종합)"
+      ],
+      "representative_article": {
+        "title": "국힘, 선거법 위반 혐의로 전재수 시장 고발…민주 \"정치공세\"(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260907120751051",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-09-07 17:42:15",
+        "match_score": 8.38
+      },
+      "related_articles": [
+        {
+          "title": "국힘, 선거법 위반 혐의로 전재수 시장 고발…민주 \"정치공세\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260907120751051",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-07 17:42:15",
+          "match_score": 8.38
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 9,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "개인정보 유출",
+      "reason": "강남언니 사례 보도",
+      "score": 44.7,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "강남언니 22만명 시술·상담 포함 개인정보 유출…2차피해 우려",
+        "[단독] 강남언니, 시술정보 포함 22만명 고객 개인정보 유출…경찰 수사 의뢰"
+      ],
+      "representative_article": {
+        "title": "[단독] 강남언니, 시술정보 포함 22만명 고객 개인정보 유출…경찰 수사 의뢰",
+        "link": "https://www.etnews.com/20260907000427",
+        "source": "전자신문",
+        "published_dt": "2026-09-07 16:51:05",
+        "match_score": 44.7
+      },
+      "related_articles": [
+        {
+          "title": "[단독] 강남언니, 시술정보 포함 22만명 고객 개인정보 유출…경찰 수사 의뢰",
+          "link": "https://www.etnews.com/20260907000427",
+          "source": "전자신문",
+          "published_dt": "2026-09-07 16:51:05",
+          "match_score": 44.7
+        },
+        {
+          "title": "강남언니 22만명 시술·상담 포함 개인정보 유출…2차피해 우려",
+          "link": "https://www.yna.co.kr/view/AKR20260907150000017",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-09-07 18:23:35",
+          "match_score": 35.88
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 10,
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
