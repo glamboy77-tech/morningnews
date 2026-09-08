@@ -1,0 +1,385 @@
+{
+  "timestamp": "2026-09-09T06:01:28.688391",
+  "date": "20260909",
+  "data": [
+    {
+      "keyword": "호르무즈 해협",
+      "reason": "한-프랑스 협력 및 미국 요청 언급",
+      "score": 43.33,
+      "article_count": 3,
+      "source_count": 2,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "李대통령 \"韓佛, 호르무즈 해협 항행 자유 회복에 긴밀히 공조\"",
+        "韓-佛 “호르무즈 항행 공조”… 美, 11월까지 韓파병 요청",
+        "트럼프 SNS에 캐나다·멕시코·그린란드도 “미국땅”"
+      ],
+      "representative_article": {
+        "title": "李대통령 \"韓佛, 호르무즈 해협 항행 자유 회복에 긴밀히 공조\"",
+        "link": "https://www.yna.co.kr/view/AKR20260908172700001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-09-08 23:50:20",
+        "match_score": 43.33
+      },
+      "related_articles": [
+        {
+          "title": "李대통령 \"韓佛, 호르무즈 해협 항행 자유 회복에 긴밀히 공조\"",
+          "link": "https://www.yna.co.kr/view/AKR20260908172700001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-08 23:50:20",
+          "match_score": 43.33
+        },
+        {
+          "title": "韓-佛 “호르무즈 항행 공조”… 美, 11월까지 韓파병 요청",
+          "link": "https://www.donga.com/news/Politics/article/all/20260909/134630953/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-09 04:30:00",
+          "match_score": 16.1
+        },
+        {
+          "title": "트럼프 SNS에 캐나다·멕시코·그린란드도 “미국땅”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260908/134626740/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-08 13:59:00",
+          "match_score": 13.0
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "금리 인상",
+      "reason": "가계 이자 부담 증가 뉴스 다수",
+      "score": 10.95,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "국제"
+      ],
+      "sample_titles": [
+        "엔-달러 환율, 장중 152엔대로 하락…7개월 만에 최저치"
+      ],
+      "representative_article": {
+        "title": "엔-달러 환율, 장중 152엔대로 하락…7개월 만에 최저치",
+        "link": "https://www.donga.com/news/Economy/article/all/20260908/134626778/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-09-08 15:04:00",
+        "match_score": 10.95
+      },
+      "related_articles": [
+        {
+          "title": "엔-달러 환율, 장중 152엔대로 하락…7개월 만에 최저치",
+          "link": "https://www.donga.com/news/Economy/article/all/20260908/134626778/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-08 15:04:00",
+          "match_score": 10.95
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI 반도체",
+      "reason": "삼성 등 관련 신규 연구소와 협력",
+      "score": 18.27,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "삼성전자, 요코하마에 첨단패키징 연구소…AI반도체 경쟁력 강화"
+      ],
+      "representative_article": {
+        "title": "삼성전자, 요코하마에 첨단패키징 연구소…AI반도체 경쟁력 강화",
+        "link": "https://www.yna.co.kr/view/AKR20260908160700003",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-09-08 19:10:33",
+        "match_score": 18.27
+      },
+      "related_articles": [
+        {
+          "title": "삼성전자, 요코하마에 첨단패키징 연구소…AI반도체 경쟁력 강화",
+          "link": "https://www.yna.co.kr/view/AKR20260908160700003",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-09-08 19:10:33",
+          "match_score": 18.27
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "회사채 수요예측",
+      "reason": "NH투자, 대한항공 대규모 모집 소식",
+      "score": 37.68,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "NH투자증권, 회사채 수요예측에 2.2조 몰려…모집액 11배(종합)",
+        "대한항공, 회사채 수요예측서 4천630억원 몰려…모집예정액 2배"
+      ],
+      "representative_article": {
+        "title": "NH투자증권, 회사채 수요예측에 2.2조 몰려…모집액 11배(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260908144200008",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-09-08 16:50:38",
+        "match_score": 37.68
+      },
+      "related_articles": [
+        {
+          "title": "NH투자증권, 회사채 수요예측에 2.2조 몰려…모집액 11배(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260908144200008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-08 16:50:38",
+          "match_score": 37.68
+        },
+        {
+          "title": "대한항공, 회사채 수요예측서 4천630억원 몰려…모집예정액 2배",
+          "link": "https://www.yna.co.kr/view/AKR20260908133900008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-08 16:14:30",
+          "match_score": 37.08
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재개발 용적률",
+      "reason": "공급 확대와 집값 상승 딜레마",
+      "score": 44.01,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "재개발 용적률 높이면…미래 공급 늘지만, 당장 집값 올라 ‘딜레마’ - 한겨레"
+      ],
+      "representative_article": {
+        "title": "재개발 용적률 높이면…미래 공급 늘지만, 당장 집값 올라 ‘딜레마’ - 한겨레",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBYWnNQdU95dEZfZ1dTemk1V3BueDNEa1ZlWnhBb3FwdThBOHJ4SEJpeEQzc2kzM2JKTHdhelhSUXdlUk5DOU1YYkRNc3pGMkNsUDBKX0NuenBDY1hiWmxTckJiRmRzNFZX?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-09-09 05:00:00",
+        "match_score": 44.01
+      },
+      "related_articles": [
+        {
+          "title": "재개발 용적률 높이면…미래 공급 늘지만, 당장 집값 올라 ‘딜레마’ - 한겨레",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBYWnNQdU95dEZfZ1dTemk1V3BueDNEa1ZlWnhBb3FwdThBOHJ4SEJpeEQzc2kzM2JKTHdhelhSUXdlUk5DOU1YYkRNc3pGMkNsUDBKX0NuenBDY1hiWmxTckJiRmRzNFZX?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-09-09 05:00:00",
+          "match_score": 44.01
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "전월세 매물 부족",
+      "reason": "서울 전월세 시장 변동 현상",
+      "score": 31.9,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "서울 전월세 매물 부족에… 61%가 ‘합의 갱신’"
+      ],
+      "representative_article": {
+        "title": "서울 전월세 매물 부족에… 61%가 ‘합의 갱신’",
+        "link": "https://www.chosun.com/economy/real_estate/2026/09/09/RTFVRI73XNF3HEZQQBY77A3FCE/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-09-09 00:32:00",
+        "match_score": 31.9
+      },
+      "related_articles": [
+        {
+          "title": "서울 전월세 매물 부족에… 61%가 ‘합의 갱신’",
+          "link": "https://www.chosun.com/economy/real_estate/2026/09/09/RTFVRI73XNF3HEZQQBY77A3FCE/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-09-09 00:32:00",
+          "match_score": 31.9
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "중동 정세",
+      "reason": "후티 공격 및 지역 안보 이슈",
+      "score": 4.17,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "후티, 사우디 정유시설 폭격…브렌트유 100달러 목전"
+      ],
+      "representative_article": {
+        "title": "후티, 사우디 정유시설 폭격…브렌트유 100달러 목전",
+        "link": "https://www.yna.co.kr/view/AKR20260909006100072",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-09-09 04:29:57",
+        "match_score": 4.17
+      },
+      "related_articles": [
+        {
+          "title": "후티, 사우디 정유시설 폭격…브렌트유 100달러 목전",
+          "link": "https://www.yna.co.kr/view/AKR20260909006100072",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-09 04:29:57",
+          "match_score": 4.17
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "디지털 헬스케어",
+      "reason": "네이버 전담 조직 신설 소식",
+      "score": 46.68,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "네이버, 디지털 헬스케어 전담 조직 신설한다"
+      ],
+      "representative_article": {
+        "title": "네이버, 디지털 헬스케어 전담 조직 신설한다",
+        "link": "https://www.yna.co.kr/view/AKR20260908160600017",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-09-08 18:50:02",
+        "match_score": 46.68
+      },
+      "related_articles": [
+        {
+          "title": "네이버, 디지털 헬스케어 전담 조직 신설한다",
+          "link": "https://www.yna.co.kr/view/AKR20260908160600017",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-09-08 18:50:02",
+          "match_score": 46.68
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "한일 협력",
+      "reason": "정치권 간 협력 강조 발언",
+      "score": 30.88,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "趙의장, 이시바 전 日총리에 \"한일 협력 공고해져…가까운 이웃\""
+      ],
+      "representative_article": {
+        "title": "趙의장, 이시바 전 日총리에 \"한일 협력 공고해져…가까운 이웃\"",
+        "link": "https://www.yna.co.kr/view/AKR20260908146400001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-09-08 17:06:13",
+        "match_score": 30.88
+      },
+      "related_articles": [
+        {
+          "title": "趙의장, 이시바 전 日총리에 \"한일 협력 공고해져…가까운 이웃\"",
+          "link": "https://www.yna.co.kr/view/AKR20260908146400001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-08 17:06:13",
+          "match_score": 30.88
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 9,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "기존",
+      "score": 37.7,
+      "article_count": 9,
+      "source_count": 5,
+      "categories": [
+        "국제",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "“AI는 직원 줄이는 도구 아니다… 기존 인력 역량 키우는데 써야”",
+        "한드림넷 품은 대교CNS, 네트워크 보안 새 성장축으로",
+        "배달앱 3사 '단골 쟁탈전'…할인 넘어 적립·타임세일까지"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "\"땅이 없어 집 못 짓는다고?… 기존 건물 증축 허용하라\"",
+        "link": "https://www.mk.co.kr/news/realestate/12147427",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-09-08 18:09:14",
+        "match_score": 28.49
+      },
+      "related_articles": [
+        {
+          "title": "\"땅이 없어 집 못 짓는다고?… 기존 건물 증축 허용하라\"",
+          "link": "https://www.mk.co.kr/news/realestate/12147427",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-09-08 18:09:14",
+          "match_score": 28.49
+        },
+        {
+          "title": "“AI는 직원 줄이는 도구 아니다… 기존 인력 역량 키우는데 써야”",
+          "link": "https://www.chosun.com/economy/tech_it/2026/09/09/RXY7QBC3LFAC3N7YOPJHPQ6DGM/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-09-09 00:32:00",
+          "match_score": 28.3
+        },
+        {
+          "title": "한드림넷 품은 대교CNS, 네트워크 보안 새 성장축으로",
+          "link": "https://www.etnews.com/20260908000222",
+          "source": "전자신문",
+          "published_dt": "2026-09-08 17:00:00",
+          "match_score": 11.5
+        },
+        {
+          "title": "배달앱 3사 '단골 쟁탈전'…할인 넘어 적립·타임세일까지",
+          "link": "https://www.etnews.com/20260908000137",
+          "source": "전자신문",
+          "published_dt": "2026-09-08 16:00:00",
+          "match_score": 11.5
+        },
+        {
+          "title": "모경종號 민주당 3기 게임특위 출범 채비... 게임법·세액공제 성과 시험대",
+          "link": "https://www.etnews.com/20260908000292",
+          "source": "전자신문",
+          "published_dt": "2026-09-08 15:08:13",
+          "match_score": 11.5
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
