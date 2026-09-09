@@ -1,0 +1,433 @@
+{
+  "timestamp": "2026-09-10T06:01:30.344601",
+  "date": "20260910",
+  "data": [
+    {
+      "keyword": "호르무즈 파병",
+      "reason": "대정부질문, 미국-이란 갈등 연계",
+      "score": 36.88,
+      "article_count": 3,
+      "source_count": 2,
+      "categories": [
+        "국제",
+        "부동산",
+        "정치"
+      ],
+      "sample_titles": [
+        "국회 대정부질문 이틀째…호르무즈 파병 등 공방 예상",
+        "이란 사법부 수장, 내주 방한일정 돌연 취소…파병 검토 영향?",
+        "[단독]美주도 연합에 ‘호르무즈 파병’ 우선 검토"
+      ],
+      "representative_article": {
+        "title": "국회 대정부질문 이틀째…호르무즈 파병 등 공방 예상",
+        "link": "https://www.yna.co.kr/view/AKR20260909171700001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-09-10 05:00:03",
+        "match_score": 36.88
+      },
+      "related_articles": [
+        {
+          "title": "국회 대정부질문 이틀째…호르무즈 파병 등 공방 예상",
+          "link": "https://www.yna.co.kr/view/AKR20260909171700001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-10 05:00:03",
+          "match_score": 36.88
+        },
+        {
+          "title": "[단독]美주도 연합에 ‘호르무즈 파병’ 우선 검토",
+          "link": "https://www.donga.com/news/Politics/article/all/20260910/134639506/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-10 04:30:00",
+          "match_score": 32.8
+        },
+        {
+          "title": "이란 사법부 수장, 내주 방한일정 돌연 취소…파병 검토 영향?",
+          "link": "https://www.yna.co.kr/view/AKR20260909150200004",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-09 16:35:59",
+          "match_score": 13.17
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI 협력",
+      "reason": "과기부-프랑스 협력, 삼성-AI 동맹",
+      "score": 6.5,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업",
+        "정치"
+      ],
+      "sample_titles": [
+        "과기부, 프랑스와 AI·양자기술 협력 강화"
+      ],
+      "representative_article": {
+        "title": "과기부, 프랑스와 AI·양자기술 협력 강화",
+        "link": "https://www.aitimes.com/news/articleView.html?idxno=215061",
+        "source": "AI타임스",
+        "published_dt": "2026-09-10 07:00:00",
+        "match_score": 6.5
+      },
+      "related_articles": [
+        {
+          "title": "과기부, 프랑스와 AI·양자기술 협력 강화",
+          "link": "https://www.aitimes.com/news/articleView.html?idxno=215061",
+          "source": "AI타임스",
+          "published_dt": "2026-09-10 07:00:00",
+          "match_score": 6.5
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "반도체",
+      "reason": "TSMC-삼성 매출 확대, AI 칩 개발",
+      "score": 38.99,
+      "article_count": 4,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "2분기 전세계 파운드리 매출 11.5%↑…TSMC·삼성 격차 확대",
+        "오픈AI·삼성, 반도체·AI 동맹 확대⋯차세대칩 연구·생산과 사이버 보안망 구축까지 - 포커스온경제",
+        "삼성전자 초기업노조, 반도체 노조화 추진…DX간부 불신임도(종합)"
+      ],
+      "representative_article": {
+        "title": "삼성·SK하이닉스, 국제물주간 첫 출격…반도체 '물 혁신' 전면에",
+        "link": "https://www.etnews.com/20260909000304",
+        "source": "전자신문",
+        "published_dt": "2026-09-09 15:00:00",
+        "match_score": 38.99
+      },
+      "related_articles": [
+        {
+          "title": "삼성·SK하이닉스, 국제물주간 첫 출격…반도체 '물 혁신' 전면에",
+          "link": "https://www.etnews.com/20260909000304",
+          "source": "전자신문",
+          "published_dt": "2026-09-09 15:00:00",
+          "match_score": 38.99
+        },
+        {
+          "title": "삼성전자 초기업노조, 반도체 노조화 추진…DX간부 불신임도(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260909034651003",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-09-09 16:34:24",
+          "match_score": 38.88
+        },
+        {
+          "title": "오픈AI·삼성, 반도체·AI 동맹 확대⋯차세대칩 연구·생산과 사이버 보안망 구축까지 - 포커스온경제",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0tTzFNQTV5ZFVjVXZROTV4a0JXRjdrclZrUGVhWHh1QW0xZk95a2NuNE8xYjEya3dJQUw1Tmp5QjZnMldFbEhhWWhfdE9qWC10Zm9NR3JPak1SSVNEdkE?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-09-10 04:11:57",
+          "match_score": 38.16
+        },
+        {
+          "title": "2분기 전세계 파운드리 매출 11.5%↑…TSMC·삼성 격차 확대",
+          "link": "https://www.yna.co.kr/view/AKR20260909163500003",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-09-09 17:46:26",
+          "match_score": 11.08
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재건축",
+      "reason": "한강맨션 등 재건축 사업 재개",
+      "score": 41.09,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "'한강뷰 임대' 한강맨션 … 재건축 다시 속도"
+      ],
+      "representative_article": {
+        "title": "'한강뷰 임대' 한강맨션 … 재건축 다시 속도",
+        "link": "https://www.mk.co.kr/news/realestate/12148529",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-09-09 17:35:04",
+        "match_score": 41.09
+      },
+      "related_articles": [
+        {
+          "title": "'한강뷰 임대' 한강맨션 … 재건축 다시 속도",
+          "link": "https://www.mk.co.kr/news/realestate/12148529",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-09-09 17:35:04",
+          "match_score": 41.09
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "무역금융",
+      "reason": "산업부 중소기업 지원 140조",
+      "score": 38.86,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "산업부, 수출 中企 지원 … 내년도 무역금융 140조",
+        "산업부, 수출 中企 지원 … 내년도 무역금융 140조"
+      ],
+      "representative_article": {
+        "title": "산업부, 수출 中企 지원 … 내년도 무역금융 140조",
+        "link": "https://www.mk.co.kr/news/economy/12148557",
+        "source": "매일경제-경제",
+        "published_dt": "2026-09-09 17:43:08",
+        "match_score": 38.86
+      },
+      "related_articles": [
+        {
+          "title": "산업부, 수출 中企 지원 … 내년도 무역금융 140조",
+          "link": "https://www.mk.co.kr/news/economy/12148557",
+          "source": "매일경제-경제",
+          "published_dt": "2026-09-09 17:43:08",
+          "match_score": 38.86
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "북핵",
+      "reason": "북한 영변 우라늄 공장 건설",
+      "score": 5.9,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "北, 영변에 새 우라늄 공장… “매년 핵탄두 4기 추가 생산”"
+      ],
+      "representative_article": {
+        "title": "北, 영변에 새 우라늄 공장… “매년 핵탄두 4기 추가 생산”",
+        "link": "https://www.chosun.com/politics/diplomacy-defense/2026/09/10/E3TFTEOJKBC6ZMKSI6ONT76M7U/",
+        "source": "조선일보-정치",
+        "published_dt": "2026-09-10 00:44:00",
+        "match_score": 5.9
+      },
+      "related_articles": [
+        {
+          "title": "北, 영변에 새 우라늄 공장… “매년 핵탄두 4기 추가 생산”",
+          "link": "https://www.chosun.com/politics/diplomacy-defense/2026/09/10/E3TFTEOJKBC6ZMKSI6ONT76M7U/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-09-10 00:44:00",
+          "match_score": 5.9
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "금리 부담",
+      "reason": "가계 대출과 부담 증가",
+      "score": 6.71,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "부동산"
+      ],
+      "sample_titles": [
+        "“금리 0.5%P 올랐다고, 얼마를 더 내라는 거야?”…가계 부담 연 6.5조 늘어날 듯"
+      ],
+      "representative_article": {
+        "title": "“금리 0.5%P 올랐다고, 얼마를 더 내라는 거야?”…가계 부담 연 6.5조 늘어날 듯",
+        "link": "https://www.mk.co.kr/news/economy/12147850",
+        "source": "매일경제-경제",
+        "published_dt": "2026-09-09 09:21:45",
+        "match_score": 6.71
+      },
+      "related_articles": [
+        {
+          "title": "“금리 0.5%P 올랐다고, 얼마를 더 내라는 거야?”…가계 부담 연 6.5조 늘어날 듯",
+          "link": "https://www.mk.co.kr/news/economy/12147850",
+          "source": "매일경제-경제",
+          "published_dt": "2026-09-09 09:21:45",
+          "match_score": 6.71
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "클라우드",
+      "reason": "한국오라클 매출 급증",
+      "score": 41.7,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "한국오라클 클라우드 매출 1000억 육박…OCI 국내 사업 본궤도"
+      ],
+      "representative_article": {
+        "title": "한국오라클 클라우드 매출 1000억 육박…OCI 국내 사업 본궤도",
+        "link": "https://www.etnews.com/20260909000271",
+        "source": "전자신문",
+        "published_dt": "2026-09-09 17:00:00",
+        "match_score": 41.7
+      },
+      "related_articles": [
+        {
+          "title": "한국오라클 클라우드 매출 1000억 육박…OCI 국내 사업 본궤도",
+          "link": "https://www.etnews.com/20260909000271",
+          "source": "전자신문",
+          "published_dt": "2026-09-09 17:00:00",
+          "match_score": 41.7
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "전세",
+      "score": 44.2,
+      "article_count": 7,
+      "source_count": 4,
+      "categories": [
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "전세계 바이어 집결…K중기 수출길 연다",
+        "2분기 전세계 파운드리 매출 11.5%↑…TSMC·삼성 격차 확대",
+        "“세 부담 덜어줬는데 집값·전세 왜 올라?” … 추석 이후가 걱정되는 무주택자들"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "‘전세 종말론’ 현실화 되나…서울 아파트 단기계약 6개월 연속 감소세",
+        "link": "https://www.mk.co.kr/news/realestate/12147970",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-09-09 10:19:52",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "‘전세 종말론’ 현실화 되나…서울 아파트 단기계약 6개월 연속 감소세",
+          "link": "https://www.mk.co.kr/news/realestate/12147970",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-09-09 10:19:52",
+          "match_score": 37.49
+        },
+        {
+          "title": "장영란, 아파트 전세 7억에 깜짝…“사는 게 아니라 전세가요?” [SD톡톡] - 스포츠동아",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5CUW1Xak9ocTd5RTdMWmg0TFBRWldlYUpRWldKckhGZlh1dzVhdWh0T1pTek5MMzB2SlhzTnhmbXpYSEUtblhmdDdrdkxucXVFWURxRjZMeXZ0SkVHR1dHZE1hbWcwQi1hZ0REUjJn?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-09-10 04:21:00",
+          "match_score": 36.96
+        },
+        {
+          "title": "\"15년 전세 살다 결국..\" 유재석 건물 완공, 임대수익 60대 계산해봤더니 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1hX1ZpZURYWkRkRTIxQ2kxaEhKRlZaWkdqUGJCajhsbjBPMGlhMjNoNS1Rb1RrUnBBcVFvOW9maklfaGE0REE?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-09-10 04:40:57",
+          "match_score": 36.96
+        },
+        {
+          "title": "서울 전세 확정일자 ’최저’ 수준..전세 줄고 매매·월세 확산 By 알파경제 alphabiz - Investing.com 한국어",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1mQ0JSM2NzSzMySTRJb2M1YzN2c2J6X25Va05DWEZrR09pZFAtRC1zd2QxRDJYVkZIZl82M3M0cEpITzZtMWlKMzJ5MEtjTXNBS0xCOTFfSGtLNFJXTC1JbTIxOFZBMDRPNTlmdTdBQVc?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-09-09 18:58:00",
+          "match_score": 36.96
+        },
+        {
+          "title": "2분기 전세계 파운드리 매출 11.5%↑…TSMC·삼성 격차 확대",
+          "link": "https://www.yna.co.kr/view/AKR20260909163500003",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-09-09 17:46:26",
+          "match_score": 28.68
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "등에",
+      "score": 23.2,
+      "article_count": 6,
+      "source_count": 2,
+      "categories": [
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "바른손이앤에이, 26억3천만원 유증…엠아이컴퍼니 등에 3자 배정",
+        "트럼프 “이란, 더 못 버텨…11월 선거 끝나면 전쟁도 끝”",
+        "“美는 인정, 日은 은폐” 오키나와 기지 환경오염 논란"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "바른손이앤에이, 26억3천만원 유증…엠아이컴퍼니 등에 3자 배정",
+        "link": "https://www.yna.co.kr/view/AKR20260909171100008",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-09-09 17:57:35",
+        "match_score": 28.68
+      },
+      "related_articles": [
+        {
+          "title": "바른손이앤에이, 26억3천만원 유증…엠아이컴퍼니 등에 3자 배정",
+          "link": "https://www.yna.co.kr/view/AKR20260909171100008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-09 17:57:35",
+          "match_score": 28.68
+        },
+        {
+          "title": "트럼프 “이란, 더 못 버텨…11월 선거 끝나면 전쟁도 끝”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260910/134639896/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-10 05:55:21",
+          "match_score": 11.3
+        },
+        {
+          "title": "“美는 인정, 日은 은폐” 오키나와 기지 환경오염 논란",
+          "link": "https://www.donga.com/news/Inter/article/all/20260909/134639016/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-10 04:30:00",
+          "match_score": 11.3
+        },
+        {
+          "title": "아시안게임 앞둔 나고야 물바다…선수단 400명 긴급 대피",
+          "link": "https://www.donga.com/news/Inter/article/all/20260909/134637260/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-09 17:31:00",
+          "match_score": 11.3
+        },
+        {
+          "title": "英 “유대인 불법 정착촌과 상품 교역 금지”… 이스라엘 “선거개입 의도” 英영사관 폐쇄",
+          "link": "https://www.donga.com/news/Inter/article/all/20260909/134639018/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-10 04:30:00",
+          "match_score": 11.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
