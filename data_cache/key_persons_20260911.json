@@ -1,0 +1,199 @@
+{
+  "timestamp": "2026-09-11T06:01:22.278278",
+  "date": "20260911",
+  "data": {
+    "최태원": {
+      "articles": [
+        {
+          "title": "제3회 '한미동맹대상' 수상자에 최태원 SK그룹 회장",
+          "link": "https://www.yna.co.kr/view/AKR20260910135700504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-10 16:15:14",
+          "description": "(서울=연합뉴스) 김효정 기자 = 한미동맹재단(이하 재단)과 주한미군전우회는 최태원 SK그룹 회장을 제3회 &apos;한미동맹대상&apos; 수상자로 선정했다고 ...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "deduped_sources": [
+            {
+              "source": "연합뉴스-산업",
+              "title": "제3회 '한미동맹대상' 수상자에 최태원 SK그룹 회장",
+              "link": "https://www.yna.co.kr/view/AKR20260910135700504"
+            }
+          ],
+          "priority_score": 3,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "최태원, 울산 AI데이터센터·울산CLX 현장 방문…\"AI시대 선도\"(종합2보)",
+          "link": "https://www.yna.co.kr/view/AKR20260910029902003",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-09-10 19:16:53",
+          "description": "(서울=연합뉴스) 임성호 김민지 기자 = 최태원 SK그룹 회장이 오는 11일 열리는 &apos;2026 울산포럼&apos;을 앞두고 울산 SK 인공지능(AI) 데...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/industry.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "sector": "AI/로봇",
+          "related_full_sources": []
+        },
+        {
+          "title": "최태원 회장, 한미동맹대상 수상",
+          "link": "https://www.donga.com/news/People/article/all/20260911/134646978/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-11 04:30:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/09/11/134647982.1.png\" vspace=\"10\" />최태원 SK그룹 회장(사진)이 한미동맹재단과 주한미군전우회가 선정한 제3회 한미동맹대상을 수상했다. 한미동맹재단은 10일 “최 회장이 한미 참전용사에 대한 지속적인 보훈 활동과 주한미군 전역 장병 취업 지원 등 다양한 분야에서 한미 간 유대 강화와 동맹 발전에 기여해 온 공로를 높이 평가했다”고 밝혔다. 최 회장은 2021년 미국 워싱턴 한국전쟁 참전용사 기념공원 건립에 100만 달러를 후원했고, SK그룹은 2023년 한국전쟁 참전 영웅인 고(故) 윌리엄 웨버 대령과 존 싱글러브 장군 추모비 건립을 후원하기도 했다. 시상식은 18일 서울 중구 앰배서더 서울 풀만 호텔에서 열린다.",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": [
+            {
+              "source": "조선일보-정치",
+              "title": "최태원 SK 회장 ‘한미동맹대상’",
+              "link": "https://www.chosun.com/politics/diplomacy-defense/2026/09/11/LZPMPAFNCVBGFHUQTCR4HGHQMM/"
+            }
+          ]
+        },
+        {
+          "title": "제3회 '한미동맹대상' 수상자에 최태원 SK그룹 회장",
+          "link": "https://www.yna.co.kr/view/AKR20260910135700504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-10 16:15:14",
+          "description": "(서울=연합뉴스) 김효정 기자 = 한미동맹재단(이하 재단)과 주한미군전우회는 최태원 SK그룹 회장을 제3회 &apos;한미동맹대상&apos; 수상자로 선정했다고 ...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "deduped_sources": [
+            {
+              "source": "연합뉴스-산업",
+              "title": "제3회 '한미동맹대상' 수상자에 최태원 SK그룹 회장",
+              "link": "https://www.yna.co.kr/view/AKR20260910135700504"
+            }
+          ],
+          "priority_score": 3,
+          "related_full_sources": []
+        }
+      ],
+      "count": 4,
+      "role": "SK그룹 회장"
+    },
+    "한동훈": {
+      "articles": [
+        {
+          "title": "한동훈 \"총리실이 사찰\"…韓총리 \"과한말씀, 부적절시 엄정처리\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260910161151001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-10 19:45:07",
+          "description": "(서울=연합뉴스) 이상현 노선웅 기자 = 한성숙 국무총리와 무소속 한동훈 의원이 10일 국회 본회의에서 총리실 직원이 한 의원의 기자회견에 개입...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "한동훈 \"총리실이 사찰\"…韓총리 \"과한 말씀, 부적절시 엄정처리\"",
+              "link": "https://www.yna.co.kr/view/AKR20260910161100001"
+            }
+          ]
+        },
+        {
+          "title": "부산시, 한동훈 의원과 예산정책협의…현안·국비 확보 논의",
+          "link": "https://www.yna.co.kr/view/AKR20260910136800051",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-10 16:14:53",
+          "description": "(부산=연합뉴스) 김선호 기자 = 부산시가 최근 여야와 예산정책협의회, 당정협의회를 한 데 이어 한동훈(부산 북갑) 무소속 의원을 만나 부산 현...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "지방/행정",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "김승원 법무후보, 녹취록 공개한 한동훈에 \"악의적 왜곡·조작\"(종합2보)",
+          "link": "https://www.yna.co.kr/view/AKR20260910040252004",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-10 17:07:55",
+          "description": "(서울=연합뉴스) 황재하 기자 = 김승원 법무부 장관 후보자 측은 한동훈 무소속 의원이 공개한 브로커 양모씨와 최재성 전 정무수석 간 녹취록이 ...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": false,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "대한민국 법무부 장관"
+    },
+    "트럼프": {
+      "articles": [
+        {
+          "title": "“공화 상하원 다 이기면 美국민에 5000달러씩” 트럼프 배당금 논란",
+          "link": "https://www.donga.com/news/Inter/article/all/20260911/134647790/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-11 04:30:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/09/11/134645220.5.jpg\" vspace=\"10\" />“11월 중간선거에서 공화당이 상원과 하원에서 모두 승리하면 미국의 모든 성인에게 5000달러(약 670만 원)를 지급하겠다.” 도널드 트럼프 미국 대통령이 9일(현지 시간) ‘보수 텃밭’ 텍사스주 댈러스에서 열린 사상 첫 공화당 중간선거 전당대회에서 ‘트럼프 배당금(Trump Dividend)’ 카드를 꺼냈다. 이란 전쟁의 장기화와 고물가 등으로 최근 지지율이 30%대까지 떨어지자 유권자들을 겨냥해 파격적인 현금 지급 공약을 내거는 승부수를 던진 것이다.  트럼프 대통령은 “내가 투표 용지에 있다고 생각해 달라”며 이번 선거가 사실상 자신에 대한 재신임 투표라는 점을 강조했다. 2024년 대선에서 자신을 지지한 ‘마가(MAGA·미국을 다시 위대하게)’ 진영을 중심으로 보수 성향 유권자를 최대한 투표장으로 불러내 현재 상·하원에서 모두 다수당인 공화당의 지위를 지켜내겠다는 전략으로 풀이된다. 이날 행사장인 아메리칸에어라인센터 곳곳은 그의 사진으로 뒤덮였다. 다만 총 2만1000",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프, ‘앙숙’ 옛 개인변호사 사면 검토…관계 회복하나",
+          "link": "https://www.donga.com/news/Inter/article/all/20260910/134642363/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-10 13:37:51",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/09/10/134642364.1.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령이 과거 개인 변호사이자 측근이었던 마이클 코언에 대한 사면을 고려할 수 있다고 밝혔다. 트럼프 대통령이 최근 코언의 라디오 프로그램에 출연한 지 불과 몇 주 만이다.폴리티코에 따르면 트럼프 대통령은 9일(현지 시간) 텍사스주 댈러스에서 열리는 공화당 중간선거 전당대회에 참석하기 전 기자들에게 코언의 사면 가능성을 묻는 질문에 “모든 것이 확인되면 고려하겠다”는 취지로 답했다. 다만 구체적인 사면 검토 배경이나 조건은 설명하지 않았다.두 사람은 트럼프 대통령의 첫 임기 당시 매우 가까운 사이였지만 이후 공개적으로 극심한 갈등을 빚었다.코언은 트럼프 대통령의 개인 변호사로 일하며 각종 문제를 해결하는 역할을 맡았으나, 2018년 사업 서류 위조 등의 혐의로 징역 3년을 선고받았다. 트럼프 대통령은 당시 코언에 대한 수사와 기소를 강하게 비판했다.이후 코언은 트럼프 대통령을 상대로 등을 돌렸다. 특히 2024년 뉴욕 맨해튼지검이 트럼프 대통령을 기소한 ‘",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프, 이란전 변곡점마다 에너지株 매매…59억 벌어",
+          "link": "https://www.donga.com/news/Inter/article/all/20260910/134641652/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-10 11:29:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/09/10/134641815.1.jpg\" vspace=\"10\" />미국과 이란 간 전쟁이 장기화하는 가운데 도널드 트럼프 미국 대통령이 보유한 주요 석유·가스 기업 주식의 평가액이 전쟁 발발 이후 최대 440만 달러(약 59억 원) 늘어난 것으로 나타났다. 특히 트럼프 대통령의 군사·외교적 결정으로 주식 시장이 크게 출렁인 시점을 전후해 매매가 이뤄진 것으로 드러나 이해충돌 논란이 커질 것으로 보인다.9일(현지 시간) CNBC에 따르면 트럼프 대통령이 지난해 말 보유했던 주요 석유·가스 기업 9곳의 주식 가치는 이란 전쟁 발발 전날인 2월 27일부터 지난달 31일까지 약 150만∼440만 달러 증가한 것으로 추산됐다. 전쟁 기간 트럼프 대통령의 투자계좌에서는 이들 기업 주식의 매수가 이어졌고, 6월 29일까지 최소 23건의 거래가 확인됐다. 다만 CNBC는 트럼프 대통령이나 그의 투자운용자들이 정책 결정을 사전에 알고 거래했다는 직접적인 증거는 발견하지 못했다고 밝혔다.특히 트럼프 대통령의 발언이나 정책 결정으로 국제유가와 에너지주가 급등락한",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "미국 대통령"
+    }
+  }
+}

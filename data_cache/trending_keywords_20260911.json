@@ -1,0 +1,449 @@
+{
+  "timestamp": "2026-09-11T06:01:41.937725",
+  "date": "20260911",
+  "data": [
+    {
+      "keyword": "한미동맹",
+      "reason": "최태원 수상·국방 논의 반복",
+      "score": 40.23,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "제3회 '한미동맹대상' 수상자에 최태원 SK그룹 회장",
+        "최태원 회장, 한미동맹대상 수상",
+        "제3회 '한미동맹대상' 수상자에 최태원 SK그룹 회장"
+      ],
+      "representative_article": {
+        "title": "제3회 '한미동맹대상' 수상자에 최태원 SK그룹 회장",
+        "link": "https://www.yna.co.kr/view/AKR20260910135700504",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-09-10 16:15:14",
+        "match_score": 40.23
+      },
+      "related_articles": [
+        {
+          "title": "제3회 '한미동맹대상' 수상자에 최태원 SK그룹 회장",
+          "link": "https://www.yna.co.kr/view/AKR20260910135700504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-10 16:15:14",
+          "match_score": 40.23
+        },
+        {
+          "title": "최태원 회장, 한미동맹대상 수상",
+          "link": "https://www.donga.com/news/People/article/all/20260911/134646978/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-11 04:30:00",
+          "match_score": 39.7
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "금리인상",
+      "reason": "한은 추가 금리 인상 예고",
+      "score": 29.91,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "한은, 추가 금리 인상 예고 \"물가 상당기간 2% 웃돌 것\""
+      ],
+      "representative_article": {
+        "title": "한은, 추가 금리 인상 예고 \"물가 상당기간 2% 웃돌 것\"",
+        "link": "https://www.mk.co.kr/news/economy/12149643",
+        "source": "매일경제-경제",
+        "published_dt": "2026-09-10 17:49:23",
+        "match_score": 29.91
+      },
+      "related_articles": [
+        {
+          "title": "한은, 추가 금리 인상 예고 \"물가 상당기간 2% 웃돌 것\"",
+          "link": "https://www.mk.co.kr/news/economy/12149643",
+          "source": "매일경제-경제",
+          "published_dt": "2026-09-10 17:49:23",
+          "match_score": 29.91
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI산업",
+      "reason": "HD현대투자·대구대 삼성 협력",
+      "score": 5.08,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "HD현대오일뱅크, 에이치앤엘어드밴스드 주식 6천억원에 추가취득"
+      ],
+      "representative_article": {
+        "title": "HD현대오일뱅크, 에이치앤엘어드밴스드 주식 6천억원에 추가취득",
+        "link": "https://www.yna.co.kr/view/AKR20260910154500008",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-09-10 17:32:27",
+        "match_score": 5.08
+      },
+      "related_articles": [
+        {
+          "title": "HD현대오일뱅크, 에이치앤엘어드밴스드 주식 6천억원에 추가취득",
+          "link": "https://www.yna.co.kr/view/AKR20260910154500008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-10 17:32:27",
+          "match_score": 5.08
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "부동산재개발",
+      "reason": "서울 대단지 이주 본격화",
+      "score": 5.41,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "서울 대단지 재건축·재개발 이주 본격화…전월세대란 오나 - MTN 머니투데이방송"
+      ],
+      "representative_article": {
+        "title": "서울 대단지 재건축·재개발 이주 본격화…전월세대란 오나 - MTN 머니투데이방송",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBUSGpaZmtNVFpGa2RPclY3YmZWbk9LSzN1aU1KaGZRYnE2ZUVBV3A2a2NpQU9Ed1FyS0VIaDAyQTI2aGE5QkJmMWlyNVh5dGxzcjZVMENTVVRCTXQ2YnpDU0Z5ZFk?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-09-10 17:40:11",
+        "match_score": 5.41
+      },
+      "related_articles": [
+        {
+          "title": "서울 대단지 재건축·재개발 이주 본격화…전월세대란 오나 - MTN 머니투데이방송",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBUSGpaZmtNVFpGa2RPclY3YmZWbk9LSzN1aU1KaGZRYnE2ZUVBV3A2a2NpQU9Ed1FyS0VIaDAyQTI2aGE5QkJmMWlyNVh5dGxzcjZVMENTVVRCTXQ2YnpDU0Z5ZFk?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-09-10 17:40:11",
+          "match_score": 5.41
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "코로나대출탕감",
+      "reason": "소상공인 빚 탕감 조치",
+      "score": 6.86,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "코로나 피해 소상공인 '1억 미만 빚' 탕감",
+        "[단독] “빚 천천히 갚을걸”…코로나 피해 소상공인 빚 1억 탕감"
+      ],
+      "representative_article": {
+        "title": "코로나 피해 소상공인 '1억 미만 빚' 탕감",
+        "link": "https://www.mk.co.kr/news/economy/12149642",
+        "source": "매일경제-경제",
+        "published_dt": "2026-09-10 17:49:22",
+        "match_score": 6.86
+      },
+      "related_articles": [
+        {
+          "title": "코로나 피해 소상공인 '1억 미만 빚' 탕감",
+          "link": "https://www.mk.co.kr/news/economy/12149642",
+          "source": "매일경제-경제",
+          "published_dt": "2026-09-10 17:49:22",
+          "match_score": 6.86
+        },
+        {
+          "title": "[단독] “빚 천천히 갚을걸”…코로나 피해 소상공인 빚 1억 탕감",
+          "link": "https://www.mk.co.kr/news/economy/12149585",
+          "source": "매일경제-경제",
+          "published_dt": "2026-09-10 17:29:04",
+          "match_score": 6.86
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "국제유",
+      "reason": "유가 100달러 돌파 영향",
+      "score": 36.16,
+      "article_count": 4,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "유가 100달러 넘자 개미는 하락 베팅, 원유 인버스 ETF '사자'(종합)",
+        "유가 100달러 넘자 개미는 하락 베팅, 원유 인버스 ETF '사자'(종합)",
+        "[속보] 국제유가 고공행진…WTI도 배럴당 100달러 돌파 - 중앙일보"
+      ],
+      "representative_article": {
+        "title": "[속보] 국제유가 고공행진…WTI도 배럴당 100달러 돌파 - 중앙일보",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9DMVNUeGhwNTFaRXZGckUzbHFfMTFoMktxd0Z2TC1DemVQNnljUGt6ZzdBa3VVeEZBZV9BelJwQlMxQnFDajR4SVpFTFotZjk1eGEzMERn?oc=5",
+        "source": "키워드-에너지물가",
+        "published_dt": "2026-09-10 21:45:34",
+        "match_score": 36.16
+      },
+      "related_articles": [
+        {
+          "title": "[속보] 국제유가 고공행진…WTI도 배럴당 100달러 돌파 - 중앙일보",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9DMVNUeGhwNTFaRXZGckUzbHFfMTFoMktxd0Z2TC1DemVQNnljUGt6ZzdBa3VVeEZBZV9BelJwQlMxQnFDajR4SVpFTFotZjk1eGEzMERn?oc=5",
+          "source": "키워드-에너지물가",
+          "published_dt": "2026-09-10 21:45:34",
+          "match_score": 36.16
+        },
+        {
+          "title": "[속보] 국제유가 고공행진…WTI도 배럴당 100달러 돌파 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBxY2FBc2hNSjd0SE9KcVB5TzVrczU5V1JMRm03YzBqaDZwWkRWd0NLRHJoaEQ0TXB6T1p5WlB4cnZQX0N2OXM5S1hMdEMyZDJMTDZ3d2VPRktNUjjSAWBBVV95cUxNM0cxOXRKclhpVUNWUEtZTWJTNk1fY1UzUmp4NTQzV1pRVUw5WVU2NzJQNDVhdUtrU09seU5vY3pkdHhpeTRRQXpGNWdPSjlxeXdFYTYwdzJ3RmYwenM0U3k?oc=5",
+          "source": "키워드-에너지물가",
+          "published_dt": "2026-09-10 21:44:10",
+          "match_score": 36.16
+        },
+        {
+          "title": "유가 100달러 넘자 개미는 하락 베팅, 원유 인버스 ETF '사자'(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260910080051008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-10 16:28:11",
+          "match_score": 12.88
+        },
+        {
+          "title": "트럼프, 이란전 변곡점마다 에너지株 매매…59억 벌어",
+          "link": "https://www.donga.com/news/Inter/article/all/20260910/134641652/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-10 11:29:00",
+          "match_score": 11.6
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "러시아드론",
+      "reason": "러시아 무인선박 공격",
+      "score": 7.7,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "유럽 번지는 러 드론 공포… 젤렌스키 탄 비행기 피격될 뻔",
+        "러시아 소치 해안에 우크라이나 무인선박 공격… 부상자 8명"
+      ],
+      "representative_article": {
+        "title": "러시아 소치 해안에 우크라이나 무인선박 공격… 부상자 8명",
+        "link": "https://www.donga.com/news/Inter/article/all/20260910/134640827/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-09-10 09:34:49",
+        "match_score": 7.7
+      },
+      "related_articles": [
+        {
+          "title": "러시아 소치 해안에 우크라이나 무인선박 공격… 부상자 8명",
+          "link": "https://www.donga.com/news/Inter/article/all/20260910/134640827/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-10 09:34:49",
+          "match_score": 7.7
+        },
+        {
+          "title": "유럽 번지는 러 드론 공포… 젤렌스키 탄 비행기 피격될 뻔",
+          "link": "https://www.donga.com/news/Inter/article/all/20260910/134646976/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-11 04:30:00",
+          "match_score": 6.6
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "법정분쟁",
+      "reason": "MBK·한컴·삼성바이오 갈등",
+      "score": 8.68,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "기업/산업",
+        "정치"
+      ],
+      "sample_titles": [
+        "검찰, '홈플러스 사태' MBK 김병주 회장 소환조사 중…조만간 결론",
+        "삼성바이오 노사 갈등 언제까지…반년째 협상 '공회전'"
+      ],
+      "representative_article": {
+        "title": "검찰, '홈플러스 사태' MBK 김병주 회장 소환조사 중…조만간 결론",
+        "link": "https://www.yna.co.kr/view/AKR20260910149800004",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-09-10 17:09:51",
+        "match_score": 8.68
+      },
+      "related_articles": [
+        {
+          "title": "검찰, '홈플러스 사태' MBK 김병주 회장 소환조사 중…조만간 결론",
+          "link": "https://www.yna.co.kr/view/AKR20260910149800004",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-10 17:09:51",
+          "match_score": 8.68
+        },
+        {
+          "title": "삼성바이오 노사 갈등 언제까지…반년째 협상 '공회전'",
+          "link": "https://www.yna.co.kr/view/AKR20260910133900017",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-10 16:29:30",
+          "match_score": 5.03
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "반도체",
+      "score": 47.5,
+      "article_count": 9,
+      "source_count": 5,
+      "categories": [
+        "경제/거시",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "한은, 추가 금리 인상 예고 \"물가 상당기간 2% 웃돌 것\"",
+        "\"AI 메모리 호황에도 '자금조달 병목'이 새로운 리스크\"",
+        "아이엘 \"리드엔지니어링 주식 128억원어치 취득…지분율 80%\""
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "대우건설 정원주 회장, 호남 반도체에 100억 기부",
+        "link": "https://www.yna.co.kr/view/AKR20260910152000054",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-09-10 17:21:34",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "대우건설 정원주 회장, 호남 반도체에 100억 기부",
+          "link": "https://www.yna.co.kr/view/AKR20260910152000054",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-09-10 17:21:34",
+          "match_score": 37.67
+        },
+        {
+          "title": "대구대-삼성전자, 'AI·반도체 인재 취업 활성화' 맞손 - 뉴스1",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA5V3VhWXkyNFRMQWhTZXBFeE9oLXlaajhhbXlpZEVLM1lZM3lrV3ZiRXVTeXk4dTZYNHdQdGVWOTN0T2lwSGN6d1JkOUQyQUdrbVUzN19iYnNCTnI5MDg00gFkQVVfeXFMTmRpdmsxWEpNVTRtNUl4aHpob0JwOVc0aVZSZFQ2WXRXWEFnZ01laTk1VGxwQWRobTN0ZklKMktqamJrVWpnUGNxLUhiZmU5d3lBbDFDUEV5ZGo1QnA4Wm1TQjVEeg?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-09-10 18:56:26",
+          "match_score": 36.96
+        },
+        {
+          "title": "대구대, 삼성전자 협력사와 ‘AI·반도체 인재 양성’ 맞손 - 뉴데일리 대구경북",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBlNEZtVWx0MHhFLVJmX0s3aGc0Qk9wX2VjcjkzQW9BVnd0WVJjWm9BaXBka2s2dmxRX1ZzUm9zem5kRWhmN29QaHMzdzBJcmg1cVBTV2p0dU1NbGhTT0pzMUpJUUtuVUthX0tERklCSUZhSVB3TXdCMWtjaTJ2eGfSAX9BVV95cUxQZTRGbVVsdDB4RS1SZl9LN2hnNEJPcF9lY3I5M0FvQVZ3dFlSY1pvQWlwZGtrNnZsUV9Wc1Jvc3puZEVoZjdvUGhzM3cwSXJoNXFQU1dqdHVNTWxoU09KczFKSVFLblVLYV9LREZJQklGYUlQd013QjFrY2kydnhn?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-09-10 10:52:21",
+          "match_score": 36.96
+        },
+        {
+          "title": "OpenAI와 삼성, 차세대 AI 반도체 협력 확대 - issueon.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE93SDVnVk5tS0ZlT0VHeXZKTmZXbjBueUFRNjZhalVMR09SN0ZfRzlQMmcwNWswV05YNXNVWXBFTHJKbHJrMjZycm9JMFE4X1RnaWwtaUtVZ01MUGZxVk5UZGI5aWVKd181eFVZ?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-09-10 12:17:58",
+          "match_score": 36.96
+        },
+        {
+          "title": "YMTC 품은 中 우한… ‘반도체 굴기’ 선봉장",
+          "link": "https://www.chosun.com/economy/weeklybiz/2026/09/11/5OFOGABUKVBV5O4NC4DFZCOAZI/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-09-11 03:00:00",
+          "match_score": 28.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "분양",
+      "score": 48.3,
+      "article_count": 9,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "부동산"
+      ],
+      "sample_titles": [
+        "[단독] “집단대출 은행 못구해서”…중도금 일정미룬 3기신도시 왕숙",
+        "“강남까지 40분대”…삼환기업, ‘화서역 호수공원 아너스빌’ 견본주택 개관",
+        "집단대출 은행 못 구해 … 중도금 일정 미룬 '왕숙'"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "셔세권 동탄 중심에 1808가구 … 주상복합 '아크메르 동탄' 분양",
+        "link": "https://www.mk.co.kr/news/realestate/12149590",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-09-10 17:29:51",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "셔세권 동탄 중심에 1808가구 … 주상복합 '아크메르 동탄' 분양",
+          "link": "https://www.mk.co.kr/news/realestate/12149590",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-09-10 17:29:51",
+          "match_score": 37.49
+        },
+        {
+          "title": "“비싸도 살 사람은 어차피 산다”…고분양가 참패 공식 깨졌다는데",
+          "link": "https://www.mk.co.kr/news/realestate/12149503",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-09-10 16:30:44",
+          "match_score": 37.49
+        },
+        {
+          "title": "“거제 최대 규모”…현대엔지니어링, ‘힐스테이트 거제시그니처’ 10월 분양 예정",
+          "link": "https://www.mk.co.kr/news/realestate/12149292",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-09-10 13:54:10",
+          "match_score": 37.49
+        },
+        {
+          "title": "“시장이 아비규환입니다” …미분양의 늪에 빠진 지방 부동산",
+          "link": "https://www.mk.co.kr/news/realestate/12149191",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-09-10 11:09:40",
+          "match_score": 37.49
+        },
+        {
+          "title": "천안에 성성호수 품은 '아이파크 대단지' 온다...1628가구 일반분양",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/09/10/2026091000980.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-09-10 11:00:00",
+          "match_score": 37.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
