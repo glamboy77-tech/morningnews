@@ -1,0 +1,232 @@
+{
+  "timestamp": "2026-09-12T06:01:52.945431",
+  "date": "20260912",
+  "data": {
+    "용혜인": {
+      "articles": [
+        {
+          "title": "[속보] 靑 \"용혜인 회견, 청와대와 협의 없었다…국민 목소리 듣고있어\"",
+          "link": "https://www.yna.co.kr/view/AKR20260911140100001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-11 17:01:30",
+          "description": "(",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "靑, 용혜인 지명철회 가능성 묻자 \"국민께 설명할 기회 있어야\"",
+          "link": "https://www.yna.co.kr/view/AKR20260911143600001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-11 17:35:01",
+          "description": "(서울=연합뉴스) 임형섭 설승은 기자 = 청와대는 11일 용혜인 성평등가족부 장관 후보자를 둘러싼 논란과 관련, &quot;국민들께 설명을 드릴 기회가 ...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "韓총리, 용혜인 질문에 \"여러 비판 잘 안다…국회의 시간 남아\"",
+          "link": "https://www.yna.co.kr/view/AKR20260911136900001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-11 17:16:31",
+          "description": "(서울=연합뉴스) 이상현 박재하 기자 = 한성숙 국무총리는 11일 용혜인 성평등가족부 장관 후보자와 관련, &quot;국민 여러분께서 제기하시는 문제에 ...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "“김승원 적합” 22% “용혜인 적합” 13%, 교체 여론이 압도적인데…",
+          "link": "https://www.chosun.com/politics/assembly/2026/09/12/P3TEXIUV2FDZHCHO6WE2QN3S4Q/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-09-12 00:38:00",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "靑 “조희대, 재제청 신속히 하라... 용혜인, 소명할 기회 줘야”",
+          "link": "https://www.chosun.com/politics/politics_general/2026/09/11/HJFAZ62JFRH4XGCZWEJAII54QM/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-09-11 17:29:46",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": false,
+          "related_full_sources": []
+        }
+      ],
+      "count": 5,
+      "role": "국회의원"
+    },
+    "이재명": {
+      "articles": [
+        {
+          "title": "김성수 \"대통령도 공정한 재판…직무특수성은 헌법따라 판단\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260911154051001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-11 18:57:15",
+          "description": "(서울=연합뉴스) 이정현 권희원 기자 = 김성수 대법관 후보자는 11일 &quot;대통령이나 유력 정치인이 피고인이라 하더라도 일반 국민과 동일하게 헌법...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": false,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "김성수 \"대통령도 공정한 재판…직무특수성은 헌법따라 판단\"",
+              "link": "https://www.yna.co.kr/view/AKR20260911154000001"
+            }
+          ]
+        },
+        {
+          "title": "“이분들 ‘집값’ 잡을 생각 없구나”…‘이재명 정부’ 지지하던 한문도도 비판",
+          "link": "https://www.mk.co.kr/news/society/12150420",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-09-11 14:24:05",
+          "description": "이재명 정부의 부동산 정책을 지지해 왔던 한문도 명지대학교 실물투자분석학과 겸임교수가 “대오각성을 해야하는데 이분들이 벌써 총선 준비하고 이런 젯밥에 마음이 있는 느낌들이 많이 든..",
+          "category": "domestic",
+          "feed_url": "https://www.mk.co.kr/rss/50300009/",
+          "source_type": "realestate",
+          "source_weight": 1.15,
+          "source_badge": "부동산",
+          "priority_score": 1,
+          "related_full_sources": []
+        },
+        {
+          "title": "KB금융 차기회장 후보 이재근",
+          "link": "https://www.mk.co.kr/news/economy/12150718",
+          "source": "매일경제-경제",
+          "published_dt": "2026-09-11 17:59:36",
+          "description": "KB금융그룹 차기 회장 최종 후보에 이재근 KB금융지주 글로벌·WM·SME부문장(사진)이 선정됐다. 사상 최대 실적을 이끈 양종희 회장의 연임 가능성이 높게 점쳐졌던 만큼 예상을 ..",
+          "category": "domestic",
+          "feed_url": "https://www.mk.co.kr/rss/30100041/",
+          "source_type": "economy",
+          "source_weight": 1.2,
+          "source_badge": "경제",
+          "priority_score": 2,
+          "related_full_sources": []
+        },
+        {
+          "title": "KB금융 '세대교체'에 방점…연임 대신 이재근호 깜짝 선택",
+          "link": "https://www.yna.co.kr/view/AKR20260911152500002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-11 18:09:16",
+          "description": "(서울=연합뉴스) 한지훈 기자 = KB금융지주는 차기 회장 후보로 양종희(65) 현 회장 대신 이재근(60) 부문장을 추천하면서 &apos;세대교체&apos;에 ...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/economy.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "sector": "금융",
+          "related_full_sources": []
+        },
+        {
+          "title": "KB금융 차기 회장에 이재근…양종희 연임 불발 '이변'",
+          "link": "https://www.etnews.com/20260911000312",
+          "source": "전자신문",
+          "published_dt": "2026-09-11 17:48:07",
+          "description": "KB금융지주 차기 회장 후보로 이재근 KB금융지주 부문장이 최종 추천됐다. 연임 가능성이 높게 점쳐졌던 양종희 현 회장은 최종 관문을 넘지 못했다. KB금융지주 회장후보추천위원회(회추위)는 11일 회의를 열고 이 부문장을 차기 회장 후보로 추천하기로 결정했다. 회추위는 이날 권광석 전 우리은행장, 양종희 KB금융지주 회장, 이재근 KB금융지주 부문장 등 숏리스트 후보 3명을 대상으로 후보별 2시간씩 심층 인터뷰를 진행했다. 회추위원들은 △업무경",
+          "category": "domestic",
+          "feed_url": "https://rss.etnews.com/Section901.xml",
+          "source_type": "tech",
+          "source_weight": 1.15,
+          "source_badge": "테크",
+          "priority_score": 1,
+          "sector": "금융",
+          "related_full_sources": []
+        }
+      ],
+      "count": 5,
+      "role": "한국 대통령"
+    },
+    "김승원": {
+      "articles": [
+        {
+          "title": "“김승원 적합” 22% “용혜인 적합” 13%, 교체 여론이 압도적인데…",
+          "link": "https://www.chosun.com/politics/assembly/2026/09/12/P3TEXIUV2FDZHCHO6WE2QN3S4Q/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-09-12 00:38:00",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "김승원, 딸·아들 위장 전입... ‘분당 학군’ 보내려 꼼수",
+          "link": "https://www.chosun.com/politics/assembly/2026/09/11/N63N344XFVF65PCPJOC66RPWAQ/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-09-11 20:56:19",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "검찰, 김병기 구속영장 보완수사 요구…\"구속 필요성 소명 부족\"(종합2보)",
+          "link": "https://www.yna.co.kr/view/AKR20260910140352004",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-11 17:01:53",
+          "description": "(서울=연합뉴스) 박재현 한지은 이밝음 전재훈 기자 = 검찰이 각종 비위 의혹을 받는 무소속 김병기 의원에 대한 구속영장을 청구하지 않고 경찰에...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": false,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "국회의원"
+    }
+  }
+}
