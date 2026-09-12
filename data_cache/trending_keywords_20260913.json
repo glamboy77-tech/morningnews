@@ -1,0 +1,391 @@
+{
+  "timestamp": "2026-09-13T06:01:06.496447",
+  "date": "20260913",
+  "data": [
+    {
+      "keyword": "북한 탄도미사일",
+      "reason": "군사 도발 관련 보도 집중",
+      "score": 7.88,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "[속보] 軍 \"북한, 단거리탄도미사일 수차례 발사…약 250㎞ 비행\""
+      ],
+      "representative_article": {
+        "title": "[속보] 軍 \"북한, 단거리탄도미사일 수차례 발사…약 250㎞ 비행\"",
+        "link": "https://www.yna.co.kr/view/AKR20260912017600504",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-09-12 08:48:49",
+        "match_score": 7.88
+      },
+      "related_articles": [
+        {
+          "title": "[속보] 軍 \"북한, 단거리탄도미사일 수차례 발사…약 250㎞ 비행\"",
+          "link": "https://www.yna.co.kr/view/AKR20260912017600504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-12 08:48:49",
+          "match_score": 7.88
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "K-드론",
+      "reason": "정부 예산 증가 및 산업 육성",
+      "score": 30.59,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "정부, K-드론 키운다…3691억→6015억 '마중물'"
+      ],
+      "representative_article": {
+        "title": "정부, K-드론 키운다…3691억→6015억 '마중물'",
+        "link": "https://www.etnews.com/20260911000294",
+        "source": "전자신문",
+        "published_dt": "2026-09-12 15:00:00",
+        "match_score": 30.59
+      },
+      "related_articles": [
+        {
+          "title": "정부, K-드론 키운다…3691억→6015억 '마중물'",
+          "link": "https://www.etnews.com/20260911000294",
+          "source": "전자신문",
+          "published_dt": "2026-09-12 15:00:00",
+          "match_score": 30.59
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "미 연준 금리",
+      "reason": "금리 인상 전망과 금융시장 긴장",
+      "score": 34.12,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "미 연준 금리 올릴까 긴장 고조…당국, F4 회의 등 대응 착수"
+      ],
+      "representative_article": {
+        "title": "미 연준 금리 올릴까 긴장 고조…당국, F4 회의 등 대응 착수",
+        "link": "https://www.yna.co.kr/view/AKR20260912039000002",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-09-13 05:52:00",
+        "match_score": 34.12
+      },
+      "related_articles": [
+        {
+          "title": "미 연준 금리 올릴까 긴장 고조…당국, F4 회의 등 대응 착수",
+          "link": "https://www.yna.co.kr/view/AKR20260912039000002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-13 05:52:00",
+          "match_score": 34.12
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "20대 취업률",
+      "reason": "외환위기 이후 최대 감소 보도",
+      "score": 8.68,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "20대 취업자 외환위기 후 최대폭 감소…고용률 5년만 60% 아래로"
+      ],
+      "representative_article": {
+        "title": "20대 취업자 외환위기 후 최대폭 감소…고용률 5년만 60% 아래로",
+        "link": "https://www.yna.co.kr/view/AKR20260912040200002",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-09-13 05:49:01",
+        "match_score": 8.68
+      },
+      "related_articles": [
+        {
+          "title": "20대 취업자 외환위기 후 최대폭 감소…고용률 5년만 60% 아래로",
+          "link": "https://www.yna.co.kr/view/AKR20260912040200002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-13 05:49:01",
+          "match_score": 8.68
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "해외 신약 투자",
+      "reason": "K바이오 대규모 베팅 소식",
+      "score": 12.28,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "[바이오사이언스] K바이오, 해외신약 '선점 경쟁'…1조원 베팅도"
+      ],
+      "representative_article": {
+        "title": "[바이오사이언스] K바이오, 해외신약 '선점 경쟁'…1조원 베팅도",
+        "link": "https://www.yna.co.kr/view/AKR20260911063900017",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-09-12 10:30:01",
+        "match_score": 12.28
+      },
+      "related_articles": [
+        {
+          "title": "[바이오사이언스] K바이오, 해외신약 '선점 경쟁'…1조원 베팅도",
+          "link": "https://www.yna.co.kr/view/AKR20260911063900017",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-09-12 10:30:01",
+          "match_score": 12.28
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재건축 재개발",
+      "reason": "지역 개발·자문회의 활성화",
+      "score": 42.81,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "익산시 재건축 재개발 자문회의 개최 > 뉴스 - thekorea.kr"
+      ],
+      "representative_article": {
+        "title": "익산시 재건축 재개발 자문회의 개최 > 뉴스 - thekorea.kr",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBDTzNySkNMWDZZREwzcjFHRHdhZ2VYTi00LTZWeTdOM3U0c0JZUmZydDhzd0xDc3p1TExrOURuWElmS3diSjM0czRKdFgxb0wweFVPeGRtSWpjNFlHLUVTUlpIS2RzUUdTT3ZiV2FGVjY?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-09-12 21:55:00",
+        "match_score": 42.81
+      },
+      "related_articles": [
+        {
+          "title": "익산시 재건축 재개발 자문회의 개최 > 뉴스 - thekorea.kr",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBDTzNySkNMWDZZREwzcjFHRHdhZ2VYTi00LTZWeTdOM3U0c0JZUmZydDhzd0xDc3p1TExrOURuWElmS3diSjM0czRKdFgxb0wweFVPeGRtSWpjNFlHLUVTUlpIS2RzUUdTT3ZiV2FGVjY?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-09-12 21:55:00",
+          "match_score": 42.81
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "브릭스 성명",
+      "reason": "중동 긴장과 경제강압 규탄",
+      "score": 8.9,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "브릭스 “중동 긴장고조·핵시설 공격 우려…일방적 경제강압 규탄”"
+      ],
+      "representative_article": {
+        "title": "브릭스 “중동 긴장고조·핵시설 공격 우려…일방적 경제강압 규탄”",
+        "link": "https://www.donga.com/news/Inter/article/all/20260912/134655461/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-09-12 23:11:01",
+        "match_score": 8.9
+      },
+      "related_articles": [
+        {
+          "title": "브릭스 “중동 긴장고조·핵시설 공격 우려…일방적 경제강압 규탄”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260912/134655461/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-12 23:11:01",
+          "match_score": 8.9
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "일본 사도광산",
+      "reason": "강제노동 언급 3년째 불참",
+      "score": 13.7,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "日, 3년째 사도광산 추도식서 '조선인 강제노동' 언급 안해(종합)",
+        "日 사도광산 추도식서 올해도 ‘강제노동’ 언급 안해…韓 3년째 불참"
+      ],
+      "representative_article": {
+        "title": "日 사도광산 추도식서 올해도 ‘강제노동’ 언급 안해…韓 3년째 불참",
+        "link": "https://www.donga.com/news/Inter/article/all/20260912/134655305/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-09-12 18:59:25",
+        "match_score": 13.7
+      },
+      "related_articles": [
+        {
+          "title": "日 사도광산 추도식서 올해도 ‘강제노동’ 언급 안해…韓 3년째 불참",
+          "link": "https://www.donga.com/news/Inter/article/all/20260912/134655305/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-12 18:59:25",
+          "match_score": 13.7
+        },
+        {
+          "title": "日, 3년째 사도광산 추도식서 '조선인 강제노동' 언급 안해(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260912036251073",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-12 17:13:22",
+          "match_score": 10.88
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "후보자",
+      "score": 23.2,
+      "article_count": 6,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "정치"
+      ],
+      "sample_titles": [
+        "'의혹공세' 韓존재감에 복당론 띄우는 친한계…당권파는 '불편'",
+        "與 \"용혜인에 들끓는 청년 여론 좌시못해\"…내일 고당 논의 주목",
+        "국힘 \"李대통령 龍에 약점잡혔나…金 '잘된 인사' 주장은 오만\""
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "[다음주 경제] 수출입·생산자물가 변화는…이형일 후보자 인사청문회",
+        "link": "https://www.yna.co.kr/view/AKR20260912016600002",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-09-12 08:30:42",
+        "match_score": 28.68
+      },
+      "related_articles": [
+        {
+          "title": "[다음주 경제] 수출입·생산자물가 변화는…이형일 후보자 인사청문회",
+          "link": "https://www.yna.co.kr/view/AKR20260912016600002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-12 08:30:42",
+          "match_score": 28.68
+        },
+        {
+          "title": "'의혹공세' 韓존재감에 복당론 띄우는 친한계…당권파는 '불편'",
+          "link": "https://www.yna.co.kr/view/AKR20260912045800001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-13 05:00:05",
+          "match_score": 12.68
+        },
+        {
+          "title": "이형일 \"재정 적극적 역할 필요…지속 가능성에도 공감\"",
+          "link": "https://www.yna.co.kr/view/AKR20260912044200002",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-13 05:30:01",
+          "match_score": 11.82
+        },
+        {
+          "title": "與 \"용혜인에 들끓는 청년 여론 좌시못해\"…내일 고당 논의 주목",
+          "link": "https://www.yna.co.kr/view/AKR20260912024600001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-12 11:47:30",
+          "match_score": 11.68
+        },
+        {
+          "title": "국힘 \"李대통령 龍에 약점잡혔나…金 '잘된 인사' 주장은 오만\"",
+          "link": "https://www.yna.co.kr/view/AKR20260912026700001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-12 12:40:02",
+          "match_score": 11.68
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI",
+      "score": 29.6,
+      "article_count": 4,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "AI와 함께 배당주 골라볼까? ... 꼼꼼히 검증 안하면 착시 빠진다",
+        "[만나보니] 아르헨 정보청장 \"AI 공격 몇초면 충분…한국과 공조해야\"",
+        "[더페어 돋보기] \"하반기 증시 승부처는 실적\"…증권가, 반도체·AI 밸류체인 집중 사격 | - thefairnews.co.kr"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "중·러, AI를 ‘무기 개발자’ 삼았다…미사일 설계하고 바이러스 개량",
+        "link": "https://www.donga.com/news/It/article/all/20260911/134652426/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-09-12 19:00:00",
+        "match_score": 37.3
+      },
+      "related_articles": [
+        {
+          "title": "중·러, AI를 ‘무기 개발자’ 삼았다…미사일 설계하고 바이러스 개량",
+          "link": "https://www.donga.com/news/It/article/all/20260911/134652426/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-12 19:00:00",
+          "match_score": 37.3
+        },
+        {
+          "title": "[더페어 돋보기] \"하반기 증시 승부처는 실적\"…증권가, 반도체·AI 밸류체인 집중 사격 | - thefairnews.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBEaHBqanhSS3JVbndmYUlNZHN5WXJzZTNndHlQNGhnMHhnNDh1TmNpTGpIYVg1djR0MG15VXhFUjRBdVlxZE9hU0RoYzZxY3ZiWEd5WkNtNnFTU2VrWV9lV1Q1c0VsX0VXcHRWUE1zenBRTzN3?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-09-13 00:19:58",
+          "match_score": 36.96
+        },
+        {
+          "title": "[만나보니] 아르헨 정보청장 \"AI 공격 몇초면 충분…한국과 공조해야\"",
+          "link": "https://www.yna.co.kr/view/AKR20260911138800017",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-09-13 05:00:04",
+          "match_score": 28.68
+        },
+        {
+          "title": "AI와 함께 배당주 골라볼까? ... 꼼꼼히 검증 안하면 착시 빠진다",
+          "link": "https://www.mk.co.kr/news/economy/12150611",
+          "source": "매일경제-경제",
+          "published_dt": "2026-09-13 04:24:00",
+          "match_score": 28.66
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
