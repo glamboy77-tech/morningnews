@@ -1,0 +1,378 @@
+{
+  "timestamp": "2026-09-14T06:01:18.072340",
+  "date": "20260914",
+  "data": [
+    {
+      "keyword": "재건축",
+      "reason": "여의도 목화아파트 등 공사 수주, 갈등 이슈",
+      "score": 43.53,
+      "article_count": 5,
+      "source_count": 3,
+      "categories": [
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "삼성물산, 여의도 목화아파트 재건축 시공사…공사비 5천122억원",
+        "[부동산 손자병법] 여의도·노량진 잇는 '삼각편대'… 신길 재개발·재건축 주목",
+        "재건축 달리나 했더니 ‘투쟁’ 붙었다…은마 재건축, 상가 세입자 집단반발"
+      ],
+      "representative_article": {
+        "title": "삼성물산, 여의도 목화아파트 재건축 시공사…공사비 5천122억원",
+        "link": "https://www.yna.co.kr/view/AKR20260913019500003",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-09-13 10:10:03",
+        "match_score": 43.53
+      },
+      "related_articles": [
+        {
+          "title": "삼성물산, 여의도 목화아파트 재건축 시공사…공사비 5천122억원",
+          "link": "https://www.yna.co.kr/view/AKR20260913019500003",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-13 10:10:03",
+          "match_score": 43.53
+        },
+        {
+          "title": "삼성물산, 5천122억원 규모 여의도 목화아파트 재건축 수주 - 조세금융신문",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAwNTdvZW9VSkdscmRrOFRnWWJPYTBlOE1Qc2ZsaFBiZGlvR0ZTQlhaRmNRbllYRldPakttdENZSXdxUUJLSGRTaEZZMkVFTDlZN1NfUnNIUEVwZkd6UzB5bk9UYw?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-09-14 01:20:25",
+          "match_score": 41.91
+        },
+        {
+          "title": "[부동산 손자병법] 여의도·노량진 잇는 '삼각편대'… 신길 재개발·재건축 주목",
+          "link": "https://www.mk.co.kr/news/realestate/12151405",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-09-13 16:32:09",
+          "match_score": 39.3
+        },
+        {
+          "title": "재건축 달리나 했더니 ‘투쟁’ 붙었다…은마 재건축, 상가 세입자 집단반발",
+          "link": "https://www.mk.co.kr/news/realestate/12151631",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-09-14 05:56:29",
+          "match_score": 38.39
+        },
+        {
+          "title": "대교 이어 목화·시범까지 … 여의도 래미안 벨트",
+          "link": "https://www.mk.co.kr/news/realestate/12151399",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-09-13 16:30:32",
+          "match_score": 14.7
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "자율주행",
+      "reason": "현대차 2028년 양산 발표",
+      "score": 30.7,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "현대차 “도심 달리는 자율주행車 2028년 양산”"
+      ],
+      "representative_article": {
+        "title": "현대차 “도심 달리는 자율주행車 2028년 양산”",
+        "link": "https://www.chosun.com/economy/industry-company/2026/09/14/ZZ6KI66MRZD53EGNYU2PCPAWBI/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-09-14 00:33:00",
+        "match_score": 30.7
+      },
+      "related_articles": [
+        {
+          "title": "현대차 “도심 달리는 자율주행車 2028년 양산”",
+          "link": "https://www.chosun.com/economy/industry-company/2026/09/14/ZZ6KI66MRZD53EGNYU2PCPAWBI/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-09-14 00:33:00",
+          "match_score": 30.7
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI",
+      "reason": "AI 데이터센터 확대, 기술 혁신 화두",
+      "score": 40.49,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "美 AI 데이터센터가 키우는 ESS…K배터리도 대응 속도",
+        "최태원 SK 회장, “울산 AI 데이터센터 협의, 900㎿까지 진척”"
+      ],
+      "representative_article": {
+        "title": "美 AI 데이터센터가 키우는 ESS…K배터리도 대응 속도",
+        "link": "https://www.etnews.com/20260911000211",
+        "source": "전자신문",
+        "published_dt": "2026-09-13 17:00:00",
+        "match_score": 40.49
+      },
+      "related_articles": [
+        {
+          "title": "美 AI 데이터센터가 키우는 ESS…K배터리도 대응 속도",
+          "link": "https://www.etnews.com/20260911000211",
+          "source": "전자신문",
+          "published_dt": "2026-09-13 17:00:00",
+          "match_score": 40.49
+        },
+        {
+          "title": "최태원 SK 회장, “울산 AI 데이터센터 협의, 900㎿까지 진척”",
+          "link": "https://www.etnews.com/20260912000027",
+          "source": "전자신문",
+          "published_dt": "2026-09-13 16:00:00",
+          "match_score": 40.49
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "법인세",
+      "reason": "내년 법인세 수입 소득세 추월 전망",
+      "score": 41.43,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "내년 법인세 수입, 15년만에 소득세 추월한다…'삼전닉스' 효과"
+      ],
+      "representative_article": {
+        "title": "내년 법인세 수입, 15년만에 소득세 추월한다…'삼전닉스' 효과",
+        "link": "https://www.yna.co.kr/view/AKR20260912040500002",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-09-14 05:51:00",
+        "match_score": 41.43
+      },
+      "related_articles": [
+        {
+          "title": "내년 법인세 수입, 15년만에 소득세 추월한다…'삼전닉스' 효과",
+          "link": "https://www.yna.co.kr/view/AKR20260912040500002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-14 05:51:00",
+          "match_score": 41.43
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "국제유",
+      "reason": "100달러 재돌파, 국내 영향 제한적",
+      "score": 19.15,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "국제"
+      ],
+      "sample_titles": [
+        "국제 유가 100달러 재돌파…울산 정유산업 타격은 미미 - v.daum.net",
+        "국제 유가 100달러 재돌파…울산 정유산업 타격은 미미 - v.daum.net"
+      ],
+      "representative_article": {
+        "title": "국제 유가 100달러 재돌파…울산 정유산업 타격은 미미 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5rMmwwRlgwcXRrbU5zY25CaHZSZHZ2LVlCYVE5WE4xZDJZNkFaVlp3TGwwT1loRDFLeWhOOThYbzhIYWpla2prd3dOWUVXOExTRy1LdA?oc=5",
+        "source": "키워드-에너지물가",
+        "published_dt": "2026-09-14 01:08:52",
+        "match_score": 19.15
+      },
+      "related_articles": [
+        {
+          "title": "국제 유가 100달러 재돌파…울산 정유산업 타격은 미미 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5rMmwwRlgwcXRrbU5zY25CaHZSZHZ2LVlCYVE5WE4xZDJZNkFaVlp3TGwwT1loRDFLeWhOOThYbzhIYWpla2prd3dOWUVXOExTRy1LdA?oc=5",
+          "source": "키워드-에너지물가",
+          "published_dt": "2026-09-14 01:08:52",
+          "match_score": 19.15
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "사법개혁",
+      "reason": "당정 검찰개혁 질타 논의 진행",
+      "score": 6.08,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "당정 \"사법통제부, '불송치사건심사부'로\"…金, 檢개혁 질타(종합)"
+      ],
+      "representative_article": {
+        "title": "당정 \"사법통제부, '불송치사건심사부'로\"…金, 檢개혁 질타(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260913051851001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-09-13 19:47:35",
+        "match_score": 6.08
+      },
+      "related_articles": [
+        {
+          "title": "당정 \"사법통제부, '불송치사건심사부'로\"…金, 檢개혁 질타(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260913051851001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-13 19:47:35",
+          "match_score": 6.08
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "우크라이나",
+      "reason": "러시아 드론 공습 지속",
+      "score": 14.0,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "러 드론, 폴란드 국경서 2㎞ 떨어진 우크라 철도 공습",
+        "트럼프, 젤렌스키에 “러 정유시설 공격 멈춰라”…유가 급등에 제동"
+      ],
+      "representative_article": {
+        "title": "러 드론, 폴란드 국경서 2㎞ 떨어진 우크라 철도 공습",
+        "link": "https://www.donga.com/news/Inter/article/all/20260914/134661188/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-09-14 05:34:56",
+        "match_score": 14.0
+      },
+      "related_articles": [
+        {
+          "title": "러 드론, 폴란드 국경서 2㎞ 떨어진 우크라 철도 공습",
+          "link": "https://www.donga.com/news/Inter/article/all/20260914/134661188/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-14 05:34:56",
+          "match_score": 14.0
+        },
+        {
+          "title": "트럼프, 젤렌스키에 “러 정유시설 공격 멈춰라”…유가 급등에 제동",
+          "link": "https://www.donga.com/news/Inter/article/all/20260914/134661180/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-14 03:51:29",
+          "match_score": 11.6
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "미중갈등",
+      "reason": "무역분쟁 및 경제 강압 대응",
+      "score": 6.66,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "국제"
+      ],
+      "sample_titles": [
+        "美中갈등에 관세율 오르자 … 韓, 베트남 우회수출 7.4%P ↑"
+      ],
+      "representative_article": {
+        "title": "美中갈등에 관세율 오르자 … 韓, 베트남 우회수출 7.4%P ↑",
+        "link": "https://www.mk.co.kr/news/economy/12151528",
+        "source": "매일경제-경제",
+        "published_dt": "2026-09-13 17:50:32",
+        "match_score": 6.66
+      },
+      "related_articles": [
+        {
+          "title": "美中갈등에 관세율 오르자 … 韓, 베트남 우회수출 7.4%P ↑",
+          "link": "https://www.mk.co.kr/news/economy/12151528",
+          "source": "매일경제-경제",
+          "published_dt": "2026-09-13 17:50:32",
+          "match_score": 6.66
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "추석지원",
+      "reason": "금융권 소상공인 긴급 자금 지원",
+      "score": 7.16,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "금융권, 소상공인·중기에 추석 앞두고 103조원 지원",
+        "금융권, 소상공인·중기에 추석 앞두고 103조원 지원"
+      ],
+      "representative_article": {
+        "title": "금융권, 소상공인·중기에 추석 앞두고 103조원 지원",
+        "link": "https://www.mk.co.kr/news/economy/12151478",
+        "source": "매일경제-경제",
+        "published_dt": "2026-09-13 17:38:15",
+        "match_score": 7.16
+      },
+      "related_articles": [
+        {
+          "title": "금융권, 소상공인·중기에 추석 앞두고 103조원 지원",
+          "link": "https://www.mk.co.kr/news/economy/12151478",
+          "source": "매일경제-경제",
+          "published_dt": "2026-09-13 17:38:15",
+          "match_score": 7.16
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 9,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "정권인사",
+      "reason": "용혜인 후보자 자진 사퇴 등 이슈",
+      "score": 8.48,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "용혜인 성평등부 장관 후보자 자진 사퇴…지명 14일 만(종합)"
+      ],
+      "representative_article": {
+        "title": "용혜인 성평등부 장관 후보자 자진 사퇴…지명 14일 만(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260913023451001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-09-13 12:11:17",
+        "match_score": 8.48
+      },
+      "related_articles": [
+        {
+          "title": "용혜인 성평등부 장관 후보자 자진 사퇴…지명 14일 만(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260913023451001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-13 12:11:17",
+          "match_score": 8.48
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 10,
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
