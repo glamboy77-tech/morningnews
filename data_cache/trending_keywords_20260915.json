@@ -1,0 +1,419 @@
+{
+  "timestamp": "2026-09-15T06:02:08.832494",
+  "date": "20260915",
+  "data": [
+    {
+      "keyword": "GTX",
+      "reason": "교통망과 부동산 수혜",
+      "score": 40.8,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "부동산"
+      ],
+      "sample_titles": [
+        "“GTX 생긴다고 덥석 샀다간” … A·B·C 역세권 진짜 수혜지역 어디 [교통망 2편]"
+      ],
+      "representative_article": {
+        "title": "“GTX 생긴다고 덥석 샀다간” … A·B·C 역세권 진짜 수혜지역 어디 [교통망 2편]",
+        "link": "https://www.mk.co.kr/news/realestate/12152459",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-09-15 04:00:00",
+        "match_score": 40.8
+      },
+      "related_articles": [
+        {
+          "title": "“GTX 생긴다고 덥석 샀다간” … A·B·C 역세권 진짜 수혜지역 어디 [교통망 2편]",
+          "link": "https://www.mk.co.kr/news/realestate/12152459",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-09-15 04:00:00",
+          "match_score": 40.8
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "한-우즈베크 협력",
+      "reason": "정상회담과 MOU 체결",
+      "score": 13.6,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "韓-우즈베크 정상회담…핵심광물·방산·고속철 협력 논의(종합)",
+        "韓-우즈베크, 광물-AI전환-철도 협력 등 MOU 13건 체결"
+      ],
+      "representative_article": {
+        "title": "韓-우즈베크, 광물-AI전환-철도 협력 등 MOU 13건 체결",
+        "link": "https://www.donga.com/news/Politics/article/all/20260915/134668480/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-09-15 04:30:00",
+        "match_score": 13.6
+      },
+      "related_articles": [
+        {
+          "title": "韓-우즈베크, 광물-AI전환-철도 협력 등 MOU 13건 체결",
+          "link": "https://www.donga.com/news/Politics/article/all/20260915/134668480/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-15 04:30:00",
+          "match_score": 13.6
+        },
+        {
+          "title": "韓-우즈베크 정상회담…핵심광물·방산·고속철 협력 논의(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260914142051001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-14 21:32:37",
+          "match_score": 9.68
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI산업",
+      "reason": "규제 논의와 투자 확대",
+      "score": 4.59,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "국내 AI 업계, '속도 조절론'에 \"취지 공감하나 규제 투명성 확보돼야\""
+      ],
+      "representative_article": {
+        "title": "국내 AI 업계, '속도 조절론'에 \"취지 공감하나 규제 투명성 확보돼야\"",
+        "link": "https://www.aitimes.com/news/articleView.html?idxno=215251",
+        "source": "AI타임스",
+        "published_dt": "2026-09-15 13:53:47",
+        "match_score": 4.59
+      },
+      "related_articles": [
+        {
+          "title": "국내 AI 업계, '속도 조절론'에 \"취지 공감하나 규제 투명성 확보돼야\"",
+          "link": "https://www.aitimes.com/news/articleView.html?idxno=215251",
+          "source": "AI타임스",
+          "published_dt": "2026-09-15 13:53:47",
+          "match_score": 4.59
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "국제유가 상승",
+      "reason": "산유국 상황과 시장 영향",
+      "score": 29.88,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "국제"
+      ],
+      "sample_titles": [
+        "사우디 송유관 폐쇄에 국제유가 상승…브렌트유 105달러대"
+      ],
+      "representative_article": {
+        "title": "사우디 송유관 폐쇄에 국제유가 상승…브렌트유 105달러대",
+        "link": "https://www.yna.co.kr/view/AKR20260915005800072",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-09-15 04:57:07",
+        "match_score": 29.88
+      },
+      "related_articles": [
+        {
+          "title": "사우디 송유관 폐쇄에 국제유가 상승…브렌트유 105달러대",
+          "link": "https://www.yna.co.kr/view/AKR20260915005800072",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-15 04:57:07",
+          "match_score": 29.88
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "포스코 노사",
+      "reason": "부분파업 위기와 교섭",
+      "score": 41.28,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "포스코 노사 내일 교섭 재개…진척 없으면 2차 부분파업(종합)",
+        "포스코 노사, 12일 만에 마주 앉는다…내일 교섭 재개"
+      ],
+      "representative_article": {
+        "title": "포스코 노사, 12일 만에 마주 앉는다…내일 교섭 재개",
+        "link": "https://www.yna.co.kr/view/AKR20260914153500053",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-09-14 17:31:40",
+        "match_score": 41.28
+      },
+      "related_articles": [
+        {
+          "title": "포스코 노사, 12일 만에 마주 앉는다…내일 교섭 재개",
+          "link": "https://www.yna.co.kr/view/AKR20260914153500053",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-09-14 17:31:40",
+          "match_score": 41.28
+        },
+        {
+          "title": "포스코 노사 내일 교섭 재개…진척 없으면 2차 부분파업(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260914159700053",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-09-14 18:20:49",
+          "match_score": 35.27
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재건축",
+      "reason": "설계 변경과 가격 이슈",
+      "score": 39.3,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "“조감도에선 한강 다 보였는데 이게 뭡니까”…재건축 특화설계 잇단 변경",
+        "\"어? 시공사 정할때 봤던 아파트 그림이 아닌데…\""
+      ],
+      "representative_article": {
+        "title": "“조감도에선 한강 다 보였는데 이게 뭡니까”…재건축 특화설계 잇단 변경",
+        "link": "https://www.mk.co.kr/news/realestate/12152697",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-09-15 05:51:54",
+        "match_score": 39.3
+      },
+      "related_articles": [
+        {
+          "title": "“조감도에선 한강 다 보였는데 이게 뭡니까”…재건축 특화설계 잇단 변경",
+          "link": "https://www.mk.co.kr/news/realestate/12152697",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-09-15 05:51:54",
+          "match_score": 39.3
+        },
+        {
+          "title": "\"어? 시공사 정할때 봤던 아파트 그림이 아닌데…\"",
+          "link": "https://www.mk.co.kr/news/realestate/12152318",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-09-14 17:22:34",
+          "match_score": 12.4
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "미 국채 금리",
+      "reason": "5% 돌파로 금융 긴장",
+      "score": 39.36,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "국제"
+      ],
+      "sample_titles": [
+        "미 국채 금리·유가 상승에 뉴욕증시 하락…반도체주 동반 급락 - 연합뉴스TV"
+      ],
+      "representative_article": {
+        "title": "미 국채 금리·유가 상승에 뉴욕증시 하락…반도체주 동반 급락 - 연합뉴스TV",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5QQUJqZjFELXBmeDh0bGtadVpRT1M3WlA4SGZoRjM2aWNqNDhBZWY5UEFSak9ZekNzUklBbmJ3UDFOVjVKRVoxenZEY2NoRmpIU3R2ZW5OSEtNaVlvcTBTSXBXbGxHcms?oc=5",
+        "source": "키워드-금리환율코스피",
+        "published_dt": "2026-09-15 05:51:00",
+        "match_score": 39.36
+      },
+      "related_articles": [
+        {
+          "title": "미 국채 금리·유가 상승에 뉴욕증시 하락…반도체주 동반 급락 - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5QQUJqZjFELXBmeDh0bGtadVpRT1M3WlA4SGZoRjM2aWNqNDhBZWY5UEFSak9ZekNzUklBbmJ3UDFOVjVKRVoxenZEY2NoRmpIU3R2ZW5OSEtNaVlvcTBTSXBXbGxHcms?oc=5",
+          "source": "키워드-금리환율코스피",
+          "published_dt": "2026-09-15 05:51:00",
+          "match_score": 39.36
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "사우디 송유관",
+      "reason": "드론 공격과 가동 중단",
+      "score": 34.3,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "“사우디 송유관, 드론 공격 받아 3~5주 동안 가동 중단 전망”"
+      ],
+      "representative_article": {
+        "title": "“사우디 송유관, 드론 공격 받아 3~5주 동안 가동 중단 전망”",
+        "link": "https://www.donga.com/news/Inter/article/all/20260914/134668449/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-09-14 23:14:00",
+        "match_score": 34.3
+      },
+      "related_articles": [
+        {
+          "title": "“사우디 송유관, 드론 공격 받아 3~5주 동안 가동 중단 전망”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260914/134668449/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-14 23:14:00",
+          "match_score": 34.3
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "규모",
+      "score": 34.0,
+      "article_count": 8,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "정부, 추석 성수품 계획보다 초과 공급…할인지원 1천490억원",
+        "SK리츠, 회사채 수요예측서 모집예정액의 3배 자금 몰려",
+        "SNT에너지, 충남 대산 LNG열병합발전소에 305억 규모 HRSG 공급"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "삼성중공업 '잭팟'…1조 6476억원 규모 선박 6척 수주",
+        "link": "https://www.etnews.com/20260914000333",
+        "source": "전자신문",
+        "published_dt": "2026-09-14 14:56:18",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "삼성중공업 '잭팟'…1조 6476억원 규모 선박 6척 수주",
+          "link": "https://www.etnews.com/20260914000333",
+          "source": "전자신문",
+          "published_dt": "2026-09-14 14:56:18",
+          "match_score": 37.49
+        },
+        {
+          "title": "SNT에너지, 충남 대산 LNG열병합발전소에 305억 규모 HRSG 공급",
+          "link": "https://www.yna.co.kr/view/AKR20260914135100052",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-09-14 16:10:10",
+          "match_score": 28.68
+        },
+        {
+          "title": "정부, 추석 성수품 계획보다 초과 공급…할인지원 1천490억원",
+          "link": "https://www.yna.co.kr/view/AKR20260914153100030",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-14 17:30:54",
+          "match_score": 11.82
+        },
+        {
+          "title": "SK리츠, 회사채 수요예측서 모집예정액의 3배 자금 몰려",
+          "link": "https://www.yna.co.kr/view/AKR20260914137600008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-14 16:33:15",
+          "match_score": 11.68
+        },
+        {
+          "title": "삼성전자·SK하이닉스, 한전 '25조 전기료 선납' 제안 거절",
+          "link": "https://www.etnews.com/20260914000406",
+          "source": "전자신문",
+          "published_dt": "2026-09-14 16:37:06",
+          "match_score": 11.5
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "앞두고",
+      "score": 41.4,
+      "article_count": 7,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "기업/산업",
+        "부동산",
+        "정치"
+      ],
+      "sample_titles": [
+        "윤건영, 李 회견 앞두고 “공소 취소, 연임 개헌 깔끔 정리해야”",
+        "넥스트증권, MTS 공식 출시 앞두고 오픈API로 거래서비스 검증",
+        "원/달러 환율 1,347.3원…美 FOMC 앞두고 박스권 등락"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "원/달러 환율 1,347.3원…美 FOMC 앞두고 박스권 등락",
+        "link": "https://www.yna.co.kr/view/AKR20260914133100002",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-09-14 16:13:57",
+        "match_score": 38.12
+      },
+      "related_articles": [
+        {
+          "title": "원/달러 환율 1,347.3원…美 FOMC 앞두고 박스권 등락",
+          "link": "https://www.yna.co.kr/view/AKR20260914133100002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-14 16:13:57",
+          "match_score": 38.12
+        },
+        {
+          "title": "LG, 추석 앞두고 협력사에 6000억 조기 지급…1조 2000억 금융 지원까지",
+          "link": "https://www.etnews.com/20260914000209",
+          "source": "전자신문",
+          "published_dt": "2026-09-14 14:00:00",
+          "match_score": 37.49
+        },
+        {
+          "title": "삼성, 추석 앞두고 협력사 대금 1조3000억 조기 지급",
+          "link": "https://www.etnews.com/20260914000208",
+          "source": "전자신문",
+          "published_dt": "2026-09-14 14:00:00",
+          "match_score": 37.49
+        },
+        {
+          "title": "윤건영, 李 회견 앞두고 “공소 취소, 연임 개헌 깔끔 정리해야”",
+          "link": "https://www.chosun.com/politics/assembly/2026/09/14/RQY7T6UHNZACTB3F6U57UTAZ5Q/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-09-14 10:57:44",
+          "match_score": 29.3
+        },
+        {
+          "title": "넥스트증권, MTS 공식 출시 앞두고 오픈API로 거래서비스 검증",
+          "link": "https://www.yna.co.kr/view/AKR20260914162000008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-14 18:29:48",
+          "match_score": 28.68
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}

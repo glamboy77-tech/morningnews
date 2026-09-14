@@ -1,0 +1,60 @@
+{
+  "timestamp": "2026-09-15T06:01:46.915780",
+  "date": "20260915",
+  "data": {
+    "김승원": {
+      "articles": [
+        {
+          "title": "국회, 오늘 이형일·김승원·이소영 인사청문회…여야 대격돌",
+          "link": "https://www.yna.co.kr/view/AKR20260914169900001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-15 05:00:01",
+          "description": "(서울=연합뉴스) 박재하 조다운 기자 = 국회는 15일 이재명 정부 2기 개각 인사를 검증하는 인사청문회에 나선다.",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "입법/정책",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "증인·참고인 0명, 김승원 오늘 청문회… 정국 분수령",
+          "link": "https://www.chosun.com/politics/assembly/2026/09/15/ZLXLRPQMZBFDBDLOWKXTJGTVHI/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-09-15 00:51:00",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "김승원, 과거 지역 향우회장 5급 비서관 채용…선거법 위반 논란(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260914126951061",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-14 17:04:30",
+          "description": "(수원·서울=연합뉴스) 최종호 강영훈 노선웅 기자 = 김승원 법무부 장관 후보자가 과거 국회의원 시절 자신의 지역구 향우회장과 그 자녀를 각각 ...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": true,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "국회의원"
+    }
+  }
+}
