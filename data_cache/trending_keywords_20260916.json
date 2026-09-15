@@ -1,0 +1,386 @@
+{
+  "timestamp": "2026-09-16T06:01:25.273374",
+  "date": "20260916",
+  "data": [
+    {
+      "keyword": "핵심광물",
+      "reason": "韓-카자흐 협력 강화",
+      "score": 31.18,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "정치"
+      ],
+      "sample_titles": [
+        "韓-카자흐 '미래지향 포괄 전략 동반자' 격상…핵심광물 등 협력"
+      ],
+      "representative_article": {
+        "title": "韓-카자흐 '미래지향 포괄 전략 동반자' 격상…핵심광물 등 협력",
+        "link": "https://www.yna.co.kr/view/AKR20260915176600001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-09-15 20:05:00",
+        "match_score": 31.18
+      },
+      "related_articles": [
+        {
+          "title": "韓-카자흐 '미래지향 포괄 전략 동반자' 격상…핵심광물 등 협력",
+          "link": "https://www.yna.co.kr/view/AKR20260915176600001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-15 20:05:00",
+          "match_score": 31.18
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "투자보장협정",
+      "reason": "한-투르크메니스탄 서명",
+      "score": 42.18,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "정치"
+      ],
+      "sample_titles": [
+        "한-투르크메니스탄 투자보장협정 서명…투자자 보호기반 마련"
+      ],
+      "representative_article": {
+        "title": "한-투르크메니스탄 투자보장협정 서명…투자자 보호기반 마련",
+        "link": "https://www.yna.co.kr/view/AKR20260915169000504",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-09-15 18:19:46",
+        "match_score": 42.18
+      },
+      "related_articles": [
+        {
+          "title": "한-투르크메니스탄 투자보장협정 서명…투자자 보호기반 마련",
+          "link": "https://www.yna.co.kr/view/AKR20260915169000504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-15 18:19:46",
+          "match_score": 42.18
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI반도체",
+      "reason": "산업 투자 및 ETF 상장",
+      "score": 31.22,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "ICT R&D '2조원 시대'…피지컬AI·AI반도체 집중 투자",
+        "한화운용, HBM·AI 반도체 소부장 ETF 2종 상장 - 서울경제"
+      ],
+      "representative_article": {
+        "title": "ICT R&D '2조원 시대'…피지컬AI·AI반도체 집중 투자",
+        "link": "https://www.yna.co.kr/view/AKR20260915072600017",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-09-15 18:01:24",
+        "match_score": 31.22
+      },
+      "related_articles": [
+        {
+          "title": "ICT R&D '2조원 시대'…피지컬AI·AI반도체 집중 투자",
+          "link": "https://www.yna.co.kr/view/AKR20260915072600017",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-15 18:01:24",
+          "match_score": 31.22
+        },
+        {
+          "title": "한화운용, HBM·AI 반도체 소부장 ETF 2종 상장 - 서울경제",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBPYVZkVUFJc0d0T0lsUmZQc1NCSmFKQk82ZVlEM0s2UVVWb1J1RXBfdUdOREZraGRKc014aHAtVjBTM05ad2ZKOG50cGJqckNINHfSAVNBVV95cUxPUEN6WkU3V3dLZjBfald4Z3RwenZCM1hFc0g2RzRTZ1J3WWgwYjU3V1Y2Qi1OaW1Obzl0ZzFhRk9Nbjkxa2pBUUJDdnFxdWRIb3JLOA?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-09-15 09:04:42",
+          "match_score": 26.35
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "원전협력",
+      "reason": "韓-카자흐 원전 공동협력",
+      "score": 31.22,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "정치"
+      ],
+      "sample_titles": [
+        "韓-카자흐, 원유공급·원전협력 강화…포괄적 전략동반자 격상"
+      ],
+      "representative_article": {
+        "title": "韓-카자흐, 원유공급·원전협력 강화…포괄적 전략동반자 격상",
+        "link": "https://www.yna.co.kr/view/AKR20260915157800001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-09-15 19:23:03",
+        "match_score": 31.22
+      },
+      "related_articles": [
+        {
+          "title": "韓-카자흐, 원유공급·원전협력 강화…포괄적 전략동반자 격상",
+          "link": "https://www.yna.co.kr/view/AKR20260915157800001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-15 19:23:03",
+          "match_score": 31.22
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재건축",
+      "reason": "용산 등 주요 단지 관심",
+      "score": 38.09,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "62층 한강맨션·49층 신동아 … 용산 재건축 투톱 다시 뛴다",
+        "신월시영 재건축 시공사 선정, 대우건설 독주에 현대건설 뛰어드나"
+      ],
+      "representative_article": {
+        "title": "신월시영 재건축 시공사 선정, 대우건설 독주에 현대건설 뛰어드나",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/09/15/2026091501790.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-09-15 14:40:29",
+        "match_score": 38.09
+      },
+      "related_articles": [
+        {
+          "title": "신월시영 재건축 시공사 선정, 대우건설 독주에 현대건설 뛰어드나",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/09/15/2026091501790.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-09-15 14:40:29",
+          "match_score": 38.09
+        },
+        {
+          "title": "62층 한강맨션·49층 신동아 … 용산 재건축 투톱 다시 뛴다",
+          "link": "https://www.mk.co.kr/news/realestate/12153164",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-09-16 04:40:00",
+          "match_score": 30.29
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "금리인상",
+      "reason": "美 연준 정책 압박",
+      "score": 34.25,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "국제"
+      ],
+      "sample_titles": [
+        "“美연준 금리인상 확률 92%”… 기업 자금조달-투자위축 우려"
+      ],
+      "representative_article": {
+        "title": "“美연준 금리인상 확률 92%”… 기업 자금조달-투자위축 우려",
+        "link": "https://www.donga.com/news/Economy/article/all/20260916/134676848/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-09-16 04:30:00",
+        "match_score": 34.25
+      },
+      "related_articles": [
+        {
+          "title": "“美연준 금리인상 확률 92%”… 기업 자금조달-투자위축 우려",
+          "link": "https://www.donga.com/news/Economy/article/all/20260916/134676848/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-16 04:30:00",
+          "match_score": 34.25
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "파업",
+      "reason": "포스코노사 노사갈등",
+      "score": 34.96,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "포스코노사 교섭 재개했지만 평행선…16일부터 120시간 파업 예고",
+        "파업 대비 비상수송대책 준비...지하철 증편·전세버스 투입 - YTN"
+      ],
+      "representative_article": {
+        "title": "파업 대비 비상수송대책 준비...지하철 증편·전세버스 투입 - YTN",
+        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5PZEFjb0dna0hQUldhSm5LQUN1SXk3bWlCWFdCX3A3bXo2Q00ycjdJY1kwbGIwNDJvOWhMd1Zvck52UzI0LUZJSU8ydjNvaDk5dDRJNVIxdi1sMF9mTnc?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-09-15 19:57:00",
+        "match_score": 34.96
+      },
+      "related_articles": [
+        {
+          "title": "파업 대비 비상수송대책 준비...지하철 증편·전세버스 투입 - YTN",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5PZEFjb0dna0hQUldhSm5LQUN1SXk3bWlCWFdCX3A3bXo2Q00ycjdJY1kwbGIwNDJvOWhMd1Zvck52UzI0LUZJSU8ydjNvaDk5dDRJNVIxdi1sMF9mTnc?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-09-15 19:57:00",
+          "match_score": 34.96
+        },
+        {
+          "title": "포스코노사 교섭 재개했지만 평행선…16일부터 120시간 파업 예고",
+          "link": "https://www.yna.co.kr/view/AKR20260915154900053",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-09-15 17:09:04",
+          "match_score": 31.68
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "전세시장",
+      "reason": "부동산 전세 가격 동향",
+      "score": 38.16,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "대구·경북 집값 낙폭 줄었다…전세시장은 온도 차 - kyongbuk.co.kr"
+      ],
+      "representative_article": {
+        "title": "대구·경북 집값 낙폭 줄었다…전세시장은 온도 차 - kyongbuk.co.kr",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5IUnYteVNlMmo3MHZPTGJDTm93SEwxNHJ5cVBCVFMxRjRaOWtlOXFzdEVZZTFKTDJFcnd0S2Z0azBXcmFySl9mdXRVRUpMUm83dVdfV1FOSC1mWFRla2VNUjdmTHF3bnk3SWh4WUNMWQ?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-09-15 19:35:33",
+        "match_score": 38.16
+      },
+      "related_articles": [
+        {
+          "title": "대구·경북 집값 낙폭 줄었다…전세시장은 온도 차 - kyongbuk.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5IUnYteVNlMmo3MHZPTGJDTm93SEwxNHJ5cVBCVFMxRjRaOWtlOXFzdEVZZTFKTDJFcnd0S2Z0azBXcmFySl9mdXRVRUpMUm83dVdfV1FOSC1mWFRla2VNUjdmTHF3bnk3SWh4WUNMWQ?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-09-15 19:35:33",
+          "match_score": 38.16
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "미국국채",
+      "reason": "금리 5% 돌파 영향",
+      "score": 5.88,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "부동산"
+      ],
+      "sample_titles": [
+        "美 국채 10년물 5% 돌파에…국고채 금리 연고점 경신(종합)"
+      ],
+      "representative_article": {
+        "title": "美 국채 10년물 5% 돌파에…국고채 금리 연고점 경신(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260915151151008",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-09-15 17:22:47",
+        "match_score": 5.88
+      },
+      "related_articles": [
+        {
+          "title": "美 국채 10년물 5% 돌파에…국고채 금리 연고점 경신(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260915151151008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-15 17:22:47",
+          "match_score": 5.88
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 9,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "후보자",
+      "score": 44.4,
+      "article_count": 14,
+      "source_count": 2,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "김승원 \"'문과라 치료제 성능 몰랐다' 발언, 책임회피 아니다\"",
+        "김승원 청문회 '청탁 의혹' 충돌…\"독약 게이트\" vs \"고충 민원\"(종합2보)",
+        "고성·눈물 얼룩 김승원 청문회…이형일·이소영은 부동산 추궁"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "野 “이소영 후보자, 국내 기업 대상 소송전 하는 기후 단체 ‘청탁 입법’ 의혹”",
+        "link": "https://www.chosun.com/politics/politics_general/2026/09/15/KSW3P6K5KJBRNFRAXJYIICBJB4/",
+        "source": "조선일보-정치",
+        "published_dt": "2026-09-15 11:40:42",
+        "match_score": 28.3
+      },
+      "related_articles": [
+        {
+          "title": "野 “이소영 후보자, 국내 기업 대상 소송전 하는 기후 단체 ‘청탁 입법’ 의혹”",
+          "link": "https://www.chosun.com/politics/politics_general/2026/09/15/KSW3P6K5KJBRNFRAXJYIICBJB4/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-09-15 11:40:42",
+          "match_score": 28.3
+        },
+        {
+          "title": "김승원 청문회 '청탁 의혹' 충돌…\"독약 게이트\" vs \"고충 민원\"(종합2보)",
+          "link": "https://www.yna.co.kr/view/AKR20260915089652001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-15 23:06:20",
+          "match_score": 12.68
+        },
+        {
+          "title": "김승원 \"특검에 공소취소 권한 반대…인위적으로 할 필요 없어\"",
+          "link": "https://www.yna.co.kr/view/AKR20260915162600004",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-15 17:38:03",
+          "match_score": 12.68
+        },
+        {
+          "title": "김승원 \"'문과라 치료제 성능 몰랐다' 발언, 책임회피 아니다\"",
+          "link": "https://www.yna.co.kr/view/AKR20260915181400004",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-15 21:33:53",
+          "match_score": 11.82
+        },
+        {
+          "title": "고성·눈물 얼룩 김승원 청문회…이형일·이소영은 부동산 추궁",
+          "link": "https://www.yna.co.kr/view/AKR20260915170600001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-15 18:37:27",
+          "match_score": 11.68
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
