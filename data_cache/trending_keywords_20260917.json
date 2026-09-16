@@ -1,0 +1,445 @@
+{
+  "timestamp": "2026-09-17T06:01:23.136819",
+  "date": "20260917",
+  "data": [
+    {
+      "keyword": "메모리반도체",
+      "reason": "SK하이닉스와 인텔 협력 움직임",
+      "score": 13.1,
+      "article_count": 4,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "[오늘의 PICK!] SK하이닉스·인텔, 미국 메모리 생산 협상설…‘한미 AI 반도체 공급망’ 재편 신호탄 되나 - 코리아포스트 한글판",
+        "SK하이닉스, 산학연구 우수발명 시상…최우수상에 최우석 교수",
+        "로이터 “SK하이닉스, 인텔과 협력해 美서 메모리 생산”…SK하이닉스 “결정된 바 없다”"
+      ],
+      "representative_article": {
+        "title": "로이터 “SK하이닉스, 인텔과 협력해 美서 메모리 생산”…SK하이닉스 “결정된 바 없다”",
+        "link": "https://www.etnews.com/20260916000377",
+        "source": "전자신문",
+        "published_dt": "2026-09-16 17:52:57",
+        "match_score": 13.1
+      },
+      "related_articles": [
+        {
+          "title": "로이터 “SK하이닉스, 인텔과 협력해 美서 메모리 생산”…SK하이닉스 “결정된 바 없다”",
+          "link": "https://www.etnews.com/20260916000377",
+          "source": "전자신문",
+          "published_dt": "2026-09-16 17:52:57",
+          "match_score": 13.1
+        },
+        {
+          "title": "[오늘의 PICK!] SK하이닉스·인텔, 미국 메모리 생산 협상설…‘한미 AI 반도체 공급망’ 재편 신호탄 되나 - 코리아포스트 한글판",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0ydDJqbTd1QWJZQzhvVmJWUlJuNUdoX1lhcHdVbWt5ZHhxMTNiMlJEbkREbUFKb0R0b2dFM0JCem5CcUYyYnpQdGd2ei1pM0pncno1RHczLXhhTlhTaDhncFRzZUd2WVl3X19vb3lB?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-09-16 20:09:34",
+          "match_score": 8.56
+        },
+        {
+          "title": "SK하이닉스, 산학연구 우수발명 시상…최우수상에 최우석 교수",
+          "link": "https://www.yna.co.kr/view/AKR20260916154900003",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-16 16:38:48",
+          "match_score": 8.22
+        },
+        {
+          "title": "[IT업계 8월 동향] SK하이닉스, AI 반도체 경쟁력 강화···차세대 인프라 구축 속도 - 여성소비자신문",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBJRnpFOHlJYnYyM1pHWUxmdWhOLUhuYlMybXpLZHFLZ191RkltbGVDTHZ3VWJRN2ZxYTQ5enA1Yzk2bkVHUU9LNVAzY1l6WGIyTW5pSVdkWnBZRTFZZ1VsQUJQa1IzUQ?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-09-16 14:39:54",
+          "match_score": 7.36
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "한중중앙아시아협력",
+      "reason": "대통령의 광물·에너지 협력 강조",
+      "score": 4.88,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "정치"
+      ],
+      "sample_titles": [
+        "李대통령 \"중앙亞와 새 실크로드 열 것…핵심광물 全주기 협력\"(종합)"
+      ],
+      "representative_article": {
+        "title": "李대통령 \"중앙亞와 새 실크로드 열 것…핵심광물 全주기 협력\"(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260916141551001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-09-16 17:27:31",
+        "match_score": 4.88
+      },
+      "related_articles": [
+        {
+          "title": "李대통령 \"중앙亞와 새 실크로드 열 것…핵심광물 全주기 협력\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260916141551001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-16 17:27:31",
+          "match_score": 4.88
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "미국금리인상",
+      "reason": "미국 3년 만에 기준금리 인상",
+      "score": 7.25,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "국제"
+      ],
+      "sample_titles": [
+        "美 기준금리 0.25%p 인상... 3년 만에 긴축 전환"
+      ],
+      "representative_article": {
+        "title": "美 기준금리 0.25%p 인상... 3년 만에 긴축 전환",
+        "link": "https://www.chosun.com/economy/int_economy/2026/09/17/KN5WRZSOPFD4XID3SPHTB7QARY/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-09-17 04:39:30",
+        "match_score": 7.25
+      },
+      "related_articles": [
+        {
+          "title": "美 기준금리 0.25%p 인상... 3년 만에 긴축 전환",
+          "link": "https://www.chosun.com/economy/int_economy/2026/09/17/KN5WRZSOPFD4XID3SPHTB7QARY/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-09-17 04:39:30",
+          "match_score": 7.25
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI",
+      "reason": "AI 반도체·로봇 사업 활발",
+      "score": 38.7,
+      "article_count": 5,
+      "source_count": 2,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "[오늘의 PICK!] SK하이닉스·인텔, 미국 메모리 생산 협상설…‘한미 AI 반도체 공급망’ 재편 신호탄 되나 - 코리아포스트 한글판",
+        "한 번 배우면 어떤 로봇도 척척…'범용 로봇 AI'",
+        "반도체 장비 부품 납기 2배로…최대 40개월도 걸려"
+      ],
+      "representative_article": {
+        "title": "한 번 배우면 어떤 로봇도 척척…'범용 로봇 AI'",
+        "link": "https://www.etnews.com/20260915000368",
+        "source": "전자신문",
+        "published_dt": "2026-09-16 17:05:00",
+        "match_score": 38.7
+      },
+      "related_articles": [
+        {
+          "title": "한 번 배우면 어떤 로봇도 척척…'범용 로봇 AI'",
+          "link": "https://www.etnews.com/20260915000368",
+          "source": "전자신문",
+          "published_dt": "2026-09-16 17:05:00",
+          "match_score": 38.7
+        },
+        {
+          "title": "[오늘의 PICK!] SK하이닉스·인텔, 미국 메모리 생산 협상설…‘한미 AI 반도체 공급망’ 재편 신호탄 되나 - 코리아포스트 한글판",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0ydDJqbTd1QWJZQzhvVmJWUlJuNUdoX1lhcHdVbWt5ZHhxMTNiMlJEbkREbUFKb0R0b2dFM0JCem5CcUYyYnpQdGd2ei1pM0pncno1RHczLXhhTlhTaDhncFRzZUd2WVl3X19vb3lB?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-09-16 20:09:34",
+          "match_score": 38.16
+        },
+        {
+          "title": "이재용 삼성전자 회장, 日 참의원 대표단 회동…반도체·AI 협력 논의 - etnews.com",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBaSXFGX3JzUTZoSXEyQk5uVWwxalNyZUVqT3djUFNuQnFhU3BCc2gtX2FiMjlUcTVhV3lBTlhqbVRYTlppclBONXZDR1poQQ?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-09-16 14:11:45",
+          "match_score": 38.16
+        },
+        {
+          "title": "[IT업계 8월 동향] SK하이닉스, AI 반도체 경쟁력 강화···차세대 인프라 구축 속도 - 여성소비자신문",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBJRnpFOHlJYnYyM1pHWUxmdWhOLUhuYlMybXpLZHFLZ191RkltbGVDTHZ3VWJRN2ZxYTQ5enA1Yzk2bkVHUU9LNVAzY1l6WGIyTW5pSVdkWnBZRTFZZ1VsQUJQa1IzUQ?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-09-16 14:39:54",
+          "match_score": 38.16
+        },
+        {
+          "title": "반도체 장비 부품 납기 2배로…최대 40개월도 걸려",
+          "link": "https://www.etnews.com/20260916000148",
+          "source": "전자신문",
+          "published_dt": "2026-09-16 16:01:00",
+          "match_score": 12.7
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "중동전쟁",
+      "reason": "격화되는 중동 전쟁 긴장",
+      "score": 41.43,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "중동전쟁 격화에 산업계 '긴장'…당장은 버텨도 장기화 우려"
+      ],
+      "representative_article": {
+        "title": "중동전쟁 격화에 산업계 '긴장'…당장은 버텨도 장기화 우려",
+        "link": "https://www.yna.co.kr/view/AKR20260916169600003",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-09-17 05:55:01",
+        "match_score": 41.43
+      },
+      "related_articles": [
+        {
+          "title": "중동전쟁 격화에 산업계 '긴장'…당장은 버텨도 장기화 우려",
+          "link": "https://www.yna.co.kr/view/AKR20260916169600003",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-17 05:55:01",
+          "match_score": 41.43
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재건축투자",
+      "reason": "용산 등 주요 재건축 사업 부각",
+      "score": 5.5,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "62층 한강맨션·49층 신동아…용산 재건축 투톱 다시 뛴다[부동산 심머니]"
+      ],
+      "representative_article": {
+        "title": "62층 한강맨션·49층 신동아…용산 재건축 투톱 다시 뛴다[부동산 심머니]",
+        "link": "https://www.mk.co.kr/news/realestate/12154633",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-09-16 18:45:00",
+        "match_score": 5.5
+      },
+      "related_articles": [
+        {
+          "title": "62층 한강맨션·49층 신동아…용산 재건축 투톱 다시 뛴다[부동산 심머니]",
+          "link": "https://www.mk.co.kr/news/realestate/12154633",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-09-16 18:45:00",
+          "match_score": 5.5
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "비트코인규제",
+      "reason": "미국 규제법 무산과 시장 급락",
+      "score": 3.5,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "국제"
+      ],
+      "sample_titles": [
+        "비트코인 다시 흔들린다…美 규제법 좌초에 금리 인상까지 겹악재"
+      ],
+      "representative_article": {
+        "title": "비트코인 다시 흔들린다…美 규제법 좌초에 금리 인상까지 겹악재",
+        "link": "https://www.donga.com/news/Inter/article/all/20260916/134680382/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-09-16 14:39:42",
+        "match_score": 3.5
+      },
+      "related_articles": [
+        {
+          "title": "비트코인 다시 흔들린다…美 규제법 좌초에 금리 인상까지 겹악재",
+          "link": "https://www.donga.com/news/Inter/article/all/20260916/134680382/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-16 14:39:42",
+          "match_score": 3.5
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "국채금리변동",
+      "reason": "국내 국채금리 하락과 변동성",
+      "score": 5.67,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "고유가·미 국채금리 급등에…환율 1,370원대 터치(종합)"
+      ],
+      "representative_article": {
+        "title": "고유가·미 국채금리 급등에…환율 1,370원대 터치(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260916074551002",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-09-16 16:04:03",
+        "match_score": 5.67
+      },
+      "related_articles": [
+        {
+          "title": "고유가·미 국채금리 급등에…환율 1,370원대 터치(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260916074551002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-16 16:04:03",
+          "match_score": 5.67
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "부동산",
+      "score": 75.5,
+      "article_count": 14,
+      "source_count": 3,
+      "categories": [
+        "기업/산업",
+        "부동산",
+        "정치"
+      ],
+      "sample_titles": [
+        "“버티다 젊은 애들한테 밀려나네요”…서울 집합건물 매도인 4명 중 1명 50대",
+        "억대 성과급 안 풀렸다…'반도체 머니' 수원→용인→성남 매수세 폭발 전야",
+        "62층 한강맨션·49층 신동아…용산 재건축 투톱 다시 뛴다[부동산 심머니]"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "첫삽 뜬 GTX-C…수원역 일대 부동산 \"공사 진척 땐 추가 기대감\"[르포] - 뉴시스",
+        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1mLWl5N2VsdTlHRTdEcFo0R09iQ3pldmZxMWhESU9hbTRwWE1uMXRMb0pRVHlrRXY5eGFvdG53NnZtZkw1U0ZfaWVmWExMeVM2VTUwYzctQ0VHQTlHWmk0T1lwcU9nYTU5LXpXNFhpX1VTNnZEalZyMdIBeEFVX3lxTE1mLWl5N2VsdTlHRTdEcFo0R09iQ3pldmZxMWhESU9hbTRwWE1uMXRMb0pRVHlrRXY5eGFvdG53NnZtZkw1U0ZfaWVmWExMeVM2VTUwYzctQ0VHQTlHWmk0T1lwcU9nYTU5LXpXNFhpX1VTNnZEalZyMQ?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-09-17 05:00:00",
+        "match_score": 37.71
+      },
+      "related_articles": [
+        {
+          "title": "첫삽 뜬 GTX-C…수원역 일대 부동산 \"공사 진척 땐 추가 기대감\"[르포] - 뉴시스",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1mLWl5N2VsdTlHRTdEcFo0R09iQ3pldmZxMWhESU9hbTRwWE1uMXRMb0pRVHlrRXY5eGFvdG53NnZtZkw1U0ZfaWVmWExMeVM2VTUwYzctQ0VHQTlHWmk0T1lwcU9nYTU5LXpXNFhpX1VTNnZEalZyMdIBeEFVX3lxTE1mLWl5N2VsdTlHRTdEcFo0R09iQ3pldmZxMWhESU9hbTRwWE1uMXRMb0pRVHlrRXY5eGFvdG53NnZtZkw1U0ZfaWVmWExMeVM2VTUwYzctQ0VHQTlHWmk0T1lwcU9nYTU5LXpXNFhpX1VTNnZEalZyMQ?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-09-17 05:00:00",
+          "match_score": 37.71
+        },
+        {
+          "title": "영장 없이 내 계좌 본다는데 … 개보위, 부동산감독원에 면죄부",
+          "link": "https://www.mk.co.kr/news/realestate/12154580",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-09-16 17:57:15",
+          "match_score": 37.49
+        },
+        {
+          "title": "서울 부동산 외국인 ‘이상 거래’, 절반이 중국인…전체 135건 통보",
+          "link": "https://www.mk.co.kr/news/economy/12154280",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-09-16 15:11:41",
+          "match_score": 37.49
+        },
+        {
+          "title": "[MAI부동산] 강서구 방화그린 39.76㎡ 6억 원 거래… 최근 3년 신고가",
+          "link": "https://www.mk.co.kr/news/realestate/12153887",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-09-16 08:59:16",
+          "match_score": 37.49
+        },
+        {
+          "title": "[MAI부동산] 강동구 천호동 현대아파트 44.1㎡, 7억 6,000만 원에 거래… 최근 3년 신고가",
+          "link": "https://www.mk.co.kr/news/realestate/12153894",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-09-16 08:59:16",
+          "match_score": 37.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "전용",
+      "score": 41.2,
+      "article_count": 10,
+      "source_count": 4,
+      "categories": [
+        "국제",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "한 번 배우면 어떤 로봇도 척척…'범용 로봇 AI'",
+        "동대문 미등기 아파트도 국평 20억 돌파…이문뉴타운서 무슨일이",
+        "[MAI부동산] 강서구 방화그린 39.76㎡ 6억 원 거래… 최근 3년 신고가"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "[MAI부동산] 송파구 풍납동 현대1, 전용 83.02㎡ 19억 5,000만 원 최근 3년 신고가",
+        "link": "https://www.mk.co.kr/news/realestate/12153892",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-09-16 08:59:16",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "[MAI부동산] 송파구 풍납동 현대1, 전용 83.02㎡ 19억 5,000만 원 최근 3년 신고가",
+          "link": "https://www.mk.co.kr/news/realestate/12153892",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-09-16 08:59:16",
+          "match_score": 37.49
+        },
+        {
+          "title": "[MAI부동산] 송파구 거여1단지 전용 49.8㎡ 13억 2,500만 원 거래… 최근 3년 신고가",
+          "link": "https://www.mk.co.kr/news/realestate/12153890",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-09-16 08:59:16",
+          "match_score": 37.49
+        },
+        {
+          "title": "한 번 배우면 어떤 로봇도 척척…'범용 로봇 AI'",
+          "link": "https://www.etnews.com/20260915000368",
+          "source": "전자신문",
+          "published_dt": "2026-09-16 17:05:00",
+          "match_score": 11.5
+        },
+        {
+          "title": "동대문 미등기 아파트도 국평 20억 돌파…이문뉴타운서 무슨일이",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/09/16/2026091601797.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-09-16 14:01:07",
+          "match_score": 11.5
+        },
+        {
+          "title": "[MAI부동산] 강서구 방화그린 39.76㎡ 6억 원 거래… 최근 3년 신고가",
+          "link": "https://www.mk.co.kr/news/realestate/12153887",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-09-16 08:59:16",
+          "match_score": 11.5
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
