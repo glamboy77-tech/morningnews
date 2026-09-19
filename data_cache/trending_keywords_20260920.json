@@ -1,0 +1,328 @@
+{
+  "timestamp": "2026-09-20T06:01:43.865531",
+  "date": "20260920",
+  "data": [
+    {
+      "keyword": "AI 투자",
+      "reason": "삼성 AI 대규모 투자 및 협력 논의",
+      "score": 4.88,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업",
+        "정치"
+      ],
+      "sample_titles": [
+        "한미외교장관 \"대미투자 결실 노력\"…美 \"투자 신속이행 중요\"(종합2보)"
+      ],
+      "representative_article": {
+        "title": "한미외교장관 \"대미투자 결실 노력\"…美 \"투자 신속이행 중요\"(종합2보)",
+        "link": "https://www.yna.co.kr/view/AKR20260919009552071",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-09-19 08:56:19",
+        "match_score": 4.88
+      },
+      "related_articles": [
+        {
+          "title": "한미외교장관 \"대미투자 결실 노력\"…美 \"투자 신속이행 중요\"(종합2보)",
+          "link": "https://www.yna.co.kr/view/AKR20260919009552071",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-19 08:56:19",
+          "match_score": 4.88
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "전작권 전환",
+      "reason": "한미 국방 협력 강화 중심 이슈",
+      "score": 32.27,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "한미 국방 고위협의체 \"전작권 전환 가속화 위한 협력 강화\"(종합)"
+      ],
+      "representative_article": {
+        "title": "한미 국방 고위협의체 \"전작권 전환 가속화 위한 협력 강화\"(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260919020851071",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-09-19 11:22:48",
+        "match_score": 32.27
+      },
+      "related_articles": [
+        {
+          "title": "한미 국방 고위협의체 \"전작권 전환 가속화 위한 협력 강화\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260919020851071",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-19 11:22:48",
+          "match_score": 32.27
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "부동산 재건축",
+      "reason": "서울 주요 지역 재건축 사업 활성화",
+      "score": 3.91,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "강남 제치고 목동·상계가 1·2위…서울 아파트 증여 '재건축 쏠림' - 뉴스1"
+      ],
+      "representative_article": {
+        "title": "강남 제치고 목동·상계가 1·2위…서울 아파트 증여 '재건축 쏠림' - 뉴스1",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0xWmtMREFxcURjRmd0RFZ0LWk1Mmlnd211Y2tld18xUHBwdzZzblBDT3Q1S0JBcE9JM0g4RjJLVE00bm5TMXg5NzBkckpqMEdJaWUtbXpiSU5FelHSAWBBVV95cUxQY1Nhdkx2THM2b2s1YXRyOUNXd2VyU3dTc21TYmxPbk5xbFZlZGwtRlNBUVNIRUJReDVoQ3FlWThCTzBEd2NtekZOaTBGN0E4YUJxRXRNMGxJUjM5RURqZ2o?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-09-20 05:05:00",
+        "match_score": 3.91
+      },
+      "related_articles": [
+        {
+          "title": "강남 제치고 목동·상계가 1·2위…서울 아파트 증여 '재건축 쏠림' - 뉴스1",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0xWmtMREFxcURjRmd0RFZ0LWk1Mmlnd211Y2tld18xUHBwdzZzblBDT3Q1S0JBcE9JM0g4RjJLVE00bm5TMXg5NzBkckpqMEdJaWUtbXpiSU5FelHSAWBBVV95cUxQY1Nhdkx2THM2b2s1YXRyOUNXd2VyU3dTc21TYmxPbk5xbFZlZGwtRlNBUVNIRUJReDVoQ3FlWThCTzBEd2NtekZOaTBGN0E4YUJxRXRNMGxJUjM5RURqZ2o?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-09-20 05:05:00",
+          "match_score": 3.91
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "국제 제재",
+      "reason": "중국의 미국 제재 반대 입장",
+      "score": 5.9,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "中, 美의 러산 석유 구매국 제재에 “일방적 제재 반대…면밀 주시”"
+      ],
+      "representative_article": {
+        "title": "中, 美의 러산 석유 구매국 제재에 “일방적 제재 반대…면밀 주시”",
+        "link": "https://www.donga.com/news/Inter/article/all/20260919/134701239/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-09-19 23:12:27",
+        "match_score": 5.9
+      },
+      "related_articles": [
+        {
+          "title": "中, 美의 러산 석유 구매국 제재에 “일방적 제재 반대…면밀 주시”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260919/134701239/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-19 23:12:27",
+          "match_score": 5.9
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "구제역",
+      "reason": "인천 강화서 구제역 추가 발생",
+      "score": 47.43,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "인천 강화서 구제역 추가 발생…소 2마리 항원 양성"
+      ],
+      "representative_article": {
+        "title": "인천 강화서 구제역 추가 발생…소 2마리 항원 양성",
+        "link": "https://www.yna.co.kr/view/AKR20260919033700030",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-09-19 12:00:58",
+        "match_score": 47.43
+      },
+      "related_articles": [
+        {
+          "title": "인천 강화서 구제역 추가 발생…소 2마리 항원 양성",
+          "link": "https://www.yna.co.kr/view/AKR20260919033700030",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-19 12:00:58",
+          "match_score": 47.43
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "금융 양극화",
+      "reason": "고금리 영향 저신용 연체율 급증",
+      "score": 7.62,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "고금리에 깊어진 양극화…저신용 자영업 연체율 5년새 4∼5배로"
+      ],
+      "representative_article": {
+        "title": "고금리에 깊어진 양극화…저신용 자영업 연체율 5년새 4∼5배로",
+        "link": "https://www.yna.co.kr/view/AKR20260919036700002",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-09-20 05:45:01",
+        "match_score": 7.62
+      },
+      "related_articles": [
+        {
+          "title": "고금리에 깊어진 양극화…저신용 자영업 연체율 5년새 4∼5배로",
+          "link": "https://www.yna.co.kr/view/AKR20260919036700002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-20 05:45:01",
+          "match_score": 7.62
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "중간선거",
+      "reason": "미국 중간선거 사전투표 시작",
+      "score": 40.3,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "美중간선거 사전투표 시작…의회 주도권 가른다"
+      ],
+      "representative_article": {
+        "title": "美중간선거 사전투표 시작…의회 주도권 가른다",
+        "link": "https://www.donga.com/news/Inter/article/all/20260919/134700600/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-09-19 11:33:43",
+        "match_score": 40.3
+      },
+      "related_articles": [
+        {
+          "title": "美중간선거 사전투표 시작…의회 주도권 가른다",
+          "link": "https://www.donga.com/news/Inter/article/all/20260919/134700600/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-19 11:33:43",
+          "match_score": 40.3
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "전력망 붕괴",
+      "reason": "쿠바 전면 정전 사태",
+      "score": 43.3,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "쿠바, 국가 전력망 붕괴에 전면 정전…올해만 8번째"
+      ],
+      "representative_article": {
+        "title": "쿠바, 국가 전력망 붕괴에 전면 정전…올해만 8번째",
+        "link": "https://www.donga.com/news/Inter/article/all/20260919/134701217/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-09-19 22:50:42",
+        "match_score": 43.3
+      },
+      "related_articles": [
+        {
+          "title": "쿠바, 국가 전력망 붕괴에 전면 정전…올해만 8번째",
+          "link": "https://www.donga.com/news/Inter/article/all/20260919/134701217/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-19 22:50:42",
+          "match_score": 43.3
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "희귀병 치료제",
+      "reason": "제약업계 신약 도전 확대",
+      "score": 34.9,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "“블루오션 찾아라”…희귀병 치료제 도전하는 제약업계"
+      ],
+      "representative_article": {
+        "title": "“블루오션 찾아라”…희귀병 치료제 도전하는 제약업계",
+        "link": "https://www.chosun.com/economy/science/2026/09/19/MUZWMMRZGUYDQNDFMI3DMOJWMQ/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-09-19 11:47:01",
+        "match_score": 34.9
+      },
+      "related_articles": [
+        {
+          "title": "“블루오션 찾아라”…희귀병 치료제 도전하는 제약업계",
+          "link": "https://www.chosun.com/economy/science/2026/09/19/MUZWMMRZGUYDQNDFMI3DMOJWMQ/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-09-19 11:47:01",
+          "match_score": 34.9
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 9,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "전세 부담",
+      "reason": "생애최초 주택 구입 비중 증가",
+      "score": 8.56,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "\"전세 알아보다 지쳤어요\"…생애최초 구입 비중 역대 최대[집값 84주 랠리②] - 뉴시스"
+      ],
+      "representative_article": {
+        "title": "\"전세 알아보다 지쳤어요\"…생애최초 구입 비중 역대 최대[집값 84주 랠리②] - 뉴시스",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5TX0Jlb1AxemloUEIySURXV1lYSWZBdEsxdXROM1hubF9yMnpnM0l2c0pEelp5cHRyS3FibVRRR05LSjJrTkxWTEhScmphNUs5OFd6WTRwMGFsbW9YZ2Q4bdIBeEFVX3lxTFBHTk9XSVRQamh5UHBtNUxrbjJaZk5OUzVUaWlCOXZRUC11X084SUhVb1MzcHFiX19wRkkwQjdJU0dpcjdrbnpDWC1FQTlodGhRa1hmSTRCRjFkZ0hfOWlqSk9hRk5jTTMzWS1tUWN6NVNmQk9CU2hOMQ?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-09-19 13:00:00",
+        "match_score": 8.56
+      },
+      "related_articles": [
+        {
+          "title": "\"전세 알아보다 지쳤어요\"…생애최초 구입 비중 역대 최대[집값 84주 랠리②] - 뉴시스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5TX0Jlb1AxemloUEIySURXV1lYSWZBdEsxdXROM1hubF9yMnpnM0l2c0pEelp5cHRyS3FibVRRR05LSjJrTkxWTEhScmphNUs5OFd6WTRwMGFsbW9YZ2Q4bdIBeEFVX3lxTFBHTk9XSVRQamh5UHBtNUxrbjJaZk5OUzVUaWlCOXZRUC11X084SUhVb1MzcHFiX19wRkkwQjdJU0dpcjdrbnpDWC1FQTlodGhRa1hmSTRCRjFkZ0hfOWlqSk9hRk5jTTMzWS1tUWN6NVNmQk9CU2hOMQ?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-09-19 13:00:00",
+          "match_score": 8.56
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 10,
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}

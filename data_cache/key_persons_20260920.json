@@ -1,0 +1,74 @@
+{
+  "timestamp": "2026-09-20T06:01:34.478087",
+  "date": "20260920",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "李대통령 '눈높이' 언급 후 급변…'추가의혹에 임명제동' 관측도",
+          "link": "https://www.yna.co.kr/view/AKR20260919050000001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-19 18:39:44",
+          "description": "(서울=연합뉴스) 설승은 최평천 김정진 기자 = 더불어민주당의 적극적인 엄호를 받았던 김승원 의원이 19일 법무부 장관 후보직에서 전격 사퇴하면...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, 여권 지지층에 \"멸칭·혐오, 갈등 키워…개혁 장애물\"",
+          "link": "https://www.yna.co.kr/view/AKR20260919058900001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-19 23:48:00",
+          "description": "(서울=연합뉴스) 설승은 기자 = 이재명 대통령은 19일 여권 지지층을 &apos;대통령의 친구&apos;라고 부르며 &quot;이제라도 혐오와 비아냥, 감정적 비난은 버...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, 오늘 청년의날 기념식 참석…청년들과 토론도",
+          "link": "https://www.yna.co.kr/view/AKR20260919022900001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-19 09:22:35",
+          "description": "(서울=연합뉴스) 설승은 기자 = 이재명 대통령은 19일 오후 2시 청와대 영빈관에서 열리는 청년의 날 기념식 &apos;청년으로부터&apos;에 참석한다.",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "與 \"연임 생각 없다는데 말꼬리…국힘, 李대통령 회견 왜곡말라\"",
+          "link": "https://www.yna.co.kr/view/AKR20260919026400001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-19 10:20:17",
+          "description": "(서울=연합뉴스) 김정진 기자 = 더불어민주당은 19일 이재명 대통령이 기자회견을 통해 이른바 연임 문제와 공소취소 문제에 대한 입장을 명확히 ...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "related_full_sources": []
+        }
+      ],
+      "count": 4,
+      "role": "한국 대통령"
+    }
+  }
+}
