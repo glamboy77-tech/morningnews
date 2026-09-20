@@ -1,0 +1,332 @@
+{
+  "timestamp": "2026-09-21T06:01:18.457727",
+  "date": "20260921",
+  "data": [
+    {
+      "keyword": "탄도미사일",
+      "reason": "북한 도발 관련 언급 다수",
+      "score": 40.17,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "北, 탄도미사일 2발 3시간 간격 발사…유엔총회 앞두고 도발(종합3보)"
+      ],
+      "representative_article": {
+        "title": "北, 탄도미사일 2발 3시간 간격 발사…유엔총회 앞두고 도발(종합3보)",
+        "link": "https://www.yna.co.kr/view/AKR20260920032753504",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-09-20 19:54:41",
+        "match_score": 40.17
+      },
+      "related_articles": [
+        {
+          "title": "北, 탄도미사일 2발 3시간 간격 발사…유엔총회 앞두고 도발(종합3보)",
+          "link": "https://www.yna.co.kr/view/AKR20260920032753504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-20 19:54:41",
+          "match_score": 40.17
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "금리인상",
+      "reason": "금융시장 영향력 큰 이슈",
+      "score": 17.95,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "[뉴욕증시 주간전망] 금리 인상 후폭풍에 美·中 담판까지…사상 최고치 시험대 - 글로벌이코노믹"
+      ],
+      "representative_article": {
+        "title": "[뉴욕증시 주간전망] 금리 인상 후폭풍에 美·中 담판까지…사상 최고치 시험대 - 글로벌이코노믹",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOckFiSnBqb3RuV1ZxR2tXMTB1YjhsWmhRQkk1bWZ1SWhKV1ZwMDJpQUpETzVMc0hoSXpqb0RzS3NOZlJjLThfb1lsWVZUQTFJbW0yOVZDSzkxWXFSYnNVaHVrQkJWc0FSV2duNUFWUkJsOER5TDZDZFNubmJsMDVPLV9Tb0VObkFR?oc=5",
+        "source": "키워드-금리환율코스피",
+        "published_dt": "2026-09-21 05:33:29",
+        "match_score": 17.95
+      },
+      "related_articles": [
+        {
+          "title": "[뉴욕증시 주간전망] 금리 인상 후폭풍에 美·中 담판까지…사상 최고치 시험대 - 글로벌이코노믹",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOckFiSnBqb3RuV1ZxR2tXMTB1YjhsWmhRQkk1bWZ1SWhKV1ZwMDJpQUpETzVMc0hoSXpqb0RzS3NOZlJjLThfb1lsWVZUQTFJbW0yOVZDSzkxWXFSYnNVaHVrQkJWc0FSV2duNUFWUkJsOER5TDZDZFNubmJsMDVPLV9Tb0VObkFR?oc=5",
+          "source": "키워드-금리환율코스피",
+          "published_dt": "2026-09-21 05:33:29",
+          "match_score": 17.95
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI기술",
+      "reason": "기업별 혁신과 행사 집중",
+      "score": 6.67,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "LG, AI 인재 육성 확대…'에이머스 해커톤'에 3천393명 지원"
+      ],
+      "representative_article": {
+        "title": "LG, AI 인재 육성 확대…'에이머스 해커톤'에 3천393명 지원",
+        "link": "https://www.yna.co.kr/view/AKR20260920015500003",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-09-20 10:00:00",
+        "match_score": 6.67
+      },
+      "related_articles": [
+        {
+          "title": "LG, AI 인재 육성 확대…'에이머스 해커톤'에 3천393명 지원",
+          "link": "https://www.yna.co.kr/view/AKR20260920015500003",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-20 10:00:00",
+          "match_score": 6.67
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재개발",
+      "reason": "대규모 사업 수주 소식 빈번",
+      "score": 27.05,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "삼성물산, 공사비 1.8조원 성수3지구 재개발 품었다"
+      ],
+      "representative_article": {
+        "title": "삼성물산, 공사비 1.8조원 성수3지구 재개발 품었다",
+        "link": "https://www.chosun.com/economy/real_estate/2026/09/21/SSPK4IA2EJHIPJIC4C2IIP3NWE/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-09-21 00:36:00",
+        "match_score": 27.05
+      },
+      "related_articles": [
+        {
+          "title": "삼성물산, 공사비 1.8조원 성수3지구 재개발 품었다",
+          "link": "https://www.chosun.com/economy/real_estate/2026/09/21/SSPK4IA2EJHIPJIC4C2IIP3NWE/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-09-21 00:36:00",
+          "match_score": 27.05
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "보이스피싱",
+      "reason": "명절 관련 피해 경고",
+      "score": 37.97,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "국제"
+      ],
+      "sample_titles": [
+        "'택배 주소지 오류'…추석선물 배송 등 미끼로 보이스피싱 주의"
+      ],
+      "representative_article": {
+        "title": "'택배 주소지 오류'…추석선물 배송 등 미끼로 보이스피싱 주의",
+        "link": "https://www.yna.co.kr/view/AKR20260919030900002",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-09-20 12:00:05",
+        "match_score": 37.97
+      },
+      "related_articles": [
+        {
+          "title": "'택배 주소지 오류'…추석선물 배송 등 미끼로 보이스피싱 주의",
+          "link": "https://www.yna.co.kr/view/AKR20260919030900002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-20 12:00:05",
+          "match_score": 37.97
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "국채금리",
+      "reason": "미국 국채 5% 돌파 화제",
+      "score": 12.5,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "국제"
+      ],
+      "sample_titles": [
+        "美국채 5% 돌파에 韓금리 출렁…동조화 최대 원인은 ‘국제 물가’",
+        "美국채 5% 돌파에 韓금리 출렁…동조화 최대 원인은 ‘국제 물가’"
+      ],
+      "representative_article": {
+        "title": "美국채 5% 돌파에 韓금리 출렁…동조화 최대 원인은 ‘국제 물가’",
+        "link": "https://www.donga.com/news/Economy/article/all/20260920/134702758/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-09-20 12:12:47",
+        "match_score": 12.5
+      },
+      "related_articles": [
+        {
+          "title": "美국채 5% 돌파에 韓금리 출렁…동조화 최대 원인은 ‘국제 물가’",
+          "link": "https://www.donga.com/news/Economy/article/all/20260920/134702758/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-20 12:12:47",
+          "match_score": 12.5
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "저신용연체",
+      "reason": "자영업자 금융 리스크 부각",
+      "score": 5.66,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "연체율 44%, 저신용 자영업자의 위기"
+      ],
+      "representative_article": {
+        "title": "연체율 44%, 저신용 자영업자의 위기",
+        "link": "https://www.mk.co.kr/news/economy/12157369",
+        "source": "매일경제-경제",
+        "published_dt": "2026-09-20 13:08:03",
+        "match_score": 5.66
+      },
+      "related_articles": [
+        {
+          "title": "연체율 44%, 저신용 자영업자의 위기",
+          "link": "https://www.mk.co.kr/news/economy/12157369",
+          "source": "매일경제-경제",
+          "published_dt": "2026-09-20 13:08:03",
+          "match_score": 5.66
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "협력사대금",
+      "reason": "한화그룹 대금 조기 지급",
+      "score": 19.27,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "한화그룹, 추석 앞두고 협력사 대금 1천850억원 조기 지급"
+      ],
+      "representative_article": {
+        "title": "한화그룹, 추석 앞두고 협력사 대금 1천850억원 조기 지급",
+        "link": "https://www.yna.co.kr/view/AKR20260920021100003",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-09-20 10:50:32",
+        "match_score": 19.27
+      },
+      "related_articles": [
+        {
+          "title": "한화그룹, 추석 앞두고 협력사 대금 1천850억원 조기 지급",
+          "link": "https://www.yna.co.kr/view/AKR20260920021100003",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-09-20 10:50:32",
+          "match_score": 19.27
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "국감",
+      "reason": "정치권 현안과 쟁점 집중",
+      "score": 30.88,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "전남광주특별시 출범 후 첫 국감…통합 갈등·반도체 등 쟁점"
+      ],
+      "representative_article": {
+        "title": "전남광주특별시 출범 후 첫 국감…통합 갈등·반도체 등 쟁점",
+        "link": "https://www.yna.co.kr/view/AKR20260918119300054",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-09-20 10:02:00",
+        "match_score": 30.88
+      },
+      "related_articles": [
+        {
+          "title": "전남광주특별시 출범 후 첫 국감…통합 갈등·반도체 등 쟁점",
+          "link": "https://www.yna.co.kr/view/AKR20260918119300054",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-20 10:02:00",
+          "match_score": 30.88
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 9,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "수소차",
+      "reason": "미래형 모빌리티 산업 언급",
+      "score": 3.39,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "화웨이, 새로운 AI 캠퍼스 시대를 여는 업그레이드된 Stellar AI Campus Network 공개"
+      ],
+      "representative_article": {
+        "title": "화웨이, 새로운 AI 캠퍼스 시대를 여는 업그레이드된 Stellar AI Campus Network 공개",
+        "link": "https://zdnet.co.kr/view/?no=20260921031002",
+        "source": "ZDNetKorea",
+        "published_dt": "2026-09-21 03:10:02",
+        "match_score": 3.39
+      },
+      "related_articles": [
+        {
+          "title": "화웨이, 새로운 AI 캠퍼스 시대를 여는 업그레이드된 Stellar AI Campus Network 공개",
+          "link": "https://zdnet.co.kr/view/?no=20260921031002",
+          "source": "ZDNetKorea",
+          "published_dt": "2026-09-21 03:10:02",
+          "match_score": 3.39
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 10,
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
