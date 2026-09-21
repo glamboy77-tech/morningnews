@@ -1,0 +1,466 @@
+{
+  "timestamp": "2026-09-22T06:01:20.216280",
+  "date": "20260922",
+  "data": [
+    {
+      "keyword": "대미투자",
+      "reason": "재경위·산자위 보고, 동맹 교감",
+      "score": 42.58,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "정치"
+      ],
+      "sample_titles": [
+        "국회 재경위·산자위, 오늘 '대미투자 1호' 관련 보고 청취"
+      ],
+      "representative_article": {
+        "title": "국회 재경위·산자위, 오늘 '대미투자 1호' 관련 보고 청취",
+        "link": "https://www.yna.co.kr/view/AKR20260921166800001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-09-22 05:00:03",
+        "match_score": 42.58
+      },
+      "related_articles": [
+        {
+          "title": "국회 재경위·산자위, 오늘 '대미투자 1호' 관련 보고 청취",
+          "link": "https://www.yna.co.kr/view/AKR20260921166800001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-22 05:00:03",
+          "match_score": 42.58
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "반도체 수출",
+      "reason": "무역 흑자 역대 최대 주도",
+      "score": 20.35,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "반도체가 수출 절반 … 무역흑자 230억달러 '역대 최대'",
+        "코스피, 반도체·수출 훈풍에 '7,000피' 탈환…삼성전자 5% 급등 - 뉴스퀘스트"
+      ],
+      "representative_article": {
+        "title": "코스피, 반도체·수출 훈풍에 '7,000피' 탈환…삼성전자 5% 급등 - 뉴스퀘스트",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9BOXNmQm1QeFJSUHFhQ0ljYlFLa3BWcXRxc1J5TUVBVHExWlk2SDIyQkc0ZzN3TGNFTng3dDlVS3BjSjkxd3gzaXVLS2FBdm1rcElQNm4yb2FZc2hISjBRaGItZVlUWlBLR2g1aUUwZw?oc=5",
+        "source": "키워드-반도체AI",
+        "published_dt": "2026-09-21 17:06:01",
+        "match_score": 20.35
+      },
+      "related_articles": [
+        {
+          "title": "코스피, 반도체·수출 훈풍에 '7,000피' 탈환…삼성전자 5% 급등 - 뉴스퀘스트",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9BOXNmQm1QeFJSUHFhQ0ljYlFLa3BWcXRxc1J5TUVBVHExWlk2SDIyQkc0ZzN3TGNFTng3dDlVS3BjSjkxd3gzaXVLS2FBdm1rcElQNm4yb2FZc2hISjBRaGItZVlUWlBLR2g1aUUwZw?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-09-21 17:06:01",
+          "match_score": 20.35
+        },
+        {
+          "title": "반도체가 수출 절반 … 무역흑자 230억달러 '역대 최대'",
+          "link": "https://www.mk.co.kr/news/economy/12158521",
+          "source": "매일경제-경제",
+          "published_dt": "2026-09-21 17:45:26",
+          "match_score": 16.46
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "K-무인기",
+      "reason": "한화 국내 43개사 협력",
+      "score": 40.23,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "한화, 'K-무인기' 생태계 구축한다…국내 기업 43곳과 업무협약",
+        "한화, 'K-무인기' 생태계 구축한다…국내 기업 43곳과 업무협약"
+      ],
+      "representative_article": {
+        "title": "한화, 'K-무인기' 생태계 구축한다…국내 기업 43곳과 업무협약",
+        "link": "https://www.yna.co.kr/view/AKR20260921158800003",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-09-21 17:20:07",
+        "match_score": 40.23
+      },
+      "related_articles": [
+        {
+          "title": "한화, 'K-무인기' 생태계 구축한다…국내 기업 43곳과 업무협약",
+          "link": "https://www.yna.co.kr/view/AKR20260921158800003",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-21 17:20:07",
+          "match_score": 40.23
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "DMZ 사고",
+      "reason": "지뢰 폭발 간부 부상",
+      "score": 36.88,
+      "article_count": 3,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "DMZ 수색작전 중 지뢰 추정 폭발…발목절단 간부 헬기후송(종합2보)",
+        "李대통령, DMZ 폭발사고에 \"마음 무거워…치료·회복 지원\"",
+        "스틸 美대사·여야 지도부 관저만찬…'DMZ 사고' 놓고 동맹 교감(종합2보)"
+      ],
+      "representative_article": {
+        "title": "스틸 美대사·여야 지도부 관저만찬…'DMZ 사고' 놓고 동맹 교감(종합2보)",
+        "link": "https://www.yna.co.kr/view/AKR20260921142452001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-09-21 23:12:15",
+        "match_score": 36.88
+      },
+      "related_articles": [
+        {
+          "title": "스틸 美대사·여야 지도부 관저만찬…'DMZ 사고' 놓고 동맹 교감(종합2보)",
+          "link": "https://www.yna.co.kr/view/AKR20260921142452001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-21 23:12:15",
+          "match_score": 36.88
+        },
+        {
+          "title": "DMZ 수색작전 중 지뢰 추정 폭발…발목절단 간부 헬기후송(종합2보)",
+          "link": "https://www.yna.co.kr/view/AKR20260921095652504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-21 16:45:35",
+          "match_score": 13.28
+        },
+        {
+          "title": "李대통령, DMZ 폭발사고에 \"마음 무거워…치료·회복 지원\"",
+          "link": "https://www.yna.co.kr/view/AKR20260921158200001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-21 17:14:06",
+          "match_score": 9.38
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI투자",
+      "reason": "BNK운용 펀드출시, 글로벌 동향",
+      "score": 12.08,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "BNK운용, '미국 AI·우주항공·양자컴퓨팅 투자' 펀드 출시"
+      ],
+      "representative_article": {
+        "title": "BNK운용, '미국 AI·우주항공·양자컴퓨팅 투자' 펀드 출시",
+        "link": "https://www.yna.co.kr/view/AKR20260921127300008",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-09-21 15:26:39",
+        "match_score": 12.08
+      },
+      "related_articles": [
+        {
+          "title": "BNK운용, '미국 AI·우주항공·양자컴퓨팅 투자' 펀드 출시",
+          "link": "https://www.yna.co.kr/view/AKR20260921127300008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-21 15:26:39",
+          "match_score": 12.08
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "부동산 공급",
+      "reason": "수도권 대규모 공공주택 계획",
+      "score": 5.5,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "고양 대곡·의왕 오전왕곡 … 공공주택 2.3만가구 짓는다"
+      ],
+      "representative_article": {
+        "title": "고양 대곡·의왕 오전왕곡 … 공공주택 2.3만가구 짓는다",
+        "link": "https://www.mk.co.kr/news/realestate/12158482",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-09-21 17:31:57",
+        "match_score": 5.5
+      },
+      "related_articles": [
+        {
+          "title": "고양 대곡·의왕 오전왕곡 … 공공주택 2.3만가구 짓는다",
+          "link": "https://www.mk.co.kr/news/realestate/12158482",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-09-21 17:31:57",
+          "match_score": 5.5
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "개인정보 위반",
+      "reason": "스마트폰 판매점·대만 쿠팡 과징금",
+      "score": 36.9,
+      "article_count": 3,
+      "source_count": 2,
+      "categories": [
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "스마트폰 판매점 개인정보 위반 무더기 적발…첫 사전승낙 철회 '중징계'",
+        "KT, 펨토셀 과징금 행정소송 본격 검토...개인정보위 의결서 수령",
+        "대만 정부, 쿠팡 정보 유출 과징금 6500만원…韓 처벌수위 대비 35분의 1"
+      ],
+      "representative_article": {
+        "title": "스마트폰 판매점 개인정보 위반 무더기 적발…첫 사전승낙 철회 '중징계'",
+        "link": "https://www.etnews.com/20260921000347",
+        "source": "전자신문",
+        "published_dt": "2026-09-21 14:54:40",
+        "match_score": 36.9
+      },
+      "related_articles": [
+        {
+          "title": "스마트폰 판매점 개인정보 위반 무더기 적발…첫 사전승낙 철회 '중징계'",
+          "link": "https://www.etnews.com/20260921000347",
+          "source": "전자신문",
+          "published_dt": "2026-09-21 14:54:40",
+          "match_score": 36.9
+        },
+        {
+          "title": "대만 정부, 쿠팡 정보 유출 과징금 6500만원…韓 처벌수위 대비 35분의 1",
+          "link": "https://www.donga.com/news/Inter/article/all/20260921/134713109/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-21 18:22:13",
+          "match_score": 7.3
+        },
+        {
+          "title": "KT, 펨토셀 과징금 행정소송 본격 검토...개인정보위 의결서 수령",
+          "link": "https://www.etnews.com/20260921000299",
+          "source": "전자신문",
+          "published_dt": "2026-09-21 14:05:04",
+          "match_score": 7.0
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "아파트",
+      "score": 36.4,
+      "article_count": 9,
+      "source_count": 2,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "역세권·학군 넘어 ‘스토리’로 승부…도시의 기억 품은 아파트가 뜬다?",
+        "2번 유찰됐던 송파 재개발 반전, '디에이치' 품고 잭팟 터트리나",
+        "서울 전월세난에 부천으로…'역곡역 월드메르디앙' 눈길"
+      ],
+      "llm_candidate": false,
+      "rank": 8,
+      "representative_article": {
+        "title": "역세권·학군 넘어 ‘스토리’로 승부…도시의 기억 품은 아파트가 뜬다?",
+        "link": "https://www.mk.co.kr/news/realestate/12158223",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-09-21 14:47:29",
+        "match_score": 38.09
+      },
+      "related_articles": [
+        {
+          "title": "역세권·학군 넘어 ‘스토리’로 승부…도시의 기억 품은 아파트가 뜬다?",
+          "link": "https://www.mk.co.kr/news/realestate/12158223",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-09-21 14:47:29",
+          "match_score": 38.09
+        },
+        {
+          "title": "10월 전국 아파트 1만 6567가구 입주, 전월대비 65% ↑",
+          "link": "https://www.mk.co.kr/news/realestate/12158206",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-09-21 14:33:23",
+          "match_score": 37.49
+        },
+        {
+          "title": "“강남 30평대 아파트, 3억원 가능”…전현희, 공공 토지임대부 분양 법안 발의",
+          "link": "https://www.mk.co.kr/news/realestate/12158358",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-09-21 16:27:38",
+          "match_score": 28.49
+        },
+        {
+          "title": "2번 유찰됐던 송파 재개발 반전, '디에이치' 품고 잭팟 터트리나",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/09/21/2026092101515.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-09-21 11:33:47",
+          "match_score": 12.1
+        },
+        {
+          "title": "“강남 빠지는데 서울 84주째 상승” … 강북 뜨거운 지금이 갈아타기 적기?",
+          "link": "https://www.mk.co.kr/news/realestate/12158322",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-09-22 04:30:00",
+          "match_score": 11.5
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "국민의힘",
+      "score": 51.8,
+      "article_count": 8,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "기업/산업",
+        "정치"
+      ],
+      "sample_titles": [
+        "국힘, 식약처 항의 방문…\"김승원 의혹 자료 공개해야\"(종합)",
+        "국힘, 김승원 낙마에도 \"靑 책임\" 대여 맹공…장기전 포석(종합2보)",
+        "'국힘 가입강요' 신천지 이만희 총회장 측 \"강요 없었다\" 혐의 부인"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "대전 기관장에 캠프 출신 속속 임명…국민의힘 '이중잣대' 비판",
+        "link": "https://www.yna.co.kr/view/AKR20260921096700063",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-09-21 18:00:01",
+        "match_score": 38.67
+      },
+      "related_articles": [
+        {
+          "title": "대전 기관장에 캠프 출신 속속 임명…국민의힘 '이중잣대' 비판",
+          "link": "https://www.yna.co.kr/view/AKR20260921096700063",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-21 18:00:01",
+          "match_score": 38.67
+        },
+        {
+          "title": "국힘 의원들, 식약처 항의방문…\"김승원 의혹 자료 제출해야\"",
+          "link": "https://www.yna.co.kr/view/AKR20260921143300017",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-21 16:19:36",
+          "match_score": 12.82
+        },
+        {
+          "title": "'국힘 가입강요' 신천지 이만희 총회장 측 \"강요 없었다\" 혐의 부인",
+          "link": "https://www.yna.co.kr/view/AKR20260921168000004",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-21 18:16:19",
+          "match_score": 12.68
+        },
+        {
+          "title": "국힘, 식약처 항의 방문…\"김승원 의혹 자료 공개해야\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260921143351017",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-21 17:30:55",
+          "match_score": 11.82
+        },
+        {
+          "title": "국힘, 김승원 낙마에도 \"靑 책임\" 대여 맹공…장기전 포석(종합2보)",
+          "link": "https://www.yna.co.kr/view/AKR20260921072452001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-21 19:08:36",
+          "match_score": 11.68
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "추석",
+      "score": 41.0,
+      "article_count": 7,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "기업/산업",
+        "정치"
+      ],
+      "sample_titles": [
+        "與, 추석 전 \"민생 집중\" 국면 전환…\"인사검증 보완\" 요구도(종합)",
+        "추석 앞둔 실향민·북한이탈주민, 김포 애기봉서 망향제",
+        "'메가특구 52시간 예외' 사회적 대화 시동"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "與, 추석 전 \"민생 집중\" 국면 전환…\"인사검증 보완\" 요구도(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260921088551001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-09-21 16:46:15",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "與, 추석 전 \"민생 집중\" 국면 전환…\"인사검증 보완\" 요구도(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260921088551001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-21 16:46:15",
+          "match_score": 37.67
+        },
+        {
+          "title": "추석 앞둔 실향민·북한이탈주민, 김포 애기봉서 망향제",
+          "link": "https://www.yna.co.kr/view/AKR20260921132900065",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-21 15:42:08",
+          "match_score": 37.67
+        },
+        {
+          "title": "[동정] 관세청장, 추석 맞이 전통시장서 성수품 점검…보육원 방문도",
+          "link": "https://www.yna.co.kr/view/AKR20260921142000002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-21 16:45:04",
+          "match_score": 37.67
+        },
+        {
+          "title": "추석 부모님 용돈도 올랐다…5년 새 38%↑ 평균 21만3천원",
+          "link": "https://www.yna.co.kr/view/AKR20260921142500017",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-09-21 16:16:39",
+          "match_score": 37.67
+        },
+        {
+          "title": "추석 물가도 ‘양극화’ 1천만원 와인은 완판",
+          "link": "https://www.mk.co.kr/news/economy/12157855",
+          "source": "매일경제-경제",
+          "published_dt": "2026-09-21 09:43:27",
+          "match_score": 28.96
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
