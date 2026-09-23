@@ -1,0 +1,419 @@
+{
+  "timestamp": "2026-09-24T06:01:35.605630",
+  "date": "20260924",
+  "data": [
+    {
+      "keyword": "전작권 전환",
+      "reason": "정치권 군사 협력 핵심 이슈",
+      "score": 38.5,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "李 “전작권 전환 빨리 마무리” 트럼프 “조선업 협력”"
+      ],
+      "representative_article": {
+        "title": "李 “전작권 전환 빨리 마무리” 트럼프 “조선업 협력”",
+        "link": "https://www.donga.com/news/Politics/article/all/20260923/134730068/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-09-24 01:40:00",
+        "match_score": 38.5
+      },
+      "related_articles": [
+        {
+          "title": "李 “전작권 전환 빨리 마무리” 트럼프 “조선업 협력”",
+          "link": "https://www.donga.com/news/Politics/article/all/20260923/134730068/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-24 01:40:00",
+          "match_score": 38.5
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "성장률 전망",
+      "reason": "OECD 경제 지표 전망 조정",
+      "score": 45.16,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "[속보] OECD, 한국 올해 성장률 전망 2.6%→3.7%…G20 중 최대 폭 상향",
+        "OECD 韓성장률 2.6→3.7% … G20 중 전망치 최대폭 상향"
+      ],
+      "representative_article": {
+        "title": "[속보] OECD, 한국 올해 성장률 전망 2.6%→3.7%…G20 중 최대 폭 상향",
+        "link": "https://www.mk.co.kr/news/economy/12160553",
+        "source": "매일경제-경제",
+        "published_dt": "2026-09-23 17:03:32",
+        "match_score": 45.16
+      },
+      "related_articles": [
+        {
+          "title": "[속보] OECD, 한국 올해 성장률 전망 2.6%→3.7%…G20 중 최대 폭 상향",
+          "link": "https://www.mk.co.kr/news/economy/12160553",
+          "source": "매일경제-경제",
+          "published_dt": "2026-09-23 17:03:32",
+          "match_score": 45.16
+        },
+        {
+          "title": "OECD 韓성장률 2.6→3.7% … G20 중 전망치 최대폭 상향",
+          "link": "https://www.mk.co.kr/news/economy/12160468",
+          "source": "매일경제-경제",
+          "published_dt": "2026-09-23 16:02:31",
+          "match_score": 19.16
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재개발",
+      "reason": "부동산 시장 주요 방향",
+      "score": 38.39,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "\"3억 투자로 20억 대박, 재개발 투자 다음 유망지는?\"",
+        "벽화만 남겨진 박원순표 도시재생, 이번엔 구청장에 재개발 발목 잡혔다"
+      ],
+      "representative_article": {
+        "title": "\"3억 투자로 20억 대박, 재개발 투자 다음 유망지는?\"",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/09/23/2026092303447.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-09-23 16:41:54",
+        "match_score": 38.39
+      },
+      "related_articles": [
+        {
+          "title": "\"3억 투자로 20억 대박, 재개발 투자 다음 유망지는?\"",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/09/23/2026092303447.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-09-23 16:41:54",
+          "match_score": 38.39
+        },
+        {
+          "title": "벽화만 남겨진 박원순표 도시재생, 이번엔 구청장에 재개발 발목 잡혔다",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/09/23/2026092301142.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-09-23 10:42:59",
+          "match_score": 38.39
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "임금협상",
+      "reason": "조선업계 노사 협의 결과",
+      "score": 40.67,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "삼성중공업, 조선업계 빅3 중 임금협상 첫 타결…기본급 5.2％↑",
+        "삼성重, 추석 전 임단협 타결…성과급 영업이익 10% 연동"
+      ],
+      "representative_article": {
+        "title": "삼성중공업, 조선업계 빅3 중 임금협상 첫 타결…기본급 5.2％↑",
+        "link": "https://www.yna.co.kr/view/AKR20260923187300003",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-09-23 19:03:44",
+        "match_score": 40.67
+      },
+      "related_articles": [
+        {
+          "title": "삼성중공업, 조선업계 빅3 중 임금협상 첫 타결…기본급 5.2％↑",
+          "link": "https://www.yna.co.kr/view/AKR20260923187300003",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-09-23 19:03:44",
+          "match_score": 40.67
+        },
+        {
+          "title": "삼성重, 추석 전 임단협 타결…성과급 영업이익 10% 연동",
+          "link": "https://www.etnews.com/20260923000181",
+          "source": "전자신문",
+          "published_dt": "2026-09-23 15:26:25",
+          "match_score": 12.4
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI 규제",
+      "reason": "국제·기술 정책 논의",
+      "score": 12.8,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "트럼프 “AI는 규제 안돼” vs 마크롱 “독자 생태계 구축”"
+      ],
+      "representative_article": {
+        "title": "트럼프 “AI는 규제 안돼” vs 마크롱 “독자 생태계 구축”",
+        "link": "https://www.donga.com/news/Inter/article/all/20260923/134727206/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-09-23 16:08:00",
+        "match_score": 12.8
+      },
+      "related_articles": [
+        {
+          "title": "트럼프 “AI는 규제 안돼” vs 마크롱 “독자 생태계 구축”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260923/134727206/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-23 16:08:00",
+          "match_score": 12.8
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "쿠팡 과태료",
+      "reason": "공정거래 문제 부각",
+      "score": 7.03,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "온라인 플랫폼 공정거래 분쟁 증가…쿠팡, 7년 연속 최다"
+      ],
+      "representative_article": {
+        "title": "온라인 플랫폼 공정거래 분쟁 증가…쿠팡, 7년 연속 최다",
+        "link": "https://www.yna.co.kr/view/AKR20260923097100030",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-09-23 14:02:29",
+        "match_score": 7.03
+      },
+      "related_articles": [
+        {
+          "title": "온라인 플랫폼 공정거래 분쟁 증가…쿠팡, 7년 연속 최다",
+          "link": "https://www.yna.co.kr/view/AKR20260923097100030",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-23 14:02:29",
+          "match_score": 7.03
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "한전 비상대응",
+      "reason": "추석 전력 안정 운영",
+      "score": 8.68,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "한전, 추석연휴 비상대응 체제 가동…매일 3천여명 비상근무"
+      ],
+      "representative_article": {
+        "title": "한전, 추석연휴 비상대응 체제 가동…매일 3천여명 비상근무",
+        "link": "https://www.yna.co.kr/view/AKR20260923130300003",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-09-23 14:53:16",
+        "match_score": 8.68
+      },
+      "related_articles": [
+        {
+          "title": "한전, 추석연휴 비상대응 체제 가동…매일 3천여명 비상근무",
+          "link": "https://www.yna.co.kr/view/AKR20260923130300003",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-09-23 14:53:16",
+          "match_score": 8.68
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "국채금리",
+      "reason": "국제 금융시장 주요 변수",
+      "score": 32.6,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "국제"
+      ],
+      "sample_titles": [
+        "美 국채금리 19년 만에 최고…유가 100달러·금리인상 우려 영향"
+      ],
+      "representative_article": {
+        "title": "美 국채금리 19년 만에 최고…유가 100달러·금리인상 우려 영향",
+        "link": "https://www.donga.com/news/Inter/article/all/20260924/134730819/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-09-24 03:33:41",
+        "match_score": 32.6
+      },
+      "related_articles": [
+        {
+          "title": "美 국채금리 19년 만에 최고…유가 100달러·금리인상 우려 영향",
+          "link": "https://www.donga.com/news/Inter/article/all/20260924/134730819/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-24 03:33:41",
+          "match_score": 32.6
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "추석",
+      "score": 71.2,
+      "article_count": 12,
+      "source_count": 6,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업",
+        "부동산",
+        "정치"
+      ],
+      "sample_titles": [
+        "靑, 추석 연휴 대비 사이버 보안 점검…\"24시간 모니터링\"",
+        "전남광주 각 정당 추석 앞두고 귀성객 맞이·민생현장 행보",
+        "韓총리, 추석 앞두고 경찰·소방서 방문…\"연휴 안전에 만전\""
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "전남광주 각 정당 추석 앞두고 귀성객 맞이·민생현장 행보",
+        "link": "https://www.yna.co.kr/view/AKR20260923164600054",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-09-23 16:50:23",
+        "match_score": 38.67
+      },
+      "related_articles": [
+        {
+          "title": "전남광주 각 정당 추석 앞두고 귀성객 맞이·민생현장 행보",
+          "link": "https://www.yna.co.kr/view/AKR20260923164600054",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-23 16:50:23",
+          "match_score": 38.67
+        },
+        {
+          "title": "韓총리, 추석 앞두고 경찰·소방서 방문…\"연휴 안전에 만전\"",
+          "link": "https://www.yna.co.kr/view/AKR20260923110000001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-23 13:52:57",
+          "match_score": 38.67
+        },
+        {
+          "title": "\"추석 기름값, 오피넷으로 아끼세요\"…석유공사, 현장 홍보",
+          "link": "https://www.yna.co.kr/view/AKR20260923116100003",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-23 14:04:49",
+          "match_score": 37.83
+        },
+        {
+          "title": "靑, 추석 연휴 대비 사이버 보안 점검…\"24시간 모니터링\"",
+          "link": "https://www.yna.co.kr/view/AKR20260923166400001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-23 17:02:21",
+          "match_score": 37.67
+        },
+        {
+          "title": "김민석 \"민생 올인\"…추석 앞두고 귀성인사·군부대 방문(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260923089151001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-23 15:58:27",
+          "match_score": 37.67
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "앞두고",
+      "score": 44.6,
+      "article_count": 10,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업",
+        "정치"
+      ],
+      "sample_titles": [
+        "靑, 추석 연휴 대비 사이버 보안 점검…\"24시간 모니터링\"",
+        "전남광주 각 정당 추석 앞두고 귀성객 맞이·민생현장 행보",
+        "韓총리, 추석 앞두고 경찰·소방서 방문…\"연휴 안전에 만전\""
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "전남광주 각 정당 추석 앞두고 귀성객 맞이·민생현장 행보",
+        "link": "https://www.yna.co.kr/view/AKR20260923164600054",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-09-23 16:50:23",
+        "match_score": 38.67
+      },
+      "related_articles": [
+        {
+          "title": "전남광주 각 정당 추석 앞두고 귀성객 맞이·민생현장 행보",
+          "link": "https://www.yna.co.kr/view/AKR20260923164600054",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-23 16:50:23",
+          "match_score": 38.67
+        },
+        {
+          "title": "韓총리, 추석 앞두고 경찰·소방서 방문…\"연휴 안전에 만전\"",
+          "link": "https://www.yna.co.kr/view/AKR20260923110000001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-23 13:52:57",
+          "match_score": 38.67
+        },
+        {
+          "title": "김민석 \"민생 올인\"…추석 앞두고 귀성인사·군부대 방문(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260923089151001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-23 15:58:27",
+          "match_score": 28.68
+        },
+        {
+          "title": "靑, 추석 연휴 대비 사이버 보안 점검…\"24시간 모니터링\"",
+          "link": "https://www.yna.co.kr/view/AKR20260923166400001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-23 17:02:21",
+          "match_score": 11.68
+        },
+        {
+          "title": "이찬진 금감원장, 금융지주 회장에 경고장…“CEO 선임 공정하게”",
+          "link": "https://www.mk.co.kr/news/economy/12160288",
+          "source": "매일경제-경제",
+          "published_dt": "2026-09-23 14:06:54",
+          "match_score": 11.66
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
