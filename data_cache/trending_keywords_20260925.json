@@ -1,0 +1,417 @@
+{
+  "timestamp": "2026-09-25T06:01:09.100250",
+  "date": "20260925",
+  "data": [
+    {
+      "keyword": "양자산업",
+      "reason": "경북도·글로벌 기업 협력",
+      "score": 39.03,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업",
+        "정치"
+      ],
+      "sample_titles": [
+        "경북도, 지역 양자산업 육성 나선다…글로벌 기업과 맞손",
+        "경북도, 지역 양자산업 육성 나선다…글로벌 기업과 맞손(종합)"
+      ],
+      "representative_article": {
+        "title": "경북도, 지역 양자산업 육성 나선다…글로벌 기업과 맞손",
+        "link": "https://www.yna.co.kr/view/AKR20260924027900053",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-09-24 11:31:20",
+        "match_score": 39.03
+      },
+      "related_articles": [
+        {
+          "title": "경북도, 지역 양자산업 육성 나선다…글로벌 기업과 맞손",
+          "link": "https://www.yna.co.kr/view/AKR20260924027900053",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-24 11:31:20",
+          "match_score": 39.03
+        },
+        {
+          "title": "경북도, 지역 양자산업 육성 나선다…글로벌 기업과 맞손(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260924027951053",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-24 12:41:58",
+          "match_score": 39.03
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI칩",
+      "reason": "삼성·SK 반도체 생산 확대",
+      "score": 38.16,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "\"AI칩 주문 쏟아진다\"…삼전·닉스, 추석 연휴도 반도체 공장 '풀가동' - 뉴시스"
+      ],
+      "representative_article": {
+        "title": "\"AI칩 주문 쏟아진다\"…삼전·닉스, 추석 연휴도 반도체 공장 '풀가동' - 뉴시스",
+        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9wSWtyYTR0QWtXcTZBSnpZZkI5QlFRUm16dkN0OVNlY1p2TzZud2VJSFctUFZMcmZpMlk2WDJpWmhRWGo2U25RSjhNWXRHbGxXQWRqejFaZ05fMk1od0JXYlI4NDh3c3BHZTZ1LVJCa1RxdkJwWDBkWtIBeEFVX3lxTE9wSWtyYTR0QWtXcTZBSnpZZkI5QlFRUm16dkN0OVNlY1p2TzZud2VJSFctUFZMcmZpMlk2WDJpWmhRWGo2U25RSjhNWXRHbGxXQWRqejFaZ05fMk1od0JXYlI4NDh3c3BHZTZ1LVJCa1RxdkJwWDBkWg?oc=5",
+        "source": "키워드-반도체AI",
+        "published_dt": "2026-09-24 09:00:00",
+        "match_score": 38.16
+      },
+      "related_articles": [
+        {
+          "title": "\"AI칩 주문 쏟아진다\"…삼전·닉스, 추석 연휴도 반도체 공장 '풀가동' - 뉴시스",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9wSWtyYTR0QWtXcTZBSnpZZkI5QlFRUm16dkN0OVNlY1p2TzZud2VJSFctUFZMcmZpMlk2WDJpWmhRWGo2U25RSjhNWXRHbGxXQWRqejFaZ05fMk1od0JXYlI4NDh3c3BHZTZ1LVJCa1RxdkJwWDBkWtIBeEFVX3lxTE9wSWtyYTR0QWtXcTZBSnpZZkI5QlFRUm16dkN0OVNlY1p2TzZud2VJSFctUFZMcmZpMlk2WDJpWmhRWGo2U25RSjhNWXRHbGxXQWRqejFaZ05fMk1od0JXYlI4NDh3c3BHZTZ1LVJCa1RxdkJwWDBkWg?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-09-24 09:00:00",
+          "match_score": 38.16
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "북한포",
+      "reason": "우크라 협상 성과·한국 도착",
+      "score": 5.08,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "北포로 1년8개월만 한국행…우크라와 다각적 물밑협상 결실(종합)"
+      ],
+      "representative_article": {
+        "title": "北포로 1년8개월만 한국행…우크라와 다각적 물밑협상 결실(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260924024751504",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-09-24 13:30:55",
+        "match_score": 5.08
+      },
+      "related_articles": [
+        {
+          "title": "北포로 1년8개월만 한국행…우크라와 다각적 물밑협상 결실(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260924024751504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-24 13:30:55",
+          "match_score": 5.08
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "서울집값",
+      "reason": "85주 연속 상승 최장 기록",
+      "score": 22.15,
+      "article_count": 3,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "부동산"
+      ],
+      "sample_titles": [
+        "서울 집값 85주째 올랐다…文정부 때 세운 ‘최장 기록’ 따라잡아",
+        "대출 막히고 금리 올라도…'철옹성' 서울 집값, 85주 연속 상승 “역대 최장 타이”",
+        "\"전세 살 바엔 집 살래\"…외곽 '생존 매수'에 서울 집값 85주 최장 상승 - 머니투데이"
+      ],
+      "representative_article": {
+        "title": "\"전세 살 바엔 집 살래\"…외곽 '생존 매수'에 서울 집값 85주 최장 상승 - 머니투데이",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9QMlcyQnd5VFFzR1l6ZFEydldhMzF4bjFGbnJFU0dETGpjc0pxMDlJTER5Z2g4MGhENl9pdnMwRWNEOXhTRklEUldXTDdGTl9qMkZ3RFYyS25sbG81alZUaEZGMWFHdWUyWmc?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-09-25 05:30:00",
+        "match_score": 22.15
+      },
+      "related_articles": [
+        {
+          "title": "\"전세 살 바엔 집 살래\"…외곽 '생존 매수'에 서울 집값 85주 최장 상승 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9QMlcyQnd5VFFzR1l6ZFEydldhMzF4bjFGbnJFU0dETGpjc0pxMDlJTER5Z2g4MGhENl9pdnMwRWNEOXhTRklEUldXTDdGTl9qMkZ3RFYyS25sbG81alZUaEZGMWFHdWUyWmc?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-09-25 05:30:00",
+          "match_score": 22.15
+        },
+        {
+          "title": "서울 집값 85주째 올랐다…文정부 때 세운 ‘최장 기록’ 따라잡아",
+          "link": "https://www.mk.co.kr/news/economy/12160908",
+          "source": "매일경제-경제",
+          "published_dt": "2026-09-24 15:45:54",
+          "match_score": 20.36
+        },
+        {
+          "title": "대출 막히고 금리 올라도…'철옹성' 서울 집값, 85주 연속 상승 “역대 최장 타이”",
+          "link": "https://www.etnews.com/20260924000046",
+          "source": "전자신문",
+          "published_dt": "2026-09-24 16:06:02",
+          "match_score": 18.99
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "자율주행",
+      "reason": "메르세데스-벤츠 제휴 진행",
+      "score": 42.9,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "메르세데스-벤츠, 웨이브와 제휴…도심 자율주행 구현"
+      ],
+      "representative_article": {
+        "title": "메르세데스-벤츠, 웨이브와 제휴…도심 자율주행 구현",
+        "link": "https://www.etnews.com/20260924000032",
+        "source": "전자신문",
+        "published_dt": "2026-09-24 11:33:46",
+        "match_score": 42.9
+      },
+      "related_articles": [
+        {
+          "title": "메르세데스-벤츠, 웨이브와 제휴…도심 자율주행 구현",
+          "link": "https://www.etnews.com/20260924000032",
+          "source": "전자신문",
+          "published_dt": "2026-09-24 11:33:46",
+          "match_score": 42.9
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "무역협정",
+      "reason": "이 대통령 멕시코 방문 논의",
+      "score": 31.18,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "李대통령 \"멕시코와 원유·공급망 협력채널출범…무역협정 긴요\""
+      ],
+      "representative_article": {
+        "title": "李대통령 \"멕시코와 원유·공급망 협력채널출범…무역협정 긴요\"",
+        "link": "https://www.yna.co.kr/view/AKR20260925006800001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-09-25 04:56:36",
+        "match_score": 31.18
+      },
+      "related_articles": [
+        {
+          "title": "李대통령 \"멕시코와 원유·공급망 협력채널출범…무역협정 긴요\"",
+          "link": "https://www.yna.co.kr/view/AKR20260925006800001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-25 04:56:36",
+          "match_score": 31.18
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "담관암치료제",
+      "reason": "HLB FDA 허가 획득",
+      "score": 27.88,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "HLB, 담관암 치료제 '리픽투' 미국 FDA 허가…4분기 출시"
+      ],
+      "representative_article": {
+        "title": "HLB, 담관암 치료제 '리픽투' 미국 FDA 허가…4분기 출시",
+        "link": "https://www.yna.co.kr/view/AKR20260924020600017",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-09-24 09:14:17",
+        "match_score": 27.88
+      },
+      "related_articles": [
+        {
+          "title": "HLB, 담관암 치료제 '리픽투' 미국 FDA 허가…4분기 출시",
+          "link": "https://www.yna.co.kr/view/AKR20260924020600017",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-09-24 09:14:17",
+          "match_score": 27.88
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "대출연체",
+      "reason": "산림조합 대출 연체 대폭 증가",
+      "score": 24.22,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "정치"
+      ],
+      "sample_titles": [
+        "\"산림조합 대출 연체금 6천471억원…5년여간 6.2배 증가\""
+      ],
+      "representative_article": {
+        "title": "\"산림조합 대출 연체금 6천471억원…5년여간 6.2배 증가\"",
+        "link": "https://www.yna.co.kr/view/AKR20260914081300001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-09-25 05:00:17",
+        "match_score": 24.22
+      },
+      "related_articles": [
+        {
+          "title": "\"산림조합 대출 연체금 6천471억원…5년여간 6.2배 증가\"",
+          "link": "https://www.yna.co.kr/view/AKR20260914081300001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-25 05:00:17",
+          "match_score": 24.22
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "포로",
+      "score": 42.5,
+      "article_count": 7,
+      "source_count": 3,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "北포로 1년8개월만 한국행…우크라와 다각적 물밑협상 결실(종합)",
+        "유용원 \"北포로 2명 며칠전 韓도착 확인…정부 대응 아쉬워\"",
+        "靑, 젤렌스키 '北포로 한국행' 공개에 \"그간 필요한 협의 진행\"(종합)"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "北포로 1년8개월만 한국행…우크라와 다각적 물밑협상 결실(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260924024751504",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-09-24 13:30:55",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "北포로 1년8개월만 한국행…우크라와 다각적 물밑협상 결실(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260924024751504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-24 13:30:55",
+          "match_score": 37.67
+        },
+        {
+          "title": "靑, 젤렌스키 '北포로 한국행' 공개에 \"그간 필요한 협의 진행\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260924017051504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-24 11:32:11",
+          "match_score": 37.67
+        },
+        {
+          "title": "北포로 1년8개월만 한국행…우크라와 수십차례 물밑협상 결실",
+          "link": "https://www.yna.co.kr/view/AKR20260924024700504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-24 11:56:34",
+          "match_score": 37.67
+        },
+        {
+          "title": "조현, 北포로 송환 후 우크라 외교장관과 회담…“對우크라 지원 지속”",
+          "link": "https://www.donga.com/news/Politics/article/all/20260924/134731645/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-24 14:27:37",
+          "match_score": 37.3
+        },
+        {
+          "title": "유용원 \"北포로 2명 며칠전 韓도착 확인…정부 대응 아쉬워\"",
+          "link": "https://www.yna.co.kr/view/AKR20260924028100001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-24 11:35:45",
+          "match_score": 28.68
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "추석",
+      "score": 41.4,
+      "article_count": 6,
+      "source_count": 6,
+      "categories": [
+        "경제/거시",
+        "기업/산업",
+        "정치"
+      ],
+      "sample_titles": [
+        "추석 앞두고 李 대통령 부정평가 51%, 설보다 24%p 올라",
+        "추석 앞두고 李 대통령 부정평가 51%, 설보다 24%p 올라",
+        "\"추석 훔쳤다\"는 中누리꾼에 서경덕 \"중추절과 전혀 달라\""
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "\"추석 훔쳤다\"는 中누리꾼에 서경덕 \"중추절과 전혀 달라\"",
+        "link": "https://www.yna.co.kr/view/AKR20260923142300371",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-09-24 08:30:02",
+        "match_score": 38.67
+      },
+      "related_articles": [
+        {
+          "title": "\"추석 훔쳤다\"는 中누리꾼에 서경덕 \"중추절과 전혀 달라\"",
+          "link": "https://www.yna.co.kr/view/AKR20260923142300371",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-24 08:30:02",
+          "match_score": 38.67
+        },
+        {
+          "title": "\"명절 음식도 배달앱으로\"…작년 추석 당일 배민 송편 주문 폭증",
+          "link": "https://www.yna.co.kr/view/AKR20260923182800030",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-24 08:31:00",
+          "match_score": 37.83
+        },
+        {
+          "title": "“이번 추석 부모님 용돈 얼마 드리지?” 고민하면서 매달 받는 연금 액수는 모른다는데",
+          "link": "https://www.mk.co.kr/news/economy/12160816",
+          "source": "매일경제-경제",
+          "published_dt": "2026-09-24 09:06:49",
+          "match_score": 37.66
+        },
+        {
+          "title": "\"AI칩 주문 쏟아진다\"…삼전·닉스, 추석 연휴도 반도체 공장 '풀가동' - 뉴시스",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9wSWtyYTR0QWtXcTZBSnpZZkI5QlFRUm16dkN0OVNlY1p2TzZud2VJSFctUFZMcmZpMlk2WDJpWmhRWGo2U25RSjhNWXRHbGxXQWRqejFaZ05fMk1od0JXYlI4NDh3c3BHZTZ1LVJCa1RxdkJwWDBkWtIBeEFVX3lxTE9wSWtyYTR0QWtXcTZBSnpZZkI5QlFRUm16dkN0OVNlY1p2TzZud2VJSFctUFZMcmZpMlk2WDJpWmhRWGo2U25RSjhNWXRHbGxXQWRqejFaZ05fMk1od0JXYlI4NDh3c3BHZTZ1LVJCa1RxdkJwWDBkWg?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-09-24 09:00:00",
+          "match_score": 36.96
+        },
+        {
+          "title": "추석 앞두고 李 대통령 부정평가 51%, 설보다 24%p 올라",
+          "link": "https://www.chosun.com/politics/politics_general/2026/09/24/7L3JME6RE5B5NFXAEBJH5HALVE/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-09-24 11:35:11",
+          "match_score": 28.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}

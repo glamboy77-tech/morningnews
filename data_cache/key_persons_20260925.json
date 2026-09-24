@@ -1,0 +1,323 @@
+{
+  "timestamp": "2026-09-25T06:00:59.197605",
+  "date": "20260925",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "李대통령 \"멕시코와 원유·공급망 협력채널출범…무역협정 긴요\"",
+          "link": "https://www.yna.co.kr/view/AKR20260925006800001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-25 04:56:36",
+          "description": "(멕시코시티=연합뉴스) 임형섭 설승은 기자 = 멕시코를 국빈 방문한 이재명 대통령은 24일(현지시간) &quot;(한국과 멕시코가) 공급망 분야와 관련해...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "靑, 유시민에 법적 대응 검토…\"李대통령 검찰 개혁 의지 왜곡\"",
+          "link": "https://www.yna.co.kr/view/AKR20260924035300001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-24 14:58:18",
+          "description": "(서울=연합뉴스) 황윤기 기자 = 청와대가 이재명 대통령의 검찰 개혁 발언에 대해 &quot;국민을 속였다&quot;고 비판한 범여권 논객 유시민 작가에 대해 법...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": true,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "靑, 유시민에 법적대응 검토…\"李대통령 檢개혁 의지 왜곡 유감\"(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20260924035351001"
+            }
+          ]
+        },
+        {
+          "title": "추석 앞두고 李 대통령 부정평가 51%, 설보다 24%p 올라",
+          "link": "https://www.chosun.com/politics/politics_general/2026/09/24/7L3JME6RE5B5NFXAEBJH5HALVE/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-09-24 11:35:11",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "‘대통령이 국민 속여’ 유시민 발언에… 靑 “檢 개혁 의지, 사실과 다르게 왜곡”",
+          "link": "https://www.chosun.com/economy/economy_general/2026/09/24/GE4DKN3FG44WGOLCGZRTOZLCHA/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-09-24 18:36:19",
+          "description": "검찰 개혁 관련, ‘이재명 대통령이 국민을 속였다’고 언급한 유시민 작가에 대해 청와대가 24일 “대통령의 검찰 개혁 의지를 사실과 다르게 왜곡하는 것에 유감”이라고 밝혔다. 유 작가의 발언이 마치 이 대통령이 수사·기소 분리에 소극적인 것처럼 인식되게 할 수 있다는 점을 우려한 것으로 보인다.  청와대는 이날 언론 공지를 통해 “근거 없는 비난성 주장이",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/economy/?outputType=xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "野 “젤렌스키가 北 포로 입국 발표… 李 왜 숨겼나, 실상 밝혀야”",
+          "link": "https://www.chosun.com/politics/diplomacy-defense/2026/09/24/I2XX24Z4WRABBKMV4MFVGNL6PY/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-09-24 15:19:16",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "백악관 “트럼프, 李대통령과 간단한 회동… 조선 협력 등 논의”",
+          "link": "https://www.chosun.com/international/us/2026/09/24/LY56NE4AP5DINFZI4YJPQNZJZI/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-09-24 23:05:57",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "추석 앞두고 李 대통령 부정평가 51%, 설보다 24%p 올라",
+          "link": "https://www.chosun.com/politics/politics_general/2026/09/24/7L3JME6RE5B5NFXAEBJH5HALVE/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-09-24 11:35:11",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        }
+      ],
+      "count": 7,
+      "role": "한국 대통령"
+    },
+    "트럼프": {
+      "articles": [
+        {
+          "title": "[속보]트럼프 ‘언론사 출입금지’ 美법원이 제동…“헌법 위반”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260924/134731699/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-24 15:07:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/09/23/134726414.1.jpg\" vspace=\"10\" />[속보]트럼프 ‘언론사 출입금지’ 美법원이 제동…“헌법 위반”",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "국제",
+          "is_representative": false,
+          "related_full_sources": [
+            {
+              "source": "동아일보-국제",
+              "title": "트럼프 ‘언론사 출입금지’ 美법원이 제동…“헌법 위반”",
+              "link": "https://www.donga.com/news/Inter/article/all/20260924/134731709/1"
+            }
+          ]
+        },
+        {
+          "title": "백악관 “트럼프, 李대통령과 간단한 회동… 조선 협력 등 논의”",
+          "link": "https://www.chosun.com/international/us/2026/09/24/LY56NE4AP5DINFZI4YJPQNZJZI/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-09-24 23:05:57",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "中 시진핑, 워싱턴DC 도착…美 트럼프 직접 영접",
+          "link": "https://www.etnews.com/20260924000036",
+          "source": "전자신문",
+          "published_dt": "2026-09-24 12:34:32",
+          "description": "시진핑 중국 국가주석이 2박 3일의 국빈 방문 일정을 소화하기 위해 미국에 도착했다. 시 주석이 국빈 자격으로 미국을 찾는 건 버락 오바마 대통령 당시인 2015년 이후 11년 만이다. 이번 방문은 트럼프 대통령이 지난 5월 중국을 방문한 것에 대한 답방 성격이 짙다. 시진핑 중국 국가주석과 부인 펑리위안 여사는 23일(현지시간) 오후 워싱턴DC 인근 앤드루스 합동기지에 도착했다. 트럼프 대통령과 부인 멜라니아 여사는 시 주석 부부 영접을 위해",
+          "category": "domestic",
+          "feed_url": "https://rss.etnews.com/Section901.xml",
+          "source_type": "tech",
+          "source_weight": 1.15,
+          "source_badge": "테크",
+          "priority_score": 1,
+          "sector": "기타산업",
+          "related_full_sources": []
+        },
+        {
+          "title": "순천시, '미래 농업 선도' 그린바이오 산업 육성 속도",
+          "link": "https://www.yna.co.kr/view/AKR20260923051000054",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-09-24 09:10:00",
+          "description": "(순천=연합뉴스) 손상원 기자 = 전남광주 순천시가 미래 농촌 활력 기반이 될 그린바이오 산업 육성에 속도를 내고 있다.",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/industry.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "sector": "바이오/제약",
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프와 갈등 캐나다 총리 “美 군사행동 가능성 대비 중”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260924/134731848/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-24 18:35:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/07/08/134256551.1.png\" vspace=\"10\" />마크 카니 캐나다 총리가 도널드 트럼프 미국 2기 행정부의 군사적 행동 가능성에 대비하고 있다는 취지로 발언했다. 경제와 정치 전반에서 급격히 냉각된 양국 관계에서 경제에 이어 안보 분야 긴장감도 커지는 분위기다.카니 총리는 23일(현지시간) 공개된 미국 뉴욕타임스(NYT)와의 인터뷰에서 ‘트럼프 대통령이 캐나다를 미국의 51번째 주로 만들겠다고 위협하는 상황을 실제 군사적 위험으로 받아들이느냐’는 질문에 “총리라는 직책은 극단적인 ‘테일 리스크(Tail Risk·만일의 위험)’까지 살펴볼 책임이 있다”고 답했다.테일 리스크는 발생할 확률은 극히 낮지만, 일단 현실화할 경우 치명적인 충격을 주는 위험을 뜻한다. 카니 총리는 “단순한 위험 관리 차원의 접근”이라면서도 “이러한 극단적 상황에 대비하지 않는다면 국가 지도자로서 무책임한 처사”라고 강조했다.트럼프 대통령은 집권 2기 출범 이후 캐나다를 미국의 51번째 주로 병합할 수 있다는 취지의 주장을 반복적으로 이어오며 캐나다를",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프 ‘언론사 출입금지’ 美법원이 제동…“헌법 위반”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260924/134731709/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-24 15:13:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/09/24/134731706.1.jpg\" vspace=\"10\" />미국 워싱턴 연방지방법원이 백악관에 CNN, 폴리티코, MS나우의 백악관 출입 금지 조치를 즉시 해제하라고 명령했다. 앞서 도널드 트럼프 미국 대통령은 이들 3사가 “가짜 뉴스”를 보도했다며 출입을 정지시켰다. 이에 법원은 적법한 절차를 거치지 않고 출입 자격을 박탈한 것은 헌법에 위배된다고 판단했다.워싱턴 DC 연방지방법원의 티모시 켈리 판사는 24일(현지시간) 백악관이 사전 통지나 의견 제출 기회 등 ‘헌법상 보호받는 적법 절차(Due Process)’ 없이 기자의 언론 출입증을 박탈했다며 이를 취소하라고 판결했다. 켈리 판사는 판결문에서 “정부가 헌법상 보호받는 이익을 박탈하기 전, 대상자에게 사전 통지와 의견을 발표할 기회를 제공해야 한다는 것이 일반 원칙”이라고 강조했다.앞서 18일 트럼프 대통령은 자신에게 비판적인 뉴스를 보도해 온 CNN, MS 나우, 폴리티코 등 3개 매체의 백악관 출입을 전격 금지했다. 트럼프 대통령은 트루스소셜을 통해 “백악관은 내가 소중히 여기",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프 “시진핑은 위대한 지도자, 지금은 위대한 순간”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260924/134731165/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-24 10:11:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/09/24/134730964.1.jpg\" vspace=\"10\" />미국을 국빈 방문한 시진핑 중국 국가주석이 23일(현지 시간) 오후 부인 펑리위안 여사와 함께 미국 워싱턴 앤드류스 공군기지에 도착했다. 도널드 트럼프 미국 대통령과 멜라니아 트럼프 여사는 마린원 헬기를 타고 직접 공항에 나와 전용기 앞에서 시 주석 부부를 맞이했다. 신화통신에 따르면 트럼프 대통령은 “시 주석 부부를 워싱턴에서 맞이하게 되어 기쁘다”며 “전 세계가 주목하는 방문”이라고 말했다. 이어 “시 주석은 위대한 지도자이며, 지금은 위대한 순간”이라며 “시 주석과 심도 있게 의견을 교환하고 양국 관계의 발전을 추진하기를 기대한다”고 했다. 공항에서는 공식 환영 행사도 성대하게 열렸다. 미국 어린이들이 시 주석 부부에게 꽃을 전달했으며, 의장대가 도열한 가운데 군악대가 양국 국가를 연주했다. 21발의 예포가 발사되고 전투기가 상공을 비행했다.시 주석은 도착 직후 발표한 서면 연설을 통해 미국 국민에게 인사를 전했다.시 주석은 “중국과 미국은 모두 위대한 국가이며 양국 국",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 7,
+      "role": "미국 대통령"
+    },
+    "시진핑": {
+      "articles": [
+        {
+          "title": "이란전쟁 초반 수준으로 되돌아간 中 국내유가…7월보다 22%↑",
+          "link": "https://www.yna.co.kr/view/AKR20260924045200083",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-24 18:09:59",
+          "description": "(베이징=연합뉴스) 정성조 특파원 = 중동 정세 긴장이 지속되면서 다소 떨어졌던 중국의 국내 유가가 이란 전쟁 발발 직후 수준으로 다시 상승했다...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/economy.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "related_full_sources": []
+        },
+        {
+          "title": "中 시진핑, 워싱턴DC 도착…美 트럼프 직접 영접",
+          "link": "https://www.etnews.com/20260924000036",
+          "source": "전자신문",
+          "published_dt": "2026-09-24 12:34:32",
+          "description": "시진핑 중국 국가주석이 2박 3일의 국빈 방문 일정을 소화하기 위해 미국에 도착했다. 시 주석이 국빈 자격으로 미국을 찾는 건 버락 오바마 대통령 당시인 2015년 이후 11년 만이다. 이번 방문은 트럼프 대통령이 지난 5월 중국을 방문한 것에 대한 답방 성격이 짙다. 시진핑 중국 국가주석과 부인 펑리위안 여사는 23일(현지시간) 오후 워싱턴DC 인근 앤드루스 합동기지에 도착했다. 트럼프 대통령과 부인 멜라니아 여사는 시 주석 부부 영접을 위해",
+          "category": "domestic",
+          "feed_url": "https://rss.etnews.com/Section901.xml",
+          "source_type": "tech",
+          "source_weight": 1.15,
+          "source_badge": "테크",
+          "priority_score": 1,
+          "sector": "기타산업",
+          "related_full_sources": []
+        },
+        {
+          "title": "美재무 “美中, 무역 휴전 두 달 연장 합의”…희토류·농산물 이견은 여전",
+          "link": "https://www.donga.com/news/Inter/article/all/20260924/134731797/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-24 17:07:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/09/24/134731803.1.jpg\" vspace=\"10\" />스콧 베선트 미 재무장관은 미국과 중국이 11월 10일 종료 예정이던 ‘무역 휴전’을 내년 1월 10일까지 두 달 연장하기로 했다고 23일(현지 시간) 밝혔다. 양국은 도널드 트럼프 미국 대통령과 시진핑(習近平) 중국 국가주석의 백악관 정상회담을 하루 앞두고 무역 휴전 연장에 합의했지만, 당초 거론됐던 1년 안팎이 아닌 두 달짜리 ‘짧은 연장’에 그쳐 희토류 공급 등을 둘러싼 양국의 이견이 적지 않다는 분석이 나온다. 로이터통신에 따르면 베선트 장관과 허리펑(何立峰) 중국 국무원 부총리는 이날 워싱턴 세계은행(WB) 본부에서 약 90분간 만났다. 이번 미중 정상회담과 관련해 20일 뉴욕에서 협의한 지 사흘 만이다. 베선트 장관은 “오늘은 일련의 작은 사안 대신 더 큰 규모의 합의를 할 수 있을지 논의하려 다시 만났다”고 말했다.그는 “이른바 ‘부산 합의’를 내년 1월까지 두 달 연장했다”며 “경제 분야에서 무엇을 할 수 있을지 시간을 더 확보하기 위한 것”이라고 설명했다. 부산",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "中관영지 “핵심은 행동…‘4대 레드라인’ 넘어선 안돼”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260924/134731374/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-24 11:35:40",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/09/24/134731375.1.jpg\" vspace=\"10\" />시진핑 중국 국가주석이 11년 만의 미국 국빈방문을 시작한 가운데 중국 관영매체가 이번 방미에 의미를 부여하면서도 미국이 대만 문제 등 ‘4가지 레드라인’을 침범해서는 안된다는 점을 강조했다.중국공산당 기관지 인민일보 계열 영문매체 글로벌타임스는 23일 사설을 통해 “이번 방문은 시 주석이 11년 만에 처음으로 미국을 국빈방문하는 것이자 두 정상 간 6개월 이내의 교류라는 점에서 깊은 의미를 지닌다”며 이같이 밝혔다.매체는 “정상외교는 중·미 관계의 닻이자 나침반 역할을 한다”며 지난 5월 도널드 트럼프 미국 대통령의 방중에서 양국이 건설적 전략 안정 관계 구축이라는 비전에 합의하고 향후 3년 이상 미·중 관계에 대한 전략적 지침을 마련했다고 언급했다.이어 “공동으로 결정한 방향을 구체적인 정책과 행동으로 옮길 때에만 양측은 서로에 대한 의심을 줄이고 양자 관계의 안정성과 예측 가능성을 높일 수 있다”며 “건설적인 중·미 전략 안정 관계 구축의 핵심은 양측이 같은 방향으로 나아",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프 “시진핑은 위대한 지도자, 지금은 위대한 순간”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260924/134731165/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-24 10:11:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/09/24/134730964.1.jpg\" vspace=\"10\" />미국을 국빈 방문한 시진핑 중국 국가주석이 23일(현지 시간) 오후 부인 펑리위안 여사와 함께 미국 워싱턴 앤드류스 공군기지에 도착했다. 도널드 트럼프 미국 대통령과 멜라니아 트럼프 여사는 마린원 헬기를 타고 직접 공항에 나와 전용기 앞에서 시 주석 부부를 맞이했다. 신화통신에 따르면 트럼프 대통령은 “시 주석 부부를 워싱턴에서 맞이하게 되어 기쁘다”며 “전 세계가 주목하는 방문”이라고 말했다. 이어 “시 주석은 위대한 지도자이며, 지금은 위대한 순간”이라며 “시 주석과 심도 있게 의견을 교환하고 양국 관계의 발전을 추진하기를 기대한다”고 했다. 공항에서는 공식 환영 행사도 성대하게 열렸다. 미국 어린이들이 시 주석 부부에게 꽃을 전달했으며, 의장대가 도열한 가운데 군악대가 양국 국가를 연주했다. 21발의 예포가 발사되고 전투기가 상공을 비행했다.시 주석은 도착 직후 발표한 서면 연설을 통해 미국 국민에게 인사를 전했다.시 주석은 “중국과 미국은 모두 위대한 국가이며 양국 국",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 5,
+      "role": "중국 국가주석"
+    }
+  }
+}
