@@ -1,0 +1,380 @@
+{
+  "timestamp": "2026-09-26T06:01:16.594757",
+  "date": "20260926",
+  "data": [
+    {
+      "keyword": "투자보장협정",
+      "reason": "한-멕시코 협상 타결",
+      "score": 19.57,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "한-멕시코 투자보장 협정 개정 협상 타결…개시 이후 7년만"
+      ],
+      "representative_article": {
+        "title": "한-멕시코 투자보장 협정 개정 협상 타결…개시 이후 7년만",
+        "link": "https://www.yna.co.kr/view/AKR20260925033600504",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-09-25 15:41:17",
+        "match_score": 19.57
+      },
+      "related_articles": [
+        {
+          "title": "한-멕시코 투자보장 협정 개정 협상 타결…개시 이후 7년만",
+          "link": "https://www.yna.co.kr/view/AKR20260925033600504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-25 15:41:17",
+          "match_score": 19.57
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI 데이터센터",
+      "reason": "삼성·SK 수혜 기대",
+      "score": 44.76,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "\"삼성전자·SK하이닉스 독주 체제 강화\"…증시 쏠림 속 AI 데이터센터 수혜주 주목 - 뉴시스",
+        "AI 투자축 GPU서 CPU·메모리로 확장…판 뒤집힌다 “삼전닉스 가치 재평가”"
+      ],
+      "representative_article": {
+        "title": "\"삼성전자·SK하이닉스 독주 체제 강화\"…증시 쏠림 속 AI 데이터센터 수혜주 주목 - 뉴시스",
+        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5US3lGNC1tZ0h6UEVzQWd4Y2tyTC1vV2pKUkFobU83S1VHeDhZck9SVHJFT0lxYThxLWxiRmVGYzJDbGVHNkNIZ1EwdjBQUHB6SWlubkpONjFpX2lEM05uQTczWVUxMlg0SjduajBpMFo4NGZNNm9BZdIBeEFVX3lxTE5US3lGNC1tZ0h6UEVzQWd4Y2tyTC1vV2pKUkFobU83S1VHeDhZck9SVHJFT0lxYThxLWxiRmVGYzJDbGVHNkNIZ1EwdjBQUHB6SWlubkpONjFpX2lEM05uQTczWVUxMlg0SjduajBpMFo4NGZNNm9BZQ?oc=5",
+        "source": "키워드-반도체AI",
+        "published_dt": "2026-09-26 04:33:00",
+        "match_score": 44.76
+      },
+      "related_articles": [
+        {
+          "title": "\"삼성전자·SK하이닉스 독주 체제 강화\"…증시 쏠림 속 AI 데이터센터 수혜주 주목 - 뉴시스",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5US3lGNC1tZ0h6UEVzQWd4Y2tyTC1vV2pKUkFobU83S1VHeDhZck9SVHJFT0lxYThxLWxiRmVGYzJDbGVHNkNIZ1EwdjBQUHB6SWlubkpONjFpX2lEM05uQTczWVUxMlg0SjduajBpMFo4NGZNNm9BZdIBeEFVX3lxTE5US3lGNC1tZ0h6UEVzQWd4Y2tyTC1vV2pKUkFobU83S1VHeDhZck9SVHJFT0lxYThxLWxiRmVGYzJDbGVHNkNIZ1EwdjBQUHB6SWlubkpONjFpX2lEM05uQTczWVUxMlg0SjduajBpMFo4NGZNNm9BZQ?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-09-26 04:33:00",
+          "match_score": 44.76
+        },
+        {
+          "title": "AI 투자축 GPU서 CPU·메모리로 확장…판 뒤집힌다 “삼전닉스 가치 재평가”",
+          "link": "https://www.etnews.com/20260925000044",
+          "source": "전자신문",
+          "published_dt": "2026-09-25 19:15:00",
+          "match_score": 13.5
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "5G 장비",
+      "reason": "화웨이 글로벌 선두",
+      "score": 7.29,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "화웨이, 글로벌데이터 5G RAN 평가 8년 연속 선두…AAU·BBU 전 부문 1위"
+      ],
+      "representative_article": {
+        "title": "화웨이, 글로벌데이터 5G RAN 평가 8년 연속 선두…AAU·BBU 전 부문 1위",
+        "link": "https://www.etnews.com/20260925000029",
+        "source": "전자신문",
+        "published_dt": "2026-09-25 14:02:52",
+        "match_score": 7.29
+      },
+      "related_articles": [
+        {
+          "title": "화웨이, 글로벌데이터 5G RAN 평가 8년 연속 선두…AAU·BBU 전 부문 1위",
+          "link": "https://www.etnews.com/20260925000029",
+          "source": "전자신문",
+          "published_dt": "2026-09-25 14:02:52",
+          "match_score": 7.29
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재건축 분담금",
+      "reason": "부산 삼익비치 분담금 논란",
+      "score": 35.69,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "부산도 재건축 분담금 폭탄..삼익비치 '국평' 분담금 8억"
+      ],
+      "representative_article": {
+        "title": "부산도 재건축 분담금 폭탄..삼익비치 '국평' 분담금 8억",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/09/24/2026092401660.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-09-25 22:03:55",
+        "match_score": 35.69
+      },
+      "related_articles": [
+        {
+          "title": "부산도 재건축 분담금 폭탄..삼익비치 '국평' 분담금 8억",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/09/24/2026092401660.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-09-25 22:03:55",
+          "match_score": 35.69
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "시총미달 상폐",
+      "reason": "코스닥 다수 종목 위기",
+      "score": 34.9,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "코스닥서 ‘시총미달 상폐’ 속출…내달부터 동전주까지 무더기 위기"
+      ],
+      "representative_article": {
+        "title": "코스닥서 ‘시총미달 상폐’ 속출…내달부터 동전주까지 무더기 위기",
+        "link": "https://www.chosun.com/economy/stock-finance/2026/09/25/GQZWEMRVMZSTQYJWGQYDIMDGME/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-09-25 11:24:14",
+        "match_score": 34.9
+      },
+      "related_articles": [
+        {
+          "title": "코스닥서 ‘시총미달 상폐’ 속출…내달부터 동전주까지 무더기 위기",
+          "link": "https://www.chosun.com/economy/stock-finance/2026/09/25/GQZWEMRVMZSTQYJWGQYDIMDGME/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-09-25 11:24:14",
+          "match_score": 34.9
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "배달앱 임금",
+      "reason": "도어대시 임금 지급 문제",
+      "score": 9.1,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "“라이더 대기시간도 임금 지급”…'1800억', 도어대시발 '배달앱 폭탄' 터졌다"
+      ],
+      "representative_article": {
+        "title": "“라이더 대기시간도 임금 지급”…'1800억', 도어대시발 '배달앱 폭탄' 터졌다",
+        "link": "https://www.etnews.com/20260925000043",
+        "source": "전자신문",
+        "published_dt": "2026-09-25 18:40:48",
+        "match_score": 9.1
+      },
+      "related_articles": [
+        {
+          "title": "“라이더 대기시간도 임금 지급”…'1800억', 도어대시발 '배달앱 폭탄' 터졌다",
+          "link": "https://www.etnews.com/20260925000043",
+          "source": "전자신문",
+          "published_dt": "2026-09-25 18:40:48",
+          "match_score": 9.1
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "불법복제",
+      "reason": "닌텐도 승소 사례",
+      "score": 34.89,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "닌텐도, '스위치 불법복제' 운영자에 450만달러 승소"
+      ],
+      "representative_article": {
+        "title": "닌텐도, '스위치 불법복제' 운영자에 450만달러 승소",
+        "link": "https://www.etnews.com/20260925000030",
+        "source": "전자신문",
+        "published_dt": "2026-09-25 14:03:22",
+        "match_score": 34.89
+      },
+      "related_articles": [
+        {
+          "title": "닌텐도, '스위치 불법복제' 운영자에 450만달러 승소",
+          "link": "https://www.etnews.com/20260925000030",
+          "source": "전자신문",
+          "published_dt": "2026-09-25 14:03:22",
+          "match_score": 34.89
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "포로 송환",
+      "reason": "젤렌스키 공개 발표 파장",
+      "score": 34.07,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "국제",
+        "기업/산업",
+        "정치"
+      ],
+      "sample_titles": [
+        "젤렌스키 北포로 송환 돌발발표에 韓당혹…\"비공개 합의했는데\"(종합)",
+        "李, '북한군 포로 한국행' 공개한 젤렌스키 비판…“많이 아쉽다”"
+      ],
+      "representative_article": {
+        "title": "젤렌스키 北포로 송환 돌발발표에 韓당혹…\"비공개 합의했는데\"(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260925021151504",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-09-25 20:10:17",
+        "match_score": 34.07
+      },
+      "related_articles": [
+        {
+          "title": "젤렌스키 北포로 송환 돌발발표에 韓당혹…\"비공개 합의했는데\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260925021151504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-25 20:10:17",
+          "match_score": 34.07
+        },
+        {
+          "title": "李, '북한군 포로 한국행' 공개한 젤렌스키 비판…“많이 아쉽다”",
+          "link": "https://www.etnews.com/20260925000025",
+          "source": "전자신문",
+          "published_dt": "2026-09-25 13:59:01",
+          "match_score": 5.0
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "원화 강세",
+      "reason": "달러보험 인기 재부상",
+      "score": 43.06,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "“달러 쌀 때 들어두자”…원화 강세에 다시 뜨는 달러보험"
+      ],
+      "representative_article": {
+        "title": "“달러 쌀 때 들어두자”…원화 강세에 다시 뜨는 달러보험",
+        "link": "https://www.mk.co.kr/news/economy/12161323",
+        "source": "매일경제-경제",
+        "published_dt": "2026-09-25 13:24:18",
+        "match_score": 43.06
+      },
+      "related_articles": [
+        {
+          "title": "“달러 쌀 때 들어두자”…원화 강세에 다시 뜨는 달러보험",
+          "link": "https://www.mk.co.kr/news/economy/12161323",
+          "source": "매일경제-경제",
+          "published_dt": "2026-09-25 13:24:18",
+          "match_score": 43.06
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 9,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "추석",
+      "score": 44.6,
+      "article_count": 8,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업",
+        "부동산",
+        "정치"
+      ],
+      "sample_titles": [
+        "여야, 추석 맞아 한목소리로 민생 강조…경제 진단은 엇갈려",
+        "'돌아오지 못한 열사'…반크, 추석 맞아 이상설 선생 조명",
+        "주식할 여윳돈 있으면 은행 간다…“금리 13.5%, 지금이 기회”"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "여야, 추석 맞아 한목소리로 민생 강조…경제 진단은 엇갈려",
+        "link": "https://www.yna.co.kr/view/AKR20260925022700001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-09-25 10:46:59",
+        "match_score": 37.83
+      },
+      "related_articles": [
+        {
+          "title": "여야, 추석 맞아 한목소리로 민생 강조…경제 진단은 엇갈려",
+          "link": "https://www.yna.co.kr/view/AKR20260925022700001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-25 10:46:59",
+          "match_score": 37.83
+        },
+        {
+          "title": "'돌아오지 못한 열사'…반크, 추석 맞아 이상설 선생 조명",
+          "link": "https://www.yna.co.kr/view/AKR20260923186100371",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-25 08:30:01",
+          "match_score": 37.67
+        },
+        {
+          "title": "부모님 추석선물 현금 대신 '노후통장' 어때요",
+          "link": "https://www.mk.co.kr/news/economy/12161400",
+          "source": "매일경제-경제",
+          "published_dt": "2026-09-25 18:06:35",
+          "match_score": 37.66
+        },
+        {
+          "title": "집값 치솟자 떠오르는 '아파텔'… 추석 지나고 5600실 분양 러시",
+          "link": "https://www.mk.co.kr/news/realestate/12161397",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-09-25 18:05:59",
+          "match_score": 37.49
+        },
+        {
+          "title": "추석 당일에도 바쁜 李대통령 [청계천 옆 사진관]",
+          "link": "https://www.donga.com/news/Politics/article/all/20260925/134732523/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-25 11:47:00",
+          "match_score": 37.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
