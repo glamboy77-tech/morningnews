@@ -1,0 +1,416 @@
+{
+  "timestamp": "2026-09-27T06:01:16.698203",
+  "date": "20260927",
+  "data": [
+    {
+      "keyword": "유엔사",
+      "reason": "신속 조사 거부·현장조사 준비",
+      "score": 42.75,
+      "article_count": 3,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "정치"
+      ],
+      "sample_titles": [
+        "한동훈 “유엔사 신속 조사 요구 軍이 거부… 누구 짓인지 밝혀야”",
+        "軍·유엔사, DMZ에 인력 투입해 현장조사 준비…기동로 확보",
+        "한동훈 \"軍, 내일 DMZ 합동조사…유엔사의 신속 조사요구 거부\""
+      ],
+      "representative_article": {
+        "title": "한동훈 “유엔사 신속 조사 요구 軍이 거부… 누구 짓인지 밝혀야”",
+        "link": "https://www.chosun.com/economy/economy_general/2026/09/26/GEZTSZJZGJTDMMJZGY4WKZLBG4/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-09-26 18:11:25",
+        "match_score": 42.75
+      },
+      "related_articles": [
+        {
+          "title": "한동훈 “유엔사 신속 조사 요구 軍이 거부… 누구 짓인지 밝혀야”",
+          "link": "https://www.chosun.com/economy/economy_general/2026/09/26/GEZTSZJZGJTDMMJZGY4WKZLBG4/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-09-26 18:11:25",
+          "match_score": 42.75
+        },
+        {
+          "title": "軍·유엔사, DMZ에 인력 투입해 현장조사 준비…기동로 확보",
+          "link": "https://www.yna.co.kr/view/AKR20260926043300504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-26 19:38:19",
+          "match_score": 35.07
+        },
+        {
+          "title": "한동훈 \"軍, 내일 DMZ 합동조사…유엔사의 신속 조사요구 거부\"",
+          "link": "https://www.yna.co.kr/view/AKR20260926040300001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-26 17:59:55",
+          "match_score": 31.38
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "수입규제",
+      "reason": "한국제품 수입규제 증가",
+      "score": 40.83,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "한국제품 수입규제 상반기 241건…작년 하반기보다 11건 늘어"
+      ],
+      "representative_article": {
+        "title": "한국제품 수입규제 상반기 241건…작년 하반기보다 11건 늘어",
+        "link": "https://www.yna.co.kr/view/AKR20260923164700003",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-09-26 11:31:00",
+        "match_score": 40.83
+      },
+      "related_articles": [
+        {
+          "title": "한국제품 수입규제 상반기 241건…작년 하반기보다 11건 늘어",
+          "link": "https://www.yna.co.kr/view/AKR20260923164700003",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-26 11:31:00",
+          "match_score": 40.83
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "고정금리",
+      "reason": "정책금융 등 고정금리 확대",
+      "score": 46.67,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "당국, 정책금융 등 고정금리 확대 주력…금리인상기 위험 흡수"
+      ],
+      "representative_article": {
+        "title": "당국, 정책금융 등 고정금리 확대 주력…금리인상기 위험 흡수",
+        "link": "https://www.yna.co.kr/view/AKR20260925042800002",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-09-27 05:51:00",
+        "match_score": 46.67
+      },
+      "related_articles": [
+        {
+          "title": "당국, 정책금융 등 고정금리 확대 주력…금리인상기 위험 흡수",
+          "link": "https://www.yna.co.kr/view/AKR20260925042800002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-27 05:51:00",
+          "match_score": 46.67
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "신약개발",
+      "reason": "K바이오 신약·스타트업 협력",
+      "score": 13.02,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "[바이오사이언스] 신약 찾고 스타트업 키우고…협력 넓히는 K바이오"
+      ],
+      "representative_article": {
+        "title": "[바이오사이언스] 신약 찾고 스타트업 키우고…협력 넓히는 K바이오",
+        "link": "https://www.yna.co.kr/view/AKR20260923099000017",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-09-26 10:00:04",
+        "match_score": 13.02
+      },
+      "related_articles": [
+        {
+          "title": "[바이오사이언스] 신약 찾고 스타트업 키우고…협력 넓히는 K바이오",
+          "link": "https://www.yna.co.kr/view/AKR20260923099000017",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-26 10:00:04",
+          "match_score": 13.02
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재건축",
+      "reason": "목동·상계 등 증여·착공 추진",
+      "score": 41.31,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "재건축 앞둔 '목동·상계' 증여 급증…서울 증여 15% 늘어 - 뉴시스",
+        "서문시장 4지구 재건축, 연내 착공 추진 - KBS 뉴스"
+      ],
+      "representative_article": {
+        "title": "재건축 앞둔 '목동·상계' 증여 급증…서울 증여 15% 늘어 - 뉴시스",
+        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE41WjRhblVoZTNLeDhnSGNaY2tUU1NfcUthSWxPRnZHZ1ZRUDdRVTVXUWc2Q3Bkc2tka1Y1M2JOY3pQNXVxNEtiZ2NUamZqN0ctS2hsdzBIODd2WUpWaTdlbHc3RTVmcGVsVmdNNEVhMUJobmtwaklMNtIBeEFVX3lxTE41WjRhblVoZTNLeDhnSGNaY2tUU1NfcUthSWxPRnZHZ1ZRUDdRVTVXUWc2Q3Bkc2tka1Y1M2JOY3pQNXVxNEtiZ2NUamZqN0ctS2hsdzBIODd2WUpWaTdlbHc3RTVmcGVsVmdNNEVhMUJobmtwaklMNg?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-09-27 04:00:00",
+        "match_score": 41.31
+      },
+      "related_articles": [
+        {
+          "title": "재건축 앞둔 '목동·상계' 증여 급증…서울 증여 15% 늘어 - 뉴시스",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE41WjRhblVoZTNLeDhnSGNaY2tUU1NfcUthSWxPRnZHZ1ZRUDdRVTVXUWc2Q3Bkc2tka1Y1M2JOY3pQNXVxNEtiZ2NUamZqN0ctS2hsdzBIODd2WUpWaTdlbHc3RTVmcGVsVmdNNEVhMUJobmtwaklMNtIBeEFVX3lxTE41WjRhblVoZTNLeDhnSGNaY2tUU1NfcUthSWxPRnZHZ1ZRUDdRVTVXUWc2Q3Bkc2tka1Y1M2JOY3pQNXVxNEtiZ2NUamZqN0ctS2hsdzBIODd2WUpWaTdlbHc3RTVmcGVsVmdNNEVhMUJobmtwaklMNg?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-09-27 04:00:00",
+          "match_score": 41.31
+        },
+        {
+          "title": "서문시장 4지구 재건축, 연내 착공 추진 - KBS 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ZT25ESHpJT2lwMWFsZm5pNHNWZ2FoY3dBVzRCdlIydHM3RV8wRmJDUHREZGJfY0w5SGhpaTNrbnlSQnZ0MVNDSVFpREc0N01Hd0VoXzRnRUVFb0U?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-09-26 21:57:00",
+          "match_score": 38.91
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "전세사기",
+      "reason": "공인중개사 설명의무 위반 급증",
+      "score": 44.16,
+      "article_count": 4,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "전세사기 막을 공인중개사 설명의무 위반 3년 새 4.6배↑",
+        "전세사기 막겠다더니…공인중개사 ‘설명 의무 위반’ 3년 새 '5배' - 한국NGO신문",
+        "전세사기 막을 '중개사 설명의무' 위반 3년 새 5배 넘게 급증 - 더트래커"
+      ],
+      "representative_article": {
+        "title": "전세사기 막겠다더니…공인중개사 ‘설명 의무 위반’ 3년 새 '5배' - 한국NGO신문",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5VaXhLOGg5UXRac0tTX291WU1CSmxyTTJqd3NlazFwSkZYbkEtdkp2RjBUWUtDMmhzdEdPOWR1TkVpR1N6eVlVSHEwSEtTRFNoQmZBQnNHTGs3UHRWUUxRdkp1MjlPNFg4?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-09-26 14:15:24",
+        "match_score": 44.16
+      },
+      "related_articles": [
+        {
+          "title": "전세사기 막겠다더니…공인중개사 ‘설명 의무 위반’ 3년 새 '5배' - 한국NGO신문",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5VaXhLOGg5UXRac0tTX291WU1CSmxyTTJqd3NlazFwSkZYbkEtdkp2RjBUWUtDMmhzdEdPOWR1TkVpR1N6eVlVSHEwSEtTRFNoQmZBQnNHTGs3UHRWUUxRdkp1MjlPNFg4?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-09-26 14:15:24",
+          "match_score": 44.16
+        },
+        {
+          "title": "전세사기 막을 공인중개사 설명의무 위반 3년 새 4.6배↑",
+          "link": "https://www.yna.co.kr/view/AKR20260923181000003",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-26 09:31:00",
+          "match_score": 42.88
+        },
+        {
+          "title": "전세사기 막을 '중개사 설명의무' 위반 3년 새 5배 넘게 급증 - 더트래커",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1jNGFxWXItRVhKcDNucXZTVldkVHhCcGdLUXM5a2ljbl80dFRIZGs1cnRGWmR4U1dVcTg1UC1qVS1ESFlZYWZsYnRjR0lMLUhtZjRCVElZMnI?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-09-26 17:59:33",
+          "match_score": 41.16
+        },
+        {
+          "title": "공인중개사 권리관계 설명 불성실, 3년 새 4배 급증···전세사기 뇌관 여전 - 글로벌E",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1CVHNsQ3JOTzR3WlNSQ0pTSDZfM0pnazBZSkd0NGs5aEgwVTJELWJfb3E3STRlWkhOM3dIZV92NTNKcDJqRllXcW5iNThsZlFkSlVCQk9HR3NENkN6Y1lXN3NPR2pUamxYSEpn0gFvQVVfeXFMUDFJX1l1WnBOQnUyVl8xNUhjbFRraDNuSFNHdjRpZ2txaFlKNkhtbnFZbmVtSW9MWmdsZ0cyNTNMQWVNb0NuZ3F6cVJhNWJRSU5iWTNZeEVaUG9JTkJPaFJpMlNGNjNneGlTLXVLa2J3?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-09-26 14:34:05",
+          "match_score": 39.96
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI",
+      "reason": "게임·투자 ETF·작품 논란",
+      "score": 44.16,
+      "article_count": 6,
+      "source_count": 5,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "“월세 200만원 받는 6억 집, 비싼걸까?” … AI가 찾아낸 적정가격의 비밀",
+        "김재섭 “누가 레버리지 ETF 제안·결정했는지 밝혀야”",
+        "[게임위드인] AI가 고전게임도 최신작처럼…DLSS 5, 게임체인저 될까"
+      ],
+      "representative_article": {
+        "title": "[ETF 언박싱] KB운용, 삼성·SK 그룹주 묶은 ETF 출격…AI 생태계 투자 : 네이버 블로그 - Naver Blog",
+        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTTdVSmlMMzRCaXJHX0VGNndFMWVfeXM1WTZWaFZzQUFSRHVwQ0xwUWR2SzY0ZnQ4MkxnOUdMVEg5bmU5Xy1QWmJJeGxxTE5Dd1kwdlRVc2poeG1GZjFLLWVaaU1oWWlCdVZoRl9vcWFvdjE3MjdTcGtscFllaExMN2ZKa3pZS0t0Rm5HVlY1aw?oc=5",
+        "source": "키워드-반도체AI",
+        "published_dt": "2026-09-27 01:30:37",
+        "match_score": 44.16
+      },
+      "related_articles": [
+        {
+          "title": "[ETF 언박싱] KB운용, 삼성·SK 그룹주 묶은 ETF 출격…AI 생태계 투자 : 네이버 블로그 - Naver Blog",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTTdVSmlMMzRCaXJHX0VGNndFMWVfeXM1WTZWaFZzQUFSRHVwQ0xwUWR2SzY0ZnQ4MkxnOUdMVEg5bmU5Xy1QWmJJeGxxTE5Dd1kwdlRVc2poeG1GZjFLLWVaaU1oWWlCdVZoRl9vcWFvdjE3MjdTcGtscFllaExMN2ZKa3pZS0t0Rm5HVlY1aw?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-09-27 01:30:37",
+          "match_score": 44.16
+        },
+        {
+          "title": "[게임위드인] AI가 고전게임도 최신작처럼…DLSS 5, 게임체인저 될까",
+          "link": "https://www.yna.co.kr/view/AKR20260923138100017",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-09-26 11:00:02",
+          "match_score": 38.88
+        },
+        {
+          "title": "“찡그린 표정 지우려고”…트럼프, 中시진핑 방미 사진에 AI 합성 논란",
+          "link": "https://www.donga.com/news/Inter/article/all/20260926/134735125/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-26 22:21:56",
+          "match_score": 38.5
+        },
+        {
+          "title": "“AI로 쓴 소설이 문학상 수상?”… 프랑스 출판계 덮친 ‘AI 집필’ 파문",
+          "link": "https://www.donga.com/news/Inter/article/all/20260926/134735034/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-26 20:53:31",
+          "match_score": 37.6
+        },
+        {
+          "title": "“월세 200만원 받는 6억 집, 비싼걸까?” … AI가 찾아낸 적정가격의 비밀",
+          "link": "https://www.mk.co.kr/news/economy/12159700",
+          "source": "매일경제-경제",
+          "published_dt": "2026-09-27 04:30:00",
+          "match_score": 35.96
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "한미증시",
+      "reason": "동반 상승 및 금리 영향",
+      "score": 19.15,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "[9월 넷째 주 세계경제동향 브리핑] 코스피 7,000선 회복…한미 증시 동반 상승 - kihoilbo.co.kr"
+      ],
+      "representative_article": {
+        "title": "[9월 넷째 주 세계경제동향 브리핑] 코스피 7,000선 회복…한미 증시 동반 상승 - kihoilbo.co.kr",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE85X0JIS3RjSVJLaTcwbThXMDdjSEt0Z3Y1UXZHakV0bkM5aTUtcjVCM1NrM3Y3V0ZqRTgtbHJGMnBYbWp6eXFXX0p3OTZvekFMVmtpX21rUDZpYWVZTjJfbWtybzFDQnZwdlo1NUN6OA?oc=5",
+        "source": "키워드-금리환율코스피",
+        "published_dt": "2026-09-26 09:50:57",
+        "match_score": 19.15
+      },
+      "related_articles": [
+        {
+          "title": "[9월 넷째 주 세계경제동향 브리핑] 코스피 7,000선 회복…한미 증시 동반 상승 - kihoilbo.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE85X0JIS3RjSVJLaTcwbThXMDdjSEt0Z3Y1UXZHakV0bkM5aTUtcjVCM1NrM3Y3V0ZqRTgtbHJGMnBYbWp6eXFXX0p3OTZvekFMVmtpX21rUDZpYWVZTjJfbWtybzFDQnZwdlo1NUN6OA?oc=5",
+          "source": "키워드-금리환율코스피",
+          "published_dt": "2026-09-26 09:50:57",
+          "match_score": 19.15
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "이란핵",
+      "reason": "미중 정상회담 핵사찰 논의",
+      "score": 15.7,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "“美中 정상, 이란 핵무기 불허…국제수로 통행료 부과 안돼”",
+        "이란 대통령 “IAEA 핵사찰 수용 가능”…트럼프 회담엔 “신뢰 회복 먼저”"
+      ],
+      "representative_article": {
+        "title": "“美中 정상, 이란 핵무기 불허…국제수로 통행료 부과 안돼”",
+        "link": "https://www.donga.com/news/Inter/article/all/20260926/134734269/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-09-26 14:44:00",
+        "match_score": 15.7
+      },
+      "related_articles": [
+        {
+          "title": "“美中 정상, 이란 핵무기 불허…국제수로 통행료 부과 안돼”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260926/134734269/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-26 14:44:00",
+          "match_score": 15.7
+        },
+        {
+          "title": "이란 대통령 “IAEA 핵사찰 수용 가능”…트럼프 회담엔 “신뢰 회복 먼저”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260926/134734177/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-26 13:28:51",
+          "match_score": 7.5
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 9,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "세종이전",
+      "reason": "정부기관 이전 매매·전세 영향",
+      "score": 23.35,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "정부기관 세종 이전…세종 집주인, 매매는 관망·전세는 강세 - 아시아투데이"
+      ],
+      "representative_article": {
+        "title": "정부기관 세종 이전…세종 집주인, 매매는 관망·전세는 강세 - 아시아투데이",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9PaHF0b1lTMnR2bXhKbzZGQnVoOU9ieVJqYjVqemZ3X1o3RlpOTzZXRExwbzl3TDdYMUJTTHRPRXhJSmRnNGQ5ZFJjV3BFSHRYWkFJOF9QdVR6eWJ5R1ZzNU4xbXhCSlM1clJYRTJn?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-09-26 16:47:05",
+        "match_score": 23.35
+      },
+      "related_articles": [
+        {
+          "title": "정부기관 세종 이전…세종 집주인, 매매는 관망·전세는 강세 - 아시아투데이",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9PaHF0b1lTMnR2bXhKbzZGQnVoOU9ieVJqYjVqemZ3X1o3RlpOTzZXRExwbzl3TDdYMUJTTHRPRXhJSmRnNGQ5ZFJjV3BFSHRYWkFJOF9QdVR6eWJ5R1ZzNU4xbXhCSlM1clJYRTJn?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-09-26 16:47:05",
+          "match_score": 23.35
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 10,
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
