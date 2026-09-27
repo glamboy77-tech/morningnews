@@ -1,0 +1,369 @@
+{
+  "timestamp": "2026-09-28T06:01:05.518350",
+  "date": "20260928",
+  "data": [
+    {
+      "keyword": "지뢰사고",
+      "reason": "국힘 조사 지연 비판",
+      "score": 33.17,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "국힘 '지뢰사고' 맹폭…\"조사 고의지연시 대통령 탄핵사유\"(종합)",
+        "국힘 '지뢰사고' 맹폭…\"조사 고의지연시 대통령 탄핵사유\""
+      ],
+      "representative_article": {
+        "title": "국힘 '지뢰사고' 맹폭…\"조사 고의지연시 대통령 탄핵사유\"",
+        "link": "https://www.yna.co.kr/view/AKR20260927023100001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-09-27 11:39:27",
+        "match_score": 33.17
+      },
+      "related_articles": [
+        {
+          "title": "국힘 '지뢰사고' 맹폭…\"조사 고의지연시 대통령 탄핵사유\"",
+          "link": "https://www.yna.co.kr/view/AKR20260927023100001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-27 11:39:27",
+          "match_score": 33.17
+        },
+        {
+          "title": "국힘 '지뢰사고' 맹폭…\"조사 고의지연시 대통령 탄핵사유\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260927023151001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-27 16:09:52",
+          "match_score": 32.17
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "중수청장 임명",
+      "reason": "관련 국내현안 부각",
+      "score": 36.88,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "李대통령, 서울 도착…중수청장 임명 등 국내현안 산적(종합2보)"
+      ],
+      "representative_article": {
+        "title": "李대통령, 서울 도착…중수청장 임명 등 국내현안 산적(종합2보)",
+        "link": "https://www.yna.co.kr/view/AKR20260926031652001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-09-27 23:22:21",
+        "match_score": 36.88
+      },
+      "related_articles": [
+        {
+          "title": "李대통령, 서울 도착…중수청장 임명 등 국내현안 산적(종합2보)",
+          "link": "https://www.yna.co.kr/view/AKR20260926031652001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-27 23:22:21",
+          "match_score": 36.88
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "국채 금리",
+      "reason": "22년 만 최고 기록",
+      "score": 39.36,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "국제"
+      ],
+      "sample_titles": [
+        "美 30년만기 국채금리 5.5% 찍고 22년來 최고…환율 상승 부추기나",
+        "국채 금리 상승 속 PCE 물가·고용지표 주목…마이크론 실적 발표[이번주 美 증시는] - 머니투데이 - 머니투데이"
+      ],
+      "representative_article": {
+        "title": "국채 금리 상승 속 PCE 물가·고용지표 주목…마이크론 실적 발표[이번주 美 증시는] - 머니투데이 - 머니투데이",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5jeGZORllpcy1uUGc2Z012ZkRfQ2xjMmM3SGZQRmtqY3Jid1hXODhsOVFlN1BnNm8zLXlHcWV2Q05aSjV5OHVLMUJacGgtQk5tYjY4QjZLaHh0ZnJFZy05c1B2eXQyMGRO0gFuQVVfeXFMTU9oVFVpX3UxZU9Wd0ZybTdhWnNjTmtiOTZBQ1VBMEF1VDRlOGdSLUw2NXpUUXVJT3VUa01WVVZaMEFtT2tJWWs1WmQ3UGVNZ3MtX1dwS2ZFbHdQLUk2RUlsS1h0UTFPSDFmdDlrcnc?oc=5",
+        "source": "키워드-금리환율코스피",
+        "published_dt": "2026-09-28 05:35:00",
+        "match_score": 39.36
+      },
+      "related_articles": [
+        {
+          "title": "국채 금리 상승 속 PCE 물가·고용지표 주목…마이크론 실적 발표[이번주 美 증시는] - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5jeGZORllpcy1uUGc2Z012ZkRfQ2xjMmM3SGZQRmtqY3Jid1hXODhsOVFlN1BnNm8zLXlHcWV2Q05aSjV5OHVLMUJacGgtQk5tYjY4QjZLaHh0ZnJFZy05c1B2eXQyMGRO0gFuQVVfeXFMTU9oVFVpX3UxZU9Wd0ZybTdhWnNjTmtiOTZBQ1VBMEF1VDRlOGdSLUw2NXpUUXVJT3VUa01WVVZaMEFtT2tJWWs1WmQ3UGVNZ3MtX1dwS2ZFbHdQLUk2RUlsS1h0UTFPSDFmdDlrcnc?oc=5",
+          "source": "키워드-금리환율코스피",
+          "published_dt": "2026-09-28 05:35:00",
+          "match_score": 39.36
+        },
+        {
+          "title": "美 30년만기 국채금리 5.5% 찍고 22년來 최고…환율 상승 부추기나",
+          "link": "https://www.donga.com/news/Economy/article/all/20260927/134736772/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-27 17:51:00",
+          "match_score": 27.65
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "반도체 호황",
+      "reason": "삼성전자 등 실적 개선",
+      "score": 42.36,
+      "article_count": 3,
+      "source_count": 2,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "“부장님이 웬일로 법카를 주네요”…반도체 호황에 기업 결제액 사상 최대",
+        "삼성전자가 이끈 역대급 호황...韓반도체·부품·에너지 기업 낙수효과 - 아주경제",
+        "반도체 호황의 그늘···삼성전자 DX '성과급 양극화'에 노태문 직접 소통 - 스마트비즈"
+      ],
+      "representative_article": {
+        "title": "반도체 호황의 그늘···삼성전자 DX '성과급 양극화'에 노태문 직접 소통 - 스마트비즈",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0tMUZsODFkNmJxRGJjd0EtN0tQbXdQaUFSd1lUZmxsU0tWWWM5QUNmcUhIN3hObnNuNnp6TDBtTEg1ajg5T21oYmxUYzJWQUFPLXJKUEYyZ05hV0JHRlE0TXpEVXl4T3NLU0Jpcg?oc=5",
+        "source": "키워드-반도체AI",
+        "published_dt": "2026-09-27 15:44:11",
+        "match_score": 42.36
+      },
+      "related_articles": [
+        {
+          "title": "반도체 호황의 그늘···삼성전자 DX '성과급 양극화'에 노태문 직접 소통 - 스마트비즈",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0tMUZsODFkNmJxRGJjd0EtN0tQbXdQaUFSd1lUZmxsU0tWWWM5QUNmcUhIN3hObnNuNnp6TDBtTEg1ajg5T21oYmxUYzJWQUFPLXJKUEYyZ05hV0JHRlE0TXpEVXl4T3NLU0Jpcg?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-09-27 15:44:11",
+          "match_score": 42.36
+        },
+        {
+          "title": "“부장님이 웬일로 법카를 주네요”…반도체 호황에 기업 결제액 사상 최대",
+          "link": "https://www.mk.co.kr/news/economy/12162185",
+          "source": "매일경제-경제",
+          "published_dt": "2026-09-28 05:57:12",
+          "match_score": 31.36
+        },
+        {
+          "title": "삼성전자가 이끈 역대급 호황...韓반도체·부품·에너지 기업 낙수효과 - 아주경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBFTUNlazMxdTJrejNQZ2kwbGtqRHFkdVpZX3drcDdpUklIcXZITnI5c3pxUTc3MlllLVUxSlFTVDlhUmVfZGkxcV9sblN2SkRvSzVKLVV2T1FzZ9IBWEFVX3lxTE4tWjJLSHJmSlhNYVF6YjFuTTAyRFA2TW1jaThpNzRyNGd4Q0FVMC1Ya1dETTl1Qm5mVHZfR0FBc3FwR3BsTDlNR1NLbkY2OFFFLWt4NTI0enE?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-09-28 05:00:00",
+          "match_score": 7.36
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "FTA 협의체",
+      "reason": "한-멕시코 협력 확대",
+      "score": 11.06,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "韓·멕시코, 협의체 신설…FTA 논의에 속도"
+      ],
+      "representative_article": {
+        "title": "韓·멕시코, 협의체 신설…FTA 논의에 속도",
+        "link": "https://www.mk.co.kr/news/economy/12162001",
+        "source": "매일경제-경제",
+        "published_dt": "2026-09-27 16:49:59",
+        "match_score": 11.06
+      },
+      "related_articles": [
+        {
+          "title": "韓·멕시코, 협의체 신설…FTA 논의에 속도",
+          "link": "https://www.mk.co.kr/news/economy/12162001",
+          "source": "매일경제-경제",
+          "published_dt": "2026-09-27 16:49:59",
+          "match_score": 11.06
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "태양광 발전",
+      "reason": "기후부 해외 건설 사업",
+      "score": 28.46,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "기후부, 타지키스탄에 대규모 태양광발전 건설"
+      ],
+      "representative_article": {
+        "title": "기후부, 타지키스탄에 대규모 태양광발전 건설",
+        "link": "https://www.mk.co.kr/news/economy/12162008",
+        "source": "매일경제-경제",
+        "published_dt": "2026-09-27 16:50:02",
+        "match_score": 28.46
+      },
+      "related_articles": [
+        {
+          "title": "기후부, 타지키스탄에 대규모 태양광발전 건설",
+          "link": "https://www.mk.co.kr/news/economy/12162008",
+          "source": "매일경제-경제",
+          "published_dt": "2026-09-27 16:50:02",
+          "match_score": 28.46
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "중식당 테러",
+      "reason": "중국인 용의자 도주",
+      "score": 34.67,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "분당 '중식당 테러' 용의자 4명 모두 중국인…범행후 본국 도주(종합)",
+        "분당 중식당 테러 용의자 4명 모두 중국인…사건 당일 출국"
+      ],
+      "representative_article": {
+        "title": "분당 '중식당 테러' 용의자 4명 모두 중국인…범행후 본국 도주(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260927019551061",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-09-27 17:36:13",
+        "match_score": 34.67
+      },
+      "related_articles": [
+        {
+          "title": "분당 '중식당 테러' 용의자 4명 모두 중국인…범행후 본국 도주(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260927019551061",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-09-27 17:36:13",
+          "match_score": 34.67
+        },
+        {
+          "title": "분당 중식당 테러 용의자 4명 모두 중국인…사건 당일 출국",
+          "link": "https://www.yna.co.kr/view/AKR20260927019500061",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-09-27 10:56:09",
+          "match_score": 33.47
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "서울 외국인취업",
+      "reason": "박람회 기업 모집",
+      "score": 6.33,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "'서울 외국인 채용박람회' 참여기업 내달 16일까지 모집"
+      ],
+      "representative_article": {
+        "title": "'서울 외국인 채용박람회' 참여기업 내달 16일까지 모집",
+        "link": "https://www.yna.co.kr/view/AKR20260924022400004",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-09-27 11:15:03",
+        "match_score": 6.33
+      },
+      "related_articles": [
+        {
+          "title": "'서울 외국인 채용박람회' 참여기업 내달 16일까지 모집",
+          "link": "https://www.yna.co.kr/view/AKR20260924022400004",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-27 11:15:03",
+          "match_score": 6.33
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "용산 재건축",
+      "reason": "한강뷰 인기 재부상",
+      "score": 32.69,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "[부동산 심머니] 62층 한강맨션·49층 신동아 …'한강뷰' 용산 재건축 다시 뛴다"
+      ],
+      "representative_article": {
+        "title": "[부동산 심머니] 62층 한강맨션·49층 신동아 …'한강뷰' 용산 재건축 다시 뛴다",
+        "link": "https://www.mk.co.kr/news/realestate/12161960",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-09-27 16:38:58",
+        "match_score": 32.69
+      },
+      "related_articles": [
+        {
+          "title": "[부동산 심머니] 62층 한강맨션·49층 신동아 …'한강뷰' 용산 재건축 다시 뛴다",
+          "link": "https://www.mk.co.kr/news/realestate/12161960",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-09-27 16:38:58",
+          "match_score": 32.69
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 9,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI 데이터센터",
+      "reason": "LG전자 엔비디아 협력",
+      "score": 38.27,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "LG전자, 엔비디아 AI 데이터센터 냉각솔루션 공식 파트너"
+      ],
+      "representative_article": {
+        "title": "LG전자, 엔비디아 AI 데이터센터 냉각솔루션 공식 파트너",
+        "link": "https://www.yna.co.kr/view/AKR20260927014100003",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-09-27 10:00:01",
+        "match_score": 38.27
+      },
+      "related_articles": [
+        {
+          "title": "LG전자, 엔비디아 AI 데이터센터 냉각솔루션 공식 파트너",
+          "link": "https://www.yna.co.kr/view/AKR20260927014100003",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-09-27 10:00:01",
+          "match_score": 38.27
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 10,
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
