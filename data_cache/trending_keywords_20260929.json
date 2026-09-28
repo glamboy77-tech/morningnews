@@ -1,0 +1,374 @@
+{
+  "timestamp": "2026-09-29T06:01:10.344052",
+  "date": "20260929",
+  "data": [
+    {
+      "keyword": "지뢰 폭발",
+      "reason": "북한 지뢰 및 DMZ 사건",
+      "score": 12.38,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "軍 \"DMZ폭발, 北지뢰 가능성 매우높아…北매설 판정시 상응조치\"(종합)",
+        "우크라, DMZ 폭발 언급하며 “남북 무력충돌 시간문제”"
+      ],
+      "representative_article": {
+        "title": "軍 \"DMZ폭발, 北지뢰 가능성 매우높아…北매설 판정시 상응조치\"(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260928162751504",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-09-28 21:52:21",
+        "match_score": 12.38
+      },
+      "related_articles": [
+        {
+          "title": "軍 \"DMZ폭발, 北지뢰 가능성 매우높아…北매설 판정시 상응조치\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260928162751504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-28 21:52:21",
+          "match_score": 12.38
+        },
+        {
+          "title": "우크라, DMZ 폭발 언급하며 “남북 무력충돌 시간문제”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260928/134746282/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-28 17:52:00",
+          "match_score": 10.4
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI 반도체",
+      "reason": "반도체 및 AI 기술 투자 확산",
+      "score": 4.9,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "삼성전기, 세종에 4.2조 투자… AI 서버용 반도체 기판 증설"
+      ],
+      "representative_article": {
+        "title": "삼성전기, 세종에 4.2조 투자… AI 서버용 반도체 기판 증설",
+        "link": "https://www.etnews.com/20260928000389",
+        "source": "전자신문",
+        "published_dt": "2026-09-28 18:08:07",
+        "match_score": 4.9
+      },
+      "related_articles": [
+        {
+          "title": "삼성전기, 세종에 4.2조 투자… AI 서버용 반도체 기판 증설",
+          "link": "https://www.etnews.com/20260928000389",
+          "source": "전자신문",
+          "published_dt": "2026-09-28 18:08:07",
+          "match_score": 4.9
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재건축",
+      "reason": "성남시 분당 재건축 사업 활발",
+      "score": 40.53,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "성남시, 내년 분당재건축 2만5천호 선정…'예비구역' 첫 도입",
+        "성남시, 분당재건축 3차 내년 5월 접수…28~30년 각 50% 사전 선정 - 경인일보"
+      ],
+      "representative_article": {
+        "title": "성남시, 내년 분당재건축 2만5천호 선정…'예비구역' 첫 도입",
+        "link": "https://www.yna.co.kr/view/AKR20260928159900061",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-09-28 19:58:31",
+        "match_score": 40.53
+      },
+      "related_articles": [
+        {
+          "title": "성남시, 내년 분당재건축 2만5천호 선정…'예비구역' 첫 도입",
+          "link": "https://www.yna.co.kr/view/AKR20260928159900061",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-28 19:58:31",
+          "match_score": 40.53
+        },
+        {
+          "title": "성남시, 분당재건축 3차 내년 5월 접수…28~30년 각 50% 사전 선정 - 경인일보",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9QNEptSTBWNlJaQm9fQUNuYUxZTjZodThkbzhCMFNlVFFLSENjUGdKc2FwVURZVDRvc1VhZGtzQjBYeUVpbUFnUW5sOUdWMFlxNkE?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-09-28 17:41:36",
+          "match_score": 40.11
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "통화안정증권",
+      "reason": "한국은행 대규모 발행 계획",
+      "score": 39.98,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "정치"
+      ],
+      "sample_titles": [
+        "[보도참고자료] 2026년 10월 통화안정증권 발행 계획 - bok.or.kr",
+        "한은, 10월 최대 7조원 규모 통화안정증권 발행"
+      ],
+      "representative_article": {
+        "title": "한은, 10월 최대 7조원 규모 통화안정증권 발행",
+        "link": "https://www.yna.co.kr/view/AKR20260928143800002",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-09-28 17:27:14",
+        "match_score": 39.98
+      },
+      "related_articles": [
+        {
+          "title": "한은, 10월 최대 7조원 규모 통화안정증권 발행",
+          "link": "https://www.yna.co.kr/view/AKR20260928143800002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-28 17:27:14",
+          "match_score": 39.98
+        },
+        {
+          "title": "[보도참고자료] 2026년 10월 통화안정증권 발행 계획 - bok.or.kr",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOR295WWE5MnlkLWZpelVEeTBIbmp1aU5OLUN1bU1ZSjNNbHhFU3BRay1oTzVQVDFHb0RTd3NYbUxUZ0Z4VGl6Sjl5Nzh6dnpTMDE3MkJmSWhJbXFyNjVOazVEOHNXVnZfa2t0YzBXOHhmYllPNTg3anltbVVKMFVoZWZVTl9ldE9xam1lYkhoOVFycS13bTd3VlVwa3Nodzk0OGx4MzlxSFJkN1JtemE4VzBYNmpJczNVQllueUdB?oc=5",
+          "source": "공식-한국은행",
+          "published_dt": "2026-09-28 17:26:44",
+          "match_score": 37.4
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "우크라 포",
+      "reason": "우크라이나 포로 문제 강경 대응",
+      "score": 20.38,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "강경대응 나선 정부…우크라 北포로 '허위공보'에 초치 맞불(종합)",
+        "강경대응 나선 정부…'우크라 北포로 송환 공개 논쟁' 심화"
+      ],
+      "representative_article": {
+        "title": "강경대응 나선 정부…'우크라 北포로 송환 공개 논쟁' 심화",
+        "link": "https://www.yna.co.kr/view/AKR20260928143400504",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-09-28 17:42:08",
+        "match_score": 20.38
+      },
+      "related_articles": [
+        {
+          "title": "강경대응 나선 정부…'우크라 北포로 송환 공개 논쟁' 심화",
+          "link": "https://www.yna.co.kr/view/AKR20260928143400504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-28 17:42:08",
+          "match_score": 20.38
+        },
+        {
+          "title": "강경대응 나선 정부…우크라 北포로 '허위공보'에 초치 맞불(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260928143451504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-28 19:45:24",
+          "match_score": 19.38
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "미중 관계",
+      "reason": "미국과 중국 무기 판매 및 외교 문제",
+      "score": 4.1,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "“트럼프가 시진핑에 美무기 구매 제안” 주중 美대사 발언 발칵"
+      ],
+      "representative_article": {
+        "title": "“트럼프가 시진핑에 美무기 구매 제안” 주중 美대사 발언 발칵",
+        "link": "https://www.donga.com/news/Inter/article/all/20260928/134745967/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-09-28 17:29:00",
+        "match_score": 4.1
+      },
+      "related_articles": [
+        {
+          "title": "“트럼프가 시진핑에 美무기 구매 제안” 주중 美대사 발언 발칵",
+          "link": "https://www.donga.com/news/Inter/article/all/20260928/134745967/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-28 17:29:00",
+          "match_score": 4.1
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "금리 급등",
+      "reason": "미국채 금리 및 국고채 금리 상승",
+      "score": 39.17,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "美 금리 급등에 국고 3년 4.1% 돌파…2022년래 최고(종합)",
+        "\"연휴 이후 크레딧 단기물 분할매수…10월초 안정 확인 필요\""
+      ],
+      "representative_article": {
+        "title": "美 금리 급등에 국고 3년 4.1% 돌파…2022년래 최고(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260928138600008",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-09-28 17:02:43",
+        "match_score": 39.17
+      },
+      "related_articles": [
+        {
+          "title": "美 금리 급등에 국고 3년 4.1% 돌파…2022년래 최고(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260928138600008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-28 17:02:43",
+          "match_score": 39.17
+        },
+        {
+          "title": "\"연휴 이후 크레딧 단기물 분할매수…10월초 안정 확인 필요\"",
+          "link": "https://www.yna.co.kr/view/AKR20260928112200008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-28 15:27:48",
+          "match_score": 11.98
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "부동산 가격",
+      "reason": "서울 집값 장기 상승 및 지역별 차이",
+      "score": 3.99,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "“서울 집값 부담에 인천으로”…거래량 10% 늘고 신고가 6배↑"
+      ],
+      "representative_article": {
+        "title": "“서울 집값 부담에 인천으로”…거래량 10% 늘고 신고가 6배↑",
+        "link": "https://www.mk.co.kr/news/realestate/12162808",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-09-28 16:36:23",
+        "match_score": 3.99
+      },
+      "related_articles": [
+        {
+          "title": "“서울 집값 부담에 인천으로”…거래량 10% 늘고 신고가 6배↑",
+          "link": "https://www.mk.co.kr/news/realestate/12162808",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-09-28 16:36:23",
+          "match_score": 3.99
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "해수부",
+      "reason": "양식 수산물 재해보험 개편 착수",
+      "score": 42.63,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "해수부, 양식 수산물 재해보험 개편 착수…기후 변화 대응"
+      ],
+      "representative_article": {
+        "title": "해수부, 양식 수산물 재해보험 개편 착수…기후 변화 대응",
+        "link": "https://www.yna.co.kr/view/AKR20260928130600030",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-09-28 16:31:36",
+        "match_score": 42.63
+      },
+      "related_articles": [
+        {
+          "title": "해수부, 양식 수산물 재해보험 개편 착수…기후 변화 대응",
+          "link": "https://www.yna.co.kr/view/AKR20260928130600030",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-28 16:31:36",
+          "match_score": 42.63
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 9,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "데이터센터",
+      "reason": "미국 전력난 우려 인허가 지연",
+      "score": 40.9,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "국제"
+      ],
+      "sample_titles": [
+        "주민 전력난 우려에 美데이터센터 인허가 지연… AI 속도전 ‘발목’",
+        "주민 전력난 우려에 美데이터센터 인허가 지연… AI 속도전 ‘발목’"
+      ],
+      "representative_article": {
+        "title": "주민 전력난 우려에 美데이터센터 인허가 지연… AI 속도전 ‘발목’",
+        "link": "https://www.donga.com/news/Economy/article/all/20260929/134748261/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-09-29 04:30:00",
+        "match_score": 40.9
+      },
+      "related_articles": [
+        {
+          "title": "주민 전력난 우려에 美데이터센터 인허가 지연… AI 속도전 ‘발목’",
+          "link": "https://www.donga.com/news/Economy/article/all/20260929/134748261/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-29 04:30:00",
+          "match_score": 40.9
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 10,
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
