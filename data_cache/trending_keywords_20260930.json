@@ -1,0 +1,444 @@
+{
+  "timestamp": "2026-09-30T06:01:29.072875",
+  "date": "20260930",
+  "data": [
+    {
+      "keyword": "가덕신공항",
+      "reason": "공사비 증액 및 계약 논란",
+      "score": 41.73,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "김도읍 \"가덕신공항 공사비 증액, 계약 전에 매듭지어야\""
+      ],
+      "representative_article": {
+        "title": "김도읍 \"가덕신공항 공사비 증액, 계약 전에 매듭지어야\"",
+        "link": "https://www.yna.co.kr/view/AKR20260929169400051",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-09-29 18:13:57",
+        "match_score": 41.73
+      },
+      "related_articles": [
+        {
+          "title": "김도읍 \"가덕신공항 공사비 증액, 계약 전에 매듭지어야\"",
+          "link": "https://www.yna.co.kr/view/AKR20260929169400051",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-29 18:13:57",
+          "match_score": 41.73
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "반도체",
+      "reason": "수주·투자·가격 상승 소식 다수",
+      "score": 38.16,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "삼성, AI 데이터센터 '판' 짠다…美 AI인프라 기업에 1.4조 투자",
+        "반도체서 데이터센터로…삼성 6개사, 美 AI 인프라 헬릭스에 10억달러 투자 - 한국경제"
+      ],
+      "representative_article": {
+        "title": "반도체서 데이터센터로…삼성 6개사, 美 AI 인프라 헬릭스에 10억달러 투자 - 한국경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFByaURXX29vbTAxSTFOSVpZRWZmNFRWUG5CVkFsRnNIR0JOQmVMLXczYm1VWGhGQWtnY1Q2dWxYczYzZ1JmRDVSOWtJS0RIQUZ4dkZGcWJheDczQQ?oc=5",
+        "source": "키워드-반도체AI",
+        "published_dt": "2026-09-29 09:52:02",
+        "match_score": 38.16
+      },
+      "related_articles": [
+        {
+          "title": "반도체서 데이터센터로…삼성 6개사, 美 AI 인프라 헬릭스에 10억달러 투자 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFByaURXX29vbTAxSTFOSVpZRWZmNFRWUG5CVkFsRnNIR0JOQmVMLXczYm1VWGhGQWtnY1Q2dWxYczYzZ1JmRDVSOWtJS0RIQUZ4dkZGcWJheDczQQ?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-09-29 09:52:02",
+          "match_score": 38.16
+        },
+        {
+          "title": "삼성, AI 데이터센터 '판' 짠다…美 AI인프라 기업에 1.4조 투자",
+          "link": "https://www.etnews.com/20260929000238",
+          "source": "전자신문",
+          "published_dt": "2026-09-29 14:19:19",
+          "match_score": 12.7
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "국채금리",
+      "reason": "미국 장기 국채 금리 5%대 유지",
+      "score": 37.36,
+      "article_count": 8,
+      "source_count": 5,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "금리 인상 결정에 영향 주는 사안은 …결정권 있는 금통위원 발언 보니",
+        "미 30년물 국채 금리 장중 5.6% 돌파…24년래 최고 - 연합뉴스TV",
+        "'美 국채 금리 악재' 코스피, 0.27%↓…이틀 연속 하락(종합)"
+      ],
+      "representative_article": {
+        "title": "[뉴욕증시-1보] 美 국채금리 눈치 언제까지 봐야되나…약보합 마감 - 연합인포맥스",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA5UUdoSmFmSFNhejV1REQ0dFdHWGlLMzM5dkE4SXNWUzhqYkRJcGNYU3pUSGVGRmdjNUpnNWhELU56bExCODlOX09icjZXaUdWN2JuZDlBYjVha1BDaGJNUkRYN0RfMkFZVG54Y0p5SzXSAXRBVV95cUxNM25ORGNkRHRYazlaZDdnZ20tSDdyZkIzSGpEWEktVjBTZDI0WXVEU28tOFk4VzVnR3VUdWlFMkJ1ZjVHR18wZjFFWXp5dVNzM2VVR0ctbEhUMmRqRldCMHB6TXpsWFZnWDJtZ3F4M2R5UVlTNw?oc=5",
+        "source": "키워드-금리환율코스피",
+        "published_dt": "2026-09-30 05:08:01",
+        "match_score": 37.36
+      },
+      "related_articles": [
+        {
+          "title": "[뉴욕증시-1보] 美 국채금리 눈치 언제까지 봐야되나…약보합 마감 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA5UUdoSmFmSFNhejV1REQ0dFdHWGlLMzM5dkE4SXNWUzhqYkRJcGNYU3pUSGVGRmdjNUpnNWhELU56bExCODlOX09icjZXaUdWN2JuZDlBYjVha1BDaGJNUkRYN0RfMkFZVG54Y0p5SzXSAXRBVV95cUxNM25ORGNkRHRYazlaZDdnZ20tSDdyZkIzSGpEWEktVjBTZDI0WXVEU28tOFk4VzVnR3VUdWlFMkJ1ZjVHR18wZjFFWXp5dVNzM2VVR0ctbEhUMmRqRldCMHB6TXpsWFZnWDJtZ3F4M2R5UVlTNw?oc=5",
+          "source": "키워드-금리환율코스피",
+          "published_dt": "2026-09-30 05:08:01",
+          "match_score": 37.36
+        },
+        {
+          "title": "코스피, 美국채금리·국제유가 상승에 하락세 지속 - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1OY0l3UGtQZ21zNURIUUxqbWRrTzAyYl93eHpJcklnbzZkTFRvT213UjNjVmN0eXc0aVBueExwRlZ2b3g1VWo5Q2hYdjZtcTljX0UzaGY2N0dmYUZsUlQ0b0RoV2pYZUE?oc=5",
+          "source": "키워드-에너지물가",
+          "published_dt": "2026-09-29 10:28:00",
+          "match_score": 37.36
+        },
+        {
+          "title": "美국채금리 5%대 고착화… 연준 추가 금리인상 무게",
+          "link": "https://www.donga.com/news/Economy/article/all/20260930/134756620/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-30 04:30:00",
+          "match_score": 35.45
+        },
+        {
+          "title": "美국채금리 19년 만에 최고…뉴욕증시 언제까지 버틸까",
+          "link": "https://www.donga.com/news/Inter/article/all/20260929/134750015/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-29 10:26:57",
+          "match_score": 34.7
+        },
+        {
+          "title": "'美 국채 금리 악재' 코스피, 0.27%↓…이틀 연속 하락(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260929141000008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-29 16:07:05",
+          "match_score": 21.07
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재건축",
+      "reason": "대규모 단지 개발·분양 관련 보도",
+      "score": 38.09,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "더블 역세권·1695가구 … 모아타운 덩치도 입지도 상전벽해",
+        "강남구 일원동 한솔아파트, 재건축 통해 960가구 단지로 재탄생"
+      ],
+      "representative_article": {
+        "title": "강남구 일원동 한솔아파트, 재건축 통해 960가구 단지로 재탄생",
+        "link": "https://www.mk.co.kr/news/realestate/12163491",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-09-29 11:01:23",
+        "match_score": 38.09
+      },
+      "related_articles": [
+        {
+          "title": "강남구 일원동 한솔아파트, 재건축 통해 960가구 단지로 재탄생",
+          "link": "https://www.mk.co.kr/news/realestate/12163491",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-09-29 11:01:23",
+          "match_score": 38.09
+        },
+        {
+          "title": "더블 역세권·1695가구 … 모아타운 덩치도 입지도 상전벽해",
+          "link": "https://www.mk.co.kr/news/realestate/12163644",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-09-30 04:27:00",
+          "match_score": 12.4
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "연금개편",
+      "reason": "여야 공방 및 특위 활동",
+      "score": 35.07,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "여야, 연금특위서 \"하후상박 연금개편 의지있나\" 한목소리 질타"
+      ],
+      "representative_article": {
+        "title": "여야, 연금특위서 \"하후상박 연금개편 의지있나\" 한목소리 질타",
+        "link": "https://www.yna.co.kr/view/AKR20260929164800001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-09-29 18:06:48",
+        "match_score": 35.07
+      },
+      "related_articles": [
+        {
+          "title": "여야, 연금특위서 \"하후상박 연금개편 의지있나\" 한목소리 질타",
+          "link": "https://www.yna.co.kr/view/AKR20260929164800001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-29 18:06:48",
+          "match_score": 35.07
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "보험료실효",
+      "reason": "매일 4000건 보험료 미납 문제",
+      "score": 5.06,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "보험료 못 내서 … 매일 4000건 보험 '실효'"
+      ],
+      "representative_article": {
+        "title": "보험료 못 내서 … 매일 4000건 보험 '실효'",
+        "link": "https://www.mk.co.kr/news/economy/12163878",
+        "source": "매일경제-경제",
+        "published_dt": "2026-09-29 17:04:13",
+        "match_score": 5.06
+      },
+      "related_articles": [
+        {
+          "title": "보험료 못 내서 … 매일 4000건 보험 '실효'",
+          "link": "https://www.mk.co.kr/news/economy/12163878",
+          "source": "매일경제-경제",
+          "published_dt": "2026-09-29 17:04:13",
+          "match_score": 5.06
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "글로벌AI",
+      "reason": "오픈AI GPT-6.1 출시 취소 이슈",
+      "score": 9.5,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "\"아스트라급 지능을 5분의 1 가격에\"…오픈AI, 'GPT-6.1 솔' 공개",
+        "오픈AI, GPT-6.1 아스트라 출시 취소…안전성 평가서 제동"
+      ],
+      "representative_article": {
+        "title": "오픈AI, GPT-6.1 아스트라 출시 취소…안전성 평가서 제동",
+        "link": "https://www.donga.com/news/It/article/all/20260929/134750884/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-09-29 13:37:04",
+        "match_score": 9.5
+      },
+      "related_articles": [
+        {
+          "title": "오픈AI, GPT-6.1 아스트라 출시 취소…안전성 평가서 제동",
+          "link": "https://www.donga.com/news/It/article/all/20260929/134750884/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-29 13:37:04",
+          "match_score": 9.5
+        },
+        {
+          "title": "\"아스트라급 지능을 5분의 1 가격에\"…오픈AI, 'GPT-6.1 솔' 공개",
+          "link": "https://www.aitimes.com/news/articleView.html?idxno=215778",
+          "source": "AI타임스",
+          "published_dt": "2026-09-30 14:54:18",
+          "match_score": 9.1
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "중동경제협력",
+      "reason": "한국-리비아 협력포럼 개최",
+      "score": 8.18,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "한국-리비아 경제협력포럼…기업 중동 진출·건설수주 지원"
+      ],
+      "representative_article": {
+        "title": "한국-리비아 경제협력포럼…기업 중동 진출·건설수주 지원",
+        "link": "https://www.yna.co.kr/view/AKR20260929177100504",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-09-29 19:30:40",
+        "match_score": 8.18
+      },
+      "related_articles": [
+        {
+          "title": "한국-리비아 경제협력포럼…기업 중동 진출·건설수주 지원",
+          "link": "https://www.yna.co.kr/view/AKR20260929177100504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-29 19:30:40",
+          "match_score": 8.18
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "아파트",
+      "score": 53.1,
+      "article_count": 11,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "부동산"
+      ],
+      "sample_titles": [
+        "“대학 몰린 곳, 집값도 올랐다”…배후수요 품은 대학교 인근 아파트, 신고가 행진",
+        "동탄1신도시 마지막 노른자 땅에 49층 아파트 들어선다",
+        "\"분당 2차 재건축은 중앙공원 몰아주기\"…탈락 45개 구역 주민 반발"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "강남구 일원동 한솔아파트, 재건축 통해 960가구 단지로 재탄생",
+        "link": "https://www.mk.co.kr/news/realestate/12163491",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-09-29 11:01:23",
+        "match_score": 38.09
+      },
+      "related_articles": [
+        {
+          "title": "강남구 일원동 한솔아파트, 재건축 통해 960가구 단지로 재탄생",
+          "link": "https://www.mk.co.kr/news/realestate/12163491",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-09-29 11:01:23",
+          "match_score": 38.09
+        },
+        {
+          "title": "“10억 쥐고 서울 아파트 찾기”…5건 중 1건은 ‘이 동네’로 몰렸다",
+          "link": "https://www.mk.co.kr/news/realestate/12163425",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-09-29 09:58:21",
+          "match_score": 38.09
+        },
+        {
+          "title": "“대학 몰린 곳, 집값도 올랐다”…배후수요 품은 대학교 인근 아파트, 신고가 행진",
+          "link": "https://www.mk.co.kr/news/realestate/12163699",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-09-29 15:34:53",
+          "match_score": 37.49
+        },
+        {
+          "title": "“좁아도 강남 집이 돈 되는 거야”…전용 28㎡ 원룸형 아파트 11.5억 ‘신고가’",
+          "link": "https://www.mk.co.kr/news/realestate/12163407",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-09-29 09:37:09",
+          "match_score": 37.49
+        },
+        {
+          "title": "“55억 아파트가 어떻게 47억에”…강남 거래한파, 마포·용산까지 덮쳐",
+          "link": "https://www.mk.co.kr/news/economy/12163457",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-09-29 10:30:02",
+          "match_score": 29.09
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "등에",
+      "score": 32.5,
+      "article_count": 9,
+      "source_count": 3,
+      "categories": [
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "[특징주] 삼성전기, 6조원대 기판 증설 소식 등에 강세 마감(종합)",
+        "누리호 5차 발사 D-7, 3단 로켓 조립으로 발사 채비 마쳐",
+        "“하마스 기습 경고 묵살 의혹” 총선 앞 궁지몰린 네타냐후"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "[특징주] 삼성전기, 6조원대 기판 증설 소식 등에 강세 마감(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260929038251008",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-09-29 15:50:20",
+        "match_score": 28.68
+      },
+      "related_articles": [
+        {
+          "title": "[특징주] 삼성전기, 6조원대 기판 증설 소식 등에 강세 마감(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260929038251008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-29 15:50:20",
+          "match_score": 28.68
+        },
+        {
+          "title": "국고채 금리 일제히 하락…전일 급등에 일부 되돌림(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260929150851008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-29 16:48:28",
+          "match_score": 26.68
+        },
+        {
+          "title": "회복 기대 커졌지만…중견기업 경기전망 여전히 ‘흐림’",
+          "link": "https://www.mk.co.kr/news/economy/12163563",
+          "source": "매일경제-경제",
+          "published_dt": "2026-09-29 13:03:07",
+          "match_score": 11.66
+        },
+        {
+          "title": "누리호 5차 발사 D-7, 3단 로켓 조립으로 발사 채비 마쳐",
+          "link": "https://www.etnews.com/20260929000177",
+          "source": "전자신문",
+          "published_dt": "2026-09-29 13:18:31",
+          "match_score": 11.5
+        },
+        {
+          "title": "“하마스 기습 경고 묵살 의혹” 총선 앞 궁지몰린 네타냐후",
+          "link": "https://www.donga.com/news/Inter/article/all/20260929/134756182/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-30 04:30:00",
+          "match_score": 11.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
