@@ -1,0 +1,146 @@
+{
+  "timestamp": "2026-10-01T06:01:12.371761",
+  "date": "20261001",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "장동혁, 충북서 농민 만나…\"李정부 농지 전수조사 목적 의심\"",
+          "link": "https://www.yna.co.kr/view/AKR20260930168200001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-30 17:37:20",
+          "description": "(충주=연합뉴스) 권희원 기자 = 국민의힘 장동혁 대표는 30일 당 지도부와 함께 충북 충주를 찾아 정부의 농지 전수 조사에 대한 농민들의 목소...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "지방/행정",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 \"어렵고 왜곡 공격 심할수록 국민과 더 직접 소통\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260930103751001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-30 20:21:05",
+          "description": "(서울=연합뉴스) 고동욱 기자 = 이재명 대통령은 30일 &quot;앞으로 기자회견이든 토론회든 현장 방문이든 루즈벨트식 &apos;노변정담&apos;이든 유튜브 생방송이...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "野 \"李대통령, 선관위 특검과 내통\"…靑 \"사실 아닌 주장 유감\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260930139051001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-30 16:57:49",
+          "description": "(서울=연합뉴스) 이정현 설승은 노선웅 기자 = 청와대는 30일 국민의힘이 이재명 대통령이 SNS에 올린 문서를 토대로 이 대통령이 선거관리위원...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "당내 정국",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李, DMZ 지뢰 부상 장병 위문... “부상자 예우, 반드시 챙겨달라”",
+          "link": "https://www.chosun.com/politics/politics_general/2026/09/30/DNJB544ORBDPJFNXJVIYLX4TF4/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-09-30 13:34:01",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        }
+      ],
+      "count": 4,
+      "role": "한국 대통령"
+    },
+    "트럼프": {
+      "articles": [
+        {
+          "title": "한달여만에 '친구 김정은' 호명 트럼프…'北에 관심' 지속 표출",
+          "link": "https://www.yna.co.kr/view/AKR20260930155300504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-30 16:46:43",
+          "description": "(서울=연합뉴스) 김지헌 기자 = 도널드 트럼프 미국 대통령이 김정은 북한 국무위원장과의 친분을 재차 강조한 것은 북미대화 가능성을 계속 열어두...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "[속보] 트럼프, 한국 대미투자 발표…‘알래스카 LNG 개발’ 포함",
+          "link": "https://www.mk.co.kr/news/world/12165488",
+          "source": "매일경제-경제",
+          "published_dt": "2026-10-01 05:37:26",
+          "description": "도널드 트럼프 미국 대통령은 30일(현지시간) 백악관 집무실에서 텍사스 가스발전소 건설, 대형 원자력발전소 8기 건설, 알래스카 액화천연가스(LNG) 개발 등 한국의 대미투자 프로..",
+          "category": "domestic",
+          "feed_url": "https://www.mk.co.kr/rss/30100041/",
+          "source_type": "economy",
+          "source_weight": 1.2,
+          "source_badge": "경제",
+          "priority_score": 2,
+          "related_full_sources": [
+            {
+              "source": "동아일보-국제",
+              "title": "[속보]트럼프, 韓 대미투자 발표…‘알래스카 LNG’ 포함",
+              "link": "https://www.donga.com/news/Inter/article/all/20261001/134765015/1"
+            }
+          ]
+        },
+        {
+          "title": "‘左 머스크-右 젠슨 황’ 앉힌 트럼프 “AI 규제, 자율에 맡길 것”",
+          "link": "https://www.donga.com/news/Inter/article/all/20260930/134764527/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-01 04:30:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/09/30/134764526.3.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령이 지난달 29일(현지 시간) 미국 빅테크 최고경영자(CEO)들을 워싱턴 백악관으로 불러 인공지능(AI)과 관련된 규제를 기업 자율에 맡기겠다고 밝혔다. AI가 인간의 통제를 벗어날 수 있다는 ‘위험론’이 확산되고 있지만, 정부 규제보다 기업 자율에 맡기겠다는 뜻을 또 한번 나타낸 것이다. 트럼프 대통령은 이날 젠슨 황 엔비디아 CEO, 일론 머스크 xAI CEO, 다리오 아모데이 앤스로픽 CEO, 마크 저커버그 메타 CEO 등 AI 기술을 선도하는 빅테크 수장들과 오찬을 가진 뒤 “(AI와 관련해) 엄청난 수준의 자율 규제가 있어야 한다는 공감대가 있다”며 “법무부나 연방수사국(FBI) 등을 통해서도 규제가 자동적으로 이뤄지고 있지만, 자율 규제는 매우 중요하다”고 말했다.● 트럼프 “중국 앞서 있고 이를 유지하고 싶어” 특히 트럼프 대통령은 중국과의 AI 패권 경쟁에 대해 “승자와 패자가 있을 거고, 아마 2등은 없을 것”이라며 미국이 앞서 있을 때",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "한숨 돌린 트럼프…美대법원 ‘불법이민자 제3국 추방’ 임시 허용",
+          "link": "https://www.donga.com/news/Inter/article/all/20260930/134758987/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-09-30 15:49:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/09/30/134760997.1.jpg\" vspace=\"10\" />미국 연방대법원이 지난달 29일 도널드 트럼프 행정부가 불법 이민자 등을 이들의 본국이 아닌 제3국으로 추방하는 정책을 당분간 시행하도록 허용했다고 로이터통신 등이 보도했다. 이 정책이 이민자의 권리를 침해한다고 판단한 하급심 판결의 효력을 일시 정지한 것으로 트럼프 대통령의 반(反)이민 정책에 힘을 실어준 결정으로 풀이된다. 연방대법원은 이날 제3국 추방 정책을 불법으로 판단한 보스턴 연방항소법원 판결의 효력을 중단해달라며 최근 법무부가 제기한 긴급 요청을 받아들였다. 종신직인 연방대법관 9명 중 보수 성향 대법관 6명이 찬성했고 진보 성향 대법관 3명은 반대했다. 이에 따라 트럼프 행정부는 최종 추방 명령을 받은 이민자를 본국으로 돌려보낼 수 없거나 해당 국가가 입국을 받아들이지 않을 경우 제3국으로 보내는 정책을 당분간 계속 시행할 수 있게 됐다.다만 정책의 적법성에 대한 최종 판단은 아직 결정되지 않았다. 대법원은 오는 12월 이 정책의 적법성을 놓고 변론을 진행할 예정이",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 4,
+      "role": "미국 대통령"
+    }
+  }
+}

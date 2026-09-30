@@ -1,0 +1,369 @@
+{
+  "timestamp": "2026-10-01T06:01:22.919912",
+  "date": "20261001",
+  "data": [
+    {
+      "keyword": "북한 지뢰 도발",
+      "reason": "여러 기사에서 北 지뢰 사고 언급",
+      "score": 5.67,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "국힘, 외통위 단독으로 열어 \"北 지뢰 도발에도 정부 책임 방기\""
+      ],
+      "representative_article": {
+        "title": "국힘, 외통위 단독으로 열어 \"北 지뢰 도발에도 정부 책임 방기\"",
+        "link": "https://www.yna.co.kr/view/AKR20260930134200001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-09-30 15:21:26",
+        "match_score": 5.67
+      },
+      "related_articles": [
+        {
+          "title": "국힘, 외통위 단독으로 열어 \"北 지뢰 도발에도 정부 책임 방기\"",
+          "link": "https://www.yna.co.kr/view/AKR20260930134200001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-30 15:21:26",
+          "match_score": 5.67
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "D램 낸드 가격",
+      "reason": "반도체 가격 상승과 둔화 현상",
+      "score": 21.12,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "9월 D램·낸드 가격 또 역대 최고…상승폭은 둔화",
+        "9월 D램·낸드 가격 또 역대 최고…상승폭은 둔화"
+      ],
+      "representative_article": {
+        "title": "9월 D램·낸드 가격 또 역대 최고…상승폭은 둔화",
+        "link": "https://www.yna.co.kr/view/AKR20260930184700003",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-09-30 19:37:07",
+        "match_score": 21.12
+      },
+      "related_articles": [
+        {
+          "title": "9월 D램·낸드 가격 또 역대 최고…상승폭은 둔화",
+          "link": "https://www.yna.co.kr/view/AKR20260930184700003",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-30 19:37:07",
+          "match_score": 21.12
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "한화생명 인수",
+      "reason": "애큐온캐피탈·저축은행 인수",
+      "score": 11.98,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "한화생명, 애큐온캐피탈·저축은행 품는다…\"종합금융그룹 구축\"(종합)",
+        "한화생명 \"애큐온캐피탈 주식 4천400억원에 취득…지분율 50.5%\"",
+        "한화생명, 애큐온캐피탈·저축은행 품는다…\"종합금융그룹 구축\"(종합)"
+      ],
+      "representative_article": {
+        "title": "한화생명, 애큐온캐피탈·저축은행 품는다…\"종합금융그룹 구축\"(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260930160351008",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-09-30 18:25:21",
+        "match_score": 11.98
+      },
+      "related_articles": [
+        {
+          "title": "한화생명, 애큐온캐피탈·저축은행 품는다…\"종합금융그룹 구축\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260930160351008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-30 18:25:21",
+          "match_score": 11.98
+        },
+        {
+          "title": "한화생명 \"애큐온캐피탈 주식 4천400억원에 취득…지분율 50.5%\"",
+          "link": "https://www.yna.co.kr/view/AKR20260930160300008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-09-30 16:54:26",
+          "match_score": 8.68
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI 산업",
+      "reason": "AI 플랫폼·로봇 기술 확장",
+      "score": 5.08,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "반도체·이차전지·바이오 이어 로봇…경북 '첨단산업 4축' 완성"
+      ],
+      "representative_article": {
+        "title": "반도체·이차전지·바이오 이어 로봇…경북 '첨단산업 4축' 완성",
+        "link": "https://www.yna.co.kr/view/AKR20260930157500053",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-09-30 16:56:49",
+        "match_score": 5.08
+      },
+      "related_articles": [
+        {
+          "title": "반도체·이차전지·바이오 이어 로봇…경북 '첨단산업 4축' 완성",
+          "link": "https://www.yna.co.kr/view/AKR20260930157500053",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-09-30 16:56:49",
+          "match_score": 5.08
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재개발 재건축",
+      "reason": "서울 등 도심 주택 공급 확대",
+      "score": 17.45,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "서울 재개발·재건축, 3년간 2만 가구 늘렸다"
+      ],
+      "representative_article": {
+        "title": "서울 재개발·재건축, 3년간 2만 가구 늘렸다",
+        "link": "https://www.chosun.com/economy/real_estate/2026/10/01/OKOOH7Y6FJAADIQG5NLYOEKLV4/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-10-01 00:32:00",
+        "match_score": 17.45
+      },
+      "related_articles": [
+        {
+          "title": "서울 재개발·재건축, 3년간 2만 가구 늘렸다",
+          "link": "https://www.chosun.com/economy/real_estate/2026/10/01/OKOOH7Y6FJAADIQG5NLYOEKLV4/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-10-01 00:32:00",
+          "match_score": 17.45
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "한미 투자협력",
+      "reason": "트럼프 한국 투자 발표",
+      "score": 5.06,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "[속보] 트럼프, 한국 대미투자 발표…‘알래스카 LNG 개발’ 포함"
+      ],
+      "representative_article": {
+        "title": "[속보] 트럼프, 한국 대미투자 발표…‘알래스카 LNG 개발’ 포함",
+        "link": "https://www.mk.co.kr/news/world/12165488",
+        "source": "매일경제-경제",
+        "published_dt": "2026-10-01 05:37:26",
+        "match_score": 5.06
+      },
+      "related_articles": [
+        {
+          "title": "[속보] 트럼프, 한국 대미투자 발표…‘알래스카 LNG 개발’ 포함",
+          "link": "https://www.mk.co.kr/news/world/12165488",
+          "source": "매일경제-경제",
+          "published_dt": "2026-10-01 05:37:26",
+          "match_score": 5.06
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "산업활동 감소",
+      "reason": "파업, 엔저, 조업일수 영향",
+      "score": 11.06,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "파업·조업일수 감소·엔저 겹악재…8월 산업활동 석달만에 ‘트리플 감소’",
+        "파업·조업일수 감소·엔저 겹악재…8월 산업활동 석달만에 ‘트리플 감소’"
+      ],
+      "representative_article": {
+        "title": "파업·조업일수 감소·엔저 겹악재…8월 산업활동 석달만에 ‘트리플 감소’",
+        "link": "https://www.mk.co.kr/news/economy/12164862",
+        "source": "매일경제-경제",
+        "published_dt": "2026-09-30 15:05:10",
+        "match_score": 11.06
+      },
+      "related_articles": [
+        {
+          "title": "파업·조업일수 감소·엔저 겹악재…8월 산업활동 석달만에 ‘트리플 감소’",
+          "link": "https://www.mk.co.kr/news/economy/12164862",
+          "source": "매일경제-경제",
+          "published_dt": "2026-09-30 15:05:10",
+          "match_score": 11.06
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "국내 금융 변화",
+      "reason": "초과세수·국채 발행 조정",
+      "score": 8.06,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "초과세수 63.2조원 국채발행 일부축소"
+      ],
+      "representative_article": {
+        "title": "초과세수 63.2조원 국채발행 일부축소",
+        "link": "https://www.mk.co.kr/news/economy/12165216",
+        "source": "매일경제-경제",
+        "published_dt": "2026-09-30 17:43:16",
+        "match_score": 8.06
+      },
+      "related_articles": [
+        {
+          "title": "초과세수 63.2조원 국채발행 일부축소",
+          "link": "https://www.mk.co.kr/news/economy/12165216",
+          "source": "매일경제-경제",
+          "published_dt": "2026-09-30 17:43:16",
+          "match_score": 8.06
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "법적 분쟁",
+      "reason": "국책은행 투자 외압, 낙하산 인사",
+      "score": 8.08,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업",
+        "정치"
+      ],
+      "sample_titles": [
+        "주진우 \"국책은행, '암살자(들)'에 300억 투자…외압 규명해야\""
+      ],
+      "representative_article": {
+        "title": "주진우 \"국책은행, '암살자(들)'에 300억 투자…외압 규명해야\"",
+        "link": "https://www.yna.co.kr/view/AKR20260930142700001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-09-30 16:26:15",
+        "match_score": 8.08
+      },
+      "related_articles": [
+        {
+          "title": "주진우 \"국책은행, '암살자(들)'에 300억 투자…외압 규명해야\"",
+          "link": "https://www.yna.co.kr/view/AKR20260930142700001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-30 16:26:15",
+          "match_score": 8.08
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 9,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "국민의힘",
+      "score": 42.3,
+      "article_count": 9,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "국힘 재경위원 \"88조원 빗나간 엉터리 세수추계 사과해야\"",
+        "국힘, '검찰청 폐지' 하루 앞두고 오늘 중수청 앞서 현장 의총",
+        "장동혁, 충북서 농민 만나…\"李정부 농지 전수조사 목적 의심\""
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "음주운전한 울산시의원, 국민의힘 탈당…\"잘못된 행동 사죄\"",
+        "link": "https://www.yna.co.kr/view/AKR20260930135000057",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-09-30 15:20:42",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "음주운전한 울산시의원, 국민의힘 탈당…\"잘못된 행동 사죄\"",
+          "link": "https://www.yna.co.kr/view/AKR20260930135000057",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-30 15:20:42",
+          "match_score": 37.67
+        },
+        {
+          "title": "국힘, '검찰청 폐지' 하루 앞두고 오늘 중수청 앞서 현장 의총",
+          "link": "https://www.yna.co.kr/view/AKR20260930174100001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-01 05:00:01",
+          "match_score": 12.68
+        },
+        {
+          "title": "'계엄표결 방해' 추경호에 징역 20년 구형…11월18일 선고(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260930134051004",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-30 17:09:24",
+          "match_score": 12.68
+        },
+        {
+          "title": "野 \"李대통령, 선관위 특검과 내통\"…靑 \"사실 아닌 주장 유감\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260930139051001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-30 16:57:49",
+          "match_score": 12.68
+        },
+        {
+          "title": "국힘 재경위원 \"88조원 빗나간 엉터리 세수추계 사과해야\"",
+          "link": "https://www.yna.co.kr/view/AKR20260930175500001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-09-30 17:54:09",
+          "match_score": 11.82
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
