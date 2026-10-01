@@ -1,0 +1,508 @@
+{
+  "timestamp": "2026-10-02T06:01:42.412206",
+  "date": "20261002",
+  "data": [
+    {
+      "keyword": "알래스카 LNG",
+      "reason": "대미 투자 및 사업 논의 반복",
+      "score": 46.9,
+      "article_count": 6,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "美 대미투자 발표에 성과 부각 나선 與…알래스카 사업엔 선긋기(종합)",
+        "與 사무총장 “알래스카 LNG 프로젝트 투자 확정 아냐”",
+        "500억불 투자 VS 미정…알래스카 LNG 대미투자 새 '뇌관'(종합2보)"
+      ],
+      "representative_article": {
+        "title": "트럼프는 못박았지만…李 “알래스카 LNG, 상업성 전제로 착수”",
+        "link": "https://www.donga.com/news/Politics/article/all/20261001/134767884/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-10-01 14:30:00",
+        "match_score": 46.9
+      },
+      "related_articles": [
+        {
+          "title": "트럼프는 못박았지만…李 “알래스카 LNG, 상업성 전제로 착수”",
+          "link": "https://www.donga.com/news/Politics/article/all/20261001/134767884/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-01 14:30:00",
+          "match_score": 46.9
+        },
+        {
+          "title": "500억불 투자 VS 미정…알래스카 LNG 대미투자 새 '뇌관'(종합2보)",
+          "link": "https://www.yna.co.kr/view/AKR20261001016452003",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-10-01 16:20:19",
+          "match_score": 40.23
+        },
+        {
+          "title": "與 사무총장 “알래스카 LNG 프로젝트 투자 확정 아냐”",
+          "link": "https://www.chosun.com/politics/assembly/2026/10/01/OSU7D4KPMFDGFK6T2YHQYLY2G4/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-10-01 08:51:56",
+          "match_score": 36.5
+        },
+        {
+          "title": "대미투자 첫발 뗐지만… ‘알래스카LNG’ 동상이몽",
+          "link": "https://www.donga.com/news/Economy/article/all/20261002/134772254/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-02 04:30:00",
+          "match_score": 34.7
+        },
+        {
+          "title": "김정관 “알래스카 투자, 美와 입장 달라”…트럼프 일방발표 반박",
+          "link": "https://www.donga.com/news/Inter/article/all/20261001/134769062/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-01 16:13:00",
+          "match_score": 9.0
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "반도체",
+      "reason": "수출 증가와 산업 투자 강조",
+      "score": 38.88,
+      "article_count": 8,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "'마이크론·반도체 수출' 훈풍에 7천피 턱밑…코스닥 4.48% 급등(종합)",
+        "외국인은 팔았지만…삼전닉스, 3% 안팎 급등 마감(종합)",
+        "9월 수출 1200억달러 고지 넘었다… 반도체 603억달러 ‘역대 최고’"
+      ],
+      "representative_article": {
+        "title": "마이크론·수출로 확인한 반도체 수요…증시 상승탄력 촉매될까(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261001085451008",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-10-01 16:54:08",
+        "match_score": 38.88
+      },
+      "related_articles": [
+        {
+          "title": "마이크론·수출로 확인한 반도체 수요…증시 상승탄력 촉매될까(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261001085451008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-10-01 16:54:08",
+          "match_score": 38.88
+        },
+        {
+          "title": "9월 수출 1200억달러 고지 넘었다… 반도체 603억달러 ‘역대 최고’",
+          "link": "https://www.mk.co.kr/news/economy/12165932",
+          "source": "매일경제-경제",
+          "published_dt": "2026-10-01 12:36:16",
+          "match_score": 38.86
+        },
+        {
+          "title": "청주 오창에 첨단반도체기술융합관 개소…국제공인 등 지원",
+          "link": "https://www.yna.co.kr/view/AKR20261001169800064",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-10-01 17:01:46",
+          "match_score": 37.97
+        },
+        {
+          "title": "여의도 6배 흙·암반 걷어내 … 용인 반도체산단 '속도전'",
+          "link": "https://www.mk.co.kr/news/realestate/12166276",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-01 17:14:30",
+          "match_score": 35.79
+        },
+        {
+          "title": "“첨단산업 투자, 빠르게”…전기차 전환 행정단축·반도체 팹 증설속도↑",
+          "link": "https://www.mk.co.kr/news/economy/12165574",
+          "source": "매일경제-경제",
+          "published_dt": "2026-10-01 08:42:33",
+          "match_score": 31.06
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "서울 아파트값",
+      "reason": "86주 연속 상승 및 시장 변화",
+      "score": 35.09,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "[속보] 강남이 꺾여도 오른다…서울 아파트값, 역대 최장 86주 연속 상승",
+        "“86주 연속 상승, 文정부 최장 기록 깼다”…3040 맞벌이가 떠받친 서울 집값"
+      ],
+      "representative_article": {
+        "title": "[속보] 강남이 꺾여도 오른다…서울 아파트값, 역대 최장 86주 연속 상승",
+        "link": "https://www.mk.co.kr/news/realestate/12165942",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-10-01 14:00:00",
+        "match_score": 35.09
+      },
+      "related_articles": [
+        {
+          "title": "[속보] 강남이 꺾여도 오른다…서울 아파트값, 역대 최장 86주 연속 상승",
+          "link": "https://www.mk.co.kr/news/realestate/12165942",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-01 14:00:00",
+          "match_score": 35.09
+        },
+        {
+          "title": "“86주 연속 상승, 文정부 최장 기록 깼다”…3040 맞벌이가 떠받친 서울 집값",
+          "link": "https://www.mk.co.kr/news/realestate/12166080",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-01 14:58:30",
+          "match_score": 6.59
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI 기술",
+      "reason": "기업 신기술 개발과 보안 이슈 확산",
+      "score": 9.8,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "국가AI전략위 “AI 속도조절 없다”…역량 키우며 검증·통제 강화 제안"
+      ],
+      "representative_article": {
+        "title": "국가AI전략위 “AI 속도조절 없다”…역량 키우며 검증·통제 강화 제안",
+        "link": "https://www.etnews.com/20261001000397",
+        "source": "전자신문",
+        "published_dt": "2026-10-01 15:29:39",
+        "match_score": 9.8
+      },
+      "related_articles": [
+        {
+          "title": "국가AI전략위 “AI 속도조절 없다”…역량 키우며 검증·통제 강화 제안",
+          "link": "https://www.etnews.com/20261001000397",
+          "source": "전자신문",
+          "published_dt": "2026-10-01 15:29:39",
+          "match_score": 9.8
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "원전 수출",
+      "reason": "한전기술과 한국형 원전 미국 진출",
+      "score": 18.27,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "[특징주] 한전기술, '한미 원전 프레임워크' 합의에 강세 마감(종합)",
+        "'K-원전' 미국 진출 시동…원전수출기획위, 대미투자 후속 논의"
+      ],
+      "representative_article": {
+        "title": "'K-원전' 미국 진출 시동…원전수출기획위, 대미투자 후속 논의",
+        "link": "https://www.yna.co.kr/view/AKR20261001158000003",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-10-01 16:21:36",
+        "match_score": 18.27
+      },
+      "related_articles": [
+        {
+          "title": "'K-원전' 미국 진출 시동…원전수출기획위, 대미투자 후속 논의",
+          "link": "https://www.yna.co.kr/view/AKR20261001158000003",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-10-01 16:21:36",
+          "match_score": 18.27
+        },
+        {
+          "title": "[특징주] 한전기술, '한미 원전 프레임워크' 합의에 강세 마감(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261001044251008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-10-01 16:12:32",
+          "match_score": 5.17
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "대미 투자",
+      "reason": "정부와 기업 투자 확대 움직임",
+      "score": 39.7,
+      "article_count": 7,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업",
+        "정치"
+      ],
+      "sample_titles": [
+        "美 대미투자 발표에 성과 부각 나선 與…알래스카 사업엔 선긋기(종합)",
+        "500억불 투자 VS 미정…알래스카 LNG 대미투자 새 '뇌관'(종합2보)",
+        "'K-원전' 미국 진출 시동…원전수출기획위, 대미투자 후속 논의"
+      ],
+      "representative_article": {
+        "title": "김정관 “대미 투자로 15% 관세 상한선 재확인…혈세 한 푼도 허투루 안써”",
+        "link": "https://www.donga.com/news/Politics/article/all/20261001/134765502/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-10-01 09:08:00",
+        "match_score": 39.7
+      },
+      "related_articles": [
+        {
+          "title": "김정관 “대미 투자로 15% 관세 상한선 재확인…혈세 한 푼도 허투루 안써”",
+          "link": "https://www.donga.com/news/Politics/article/all/20261001/134765502/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-01 09:08:00",
+          "match_score": 39.7
+        },
+        {
+          "title": "500억불 투자 VS 미정…알래스카 LNG 대미투자 새 '뇌관'(종합2보)",
+          "link": "https://www.yna.co.kr/view/AKR20261001016452003",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-10-01 16:20:19",
+          "match_score": 26.22
+        },
+        {
+          "title": "美 대미투자 발표에 성과 부각 나선 與…알래스카 사업엔 선긋기(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261001095951001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-01 16:12:06",
+          "match_score": 21.07
+        },
+        {
+          "title": "대미투자 첫발 뗐지만… ‘알래스카LNG’ 동상이몽",
+          "link": "https://www.donga.com/news/Economy/article/all/20261002/134772254/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-02 04:30:00",
+          "match_score": 16.7
+        },
+        {
+          "title": "'K-원전' 미국 진출 시동…원전수출기획위, 대미투자 후속 논의",
+          "link": "https://www.yna.co.kr/view/AKR20261001158000003",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-10-01 16:21:36",
+          "match_score": 15.07
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "중국 수출 중단",
+      "reason": "석유제품 수출 및 국제 긴장 영향",
+      "score": 8.38,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "국제"
+      ],
+      "sample_titles": [
+        "中 석유제품 수출 중단에 美 추가파병까지…브렌트유 4%대 급등"
+      ],
+      "representative_article": {
+        "title": "中 석유제품 수출 중단에 美 추가파병까지…브렌트유 4%대 급등",
+        "link": "https://www.yna.co.kr/view/AKR20261002006600072",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-10-02 05:22:03",
+        "match_score": 8.38
+      },
+      "related_articles": [
+        {
+          "title": "中 석유제품 수출 중단에 美 추가파병까지…브렌트유 4%대 급등",
+          "link": "https://www.yna.co.kr/view/AKR20261002006600072",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-10-02 05:22:03",
+          "match_score": 8.38
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "금리 인상",
+      "reason": "경제 불확실성 속 금리 영향 언급",
+      "score": 4.36,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "“긴축의 시대 투자로 정면돌파” … 서울머니쇼+에 초대합니다"
+      ],
+      "representative_article": {
+        "title": "“긴축의 시대 투자로 정면돌파” … 서울머니쇼+에 초대합니다",
+        "link": "https://www.mk.co.kr/news/economy/12166434",
+        "source": "매일경제-경제",
+        "published_dt": "2026-10-02 05:00:00",
+        "match_score": 4.36
+      },
+      "related_articles": [
+        {
+          "title": "“긴축의 시대 투자로 정면돌파” … 서울머니쇼+에 초대합니다",
+          "link": "https://www.mk.co.kr/news/economy/12166434",
+          "source": "매일경제-경제",
+          "published_dt": "2026-10-02 05:00:00",
+          "match_score": 4.36
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "등에",
+      "score": 34.5,
+      "article_count": 9,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "부동산"
+      ],
+      "sample_titles": [
+        "수출 훈풍 등에 코스피 4거래일 만에 상승 마감 - YTN",
+        "'라누보 한남' 강제경매 되나...한화갤러리아, 차가원 피아크 회장에 승소",
+        "“美 민주, 하원 다수당 확률 75%”… 현실화땐 트럼프 코너 몰릴듯"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "수출 훈풍 등에 코스피 4거래일 만에 상승 마감 - YTN",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5vSkdBai11Y0xzbWtlQVVncXJUS05JaVk1WDhqVjNsbk1kcDRudUZiYi1Zb1JCTmV6ZjlyOEc4WW9tbUV0YVRtNnpMR2FQbkZuOHhfRnZnQTdSeXQ5M1B2clpfQ082MDhCRzBMVUFVbw?oc=5",
+        "source": "키워드-금리환율코스피",
+        "published_dt": "2026-10-01 16:31:00",
+        "match_score": 36.96
+      },
+      "related_articles": [
+        {
+          "title": "수출 훈풍 등에 코스피 4거래일 만에 상승 마감 - YTN",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5vSkdBai11Y0xzbWtlQVVncXJUS05JaVk1WDhqVjNsbk1kcDRudUZiYi1Zb1JCTmV6ZjlyOEc4WW9tbUV0YVRtNnpMR2FQbkZuOHhfRnZnQTdSeXQ5M1B2clpfQ082MDhCRzBMVUFVbw?oc=5",
+          "source": "키워드-금리환율코스피",
+          "published_dt": "2026-10-01 16:31:00",
+          "match_score": 36.96
+        },
+        {
+          "title": "'라누보 한남' 강제경매 되나...한화갤러리아, 차가원 피아크 회장에 승소",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/10/01/2026100102013.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-10-01 13:24:02",
+          "match_score": 11.5
+        },
+        {
+          "title": "“美 민주, 하원 다수당 확률 75%”… 현실화땐 트럼프 코너 몰릴듯",
+          "link": "https://www.donga.com/news/Inter/article/all/20261002/134772171/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-02 04:30:00",
+          "match_score": 11.3
+        },
+        {
+          "title": "대선 앞둔 룰라 “온라인 도박 금지”에… 브라질 축구계 “구단 파산”",
+          "link": "https://www.donga.com/news/Inter/article/all/20261001/134772240/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-02 04:30:00",
+          "match_score": 11.3
+        },
+        {
+          "title": "승무원이 카트 밀다 건드렸다고…무릎 꿇린 中승객 눈살",
+          "link": "https://www.donga.com/news/Inter/article/all/20261001/134770570/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-01 17:55:00",
+          "match_score": 11.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "같은",
+      "score": 41.0,
+      "article_count": 8,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업",
+        "부동산",
+        "정치"
+      ],
+      "sample_titles": [
+        "靑 정책실장에 하준경 승진…외교특보 송영길·경제수석 문신학",
+        "“사람 대신 로봇 쓰면 같은 세금 내라”…빌 게이츠, ‘로봇세’ 다시 꺼냈다",
+        "주식·채권도 토큰증권으로…장외거래 투자한도 연 1억까지"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "“사람 대신 로봇 쓰면 같은 세금 내라”…빌 게이츠, ‘로봇세’ 다시 꺼냈다",
+        "link": "https://www.donga.com/news/Inter/article/all/20261001/134769705/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-10-01 17:39:16",
+        "match_score": 37.3
+      },
+      "related_articles": [
+        {
+          "title": "“사람 대신 로봇 쓰면 같은 세금 내라”…빌 게이츠, ‘로봇세’ 다시 꺼냈다",
+          "link": "https://www.donga.com/news/Inter/article/all/20261001/134769705/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-01 17:39:16",
+          "match_score": 37.3
+        },
+        {
+          "title": "'같은 원자' 쌓는 순서만 바꿨더니…재료 한계 넘었다",
+          "link": "https://www.yna.co.kr/view/AKR20261001140300017",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-10-02 03:00:01",
+          "match_score": 28.68
+        },
+        {
+          "title": "靑 정책실장에 하준경 승진…외교특보 송영길·경제수석 문신학",
+          "link": "https://www.etnews.com/20261001000363",
+          "source": "전자신문",
+          "published_dt": "2026-10-01 14:45:58",
+          "match_score": 11.5
+        },
+        {
+          "title": "주식·채권도 토큰증권으로…장외거래 투자한도 연 1억까지",
+          "link": "https://www.etnews.com/20261001000297",
+          "source": "전자신문",
+          "published_dt": "2026-10-01 13:37:22",
+          "match_score": 11.5
+        },
+        {
+          "title": "온누리상품권 18년 만에 대수술…전통시장·지방상권 할인 2배 상향 추진",
+          "link": "https://www.etnews.com/20261001000306",
+          "source": "전자신문",
+          "published_dt": "2026-10-01 13:48:44",
+          "match_score": 11.5
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
