@@ -1,0 +1,386 @@
+{
+  "timestamp": "2026-10-03T06:01:08.045906",
+  "date": "20261003",
+  "data": [
+    {
+      "keyword": "AI 해킹",
+      "reason": "금융권 고객정보 유출 피해 확산",
+      "score": 43.06,
+      "article_count": 4,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "“하마터면 5대 은행 다 뚫릴 뻔”…AI 해킹에 3곳 고객정보 유출",
+        "5대은행 다 공격당했다 … AI 해킹에 떠는 금융사",
+        "은행 6곳에 무차별 ‘AI 해킹’… 4곳은 개인정보 유출"
+      ],
+      "representative_article": {
+        "title": "“하마터면 5대 은행 다 뚫릴 뻔”…AI 해킹에 3곳 고객정보 유출",
+        "link": "https://www.mk.co.kr/news/economy/12167528",
+        "source": "매일경제-경제",
+        "published_dt": "2026-10-02 20:28:49",
+        "match_score": 43.06
+      },
+      "related_articles": [
+        {
+          "title": "“하마터면 5대 은행 다 뚫릴 뻔”…AI 해킹에 3곳 고객정보 유출",
+          "link": "https://www.mk.co.kr/news/economy/12167528",
+          "source": "매일경제-경제",
+          "published_dt": "2026-10-02 20:28:49",
+          "match_score": 43.06
+        },
+        {
+          "title": "5대은행 다 공격당했다 … AI 해킹에 떠는 금융사",
+          "link": "https://www.mk.co.kr/news/economy/12167516",
+          "source": "매일경제-경제",
+          "published_dt": "2026-10-02 19:51:04",
+          "match_score": 31.56
+        },
+        {
+          "title": "은행 6곳에 무차별 ‘AI 해킹’… 4곳은 개인정보 유출",
+          "link": "https://www.chosun.com/economy/stock-finance/2026/10/03/VO3T7UJY6FC4DII4PVJXLAHBQ4/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-10-03 00:54:00",
+          "match_score": 30.7
+        },
+        {
+          "title": "신한·국민·하나 줄줄이 뚫렸다…은행권 번지는 ‘AI 해킹’ 공포",
+          "link": "https://www.chosun.com/economy/stock-finance/2026/10/02/MM4DCMDGGZSDSNZXGM2TOYRVGQ/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-10-02 20:00:30",
+          "match_score": 30.1
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재건축",
+      "reason": "대규모 사업 우선협상 및 단지명 제안",
+      "score": 40.71,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "GS건설, 1.7조 규모 목동12단지 재건축 우선협상대상자 선정 - 머니투데이 - 머니투데이"
+      ],
+      "representative_article": {
+        "title": "GS건설, 1.7조 규모 목동12단지 재건축 우선협상대상자 선정 - 머니투데이 - 머니투데이",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1KVjA2Z0xRSDRvRmJXQng1bUZFSFY5a2tpMllVTldESC1CaTBraWpxUHU0bV9zRmZVajRmSFFDVW1lSTdYWmZuZE9xY25DVDRXTjZfbnBDdmlia3hUWlFHdXRsNWpSLXRzbmFjN3cxUdIBb0FVX3lxTE1KVjA2Z0xRSDRvRmJXQng1bUZFSFY5a2tpMllVTldESC1CaTBraWpxUHU0bV9zRmZVajRmSFFDVW1lSTdYWmZuZE9xY25DVDRXTjZfbnBDdmlia3hUWlFHdXRsNWpSLXRzbmFjN3cxUQ?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-10-02 19:30:21",
+        "match_score": 40.71
+      },
+      "related_articles": [
+        {
+          "title": "GS건설, 1.7조 규모 목동12단지 재건축 우선협상대상자 선정 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1KVjA2Z0xRSDRvRmJXQng1bUZFSFY5a2tpMllVTldESC1CaTBraWpxUHU0bV9zRmZVajRmSFFDVW1lSTdYWmZuZE9xY25DVDRXTjZfbnBDdmlia3hUWlFHdXRsNWpSLXRzbmFjN3cxUdIBb0FVX3lxTE1KVjA2Z0xRSDRvRmJXQng1bUZFSFY5a2tpMllVTldESC1CaTBraWpxUHU0bV9zRmZVajRmSFFDVW1lSTdYWmZuZE9xY25DVDRXTjZfbnBDdmlia3hUWlFHdXRsNWpSLXRzbmFjN3cxUQ?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-10-02 19:30:21",
+          "match_score": 40.71
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "총파업",
+      "reason": "삼성바이오로직스 노조 장기 파업 예고",
+      "score": 43.0,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "삼성바이오 노조, 2차 총파업 예고…“26일부터 3주간 총파업”",
+        "삼성바이오로직스 2차 총파업…10월 26일 돌입 예고"
+      ],
+      "representative_article": {
+        "title": "삼성바이오로직스 2차 총파업…10월 26일 돌입 예고",
+        "link": "https://www.chosun.com/economy/science/2026/10/02/HE2TGNZWG5STGYLDMI4TKNTGG4/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-10-02 18:08:26",
+        "match_score": 43.0
+      },
+      "related_articles": [
+        {
+          "title": "삼성바이오로직스 2차 총파업…10월 26일 돌입 예고",
+          "link": "https://www.chosun.com/economy/science/2026/10/02/HE2TGNZWG5STGYLDMI4TKNTGG4/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-10-02 18:08:26",
+          "match_score": 43.0
+        },
+        {
+          "title": "삼성바이오 노조, 2차 총파업 예고…“26일부터 3주간 총파업”",
+          "link": "https://www.etnews.com/20261002000222",
+          "source": "전자신문",
+          "published_dt": "2026-10-02 17:31:38",
+          "match_score": 42.2
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "석유투자",
+      "reason": "84억 달러 석유 프로젝트 논란",
+      "score": 7.33,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "국제"
+      ],
+      "sample_titles": [
+        "산업부 \"트럼프 언급 84억불 석유프로젝트, 배경 확인 중\""
+      ],
+      "representative_article": {
+        "title": "산업부 \"트럼프 언급 84억불 석유프로젝트, 배경 확인 중\"",
+        "link": "https://www.yna.co.kr/view/AKR20261002185600003",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-10-02 23:38:02",
+        "match_score": 7.33
+      },
+      "related_articles": [
+        {
+          "title": "산업부 \"트럼프 언급 84억불 석유프로젝트, 배경 확인 중\"",
+          "link": "https://www.yna.co.kr/view/AKR20261002185600003",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-10-02 23:38:02",
+          "match_score": 7.33
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "글로벌 금융시장",
+      "reason": "국채 금리 변동과 지수 변동성",
+      "score": 14.8,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "국제"
+      ],
+      "sample_titles": [
+        "美국채금리 최고치 하루만에 경신… ‘금리발작’ 유럽으로"
+      ],
+      "representative_article": {
+        "title": "美국채금리 최고치 하루만에 경신… ‘금리발작’ 유럽으로",
+        "link": "https://www.donga.com/news/Economy/article/all/20261002/134779191/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-10-03 01:40:00",
+        "match_score": 14.8
+      },
+      "related_articles": [
+        {
+          "title": "美국채금리 최고치 하루만에 경신… ‘금리발작’ 유럽으로",
+          "link": "https://www.donga.com/news/Economy/article/all/20261002/134779191/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-03 01:40:00",
+          "match_score": 14.8
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "평화경제특구",
+      "reason": "강원 고성군 평화경제 특구 추진",
+      "score": 43.38,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "강원 고성군, 평화경제특구 도전…화진포·대진 관광 거점 조성"
+      ],
+      "representative_article": {
+        "title": "강원 고성군, 평화경제특구 도전…화진포·대진 관광 거점 조성",
+        "link": "https://www.yna.co.kr/view/AKR20261002155100062",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-10-02 17:24:38",
+        "match_score": 43.38
+      },
+      "related_articles": [
+        {
+          "title": "강원 고성군, 평화경제특구 도전…화진포·대진 관광 거점 조성",
+          "link": "https://www.yna.co.kr/view/AKR20261002155100062",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-02 17:24:38",
+          "match_score": 43.38
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "국채 금리",
+      "reason": "미·영 국채 금리 고공행진",
+      "score": 42.7,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "국제"
+      ],
+      "sample_titles": [
+        "美국채금리 최고치 하루만에 경신… ‘금리발작’ 유럽으로",
+        "글로벌 국채 금리 고공행진…英 30년물, 장중 28년 만 최고치"
+      ],
+      "representative_article": {
+        "title": "글로벌 국채 금리 고공행진…英 30년물, 장중 28년 만 최고치",
+        "link": "https://www.donga.com/news/Inter/article/all/20261002/134773452/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-10-02 09:04:25",
+        "match_score": 42.7
+      },
+      "related_articles": [
+        {
+          "title": "글로벌 국채 금리 고공행진…英 30년물, 장중 28년 만 최고치",
+          "link": "https://www.donga.com/news/Inter/article/all/20261002/134773452/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-02 09:04:25",
+          "match_score": 42.7
+        },
+        {
+          "title": "美국채금리 최고치 하루만에 경신… ‘금리발작’ 유럽으로",
+          "link": "https://www.donga.com/news/Economy/article/all/20261002/134779191/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-03 01:40:00",
+          "match_score": 25.7
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "삼성바이오",
+      "reason": "총파업 및 노사 갈등",
+      "score": 38.8,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "삼성바이오 노조, 2차 총파업 예고…“26일부터 3주간 총파업”",
+        "삼성바이오로직스 2차 총파업…10월 26일 돌입 예고"
+      ],
+      "representative_article": {
+        "title": "삼성바이오로직스 2차 총파업…10월 26일 돌입 예고",
+        "link": "https://www.chosun.com/economy/science/2026/10/02/HE2TGNZWG5STGYLDMI4TKNTGG4/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-10-02 18:08:26",
+        "match_score": 38.8
+      },
+      "related_articles": [
+        {
+          "title": "삼성바이오로직스 2차 총파업…10월 26일 돌입 예고",
+          "link": "https://www.chosun.com/economy/science/2026/10/02/HE2TGNZWG5STGYLDMI4TKNTGG4/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-10-02 18:08:26",
+          "match_score": 38.8
+        },
+        {
+          "title": "삼성바이오 노조, 2차 총파업 예고…“26일부터 3주간 총파업”",
+          "link": "https://www.etnews.com/20261002000222",
+          "source": "전자신문",
+          "published_dt": "2026-10-02 17:31:38",
+          "match_score": 38.7
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "국고채",
+      "reason": "국내 채권시장 강세",
+      "score": 38.88,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "국고채, 당국의지·美금리 하락에 강세…3년물 3%대로(종합)"
+      ],
+      "representative_article": {
+        "title": "국고채, 당국의지·美금리 하락에 강세…3년물 3%대로(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261002144200008",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-10-02 16:46:36",
+        "match_score": 38.88
+      },
+      "related_articles": [
+        {
+          "title": "국고채, 당국의지·美금리 하락에 강세…3년물 3%대로(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261002144200008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-10-02 16:46:36",
+          "match_score": 38.88
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 9,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "우크라 사",
+      "reason": "대북 강경 대응 배경",
+      "score": 30.88,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "李 “우크라 사과 거부땐 추가 조치”… 北포로 송환 공개 두고 초강경 대응",
+        "李대통령 \"우크라 사과 거부시 조치\"…일각 현지 대사 소환 거론(종합)"
+      ],
+      "representative_article": {
+        "title": "李대통령 \"우크라 사과 거부시 조치\"…일각 현지 대사 소환 거론(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261002069452001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-10-02 16:32:56",
+        "match_score": 30.88
+      },
+      "related_articles": [
+        {
+          "title": "李대통령 \"우크라 사과 거부시 조치\"…일각 현지 대사 소환 거론(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261002069452001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-02 16:32:56",
+          "match_score": 30.88
+        },
+        {
+          "title": "李 “우크라 사과 거부땐 추가 조치”… 北포로 송환 공개 두고 초강경 대응",
+          "link": "https://www.donga.com/news/Politics/article/all/20261002/134779458/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-03 01:40:00",
+          "match_score": 30.7
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 10,
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}

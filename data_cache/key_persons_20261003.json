@@ -1,0 +1,240 @@
+{
+  "timestamp": "2026-10-03T06:00:58.949565",
+  "date": "20261003",
+  "data": {
+    "트럼프": {
+      "articles": [
+        {
+          "title": "산업부 \"트럼프 언급 84억불 석유프로젝트, 배경 확인 중\"",
+          "link": "https://www.yna.co.kr/view/AKR20261002185600003",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-10-02 23:38:02",
+          "description": "(서울=연합뉴스) 신창용 기자 = 도널드 트럼프 미국 대통령이 석유 관련 프로젝트에 한국이 84억 달러를 투자할 것이라고 2일(현지시간) 밝힌 ...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/economy.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "deduped_sources": [
+            {
+              "source": "연합뉴스-산업",
+              "title": "산업부 \"트럼프 언급 84억불 석유프로젝트, 배경 확인 중\"",
+              "link": "https://www.yna.co.kr/view/AKR20261002185600003"
+            }
+          ],
+          "priority_score": 3,
+          "related_full_sources": []
+        },
+        {
+          "title": "美고용 부진에 금리인상 우려 완화…나스닥 1.2%↑ - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBIajdqTVhEWF9PTHUxVVE5bFYwMlcyeHVmel9iTnp1Vkplb3FXX0ljbEtrU05Kck5kc3B5N2dOUkRXRjhDRGRMaEdQY3FKTms?oc=5",
+          "source": "키워드-금리환율코스피",
+          "published_dt": "2026-10-03 05:43:44",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiT0FVX3lxTFBIajdqTVhEWF9PTHUxVVE5bFYwMlcyeHVmel9iTnp1Vkplb3FXX0ljbEtrU05Kck5kc3B5N2dOUkRXRjhDRGRMaEdQY3FKTms?oc=5\" target=\"_blank\">美고용 부진에 금리인상 우려 완화…나스닥 1.2%↑</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">v.daum.net</font>",
+          "category": "domestic",
+          "feed_url": "https://news.google.com/rss/search?q=금리+OR+환율+OR+코스피+when:1d&hl=ko&gl=KR&ceid=KR:ko",
+          "source_type": "google_keyword",
+          "source_weight": 0.85,
+          "source_badge": "키워드",
+          "priority_score": -2,
+          "related_full_sources": []
+        },
+        {
+          "title": "국제유가, G7 비축유 방출 합의에 하락‥WTI 1.9%↓ - MBC 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1lU1dfYXF5cWhsVEcyb2lBTVNQZDlwNS1kZl9SZlJfMWVuSlV6WkFGUzktOFBGYTlWU3NLaHhkV1hrMmFOeTBRWkhOeVJGVzh6Rk44MlhzcmlQOVpyTzhiY2R6bjlkTnhVNDVPdXlGdHJLOG9P0gF0QVVfeXFMTlRwX2puTlpzejlUV0g2MFVpd29vcjVtb01YREI3WWFNeDNYOXRqenVzYVJrV1RYM1lKSDNjVHRkQ2h3Wlp6Nm0tdlFCRXdOOFU4NzBkS0lfXy1zRVF3S2dtTlVEeHdleFpVQkhkN3pPRndTbkg?oc=5",
+          "source": "키워드-에너지물가",
+          "published_dt": "2026-10-03 05:28:40",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTE1lU1dfYXF5cWhsVEcyb2lBTVNQZDlwNS1kZl9SZlJfMWVuSlV6WkFGUzktOFBGYTlWU3NLaHhkV1hrMmFOeTBRWkhOeVJGVzh6Rk44MlhzcmlQOVpyTzhiY2R6bjlkTnhVNDVPdXlGdHJLOG9P0gF0QVVfeXFMTlRwX2puTlpzejlUV0g2MFVpd29vcjVtb01YREI3WWFNeDNYOXRqenVzYVJrV1RYM1lKSDNjVHRkQ2h3Wlp6Nm0tdlFCRXdOOFU4NzBkS0lfXy1zRVF3S2dtTlVEeHdleFpVQkhkN3pPRndTbkg?oc=5\" target=\"_blank\">국제유가, G7 비축유 방출 합의에 하락‥WTI 1.9%↓</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MBC 뉴스</font>",
+          "category": "domestic",
+          "feed_url": "https://news.google.com/rss/search?q=국제유가+OR+전기요금+OR+생활물가+when:1d&hl=ko&gl=KR&ceid=KR:ko",
+          "source_type": "google_keyword",
+          "source_weight": 0.85,
+          "source_badge": "키워드",
+          "priority_score": -2,
+          "related_full_sources": [
+            {
+              "source": "키워드-에너지물가",
+              "title": "국제유가, G7 비축유 방출 합의에 하락…WTI 1.9%↓ - news.sbs.co.kr",
+              "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1hQlNMSTZxWjYxOWRZcGd3WUhMSW5sNVlGOVRPM3Q1VVNWa1o2ZFBWLTJnZF84QUg1c0c3Ynkyd0NTeDBFTGZrMUxWNGxRSUxqeFR1RUZrUWVwU3M2RG5YemFLY2h5bXE1RUE?oc=5"
+            },
+            {
+              "source": "키워드-에너지물가",
+              "title": "국제유가, G7 비축유 방출 합의에 하락…WTI 1.9%↓ - news.kbs.co.kr",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5mUzA1VmVHNTFKdE9UN0ZUdG8xeFRGNGF0SmhNSk9qUDh3V2d0eUhlRVUwaEd1dXRGdE54QWFZQWpGVktpOVowcXl6V2pYQl9DRVpxVmI4YVdBWUU?oc=5"
+            },
+            {
+              "source": "키워드-에너지물가",
+              "title": "국제유가, G7 비축유 방출 소식에 하락…WTI 1.9%↓ - 청년일보",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5OTHRGYnpnWlJld3M4aFp3bFJQQ1NmcTgyLVE2X0t3Z3V0QWtfSEJSZ1VQWEVzX3hkbzBaQlNXRVdNdTNlNUxhendDZHh6VVpkZ3Q0dGZ5bW5CN2Z3anR4UFBfbUE1UDQ?oc=5"
+            },
+            {
+              "source": "키워드-에너지물가",
+              "title": "국제유가, G7 비축유 방출 합의에 하락…WTI 1.9%↓ - 연합뉴스",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9LM2RLMEhKRkplOHR6N3dRZXlkaG9naDRUSk52OExZeG1rTDVyREk5OE4wdGRGMVBnM1NTdFJIMVRhNS1BU2xHb1VyWGF1bUJqWVRvbE12dERGcVHSAWBBVV95cUxPcUc0NjkzX3Q0OGFNVVR6ZVQ5MkpFM1pRb19ESnJsckpydWJhTWpNbEN5U0pRNEhubnZnTmZmUWdOUlhiT2RnV0JKWnNlRnJSMC1vcHRXdGRyRjZqMkdFQUw?oc=5"
+            }
+          ]
+        },
+        {
+          "title": "트럼프 “韓, 원유 증산 84억달러 투자” 또 일방발표",
+          "link": "https://www.donga.com/news/Economy/article/all/20261002/134779189/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-03 01:40:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/03/134779720.1.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령이 2일(현지 시간) 트루스소셜을 통해 한국의 대(對)미국 투자에 84억 달러(약 11조3400억 원)의 원유 증산 사업이 들어있다고 밝혔다. 반면 산업통상부는 이 내용이 앞서 1일 양국이 공동 발표한 자료에는 포함되지 않았으며 구체적인 사항을 미국 측에 확인해 보겠다는 입장이다.  트럼프 대통령은 이날 “한국과의 협상이 계속해서 더 좋아지고 있다는 소식을 발표하게 돼 매우 기쁘다”며 “원유 회수 증진(EOR·Enhanced Oil Recovery) 프로젝트에 84억 달러가 투입된다”고 밝혔다. EOR은 이산화탄소(CO₂) 등을 유전에 주입해 원유 생산량을 늘리는 방식이다. 트럼프 대통령은 “더 많은 원유와 (천연)가스를 생산한다는 것은 미국의 에너지 지배력과 미래 세계의 에너지 안보 증진을 뜻한다”고 의미를 부여했다. 다만 그가 언급한 ‘원유 회수 증진’ 사업이 구체적으로 무슨 사업인지, 미국 어느 지역에서 실시되는지, 한미 양국이 이에 관한 최종 합",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프 또 일방 발표…“韓, 석유 증산에 84억 달러 투자”",
+          "link": "https://www.donga.com/news/Inter/article/all/20261002/134779416/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-02 22:49:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/02/134774039.2.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령이 2일(현지 시간) 미국과 한국의 무역 합의에 84억 달러(약 11조3000억 원) 규모의 석유 증진회수 사업이 포함됐다고 밝혔다. 11월 중간선거를 앞두고 경제 성과를 부각하려는 행보로 풀이된다.트럼프 대통령은 이날 트루스소셜에 “한국과의 합의가 계속 더 좋아지고 있다. 석유 증진회수 사업(Enhanced Oil Recovery·EOR)에 84억 달러가 투입된다”며 “더 많은 석유와 가스를 생산하는 것은 미국의 에너지 지배력과 미래 세계 에너지 안보를 뜻한다”고 썼다.  트럼프 대통령이 언급한 EOR은 생산이 줄어든 기존 유전에 가스나 증기 등을 주입해 원유를 더 뽑아내는 기술을 의미한다. 로이터통신은 이번 발표가 트럼프 대통령이 중간선거를 앞두고 강조하는 일련의 경제·투자 합의 중 가장 최신 사례라며, 이란 전쟁과 높은 휘발유 가격에 대한 유권자 우려 속에서 경제 성과를 강화하려는 의도라고 전했다.다만 앞선 미국 측 발표가 우리 정부와 조율되지 않",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프, 유세장서 로드먼 소개하며 “김정은 잘 아는 사람”",
+          "link": "https://www.donga.com/news/Inter/article/all/20261002/134775013/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-02 14:14:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/02/134775389.1.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령이 1일(현지 시간) 연설에서 미국프로농구(NBA)계의 스타였던 데니스 로드먼과 김정은 북한 국무위원장의 친분을 언급하며 “지금 김정은과 나는 잘 지낸다”고 강조하며 북-미 대화 재개에 대한 희망을 드러냈다. 트럼프 대통령은 지난달 29일에도 “전 세계에서 김정은이 좋아하는 사람은 거의 나뿐이고, 나 또한 그를 좋아한다”고 했다.로이터통신 등에 따르면 다음달 3일 미국 중간선거를 앞두고 이날 텍사스주 덴턴에서 유세에 나선 트럼프 대통령은 “지금은 김정은과 내가 잘 지내지만, (문제가 있던 시기에) 그를 가장 잘 알고 있던 사람은 데니스 로드먼이었다”며 두 사람의 친분을 높이 평가했다. 과거 북한이 로드먼에게 자국 농구팀에 합류해달라고 요청했다는 배경도 밝혔다. 로드먼 역시 이날 행사장에 과거 소속팀인 시카고 불스 모자를 쓰고 참석했다. 또한 그는 대통령 차량 행렬에 합류해 오클라호마주 듀랜트에서 열리는 트럼프 대통령의 유세에도 동행했다. 로드먼이 동행한",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 6,
+      "role": "미국 대통령"
+    },
+    "이재명": {
+      "articles": [
+        {
+          "title": "국힘, 오늘 서울서 '이재명 정부 실정 규탄' 대규모 집회",
+          "link": "https://www.yna.co.kr/view/AKR20261002152300001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-03 05:00:01",
+          "description": "(서울=연합뉴스) 권희원 기자 = 국민의힘은 개천절인 3일 서울 숭례문 일대에서 대규모 장외 집회를 연다.",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "당내 정국",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 \"우크라 사과 거부시 조치\"…일각 현지 대사 소환 거론(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261002069452001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-02 16:32:56",
+          "description": "(서울=연합뉴스) 임형섭 기자 = 이재명 대통령은 2일 우크라이나 측이 북한군 포로의 한국 송환 사실을 공개한데 이어 한반도에서의 남북 간 긴장...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, 김지용 중수청 후보자 인사청문요청안 재가",
+          "link": "https://www.chosun.com/politics/blue_house/2026/10/02/OB3QNYE2ANBE3CGSVTKR5YVNKE/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-10-02 08:31:43",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李 “우크라 사과 거부땐 추가 조치”… 北포로 송환 공개 두고 초강경 대응",
+          "link": "https://www.donga.com/news/Politics/article/all/20261002/134779458/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-03 01:40:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/03/134779714.1.jpg\" vspace=\"10\" />이재명 대통령은 2일 우크라이나가 북한군 포로의 한국 송환 사실을 공개한 데 대해 “비공개 합의 사실을 인정하고 사과하라고 했더니 도리어 남북 간 군사 충돌 임박 운운하며 한반도 전쟁 발발을 기도하는 우크라이나에 심각한 유감을 표한다”고 밝혔다. 이 대통령은 이날 X(옛 트위터)에 “사실 인정과 공개 사과를 계속 거부하면 추가 조치를 해 나갈 것”이라며 “대한민국 국민과 국가의 위신에 관한 문제로서 묵과할 수 없다”고 말했다. 이어 “우크라이나 측이 비공개를 요구해 비공개를 합의했는데 일방적으로 공개했고, 대한민국 대통령이 최대한 예의를 갖춰 아쉽다고 했더니 합의 사실이 없다고 상대국 국가원수를 거짓말쟁이로 만들었다”며 초강경 대응을 예고했다. 이 대통령은 안드리 시비하 우크라이나 외교장관이 양국 갈등에 대해 “외교적 오해”라고 발언했다는 외신 인용 보도를 첨부했다. 이 대통령이 우크라이나에 대한 비판 메시지를 낸 것은 지난달 24일에 이어 8일 만이다. 볼로디미르 젤렌스키 우크",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 4,
+      "role": "한국 대통령"
+    },
+    "김대헌": {
+      "articles": [
+        {
+          "title": "호반 오너 2세 김대헌 전면에 송종민 부회장과 투톱체제로",
+          "link": "https://www.mk.co.kr/news/realestate/12167406",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-02 17:28:09",
+          "description": "호반그룹 창업주 김상열 회장의 장남인 김대헌 기획총괄사장이 호반건설 이사회 의장을 맡아 경영 전면에 나선다. 김 사장은 호반건설의 최대주주로, 이번 인사를 계기로 오너 2세 책임경..",
+          "category": "domestic",
+          "feed_url": "https://www.mk.co.kr/rss/50300009/",
+          "source_type": "realestate",
+          "source_weight": 1.15,
+          "source_badge": "부동산",
+          "priority_score": 1,
+          "related_full_sources": []
+        },
+        {
+          "title": "호반그룹, 사장단 조기 인사 단행…김대헌 호반건설 이사회 의장 내정",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/10/02/2026100201713.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-10-02 14:12:29",
+          "description": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"3\" width=\"100%\"><tr><td><img border=\"0\" src=\"https://image.chosun.com/sitedata/thumbnail/202610/02/2026100201707_0_thumb.jpg\" /></td></tr></table>\n\t \n[땅집고] 호반그룹이 예년보다 이른 시기에 사장단 인사를 단행했다. 건설 경기 불황 등 경영 불확실성에 선제적으로 대응하고 조직의 안정과 실행력을 끌어올리기 위한 조치다.\n \n2일 호반그룹은 김상열 창업주의 장남인 김대헌 그룹 기획총괄사장을 호반건설 이사회 의장으로 전면 배치하고, 송종민 대한전선 대표이사 부회장을 그룹 수석부회장 겸 호반건설 대표이사로 내정했다고 밝혔다.\n \n특히 만 30세이던 2018년 호반그룹 부사장으로 등판해 2년 만에 사장으로 승진했던 김대헌 사장은 이번 인사를 통해 단순 총괄 사장에서 호반건설 이사회 ...",
+          "category": "domestic",
+          "feed_url": "https://realty.chosun.com/site/data/rss/rss.xml",
+          "source_type": "realestate",
+          "source_weight": 1.15,
+          "source_badge": "부동산",
+          "priority_score": 1,
+          "related_full_sources": []
+        },
+        {
+          "title": "호반 ‘김대헌-송종민’ 투톱으로…건설·전선 새판 짠다",
+          "link": "https://www.mk.co.kr/news/business/12167049",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-02 13:28:44",
+          "description": "김대헌, 최대주주서 이사회 의장으로 역할 확대 대한전선 키운 송종민, 3년만에 호반건설 복귀 정비사업 1조 돌파…내년 사업계획도 조기 가동호반건설 최대주주인 김대헌 기획총괄사장이 ..",
+          "category": "domestic",
+          "feed_url": "https://www.mk.co.kr/rss/50300009/",
+          "source_type": "realestate",
+          "source_weight": 1.15,
+          "source_badge": "부동산",
+          "priority_score": 1,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "호반건설 이사회 의장 내정"
+    }
+  }
+}
