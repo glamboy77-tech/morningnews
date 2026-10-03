@@ -1,0 +1,408 @@
+{
+  "timestamp": "2026-10-04T06:01:00.417592",
+  "date": "20261004",
+  "data": [
+    {
+      "keyword": "AI 해킹",
+      "reason": "금융권 정보유출 다수 발생",
+      "score": 34.06,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "‘금융권 AI 해킹’ 현대캐피탈도 털렸다…대출모집인 정보 유출",
+        "예가람저축은행도 해킹 피해로 고객정보 유출…4만명 추정"
+      ],
+      "representative_article": {
+        "title": "‘금융권 AI 해킹’ 현대캐피탈도 털렸다…대출모집인 정보 유출",
+        "link": "https://www.mk.co.kr/news/economy/12167805",
+        "source": "매일경제-경제",
+        "published_dt": "2026-10-03 17:09:40",
+        "match_score": 34.06
+      },
+      "related_articles": [
+        {
+          "title": "‘금융권 AI 해킹’ 현대캐피탈도 털렸다…대출모집인 정보 유출",
+          "link": "https://www.mk.co.kr/news/economy/12167805",
+          "source": "매일경제-경제",
+          "published_dt": "2026-10-03 17:09:40",
+          "match_score": 34.06
+        },
+        {
+          "title": "예가람저축은행도 해킹 피해로 고객정보 유출…4만명 추정",
+          "link": "https://www.yna.co.kr/view/AKR20261003035000002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-10-03 15:12:40",
+          "match_score": 6.88
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "탄도미사일",
+      "reason": "북한 동해상 발사",
+      "score": 40.47,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "北, 동해로 탄도미사일 발사…극초음속 중거리 화성-16나 가능성(종합3보)",
+        "이란 혁명수비대 “미국 위협에 더 치명적으로 대응”"
+      ],
+      "representative_article": {
+        "title": "北, 동해로 탄도미사일 발사…극초음속 중거리 화성-16나 가능성(종합3보)",
+        "link": "https://www.yna.co.kr/view/AKR20261003010753504",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-10-03 21:04:00",
+        "match_score": 40.47
+      },
+      "related_articles": [
+        {
+          "title": "北, 동해로 탄도미사일 발사…극초음속 중거리 화성-16나 가능성(종합3보)",
+          "link": "https://www.yna.co.kr/view/AKR20261003010753504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-03 21:04:00",
+          "match_score": 40.47
+        },
+        {
+          "title": "이란 혁명수비대 “미국 위협에 더 치명적으로 대응”",
+          "link": "https://www.donga.com/news/Inter/article/all/20261003/134780829/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-03 23:50:39",
+          "match_score": 11.6
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "국정감사",
+      "reason": "경제부처 쟁점 집중",
+      "score": 42.03,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "[다음주 경제] 경제부처 국정감사 개막…은행권 해킹·세제 개편 등 쟁점"
+      ],
+      "representative_article": {
+        "title": "[다음주 경제] 경제부처 국정감사 개막…은행권 해킹·세제 개편 등 쟁점",
+        "link": "https://www.yna.co.kr/view/AKR20261003015700002",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-10-03 09:20:50",
+        "match_score": 42.03
+      },
+      "related_articles": [
+        {
+          "title": "[다음주 경제] 경제부처 국정감사 개막…은행권 해킹·세제 개편 등 쟁점",
+          "link": "https://www.yna.co.kr/view/AKR20261003015700002",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-03 09:20:50",
+          "match_score": 42.03
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "기업가치 상향",
+      "reason": "투자 기업 성장 사례",
+      "score": 6.5,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "현대차가 투자한 필드AI, 1년만에 기업가치 5배로"
+      ],
+      "representative_article": {
+        "title": "현대차가 투자한 필드AI, 1년만에 기업가치 5배로",
+        "link": "https://www.chosun.com/economy/industry-company/2026/10/03/GYYDKNRWGE4TANZUGQ3GINJWGE/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-10-03 11:23:19",
+        "match_score": 6.5
+      },
+      "related_articles": [
+        {
+          "title": "현대차가 투자한 필드AI, 1년만에 기업가치 5배로",
+          "link": "https://www.chosun.com/economy/industry-company/2026/10/03/GYYDKNRWGE4TANZUGQ3GINJWGE/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-10-03 11:23:19",
+          "match_score": 6.5
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재개발·재건축",
+      "reason": "부동산 정책 및 시장 이슈",
+      "score": 40.41,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "재개발·재건축, 이렇게 합니다 | 집코노미 클래스 - 한국경제"
+      ],
+      "representative_article": {
+        "title": "재개발·재건축, 이렇게 합니다 | 집코노미 클래스 - 한국경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8yV2E4SENxZWJSeTNCUXFaLURjOUlmVlhybjFNYUZfNmVDaFBZWVFCRXhUOWlRUVN0R2xfNmJjWjB4ZUREYVBkbF9wbEI3RHZ6bEJ6dTJOM1FIQQ?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-10-03 18:00:05",
+        "match_score": 40.41
+      },
+      "related_articles": [
+        {
+          "title": "재개발·재건축, 이렇게 합니다 | 집코노미 클래스 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8yV2E4SENxZWJSeTNCUXFaLURjOUlmVlhybjFNYUZfNmVDaFBZWVFCRXhUOWlRUVN0R2xfNmJjWjB4ZUREYVBkbF9wbEI3RHZ6bEJ6dTJOM1FIQQ?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-10-03 18:00:05",
+          "match_score": 40.41
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "우크라 종전 협상",
+      "reason": "국제 군사·외교 논의",
+      "score": 32.2,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "트럼프 특사·푸틴, 우크라 종전 협상서 ‘러 석유업체 빅딜’ 논의"
+      ],
+      "representative_article": {
+        "title": "트럼프 특사·푸틴, 우크라 종전 협상서 ‘러 석유업체 빅딜’ 논의",
+        "link": "https://www.donga.com/news/Inter/article/all/20261003/134780812/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-10-03 23:14:13",
+        "match_score": 32.2
+      },
+      "related_articles": [
+        {
+          "title": "트럼프 특사·푸틴, 우크라 종전 협상서 ‘러 석유업체 빅딜’ 논의",
+          "link": "https://www.donga.com/news/Inter/article/all/20261003/134780812/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-03 23:14:13",
+          "match_score": 32.2
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "금융실적",
+      "reason": "4대금융 최대실적 전망",
+      "score": 8.82,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "4대금융 3분기도 최대실적 전망…차기 은행장 선임 영향은"
+      ],
+      "representative_article": {
+        "title": "4대금융 3분기도 최대실적 전망…차기 은행장 선임 영향은",
+        "link": "https://www.yna.co.kr/view/AKR20261003032300002",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-10-04 05:53:00",
+        "match_score": 8.82
+      },
+      "related_articles": [
+        {
+          "title": "4대금융 3분기도 최대실적 전망…차기 은행장 선임 영향은",
+          "link": "https://www.yna.co.kr/view/AKR20261003032300002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-10-04 05:53:00",
+          "match_score": 8.82
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "내장지방 연구",
+      "reason": "장내 마이크로바이옴 연관성 발견",
+      "score": 10.0,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "GIST-서울대-서울대병원, 내장지방 많을수록 늘어나는 장내 마이크로바이옴 찾았다"
+      ],
+      "representative_article": {
+        "title": "GIST-서울대-서울대병원, 내장지방 많을수록 늘어나는 장내 마이크로바이옴 찾았다",
+        "link": "https://www.etnews.com/20261002000052",
+        "source": "전자신문",
+        "published_dt": "2026-10-03 09:00:00",
+        "match_score": 10.0
+      },
+      "related_articles": [
+        {
+          "title": "GIST-서울대-서울대병원, 내장지방 많을수록 늘어나는 장내 마이크로바이옴 찾았다",
+          "link": "https://www.etnews.com/20261002000052",
+          "source": "전자신문",
+          "published_dt": "2026-10-03 09:00:00",
+          "match_score": 10.0
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "대규모",
+      "score": 33.3,
+      "article_count": 6,
+      "source_count": 5,
+      "categories": [
+        "국제",
+        "기업/산업",
+        "부동산",
+        "정치",
+        "테크"
+      ],
+      "sample_titles": [
+        "與, 국힘 장외집회에 \"張체제 연명 위해 국감 내팽개쳐…反민생\"",
+        "GIST-서울대-서울대병원, 내장지방 많을수록 늘어나는 장내 마이크로바이옴 찾았다",
+        "“여기가 실버타운 맞나요?” … 944세대 리조트형 시니어타운의 하루"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "대규모 유전체 분석으로 성격 유전자 1,260개 확인 - 사이언스타임즈",
+        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQYnljbXIxWWdRcVJWQ0dIVE9kLWkwUVp2RWJNNHZKY2hId05xblNzZk0wTktIUmZJTjVqN05IVVhmUElVT0ctaVFZV1hzaHE5NDYxRGlsOWx5SG8wQjl2QUNaeWdHSEhfLVNuQXcyMmhXZE1aa2N1SDBHWlFIVTU0dEwzU2VIZlpndkZMbGIyOA?oc=5",
+        "source": "사이언스타임즈",
+        "published_dt": "2026-09-29 09:16:38",
+        "match_score": 37.34
+      },
+      "related_articles": [
+        {
+          "title": "대규모 유전체 분석으로 성격 유전자 1,260개 확인 - 사이언스타임즈",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQYnljbXIxWWdRcVJWQ0dIVE9kLWkwUVp2RWJNNHZKY2hId05xblNzZk0wTktIUmZJTjVqN05IVVhmUElVT0ctaVFZV1hzaHE5NDYxRGlsOWx5SG8wQjl2QUNaeWdHSEhfLVNuQXcyMmhXZE1aa2N1SDBHWlFIVTU0dEwzU2VIZlpndkZMbGIyOA?oc=5",
+          "source": "사이언스타임즈",
+          "published_dt": "2026-09-29 09:16:38",
+          "match_score": 37.34
+        },
+        {
+          "title": "사우디·예멘 정부군, 후티에 대규모 반격 준비…美는 참전 거부",
+          "link": "https://www.donga.com/news/Inter/article/all/20261003/134780809/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-03 23:13:54",
+          "match_score": 37.3
+        },
+        {
+          "title": "與, 국힘 장외집회에 \"張체제 연명 위해 국감 내팽개쳐…反민생\"",
+          "link": "https://www.yna.co.kr/view/AKR20261003041700001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-03 17:51:59",
+          "match_score": 12.68
+        },
+        {
+          "title": "GIST-서울대-서울대병원, 내장지방 많을수록 늘어나는 장내 마이크로바이옴 찾았다",
+          "link": "https://www.etnews.com/20261002000052",
+          "source": "전자신문",
+          "published_dt": "2026-10-03 09:00:00",
+          "match_score": 11.5
+        },
+        {
+          "title": "“여기가 실버타운 맞나요?” … 944세대 리조트형 시니어타운의 하루",
+          "link": "https://www.mk.co.kr/news/realestate/12167460",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-04 05:31:00",
+          "match_score": 11.5
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "투자",
+      "score": 34.5,
+      "article_count": 6,
+      "source_count": 5,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "\"수익성 불투명한 10조달러 투자\"...월가, AI 거품 붕괴 경고",
+        "전남광주, 투자·펀드 기능 한데 묶는다…투자 기관 설립 추진",
+        "[속보] 트럼프 “韓 알래스카 투자 안한대도 괜찮다…돈 더 청구하면 돼”"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "\"수익성 불투명한 10조달러 투자\"...월가, AI 거품 붕괴 경고",
+        "link": "https://www.aitimes.com/news/articleView.html?idxno=215942",
+        "source": "AI타임스",
+        "published_dt": "2026-10-04 06:55:05",
+        "match_score": 38.09
+      },
+      "related_articles": [
+        {
+          "title": "\"수익성 불투명한 10조달러 투자\"...월가, AI 거품 붕괴 경고",
+          "link": "https://www.aitimes.com/news/articleView.html?idxno=215942",
+          "source": "AI타임스",
+          "published_dt": "2026-10-04 06:55:05",
+          "match_score": 38.09
+        },
+        {
+          "title": "전남광주, 투자·펀드 기능 한데 묶는다…투자 기관 설립 추진",
+          "link": "https://www.yna.co.kr/view/AKR20261002064300054",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-10-03 09:00:07",
+          "match_score": 37.83
+        },
+        {
+          "title": "[마이더스] 주식투자, 법인이 항상 유리하다?",
+          "link": "https://www.yna.co.kr/view/AKR20261002136300980",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-10-03 10:30:21",
+          "match_score": 37.67
+        },
+        {
+          "title": "기업은행·산업은행 \"영화 암살자(들) 투자 외부 요청 없었다\"",
+          "link": "https://www.yna.co.kr/view/AKR20261003026100002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-10-03 12:07:11",
+          "match_score": 37.67
+        },
+        {
+          "title": "[속보] 트럼프 “韓 알래스카 투자 안한대도 괜찮다…돈 더 청구하면 돼”",
+          "link": "https://www.mk.co.kr/news/economy/12167720",
+          "source": "매일경제-경제",
+          "published_dt": "2026-10-03 09:35:28",
+          "match_score": 37.66
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
