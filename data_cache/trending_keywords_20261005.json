@@ -1,0 +1,400 @@
+{
+  "timestamp": "2026-10-05T06:00:56.210838",
+  "date": "20261005",
+  "data": [
+    {
+      "keyword": "금리인상",
+      "reason": "미국과 한국 금리 변화 관련 언급 다수",
+      "score": 34.55,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "국제"
+      ],
+      "sample_titles": [
+        "美, 금리인상 속도조절 관측에도… “韓 포함 금리 상승 시간문제”",
+        "美, 금리인상 속도조절 관측에도… “韓 포함 금리 상승 시간문제”"
+      ],
+      "representative_article": {
+        "title": "美, 금리인상 속도조절 관측에도… “韓 포함 금리 상승 시간문제”",
+        "link": "https://www.donga.com/news/Economy/article/all/20261004/134784230/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-10-05 01:40:00",
+        "match_score": 34.55
+      },
+      "related_articles": [
+        {
+          "title": "美, 금리인상 속도조절 관측에도… “韓 포함 금리 상승 시간문제”",
+          "link": "https://www.donga.com/news/Economy/article/all/20261004/134784230/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-05 01:40:00",
+          "match_score": 34.55
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI 해킹",
+      "reason": "금융권 전반 AI 해킹 위험 확산",
+      "score": 31.9,
+      "article_count": 3,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "은행권 AI 연쇄해킹…공격서버에 ‘중국어 문자열’ 있었다는데",
+        "‘통일’하는 순간 망합니다…은행 비번 복잡해도 AI에 다 뚫린 이유",
+        "‘AI 해킹’ 금융권 전반에 확산… 당국 “동일인 소행 배제 못해”"
+      ],
+      "representative_article": {
+        "title": "‘AI 해킹’ 금융권 전반에 확산… 당국 “동일인 소행 배제 못해”",
+        "link": "https://www.chosun.com/economy/economy_general/2026/10/05/N75E3IEEBBHMXDWPXQMT2UNSIQ/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-10-05 00:53:00",
+        "match_score": 31.9
+      },
+      "related_articles": [
+        {
+          "title": "‘AI 해킹’ 금융권 전반에 확산… 당국 “동일인 소행 배제 못해”",
+          "link": "https://www.chosun.com/economy/economy_general/2026/10/05/N75E3IEEBBHMXDWPXQMT2UNSIQ/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-10-05 00:53:00",
+          "match_score": 31.9
+        },
+        {
+          "title": "은행권 AI 연쇄해킹…공격서버에 ‘중국어 문자열’ 있었다는데",
+          "link": "https://www.mk.co.kr/news/economy/12168186",
+          "source": "매일경제-경제",
+          "published_dt": "2026-10-04 17:55:38",
+          "match_score": 13.16
+        },
+        {
+          "title": "‘통일’하는 순간 망합니다…은행 비번 복잡해도 AI에 다 뚫린 이유",
+          "link": "https://www.mk.co.kr/news/economy/12167968",
+          "source": "매일경제-경제",
+          "published_dt": "2026-10-04 11:33:03",
+          "match_score": 7.26
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재건축",
+      "reason": "분당 재건축 전자동의 증가",
+      "score": 39.21,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "분당 어르신도 앱에서 '클릭'…재건축 전자동의 절반 넘어",
+        "[성남 민선 9기 공약 대해부②] 신상진, 분당 재건축·원도심 재개발 속도 - 뉴스타운"
+      ],
+      "representative_article": {
+        "title": "[성남 민선 9기 공약 대해부②] 신상진, 분당 재건축·원도심 재개발 속도 - 뉴스타운",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9Mb2JCVXM4bG92YkFRS19MQ25qUmkybEpsaHdFSFVZZ2ZLc3FmMl9pSkpMRjZINnRualF5V05OMnNSQ2VQV25rWVhTUl9WTmc4dmJtaXJEVDhxNml6OGt4cXN1dGR4S2RLeURiQg?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-10-05 01:36:43",
+        "match_score": 39.21
+      },
+      "related_articles": [
+        {
+          "title": "[성남 민선 9기 공약 대해부②] 신상진, 분당 재건축·원도심 재개발 속도 - 뉴스타운",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9Mb2JCVXM4bG92YkFRS19MQ25qUmkybEpsaHdFSFVZZ2ZLc3FmMl9pSkpMRjZINnRualF5V05OMnNSQ2VQV25rWVhTUl9WTmc4dmJtaXJEVDhxNml6OGt4cXN1dGR4S2RLeURiQg?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-10-05 01:36:43",
+          "match_score": 39.21
+        },
+        {
+          "title": "분당 어르신도 앱에서 '클릭'…재건축 전자동의 절반 넘어",
+          "link": "https://www.mk.co.kr/news/realestate/12168079",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-04 16:41:48",
+          "match_score": 31.49
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "원전투자",
+      "reason": "미국 빅테크 원전 장기 투자",
+      "score": 7.1,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "“AI 전력 확보”… 美 빅테크, 원전 장기고객·투자자로 나서"
+      ],
+      "representative_article": {
+        "title": "“AI 전력 확보”… 美 빅테크, 원전 장기고객·투자자로 나서",
+        "link": "https://www.chosun.com/economy/industry-company/2026/10/05/G6VEQJW5ZNH4VMDVZSDZB3MNMA/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-10-05 00:42:00",
+        "match_score": 7.1
+      },
+      "related_articles": [
+        {
+          "title": "“AI 전력 확보”… 美 빅테크, 원전 장기고객·투자자로 나서",
+          "link": "https://www.chosun.com/economy/industry-company/2026/10/05/G6VEQJW5ZNH4VMDVZSDZB3MNMA/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-10-05 00:42:00",
+          "match_score": 7.1
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "북한미사일",
+      "reason": "북한 중거리 극초음속미사일 발사",
+      "score": 9.38,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "北, 중거리 극초음속미사일 발사…미군 괌기지까지 타격 가능?"
+      ],
+      "representative_article": {
+        "title": "北, 중거리 극초음속미사일 발사…미군 괌기지까지 타격 가능?",
+        "link": "https://www.yna.co.kr/view/AKR20261004017100504",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-10-04 12:20:50",
+        "match_score": 9.38
+      },
+      "related_articles": [
+        {
+          "title": "北, 중거리 극초음속미사일 발사…미군 괌기지까지 타격 가능?",
+          "link": "https://www.yna.co.kr/view/AKR20261004017100504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-04 12:20:50",
+          "match_score": 9.38
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "국감",
+      "reason": "여야 국감 증인 불출석 및 논쟁",
+      "score": 31.7,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "與 \"曺, 국감 출석 불응 의사…불출석할 거면 사퇴하라\"(종합)",
+        "조희대, 국감 증인 불출석 사유서 제출…與 “나와서 증인선서 해야”"
+      ],
+      "representative_article": {
+        "title": "조희대, 국감 증인 불출석 사유서 제출…與 “나와서 증인선서 해야”",
+        "link": "https://www.chosun.com/politics/assembly/2026/10/04/EJBV47VKK5H3HFVGCM442NLT7U/",
+        "source": "조선일보-정치",
+        "published_dt": "2026-10-04 12:54:56",
+        "match_score": 31.7
+      },
+      "related_articles": [
+        {
+          "title": "조희대, 국감 증인 불출석 사유서 제출…與 “나와서 증인선서 해야”",
+          "link": "https://www.chosun.com/politics/assembly/2026/10/04/EJBV47VKK5H3HFVGCM442NLT7U/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-10-04 12:54:56",
+          "match_score": 31.7
+        },
+        {
+          "title": "與 \"曺, 국감 출석 불응 의사…불출석할 거면 사퇴하라\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261004017951001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-04 15:21:56",
+          "match_score": 31.18
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "농축산물",
+      "reason": "정부 할인 지원 예산 증가",
+      "score": 30.7,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "정부 농축산물 할인 지원 예산 올해 4580억… 6년새 25배로"
+      ],
+      "representative_article": {
+        "title": "정부 농축산물 할인 지원 예산 올해 4580억… 6년새 25배로",
+        "link": "https://www.chosun.com/economy/economy_general/2026/10/05/UR5ATDKAL5FV3K5JFJX4D7JUOY/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-10-05 00:42:00",
+        "match_score": 30.7
+      },
+      "related_articles": [
+        {
+          "title": "정부 농축산물 할인 지원 예산 올해 4580억… 6년새 25배로",
+          "link": "https://www.chosun.com/economy/economy_general/2026/10/05/UR5ATDKAL5FV3K5JFJX4D7JUOY/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-10-05 00:42:00",
+          "match_score": 30.7
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "LNG 투자",
+      "reason": "트럼프 알래스카 LNG 투자 압박",
+      "score": 47.58,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "트럼프 “韓, 알래스카 투자 안하면 2배 청구” 또 압박",
+        "트럼프 알래스카 LNG 투자 압박, 한미 안보협의 새 변수 되나"
+      ],
+      "representative_article": {
+        "title": "트럼프 알래스카 LNG 투자 압박, 한미 안보협의 새 변수 되나",
+        "link": "https://www.yna.co.kr/view/AKR20261004016600504",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-10-04 12:47:19",
+        "match_score": 47.58
+      },
+      "related_articles": [
+        {
+          "title": "트럼프 알래스카 LNG 투자 압박, 한미 안보협의 새 변수 되나",
+          "link": "https://www.yna.co.kr/view/AKR20261004016600504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-04 12:47:19",
+          "match_score": 47.58
+        },
+        {
+          "title": "트럼프 “韓, 알래스카 투자 안하면 2배 청구” 또 압박",
+          "link": "https://www.donga.com/news/Inter/article/all/20261005/134784561/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-05 01:40:00",
+          "match_score": 11.1
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "간병보험",
+      "reason": "보험사 간병보험 사기 공동대응",
+      "score": 43.06,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "100배 뛴 간병보험 사기 … 보험사 공동대응 나선다"
+      ],
+      "representative_article": {
+        "title": "100배 뛴 간병보험 사기 … 보험사 공동대응 나선다",
+        "link": "https://www.mk.co.kr/news/economy/12168174",
+        "source": "매일경제-경제",
+        "published_dt": "2026-10-04 17:37:04",
+        "match_score": 43.06
+      },
+      "related_articles": [
+        {
+          "title": "100배 뛴 간병보험 사기 … 보험사 공동대응 나선다",
+          "link": "https://www.mk.co.kr/news/economy/12168174",
+          "source": "매일경제-경제",
+          "published_dt": "2026-10-04 17:37:04",
+          "match_score": 43.06
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 9,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "금융권",
+      "score": 30.8,
+      "article_count": 7,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "이억원 \"AI활용 해킹 가능성…금융권 최고수준 경각심 가져야\"(종합)",
+        "'알짜 區금고' 입찰에도 … 은행 시큰둥",
+        "은행권 AI 연쇄해킹…공격서버에 ‘중국어 문자열’ 있었다는데"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "이억원 \"AI활용 해킹 가능성…금융권 최고수준 경각심 가져야\"(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261004024951002",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-10-04 15:00:25",
+        "match_score": 37.83
+      },
+      "related_articles": [
+        {
+          "title": "이억원 \"AI활용 해킹 가능성…금융권 최고수준 경각심 가져야\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261004024951002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-10-04 15:00:25",
+          "match_score": 37.83
+        },
+        {
+          "title": "‘AI 해킹’ 금융권 전반에 확산… 당국 “동일인 소행 배제 못해”",
+          "link": "https://www.chosun.com/economy/economy_general/2026/10/05/N75E3IEEBBHMXDWPXQMT2UNSIQ/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-10-05 00:53:00",
+          "match_score": 28.3
+        },
+        {
+          "title": "'알짜 區금고' 입찰에도 … 은행 시큰둥",
+          "link": "https://www.mk.co.kr/news/economy/12168158",
+          "source": "매일경제-경제",
+          "published_dt": "2026-10-04 17:32:03",
+          "match_score": 11.66
+        },
+        {
+          "title": "은행권 AI 연쇄해킹…공격서버에 ‘중국어 문자열’ 있었다는데",
+          "link": "https://www.mk.co.kr/news/economy/12168186",
+          "source": "매일경제-경제",
+          "published_dt": "2026-10-04 17:55:38",
+          "match_score": 11.66
+        },
+        {
+          "title": "‘통일’하는 순간 망합니다…은행 비번 복잡해도 AI에 다 뚫린 이유",
+          "link": "https://www.mk.co.kr/news/economy/12167968",
+          "source": "매일경제-경제",
+          "published_dt": "2026-10-04 11:33:03",
+          "match_score": 11.66
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
