@@ -31,9 +31,30 @@ class MorningPageTests(unittest.TestCase):
         self.assertIn("오늘의 경제 흐름입니다.", html)
         self.assertIn("Sunday Radar 주간 브리핑", html)
         self.assertIn('<details class="all-articles">', html)
+        self.assertIn('href="#경제/거시" class="nav-pill" onclick="document.querySelector(\'.all-articles\').open = true"', html)
+        self.assertIn('id="경제/거시" class="section-title"', html)
+        self.assertNotIn('href="#정치" class="nav-pill"', html)
         self.assertIn("https://example.com/article", html)
         self.assertNotIn('class="sentiment-box"', html)
         self.assertNotIn('class="keyword-card"', html)
+
+    def test_section_shortcuts_only_link_to_rendered_article_sections(self):
+        article = {
+            "title": "기사", "link": "https://example.com/shared", "source": "뉴스",
+            "published_dt": datetime(2026, 10, 6, 6),
+        }
+        person = {"이름": {"count": 1, "articles": [article]}}
+        with tempfile.TemporaryDirectory() as temp:
+            path = Path(temp) / "index.html"
+            HTMLGenerator().generate_main_page(
+                {"정치": [article], "부동산": [{**article, "link": "https://example.com/home"}]},
+                [article], {}, {}, str(path), "2026.10.06", key_persons=person,
+            )
+            html = path.read_text(encoding="utf-8")
+        self.assertIn('href="#인물별" class="nav-pill"', html)
+        self.assertIn('href="#부동산" class="nav-pill"', html)
+        self.assertIn('href="#science" class="nav-pill"', html)
+        self.assertNotIn('href="#정치" class="nav-pill"', html)
 
 
 if __name__ == "__main__":

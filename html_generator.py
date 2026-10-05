@@ -132,6 +132,7 @@ class HTMLGenerator:
             }
 
             .section-title {
+                scroll-margin-top: 150px;
                 font-size: 1.1rem;
                 font-weight: 600;
                 margin: 40px 0 20px;
@@ -1166,6 +1167,24 @@ class HTMLGenerator:
 
         # Archive
         html += f'<a href="{archive_href}" class="nav-pill">🗓️ 아카이브</a>'
+
+        # Article sections live inside a collapsed <details>. Open it before jumping.
+        open_articles = "document.querySelector('.all-articles').open = true"
+        if key_persons:
+            person_count = sum(len(person.get('articles', [])) for person in key_persons.values())
+            html += (f'<a href="#인물별" class="nav-pill" onclick="{open_articles}">'
+                     f'👤 인물별 ({person_count})</a>')
+
+        for category in order:
+            items = domestic_data.get(category, [])
+            count = sum(item.get('link') not in used_article_links for item in items)
+            if count:
+                html += (f'<a href="#{category}" class="nav-pill" onclick="{open_articles}">'
+                         f'{category} ({count})</a>')
+
+        if international_data:
+            html += (f'<a href="#science" class="nav-pill" onclick="{open_articles}">'
+                     f'테크 ({len(international_data)})</a>')
         
         html += '</div>'
         html += ('<p class="weekly-bridge">한 주의 뉴스가 생활과 시장에 미치는 영향은 '
