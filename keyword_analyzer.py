@@ -117,7 +117,7 @@ class KeywordAnalyzer:
     def _normalize_llm_candidate_detail(cls, candidate):
         """LLM 키워드 후보를 화면 표시/기사 매칭에 쓸 수 있는 형태로 보존한다."""
         keyword = cls._normalize_llm_candidate(candidate)
-        if not keyword:
+        if not keyword or keyword in cls.MATCH_STOPWORDS:
             return None
 
         reason = ""
@@ -283,6 +283,15 @@ class KeywordAnalyzer:
         text_score = 0.0
         strong_match = False
         reason_match = False
+        # The reason supplies context, not independent evidence of this topic.
+        # Generic words such as "발사" must not attach Iran news to a North
+        # Korea missile keyword merely because they appear in the reason.
+        # Descriptions often mention another event as background (e.g. Iran's
+        # past missile attack in an unrelated article). Require the topic in
+        # the headline, not just in its background paragraph.
+        keyword_anchor = bool(
+            keyword_compact and len(keyword_compact) >= 3 and keyword_compact in title_compact
+        )
 
         if keyword and keyword in title:
             score += 14.0
@@ -336,7 +345,7 @@ class KeywordAnalyzer:
         except Exception:
             pass
 
-        if reason_terms and not reason_match:
+        if not keyword_anchor or (reason_terms and not reason_match):
             strong_match = False
 
         return score, text_score, strong_match
@@ -372,14 +381,12 @@ class KeywordAnalyzer:
                 if item.get("title") and len(sample_titles) < 3:
                     sample_titles.append(item.get("title"))
 
-            if score <= 0:
-                continue
-            if best is None or score > best[0]:
+            if strong_match and (best is None or score > best[0]):
                 best = (score, text_score, category, item, strong_match)
 
         representative_article = None
         score = 0.0
-        if best and (best[1] > 0 or best[2] in set(detail.get("categories") or [])):
+        if best:
             score = best[0]
             representative_article = self._article_payload(best[3], score=best[0])
             categories.add(best[2])
@@ -442,6 +449,8 @@ class KeywordAnalyzer:
             if self._is_near_duplicate_keyword(keyword, existing_keywords):
                 continue
             item = self._build_llm_keyword_item(detail, categorized_news, science_news)
+            if not item.get("representative_article"):
+                continue
             result.append(item)
             existing_keywords.add(keyword)
             if len(result) >= limit:
@@ -457,6 +466,8 @@ class KeywordAnalyzer:
             )
             for item in local_ranked:
                 keyword = item.get("keyword")
+                if keyword in self.MATCH_STOPWORDS:
+                    continue
                 if self._is_near_duplicate_keyword(keyword, existing_keywords):
                     continue
                 item["llm_candidate"] = False
@@ -469,6 +480,8 @@ class KeywordAnalyzer:
                     categorized_news,
                     science_news,
                 )
+                if not linked.get("representative_article"):
+                    continue
                 item["representative_article"] = linked.get("representative_article")
                 item["related_articles"] = linked.get("related_articles", [])
                 result.append(item)

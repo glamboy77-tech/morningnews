@@ -1,6 +1,7 @@
 import os
 import json
 import html as html_escape
+import re
 
 class HTMLGenerator:
     def __init__(self):
@@ -235,6 +236,12 @@ class HTMLGenerator:
                 color: var(--text-secondary);
                 font-weight: 300;
             }
+
+            .weekly-bridge { margin: 18px 0; color: var(--text-secondary); font-size: .88rem; }
+            .weekly-bridge a { color: var(--primary); }
+            .all-articles { margin-top: 28px; border-top: 1px solid var(--border); padding-top: 16px; }
+            .all-articles > summary { cursor: pointer; font-weight: 600; color: var(--primary); padding: 12px 0; }
+            .all-articles > summary:focus-visible { outline: 2px solid var(--primary); }
 
             .sentiment-box {
                 margin-top: 24px;
@@ -733,6 +740,56 @@ class HTMLGenerator:
         </style>
         """
 
+    @staticmethod
+    def _normalize_sentiment_items_for_display(items, *, limit=8):
+        """Company-level de-duplication for hojae/akjae chips in HTML."""
+        if not isinstance(items, list):
+            return []
+
+        def split_item(value):
+            text = re.sub(r"\s+", " ", str(value or "")).strip()
+            if not text:
+                return "", ""
+            if ":" in text:
+                company, reason = text.split(":", 1)
+            elif "：" in text:
+                company, reason = text.split("：", 1)
+            else:
+                parts = text.split(" ", 1)
+                company = parts[0]
+                reason = parts[1] if len(parts) > 1 else ""
+            reason = re.sub(r"\s*\(\d+회\)\s*$", "", reason.strip())
+            return company.strip(), reason
+
+        def company_key(company):
+            key = re.sub(r"\s+", "", str(company or "")).strip()
+            key = re.sub(r"(주식회사|㈜|\(주\)|주가|종목)$", "", key)
+            aliases = {
+                "LGU+": "LG유플러스",
+                "LG유플": "LG유플러스",
+                "하이닉스": "SK하이닉스",
+                "SK하이닉스주가": "SK하이닉스",
+            }
+            return aliases.get(key, key).lower()
+
+        normalized = []
+        seen_companies = set()
+        seen_rows = set()
+        for raw in items:
+            company, reason = split_item(raw)
+            if not company:
+                continue
+            ckey = company_key(company)
+            rkey = re.sub(r"[^0-9A-Za-z가-힣]+", "", f"{company}:{reason}").lower()
+            if ckey in seen_companies or rkey in seen_rows:
+                continue
+            seen_companies.add(ckey)
+            seen_rows.add(rkey)
+            normalized.append(f"{company}: {reason}" if reason else company)
+            if len(normalized) >= limit:
+                break
+        return normalized
+
     def generate_main_page(self, domestic_data, international_data, briefing_data, weather_data, filename, date_str, key_persons=None, trending_keywords=None):
         from datetime import datetime, timezone, timedelta
         kst_now = datetime.now(timezone(timedelta(hours=9)))  # Ensure KST regardless of runner timezone
@@ -1110,28 +1167,10 @@ class HTMLGenerator:
         # Archive
         html += f'<a href="{archive_href}" class="nav-pill">🗓️ 아카이브</a>'
         
-        # Key Persons (if exists)
-        if key_persons:
-            person_count = sum(p['count'] for p in key_persons.values())
-            html += f'<a href="#인물별" class="nav-pill">👤 인물별 ({person_count})</a>'
-
-        if trending_keywords:
-            html += f'<a href="#keywords" class="nav-pill">🔥 키워드 ({len(trending_keywords)})</a>'
-        
-        # Domestic Counts (필터링 후 개수)
-        for category in order:
-            items = domestic_data.get(category, [])
-            filtered_items = [item for item in items if item.get('link') not in used_article_links]
-            count = len(filtered_items)
-            if count > 0:
-                html += f'<a href="#{category}" class="nav-pill">{category} ({count})</a>'
-        
-        # Science Times Count
-        science_count = len(international_data)
-        if science_count > 0:
-            html += f'<a href="#science" class="nav-pill">테크 ({science_count})</a>'
-            
         html += '</div>'
+        html += ('<p class="weekly-bridge">한 주의 뉴스가 생활과 시장에 미치는 영향은 '
+                 '<a href="https://glamboy77-tech.github.io/sunday-radar/" '
+                 'rel="noopener noreferrer">Sunday Radar 주간 브리핑</a>에서 이어 읽으세요.</p>')
         
         # Render Briefing (항상 카드가 보이도록)
         html += '<div class="briefing-card">'
@@ -1156,89 +1195,11 @@ class HTMLGenerator:
                     </div>
                     """
 
-            # Sentiment (Companies)
-            hojae = briefing_data.get('hojae', []) if isinstance(briefing_data, dict) else []
-            akjae = briefing_data.get('akjae', []) if isinstance(briefing_data, dict) else []
-
-            if hojae or akjae:
-                html += '<div class="sentiment-box">'
-                if hojae:
-                    html += '<div class="sentiment-row"><span class="sentiment-type hojae">📈 호재</span> <div class="sentiment-items">'
-                    for item in hojae:
-                        html += f'<div class="sentiment-item">{item}</div>'
-                    html += '</div></div>'
-
-                if akjae:
-                    html += '<div class="sentiment-row"><span class="sentiment-type akjae">📉 악재</span> <div class="sentiment-items">'
-                    for item in akjae:
-                        html += f'<div class="sentiment-item">{item}</div>'
-                    html += '</div></div>'
-                html += '</div>'
-
         html += '</div>'
 
 
-        if trending_keywords:
-            html += '<div id="keywords" class="keyword-card">'
-            html += '<div class="briefing-title">🔥 오늘의 키워드 TOP10</div>'
-            html += '<div class="keyword-list">'
-            for item in trending_keywords[:10]:
-                rank = item.get('rank', '')
-                keyword = html_escape.escape(str(item.get('keyword', '')))
-                reason = html_escape.escape(str(item.get('reason', '') or ''))
-                article_count = item.get('article_count', 0)
-                source_count = item.get('source_count', 0)
-                categories = item.get('categories', []) or []
-                categories_text = ' · '.join([str(c) for c in categories[:3]])
-                categories_text = html_escape.escape(categories_text)
-                related_articles = item.get('related_articles') or []
-                if not related_articles and item.get('representative_article'):
-                    related_articles = [item.get('representative_article')]
-
-                articles_html = ''
-                if isinstance(related_articles, list):
-                    for article in related_articles[:5]:
-                        if not isinstance(article, dict) or not article.get('link') or not article.get('title'):
-                            continue
-                        article_title = html_escape.escape(str(article.get('title', '')))
-                        article_link = html_escape.escape(str(article.get('link', '')))
-                        article_source = html_escape.escape(str(article.get('source', '') or '관련 기사'))
-                        articles_html += f"""
-                            <a class="keyword-article" href="{article_link}" target="_blank" rel="noopener noreferrer">
-                                🔗 {article_title}
-                                <span class="keyword-article-source">{article_source}</span>
-                            </a>
-                        """
-
-                if articles_html:
-                    articles_html = f'<div class="keyword-articles">{articles_html}</div>'
-
-                reason_html = f'<div class="keyword-reason">{reason}</div>' if reason else ''
-                meta_parts = []
-                if categories_text:
-                    meta_parts.append(categories_text)
-                if source_count:
-                    meta_parts.append(f'{source_count}개 출처')
-                keyword_meta = ' · '.join(meta_parts)
-                html += f"""
-                <details class="keyword-row">
-                    <summary class="keyword-summary">
-                        <div class="keyword-rank">#{rank}</div>
-                        <div class="keyword-main">
-                            <div class="keyword-word">{keyword}</div>
-                        </div>
-                        <div class="keyword-count">{article_count}건</div>
-                        <div class="keyword-expand-icon">⌄</div>
-                    </summary>
-                    <div class="keyword-details">
-                        {reason_html}
-                        {articles_html}
-                        <div class="keyword-meta">{keyword_meta}</div>
-                    </div>
-                </details>
-                """
-            html += '</div></div>'
-
+        # Keep the full source list accessible without overwhelming the morning glance.
+        html += '<details class="all-articles"><summary>기사 원문 더 보기</summary>'
 
         # Key Persons Section (if exists)
         if key_persons:
@@ -1403,6 +1364,7 @@ class HTMLGenerator:
                 </a>
                 """
 
+        html += '</details>'
         html += """
                 <footer>&copy; 2025 PREMIUM MORNING NEWS BOT</footer>
             </div>
