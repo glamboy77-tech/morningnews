@@ -1,0 +1,456 @@
+{
+  "timestamp": "2026-10-06T06:01:14.219524",
+  "date": "20261006",
+  "data": [
+    {
+      "keyword": "지뢰제거",
+      "reason": "북한 지뢰 매설과 군 대응",
+      "score": 31.18,
+      "article_count": 4,
+      "source_count": 2,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "軍, MDL 이남 北지뢰제거로 대응조치 첫발…추가 대북조치 주목(종합)",
+        "軍 \"北지뢰로 우리장병 부상 최종판단\"…지뢰제거작전 전격단행",
+        "北매설지뢰로 우리 장병 부상 결론…軍, 지뢰제거 작전 단행(종합)"
+      ],
+      "representative_article": {
+        "title": "軍, MDL 이남 北지뢰제거로 대응조치 첫발…추가 대북조치 주목(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261005048151504",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-10-05 20:09:44",
+        "match_score": 31.18
+      },
+      "related_articles": [
+        {
+          "title": "軍, MDL 이남 北지뢰제거로 대응조치 첫발…추가 대북조치 주목(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261005048151504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-05 20:09:44",
+          "match_score": 31.18
+        },
+        {
+          "title": "軍 \"北지뢰로 우리장병 부상 최종판단\"…지뢰제거작전 전격단행",
+          "link": "https://www.yna.co.kr/view/AKR20261005044800504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-05 16:51:55",
+          "match_score": 30.18
+        },
+        {
+          "title": "北매설지뢰로 우리 장병 부상 결론…軍, 지뢰제거 작전 단행(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261005044851504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-05 19:13:50",
+          "match_score": 30.18
+        },
+        {
+          "title": "상응 조치는 없었다, 지뢰 제거만 촉구한 軍",
+          "link": "https://www.chosun.com/politics/politics_general/2026/10/06/ZBJJA7KFRBDDDCGZ7MJMHA4CP4/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-10-06 00:54:00",
+          "match_score": 15.5
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "해킹사고",
+      "reason": "금융권 해킹 반복 문제",
+      "score": 18.26,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "[단독] 이 정도면 뚫리는 은행도 문제?…금융권 해킹 사고 3분의 1은 ‘반복 발생’"
+      ],
+      "representative_article": {
+        "title": "[단독] 이 정도면 뚫리는 은행도 문제?…금융권 해킹 사고 3분의 1은 ‘반복 발생’",
+        "link": "https://www.mk.co.kr/news/economy/12168431",
+        "source": "매일경제-경제",
+        "published_dt": "2026-10-05 15:32:17",
+        "match_score": 18.26
+      },
+      "related_articles": [
+        {
+          "title": "[단독] 이 정도면 뚫리는 은행도 문제?…금융권 해킹 사고 3분의 1은 ‘반복 발생’",
+          "link": "https://www.mk.co.kr/news/economy/12168431",
+          "source": "매일경제-경제",
+          "published_dt": "2026-10-05 15:32:17",
+          "match_score": 18.26
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재건축",
+      "reason": "분당 등 주요 재건축 추진 상황",
+      "score": 39.3,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "부동산"
+      ],
+      "sample_titles": [
+        "\"분당 재건축 1~2억 분담금은 낙관론, 같은 평형도 5억 낸다\"",
+        "분당 재건축 어르신들 ‘클라쓰’가 다르네…종이 대신 전자동의서 ‘클릭’",
+        "\"분당 재건축 1~2억 분담금은 낙관론, 같은 평형도 5억 낸다\""
+      ],
+      "representative_article": {
+        "title": "\"분당 재건축 1~2억 분담금은 낙관론, 같은 평형도 5억 낸다\"",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/10/05/2026100501461.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-10-05 15:24:03",
+        "match_score": 39.3
+      },
+      "related_articles": [
+        {
+          "title": "\"분당 재건축 1~2억 분담금은 낙관론, 같은 평형도 5억 낸다\"",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/10/05/2026100501461.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-10-05 15:24:03",
+          "match_score": 39.3
+        },
+        {
+          "title": "분당 재건축 어르신들 ‘클라쓰’가 다르네…종이 대신 전자동의서 ‘클릭’",
+          "link": "https://www.mk.co.kr/news/realestate/12168302",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-05 10:15:40",
+          "match_score": 37.3
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "반도체",
+      "score": 61.7,
+      "article_count": 11,
+      "source_count": 7,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "리사 수 AMD 회장 7개월 만에 방한…'AI 동맹' 넓히나(종합)",
+        "AMRO \"올해 韓 성장률 3.3%\" … 반도체 호황 지속에 전망 높여",
+        "전남광주시의회, 반도체 용수 '댐 하류도 지원' 촉구"
+      ],
+      "llm_candidate": false,
+      "rank": 4,
+      "representative_article": {
+        "title": "전남광주시의회, 반도체 용수 '댐 하류도 지원' 촉구",
+        "link": "https://www.yna.co.kr/view/AKR20261002138500054",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-10-05 10:10:00",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "전남광주시의회, 반도체 용수 '댐 하류도 지원' 촉구",
+          "link": "https://www.yna.co.kr/view/AKR20261002138500054",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-10-05 10:10:00",
+          "match_score": 37.67
+        },
+        {
+          "title": "경북도, 미국 유타주·유타대와 AI·반도체 등 첨단산업 협력",
+          "link": "https://www.yna.co.kr/view/AKR20261005015400053",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-10-05 09:17:14",
+          "match_score": 37.67
+        },
+        {
+          "title": "AMRO \"올해 韓 성장률 3.3%\" … 반도체 호황 지속에 전망 높여",
+          "link": "https://www.mk.co.kr/news/economy/12168578",
+          "source": "매일경제-경제",
+          "published_dt": "2026-10-05 17:22:10",
+          "match_score": 37.66
+        },
+        {
+          "title": "“한달새 20% 넘게 올랐는데, 앞으로 더 뛴다”…삼전닉스 넘어 반도체 랠리 이끈 ETF",
+          "link": "https://www.etnews.com/20261005000140",
+          "source": "전자신문",
+          "published_dt": "2026-10-05 19:06:26",
+          "match_score": 37.49
+        },
+        {
+          "title": "초고수의 선택은 삼성전자...\"매크로 불확실성의 도피처는 반도체\" - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE41YUZPVTVTcE5xRzFlc2k1R0paR1hnaDFRLXBqaUFwV29XZG1CbFEySXdKbzl6U0JxbWJUM1AyRldBcENXc2lXbkpHM1ZGYzVDVmRhUVpnV1Rpdw?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-10-05 14:23:13",
+          "match_score": 36.96
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "새로운",
+      "score": 33.4,
+      "article_count": 6,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "부동산",
+        "테크"
+      ],
+      "sample_titles": [
+        "“새로운 도약 이끌 것”…이강석 대우건설 대표이사 체제 공식 출범",
+        "대우건설, 이강석 대표이사 공식 취임…\"AI·데이터센터 새로운 미래에 도전\"",
+        "美, 이란 테러위협에 英기지 B-1B 폭격기 12대 긴급 철수"
+      ],
+      "llm_candidate": false,
+      "rank": 5,
+      "representative_article": {
+        "title": "대우건설, 이강석 대표이사 공식 취임…\"AI·데이터센터 새로운 미래에 도전\"",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/10/05/2026100500649.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-10-05 10:18:29",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "대우건설, 이강석 대표이사 공식 취임…\"AI·데이터센터 새로운 미래에 도전\"",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/10/05/2026100500649.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-10-05 10:18:29",
+          "match_score": 37.49
+        },
+        {
+          "title": "오젬픽, 체중감량 뒤에 숨겨진 새로운 위험들 - 사이언스타임즈",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaHJiVnJpc3FDTTNuMG9kLTFfR080cHYxblBZQUN2MG41V0l5OU1Bb2U4TXQ2dWs0MUVlWlh3LWZCVFhVd1J2blVWdkpsS3NRQzBpaFM2SVpQSmlRTHJXUVdPblF6WnVmRzZONG41QWtrNExPc2JLRjFsTVpsWVVScEhXWlV3RjJ3MlphRHdoNA?oc=5",
+          "source": "사이언스타임즈",
+          "published_dt": "2026-01-23 17:00:00",
+          "match_score": 37.34
+        },
+        {
+          "title": "“새로운 도약 이끌 것”…이강석 대우건설 대표이사 체제 공식 출범",
+          "link": "https://www.mk.co.kr/news/realestate/12168359",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-05 13:14:57",
+          "match_score": 28.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "트럼프",
+      "score": 24.0,
+      "article_count": 6,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "국제"
+      ],
+      "sample_titles": [
+        "[단독] “美, 20억달러만 보증해주고...韓에 알래스카 LNG 500억달러 압박”",
+        "美부통령 “韓 알래스카 투자 이뤄질것…세부협상은 남아”",
+        "韓-日 대학생, 카드로 수싸움 ‘브리지’ 두뇌게임"
+      ],
+      "llm_candidate": false,
+      "rank": 6,
+      "representative_article": {
+        "title": "트럼프 ‘선거 개입-불복’ 우려에…美 민주당, 150개 위협 시나리오 마련",
+        "link": "https://www.donga.com/news/Inter/article/all/20261005/134787071/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-10-05 16:44:00",
+        "match_score": 37.3
+      },
+      "related_articles": [
+        {
+          "title": "트럼프 ‘선거 개입-불복’ 우려에…美 민주당, 150개 위협 시나리오 마련",
+          "link": "https://www.donga.com/news/Inter/article/all/20261005/134787071/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-05 16:44:00",
+          "match_score": 37.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "인프라",
+      "score": 23.4,
+      "article_count": 5,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "“새로운 도약 이끌 것”…이강석 대우건설 대표이사 체제 공식 출범",
+        "강호철 광진구시설관리공단 이사장 “AI로 위험요인 미리 찾고 탄소는 줄인다”",
+        "“美는 AI 모델·中은 AI 서비스에 강점… 한국은 반도체·전력기기 등 인프라 훌륭”"
+      ],
+      "llm_candidate": false,
+      "rank": 7,
+      "representative_article": {
+        "title": "LG전자, 북미 AI데이터센터 인프라기업과 냉각솔루션 대형계약",
+        "link": "https://www.yna.co.kr/view/AKR20261005036700003",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-10-05 22:06:31",
+        "match_score": 28.68
+      },
+      "related_articles": [
+        {
+          "title": "LG전자, 북미 AI데이터센터 인프라기업과 냉각솔루션 대형계약",
+          "link": "https://www.yna.co.kr/view/AKR20261005036700003",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-10-05 22:06:31",
+          "match_score": 28.68
+        },
+        {
+          "title": "“美는 AI 모델·中은 AI 서비스에 강점… 한국은 반도체·전력기기 등 인프라 훌륭”",
+          "link": "https://www.chosun.com/economy/money/2026/10/06/Z5ZS2BHKEFDWRFAH5QEWIU47IE/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-10-06 00:35:00",
+          "match_score": 28.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "MDL",
+      "score": 22.9,
+      "article_count": 5,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "軍, MDL 이남 北지뢰제거로 대응조치 첫발…추가 대북조치 주목(종합)",
+        "[일지] MDL 이남 北지뢰 폭발사건…軍, 발생 2주만에 최종조사결과 발표",
+        "軍 \"北지뢰로 우리장병 부상 최종판단\"…지뢰제거작전 전격단행"
+      ],
+      "llm_candidate": false,
+      "rank": 8,
+      "representative_article": {
+        "title": "軍, MDL 이남 北지뢰제거로 대응조치 첫발…추가 대북조치 주목(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261005048151504",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-10-05 20:09:44",
+        "match_score": 38.67
+      },
+      "related_articles": [
+        {
+          "title": "軍, MDL 이남 北지뢰제거로 대응조치 첫발…추가 대북조치 주목(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261005048151504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-05 20:09:44",
+          "match_score": 38.67
+        },
+        {
+          "title": "[일지] MDL 이남 北지뢰 폭발사건…軍, 발생 2주만에 최종조사결과 발표",
+          "link": "https://www.yna.co.kr/view/AKR20261005049200504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-05 18:28:24",
+          "match_score": 37.67
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "부동산",
+      "score": 26.8,
+      "article_count": 4,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "부동산",
+        "정치"
+      ],
+      "sample_titles": [
+        "李대통령, '강남3구 매물↑' 거론하며 \"투기공화국 반드시 탈출\"(종합)",
+        "李대통령, '강남3구 매물↑' 거론하며 \"투기공화국 반드시 탈출\"(종합)",
+        "李대통령, '강남3구 매물↑' 거론하며 \"투기공화국 반드시 탈출\"(종합)"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "‘부동산 대세’ 한강벨트도 조정 신호? … 강남3구 이어 용산구 아파트값 하락 전환",
+        "link": "https://www.mk.co.kr/news/realestate/12168479",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-10-06 05:00:00",
+        "match_score": 38.09
+      },
+      "related_articles": [
+        {
+          "title": "‘부동산 대세’ 한강벨트도 조정 신호? … 강남3구 이어 용산구 아파트값 하락 전환",
+          "link": "https://www.mk.co.kr/news/realestate/12168479",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-06 05:00:00",
+          "match_score": 38.09
+        },
+        {
+          "title": "李대통령, 부동산 '폭풍 4트윗'…“집 못지어 미친 것처럼 조기 대량 공급”",
+          "link": "https://www.etnews.com/20261005000129",
+          "source": "전자신문",
+          "published_dt": "2026-10-05 17:00:55",
+          "match_score": 37.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "데이터센터",
+      "score": 26.6,
+      "article_count": 4,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "“새로운 도약 이끌 것”…이강석 대우건설 대표이사 체제 공식 출범",
+        "LG전자, 북미 AI데이터센터 인프라기업과 냉각솔루션 대형계약",
+        "LG전자, 美 데이터센터에 兆단위 냉각 설비 공급"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "LG전자, 북미 AI데이터센터 인프라기업과 냉각솔루션 대형계약",
+        "link": "https://www.yna.co.kr/view/AKR20261005036700003",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-10-05 22:06:31",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "LG전자, 북미 AI데이터센터 인프라기업과 냉각솔루션 대형계약",
+          "link": "https://www.yna.co.kr/view/AKR20261005036700003",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-10-05 22:06:31",
+          "match_score": 37.67
+        },
+        {
+          "title": "대우건설, 이강석 대표이사 공식 취임…\"AI·데이터센터 새로운 미래에 도전\"",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/10/05/2026100500649.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-10-05 10:18:29",
+          "match_score": 37.49
+        },
+        {
+          "title": "LG전자, 美 데이터센터에 兆단위 냉각 설비 공급",
+          "link": "https://www.chosun.com/economy/tech_it/2026/10/06/7CFZX5HVYBCDZPVQFNT3T4DQIM/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-10-06 00:34:00",
+          "match_score": 28.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
