@@ -1,0 +1,427 @@
+{
+  "timestamp": "2026-10-07T06:01:17.991900",
+  "date": "20261007",
+  "data": [
+    {
+      "keyword": "국정감사",
+      "reason": "여야 공방과 주요 현안 집중 언급",
+      "score": 38.97,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "국정감사 이틀째…'DMZ 지뢰사건·투표용지 부족' 공방 예고"
+      ],
+      "representative_article": {
+        "title": "국정감사 이틀째…'DMZ 지뢰사건·투표용지 부족' 공방 예고",
+        "link": "https://www.yna.co.kr/view/AKR20261006180900001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-10-07 05:00:02",
+        "match_score": 38.97
+      },
+      "related_articles": [
+        {
+          "title": "국정감사 이틀째…'DMZ 지뢰사건·투표용지 부족' 공방 예고",
+          "link": "https://www.yna.co.kr/view/AKR20261006180900001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-07 05:00:02",
+          "match_score": 38.97
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI반도체",
+      "reason": "AMD 증산과 LG전자 AI 솔루션 계약",
+      "score": 39.88,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "리사 수 AMD 회장 7개월 만에 방한…한국 AI반도체 동맹 넓힌다"
+      ],
+      "representative_article": {
+        "title": "리사 수 AMD 회장 7개월 만에 방한…한국 AI반도체 동맹 넓힌다",
+        "link": "https://www.yna.co.kr/view/AKR20261006189400017",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-10-07 05:33:00",
+        "match_score": 39.88
+      },
+      "related_articles": [
+        {
+          "title": "리사 수 AMD 회장 7개월 만에 방한…한국 AI반도체 동맹 넓힌다",
+          "link": "https://www.yna.co.kr/view/AKR20261006189400017",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-10-07 05:33:00",
+          "match_score": 39.88
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "국가채무",
+      "reason": "GDP 대비 국가채무비율 증가 지적",
+      "score": 46.66,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "정치"
+      ],
+      "sample_titles": [
+        "한국 GDP 대비 국가채무비율 50% … 계속 늘어나는 나랏빚에 우려 커져",
+        "한국 GDP 대비 국가채무비율 50% … 계속 늘어나는 나랏빚에 우려 커져"
+      ],
+      "representative_article": {
+        "title": "한국 GDP 대비 국가채무비율 50% … 계속 늘어나는 나랏빚에 우려 커져",
+        "link": "https://www.mk.co.kr/news/economy/12169591",
+        "source": "매일경제-경제",
+        "published_dt": "2026-10-06 17:48:15",
+        "match_score": 46.66
+      },
+      "related_articles": [
+        {
+          "title": "한국 GDP 대비 국가채무비율 50% … 계속 늘어나는 나랏빚에 우려 커져",
+          "link": "https://www.mk.co.kr/news/economy/12169591",
+          "source": "매일경제-경제",
+          "published_dt": "2026-10-06 17:48:15",
+          "match_score": 46.66
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재건축",
+      "reason": "1기 신도시 재건축 사업 현황 집중",
+      "score": 31.45,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "1기 신도시 재건축… 산본·분당 속도 내고, 일산·중동은 고전"
+      ],
+      "representative_article": {
+        "title": "1기 신도시 재건축… 산본·분당 속도 내고, 일산·중동은 고전",
+        "link": "https://www.chosun.com/economy/2026/10/07/BHA2PRDK7RA4BNPZPI7IHMENAY/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-10-07 00:37:00",
+        "match_score": 31.45
+      },
+      "related_articles": [
+        {
+          "title": "1기 신도시 재건축… 산본·분당 속도 내고, 일산·중동은 고전",
+          "link": "https://www.chosun.com/economy/2026/10/07/BHA2PRDK7RA4BNPZPI7IHMENAY/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-10-07 00:37:00",
+          "match_score": 31.45
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "중성미자",
+      "reason": "노벨물리학상 수상과 남극 연구",
+      "score": 41.8,
+      "article_count": 3,
+      "source_count": 2,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "노벨 물리학상에… ‘우주 유령입자’ 중성미자 관측 길 연 과학자",
+        "남극서 우주 비밀 풀 ‘중성미자’ 포착… 노벨물리학상에 美할전",
+        "노벨물리학상에 프랜시스 할선…남극 얼음 이용 중성미자 관측"
+      ],
+      "representative_article": {
+        "title": "남극서 우주 비밀 풀 ‘중성미자’ 포착… 노벨물리학상에 美할전",
+        "link": "https://www.donga.com/news/It/article/all/20261007/134797435/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-10-07 04:30:00",
+        "match_score": 41.8
+      },
+      "related_articles": [
+        {
+          "title": "남극서 우주 비밀 풀 ‘중성미자’ 포착… 노벨물리학상에 美할전",
+          "link": "https://www.donga.com/news/It/article/all/20261007/134797435/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-07 04:30:00",
+          "match_score": 41.8
+        },
+        {
+          "title": "노벨물리학상에 프랜시스 할선…남극 얼음 이용 중성미자 관측",
+          "link": "https://www.donga.com/news/Inter/article/all/20261006/134796845/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-06 19:08:00",
+          "match_score": 41.8
+        },
+        {
+          "title": "노벨 물리학상에… ‘우주 유령입자’ 중성미자 관측 길 연 과학자",
+          "link": "https://www.chosun.com/economy/science/2026/10/07/X7SLQIQQB5D5JCIAHAW3EIEX54/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-10-07 00:52:00",
+          "match_score": 30.3
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "앞두고",
+      "score": 29.2,
+      "article_count": 6,
+      "source_count": 4,
+      "categories": [
+        "국제",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "“실손보험 재가입할 때인데”…5세대로 전환 앞두고 점검할 사안은",
+        "저PBR 명단 공개 앞두고…우진아이엔에스, 첫 PBR 개선계획 공시",
+        "'2조원 등기 오류' 푼 압구정3구역, 현대건설 재건축 훈풍 타나"
+      ],
+      "llm_candidate": false,
+      "rank": 6,
+      "representative_article": {
+        "title": "저PBR 명단 공개 앞두고…우진아이엔에스, 첫 PBR 개선계획 공시",
+        "link": "https://www.yna.co.kr/view/AKR20261006132600008",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-10-06 15:40:21",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "저PBR 명단 공개 앞두고…우진아이엔에스, 첫 PBR 개선계획 공시",
+          "link": "https://www.yna.co.kr/view/AKR20261006132600008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-10-06 15:40:21",
+          "match_score": 37.67
+        },
+        {
+          "title": "“실손보험 재가입할 때인데”…5세대로 전환 앞두고 점검할 사안은",
+          "link": "https://www.mk.co.kr/news/economy/12169411",
+          "source": "매일경제-경제",
+          "published_dt": "2026-10-06 16:45:05",
+          "match_score": 28.66
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "금융권",
+      "score": 31.0,
+      "article_count": 6,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "AI 해킹에 뚫린 금융권…은행장들 줄줄이 국감 불려가나",
+        "내년 'IMF 특별기여금' 종료 … 보험사는 울고, 은행은 웃어",
+        "[특징주] 금융권 AI 해킹 사태에 보안주 강세…상한가 마감도(종합)"
+      ],
+      "llm_candidate": false,
+      "rank": 7,
+      "representative_article": {
+        "title": "[특징주] 금융권 AI 해킹 사태에 보안주 강세…상한가 마감도(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261006044151008",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-10-06 15:47:23",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "[특징주] 금융권 AI 해킹 사태에 보안주 강세…상한가 마감도(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261006044151008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-10-06 15:47:23",
+          "match_score": 37.67
+        },
+        {
+          "title": "AI 해킹에 뚫린 금융권…은행장들 줄줄이 국감 불려가나",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/10/06/2026100601231.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-10-06 17:51:23",
+          "match_score": 37.49
+        },
+        {
+          "title": "“비번 같은걸로 돌려쓰면 망해요”…금융권 해킹 2차 피해 막으려면",
+          "link": "https://www.mk.co.kr/news/economy/12169087",
+          "source": "매일경제-경제",
+          "published_dt": "2026-10-06 11:23:47",
+          "match_score": 28.66
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "조희대",
+      "score": 33.7,
+      "article_count": 6,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "정치"
+      ],
+      "sample_titles": [
+        "與 \"조희대, 국가원수 맞먹으면 안돼\"·野 \"대통령 대법관쇼핑\"(종합2보)",
+        "靑, 조희대에 \"추천委 존중해 대법관 신속 재제청\"…입장 재확인",
+        "“제2 윤석열” 공세에 “모욕적”… 조희대, 준비한 원고 꺼내 6분간 반박"
+      ],
+      "llm_candidate": false,
+      "rank": 8,
+      "representative_article": {
+        "title": "與 \"조희대, 국가원수 맞먹으면 안돼\"·野 \"대통령 대법관쇼핑\"(종합2보)",
+        "link": "https://www.yna.co.kr/view/AKR20261006075452001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-10-07 00:16:30",
+        "match_score": 38.67
+      },
+      "related_articles": [
+        {
+          "title": "與 \"조희대, 국가원수 맞먹으면 안돼\"·野 \"대통령 대법관쇼핑\"(종합2보)",
+          "link": "https://www.yna.co.kr/view/AKR20261006075452001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-07 00:16:30",
+          "match_score": 38.67
+        },
+        {
+          "title": "靑, 조희대에 \"추천委 존중해 대법관 신속 재제청\"…입장 재확인",
+          "link": "https://www.yna.co.kr/view/AKR20261006169600001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-06 17:47:47",
+          "match_score": 28.68
+        },
+        {
+          "title": "“제2 윤석열” 공세에 “모욕적”… 조희대, 준비한 원고 꺼내 6분간 반박",
+          "link": "https://www.chosun.com/politics/assembly/2026/10/07/A65ZHJM4QFA7ZPFCOAZXT7YR7Y/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-10-07 00:51:00",
+          "match_score": 28.3
+        },
+        {
+          "title": "與 “와인 사는데 업무추진비 1억”… 조희대 “술 안 마셔, 카드 본 적도 없다”",
+          "link": "https://www.chosun.com/politics/assembly/2026/10/07/Z2SB5ZZZKRE2BNJD6JM4DP72I4/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-10-07 00:51:00",
+          "match_score": 28.3
+        },
+        {
+          "title": "與이수진 “조희대 국감서 증언 거부... 탄핵돼야”",
+          "link": "https://www.chosun.com/politics/politics_general/2026/10/06/6L3QK6G5SBEBVEXMVBANT7IJNY/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-10-06 20:40:06",
+          "match_score": 28.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "부동산",
+      "score": 25.1,
+      "article_count": 5,
+      "source_count": 3,
+      "categories": [
+        "국제",
+        "부동산"
+      ],
+      "sample_titles": [
+        "성동 못잖은 직주근접 입지에 6만가구 … 영등포에 주목할 이유",
+        "부동산 직거래 年 8만건 … 감독은 사각지대",
+        "노원구 상계주공11단지 58.01㎡ 7억 6500만원… 최근 3년 신고가 [MAI부동산]"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "부동산 직거래 年 8만건 … 감독은 사각지대",
+        "link": "https://www.mk.co.kr/news/realestate/12169477",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-10-06 17:21:36",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "부동산 직거래 年 8만건 … 감독은 사각지대",
+          "link": "https://www.mk.co.kr/news/realestate/12169477",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-06 17:21:36",
+          "match_score": 37.49
+        },
+        {
+          "title": "노원구 상계주공11단지 58.01㎡ 7억 6500만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12169309",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-06 15:25:16",
+          "match_score": 37.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "보증금",
+      "score": 31.2,
+      "article_count": 4,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "전세사기 피해 보증금 3분의 1 국가 보장…내달 13일 시행",
+        "전세사기 피해 보증금 3분의 1 국가 보장…내달 13일 시행",
+        "전세사기로 날린 보증금…정부가 ‘최소 3분의1’ 보장해드립니다"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "전세사기 집 경매 넘어가도 보증금 3분의 1 국가가 보전",
+        "link": "https://www.mk.co.kr/news/economy/12169474",
+        "source": "매일경제-경제",
+        "published_dt": "2026-10-06 17:21:35",
+        "match_score": 37.66
+      },
+      "related_articles": [
+        {
+          "title": "전세사기 집 경매 넘어가도 보증금 3분의 1 국가가 보전",
+          "link": "https://www.mk.co.kr/news/economy/12169474",
+          "source": "매일경제-경제",
+          "published_dt": "2026-10-06 17:21:35",
+          "match_score": 37.66
+        },
+        {
+          "title": "전세사기 피해 보증금 3분의 1 국가 보장…내달 13일 시행",
+          "link": "https://www.etnews.com/20261006000244",
+          "source": "전자신문",
+          "published_dt": "2026-10-06 14:02:35",
+          "match_score": 37.49
+        },
+        {
+          "title": "전세사기로 날린 보증금…정부가 ‘최소 3분의1’ 보장해드립니다",
+          "link": "https://www.mk.co.kr/news/realestate/12169851",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-06 22:36:44",
+          "match_score": 37.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
