@@ -4,6 +4,7 @@ import html
 from urllib.parse import parse_qs, quote_plus, urlparse
 from datetime import datetime
 from config import config
+from article_preview import rss_image_url
 
 
 SOURCE_TYPE_META = {
@@ -222,6 +223,7 @@ class RSSManager:
                         'category': 'domestic',
                         'feed_url': url,
                     }
+                    item['image_url'] = rss_image_url(entry)
                     all_news.append(enrich_news_item(item, source_type=source_type))
             except Exception as e:
                 print(f"Error fetching {source_name}: {e}")

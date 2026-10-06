@@ -2,6 +2,7 @@ import os
 import json
 import html as html_escape
 import re
+from article_preview import permitted_image, rss_preview
 
 class HTMLGenerator:
     def __init__(self):
@@ -253,7 +254,17 @@ class HTMLGenerator:
             .front-page .card-illustrated { display: flex; align-items: center; gap: 14px; }
             .front-page .card-illustrated .card-copy { min-width: 0; flex: 1; }
             .front-page .card-illustrated .card-art { width: 76px; height: 76px; flex: none; border-radius: 14px; }
+            .front-page .card-illustrated .card-art[hidden] { display: none; }
             .front-page .card-illustrated .card-title { display: block; line-height: 1.45; }
+            .card-preview { margin: 10px 0 0; color: var(--text-secondary); font-size: .87rem; line-height: 1.6; }
+            .card-preview::before { content: 'RSS 미리보기 · '; color: var(--primary); font-weight: 600; }
+            .article-photo { display: block; width: 100%; height: 180px; object-fit: cover; border-radius: 12px; margin-bottom: 12px; }
+            .front-page .article-photo { width: 90px; height: 90px; flex: none; margin: 0; }
+            .article-photo-credit { color: var(--text-secondary); font-size: .72rem; }
+            .article-photo[hidden] { display: none; }
+            @media (max-width: 400px) {
+                .front-page .article-photo { width: 72px; height: 72px; }
+            }
             .front-page-more { display: inline-block; color: var(--primary); font-size: .85rem; padding: 6px 0; }
 
             .sentiment-box {
@@ -752,6 +763,31 @@ class HTMLGenerator:
 
         </style>
         """
+
+    @staticmethod
+    def _article_preview_html(item, *, front=False):
+        preview = rss_preview(item.get('description'), item.get('title'))
+        summary = f'<p class="card-preview">{html_escape.escape(preview)}</p>' if preview else ''
+        image = permitted_image(item)
+        if image:
+            url = html_escape.escape(image, quote=True)
+            credit = html_escape.escape(str(item.get('source', '')))
+            if front:
+                fallback = HTMLGenerator._front_page_art(item.get('category', '')).replace(
+                    'class="card-art"', 'class="card-art" hidden', 1)
+                photo = (f'<img class="article-photo" src="{url}" alt="" loading="lazy" '
+                         f'referrerpolicy="no-referrer" '
+                         f'onerror="this.hidden=true;this.nextElementSibling.hidden=false;'
+                         f'this.closest(\'.card\').querySelector(\'.article-photo-credit\').hidden=true">'
+                         f'{fallback}')
+                summary += f'<span class="article-photo-credit">사진: {credit} RSS</span>'
+            else:
+                photo = (f'<img class="article-photo" src="{url}" alt="" loading="lazy" '
+                         f'referrerpolicy="no-referrer" '
+                         f'onerror="this.hidden=true;this.nextElementSibling.hidden=true">'
+                         f'<span class="article-photo-credit">사진: {credit} RSS</span>')
+            return photo, summary
+        return (HTMLGenerator._front_page_art(item.get('category', '')) if front else ''), summary
 
     @staticmethod
     def _front_page_art(category):
@@ -1282,10 +1318,11 @@ class HTMLGenerator:
                     link = html_escape.escape(item['link'], quote=True)
                     title = html_escape.escape(item['title'])
                     source = html_escape.escape(item.get('source', ''))
-                    html += (f'<div class="card card-illustrated">{self._front_page_art(category)}'
+                    image, summary = self._article_preview_html({**item, 'category': category}, front=True)
+                    html += (f'<div class="card card-illustrated">{image}'
                              f'<div class="card-copy"><a href="{link}" class="card-title" '
                              f'target="_blank" rel="noopener noreferrer">{title}</a>'
-                             f'<div class="card-meta">{source}</div></div></div>')
+                             f'{summary}<div class="card-meta">{source}</div></div></div>')
                 html += (f'<a class="front-page-more" href="#{category}" '
                          f'onclick="document.querySelector(\'.all-articles\').open = true">'
                          f'{category} 기사 전체 보기 →</a></div>')
@@ -1340,6 +1377,7 @@ class HTMLGenerator:
 
                     for item in group_items:
                         time_str = item['published_dt'].strftime("%m.%d %H:%M")
+                        photo, summary = self._article_preview_html(item)
                         priority_class = "priority" if item.get('priority_score', 0) > 0 else ""
                         
                         # 대표 기사 표시
@@ -1366,7 +1404,9 @@ class HTMLGenerator:
 
                         html += f"""
                     <div class="card {priority_class}">
+                        {photo}
                         <a href="{item['link']}" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">{item['title']}{count_badge}{representative_badge}</a>
+                        {summary}
                         <div class="card-meta">
                             <span>{item['source']} · {source_badge}</span>
                             <span>{time_str}</span>
@@ -1379,6 +1419,7 @@ class HTMLGenerator:
                 html += f'<div id="{category}" class="section-title">{category}</div>'
                 for item in filtered_items:
                     time_str = item['published_dt'].strftime("%m.%d %H:%M")
+                    photo, summary = self._article_preview_html(item)
                     priority_class = "priority" if item.get('priority_score', 0) > 0 else ""
                     
                     # Grouped sources detail
@@ -1397,7 +1438,9 @@ class HTMLGenerator:
 
                     html += f"""
                 <div class="card {priority_class}">
+                    {photo}
                     <a href="{item['link']}" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">{item['title']}</a>
+                    {summary}
                     <div class="card-meta">
                         <span>{item['source']} · {source_badge}</span>
                         <span>{time_str}</span>
@@ -1410,9 +1453,12 @@ class HTMLGenerator:
             html += f'<div id="science" class="section-title">테크</div>'
             for item in international_data:
                 time_str = item['published_dt'].strftime("%m.%d %H:%M")
+                photo, summary = self._article_preview_html(item)
                 html += f"""
                 <a href="{item['link']}" class="card" target="_blank">
+                    {photo}
                     <div class="card-title">{item['title']}</div>
+                    {summary}
                     <div class="card-meta">
                         <span>사이언스타임즈</span>
                         <span>{time_str}</span>
@@ -1430,6 +1476,7 @@ class HTMLGenerator:
                 role_text = f" ({role})" if role else ""
                 html += f'<div class="sector-subheading">👤 {person_name}{role_text} ({count}건)</div>'
                 for item in articles:
+                    photo, summary = self._article_preview_html(item)
                     if isinstance(item['published_dt'], str):
                         try:
                             from datetime import datetime
@@ -1440,7 +1487,9 @@ class HTMLGenerator:
                         time_str = item['published_dt'].strftime("%m.%d %H:%M")
                     html += f"""
                 <div class="card">
+                    {photo}
                     <a href="{item['link']}" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">{item['title']}</a>
+                    {summary}
                     <div class="card-meta">
                         <span>{item['source']}</span>
                         <span>{time_str}</span>

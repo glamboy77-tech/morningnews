@@ -571,6 +571,15 @@ ${shareText}`);
             .front-page .card-illustrated .card-copy { min-width: 0; flex: 1; }
             .front-page .card-illustrated .card-art { width: 76px; height: 76px; flex: none; border-radius: 14px; }
             .front-page .card-illustrated .card-title { display: block; line-height: 1.45; }
+            .card-preview { margin: 10px 0 0; color: var(--text-secondary); font-size: .87rem; line-height: 1.6; }
+            .card-preview::before { content: 'RSS 미리보기 · '; color: var(--primary); font-weight: 600; }
+            .article-photo { display: block; width: 100%; height: 180px; object-fit: cover; border-radius: 12px; margin-bottom: 12px; }
+            .front-page .article-photo { width: 90px; height: 90px; flex: none; margin: 0; }
+            .article-photo-credit { color: var(--text-secondary); font-size: .72rem; }
+            .article-photo[hidden] { display: none; }
+            @media (max-width: 400px) {
+                .front-page .article-photo { width: 72px; height: 72px; }
+            }
             .front-page-more { display: inline-block; color: var(--primary); font-size: .85rem; padding: 6px 0; }
             .front-page-more { display: inline-block; color: var(--primary); font-size: .85rem; padding: 6px 0; }
 
@@ -1124,9 +1133,9 @@ ${shareText}`);
                         <span class="briefing-label">정치</span>
                         <span class="briefing-content">군 당국은 MDL 이남 지역에서 발생한 북한의 지뢰 매설로 인해 우리 장병 부상 사실을 최종 확인하고 지뢰 제거 작전을 전격 단행했다. 이에 대해 야당은 책임 규명을 요구하며 공방이 이어지고 있으며, 대통령은 검찰 개혁과 부동산 시장 문제에 대해 강한 의지를 표명했다. 또한, 국정감사가 시작되면서 여야 간 여러 쟁점과 공방이 예상된다.</span>
                     </div>
-                    </div><section class="front-page" aria-label="오늘의 읽을거리"><h2 class="front-page-heading">오늘 먼저 읽을 뉴스</h2><p class="front-page-intro">관심 분야에서 최대 세 꼭지씩 골랐습니다. 전체 기사는 아래에서 볼 수 있어요.</p><div class="front-page-section"><h3>경제/거시</h3><div class="card card-illustrated"><svg class="card-art" viewBox="0 0 80 80" aria-hidden="true" focusable="false" style="color:#4facfe;background:#172028" xmlns="http://www.w3.org/2000/svg"><path d="M18 60V43m15 17V33m15 27V20m15 40V39" stroke="currentColor" stroke-width="6" stroke-linecap="round"/><path d="M17 33l17-10 15 7 14-13" fill="none" stroke="currentColor" stroke-width="2"/></svg><div class="card-copy"><a href="https://www.yna.co.kr/view/AKR20261003043400002" class="card-title" target="_blank" rel="noopener noreferrer">보험사 주담대 연체 악성화…&#x27;90일 이상&#x27; 연체액 절반 이상</a><div class="card-meta">연합뉴스-경제</div></div></div><div class="card card-illustrated"><svg class="card-art" viewBox="0 0 80 80" aria-hidden="true" focusable="false" style="color:#4facfe;background:#172028" xmlns="http://www.w3.org/2000/svg"><path d="M18 60V43m15 17V33m15 27V20m15 40V39" stroke="currentColor" stroke-width="6" stroke-linecap="round"/><path d="M17 33l17-10 15 7 14-13" fill="none" stroke="currentColor" stroke-width="2"/></svg><div class="card-copy"><a href="https://www.yna.co.kr/view/AKR20261002185300002" class="card-title" target="_blank" rel="noopener noreferrer">늘어나는 &#x27;노노 케어&#x27;…2인 가구, 내년 30% 처음 넘는다</a><div class="card-meta">연합뉴스-경제</div></div></div><div class="card card-illustrated"><svg class="card-art" viewBox="0 0 80 80" aria-hidden="true" focusable="false" style="color:#4facfe;background:#172028" xmlns="http://www.w3.org/2000/svg"><path d="M18 60V43m15 17V33m15 27V20m15 40V39" stroke="currentColor" stroke-width="6" stroke-linecap="round"/><path d="M17 33l17-10 15 7 14-13" fill="none" stroke="currentColor" stroke-width="2"/></svg><div class="card-copy"><a href="https://news.google.com/rss/articles/CBMiT0FVX3lxTE5VUmk1Ujd0S1FYdEpGQXVBQXhCSTFlejJBTlY2d3hLYmVtOXJmT2NmWmRrYTdXYkNBcC1lUUhqSlNoMk1OR1dmMGN0bHpfX1k?oc=5" class="card-title" target="_blank" rel="noopener noreferrer">美 국채금리 상승에도 기술주 강세…나스닥 사상 최고치 - v.daum.net</a><div class="card-meta">키워드-금리환율코스피</div></div></div><a class="front-page-more" href="#경제/거시" onclick="document.querySelector('.all-articles').open = true">경제/거시 기사 전체 보기 →</a></div><div class="front-page-section"><h3>부동산</h3><div class="card card-illustrated"><svg class="card-art" viewBox="0 0 80 80" aria-hidden="true" focusable="false" style="color:#e6b368;background:#172028" xmlns="http://www.w3.org/2000/svg"><path d="M13 38l27-22 27 22v30H13z" fill="none" stroke="currentColor" stroke-width="3"/><path d="M32 68V46h16v22M21 42h5m28 0h5" fill="none" stroke="currentColor" stroke-width="3"/></svg><div class="card-copy"><a href="https://www.mk.co.kr/news/realestate/12168479" class="card-title" target="_blank" rel="noopener noreferrer">‘부동산 대세’ 한강벨트도 조정 신호? … 강남3구 이어 용산구 아파트값 하락 전환</a><div class="card-meta">매일경제-부동산</div></div></div><div class="card card-illustrated"><svg class="card-art" viewBox="0 0 80 80" aria-hidden="true" focusable="false" style="color:#e6b368;background:#172028" xmlns="http://www.w3.org/2000/svg"><path d="M13 38l27-22 27 22v30H13z" fill="none" stroke="currentColor" stroke-width="3"/><path d="M32 68V46h16v22M21 42h5m28 0h5" fill="none" stroke="currentColor" stroke-width="3"/></svg><div class="card-copy"><a href="https://realty.chosun.com/site/data/html_dir/2026/10/05/2026100501461.html" class="card-title" target="_blank" rel="noopener noreferrer">&quot;분당 재건축 1~2억 분담금은 낙관론, 같은 평형도 5억 낸다&quot;</a><div class="card-meta">땅집고-부동산</div></div></div><div class="card card-illustrated"><svg class="card-art" viewBox="0 0 80 80" aria-hidden="true" focusable="false" style="color:#e6b368;background:#172028" xmlns="http://www.w3.org/2000/svg"><path d="M13 38l27-22 27 22v30H13z" fill="none" stroke="currentColor" stroke-width="3"/><path d="M32 68V46h16v22M21 42h5m28 0h5" fill="none" stroke="currentColor" stroke-width="3"/></svg><div class="card-copy"><a href="https://www.mk.co.kr/news/realestate/12168395" class="card-title" target="_blank" rel="noopener noreferrer">45년 軍부대 땅인데 ‘환경 1등급’ … 판교 옆 2200가구 멈췄다</a><div class="card-meta">매일경제-부동산</div></div></div><a class="front-page-more" href="#부동산" onclick="document.querySelector('.all-articles').open = true">부동산 기사 전체 보기 →</a></div><div class="front-page-section"><h3>국제</h3><div class="card card-illustrated"><svg class="card-art" viewBox="0 0 80 80" aria-hidden="true" focusable="false" style="color:#83c9ab;background:#172028" xmlns="http://www.w3.org/2000/svg"><circle cx="40" cy="40" r="27" fill="none" stroke="currentColor" stroke-width="3"/><path d="M13 40h54M40 13c-14 14-14 40 0 54M40 13c14 14 14 40 0 54" fill="none" stroke="currentColor" stroke-width="2"/></svg><div class="card-copy"><a href="https://www.donga.com/news/Inter/article/all/20261006/134790247/1" class="card-title" target="_blank" rel="noopener noreferrer">美FBI, 대만 총통 아들 감시한 여성 체포…中스파이 혐의</a><div class="card-meta">동아일보-국제</div></div></div><div class="card card-illustrated"><svg class="card-art" viewBox="0 0 80 80" aria-hidden="true" focusable="false" style="color:#83c9ab;background:#172028" xmlns="http://www.w3.org/2000/svg"><circle cx="40" cy="40" r="27" fill="none" stroke="currentColor" stroke-width="3"/><path d="M13 40h54M40 13c-14 14-14 40 0 54M40 13c14 14 14 40 0 54" fill="none" stroke="currentColor" stroke-width="2"/></svg><div class="card-copy"><a href="https://www.donga.com/news/Inter/article/all/20261006/134790240/1" class="card-title" target="_blank" rel="noopener noreferrer">美부통령 “韓 알래스카 투자 이뤄질것…세부협상은 남아”</a><div class="card-meta">동아일보-국제</div></div></div><div class="card card-illustrated"><svg class="card-art" viewBox="0 0 80 80" aria-hidden="true" focusable="false" style="color:#83c9ab;background:#172028" xmlns="http://www.w3.org/2000/svg"><circle cx="40" cy="40" r="27" fill="none" stroke="currentColor" stroke-width="3"/><path d="M13 40h54M40 13c-14 14-14 40 0 54M40 13c14 14 14 40 0 54" fill="none" stroke="currentColor" stroke-width="2"/></svg><div class="card-copy"><a href="https://www.donga.com/news/Inter/article/all/20261006/134790237/1" class="card-title" target="_blank" rel="noopener noreferrer">나이지리아서 군용 항공기 추락…탑승 32명 사망</a><div class="card-meta">동아일보-국제</div></div></div><a class="front-page-more" href="#국제" onclick="document.querySelector('.all-articles').open = true">국제 기사 전체 보기 →</a></div></section><details class="all-articles"><summary>기사 원문 더 보기</summary><div id="경제/거시" class="section-title">경제/거시</div>
+                    </div><section class="front-page" aria-label="오늘의 읽을거리"><h2 class="front-page-heading">오늘 먼저 읽을 뉴스</h2><p class="front-page-intro">관심 분야에서 최대 세 꼭지씩 골랐습니다. 전체 기사는 아래에서 볼 수 있어요.</p><div class="front-page-section"><h3>경제/거시</h3><div class="card card-illustrated"><svg class="card-art" viewBox="0 0 80 80" aria-hidden="true" focusable="false" style="color:#4facfe;background:#172028" xmlns="http://www.w3.org/2000/svg"><path d="M18 60V43m15 17V33m15 27V20m15 40V39" stroke="currentColor" stroke-width="6" stroke-linecap="round"/><path d="M17 33l17-10 15 7 14-13" fill="none" stroke="currentColor" stroke-width="2"/></svg><div class="card-copy"><a href="https://www.yna.co.kr/view/AKR20261003043400002" class="card-title" target="_blank" rel="noopener noreferrer">보험사 주담대 연체 악성화…&#x27;90일 이상&#x27; 연체액 절반 이상</a><p class="card-preview">배영경 기자 = 보험업권 주택담보대출 연체액의 절반 이상이 90일 이상 장기연체 상태인 것으로 파악됐다.</p><div class="card-meta">연합뉴스-경제</div></div></div><div class="card card-illustrated"><svg class="card-art" viewBox="0 0 80 80" aria-hidden="true" focusable="false" style="color:#4facfe;background:#172028" xmlns="http://www.w3.org/2000/svg"><path d="M18 60V43m15 17V33m15 27V20m15 40V39" stroke="currentColor" stroke-width="6" stroke-linecap="round"/><path d="M17 33l17-10 15 7 14-13" fill="none" stroke="currentColor" stroke-width="2"/></svg><div class="card-copy"><a href="https://www.yna.co.kr/view/AKR20261002185300002" class="card-title" target="_blank" rel="noopener noreferrer">늘어나는 &#x27;노노 케어&#x27;…2인 가구, 내년 30% 처음 넘는다</a><p class="card-preview">김수현 기자 = 전국 2인 가구가 내년이면 처음으로 30%를 넘어서는 것으로 나타났다.</p><div class="card-meta">연합뉴스-경제</div></div></div><div class="card card-illustrated"><svg class="card-art" viewBox="0 0 80 80" aria-hidden="true" focusable="false" style="color:#4facfe;background:#172028" xmlns="http://www.w3.org/2000/svg"><path d="M18 60V43m15 17V33m15 27V20m15 40V39" stroke="currentColor" stroke-width="6" stroke-linecap="round"/><path d="M17 33l17-10 15 7 14-13" fill="none" stroke="currentColor" stroke-width="2"/></svg><div class="card-copy"><a href="https://news.google.com/rss/articles/CBMiT0FVX3lxTE5VUmk1Ujd0S1FYdEpGQXVBQXhCSTFlejJBTlY2d3hLYmVtOXJmT2NmWmRrYTdXYkNBcC1lUUhqSlNoMk1OR1dmMGN0bHpfX1k?oc=5" class="card-title" target="_blank" rel="noopener noreferrer">美 국채금리 상승에도 기술주 강세…나스닥 사상 최고치 - v.daum.net</a><p class="card-preview">美 국채금리 상승에도 기술주 강세…나스닥 사상 최고치 v.daum.net</p><div class="card-meta">키워드-금리환율코스피</div></div></div><a class="front-page-more" href="#경제/거시" onclick="document.querySelector('.all-articles').open = true">경제/거시 기사 전체 보기 →</a></div><div class="front-page-section"><h3>부동산</h3><div class="card card-illustrated"><svg class="card-art" viewBox="0 0 80 80" aria-hidden="true" focusable="false" style="color:#e6b368;background:#172028" xmlns="http://www.w3.org/2000/svg"><path d="M13 38l27-22 27 22v30H13z" fill="none" stroke="currentColor" stroke-width="3"/><path d="M32 68V46h16v22M21 42h5m28 0h5" fill="none" stroke="currentColor" stroke-width="3"/></svg><div class="card-copy"><a href="https://www.mk.co.kr/news/realestate/12168479" class="card-title" target="_blank" rel="noopener noreferrer">‘부동산 대세’ 한강벨트도 조정 신호? … 강남3구 이어 용산구 아파트값 하락 전환</a><p class="card-preview">부동산 이슈와 실거래가 브리핑서울 아파트값이 86주 연속 오르며 역대 최장 상승 기록을 새로 썼다. 다만 한국부동산원 9월 넷째 주 동향에서 서울 매매가는 0.09% 오르는 데 그..</p><div class="card-meta">매일경제-부동산</div></div></div><div class="card card-illustrated"><svg class="card-art" viewBox="0 0 80 80" aria-hidden="true" focusable="false" style="color:#e6b368;background:#172028" xmlns="http://www.w3.org/2000/svg"><path d="M13 38l27-22 27 22v30H13z" fill="none" stroke="currentColor" stroke-width="3"/><path d="M32 68V46h16v22M21 42h5m28 0h5" fill="none" stroke="currentColor" stroke-width="3"/></svg><div class="card-copy"><a href="https://realty.chosun.com/site/data/html_dir/2026/10/05/2026100501461.html" class="card-title" target="_blank" rel="noopener noreferrer">&quot;분당 재건축 1~2억 분담금은 낙관론, 같은 평형도 5억 낸다&quot;</a><p class="card-preview">[땅집고] 분당신도시 선도지구 재건축 사업이 속도를 내면서 향후 조합원이 부담해야 할 추가분담금에 관심이 커지고 있다. 아직 관리처분계획과 시공사 공사비가 확정되지 않아 정확한 분담금은 나오지 않았지만, 현 시점에서는 동일 평형을 받더라도 수억원의…</p><div class="card-meta">땅집고-부동산</div></div></div><div class="card card-illustrated"><svg class="card-art" viewBox="0 0 80 80" aria-hidden="true" focusable="false" style="color:#e6b368;background:#172028" xmlns="http://www.w3.org/2000/svg"><path d="M13 38l27-22 27 22v30H13z" fill="none" stroke="currentColor" stroke-width="3"/><path d="M32 68V46h16v22M21 42h5m28 0h5" fill="none" stroke="currentColor" stroke-width="3"/></svg><div class="card-copy"><a href="https://www.mk.co.kr/news/realestate/12168395" class="card-title" target="_blank" rel="noopener noreferrer">45년 軍부대 땅인데 ‘환경 1등급’ … 판교 옆 2200가구 멈췄다</a><p class="card-preview">보상 빠르고 철거 쉬운 군부대 땅도 1년째 사업 지연경기 성남시가 판교 인근 금토동 군부대 이전부지에 추진하는 2200가구 규모 주택 개발사업이 그린벨트 규제에 막혀 1년 가까이 ..</p><div class="card-meta">매일경제-부동산</div></div></div><a class="front-page-more" href="#부동산" onclick="document.querySelector('.all-articles').open = true">부동산 기사 전체 보기 →</a></div><div class="front-page-section"><h3>국제</h3><div class="card card-illustrated"><svg class="card-art" viewBox="0 0 80 80" aria-hidden="true" focusable="false" style="color:#83c9ab;background:#172028" xmlns="http://www.w3.org/2000/svg"><circle cx="40" cy="40" r="27" fill="none" stroke="currentColor" stroke-width="3"/><path d="M13 40h54M40 13c-14 14-14 40 0 54M40 13c14 14 14 40 0 54" fill="none" stroke="currentColor" stroke-width="2"/></svg><div class="card-copy"><a href="https://www.donga.com/news/Inter/article/all/20261006/134790247/1" class="card-title" target="_blank" rel="noopener noreferrer">美FBI, 대만 총통 아들 감시한 여성 체포…中스파이 혐의</a><p class="card-preview">미국에서 라이칭더 대만 총통의 아들 및 그 가족들을 감시한 혐의를 받는 여성이 중국으로 출국하기 직전 체포됐다.5일(현지 시간) NBC, 뉴욕포스트 등에 따르면 미국 연방수사국(FBI)은 지난 4일 캘리포니아주 로스앤젤레스(LA)의 LA국제공항에서 중국으로…</p><div class="card-meta">동아일보-국제</div></div></div><div class="card card-illustrated"><svg class="card-art" viewBox="0 0 80 80" aria-hidden="true" focusable="false" style="color:#83c9ab;background:#172028" xmlns="http://www.w3.org/2000/svg"><circle cx="40" cy="40" r="27" fill="none" stroke="currentColor" stroke-width="3"/><path d="M13 40h54M40 13c-14 14-14 40 0 54M40 13c14 14 14 40 0 54" fill="none" stroke="currentColor" stroke-width="2"/></svg><div class="card-copy"><a href="https://www.donga.com/news/Inter/article/all/20261006/134790240/1" class="card-title" target="_blank" rel="noopener noreferrer">美부통령 “韓 알래스카 투자 이뤄질것…세부협상은 남아”</a><p class="card-preview">도널드 트럼프 미국 대통령이 확정되지 않은 한국의 알래스카 액화천연가스(LNG) 사업 투자를 일방 발표한 가운데, JD 밴스 미국 부통령도 “결국 이뤄질 일이라 생각한다”고 5일(현지 시간) 주장했다.밴스 부통령은 이날 메릴랜드주 앤드루스합동기지에서…</p><div class="card-meta">동아일보-국제</div></div></div><div class="card card-illustrated"><svg class="card-art" viewBox="0 0 80 80" aria-hidden="true" focusable="false" style="color:#83c9ab;background:#172028" xmlns="http://www.w3.org/2000/svg"><circle cx="40" cy="40" r="27" fill="none" stroke="currentColor" stroke-width="3"/><path d="M13 40h54M40 13c-14 14-14 40 0 54M40 13c14 14 14 40 0 54" fill="none" stroke="currentColor" stroke-width="2"/></svg><div class="card-copy"><a href="https://www.donga.com/news/Inter/article/all/20261006/134790237/1" class="card-title" target="_blank" rel="noopener noreferrer">나이지리아서 군용 항공기 추락…탑승 32명 사망</a><p class="card-preview">5일(현지 시간) 나이지리아 남부에서 추락한 군용 항공기에 탑승했던 32명이 모두 사망한 것으로 전해졌다.AP통신 등에 따르면 볼라 티누부 나이지리아 대통령은 성명을 내어 남서부 온도주 강변 마을 이그보코다에서 추락한 군용 항공기에 탑승했던 32명이…</p><div class="card-meta">동아일보-국제</div></div></div><a class="front-page-more" href="#국제" onclick="document.querySelector('.all-articles').open = true">국제 기사 전체 보기 →</a></div></section><details class="all-articles"><summary>기사 원문 더 보기</summary><div id="경제/거시" class="section-title">경제/거시</div>
                 <div class="card priority">
-                    <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE5zZzh2N096dWMxNDlySkVnS1pCMHF2MXYwME1FanBkZzMyaWhlRlZONUFibjBWd3ZDMFlESzZzcVZsanotTUVLNlJSOWxTOUV1SC1Eck0tREVwTzNxa2lPV2FudGk?oc=5" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">대구 개나리아파트 재건축추진위, ‘일조기준 완화’ 건의…정비사업 규제 개선 기대 - OMATE 시니어</a>
+                    <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE5zZzh2N096dWMxNDlySkVnS1pCMHF2MXYwME1FanBkZzMyaWhlRlZONUFibjBWd3ZDMFlESzZzcVZsanotTUVLNlJSOWxTOUV1SC1Eck0tREVwTzNxa2lPV2FudGk?oc=5" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">대구 개나리아파트 재건축추진위, ‘일조기준 완화’ 건의…정비사업 규제 개선 기대 - OMATE 시니어</a><p class="card-preview">대구 개나리아파트 재건축추진위, ‘일조기준 완화’ 건의…정비사업 규제 개선 기대 OMATE 시니어</p>
                     <div class="card-meta">
                         <span>키워드-부동산정책 · 키워드</span>
                         <span>10.06 03:44</span>
@@ -1135,7 +1144,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card priority">
-                    <a href="https://www.yna.co.kr/view/AKR20261003043400002" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">보험사 주담대 연체 악성화…'90일 이상' 연체액 절반 이상</a>
+                    <a href="https://www.yna.co.kr/view/AKR20261003043400002" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">보험사 주담대 연체 악성화…'90일 이상' 연체액 절반 이상</a><p class="card-preview">배영경 기자 = 보험업권 주택담보대출 연체액의 절반 이상이 90일 이상 장기연체 상태인 것으로 파악됐다.</p>
                     <div class="card-meta">
                         <span>연합뉴스-경제 · 통신</span>
                         <span>10.06 05:55</span>
@@ -1144,7 +1153,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card priority">
-                    <a href="https://www.yna.co.kr/view/AKR20261002185300002" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">늘어나는 '노노 케어'…2인 가구, 내년 30% 처음 넘는다</a>
+                    <a href="https://www.yna.co.kr/view/AKR20261002185300002" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">늘어나는 '노노 케어'…2인 가구, 내년 30% 처음 넘는다</a><p class="card-preview">김수현 기자 = 전국 2인 가구가 내년이면 처음으로 30%를 넘어서는 것으로 나타났다.</p>
                     <div class="card-meta">
                         <span>연합뉴스-경제 · 통신</span>
                         <span>10.06 05:53</span>
@@ -1153,7 +1162,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card priority">
-                    <a href="https://www.yna.co.kr/view/AKR20261006004300072" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">국제유가, 중동 원유수출 증가·G7 비축유 방출 약속에 1.8%↓</a>
+                    <a href="https://www.yna.co.kr/view/AKR20261006004300072" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">국제유가, 중동 원유수출 증가·G7 비축유 방출 약속에 1.8%↓</a><p class="card-preview">(뉴욕=연합뉴스) 김연숙 특파원 = 5일(현지시간) 국제유가가 중동 지역의 원유 수출 증가와 주요 7개국(G7)의 비축유 방출 결정으로 2거래일...</p>
                     <div class="card-meta">
                         <span>연합뉴스-경제 · 통신</span>
                         <span>10.06 04:57</span>
@@ -1167,7 +1176,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card priority">
-                    <a href="https://www.yna.co.kr/view/AKR20261005057300002" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">이형일, 하준경 등과 현안간담회…사회정책·초과세수 활용 논의</a>
+                    <a href="https://www.yna.co.kr/view/AKR20261005057300002" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">이형일, 하준경 등과 현안간담회…사회정책·초과세수 활용 논의</a><p class="card-preview">송정은 기자 = 이형일 부총리 겸 재정경제부 장관은 5일 오후 5시 하준경 청와대 정책실장 등과 경제현안간담회를 개최했다.</p>
                     <div class="card-meta">
                         <span>연합뉴스-경제 · 통신</span>
                         <span>10.05 20:14</span>
@@ -1176,7 +1185,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card priority">
-                    <a href="https://www.mk.co.kr/news/economy/12168578" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">AMRO "올해 韓 성장률 3.3%" … 반도체 호황 지속에 전망 높여</a>
+                    <a href="https://www.mk.co.kr/news/economy/12168578" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">AMRO "올해 韓 성장률 3.3%" … 반도체 호황 지속에 전망 높여</a><p class="card-preview">경제협력개발기구(OECD)와 아시아개발은행(ADB)에 이어 아세안+3 거시경제조사기구(AMRO)도 한국의 올해 경제성장률을 상향했다. 반도체 호황으로 인해 올해 수출과 생산 증가세..</p>
                     <div class="card-meta">
                         <span>매일경제-경제 · 경제</span>
                         <span>10.05 17:22</span>
@@ -1185,7 +1194,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card priority">
-                    <a href="https://www.mk.co.kr/news/economy/12168602" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">"해킹 당한 금융사들 또 당했다"</a>
+                    <a href="https://www.mk.co.kr/news/economy/12168602" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">"해킹 당한 금융사들 또 당했다"</a><p class="card-preview">상당수 금융사가 해킹 등 침해 사고를 한 차례 겪고도 유사 사고를 반복해서 겪는 것으로 나타났다. 사고 이후에도 적절한 재발 방지 대책을 마련하지 않아 고객 정보 유출 위험을 키우..</p>
                     <div class="card-meta">
                         <span>매일경제-경제 · 경제</span>
                         <span>10.05 17:29</span>
@@ -1194,7 +1203,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card priority">
-                    <a href="https://www.mk.co.kr/news/economy/12168655" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">6년 연속 정보보호 S등급이라더니…은행권, AI 해킹엔 ‘무주공산’</a>
+                    <a href="https://www.mk.co.kr/news/economy/12168655" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">6년 연속 정보보호 S등급이라더니…은행권, AI 해킹엔 ‘무주공산’</a><p class="card-preview">6년연속 정보보호 100점의 허상 AI해킹 당한 신한·KB·하나은행 1년간 보안 관련 예산 1239억인공지능(AI) 해커의 무차별 공격에 속수무책으로 당한 국내 주요 은행들이 지난..</p>
                     <div class="card-meta">
                         <span>매일경제-경제 · 경제</span>
                         <span>10.05 18:47</span>
@@ -1203,7 +1212,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card ">
-                    <a href="https://www.donga.com/news/Inter/article/all/20261005/134789481/2" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">프랑스 고교생 시위 확산 “최대 500곳 휴교”</a>
+                    <a href="https://www.donga.com/news/Inter/article/all/20261005/134789481/2" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">프랑스 고교생 시위 확산 “최대 500곳 휴교”</a><p class="card-preview">지난달 17일부터 발발한 프랑스의 대규모 학생 시위가 잦아들지 않고 있는 가운데 5일 수도 파리 일대에서만 최대 500개 고등학교가 전면 또는 부분 휴교에 돌입할 예정이라고 AFP통신 등이 보도했다. 6일 학생들은 물론 교원 노조까지 참여한 대규모 시위가…</p>
                     <div class="card-meta">
                         <span>동아일보-국제 · 언론</span>
                         <span>10.06 04:30</span>
@@ -1212,7 +1221,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card ">
-                    <a href="https://news.google.com/rss/articles/CBMiT0FVX3lxTE5VUmk1Ujd0S1FYdEpGQXVBQXhCSTFlejJBTlY2d3hLYmVtOXJmT2NmWmRrYTdXYkNBcC1lUUhqSlNoMk1OR1dmMGN0bHpfX1k?oc=5" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">美 국채금리 상승에도 기술주 강세…나스닥 사상 최고치 - v.daum.net</a>
+                    <a href="https://news.google.com/rss/articles/CBMiT0FVX3lxTE5VUmk1Ujd0S1FYdEpGQXVBQXhCSTFlejJBTlY2d3hLYmVtOXJmT2NmWmRrYTdXYkNBcC1lUUhqSlNoMk1OR1dmMGN0bHpfX1k?oc=5" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">美 국채금리 상승에도 기술주 강세…나스닥 사상 최고치 - v.daum.net</a><p class="card-preview">美 국채금리 상승에도 기술주 강세…나스닥 사상 최고치 v.daum.net</p>
                     <div class="card-meta">
                         <span>키워드-금리환율코스피 · 키워드</span>
                         <span>10.06 05:48</span>
@@ -1226,7 +1235,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card priority">
-                    <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ZOUJMNzNwdU5ja2RqaW5GS1kxczJMZXpVNDR1aVdnWEZaeXNEbWtSRkxmemFQR1p0YmJEcElUX1pTdC1nSjdDOUJqbk1raExHa3IyZE1YNVdyOTlSNXFySmtYRjJEMWc?oc=5" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">“밤에도 북적이는 골목상권 만든다” 달빛야장 소상공인에 687.5억 원 공급 > 보도자료 - 서울특별시</a>
+                    <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ZOUJMNzNwdU5ja2RqaW5GS1kxczJMZXpVNDR1aVdnWEZaeXNEbWtSRkxmemFQR1p0YmJEcElUX1pTdC1nSjdDOUJqbk1raExHa3IyZE1YNVdyOTlSNXFySmtYRjJEMWc?oc=5" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">“밤에도 북적이는 골목상권 만든다” 달빛야장 소상공인에 687.5억 원 공급 > 보도자료 - 서울특별시</a><p class="card-preview">“밤에도 북적이는 골목상권 만든다” 달빛야장 소상공인에 687.5억 원 공급 &gt; 보도자료 서울특별시</p>
                     <div class="card-meta">
                         <span>공식-서울시 · 공식</span>
                         <span>10.05 13:19</span>
@@ -1235,7 +1244,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card priority">
-                    <a href="https://realty.chosun.com/site/data/html_dir/2026/10/05/2026100501461.html" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">"분당 재건축 1~2억 분담금은 낙관론, 같은 평형도 5억 낸다"</a>
+                    <a href="https://realty.chosun.com/site/data/html_dir/2026/10/05/2026100501461.html" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">"분당 재건축 1~2억 분담금은 낙관론, 같은 평형도 5억 낸다"</a><p class="card-preview">[땅집고] 분당신도시 선도지구 재건축 사업이 속도를 내면서 향후 조합원이 부담해야 할 추가분담금에 관심이 커지고 있다. 아직 관리처분계획과 시공사 공사비가 확정되지 않아 정확한 분담금은 나오지 않았지만, 현 시점에서는 동일 평형을 받더라도 수억원의…</p>
                     <div class="card-meta">
                         <span>땅집고-부동산 · 부동산</span>
                         <span>10.05 15:24</span>
@@ -1249,7 +1258,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card priority">
-                    <a href="https://www.mk.co.kr/news/realestate/12168302" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">분당 재건축 어르신들 ‘클라쓰’가 다르네…종이 대신 전자동의서 ‘클릭’</a>
+                    <a href="https://www.mk.co.kr/news/realestate/12168302" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">분당 재건축 어르신들 ‘클라쓰’가 다르네…종이 대신 전자동의서 ‘클릭’</a><p class="card-preview">분당 2차 특별정비 4곳 분석 60대 73% 전자동의로 제출 70대도 절반 가량 온라인 선택 집집마다 돌던 동의서 풍경 변화지난달 29일 성남시가 분당 재건축 선도지구 2차 대상지..</p>
                     <div class="card-meta">
                         <span>매일경제-부동산 · 부동산</span>
                         <span>10.05 10:15</span>
@@ -1258,7 +1267,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card priority">
-                    <a href="https://www.mk.co.kr/news/economy/12168360" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">올해 75만원 재산세, 2030년엔 133만원...노도강이 강남보다 더 오른다</a>
+                    <a href="https://www.mk.co.kr/news/economy/12168360" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">올해 75만원 재산세, 2030년엔 133만원...노도강이 강남보다 더 오른다</a><p class="card-preview">신동욱 의원 KB 시뮬레이션 분석 최근 집값 크게 오르는 노도강 재산세 오름폭도 강남 넘을 듯서울 집값 상승세가 지속되면 주요 아파트의 재산세 부담이 2030년까지 평균 50% 이..</p>
                     <div class="card-meta">
                         <span>매일경제-경제 · 경제</span>
                         <span>10.05 13:22</span>
@@ -1267,7 +1276,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card priority">
-                    <a href="https://www.yna.co.kr/view/AKR20261005032200030" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">문체부·행안부, 지역관광 경진대회에 61억원 재정 인센티브</a>
+                    <a href="https://www.yna.co.kr/view/AKR20261005032200030" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">문체부·행안부, 지역관광 경진대회에 61억원 재정 인센티브</a><p class="card-preview">한주홍 기자 = 문화체육관광부와 행정안전부는 지역관광 혁신 아이디어 경진대회 &#x27;한국관광의 샛별&#x27;에서 수상하는 지방정부에 지원할...</p>
                     <div class="card-meta">
                         <span>연합뉴스-경제 · 통신</span>
                         <span>10.05 12:41</span>
@@ -1276,7 +1285,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card priority">
-                    <a href="https://www.yna.co.kr/view/AKR20261002137800063" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">라이다센서 등 메가프로젝트 관련 신규상품 명칭 72개 공개</a>
+                    <a href="https://www.yna.co.kr/view/AKR20261002137800063" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">라이다센서 등 메가프로젝트 관련 신규상품 명칭 72개 공개</a><p class="card-preview">(대전=연합뉴스) 김준호 기자 = 상표를 출원할 때는 어떤 상품에 사용할 것인지 명칭을 반드시 정해야 한다. 그런데 최근 인공지능(AI) 등 신...</p>
                     <div class="card-meta">
                         <span>연합뉴스-경제 · 통신</span>
                         <span>10.05 12:00</span>
@@ -1285,7 +1294,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card priority">
-                    <a href="https://www.yna.co.kr/view/AKR20261005012400017" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">삼성바이오·SK바이오팜·한미약품, 아태 10대 바이오거래 선정</a>
+                    <a href="https://www.yna.co.kr/view/AKR20261005012400017" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">삼성바이오·SK바이오팜·한미약품, 아태 10대 바이오거래 선정</a><p class="card-preview">신선미 기자 = 올해 아시아태평양 지역 제약·바이오기업이 체결한 &#x27;영향력 있는 거래&#x27; 10개 중 국내 사례가 3개 포함됐다.</p>
                     <div class="card-meta">
                         <span>연합뉴스-경제 · 통신</span>
                         <span>10.05 10:19</span>
@@ -1294,7 +1303,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card priority">
-                    <a href="https://www.yna.co.kr/view/AKR20261005019600030" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">현대백화점, 장인 식재료로 만든 '명인명촌 김치' 출시</a>
+                    <a href="https://www.yna.co.kr/view/AKR20261005019600030" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">현대백화점, 장인 식재료로 만든 '명인명촌 김치' 출시</a><p class="card-preview">한주홍 기자 = 현대백화점은 전통식품 브랜드 &#x27;명인명촌&#x27;을 통해 프리미엄 김치 &#x27;명인명촌 김치&#x27;를 선보인다고 5일 밝혔다.</p>
                     <div class="card-meta">
                         <span>연합뉴스-경제 · 통신</span>
                         <span>10.05 09:55</span>
@@ -1303,7 +1312,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card priority">
-                    <a href="https://www.yna.co.kr/view/AKR20261004026600002" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">AMRO, 한국 올해 성장률 3.3%로 상향…내년 2.7% 제시</a>
+                    <a href="https://www.yna.co.kr/view/AKR20261004026600002" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">AMRO, 한국 올해 성장률 3.3%로 상향…내년 2.7% 제시</a><p class="card-preview">송정은 기자 = 아세안+3 거시경제조사기구(이하 AMRO)는 올해 우리나라 경제 성장률 전망치를 높여 3.3%로 제시했다.</p>
                     <div class="card-meta">
                         <span>연합뉴스-경제 · 통신</span>
                         <span>10.05 11:30</span>
@@ -1312,7 +1321,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card priority">
-                    <a href="https://www.mk.co.kr/news/economy/12168431" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">[단독] 이 정도면 뚫리는 은행도 문제?…금융권 해킹 사고 3분의 1은 ‘반복 발생’</a>
+                    <a href="https://www.mk.co.kr/news/economy/12168431" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">[단독] 이 정도면 뚫리는 은행도 문제?…금융권 해킹 사고 3분의 1은 ‘반복 발생’</a><p class="card-preview">김형연 조국혁신당 의원 KT알파·토스·SC銀·iM 침해사고 반복적 발생해 전체 사고 중 3분의 1이 기존 피해 기업서 일어나 김 의원 “사고 잦은 회사 금융당국 차원 점검 필요”상..</p>
                     <div class="card-meta">
                         <span>매일경제-경제 · 경제</span>
                         <span>10.05 15:32</span>
@@ -1321,7 +1330,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card priority">
-                    <a href="https://www.mk.co.kr/news/economy/12168425" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">[단독] “美, 20억달러만 보증해주고...韓에 알래스카 LNG 500억달러 압박”</a>
+                    <a href="https://www.mk.co.kr/news/economy/12168425" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">[단독] “美, 20억달러만 보증해주고...韓에 알래스카 LNG 500억달러 압박”</a><p class="card-preview">최수진 의원실 미국 의회 보고서 분석 LNG부문 美대출보증 20억弗불과 최수진 의원 “불공정·독소 계약” 트럼프 “합의 안하면 두 배” 재압박도널드 트럼프 미국 대통령이 한국에 ..</p>
                     <div class="card-meta">
                         <span>매일경제-경제 · 경제</span>
                         <span>10.05 15:26</span>
@@ -1330,7 +1339,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card priority">
-                    <a href="https://www.yna.co.kr/view/AKR20261005040000371" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">[동포의 창] 홍콩 '중추절 K-페스티벌 주간'에 100만 명 몰려</a>
+                    <a href="https://www.yna.co.kr/view/AKR20261005040000371" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">[동포의 창] 홍콩 '중추절 K-페스티벌 주간'에 100만 명 몰려</a><p class="card-preview">강성철 기자 = 홍콩한인상공회(회장 김준회)가 창립 50주년 및 추석을 맞아 홍콩 최대 재래시장인 센트럴마켓에서 개최한 &#x27;중추...</p>
                     <div class="card-meta">
                         <span>연합뉴스-경제 · 통신</span>
                         <span>10.05 15:21</span>
@@ -1339,7 +1348,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card priority">
-                    <a href="https://www.mk.co.kr/news/economy/12168396" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">[단독] 내년 아동수당·아이맞이지원금 인상시...재정투입 8100억 증가</a>
+                    <a href="https://www.mk.co.kr/news/economy/12168396" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">[단독] 내년 아동수당·아이맞이지원금 인상시...재정투입 8100억 증가</a><p class="card-preview">내년 7월부터 아동지원 강화 정부, 1월 출생아까지 소급추진내년 7월 양육지원 체계 개편을 앞두고 정부가 내년 1월 출생아까지 지원을 소급 적용할 경우 아동기본수당과 아이맞이지원..</p>
                     <div class="card-meta">
                         <span>매일경제-경제 · 경제</span>
                         <span>10.05 14:49</span>
@@ -1348,7 +1357,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card priority">
-                    <a href="https://www.yna.co.kr/view/AKR20261004020600002" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">'무사곤데 건강보험 할인되나요'…유리한 조건 회사가 알려준다</a>
+                    <a href="https://www.yna.co.kr/view/AKR20261004020600002" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">'무사곤데 건강보험 할인되나요'…유리한 조건 회사가 알려준다</a><p class="card-preview">김지연 기자 = 건강보험에 가입한 뒤 입원·수술·중증 질병 진단이 없으면 보장 내용은 유지하되 보험료는 할인해주는 &#x27;무사고 계...</p>
                     <div class="card-meta">
                         <span>연합뉴스-경제 · 통신</span>
                         <span>10.05 12:00</span>
@@ -1357,7 +1366,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card priority">
-                    <a href="https://www.yna.co.kr/view/AKR20261004043700002" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">3분기 부가세 26일까지 신고·납부…호우·홈플 피해사업자 연장</a>
+                    <a href="https://www.yna.co.kr/view/AKR20261004043700002" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">3분기 부가세 26일까지 신고·납부…호우·홈플 피해사업자 연장</a><p class="card-preview">이대희 기자 = 부가가치세 과세 사업을 하는 62만7천 법인사업자는 오는 26일까지 올해 3분기(7∼9월) 사업실적분 부가세를...</p>
                     <div class="card-meta">
                         <span>연합뉴스-경제 · 통신</span>
                         <span>10.05 12:00</span>
@@ -1366,7 +1375,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card priority">
-                    <a href="https://www.mk.co.kr/news/economy/12168337" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">“우리도 韓 성장률 전망치 더 올릴게요”…국제기구들 몇달새 줄줄이 상향</a>
+                    <a href="https://www.mk.co.kr/news/economy/12168337" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">“우리도 韓 성장률 전망치 더 올릴게요”…국제기구들 몇달새 줄줄이 상향</a><p class="card-preview">아세안+3 경제전망 보고서 AMRO “올 韓성장률 3.3%” 7월 대비 0.2%P 더 상향 향후 AI 수요둔화는 경고경제협력개발기구(OECD)와 아시아개발은행(ADB)에 이어 아세..</p>
                     <div class="card-meta">
                         <span>매일경제-경제 · 경제</span>
                         <span>10.05 11:50</span>
@@ -1375,7 +1384,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card priority">
-                    <a href="https://www.yna.co.kr/view/AKR20261005026700003" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">'코브라' 헬기 명가 벨텍스트론 방한…K-항공부품 러브콜</a>
+                    <a href="https://www.yna.co.kr/view/AKR20261005026700003" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">'코브라' 헬기 명가 벨텍스트론 방한…K-항공부품 러브콜</a><p class="card-preview">신창용 기자 = 미국의 글로벌 항공우주 기업인 벨 텍스트론이 국내 소부장(소재·부품·장비) 기업과의 공급망 협력을 위해 방한했...</p>
                     <div class="card-meta">
                         <span>연합뉴스-산업 · 통신</span>
                         <span>10.05 11:10</span>
@@ -1384,7 +1393,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card priority">
-                    <a href="https://www.mk.co.kr/news/economy/12168320" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">“3학년인데 통장에 12억 넘게 있어요”…미성년 ‘금수저’ 50명 넘는다</a>
+                    <a href="https://www.mk.co.kr/news/economy/12168320" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">“3학년인데 통장에 12억 넘게 있어요”…미성년 ‘금수저’ 50명 넘는다</a><p class="card-preview">미성년자 예·적금 총 잔액도 10조 육박국내 은행에 10억원 이상 예·적금을 보유한 미성년자가 50명을 넘어서는 것으로 나타났다. 미성년 고객 명의로 된 전체 예·적금 잔액도 10..</p>
                     <div class="card-meta">
                         <span>매일경제-경제 · 경제</span>
                         <span>10.05 11:00</span>
@@ -1402,7 +1411,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card priority">
-                    <a href="https://www.yna.co.kr/view/AKR20261005021000055" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">'무허가에 구역 무시'…군산해경, 꽃게 조업 어선 2척 적발</a>
+                    <a href="https://www.yna.co.kr/view/AKR20261005021000055" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">'무허가에 구역 무시'…군산해경, 꽃게 조업 어선 2척 적발</a><p class="card-preview">(군산=연합뉴스) 임채두 기자 = 전북 군산해양경찰서는 자망어업 허가를 받지 않거나 조업 구역을 이탈해 꽃게잡이에 나선 어선 2척을 잇달아 적발...</p>
                     <div class="card-meta">
                         <span>연합뉴스-산업 · 통신</span>
                         <span>10.05 10:20</span>
@@ -1411,7 +1420,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card priority">
-                    <a href="https://www.mk.co.kr/news/economy/12168307" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">우리금융 다함께 적금2 출시…최고 연 9.0% 금리</a>
+                    <a href="https://www.mk.co.kr/news/economy/12168307" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">우리금융 다함께 적금2 출시…최고 연 9.0% 금리</a><p class="card-preview">거래·신규 우대 추가 월 최대 30만원 납입우리은행이 ‘2026 우리금융 다함께 페스타’ 개막에 맞춰 최고 연 9.0% 금리를 제공하는 ‘우리금융 다함께 적금2’를 출시했다고 5일..</p>
                     <div class="card-meta">
                         <span>매일경제-경제 · 경제</span>
                         <span>10.05 10:17</span>
@@ -1425,7 +1434,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card priority">
-                    <a href="https://www.yna.co.kr/view/AKR20261002138500054" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">전남광주시의회, 반도체 용수 '댐 하류도 지원' 촉구</a>
+                    <a href="https://www.yna.co.kr/view/AKR20261002138500054" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">전남광주시의회, 반도체 용수 '댐 하류도 지원' 촉구</a><p class="card-preview">(전남광주=연합뉴스) 박철홍 기자 = 호남권 반도체 산업단지 용수 확보 영향을 받는 댐 하류지역을 위해 지원대책이 필요하다는 요구가 전남광주통합...</p>
                     <div class="card-meta">
                         <span>연합뉴스-산업 · 통신</span>
                         <span>10.05 10:10</span>
@@ -1434,7 +1443,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card priority">
-                    <a href="https://www.yna.co.kr/view/AKR20261004021100002" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">우리은행 런던트레이딩센터, 현지 기업과 첫 파생상품 거래</a>
+                    <a href="https://www.yna.co.kr/view/AKR20261004021100002" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">우리은행 런던트레이딩센터, 현지 기업과 첫 파생상품 거래</a><p class="card-preview">이도흔 기자 = 우리은행은 지난달 29일 런던트레이딩센터에서 현지 기업과 첫 파생상품 거래를 체결했다고 5일 밝혔다.</p>
                     <div class="card-meta">
                         <span>연합뉴스-경제 · 통신</span>
                         <span>10.05 10:00</span>
@@ -1443,7 +1452,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card priority">
-                    <a href="https://www.yna.co.kr/view/AKR20261005017500030" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">쌀쌀해진 날씨에 겨울 먹거리 '불티'…CU, 즉석 파이 출시</a>
+                    <a href="https://www.yna.co.kr/view/AKR20261005017500030" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">쌀쌀해진 날씨에 겨울 먹거리 '불티'…CU, 즉석 파이 출시</a><p class="card-preview">한주홍 기자 = 편의점 CU는 쌀쌀해진 날씨에 맞춰 매장에서 따뜻하게 조리해 먹을 수 있는 즉석조리 파이 2종을 출시한다고 5...</p>
                     <div class="card-meta">
                         <span>연합뉴스-경제 · 통신</span>
                         <span>10.05 09:44</span>
@@ -1452,7 +1461,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card priority">
-                    <a href="https://www.yna.co.kr/view/AKR20261005015400053" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">경북도, 미국 유타주·유타대와 AI·반도체 등 첨단산업 협력</a>
+                    <a href="https://www.yna.co.kr/view/AKR20261005015400053" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">경북도, 미국 유타주·유타대와 AI·반도체 등 첨단산업 협력</a><p class="card-preview">(안동=연합뉴스) 윤관식 기자 = 경북도는 미국 유타주 정부·유타대학교와 인공지능(AI)·반도체 등 미래산업 분야 협력을 확대한다고 5일 밝혔다...</p>
                     <div class="card-meta">
                         <span>연합뉴스-경제 · 통신</span>
                         <span>10.05 09:17</span>
@@ -1461,7 +1470,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card priority">
-                    <a href="https://www.yna.co.kr/view/AKR20261005015800030" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">CJ제일제당 '자리', 뉴욕 이어 LA 진출…K-증류주 시장 공략</a>
+                    <a href="https://www.yna.co.kr/view/AKR20261005015800030" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">CJ제일제당 '자리', 뉴욕 이어 LA 진출…K-증류주 시장 공략</a><p class="card-preview">한주홍 기자 = CJ제일제당[097950]은 프리미엄 증류주 브랜드 &#x27;자리&#x27;(jari)가 뉴욕에 이어 미국 서부 시장에 진출하...</p>
                     <div class="card-meta">
                         <span>연합뉴스-경제 · 통신</span>
                         <span>10.05 09:15</span>
@@ -1470,7 +1479,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card priority">
-                    <a href="https://www.yna.co.kr/view/AKR20261002131100057" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">체납 징수에 복지 발굴까지…울산시 체납관리단 성과</a>
+                    <a href="https://www.yna.co.kr/view/AKR20261002131100057" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">체납 징수에 복지 발굴까지…울산시 체납관리단 성과</a><p class="card-preview">(울산=연합뉴스) 허광무 기자 = 울산시는 100만원 미만 소액 지방세와 과태료 등 세외수입 체납자 실태조사를 위해 지난 6월 11일부터 36명...</p>
                     <div class="card-meta">
                         <span>연합뉴스-경제 · 통신</span>
                         <span>10.05 09:00</span>
@@ -1479,7 +1488,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card priority">
-                    <a href="https://www.yna.co.kr/view/AKR20261004020300002" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">우리은행, '우다페' 연계 '다함께 적금'…최고 연 9.0% 금리</a>
+                    <a href="https://www.yna.co.kr/view/AKR20261004020300002" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">우리은행, '우다페' 연계 '다함께 적금'…최고 연 9.0% 금리</a><p class="card-preview">이도흔 기자 = 우리은행은 우리금융그룹의 대표 금융축제 &#x27;2026 우리금융 다함께 페스타(우다페)&#x27;에 맞춰 최고 연 9.0% ...</p>
                     <div class="card-meta">
                         <span>연합뉴스-경제 · 통신</span>
                         <span>10.05 09:00</span>
@@ -1488,7 +1497,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card priority">
-                    <a href="https://www.yna.co.kr/view/AKR20261005013500030" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">해수부 장관, 제주 어선 전복사고에 "인명구조에 최선" 지시</a>
+                    <a href="https://www.yna.co.kr/view/AKR20261005013500030" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">해수부 장관, 제주 어선 전복사고에 "인명구조에 최선" 지시</a><p class="card-preview">한주홍 기자 = 해양수산부는 황종우 장관이 5일 제주 차귀도 서방 약 35해리 해상에서 발생한 7성진호 전복 사고를 보고받고 ...</p>
                     <div class="card-meta">
                         <span>연합뉴스-경제 · 통신</span>
                         <span>10.05 08:56</span>
@@ -1497,7 +1506,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card priority">
-                    <a href="https://www.yna.co.kr/view/AKR20261003039700017" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">[AI픽] '예·아니오'만 답하는 AI가 뜬다…0.1초 판단 '제브'</a>
+                    <a href="https://www.yna.co.kr/view/AKR20261003039700017" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">[AI픽] '예·아니오'만 답하는 AI가 뜬다…0.1초 판단 '제브'</a><p class="card-preview">오지은 기자 = 챗GPT처럼 긴 글을 유창하게 써 내려가는 대신, 0.1초 만에 &#x27;예·아니오&#x27;나 선택지만 제시하는 인공지능(A...</p>
                     <div class="card-meta">
                         <span>연합뉴스-경제 · 통신</span>
                         <span>10.05 08:45</span>
@@ -1506,7 +1515,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card priority">
-                    <a href="https://www.yna.co.kr/view/AKR20261005012900030" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">GS25, '한정선 피스타치오 찹쌀떡' 출시…2만개 사전 예약</a>
+                    <a href="https://www.yna.co.kr/view/AKR20261005012900030" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">GS25, '한정선 피스타치오 찹쌀떡' 출시…2만개 사전 예약</a><p class="card-preview">한주홍 기자 = GS25는 디저트 브랜드 로로멜로와 손잡고 &#x27;한정선 피스타치오 찹쌀떡&#x27;을 출시한다고 5일 밝혔다.</p>
                     <div class="card-meta">
                         <span>연합뉴스-경제 · 통신</span>
                         <span>10.05 08:44</span>
@@ -1515,7 +1524,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card priority">
-                    <a href="https://www.etnews.com/20261005000010" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">상반기 자금 쓸어담은 증권사, 3분기 급감…실적잔치는 끝났다</a>
+                    <a href="https://www.etnews.com/20261005000010" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">상반기 자금 쓸어담은 증권사, 3분기 급감…실적잔치는 끝났다</a><p class="card-preview">증권사들의 &#x27;실적 잔치&#x27;가 반년 만에 끝날 위기에 놓였다. 상반기 증시 활황과 거래대금 폭증을 등에 업고 역대급 이익을 쓸어 담았지만 코스피가 7월 들어 한때 5000선까지 폭락하며 분위기가 급반전됐다. 거래대금이 빠르게 쪼그라들면서 브로커리지 수익 감소가…</p>
                     <div class="card-meta">
                         <span>전자신문 · 테크</span>
                         <span>10.05 15:00</span>
@@ -1524,7 +1533,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card priority">
-                    <a href="https://www.mk.co.kr/news/realestate/12168395" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">45년 軍부대 땅인데 ‘환경 1등급’ … 판교 옆 2200가구 멈췄다</a>
+                    <a href="https://www.mk.co.kr/news/realestate/12168395" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">45년 軍부대 땅인데 ‘환경 1등급’ … 판교 옆 2200가구 멈췄다</a><p class="card-preview">보상 빠르고 철거 쉬운 군부대 땅도 1년째 사업 지연경기 성남시가 판교 인근 금토동 군부대 이전부지에 추진하는 2200가구 규모 주택 개발사업이 그린벨트 규제에 막혀 1년 가까이 ..</p>
                     <div class="card-meta">
                         <span>매일경제-부동산 · 부동산</span>
                         <span>10.05 14:47</span>
@@ -1533,7 +1542,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card priority">
-                    <a href="https://www.mk.co.kr/news/realestate/12168390" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">세제개편안 뒤 서울 아파트 15억원 이하 거래 비중 80% 차지</a>
+                    <a href="https://www.mk.co.kr/news/realestate/12168390" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">세제개편안 뒤 서울 아파트 15억원 이하 거래 비중 80% 차지</a><p class="card-preview">15억원 이하 거래 비중 79% 6억원 이하 아파트 거래 급증 대출 규제·정책대출에 중저가 쏠림정부가 8·3 세제개편안을 발표한 뒤 팔린 서울 아파트의 계약 10건 중 8건은 15..</p>
                     <div class="card-meta">
                         <span>매일경제-부동산 · 부동산</span>
                         <span>10.05 14:35</span>
@@ -1547,7 +1556,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card priority">
-                    <a href="https://www.etnews.com/20261005000012" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">[단독]캐피탈-렌터카업계, 갈등 격화...SK렌터카 '규제 완화 반대 연합회'등록</a>
+                    <a href="https://www.etnews.com/20261005000012" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">[단독]캐피탈-렌터카업계, 갈등 격화...SK렌터카 '규제 완화 반대 연합회'등록</a><p class="card-preview">금융위원회가 캐피탈업계 렌탈 규제를 완화하는 방안을 검토하고 있는 가운데, 최근 대형 렌터카사인 SK렌터카가 규제 완화에 반대하는 연합회로 소속을 변경한 것으로 확인됐다. 롯데렌탈에 이어 SK렌터카도 캐피탈사 렌탈 규제 완화에 반대해 온…</p>
                     <div class="card-meta">
                         <span>전자신문 · 테크</span>
                         <span>10.05 14:00</span>
@@ -1556,7 +1565,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card priority">
-                    <a href="https://www.etnews.com/20261002000080" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">당근, '유료 모임' 연다…1000만 커뮤니티 수익화 시동</a>
+                    <a href="https://www.etnews.com/20261002000080" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">당근, '유료 모임' 연다…1000만 커뮤니티 수익화 시동</a><p class="card-preview">당근이 1000만명이 이용하는 &#x27;당근모임&#x27;에 유료 결제·정산 기능을 붙인다. 베타 서비스 기간 동안 파격적인 수수료를 내세워 유료 소셜·취미 플랫폼이 선점한 시장에 출사표를 던졌다. 5일 업계에 따르면 당근은 지난달 14일부터 &#x27;당근모임 유료 일정&#x27; 베타…</p>
                     <div class="card-meta">
                         <span>전자신문 · 테크</span>
                         <span>10.05 13:57</span>
@@ -1565,7 +1574,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card priority">
-                    <a href="https://realty.chosun.com/site/data/html_dir/2026/10/05/2026100501087.html" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">16억→8억→16억…반토막 났던 인덕원, 3년 만에 반전</a>
+                    <a href="https://realty.chosun.com/site/data/html_dir/2026/10/05/2026100501087.html" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">16억→8억→16억…반토막 났던 인덕원, 3년 만에 반전</a><p class="card-preview">[땅집고] 경기 의왕시 한 아파트의 전용면적 84㎡ 가격이 16억원대에서 8억원대까지 반토막 났다가 다시 16억원대로 올라섰다. 3년 전 저점 대비 가격이 두 배 가까이 뛰면서 전고점 회복을 눈앞에 두고 있다. 5일 국토교통부 실거래가 공개시스템에 따르면…</p>
                     <div class="card-meta">
                         <span>땅집고-부동산 · 부동산</span>
                         <span>10.05 13:51</span>
@@ -1574,7 +1583,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card priority">
-                    <a href="https://www.mk.co.kr/news/realestate/12168359" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">“새로운 도약 이끌 것”…이강석 대우건설 대표이사 체제 공식 출범</a>
+                    <a href="https://www.mk.co.kr/news/realestate/12168359" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">“새로운 도약 이끌 것”…이강석 대우건설 대표이사 체제 공식 출범</a><p class="card-preview">기본 준수·내실 경영, 소통·협업 등 새 경영방향 제시 AI 인프라·데이터센터·로보틱스 등 미래사업 발굴대우건설이 이강석 신임 대표이사 체제의 공식 출범을 알렸다. 대우건설이 지난..</p>
                     <div class="card-meta">
                         <span>매일경제-부동산 · 부동산</span>
                         <span>10.05 13:14</span>
@@ -1583,7 +1592,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card priority">
-                    <a href="https://realty.chosun.com/site/data/html_dir/2026/10/05/2026100500719.html" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">시세 22억인데 분양가 12억…'10억 로또' 강변역센트럴아이파크 1가구 줍줍</a>
+                    <a href="https://realty.chosun.com/site/data/html_dir/2026/10/05/2026100500719.html" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">시세 22억인데 분양가 12억…'10억 로또' 강변역센트럴아이파크 1가구 줍줍</a><p class="card-preview">[땅집고] 서울 광진구 구의동에서 시세보다 10억원가량 저렴한 이른바 ‘로또 청약’ 물량이 나온다. 전용면적 84㎡ 아파트를 12억원대에 분양받을 수 있는 물량인데, 최근 같은 평형이 22억원에 실거래돼 청약 수요자들의 관심이 예상된다. 5일 한국부동산원…</p>
                     <div class="card-meta">
                         <span>땅집고-부동산 · 부동산</span>
                         <span>10.05 10:51</span>
@@ -1592,7 +1601,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card ">
-                    <a href="https://www.donga.com/news/Inter/article/all/20261005/134786514/1" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">러 전염병연구소서 ‘원인불명 폐렴’ 1명 사망…페스트 가능성 제기</a>
+                    <a href="https://www.donga.com/news/Inter/article/all/20261005/134786514/1" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">러 전염병연구소서 ‘원인불명 폐렴’ 1명 사망…페스트 가능성 제기</a><p class="card-preview">러시아의 한 전염병 연구소 관계자가 원인 불명의 호흡기 질환으로 숨진 것으로 알려졌다. 서방 언론에 따르면 페스트일 가능성이 제기되고 있다.러시아 타스통신은 4일(현지 시간) 감염병 관리 당국인 소비자권리보호·복지감독청을 인용해 “이르쿠츠크주의…</p>
                     <div class="card-meta">
                         <span>동아일보-국제 · 언론</span>
                         <span>10.05 14:10</span>
@@ -1601,7 +1610,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card ">
-                    <a href="https://www.donga.com/news/Inter/article/all/20261005/134785354/1" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">젤렌스키 “한국이 北 군인 넘겨달라 요청”…비공개 합의 파기는 언급 안 해</a>
+                    <a href="https://www.donga.com/news/Inter/article/all/20261005/134785354/1" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">젤렌스키 “한국이 北 군인 넘겨달라 요청”…비공개 합의 파기는 언급 안 해</a><p class="card-preview">볼로디미르 젤렌스키 우크라이나 대통령이 러시아가 북한에 제트추진 드론을 포함한 첨단 군사 기술을 이전·공유하고 있는 것으로 보인다고 주장했다. 또 논란이 된 북한군 포로 송환이 한국의 요청으로 이루어진 것이라고 언급했다. 4일(현지시간) 로이터 통신 및…</p>
                     <div class="card-meta">
                         <span>동아일보-국제 · 언론</span>
                         <span>10.05 09:44</span>
@@ -1619,7 +1628,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card ">
-                    <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE41YUZPVTVTcE5xRzFlc2k1R0paR1hnaDFRLXBqaUFwV29XZG1CbFEySXdKbzl6U0JxbWJUM1AyRldBcENXc2lXbkpHM1ZGYzVDVmRhUVpnV1Rpdw?oc=5" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">초고수의 선택은 삼성전자..."매크로 불확실성의 도피처는 반도체" - 한국경제</a>
+                    <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE41YUZPVTVTcE5xRzFlc2k1R0paR1hnaDFRLXBqaUFwV29XZG1CbFEySXdKbzl6U0JxbWJUM1AyRldBcENXc2lXbkpHM1ZGYzVDVmRhUVpnV1Rpdw?oc=5" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">초고수의 선택은 삼성전자..."매크로 불확실성의 도피처는 반도체" - 한국경제</a><p class="card-preview">초고수의 선택은 삼성전자...&quot;매크로 불확실성의 도피처는 반도체&quot; 한국경제</p>
                     <div class="card-meta">
                         <span>키워드-반도체AI · 키워드</span>
                         <span>10.05 14:23</span>
@@ -1628,7 +1637,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card ">
-                    <a href="https://news.google.com/rss/articles/CBMickFVX3lxTFBRdkpvWm1qbkk0V3Y1a1htdlI3YVRySVFaSmxEdDVpSjA5bTVnZjhDWlNvOEpYT0xNanN4NjZDZDBWMGFPZXNfU0JvVlFQNmxZZjgzcEwxZ3VoUlo1bEdfdDVUbG8zMFdfS2FwRjRVc29EQQ?oc=5" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">[도쿄환시] 달러-엔, 여전한 美 금리 부담·유가 우려에 상승 - KB Think</a>
+                    <a href="https://news.google.com/rss/articles/CBMickFVX3lxTFBRdkpvWm1qbkk0V3Y1a1htdlI3YVRySVFaSmxEdDVpSjA5bTVnZjhDWlNvOEpYT0xNanN4NjZDZDBWMGFPZXNfU0JvVlFQNmxZZjgzcEwxZ3VoUlo1bEdfdDVUbG8zMFdfS2FwRjRVc29EQQ?oc=5" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">[도쿄환시] 달러-엔, 여전한 美 금리 부담·유가 우려에 상승 - KB Think</a><p class="card-preview">[도쿄환시] 달러-엔, 여전한 美 금리 부담·유가 우려에 상승 KB Think</p>
                     <div class="card-meta">
                         <span>키워드-에너지물가 · 키워드</span>
                         <span>10.05 13:33</span>
@@ -1642,7 +1651,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card ">
-                    <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ES3EtT3EyaXFXVjdhN1RQUDJqZS1PckNCWTdzWktrbUh4Y3lJS2FDOXltaFFCVDhoMk1lQ1kxaHk2dG9NcGdHWTlGN19ydFIyZW1qZEgzcGpfQUctRlVySmxwenZ1eWs?oc=5" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">[K자 성장 ①] 반도체 2분기 영업익 89조…자동차 조선은 체질 개선 - 자본시장뉴스</a>
+                    <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ES3EtT3EyaXFXVjdhN1RQUDJqZS1PckNCWTdzWktrbUh4Y3lJS2FDOXltaFFCVDhoMk1lQ1kxaHk2dG9NcGdHWTlGN19ydFIyZW1qZEgzcGpfQUctRlVySmxwenZ1eWs?oc=5" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">[K자 성장 ①] 반도체 2분기 영업익 89조…자동차 조선은 체질 개선 - 자본시장뉴스</a><p class="card-preview">[K자 성장 ①] 반도체 2분기 영업익 89조…자동차 조선은 체질 개선 자본시장뉴스</p>
                     <div class="card-meta">
                         <span>키워드-반도체AI · 키워드</span>
                         <span>10.05 12:00</span>
@@ -1651,7 +1660,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card ">
-                    <a href="https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdjRGbmFPTHhYQjJic2dzckp3WUNRbHg3Zy1GeHVabEdWOTVoX1dnejRMdVBRdm53djFkM25mTmxBSXBWc3M4WFNjSGk2SHpSOG5sTjR3SW16M0syNURKbjdqVEFLb216Q2QzWXlIX2FfWFpEZVJOdm1qTHlBSll6MUlDRHIzTUdMUU9VOHhKb3E5UFVOMVMxM09fbnZtUHc1TmdSMm54UG9fV0pfNGw0eTZZVUFlXzY5RnZheG93S1IyU1U?oc=5" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">[뉴욕증시 주간전망] 이란 전쟁과 국제유가 향방 주목 - 미주조선일보</a>
+                    <a href="https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdjRGbmFPTHhYQjJic2dzckp3WUNRbHg3Zy1GeHVabEdWOTVoX1dnejRMdVBRdm53djFkM25mTmxBSXBWc3M4WFNjSGk2SHpSOG5sTjR3SW16M0syNURKbjdqVEFLb216Q2QzWXlIX2FfWFpEZVJOdm1qTHlBSll6MUlDRHIzTUdMUU9VOHhKb3E5UFVOMVMxM09fbnZtUHc1TmdSMm54UG9fV0pfNGw0eTZZVUFlXzY5RnZheG93S1IyU1U?oc=5" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">[뉴욕증시 주간전망] 이란 전쟁과 국제유가 향방 주목 - 미주조선일보</a><p class="card-preview">[뉴욕증시 주간전망] 이란 전쟁과 국제유가 향방 주목 미주조선일보</p>
                     <div class="card-meta">
                         <span>키워드-에너지물가 · 키워드</span>
                         <span>10.05 11:30</span>
@@ -1660,7 +1669,7 @@ ${shareText}`);
                 </div>
                 <div id="부동산" class="section-title">부동산</div>
                 <div class="card priority">
-                    <a href="https://www.mk.co.kr/news/realestate/12168479" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">‘부동산 대세’ 한강벨트도 조정 신호? … 강남3구 이어 용산구 아파트값 하락 전환</a>
+                    <a href="https://www.mk.co.kr/news/realestate/12168479" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">‘부동산 대세’ 한강벨트도 조정 신호? … 강남3구 이어 용산구 아파트값 하락 전환</a><p class="card-preview">부동산 이슈와 실거래가 브리핑서울 아파트값이 86주 연속 오르며 역대 최장 상승 기록을 새로 썼다. 다만 한국부동산원 9월 넷째 주 동향에서 서울 매매가는 0.09% 오르는 데 그..</p>
                     <div class="card-meta">
                         <span>매일경제-부동산 · 부동산</span>
                         <span>10.06 05:00</span>
@@ -1669,7 +1678,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card priority">
-                    <a href="https://realty.chosun.com/site/data/html_dir/2026/10/05/2026100501461.html" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">"분당 재건축 1~2억 분담금은 낙관론, 같은 평형도 5억 낸다"</a>
+                    <a href="https://realty.chosun.com/site/data/html_dir/2026/10/05/2026100501461.html" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">"분당 재건축 1~2억 분담금은 낙관론, 같은 평형도 5억 낸다"</a><p class="card-preview">[땅집고] 분당신도시 선도지구 재건축 사업이 속도를 내면서 향후 조합원이 부담해야 할 추가분담금에 관심이 커지고 있다. 아직 관리처분계획과 시공사 공사비가 확정되지 않아 정확한 분담금은 나오지 않았지만, 현 시점에서는 동일 평형을 받더라도 수억원의…</p>
                     <div class="card-meta">
                         <span>땅집고-부동산 · 부동산</span>
                         <span>10.05 15:24</span>
@@ -1683,7 +1692,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card priority">
-                    <a href="https://www.mk.co.kr/news/realestate/12168395" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">45년 軍부대 땅인데 ‘환경 1등급’ … 판교 옆 2200가구 멈췄다</a>
+                    <a href="https://www.mk.co.kr/news/realestate/12168395" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">45년 軍부대 땅인데 ‘환경 1등급’ … 판교 옆 2200가구 멈췄다</a><p class="card-preview">보상 빠르고 철거 쉬운 군부대 땅도 1년째 사업 지연경기 성남시가 판교 인근 금토동 군부대 이전부지에 추진하는 2200가구 규모 주택 개발사업이 그린벨트 규제에 막혀 1년 가까이 ..</p>
                     <div class="card-meta">
                         <span>매일경제-부동산 · 부동산</span>
                         <span>10.05 14:47</span>
@@ -1692,7 +1701,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card priority">
-                    <a href="https://www.mk.co.kr/news/realestate/12168390" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">세제개편안 뒤 서울 아파트 15억원 이하 거래 비중 80% 차지</a>
+                    <a href="https://www.mk.co.kr/news/realestate/12168390" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">세제개편안 뒤 서울 아파트 15억원 이하 거래 비중 80% 차지</a><p class="card-preview">15억원 이하 거래 비중 79% 6억원 이하 아파트 거래 급증 대출 규제·정책대출에 중저가 쏠림정부가 8·3 세제개편안을 발표한 뒤 팔린 서울 아파트의 계약 10건 중 8건은 15..</p>
                     <div class="card-meta">
                         <span>매일경제-부동산 · 부동산</span>
                         <span>10.05 14:35</span>
@@ -1706,7 +1715,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card priority">
-                    <a href="https://realty.chosun.com/site/data/html_dir/2026/10/05/2026100501087.html" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">16억→8억→16억…반토막 났던 인덕원, 3년 만에 반전</a>
+                    <a href="https://realty.chosun.com/site/data/html_dir/2026/10/05/2026100501087.html" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">16억→8억→16억…반토막 났던 인덕원, 3년 만에 반전</a><p class="card-preview">[땅집고] 경기 의왕시 한 아파트의 전용면적 84㎡ 가격이 16억원대에서 8억원대까지 반토막 났다가 다시 16억원대로 올라섰다. 3년 전 저점 대비 가격이 두 배 가까이 뛰면서 전고점 회복을 눈앞에 두고 있다. 5일 국토교통부 실거래가 공개시스템에 따르면…</p>
                     <div class="card-meta">
                         <span>땅집고-부동산 · 부동산</span>
                         <span>10.05 13:51</span>
@@ -1715,7 +1724,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card priority">
-                    <a href="https://realty.chosun.com/site/data/html_dir/2026/10/05/2026100500719.html" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">시세 22억인데 분양가 12억…'10억 로또' 강변역센트럴아이파크 1가구 줍줍</a>
+                    <a href="https://realty.chosun.com/site/data/html_dir/2026/10/05/2026100500719.html" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">시세 22억인데 분양가 12억…'10억 로또' 강변역센트럴아이파크 1가구 줍줍</a><p class="card-preview">[땅집고] 서울 광진구 구의동에서 시세보다 10억원가량 저렴한 이른바 ‘로또 청약’ 물량이 나온다. 전용면적 84㎡ 아파트를 12억원대에 분양받을 수 있는 물량인데, 최근 같은 평형이 22억원에 실거래돼 청약 수요자들의 관심이 예상된다. 5일 한국부동산원…</p>
                     <div class="card-meta">
                         <span>땅집고-부동산 · 부동산</span>
                         <span>10.05 10:51</span>
@@ -1724,7 +1733,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card priority">
-                    <a href="https://realty.chosun.com/site/data/html_dir/2026/10/05/2026100500649.html" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">대우건설, 이강석 대표이사 공식 취임…"AI·데이터센터 새로운 미래에 도전"</a>
+                    <a href="https://realty.chosun.com/site/data/html_dir/2026/10/05/2026100500649.html" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">대우건설, 이강석 대표이사 공식 취임…"AI·데이터센터 새로운 미래에 도전"</a><p class="card-preview">[땅집고] 대우건설이 2일 주주총회와 이사회를 거쳐 이강석 대표이사를 공식 선임하고 취임식을 열었다고 5일 밝혔다. 이 대표는 수익성과 재무건전성을 강화하는 동시에 인공지능(AI) 인프라와 데이터센터, 로보틱스 등 미래 성장사업을 적극 발굴하겠다는 구상을…</p>
                     <div class="card-meta">
                         <span>땅집고-부동산 · 부동산</span>
                         <span>10.05 10:18</span>
@@ -1733,7 +1742,7 @@ ${shareText}`);
                 </div>
                 <div id="국제" class="section-title">국제</div>
                 <div class="card ">
-                    <a href="https://www.donga.com/news/Inter/article/all/20261006/134790247/1" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">美FBI, 대만 총통 아들 감시한 여성 체포…中스파이 혐의</a>
+                    <a href="https://www.donga.com/news/Inter/article/all/20261006/134790247/1" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">美FBI, 대만 총통 아들 감시한 여성 체포…中스파이 혐의</a><p class="card-preview">미국에서 라이칭더 대만 총통의 아들 및 그 가족들을 감시한 혐의를 받는 여성이 중국으로 출국하기 직전 체포됐다.5일(현지 시간) NBC, 뉴욕포스트 등에 따르면 미국 연방수사국(FBI)은 지난 4일 캘리포니아주 로스앤젤레스(LA)의 LA국제공항에서 중국으로…</p>
                     <div class="card-meta">
                         <span>동아일보-국제 · 언론</span>
                         <span>10.06 05:24</span>
@@ -1742,7 +1751,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card ">
-                    <a href="https://www.donga.com/news/Inter/article/all/20261006/134790240/1" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">美부통령 “韓 알래스카 투자 이뤄질것…세부협상은 남아”</a>
+                    <a href="https://www.donga.com/news/Inter/article/all/20261006/134790240/1" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">美부통령 “韓 알래스카 투자 이뤄질것…세부협상은 남아”</a><p class="card-preview">도널드 트럼프 미국 대통령이 확정되지 않은 한국의 알래스카 액화천연가스(LNG) 사업 투자를 일방 발표한 가운데, JD 밴스 미국 부통령도 “결국 이뤄질 일이라 생각한다”고 5일(현지 시간) 주장했다.밴스 부통령은 이날 메릴랜드주 앤드루스합동기지에서…</p>
                     <div class="card-meta">
                         <span>동아일보-국제 · 언론</span>
                         <span>10.06 04:57</span>
@@ -1751,7 +1760,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card ">
-                    <a href="https://www.donga.com/news/Inter/article/all/20261006/134790237/1" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">나이지리아서 군용 항공기 추락…탑승 32명 사망</a>
+                    <a href="https://www.donga.com/news/Inter/article/all/20261006/134790237/1" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">나이지리아서 군용 항공기 추락…탑승 32명 사망</a><p class="card-preview">5일(현지 시간) 나이지리아 남부에서 추락한 군용 항공기에 탑승했던 32명이 모두 사망한 것으로 전해졌다.AP통신 등에 따르면 볼라 티누부 나이지리아 대통령은 성명을 내어 남서부 온도주 강변 마을 이그보코다에서 추락한 군용 항공기에 탑승했던 32명이…</p>
                     <div class="card-meta">
                         <span>동아일보-국제 · 언론</span>
                         <span>10.06 04:57</span>
@@ -1760,7 +1769,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card ">
-                    <a href="https://www.donga.com/news/Economy/article/all/20261006/134789582/2" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">해외서도 ‘AI 쇼크’ 청년채용 줄었지만… TSMC 등 오히려 20대 직원 비중 늘어</a>
+                    <a href="https://www.donga.com/news/Economy/article/all/20261006/134789582/2" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">해외서도 ‘AI 쇼크’ 청년채용 줄었지만… TSMC 등 오히려 20대 직원 비중 늘어</a><p class="card-preview">검증된 경력직 선호 현상과 인공지능(AI)의 확산으로 청년 일자리가 줄어드는 현상은 해외에서도 확인되고 있다. 다만 TSMC 등 주요 경쟁 반도체 기업에서는 오히려 20대 직원 비중이 늘어나는 현상이 포착되기도 했다. 5일 업계에 따르면 미국 스탠퍼드대…</p>
                     <div class="card-meta">
                         <span>동아일보-국제 · 언론</span>
                         <span>10.06 04:30</span>
@@ -1769,7 +1778,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card ">
-                    <a href="https://www.donga.com/news/People/article/all/20261006/134789921/2" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">韓-日 대학생, 카드로 수싸움 ‘브리지’ 두뇌게임</a>
+                    <a href="https://www.donga.com/news/People/article/all/20261006/134789921/2" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">韓-日 대학생, 카드로 수싸움 ‘브리지’ 두뇌게임</a><p class="card-preview">한국브리지협회는 5일 서울 성북구 고려대 미디어관에서 국내 최초로 국제 대학 브리지 교류전을 열었다. 브리지는 2명씩 한 팀을 이뤄 상대 팀과 트럼프 카드로 수싸움을 벌이는 게임이다. 이날 고려대와 연세대, 중앙대, 동국대 등 국내 학생과 교토대, 오사카대…</p>
                     <div class="card-meta">
                         <span>동아일보-국제 · 언론</span>
                         <span>10.06 04:30</span>
@@ -1778,7 +1787,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card ">
-                    <a href="https://www.donga.com/news/Economy/article/all/20261006/134789538/2" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">‘빛으로 뇌 신경세포 조절’… 광유전학 3人에 노벨생리의학상</a>
+                    <a href="https://www.donga.com/news/Economy/article/all/20261006/134789538/2" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">‘빛으로 뇌 신경세포 조절’… 광유전학 3人에 노벨생리의학상</a><p class="card-preview">빛을 비춰 뇌 속 원하는 신경세포를 켜거나 끄는 ‘광유전학(optogenetics)’을 개척한 과학자 3명이 올해 노벨 생리의학상을 받았다. 이 기술로 사람이 두려움을 느끼고 기억을 만들며 보상을 좇는 등의 행동에 어떤 신경세포가 실제로 관여하는지 확인할 수…</p>
                     <div class="card-meta">
                         <span>동아일보-국제 · 언론</span>
                         <span>10.06 04:30</span>
@@ -1787,7 +1796,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card ">
-                    <a href="https://www.donga.com/news/Economy/article/all/20261006/134789446/2" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">알래스카 LNG, 亞 가까워 운송비 강점… 막대한 건설비는 약점</a>
+                    <a href="https://www.donga.com/news/Economy/article/all/20261006/134789446/2" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">알래스카 LNG, 亞 가까워 운송비 강점… 막대한 건설비는 약점</a><p class="card-preview">도널드 트럼프 미국 대통령은 한국이 알래스카 액화천연가스(LNG) 개발 사업 참여를 확정하지 않은 데 대해 “합의하지 않으면 2배로 청구하겠다”며 압박하고 있지만, 해당 프로젝트는 아직 사업성이 확인되지 않았다. 한국 입장에서 알래스카 LNG 프로젝트는…</p>
                     <div class="card-meta">
                         <span>동아일보-국제 · 언론</span>
                         <span>10.06 04:30</span>
@@ -1796,7 +1805,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card ">
-                    <a href="https://www.donga.com/news/Inter/article/all/20261005/134789493/2" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">‘우파’ 보우소나루, 브라질 대선 깜짝 선두… 룰라와 25일 결선</a>
+                    <a href="https://www.donga.com/news/Inter/article/all/20261005/134789493/2" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">‘우파’ 보우소나루, 브라질 대선 깜짝 선두… 룰라와 25일 결선</a><p class="card-preview">4일 치러진 브라질 대선 1차 투표에서 강경 우파 성향의 야당 자유당 소속인 플라비우 보우소나루 후보(45·상원의원)가 ‘깜짝 1위’를 차지했다. 투표 직전 주요 여론 조사에서 4선을 노리는 진보 성향의 루이스 이나시우 룰라 다 시우바 대통령이 소폭 우세했던…</p>
                     <div class="card-meta">
                         <span>동아일보-국제 · 언론</span>
                         <span>10.06 04:30</span>
@@ -1805,7 +1814,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card ">
-                    <a href="https://www.donga.com/news/Inter/article/all/20261005/134789485/2" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">무너지는 공든 탑… 스페인 인간탑 쌓기 축제</a>
+                    <a href="https://www.donga.com/news/Inter/article/all/20261005/134789485/2" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">무너지는 공든 탑… 스페인 인간탑 쌓기 축제</a><p class="card-preview">스페인 타라고나에서 4일 열린 제30회 ‘인간탑 쌓기 대회’의 참가자들이 ‘카스텔’로 불리는 인간탑을 쌓던 중 무너지고 있다. 스페인 카탈루냐 지역의 전통 축제인 카스텔은 2010년 유네스코 인류무형문화유산에 등재됐다.</p>
                     <div class="card-meta">
                         <span>동아일보-국제 · 언론</span>
                         <span>10.06 04:30</span>
@@ -1814,7 +1823,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card ">
-                    <a href="https://www.donga.com/news/Inter/article/all/20261005/134789483/2" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">美, 이란 테러위협에 英기지 B-1B 폭격기 12대 긴급 철수</a>
+                    <a href="https://www.donga.com/news/Inter/article/all/20261005/134789483/2" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">美, 이란 테러위협에 英기지 B-1B 폭격기 12대 긴급 철수</a><p class="card-preview">미국이 영국 남서부 글로스터셔의 페어퍼드 기지에 배치했던 B-1B 전략폭격기 12대를 모두 미국 본토로 철수시켰다고 4일 뉴욕타임스(NYT)가 전했다. 최근 이란이 배후에 있는 것으로 의심되는 페어퍼드 기지 공격 모의와 관련해 새로운 위협 정보가 입수된 데…</p>
                     <div class="card-meta">
                         <span>동아일보-국제 · 언론</span>
                         <span>10.06 04:30</span>
@@ -1823,7 +1832,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card ">
-                    <a href="https://www.donga.com/news/Inter/article/all/20261005/134789481/2" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">프랑스 고교생 시위 확산 “최대 500곳 휴교”</a>
+                    <a href="https://www.donga.com/news/Inter/article/all/20261005/134789481/2" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">프랑스 고교생 시위 확산 “최대 500곳 휴교”</a><p class="card-preview">지난달 17일부터 발발한 프랑스의 대규모 학생 시위가 잦아들지 않고 있는 가운데 5일 수도 파리 일대에서만 최대 500개 고등학교가 전면 또는 부분 휴교에 돌입할 예정이라고 AFP통신 등이 보도했다. 6일 학생들은 물론 교원 노조까지 참여한 대규모 시위가…</p>
                     <div class="card-meta">
                         <span>동아일보-국제 · 언론</span>
                         <span>10.06 04:30</span>
@@ -1832,7 +1841,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card ">
-                    <a href="https://www.donga.com/news/Society/article/all/20261005/134788496/2" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">경북 기술, 유타 연구실 거쳐 美시장 간다</a>
+                    <a href="https://www.donga.com/news/Society/article/all/20261005/134788496/2" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">경북 기술, 유타 연구실 거쳐 美시장 간다</a><p class="card-preview">경북도가 미국 유타주와 손잡고 지역 기업의 미국 시장 진출과 첨단기술 사업화를 지원한다. 경북의 제조·산업 기반을 유타주의 투자·연구·창업 생태계와 연결해 인공지능(AI)·반도체 분야의 경쟁력을 높이고 해외 투자 유치 기회를 넓히려는 취지다. 경북도는 최근…</p>
                     <div class="card-meta">
                         <span>동아일보-국제 · 언론</span>
                         <span>10.06 04:30</span>
@@ -1841,7 +1850,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card ">
-                    <a href="https://www.donga.com/news/Inter/article/all/20261006/134790206/1" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">前주한미군사령관 “시점 기반 전작권 전환은 위험”</a>
+                    <a href="https://www.donga.com/news/Inter/article/all/20261006/134790206/1" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">前주한미군사령관 “시점 기반 전작권 전환은 위험”</a><p class="card-preview">이재명 정부가 임기내 전시작전통제권(전작권) 전환을 목표로 미국과 협의를 이어오고 있는 가운데, 전직 주한미군사령관이 시한을 정해놓고 전환을 논의하는 것은 안보 공백을 낳을 수 있다고 쓴소리를 했다.로버트 에이브럼스 전 주한미군사령관은은 5일(현지 시간)…</p>
                     <div class="card-meta">
                         <span>동아일보-국제 · 언론</span>
                         <span>10.06 03:02</span>
@@ -1850,7 +1859,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card ">
-                    <a href="https://www.donga.com/news/Economy/article/all/20261005/134788544/2" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">앤스로픽, 사상 최대규모 상장 채비… 국내 증시엔 ‘찬물’ 우려</a>
+                    <a href="https://www.donga.com/news/Economy/article/all/20261005/134788544/2" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">앤스로픽, 사상 최대규모 상장 채비… 국내 증시엔 ‘찬물’ 우려</a><p class="card-preview">인공지능(AI) 모델 ‘클로드’를 개발한 앤스로픽이 다음 달 미국 뉴욕 증시에서 나스닥 상장을 추진한다. 올 6월 증시에 입성한 우주기업 스페이스X를 뛰어넘는 역대 최대 규모의 공모 기업이 될 것으로 보인다. 일각에서는 앤스로픽의 상장이 국내 증시의 자금…</p>
                     <div class="card-meta">
                         <span>동아일보-국제 · 언론</span>
                         <span>10.06 00:30</span>
@@ -1859,7 +1868,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card ">
-                    <a href="https://www.donga.com/news/Economy/article/all/20261005/134788546/2" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">중동 불안에… 사우디산 원유 비중 5년만에 30% 밑돌아</a>
+                    <a href="https://www.donga.com/news/Economy/article/all/20261005/134788546/2" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">중동 불안에… 사우디산 원유 비중 5년만에 30% 밑돌아</a><p class="card-preview">국내 최대 원유 공급국인 사우디아라비아산 원유 도입 비중이 5년 만에 처음으로 30% 아래로 떨어졌다. 중동 전쟁 후 국내 정유사들이 리스크를 낮추기 위해 원유 도입 다각화에 나선 결과로 풀이된다. 5일 대한석유협회 등에 따르면 올해 들어 8월까지 우리나라의…</p>
                     <div class="card-meta">
                         <span>동아일보-국제 · 언론</span>
                         <span>10.06 00:30</span>
@@ -1868,7 +1877,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card ">
-                    <a href="https://www.donga.com/news/Economy/article/all/20261005/134788548/2" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">美-中-러, 이번엔 ‘달 원전’ 건설 경쟁</a>
+                    <a href="https://www.donga.com/news/Economy/article/all/20261005/134788548/2" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">美-中-러, 이번엔 ‘달 원전’ 건설 경쟁</a><p class="card-preview">미국과 중국·러시아가 달에 원자력 발전소를 세우기 위한 경쟁을 본격화하고 있다. 뉴욕타임스(NYT)는 4일(현지 시간) 미국 항공우주국(NASA·나사)이 최근 계약 업체들에 2030년 12월까지 달 남극 근처에서 구동할 원자로를 준비해줄 것을 요청했다고…</p>
                     <div class="card-meta">
                         <span>동아일보-국제 · 언론</span>
                         <span>10.06 00:30</span>
@@ -1877,7 +1886,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card ">
-                    <a href="https://www.donga.com/news/Economy/article/all/20261005/134788574/2" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">[단독]“9개월이면 공장 구축… 韓, 리투아니아를 유럽 거점으로”</a>
+                    <a href="https://www.donga.com/news/Economy/article/all/20261005/134788574/2" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">[단독]“9개월이면 공장 구축… 韓, 리투아니아를 유럽 거점으로”</a><p class="card-preview">“리투아니아는 한국 기업이 유럽으로 가는 관문이고, 한국은 리투아니아 기업이 아시아로 가는 관문이 될 수 있다.” 파울류스 페트라우스카스 리투아니아 경제혁신부 차관은 지난달 28일 동아일보와의 인터뷰에서 양국 산업 협력이 나아가야 할 방향을 이렇게 제시했다…</p>
                     <div class="card-meta">
                         <span>동아일보-국제 · 언론</span>
                         <span>10.06 00:30</span>
@@ -1886,7 +1895,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card ">
-                    <a href="https://www.donga.com/news/Inter/article/all/20261005/134789508/1" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">다카이치 “한국, 중요한 이웃나라…안보·경제 관계 한층 강화”</a>
+                    <a href="https://www.donga.com/news/Inter/article/all/20261005/134789508/1" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">다카이치 “한국, 중요한 이웃나라…안보·경제 관계 한층 강화”</a><p class="card-preview">다카이치 사나에 일본 총리가 한국을 “중요한 이웃나라”라고 표현하며 안보와 경제 등 폭넓은 분야에서 한·일 관계를 한층 더 강화하겠다고 밝혔다.NHK에 따르면 다카이치 총리는 5일 중의원 본회의에서 열린 취임 후 두 번째 소신표명 연설을 통해 “셔틀 외교를…</p>
                     <div class="card-meta">
                         <span>동아일보-국제 · 언론</span>
                         <span>10.05 21:19</span>
@@ -1895,7 +1904,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card ">
-                    <a href="https://www.donga.com/news/Inter/article/all/20261005/134787071/1" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">트럼프 ‘선거 개입-불복’ 우려에…美 민주당, 150개 위협 시나리오 마련</a>
+                    <a href="https://www.donga.com/news/Inter/article/all/20261005/134787071/1" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">트럼프 ‘선거 개입-불복’ 우려에…美 민주당, 150개 위협 시나리오 마련</a><p class="card-preview">11월 3일 미국 중간선거를 앞두고 미국 야당 민주당이 도널드 트럼프 대통령과 연방정부가 선거에 개입할 가능성에 대비해 150개가 넘는 ‘위협 시나리오’를 마련하는 등 비상 대응에 나섰다. 선거에서 의회 다수당을 탈환할 경우 트럼프 대통령이 확대해온 대통령…</p>
                     <div class="card-meta">
                         <span>동아일보-국제 · 언론</span>
                         <span>10.05 16:44</span>
@@ -1904,7 +1913,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card priority">
-                    <a href="https://www.yna.co.kr/view/AKR20261005042100704" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">[쇼츠] 요란한 공습경보 사이렌…키이우 방문한 독일 총리</a>
+                    <a href="https://www.yna.co.kr/view/AKR20261005042100704" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">[쇼츠] 요란한 공습경보 사이렌…키이우 방문한 독일 총리</a><p class="card-preview">독일이 러시아와 전쟁 중인 우크라이나에 대해 13억 유로(약 2조원) 규모의 군사·에너지 분야 추가 지원을 하기로 했습니다.</p>
                     <div class="card-meta">
                         <span>연합뉴스-정치 · 통신</span>
                         <span>10.05 16:16</span>
@@ -1913,7 +1922,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card ">
-                    <a href="https://www.donga.com/news/Inter/article/all/20261005/134786599/1" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">윤이나, 17번홀 통한의 티샷 실수…LPGA 첫 승 문턱서 놓쳤다</a>
+                    <a href="https://www.donga.com/news/Inter/article/all/20261005/134786599/1" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">윤이나, 17번홀 통한의 티샷 실수…LPGA 첫 승 문턱서 놓쳤다</a><p class="card-preview">윤이나(23)가 막판 티샷 실수 한 번에 미국여자프로골프(LPGA)투어 첫 승 기회를 놓쳤다.LPGA투어 2년 차인 윤이나는 5일 미국 하와이주 에바비치의 호아칼레이 컨트리클럽(파72)에서 열린 롯데 챔피언십 최종 4라운드에서 버디 7개와 보기 3개를 묶어…</p>
                     <div class="card-meta">
                         <span>동아일보-국제 · 언론</span>
                         <span>10.05 15:33</span>
@@ -1922,7 +1931,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card ">
-                    <a href="https://www.donga.com/news/Inter/article/all/20261005/134786564/1" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">美NASA, 중러 추격에 ‘달표면 원자로’ 개발 2030년까지 마치기로</a>
+                    <a href="https://www.donga.com/news/Inter/article/all/20261005/134786564/1" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">美NASA, 중러 추격에 ‘달표면 원자로’ 개발 2030년까지 마치기로</a><p class="card-preview">미국 항공우주국(NASA)이 중국·러시아의 추격을 의식해 우주 원자로 개발 속도를 높였다고 뉴욕타임스(NYT)가 보도했다.NYT는 4일(현지 시간) “NASA는 8월 말 달 남극 인근에서 우주 여행을 견뎌내고 유지보수 작업 없이 작동할 수 있는 원자로 제작…</p>
                     <div class="card-meta">
                         <span>동아일보-국제 · 언론</span>
                         <span>10.05 14:15</span>
@@ -1931,7 +1940,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card ">
-                    <a href="https://www.donga.com/news/Inter/article/all/20261005/134786059/1" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">“이란이 노린다”…英공군기지 美 B-1B폭격기 12대, 본토 긴급 철수</a>
+                    <a href="https://www.donga.com/news/Inter/article/all/20261005/134786059/1" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">“이란이 노린다”…英공군기지 美 B-1B폭격기 12대, 본토 긴급 철수</a><p class="card-preview">미국이 영국 페어퍼드 기지에 배치했던 B-1B 전략폭격기 12대를 모두 미국 본토로 전격 철수시켰다. 뉴욕타임스(NYT)는 미 당국자들을 인용해 이란이 배후에 있는 것으로 의심되는 페어퍼드 기지 공격 모의와 관련해 새로운 위협 정보가 입수된 데 따른 조치라고…</p>
                     <div class="card-meta">
                         <span>동아일보-국제 · 언론</span>
                         <span>10.05 13:26</span>
@@ -1940,7 +1949,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card ">
-                    <a href="https://www.donga.com/news/Inter/article/all/20261005/134786049/1" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">‘룰라 우세’ 뒤집고…브라질 대선, ‘우파’ 보우소나루 1차 투표 1위</a>
+                    <a href="https://www.donga.com/news/Inter/article/all/20261005/134786049/1" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">‘룰라 우세’ 뒤집고…브라질 대선, ‘우파’ 보우소나루 1차 투표 1위</a><p class="card-preview">4일(현지 시간) 치러진 브라질 대선 1차 투표에서 강경 우파 성향의 야당 자유당 소속 플라비우 보우소나루 상원의원(45)이 깜짝 1위를 차지했다. 투표 직전 주요 여론조사에서 4선을 노리는 루이스 이나시우 다 시우바 룰라 대통령이 소폭 우세했던 것과 상반된…</p>
                     <div class="card-meta">
                         <span>동아일보-국제 · 언론</span>
                         <span>10.05 13:15</span>
@@ -1949,7 +1958,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card ">
-                    <a href="https://www.donga.com/news/Inter/article/all/20261005/134785354/1" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">젤렌스키 “한국이 北 군인 넘겨달라 요청”…비공개 합의 파기는 언급 안 해</a>
+                    <a href="https://www.donga.com/news/Inter/article/all/20261005/134785354/1" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">젤렌스키 “한국이 北 군인 넘겨달라 요청”…비공개 합의 파기는 언급 안 해</a><p class="card-preview">볼로디미르 젤렌스키 우크라이나 대통령이 러시아가 북한에 제트추진 드론을 포함한 첨단 군사 기술을 이전·공유하고 있는 것으로 보인다고 주장했다. 또 논란이 된 북한군 포로 송환이 한국의 요청으로 이루어진 것이라고 언급했다. 4일(현지시간) 로이터 통신 및…</p>
                     <div class="card-meta">
                         <span>동아일보-국제 · 언론</span>
                         <span>10.05 09:44</span>
@@ -1958,7 +1967,7 @@ ${shareText}`);
                 </div>
                 <div id="기업/산업" class="section-title">기업/산업</div><div class="sector-subheading">📌 AI/로봇 (5)</div>
                     <div class="card priority">
-                        <a href="https://www.aitimes.com/news/articleView.html?idxno=215976" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">구글, 'AI 프로' 국내 한정 40% 할인...연간 구독권 프로모션 진행</a>
+                        <a href="https://www.aitimes.com/news/articleView.html?idxno=215976" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">구글, 'AI 프로' 국내 한정 40% 할인...연간 구독권 프로모션 진행</a><p class="card-preview">10월31일까지 ‘구글 AI 프로’ 연간 구독권을 40% 할인된 가격으로 구매할 수 있다. 신규 연간 구독자를 대상으로 기존 연간 플랜 요금인 29만 원에서 40% 할인된 17만4000원(월 환산 1만4500원)에 이용 가능하다.구글이 ‘구글 AI…</p>
                         <div class="card-meta">
                             <span>AI타임스 · 테크</span>
                             <span>10.06 06:01</span>
@@ -1994,7 +2003,7 @@ ${shareText}`);
                     </div>
                     
                     <div class="card priority">
-                        <a href="https://www.etnews.com/20261005000094" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">[신SW상품대상 6·8월 수상작] 심사평</a>
+                        <a href="https://www.etnews.com/20261005000094" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">[신SW상품대상 6·8월 수상작] 심사평</a><p class="card-preview">6월 일반소프트웨어(SW) 부문 수상 제품인 빅웨이브로보틱스의 &#x27;솔링크&#x27;는 이기종·다종 로봇과 현장 인프라를 하나의 환경에서 통합 관리·운영할 수 있도록 지원하는 로봇 통합관제·운영 플랫폼이다. 이 제품은 다양한 제조사의 로봇을 단일 시스템에서…</p>
                         <div class="card-meta">
                             <span>전자신문 · 테크</span>
                             <span>10.05 16:00</span>
@@ -2003,7 +2012,7 @@ ${shareText}`);
                     </div>
                     <div class="sector-subheading">📌 반도체 (2)</div>
                     <div class="card priority">
-                        <a href="https://www.etnews.com/20261005000140" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">“한달새 20% 넘게 올랐는데, 앞으로 더 뛴다”…삼전닉스 넘어 반도체 랠리 이끈 ETF</a>
+                        <a href="https://www.etnews.com/20261005000140" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">“한달새 20% 넘게 올랐는데, 앞으로 더 뛴다”…삼전닉스 넘어 반도체 랠리 이끈 ETF</a><p class="card-preview">인공지능(AI) 투자 확대로 반도체 설비투자 확대 기대가 커지면서 국내 반도체 소재·부품·장비(소부장) 기업으로 자금이 빠르게 이동하고 있다. 삼성전자와 SK하이닉스가 이끌던 반도체 랠리의 무게중심이 장비와 검사·계측 등 소부장으로 확산되는 모습이다. 최근…</p>
                         <div class="card-meta">
                             <span>전자신문 · 테크</span>
                             <span>10.05 19:06</span>
@@ -2039,7 +2048,7 @@ ${shareText}`);
                     </div>
                     
                     <div class="card priority">
-                        <a href="https://www.etnews.com/20261005000051" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">현대차 8세대 아반떼·BMW iX3, '초기 부진설' 실체는 '공급 시차'</a>
+                        <a href="https://www.etnews.com/20261005000051" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">현대차 8세대 아반떼·BMW iX3, '초기 부진설' 실체는 '공급 시차'</a><p class="card-preview">기하학적인 각진 외관과 차세대 소프트웨어 중심 차량(SDV) 기술을 앞세워 출시된 현대자동차의 8세대 아반떼와 BMW의 2세대 순수전기 SUV &#x27;더 뉴 iX3&#x27;를 둘러싼 &#x27;초기 부진설&#x27;의 실체가 단순 공급 시차에 따른 착시였던 것으로 나타났다. 8월 생산라인…</p>
                         <div class="card-meta">
                             <span>전자신문 · 테크</span>
                             <span>10.05 16:00</span>
@@ -2048,7 +2057,7 @@ ${shareText}`);
                     </div>
                     <div class="sector-subheading">📌 바이오/제약 (1)</div>
                     <div class="card priority">
-                        <a href="https://www.etnews.com/20260930000309" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">사업형 지주사 한미사이언스, 지식재산·화장품·건기식 수익화 고삐 죈다</a>
+                        <a href="https://www.etnews.com/20260930000309" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">사업형 지주사 한미사이언스, 지식재산·화장품·건기식 수익화 고삐 죈다</a><p class="card-preview">한미사이언스가 화장품·건강기능식품 신규 브랜드를 잇달아 내놓으며 자체 사업을 확장하고 있다. 화장품은 유통 채널별로, 식품·건강기능식품은 연령대별로 브랜드를 세분화했다. 여기에 한미약품 기술수출과 연동되는 지식재산(IP) 수익을 더해 사업형 지주사 체제를…</p>
                         <div class="card-meta">
                             <span>전자신문 · 테크</span>
                             <span>10.05 16:00</span>
@@ -2066,7 +2075,7 @@ ${shareText}`);
                     </div>
                     
                     <div class="card priority">
-                        <a href="https://www.etnews.com/20261005000012" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">[단독]캐피탈-렌터카업계, 갈등 격화...SK렌터카 '규제 완화 반대 연합회'등록</a>
+                        <a href="https://www.etnews.com/20261005000012" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">[단독]캐피탈-렌터카업계, 갈등 격화...SK렌터카 '규제 완화 반대 연합회'등록</a><p class="card-preview">금융위원회가 캐피탈업계 렌탈 규제를 완화하는 방안을 검토하고 있는 가운데, 최근 대형 렌터카사인 SK렌터카가 규제 완화에 반대하는 연합회로 소속을 변경한 것으로 확인됐다. 롯데렌탈에 이어 SK렌터카도 캐피탈사 렌탈 규제 완화에 반대해 온…</p>
                         <div class="card-meta">
                             <span>전자신문 · 테크</span>
                             <span>10.05 14:00</span>
@@ -2075,7 +2084,7 @@ ${shareText}`);
                     </div>
                     <div class="sector-subheading">📌 통신/IT (3)</div>
                     <div class="card priority">
-                        <a href="https://www.yna.co.kr/view/AKR20261005036700003" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">LG전자, 북미 AI데이터센터 인프라기업과 냉각솔루션 대형계약</a>
+                        <a href="https://www.yna.co.kr/view/AKR20261005036700003" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">LG전자, 북미 AI데이터센터 인프라기업과 냉각솔루션 대형계약</a><p class="card-preview">조성흠 기자 = LG전자[066570]가 AI데이터센터(AIDC) 최대 시장인 북미에서 5GW(기가와트) 규모 대형 계약을 맺...</p>
                         <div class="card-meta">
                             <span>연합뉴스-산업 · 통신</span>
                             <span>10.05 22:06</span>
@@ -2084,7 +2093,7 @@ ${shareText}`);
                     </div>
                     
                     <div class="card priority">
-                        <a href="https://www.etnews.com/20261005000059" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">샌디스크, 비싸진 아이폰 1TB 고객 틈새시장 '외장 메모리'로 노린다</a>
+                        <a href="https://www.etnews.com/20261005000059" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">샌디스크, 비싸진 아이폰 1TB 고객 틈새시장 '외장 메모리'로 노린다</a><p class="card-preview">샌디스크가 &#x27;폰 드라이브(Phone Drive)&#x27; 라인업을 포함 스마트폰 외장 메모리 쪽으로 국내 포트폴리오를 확장한다. 낸드 가격 인상과 더불어 아이폰 고용량 모델 가격이 큰 폭으로 오르자, 더 큰 저장장치 용량을 원하는 소비자 틈새 시장을 노리려는 의도로…</p>
                         <div class="card-meta">
                             <span>전자신문 · 테크</span>
                             <span>10.05 17:00</span>
@@ -2102,7 +2111,7 @@ ${shareText}`);
                     </div>
                     <div class="sector-subheading">📌 유통/소매 (1)</div>
                     <div class="card priority">
-                        <a href="https://www.yna.co.kr/view/AKR20261005046200704" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">[쇼츠] 인권 논란 중국 신장에 스타벅스 진출하자 '시끌'</a>
+                        <a href="https://www.yna.co.kr/view/AKR20261005046200704" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">[쇼츠] 인권 논란 중국 신장에 스타벅스 진출하자 '시끌'</a><p class="card-preview">세계 최대 커피 체인인 스타벅스가 중국 북서부 신장위구르자치구에 첫 진출했습니다.</p>
                         <div class="card-meta">
                             <span>연합뉴스-산업 · 통신</span>
                             <span>10.05 17:10</span>
@@ -2111,7 +2120,7 @@ ${shareText}`);
                     </div>
                     <div class="sector-subheading">📌 화학/소재 (1)</div>
                     <div class="card priority">
-                        <a href="https://www.yna.co.kr/view/AKR20261005036300061" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">SK하이닉스 방류 하천 염소·황산이온 농도, 'FAO 권고치' 초과</a>
+                        <a href="https://www.yna.co.kr/view/AKR20261005036300061" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">SK하이닉스 방류 하천 염소·황산이온 농도, 'FAO 권고치' 초과</a><p class="card-preview">(수원=연합뉴스) 최종호 기자 = 경기도는 이천 SK하이닉스 반도체 공장 방류수가 유입되는 하천의 염소이온과 황산이온 농도가 유엔식량농업기구(F...</p>
                         <div class="card-meta">
                             <span>연합뉴스-산업 · 통신</span>
                             <span>10.05 14:59</span>
@@ -2120,7 +2129,7 @@ ${shareText}`);
                     </div>
                     <div class="sector-subheading">📌 기타산업 (5)</div>
                     <div class="card priority">
-                        <a href="https://www.etnews.com/20261002000028" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">강호철 광진구시설관리공단 이사장 “AI로 위험요인 미리 찾고 탄소는 줄인다”</a>
+                        <a href="https://www.etnews.com/20261002000028" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">강호철 광진구시설관리공단 이사장 “AI로 위험요인 미리 찾고 탄소는 줄인다”</a><p class="card-preview">기후위기와 디지털 전환이 동시에 가속화되면서 공공기관과 도시 안전관리 패러다임도 빠르게 변화하고 있다. 특히 도시재생과 공공시설 분야에서는 노후 인프라와 각종 안전 위험에 선제적으로 대응하는 동시에 에너지 효율과 탄소저감까지 고려해야 하는 복합적인 과제가…</p>
                         <div class="card-meta">
                             <span>전자신문 · 테크</span>
                             <span>10.05 17:00</span>
@@ -2129,7 +2138,7 @@ ${shareText}`);
                     </div>
                     
                     <div class="card ">
-                        <a href="https://www.donga.com/news/Inter/article/all/20261005/134789481/2" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">프랑스 고교생 시위 확산 “최대 500곳 휴교”</a>
+                        <a href="https://www.donga.com/news/Inter/article/all/20261005/134789481/2" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">프랑스 고교생 시위 확산 “최대 500곳 휴교”</a><p class="card-preview">지난달 17일부터 발발한 프랑스의 대규모 학생 시위가 잦아들지 않고 있는 가운데 5일 수도 파리 일대에서만 최대 500개 고등학교가 전면 또는 부분 휴교에 돌입할 예정이라고 AFP통신 등이 보도했다. 6일 학생들은 물론 교원 노조까지 참여한 대규모 시위가…</p>
                         <div class="card-meta">
                             <span>동아일보-국제 · 언론</span>
                             <span>10.06 04:30</span>
@@ -2156,7 +2165,7 @@ ${shareText}`);
                     </div>
                     
                     <div class="card priority">
-                        <a href="https://www.yna.co.kr/view/AKR20261005006800371" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">"시혜 넘어 배려·존중으로"…한컴재단 '다문화 어울림캠프' 성료</a>
+                        <a href="https://www.yna.co.kr/view/AKR20261005006800371" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">"시혜 넘어 배려·존중으로"…한컴재단 '다문화 어울림캠프' 성료</a><p class="card-preview">(가평=연합뉴스) 박현수 기자 = 서로 다른 언어와 문화적 배경을 지닌 다문화가족들이 한글과 한국 문화를 매개로 소통하고 어울리는 화합의 장이 ...</p>
                         <div class="card-meta">
                             <span>연합뉴스-산업 · 통신</span>
                             <span>10.05 14:21</span>
@@ -2165,7 +2174,7 @@ ${shareText}`);
                     </div>
                     <div id="정치" class="section-title">정치</div><div class="sector-subheading">🗂️ 정상/외교 (4)</div>
                     <div class="card priority representative">
-                        <a href="https://www.yna.co.kr/view/AKR20261005053100001" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">"외국국적 신고된 외교관 성인자녀 중 韓국적 선택 남성 0명"</a>
+                        <a href="https://www.yna.co.kr/view/AKR20261005053100001" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">"외국국적 신고된 외교관 성인자녀 중 韓국적 선택 남성 0명"</a><p class="card-preview">박수윤 기자 = 현직 외무공무원의 성인 자녀 가운데 외국 국적이 신고된 이들 중 대한민국 국적만 남도록 최종 선택한 남성은 없...</p>
                         <div class="card-meta">
                             <span>연합뉴스-정치 · 통신</span>
                             <span>10.06 05:30</span>
@@ -2174,7 +2183,7 @@ ${shareText}`);
                     </div>
                     
                     <div class="card priority representative">
-                        <a href="https://www.yna.co.kr/view/AKR20261005042500001" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">장동혁, 육영수 생가 찾아 "암살자(들), 대한민국 정통성 부정"</a>
+                        <a href="https://www.yna.co.kr/view/AKR20261005042500001" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">장동혁, 육영수 생가 찾아 "암살자(들), 대한민국 정통성 부정"</a><p class="card-preview">이정현 노선웅 기자 = 국민의힘 장동혁 대표는 5일 고(故) 육영수 여사 생가를 방문해 육 여사 피격 사망 사건을 다룬 영화 ...</p>
                         <div class="card-meta">
                             <span>연합뉴스-정치 · 통신</span>
                             <span>10.05 16:27</span>
@@ -2192,7 +2201,7 @@ ${shareText}`);
                     </div>
                     
                     <div class="card priority">
-                        <a href="https://www.yna.co.kr/view/AKR20261005036500504" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">'北지뢰 대응' NSC서 격론…독자제재·軍첨단전력 시연 논의</a>
+                        <a href="https://www.yna.co.kr/view/AKR20261005036500504" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">'北지뢰 대응' NSC서 격론…독자제재·軍첨단전력 시연 논의</a><p class="card-preview">윤보람 민선희 기자 = 비무장지대(DMZ) 폭발의 원인이 북한이 매설한 지뢰로 굳어지며 &#x27;상응 조치&#x27;를 놓고 정부의 고심도 깊...</p>
                         <div class="card-meta">
                             <span>연합뉴스-정치 · 통신</span>
                             <span>10.05 15:04</span>
@@ -2201,7 +2210,7 @@ ${shareText}`);
                     </div>
                     <div class="sector-subheading">🗂️ 당내 정국 (2)</div>
                     <div class="card priority representative">
-                        <a href="https://www.yna.co.kr/view/AKR20261005028700001" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">서범수·진종오 징계 가처분 이르면 7일 결론…갈등 재점화 변곡점</a>
+                        <a href="https://www.yna.co.kr/view/AKR20261005028700001" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">서범수·진종오 징계 가처분 이르면 7일 결론…갈등 재점화 변곡점</a><p class="card-preview">박수윤 노선웅 기자 = &#x27;돌려차기 실언&#x27; 논란 등으로 국민의힘 중앙윤리위원회로부터 &#x27;당원권 정지&#x27; 징계 처분을 받은 서범수·진...</p>
                         <div class="card-meta">
                             <span>연합뉴스-정치 · 통신</span>
                             <span>10.05 11:45</span>
@@ -2210,7 +2219,7 @@ ${shareText}`);
                     </div>
                     
                     <div class="card priority">
-                        <a href="https://www.yna.co.kr/view/AKR20261005063500001" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">靑 "조국, 작년 '보완수사 인정' 언급…檢개혁 완수 함께해주길"</a>
+                        <a href="https://www.yna.co.kr/view/AKR20261005063500001" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">靑 "조국, 작년 '보완수사 인정' 언급…檢개혁 완수 함께해주길"</a><p class="card-preview">고동욱 기자 = 이재명 대통령이 5일 보완수사권 등 검찰개혁을 둘러싼 여권 지지층 내 논란의 주요 쟁점을 언급한 것을 두고 조...</p>
                         <div class="card-meta">
                             <span>연합뉴스-정치 · 통신</span>
                             <span>10.05 23:58</span>
@@ -2228,7 +2237,7 @@ ${shareText}`);
                     </div>
                     
                     <div class="card priority representative">
-                        <a href="https://www.yna.co.kr/view/AKR20261005020900504" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">'실탄 미장착' 전방군단 추가확인…국방부 기관경고 방침</a>
+                        <a href="https://www.yna.co.kr/view/AKR20261005020900504" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">'실탄 미장착' 전방군단 추가확인…국방부 기관경고 방침</a><p class="card-preview">김효정 기자 = 국방부가 육군 1군단의 &#x27;실탄 미장착&#x27; 경계작전 논란 후 점검을 벌여 여타 전방 군단에서도 유사 사례를 확인하...</p>
                         <div class="card-meta">
                             <span>연합뉴스-정치 · 통신</span>
                             <span>10.05 10:28</span>
@@ -2255,7 +2264,7 @@ ${shareText}`);
                     </div>
                     
                     <div class="card priority">
-                        <a href="https://www.yna.co.kr/view/AKR20261005029900001" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">국힘 "조희대 국감 출석 요구, 국회 횡포·갑질…정당성 결여"</a>
+                        <a href="https://www.yna.co.kr/view/AKR20261005029900001" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">국힘 "조희대 국감 출석 요구, 국회 횡포·갑질…정당성 결여"</a><p class="card-preview">권희원 기자 = 국민의힘은 5일 더불어민주당이 국회 법제사법위원회의 국정감사 증인 출석 요구에 불응한 조희대 대법원장을 맹비난...</p>
                         <div class="card-meta">
                             <span>연합뉴스-정치 · 통신</span>
                             <span>10.05 12:01</span>
@@ -2264,7 +2273,7 @@ ${shareText}`);
                     </div>
                     
                     <div class="card priority">
-                        <a href="https://www.yna.co.kr/view/AKR20261003046100001" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">"검사 과거사 직권 재심청구 4·3에 몰려…5·18은 3년간 0명"</a>
+                        <a href="https://www.yna.co.kr/view/AKR20261003046100001" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">"검사 과거사 직권 재심청구 4·3에 몰려…5·18은 3년간 0명"</a><p class="card-preview">최평천 기자 = 검사가 직권으로 재심을 청구한 과거사 사건이 제주 4·3사건에 집중된 것으로 나타났다.</p>
                         <div class="card-meta">
                             <span>연합뉴스-정치 · 통신</span>
                             <span>10.05 09:00</span>
@@ -2273,7 +2282,7 @@ ${shareText}`);
                     </div>
                     <div class="sector-subheading">🗂️ 지방/행정 (13)</div>
                     <div class="card priority representative">
-                        <a href="https://www.yna.co.kr/view/AKR20261005048151504" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">軍, MDL 이남 北지뢰제거로 대응조치 첫발…추가 대북조치 주목(종합) (외 1건)</a>
+                        <a href="https://www.yna.co.kr/view/AKR20261005048151504" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">軍, MDL 이남 北지뢰제거로 대응조치 첫발…추가 대북조치 주목(종합) (외 1건)</a><p class="card-preview">김효정 민선희 기자 = 정부가 지난 21일 서부전선 비무장지대(DMZ) 군사분계선(MDL) 이남에서 발생한 북한군 지뢰 폭발 ...</p>
                         <div class="card-meta">
                             <span>연합뉴스-정치 · 통신</span>
                             <span>10.05 20:09</span>
@@ -2287,7 +2296,7 @@ ${shareText}`);
                     </div>
                     
                     <div class="card priority representative">
-                        <a href="https://www.yna.co.kr/view/AKR20261005019900055" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">전북 5개 시·군, 지역상품권 국비 소진 못 해…무주는 3년 연속</a>
+                        <a href="https://www.yna.co.kr/view/AKR20261005019900055" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">전북 5개 시·군, 지역상품권 국비 소진 못 해…무주는 3년 연속</a><p class="card-preview">(전주=연합뉴스) 임채두 기자 = 전북지역 5개 시·군이 지난해 지역사랑상품권에 매칭된 국비를 다 소진하지 못한 것으로 나타났다.</p>
                         <div class="card-meta">
                             <span>연합뉴스-정치 · 통신</span>
                             <span>10.05 09:58</span>
@@ -2296,7 +2305,7 @@ ${shareText}`);
                     </div>
                     
                     <div class="card ">
-                        <a href="https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBkbHF6N3V3enp1cTAtWWQxTjR1ajRSWmE2QzNwTVdIVE1YOHZHUjRRXzh4VlpiMjJacGRCbndJWDNsZGM?oc=5" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">대전시 찾아가는 전세피해 예방교육 실시 > 뉴스 - thekorea.kr</a>
+                        <a href="https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBkbHF6N3V3enp1cTAtWWQxTjR1ajRSWmE2QzNwTVdIVE1YOHZHUjRRXzh4VlpiMjJacGRCbndJWDNsZGM?oc=5" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">대전시 찾아가는 전세피해 예방교육 실시 > 뉴스 - thekorea.kr</a><p class="card-preview">대전시 찾아가는 전세피해 예방교육 실시 &gt; 뉴스 thekorea.kr</p>
                         <div class="card-meta">
                             <span>키워드-부동산정책 · 키워드</span>
                             <span>10.06 00:01</span>
@@ -2314,7 +2323,7 @@ ${shareText}`);
                     </div>
                     
                     <div class="card priority">
-                        <a href="https://www.yna.co.kr/view/AKR20261005044851504" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">北매설지뢰로 우리 장병 부상 결론…軍, 지뢰제거 작전 단행(종합)</a>
+                        <a href="https://www.yna.co.kr/view/AKR20261005044851504" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">北매설지뢰로 우리 장병 부상 결론…軍, 지뢰제거 작전 단행(종합)</a><p class="card-preview">김효정 민선희 기자 = 군은 지난달 21일 서부전선 비무장지대(DMZ)에서 발생한 폭발은 북한이 군사분계선(MDL) 이남에 매...</p>
                         <div class="card-meta">
                             <span>연합뉴스-정치 · 통신</span>
                             <span>10.05 19:13</span>
@@ -2323,7 +2332,7 @@ ${shareText}`);
                     </div>
                     
                     <div class="card priority">
-                        <a href="https://www.yna.co.kr/view/AKR20261005049100001" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">與, '北이 지뢰 매설' 군 발표에 "명백한 정전협정 위반" 규탄</a>
+                        <a href="https://www.yna.co.kr/view/AKR20261005049100001" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">與, '北이 지뢰 매설' 군 발표에 "명백한 정전협정 위반" 규탄</a><p class="card-preview">박재하 기자 = 더불어민주당은 5일 비무장지대(DMZ)에서 발생한 폭발이 군사분계선(MDL) 이남에 북한이 매설한 지뢰에 의한...</p>
                         <div class="card-meta">
                             <span>연합뉴스-정치 · 통신</span>
                             <span>10.05 19:03</span>
@@ -2332,7 +2341,7 @@ ${shareText}`);
                     </div>
                     
                     <div class="card priority">
-                        <a href="https://www.yna.co.kr/view/AKR20261005049200504" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">[일지] MDL 이남 北지뢰 폭발사건…軍, 발생 2주만에 최종조사결과 발표</a>
+                        <a href="https://www.yna.co.kr/view/AKR20261005049200504" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">[일지] MDL 이남 北지뢰 폭발사건…軍, 발생 2주만에 최종조사결과 발표</a><p class="card-preview">윤보람 기자 = 지난달 21일 서부전선 비무장지대(DMZ)에서 일어난 폭발은 북한이 군사분계선(MDL) 이남에 매설한 지뢰에 ...</p>
                         <div class="card-meta">
                             <span>연합뉴스-정치 · 통신</span>
                             <span>10.05 18:28</span>
@@ -2341,7 +2350,7 @@ ${shareText}`);
                     </div>
                     
                     <div class="card priority">
-                        <a href="https://www.yna.co.kr/view/AKR20261005044800504" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">軍 "北지뢰로 우리장병 부상 최종판단"…지뢰제거작전 전격단행</a>
+                        <a href="https://www.yna.co.kr/view/AKR20261005044800504" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">軍 "北지뢰로 우리장병 부상 최종판단"…지뢰제거작전 전격단행</a><p class="card-preview">김효정 기자 = 군은 지난달 21일 서부전선 비무장지대(DMZ)에서 발생한 폭발은 북한이 군사분계선(MDL) 이남에 매설한 지...</p>
                         <div class="card-meta">
                             <span>연합뉴스-정치 · 통신</span>
                             <span>10.05 16:51</span>
@@ -2350,7 +2359,7 @@ ${shareText}`);
                     </div>
                     
                     <div class="card priority">
-                        <a href="https://www.yna.co.kr/view/AKR20261005044800504" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">軍 "北지뢰로 우리장병 부상 최종판단"…지뢰제거작전 전격단행</a>
+                        <a href="https://www.yna.co.kr/view/AKR20261005044800504" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">軍 "北지뢰로 우리장병 부상 최종판단"…지뢰제거작전 전격단행</a><p class="card-preview">김효정 기자 = 군은 지난달 21일 서부전선 비무장지대(DMZ)에서 발생한 폭발은 북한이 군사분계선(MDL) 이남에 매설한 지...</p>
                         <div class="card-meta">
                             <span>연합뉴스-정치 · 통신</span>
                             <span>10.05 16:51</span>
@@ -2359,7 +2368,7 @@ ${shareText}`);
                     </div>
                     
                     <div class="card priority">
-                        <a href="https://www.yna.co.kr/view/AKR20261005027551001" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">국힘 "北 지뢰매설하는 동안 '빈총경계'…진상·책임 규명할 것"(종합)</a>
+                        <a href="https://www.yna.co.kr/view/AKR20261005027551001" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">국힘 "北 지뢰매설하는 동안 '빈총경계'…진상·책임 규명할 것"(종합)</a><p class="card-preview">권희원 기자 = 국민의힘은 5일 우리 군 전방부대에서 실탄 삽입을 하지 않은 채 경계가 이뤄진 사례가 잇따라 확인된 점을 두고...</p>
                         <div class="card-meta">
                             <span>연합뉴스-정치 · 통신</span>
                             <span>10.05 16:46</span>
@@ -2368,7 +2377,7 @@ ${shareText}`);
                     </div>
                     
                     <div class="card priority">
-                        <a href="https://www.yna.co.kr/view/AKR20261005027551001" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">국힘 "北 지뢰매설하는 동안 '빈총경계'…진상·책임 규명할 것"(종합)</a>
+                        <a href="https://www.yna.co.kr/view/AKR20261005027551001" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">국힘 "北 지뢰매설하는 동안 '빈총경계'…진상·책임 규명할 것"(종합)</a><p class="card-preview">권희원 기자 = 국민의힘은 5일 우리 군 전방부대에서 실탄 삽입을 하지 않은 채 경계가 이뤄진 사례가 잇따라 확인된 점을 두고...</p>
                         <div class="card-meta">
                             <span>연합뉴스-정치 · 통신</span>
                             <span>10.05 16:46</span>
@@ -2377,7 +2386,7 @@ ${shareText}`);
                     </div>
                     
                     <div class="card priority">
-                        <a href="https://www.yna.co.kr/view/AKR20261005027551001" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">국힘 "北 지뢰매설하는 동안 '빈총경계'…진상·책임 규명할 것"(종합)</a>
+                        <a href="https://www.yna.co.kr/view/AKR20261005027551001" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">국힘 "北 지뢰매설하는 동안 '빈총경계'…진상·책임 규명할 것"(종합)</a><p class="card-preview">권희원 기자 = 국민의힘은 5일 우리 군 전방부대에서 실탄 삽입을 하지 않은 채 경계가 이뤄진 사례가 잇따라 확인된 점을 두고...</p>
                         <div class="card-meta">
                             <span>연합뉴스-정치 · 통신</span>
                             <span>10.05 16:46</span>
@@ -2386,7 +2395,7 @@ ${shareText}`);
                     </div>
                     
                     <div class="card priority">
-                        <a href="https://www.yna.co.kr/view/AKR20261005044300055" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">권역중증외상센터 인력난 허덕…원광대 전문의 지원 4년간 '0명'</a>
+                        <a href="https://www.yna.co.kr/view/AKR20261005044300055" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">권역중증외상센터 인력난 허덕…원광대 전문의 지원 4년간 '0명'</a><p class="card-preview">(전주=연합뉴스) 임채두 기자 = 전국의 권역 중증외상센터에 인력난이 갈수록 심화하는 것으로 나타났다.</p>
                         <div class="card-meta">
                             <span>연합뉴스-정치 · 통신</span>
                             <span>10.05 16:30</span>
@@ -2395,7 +2404,7 @@ ${shareText}`);
                     </div>
                     <div class="sector-subheading">🗂️ 입법/정책 (5)</div>
                     <div class="card priority representative">
-                        <a href="https://www.yna.co.kr/view/AKR20261005027751001" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">아시안게임 논란에 도마 오른 병역특례…정치권도 개편론 확산(종합) (외 1건)</a>
+                        <a href="https://www.yna.co.kr/view/AKR20261005027751001" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">아시안게임 논란에 도마 오른 병역특례…정치권도 개편론 확산(종합) (외 1건)</a><p class="card-preview">김정진 노선웅 박재하 최주성 기자 = 2026 아이치·나고야 아시안게임에서 금메달을 딴 축구 국가대표팀 일부 선수의 병역특례 ...</p>
                         <div class="card-meta">
                             <span>연합뉴스-정치 · 통신</span>
                             <span>10.05 16:12</span>
@@ -2409,7 +2418,7 @@ ${shareText}`);
                     </div>
                     
                     <div class="card priority">
-                        <a href="https://www.yna.co.kr/view/AKR20261005039500001" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">[오늘의 국감](6일)</a>
+                        <a href="https://www.yna.co.kr/view/AKR20261005039500001" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">[오늘의 국감](6일)</a><p class="card-preview">▲ 법제사법 = 대법원(법원행정처), 사법연수원, 사법정책연구원, 법원공무원교육원, 법원도서관, 양형위원회, 윤리감사관(10:00 국회)</p>
                         <div class="card-meta">
                             <span>연합뉴스-정치 · 통신</span>
                             <span>10.06 04:00</span>
@@ -2418,7 +2427,7 @@ ${shareText}`);
                     </div>
                     
                     <div class="card priority">
-                        <a href="https://www.yna.co.kr/view/AKR20261005058400001" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">이재정 "영화가 역사 왜곡한 게 아니라 정치권이 영화 왜곡"</a>
+                        <a href="https://www.yna.co.kr/view/AKR20261005058400001" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">이재정 "영화가 역사 왜곡한 게 아니라 정치권이 영화 왜곡"</a><p class="card-preview">박경준 기자 = 국회 문화체육관광위원회 위원장인 더불어민주당 이재정 의원은 5일 보수 진영 일각에서 제기하는 영화 &#x27;암살자(들...</p>
                         <div class="card-meta">
                             <span>연합뉴스-정치 · 통신</span>
                             <span>10.05 20:46</span>
@@ -2427,7 +2436,7 @@ ${shareText}`);
                     </div>
                     
                     <div class="card priority">
-                        <a href="https://www.yna.co.kr/view/AKR20261005058400001" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">이재정 "영화가 역사 왜곡한 게 아니라 정치권이 영화 왜곡"</a>
+                        <a href="https://www.yna.co.kr/view/AKR20261005058400001" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">이재정 "영화가 역사 왜곡한 게 아니라 정치권이 영화 왜곡"</a><p class="card-preview">박경준 기자 = 국회 문화체육관광위원회 위원장인 더불어민주당 이재정 의원은 5일 보수 진영 일각에서 제기하는 영화 &#x27;암살자(들...</p>
                         <div class="card-meta">
                             <span>연합뉴스-정치 · 통신</span>
                             <span>10.05 20:46</span>
@@ -2436,7 +2445,7 @@ ${shareText}`);
                     </div>
                     
                     <div class="card priority">
-                        <a href="https://www.yna.co.kr/view/AKR20261005012351001" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">李대통령 지지율 37.4%…"인사·안보 등 악재로 소폭하락"[리얼미터](종합)</a>
+                        <a href="https://www.yna.co.kr/view/AKR20261005012351001" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">李대통령 지지율 37.4%…"인사·안보 등 악재로 소폭하락"[리얼미터](종합)</a><p class="card-preview">박재하 기자 = 이재명 대통령의 국정수행 지지도가 3주 만에 소폭 하락했다는 여론조사 결과가 5일 나왔다.</p>
                         <div class="card-meta">
                             <span>연합뉴스-정치 · 통신</span>
                             <span>10.05 09:42</span>
@@ -2445,7 +2454,7 @@ ${shareText}`);
                     </div>
                     <div class="sector-subheading">🗂️ Science/Tech (1)</div>
                     <div class="card priority representative">
-                        <a href="https://www.aitimes.com/news/articleView.html?idxno=215976" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">구글, 'AI 프로' 국내 한정 40% 할인...연간 구독권 프로모션 진행</a>
+                        <a href="https://www.aitimes.com/news/articleView.html?idxno=215976" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">구글, 'AI 프로' 국내 한정 40% 할인...연간 구독권 프로모션 진행</a><p class="card-preview">10월31일까지 ‘구글 AI 프로’ 연간 구독권을 40% 할인된 가격으로 구매할 수 있다. 신규 연간 구독자를 대상으로 기존 연간 플랜 요금인 29만 원에서 40% 할인된 17만4000원(월 환산 1만4500원)에 이용 가능하다.구글이 ‘구글 AI…</p>
                         <div class="card-meta">
                             <span>AI타임스 · 테크</span>
                             <span>10.06 06:01</span>
@@ -2534,7 +2543,7 @@ ${shareText}`);
                 </a>
                 <div id="인물별" class="section-title">🔍 주요 인물별 뉴스</div><div class="sector-subheading">👤 이재명 (한국 대통령) (8건)</div>
                 <div class="card">
-                    <a href="https://www.yna.co.kr/view/AKR20261005037800001" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">李정부 2년차 국정감사 시작…'曺 재제청 거부'에 공방 예상</a>
+                    <a href="https://www.yna.co.kr/view/AKR20261005037800001" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">李정부 2년차 국정감사 시작…'曺 재제청 거부'에 공방 예상</a><p class="card-preview">최주성 기자 = 집권 2년차를 맞은 이재명 정부의 국회 국정감사가 6일 막을 올린다.</p>
                     <div class="card-meta">
                         <span>연합뉴스-정치</span>
                         <span>10.06 05:00</span>
@@ -2542,7 +2551,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card">
-                    <a href="https://www.yna.co.kr/view/AKR20261005029651001" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">李대통령 "檢개혁 빙자해 사심으로 인사 좌우하려 해선 안 돼"(종합)</a>
+                    <a href="https://www.yna.co.kr/view/AKR20261005029651001" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">李대통령 "檢개혁 빙자해 사심으로 인사 좌우하려 해선 안 돼"(종합)</a><p class="card-preview">황윤기 기자 = 이재명 대통령은 5일 &quot;설마 그러지 않을 것으로 믿지만, 만에 하나 검찰개혁을 빙자해 사심으로 인사와 구체적 ...</p>
                     <div class="card-meta">
                         <span>연합뉴스-정치</span>
                         <span>10.05 19:05</span>
@@ -2550,7 +2559,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card">
-                    <a href="https://www.yna.co.kr/view/AKR20261005059800001" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">與김용민 "법무부에 중수청 두자 한 적 없어"…李대통령에 반박</a>
+                    <a href="https://www.yna.co.kr/view/AKR20261005059800001" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">與김용민 "법무부에 중수청 두자 한 적 없어"…李대통령에 반박</a><p class="card-preview">박재하 기자 = 검찰개혁 강경파인 더불어민주당 김용민 의원은 5일 &quot;중대범죄수사청을 법무부에 두는 방안을 제시한 적이 없다&quot;고...</p>
                     <div class="card-meta">
                         <span>연합뉴스-정치</span>
                         <span>10.05 21:31</span>
@@ -2558,7 +2567,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card">
-                    <a href="https://www.yna.co.kr/view/AKR20261005042251001" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">李대통령, '강남3구 매물↑' 거론하며 "투기공화국 반드시 탈출"(종합)</a>
+                    <a href="https://www.yna.co.kr/view/AKR20261005042251001" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">李대통령, '강남3구 매물↑' 거론하며 "투기공화국 반드시 탈출"(종합)</a><p class="card-preview">황윤기 기자 = 이재명 대통령은 5일 &quot;부동산 투기 공화국 탈출 약속을 반드시 지킬 것&quot;이라며 정부 기조를 재확인했다.</p>
                     <div class="card-meta">
                         <span>연합뉴스-정치</span>
                         <span>10.05 18:19</span>
@@ -2566,7 +2575,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card">
-                    <a href="https://www.yna.co.kr/view/AKR20261005029651001" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">李대통령 "檢개혁 빙자해 사심으로 인사 좌우하려 해선 안 돼"(종합)</a>
+                    <a href="https://www.yna.co.kr/view/AKR20261005029651001" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">李대통령 "檢개혁 빙자해 사심으로 인사 좌우하려 해선 안 돼"(종합)</a><p class="card-preview">황윤기 기자 = 이재명 대통령은 5일 &quot;설마 그러지 않을 것으로 믿지만, 만에 하나 검찰개혁을 빙자해 사심으로 인사와 구체적 ...</p>
                     <div class="card-meta">
                         <span>연합뉴스-정치</span>
                         <span>10.05 19:05</span>
@@ -2574,7 +2583,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card">
-                    <a href="https://www.yna.co.kr/view/AKR20261005042251001" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">李대통령, '강남3구 매물↑' 거론하며 "투기공화국 반드시 탈출"(종합)</a>
+                    <a href="https://www.yna.co.kr/view/AKR20261005042251001" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">李대통령, '강남3구 매물↑' 거론하며 "투기공화국 반드시 탈출"(종합)</a><p class="card-preview">황윤기 기자 = 이재명 대통령은 5일 &quot;부동산 투기 공화국 탈출 약속을 반드시 지킬 것&quot;이라며 정부 기조를 재확인했다.</p>
                     <div class="card-meta">
                         <span>연합뉴스-정치</span>
                         <span>10.05 18:19</span>
@@ -2582,7 +2591,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card">
-                    <a href="https://www.yna.co.kr/view/AKR20261005042251001" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">李대통령, '강남3구 매물↑' 거론하며 "투기공화국 반드시 탈출"(종합)</a>
+                    <a href="https://www.yna.co.kr/view/AKR20261005042251001" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">李대통령, '강남3구 매물↑' 거론하며 "투기공화국 반드시 탈출"(종합)</a><p class="card-preview">황윤기 기자 = 이재명 대통령은 5일 &quot;부동산 투기 공화국 탈출 약속을 반드시 지킬 것&quot;이라며 정부 기조를 재확인했다.</p>
                     <div class="card-meta">
                         <span>연합뉴스-정치</span>
                         <span>10.05 18:19</span>
@@ -2590,7 +2599,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card">
-                    <a href="https://www.etnews.com/20261005000129" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">李대통령, 부동산 '폭풍 4트윗'…“집 못지어 미친 것처럼 조기 대량 공급”</a>
+                    <a href="https://www.etnews.com/20261005000129" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">李대통령, 부동산 '폭풍 4트윗'…“집 못지어 미친 것처럼 조기 대량 공급”</a><p class="card-preview">이재명 대통령이 부동산 투기 억제와 집값 안정 의지를 재확인하며 조기 대량 공급에 국가 명운을 걸겠다고 밝혔다. 이 대통령은 X(구 트위터)에 약 1시간 동안 4개의 게시글을 올리는 등 부동산 정책의 추진 의지와 성과 창출에 대한 자신감을 강조했다. 또 공급…</p>
                     <div class="card-meta">
                         <span>전자신문</span>
                         <span>10.05 17:00</span>
@@ -2598,7 +2607,7 @@ ${shareText}`);
                 </div>
                 <div class="sector-subheading">👤 리사 수 (AMD 회장) (3건)</div>
                 <div class="card">
-                    <a href="https://www.yna.co.kr/view/AKR20261005043951017" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">리사 수 AMD 회장 7개월 만에 방한…'AI 동맹' 넓히나(종합)</a>
+                    <a href="https://www.yna.co.kr/view/AKR20261005043951017" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">리사 수 AMD 회장 7개월 만에 방한…'AI 동맹' 넓히나(종합)</a><p class="card-preview">신선미 기자 = 글로벌 인공지능(AI) 반도체 시장에서 엔비디아의 대항마로 꼽히는 AMD의 리사 수 회장 겸 최고경영자(CEO...</p>
                     <div class="card-meta">
                         <span>연합뉴스-경제</span>
                         <span>10.05 17:20</span>
@@ -2606,7 +2615,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card">
-                    <a href="https://www.yna.co.kr/view/AKR20261005043951017" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">리사 수 AMD 회장 7개월 만에 방한…'AI 동맹' 넓히나(종합)</a>
+                    <a href="https://www.yna.co.kr/view/AKR20261005043951017" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">리사 수 AMD 회장 7개월 만에 방한…'AI 동맹' 넓히나(종합)</a><p class="card-preview">신선미 기자 = 글로벌 인공지능(AI) 반도체 시장에서 엔비디아의 대항마로 꼽히는 AMD의 리사 수 회장 겸 최고경영자(CEO...</p>
                     <div class="card-meta">
                         <span>연합뉴스-경제</span>
                         <span>10.05 17:20</span>
@@ -2614,7 +2623,7 @@ ${shareText}`);
                 </div>
                 
                 <div class="card">
-                    <a href="https://www.yna.co.kr/view/AKR20261005043900017" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">리사 수 AMD 회장 7개월 만에 방한…7일 용산서 '게이머데이'</a>
+                    <a href="https://www.yna.co.kr/view/AKR20261005043900017" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">리사 수 AMD 회장 7개월 만에 방한…7일 용산서 '게이머데이'</a><p class="card-preview">신선미 기자 = 리사 수 AMD 회장 겸 최고경영자(CEO)가 지난 3월에 이어 7개월 만에 다시 한국을 찾는다.</p>
                     <div class="card-meta">
                         <span>연합뉴스-경제</span>
                         <span>10.05 16:20</span>
