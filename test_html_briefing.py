@@ -89,7 +89,9 @@ class MorningPageTests(unittest.TestCase):
 
         front = html.split('<section class="front-page"', 1)[1].split('</section>', 1)[0]
         self.assertEqual(front.count('class="front-page-section"'), 3)
-        self.assertEqual(front.count('class="card"'), 9)
+        self.assertEqual(front.count('class="card card-illustrated"'), 9)
+        self.assertEqual(front.count('class="card-art"'), 9)
+        self.assertIn('aria-hidden="true"', front)
         self.assertNotIn('정치 기사', front)
         self.assertLess(front.index('경제/거시 기사'), front.index('부동산 기사'))
         self.assertLess(front.index('부동산 기사'), front.index('국제 기사'))

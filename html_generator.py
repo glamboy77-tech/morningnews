@@ -250,6 +250,10 @@ class HTMLGenerator:
             .front-page-section { margin: 22px 0 32px; }
             .front-page-section h3 { font-size: 1rem; margin: 0 0 12px; }
             .front-page .card { margin-bottom: 10px; padding: 16px; }
+            .front-page .card-illustrated { display: flex; align-items: center; gap: 14px; }
+            .front-page .card-illustrated .card-copy { min-width: 0; flex: 1; }
+            .front-page .card-illustrated .card-art { width: 76px; height: 76px; flex: none; border-radius: 14px; }
+            .front-page .card-illustrated .card-title { display: block; line-height: 1.45; }
             .front-page-more { display: inline-block; color: var(--primary); font-size: .85rem; padding: 6px 0; }
 
             .sentiment-box {
@@ -748,6 +752,28 @@ class HTMLGenerator:
 
         </style>
         """
+
+    @staticmethod
+    def _front_page_art(category):
+        """Original decorative category illustrations, not article photographs or evidence."""
+        if category == "경제/거시":
+            color, drawing = "#4facfe", ('<path d="M18 60V43m15 17V33m15 27V20m15 40V39" '
+                                              'stroke="currentColor" stroke-width="6" stroke-linecap="round"/>'
+                                              '<path d="M17 33l17-10 15 7 14-13" fill="none" '
+                                              'stroke="currentColor" stroke-width="2"/>')
+        elif category == "부동산":
+            color, drawing = "#e6b368", ('<path d="M13 38l27-22 27 22v30H13z" fill="none" '
+                                              'stroke="currentColor" stroke-width="3"/>'
+                                              '<path d="M32 68V46h16v22M21 42h5m28 0h5" fill="none" '
+                                              'stroke="currentColor" stroke-width="3"/>')
+        else:
+            color, drawing = "#83c9ab", ('<circle cx="40" cy="40" r="27" fill="none" '
+                                              'stroke="currentColor" stroke-width="3"/>'
+                                              '<path d="M13 40h54M40 13c-14 14-14 40 0 54M40 13c14 14 14 40 0 54" '
+                                              'fill="none" stroke="currentColor" stroke-width="2"/>')
+        return (f'<svg class="card-art" viewBox="0 0 80 80" aria-hidden="true" focusable="false" '
+                f'style="color:{color};background:#172028" xmlns="http://www.w3.org/2000/svg">'
+                f'{drawing}</svg>')
 
     @staticmethod
     def _normalize_sentiment_items_for_display(items, *, limit=8):
@@ -1256,9 +1282,10 @@ class HTMLGenerator:
                     link = html_escape.escape(item['link'], quote=True)
                     title = html_escape.escape(item['title'])
                     source = html_escape.escape(item.get('source', ''))
-                    html += (f'<div class="card"><a href="{link}" class="card-title" '
+                    html += (f'<div class="card card-illustrated">{self._front_page_art(category)}'
+                             f'<div class="card-copy"><a href="{link}" class="card-title" '
                              f'target="_blank" rel="noopener noreferrer">{title}</a>'
-                             f'<div class="card-meta">{source}</div></div>')
+                             f'<div class="card-meta">{source}</div></div></div>')
                 html += (f'<a class="front-page-more" href="#{category}" '
                          f'onclick="document.querySelector(\'.all-articles\').open = true">'
                          f'{category} 기사 전체 보기 →</a></div>')
