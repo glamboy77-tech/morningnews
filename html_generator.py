@@ -244,6 +244,14 @@ class HTMLGenerator:
             .all-articles > summary { cursor: pointer; font-weight: 600; color: var(--primary); padding: 12px 0; }
             .all-articles > summary:focus-visible { outline: 2px solid var(--primary); }
 
+            .front-page { margin: 28px 0 36px; }
+            .front-page-heading { font-size: 1.1rem; margin-bottom: 6px; }
+            .front-page-intro { color: var(--text-secondary); font-size: .85rem; margin: 0 0 22px; }
+            .front-page-section { margin: 22px 0 32px; }
+            .front-page-section h3 { font-size: 1rem; margin: 0 0 12px; }
+            .front-page .card { margin-bottom: 10px; padding: 16px; }
+            .front-page-more { display: inline-block; color: var(--primary); font-size: .85rem; padding: 6px 0; }
+
             .sentiment-box {
                 margin-top: 24px;
                 padding-top: 20px;
@@ -816,10 +824,14 @@ class HTMLGenerator:
         archive_href = "../archive.html" if is_output_page else "archive.html"
         share_base_lines = ["📰 오늘의 모닝뉴스 브리핑"]
         section_summaries = (briefing_data or {}).get('section_summaries', {}) if isinstance(briefing_data, dict) else {}
+        reading_order = ["경제/거시", "부동산", "국제", "기업/산업", "정치"]
         if section_summaries:
-            for section, summary in list(section_summaries.items())[:3]:
+            for section in reading_order:
+                summary = section_summaries.get(section)
                 if summary:
                     share_base_lines.append(f"- {section}: {summary}")
+                if len(share_base_lines) >= 4:
+                    break
         share_base_text = "\n".join(share_base_lines)
 
         html = f"""
@@ -1161,7 +1173,7 @@ class HTMLGenerator:
         
 
         # --- Generate Sticky Nav ---
-        order = ["정치", "경제/거시", "기업/산업", "부동산", "국제"]
+        order = reading_order
         
         html += '<div class="sticky-nav">'
 
@@ -1170,11 +1182,6 @@ class HTMLGenerator:
 
         # Article sections live inside a collapsed <details>. Open it before jumping.
         open_articles = "document.querySelector('.all-articles').open = true"
-        if key_persons:
-            person_count = sum(len(person.get('articles', [])) for person in key_persons.values())
-            html += (f'<a href="#인물별" class="nav-pill" onclick="{open_articles}">'
-                     f'👤 인물별 ({person_count})</a>')
-
         for category in order:
             items = domestic_data.get(category, [])
             count = sum(item.get('link') not in used_article_links for item in items)
@@ -1185,6 +1192,10 @@ class HTMLGenerator:
         if international_data:
             html += (f'<a href="#science" class="nav-pill" onclick="{open_articles}">'
                      f'테크 ({len(international_data)})</a>')
+        if key_persons:
+            person_count = sum(len(person.get('articles', [])) for person in key_persons.values())
+            html += (f'<a href="#인물별" class="nav-pill" onclick="{open_articles}">'
+                     f'👤 인물별 ({person_count})</a>')
         
         html += '</div>'
         html += ('<p class="weekly-bridge">한 주의 뉴스가 생활과 시장에 미치는 영향은 '
@@ -1205,7 +1216,8 @@ class HTMLGenerator:
         else:
             # Summaries
             summaries = briefing_data.get('section_summaries', {}) if isinstance(briefing_data, dict) else {}
-            for section, summary in summaries.items():
+            for section in reading_order + [key for key in summaries if key not in reading_order]:
+                summary = summaries.get(section)
                 if summary:
                     html += f"""
                     <div class=\"briefing-item\">
@@ -1216,48 +1228,46 @@ class HTMLGenerator:
 
         html += '</div>'
 
+        # A small editorial front page: readable choices before the exhaustive source list.
+        front_sections = []
+        seen_front_links = set()
+        for category in ("경제/거시", "부동산", "국제"):
+            candidates = [item for item in domestic_data.get(category, [])
+                          if item.get('link') and item['link'] not in used_article_links
+                          and item['link'] not in seen_front_links]
+            # Prefer the newest articles in this cycle; use editorial priority only as a tiebreaker.
+            if candidates:
+                cutoff = max(item['published_dt'] for item in candidates) - timedelta(hours=24)
+                recent = [item for item in candidates if item['published_dt'] >= cutoff]
+                selected = sorted(recent, key=lambda item: (
+                    item['published_dt'], item.get('priority_score', 0)), reverse=True)[:3]
+            else:
+                selected = []
+            if selected:
+                front_sections.append((category, selected))
+                seen_front_links.update(item['link'] for item in selected)
+        if front_sections:
+            html += ('<section class="front-page" aria-label="오늘의 읽을거리">'
+                     '<h2 class="front-page-heading">오늘 먼저 읽을 뉴스</h2>'
+                     '<p class="front-page-intro">관심 분야에서 최대 세 꼭지씩 골랐습니다. 전체 기사는 아래에서 볼 수 있어요.</p>')
+            for category, selected in front_sections:
+                html += f'<div class="front-page-section"><h3>{category}</h3>'
+                for item in selected:
+                    link = html_escape.escape(item['link'], quote=True)
+                    title = html_escape.escape(item['title'])
+                    source = html_escape.escape(item.get('source', ''))
+                    html += (f'<div class="card"><a href="{link}" class="card-title" '
+                             f'target="_blank" rel="noopener noreferrer">{title}</a>'
+                             f'<div class="card-meta">{source}</div></div>')
+                html += (f'<a class="front-page-more" href="#{category}" '
+                         f'onclick="document.querySelector(\'.all-articles\').open = true">'
+                         f'{category} 기사 전체 보기 →</a></div>')
+            html += '</section>'
 
         # Keep the full source list accessible without overwhelming the morning glance.
         html += '<details class="all-articles"><summary>기사 원문 더 보기</summary>'
 
-        # Key Persons Section (if exists)
-        if key_persons:
-            html += '<div id="인물별" class="section-title">🔍 주요 인물별 뉴스</div>'
-            
-            for person_name, person_data in key_persons.items():
-                role = person_data.get('role', '')
-                articles = person_data.get('articles', [])
-                count = person_data.get('count', len(articles))
-                
-                # Person subheading
-                role_text = f" ({role})" if role else ""
-                html += f'<div class="sector-subheading">👤 {person_name}{role_text} ({count}건)</div>'
-                
-                # Render articles
-                for item in articles:
-                    # datetime 객체인지 확인하고 문자열이면 변환
-                    if isinstance(item['published_dt'], str):
-                        try:
-                            from datetime import datetime
-                            time_str = datetime.fromisoformat(item['published_dt']).strftime("%m.%d %H:%M")
-                        except:
-                            time_str = item['published_dt']
-                    else:
-                        time_str = item['published_dt'].strftime("%m.%d %H:%M")
-                    
-                    html += f"""
-                <div class="card">
-                    <a href="{item['link']}" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">{item['title']}</a>
-                    <div class="card-meta">
-                        <span>{item['source']}</span>
-                        <span>{time_str}</span>
-                    </div>
-                </div>
-                """
-
-
         # Domestic Sections
-        order = ["정치", "경제/거시", "기업/산업", "부동산", "국제"]
         for category in order:
             items = domestic_data.get(category, [])
             if not items:
@@ -1381,6 +1391,34 @@ class HTMLGenerator:
                         <span>{time_str}</span>
                     </div>
                 </a>
+                """
+
+        # Personality articles remain available, but no longer precede the interest sections.
+        if key_persons:
+            html += '<div id="인물별" class="section-title">🔍 주요 인물별 뉴스</div>'
+            for person_name, person_data in key_persons.items():
+                role = person_data.get('role', '')
+                articles = person_data.get('articles', [])
+                count = person_data.get('count', len(articles))
+                role_text = f" ({role})" if role else ""
+                html += f'<div class="sector-subheading">👤 {person_name}{role_text} ({count}건)</div>'
+                for item in articles:
+                    if isinstance(item['published_dt'], str):
+                        try:
+                            from datetime import datetime
+                            time_str = datetime.fromisoformat(item['published_dt']).strftime("%m.%d %H:%M")
+                        except ValueError:
+                            time_str = item['published_dt']
+                    else:
+                        time_str = item['published_dt'].strftime("%m.%d %H:%M")
+                    html += f"""
+                <div class="card">
+                    <a href="{item['link']}" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">{item['title']}</a>
+                    <div class="card-meta">
+                        <span>{item['source']}</span>
+                        <span>{time_str}</span>
+                    </div>
+                </div>
                 """
 
         html += '</details>'
