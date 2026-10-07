@@ -1,0 +1,444 @@
+{
+  "timestamp": "2026-10-08T06:02:08.133912",
+  "date": "20261008",
+  "data": [
+    {
+      "keyword": "국정감사",
+      "reason": "정치권 주요 쟁점과 공방",
+      "score": 39.88,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "국정감사 사흘째…공소청·레버리지ETF·미래기금 공방 예고"
+      ],
+      "representative_article": {
+        "title": "국정감사 사흘째…공소청·레버리지ETF·미래기금 공방 예고",
+        "link": "https://www.yna.co.kr/view/AKR20261007199700001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-10-08 05:00:00",
+        "match_score": 39.88
+      },
+      "related_articles": [
+        {
+          "title": "국정감사 사흘째…공소청·레버리지ETF·미래기금 공방 예고",
+          "link": "https://www.yna.co.kr/view/AKR20261007199700001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-08 05:00:00",
+          "match_score": 39.88
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "기준금리 인상",
+      "reason": "경제 불안 대응 및 금융시장 영향",
+      "score": 33.62,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "인도중앙은행, 3년8개월만 첫 기준금리 인상…\"인플레 대응\""
+      ],
+      "representative_article": {
+        "title": "인도중앙은행, 3년8개월만 첫 기준금리 인상…\"인플레 대응\"",
+        "link": "https://www.yna.co.kr/view/AKR20261007203000084",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-10-07 21:51:03",
+        "match_score": 33.62
+      },
+      "related_articles": [
+        {
+          "title": "인도중앙은행, 3년8개월만 첫 기준금리 인상…\"인플레 대응\"",
+          "link": "https://www.yna.co.kr/view/AKR20261007203000084",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-10-07 21:51:03",
+          "match_score": 33.62
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI 반도체",
+      "reason": "산업 내 협력 및 기술 경쟁 심화",
+      "score": 17.06,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "농협금융, 서남권에 금융허브 AI·반도체 등 전략산업 지원",
+        "농협금융, 서남권에 금융허브 AI·반도체 등 전략산업 지원",
+        "농협금융, 서남권에 금융허브…AI·반도체 등 전략산업 지원"
+      ],
+      "representative_article": {
+        "title": "농협금융, 서남권에 금융허브 AI·반도체 등 전략산업 지원",
+        "link": "https://www.mk.co.kr/news/economy/12170738",
+        "source": "매일경제-경제",
+        "published_dt": "2026-10-07 17:48:20",
+        "match_score": 17.06
+      },
+      "related_articles": [
+        {
+          "title": "농협금융, 서남권에 금융허브 AI·반도체 등 전략산업 지원",
+          "link": "https://www.mk.co.kr/news/economy/12170738",
+          "source": "매일경제-경제",
+          "published_dt": "2026-10-07 17:48:20",
+          "match_score": 17.06
+        },
+        {
+          "title": "농협금융, 서남권에 금융허브…AI·반도체 등 전략산업 지원",
+          "link": "https://www.mk.co.kr/news/economy/12170215",
+          "source": "매일경제-경제",
+          "published_dt": "2026-10-07 11:31:18",
+          "match_score": 17.06
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "가자전쟁",
+      "reason": "중동 정세 긴장과 전쟁 3년",
+      "score": 29.5,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "가자전쟁 3년, 네타냐후 “하마스 다 찾아낼 것”",
+        "가자전쟁 발발 3년…‘7일 오전 6시 29분’ 이스라엘 전역서 추모식"
+      ],
+      "representative_article": {
+        "title": "가자전쟁 3년, 네타냐후 “하마스 다 찾아낼 것”",
+        "link": "https://www.donga.com/news/Inter/article/all/20261007/134805844/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-10-08 04:30:00",
+        "match_score": 29.5
+      },
+      "related_articles": [
+        {
+          "title": "가자전쟁 3년, 네타냐후 “하마스 다 찾아낼 것”",
+          "link": "https://www.donga.com/news/Inter/article/all/20261007/134805844/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-08 04:30:00",
+          "match_score": 29.5
+        },
+        {
+          "title": "가자전쟁 발발 3년…‘7일 오전 6시 29분’ 이스라엘 전역서 추모식",
+          "link": "https://www.donga.com/news/Inter/article/all/20261007/134802737/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-07 17:18:00",
+          "match_score": 29.5
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AMD",
+      "score": 42.0,
+      "article_count": 6,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "기업/산업",
+        "정치"
+      ],
+      "sample_titles": [
+        "AMD AI칩 공급망에 삼성·SK하이닉스 합류... HBM4 경쟁 본격화 - 테크데일리",
+        "‘엔비디아 대항마’ AMD 리사 수 방한… 삼성·SK 반도체 수장 만나 협력 논의",
+        "AMD 리사수, 삼성 전영현·SK 곽노정 만나 AI 협력방안 논의(종합)"
+      ],
+      "llm_candidate": false,
+      "rank": 5,
+      "representative_article": {
+        "title": "리사 수 AMD회장 또 방한…‘엔비디아 대항마’ 발빠른 행보",
+        "link": "https://www.donga.com/news/Inter/article/all/20261007/134798862/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-10-07 09:02:00",
+        "match_score": 38.05
+      },
+      "related_articles": [
+        {
+          "title": "리사 수 AMD회장 또 방한…‘엔비디아 대항마’ 발빠른 행보",
+          "link": "https://www.donga.com/news/Inter/article/all/20261007/134798862/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-07 09:02:00",
+          "match_score": 38.05
+        },
+        {
+          "title": "AMD 리사수, 삼성 전영현·SK 곽노정 만나 AI 협력방안 논의(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261007137551003",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-10-07 18:16:16",
+          "match_score": 37.67
+        },
+        {
+          "title": "AMD AI칩 공급망에 삼성·SK하이닉스 합류... HBM4 경쟁 본격화 - 테크데일리",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAtTndnSnJpZUtsaG1MNjV3dnJZZ3NKckx2Ql9IZXRLY2FtZHQtbUdjTndkSGVOU1RmY3BuaHJXajBNRlpQV0NSRUUzeTFyMGpUejZSWnk3b3hUWXhkaGxONVVzeWVJN0h4SEkwaDFn0gFyQVVfeXFMTno1VnoxaVdZSldvWGNuVHRPWXVqMktRLVVXd2hNS3hKaVlfS1BYekdYV0JSYjgySThQUkI5Mk03TXM5YzRiZzBVc0RVZEVjTXZrTWVBeWpNWDc4QWhYbEVVVUZVZURCVzF3MERNRlh2NUR3?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-10-08 02:55:15",
+          "match_score": 36.96
+        },
+        {
+          "title": "리사 수 AMD CEO “삼성·SK하이닉스와 중장기 AI 파트너십 강화” - 디지털포스트",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5TS1k3djVsbUpiNzk5dGltVUQtMFpfdUhad3JtamRTSkg3T0dQNkNSNmhKcHFqN1lkQXQ0aE55TkxERDhiS0hSTWx3Q0JkWVcxZnNWaUVNVi14SEtuUTRTN0NVREowTmU0bkt3?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-10-07 17:38:29",
+          "match_score": 36.96
+        },
+        {
+          "title": "‘엔비디아 대항마’ AMD 리사 수 방한… 삼성·SK 반도체 수장 만나 협력 논의",
+          "link": "https://www.chosun.com/economy/tech_it/2026/10/08/ITASZ5ZDYVG7LKSE4Y5ZA35VOY/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-10-08 00:33:00",
+          "match_score": 28.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "삼성전자",
+      "score": 28.8,
+      "article_count": 6,
+      "source_count": 4,
+      "categories": [
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "실외기 1대로 냉난방…삼성·LG전자, 히트펌프 보급 나선다",
+        "기업 여유자금 46조 늘 때…가계는 18조 '뚝'",
+        "삼성전자 실적발표 8일에…“트리플 악재” 골드만삭스의 찬물?"
+      ],
+      "llm_candidate": false,
+      "rank": 6,
+      "representative_article": {
+        "title": "삼성전자 실적발표 8일에…“트리플 악재” 골드만삭스의 찬물?",
+        "link": "https://www.etnews.com/20261007000448",
+        "source": "전자신문",
+        "published_dt": "2026-10-07 16:59:39",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "삼성전자 실적발표 8일에…“트리플 악재” 골드만삭스의 찬물?",
+          "link": "https://www.etnews.com/20261007000448",
+          "source": "전자신문",
+          "published_dt": "2026-10-07 16:59:39",
+          "match_score": 37.49
+        },
+        {
+          "title": "삼성전자 3분기 영업익 100조 전망…월가의 관심은 ‘실적의 수명’",
+          "link": "https://www.donga.com/news/Economy/article/all/20261007/134800357/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-07 11:46:16",
+          "match_score": 37.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "부동산",
+      "score": 27.2,
+      "article_count": 6,
+      "source_count": 2,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "성동 못잖은 직주근접 입지에 6만가구…영등포에 주목할 이유 [박합수의 부동산 끝판]",
+        "부동산 거래 난이도 ‘역대급’인데 … 팔아야 할 집, 남겨야 할 집은?",
+        "\"용적률 높고 분양가 올리면 장땡?\"…부동산 개발판 뒤흔드는 ESG"
+      ],
+      "llm_candidate": false,
+      "rank": 7,
+      "representative_article": {
+        "title": "성동 못잖은 직주근접 입지에 6만가구…영등포에 주목할 이유 [박합수의 부동산 끝판]",
+        "link": "https://www.mk.co.kr/news/realestate/12170805",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-10-07 18:57:10",
+        "match_score": 38.09
+      },
+      "related_articles": [
+        {
+          "title": "성동 못잖은 직주근접 입지에 6만가구…영등포에 주목할 이유 [박합수의 부동산 끝판]",
+          "link": "https://www.mk.co.kr/news/realestate/12170805",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-07 18:57:10",
+          "match_score": 38.09
+        },
+        {
+          "title": "부동산 거래 난이도 ‘역대급’인데 … 팔아야 할 집, 남겨야 할 집은?",
+          "link": "https://www.mk.co.kr/news/realestate/12170786",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-08 05:30:00",
+          "match_score": 37.49
+        },
+        {
+          "title": "\"용적률 높고 분양가 올리면 장땡?\"…부동산 개발판 뒤흔드는 ESG",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/10/07/2026100701205.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-10-07 11:55:33",
+          "match_score": 29.09
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "경쟁력",
+      "score": 24.6,
+      "article_count": 5,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업",
+        "정치"
+      ],
+      "sample_titles": [
+        "K-GX에 1220조…李 “녹색 기술 선점” 崔 “투자 위험 나눠준 정부에 감사”",
+        "BGF, 반도체 소재 손자회사 지분 전량 매입…지배구조 개편(종합)",
+        "삼성바이오, 일본서 CDMO 경쟁력 알렸다…아태 시장 공략"
+      ],
+      "llm_candidate": false,
+      "rank": 8,
+      "representative_article": {
+        "title": "삼성바이오, 일본서 CDMO 경쟁력 알렸다…아태 시장 공략",
+        "link": "https://www.yna.co.kr/view/AKR20261007165600017",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-10-07 16:52:54",
+        "match_score": 28.68
+      },
+      "related_articles": [
+        {
+          "title": "삼성바이오, 일본서 CDMO 경쟁력 알렸다…아태 시장 공략",
+          "link": "https://www.yna.co.kr/view/AKR20261007165600017",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-10-07 16:52:54",
+          "match_score": 28.68
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "아파트",
+      "score": 32.4,
+      "article_count": 5,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "아파트 주차장 196칸 사들여 “200만원에 사라”…주민 분노 폭발",
+        "실외기 1대로 냉난방…삼성·LG전자, 히트펌프 보급 나선다",
+        "오세훈 \"아파트 리모델링, 재건축 수준으로 지원\""
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "“내 집 없으니 서럽네요”…서울 아파트 전셋값 86주 연속 고공행진",
+        "link": "https://www.mk.co.kr/news/economy/12170423",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-10-07 14:55:31",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "“내 집 없으니 서럽네요”…서울 아파트 전셋값 86주 연속 고공행진",
+          "link": "https://www.mk.co.kr/news/economy/12170423",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-07 14:55:31",
+          "match_score": 37.49
+        },
+        {
+          "title": "“대출 받아 집 사려면 별 수 없네”…서울 아파트 거래 4건 중 1건 ‘6억 이하’",
+          "link": "https://www.mk.co.kr/news/economy/12170122",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-07 10:23:35",
+          "match_score": 37.49
+        },
+        {
+          "title": "아파트 주차장 196칸 사들여 “200만원에 사라”…주민 분노 폭발",
+          "link": "https://www.donga.com/news/Inter/article/all/20261007/134805973/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-07 21:22:00",
+          "match_score": 37.3
+        },
+        {
+          "title": "오세훈 \"아파트 리모델링, 재건축 수준으로 지원\"",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/10/07/2026100702176.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-10-07 13:54:19",
+          "match_score": 29.09
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "금융위",
+      "score": 30.1,
+      "article_count": 5,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "기업/산업",
+        "정치"
+      ],
+      "sample_titles": [
+        "금융소비자 - 금융위원회",
+        "국민참여성장펀드 닷새간 3천300억원 팔려…목표액 55% 달성",
+        "OK금융, 예별손보 인수 본계약 체결…종합금융그룹 도약 ‘첫발’"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "금융소비자 - 금융위원회",
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYVk1WG9NWTJHWUR5UnhYSV90cmtFblNxcU9wYnNrUE9NZEtpc1hMalpNbktBLTM4OWEtUzVxXy1ydjJLQzdJYkd0aHc3MzF4cXJzYUR2d3JQWUU1UHF2R3FYUHdoZUJpSDFhZ3dFQy1sWlQtLUd6amkzZUV6OHJwMW5YWWNhTXBiRHB1NG00dmNFZTdmWTc4TFNESXFfd2lf?oc=5",
+        "source": "공식-금융위원회",
+        "published_dt": "2026-10-07 20:53:24",
+        "match_score": 38.2
+      },
+      "related_articles": [
+        {
+          "title": "금융소비자 - 금융위원회",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYVk1WG9NWTJHWUR5UnhYSV90cmtFblNxcU9wYnNrUE9NZEtpc1hMalpNbktBLTM4OWEtUzVxXy1ydjJLQzdJYkd0aHc3MzF4cXJzYUR2d3JQWUU1UHF2R3FYUHdoZUJpSDFhZ3dFQy1sWlQtLUd6amkzZUV6OHJwMW5YWWNhTXBiRHB1NG00dmNFZTdmWTc4TFNESXFfd2lf?oc=5",
+          "source": "공식-금융위원회",
+          "published_dt": "2026-10-07 20:53:24",
+          "match_score": 38.2
+        },
+        {
+          "title": "사업보고서 등에 대한 조사·감리결과 조치 - 금융위원회",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdHpFU1lVYlFSajhCQS1sREFYZUpfMWMtdGl1MlljTWRmMHZVRmI3T3pDNXQxMEZpbzB3aGVlQ0NmSkVpek50dGpMOGJNV0FiOVo0RExiaVNlWW1WRWppb0o4Q3hpeHMwQldoODRhbV9lSEMxajZ0SzR5R08tQmwzck9mN1pfS0Y0OUZEdXFn?oc=5",
+          "source": "공식-금융위원회",
+          "published_dt": "2026-10-07 16:49:41",
+          "match_score": 38.2
+        },
+        {
+          "title": "혁신금융서비스 24건 신규 지정 의결 - 금융위원회",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQamRseXhfNmRZRHNHRWhrVFJmNnNEejNoUlhVMm5fbFdDNjV0N2F3Q3ZrVlpubnJDUUM4OGRBOWFjUFAzdkFVMXVKNjRma3hQemdOTGdsUGpObS1rbXJrZFpyNjNtRXNpNVE4U0xSam9uSl9NSEkwT3k1bHRfeWJvTkZ2bUlseUhNS0RxLUpR?oc=5",
+          "source": "공식-금융위원회",
+          "published_dt": "2026-10-07 16:39:34",
+          "match_score": 38.2
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}

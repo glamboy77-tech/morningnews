@@ -1,0 +1,59 @@
+{
+  "timestamp": "2026-10-08T06:01:53.368132",
+  "date": "20261008",
+  "data": {
+    "푸틴": {
+      "articles": [
+        {
+          "title": "우크라 “한국 정부가 러시아에 도움 줬다”… 한국 “사실과 달라”",
+          "link": "https://www.chosun.com/politics/politics_general/2026/10/08/S3YRROWCAZFVJCD25346DJIO6E/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-10-08 00:48:00",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "image_url": "",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "국제",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "러시아 페스트 연구원 사망에…美 “투명하게 정보 공개하라” 압박",
+          "link": "https://www.donga.com/news/Inter/article/all/20261007/134802375/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-07 17:45:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/07/134804399.1.jpg\" vspace=\"10\" />러시아 시베리아 이르쿠츠크주의 한 페스트 연구소에서 근무하던 연구원이 사망한 사실이 드러나면서 병원균이 유출된 것이 아니냐는 우려가 확산하고 있다. 미국 등 국제사회는 러시아에 더 많은 정보 공개를 촉구하고 나섰다.  6일(현지 시간) CNN은 현지 언론을 인용해 이르쿠츠크주일대 약 11개의 시설에서  방역·제한 조치 조치가 시행되고 있다고 보도했다. 시설별 조치는 다르지만 일부 병원에서는 출입 제한과 마스크 착용, 발열 검사, 페스트 의심 증상 문진 등이 실시되고 있다. 일대 주민들은 주민들은 신종 코로나바이러스 감염증(코로나19) 당시처럼 전신 보호복을 착용한 구급대원들을 목격했다고 CNN에 전했다.앞서 이달 2일 페스트 연구소 소속의 한 다리야 시필로바(28)가 폐렴으로 사망한 사실이 알려지며 구소 내 실험실 사고와 직원의 사망이 연관이 있을 수 있다는 논란이 확산됐다. 다만 러시아 정부는 이 같은 의혹을 부인하며 “지역 방역 상황은 안전하다”고 주장했다. 세계보건기구(W",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "image_url": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/07/134804399.1.jpg",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "러 흑사병 연구원 사망 '일파만파'…“200명 격리, 추가 사망설까지”",
+          "link": "https://www.etnews.com/20261007000445",
+          "source": "전자신문",
+          "published_dt": "2026-10-07 17:05:00",
+          "description": "러시아 시베리아의 페스트(흑사병) 연구소 직원이 원인을 알 수 없는 폐렴으로 숨진 뒤 접촉자 약 200명이 격리됐다. 일각에서는 추가 사망자가 발생했다는 주장까지 제기되면서 국제사회의 우려도 커지고 있다. 5일(현지시간) 로이터통신 등에 따르면 러시아 이르쿠츠크주 셸레호프의 한 병원에서 이르쿠츠크 시베리아·극동 페스트연구소 소속 직원이 숨진 뒤 당국이 접촉자들을 대상으로 대규모 격리와 검사를 진행하고 있다. 현지 언론은 숨진 직원이 28세 여성",
+          "category": "domestic",
+          "feed_url": "https://rss.etnews.com/Section901.xml",
+          "image_url": "",
+          "source_type": "tech",
+          "source_weight": 1.15,
+          "source_badge": "테크",
+          "priority_score": 1,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "러시아 대통령"
+    }
+  }
+}
