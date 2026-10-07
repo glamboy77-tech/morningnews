@@ -1,4 +1,4 @@
-"""Safe, short RSS article previews and opt-in publisher images."""
+"""Safe, short RSS article previews and RSS-hosted article images."""
 
 import html
 import os
@@ -74,11 +74,8 @@ def rss_image_url(entry):
 
 
 def permitted_image(item):
-    """Images are off until the publisher/source AND its image host are explicitly approved."""
-    source = str(item.get("source", ""))
-    allowed_sources = {name.strip() for name in os.getenv("MORNINGNEWS_IMAGE_SOURCES", "").split(",") if name.strip()}
-    allowed_hosts = {name.strip().lower() for name in os.getenv("MORNINGNEWS_IMAGE_HOSTS", "").split(",") if name.strip()}
-    if source not in allowed_sources:
+    """Use RSS-provided images unless disabled; reject unsafe or unexpected URLs."""
+    if os.getenv("MORNINGNEWS_IMAGES", "on").strip().lower() in ("off", "false", "0"):
         return ""
     candidate = item.get("image_url") or rss_image_url(item)
     if not isinstance(candidate, str):
@@ -88,7 +85,7 @@ def permitted_image(item):
         return ""
     try:
         parts = urlsplit(candidate)
-        if (parts.scheme != "https" or parts.hostname not in allowed_hosts
+        if (parts.scheme != "https" or not parts.hostname
                 or parts.username or parts.password or parts.port not in (None, 443)
                 or not re.search(r"\.(?:jpe?g|png|webp)$", parts.path, re.I)):
             return ""

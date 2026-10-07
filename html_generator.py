@@ -784,7 +784,8 @@ class HTMLGenerator:
             else:
                 photo = (f'<img class="article-photo" src="{url}" alt="" loading="lazy" '
                          f'referrerpolicy="no-referrer" '
-                         f'onerror="this.hidden=true;this.nextElementSibling.hidden=true">'
+                         f'onerror="this.hidden=true;this.closest(\'.card\').querySelector('
+                         f'\'.article-photo-credit\').hidden=true">'
                          f'<span class="article-photo-credit">사진: {credit} RSS</span>')
             return photo, summary
         return (HTMLGenerator._front_page_art(item.get('category', '')) if front else ''), summary
