@@ -1,0 +1,503 @@
+{
+  "timestamp": "2026-10-09T06:01:41.563321",
+  "date": "20261009",
+  "data": [
+    {
+      "keyword": "농지조사",
+      "reason": "정부의 농지조사 처분 방침 발표",
+      "score": 31.18,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "정부, 투기 외엔 농지조사 처분 제외…\"농업인들 걱정 말라\"(종합3보)",
+        "[일문일답] 송미령 \"투기 외 농지조사 처분 없다…농지은행 위탁은 선택지\""
+      ],
+      "representative_article": {
+        "title": "정부, 투기 외엔 농지조사 처분 제외…\"농업인들 걱정 말라\"(종합3보)",
+        "link": "https://www.yna.co.kr/view/AKR20261008073453030",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-10-08 17:52:23",
+        "match_score": 31.18
+      },
+      "related_articles": [
+        {
+          "title": "정부, 투기 외엔 농지조사 처분 제외…\"농업인들 걱정 말라\"(종합3보)",
+          "link": "https://www.yna.co.kr/view/AKR20261008073453030",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-08 17:52:23",
+          "match_score": 31.18
+        },
+        {
+          "title": "[일문일답] 송미령 \"투기 외 농지조사 처분 없다…농지은행 위탁은 선택지\"",
+          "link": "https://www.yna.co.kr/view/AKR20261008170600030",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-08 17:03:04",
+          "match_score": 31.18
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "경상수지",
+      "reason": "8월 경상수지 흑자 소식",
+      "score": 38.86,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "8월 경상수지 461억弗 흑자 … 역대 2위"
+      ],
+      "representative_article": {
+        "title": "8월 경상수지 461억弗 흑자 … 역대 2위",
+        "link": "https://www.mk.co.kr/news/economy/12171845",
+        "source": "매일경제-경제",
+        "published_dt": "2026-10-08 17:39:42",
+        "match_score": 38.86
+      },
+      "related_articles": [
+        {
+          "title": "8월 경상수지 461억弗 흑자 … 역대 2위",
+          "link": "https://www.mk.co.kr/news/economy/12171845",
+          "source": "매일경제-경제",
+          "published_dt": "2026-10-08 17:39:42",
+          "match_score": 38.86
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "삼성전자",
+      "reason": "역대 분기 영업이익 및 주가 변동",
+      "score": 41.7,
+      "article_count": 5,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "셀온? 리밸런싱?…삼성전자 역대 최대 실적에도 코스피 2.6% 하락(종합)",
+        "삼성전자, 역대 최대 실적에도 2%대 급락…SK하이닉스도 내려(종합)",
+        "[박진영의 비즈+] 삼성전자 분기 영업익 100조 돌파…삼전닉스 반도체 호황, 내년에도 이어진다 - 아주경제"
+      ],
+      "representative_article": {
+        "title": "삼성전자 분기 영업이익 100조에도, 코스피는 6600선까지 밀려",
+        "link": "https://www.etnews.com/20261008000296",
+        "source": "전자신문",
+        "published_dt": "2026-10-08 15:53:39",
+        "match_score": 41.7
+      },
+      "related_articles": [
+        {
+          "title": "삼성전자 분기 영업이익 100조에도, 코스피는 6600선까지 밀려",
+          "link": "https://www.etnews.com/20261008000296",
+          "source": "전자신문",
+          "published_dt": "2026-10-08 15:53:39",
+          "match_score": 41.7
+        },
+        {
+          "title": "셀온? 리밸런싱?…삼성전자 역대 최대 실적에도 코스피 2.6% 하락(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261008093451008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-10-08 16:27:41",
+          "match_score": 39.07
+        },
+        {
+          "title": "[박진영의 비즈+] 삼성전자 분기 영업익 100조 돌파…삼전닉스 반도체 호황, 내년에도 이어진다 - 아주경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1NaHd5TzhXZ1B3NGp6X0pzVC04b3EzcjhFZHJma2dPcUFpbEdxcVdjNnZfU0dEdHI1a0MtdHBUNmFWYWpkZXhpWS0wR3pKRWRDcDE4b3pCbjlxZ9IBWEFVX3lxTFBFZFpxWGNiaVpUQXVjRHd6am1uY1kwck91eG9xLV9OYktHbUEzOS05TEJVR1Z5XzNiS3plVVVIcVhJamdzWG51SjliUFdHZkRYT2VZTHk2WDk?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-10-09 05:00:00",
+          "match_score": 38.16
+        },
+        {
+          "title": "삼성전자, 3분기 영업익 107조원 ‘사상 최대’…AI 반도체 슈퍼사이클 올라탔다 - 인공지능신문",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBGTVN6cnBVTkNCbjFBSmVKUlREd2dTZmowNGNYQWk1OThzRXpETUw1Z092bWNWenpvV2psWi1LdE9CcnJsbjZ3RllaVU12ZUtNTm1aSFpJenZWazMzV0JaMjBQNmdTd2s?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-10-08 10:05:44",
+          "match_score": 38.16
+        },
+        {
+          "title": "삼성전자, 역대 최대 실적에도 2%대 급락…SK하이닉스도 내려(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261008048651008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-10-08 15:53:22",
+          "match_score": 37.97
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "우크라이나",
+      "reason": "대사 소환 및 외교 협의 상황",
+      "score": 41.28,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "우크라 미온적 대응에…정부, 결국 주우크라이나대사 소환(종합2보)",
+        "정부, 주우크라이나대사 소환 결정…\"우크라와 협의 지속\""
+      ],
+      "representative_article": {
+        "title": "정부, 주우크라이나대사 소환 결정…\"우크라와 협의 지속\"",
+        "link": "https://www.yna.co.kr/view/AKR20261008180000504",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-10-08 17:26:21",
+        "match_score": 41.28
+      },
+      "related_articles": [
+        {
+          "title": "정부, 주우크라이나대사 소환 결정…\"우크라와 협의 지속\"",
+          "link": "https://www.yna.co.kr/view/AKR20261008180000504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-08 17:26:21",
+          "match_score": 41.28
+        },
+        {
+          "title": "우크라 미온적 대응에…정부, 결국 주우크라이나대사 소환(종합2보)",
+          "link": "https://www.yna.co.kr/view/AKR20261008180052504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-08 19:03:26",
+          "match_score": 40.08
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI해킹",
+      "reason": "금융권 AI 해킹 보도",
+      "score": 21.06,
+      "article_count": 3,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "\"금융권 AI 해킹 잡는 것도 결국 AI\"",
+        "은행 뚫은 AI 해킹…코인거래소 보안망은 안전하나 [AI 해킹, 다음은 코인①]",
+        "은행 뚫은 AI 해킹…코인거래소 보안망은 안전하나 [AI 해킹, 다음은 코인①]"
+      ],
+      "representative_article": {
+        "title": "\"금융권 AI 해킹 잡는 것도 결국 AI\"",
+        "link": "https://www.mk.co.kr/news/economy/12171846",
+        "source": "매일경제-경제",
+        "published_dt": "2026-10-08 17:39:43",
+        "match_score": 21.06
+      },
+      "related_articles": [
+        {
+          "title": "\"금융권 AI 해킹 잡는 것도 결국 AI\"",
+          "link": "https://www.mk.co.kr/news/economy/12171846",
+          "source": "매일경제-경제",
+          "published_dt": "2026-10-08 17:39:43",
+          "match_score": 21.06
+        },
+        {
+          "title": "이억원 금융위원장 “AI 해킹 위협 커지는데 기본 대응 미흡”",
+          "link": "https://www.etnews.com/20261008000199",
+          "source": "전자신문",
+          "published_dt": "2026-10-08 13:10:04",
+          "match_score": 19.99
+        },
+        {
+          "title": "은행 뚫은 AI 해킹…코인거래소 보안망은 안전하나 [AI 해킹, 다음은 코인①]",
+          "link": "https://www.mk.co.kr/news/economy/12171395",
+          "source": "매일경제-경제",
+          "published_dt": "2026-10-08 12:48:44",
+          "match_score": 15.86
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "CPTPP",
+      "reason": "이 대통령 CPTPP 가입 연내 신청 불가 지시",
+      "score": 41.56,
+      "article_count": 3,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "정치"
+      ],
+      "sample_titles": [
+        "李 \"CPTPP 연내 가입 신청하지 말라\"",
+        "李 \"CPTPP 연내 가입 신청하지 말라\"",
+        "李대통령, CPTPP 연내 가입 신청 않도록 지시"
+      ],
+      "representative_article": {
+        "title": "李 \"CPTPP 연내 가입 신청하지 말라\"",
+        "link": "https://www.mk.co.kr/news/economy/12171938",
+        "source": "매일경제-경제",
+        "published_dt": "2026-10-08 19:47:30",
+        "match_score": 41.56
+      },
+      "related_articles": [
+        {
+          "title": "李 \"CPTPP 연내 가입 신청하지 말라\"",
+          "link": "https://www.mk.co.kr/news/economy/12171938",
+          "source": "매일경제-경제",
+          "published_dt": "2026-10-08 19:47:30",
+          "match_score": 41.56
+        },
+        {
+          "title": "李대통령, CPTPP 연내 신청않도록 지시…\"농어민과 충분히 대화\"",
+          "link": "https://www.yna.co.kr/view/AKR20261008162100001",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-10-08 16:31:50",
+          "match_score": 39.73
+        },
+        {
+          "title": "李대통령, CPTPP 연내 가입 신청 않도록 지시",
+          "link": "https://www.chosun.com/politics/politics_general/2026/10/08/NNJIHNEMS5GW7HQ25DE26JN4OQ/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-10-08 16:12:54",
+          "match_score": 33.1
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "부동산",
+      "score": 87.3,
+      "article_count": 15,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "외신 “AI가 서울 집값도 끌어올렸다…李정부 직면한 부동산 딜레마”",
+        "영등포구 대림동 우성2 79.91㎡ 7억 9600만원…최근 3년 신고가 [MAI부동산]",
+        "은평구 녹번동 대림아파트 84.68㎡ 9억원 거래… 최근 3년 신고가 [MAI부동산]"
+      ],
+      "llm_candidate": false,
+      "rank": 7,
+      "representative_article": {
+        "title": "외신 “AI가 서울 집값도 끌어올렸다…李정부 직면한 부동산 딜레마”",
+        "link": "https://www.mk.co.kr/news/economy/12171264",
+        "source": "매일경제-경제",
+        "published_dt": "2026-10-08 10:44:40",
+        "match_score": 37.96
+      },
+      "related_articles": [
+        {
+          "title": "외신 “AI가 서울 집값도 끌어올렸다…李정부 직면한 부동산 딜레마”",
+          "link": "https://www.mk.co.kr/news/economy/12171264",
+          "source": "매일경제-경제",
+          "published_dt": "2026-10-08 10:44:40",
+          "match_score": 37.96
+        },
+        {
+          "title": "영등포구 대림동 우성2 79.91㎡ 7억 9600만원…최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12171234",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-08 10:26:18",
+          "match_score": 37.49
+        },
+        {
+          "title": "은평구 녹번동 대림아파트 84.68㎡ 9억원 거래… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12171226",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-08 10:26:18",
+          "match_score": 37.49
+        },
+        {
+          "title": "“서울 도봉 부동산 1년새 무슨 일이?”…가압류 등기신청 폭증",
+          "link": "https://www.mk.co.kr/news/realestate/12171502",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-08 14:50:49",
+          "match_score": 37.49
+        },
+        {
+          "title": "강동구 길동 라인 59.94㎡ 6억 9천만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12171235",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-08 10:26:18",
+          "match_score": 37.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "반도체",
+      "score": 79.2,
+      "article_count": 14,
+      "source_count": 6,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "8월 경상수지 461억弗 흑자 … 역대 2위",
+        "'반도체 밸류체인 투자' 등 ETF 4종 13일 신규 상장",
+        "최태원 SK그룹 회장, 9일 반도체 부지 광주 군공항 방문"
+      ],
+      "llm_candidate": false,
+      "rank": 8,
+      "representative_article": {
+        "title": "최태원 SK그룹 회장, 9일 반도체 부지 광주 군공항 방문",
+        "link": "https://www.yna.co.kr/view/AKR20261008201800054",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-10-08 19:36:31",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "최태원 SK그룹 회장, 9일 반도체 부지 광주 군공항 방문",
+          "link": "https://www.yna.co.kr/view/AKR20261008201800054",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-10-08 19:36:31",
+          "match_score": 37.67
+        },
+        {
+          "title": "진보당 '반도체학교' 운영…상생모델 구축 강조",
+          "link": "https://www.yna.co.kr/view/AKR20261008169100054",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-10-08 16:48:43",
+          "match_score": 37.67
+        },
+        {
+          "title": "[2026 국감] 박홍근 “반도체 호황 재원, 청년·성장동력에 투자”",
+          "link": "https://www.etnews.com/20261008000143",
+          "source": "전자신문",
+          "published_dt": "2026-10-08 10:54:09",
+          "match_score": 37.49
+        },
+        {
+          "title": "3분기 반도체 대기업 채용공고 2배 늘었다",
+          "link": "https://www.etnews.com/20261008000130",
+          "source": "전자신문",
+          "published_dt": "2026-10-08 10:41:28",
+          "match_score": 37.49
+        },
+        {
+          "title": "[박진영의 비즈+] 삼성전자 분기 영업익 100조 돌파…삼전닉스 반도체 호황, 내년에도 이어진다 - 아주경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1NaHd5TzhXZ1B3NGp6X0pzVC04b3EzcjhFZHJma2dPcUFpbEdxcVdjNnZfU0dEdHI1a0MtdHBUNmFWYWpkZXhpWS0wR3pKRWRDcDE4b3pCbjlxZ9IBWEFVX3lxTFBFZFpxWGNiaVpUQXVjRHd6am1uY1kwck91eG9xLV9OYktHbUEzOS05TEJVR1Z5XzNiS3plVVVIcVhJamdzWG51SjliUFdHZkRYT2VZTHk2WDk?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-10-09 05:00:00",
+          "match_score": 36.96
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "인공지능",
+      "score": 45.3,
+      "article_count": 11,
+      "source_count": 7,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "\"금융권 AI 해킹 잡는 것도 결국 AI\"",
+        "외신 “AI가 서울 집값도 끌어올렸다…李정부 직면한 부동산 딜레마”",
+        "세종시, 360㎿ 규모 데이터센터 건립 유치…7조원 투자 받는다"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "삼성전자, 3분기 영업익 107조원 ‘사상 최대’…AI 반도체 슈퍼사이클 올라탔다 - 인공지능신문",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBGTVN6cnBVTkNCbjFBSmVKUlREd2dTZmowNGNYQWk1OThzRXpETUw1Z092bWNWenpvV2psWi1LdE9CcnJsbjZ3RllaVU12ZUtNTm1aSFpJenZWazMzV0JaMjBQNmdTd2s?oc=5",
+        "source": "키워드-반도체AI",
+        "published_dt": "2026-10-08 10:05:44",
+        "match_score": 36.96
+      },
+      "related_articles": [
+        {
+          "title": "삼성전자, 3분기 영업익 107조원 ‘사상 최대’…AI 반도체 슈퍼사이클 올라탔다 - 인공지능신문",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBGTVN6cnBVTkNCbjFBSmVKUlREd2dTZmowNGNYQWk1OThzRXpETUw1Z092bWNWenpvV2psWi1LdE9CcnJsbjZ3RllaVU12ZUtNTm1aSFpJenZWazMzV0JaMjBQNmdTd2s?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-10-08 10:05:44",
+          "match_score": 36.96
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "신고가",
+      "score": 64.9,
+      "article_count": 11,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "영등포구 대림동 우성2 79.91㎡ 7억 9600만원…최근 3년 신고가 [MAI부동산]",
+        "은평구 녹번동 대림아파트 84.68㎡ 9억원 거래… 최근 3년 신고가 [MAI부동산]",
+        "평택지제역서 84㎡ 9.5억원 신고가...‘셔세권’ 관심 커지나"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "영등포구 대림동 우성2 79.91㎡ 7억 9600만원…최근 3년 신고가 [MAI부동산]",
+        "link": "https://www.mk.co.kr/news/realestate/12171234",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-10-08 10:26:18",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "영등포구 대림동 우성2 79.91㎡ 7억 9600만원…최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12171234",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-08 10:26:18",
+          "match_score": 37.49
+        },
+        {
+          "title": "강서구 등촌동 태진아름 59.94㎡ 8억 3200만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12171231",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-08 10:26:18",
+          "match_score": 37.49
+        },
+        {
+          "title": "은평구 녹번동 대림아파트 84.68㎡ 9억원 거래… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12171226",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-08 10:26:18",
+          "match_score": 28.49
+        },
+        {
+          "title": "평택지제역서 84㎡ 9.5억원 신고가...‘셔세권’ 관심 커지나",
+          "link": "https://www.mk.co.kr/news/realestate/12171466",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-08 14:34:55",
+          "match_score": 28.49
+        },
+        {
+          "title": "강동구 길동 라인 59.94㎡ 6억 9천만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12171235",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-08 10:26:18",
+          "match_score": 28.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
