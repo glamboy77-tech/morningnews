@@ -2,7 +2,9 @@ import os
 import json
 import html as html_escape
 import re
+from urllib.parse import urlsplit
 from article_preview import permitted_image, rss_preview
+from article_grouping import group_articles
 
 class HTMLGenerator:
     def __init__(self):
@@ -203,7 +205,7 @@ class HTMLGenerator:
             /* Briefing Card */
             .briefing-card {
                 background: var(--surface);
-                padding: 24px;
+                padding: 20px;
                 border-radius: 24px;
                 margin-bottom: 40px;
                 border: 1px solid var(--border);
@@ -212,7 +214,7 @@ class HTMLGenerator:
             .briefing-title {
                 font-weight: 600;
                 font-size: 1rem;
-                margin-bottom: 20px;
+                margin-bottom: 12px;
                 color: var(--primary);
                 display: flex;
                 align-items: center;
@@ -221,23 +223,27 @@ class HTMLGenerator:
                 letter-spacing: 1.5px;
             }
             .briefing-item {
-                font-size: 0.95rem;
-                margin-bottom: 12px;
-                display: flex;
-                gap: 12px;
-                align-items: flex-start;
-                line-height: 1.5;
+                padding: 15px 0;
+                border-top: 1px solid var(--border);
             }
             .briefing-label {
+                display: block;
                 font-weight: 600;
-                min-width: 65px;
-                color: var(--text);
-                font-size: 0.85rem;
+                color: var(--primary);
+                font-size: 0.82rem;
+                margin-bottom: 6px;
             }
             .briefing-content {
-                color: var(--text-secondary);
-                font-weight: 300;
+                display: block;
+                color: var(--text);
+                font-size: .96rem;
+                font-weight: 500;
+                line-height: 1.65;
             }
+            .briefing-more { margin-top: 7px; color: var(--text-secondary); font-size: .87rem; line-height: 1.7; }
+            .briefing-more > summary { width: fit-content; color: var(--primary); cursor: pointer; font-weight: 600; }
+            .briefing-more > summary:focus-visible { outline: 2px solid var(--primary); outline-offset: 3px; }
+            .briefing-more p { margin: 9px 0 0; }
 
             .weekly-bridge { margin: 18px 0; color: var(--text-secondary); font-size: .88rem; }
             .weekly-bridge a { color: var(--primary); }
@@ -251,21 +257,28 @@ class HTMLGenerator:
             .front-page-section { margin: 22px 0 32px; }
             .front-page-section h3 { font-size: 1rem; margin: 0 0 12px; }
             .front-page .card { margin-bottom: 10px; padding: 16px; }
-            .front-page .card-illustrated { display: flex; align-items: center; gap: 14px; }
+            .front-page .card-illustrated { display: flex; align-items: flex-start; gap: 14px; }
             .front-page .card-illustrated .card-copy { min-width: 0; flex: 1; }
-            .front-page .card-illustrated .card-art { width: 76px; height: 76px; flex: none; border-radius: 14px; }
+            .front-page .card-illustrated .card-art { width: 68px; height: 68px; flex: none; border-radius: 10px; }
             .front-page .card-illustrated .card-art[hidden] { display: none; }
-            .front-page .card-illustrated .card-title { display: block; line-height: 1.45; }
-            .card-preview { margin: 10px 0 0; color: var(--text-secondary); font-size: .87rem; line-height: 1.6; }
-            .card-preview::before { content: 'RSS 미리보기 · '; color: var(--primary); font-weight: 600; }
-            .article-photo { display: block; width: 100%; height: 180px; object-fit: cover; border-radius: 12px; margin-bottom: 12px; }
-            .front-page .article-photo { width: 90px; height: 90px; flex: none; margin: 0; }
-            .article-photo-credit { color: var(--text-secondary); font-size: .72rem; }
-            .article-photo[hidden] { display: none; }
+            .front-page .card-illustrated .card-title { display: -webkit-box; line-height: 1.45; margin-bottom: 0; }
+            .card-preview { margin: 7px 0 10px; color: var(--text-secondary); font-size: .86rem; line-height: 1.55; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; }
+            .front-page .card-preview { margin: 7px 0 8px; -webkit-line-clamp: 3; }
+            /* Keep the full list scannable even when many RSS items contain photos. */
+            .all-articles .article-photo { display: block; float: right; width: 88px; height: 88px; object-fit: cover; border-radius: 10px; margin: 0 0 8px 14px; }
+            .front-page .article-photo { display: block; width: 68px; height: 68px; object-fit: cover; border-radius: 10px; flex: none; }
+            .article-photo-credit { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+            .all-articles .article-photo[hidden], .front-page .article-photo[hidden] { display: none; }
+            .all-articles .card::after { content: ''; display: block; clear: both; }
+            .all-articles .card-meta { gap: 12px; flex-wrap: wrap; }
+            .all-articles .card-meta span:last-child { white-space: nowrap; }
             @media (max-width: 400px) {
-                .front-page .article-photo { width: 72px; height: 72px; }
+                .front-page .article-photo, .front-page .card-illustrated .card-art { width: 60px; height: 60px; }
+                .all-articles .article-photo { width: 72px; height: 72px; }
             }
             .front-page-more { display: inline-block; color: var(--primary); font-size: .85rem; padding: 6px 0; }
+            .related-sources > summary { cursor: pointer; color: var(--primary); font-size: .82rem; margin-top: 10px; }
+            .related-link { display: block; color: var(--text-secondary); font-size: .84rem; padding: 6px 0; }
 
             .sentiment-box {
                 margin-top: 24px;
@@ -765,6 +778,73 @@ class HTMLGenerator:
         """
 
     @staticmethod
+    def _is_sales_promotion(item):
+        """Keep clear sales pitches out of editorial picks, not out of the source list."""
+        title = html_escape.unescape(str(item.get('title', '')))
+        return bool(re.search(
+            r'(?:단독|한정|초특|파격|오늘만)\s*특가|'
+            r'\b최저가\b|(?:지금|오늘)\s*(?:구매|주문)하세요',
+            title, re.IGNORECASE,
+        ))
+
+    @staticmethod
+    def _front_page_score(item, category):
+        """Rank topical, consequential headlines before feed recency or source weight."""
+        title = html_escape.unescape(str(item.get('title', '')))
+        if re.search(r'일정 안내|홈페이지|뉴스/자료|분야별정보|지역경제통계|경제통계|'
+                     r'\[게시판\]|\[인사\]|\[부고\]', title):
+            return -1
+        if category == '부동산' and re.search(r'야구장|경기장|체육관', title):
+            return -1
+        topics = {
+            '경제/거시': r'금리|물가|인플레|환율|국채|증시|경기|성장률|채무|가계부채|대출|금융시장|관세|세제',
+            '부동산': r'재건축|재개발|분양|주택|아파트|전세|월세|임대|집값|부동산|용적률|GTX|착공|공급',
+            '국제': r'미국|美|중국|中|일본|日|러시아|유럽|EU|이란|이스라엘|가자|북한|北|'
+                  r'프랑스|佛|우크라이나|사우디|미군|한미일|노벨',
+        }
+        if not re.search(topics[category], title, re.IGNORECASE):
+            return 0
+        score = 4
+        if re.search(r'인상|인하|발표|결정|시행|승인|규제|합의|제재|공격|체결|'
+                     r'착수|수주|확대|축소|유찰|사망|격리|탈환|탈락|중단|추진', title):
+            score += 2
+        # Existing priority reflects source/keyword weights, not editorial significance.
+        # Let it distinguish topical stories, but never promote a directory page by itself.
+        score += min(2, max(0, item.get('priority_score', 0)))
+        return score
+
+    @classmethod
+    def _front_page_picks(cls, items, category, excluded_links, *, limit=3):
+        from datetime import timedelta
+
+        candidates = [item for item in items
+                      if item.get('link') and item['link'] not in excluded_links
+                      and not cls._is_sales_promotion(item)]
+        if not candidates:
+            return []
+        # Keep the same freshness ceiling, but make recency a tiebreaker, not the goal.
+        cutoff = max(item['published_dt'] for item in candidates) - timedelta(hours=24)
+        recent = [item for item in candidates if item['published_dt'] >= cutoff]
+        ranked = sorted(recent, key=lambda item: (
+            cls._front_page_score(item, category), item['published_dt']), reverse=True)
+        # Unrelated and directory-like items stay in the full list, not in editorial picks.
+        return [item for item in ranked if cls._front_page_score(item, category) > 0][:limit]
+
+    @staticmethod
+    def _briefing_summary_html(summary):
+        """Show the first complete sentence, leaving the rest available on demand."""
+        text = re.sub(r'\s+', ' ', str(summary)).strip()
+        # Split only at a sentence terminator followed by whitespace; retain punctuation.
+        match = re.search(r'[.!?](?=\s+\S)', text)
+        if not match:
+            return f'<span class="briefing-content">{html_escape.escape(text)}</span>'
+        lead = html_escape.escape(text[:match.end()])
+        rest = html_escape.escape(text[match.end():].strip())
+        return (f'<span class="briefing-content">{lead}</span>'
+                f'<details class="briefing-more"><summary>자세히 보기</summary>'
+                f'<p>{rest}</p></details>')
+
+    @staticmethod
     def _article_preview_html(item, *, front=False):
         preview = rss_preview(item.get('description'), item.get('title'))
         summary = f'<p class="card-preview">{html_escape.escape(preview)}</p>' if preview else ''
@@ -789,6 +869,25 @@ class HTMLGenerator:
                          f'<span class="article-photo-credit">사진: {credit} RSS</span>')
             return photo, summary
         return (HTMLGenerator._front_page_art(item.get('category', '')) if front else ''), summary
+
+    @staticmethod
+    def _related_articles_html(item):
+        related = [entry for entry in item.get('related_full_sources', [])
+                   if isinstance(entry.get('link'), str)
+                   and urlsplit(entry['link']).scheme in ('http', 'https')
+                   and urlsplit(entry['link']).netloc
+                   and entry['link'] != item.get('link')]
+        if not related:
+            return ''
+        links = ''.join(
+            f'<a href="{html_escape.escape(str(entry["link"]), quote=True)}" '
+            f'class="related-link" target="_blank" rel="noopener noreferrer">'
+            f'{html_escape.escape(str(entry.get("title", "")))} · '
+            f'{html_escape.escape(str(entry.get("source", "")))}</a>'
+            for entry in related
+        )
+        return (f'<details class="related-sources"><summary>관련 기사 {len(related)}건 더 보기'
+                f'</summary>{links}</details>')
 
     @staticmethod
     def _front_page_art(category):
@@ -864,14 +963,20 @@ class HTMLGenerator:
 
     def generate_main_page(self, domestic_data, international_data, briefing_data, weather_data, filename, date_str, key_persons=None, trending_keywords=None):
         from datetime import datetime, timezone, timedelta
+        # Group only for display; do not mutate input data or cached analysis.
+        domestic_data = {category: group_articles(items) for category, items in domestic_data.items()}
+        international_data = group_articles(international_data)
+        original_people = key_persons or {}
+        key_persons = {name: {**person, 'articles': group_articles(person.get('articles', []))}
+                       for name, person in original_people.items()}
         kst_now = datetime.now(timezone(timedelta(hours=9)))  # Ensure KST regardless of runner timezone
         gen_time = kst_now.strftime("%H:%M:%S")
         weather_emoji = weather_data.get('emoji', '') if weather_data else ""
         
         # 인물별 섹션에 이미 사용된 기사들의 링크를 추적
         used_article_links = set()
-        if key_persons:
-            for person_data in key_persons.values():
+        if original_people:
+            for person_data in original_people.values():
                 for article in person_data.get('articles', []):
                     used_article_links.add(article.get('link'))
         
@@ -1282,12 +1387,10 @@ class HTMLGenerator:
             for section in reading_order + [key for key in summaries if key not in reading_order]:
                 summary = summaries.get(section)
                 if summary:
-                    html += f"""
-                    <div class=\"briefing-item\">
-                        <span class=\"briefing-label\">{section}</span>
-                        <span class=\"briefing-content\">{summary}</span>
-                    </div>
-                    """
+                    label = html_escape.escape(str(section))
+                    content = self._briefing_summary_html(summary)
+                    html += (f'<div class="briefing-item"><span class="briefing-label">'
+                             f'{label}</span>{content}</div>')
 
         html += '</div>'
 
@@ -1295,17 +1398,8 @@ class HTMLGenerator:
         front_sections = []
         seen_front_links = set()
         for category in ("경제/거시", "부동산", "국제"):
-            candidates = [item for item in domestic_data.get(category, [])
-                          if item.get('link') and item['link'] not in used_article_links
-                          and item['link'] not in seen_front_links]
-            # Prefer the newest articles in this cycle; use editorial priority only as a tiebreaker.
-            if candidates:
-                cutoff = max(item['published_dt'] for item in candidates) - timedelta(hours=24)
-                recent = [item for item in candidates if item['published_dt'] >= cutoff]
-                selected = sorted(recent, key=lambda item: (
-                    item['published_dt'], item.get('priority_score', 0)), reverse=True)[:3]
-            else:
-                selected = []
+            selected = self._front_page_picks(
+                domestic_data.get(category, []), category, used_article_links | seen_front_links)
             if selected:
                 front_sections.append((category, selected))
                 seen_front_links.update(item['link'] for item in selected)
@@ -1320,10 +1414,11 @@ class HTMLGenerator:
                     title = html_escape.escape(item['title'])
                     source = html_escape.escape(item.get('source', ''))
                     image, summary = self._article_preview_html({**item, 'category': category}, front=True)
+                    related_info = self._related_articles_html(item)
                     html += (f'<div class="card card-illustrated">{image}'
                              f'<div class="card-copy"><a href="{link}" class="card-title" '
                              f'target="_blank" rel="noopener noreferrer">{title}</a>'
-                             f'{summary}<div class="card-meta">{source}</div></div></div>')
+                             f'{summary}<div class="card-meta">{source}</div>{related_info}</div></div>')
                 html += (f'<a class="front-page-more" href="#{category}" '
                          f'onclick="document.querySelector(\'.all-articles\').open = true">'
                          f'{category} 기사 전체 보기 →</a></div>')
@@ -1387,19 +1482,8 @@ class HTMLGenerator:
                             priority_class += " representative"
 
                         # Grouped sources detail with count
-                        related_info = ""
-                        related_sources = item.get('related_full_sources', [])
-                        if related_sources:
-                            count_badge = f" (외 {len(related_sources)}건)"
-                            links_html = "".join([f'<a href="{rs["link"]}" class="related-link" target="_blank">🔗 {rs["title"]} - {rs["source"]}</a>' for rs in related_sources])
-                            related_info = f"""
-                        <details class="related-sources">
-                            <summary>{len(related_sources)}개 관련 기사 보기</summary>
-                            {links_html}
-                        </details>
-                        """
-                        else:
-                            count_badge = ""
+                        related_info = self._related_articles_html(item)
+                        count_badge = ""
 
                         source_badge = item.get('source_badge', '언론')
 
@@ -1424,16 +1508,7 @@ class HTMLGenerator:
                     priority_class = "priority" if item.get('priority_score', 0) > 0 else ""
                     
                     # Grouped sources detail
-                    related_info = ""
-                    related_sources = item.get('related_full_sources', [])
-                    if related_sources:
-                        links_html = "".join([f'<a href="{rs["link"]}" class="related-link" target="_blank">🔗 {rs["title"]} - {rs["source"]}</a>' for rs in related_sources])
-                        related_info = f"""
-                    <details class="related-sources">
-                        <summary>Explore {len(related_sources)} more sources</summary>
-                        {links_html}
-                    </details>
-                    """
+                    related_info = self._related_articles_html(item)
 
                     source_badge = item.get('source_badge', '언론')
 
@@ -1456,15 +1531,16 @@ class HTMLGenerator:
                 time_str = item['published_dt'].strftime("%m.%d %H:%M")
                 photo, summary = self._article_preview_html(item)
                 html += f"""
-                <a href="{item['link']}" class="card" target="_blank">
+                <div class="card">
                     {photo}
-                    <div class="card-title">{item['title']}</div>
+                    <a href="{html_escape.escape(item['link'], quote=True)}" class="card-title" target="_blank" rel="noopener noreferrer">{html_escape.escape(item['title'])}</a>
                     {summary}
                     <div class="card-meta">
                         <span>사이언스타임즈</span>
                         <span>{time_str}</span>
                     </div>
-                </a>
+                    {self._related_articles_html(item)}
+                </div>
                 """
 
         # Personality articles remain available, but no longer precede the interest sections.
@@ -1473,7 +1549,7 @@ class HTMLGenerator:
             for person_name, person_data in key_persons.items():
                 role = person_data.get('role', '')
                 articles = person_data.get('articles', [])
-                count = person_data.get('count', len(articles))
+                count = len(articles)
                 role_text = f" ({role})" if role else ""
                 html += f'<div class="sector-subheading">👤 {person_name}{role_text} ({count}건)</div>'
                 for item in articles:
@@ -1495,6 +1571,7 @@ class HTMLGenerator:
                         <span>{item['source']}</span>
                         <span>{time_str}</span>
                     </div>
+                    {self._related_articles_html(item)}
                 </div>
                 """
 
