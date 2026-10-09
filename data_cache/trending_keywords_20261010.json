@@ -1,0 +1,401 @@
+{
+  "timestamp": "2026-10-10T06:01:10.336729",
+  "date": "20261010",
+  "data": [
+    {
+      "keyword": "노벨평화상",
+      "reason": "필라이 수상 관련 국제 이슈",
+      "score": 40.0,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "남아공 대통령, 필라이 노벨평화상 수상에 “정의 향한 평생 헌신 인정받아”",
+        "‘지난해 노벨평화상’ 마차도 “베네수, 내년 7월 대선 준비할 시간 충분”"
+      ],
+      "representative_article": {
+        "title": "남아공 대통령, 필라이 노벨평화상 수상에 “정의 향한 평생 헌신 인정받아”",
+        "link": "https://www.chosun.com/economy/tech_it/2026/10/09/GM3WKNJYGNSDGMBXMM2GEZJRGA/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-10-09 22:49:53",
+        "match_score": 40.0
+      },
+      "related_articles": [
+        {
+          "title": "남아공 대통령, 필라이 노벨평화상 수상에 “정의 향한 평생 헌신 인정받아”",
+          "link": "https://www.chosun.com/economy/tech_it/2026/10/09/GM3WKNJYGNSDGMBXMM2GEZJRGA/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-10-09 22:49:53",
+          "match_score": 40.0
+        },
+        {
+          "title": "‘지난해 노벨평화상’ 마차도 “베네수, 내년 7월 대선 준비할 시간 충분”",
+          "link": "https://www.donga.com/news/Inter/article/all/20261009/134814977/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-09 16:37:02",
+          "match_score": 37.6
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "대사 소환",
+      "reason": "우크라 한국대사 소환 외교 문제",
+      "score": 45.1,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "우크라, 한국대사 소환에 “외교가 감정보다 우선해야”"
+      ],
+      "representative_article": {
+        "title": "우크라, 한국대사 소환에 “외교가 감정보다 우선해야”",
+        "link": "https://www.donga.com/news/Inter/article/all/20261009/134813419/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-10-09 08:53:00",
+        "match_score": 45.1
+      },
+      "related_articles": [
+        {
+          "title": "우크라, 한국대사 소환에 “외교가 감정보다 우선해야”",
+          "link": "https://www.donga.com/news/Inter/article/all/20261009/134813419/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-09 08:53:00",
+          "match_score": 45.1
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "반도체",
+      "score": 17.5,
+      "article_count": 3,
+      "source_count": 3,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "최태원, 호남 반도체 부지 찾아 “전력·용수 늦어져도 착공부터”",
+        "평택시, 반도체 배후산단에 하수처리수 공급…관로공사 착공",
+        "엔비디아 넘어선 '분기 영업익 100조' 삼성전자…내년 전망도 밝은데 주가만 반대로 간다"
+      ],
+      "llm_candidate": false,
+      "rank": 3,
+      "representative_article": {
+        "title": "평택시, 반도체 배후산단에 하수처리수 공급…관로공사 착공",
+        "link": "https://www.yna.co.kr/view/AKR20261008135600061",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-10-09 09:09:00",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "평택시, 반도체 배후산단에 하수처리수 공급…관로공사 착공",
+          "link": "https://www.yna.co.kr/view/AKR20261008135600061",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-10-09 09:09:00",
+          "match_score": 37.67
+        },
+        {
+          "title": "최태원, 호남 반도체 부지 찾아 “전력·용수 늦어져도 착공부터”",
+          "link": "https://www.chosun.com/economy/industry-company/2026/10/10/EFBW7VKFDJH3RC3AXMHPIVXGOU/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-10-10 00:39:00",
+          "match_score": 28.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "부동산",
+      "score": 21.6,
+      "article_count": 3,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "부동산"
+      ],
+      "sample_titles": [
+        "신협 부동산·건설업 대출 … 연체율 다시 두 자릿수로",
+        "영등포구 대림동 현대1차 84.75㎡ 10억 7500만원… 최근 3년 신고가 [MAI부동산]",
+        "동대문구 답십리청솔우성 114.76㎡ 12억 1천만원… 최근 3년 신고가 [MAI부동산]"
+      ],
+      "llm_candidate": false,
+      "rank": 4,
+      "representative_article": {
+        "title": "신협 부동산·건설업 대출 … 연체율 다시 두 자릿수로",
+        "link": "https://www.mk.co.kr/news/economy/12172456",
+        "source": "매일경제-경제",
+        "published_dt": "2026-10-09 17:34:28",
+        "match_score": 37.66
+      },
+      "related_articles": [
+        {
+          "title": "신협 부동산·건설업 대출 … 연체율 다시 두 자릿수로",
+          "link": "https://www.mk.co.kr/news/economy/12172456",
+          "source": "매일경제-경제",
+          "published_dt": "2026-10-09 17:34:28",
+          "match_score": 37.66
+        },
+        {
+          "title": "영등포구 대림동 현대1차 84.75㎡ 10억 7500만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12172176",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-09 08:36:15",
+          "match_score": 37.49
+        },
+        {
+          "title": "동대문구 답십리청솔우성 114.76㎡ 12억 1천만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12172180",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-09 08:37:15",
+          "match_score": 37.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "아파트",
+      "score": 18.6,
+      "article_count": 3,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "부동산"
+      ],
+      "sample_titles": [
+        "영등포구 대림동 현대1차 84.75㎡ 10억 7500만원… 최근 3년 신고가 [MAI부동산]",
+        "서울역 역세권에 35층 아파트…준주거지 모아타운 483가구 공급",
+        "강원 아파트 분양가 급등…1년 새 최대 18% 올라 - KBS 뉴스"
+      ],
+      "llm_candidate": false,
+      "rank": 5,
+      "representative_article": {
+        "title": "서울역 역세권에 35층 아파트…준주거지 모아타운 483가구 공급",
+        "link": "https://www.mk.co.kr/news/realestate/12172265",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-10-09 13:44:50",
+        "match_score": 38.09
+      },
+      "related_articles": [
+        {
+          "title": "서울역 역세권에 35층 아파트…준주거지 모아타운 483가구 공급",
+          "link": "https://www.mk.co.kr/news/realestate/12172265",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-09 13:44:50",
+          "match_score": 38.09
+        },
+        {
+          "title": "재건축 홍보물 게시 제한한 입대의 결의…“유효” - 한국아파트신문",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBvMW82T1BoU0RZa3JBRldwTjNDX2ZwUkFWVzUybkV5WWVONE5JU1FxX05GRnlGZmVFZ01hTzRwS1dtczZvX0dBVXVNOUJqRW4xWDU2QTZ3MWU0MmYtcWpwNnE0ZEpUMmlt?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-10-09 09:00:00",
+          "match_score": 37.71
+        },
+        {
+          "title": "강원 아파트 분양가 급등…1년 새 최대 18% 올라 - KBS 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5wLWhRQ29kcTBwQWdqTE9YNExWY3QyMXN6eEJaRmlHOGVuMEdRVUJBckNOcE54N25Vcm9faUNYMUJHanB1WFU5ZW5tbzQtRjQxdmVERExPMVh4R3ZsRThRSzFYeHEtQQ?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-10-09 21:35:00",
+          "match_score": 36.96
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "금융권",
+      "score": 17.8,
+      "article_count": 3,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "‘전세계 해커 맛집’ 된 한국 금융권…누가 어디서 공격했는지 모른다",
+        "해외발 금융권 해킹 10건 중 9건 “공격 주체 파악 못해”",
+        "해외발 금융 해킹 18건 중 16건 '공격자 미상'…추적 한계 드러나"
+      ],
+      "llm_candidate": false,
+      "rank": 6,
+      "representative_article": {
+        "title": "‘전세계 해커 맛집’ 된 한국 금융권…누가 어디서 공격했는지 모른다",
+        "link": "https://www.mk.co.kr/news/economy/12172259",
+        "source": "매일경제-경제",
+        "published_dt": "2026-10-09 13:20:53",
+        "match_score": 37.66
+      },
+      "related_articles": [
+        {
+          "title": "‘전세계 해커 맛집’ 된 한국 금융권…누가 어디서 공격했는지 모른다",
+          "link": "https://www.mk.co.kr/news/economy/12172259",
+          "source": "매일경제-경제",
+          "published_dt": "2026-10-09 13:20:53",
+          "match_score": 37.66
+        },
+        {
+          "title": "해외발 금융권 해킹 10건 중 9건 “공격 주체 파악 못해”",
+          "link": "https://www.mk.co.kr/news/economy/12172199",
+          "source": "매일경제-경제",
+          "published_dt": "2026-10-09 09:32:20",
+          "match_score": 37.66
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "트럼프",
+      "score": 16.5,
+      "article_count": 3,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "트럼프 행정부, 필레이 노벨상 수상날 ICC 전면 제재",
+        "[단독]美 “韓, 정보-방첩 수십년 동맹기준 준수해야”",
+        "322일만 귀환한 링컨호에 가족들 눈물…“트럼프 아들부터 중동 보내라”"
+      ],
+      "llm_candidate": false,
+      "rank": 7,
+      "representative_article": {
+        "title": "트럼프 행정부, 필레이 노벨상 수상날 ICC 전면 제재",
+        "link": "https://www.donga.com/news/Inter/article/all/20261010/134817032/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-10-10 03:20:28",
+        "match_score": 37.3
+      },
+      "related_articles": [
+        {
+          "title": "트럼프 행정부, 필레이 노벨상 수상날 ICC 전면 제재",
+          "link": "https://www.donga.com/news/Inter/article/all/20261010/134817032/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-10 03:20:28",
+          "match_score": 37.3
+        },
+        {
+          "title": "322일만 귀환한 링컨호에 가족들 눈물…“트럼프 아들부터 중동 보내라”",
+          "link": "https://www.donga.com/news/Inter/article/all/20261009/134813957/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-09 12:34:00",
+          "match_score": 37.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "엔비디아",
+      "score": 14.2,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "엔비디아 넘어선 '분기 영업익 100조' 삼성전자…내년 전망도 밝은데 주가만 반대로 간다",
+        "오픈AI 매출 충격에 美기술주 ‘와르르’…엔비디아 3% 하락"
+      ],
+      "llm_candidate": false,
+      "rank": 8,
+      "representative_article": {
+        "title": "엔비디아 넘어선 '분기 영업익 100조' 삼성전자…내년 전망도 밝은데 주가만 반대로 간다",
+        "link": "https://www.etnews.com/20261009000007",
+        "source": "전자신문",
+        "published_dt": "2026-10-09 08:35:20",
+        "match_score": 28.49
+      },
+      "related_articles": [
+        {
+          "title": "엔비디아 넘어선 '분기 영업익 100조' 삼성전자…내년 전망도 밝은데 주가만 반대로 간다",
+          "link": "https://www.etnews.com/20261009000007",
+          "source": "전자신문",
+          "published_dt": "2026-10-09 08:35:20",
+          "match_score": 28.49
+        },
+        {
+          "title": "오픈AI 매출 충격에 美기술주 ‘와르르’…엔비디아 3% 하락",
+          "link": "https://www.donga.com/news/Economy/article/all/20261009/134813875/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-09 13:09:00",
+          "match_score": 28.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재건축",
+      "score": 12.8,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "부동산"
+      ],
+      "sample_titles": [
+        "재건축 홍보물 게시 제한한 입대의 결의…“유효” - 한국아파트신문",
+        "'개포 마지막 퍼즐' 개포주공6·7단지, 관리처분인가 통과…내년 1월 이주 시작"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "재건축 홍보물 게시 제한한 입대의 결의…“유효” - 한국아파트신문",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBvMW82T1BoU0RZa3JBRldwTjNDX2ZwUkFWVzUybkV5WWVONE5JU1FxX05GRnlGZmVFZ01hTzRwS1dtczZvX0dBVXVNOUJqRW4xWDU2QTZ3MWU0MmYtcWpwNnE0ZEpUMmlt?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-10-09 09:00:00",
+        "match_score": 37.71
+      },
+      "related_articles": [
+        {
+          "title": "재건축 홍보물 게시 제한한 입대의 결의…“유효” - 한국아파트신문",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBvMW82T1BoU0RZa3JBRldwTjNDX2ZwUkFWVzUybkV5WWVONE5JU1FxX05GRnlGZmVFZ01hTzRwS1dtczZvX0dBVXVNOUJqRW4xWDU2QTZ3MWU0MmYtcWpwNnE0ZEpUMmlt?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-10-09 09:00:00",
+          "match_score": 37.71
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "인터넷",
+      "score": 12.8,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "해외발 금융 해킹 18건 중 16건 '공격자 미상'…추적 한계 드러나",
+        "美국방 “총기난사범 총살 인터넷 생중계”…12월 3일 집행"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "美국방 “총기난사범 총살 인터넷 생중계”…12월 3일 집행",
+        "link": "https://www.donga.com/news/Inter/article/all/20261009/134814215/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-10-09 13:55:00",
+        "match_score": 37.3
+      },
+      "related_articles": [
+        {
+          "title": "美국방 “총기난사범 총살 인터넷 생중계”…12월 3일 집행",
+          "link": "https://www.donga.com/news/Inter/article/all/20261009/134814215/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-09 13:55:00",
+          "match_score": 37.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
