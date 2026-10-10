@@ -1,0 +1,343 @@
+{
+  "timestamp": "2026-10-11T06:00:58.037073",
+  "date": "20261011",
+  "data": [
+    {
+      "keyword": "변동금리",
+      "reason": "가계대출 변동금리 비중 확대",
+      "score": 41.42,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "은행 가계대출 57.3%가 변동금리…1년 새 4.3%p 확대"
+      ],
+      "representative_article": {
+        "title": "은행 가계대출 57.3%가 변동금리…1년 새 4.3%p 확대",
+        "link": "https://www.yna.co.kr/view/AKR20261010042400002",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-10-11 05:52:00",
+        "match_score": 41.42
+      },
+      "related_articles": [
+        {
+          "title": "은행 가계대출 57.3%가 변동금리…1년 새 4.3%p 확대",
+          "link": "https://www.yna.co.kr/view/AKR20261010042400002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-10-11 05:52:00",
+          "match_score": 41.42
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "해저케이블",
+      "reason": "대한전선 투 트랙 시공 전략",
+      "score": 42.9,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "대한전선, CLV 2척으로 해저케이블 '투 트랙 시공'…'턴키 경쟁력'↑"
+      ],
+      "representative_article": {
+        "title": "대한전선, CLV 2척으로 해저케이블 '투 트랙 시공'…'턴키 경쟁력'↑",
+        "link": "https://www.etnews.com/20261008000076",
+        "source": "전자신문",
+        "published_dt": "2026-10-10 12:00:00",
+        "match_score": 42.9
+      },
+      "related_articles": [
+        {
+          "title": "대한전선, CLV 2척으로 해저케이블 '투 트랙 시공'…'턴키 경쟁력'↑",
+          "link": "https://www.etnews.com/20261008000076",
+          "source": "전자신문",
+          "published_dt": "2026-10-10 12:00:00",
+          "match_score": 42.9
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "대출이자",
+      "reason": "금리 인하 및 부담 경감 관심",
+      "score": 38.36,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "정치"
+      ],
+      "sample_titles": [
+        "“나도 대출이자 깎아볼까” 1.3억 빌렸는데 ‘금리인하’ 요구로 연 900만원 아꼈다 [머니뭐니] - 헤럴드경제"
+      ],
+      "representative_article": {
+        "title": "“나도 대출이자 깎아볼까” 1.3억 빌렸는데 ‘금리인하’ 요구로 연 900만원 아꼈다 [머니뭐니] - 헤럴드경제",
+        "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE83aW1EZmRUWE1MTk15QWhNbnlrZWEwc0tCdDF1ZXBlbDFqZGZKaDRvYXN2ZVRYRnNzUktZUnlVNklaN2I1ZnhXc2JnYTBBVzR4SFRYM0pyUQ?oc=5",
+        "source": "키워드-금리환율코스피",
+        "published_dt": "2026-10-10 13:54:00",
+        "match_score": 38.36
+      },
+      "related_articles": [
+        {
+          "title": "“나도 대출이자 깎아볼까” 1.3억 빌렸는데 ‘금리인하’ 요구로 연 900만원 아꼈다 [머니뭐니] - 헤럴드경제",
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE83aW1EZmRUWE1MTk15QWhNbnlrZWEwc0tCdDF1ZXBlbDFqZGZKaDRvYXN2ZVRYRnNzUktZUnlVNklaN2I1ZnhXc2JnYTBBVzR4SFRYM0pyUQ?oc=5",
+          "source": "키워드-금리환율코스피",
+          "published_dt": "2026-10-10 13:54:00",
+          "match_score": 38.36
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "임시일용직",
+      "reason": "건설업 노동자 이탈 지속",
+      "score": 38.12,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "건설 임시일용직 30만명 넘게 떠났다…비자발적 이직 7개월째↑"
+      ],
+      "representative_article": {
+        "title": "건설 임시일용직 30만명 넘게 떠났다…비자발적 이직 7개월째↑",
+        "link": "https://www.yna.co.kr/view/AKR20261010033300002",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-10-11 05:45:04",
+        "match_score": 38.12
+      },
+      "related_articles": [
+        {
+          "title": "건설 임시일용직 30만명 넘게 떠났다…비자발적 이직 7개월째↑",
+          "link": "https://www.yna.co.kr/view/AKR20261010033300002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-10-11 05:45:04",
+          "match_score": 38.12
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "반도체",
+      "score": 14.4,
+      "article_count": 3,
+      "source_count": 2,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "삼전닉스 '억대' 성과급 풀려도…예정처 \"소비 효과 제한적\"",
+        "건설 임시일용직 30만명 넘게 떠났다…비자발적 이직 7개월째↑",
+        "민형배 “SK그룹과 긴밀히 협력, 호남권 반도체클러스터 확실히 뒷받침”"
+      ],
+      "llm_candidate": false,
+      "rank": 5,
+      "representative_article": {
+        "title": "민형배 “SK그룹과 긴밀히 협력, 호남권 반도체클러스터 확실히 뒷받침”",
+        "link": "https://www.etnews.com/20261010000008",
+        "source": "전자신문",
+        "published_dt": "2026-10-10 09:01:00",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "민형배 “SK그룹과 긴밀히 협력, 호남권 반도체클러스터 확실히 뒷받침”",
+          "link": "https://www.etnews.com/20261010000008",
+          "source": "전자신문",
+          "published_dt": "2026-10-10 09:01:00",
+          "match_score": 37.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "부동산",
+      "score": 12.8,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "부동산"
+      ],
+      "sample_titles": [
+        "영등포구 대림동 우성1 52.07㎡ 7억 4천만원… 최근 3년 신고가 [MAI부동산]",
+        "[10·15 대책 1년] '닥치고 공급'인데 공급 부족 언제 해소되나"
+      ],
+      "llm_candidate": false,
+      "rank": 6,
+      "representative_article": {
+        "title": "영등포구 대림동 우성1 52.07㎡ 7억 4천만원… 최근 3년 신고가 [MAI부동산]",
+        "link": "https://www.mk.co.kr/news/realestate/12172774",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-10-10 20:37:17",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "영등포구 대림동 우성1 52.07㎡ 7억 4천만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12172774",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-10 20:37:17",
+          "match_score": 37.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "트럼프",
+      "score": 13.7,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "트럼프, 뉴욕주 주지사 지원 유세에 전 헤비급 챔피언 타이슨 깜짝 등장",
+        "트럼프 “공개 처형 생중계 허용 여부 아직 결정 안해”"
+      ],
+      "llm_candidate": false,
+      "rank": 7,
+      "representative_article": {
+        "title": "트럼프, 뉴욕주 주지사 지원 유세에 전 헤비급 챔피언 타이슨 깜짝 등장",
+        "link": "https://www.donga.com/news/Inter/article/all/20261010/134817904/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-10-10 20:13:57",
+        "match_score": 37.3
+      },
+      "related_articles": [
+        {
+          "title": "트럼프, 뉴욕주 주지사 지원 유세에 전 헤비급 챔피언 타이슨 깜짝 등장",
+          "link": "https://www.donga.com/news/Inter/article/all/20261010/134817904/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-10 20:13:57",
+          "match_score": 37.3
+        },
+        {
+          "title": "트럼프 “공개 처형 생중계 허용 여부 아직 결정 안해”",
+          "link": "https://www.donga.com/news/Inter/article/all/20261010/134817141/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-10 08:58:53",
+          "match_score": 37.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "DNA",
+      "score": 13.7,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "테크"
+      ],
+      "sample_titles": [
+        "정답으로 향하도록 계산되는 DNA 컴퓨터 - 사이언스타임즈",
+        "굶주린 세포의 DNA 복구 능력 이용해 유전자가위 정확도 높였다 - 사이언스타임즈"
+      ],
+      "llm_candidate": false,
+      "rank": 8,
+      "representative_article": {
+        "title": "정답으로 향하도록 계산되는 DNA 컴퓨터 - 사이언스타임즈",
+        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZnNySjE3UWEtVWp5NGxQNDdpR3lCMXdUMGNRTGZmcnBaTEZYMU9UcVFtbUhTQm03RlF1YThsRnVwWTZLU3lZSkQxajFULTlDTVVFZnNpT2hrODRISm5nLVoyUEhmaEdWRzljTEpuYnNPU1NZOHVGU0FaU21neDYxNHoteUdiNTVVcW5oWkFDVQ?oc=5",
+        "source": "사이언스타임즈",
+        "published_dt": "2026-10-06 11:45:23",
+        "match_score": 37.34
+      },
+      "related_articles": [
+        {
+          "title": "정답으로 향하도록 계산되는 DNA 컴퓨터 - 사이언스타임즈",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZnNySjE3UWEtVWp5NGxQNDdpR3lCMXdUMGNRTGZmcnBaTEZYMU9UcVFtbUhTQm03RlF1YThsRnVwWTZLU3lZSkQxajFULTlDTVVFZnNpT2hrODRISm5nLVoyUEhmaEdWRzljTEpuYnNPU1NZOHVGU0FaU21neDYxNHoteUdiNTVVcW5oWkFDVQ?oc=5",
+          "source": "사이언스타임즈",
+          "published_dt": "2026-10-06 11:45:23",
+          "match_score": 37.34
+        },
+        {
+          "title": "굶주린 세포의 DNA 복구 능력 이용해 유전자가위 정확도 높였다 - 사이언스타임즈",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQcHIyd1pnUEFtRWRQZk05WnJLbEZnaExQT0laOGxlRHdEM3RJVGJ6eDRUcWNfaGJGdGRKeW5ZUks0YXM2RlNTOFFkcEpYTVExZzE4N0xPZWdsR3BlT3FLZXdQa3VWNi1qeXF4S3lWanZfdzUtM0dBTTJZaGRRZ2NEM2d5TDQtYjE5bDRpYWJxOA?oc=5",
+          "source": "사이언스타임즈",
+          "published_dt": "2025-05-27 16:00:00",
+          "match_score": 37.34
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "유세에",
+      "score": 10.7,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "트럼프, 뉴욕주 주지사 지원 유세에 전 헤비급 챔피언 타이슨 깜짝 등장",
+        "트럼프 “공개 처형 생중계 허용 여부 아직 결정 안해”"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "트럼프, 뉴욕주 주지사 지원 유세에 전 헤비급 챔피언 타이슨 깜짝 등장",
+        "link": "https://www.donga.com/news/Inter/article/all/20261010/134817904/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-10-10 20:13:57",
+        "match_score": 37.3
+      },
+      "related_articles": [
+        {
+          "title": "트럼프, 뉴욕주 주지사 지원 유세에 전 헤비급 챔피언 타이슨 깜짝 등장",
+          "link": "https://www.donga.com/news/Inter/article/all/20261010/134817904/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-10 20:13:57",
+          "match_score": 37.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "뉴욕주",
+      "score": 10.7,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "트럼프, 뉴욕주 주지사 지원 유세에 전 헤비급 챔피언 타이슨 깜짝 등장",
+        "트럼프 “공개 처형 생중계 허용 여부 아직 결정 안해”"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "트럼프, 뉴욕주 주지사 지원 유세에 전 헤비급 챔피언 타이슨 깜짝 등장",
+        "link": "https://www.donga.com/news/Inter/article/all/20261010/134817904/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-10-10 20:13:57",
+        "match_score": 37.3
+      },
+      "related_articles": [
+        {
+          "title": "트럼프, 뉴욕주 주지사 지원 유세에 전 헤비급 챔피언 타이슨 깜짝 등장",
+          "link": "https://www.donga.com/news/Inter/article/all/20261010/134817904/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-10 20:13:57",
+          "match_score": 37.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
