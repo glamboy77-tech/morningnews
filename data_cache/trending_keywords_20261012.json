@@ -1,0 +1,374 @@
+{
+  "timestamp": "2026-10-12T06:01:05.051351",
+  "date": "20261012",
+  "data": [
+    {
+      "keyword": "반도체",
+      "reason": "SK 최태원 회장 발언 및 관련 산업 확장",
+      "score": 42.3,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "최태원 SK 회장 “미·중 반도체 증설 시 우리 점유율 축소…최대한 빨리 확장 해야”",
+        "[이슈+] 광주 직접 찾은 최태원…400조 반도체 클러스터 '속도전'의 조건은 - 비즈트리뷴"
+      ],
+      "representative_article": {
+        "title": "최태원 SK 회장 “미·중 반도체 증설 시 우리 점유율 축소…최대한 빨리 확장 해야”",
+        "link": "https://www.etnews.com/20261011000091",
+        "source": "전자신문",
+        "published_dt": "2026-10-11 18:23:56",
+        "match_score": 42.3
+      },
+      "related_articles": [
+        {
+          "title": "최태원 SK 회장 “미·중 반도체 증설 시 우리 점유율 축소…최대한 빨리 확장 해야”",
+          "link": "https://www.etnews.com/20261011000091",
+          "source": "전자신문",
+          "published_dt": "2026-10-11 18:23:56",
+          "match_score": 42.3
+        },
+        {
+          "title": "[이슈+] 광주 직접 찾은 최태원…400조 반도체 클러스터 '속도전'의 조건은 - 비즈트리뷴",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE12NW82SUZSWDhHRzRDOVk4U1dZT3ZYOU1NTEEwRENGU21velVKYkZmcTJlaHNLNTA1ZlZhZmtOOTNoeFZJR2hFbVJSYmZnODJZM1FxTmc1X09rc1Z4NUNyODBOc05xNFNleV9LUkxIMlM?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-10-11 16:07:37",
+          "match_score": 38.16
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "국정원 압수수색",
+      "reason": "윤 정부 안보실 예산지원 의혹 수사",
+      "score": 40.48,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "경찰, 두차례 국정원 압수수색…尹정부 안보실 예산지원 의혹 수사(종합)"
+      ],
+      "representative_article": {
+        "title": "경찰, 두차례 국정원 압수수색…尹정부 안보실 예산지원 의혹 수사(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261011052051004",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-10-11 21:26:05",
+        "match_score": 40.48
+      },
+      "related_articles": [
+        {
+          "title": "경찰, 두차례 국정원 압수수색…尹정부 안보실 예산지원 의혹 수사(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261011052051004",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-11 21:26:05",
+          "match_score": 40.48
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "기업대출 연체",
+      "reason": "기업대출 연체액 10조 원 돌파 보도",
+      "score": 43.06,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "[단독] “빚 돌려막기도 못합니다”…기업대출 연체액, 처음으로 10조 넘어"
+      ],
+      "representative_article": {
+        "title": "[단독] “빚 돌려막기도 못합니다”…기업대출 연체액, 처음으로 10조 넘어",
+        "link": "https://www.mk.co.kr/news/economy/12173110",
+        "source": "매일경제-경제",
+        "published_dt": "2026-10-11 17:30:08",
+        "match_score": 43.06
+      },
+      "related_articles": [
+        {
+          "title": "[단독] “빚 돌려막기도 못합니다”…기업대출 연체액, 처음으로 10조 넘어",
+          "link": "https://www.mk.co.kr/news/economy/12173110",
+          "source": "매일경제-경제",
+          "published_dt": "2026-10-11 17:30:08",
+          "match_score": 43.06
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "용산전자상",
+      "reason": "AI·ICT 신산업 거점화 사업 착수",
+      "score": 43.33,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "'한국 전자제품 메카' 용산전자상가, AI·ICT 신산업 거점으로",
+        "용산전자상가 ‘아시아 실리콘밸리’로...이달 첫 삽"
+      ],
+      "representative_article": {
+        "title": "'한국 전자제품 메카' 용산전자상가, AI·ICT 신산업 거점으로",
+        "link": "https://www.yna.co.kr/view/AKR20261011014000004",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-10-11 11:15:02",
+        "match_score": 43.33
+      },
+      "related_articles": [
+        {
+          "title": "'한국 전자제품 메카' 용산전자상가, AI·ICT 신산업 거점으로",
+          "link": "https://www.yna.co.kr/view/AKR20261011014000004",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-10-11 11:15:02",
+          "match_score": 43.33
+        },
+        {
+          "title": "용산전자상가 ‘아시아 실리콘밸리’로...이달 첫 삽",
+          "link": "https://www.mk.co.kr/news/realestate/12172951",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-11 15:09:03",
+          "match_score": 40.59
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "뉴델리 봉쇄",
+      "reason": "인도 총리 모디 시위대 대응",
+      "score": 32.5,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "모디, 시위 막으려 뉴델리 봉쇄-7000명 구금… “장기집권 시험대”"
+      ],
+      "representative_article": {
+        "title": "모디, 시위 막으려 뉴델리 봉쇄-7000명 구금… “장기집권 시험대”",
+        "link": "https://www.donga.com/news/Inter/article/all/20261011/134822137/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-10-12 04:30:00",
+        "match_score": 32.5
+      },
+      "related_articles": [
+        {
+          "title": "모디, 시위 막으려 뉴델리 봉쇄-7000명 구금… “장기집권 시험대”",
+          "link": "https://www.donga.com/news/Inter/article/all/20261011/134822137/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-12 04:30:00",
+          "match_score": 32.5
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "수도권",
+      "score": 24.2,
+      "article_count": 5,
+      "source_count": 2,
+      "categories": [
+        "부동산",
+        "정치"
+      ],
+      "sample_titles": [
+        "국힘 진종오 \"과속·신호위반 빈발 지점 10곳 중 7곳이 수도권\"",
+        "李대통령 \"2022년 대선 이후 차질 빚은 주택공급 조만간 정상화\"",
+        "\"내년 집값 불안 요소 여전… 1주택자 갈아타기 기회 노려야\""
+      ],
+      "llm_candidate": false,
+      "rank": 6,
+      "representative_article": {
+        "title": "국힘 진종오 \"과속·신호위반 빈발 지점 10곳 중 7곳이 수도권\"",
+        "link": "https://www.yna.co.kr/view/AKR20261011028700001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-10-12 05:00:04",
+        "match_score": 38.67
+      },
+      "related_articles": [
+        {
+          "title": "국힘 진종오 \"과속·신호위반 빈발 지점 10곳 중 7곳이 수도권\"",
+          "link": "https://www.yna.co.kr/view/AKR20261011028700001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-12 05:00:04",
+          "match_score": 38.67
+        },
+        {
+          "title": "규제로 왜곡된 수도권 집값 … 갈아타기로 똘똘한 한채 잡아라 [서울머니쇼+]",
+          "link": "https://www.mk.co.kr/news/realestate/12172905",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-11 12:01:48",
+          "match_score": 37.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "주택 공급",
+      "score": 18.4,
+      "article_count": 4,
+      "source_count": 2,
+      "categories": [
+        "부동산",
+        "정치"
+      ],
+      "sample_titles": [
+        "韓총리, 공공임대 전문가와 간담회…\"다양한 주거방식 고민필요\"",
+        "李대통령 \"2022년 대선 이후 차질 빚은 주택공급 조만간 정상화\"",
+        "[단독] 집지을 땅 없다는데 … LH 택지 절반 유찰"
+      ],
+      "llm_candidate": false,
+      "rank": 7,
+      "representative_article": {
+        "title": "李대통령 \"2022년 대선 이후 차질 빚은 주택공급 조만간 정상화\"",
+        "link": "https://www.yna.co.kr/view/AKR20261011026100001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-10-11 13:57:43",
+        "match_score": 27.22
+      },
+      "related_articles": [
+        {
+          "title": "李대통령 \"2022년 대선 이후 차질 빚은 주택공급 조만간 정상화\"",
+          "link": "https://www.yna.co.kr/view/AKR20261011026100001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-11 13:57:43",
+          "match_score": 27.22
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "우리의",
+      "score": 15.6,
+      "article_count": 3,
+      "source_count": 2,
+      "categories": [
+        "국제",
+        "테크"
+      ],
+      "sample_titles": [
+        "ICC 출신 노벨평화상에… 트럼프, 추가 제재 ‘뒤끝’",
+        "후티, 사우디 제2공항 공격해 12명 사망… 트럼프 “개입 검토”",
+        "도파민 터지는 ‘숏폼’, 우리의 집중력은 ‘47초’ - 사이언스타임즈"
+      ],
+      "llm_candidate": false,
+      "rank": 8,
+      "representative_article": {
+        "title": "도파민 터지는 ‘숏폼’, 우리의 집중력은 ‘47초’ - 사이언스타임즈",
+        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQeDlSVmR1M1ZHdnp5SUI5QVBMM2hrUDBZSmd0QUVUYVQ5MndDRnIwZE8yWVVRMXNGNm9iZ1l4TUpVUkdjRC1UYU9tQ0FYNk9QX2FHM1Y5d3pVaHhzTWNqMEwyZThOYlNKdWdXbDZEOEdHdFdZeThOZWpib1BIamRKaWRpUHBrckZpNFNvMW9IZw?oc=5",
+        "source": "사이언스타임즈",
+        "published_dt": "2025-09-11 16:00:00",
+        "match_score": 37.34
+      },
+      "related_articles": [
+        {
+          "title": "도파민 터지는 ‘숏폼’, 우리의 집중력은 ‘47초’ - 사이언스타임즈",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQeDlSVmR1M1ZHdnp5SUI5QVBMM2hrUDBZSmd0QUVUYVQ5MndDRnIwZE8yWVVRMXNGNm9iZ1l4TUpVUkdjRC1UYU9tQ0FYNk9QX2FHM1Y5d3pVaHhzTWNqMEwyZThOYlNKdWdXbDZEOEdHdFdZeThOZWpib1BIamRKaWRpUHBrckZpNFNvMW9IZw?oc=5",
+          "source": "사이언스타임즈",
+          "published_dt": "2025-09-11 16:00:00",
+          "match_score": 37.34
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재개발",
+      "score": 19.6,
+      "article_count": 3,
+      "source_count": 2,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "IPARK현산·삼성물산 손잡고 … 숙대역세권 재개발 조경 특화",
+        "유찬종 구청장, 재개발·재건축 정책 방향 제시… “경제적 논리보다 정무적 판단 우선” - https://www.jongnonews.com/",
+        "[부동산 손품노트] 서울 핵심지역 공공 재개발 '도공복' 투자 100가지 사실"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "IPARK현산·삼성물산 손잡고 … 숙대역세권 재개발 조경 특화",
+        "link": "https://www.mk.co.kr/news/realestate/12173018",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-10-11 16:33:10",
+        "match_score": 38.09
+      },
+      "related_articles": [
+        {
+          "title": "IPARK현산·삼성물산 손잡고 … 숙대역세권 재개발 조경 특화",
+          "link": "https://www.mk.co.kr/news/realestate/12173018",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-11 16:33:10",
+          "match_score": 38.09
+        },
+        {
+          "title": "유찬종 구청장, 재개발·재건축 정책 방향 제시… “경제적 논리보다 정무적 판단 우선” - https://www.jongnonews.com/",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBqeFVIYU1YWjZ6ZWtYYmJaSVVwZ3ZfS0oxNWNRZzhpWG5EZEtaNmFoR2l3UXJXbEVkZUhJUzVVSVowald5WVRxcEMyQ09mVzcxVUpMUjh2NzBHelNJejJKVWMzcjFQZVdjQW9F?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-10-11 23:03:09",
+          "match_score": 38.01
+        },
+        {
+          "title": "[부동산 손품노트] 서울 핵심지역 공공 재개발 '도공복' 투자 100가지 사실",
+          "link": "https://www.mk.co.kr/news/realestate/12173027",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-11 16:36:08",
+          "match_score": 29.09
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "부동산",
+      "score": 13.5,
+      "article_count": 3,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "[부동산 손품노트] 서울 핵심지역 공공 재개발 '도공복' 투자 100가지 사실",
+        "\"내년 집값 불안 요소 여전… 1주택자 갈아타기 기회 노려야\"",
+        "규제로 왜곡된 수도권 집값 … 갈아타기로 똘똘한 한채 잡아라 [서울머니쇼+]"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "[부동산 손품노트] 서울 핵심지역 공공 재개발 '도공복' 투자 100가지 사실",
+        "link": "https://www.mk.co.kr/news/realestate/12173027",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-10-11 16:36:08",
+        "match_score": 38.09
+      },
+      "related_articles": [
+        {
+          "title": "[부동산 손품노트] 서울 핵심지역 공공 재개발 '도공복' 투자 100가지 사실",
+          "link": "https://www.mk.co.kr/news/realestate/12173027",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-11 16:36:08",
+          "match_score": 38.09
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
