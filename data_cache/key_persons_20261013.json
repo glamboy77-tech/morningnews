@@ -1,0 +1,61 @@
+{
+  "timestamp": "2026-10-13T06:01:04.479355",
+  "date": "20261013",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "李, ‘전장 달라졌다’… 육·해·공 사관학교 통합 재확인",
+          "link": "https://www.chosun.com/politics/politics_general/2026/10/12/Z2R7F5H2Y5GM5JDMJPHIQD62II/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-10-12 18:30:25",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "image_url": "",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "지방/행정",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, 새 주한이란대사 등과 첫인사…\"협력 확대\" 당부(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261012045751001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-12 17:24:58",
+          "description": "(서울=연합뉴스) 고동욱 기자 = 이재명 대통령은 12일 오후 신임 주한 상주대사 8명으로부터 신임장을 제출받았다고 강유정 청와대 수석대변인이 ...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "image_url": "https://img.yna.co.kr/photo/yna/YH/2026/10/12/PYH2026101212700001300_P2.jpg",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 골프 논란에 박홍근 \"매뉴얼대로 대응했는지가 중요\"",
+          "link": "https://www.yna.co.kr/view/AKR20261012177400002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-10-12 21:12:30",
+          "description": "(세종=연합뉴스) 안채원 기자 = 박홍근 기획예산처 장관은 12일 이재명 대통령이 대구 상가 붕괴 사고 당시 골프를 쳤다는 논란과 관련해 &quot;휴가...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/economy.xml",
+          "image_url": "https://img.yna.co.kr/photo/yna/YH/2026/10/08/PYH2026100810520001300_P2.jpg",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "한국 대통령"
+    }
+  }
+}
