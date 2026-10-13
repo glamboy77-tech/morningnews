@@ -1,0 +1,470 @@
+{
+  "timestamp": "2026-10-14T06:01:21.105844",
+  "date": "20261014",
+  "data": [
+    {
+      "keyword": "IMF 한국 경제성장률",
+      "reason": "성장률 상향 조정 반복 언급",
+      "score": 24.86,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "국제"
+      ],
+      "sample_titles": [
+        "“지갑사정 나만 힘든가요?”…IMF, 한국 경제성장률 3.3%로 확 올렸다"
+      ],
+      "representative_article": {
+        "title": "“지갑사정 나만 힘든가요?”…IMF, 한국 경제성장률 3.3%로 확 올렸다",
+        "link": "https://www.mk.co.kr/news/economy/12175070",
+        "source": "매일경제-경제",
+        "published_dt": "2026-10-14 05:43:17",
+        "match_score": 24.86
+      },
+      "related_articles": [
+        {
+          "title": "“지갑사정 나만 힘든가요?”…IMF, 한국 경제성장률 3.3%로 확 올렸다",
+          "link": "https://www.mk.co.kr/news/economy/12175070",
+          "source": "매일경제-경제",
+          "published_dt": "2026-10-14 05:43:17",
+          "match_score": 24.86
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "신천지 당원 가입",
+      "reason": "정치권 후속 조치 논의",
+      "score": 34.67,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "與, '신천지 당원 가입 정황' 확인…후속 조치 논의에 파장 주시(종합3보)",
+        "與, '신천지 당원 가입 정황' 확인…후속 조치 논의에 파장 주시(종합2보)"
+      ],
+      "representative_article": {
+        "title": "與, '신천지 당원 가입 정황' 확인…후속 조치 논의에 파장 주시(종합3보)",
+        "link": "https://www.yna.co.kr/view/AKR20261013020453001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-10-13 22:59:19",
+        "match_score": 34.67
+      },
+      "related_articles": [
+        {
+          "title": "與, '신천지 당원 가입 정황' 확인…후속 조치 논의에 파장 주시(종합3보)",
+          "link": "https://www.yna.co.kr/view/AKR20261013020453001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-13 22:59:19",
+          "match_score": 34.67
+        },
+        {
+          "title": "與, '신천지 당원 가입 정황' 확인…후속 조치 논의에 파장 주시(종합2보)",
+          "link": "https://www.yna.co.kr/view/AKR20261013020452001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-13 17:08:10",
+          "match_score": 34.67
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "모바일 신분증",
+      "reason": "은행 앱 서비스 확장",
+      "score": 21.22,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "기업·신한·우리·하나은행 앱서 모바일신분증 발급·이용 가능"
+      ],
+      "representative_article": {
+        "title": "기업·신한·우리·하나은행 앱서 모바일신분증 발급·이용 가능",
+        "link": "https://www.yna.co.kr/view/AKR20261013174400530",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-10-13 17:52:22",
+        "match_score": 21.22
+      },
+      "related_articles": [
+        {
+          "title": "기업·신한·우리·하나은행 앱서 모바일신분증 발급·이용 가능",
+          "link": "https://www.yna.co.kr/view/AKR20261013174400530",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-10-13 17:52:22",
+          "match_score": 21.22
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "반도체",
+      "score": 59.9,
+      "article_count": 11,
+      "source_count": 7,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "“지갑사정 나만 힘든가요?”…IMF, 한국 경제성장률 3.3%로 확 올렸다",
+        "\"시민 지켜라\"… 로봇개, 첫 도심순찰 나선다",
+        "석달만에 … IMF, 올 韓성장률 3.3%로 상향"
+      ],
+      "llm_candidate": false,
+      "rank": 4,
+      "representative_article": {
+        "title": "산업부, 반도체 메가프로젝트 전담국 ‘반도체혁신성장지원단’ 출범",
+        "link": "https://zdnet.co.kr/view/?no=20261013231255",
+        "source": "ZDNetKorea",
+        "published_dt": "2026-10-13 23:12:55",
+        "match_score": 38.09
+      },
+      "related_articles": [
+        {
+          "title": "산업부, 반도체 메가프로젝트 전담국 ‘반도체혁신성장지원단’ 출범",
+          "link": "https://zdnet.co.kr/view/?no=20261013231255",
+          "source": "ZDNetKorea",
+          "published_dt": "2026-10-13 23:12:55",
+          "match_score": 38.09
+        },
+        {
+          "title": "반도체산업협회, 15일 코엑스서 AI시대 차세대 메모리 기술 포럼",
+          "link": "https://www.yna.co.kr/view/AKR20261013176900003",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-10-13 18:22:31",
+          "match_score": 37.67
+        },
+        {
+          "title": "산업부, 반도체 메가프로젝트 전담국 신설",
+          "link": "https://www.mk.co.kr/news/economy/12174407",
+          "source": "매일경제-경제",
+          "published_dt": "2026-10-13 14:25:47",
+          "match_score": 37.66
+        },
+        {
+          "title": "반도체부터 로봇까지 5대 전시회 하나로…산업부 'K-커넥트 AI' 출범",
+          "link": "https://www.etnews.com/20261013000322",
+          "source": "전자신문",
+          "published_dt": "2026-10-13 15:14:45",
+          "match_score": 37.49
+        },
+        {
+          "title": "[분양 NOW] '반도체 머니'에 동탄 들썩…삼성전자까지 도보 10분",
+          "link": "https://www.mk.co.kr/news/realestate/12174635",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-13 17:01:57",
+          "match_score": 37.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "삼성전자",
+      "score": 50.3,
+      "article_count": 8,
+      "source_count": 7,
+      "categories": [
+        "경제/거시",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "원화값 1330원대 강세…삼성전자 배당·美 금리가 변수",
+        "이재용, 홍라희 주식 1천116만주 증여받아…지분율 1.58→1.75%(종합)",
+        "6.6조원 규모 美 반도체 R&D 거점… 삼성·하이닉스, 창립 파트너로 참여"
+      ],
+      "llm_candidate": false,
+      "rank": 5,
+      "representative_article": {
+        "title": "삼성전자 노하우 전수받는 中企…스마트공장에 AI 접목 추진",
+        "link": "https://www.etnews.com/20261013000327",
+        "source": "전자신문",
+        "published_dt": "2026-10-13 15:21:29",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "삼성전자 노하우 전수받는 中企…스마트공장에 AI 접목 추진",
+          "link": "https://www.etnews.com/20261013000327",
+          "source": "전자신문",
+          "published_dt": "2026-10-13 15:21:29",
+          "match_score": 37.49
+        },
+        {
+          "title": "[분양 NOW] '반도체 머니'에 동탄 들썩…삼성전자까지 도보 10분",
+          "link": "https://www.mk.co.kr/news/realestate/12174635",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-13 17:01:57",
+          "match_score": 37.49
+        },
+        {
+          "title": "삼성전자, HBM5 넘어 CXL·SSD까지…AI 메모리 시장 공략 - 뉴스저널리즘",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBXNzc2dE0wZ01ycURqQVJyemVCYTV6b0NrdUpPTkRpQXdmeGtZVl82eVpKR1lTYlVReGpqanpMV0lqOEVIcW84aTVBYW9Zakd5ZGJCcWxJdUEzOVRBcUVaS0hoTmtYTklkLWFv?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-10-13 11:24:58",
+          "match_score": 36.96
+        },
+        {
+          "title": "삼성전자, OCP서 AI 메모리·스토리지 혁신 전략 공개… AMD와 CXL 맞손 - 디지털데일리",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5mNG9faW9xeVJRZ21VNHFsYjhrNnFnRGxQMmhpaFhMODhhS1IwWGZuZ2g5U0hodnU5Y3dFVFBUTHktQm1KVF9RNlJRTXNnTzVQVDdRVTd0ZmdIdnY2XzhDTTVmUTc?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-10-13 09:59:33",
+          "match_score": 36.96
+        },
+        {
+          "title": "원화값 1330원대 강세…삼성전자 배당·美 금리가 변수",
+          "link": "https://www.mk.co.kr/news/economy/12174187",
+          "source": "매일경제-경제",
+          "published_dt": "2026-10-13 09:52:55",
+          "match_score": 28.66
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "아파트",
+      "score": 23.9,
+      "article_count": 7,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "트리마제·아크로포레 다음은 … 성수 한강변 9000가구 재개발 본궤도",
+        "반포주공1단지 재건축, ‘디에이치 반포124’로 새 이름 확정",
+        "서울아파트 거래 40% '뚝' 전국 거래량도 20% 감소"
+      ],
+      "llm_candidate": false,
+      "rank": 6,
+      "representative_article": {
+        "title": "강남구, 가람아파트 재건축 조합설립인가…수서택지지구 첫 사례 - 강남포스트",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBpSHB3bTBVTlJ3QTFtWTB2aF9KSXlLY3F3ZW5GQ0NfdFpOMVUyWEdJWU53WEtNWU9nR1BZN2gxMjJZRWhtX3M2OUpZWk9RR1UzU0E2MnBFZGZwaGsxU0NuNUU0OHlPQQ?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-10-14 00:46:55",
+        "match_score": 37.71
+      },
+      "related_articles": [
+        {
+          "title": "강남구, 가람아파트 재건축 조합설립인가…수서택지지구 첫 사례 - 강남포스트",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBpSHB3bTBVTlJ3QTFtWTB2aF9KSXlLY3F3ZW5GQ0NfdFpOMVUyWEdJWU53WEtNWU9nR1BZN2gxMjJZRWhtX3M2OUpZWk9RR1UzU0E2MnBFZGZwaGsxU0NuNUU0OHlPQQ?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-10-14 00:46:55",
+          "match_score": 37.71
+        },
+        {
+          "title": "서울아파트 거래 40% '뚝' 전국 거래량도 20% 감소",
+          "link": "https://www.mk.co.kr/news/realestate/12174633",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-13 17:01:57",
+          "match_score": 37.49
+        },
+        {
+          "title": "“지금 서울 아파트값, 평탄화예요? 양극화예요?”…부동산 온도차 커져",
+          "link": "https://www.mk.co.kr/news/realestate/12174206",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-13 10:04:12",
+          "match_score": 37.49
+        },
+        {
+          "title": "“노후 아파트 화재 사각지대 없앤다”…LH ‘간이 스프링클러’ 확산",
+          "link": "https://www.mk.co.kr/news/realestate/12174274",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-13 10:56:03",
+          "match_score": 28.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "부동산",
+      "score": 24.8,
+      "article_count": 6,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "부동산"
+      ],
+      "sample_titles": [
+        "공동명의가 불리할 수도 있다? … 세금폭탄 피하는 1주택자 ‘꿀팁’",
+        "공동명의가 불리할 수도 있다? … 세금폭탄 피하는 1주택자 ‘꿀팁’",
+        "서울아파트 거래 40% '뚝' 전국 거래량도 20% 감소"
+      ],
+      "llm_candidate": false,
+      "rank": 7,
+      "representative_article": {
+        "title": "“지금 서울 아파트값, 평탄화예요? 양극화예요?”…부동산 온도차 커져",
+        "link": "https://www.mk.co.kr/news/realestate/12174206",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-10-13 10:04:12",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "“지금 서울 아파트값, 평탄화예요? 양극화예요?”…부동산 온도차 커져",
+          "link": "https://www.mk.co.kr/news/realestate/12174206",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-13 10:04:12",
+          "match_score": 37.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재건축",
+      "score": 32.0,
+      "article_count": 5,
+      "source_count": 2,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "강남구, 가람아파트 재건축 조합설립인가…수서택지지구 첫 사례 - 강남포스트",
+        "창원 성산 재건축 기대감, 매물 잠기고 집값 뛴다 - 경남신문",
+        "목동 재건축 속도전에…'2만 가구 이주' 서남권 전세난 뇌관 되나 - 아이뉴스24"
+      ],
+      "llm_candidate": false,
+      "rank": 8,
+      "representative_article": {
+        "title": "반포주공1단지 재건축, ‘디에이치 반포124’로 새 이름 확정",
+        "link": "https://www.mk.co.kr/news/realestate/12174350",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-10-13 13:15:39",
+        "match_score": 38.09
+      },
+      "related_articles": [
+        {
+          "title": "반포주공1단지 재건축, ‘디에이치 반포124’로 새 이름 확정",
+          "link": "https://www.mk.co.kr/news/realestate/12174350",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-13 13:15:39",
+          "match_score": 38.09
+        },
+        {
+          "title": "강남구, 가람아파트 재건축 조합설립인가…수서택지지구 첫 사례 - 강남포스트",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBpSHB3bTBVTlJ3QTFtWTB2aF9KSXlLY3F3ZW5GQ0NfdFpOMVUyWEdJWU53WEtNWU9nR1BZN2gxMjJZRWhtX3M2OUpZWk9RR1UzU0E2MnBFZGZwaGsxU0NuNUU0OHlPQQ?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-10-14 00:46:55",
+          "match_score": 37.71
+        },
+        {
+          "title": "창원 성산 재건축 기대감, 매물 잠기고 집값 뛴다 - 경남신문",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAtZmphdWVrOEFtWGUzQkxSOFk3V1dpNEk3eHJwbTJqWWxramstcDJrbUhOQTZZWDlWNVMwNks2VVVIcGgyRXJCMlFaNGNQTGdueTdzOUFQdkRrQQ?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-10-13 19:32:36",
+          "match_score": 37.71
+        },
+        {
+          "title": "목동 재건축 속도전에…'2만 가구 이주' 서남권 전세난 뇌관 되나 - 아이뉴스24",
+          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBmOUtmbnF1NGM4eWZOOG43Z2NueHpZcDEtWWhqQlVId0FfUURJMGtxSHlNcEY1MUNaOE1vdGtoY3psazFOWDJaNjRsNA?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-10-13 17:15:30",
+          "match_score": 37.71
+        },
+        {
+          "title": "“1700가구 분양해도 분담금 4억”···노도강 재건축 딜레마 - 시사저널e",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9iM1RUVnV2b3pQcTlMZ2RyR1R0cUV6MW1XRDRCRGMzME1WZ1dXTy0wdVRBdkp2MnpZR19NTkUtWlByaVB4N3VQaGJrWi11OXNkWTloMWhMb2NvSndHUXgwa1NTRnJoM1ZMTllseXlvRUxnSG9LM0HSAXZBVV95cUxPYjNUVFZ1dm96UHE5TGdkckdUdHFFejFtV0Q0QkRjMzBNVmdXV08tMHVUQXZKdjJ6WUdfTU5FLVpQcmlQeDd1UGhia1otdTlzZFk5aDFoTG9jb0p3R1F4MGtTU0ZyaDNWTE5ZbHl5b0VMZ0hvSzNB?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-10-13 16:44:56",
+          "match_score": 37.71
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "새로운",
+      "score": 20.5,
+      "article_count": 4,
+      "source_count": 3,
+      "categories": [
+        "기업/산업",
+        "부동산",
+        "테크"
+      ],
+      "sample_titles": [
+        "“AI발 기술패권 경쟁 시대, 국가 연구개발 새 판 짜야”…제2차 과학기술 미래포럼",
+        "\"살수록 높아지는 주거가치\"…'호반써밋' 7년 만에 리뉴얼",
+        "호반건설, ‘호반써밋’ 브랜드 리뉴얼…7년만의 새단장"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "오젬픽, 체중감량 뒤에 숨겨진 새로운 위험들 - 사이언스타임즈",
+        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaHJiVnJpc3FDTTNuMG9kLTFfR080cHYxblBZQUN2MG41V0l5OU1Bb2U4TXQ2dWs0MUVlWlh3LWZCVFhVd1J2blVWdkpsS3NRQzBpaFM2SVpQSmlRTHJXUVdPblF6WnVmRzZONG41QWtrNExPc2JLRjFsTVpsWVVScEhXWlV3RjJ3MlphRHdoNA?oc=5",
+        "source": "사이언스타임즈",
+        "published_dt": "2026-01-23 17:00:00",
+        "match_score": 37.34
+      },
+      "related_articles": [
+        {
+          "title": "오젬픽, 체중감량 뒤에 숨겨진 새로운 위험들 - 사이언스타임즈",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaHJiVnJpc3FDTTNuMG9kLTFfR080cHYxblBZQUN2MG41V0l5OU1Bb2U4TXQ2dWs0MUVlWlh3LWZCVFhVd1J2blVWdkpsS3NRQzBpaFM2SVpQSmlRTHJXUVdPblF6WnVmRzZONG41QWtrNExPc2JLRjFsTVpsWVVScEhXWlV3RjJ3MlphRHdoNA?oc=5",
+          "source": "사이언스타임즈",
+          "published_dt": "2026-01-23 17:00:00",
+          "match_score": 37.34
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "코스피",
+      "score": 24.5,
+      "article_count": 4,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "국고채 금리, 코스피 급락·외인 매수에 이틀째 큰 폭 하락",
+        "SK네트웍스 \"업스테이지 주식 200억원에 추가취득\"",
+        "성장률 전망 3.3%로 오른 날, 코스피는 5% 폭락"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "[뉴스줌인]기약 없는 코스피 外人이탈…한 해 200조 팔아치웠다",
+        "link": "https://www.etnews.com/20261013000359",
+        "source": "전자신문",
+        "published_dt": "2026-10-13 15:59:58",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "[뉴스줌인]기약 없는 코스피 外人이탈…한 해 200조 팔아치웠다",
+          "link": "https://www.etnews.com/20261013000359",
+          "source": "전자신문",
+          "published_dt": "2026-10-13 15:59:58",
+          "match_score": 37.49
+        },
+        {
+          "title": "국고채 금리, 코스피 급락·외인 매수에 이틀째 큰 폭 하락",
+          "link": "https://www.yna.co.kr/view/AKR20261013164900008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-10-13 17:16:05",
+          "match_score": 28.68
+        },
+        {
+          "title": "성장률 전망 3.3%로 오른 날, 코스피는 5% 폭락",
+          "link": "https://www.chosun.com/economy/economy_general/2026/10/14/YSYMWHJGKNDR7DWQ7PGQGR453E/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-10-14 00:55:00",
+          "match_score": 28.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
