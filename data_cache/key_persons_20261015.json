@@ -1,0 +1,128 @@
+{
+  "timestamp": "2026-10-15T00:51:46.217398",
+  "date": "20261015",
+  "data": {
+    "김민석": {
+      "articles": [
+        {
+          "title": "교육위서 교부금 개편 도마…여야 '김민석·한동훈 자녀' 겨냥도(종합2보)",
+          "link": "https://www.yna.co.kr/view/AKR20261014088252001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-14 18:57:59",
+          "description": "(서울=연합뉴스) 류미나 이율립 기자 = 국회 교육위원회가 14일 서울·인천·경기 등 수도권 교육청을 대상으로 실시한 국정감사에서는 정부의 지방...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "image_url": "https://img.yna.co.kr/photo/yna/YH/2026/10/14/PYH2026101409050001300_P2.jpg",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "교육위서 교부금 개편 도마…여야 '김민석·한동훈 자녀' 겨냥도(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261014088251001"
+            }
+          ]
+        },
+        {
+          "title": "김민석 “신천지 집단 입당 확인”… 與, 또다시 명청대전",
+          "link": "https://www.chosun.com/politics/assembly/2026/10/15/UJQIENNM5JAEHOVX2HCU6Z72PY/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-10-15 00:47:00",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "image_url": "",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "김민석 \"조희대 잘못에 인내 한계\"…與 \"탄핵배제 안해\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261014044051001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-14 16:47:08",
+          "description": "(서울=연합뉴스) 김남권 안정훈 최주성 기자 = 더불어민주당 김민석 대표는 14일 조희대 대법원장의 대법관 후보자 재제청 거부와 대법관 격려금 ...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "image_url": "https://img.yna.co.kr/photo/yna/YH/2026/10/14/PYH2026101402530001301_P2.jpg",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": true,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "정치인"
+    },
+    "트럼프": {
+      "articles": [
+        {
+          "title": "美 9월 소비자물가 3.7% 상승…이달 금리 인상 확률 22%→46%",
+          "link": "https://www.chosun.com/economy/stock-finance/2026/10/14/P44INEQ37ZEUFFKGCKRHT77JSE/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-10-14 22:19:01",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/economy/?outputType=xml",
+          "image_url": "",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "경제/거시",
+          "is_representative": true,
+          "related_full_sources": [
+            {
+              "source": "키워드-금리환율코스피",
+              "title": "美 9월 소비자물가 3.7% 상승…이달 금리 인상 확률 22%→46% - 조선일보",
+              "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTVBRVHpibUpXclFIRmV3NlRwSmpkVGJzTEFoeEl0WFlPUEVxY3pkdnJocXZfZ3djd0djU3M4Qk5RVjdLRDV4NEs1QWdiSkVwLVRsaDl3dmZ3bHNOUlNKY1AwZWJVRTZUWVEtT1djU2JtY3Roa3Vxd2RPb2QtQmFlcElIc2p6NkcwUk9B?oc=5"
+            }
+          ]
+        },
+        {
+          "title": "美 9월 중고주택 판매 1.5%↑…“대출금리 상승에 회복 제한”",
+          "link": "https://www.donga.com/news/Inter/article/all/20261014/134842649/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-14 17:47:46",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/14/134842650.1.jpg\" vspace=\"10\" />미국 9월 중고주택 판매가 높은 재고 증가로 구매자 선택지가 넓어지면서 시장 예상에 반해 늘어났다.마켓워치와 RTT 뉴스, 인베스팅 닷컴은 14일 미국부동산중개인협회(NAR) 전날 발표를 인용해 9월 중고주택 판매가 계절조정 연율 환산으로 전월 대비 1.5% 늘어난 399만채에 달했다고 전했다.시장에서는 395만채로 예상했는데 실제로는 4만채 웃돌았다. 다만 전년 같은 달에 비해선 2.2% 감소했다.미국 중고주택 판매는 2023년 이래 연율 기준 400만채 수준에서 정체됐다. 코로나19 이전 통상적인 연간 판매량 520만채 안팎과 비교하면 크게 낮은 수준이다.중고주택 판매는 일반적으로 계약 체결이 아닌 실제 거래를 마무리하는 시점을 기준으로 집계한다.NAR 이코노미스트는 “계절조정으로 전월보다 소폭 증가했지만 8월과 9월은 올해 들어 주택 판매가 가장 부진했던 두 달”이라고 지적했다. 그러면서 “지난 수주 동안 모기지 금리가 더 오르면서 주택 구매 대출 심사를 통과할 수",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "image_url": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/14/134842650.1.jpg",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프 ‘마약선’ 공격에도…美·유럽 코카인 공급 사상 최대",
+          "link": "https://www.donga.com/news/Inter/article/all/20261014/134842926/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-14 18:18:01",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/14/134842927.1.jpg\" vspace=\"10\" />도널드 트럼프 미국 행정부가 마약 밀매 의심 선박에 대한 공격을 이어가고 있지만 미국과 유럽으로 들어오는 코카인 공급은 사상 최대 수준을 유지했다는 분석이 나왔다. 밀매 조직이 운송 수법과 경로를 바꾸면서 군사작전의 효과가 제한됐다는 것이다.13일(현지시간) 미 일간 월스트리트저널(WSJ)은 4개 대륙의 수사 당국자들을 인용해 미국과 유럽, 호주까지 기록적인 물량의 코카인이 유입되고 있다고 보도했다. 가격은 떨어지고 순도는 수십 년 만에 가장 높은 수준이라고 전했다.공급 과잉은 가격에서도 드러났다. 미국 마이애미의 올여름 코카인 도매가격은 ㎏당 약 1만6500달러(2208만원)로, 과거 2만2000~2만5000달러(2944만~3346만원) 수준을 밑돌았다. 유럽 일부 도시에서도 ㎏당 4만5000달러(6022만원)였던 가격이 1만6000달러(2141만원)까지 떨어졌다.유럽에서는 순도가 98%에 이르는 사례도 나타났다. 공급이 충분해 판매자들이 다른 물질을 섞어 양을 늘릴 필요가",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "image_url": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/14/134842927.1.jpg",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "미국 대통령"
+    }
+  }
+}

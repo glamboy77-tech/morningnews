@@ -1,0 +1,477 @@
+{
+  "timestamp": "2026-10-15T00:51:51.604420",
+  "date": "20261015",
+  "data": [
+    {
+      "keyword": "재건축",
+      "reason": "광명 하안주공 수주 유력 등 부동산 개발",
+      "score": 44.7,
+      "article_count": 3,
+      "source_count": 3,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "\"재건축 이주가 집값 자극? 실제론 반경 1km·2~3개월 '반짝' 수준”",
+        "전국 재개발·재건축 138곳 공사비 검증 안 받아…특별점검 - 연합뉴스",
+        "IPARK현대산업개발, 광명 하안주공 6·7단지 재건축 수의계약 유력"
+      ],
+      "representative_article": {
+        "title": "IPARK현대산업개발, 광명 하안주공 6·7단지 재건축 수의계약 유력",
+        "link": "https://www.mk.co.kr/news/realestate/12175583",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-10-14 14:43:31",
+        "match_score": 44.7
+      },
+      "related_articles": [
+        {
+          "title": "IPARK현대산업개발, 광명 하안주공 6·7단지 재건축 수의계약 유력",
+          "link": "https://www.mk.co.kr/news/realestate/12175583",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-14 14:43:31",
+          "match_score": 44.7
+        },
+        {
+          "title": "전국 재개발·재건축 138곳 공사비 검증 안 받아…특별점검 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBxZWlLWVFaQWtiRWFGM2RyT0gyTUp5aGpXcUo0QkpmX3J1X05tNkFLd3Q1WEE2bEw3MDFJQlpBU054TmJISHRaSWlmRGNEajNrWE9lSm9FSmlNN09QanNqVdIBYEFVX3lxTFBxZWlLWVFaQWtiRWFGM2RyT0gyTUp5aGpXcUo0QkpmX3J1X05tNkFLd3Q1WEE2bEw3MDFJQlpBU054TmJISHRaSWlmRGNEajNrWE9lSm9FSmlNN09QanNqVQ?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-10-14 15:00:03",
+          "match_score": 39.21
+        },
+        {
+          "title": "\"재건축 이주가 집값 자극? 실제론 반경 1km·2~3개월 '반짝' 수준”",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/10/14/2026101401890.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-10-14 14:22:41",
+          "match_score": 38.69
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "경찰개혁",
+      "reason": "경찰개혁위원회 출범과 개혁안 논의",
+      "score": 39.98,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "정부 경찰개혁위 출범…내년 1분기 종합개혁안 확정(종합)"
+      ],
+      "representative_article": {
+        "title": "정부 경찰개혁위 출범…내년 1분기 종합개혁안 확정(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261014162251001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-10-14 19:49:15",
+        "match_score": 39.98
+      },
+      "related_articles": [
+        {
+          "title": "정부 경찰개혁위 출범…내년 1분기 종합개혁안 확정(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261014162251001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-14 19:49:15",
+          "match_score": 39.98
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "부채비율",
+      "reason": "IMF 한국 부채비율 전망 수정",
+      "score": 38.66,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "IMF \"올 韓부채비율 전망 54%→46%\"",
+        "IMF \"올 韓부채비율 전망 54%→46%\""
+      ],
+      "representative_article": {
+        "title": "IMF \"올 韓부채비율 전망 54%→46%\"",
+        "link": "https://www.mk.co.kr/news/economy/12175949",
+        "source": "매일경제-경제",
+        "published_dt": "2026-10-14 17:38:48",
+        "match_score": 38.66
+      },
+      "related_articles": [
+        {
+          "title": "IMF \"올 韓부채비율 전망 54%→46%\"",
+          "link": "https://www.mk.co.kr/news/economy/12175949",
+          "source": "매일경제-경제",
+          "published_dt": "2026-10-14 17:38:48",
+          "match_score": 38.66
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "신압록강대교",
+      "reason": "12년 만에 개통 소식",
+      "score": 38.5,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "12년 방치됐던 신압록강대교, 15일 개통…북·중 밀착 가속"
+      ],
+      "representative_article": {
+        "title": "12년 방치됐던 신압록강대교, 15일 개통…북·중 밀착 가속",
+        "link": "https://www.donga.com/news/Inter/article/all/20261014/134841264/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-10-14 19:58:00",
+        "match_score": 38.5
+      },
+      "related_articles": [
+        {
+          "title": "12년 방치됐던 신압록강대교, 15일 개통…북·중 밀착 가속",
+          "link": "https://www.donga.com/news/Inter/article/all/20261014/134841264/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-14 19:58:00",
+          "match_score": 38.5
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "구조조정",
+      "reason": "넷플릭스 직원 감원 소식",
+      "score": 42.7,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "넷플릭스, 직원 1000명 감원… 성장 정체에 2022년 이후 최대 구조조정"
+      ],
+      "representative_article": {
+        "title": "넷플릭스, 직원 1000명 감원… 성장 정체에 2022년 이후 최대 구조조정",
+        "link": "https://www.chosun.com/economy/tech_it/2026/10/14/MQ2DMNDDHE4DCODFMIYTIMZQGY/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-10-14 23:48:22",
+        "match_score": 42.7
+      },
+      "related_articles": [
+        {
+          "title": "넷플릭스, 직원 1000명 감원… 성장 정체에 2022년 이후 최대 구조조정",
+          "link": "https://www.chosun.com/economy/tech_it/2026/10/14/MQ2DMNDDHE4DCODFMIYTIMZQGY/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-10-14 23:48:22",
+          "match_score": 42.7
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "부동산",
+      "score": 122.6,
+      "article_count": 23,
+      "source_count": 2,
+      "categories": [
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "\"관리비 줄이고 용적률 더 받아\" 친환경 설계가 돈 벌어주는 시대",
+        "트리마제·아크로포레 다음은…성수 한강변 9000가구 재개발 본궤도 [부동산 심머니]",
+        "PF보증 수도권만 몰리고 … 돈 급한 지방은 찬밥"
+      ],
+      "llm_candidate": false,
+      "rank": 6,
+      "representative_article": {
+        "title": "용산구 삼성래미안 114.99㎡ 21억 8천만원… 최근 3년 신고가 [MAI부동산]",
+        "link": "https://www.mk.co.kr/news/realestate/12175175",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-10-14 09:12:15",
+        "match_score": 38.09
+      },
+      "related_articles": [
+        {
+          "title": "용산구 삼성래미안 114.99㎡ 21억 8천만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12175175",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-14 09:12:15",
+          "match_score": 38.09
+        },
+        {
+          "title": "“이 동네 부동산 근저당 왜 이리 늘었지?”…3분기 서울 강동구 6492건",
+          "link": "https://www.mk.co.kr/news/realestate/12175274",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-14 09:41:28",
+          "match_score": 37.49
+        },
+        {
+          "title": "강북구 벽산라이브파크 84.89㎡ 8억 3천만원 거래… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12175183",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-14 09:12:15",
+          "match_score": 37.49
+        },
+        {
+          "title": "성북구 보문동3가 현대I-PARK 84.57㎡ 12억 9천만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12175182",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-14 09:12:15",
+          "match_score": 37.49
+        },
+        {
+          "title": "성북구 돈암동 길음역금호어울림센터힐 59.84㎡ 11억 4천만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12175181",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-14 09:12:15",
+          "match_score": 37.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "국토부",
+      "score": 60.1,
+      "article_count": 17,
+      "source_count": 3,
+      "categories": [
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "산림청, 국토부와 소나무재선충 피해목 신속 제거 협의",
+        "\"정비사업 10km룰이 뭐길래\"…국토부 또 서울시 주택공급 발목잡나",
+        "용산구 삼성래미안 114.99㎡ 21억 8천만원… 최근 3년 신고가 [MAI부동산]"
+      ],
+      "llm_candidate": false,
+      "rank": 7,
+      "representative_article": {
+        "title": "\"공급 목표만 거창\" 文정부 국토부 장관도, 이재명표 주택정책 작심 비판",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/10/14/2026101401879.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-10-14 14:20:59",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "\"공급 목표만 거창\" 文정부 국토부 장관도, 이재명표 주택정책 작심 비판",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/10/14/2026101401879.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-10-14 14:20:59",
+          "match_score": 37.49
+        },
+        {
+          "title": "\"정비사업 10km룰이 뭐길래\"…국토부 또 서울시 주택공급 발목잡나",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/10/14/2026101402667.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-10-14 18:13:15",
+          "match_score": 29.09
+        },
+        {
+          "title": "산림청, 국토부와 소나무재선충 피해목 신속 제거 협의",
+          "link": "https://www.yna.co.kr/view/AKR20261014149600063",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-10-14 16:33:59",
+          "match_score": 28.68
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "신고가",
+      "score": 92.8,
+      "article_count": 17,
+      "source_count": 2,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "\"17평이 7억 돌파\" 신고가 속출하는 '노·도·강'…강남·서초는 하락",
+        "용산구 삼성래미안 114.99㎡ 21억 8천만원… 최근 3년 신고가 [MAI부동산]",
+        "강북구 벽산라이브파크 84.89㎡ 8억 3천만원 거래… 최근 3년 신고가 [MAI부동산]"
+      ],
+      "llm_candidate": false,
+      "rank": 8,
+      "representative_article": {
+        "title": "\"17평이 7억 돌파\" 신고가 속출하는 '노·도·강'…강남·서초는 하락",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/10/14/2026101402417.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-10-14 18:53:48",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "\"17평이 7억 돌파\" 신고가 속출하는 '노·도·강'…강남·서초는 하락",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/10/14/2026101402417.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-10-14 18:53:48",
+          "match_score": 37.49
+        },
+        {
+          "title": "성북구 보문동3가 현대I-PARK 84.57㎡ 12억 9천만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12175182",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-14 09:12:15",
+          "match_score": 37.49
+        },
+        {
+          "title": "중랑구 면목동 현대 84.81㎡ 9억 1500만원 거래…최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12175178",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-14 09:12:15",
+          "match_score": 37.49
+        },
+        {
+          "title": "성동구 성수동1가 쌍용 84.78㎡ 22억 2500만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12175176",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-14 09:12:15",
+          "match_score": 37.49
+        },
+        {
+          "title": "중구 신당동 삼성 114.91㎡ 18억 5천만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12175174",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-14 09:12:15",
+          "match_score": 37.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "MAI",
+      "score": 94.9,
+      "article_count": 16,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "용산구 삼성래미안 114.99㎡ 21억 8천만원… 최근 3년 신고가 [MAI부동산]",
+        "강북구 벽산라이브파크 84.89㎡ 8억 3천만원 거래… 최근 3년 신고가 [MAI부동산]",
+        "성북구 보문동3가 현대I-PARK 84.57㎡ 12억 9천만원… 최근 3년 신고가 [MAI부동산]"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "용산구 삼성래미안 114.99㎡ 21억 8천만원… 최근 3년 신고가 [MAI부동산]",
+        "link": "https://www.mk.co.kr/news/realestate/12175175",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-10-14 09:12:15",
+        "match_score": 38.09
+      },
+      "related_articles": [
+        {
+          "title": "용산구 삼성래미안 114.99㎡ 21억 8천만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12175175",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-14 09:12:15",
+          "match_score": 38.09
+        },
+        {
+          "title": "강북구 벽산라이브파크 84.89㎡ 8억 3천만원 거래… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12175183",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-14 09:12:15",
+          "match_score": 37.49
+        },
+        {
+          "title": "성북구 보문동3가 현대I-PARK 84.57㎡ 12억 9천만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12175182",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-14 09:12:15",
+          "match_score": 37.49
+        },
+        {
+          "title": "성북구 돈암동 길음역금호어울림센터힐 59.84㎡ 11억 4천만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12175181",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-14 09:12:15",
+          "match_score": 37.49
+        },
+        {
+          "title": "중랑구 신내동 동성1 6억8천만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12175180",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-14 09:12:15",
+          "match_score": 37.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "아파트",
+      "score": 47.4,
+      "article_count": 13,
+      "source_count": 2,
+      "categories": [
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "\"아파트 주차도 로봇 시대\"…신축·정비사업서 도입 검토 늘어",
+        "트리마제·아크로포레 다음은…성수 한강변 9000가구 재개발 본궤도 [부동산 심머니]",
+        "서울 분양가 너무 비싸 … 청약 80% 소형에 쏠려"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "\"아파트 주차도 로봇 시대\"…신축·정비사업서 도입 검토 늘어",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/10/14/2026101401282.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-10-14 10:55:00",
+        "match_score": 38.09
+      },
+      "related_articles": [
+        {
+          "title": "\"아파트 주차도 로봇 시대\"…신축·정비사업서 도입 검토 늘어",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/10/14/2026101401282.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-10-14 10:55:00",
+          "match_score": 38.09
+        },
+        {
+          "title": "“9개월 새 1억2000만원 껑충, 서울 안 부럽다”…아파트값 뛴 경기도 어디?",
+          "link": "https://www.mk.co.kr/news/realestate/12175593",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-14 14:46:30",
+          "match_score": 37.49
+        },
+        {
+          "title": "중랑구 상봉동 엘지,쌍용아파트 68.12㎡ 8억 5천만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12175179",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-14 09:12:15",
+          "match_score": 37.49
+        },
+        {
+          "title": "구로구 개봉동 삼환아파트 59.4㎡ 7억 4천만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12175163",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-14 09:11:24",
+          "match_score": 37.49
+        },
+        {
+          "title": "구로구 삼환아파트 84.945㎡ 9억원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12175162",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-14 09:11:24",
+          "match_score": 37.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
