@@ -1,0 +1,471 @@
+{
+  "timestamp": "2026-10-16T06:01:40.068386",
+  "date": "20261016",
+  "data": [
+    {
+      "keyword": "중수청",
+      "reason": "김지용 임명 및 관련 국감",
+      "score": 31.07,
+      "article_count": 3,
+      "source_count": 2,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "[속보] 李대통령, 김지용 중수청장 임명안 재가",
+        "김지용 초대 중수청장… 李대통령, 임명안 재가",
+        "김지용 초대 중수청장… 李대통령, 임명안 재가"
+      ],
+      "representative_article": {
+        "title": "[속보] 李대통령, 김지용 중수청장 임명안 재가",
+        "link": "https://www.yna.co.kr/view/AKR20261015172900001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-10-15 19:26:08",
+        "match_score": 31.07
+      },
+      "related_articles": [
+        {
+          "title": "[속보] 李대통령, 김지용 중수청장 임명안 재가",
+          "link": "https://www.yna.co.kr/view/AKR20261015172900001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-15 19:26:08",
+          "match_score": 31.07
+        },
+        {
+          "title": "김지용 초대 중수청장… 李대통령, 임명안 재가",
+          "link": "https://www.chosun.com/politics/politics_general/2026/10/16/5AZ5QLQYCFCM5NFFYTXRJEIPAE/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-10-16 00:40:00",
+          "match_score": 30.7
+        },
+        {
+          "title": "李대통령, 김지용 중수청장  임명안 재가",
+          "link": "https://www.chosun.com/politics/politics_general/2026/10/15/P4OOXKXUJREX3BIXK3TCDG4RUE/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-10-15 19:51:03",
+          "match_score": 30.7
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "통화스와프",
+      "reason": "한일 100억 달러 연장 합의",
+      "score": 42.1,
+      "article_count": 4,
+      "source_count": 2,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "한일 재무장관, 100억달러 규모 통화스와프 3년 연장 합의",
+        "韓-日, 100억 달러 통화스와프 3년 연장 합의",
+        "한일 재무장관, 100억달러 규모 통화스와프 3년 연장 합의"
+      ],
+      "representative_article": {
+        "title": "한일 재무장관, 100억달러 규모 통화스와프 3년 연장 합의",
+        "link": "https://www.donga.com/news/Inter/article/all/20261015/134849579/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-10-15 17:24:00",
+        "match_score": 42.1
+      },
+      "related_articles": [
+        {
+          "title": "한일 재무장관, 100억달러 규모 통화스와프 3년 연장 합의",
+          "link": "https://www.donga.com/news/Inter/article/all/20261015/134849579/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-15 17:24:00",
+          "match_score": 42.1
+        },
+        {
+          "title": "[속보]한일 재무장관, 100억 달러 규모 통화스와프 연장 합의",
+          "link": "https://www.donga.com/news/Economy/article/all/20261015/134849488/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-15 17:13:00",
+          "match_score": 42.1
+        },
+        {
+          "title": "韓-日, 100억 달러 통화스와프 3년 연장 합의",
+          "link": "https://www.donga.com/news/Economy/article/all/20261015/134850577/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-16 00:30:00",
+          "match_score": 41.2
+        },
+        {
+          "title": "한일 재무장관, 100억달러 규모 통화스와프 3년 연장 합의",
+          "link": "https://www.yna.co.kr/view/AKR20261015149500002",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-15 17:00:15",
+          "match_score": 40.63
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "GTX",
+      "reason": "부동산 개발과 갈등 해법 논의",
+      "score": 40.11,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "GTX-B 청학역 변전소 갈등 해법 찾나…주민 수용성 확보 관건 - 기호일보",
+        "GTX 개통, 부동산 영향 얼마나? - KBS 뉴스"
+      ],
+      "representative_article": {
+        "title": "GTX-B 청학역 변전소 갈등 해법 찾나…주민 수용성 확보 관건 - 기호일보",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE10RTVidlgtaU9FYzdPQUlvQTlxLU9QZk5iY0hfYzlvRVM3MnBLLXlSSGhJX2JDQ3hqdzR5Zks3a2VSR2ZOS3NhT1NvYktQZnE0bzFfdl9uT281UzNibUlVeXpPeFJZbVQ3dDhsR1hNbw?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-10-16 04:50:28",
+        "match_score": 40.11
+      },
+      "related_articles": [
+        {
+          "title": "GTX-B 청학역 변전소 갈등 해법 찾나…주민 수용성 확보 관건 - 기호일보",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE10RTVidlgtaU9FYzdPQUlvQTlxLU9QZk5iY0hfYzlvRVM3MnBLLXlSSGhJX2JDQ3hqdzR5Zks3a2VSR2ZOS3NhT1NvYktQZnE0bzFfdl9uT281UzNibUlVeXpPeFJZbVQ3dDhsR1hNbw?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-10-16 04:50:28",
+          "match_score": 40.11
+        },
+        {
+          "title": "GTX 개통, 부동산 영향 얼마나? - KBS 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBHQ3BuWUUwZzVZY2NWQ0FEcmZzTUdFTFhpYTBXV0x4eEoxOEdxaFFOU2FuMXRUS3hHcU9TblFvSzFOMmVrdTJhdVNXczMtWWNSY3p2NV9fWVBVNFk?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-10-15 23:49:00",
+          "match_score": 38.91
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI 보안",
+      "reason": "코히어 스타트업 인수",
+      "score": 34.9,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "코히어, AI 보안 스타트업 AISLE 인수",
+        "코히어, AI 보안 스타트업 AISLE 인수",
+        "코히어, AI 보안 스타트업 AISLE 인수"
+      ],
+      "representative_article": {
+        "title": "코히어, AI 보안 스타트업 AISLE 인수",
+        "link": "https://www.chosun.com/economy/tech_it/2026/10/15/GE3GENLEME2DINRVMI3TOMBRHE/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-10-15 23:15:00",
+        "match_score": 34.9
+      },
+      "related_articles": [
+        {
+          "title": "코히어, AI 보안 스타트업 AISLE 인수",
+          "link": "https://www.chosun.com/economy/tech_it/2026/10/15/GE3GENLEME2DINRVMI3TOMBRHE/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-10-15 23:15:00",
+          "match_score": 34.9
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "반도체",
+      "score": 81.4,
+      "article_count": 14,
+      "source_count": 8,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "원자 바꿔 2D 반도체 소재 자유자재로…차세대 고성능 소자 구현",
+        "삼전닉스에 ‘발목’… 주요 반도체 ETF 수익률 줄줄이 하위권",
+        "“반도체에 큰절 한번씩 해야겠네”…올해 적자 43조 ‘8년 만에 최소’"
+      ],
+      "llm_candidate": false,
+      "rank": 5,
+      "representative_article": {
+        "title": "IBS, 0.7nm급 차세대 반도체 소자 제작 기술 개발…'사이언스' 실려",
+        "link": "https://zdnet.co.kr/view/?no=20261015135222",
+        "source": "ZDNetKorea",
+        "published_dt": "2026-10-16 03:00:02",
+        "match_score": 38.09
+      },
+      "related_articles": [
+        {
+          "title": "IBS, 0.7nm급 차세대 반도체 소자 제작 기술 개발…'사이언스' 실려",
+          "link": "https://zdnet.co.kr/view/?no=20261015135222",
+          "source": "ZDNetKorea",
+          "published_dt": "2026-10-16 03:00:02",
+          "match_score": 38.09
+        },
+        {
+          "title": "광주 군공항 간 국토장관 \"반도체 산단 유례없는 속도로 조성\"",
+          "link": "https://www.yna.co.kr/view/AKR20261015156100003",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-15 17:14:50",
+          "match_score": 37.98
+        },
+        {
+          "title": "원자 바꿔 2D 반도체 소재 자유자재로…차세대 고성능 소자 구현",
+          "link": "https://www.yna.co.kr/view/AKR20261015151700017",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-10-16 03:00:00",
+          "match_score": 37.67
+        },
+        {
+          "title": "“반도체에 큰절 한번씩 해야겠네”…올해 적자 43조 ‘8년 만에 최소’",
+          "link": "https://www.mk.co.kr/news/economy/12176503",
+          "source": "매일경제-경제",
+          "published_dt": "2026-10-15 10:33:52",
+          "match_score": 37.66
+        },
+        {
+          "title": "용인특례시, 철도기금 1조원 조성…반도체 세수 활용",
+          "link": "https://www.mk.co.kr/news/economy/12176915",
+          "source": "매일경제-경제",
+          "published_dt": "2026-10-15 17:04:26",
+          "match_score": 37.66
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "트럼프",
+      "score": 45.0,
+      "article_count": 10,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "국제"
+      ],
+      "sample_titles": [
+        "[단독] 韓, 알래스카 LNG사업 稅감면 요청",
+        "[단독] 韓, 연간 최대 1조원 알래스카 LNG 재산세 ‘감면 요청’",
+        "트럼프 “총기난사범 총살 생중계 안해…집행은 예정대로”"
+      ],
+      "llm_candidate": false,
+      "rank": 6,
+      "representative_article": {
+        "title": "트럼프 “총기난사범 총살 생중계 안해…집행은 예정대로”",
+        "link": "https://www.donga.com/news/Inter/article/all/20261016/134852082/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-10-16 00:36:06",
+        "match_score": 37.3
+      },
+      "related_articles": [
+        {
+          "title": "트럼프 “총기난사범 총살 생중계 안해…집행은 예정대로”",
+          "link": "https://www.donga.com/news/Inter/article/all/20261016/134852082/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-16 00:36:06",
+          "match_score": 37.3
+        },
+        {
+          "title": "“트럼프·푸틴 ‘경유 딜’ 역부족…중동발 공급 차질의 10분의 1”",
+          "link": "https://www.donga.com/news/Inter/article/all/20261015/134847820/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-15 15:17:43",
+          "match_score": 37.3
+        },
+        {
+          "title": "트럼프 “‘이란 공습’ 누설보도에 작전 차질…유출자 총살해야”",
+          "link": "https://www.donga.com/news/Inter/article/all/20261015/134845545/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-15 10:05:22",
+          "match_score": 37.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "정부가",
+      "score": 36.7,
+      "article_count": 9,
+      "source_count": 5,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "부동산",
+        "정치"
+      ],
+      "sample_titles": [
+        "전작권 전환 문턱높이는 美…협의 난항에 톱다운 돌파 시도하나(종합)",
+        "李대통령 \"브라질달걀 소량·시험적 수입…'800억 낭비' 허위사실\"",
+        "[단독] 韓, 알래스카 LNG사업 稅감면 요청"
+      ],
+      "llm_candidate": false,
+      "rank": 7,
+      "representative_article": {
+        "title": "'전세지옥에서 살아남는 법'..규제 만능주의 정부가 만든 각자도생의 생존법",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/10/15/2026101501876.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-10-15 15:25:02",
+        "match_score": 28.49
+      },
+      "related_articles": [
+        {
+          "title": "'전세지옥에서 살아남는 법'..규제 만능주의 정부가 만든 각자도생의 생존법",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/10/15/2026101501876.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-10-15 15:25:02",
+          "match_score": 28.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "새로운",
+      "score": 32.8,
+      "article_count": 7,
+      "source_count": 4,
+      "categories": [
+        "국제",
+        "기업/산업",
+        "테크"
+      ],
+      "sample_titles": [
+        "'사이버펑크 엣지러너 2' 제작진 \"전작과 다른 새로운 도전\"",
+        "한국GM, 부평 트레이닝 센터 첫 공개…“전동화 車 AS 인력 키우고 거점 마련”",
+        "브런슨 “전작권 전환 조건 변해”… 韓국방부 “골대 계속 옮겨”"
+      ],
+      "llm_candidate": false,
+      "rank": 8,
+      "representative_article": {
+        "title": "'사이버펑크 엣지러너 2' 제작진 \"전작과 다른 새로운 도전\"",
+        "link": "https://www.yna.co.kr/view/AKR20261015169600017",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-10-15 19:03:44",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "'사이버펑크 엣지러너 2' 제작진 \"전작과 다른 새로운 도전\"",
+          "link": "https://www.yna.co.kr/view/AKR20261015169600017",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-10-15 19:03:44",
+          "match_score": 37.67
+        },
+        {
+          "title": "오젬픽, 체중감량 뒤에 숨겨진 새로운 위험들 - 사이언스타임즈",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaHJiVnJpc3FDTTNuMG9kLTFfR080cHYxblBZQUN2MG41V0l5OU1Bb2U4TXQ2dWs0MUVlWlh3LWZCVFhVd1J2blVWdkpsS3NRQzBpaFM2SVpQSmlRTHJXUVdPblF6WnVmRzZONG41QWtrNExPc2JLRjFsTVpsWVVScEhXWlV3RjJ3MlphRHdoNA?oc=5",
+          "source": "사이언스타임즈",
+          "published_dt": "2026-01-23 17:00:00",
+          "match_score": 37.34
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "국민의힘",
+      "score": 53.5,
+      "article_count": 7,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "부동산",
+        "정치"
+      ],
+      "sample_titles": [
+        "국힘 최고위서 '용인갑 조직위원장 경선 논란'에 고성 충돌(종합)",
+        "국힘 최고위 'ARS 오류' 충돌…張 \"지도부 흔들기 정도껏\" 격노(종합2보)",
+        "與 \"낙하산\"·국힘 \"前정권 찍어내기\"…KISA원장 거취 공방"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "국민의힘 강원 \"선거 전후 말 바꾸기…우상호 지사는 해명하라\"",
+        "link": "https://www.yna.co.kr/view/AKR20261015154900062",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-10-15 17:07:00",
+        "match_score": 29.68
+      },
+      "related_articles": [
+        {
+          "title": "국민의힘 강원 \"선거 전후 말 바꾸기…우상호 지사는 해명하라\"",
+          "link": "https://www.yna.co.kr/view/AKR20261015154900062",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-15 17:07:00",
+          "match_score": 29.68
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "아파트",
+      "score": 38.9,
+      "article_count": 6,
+      "source_count": 3,
+      "categories": [
+        "국제",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "밤마다 아파트 순찰…사람 대신하는 '로봇 경비견'",
+        "밤마다 아파트 순찰…사람 대신하는 '로봇 경비견'",
+        "오세훈 “서울 외곽 집값 상승, 실거주 정책 탓... 공급 이어갈 것”"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "‘여의도 대장’ 시범아파트 재건축 사업시행인가…속도내는 여의도",
+        "link": "https://www.mk.co.kr/news/realestate/12176545",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-10-15 10:58:54",
+        "match_score": 38.09
+      },
+      "related_articles": [
+        {
+          "title": "‘여의도 대장’ 시범아파트 재건축 사업시행인가…속도내는 여의도",
+          "link": "https://www.mk.co.kr/news/realestate/12176545",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-15 10:58:54",
+          "match_score": 38.09
+        },
+        {
+          "title": "20년 넘게 제자리걸음 ‘단계주공아파트 재건축’ 본격화 - 강원일보",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1mUkRjQUpJWEVYZU90TUlOMElaTG5hU2hUTEdINDRzck5WUmMzTFNmRFJ4Y05Od1hDV2UtTzBCdEtjZkNIV3drenZDcXhLRy1VUG9yS01BME9OTkU?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-10-16 00:05:00",
+          "match_score": 37.71
+        },
+        {
+          "title": "‘재건축 1번지’ 분당, 소형아파트 평당 1억 넘었다 - 조선비즈 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdHA0Smd6QnVXLWpoaklPWWFNY3JmMEFKc3J3bWFNeVptWVFNLVRmNHRpeDYtdy0wTi1Xa1ZiQUZvYjhZQ1NyUlpRelo2LWhDXzlrMFNlSjQ4QXpyOC13WHZXZGw2SFZXbkktYWplZzVDa2J0NFpyZW15c2hDVHpVZC1vSTZrUk83eC1xR3V4R2VuWl9TNFhPcNIBrAFBVV95cUxQeFlKWVBRci15SGZrVEJWZ1ZMRmJBWlFOQ0J2engtZHpCRXYwV2VPVEhrV0hyQ2xYQUdKM0c5WVZWbWtWRTNiMTRjVGhMNzNMWjhlLUd4ODY3X2lET1hiTmVrLV9JalVJWEJZUDFyMTdEVWFBY0VqclctbXd6TFpwdWNva0xYQ0loUGsyNkRwSzlqajRKQjBjY2ZHcjVJRjJtUTdXQm95RUxOOFEx?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-10-15 11:07:00",
+          "match_score": 37.71
+        },
+        {
+          "title": "밤마다 아파트 순찰…사람 대신하는 '로봇 경비견'",
+          "link": "https://www.etnews.com/20261015000406",
+          "source": "전자신문",
+          "published_dt": "2026-10-15 22:30:00",
+          "match_score": 37.49
+        },
+        {
+          "title": "상봉·돈암 20평 아파트마저…이젠 10억",
+          "link": "https://www.mk.co.kr/news/realestate/12176934",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-15 17:16:23",
+          "match_score": 37.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
