@@ -1,0 +1,99 @@
+{
+  "timestamp": "2026-10-17T06:01:53.226940",
+  "date": "20261017",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "한동훈 \"브라질 계란, 李대통령 '룰라 선물'\"…외교부 반박(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261016141751001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-16 18:41:27",
+          "description": "(서울=연합뉴스) 박수윤 김지헌 기자 = 무소속 한동훈 의원은 15일(현지시간) 정부가 브라질산 계란을 비싼 값에 들여와 혈세를 낭비했다는 일각...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "image_url": "https://img.yna.co.kr/etc/inner/KR/2026/10/16/AKR20261016141751001_01_i_P2.jpg",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "deduped_sources": [
+            {
+              "source": "연합뉴스-산업",
+              "title": "한동훈 \"브라질 계란, 李대통령 '룰라 선물'\"…외교부 반박(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261016141751001"
+            }
+          ],
+          "priority_score": 3,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": false,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "한동훈, 브라질 국감서 \"계란수입, 李대통령 '룰라 선물' 의심\"",
+              "link": "https://www.yna.co.kr/view/AKR20261016141700001"
+            }
+          ]
+        },
+        {
+          "title": "李대통령, 부상 소방관·장병 쾌유기원…\"헌신에 천금 아깝겠나\"",
+          "link": "https://www.yna.co.kr/view/AKR20261016158100001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-16 20:03:33",
+          "description": "(서울=연합뉴스) 설승은 기자 = 이재명 대통령은 16일 부천 공장 화재를 진압하다 중경상을 입은 소방관들과 비무장지대(DMZ)에서 북한군 지뢰...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "image_url": "https://img.yna.co.kr/photo/yna/YH/2026/10/16/PYH2026101618020001300_P2.jpg",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "'李대통령 재판중단 불법인가'…서울고법원장 \"헌법조항 근거\"(종합2보)",
+          "link": "https://www.yna.co.kr/view/AKR20261016067152004",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-16 17:23:47",
+          "description": "(서울=연합뉴스) 이밝음 기자 = 김대웅 서울고등법원장이 이재명 대통령 사건의 재판이 중단된 것과 관련해 &quot;헌법 조항에 근거했다&quot;며 위법이 아니...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "image_url": "https://img.yna.co.kr/photo/yna/YH/2026/10/16/PYH2026101604090001301_P2.jpg",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 \"부마항쟁과 5·18, 헌법에 담아야\"…개헌 논의 요청(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261016101951001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-16 15:26:54",
+          "description": "(서울=연합뉴스) 임형섭 기자 = 이재명 대통령은 16일 &quot;부마 민주항쟁과 광주 민주화 운동을 헌법 전문에 담아내는 일은 대한민국의 민주주의와 ...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "image_url": "https://img.yna.co.kr/photo/yna/YH/2026/10/16/PYH2026101611630001300_P2.jpg",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "입법/정책",
+          "is_representative": true,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "李대통령 \"부마항쟁과 5·18, 헌법에 담아야\"…개헌 논의 요청",
+              "link": "https://www.yna.co.kr/view/AKR20261016101900001"
+            }
+          ]
+        }
+      ],
+      "count": 4,
+      "role": "한국 대통령"
+    }
+  }
+}

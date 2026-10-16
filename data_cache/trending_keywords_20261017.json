@@ -1,0 +1,485 @@
+{
+  "timestamp": "2026-10-17T06:01:58.152127",
+  "date": "20261017",
+  "data": [
+    {
+      "keyword": "재건축",
+      "reason": "여의도 시범아파트 인가, 서울 주택시장 언급",
+      "score": 43.11,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제",
+        "부동산"
+      ],
+      "sample_titles": [
+        "여의도 시범아파트, 재건축 사업시행인가 받았다 - 한국주택경제신문",
+        "여의도 시범아파트, 재건축 사업시행인가 받았다 - 한국주택경제신문"
+      ],
+      "representative_article": {
+        "title": "여의도 시범아파트, 재건축 사업시행인가 받았다 - 한국주택경제신문",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5xSzhtU2dyZkJpMzZiS2UxcTM1QUFOY1VsN0JOTmZzanB5Q3pjaUJXN0ZRcTdtRnN2QktKUmhzZktYX0FwQnBtOFdIOFRJLTBtU092RlVjNjVTVFc1MzBaMmVLN1EyRnNK?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-10-16 14:20:27",
+        "match_score": 43.11
+      },
+      "related_articles": [
+        {
+          "title": "여의도 시범아파트, 재건축 사업시행인가 받았다 - 한국주택경제신문",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5xSzhtU2dyZkJpMzZiS2UxcTM1QUFOY1VsN0JOTmZzanB5Q3pjaUJXN0ZRcTdtRnN2QktKUmhzZktYX0FwQnBtOFdIOFRJLTBtU092RlVjNjVTVFc1MzBaMmVLN1EyRnNK?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-10-16 14:20:27",
+          "match_score": 43.11
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "시스템",
+      "score": 65.3,
+      "article_count": 20,
+      "source_count": 3,
+      "categories": [
+        "국제",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "건보공단, 비대면진료 시스템 구축 추진…AI·돌봄 서비스 확대",
+        "용산구 한남동 나인원한남 262억원 거래… 서울 아파트 실거래가 [MAI부동산]",
+        "동작구 동작협성휴포레시그니처 84.9869㎡ 14억 3천만원 최근 3년 신고가 [MAI부동산]"
+      ],
+      "llm_candidate": false,
+      "rank": 2,
+      "representative_article": {
+        "title": "한화시스템, 한화오션 지분 7.2% 유동화…1조4천억원 조달(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261016164500003",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-10-16 18:37:55",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "한화시스템, 한화오션 지분 7.2% 유동화…1조4천억원 조달(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261016164500003",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-10-16 18:37:55",
+          "match_score": 37.67
+        },
+        {
+          "title": "건보공단, 비대면진료 시스템 구축 추진…AI·돌봄 서비스 확대",
+          "link": "https://www.etnews.com/20261016000197",
+          "source": "전자신문",
+          "published_dt": "2026-10-16 13:55:52",
+          "match_score": 37.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "부동산",
+      "score": 106.5,
+      "article_count": 18,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "용산구 한남동 나인원한남 262억원 거래… 서울 아파트 실거래가 [MAI부동산]",
+        "동작구 동작협성휴포레시그니처 84.9869㎡ 14억 3천만원 최근 3년 신고가 [MAI부동산]",
+        "동작구 상도동 동원베네스트 84.958㎡ 16억 3천만원… 최근 3년 신고가 [MAI부동산]"
+      ],
+      "llm_candidate": false,
+      "rank": 3,
+      "representative_article": {
+        "title": "용산구 한남동 나인원한남 262억원 거래… 서울 아파트 실거래가 [MAI부동산]",
+        "link": "https://www.mk.co.kr/news/realestate/12177461",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-10-16 09:20:23",
+        "match_score": 38.09
+      },
+      "related_articles": [
+        {
+          "title": "용산구 한남동 나인원한남 262억원 거래… 서울 아파트 실거래가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12177461",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-16 09:20:23",
+          "match_score": 38.09
+        },
+        {
+          "title": "동작구 동작협성휴포레시그니처 84.9869㎡ 14억 3천만원 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12177478",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-16 09:20:24",
+          "match_score": 37.49
+        },
+        {
+          "title": "동작구 상도동 동원베네스트 84.958㎡ 16억 3천만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12177477",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-16 09:20:24",
+          "match_score": 37.49
+        },
+        {
+          "title": "영등포구 대림동 우성1 62.37㎡ 8억 4천만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12177476",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-16 09:20:24",
+          "match_score": 37.49
+        },
+        {
+          "title": "영등포구 당산삼성래미안4차 84.94㎡ 23억 5천만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12177475",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-16 09:20:24",
+          "match_score": 37.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "MAI",
+      "score": 106.5,
+      "article_count": 18,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "용산구 한남동 나인원한남 262억원 거래… 서울 아파트 실거래가 [MAI부동산]",
+        "동작구 동작협성휴포레시그니처 84.9869㎡ 14억 3천만원 최근 3년 신고가 [MAI부동산]",
+        "동작구 상도동 동원베네스트 84.958㎡ 16억 3천만원… 최근 3년 신고가 [MAI부동산]"
+      ],
+      "llm_candidate": false,
+      "rank": 4,
+      "representative_article": {
+        "title": "용산구 한남동 나인원한남 262억원 거래… 서울 아파트 실거래가 [MAI부동산]",
+        "link": "https://www.mk.co.kr/news/realestate/12177461",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-10-16 09:20:23",
+        "match_score": 38.09
+      },
+      "related_articles": [
+        {
+          "title": "용산구 한남동 나인원한남 262억원 거래… 서울 아파트 실거래가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12177461",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-16 09:20:23",
+          "match_score": 38.09
+        },
+        {
+          "title": "동작구 동작협성휴포레시그니처 84.9869㎡ 14억 3천만원 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12177478",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-16 09:20:24",
+          "match_score": 37.49
+        },
+        {
+          "title": "동작구 상도동 동원베네스트 84.958㎡ 16억 3천만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12177477",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-16 09:20:24",
+          "match_score": 37.49
+        },
+        {
+          "title": "영등포구 대림동 우성1 62.37㎡ 8억 4천만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12177476",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-16 09:20:24",
+          "match_score": 37.49
+        },
+        {
+          "title": "영등포구 당산삼성래미안4차 84.94㎡ 23억 5천만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12177475",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-16 09:20:24",
+          "match_score": 37.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "실거래",
+      "score": 55.5,
+      "article_count": 18,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "용산구 한남동 나인원한남 262억원 거래… 서울 아파트 실거래가 [MAI부동산]",
+        "동작구 동작협성휴포레시그니처 84.9869㎡ 14억 3천만원 최근 3년 신고가 [MAI부동산]",
+        "동작구 상도동 동원베네스트 84.958㎡ 16억 3천만원… 최근 3년 신고가 [MAI부동산]"
+      ],
+      "llm_candidate": false,
+      "rank": 5,
+      "representative_article": {
+        "title": "용산구 한남동 나인원한남 262억원 거래… 서울 아파트 실거래가 [MAI부동산]",
+        "link": "https://www.mk.co.kr/news/realestate/12177461",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-10-16 09:20:23",
+        "match_score": 38.09
+      },
+      "related_articles": [
+        {
+          "title": "용산구 한남동 나인원한남 262억원 거래… 서울 아파트 실거래가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12177461",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-16 09:20:23",
+          "match_score": 38.09
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "신고가",
+      "score": 93.5,
+      "article_count": 17,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "동작구 동작협성휴포레시그니처 84.9869㎡ 14억 3천만원 최근 3년 신고가 [MAI부동산]",
+        "동작구 상도동 동원베네스트 84.958㎡ 16억 3천만원… 최근 3년 신고가 [MAI부동산]",
+        "영등포구 대림동 우성1 62.37㎡ 8억 4천만원… 최근 3년 신고가 [MAI부동산]"
+      ],
+      "llm_candidate": false,
+      "rank": 6,
+      "representative_article": {
+        "title": "영등포구 대림동 우성1 62.37㎡ 8억 4천만원… 최근 3년 신고가 [MAI부동산]",
+        "link": "https://www.mk.co.kr/news/realestate/12177476",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-10-16 09:20:24",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "영등포구 대림동 우성1 62.37㎡ 8억 4천만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12177476",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-16 09:20:24",
+          "match_score": 37.49
+        },
+        {
+          "title": "강서구 염창동 현대아이파크 84.84㎡ 14억 2천만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12177474",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-16 09:20:24",
+          "match_score": 37.49
+        },
+        {
+          "title": "마포구 중동 현대 59.55㎡ 10억 2500만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12177473",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-16 09:20:24",
+          "match_score": 37.49
+        },
+        {
+          "title": "서대문구 홍제동 유원하나 82.35㎡ 7억원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12177472",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-16 09:20:24",
+          "match_score": 37.49
+        },
+        {
+          "title": "성북구 장위동 참누리아파트 84.98㎡, 9억 4800만원 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12177466",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-16 09:20:24",
+          "match_score": 37.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "아파트",
+      "score": 28.8,
+      "article_count": 6,
+      "source_count": 2,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "대치쌍용 1차, 재건축으로 999가구 신축 아파트로 변신",
+        "송파 잠실우성 4차, 재건축 통해 828가구 새 아파트로 다시 태어난다",
+        "용산구 한남동 나인원한남 262억원 거래… 서울 아파트 실거래가 [MAI부동산]"
+      ],
+      "llm_candidate": false,
+      "rank": 7,
+      "representative_article": {
+        "title": "대치쌍용 1차, 재건축으로 999가구 신축 아파트로 변신",
+        "link": "https://www.mk.co.kr/news/realestate/12177739",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-10-16 13:35:54",
+        "match_score": 38.09
+      },
+      "related_articles": [
+        {
+          "title": "대치쌍용 1차, 재건축으로 999가구 신축 아파트로 변신",
+          "link": "https://www.mk.co.kr/news/realestate/12177739",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-16 13:35:54",
+          "match_score": 38.09
+        },
+        {
+          "title": "송파 잠실우성 4차, 재건축 통해 828가구 새 아파트로 다시 태어난다",
+          "link": "https://www.mk.co.kr/news/realestate/12177551",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-16 10:32:36",
+          "match_score": 38.09
+        },
+        {
+          "title": "용산구 한남동 나인원한남 262억원 거래… 서울 아파트 실거래가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12177461",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-16 09:20:23",
+          "match_score": 38.09
+        },
+        {
+          "title": "여의도 시범아파트, 재건축 사업시행인가 받았다 - 한국주택경제신문",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5xSzhtU2dyZkJpMzZiS2UxcTM1QUFOY1VsN0JOTmZzanB5Q3pjaUJXN0ZRcTdtRnN2QktKUmhzZktYX0FwQnBtOFdIOFRJLTBtU092RlVjNjVTVFc1MzBaMmVLN1EyRnNK?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-10-16 14:20:27",
+          "match_score": 37.71
+        },
+        {
+          "title": "성북구 장위동 참누리아파트 84.98㎡, 9억 4800만원 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12177466",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-16 09:20:24",
+          "match_score": 37.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "앞두고",
+      "score": 26.4,
+      "article_count": 4,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업",
+        "정치"
+      ],
+      "sample_titles": [
+        "장기수 천안시장 선거법 위반 혐의 벗어…충남경찰청 불송치",
+        "삼성바이오 노조 2차 파업 앞두고 21일 단체행동",
+        "삼성바이오 노조 2차 파업 앞두고 21일 단체행동"
+      ],
+      "llm_candidate": false,
+      "rank": 8,
+      "representative_article": {
+        "title": "삼성바이오 노조 2차 파업 앞두고 21일 단체행동",
+        "link": "https://www.yna.co.kr/view/AKR20261016114400017",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-10-16 15:04:36",
+        "match_score": 37.83
+      },
+      "related_articles": [
+        {
+          "title": "삼성바이오 노조 2차 파업 앞두고 21일 단체행동",
+          "link": "https://www.yna.co.kr/view/AKR20261016114400017",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-10-16 15:04:36",
+          "match_score": 37.83
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "한국은행",
+      "score": 23.5,
+      "article_count": 4,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "한국은행 BANK OF KOREA - bok.or.kr",
+        "국회 재경위, 한은 지역본부 국감서 '지역경제 회생 노력' 촉구",
+        "2026년 9월 이후 국제금융·외환시장 동향 | 기타 보도자료(상세) | 보도자료 | 뉴스 및 의사록 | 뉴스/자료 | 한국은행 홈페이지 - bok.or.kr"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "한국은행 BANK OF KOREA - bok.or.kr",
+        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNTm00RDlfU3hka1l0RlVmVWROOGJneE9mWHVKaEtvbGdDTUVNcW5fVnpVLWE0TjBwNWg0QXM5amN0Q0h6UWpINU9MajFLb2FMaDNUS25tUkc2RXV2TGJTVF9XSU4yUG1SUUcyRnhSOGZiME1UYVB5ZF9yQl9fTkpHWDZteTBkYXJOTERBVE9aQzZPZVBxd09DOWV0bTZpU0VvX0x4QTFsc3M3LUlnVUFXWFdCTkpLenFjLUNZMXIyUlV3bEhSUHVWS3lWUGFWeGZXX0kwSw?oc=5",
+        "source": "공식-한국은행",
+        "published_dt": "2026-10-16 17:12:46",
+        "match_score": 38.2
+      },
+      "related_articles": [
+        {
+          "title": "한국은행 BANK OF KOREA - bok.or.kr",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNTm00RDlfU3hka1l0RlVmVWROOGJneE9mWHVKaEtvbGdDTUVNcW5fVnpVLWE0TjBwNWg0QXM5amN0Q0h6UWpINU9MajFLb2FMaDNUS25tUkc2RXV2TGJTVF9XSU4yUG1SUUcyRnhSOGZiME1UYVB5ZF9yQl9fTkpHWDZteTBkYXJOTERBVE9aQzZPZVBxd09DOWV0bTZpU0VvX0x4QTFsc3M3LUlnVUFXWFdCTkpLenFjLUNZMXIyUlV3bEhSUHVWS3lWUGFWeGZXX0kwSw?oc=5",
+          "source": "공식-한국은행",
+          "published_dt": "2026-10-16 17:12:46",
+          "match_score": 38.2
+        },
+        {
+          "title": "2026년 9월 이후 국제금융·외환시장 동향 | 기타 보도자료(상세) | 보도자료 | 뉴스 및 의사록 | 뉴스/자료 | 한국은행 홈페이지 - bok.or.kr",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPWTFCRVE1dURIVWpDSlg4Z3c2bXI4MlNsWUNxbE83VzlSclZhMWZlSFRkcXVTVDZPRk5ra0tMSDFBSGotWGU2QXZ1aXFKVWp1SFhLZTI2eE84ejFFRGRUbTMxM0c5aXhkTENCYWRoZ05MeWlRSjMxTGpvbVdhbU5uci1LZ0F6eTIxeWVPRDlzSmlUWGFZcGJjLVR0S005TlVvUHpSV1N3bFZ5cm5FQ2VRNTJzUm1PaDZzbkRhQ3pR?oc=5",
+          "source": "공식-한국은행",
+          "published_dt": "2026-10-16 14:15:08",
+          "match_score": 38.2
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "코스피",
+      "score": 23.6,
+      "article_count": 4,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "정치"
+      ],
+      "sample_titles": [
+        "코스피 7% 급락한 '검은 목요일'에 800억원대 또 강제청산",
+        "국고채 금리 일제히 하락…코스피 반등에도 외인 매수 영향(종합)",
+        "코스피 2.1%↑, 8거래일만 반등…코스닥 4.5%↑"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "코스피 7% 급락한 '검은 목요일'에 800억원대 또 강제청산",
+        "link": "https://www.yna.co.kr/view/AKR20261016128500008",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-10-16 16:28:30",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "코스피 7% 급락한 '검은 목요일'에 800억원대 또 강제청산",
+          "link": "https://www.yna.co.kr/view/AKR20261016128500008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-10-16 16:28:30",
+          "match_score": 37.67
+        },
+        {
+          "title": "코스피 2.1%↑, 8거래일만 반등…코스닥 4.5%↑",
+          "link": "https://www.yna.co.kr/view/AKR20261016121900008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-10-16 15:36:50",
+          "match_score": 37.67
+        },
+        {
+          "title": "국고채 금리 일제히 하락…코스피 반등에도 외인 매수 영향(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261016141851008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-10-16 17:00:18",
+          "match_score": 28.68
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
