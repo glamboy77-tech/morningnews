@@ -1,0 +1,312 @@
+{
+  "timestamp": "2026-10-18T06:01:16.083767",
+  "date": "20261018",
+  "data": [
+    {
+      "keyword": "기준금리",
+      "reason": "금리 인상과 경제 전망 논의",
+      "score": 40.53,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "[다음주 경제] 기준금리 3연속 인상할까…생산자 물가도 발표"
+      ],
+      "representative_article": {
+        "title": "[다음주 경제] 기준금리 3연속 인상할까…생산자 물가도 발표",
+        "link": "https://www.yna.co.kr/view/AKR20261017011700002",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-10-17 09:07:32",
+        "match_score": 40.53
+      },
+      "related_articles": [
+        {
+          "title": "[다음주 경제] 기준금리 3연속 인상할까…생산자 물가도 발표",
+          "link": "https://www.yna.co.kr/view/AKR20261017011700002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-10-17 09:07:32",
+          "match_score": 40.53
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "GTX",
+      "reason": "복수 GTX 사업 착공 및 심사 통과",
+      "score": 40.11,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "파주 운정 'GTX 문화공원' 11월 착공…역세권 랜드마크 조성 본격화 - 알티케이뉴스",
+        "인천시, GTX-B 청학 추가역 2694억 재정심사 통과…2034년 개통 목표 - 오늘경제"
+      ],
+      "representative_article": {
+        "title": "인천시, GTX-B 청학 추가역 2694억 재정심사 통과…2034년 개통 목표 - 오늘경제",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9FQVhTeGdCN29GV2M2TFdwTEVhOXVlQlpGXzA2SkZMODc0SmdSVmNCMXRLWnNxeGVkak4wcWtHb0ptdEdVV2hHVGU2UHY2ZG1PWlZrRUd3REt5QjBaWUpiMGhkV2xVTDRFU1Y3OWxqc1B6VmM?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-10-17 23:52:51",
+        "match_score": 40.11
+      },
+      "related_articles": [
+        {
+          "title": "인천시, GTX-B 청학 추가역 2694억 재정심사 통과…2034년 개통 목표 - 오늘경제",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9FQVhTeGdCN29GV2M2TFdwTEVhOXVlQlpGXzA2SkZMODc0SmdSVmNCMXRLWnNxeGVkak4wcWtHb0ptdEdVV2hHVGU2UHY2ZG1PWlZrRUd3REt5QjBaWUpiMGhkV2xVTDRFU1Y3OWxqc1B6VmM?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-10-17 23:52:51",
+          "match_score": 40.11
+        },
+        {
+          "title": "파주 운정 'GTX 문화공원' 11월 착공…역세권 랜드마크 조성 본격화 - 알티케이뉴스",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBvM3BvVlg2aHU0dUpsN0NKbEN2ZlkzZER4aDdHUWpoMG5OdkdlZmNoSEstUDV5V3JOUllQTDR6S0YwSnRzYllhNlZicS1rc2ZZZDAwNFNra09KWGN2eGpTX0NKcnB0dVJLUVJDUg?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-10-18 05:35:17",
+          "match_score": 38.91
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재건축",
+      "reason": "재건축 수주 및 인가 속도전",
+      "score": 40.11,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "송파구, 재건축 인가 속도전...가락우창 조합설립 사흘 만에 승인 - 전국매일신문"
+      ],
+      "representative_article": {
+        "title": "송파구, 재건축 인가 속도전...가락우창 조합설립 사흘 만에 승인 - 전국매일신문",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5famtiSUZ0NVBwemMtZ1dGdDRNTDBJLUJUeGk1RDV4Ymp1a2JkRVdrUFVtTHp5TVVEUEJuOTE0Z1UxbC14cFYtQWRKWDRRN3BRT2twMUhrQU1haHVENW14TFIzdmg1YUp5ZHduMWZR?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-10-18 02:01:56",
+        "match_score": 40.11
+      },
+      "related_articles": [
+        {
+          "title": "송파구, 재건축 인가 속도전...가락우창 조합설립 사흘 만에 승인 - 전국매일신문",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5famtiSUZ0NVBwemMtZ1dGdDRNTDBJLUJUeGk1RDV4Ymp1a2JkRVdrUFVtTHp5TVVEUEJuOTE0Z1UxbC14cFYtQWRKWDRRN3BRT2twMUhrQU1haHVENW14TFIzdmg1YUp5ZHduMWZR?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-10-18 02:01:56",
+          "match_score": 40.11
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "반도체",
+      "reason": "삼성·SK하이닉스 시장 우려",
+      "score": 43.56,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "“부도 확률 60%” 월가 발칵…삼성·SK하이닉스 ‘반도체 초호황’ 끝나나 - 데일리25"
+      ],
+      "representative_article": {
+        "title": "“부도 확률 60%” 월가 발칵…삼성·SK하이닉스 ‘반도체 초호황’ 끝나나 - 데일리25",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1vWTg2OUJ3b3hsTkVuV0pDT3RfMVNka05PQWU3THhzajJVN2pIUVozT1RrV0kzclhOR0x1MVZYcGZLWnVJc3NDRVJzM0duNE04Z3h4aFY2bm11b3BuS25FWFV0dW1VUnRUWDBMbA?oc=5",
+        "source": "키워드-반도체AI",
+        "published_dt": "2026-10-18 05:24:35",
+        "match_score": 43.56
+      },
+      "related_articles": [
+        {
+          "title": "“부도 확률 60%” 월가 발칵…삼성·SK하이닉스 ‘반도체 초호황’ 끝나나 - 데일리25",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1vWTg2OUJ3b3hsTkVuV0pDT3RfMVNka05PQWU3THhzajJVN2pIUVozT1RrV0kzclhOR0x1MVZYcGZLWnVJc3NDRVJzM0duNE04Z3h4aFY2bm11b3BuS25FWFV0dW1VUnRUWDBMbA?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-10-18 05:24:35",
+          "match_score": 43.56
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "정상회담",
+      "reason": "미·러·우크라 국제 회담 계획",
+      "score": 39.7,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "젤렌스키 “미·러·우크라 정상회담, G20 기간 열릴 수도…스타실드 제한은 계획된 것”"
+      ],
+      "representative_article": {
+        "title": "젤렌스키 “미·러·우크라 정상회담, G20 기간 열릴 수도…스타실드 제한은 계획된 것”",
+        "link": "https://www.donga.com/news/Inter/article/all/20261017/134859241/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-10-17 23:38:30",
+        "match_score": 39.7
+      },
+      "related_articles": [
+        {
+          "title": "젤렌스키 “미·러·우크라 정상회담, G20 기간 열릴 수도…스타실드 제한은 계획된 것”",
+          "link": "https://www.donga.com/news/Inter/article/all/20261017/134859241/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-17 23:38:30",
+          "match_score": 39.7
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "바이오",
+      "score": 15.8,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "테크"
+      ],
+      "sample_titles": [
+        "충주 바이오헬스 국가산단 토지거래계약 허가구역 재지정",
+        "AI 연구원 3만 7,000명으로 만들어진 가상 바이오기업 - 사이언스타임즈"
+      ],
+      "llm_candidate": false,
+      "rank": 6,
+      "representative_article": {
+        "title": "충주 바이오헬스 국가산단 토지거래계약 허가구역 재지정",
+        "link": "https://www.yna.co.kr/view/AKR20261016147500064",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-10-17 09:01:21",
+        "match_score": 37.83
+      },
+      "related_articles": [
+        {
+          "title": "충주 바이오헬스 국가산단 토지거래계약 허가구역 재지정",
+          "link": "https://www.yna.co.kr/view/AKR20261016147500064",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-10-17 09:01:21",
+          "match_score": 37.83
+        },
+        {
+          "title": "AI 연구원 3만 7,000명으로 만들어진 가상 바이오기업 - 사이언스타임즈",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVGpCVmE1Nnd1djVKOTItUENULUdkRUFLYWh5VHl5bEVEbVY1SUM4WlRHQVJCTDI2RVl4cV9rSlZEYVBUb1h2MjlNaFg0RklVcXRwVkdIdzVGOGtiZEV6TlIxR3BrN0NNU3BnUE5FaU94TXNFSlRLTFN4OGg1V1RwUFJwb1ZaZmtUSDBBeDRuOA?oc=5",
+          "source": "사이언스타임즈",
+          "published_dt": "2026-10-13 09:03:28",
+          "match_score": 37.34
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "새로운",
+      "score": 12.8,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "기업/산업",
+        "테크"
+      ],
+      "sample_titles": [
+        "신입 면접에 AI 고객 도입…“10분간 대화하는 능력 보고 뽑는다”",
+        "오젬픽, 체중감량 뒤에 숨겨진 새로운 위험들 - 사이언스타임즈"
+      ],
+      "llm_candidate": false,
+      "rank": 7,
+      "representative_article": {
+        "title": "오젬픽, 체중감량 뒤에 숨겨진 새로운 위험들 - 사이언스타임즈",
+        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaHJiVnJpc3FDTTNuMG9kLTFfR080cHYxblBZQUN2MG41V0l5OU1Bb2U4TXQ2dWs0MUVlWlh3LWZCVFhVd1J2blVWdkpsS3NRQzBpaFM2SVpQSmlRTHJXUVdPblF6WnVmRzZONG41QWtrNExPc2JLRjFsTVpsWVVScEhXWlV3RjJ3MlphRHdoNA?oc=5",
+        "source": "사이언스타임즈",
+        "published_dt": "2026-01-23 17:00:00",
+        "match_score": 37.34
+      },
+      "related_articles": [
+        {
+          "title": "오젬픽, 체중감량 뒤에 숨겨진 새로운 위험들 - 사이언스타임즈",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaHJiVnJpc3FDTTNuMG9kLTFfR080cHYxblBZQUN2MG41V0l5OU1Bb2U4TXQ2dWs0MUVlWlh3LWZCVFhVd1J2blVWdkpsS3NRQzBpaFM2SVpQSmlRTHJXUVdPblF6WnVmRzZONG41QWtrNExPc2JLRjFsTVpsWVVScEhXWlV3RjJ3MlphRHdoNA?oc=5",
+          "source": "사이언스타임즈",
+          "published_dt": "2026-01-23 17:00:00",
+          "match_score": 37.34
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "은행장",
+      "score": 12.0,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "정치"
+      ],
+      "sample_titles": [
+        "5대 은행장 '해킹 국감'…정보유출 해명에 신뢰 회복 숙제",
+        "BNK부산은행 임직원 200여명, 가을철 일손돕기 봉사활동"
+      ],
+      "llm_candidate": false,
+      "rank": 8,
+      "representative_article": {
+        "title": "5대 은행장 '해킹 국감'…정보유출 해명에 신뢰 회복 숙제",
+        "link": "https://www.yna.co.kr/view/AKR20261017029700002",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-10-18 05:47:00",
+        "match_score": 29.82
+      },
+      "related_articles": [
+        {
+          "title": "5대 은행장 '해킹 국감'…정보유출 해명에 신뢰 회복 숙제",
+          "link": "https://www.yna.co.kr/view/AKR20261017029700002",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-18 05:47:00",
+          "match_score": 29.82
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "코스피",
+      "score": 11.6,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "“주식 팔아 빚 갚으려 했는데”…급락 후 반등에도 대출이자 ‘이중고’",
+        "코스피 7거래일 연속 하락에 반대매매 3000억원 육박"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "코스피 7거래일 연속 하락에 반대매매 3000억원 육박",
+        "link": "https://www.chosun.com/economy/stock-finance/2026/10/17/GVRWIZRUMM2TMOBYMVRTEYTCME/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-10-17 09:43:12",
+        "match_score": 37.3
+      },
+      "related_articles": [
+        {
+          "title": "코스피 7거래일 연속 하락에 반대매매 3000억원 육박",
+          "link": "https://www.chosun.com/economy/stock-finance/2026/10/17/GVRWIZRUMM2TMOBYMVRTEYTCME/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-10-17 09:43:12",
+          "match_score": 37.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
