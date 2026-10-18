@@ -1,0 +1,346 @@
+{
+  "timestamp": "2026-10-19T06:01:11.319886",
+  "date": "20261019",
+  "data": [
+    {
+      "keyword": "국방용 반도체",
+      "reason": "자립화 정책 투자",
+      "score": 33.29,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업",
+        "정치"
+      ],
+      "sample_titles": [
+        "정부-민간 공동 투자로 국방용 반도체 자립화 추진…투자형 R&D 시동"
+      ],
+      "representative_article": {
+        "title": "정부-민간 공동 투자로 국방용 반도체 자립화 추진…투자형 R&D 시동",
+        "link": "https://www.etnews.com/20261016000214",
+        "source": "전자신문",
+        "published_dt": "2026-10-18 16:00:00",
+        "match_score": 33.29
+      },
+      "related_articles": [
+        {
+          "title": "정부-민간 공동 투자로 국방용 반도체 자립화 추진…투자형 R&D 시동",
+          "link": "https://www.etnews.com/20261016000214",
+          "source": "전자신문",
+          "published_dt": "2026-10-18 16:00:00",
+          "match_score": 33.29
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "고물가",
+      "reason": "프랑스 시위 배경",
+      "score": 29.8,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "불타는 시청-최루탄 진압…프랑스서 ‘고물가 반발’ 격렬 폭동"
+      ],
+      "representative_article": {
+        "title": "불타는 시청-최루탄 진압…프랑스서 ‘고물가 반발’ 격렬 폭동",
+        "link": "https://www.donga.com/news/Inter/article/all/20261018/134860052/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-10-18 12:32:00",
+        "match_score": 29.8
+      },
+      "related_articles": [
+        {
+          "title": "불타는 시청-최루탄 진압…프랑스서 ‘고물가 반발’ 격렬 폭동",
+          "link": "https://www.donga.com/news/Inter/article/all/20261018/134860052/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-18 12:32:00",
+          "match_score": 29.8
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "IMF",
+      "score": 41.9,
+      "article_count": 7,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "부동산"
+      ],
+      "sample_titles": [
+        "IMF “韓, AI호황에 성장 여력 커져 … 급변땐 세수·수출 충격\"",
+        "코스피 20% 빠져도 “韓 기초체력 반등” 이유 보니 [매플 위켄드]",
+        "[연합뉴스 이 시각 헤드라인] - 15:00"
+      ],
+      "llm_candidate": false,
+      "rank": 3,
+      "representative_article": {
+        "title": "IMF “韓, AI호황에 성장 여력 커져 … 급변땐 세수·수출 충격\"",
+        "link": "https://www.mk.co.kr/news/economy/12179060",
+        "source": "매일경제-경제",
+        "published_dt": "2026-10-18 17:44:48",
+        "match_score": 37.66
+      },
+      "related_articles": [
+        {
+          "title": "IMF “韓, AI호황에 성장 여력 커져 … 급변땐 세수·수출 충격\"",
+          "link": "https://www.mk.co.kr/news/economy/12179060",
+          "source": "매일경제-경제",
+          "published_dt": "2026-10-18 17:44:48",
+          "match_score": 37.66
+        },
+        {
+          "title": "“선진국 중 한국만 재정여력 늘어”…최지영 IMF 이사 “AI 투자 오래갈 것”",
+          "link": "https://www.mk.co.kr/news/economy/12178790",
+          "source": "매일경제-경제",
+          "published_dt": "2026-10-18 14:40:37",
+          "match_score": 37.66
+        },
+        {
+          "title": "최지영 IMF 이사 “韓, 선진국 중 유일하게 재정여력 확대…성장에 투자해야”",
+          "link": "https://www.mk.co.kr/news/economy/12178740",
+          "source": "매일경제-경제",
+          "published_dt": "2026-10-18 12:52:46",
+          "match_score": 37.66
+        },
+        {
+          "title": "IMF 총재 “한국 여유재원 적립·완만한 통화긴축 조합 적절”",
+          "link": "https://www.mk.co.kr/news/economy/12178739",
+          "source": "매일경제-경제",
+          "published_dt": "2026-10-18 12:51:24",
+          "match_score": 28.66
+        },
+        {
+          "title": "IMF, 韓 잠재성장률 2년 연속 상승 전망",
+          "link": "https://www.chosun.com/economy/economy_general/2026/10/19/DM4PPBVJSVH5RLDEVFKWJEUNII/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-10-19 00:47:00",
+          "match_score": 28.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재건축",
+      "score": 32.8,
+      "article_count": 5,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "부동산"
+      ],
+      "sample_titles": [
+        "집단대출 3조 늘때 전세대출 2.5조 뚝",
+        "집단대출 3조 늘때 전세대출 2.5조 뚝",
+        "아는 사람만 아는 재개발 경매…낙찰가율 TOP10 중 6건이 정비구역 안"
+      ],
+      "llm_candidate": false,
+      "rank": 4,
+      "representative_article": {
+        "title": "여의도 시범에 래미안 깃발 … 삼성물산 2.2조 재건축 수주",
+        "link": "https://www.mk.co.kr/news/realestate/12179010",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-10-18 17:21:39",
+        "match_score": 38.09
+      },
+      "related_articles": [
+        {
+          "title": "여의도 시범에 래미안 깃발 … 삼성물산 2.2조 재건축 수주",
+          "link": "https://www.mk.co.kr/news/realestate/12179010",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-18 17:21:39",
+          "match_score": 38.09
+        },
+        {
+          "title": "재건축·반도체 호재… 분당·영통·동탄, 수도권 집값 주도 - 경기신문",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1ydGRvRjhNWmhEb09IMkJNbzZ2RzV4Qmx1b0c3YW9yN1I0WlI0UE81X2hHWEFjckZmYnA4M2dfT3dKNmtWZDJXd05OUHM4TDdrckZmdGVZV2h1TkpjMUxTaFd2QXQ?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-10-18 15:12:04",
+          "match_score": 37.71
+        },
+        {
+          "title": "“같은 수성구도 집값 상승률 큰 차이”…재건축부담금 산정기준 개선 목소리 - 대구일보",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1QdUYyUjVpaE53eVVPM1NEbWpXTmpVMDgtMHNfcndhMmRuR1Btd3BQRkVXY014ZjRwUGFnbVRrbVZJNjBvNzJ6ZlplYTJQaUtlYXlucE1kMlVGRGxpaDNGWEkxXzFMMGdh?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-10-18 13:49:07",
+          "match_score": 37.71
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "아파트",
+      "score": 28.2,
+      "article_count": 5,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "부동산"
+      ],
+      "sample_titles": [
+        "집단대출 3조 늘때 전세대출 2.5조 뚝",
+        "집단대출 3조 늘때 전세대출 2.5조 뚝",
+        "\"착공 3개월 빨라져\" 서울시 '첫삽' 속도전"
+      ],
+      "llm_candidate": false,
+      "rank": 5,
+      "representative_article": {
+        "title": "28억 전세 끼고 39억 아파트 사더니…나연이 청담동 95억 건물까지 산 이유 - 세계일보",
+        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBiS2thcUQ0bDI0TjJLNG1ZMGJvQjNaYnFYTHFmT3hiR2ZjMEVBbkFNNlE0NVZsWFlRSkllSEdGWjNPRjZueVFQYkRsTlZYQVdZR1hfLWplWXXSAVRBVV95cUxQd0YzYkZmbjd3SXh3OVVMLXY3U0pvc0hKM2RRdHdmWU9DZlNwTDZHc19rTkh4bHNtR0FOZkpZY1M2cERnNVQxSzRUTTc4LXJvU3E2Z0s?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-10-19 05:10:17",
+        "match_score": 36.96
+      },
+      "related_articles": [
+        {
+          "title": "28억 전세 끼고 39억 아파트 사더니…나연이 청담동 95억 건물까지 산 이유 - 세계일보",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBiS2thcUQ0bDI0TjJLNG1ZMGJvQjNaYnFYTHFmT3hiR2ZjMEVBbkFNNlE0NVZsWFlRSkllSEdGWjNPRjZueVFQYkRsTlZYQVdZR1hfLWplWXXSAVRBVV95cUxQd0YzYkZmbjd3SXh3OVVMLXY3U0pvc0hKM2RRdHdmWU9DZlNwTDZHc19rTkh4bHNtR0FOZkpZY1M2cERnNVQxSzRUTTc4LXJvU3E2Z0s?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-10-19 05:10:17",
+          "match_score": 36.96
+        },
+        {
+          "title": "올해 서울 아파트 일반 분양 물량 1만가구 넘겨",
+          "link": "https://www.chosun.com/economy/real_estate/2026/10/19/P5N6JC4AIRHGPNLPPXJS63BLQE/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-10-19 00:36:00",
+          "match_score": 28.3
+        },
+        {
+          "title": "지난 1년 서울 아파트 거래 48%가 9억 이하",
+          "link": "https://www.chosun.com/economy/real_estate/2026/10/19/WT46XUCENZAZJM6REGCKW27JQM/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-10-19 00:36:00",
+          "match_score": 28.3
+        },
+        {
+          "title": "경기 아파트값 토허구역 지정 후 상승률 3배",
+          "link": "https://www.chosun.com/economy/real_estate/2026/10/19/4UVGQ2WJP5GR5CXWHJNXNACG5E/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-10-19 00:32:00",
+          "match_score": 28.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "금융권",
+      "score": 20.5,
+      "article_count": 4,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "기업/산업",
+        "정치"
+      ],
+      "sample_titles": [
+        "3주차 진입한 국감…검찰개혁·금융권 해킹사태 등 쟁점 예상",
+        "\"年4% 특판예금 나왔다\" … 일주일새 16조 뭉칫돈",
+        "AI 에이전트 책임 어디까지… 금융위 연구용역 착수"
+      ],
+      "llm_candidate": false,
+      "rank": 6,
+      "representative_article": {
+        "title": "3주차 진입한 국감…검찰개혁·금융권 해킹사태 등 쟁점 예상",
+        "link": "https://www.yna.co.kr/view/AKR20261018025000001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-10-19 05:00:03",
+        "match_score": 29.68
+      },
+      "related_articles": [
+        {
+          "title": "3주차 진입한 국감…검찰개혁·금융권 해킹사태 등 쟁점 예상",
+          "link": "https://www.yna.co.kr/view/AKR20261018025000001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-19 05:00:03",
+          "match_score": 29.68
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "상승률",
+      "score": 18.7,
+      "article_count": 3,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "부동산"
+      ],
+      "sample_titles": [
+        "신현송 \"경제 하방위험, 빅테크 투자에 달려\"",
+        "“같은 수성구도 집값 상승률 큰 차이”…재건축부담금 산정기준 개선 목소리 - 대구일보",
+        "경기 아파트값 토허구역 지정 후 상승률 3배"
+      ],
+      "llm_candidate": false,
+      "rank": 7,
+      "representative_article": {
+        "title": "“같은 수성구도 집값 상승률 큰 차이”…재건축부담금 산정기준 개선 목소리 - 대구일보",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1QdUYyUjVpaE53eVVPM1NEbWpXTmpVMDgtMHNfcndhMmRuR1Btd3BQRkVXY014ZjRwUGFnbVRrbVZJNjBvNzJ6ZlplYTJQaUtlYXlucE1kMlVGRGxpaDNGWEkxXzFMMGdh?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-10-18 13:49:07",
+        "match_score": 37.71
+      },
+      "related_articles": [
+        {
+          "title": "“같은 수성구도 집값 상승률 큰 차이”…재건축부담금 산정기준 개선 목소리 - 대구일보",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1QdUYyUjVpaE53eVVPM1NEbWpXTmpVMDgtMHNfcndhMmRuR1Btd3BQRkVXY014ZjRwUGFnbVRrbVZJNjBvNzJ6ZlplYTJQaUtlYXlucE1kMlVGRGxpaDNGWEkxXzFMMGdh?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-10-18 13:49:07",
+          "match_score": 37.71
+        },
+        {
+          "title": "경기 아파트값 토허구역 지정 후 상승률 3배",
+          "link": "https://www.chosun.com/economy/real_estate/2026/10/19/4UVGQ2WJP5GR5CXWHJNXNACG5E/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-10-19 00:32:00",
+          "match_score": 28.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재개발",
+      "score": 17.3,
+      "article_count": 3,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "부동산"
+      ],
+      "sample_titles": [
+        "집단대출 3조 늘때 전세대출 2.5조 뚝",
+        "집단대출 3조 늘때 전세대출 2.5조 뚝",
+        "아는 사람만 아는 재개발 경매…낙찰가율 TOP10 중 6건이 정비구역 안"
+      ],
+      "llm_candidate": false,
+      "rank": 8,
+      "representative_article": {
+        "title": "아는 사람만 아는 재개발 경매…낙찰가율 TOP10 중 6건이 정비구역 안",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/10/18/2026101801211.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-10-18 15:02:57",
+        "match_score": 38.09
+      },
+      "related_articles": [
+        {
+          "title": "아는 사람만 아는 재개발 경매…낙찰가율 TOP10 중 6건이 정비구역 안",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/10/18/2026101801211.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-10-18 15:02:57",
+          "match_score": 38.09
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}

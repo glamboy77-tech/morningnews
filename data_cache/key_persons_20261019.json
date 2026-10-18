@@ -1,0 +1,431 @@
+{
+  "timestamp": "2026-10-19T06:01:06.535070",
+  "date": "20261019",
+  "data": {
+    "추미애": {
+      "articles": [
+        {
+          "title": "민주당 경기도당 긴급회의, 추미애 '재정 빨대' 논란 대응 논의",
+          "link": "https://www.yna.co.kr/view/AKR20261018060400061",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-18 21:53:29",
+          "description": "(수원=연합뉴스) 최찬흥 기자 = 추미애 경기도지사의 &apos;소방 재정 빨대&apos; 발언 파장이 이어지는 가운데 더불어민주당 경기도당이 18일 &apos;지역위원장...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "image_url": "https://img.yna.co.kr/photo/yna/YH/2026/10/17/PYH2026101705430001300_P2.jpg",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "deduped_sources": [
+            {
+              "source": "연합뉴스-경제",
+              "title": "민주당 경기도당 긴급회의, 추미애 '재정 빨대' 논란 대응 논의",
+              "link": "https://www.yna.co.kr/view/AKR20261018060400061"
+            }
+          ],
+          "priority_score": 3,
+          "pol_subcategory": "당내 정국",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "野, 추미애 '사과 바라니 사과한다' 발언에 \"사퇴 바란다\" 맹공(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261018021851001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-18 14:35:52",
+          "description": "(서울=연합뉴스) 권희원 기자 = 야권은 18일 추미애 경기도지사가 전날 부천 공장 화재로 순직한 고(故) 김진석 소방위 빈소 조문 후 &apos;사과를...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "image_url": "https://img.yna.co.kr/photo/yna/YH/2026/10/15/PYH2026101501760001300_P2.jpg",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "“추미애 징계해야” 與 내부도 부글부글",
+          "link": "https://www.chosun.com/politics/assembly/2026/10/19/GLFPXQZXH5GXTOFYIKVDSHM24U/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-10-19 00:49:00",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "image_url": "https://www.chosun.com/resizer/v2/R2WML4HSJNNTFDNSBABKLH3YCM.JPG?auth=50b8bf8a258f016d4373abe43e875e33e785017a2109511e5a5ce6b5291ae5e5&smart=true&width=4429&height=2999",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "野, 추미애 '사과 바라니 사과한다' 발언에 \"사퇴 바란다\" 맹공",
+          "link": "https://www.yna.co.kr/view/AKR20261018021800001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-18 11:29:25",
+          "description": "(서울=연합뉴스) 권희원 기자 = 야권은 18일 추미애 경기도지사가 전날 부천 공장 화재로 순직한 고(故) 김진석 소방위 빈소 조문 후 &apos;사과를...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "image_url": "https://img.yna.co.kr/photo/yna/YH/2026/10/15/PYH2026101501760001300_P2.jpg",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "국토위 경기도 국감 오후 1시 조정…추미애, 소방관 영결식 참석",
+          "link": "https://www.yna.co.kr/view/AKR20261018025700061",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-18 12:39:12",
+          "description": "(수원=연합뉴스) 최찬흥 기자 = 경기도는 19일 오전 10시 예정된 국회 국토교통위원회 국정감사가 당일 오후 1시로 연기됐다고 18일 밝혔다....",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "image_url": "https://img.yna.co.kr/photo/yna/YH/2026/10/17/PYH2026101705430001300_P2.jpg",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        }
+      ],
+      "count": 5,
+      "role": "정치인"
+    },
+    "트럼프": {
+      "articles": [
+        {
+          "title": "트럼프 측근 美의원 \"한미관계 재설정 중…이혼 아닌 부부상담\"",
+          "link": "https://www.yna.co.kr/view/AKR20261019003400071",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-19 05:12:01",
+          "description": "(워싱턴=연합뉴스) 홍정규 특파원 = 도널드 트럼프 미국 대통령의 측근인 데이브 매코믹 연방 상원의원(공화·펜실베이니아)이 한미 관계가 &apos;재설정...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "image_url": "https://img.yna.co.kr/etc/inner/KR/2026/10/19/AKR20261019003400071_01_i_P2.jpg",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "대미 무역흑자 1천억弗 눈앞 … 트럼프 통상압박 우려 커져",
+          "link": "https://www.mk.co.kr/news/economy/12178999",
+          "source": "매일경제-경제",
+          "published_dt": "2026-10-18 17:21:35",
+          "description": "올해 우리나라 대미 무역수지 흑자가 사상 처음으로 1000억달러를 넘어설 것이 유력하다. 도널드 트럼프 미국 대통령이 알래스카 액화천연가스(LNG) 개발 사업 투자를 압박하는 가운..",
+          "category": "domestic",
+          "feed_url": "https://www.mk.co.kr/rss/30100041/",
+          "image_url": "",
+          "source_type": "economy",
+          "source_weight": 1.2,
+          "source_badge": "경제",
+          "priority_score": 2,
+          "related_full_sources": []
+        },
+        {
+          "title": "백악관 대변인 닷새만에 경질 뒤엔… “트럼프 2기 권력 암투”",
+          "link": "https://www.donga.com/news/Inter/article/all/20261018/134863695/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-19 04:30:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/18/134861868.5.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령이 직접 발탁한 케이티 저카리아(42)가 백악관 대변인에 취임한 지 닷새 만인 16일 경질되면서 트럼프 2기 행정부의 내부 권력 갈등도 수면으로 떠오르고 있다.  트럼프 대통령이 저카리아를 대변인으로 낙점하는 과정에서 수지 와일스 백악관 비서실장과 사전에 협의하지 않았다는 게 가장 큰 이유다. 사실상 ‘패싱’이란 지적이 제기되면서 와일스 실장의 백악관 내 영향력이 약해졌단 평가가 나오는 것. 이를 계기로 차기 백악관 비서실장직을 노리는 측근들 간 경쟁이 본격화될 수 있다는 관측도 제기된다. 다만, 와일스 실장이 취임 직후부터 ‘자질론’에 휩싸인 저카리아가 경질되는 데 중요한 역할을 했단 분석도 있다. 17일 미 정치매체 폴리티코는 저카리아가 경질되기 전날인 15일 와일스 실장의 주선으로 ‘친트럼프 성향’ 앵커 숀 해니티가 진행하는 폭스뉴스 프로그램에 출연했다고 전했다. 하지만 저카리아는 자신에 대한 의혹이나 문제 제기에 제대로 답변하지 못하며 자질론을 더",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "image_url": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/18/134861868.5.jpg",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "중간선거 앞 유가 급등에… 트럼프, 대러 제재 전격 유예",
+          "link": "https://www.donga.com/news/Inter/article/all/20261018/134863688/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-19 04:30:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/18/134863806.1.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령이 러시아산 원유 구매국에 최대 100%의 추가 관세를 매기도록 한 러시아 제재법 시행을 전격 유예했다. 또 러시아산 천연가스 수입 재개를 유럽에 제안하는 등 대러 제재 완화에 연쇄적으로 나서고 있다. 다음 달 3일 미국 중간선거를 앞두고 경유가 급등이 선거 쟁점으로 떠오른 데 따른 조치다. 이를 두고 가격 인하 효과는 제한적인 반면에, 러시아의 전쟁 자금줄을 차단하려는 서방의 공조를 약화시킬 수 있다는 우려가 나온다. 트럼프 대통령은 16일 밤 행정명령 서명을 통해 18일부터 시행 예정이던 ‘린지 그레이엄 러시아·이란 제재법’의 대러 추가 제재 및 관세 적용을 면제하기로 했다. 앞서 트럼프 대통령은 자신의 최측근인 린지 그레이엄 전 공화당 상원의원의 급작스러운 사망을 추모하며 그가 주도한 이 법안에 지난달 18일 서명했다. 이 법은 러시아산 제품에 500%의 추가 관세를 매기고, 러시아산 원유 및 천연가스를 구매하는 국가의 제품에 100% 추가 관세를 부",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "image_url": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/18/134863806.1.jpg",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프, 대러 추가 제재 시행 직전 면제…“푸틴에 선물” 비판",
+          "link": "https://www.donga.com/news/Inter/article/all/20261018/134859531/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-18 09:50:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/18/134859615.1.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령이 러시아의 우크라이나 침공에 대한 경제적 압박을 강화하기 위해 마련된 추가 제재를 시행 직전 전격 면제했다. 11월 3일 중간선거를 앞두고 고유가와 생활비 부담이 주요 선거 쟁점으로 떠오르자 러시아에 대한 압박보다 당장의 에너지 가격 안정에 무게를 둔 결정이라는 해석이 나온다.다만 실제 가격 인하 효과는 제한적인 반면, 블라디미르 푸틴 러시아 대통령의 전쟁 자금줄을 차단하려는 서방의 공조를 약화시킬 수 있다는 우려가 제기된다. 여당인 공화당 내부에서도 반발이 나오면서 선거를 의식한 조치가 오히려 트럼프 대통령의 정치적 부담을 키울 수 있다는 관측도 나온다.● 러시아산 에너지 구매국 관세도 면제트럼프 대통령은 16일(현지 시간) 밤 행정명령에 서명해 18일부터 시행될 예정이던 러시아 관련 추가 제재와 관세의 적용을 면제했다. 지난달 18일 자신이 서명한 ‘린지 그레이엄 러시아·이란 제재법’의 핵심 조항을 사실상 유예한 것이다.지난 7월 사망한 린지 그",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "image_url": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/18/134859615.1.jpg",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 5,
+      "role": "미국 대통령"
+    },
+    "김민석": {
+      "articles": [
+        {
+          "title": "김민석, 지역축제 중 무대인사에 공연 중단…\"불편 끼쳐 죄송\"",
+          "link": "https://www.yna.co.kr/view/AKR20261018036200001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-18 15:32:25",
+          "description": "(서울=연합뉴스) 이정현 최주성 기자 = 더불어민주당 김민석 당 대표가 18일 지역 축제 행사장에서 가수의 공연 도중 무대에 올라 인사말을 한 ...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "image_url": "https://img.yna.co.kr/photo/yna/YH/2026/10/12/PYH2026101203050001300_P2.jpg",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "지방/행정",
+          "is_representative": true,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "김민석, 지역축제 중 무대인사에 공연 중단…\"불편 끼쳐 죄송\"(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261018036251001"
+            }
+          ]
+        },
+        {
+          "title": "호남 빼고 다 돌아섰다… 이재명·김민석 부정평가 치솟은 까닭은",
+          "link": "https://www.chosun.com/politics/politics_general/2026/10/19/GY6LIZTHQNDQDD4EK4TRHMZ47I/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-10-19 03:00:00",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "image_url": "https://www.chosun.com/resizer/v2/HYZDHOJZXJMCFL7JKB6GI2ZQPQ.jpg?auth=babc51c1936ef8b734ad2cf0a38142e81a2b0ca8d7e54b7b9cb0cb50bf323650&smart=true&width=4184&height=3088",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "축제 가수 공연 끊고 인사말... 김민석 과잉 의전 논란",
+          "link": "https://www.chosun.com/politics/assembly/2026/10/18/N4DDY5LEWVFZPLBMHSLOHK7MYQ/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-10-18 14:06:41",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "image_url": "https://www.chosun.com/resizer/v2/4OTAG7M46RNRRBC3HV3S2QEUEU.jpg?auth=70b47b4c165ca621f2d26f25b280a6cd97fae0df7e6262f9d20cbf2f19192094&smart=true&width=5671&height=3053",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "가수 공연 끊고 마이크 잡은 김민석",
+          "link": "https://www.chosun.com/politics/politics_general/2026/10/19/SFY3BQILYRGHPDHAX5MRF3FDGI/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-10-19 00:48:00",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "image_url": "https://www.chosun.com/resizer/v2/VZF4NI5E5JEFVKKJTD647UGQGI.jpg?auth=06fd71dd6777641ed3329f35f5bea66bfbbf948ab105b983dc7468b837486a9d&smart=true&width=1671&height=940",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "정점식 \"김민석, 조희대 탄핵 여부 결론내라…엄중 책임져야\"",
+          "link": "https://www.yna.co.kr/view/AKR20261018018900001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-18 10:40:48",
+          "description": "(서울=연합뉴스) 이정현 노선웅 기자 = 국민의힘 정점식 원내대표는 18일 더불어민주당 김민석 대표를 향해 &quot;조희대 대법원장 탄핵 추진 여부에 ...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "image_url": "https://img.yna.co.kr/photo/yna/YH/2026/10/18/PYH2026101802100001300_P2.jpg",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "당내 정국",
+          "is_representative": true,
+          "related_full_sources": [
+            {
+              "source": "조선일보-정치",
+              "title": "정점식 “김민석, 조희대 탄핵 여부 조속히 결론내라...엄중히 책임져야”",
+              "link": "https://www.chosun.com/politics/politics_general/2026/10/18/V4T344KNHVH7BJQW4YULOQ6LCQ/"
+            }
+          ]
+        }
+      ],
+      "count": 5,
+      "role": "정치인"
+    },
+    "이재명": {
+      "articles": [
+        {
+          "title": "李대통령 \"'국무회의 공개라 말 못한다'는 거짓말…이해 안 돼\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261018030051001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-18 21:47:34",
+          "description": "(서울=연합뉴스) 고동욱 기자 = 이재명 대통령은 18일 &quot;국민들은 다 환영하는 국무회의 일부 공개에 대해 &apos;공개회의라 국무위원들이 말을 못 한...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "image_url": "https://img.yna.co.kr/photo/yna/YH/2026/09/29/PYH2026092905920001300_P2.jpg",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "李대통령 \"'국무회의 공개라 말 못한다'는 거짓말…이해 안 돼\"",
+              "link": "https://www.yna.co.kr/view/AKR20261018030000001"
+            }
+          ]
+        },
+        {
+          "title": "호남 빼고 다 돌아섰다… 이재명·김민석 부정평가 치솟은 까닭은",
+          "link": "https://www.chosun.com/politics/politics_general/2026/10/19/GY6LIZTHQNDQDD4EK4TRHMZ47I/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-10-19 03:00:00",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "image_url": "https://www.chosun.com/resizer/v2/HYZDHOJZXJMCFL7JKB6GI2ZQPQ.jpg?auth=babc51c1936ef8b734ad2cf0a38142e81a2b0ca8d7e54b7b9cb0cb50bf323650&smart=true&width=4184&height=3088",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "국토위 경기도 국감 오후 1시 조정…추미애, 소방관 영결식 참석",
+          "link": "https://www.yna.co.kr/view/AKR20261018025700061",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-18 12:39:12",
+          "description": "(수원=연합뉴스) 최찬흥 기자 = 경기도는 19일 오전 10시 예정된 국회 국토교통위원회 국정감사가 당일 오후 1시로 연기됐다고 18일 밝혔다....",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "image_url": "https://img.yna.co.kr/photo/yna/YH/2026/10/17/PYH2026101705430001300_P2.jpg",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 \"'국무회의 공개라 말 못한다'는 거짓말…이해 안 돼\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261018030051001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-18 21:47:34",
+          "description": "(서울=연합뉴스) 고동욱 기자 = 이재명 대통령은 18일 &quot;국민들은 다 환영하는 국무회의 일부 공개에 대해 &apos;공개회의라 국무위원들이 말을 못 한...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "image_url": "https://img.yna.co.kr/photo/yna/YH/2026/09/29/PYH2026092905920001300_P2.jpg",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "related_full_sources": []
+        }
+      ],
+      "count": 4,
+      "role": "한국 대통령"
+    },
+    "조희대": {
+      "articles": [
+        {
+          "title": "조희대 대법원장 탄핵하겠다는 與…헌재 절차·판단 기준은(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261017045951004",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-18 14:03:29",
+          "description": "(서울=연합뉴스) 이밝음 이미령 기자 = 더불어민주당이 조희대 대법원장에 대한 탄핵 추진 논의를 공식화하면서 헌법재판소가 공직자의 파면 여부를 ...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "image_url": "https://img.yna.co.kr/photo/yna/YH/2026/10/16/PYH2026101601970001300_P2.jpg",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "정점식 \"김민석, 조희대 탄핵 여부 결론내라…엄중 책임져야\"",
+          "link": "https://www.yna.co.kr/view/AKR20261018018900001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-18 10:40:48",
+          "description": "(서울=연합뉴스) 이정현 노선웅 기자 = 국민의힘 정점식 원내대표는 18일 더불어민주당 김민석 대표를 향해 &quot;조희대 대법원장 탄핵 추진 여부에 ...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "image_url": "https://img.yna.co.kr/photo/yna/YH/2026/10/18/PYH2026101802100001300_P2.jpg",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "당내 정국",
+          "is_representative": true,
+          "related_full_sources": [
+            {
+              "source": "조선일보-정치",
+              "title": "정점식 “김민석, 조희대 탄핵 여부 조속히 결론내라...엄중히 책임져야”",
+              "link": "https://www.chosun.com/politics/politics_general/2026/10/18/V4T344KNHVH7BJQW4YULOQ6LCQ/"
+            }
+          ]
+        },
+        {
+          "title": "여당, 조희대 대법원장 탄핵 추진한다는데…헌재 판단 기준은",
+          "link": "https://www.yna.co.kr/view/AKR20261017045900004",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-18 09:00:01",
+          "description": "(서울=연합뉴스) 이미령 기자 = 더불어민주당이 조희대 대법원장에 대한 탄핵 추진 논의를 공식화하면서 헌법재판소가 공직자의 파면 여부를 가르는 ...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "image_url": "https://img.yna.co.kr/photo/yna/YH/2026/10/16/PYH2026101601970001300_P2.jpg",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": false,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "대법원장"
+    }
+  }
+}
