@@ -1,0 +1,476 @@
+{
+  "timestamp": "2026-10-20T06:01:20.030425",
+  "date": "20261020",
+  "data": [
+    {
+      "keyword": "재건축",
+      "reason": "현대건설 목동10단지 등 대형 수주 소식",
+      "score": 44.09,
+      "article_count": 3,
+      "source_count": 2,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "현대건설, 목동10단지 재건축 수주…올해 도시정비 누적 12.7조 - 코리아리포트",
+        "현대건설, 목동10단지 재건축사업 수주… 4248가구 40층 대단지 재건축 - 디지털비즈온",
+        "현대건설, ‘2.6조’ 목동10단지 재건축 수주"
+      ],
+      "representative_article": {
+        "title": "현대건설, ‘2.6조’ 목동10단지 재건축 수주",
+        "link": "https://www.mk.co.kr/news/realestate/12179609",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-10-19 14:52:15",
+        "match_score": 44.09
+      },
+      "related_articles": [
+        {
+          "title": "현대건설, ‘2.6조’ 목동10단지 재건축 수주",
+          "link": "https://www.mk.co.kr/news/realestate/12179609",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-19 14:52:15",
+          "match_score": 44.09
+        },
+        {
+          "title": "현대건설, 목동10단지 재건축 수주…올해 도시정비 누적 12.7조 - 코리아리포트",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE10ZUFoUnNfbWo4WmdFM1ZEaGtsSXRrcXI5RjZ5Nlp5V2s4Yk9tNlRRN25BNnV3X3VwODd5QTg4MUZ0aUhKUW00SmRjRFI5NEdfNUk2OS1ja1BQUGowMEI5cDlhUjlrZEp1OFFpcGFxTS0?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-10-19 20:40:23",
+          "match_score": 43.71
+        },
+        {
+          "title": "현대건설, 목동10단지 재건축사업 수주… 4248가구 40층 대단지 재건축 - 디지털비즈온",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBDdk9qQlVBQ1g2c1JScW9BeHdSaWNvM0xiU1YzVW9jUGlMV19PSFMwVEdVVllTNXdBcFQ1OWhyOUlGd2VUS1Z5bjJiYjhvZE84OFYxSVdZbkxNaU1zTGpnLW9NSVhIb21abXJCc29HbnhJaFFl0gF0QVVfeXFMUEN2T2pCVUFDWDZzUlJxb0F4d1JpY28zTGJTVjNVb2NQaUxXX09IUzBUR1VWWVM1d0FwVDU5aHI5SUZ3ZVRLVnluMmJiOG9kTzg4VjFJV1luTE1pTXNMamctb01JWEhvbVptckJzb0dueEloUWU?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-10-19 17:56:39",
+          "match_score": 43.71
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "메모리반도체",
+      "reason": "삼성전기 공급계약과 반도체 산업 확대",
+      "score": 25.69,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "삼성전기, 3605억원 규모  '메모리 반도체용 패키지기판' 장기 공급계약"
+      ],
+      "representative_article": {
+        "title": "삼성전기, 3605억원 규모  '메모리 반도체용 패키지기판' 장기 공급계약",
+        "link": "https://www.etnews.com/20261019000417",
+        "source": "전자신문",
+        "published_dt": "2026-10-19 17:55:36",
+        "match_score": 25.69
+      },
+      "related_articles": [
+        {
+          "title": "삼성전기, 3605억원 규모  '메모리 반도체용 패키지기판' 장기 공급계약",
+          "link": "https://www.etnews.com/20261019000417",
+          "source": "전자신문",
+          "published_dt": "2026-10-19 17:55:36",
+          "match_score": 25.69
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "나온다",
+      "score": 37.4,
+      "article_count": 10,
+      "source_count": 4,
+      "categories": [
+        "국제",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "韓 반도체 저격수 된 머스크…中 메모리 띄우고 삼전닉스 흔드는 속셈?",
+        "美 프리스턴 공학박사도 2300곳 지원 '퇴짜'…“나는 부모 집 지하실에 사는 백수”",
+        "강동 대장 '올파포', 5억 로또 아파트로 나온다…21일 입찰 진행"
+      ],
+      "llm_candidate": false,
+      "rank": 3,
+      "representative_article": {
+        "title": "강동 대장 '올파포', 5억 로또 아파트로 나온다…21일 입찰 진행",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/10/19/2026101902668.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-10-19 17:27:41",
+        "match_score": 29.09
+      },
+      "related_articles": [
+        {
+          "title": "강동 대장 '올파포', 5억 로또 아파트로 나온다…21일 입찰 진행",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/10/19/2026101902668.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-10-19 17:27:41",
+          "match_score": 29.09
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "부동산",
+      "score": 39.0,
+      "article_count": 9,
+      "source_count": 4,
+      "categories": [
+        "국제",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "해외 부동산 공모펀드 수익률 수년째 부진",
+        "서울역 부근 단기임대 숙소 TOP5, 주 36만~49만원 매물 따져보니",
+        "수도권 교통 호재에 대한 모든 것…매경플러스서 PDF 다운 받으세요 [부동산 손품노트]"
+      ],
+      "llm_candidate": false,
+      "rank": 4,
+      "representative_article": {
+        "title": "수도권 교통 호재에 대한 모든 것…매경플러스서 PDF 다운 받으세요 [부동산 손품노트]",
+        "link": "https://www.mk.co.kr/news/realestate/12180007",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-10-19 20:52:58",
+        "match_score": 38.09
+      },
+      "related_articles": [
+        {
+          "title": "수도권 교통 호재에 대한 모든 것…매경플러스서 PDF 다운 받으세요 [부동산 손품노트]",
+          "link": "https://www.mk.co.kr/news/realestate/12180007",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-19 20:52:58",
+          "match_score": 38.09
+        },
+        {
+          "title": "부동산원, 2026년 공공건축물 그린리모델링  의무화 기술지원 사업 설명회",
+          "link": "https://www.mk.co.kr/news/realestate/12179730",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-19 16:18:46",
+          "match_score": 37.49
+        },
+        {
+          "title": "“집값 급등 부추겼다” vs “밭 다시 일구는 중”…서울시 국감, 부동산 놓고 격돌",
+          "link": "https://www.mk.co.kr/news/realestate/12179668",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-19 15:45:33",
+          "match_score": 28.49
+        },
+        {
+          "title": "해외 부동산 공모펀드 수익률 수년째 부진",
+          "link": "https://www.chosun.com/economy/stock-finance/2026/10/20/LE6IML5BJZHIDCJEK337GA22FA/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-10-20 00:36:00",
+          "match_score": 28.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "트럼프",
+      "score": 38.6,
+      "article_count": 8,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "국제"
+      ],
+      "sample_titles": [
+        "대미투자, 언제까지 수비만 할건가요…‘판’ 좀 뒤집어봅시다 [기자24시]",
+        "네타냐후, 트럼프와 전화 통화…“과거·미래 美대통령 중 최고의 친구”",
+        "트럼프, 또 ‘부정선거’ 군불…“뉴멕시코 이름 바꾸면 선거 정직해질 것”"
+      ],
+      "llm_candidate": false,
+      "rank": 5,
+      "representative_article": {
+        "title": "네타냐후, 트럼프와 전화 통화…“과거·미래 美대통령 중 최고의 친구”",
+        "link": "https://www.donga.com/news/Inter/article/all/20261020/134871459/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-10-20 05:27:00",
+        "match_score": 37.3
+      },
+      "related_articles": [
+        {
+          "title": "네타냐후, 트럼프와 전화 통화…“과거·미래 美대통령 중 최고의 친구”",
+          "link": "https://www.donga.com/news/Inter/article/all/20261020/134871459/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-20 05:27:00",
+          "match_score": 37.3
+        },
+        {
+          "title": "트럼프, 또 ‘부정선거’ 군불…“뉴멕시코 이름 바꾸면 선거 정직해질 것”",
+          "link": "https://www.donga.com/news/Inter/article/all/20261020/134871481/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-20 05:51:31",
+          "match_score": 37.3
+        },
+        {
+          "title": "“배런인 줄 알았네”…트럼프 손자 13세 생일 사진, 이방카가 공개",
+          "link": "https://www.donga.com/news/Inter/article/all/20261019/134868218/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-19 16:41:05",
+          "match_score": 37.3
+        },
+        {
+          "title": "美민주당 ‘하원 찾으면 트럼프 돈줄 죈다’…이란전쟁·ICE 예산 파헤친다",
+          "link": "https://www.donga.com/news/Inter/article/all/20261019/134865961/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-19 12:12:55",
+          "match_score": 37.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "앞두고",
+      "score": 32.1,
+      "article_count": 6,
+      "source_count": 5,
+      "categories": [
+        "국제",
+        "기업/산업",
+        "부동산",
+        "정치"
+      ],
+      "sample_titles": [
+        "김민석, 강릉 ITS 세계총회 방문…내년 보선 앞두고 민심공략",
+        "한텍 트레이더, RZR 펀디드로 브랜드 변경하며 새로운 성장 단계 진입",
+        "강남구, 일원개포한신 재건축 철거 앞두고 학생 통학안전 대책 마련 - 강남포스트"
+      ],
+      "llm_candidate": false,
+      "rank": 6,
+      "representative_article": {
+        "title": "강남구, 일원개포한신 재건축 철거 앞두고 학생 통학안전 대책 마련 - 강남포스트",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE90cjRod1BfREswbEtYMWx4UXlBSnljSGRYUkliczdPUlBOaDltVEVHRzExbHI0MlRRSjZBdTVKbkk2SDBqS19qZXd1bTdOb1JNS2F3elZtUl9CSFdxaDc0a3FCSXBKdw?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-10-20 00:20:21",
+        "match_score": 37.71
+      },
+      "related_articles": [
+        {
+          "title": "강남구, 일원개포한신 재건축 철거 앞두고 학생 통학안전 대책 마련 - 강남포스트",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE90cjRod1BfREswbEtYMWx4UXlBSnljSGRYUkliczdPUlBOaDltVEVHRzExbHI0MlRRSjZBdTVKbkk2SDBqS19qZXd1bTdOb1JNS2F3elZtUl9CSFdxaDc0a3FCSXBKdw?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-10-20 00:20:21",
+          "match_score": 37.71
+        },
+        {
+          "title": "김민석, 강릉 ITS 세계총회 방문…내년 보선 앞두고 민심공략",
+          "link": "https://www.yna.co.kr/view/AKR20261019173500001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-20 05:01:00",
+          "match_score": 28.68
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "아파트",
+      "score": 28.8,
+      "article_count": 6,
+      "source_count": 2,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "강남 집값만 잡으면 된다고? … ‘상향평준화’ 멈출 기미 안보인다",
+        "강동 대장 '올파포', 5억 로또 아파트로 나온다…21일 입찰 진행",
+        "20년 넘게 멈춘 원주 단계주공 아파트, 1560가구 아이파크로 재건축"
+      ],
+      "llm_candidate": false,
+      "rank": 7,
+      "representative_article": {
+        "title": "삼성물산 ‘여의도 대장’ 시범아파트 수주…41층 스카이 브릿지 만든다",
+        "link": "https://www.mk.co.kr/news/realestate/12179405",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-10-19 11:22:11",
+        "match_score": 38.09
+      },
+      "related_articles": [
+        {
+          "title": "삼성물산 ‘여의도 대장’ 시범아파트 수주…41층 스카이 브릿지 만든다",
+          "link": "https://www.mk.co.kr/news/realestate/12179405",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-19 11:22:11",
+          "match_score": 38.09
+        },
+        {
+          "title": "강동 대장 '올파포', 5억 로또 아파트로 나온다…21일 입찰 진행",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/10/19/2026101902668.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-10-19 17:27:41",
+          "match_score": 38.09
+        },
+        {
+          "title": "20년 넘게 멈춘 원주 단계주공 아파트, 1560가구 아이파크로 재건축",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/10/19/2026101901442.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-10-19 11:37:25",
+          "match_score": 38.09
+        },
+        {
+          "title": "여의도 시범아파트 재건축 시공사에 삼성물산 선정 - 토목신문",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE54RFVIaUcwQm1rZjZoWU1YU2pheXZxT3ktWXg5U3Z6QlBYQll6VnI0ZHVMX2szVm5wYXlRcXpuWTlYZGZ5LWxPOFJmNkhvbTdVM0pwUjNUdmppOF9tNFFCeGxMNElzMDdO?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-10-19 17:37:35",
+          "match_score": 37.71
+        },
+        {
+          "title": "“전셋값 더 뛰겠네요”…11월 수도권 아파트 입주 물량 절반 ‘뚝’",
+          "link": "https://www.mk.co.kr/news/realestate/12179325",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-19 10:32:25",
+          "match_score": 37.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "인프라",
+      "score": 30.3,
+      "article_count": 5,
+      "source_count": 5,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "AI 인프라 투자 우려...삼전닉스 2%대 하락, 반도체주도 '휘청' - 금융소비자뉴스",
+        "자동차연구원, 충북 음성에 전기다목적차 연구센터 준공",
+        "PC, 메모리 대란 한숨 돌렸다…내년 'AI B2B' 승부수"
+      ],
+      "llm_candidate": false,
+      "rank": 8,
+      "representative_article": {
+        "title": "美 데이터센터 올해 최소 47곳 차질… 흔들리는 AI 인프라 붐",
+        "link": "https://www.donga.com/news/Economy/article/all/20261019/134869919/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-10-20 00:30:00",
+        "match_score": 37.3
+      },
+      "related_articles": [
+        {
+          "title": "美 데이터센터 올해 최소 47곳 차질… 흔들리는 AI 인프라 붐",
+          "link": "https://www.donga.com/news/Economy/article/all/20261019/134869919/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-20 00:30:00",
+          "match_score": 37.3
+        },
+        {
+          "title": "AI 인프라 투자 우려...삼전닉스 2%대 하락, 반도체주도 '휘청' - 금융소비자뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE90V0VGampVUnBZZGJlUWpEQXRlSldRMWttZDBxQm01Z01HUlJ5Q2kxejE2VUV6R016UjlRd2ppZGJaZTVQcnZYQUdkdGJOdHpNajJ5d3hvRlJuc3JsTGJIUjNxVWxDckhMTUE?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-10-19 09:41:00",
+          "match_score": 36.96
+        },
+        {
+          "title": "“전력망 계통 연계 사업까지”…현대건설, 호주 에너지 인프라 시장 공략 보폭 넓힌다",
+          "link": "https://www.mk.co.kr/news/realestate/12179239",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-19 09:33:35",
+          "match_score": 28.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "프랑스",
+      "score": 26.4,
+      "article_count": 5,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "\"성장엔진 멈춘 유럽 거울삼아… 韓, AI속도전·연금개혁 병행을\"",
+        "‘유럽의 병자’ 된 프랑스, 청년세대의 희망 도려내 기성세대 줬다",
+        "유로-달러, 프랑스 소요 사태에 하락세 | - 연합인포맥스"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "유로-달러, 프랑스 소요 사태에 하락세 | - 연합인포맥스",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1VMEo3YnVxM3MwQmdlVmVMQWhKSE8tb3hXTy10blB1Nk5VQ2xVV3ZFRWRGbEZuQ0l4dHRJWEd1c3JiRVNWVC1YZXZZZkZjOUVQLTMxS3VETUMyY3A3VlZQUFRSQW5pQ3pGRVQ2c29QS2RkR2JJ?oc=5",
+        "source": "키워드-금리환율코스피",
+        "published_dt": "2026-10-20 01:14:44",
+        "match_score": 36.96
+      },
+      "related_articles": [
+        {
+          "title": "유로-달러, 프랑스 소요 사태에 하락세 | - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1VMEo3YnVxM3MwQmdlVmVMQWhKSE8tb3hXTy10blB1Nk5VQ2xVV3ZFRWRGbEZuQ0l4dHRJWEd1c3JiRVNWVC1YZXZZZkZjOUVQLTMxS3VETUMyY3A3VlZQUFRSQW5pQ3pGRVQ2c29QS2RkR2JJ?oc=5",
+          "source": "키워드-금리환율코스피",
+          "published_dt": "2026-10-20 01:14:44",
+          "match_score": 36.96
+        },
+        {
+          "title": "‘유럽의 병자’ 된 프랑스, 청년세대의 희망 도려내 기성세대 줬다",
+          "link": "https://www.chosun.com/economy/stock-finance/2026/10/20/K3RX7UXNXBAQNDC5OCUQSFVP5Y/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-10-20 00:50:00",
+          "match_score": 28.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "하이닉스",
+      "score": 31.9,
+      "article_count": 5,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "우리은행, SK하이닉스와 반도체 협력사 금융지원 - 에너지경제신문",
+        "우리은행, SK하이닉스와 반도체 협력사 금융지원 - 에너지경제신문",
+        "이찬진 “솔리다임, ‘중복상장’ 해당…하이닉스에 우려사항 전달할 것”"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "이찬진 “솔리다임, ‘중복상장’ 해당…하이닉스에 우려사항 전달할 것”",
+        "link": "https://www.mk.co.kr/news/economy/12179635",
+        "source": "매일경제-경제",
+        "published_dt": "2026-10-19 15:20:58",
+        "match_score": 37.66
+      },
+      "related_articles": [
+        {
+          "title": "이찬진 “솔리다임, ‘중복상장’ 해당…하이닉스에 우려사항 전달할 것”",
+          "link": "https://www.mk.co.kr/news/economy/12179635",
+          "source": "매일경제-경제",
+          "published_dt": "2026-10-19 15:20:58",
+          "match_score": 37.66
+        },
+        {
+          "title": "우리은행, SK하이닉스와 반도체 협력사 금융지원 - 에너지경제신문",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBXcE9BZTdBMGhtbFYtVjJKVDN5emQ0NTdaSzh1bWN2UG1KeXVBZmxxSDVRd3FNdFlZS294NmJlbFZpdDVyRDlZT3Z4NHNWUGJqNEw3N19QV3AtZm9YS01FT1JPZw?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-10-19 18:09:37",
+          "match_score": 36.96
+        },
+        {
+          "title": "메모리 장기계약 2035년까지 연장 가능성, 삼성전자와 SK하이닉스 호황 지속 청신호 - 비즈니스포스트",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9wd0xyWkhJTG1WbGtVZkEzSFdSUnN2M2hhczM0T0JtMC0tSkFvdHZ0RGQ0ZTVFQUV6RVF6Q1JRYVNHRE56MVQ1R2FRNWxBNEtSVS0weVk2ZnprUVJIRFhzNWhaNzBITXZnQVdPUkZkZThiZmM?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-10-19 09:57:59",
+          "match_score": 36.96
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
