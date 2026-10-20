@@ -1,0 +1,149 @@
+{
+  "timestamp": "2026-10-21T06:01:19.786504",
+  "date": "20261021",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "李대통령 “공급 전격전 펼쳐달라” 3기 신도시 용적률 250%로 상향",
+          "link": "https://www.chosun.com/economy/real_estate/2026/10/21/B7SXUMHLMBAQNKXPOBSTFIL5SI/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-10-21 00:55:00",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "image_url": "https://www.chosun.com/resizer/v2/G4YWIYJYMMZGCMJYGY4GCYLGGA.jpg?auth=50b200ee589dd44e3f5cfd65207b64c2c2767fae81b9a7151e0772b5e6f4d349&smart=true&width=4020&height=2580",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "deduped_sources": [
+            {
+              "source": "조선일보-경제",
+              "title": "李대통령 “공급 전격전 펼쳐달라” 3기 신도시 용적률 250%로 상향",
+              "link": "https://www.chosun.com/economy/real_estate/2026/10/21/B7SXUMHLMBAQNKXPOBSTFIL5SI/"
+            }
+          ],
+          "priority_score": 6,
+          "pol_subcategory": "입법/정책",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "정부, 주택공급 '속도전' 의지 재확인…\"구체적 성과 만들어야\"",
+          "link": "https://www.yna.co.kr/view/AKR20261020153700003",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-10-20 17:36:28",
+          "description": "(서울=연합뉴스) 임기창 기자 = 서울을 포함한 수도권 아파트 매매·전월세 상승세 지속에 정부가 신속한 주택 공급 의지를 연이어 밝히며 &apos;중장기...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/economy.xml",
+          "image_url": "https://img.yna.co.kr/photo/yna/YH/2026/10/20/PYH2026102018610001300_P2.jpg",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李 \"주택공급 전격전\" 주문한 날…건설현장 멈춰 세울 '산안법' 통과됐다",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/10/20/2026102002044.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-10-20 15:51:33",
+          "description": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"3\" width=\"100%\"><tr><td><img border=\"0\" src=\"https://image.chosun.com/sitedata/thumbnail/202610/20/2026102002041_0_thumb.jpg\" /></td></tr></table>\n\t \n \n[땅집고] 사업주가 안전·보건 조치 의무를 어겨 한 해 노동자 3명 이상이 산업재해로 숨지면 영업이익의 최대 5%를 과징금으로 물리는 제도가 시행된다. 피해가 가장 클 것으로 예상되는 곳은 건설업계다. 현장이 많고 사고 위험이 큰 대형 건설사들이 직격탄을 맞을 수 있다. 같은 날 이재명 대통령은 국무회의에서 \"주택 공급 전격전을 펼쳐 달라\"고 주문했다. 하지만 업계에선 개정 산업안전보건법 때문에 공사가 오히려 더 늘어질 것이라는 전망이 나온다.\n \n◇영업이익 5% 과징금에 ‘3진 아웃' 등록말소까지\n \n정부는 20일 오전 이...",
+          "category": "domestic",
+          "feed_url": "https://realty.chosun.com/site/data/rss/rss.xml",
+          "image_url": "https://image.chosun.com/sitedata/thumbnail/202610/20/2026102002041_0_thumb.jpg",
+          "source_type": "realestate",
+          "source_weight": 1.15,
+          "source_badge": "부동산",
+          "priority_score": 1,
+          "related_full_sources": []
+        },
+        {
+          "title": "\"부동산 세금 너무 낮아\" 외친 이재명…분당 집 25억 차익, 양도세 얼마?",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/10/20/2026102001652.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-10-20 14:58:37",
+          "description": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"3\" width=\"100%\"><tr><td><img border=\"0\" src=\"https://image.chosun.com/sitedata/thumbnail/202610/20/2026102001649_0_thumb.jpg\" /></td></tr></table>\n\t \n[땅집고] 이재명 대통령이 부동산 투자에 대한 세금이 지나치게 낮다며 '조세 정의'를 강조한 가운데, 정작 대통령 본인도 현행 세제상 장기보유특별공제의 혜택을 받을 수 있다는 점에서 관심이 쏠린다. 이 대통령은 지난 19일 기자간담회에서 \"이상하게 부동산에 투자하면 세금이 거의 없다시피 한다\"며 \"돈을 벌려고 집을 샀는데 세금을 많이 깎아주는 것은 정의에 관한 문제가 아니냐\"고 지적했다. 다만 \"예외는 정말 살려고 산 집\"이라며 실거주 주택은 구분해야 한다는 입장도 밝혔다.\n \n이 대통령은 올해 분당 아파트를 매각해 취득가격 대...",
+          "category": "domestic",
+          "feed_url": "https://realty.chosun.com/site/data/rss/rss.xml",
+          "image_url": "https://image.chosun.com/sitedata/thumbnail/202610/20/2026102001649_0_thumb.jpg",
+          "source_type": "realestate",
+          "source_weight": 1.15,
+          "source_badge": "부동산",
+          "priority_score": 1,
+          "related_full_sources": []
+        },
+        {
+          "title": "이재명 정부의 야심작 토허제 1년만에 분당·광명·수지 20%  폭등",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/10/20/2026102000636.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-10-20 08:42:48",
+          "description": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"3\" width=\"100%\"><tr><td><img border=\"0\" src=\"https://image.chosun.com/sitedata/thumbnail/202610/20/2026102000633_0_thumb.jpg\" /></td></tr></table>\n\t \n[땅집고] 올해 말 토지거래허가구역(토허구역) 지정 기한 만료를 앞두고 규제 실효성이 도마 위에 올랐다. 정부가 집값을 잡겠다며 서울 전역과 경기 주요 지역을 묶었지만, 규제 시행 1년 만에 경기 성남시 분당구 아파트값이 20% 넘게 급등했기 때문이다. 광명과 용인 수지구도 20% 안팎으로 올랐고, 서울 전체 아파트값 역시 10% 이상 뛰었다. 전세 매물 감소로 임대차시장 불안까지 커지면서 강력한 거래 규제에도 집값 안정 효과는 제한적이었다는 지적이 나온다. 정부가 연말 규제 연장을 검토하는 가운데 실효성 논란이 더욱 거세질 전...",
+          "category": "domestic",
+          "feed_url": "https://realty.chosun.com/site/data/rss/rss.xml",
+          "image_url": "https://image.chosun.com/sitedata/thumbnail/202610/20/2026102000633_0_thumb.jpg",
+          "source_type": "realestate",
+          "source_weight": 1.15,
+          "source_badge": "부동산",
+          "priority_score": 1,
+          "related_full_sources": []
+        }
+      ],
+      "count": 5,
+      "role": "한국 대통령"
+    },
+    "트럼프": {
+      "articles": [
+        {
+          "title": "트럼프, 중간선거에 1억 달러 더 풀어 4억 달러 집행",
+          "link": "https://www.donga.com/news/Inter/article/all/20261021/134879366/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-21 05:38:33",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/21/134879367.1.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령은 20일 다음달 3일 중간선거를 앞두고 1억 달러를 더 선거 비용으로 집행하겠다고 밝혔다. 트럼프 대통령은 이날 자신의 SNS 트루스소셜에서 “우리나라 역사상 가장 중요한 중간선거와 관련해 4억 달러 이상을 지출했거나 지출할 예정”이라고 올렸다. 트럼프 대통령은 “이미 3억 달러 이상이 광고, 직간접적인 유권자 접촉, 유세, 유세장, 전화 유세, 투표 독려 프로그램, 선거의 공정성 확보 등등에 지출됐다”고 설명했다.트럼프는 선거 비용 지출 확대에 대해 “프랑스와 유럽의 다른 여러 지역에서 벌어지고 있는 일들을 지켜보았기 때문”이라고 말했다. 프랑스에서는 열악한 교육 환경에 대한 불만, 스페인은 집값과 주택난, 이탈리아 밀라노에서는 물가상승과 열악한 공공 서비스 등이 도화선이 돼 폭력 시위로 이어지면서 혼란을 겪고 있다. 중간선거에서 하원은 물론 상원도 내줄 지도 모른다는 관측이 잇따르고 있는 가운데 트럼프 대통령이 돈풀기 확대에 나선 것으로 풀이된",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "image_url": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/21/134879367.1.jpg",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프, 내달 방중때 김정은 만날지 묻자 “모르겠다”",
+          "link": "https://www.donga.com/news/Inter/article/all/20261021/134878497/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-21 04:30:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/20/134875438.1.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령이 다음 달 중국 선전에서 열리는 아시아태평양경제협력체(APEC) 정상회의 참석을 계기로 김정은 북한 국무위원장과 회동할 가능성에 대해 “모르겠다(I don‘t know)”고 밝혔다. 앞서 올 8월 트럼프 대통령이 김 위원장과 “연내 만날 것”이라며 강한 회담 의지를 드러낸 것과 비교하면 한층 신중해진 태도다. 트럼프 대통령은 19일(현지 시간) 백악관에서 취재진에게 “나는 김정은과 매우 잘 지낸다”며 이같이 말했다. 또 “누군가 회담을 요청하고 있는지도 확실하지 않지만, 김정은과 나의 관계는 매우 좋다”고 덧붙였다. 트럼프 대통령은 12일에도 아시아 방문 중 김 위원장과 만날 계획을 묻는 질문에 “그럴 수 있다(I may)”고 답했다. 그가 이전과 달리 이날 다소 신중한 발언을 한 건 북-미 간 구체적인 회담 조율이 잘 이뤄지지 않는 상황을 의식한 것일 수 있다. 또 북한의 호응을 기다리되 협상에 매달리는 모습은 보이지 않겠단 의도란 해석도 나온다.",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "image_url": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/20/134875438.1.jpg",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "미국인 70% “트럼프, 중간선거 패배해도 안 받아들일 것”",
+          "link": "https://www.donga.com/news/Inter/article/all/20261021/134879295/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-21 01:46:48",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/21/134879296.1.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령은 공화당이 다음달 중간선거에서 패배해도 받아들이지 않을 것이라는 여론조사가 나왔다. 워싱턴 포스트·ABC 뉴스·여론조사 기관 입소스가 공동으로 실시한 여론조사에 따르면 대다수 미국인들은 다음 달 중간선거가 공정하게 치러질 것이라고 확신했다. 하지만 트럼프 대통령이 공화당이 패배할 경우 이를 받아들이지 않을 것이라는 응답이 10명 중 7명이나 됐다. 트럼프가 패배를 인정하지 않을 것이라는 응답은 민주당원 94%, 무소속 유권자 77%이었고 공화당원도 36%였다.선거가 공정하고 정확하게 치러질 것인지에 대해서는 민주당원의 70%, 공화당원의 67%가 공정하고 정확하게 치러질 것이라고 확신했다. 이번 여론조사에서 공화당이 하원 다수당 지위를 유지할 것이라는 응답은 16%로 민주당 35%보다 낮았다. 트럼프 대통령은 2월 NBC 뉴스가 공화당이 의회를 잃을 경우 선거 결과를 신뢰할 것이냐는 질문에 그는 “선거가 공정하게 치러진다면 신뢰할 것”이라고 답했",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "image_url": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/21/134879296.1.jpg",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "미국 대통령"
+    }
+  }
+}
