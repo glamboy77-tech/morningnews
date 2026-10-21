@@ -1,0 +1,376 @@
+{
+  "timestamp": "2026-10-22T06:01:09.297696",
+  "date": "20261022",
+  "data": [
+    {
+      "keyword": "대남확성기",
+      "reason": "북한의 안보 위협 강화",
+      "score": 34.88,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "北 \"10월 중 전 국경선서 대남확성기 가동\"…위협 수위 높여(종합)"
+      ],
+      "representative_article": {
+        "title": "北 \"10월 중 전 국경선서 대남확성기 가동\"…위협 수위 높여(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261021169551504",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-10-21 22:12:08",
+        "match_score": 34.88
+      },
+      "related_articles": [
+        {
+          "title": "北 \"10월 중 전 국경선서 대남확성기 가동\"…위협 수위 높여(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261021169551504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-21 22:12:08",
+          "match_score": 34.88
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI반도체",
+      "reason": "삼성전기와 삼성전자의 전략투자",
+      "score": 22.69,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "삼성전기, 엔비디아 전용 AI 반도체 기판 생산라인 구축…전략적 파트너십 체결"
+      ],
+      "representative_article": {
+        "title": "삼성전기, 엔비디아 전용 AI 반도체 기판 생산라인 구축…전략적 파트너십 체결",
+        "link": "https://www.etnews.com/20261021000453",
+        "source": "전자신문",
+        "published_dt": "2026-10-21 20:40:00",
+        "match_score": 22.69
+      },
+      "related_articles": [
+        {
+          "title": "삼성전기, 엔비디아 전용 AI 반도체 기판 생산라인 구축…전략적 파트너십 체결",
+          "link": "https://www.etnews.com/20261021000453",
+          "source": "전자신문",
+          "published_dt": "2026-10-21 20:40:00",
+          "match_score": 22.69
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "개인정보유출",
+      "reason": "CJ 티빙 사건 및 보상 검토",
+      "score": 24.67,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "CJ \"티빙 개인정보 유출 엄중히 받아들여…보상 등 지원검토\"(종합)"
+      ],
+      "representative_article": {
+        "title": "CJ \"티빙 개인정보 유출 엄중히 받아들여…보상 등 지원검토\"(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261021146951530",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-10-21 23:03:54",
+        "match_score": 24.67
+      },
+      "related_articles": [
+        {
+          "title": "CJ \"티빙 개인정보 유출 엄중히 받아들여…보상 등 지원검토\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261021146951530",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-10-21 23:03:54",
+          "match_score": 24.67
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재건축",
+      "reason": "국토부와 지역 단지 개발 추진",
+      "score": 39.21,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "홍지선 국토부 장관, 고양시 찾아 일산신도시 재건축 현장 점검 - 기호일보"
+      ],
+      "representative_article": {
+        "title": "홍지선 국토부 장관, 고양시 찾아 일산신도시 재건축 현장 점검 - 기호일보",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBMTm9sTjd2OURsYWFGVVVqVVVibkFEa1p4dWZ6Sl9CX0pXSFRCdkZRbnU0YmhGMF91VVQzc1VHNVF5NWs2Y3NYOV9hdFVhSDJJalBSMm1aVEVtSUNySExqdnhUeXdqci1xSGZXV0piaw?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-10-22 03:42:07",
+        "match_score": 39.21
+      },
+      "related_articles": [
+        {
+          "title": "홍지선 국토부 장관, 고양시 찾아 일산신도시 재건축 현장 점검 - 기호일보",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBMTm9sTjd2OURsYWFGVVVqVVVibkFEa1p4dWZ6Sl9CX0pXSFRCdkZRbnU0YmhGMF91VVQzc1VHNVF5NWs2Y3NYOV9hdFVhSDJJalBSMm1aVEVtSUNySExqdnhUeXdqci1xSGZXV0piaw?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-10-22 03:42:07",
+          "match_score": 39.21
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "스페이스X-테슬라",
+      "reason": "머스크의 AI 산업 공식화",
+      "score": 38.2,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "스페이스X-테슬라 합병 검토… ‘머스크의 AI 제국’ 공식화",
+        "스페이스X·테슬라 합병 공식화한 머스크 “주주 장벽 꽤 높다”"
+      ],
+      "representative_article": {
+        "title": "스페이스X-테슬라 합병 검토… ‘머스크의 AI 제국’ 공식화",
+        "link": "https://www.donga.com/news/Economy/article/all/20261022/134885957/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-10-22 04:30:00",
+        "match_score": 38.2
+      },
+      "related_articles": [
+        {
+          "title": "스페이스X-테슬라 합병 검토… ‘머스크의 AI 제국’ 공식화",
+          "link": "https://www.donga.com/news/Economy/article/all/20261022/134885957/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-22 04:30:00",
+          "match_score": 38.2
+        },
+        {
+          "title": "스페이스X·테슬라 합병 공식화한 머스크 “주주 장벽 꽤 높다”",
+          "link": "https://www.donga.com/news/Economy/article/all/20261021/134880936/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-21 11:41:00",
+          "match_score": 23.9
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "금융위",
+      "score": 39.4,
+      "article_count": 6,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "부동산",
+        "정치"
+      ],
+      "sample_titles": [
+        "금융위, '회계처리 위반' 해태제과·관계자들에 13억 과징금",
+        "핀다, 대원저축은행 품고 여수신 기능 탑재…금융위 최종 승인",
+        "은행정책 - 금융위원회"
+      ],
+      "llm_candidate": false,
+      "rank": 6,
+      "representative_article": {
+        "title": "은행정책 - 금융위원회",
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQald4WWhuaUJWaHl3WDhzemlLQWxmZHRDaUJFWl9MZldMMzdqU2dKdF82SzI0MmFhVjBuSWlmVkkzaF9DUmNpQWQyTmxEY0pFdEJSRWtsb1oxdGNmLU1NZVRURW8yMXZYYjVJX3Y2N196YVF5bXlGcGVmdlJyNkxhbEg3bHdUWkQ1TWk2ZDNmeVdLbHdSR05vdTctYURPcjUz?oc=5",
+        "source": "공식-금융위원회",
+        "published_dt": "2026-10-21 15:08:10",
+        "match_score": 38.2
+      },
+      "related_articles": [
+        {
+          "title": "은행정책 - 금융위원회",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQald4WWhuaUJWaHl3WDhzemlLQWxmZHRDaUJFWl9MZldMMzdqU2dKdF82SzI0MmFhVjBuSWlmVkkzaF9DUmNpQWQyTmxEY0pFdEJSRWtsb1oxdGNmLU1NZVRURW8yMXZYYjVJX3Y2N196YVF5bXlGcGVmdlJyNkxhbEg3bHdUWkQ1TWk2ZDNmeVdLbHdSR05vdTctYURPcjUz?oc=5",
+          "source": "공식-금융위원회",
+          "published_dt": "2026-10-21 15:08:10",
+          "match_score": 38.2
+        },
+        {
+          "title": "보도설명자료 - 금융위원회",
+          "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5iVXJENGV2YzRsZ0xRNVIzQTNRUTBrR25fMXRIdGh3TzM5amJWdVdiMUJmbWphcG9Ed0gtcERlcXFYZXp6UDE2eklhcEc?oc=5",
+          "source": "공식-금융위원회",
+          "published_dt": "2026-10-21 10:08:08",
+          "match_score": 38.2
+        },
+        {
+          "title": "보도자료 - 금융위원회",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNclpmOXc5MUFpZTFXeU1qMFhfaHRsclNfalFNQnlwVUdjRWtRVF9ERjlNUmVocWl5Zjh0SnRRbDZNdjBZQ3ExSUFXbnh3VmhtSW50d3VqQTdwRHd2UFJTT3RobWdKTHZ6RjB2QjV6QkhyVEltNmRvWmxYOThxbUFjUmNxaHU0LVY2bWgxY2pB?oc=5",
+          "source": "공식-금융위원회",
+          "published_dt": "2026-10-21 12:00:00",
+          "match_score": 38.2
+        },
+        {
+          "title": "금융위, '회계처리 위반' 해태제과·관계자들에 13억 과징금",
+          "link": "https://www.yna.co.kr/view/AKR20261021165100002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-10-21 18:55:14",
+          "match_score": 37.67
+        },
+        {
+          "title": "핀다, 대원저축은행 품고 여수신 기능 탑재…금융위 최종 승인",
+          "link": "https://www.yna.co.kr/view/AKR20261021158900002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-10-21 18:20:14",
+          "match_score": 37.67
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "아파트",
+      "score": 22.0,
+      "article_count": 6,
+      "source_count": 2,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "상도동 장승배기역 일대…1800가구 변신",
+        "계양신도시 '카이브 유보라'…반도건설, 23일 견본주택 개관",
+        "“청약 줄 좀 늦게 섰다고 1억 추가요?”…공공택지 분양가 고공행진"
+      ],
+      "llm_candidate": false,
+      "rank": 7,
+      "representative_article": {
+        "title": "'국평 10억' 인천 '산곡역자이힐스테이트&하늘채' 아파트 청약 미달 참패",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/10/21/2026102102442.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-10-21 15:53:50",
+        "match_score": 28.49
+      },
+      "related_articles": [
+        {
+          "title": "'국평 10억' 인천 '산곡역자이힐스테이트&하늘채' 아파트 청약 미달 참패",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/10/21/2026102102442.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-10-21 15:53:50",
+          "match_score": 28.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "영업이익",
+      "score": 24.2,
+      "article_count": 5,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "“성과급 말고 월급받고 싶습니다”…대기업 실적 잔치 속 이자도 버거운 中企",
+        "대기업 실적 잔치라는데…中企는 이자조차 못벌어",
+        "삼성바이오 3분기 영업이익 6천401억원…매출 19%↑(종합)"
+      ],
+      "llm_candidate": false,
+      "rank": 8,
+      "representative_article": {
+        "title": "삼성바이오 3분기 영업이익 6천401억원…매출 19%↑(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261021129851527",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-10-21 16:12:04",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "삼성바이오 3분기 영업이익 6천401억원…매출 19%↑(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261021129851527",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-10-21 16:12:04",
+          "match_score": 37.67
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "생태계",
+      "score": 25.5,
+      "article_count": 5,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "이규석 현대모비스 사장, “국산 車반도체 2029년 첫 탑재…자생 생태계 키운다”",
+        "네이버, 美 AI 비서·음악 생성에 베팅…'실행·창작' 기술 확보 나선다",
+        "현대차·레인보우 “AI로봇 산업화, 공공수요·정부 리더십 중요”"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "이규석 현대모비스 사장, “국산 車반도체 2029년 첫 탑재…자생 생태계 키운다”",
+        "link": "https://www.etnews.com/20261021000263",
+        "source": "전자신문",
+        "published_dt": "2026-10-21 15:10:00",
+        "match_score": 28.49
+      },
+      "related_articles": [
+        {
+          "title": "이규석 현대모비스 사장, “국산 車반도체 2029년 첫 탑재…자생 생태계 키운다”",
+          "link": "https://www.etnews.com/20261021000263",
+          "source": "전자신문",
+          "published_dt": "2026-10-21 15:10:00",
+          "match_score": 28.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "3분기",
+      "score": 23.3,
+      "article_count": 5,
+      "source_count": 3,
+      "categories": [
+        "국제",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "삼성바이오 3분기 영업이익 6천401억원…매출 19%↑(종합)",
+        "중대범죄수사청 입주효과에…서울 A급 오피스 공실률 3.1%로 하락",
+        "스페이스X-테슬라 합병 검토… ‘머스크의 AI 제국’ 공식화"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "삼성바이오 3분기 영업이익 6천401억원…매출 19%↑(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261021129851527",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-10-21 16:12:04",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "삼성바이오 3분기 영업이익 6천401억원…매출 19%↑(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261021129851527",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-10-21 16:12:04",
+          "match_score": 37.67
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}

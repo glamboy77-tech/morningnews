@@ -1,0 +1,96 @@
+{
+  "timestamp": "2026-10-22T06:01:02.975039",
+  "date": "20261022",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "李대통령, 친일파 글씨 '셀프 출품' 유홍준 사의 수용",
+          "link": "https://www.yna.co.kr/view/AKR20261021163151001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-21 18:54:35",
+          "description": "(서울=연합뉴스) 황윤기 기자 = 이재명 대통령은 친일파 유묵 전시 및 검증 논란으로 물러나겠다는 뜻을 밝힌 유홍준 국립중앙박물관장의 사의를 2...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "image_url": "https://img.yna.co.kr/photo/yna/YH/2026/10/19/PYH2026101905830001301_P2.jpg",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李정부 첫 검찰총장 국민천거 종료…이진수 차관은 후보 불참(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261021131251004",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-21 18:00:41",
+          "description": "(서울=연합뉴스) 이승연 기자 = 이재명 정부의 첫 검찰총장이자 초대 공소청 수장을 뽑기 위한 국민천거가 21일 종료됐다.",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "image_url": "https://img.yna.co.kr/photo/yna/YH/2026/10/08/PYH2026100818670001300_P2.jpg",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "“중수청장 국무회의 참석 가능” AI에 물어봤다는 대통령",
+          "link": "https://www.chosun.com/politics/politics_general/2026/10/22/J4M2IOX5UREJ7JDB2W5QREXLFY/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-10-22 00:48:00",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "image_url": "https://www.chosun.com/resizer/v2/K662VDVKFFKWJLPKBF3D2ACWNY.jpg?auth=220b405bfb2a99ececf40a014500e7d44d5a6484ac528d016a3f04b04c412df5&smart=true&width=5706&height=3456",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "‘李 경기 라인’ 이병우, 서류 6등·면접 8등 하고도 마사회 부회장 됐다",
+          "link": "https://www.chosun.com/politics/assembly/2026/10/22/FLAIBF4TUZGADLKGLFLURDHRLQ/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-10-22 00:48:00",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "image_url": "https://www.chosun.com/resizer/v2/TU5C66AG7ZBL7N4IP4ZG6BUI5I.jpg?auth=291a90d02d0cae3fb2fa683138cd0456913467f0b90ffebc5a7cdb8333334044&smart=true&width=3841&height=2161",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, WHO 사무총장 접견…\"국제보건 협력 범위 지속 확대\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261021041251001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-21 19:25:17",
+          "description": "(서울=연합뉴스) 고동욱 기자 = 이재명 대통령은 21일 오후 청와대에서 테워드로스 아드하놈 거브러여수스 세계보건기구(WHO) 사무총장과 만나 ...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "image_url": "https://img.yna.co.kr/photo/yna/YH/2026/10/21/PYH2026102121690001300_P2.jpg",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "sector": "정치",
+          "related_full_sources": []
+        }
+      ],
+      "count": 5,
+      "role": "한국 대통령"
+    }
+  }
+}
