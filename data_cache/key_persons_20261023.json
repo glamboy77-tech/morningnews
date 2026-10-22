@@ -1,0 +1,129 @@
+{
+  "timestamp": "2026-10-23T06:01:09.059597",
+  "date": "20261023",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "李대통령, 노인 일자리사업 발굴 주문…공공영역 적정임금 독려",
+          "link": "https://www.yna.co.kr/view/AKR20261022184400001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-22 18:39:46",
+          "description": "(서울=연합뉴스) 임형섭 기자 = 이재명 대통령은 22일 &quot;생산적인 공공 일자리를 확대하는 것이 우리 정부의 기본 정책 방향&quot;이라며 노인 일자리...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "image_url": "https://img.yna.co.kr/photo/yna/YH/2026/10/22/PYH2026102218510001300_P2.jpg",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "deduped_sources": [
+            {
+              "source": "연합뉴스-경제",
+              "title": "李대통령, 노인 일자리사업 발굴 주문…공공영역 적정임금 독려",
+              "link": "https://www.yna.co.kr/view/AKR20261022184400001"
+            }
+          ],
+          "priority_score": 3,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李 “중수청 지휘감독 않는 건 탄핵 사유”",
+          "link": "https://www.chosun.com/politics/politics_general/2026/10/23/75SMRBUC6BHXBJJEXI2IG5OCWQ/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-10-23 00:55:00",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "image_url": "https://www.chosun.com/resizer/v2/OPUEHZER4JF2NEYFHHFHIAEIYM.jpg?auth=448b72b7edf8108030371b2fc2a07601debf49e28f5518c1f4a20167d09f65ea&smart=true&width=3173&height=1785",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "중동정세 불안 속 UAE 찾아 격려한 이재용",
+          "link": "https://www.donga.com/news/People/article/all/20261022/134893400/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-23 04:30:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/22/134892047.4.jpg\" vspace=\"10\" />이재용 삼성전자 회장이 아랍에미리트(UAE)를 찾아 가스화력발전소 건설 현장을 점검하고 전쟁 인접국에서 일하는 임직원들을 격려했다. 삼성은 중동 사업의 핵심 거점인 UAE에서 원전·가스복합 발전에 이어 인공지능(AI) 데이터센터와 에너지 인프라 사업 등으로 보폭을 넓힐 계획이다. 22일 삼성에 따르면 이 회장은 21일(현지 시간) UAE 아부다비의 알 다프라 가스화력발전소 건설 현장을 방문해 공사 진행 일정과 안전관리 현황을 살폈다. 이어 삼성물산, 삼성E&amp;A 경영진과 중동 시장의 변화와 향후 사업 방향, 신규 사업 진출 방안 등을 논의했다. 알 다프라 발전소는 삼성물산이 현지 건설사 트로잔 제너럴 컨트랙팅과 컨소시엄을 꾸려 짓고 있는 대형 전력 인프라다. UAE의 산업 발전에 따른 전력 수요 증가에 대비한 사업으로, 향후 AI 데이터센터 등 첨단 산업에 전력을 공급할 것으로 기대된다. 삼성물산은 UAE 바라카 원전 건설로 시공 기술력을 입증했고, 삼성E&amp;A도 UA",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "image_url": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/22/134892047.4.jpg",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "한국 대통령"
+    },
+    "한동훈": {
+      "articles": [
+        {
+          "title": "與박균택 '한동훈子 학폭무마 의혹' 국감 질의에 韓 \"저질 공격\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261022178751001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-22 20:47:31",
+          "description": "(서울=연합뉴스) 김연정 최평천 노선웅 기자 = 더불어민주당 박균택 의원이 22일 국회 법제사법위원회 국정감사에서 무소속 한동훈 의원 부부가 아...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "image_url": "https://img.yna.co.kr/photo/yna/YH/2026/04/01/PYH2026040125800001300_P2.jpg",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": true,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "與박균택 '한동훈子 학폭무마 의혹' 국감 질의에 韓 \"저질 공격\"",
+              "link": "https://www.yna.co.kr/view/AKR20261022178700001"
+            }
+          ]
+        },
+        {
+          "title": "檢총장 대행 \"검찰조직에 악영향 끼친분 윤석열, 그다음 한동훈\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261022145751004",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-22 18:10:48",
+          "description": "(서울=연합뉴스) 정윤주 이승연 기자 = 이정현 검찰총장 직무대행(공소청 차장검사)이 검찰조직에 악영향을 끼친 인물로 윤석열 전 대통령, 그 다...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "image_url": "https://img.yna.co.kr/photo/yna/YH/2026/10/22/PYH2026102207610001301_P2.jpg",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "검찰 총장대행 \"한동훈 유출의혹 조사 한계…수사로 밝혀져야\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261022104251004",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-22 17:27:14",
+          "description": "(서울=연합뉴스) 이승연 기자 = 이정현 검찰총장 직무대행(공소청 차장검사)이 김승원 전 법무부 장관 후보자 사건 기소 계획서 유출 의혹과 관련...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "image_url": "https://img.yna.co.kr/photo/yna/YH/2026/10/22/PYH2026102207570001301_P2.jpg",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "법무부 장관"
+    }
+  }
+}

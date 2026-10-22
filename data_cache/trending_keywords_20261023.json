@@ -1,0 +1,434 @@
+{
+  "timestamp": "2026-10-23T06:01:15.646141",
+  "date": "20261023",
+  "data": [
+    {
+      "keyword": "국정감사",
+      "reason": "여야 공방 및 주요 이슈 다수",
+      "score": 39.88,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "상임위 8곳 국정감사…미래기금·초광역특구법 등 공방 전망"
+      ],
+      "representative_article": {
+        "title": "상임위 8곳 국정감사…미래기금·초광역특구법 등 공방 전망",
+        "link": "https://www.yna.co.kr/view/AKR20261022181800001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-10-23 05:00:00",
+        "match_score": 39.88
+      },
+      "related_articles": [
+        {
+          "title": "상임위 8곳 국정감사…미래기금·초광역특구법 등 공방 전망",
+          "link": "https://www.yna.co.kr/view/AKR20261022181800001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-23 05:00:00",
+          "match_score": 39.88
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI 투자",
+      "reason": "기업별 AI 투자·협력 확대",
+      "score": 38.16,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "'AI 투자 우려' 메타, 주가 급락·CDS 급등…美 10년물 금리 5% 하회 - 연합인포맥스"
+      ],
+      "representative_article": {
+        "title": "'AI 투자 우려' 메타, 주가 급락·CDS 급등…美 10년물 금리 5% 하회 - 연합인포맥스",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1MU1FzMnFYd3hrMWFmanZzWFhtSlIwOFVCOHNpRURxR25nUUlSUGhkRmhzTW1XUFJIYnJNLWhuazVPenpBaWpWLVd5V2w2Q0JYbGtvU1l0NDFnLWJXTm1CMHc3QTh2cmpNWjRmeHZTc0I?oc=5",
+        "source": "키워드-금리환율코스피",
+        "published_dt": "2026-10-23 03:58:56",
+        "match_score": 38.16
+      },
+      "related_articles": [
+        {
+          "title": "'AI 투자 우려' 메타, 주가 급락·CDS 급등…美 10년물 금리 5% 하회 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1MU1FzMnFYd3hrMWFmanZzWFhtSlIwOFVCOHNpRURxR25nUUlSUGhkRmhzTW1XUFJIYnJNLWhuazVPenpBaWpWLVd5V2w2Q0JYbGtvU1l0NDFnLWJXTm1CMHc3QTh2cmpNWjRmeHZTc0I?oc=5",
+          "source": "키워드-금리환율코스피",
+          "published_dt": "2026-10-23 03:58:56",
+          "match_score": 38.16
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "아파트",
+      "score": 69.7,
+      "article_count": 15,
+      "source_count": 5,
+      "categories": [
+        "국제",
+        "부동산"
+      ],
+      "sample_titles": [
+        "(석간) 서울 아파트 매매 실거래가격 상승 지속...1년 새 15.50% 상승 > 보도자료 - 서울특별시",
+        "낡은 아파트가 새 아파트보다 비싼 이유…재건축 기대가 만든 가격의 문턱 - 하이뉴스",
+        "83세 거장이 짓고, 30대 창업자가 샀다 … 218억 아파트의 비밀"
+      ],
+      "llm_candidate": false,
+      "rank": 3,
+      "representative_article": {
+        "title": "(석간) 서울 아파트 매매 실거래가격 상승 지속...1년 새 15.50% 상승 > 보도자료 - 서울특별시",
+        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNN0RaZUtPOG10SW83SHNmLXJVclBBRk1nX0hDSmpnNFhKTzVyLXdXZlZ3cDdZUTZ4VjVHa0JxblZIOWNYd1pxUG5wbmwxYTNlZXU5eDhKUDFxSnEyYW1la2E5MDJJdW50dnZLY1UtZUtOZ1kyc2hidzNYeW1DTVNCOElrS1Z6MUtZVDdfZ29fb2xETUw3UXFwVnMyN2xMT0FYNVpnaXdVczF2eDVw?oc=5",
+        "source": "공식-서울시",
+        "published_dt": "2026-10-22 22:50:16",
+        "match_score": 38.2
+      },
+      "related_articles": [
+        {
+          "title": "(석간) 서울 아파트 매매 실거래가격 상승 지속...1년 새 15.50% 상승 > 보도자료 - 서울특별시",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNN0RaZUtPOG10SW83SHNmLXJVclBBRk1nX0hDSmpnNFhKTzVyLXdXZlZ3cDdZUTZ4VjVHa0JxblZIOWNYd1pxUG5wbmwxYTNlZXU5eDhKUDFxSnEyYW1la2E5MDJJdW50dnZLY1UtZUtOZ1kyc2hidzNYeW1DTVNCOElrS1Z6MUtZVDdfZ29fb2xETUw3UXFwVnMyN2xMT0FYNVpnaXdVczF2eDVw?oc=5",
+          "source": "공식-서울시",
+          "published_dt": "2026-10-22 22:50:16",
+          "match_score": 38.2
+        },
+        {
+          "title": "낡은 아파트가 새 아파트보다 비싼 이유…재건축 기대가 만든 가격의 문턱 - 하이뉴스",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE94eDhxeXFwYTBycTRITlprVWYwQ2l2eEVCYkJidFM5Q0FqazRwajQwcmVQS2JLSTlTUmtiUW9zQ1VrTWFQWHJVV2NxYWM2c2JnYU5zTGIxT1plRzhLdTBxQlZudDJOejhVaXM0Yy11c1VPQ1k2eUsw?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-10-22 23:20:00",
+          "match_score": 37.71
+        },
+        {
+          "title": "\"이 가격이면 차라리 큰 집\"… 서울 중대형 아파트값 '쑥'",
+          "link": "https://www.mk.co.kr/news/realestate/12183156",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-22 17:31:57",
+          "match_score": 37.49
+        },
+        {
+          "title": "노원구 상계한신 1·2차, 1140가구 새 아파트로 재탄생",
+          "link": "https://www.mk.co.kr/news/realestate/12182635",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-22 10:50:48",
+          "match_score": 37.49
+        },
+        {
+          "title": "中아파트 12층 매달린 세살배기…의자로 받혀 ‘구조’",
+          "link": "https://www.donga.com/news/Inter/article/all/20261022/134893629/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-22 21:52:19",
+          "match_score": 37.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "반도체",
+      "score": 46.4,
+      "article_count": 8,
+      "source_count": 6,
+      "categories": [
+        "경제/거시",
+        "기업/산업",
+        "정치"
+      ],
+      "sample_titles": [
+        "여야, 산자위서 '호남반도체'·'공공기관 인사' 두고 공방(종합)",
+        "“SK하이닉스 팔고 삼성전자 샀다” 외국인들 도대체 왜?…엇갈린 반도체 투톱[투자360] - 헤럴드경제",
+        "[특징주] 상장 첫날 32% 급락 엘리스, 17% 치솟으며 이틀째 반등(종합)"
+      ],
+      "llm_candidate": false,
+      "rank": 4,
+      "representative_article": {
+        "title": "여야, 산자위서 '호남반도체'·'공공기관 인사' 두고 공방(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261022090451001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-10-22 17:02:12",
+        "match_score": 38.83
+      },
+      "related_articles": [
+        {
+          "title": "여야, 산자위서 '호남반도체'·'공공기관 인사' 두고 공방(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261022090451001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-22 17:02:12",
+          "match_score": 38.83
+        },
+        {
+          "title": "대구·경북 반도체마이스터고 입시 경쟁률 동반 상승",
+          "link": "https://www.yna.co.kr/view/AKR20261022181700053",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-10-22 18:23:25",
+          "match_score": 37.67
+        },
+        {
+          "title": "“SK하이닉스 팔고 삼성전자 샀다” 외국인들 도대체 왜?…엇갈린 반도체 투톱[투자360] - 헤럴드경제",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9BTlFyVXlrY1VyR0JMcFVJOEVzWnBJS3h6eXhpUkszWUllNFJxUEZKQ2J0VVpWclhhU1QyTTBrODhab3NfVEd6WXV5WGhNV21RdGhyX3Jn?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-10-22 19:40:00",
+          "match_score": 36.96
+        },
+        {
+          "title": "기술 혁신으로 쌓아 올린 금자탑… SK하이닉스, ‘제19회 반도체의 날’서 5관왕 영예 - SK hynix",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAxbmgyTzFVZ1VQdGxxYVF1UVdCbTlGSEpuN21xWWlQc3JwZDVYWjk3YVRoX2FWazluVVdxaHVsSmkxR05DeGFBY2ZHX0tDR3I0MHYtZW52azBjNFBQTkc4?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-10-22 11:00:03",
+          "match_score": 36.96
+        },
+        {
+          "title": "엔비디아, 반도체 부품사에도 투자… 삼성전기 등과 패키지기판 장기 계약",
+          "link": "https://www.chosun.com/economy/tech_it/2026/10/23/MKCN5SGPYNEJZOQ6DAWQIES4UI/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-10-23 00:34:00",
+          "match_score": 28.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "한국은행",
+      "score": 30.3,
+      "article_count": 7,
+      "source_count": 3,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "3회 연속 금리 인상에 부담느낀 신 총재 ... ‘매파본색’은 계속된다",
+        "2026.10.22(목) RP매입 실시 결과 | 공지사항(상세) | 뉴스/자료 | 한국은행 홈페이지 - bok.or.kr",
+        "경제상황 평가(2026.10월) | 기타 보도자료(상세) | 보도자료 | 뉴스 및 의사록 | 뉴스/자료 | 한국은행 홈페이지 - bok.or.kr"
+      ],
+      "llm_candidate": false,
+      "rank": 5,
+      "representative_article": {
+        "title": "2026.10.22(목) RP매입 실시 결과 | 공지사항(상세) | 뉴스/자료 | 한국은행 홈페이지 - bok.or.kr",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbHFtcy00bTg4VWlpeW9GRTN6UzVXZXNoZm1BaUFYRG9UZEtoTkhncXJwNFlqeHFIWno0dTFSUnhxVHdsTEMtdlFzWDdrOTRqN1lzNER1TUhyMUNiRWZrS1ljeUY0VGNOYmt3X1ZOcDdGOWpwbXB3WjVudVpINnUzblNJXzhsejI5ZG9tVl9hTGFabU92a3dFaHZoOEFCS3BNVzF4S2hDSldGU3F0RVlvczkwVFR0M2daYWdVQ3hR?oc=5",
+        "source": "공식-한국은행",
+        "published_dt": "2026-10-22 11:29:58",
+        "match_score": 38.2
+      },
+      "related_articles": [
+        {
+          "title": "2026.10.22(목) RP매입 실시 결과 | 공지사항(상세) | 뉴스/자료 | 한국은행 홈페이지 - bok.or.kr",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbHFtcy00bTg4VWlpeW9GRTN6UzVXZXNoZm1BaUFYRG9UZEtoTkhncXJwNFlqeHFIWno0dTFSUnhxVHdsTEMtdlFzWDdrOTRqN1lzNER1TUhyMUNiRWZrS1ljeUY0VGNOYmt3X1ZOcDdGOWpwbXB3WjVudVpINnUzblNJXzhsejI5ZG9tVl9hTGFabU92a3dFaHZoOEFCS3BNVzF4S2hDSldGU3F0RVlvczkwVFR0M2daYWdVQ3hR?oc=5",
+          "source": "공식-한국은행",
+          "published_dt": "2026-10-22 11:29:58",
+          "match_score": 38.2
+        },
+        {
+          "title": "경제상황 평가(2026.10월) | 기타 보도자료(상세) | 보도자료 | 뉴스 및 의사록 | 뉴스/자료 | 한국은행 홈페이지 - bok.or.kr",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPbzRNZWRNM1ljeENMWlVnR3NBbTZjcVlCVDAxazIwdlJYTE5zTjQ2aFVuYk0tUFN1ZDBQVW1XSVA2MGtVQ2ZOdzhaVVBYaXpoS1ZneHNUY1k0NHRMODB2NVo1QTI3azh2SzVRYmdSeXBoS0VtcFV2WXFLRC03b2FXX0Z4azN3UVl3UHNvZ3NIUmRnZi1GSjluNnNPZDd2ckl3VUM4MXRKMkl6SWNJd2xjamdTWVU5aDFBWjB6MzRkbE4yMXV2WnB1LW5vZGVyQkE1WHZwLQ?oc=5",
+          "source": "공식-한국은행",
+          "published_dt": "2026-10-22 12:00:12",
+          "match_score": 38.2
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "시스템",
+      "score": 24.8,
+      "article_count": 6,
+      "source_count": 2,
+      "categories": [
+        "국제",
+        "부동산"
+      ],
+      "sample_titles": [
+        "테슬라 ‘하늘 나는 차’ 견제하는 中…“화려한 쇼에 불과”",
+        "구로구 고척동 센츄리 84.56㎡ 7억 4500만원… 최근 3년 신고가 [MAI부동산]",
+        "“AI, 전력망-수도시설 공격방법 90% 알아내”"
+      ],
+      "llm_candidate": false,
+      "rank": 6,
+      "representative_article": {
+        "title": "PHP 보안 패치 사전유출 파장…일부 유럽 국가들 시스템 오프라인 전환",
+        "link": "https://www.donga.com/news/Inter/article/all/20261022/134887882/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-10-22 10:15:55",
+        "match_score": 37.3
+      },
+      "related_articles": [
+        {
+          "title": "PHP 보안 패치 사전유출 파장…일부 유럽 국가들 시스템 오프라인 전환",
+          "link": "https://www.donga.com/news/Inter/article/all/20261022/134887882/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-22 10:15:55",
+          "match_score": 37.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "코스피",
+      "score": 28.1,
+      "article_count": 5,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "코스피 장중 5500선까지 무너졌는데…與 대변인 “내년엔 1만 간다” - 주간조선",
+        "코스피, 3.5% 급락한 5,533…메타 호실적에도 AI 의구심 지속(종합)",
+        "6000선 밑이 매수 타이밍?…“내년 코스피, 어게인 9000” 개미 흔드는 파격 전망 나왔다"
+      ],
+      "llm_candidate": false,
+      "rank": 7,
+      "representative_article": {
+        "title": "코스피, 3.5% 급락한 5,533…메타 호실적에도 AI 의구심 지속(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261022153000008",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-10-22 16:25:52",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "코스피, 3.5% 급락한 5,533…메타 호실적에도 AI 의구심 지속(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261022153000008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-10-22 16:25:52",
+          "match_score": 37.67
+        },
+        {
+          "title": "6000선 밑이 매수 타이밍?…“내년 코스피, 어게인 9000” 개미 흔드는 파격 전망 나왔다",
+          "link": "https://www.etnews.com/20261022000458",
+          "source": "전자신문",
+          "published_dt": "2026-10-22 17:25:28",
+          "match_score": 37.49
+        },
+        {
+          "title": "코스피 장중 5500선까지 무너졌는데…與 대변인 “내년엔 1만 간다” - 주간조선",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5FUy01aE5OXzJRd3E5MUs3WWVkd3o2V1g1bldrdElfWmxEYUk2c1pmaElyNk4wT05CVGtfOXpzYWJjUFMzekhjZUY5SzJXWVJ5bV9ob0VIeVhjREdWOGVSZlUwd29mWDRTbVHSAW5BVV95cUxON0RraUhfbnp5Yk5hVnpHTHhDQ1BXclktSDJNM3ZaTTB1MlYxbHE5XzRtaEV1V1g1aFBFYWtYeFVzcGN5Zkc3QU5FUThjamVVb0RfRkJQNnJwNWs2SWtMdHZCZk1BTUZzUXFST2g5dw?oc=5",
+          "source": "키워드-금리환율코스피",
+          "published_dt": "2026-10-22 23:45:00",
+          "match_score": 36.96
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "기준금리",
+      "score": 29.1,
+      "article_count": 5,
+      "source_count": 3,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "3회 연속 금리 인상에 부담느낀 신 총재 ... ‘매파본색’은 계속된다",
+        "[칼럼]기준금리 동결, 시장 전망과 같이 움직이긴 했는데… - 노컷뉴스",
+        "한은 '숨고르기' … 기준금리 동결"
+      ],
+      "llm_candidate": false,
+      "rank": 8,
+      "representative_article": {
+        "title": "한은 '숨고르기' … 기준금리 동결",
+        "link": "https://www.mk.co.kr/news/economy/12183239",
+        "source": "매일경제-경제",
+        "published_dt": "2026-10-22 17:45:08",
+        "match_score": 38.11
+      },
+      "related_articles": [
+        {
+          "title": "한은 '숨고르기' … 기준금리 동결",
+          "link": "https://www.mk.co.kr/news/economy/12183239",
+          "source": "매일경제-경제",
+          "published_dt": "2026-10-22 17:45:08",
+          "match_score": 38.11
+        },
+        {
+          "title": "[칼럼]기준금리 동결, 시장 전망과 같이 움직이긴 했는데… - 노컷뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8yelhZWldvRkpSd3RONVI1N3ItLXRuU1R6M1d2Z3hFdnEtMVp5NHYyWm10RXJDaUpYMDdsT09YX180TGNLbWhzNUJPOGV6NHFZMlE?oc=5",
+          "source": "키워드-금리환율코스피",
+          "published_dt": "2026-10-23 05:20:00",
+          "match_score": 37.71
+        },
+        {
+          "title": "금리 인상 잠시 멈춘 한은…기준금리 3%로 동결",
+          "link": "https://www.mk.co.kr/news/economy/12182575",
+          "source": "매일경제-경제",
+          "published_dt": "2026-10-22 10:01:02",
+          "match_score": 29.11
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "이용해",
+      "score": 25.2,
+      "article_count": 5,
+      "source_count": 2,
+      "categories": [
+        "국제",
+        "기업/산업",
+        "부동산",
+        "테크"
+      ],
+      "sample_titles": [
+        "“차량 격파·흉기 든 괴한 퇴치”…中유니트리, 만능캐 로봇 공개",
+        "테슬라 ‘하늘 나는 차’ 견제하는 中…“화려한 쇼에 불과”",
+        "中아파트 12층 매달린 세살배기…의자로 받혀 ‘구조’"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "굶주린 세포의 DNA 복구 능력 이용해 유전자가위 정확도 높였다 - 사이언스타임즈",
+        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQcHIyd1pnUEFtRWRQZk05WnJLbEZnaExQT0laOGxlRHdEM3RJVGJ6eDRUcWNfaGJGdGRKeW5ZUks0YXM2RlNTOFFkcEpYTVExZzE4N0xPZWdsR3BlT3FLZXdQa3VWNi1qeXF4S3lWanZfdzUtM0dBTTJZaGRRZ2NEM2d5TDQtYjE5bDRpYWJxOA?oc=5",
+        "source": "사이언스타임즈",
+        "published_dt": "2025-05-27 16:00:00",
+        "match_score": 37.34
+      },
+      "related_articles": [
+        {
+          "title": "굶주린 세포의 DNA 복구 능력 이용해 유전자가위 정확도 높였다 - 사이언스타임즈",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQcHIyd1pnUEFtRWRQZk05WnJLbEZnaExQT0laOGxlRHdEM3RJVGJ6eDRUcWNfaGJGdGRKeW5ZUks0YXM2RlNTOFFkcEpYTVExZzE4N0xPZWdsR3BlT3FLZXdQa3VWNi1qeXF4S3lWanZfdzUtM0dBTTJZaGRRZ2NEM2d5TDQtYjE5bDRpYWJxOA?oc=5",
+          "source": "사이언스타임즈",
+          "published_dt": "2025-05-27 16:00:00",
+          "match_score": 37.34
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "트럼프",
+      "score": 19.1,
+      "article_count": 5,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "치솟는 난방유 값에 美 일부선 장작 등장… 중간선거 ‘핫 이슈’로",
+        "美민주당 버지니아주의원, 마약 유통·돈세탁 혐의 기소…가족도 연루",
+        "크렘린궁 “내달 美-中-러 정상회담 준비…우크라 종전 논의”"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "젤렌스키 만난 美특사들 “당신 때문에 트럼프 격노” 질책",
+        "link": "https://www.donga.com/news/Inter/article/all/20261022/134888100/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-10-22 10:45:00",
+        "match_score": 37.3
+      },
+      "related_articles": [
+        {
+          "title": "젤렌스키 만난 美특사들 “당신 때문에 트럼프 격노” 질책",
+          "link": "https://www.donga.com/news/Inter/article/all/20261022/134888100/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-22 10:45:00",
+          "match_score": 37.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
