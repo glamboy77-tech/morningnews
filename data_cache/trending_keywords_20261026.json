@@ -1,0 +1,404 @@
+{
+  "timestamp": "2026-10-26T06:01:11.065150",
+  "date": "20261026",
+  "data": [
+    {
+      "keyword": "원·달러 환율",
+      "reason": "환율 급등과 명목실효환율 최고 기록 관련 보도",
+      "score": 25.27,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "원/달러 환율 1,310원대 근접…명목실효환율 2년만에 최고",
+        "원/달러 환율 1,310원대 근접…명목실효환율 2년만에 최고"
+      ],
+      "representative_article": {
+        "title": "원/달러 환율 1,310원대 근접…명목실효환율 2년만에 최고",
+        "link": "https://www.yna.co.kr/view/AKR20261025043600002",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-10-26 05:55:00",
+        "match_score": 25.27
+      },
+      "related_articles": [
+        {
+          "title": "원/달러 환율 1,310원대 근접…명목실효환율 2년만에 최고",
+          "link": "https://www.yna.co.kr/view/AKR20261025043600002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-10-26 05:55:00",
+          "match_score": 25.27
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "개인정보 유출",
+      "reason": "롯데 기프티엘 해킹으로 인한 개인정보 노출",
+      "score": 38.2,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "롯데 기프티엘 해킹… 고객 1만8359명 개인정보 유출"
+      ],
+      "representative_article": {
+        "title": "롯데 기프티엘 해킹… 고객 1만8359명 개인정보 유출",
+        "link": "https://www.chosun.com/economy/market_trend/2026/10/25/GJRDENZTGUZTKYLFMY4TKMRZGM/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-10-25 23:00:38",
+        "match_score": 38.2
+      },
+      "related_articles": [
+        {
+          "title": "롯데 기프티엘 해킹… 고객 1만8359명 개인정보 유출",
+          "link": "https://www.chosun.com/economy/market_trend/2026/10/25/GJRDENZTGUZTKYLFMY4TKMRZGM/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-10-25 23:00:38",
+          "match_score": 38.2
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "가상자산 과세",
+      "reason": "청와대 가상자산 과세 유예 검토 동향",
+      "score": 44.56,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "정치"
+      ],
+      "sample_titles": [
+        "靑, '가상자산 과세 유예' 무게…청년층 여론 등 고려한 듯",
+        "“내년엔 걷는다 하더니”…청와대, ‘가상자산 과세’ 유예에 무게"
+      ],
+      "representative_article": {
+        "title": "“내년엔 걷는다 하더니”…청와대, ‘가상자산 과세’ 유예에 무게",
+        "link": "https://www.mk.co.kr/news/economy/12185056",
+        "source": "매일경제-경제",
+        "published_dt": "2026-10-25 14:57:00",
+        "match_score": 44.56
+      },
+      "related_articles": [
+        {
+          "title": "“내년엔 걷는다 하더니”…청와대, ‘가상자산 과세’ 유예에 무게",
+          "link": "https://www.mk.co.kr/news/economy/12185056",
+          "source": "매일경제-경제",
+          "published_dt": "2026-10-25 14:57:00",
+          "match_score": 44.56
+        },
+        {
+          "title": "靑, '가상자산 과세 유예' 무게…청년층 여론 등 고려한 듯",
+          "link": "https://www.yna.co.kr/view/AKR20261025028400001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-25 14:15:02",
+          "match_score": 43.08
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "아파트",
+      "score": 31.4,
+      "article_count": 7,
+      "source_count": 2,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "서울 신규택지 사활건 여당 … '용산공원 아파트' 입법 속도",
+        "집값 뛰는 동탄서 새아파트 … 이번주 전국 5555가구 분양",
+        "2·3기 신도시 아파트 분양가, 1년 새 최대 9000만원 올라"
+      ],
+      "llm_candidate": false,
+      "rank": 4,
+      "representative_article": {
+        "title": "집값 뛰는 동탄서 새아파트 … 이번주 전국 5555가구 분양",
+        "link": "https://www.mk.co.kr/news/realestate/12185152",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-10-25 17:06:34",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "집값 뛰는 동탄서 새아파트 … 이번주 전국 5555가구 분양",
+          "link": "https://www.mk.co.kr/news/realestate/12185152",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-25 17:06:34",
+          "match_score": 37.49
+        },
+        {
+          "title": "서울 신규택지 사활건 여당 … '용산공원 아파트' 입법 속도",
+          "link": "https://www.mk.co.kr/news/realestate/12185201",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-25 17:26:39",
+          "match_score": 29.09
+        },
+        {
+          "title": "“옆집보다 5억 싸게 샀다고 좋아했는데”…반포 아파트의 반전",
+          "link": "https://www.mk.co.kr/news/realestate/12184948",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-25 09:47:10",
+          "match_score": 29.09
+        },
+        {
+          "title": "2·3기 신도시 아파트 분양가, 1년 새 최대 9000만원 올라",
+          "link": "https://www.chosun.com/economy/real_estate/2026/10/26/VW6ULAZ2TBCXDEE5XPIUKGTQCM/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-10-26 00:37:00",
+          "match_score": 28.3
+        },
+        {
+          "title": "서울 아파트 전·월세난 지속되자 오피스텔 월세도 역대 최장 상승",
+          "link": "https://www.chosun.com/economy/real_estate/2026/10/26/PEEL6WRTVNBDRI2AJQIOZQJGV4/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-10-26 00:37:00",
+          "match_score": 28.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "금융당국",
+      "score": 24.8,
+      "article_count": 7,
+      "source_count": 2,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "89주째 집값상승…고심 깊어진 금융당국",
+        "[단독] “배달 오토바이 살 돈도 빌려드린다”...미소금융 판 키우는 금융권",
+        "배달 오토바이 살 돈도 대출 … 금융권 '미소금융' 판 커진다"
+      ],
+      "llm_candidate": false,
+      "rank": 5,
+      "representative_article": {
+        "title": "89주째 집값상승…고심 깊어진 금융당국",
+        "link": "https://www.mk.co.kr/news/economy/12185219",
+        "source": "매일경제-경제",
+        "published_dt": "2026-10-25 17:31:56",
+        "match_score": 28.66
+      },
+      "related_articles": [
+        {
+          "title": "89주째 집값상승…고심 깊어진 금융당국",
+          "link": "https://www.mk.co.kr/news/economy/12185219",
+          "source": "매일경제-경제",
+          "published_dt": "2026-10-25 17:31:56",
+          "match_score": 28.66
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재건축",
+      "score": 29.8,
+      "article_count": 6,
+      "source_count": 4,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "재건축·재개발 ‘소통’에 진심인 도봉 - 서울신문",
+        "“계약했던 금액으론 이제 어림 없습니다”...공사비 40%씩 오른 서울 재건축",
+        "재초환, 부동산 시장 변수로 떠올라"
+      ],
+      "llm_candidate": false,
+      "rank": 6,
+      "representative_article": {
+        "title": "재건축·재개발 ‘소통’에 진심인 도봉 - 서울신문",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORF9BYk5zekxuNVZ0Y3ZHNjZZeWRnRlYyX1d5c1NmdFZBZ1RUTUVwQ1pxVHJhemJtd19oc2h1SEsxWkRRU2ZDd2toZ0liVkkyOGFxS0dQdVc2NG9TcU1IdFA5NGhYY3ctSXJmamFZVWV1TDFtMUlOdXVib09raDF0YUJhUWlIMDFjZm5VWEhURFF3OUNINF9KRkRzZEdOY180VkQ1Tm5iTQ?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-10-26 00:03:35",
+        "match_score": 38.01
+      },
+      "related_articles": [
+        {
+          "title": "재건축·재개발 ‘소통’에 진심인 도봉 - 서울신문",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORF9BYk5zekxuNVZ0Y3ZHNjZZeWRnRlYyX1d5c1NmdFZBZ1RUTUVwQ1pxVHJhemJtd19oc2h1SEsxWkRRU2ZDd2toZ0liVkkyOGFxS0dQdVc2NG9TcU1IdFA5NGhYY3ctSXJmamFZVWV1TDFtMUlOdXVib09raDF0YUJhUWlIMDFjZm5VWEhURFF3OUNINF9KRkRzZEdOY180VkQ1Tm5iTQ?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-10-26 00:03:35",
+          "match_score": 38.01
+        },
+        {
+          "title": "30조 ‘목동 재건축’ 수주전 달아올랐다…대형 건설사, 하이엔드 브랜드 총출동 - 문화일보",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1tcGJHbG9LN3VGcWk4cEtKQVBkX2I0ZV9wd0MwakNVaUhfQ2FzVDZackp3OXBPc1Q1clgtUVlVVjdhT1pyZ3ktV0VzblQzSWpK?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-10-25 17:30:02",
+          "match_score": 37.71
+        },
+        {
+          "title": "“계약했던 금액으론 이제 어림 없습니다”...공사비 40%씩 오른 서울 재건축",
+          "link": "https://www.mk.co.kr/news/realestate/12185267",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-25 17:43:54",
+          "match_score": 29.09
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "반도체",
+      "score": 30.9,
+      "article_count": 6,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "한국 '獨+日'도 제쳤다 … 경상흑자 세계 2위로",
+        "이 대통령 “밀물 들어오면 모든 배 뜬다…성장 과실, 국민 삶 바꿔야”",
+        "“한국증시 세계서 가장 싸고, 금융위기 떄만큼 싸다”…주가수익률 4배로 인니 절반"
+      ],
+      "llm_candidate": false,
+      "rank": 7,
+      "representative_article": {
+        "title": "반도체가 끌어올린 한국 경상흑자…독일·일본 합계 첫 추월",
+        "link": "https://www.etnews.com/20261025000066",
+        "source": "전자신문",
+        "published_dt": "2026-10-25 12:15:32",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "반도체가 끌어올린 한국 경상흑자…독일·일본 합계 첫 추월",
+          "link": "https://www.etnews.com/20261025000066",
+          "source": "전자신문",
+          "published_dt": "2026-10-25 12:15:32",
+          "match_score": 37.49
+        },
+        {
+          "title": "KERI, SiC 전력반도체 '불량 판별' 글로벌 기준 15년만에 바로잡았다",
+          "link": "https://www.etnews.com/20261023000074",
+          "source": "전자신문",
+          "published_dt": "2026-10-25 12:10:00",
+          "match_score": 37.49
+        },
+        {
+          "title": "​삼성전자·SK하이닉스 3분기 합산 영업익 180조 원 돌파… AI 반도체 호황이 만든 '역대급 실적' - 뉴스21 통신",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE85QjJLVGkzSmxfdDFIOE50N3J4M3AzczlkWTJnWXB5YTJKQWp2YnhUaEY1dHlHekNkUWdPMzhBeHlHYjhRVzY0cTZuT25iV2QtcXMwVk1B?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-10-26 00:19:03",
+          "match_score": 36.96
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "앞두고",
+      "score": 24.4,
+      "article_count": 6,
+      "source_count": 2,
+      "categories": [
+        "국제",
+        "기업/산업",
+        "정치"
+      ],
+      "sample_titles": [
+        "조선중앙통신, 김정은 방중 보도…시진핑은 만나지 않아",
+        "삼성, CEO 승계 후보군 이사회 보고 제도 확대…삼성SDI·삼성전기 도입",
+        "김정은, 中가는 트럼프 보란듯 ‘당일치기 방중’"
+      ],
+      "llm_candidate": false,
+      "rank": 8,
+      "representative_article": {
+        "title": "트럼프, 선거 열흘 앞두고 플로리다서 사전투표…“잘될 것”",
+        "link": "https://www.donga.com/news/Inter/article/all/20261025/134902179/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-10-25 10:08:20",
+        "match_score": 28.3
+      },
+      "related_articles": [
+        {
+          "title": "트럼프, 선거 열흘 앞두고 플로리다서 사전투표…“잘될 것”",
+          "link": "https://www.donga.com/news/Inter/article/all/20261025/134902179/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-25 10:08:20",
+          "match_score": 28.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "삼성전자",
+      "score": 22.0,
+      "article_count": 5,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "[2027 정기 인사] 4대 그룹 “미래 핵심 사업 전략 역량에 방점”",
+        "“갤럭시A 20% 감산”…삼성, 칩플레이션 대응",
+        "​삼성전자·SK하이닉스 3분기 합산 영업익 180조 원 돌파… AI 반도체 호황이 만든 '역대급 실적' - 뉴스21 통신"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "​삼성전자·SK하이닉스 3분기 합산 영업익 180조 원 돌파… AI 반도체 호황이 만든 '역대급 실적' - 뉴스21 통신",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE85QjJLVGkzSmxfdDFIOE50N3J4M3AzczlkWTJnWXB5YTJKQWp2YnhUaEY1dHlHekNkUWdPMzhBeHlHYjhRVzY0cTZuT25iV2QtcXMwVk1B?oc=5",
+        "source": "키워드-반도체AI",
+        "published_dt": "2026-10-26 00:19:03",
+        "match_score": 36.96
+      },
+      "related_articles": [
+        {
+          "title": "​삼성전자·SK하이닉스 3분기 합산 영업익 180조 원 돌파… AI 반도체 호황이 만든 '역대급 실적' - 뉴스21 통신",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE85QjJLVGkzSmxfdDFIOE50N3J4M3AzczlkWTJnWXB5YTJKQWp2YnhUaEY1dHlHekNkUWdPMzhBeHlHYjhRVzY0cTZuT25iV2QtcXMwVk1B?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-10-26 00:19:03",
+          "match_score": 36.96
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "3분기",
+      "score": 19.3,
+      "article_count": 4,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "메모리값 뛰자 PC 교체 미룬다…글로벌 출하량 21% 급감",
+        "​삼성전자·SK하이닉스 3분기 합산 영업익 180조 원 돌파… AI 반도체 호황이 만든 '역대급 실적' - 뉴스21 통신",
+        "삼성, CEO 승계 후보군 이사회 보고 제도 확대…삼성SDI·삼성전기 도입"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "​삼성전자·SK하이닉스 3분기 합산 영업익 180조 원 돌파… AI 반도체 호황이 만든 '역대급 실적' - 뉴스21 통신",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE85QjJLVGkzSmxfdDFIOE50N3J4M3AzczlkWTJnWXB5YTJKQWp2YnhUaEY1dHlHekNkUWdPMzhBeHlHYjhRVzY0cTZuT25iV2QtcXMwVk1B?oc=5",
+        "source": "키워드-반도체AI",
+        "published_dt": "2026-10-26 00:19:03",
+        "match_score": 36.96
+      },
+      "related_articles": [
+        {
+          "title": "​삼성전자·SK하이닉스 3분기 합산 영업익 180조 원 돌파… AI 반도체 호황이 만든 '역대급 실적' - 뉴스21 통신",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE85QjJLVGkzSmxfdDFIOE50N3J4M3AzczlkWTJnWXB5YTJKQWp2YnhUaEY1dHlHekNkUWdPMzhBeHlHYjhRVzY0cTZuT25iV2QtcXMwVk1B?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-10-26 00:19:03",
+          "match_score": 36.96
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
