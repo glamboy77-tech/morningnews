@@ -1,0 +1,59 @@
+{
+  "section_summaries": {
+    "정치": "우상호는 AI 데이터센터 유치 고발전이 투자 환경을 악화시킬 것을 우려했다.",
+    "경제/거시": "한국은행은 최창호 국장을 통화정책 부총재보로 임명했다.",
+    "기업/산업": "삼성SDI가 미국 에너지기업과 1GWh 규모 ESS 공급 계약을 체결했다.",
+    "부동산": "삼성물산이 창원 용호1구역 재건축 시공권을 7381억원에 수주했다.",
+    "국제": "트럼프는 룰라의 브라질 대선 당선에 조작을 주장하며 불복 의사를 밝혔다."
+  },
+  "hojae": [
+    "삼성SDI: 대규모 ESS 공급 계약",
+    "삼성물산: 대형 재건축 수주"
+  ],
+  "akjae": [],
+  "trending_keywords": [
+    {
+      "keyword": "AI 데이터센터",
+      "reason": "투자 환경 이슈 논란",
+      "categories": [
+        "정치",
+        "기업/산업"
+      ]
+    },
+    {
+      "keyword": "재건축 수주",
+      "reason": "삼성물산 창원 용호1구역 시공",
+      "categories": [
+        "부동산",
+        "기업/산업"
+      ]
+    },
+    {
+      "keyword": "ESS 공급",
+      "reason": "삼성SDI 미국 에너지 기업 계약",
+      "categories": [
+        "기업/산업"
+      ]
+    },
+    {
+      "keyword": "브라질 대선",
+      "reason": "트럼프 조작 주장 불복",
+      "categories": [
+        "국제"
+      ]
+    },
+    {
+      "keyword": "통화정책 임명",
+      "reason": "한은 최창호 부총재보 임명",
+      "categories": [
+        "경제/거시"
+      ]
+    }
+  ],
+  "analysis_mode": "accumulation",
+  "is_holiday_next_day": false,
+  "meta": {
+    "generated_by": "gemini",
+    "generated_at": "2026-10-27T06:01:34.666774"
+  }
+}

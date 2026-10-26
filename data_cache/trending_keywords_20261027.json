@@ -1,0 +1,452 @@
+{
+  "timestamp": "2026-10-27T06:01:35.060873",
+  "date": "20261027",
+  "data": [
+    {
+      "keyword": "AI 데이터센터",
+      "reason": "투자 환경 이슈 논란",
+      "score": 39.38,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "기업/산업",
+        "정치"
+      ],
+      "sample_titles": [
+        "우상호 \"AI 데이터센터 유치 고발전 유감…투자 환경 악화 우려\"(종합)",
+        "우상호 \"AI 데이터센터 유치 고발전 유감…투자 환경 악화 우려\""
+      ],
+      "representative_article": {
+        "title": "우상호 \"AI 데이터센터 유치 고발전 유감…투자 환경 악화 우려\"",
+        "link": "https://www.yna.co.kr/view/AKR20261026150800062",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-10-26 17:23:22",
+        "match_score": 39.38
+      },
+      "related_articles": [
+        {
+          "title": "우상호 \"AI 데이터센터 유치 고발전 유감…투자 환경 악화 우려\"",
+          "link": "https://www.yna.co.kr/view/AKR20261026150800062",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-26 17:23:22",
+          "match_score": 39.38
+        },
+        {
+          "title": "우상호 \"AI 데이터센터 유치 고발전 유감…투자 환경 악화 우려\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261026150851062",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-26 18:57:56",
+          "match_score": 38.38
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재건축 수주",
+      "reason": "삼성물산 창원 용호1구역 시공",
+      "score": 46.11,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "삼성물산, 창원 용호1구역 재건축 수주… 주말 새 8600억 ‘연속 수주’ - 대한경제",
+        "대보건설, 대전에서 2700억 가오동1구역 재건축 수주…올해 누적 1조원 돌파"
+      ],
+      "representative_article": {
+        "title": "삼성물산, 창원 용호1구역 재건축 수주… 주말 새 8600억 ‘연속 수주’ - 대한경제",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9LcUY1bWJ1MWRPY1Q3MHVyLXJkdnFLSzZxX3g1N0xZRU9xcEtmWGlCQTlfSkxXeEZwRU10OEJ0MENpZEFDVzlibkJUQVZIWlVGbWpWTUlyQkRYYW9VT0JDNGV0MENvdUx1eTR5NkxGd0k2SDQ?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-10-27 05:00:29",
+        "match_score": 46.11
+      },
+      "related_articles": [
+        {
+          "title": "삼성물산, 창원 용호1구역 재건축 수주… 주말 새 8600억 ‘연속 수주’ - 대한경제",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9LcUY1bWJ1MWRPY1Q3MHVyLXJkdnFLSzZxX3g1N0xZRU9xcEtmWGlCQTlfSkxXeEZwRU10OEJ0MENpZEFDVzlibkJUQVZIWlVGbWpWTUlyQkRYYW9VT0JDNGV0MENvdUx1eTR5NkxGd0k2SDQ?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-10-27 05:00:29",
+          "match_score": 46.11
+        },
+        {
+          "title": "대보건설, 대전에서 2700억 가오동1구역 재건축 수주…올해 누적 1조원 돌파",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/10/26/2026102600875.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-10-26 09:52:44",
+          "match_score": 30.59
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "ESS 공급",
+      "reason": "삼성SDI 미국 에너지 기업 계약",
+      "score": 47.9,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "삼성SDI, 美 에너지기업과 1GWh ESS 공급 계약"
+      ],
+      "representative_article": {
+        "title": "삼성SDI, 美 에너지기업과 1GWh ESS 공급 계약",
+        "link": "https://www.donga.com/news/Economy/article/all/20261026/134912262/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-10-27 00:30:00",
+        "match_score": 47.9
+      },
+      "related_articles": [
+        {
+          "title": "삼성SDI, 美 에너지기업과 1GWh ESS 공급 계약",
+          "link": "https://www.donga.com/news/Economy/article/all/20261026/134912262/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-27 00:30:00",
+          "match_score": 47.9
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "브라질 대선",
+      "reason": "트럼프 조작 주장 불복",
+      "score": 43.3,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "트럼프, 룰라 당선에 브라질 대선 조작 주장…“부패하고 끔찍”"
+      ],
+      "representative_article": {
+        "title": "트럼프, 룰라 당선에 브라질 대선 조작 주장…“부패하고 끔찍”",
+        "link": "https://www.donga.com/news/Inter/article/all/20261027/134913788/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-10-27 05:56:27",
+        "match_score": 43.3
+      },
+      "related_articles": [
+        {
+          "title": "트럼프, 룰라 당선에 브라질 대선 조작 주장…“부패하고 끔찍”",
+          "link": "https://www.donga.com/news/Inter/article/all/20261027/134913788/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-27 05:56:27",
+          "match_score": 43.3
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "인공지능",
+      "score": 56.0,
+      "article_count": 15,
+      "source_count": 6,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업",
+        "정치"
+      ],
+      "sample_titles": [
+        "우상호 \"AI 데이터센터 유치 고발전 유감…투자 환경 악화 우려\"(종합)",
+        "우상호 \"AI 데이터센터 유치 고발전 유감…투자 환경 악화 우려\"",
+        "글로벌 녹색성장 주간 개막…GGGI, 녹색성장 경쟁력지표 공개"
+      ],
+      "llm_candidate": false,
+      "rank": 5,
+      "representative_article": {
+        "title": "전주시, 인공지능 전략국·복지돌봄국 신설 등 조직개편",
+        "link": "https://www.yna.co.kr/view/AKR20261026133700055",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-10-26 16:14:47",
+        "match_score": 28.68
+      },
+      "related_articles": [
+        {
+          "title": "전주시, 인공지능 전략국·복지돌봄국 신설 등 조직개편",
+          "link": "https://www.yna.co.kr/view/AKR20261026133700055",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-10-26 16:14:47",
+          "match_score": 28.68
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "아파트",
+      "score": 48.3,
+      "article_count": 10,
+      "source_count": 3,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "[주요 단신] 제주 노후 아파트 재건축 잇따라…높이·공공기여 쟁점 외 - KBS 뉴스",
+        "‘어떡해, 하루가 다르게 오른다’⋯ 강북 아파트 전세 6억 돌파 - 국민일보",
+        "아파트 시장 ‘월세 > 전세’ 5년새 첫 과반 - 강원도민일보"
+      ],
+      "llm_candidate": false,
+      "rank": 6,
+      "representative_article": {
+        "title": "[주요 단신] 제주 노후 아파트 재건축 잇따라…높이·공공기여 쟁점 외 - KBS 뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5vQ21BSWp4UjVfalJWMEZzejZGbWRzaVpsYTFpeEdMYV9lN2N5dl81b2dodHBIZEpkblA2bVFuekRYcGJCUEVkeVNkaVhFckZFcmxBSk1IbTMxenM?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-10-26 20:01:00",
+        "match_score": 37.71
+      },
+      "related_articles": [
+        {
+          "title": "[주요 단신] 제주 노후 아파트 재건축 잇따라…높이·공공기여 쟁점 외 - KBS 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5vQ21BSWp4UjVfalJWMEZzejZGbWRzaVpsYTFpeEdMYV9lN2N5dl81b2dodHBIZEpkblA2bVFuekRYcGJCUEVkeVNkaVhFckZFcmxBSk1IbTMxenM?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-10-26 20:01:00",
+          "match_score": 37.71
+        },
+        {
+          "title": "“두 달 만에 또 2억4천 올랐다고?”…중저가 아파트 눈독들이다 ‘멈칫’",
+          "link": "https://www.mk.co.kr/news/realestate/12185786",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-26 14:55:05",
+          "match_score": 37.49
+        },
+        {
+          "title": "지방 신축 아파트도 스카이라운지·게스트하우스...커뮤니티 시설 경쟁",
+          "link": "https://www.mk.co.kr/news/realestate/12185629",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-26 13:04:13",
+          "match_score": 37.49
+        },
+        {
+          "title": "‘어떡해, 하루가 다르게 오른다’⋯ 강북 아파트 전세 6억 돌파 - 국민일보",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9wT2hSM2JXQUsxeklmNWFpX3FaSVFuT2RRaFA0dVM3bXY4QnltVjBLRkRtM1lMN01ETHJZU0h0Y05PZ3NYdFQ4ZW9sbVVwbk1VTlhPUTdsQjg?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-10-27 05:32:16",
+          "match_score": 36.96
+        },
+        {
+          "title": "아파트 시장 ‘월세 > 전세’ 5년새 첫 과반 - 강원도민일보",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE55SXZUQ1hhVlJ6VHRPeTl6NVpqSS03cG9rZnpXUTQxN2pUbFhZVXF0R1R1cUpBcGZCT3Y2V0JzUzRCeVhjRnVkSzRNOVBTZFZIOEZ4c2VZWml4VTZBVXY0d3FySkFMbHc?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-10-27 00:02:01",
+          "match_score": 36.96
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "반도체",
+      "score": 36.0,
+      "article_count": 6,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "[단독] \"AI 꺾이면 반도체 수출 1천억弗 타격\"",
+        "[단독] 한국 역대급 수출에도 車·철강 한파 … 위태로운 '반도체 독주'",
+        "[단독] “AI투자 꺾이면 수출 1천억달러 타격”…한은의 경고"
+      ],
+      "llm_candidate": false,
+      "rank": 7,
+      "representative_article": {
+        "title": "전남광주교육청, 광주권 반도체 마이스터고 설립 추진",
+        "link": "https://www.yna.co.kr/view/AKR20261026122900054",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-10-26 17:33:45",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "전남광주교육청, 광주권 반도체 마이스터고 설립 추진",
+          "link": "https://www.yna.co.kr/view/AKR20261026122900054",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-10-26 17:33:45",
+          "match_score": 37.67
+        },
+        {
+          "title": "[단독] \"AI 꺾이면 반도체 수출 1천억弗 타격\"",
+          "link": "https://www.mk.co.kr/news/economy/12186131",
+          "source": "매일경제-경제",
+          "published_dt": "2026-10-26 17:44:59",
+          "match_score": 37.66
+        },
+        {
+          "title": "[단독] 한국 역대급 수출에도 車·철강 한파 … 위태로운 '반도체 독주'",
+          "link": "https://www.mk.co.kr/news/economy/12186126",
+          "source": "매일경제-경제",
+          "published_dt": "2026-10-26 17:42:27",
+          "match_score": 37.66
+        },
+        {
+          "title": "이재용 취임 4년, 반도체 부활 넘어 M&A 승부수…미래사업 확장 가속",
+          "link": "https://www.etnews.com/20261026000221",
+          "source": "전자신문",
+          "published_dt": "2026-10-26 16:00:00",
+          "match_score": 37.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "한국은행",
+      "score": 31.0,
+      "article_count": 6,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "한국은행 부총재보 인사 - bok.or.kr",
+        "한은 통화정책·시장 부총재보에 최창호 통화정책국장",
+        "[단독] \"AI 꺾이면 반도체 수출 1천억弗 타격\""
+      ],
+      "llm_candidate": false,
+      "rank": 8,
+      "representative_article": {
+        "title": "한국은행 부총재보 인사 - bok.or.kr",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOU3dVYUdTcWFEaGhiWmZMUG1iQ1dPcTBBM2dGaDNJbkh5Nk5fbFFfbjAzcS1oOExObndVSHFpOUZPZ0djakhybUcxcUhnTDRvQjYydmkxR1JUUzJGLTNuY3ZLY3V2WTcxMG1vR2ctaGR6bThZSWJGekdmMkl5NEFhTWlnUlloV2Q2eGplNFN6c3F5X25zVHgweFFOLTVodnM5eFpTQ0oyWjBWTFZHWjZGby1IdmFwNzdtMFBVSFV3?oc=5",
+        "source": "공식-한국은행",
+        "published_dt": "2026-10-26 19:53:14",
+        "match_score": 38.2
+      },
+      "related_articles": [
+        {
+          "title": "한국은행 부총재보 인사 - bok.or.kr",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOU3dVYUdTcWFEaGhiWmZMUG1iQ1dPcTBBM2dGaDNJbkh5Nk5fbFFfbjAzcS1oOExObndVSHFpOUZPZ0djakhybUcxcUhnTDRvQjYydmkxR1JUUzJGLTNuY3ZLY3V2WTcxMG1vR2ctaGR6bThZSWJGekdmMkl5NEFhTWlnUlloV2Q2eGplNFN6c3F5X25zVHgweFFOLTVodnM5eFpTQ0oyWjBWTFZHWjZGby1IdmFwNzdtMFBVSFV3?oc=5",
+          "source": "공식-한국은행",
+          "published_dt": "2026-10-26 19:53:14",
+          "match_score": 38.2
+        },
+        {
+          "title": "2026년 11월 「한은금요강좌」 안내 | 경제교육소식(상세) | 경제교육 | 업무별 정보 | 뉴스/자료 | 한국은행 홈페이지 - bok.or.kr",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNcmVDWnZuYk04XzVVUGduaVBYT3E1d3hWaG00bU53WWxLNThRSnVBUDRMdDRBRVA3cHh2RmZsVjNaX2RqY1pVNEdkTFJHT3NMdE9PSmtaazhXQVpzUU9YclBkQW11RVJiVWE5ZmhjazhsSm5xV0lHUEVWeGN5TGIxVEFUWUtzUVdXaF9pTlpxZWdsTXFfSFFYWVVpMmc2LWZkUll4WXFRbDlvcVdqR3RvSGlCdmw3cGJGMVNxdW1Hd2ZQVVRjVkJmV1U4dm56NE5udlZXTw?oc=5",
+          "source": "공식-한국은행",
+          "published_dt": "2026-10-26 09:31:10",
+          "match_score": 38.2
+        },
+        {
+          "title": "[경제계 인사] 한국은행",
+          "link": "https://www.chosun.com/economy/economy_general/2026/10/27/N4XE236DNVE4RKK6CHJNO2CYEM/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-10-27 00:34:00",
+          "match_score": 28.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "바이오",
+      "score": 32.8,
+      "article_count": 5,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "中 제약·바이오 기술 수출 계약 200조원 눈앞",
+        "그린플러스, 100억유증…아리바이오홀딩스 등에 3자 배정",
+        "이재용 취임 4년, 반도체 부활 넘어 M&A 승부수…미래사업 확장 가속"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "삼성바이오로직스 노조, 파업 제한 결정에 재항고…28일 교섭 재개",
+        "link": "https://www.etnews.com/20261026000342",
+        "source": "전자신문",
+        "published_dt": "2026-10-26 14:56:18",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "삼성바이오로직스 노조, 파업 제한 결정에 재항고…28일 교섭 재개",
+          "link": "https://www.etnews.com/20261026000342",
+          "source": "전자신문",
+          "published_dt": "2026-10-26 14:56:18",
+          "match_score": 37.49
+        },
+        {
+          "title": "그린플러스, 100억유증…아리바이오홀딩스 등에 3자 배정",
+          "link": "https://www.yna.co.kr/view/AKR20261026166500008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-10-26 19:35:57",
+          "match_score": 28.68
+        },
+        {
+          "title": "中 제약·바이오 기술 수출 계약 200조원 눈앞",
+          "link": "https://www.chosun.com/economy/science/2026/10/27/FAMHZW3455CB7GPH7N2RQCM2AI/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-10-27 00:34:00",
+          "match_score": 28.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "중간선거",
+      "score": 28.5,
+      "article_count": 5,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "미 중간선거 19차례… 누가 이기든 1년 뒤 S&P500은 올랐다",
+        "역대 가장 비싼 美중간선거, 광고비만 100억달러",
+        "트럼프, 룰라 당선에 브라질 대선 조작 주장…“부패하고 끔찍”"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "역대 가장 비싼 美중간선거, 광고비만 100억달러",
+        "link": "https://www.donga.com/news/Inter/article/all/20261027/134913291/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-10-27 04:30:00",
+        "match_score": 37.3
+      },
+      "related_articles": [
+        {
+          "title": "역대 가장 비싼 美중간선거, 광고비만 100억달러",
+          "link": "https://www.donga.com/news/Inter/article/all/20261027/134913291/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-27 04:30:00",
+          "match_score": 37.3
+        },
+        {
+          "title": "美 중간선거 D-7 ‘가계부 표심’이 승부 가른다",
+          "link": "https://www.donga.com/news/Inter/article/all/20261027/134913311/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-27 04:30:00",
+          "match_score": 37.3
+        },
+        {
+          "title": "미 중간선거 19차례… 누가 이기든 1년 뒤 S&P500은 올랐다",
+          "link": "https://www.chosun.com/economy/stock-finance/2026/10/27/6ZVL46TEF5FNJBZTU3LHUZKQSM/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-10-27 03:00:00",
+          "match_score": 28.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
