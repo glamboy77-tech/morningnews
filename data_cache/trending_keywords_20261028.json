@@ -1,0 +1,453 @@
+{
+  "timestamp": "2026-10-28T06:01:29.275013",
+  "date": "20261028",
+  "data": [
+    {
+      "keyword": "가상자산과세",
+      "reason": "정치권에서 당정협의 및 논의가 진행 중",
+      "score": 21.02,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "정치"
+      ],
+      "sample_titles": [
+        "與, 오늘 가상자산 과세 당정협의…유예 여부 논의"
+      ],
+      "representative_article": {
+        "title": "與, 오늘 가상자산 과세 당정협의…유예 여부 논의",
+        "link": "https://www.yna.co.kr/view/AKR20261027167000001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-10-28 05:00:03",
+        "match_score": 21.02
+      },
+      "related_articles": [
+        {
+          "title": "與, 오늘 가상자산 과세 당정협의…유예 여부 논의",
+          "link": "https://www.yna.co.kr/view/AKR20261027167000001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-28 05:00:03",
+          "match_score": 21.02
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI인프라",
+      "reason": "네이버 등 주요 기업이 대규모 계약 체결",
+      "score": 32.73,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "네이버, 브룩필드와 12조원 AI인프라 계약…AI팩토리 본격 공략"
+      ],
+      "representative_article": {
+        "title": "네이버, 브룩필드와 12조원 AI인프라 계약…AI팩토리 본격 공략",
+        "link": "https://www.yna.co.kr/view/AKR20261027150700017",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-10-27 16:32:17",
+        "match_score": 32.73
+      },
+      "related_articles": [
+        {
+          "title": "네이버, 브룩필드와 12조원 AI인프라 계약…AI팩토리 본격 공략",
+          "link": "https://www.yna.co.kr/view/AKR20261027150700017",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-10-27 16:32:17",
+          "match_score": 32.73
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "불법사금융",
+      "reason": "금융위가 처벌 강화 방침 발표",
+      "score": 39.17,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "금융위, 초고금리 불법사금융 '징역 10년·벌금 5억'으로 강화"
+      ],
+      "representative_article": {
+        "title": "금융위, 초고금리 불법사금융 '징역 10년·벌금 5억'으로 강화",
+        "link": "https://www.yna.co.kr/view/AKR20261027178700002",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-10-27 19:13:10",
+        "match_score": 39.17
+      },
+      "related_articles": [
+        {
+          "title": "금융위, 초고금리 불법사금융 '징역 10년·벌금 5억'으로 강화",
+          "link": "https://www.yna.co.kr/view/AKR20261027178700002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-10-27 19:13:10",
+          "match_score": 39.17
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "원전시장",
+      "reason": "현대엔지니어링 미국 시장 진출 가속",
+      "score": 29.59,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "현대ENG, 차세대 美원전시장 공략"
+      ],
+      "representative_article": {
+        "title": "현대ENG, 차세대 美원전시장 공략",
+        "link": "https://www.mk.co.kr/news/realestate/12187319",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-10-27 17:21:58",
+        "match_score": 29.59
+      },
+      "related_articles": [
+        {
+          "title": "현대ENG, 차세대 美원전시장 공략",
+          "link": "https://www.mk.co.kr/news/realestate/12187319",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-27 17:21:58",
+          "match_score": 29.59
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "반도체",
+      "score": 57.4,
+      "article_count": 10,
+      "source_count": 6,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "3분기 GDP 1.0% 성장…정부 “올해 국민소득 4만달러 진입”",
+        "반도체도 못 늘린 고용… 청년·60대 취업시장 동시에 얼어붙었다",
+        "[뉴스 저격] “中으로 몰리는 글로벌 자금… 로봇·전기차는 세계 최고, 반도체 자립도 빨라져”"
+      ],
+      "llm_candidate": false,
+      "rank": 5,
+      "representative_article": {
+        "title": "광주공고 AI반도체과 경쟁률 4.16대1…작년보다 3배 뛰어(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261027132851054",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-10-27 17:25:46",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "광주공고 AI반도체과 경쟁률 4.16대1…작년보다 3배 뛰어(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261027132851054",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-10-27 17:25:46",
+          "match_score": 37.67
+        },
+        {
+          "title": "평택서 반도체 가스 저감기술 시험·검증한다",
+          "link": "https://www.yna.co.kr/view/AKR20261027156000061",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-10-27 16:39:34",
+          "match_score": 37.67
+        },
+        {
+          "title": "한은 “올해 경제 성장률 4%도 가능”…반도체 성장 기여가 절반",
+          "link": "https://www.mk.co.kr/news/economy/12186979",
+          "source": "매일경제-경제",
+          "published_dt": "2026-10-27 15:11:25",
+          "match_score": 37.66
+        },
+        {
+          "title": "韓 반도체 신화 출발점 4메가 D램 설계도면 복원",
+          "link": "https://www.etnews.com/20261027000352",
+          "source": "전자신문",
+          "published_dt": "2026-10-27 15:17:32",
+          "match_score": 37.49
+        },
+        {
+          "title": "취임 4년 맞은 이재용, 삼성전자 AI 반도체와 HBM으로 폭발적 성장 - nbn 시사경제",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1nc1hVQXhDeDBMREtUUlhEcjhlcjBtYjg1RDR2ZVNESkNUM0Y2UUxLWENZMUZvYUI2cDVjaTFWenRyNGVoUGlWazNxYmZtNFlLNDdjdGtQeU5KTGlTNGUzTGlXMmVMQlVkWXc?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-10-27 10:17:13",
+          "match_score": 36.96
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재건축",
+      "score": 55.9,
+      "article_count": 10,
+      "source_count": 3,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "재건축 투자처 고민된다면 … ‘래미안’ 깃발 꽂힌 단지를 따라가라고",
+        "신상진 성남시장 “국토부 교통영향평가 지침, 분당 재건축 일정 차질 우려” - 에너지경제신문",
+        "강남 재건축 바로미터 '은마' 어떻게 바뀌었나 - MTN 머니투데이방송"
+      ],
+      "llm_candidate": false,
+      "rank": 6,
+      "representative_article": {
+        "title": "재건축 투자처 고민된다면 … ‘래미안’ 깃발 꽂힌 단지를 따라가라고",
+        "link": "https://www.mk.co.kr/news/realestate/12187292",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-10-28 05:30:00",
+        "match_score": 38.09
+      },
+      "related_articles": [
+        {
+          "title": "재건축 투자처 고민된다면 … ‘래미안’ 깃발 꽂힌 단지를 따라가라고",
+          "link": "https://www.mk.co.kr/news/realestate/12187292",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-28 05:30:00",
+          "match_score": 38.09
+        },
+        {
+          "title": "\"'3조' 목동14단지 잡아라\" 아크로·써밋·르엘 목동 재건축 총출동",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/10/27/2026102701288.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-10-27 11:01:18",
+          "match_score": 38.09
+        },
+        {
+          "title": "일산 재건축, 350% 풀어줘도 힘든 이유 - 시사저널e",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1JQTlveWdRSUVmb1lwSjFYQS14THNiZ1VmSTNlRkxYMmFNbW1vZzBFOHU2NTA4WmkxRHBJREZocmoxOG9PNEVldWN3WjUyMGdTMFBOZjA5RTNOejlQT0pITnU5ajlaWFdLb3Joc1VoRnRTbl9yamfSAXZBVV95cUxNSUE5b3lnUUlFZm9ZcEoxWEEteExzYmdVZkkzZUZMWDJhTW1tb2cwRTh1NjUwOFppMURwSURGaHJqMThvTzRFZXVjd1o1MjBnUzBQTmYwOUUzTno5UE9KSE51OWo5WlhXS29yaHNVaEZ0U25fcmpn?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-10-27 15:47:41",
+          "match_score": 38.01
+        },
+        {
+          "title": "신상진 성남시장 “국토부 교통영향평가 지침, 분당 재건축 일정 차질 우려” - 에너지경제신문",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE55UF9qNlVETU9Oa0xxbnlpRkQ1bVpTNDFfaEpxaWJ3Tm1UcEV5UWJsbGMydUZjOWl4MXZpX2QwYTZUaGtLQ2ZDZEpUWUVRd3ZFTGozb0RvTUdDMWM?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-10-28 04:16:40",
+          "match_score": 37.71
+        },
+        {
+          "title": "강남 재건축 바로미터 '은마' 어떻게 바뀌었나 - MTN 머니투데이방송",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5VZ3BlbXlOcWtURW5pNzNDZkhVUW5LS3pBdkNLSnNWSXZzMko4Mi1qa0RoUTVyamo3cFRPR3JhZm03VUo3dThhV2JYejFubG41aHZlRG5iMjNNQl9UYnpn?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-10-27 17:37:40",
+          "match_score": 37.71
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "코스피",
+      "score": 38.1,
+      "article_count": 7,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "외국인 ‘셀 코리아’ 속 글로벌 IB들은 “사라” 외쳤다",
+        "코스피 반등에도 국고채 금리 일제히↓…3년물 2개월래 최저(종합)",
+        "코스피, 3% 급반등해 5,638 마감…삼전닉스 4∼5%↑(종합)"
+      ],
+      "llm_candidate": false,
+      "rank": 7,
+      "representative_article": {
+        "title": "앤트로픽발 훈풍에 코스피 3%대 반등…5600선 회복",
+        "link": "https://www.etnews.com/20261027000405",
+        "source": "전자신문",
+        "published_dt": "2026-10-27 16:20:19",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "앤트로픽발 훈풍에 코스피 3%대 반등…5600선 회복",
+          "link": "https://www.etnews.com/20261027000405",
+          "source": "전자신문",
+          "published_dt": "2026-10-27 16:20:19",
+          "match_score": 37.49
+        },
+        {
+          "title": "코스피 반등에도 국고채 금리 일제히↓…3년물 2개월래 최저(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261027157251008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-10-27 16:57:41",
+          "match_score": 28.68
+        },
+        {
+          "title": "코스피, 3% 급반등해 5,638 마감…삼전닉스 4∼5%↑(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261027146100008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-10-27 16:05:32",
+          "match_score": 28.68
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "아파트",
+      "score": 34.3,
+      "article_count": 7,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "부동산"
+      ],
+      "sample_titles": [
+        "아파트에 오페라하우스?… 커뮤니티 경쟁 과열",
+        "재건축 투자처 고민된다면 … ‘래미안’ 깃발 꽂힌 단지를 따라가라고",
+        "아파트 대신 중형 오피스텔? 서울 매매가 17개월째 상승"
+      ],
+      "llm_candidate": false,
+      "rank": 8,
+      "representative_article": {
+        "title": "\"10채 중 8채 안 팔렸다\"…동원개발 울산 아파트, 결국 329가구 '줍줍'",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/10/27/2026102702141.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-10-27 15:01:44",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "\"10채 중 8채 안 팔렸다\"…동원개발 울산 아파트, 결국 329가구 '줍줍'",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/10/27/2026102702141.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-10-27 15:01:44",
+          "match_score": 37.49
+        },
+        {
+          "title": "아파트에 오페라하우스·아이스링크?…건설사 시설경쟁에 정부, 칼 빼들어",
+          "link": "https://www.mk.co.kr/news/realestate/12186963",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-27 14:50:55",
+          "match_score": 37.49
+        },
+        {
+          "title": "아파트 대신 중형 오피스텔? 서울 매매가 17개월째 상승",
+          "link": "https://www.mk.co.kr/news/realestate/12187316",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-27 17:21:56",
+          "match_score": 28.49
+        },
+        {
+          "title": "아파트에 오페라하우스?… 커뮤니티 경쟁 과열",
+          "link": "https://www.chosun.com/economy/real_estate/2026/10/28/JTKKO6GRSJHZBLS6YB4NO2HLCE/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-10-28 00:33:00",
+          "match_score": 28.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "3분기",
+      "score": 33.9,
+      "article_count": 6,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "기업대출 늘린 신한금융 … 3분기 누적 순익 5조 최대",
+        "3분기 GDP 1.0% 성장…정부 “올해 국민소득 4만달러 진입”",
+        "한은 “올해 경제 성장률 4%도 가능”…반도체 성장 기여가 절반"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "한미사이언스 3분기 영업익 192억원…올해 매출 1조원 돌파(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261027173251527",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-10-27 19:04:20",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "한미사이언스 3분기 영업익 192억원…올해 매출 1조원 돌파(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261027173251527",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-10-27 19:04:20",
+          "match_score": 37.67
+        },
+        {
+          "title": "한미약품 3분기 영업이익 378억원…누적 매출 1조2천억원(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261027147851527",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-10-27 17:10:30",
+          "match_score": 37.67
+        },
+        {
+          "title": "기업대출 늘린 신한금융 … 3분기 누적 순익 5조 최대",
+          "link": "https://www.mk.co.kr/news/economy/12187309",
+          "source": "매일경제-경제",
+          "published_dt": "2026-10-27 17:18:39",
+          "match_score": 37.66
+        },
+        {
+          "title": "3분기 GDP 1.0% 성장…정부 “올해 국민소득 4만달러 진입”",
+          "link": "https://www.etnews.com/20261027000438",
+          "source": "전자신문",
+          "published_dt": "2026-10-27 18:46:20",
+          "match_score": 37.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "앞두고",
+      "score": 24.4,
+      "article_count": 6,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "조의장 \"이태원참사는 사회적 재난…진실 밝혀질 때까지 함께\"",
+        "구속 연장이냐 석방이냐…김건희, 구속심문서 15분간 직접 발언(종합)",
+        "“美연준, 10월 금리 동결 확률 우세”…선거 앞두고 시장 충격 우려?"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "“美연준, 10월 금리 동결 확률 우세”…선거 앞두고 시장 충격 우려?",
+        "link": "https://www.donga.com/news/Inter/article/all/20261027/134915896/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-10-27 11:33:41",
+        "match_score": 29.05
+      },
+      "related_articles": [
+        {
+          "title": "“美연준, 10월 금리 동결 확률 우세”…선거 앞두고 시장 충격 우려?",
+          "link": "https://www.donga.com/news/Inter/article/all/20261027/134915896/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-27 11:33:41",
+          "match_score": 29.05
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
