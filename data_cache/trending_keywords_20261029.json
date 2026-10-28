@@ -1,0 +1,461 @@
+{
+  "timestamp": "2026-10-29T06:01:25.009985",
+  "date": "20261029",
+  "data": [
+    {
+      "keyword": "해킹사고",
+      "reason": "금융권 해킹 사고 잇따름",
+      "score": 21.07,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "국제"
+      ],
+      "sample_titles": [
+        "증권사도 뚫렸다…대신증권·미래운용 해킹 사고에 업계 긴장(종합2보)"
+      ],
+      "representative_article": {
+        "title": "증권사도 뚫렸다…대신증권·미래운용 해킹 사고에 업계 긴장(종합2보)",
+        "link": "https://www.yna.co.kr/view/AKR20261028068952008",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-10-28 16:14:32",
+        "match_score": 21.07
+      },
+      "related_articles": [
+        {
+          "title": "증권사도 뚫렸다…대신증권·미래운용 해킹 사고에 업계 긴장(종합2보)",
+          "link": "https://www.yna.co.kr/view/AKR20261028068952008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-10-28 16:14:32",
+          "match_score": 21.07
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "행정수도특별법",
+      "reason": "정치권 법안 집중 논의",
+      "score": 40.17,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "국토위소위 '행정수도특별법' 첫 심사…내달 11일 집중 논의키로"
+      ],
+      "representative_article": {
+        "title": "국토위소위 '행정수도특별법' 첫 심사…내달 11일 집중 논의키로",
+        "link": "https://www.yna.co.kr/view/AKR20261028170100001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-10-28 17:37:48",
+        "match_score": 40.17
+      },
+      "related_articles": [
+        {
+          "title": "국토위소위 '행정수도특별법' 첫 심사…내달 11일 집중 논의키로",
+          "link": "https://www.yna.co.kr/view/AKR20261028170100001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-28 17:37:48",
+          "match_score": 40.17
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "부동산버블",
+      "reason": "압구정 가격폭락 이슈",
+      "score": 16.3,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "압구정 아파트, 40억 폭락의 숨은 뜻..\"부동산 버블붕괴 신호탄일까?\""
+      ],
+      "representative_article": {
+        "title": "압구정 아파트, 40억 폭락의 숨은 뜻..\"부동산 버블붕괴 신호탄일까?\"",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/10/28/2026102801959.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-10-28 14:50:43",
+        "match_score": 16.3
+      },
+      "related_articles": [
+        {
+          "title": "압구정 아파트, 40억 폭락의 숨은 뜻..\"부동산 버블붕괴 신호탄일까?\"",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/10/28/2026102801959.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-10-28 14:50:43",
+          "match_score": 16.3
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "금리인상",
+      "reason": "미국 연준 정책 부담 완화 기대",
+      "score": 21.45,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "국제"
+      ],
+      "sample_titles": [
+        "“테크만 빼고” 월가, AI 돈줄 조이자…연준 ‘금리 인상’ 부담 덜까"
+      ],
+      "representative_article": {
+        "title": "“테크만 빼고” 월가, AI 돈줄 조이자…연준 ‘금리 인상’ 부담 덜까",
+        "link": "https://www.donga.com/news/Inter/article/all/20261028/134923908/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-10-28 13:05:37",
+        "match_score": 21.45
+      },
+      "related_articles": [
+        {
+          "title": "“테크만 빼고” 월가, AI 돈줄 조이자…연준 ‘금리 인상’ 부담 덜까",
+          "link": "https://www.donga.com/news/Inter/article/all/20261028/134923908/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-28 13:05:37",
+          "match_score": 21.45
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "가상자산",
+      "reason": "과세 논의 및 해킹 확산",
+      "score": 38.88,
+      "article_count": 3,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "與 가상자산 과세유예 무게...김민석 “과세 인프라 미비 논의해야”",
+        "“과세 인프라 미비·청년 우려”…與, 가상자산 과세 추가 유예 무게",
+        "가상자산·금투업권으로 해킹 확산…당국 긴급 점검(종합3보)"
+      ],
+      "representative_article": {
+        "title": "가상자산·금투업권으로 해킹 확산…당국 긴급 점검(종합3보)",
+        "link": "https://www.yna.co.kr/view/AKR20261028053253002",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-10-28 16:11:15",
+        "match_score": 38.88
+      },
+      "related_articles": [
+        {
+          "title": "가상자산·금투업권으로 해킹 확산…당국 긴급 점검(종합3보)",
+          "link": "https://www.yna.co.kr/view/AKR20261028053253002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-10-28 16:11:15",
+          "match_score": 38.88
+        },
+        {
+          "title": "“과세 인프라 미비·청년 우려”…與, 가상자산 과세 추가 유예 무게",
+          "link": "https://www.mk.co.kr/news/economy/12188027",
+          "source": "매일경제-경제",
+          "published_dt": "2026-10-28 08:50:20",
+          "match_score": 36.86
+        },
+        {
+          "title": "與 가상자산 과세유예 무게...김민석 “과세 인프라 미비 논의해야”",
+          "link": "https://www.chosun.com/politics/assembly/2026/10/28/PDDA4B4TOBDZREXWGU47GTMSGY/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-10-28 08:34:46",
+          "match_score": 29.5
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "아파트",
+      "score": 42.5,
+      "article_count": 8,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "부동산"
+      ],
+      "sample_titles": [
+        "동탄 아파트 1채 팔면 김포 6채 산다?…성과급 효과에 몸값 급등",
+        "과천역 초역세권 29억 재건축 '디에이치 르블리스', 이름 바꾸려는 이유",
+        "은마 관통면적 줄인 GTX-C … 옆동네 우성·쌍용 반발"
+      ],
+      "llm_candidate": false,
+      "rank": 6,
+      "representative_article": {
+        "title": "압구정 아파트, 40억 폭락의 숨은 뜻..\"부동산 버블붕괴 신호탄일까?\"",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/10/28/2026102801959.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-10-28 14:50:43",
+        "match_score": 38.09
+      },
+      "related_articles": [
+        {
+          "title": "압구정 아파트, 40억 폭락의 숨은 뜻..\"부동산 버블붕괴 신호탄일까?\"",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/10/28/2026102801959.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-10-28 14:50:43",
+          "match_score": 38.09
+        },
+        {
+          "title": "가락미륭아파트 재건축정비사업 일반분양가 산정 및 분양가 심사 대행업체 선정 - 하우징헤럴드",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5hYnZfN3RWbFVpUUZ3OVppQWlzNHFHWTVWYk9jVmxrWlB1eDRZN1oxZTFPWWIyX211RmVhM2taam9IaFNDUzFMRnktTE1MMXpXTmtFUUFTX2kzUE1mQ1lwNEtGUEdrNGlsSTFQWDFwSFlmSjg?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-10-28 15:36:04",
+          "match_score": 37.71
+        },
+        {
+          "title": "목동1단지, 최고 49층 아파트 3,500세대로 재건축 - 한국주택경제신문",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBHRXlkRHhKakRaN0dVaE01bTk1ZWRTRGxqZmppTFhEekxHSC1LV0VkMHAwMWJ1MmltS3V1ZVV3LXR2ejNUQ2lrLUpSWTlvZVREaHgzOE4wOG90NVZpdzQ2YVIwV2ROWU9k?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-10-28 13:55:31",
+          "match_score": 37.71
+        },
+        {
+          "title": "동탄 아파트 1채 팔면 김포 6채 산다?…성과급 효과에 몸값 급등",
+          "link": "https://www.mk.co.kr/news/economy/12188442",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-28 15:29:04",
+          "match_score": 37.49
+        },
+        {
+          "title": "잠원동아·가락쌍용 리모델링 … 새아파트 359가구 늘어난다",
+          "link": "https://www.mk.co.kr/news/realestate/12188625",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-28 17:24:37",
+          "match_score": 37.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "인프라",
+      "score": 44.5,
+      "article_count": 7,
+      "source_count": 5,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업",
+        "정치"
+      ],
+      "sample_titles": [
+        "與 가상자산 과세유예 무게...김민석 “과세 인프라 미비 논의해야”",
+        "[특징주] 네이버, 12조원 AI인프라 확보 계약에 2%대 상승 마감(종합)",
+        "“과세 인프라 미비·청년 우려”…與, 가상자산 과세 추가 유예 무게"
+      ],
+      "llm_candidate": false,
+      "rank": 7,
+      "representative_article": {
+        "title": "[리빌딩 KT, 육해공 인프라 혁신]〈2〉해저망, 글로벌 AI 데이터 연결 인프라로",
+        "link": "https://www.etnews.com/20261028000290",
+        "source": "전자신문",
+        "published_dt": "2026-10-28 14:10:38",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "[리빌딩 KT, 육해공 인프라 혁신]〈2〉해저망, 글로벌 AI 데이터 연결 인프라로",
+          "link": "https://www.etnews.com/20261028000290",
+          "source": "전자신문",
+          "published_dt": "2026-10-28 14:10:38",
+          "match_score": 37.49
+        },
+        {
+          "title": "[테크서밋 2026]인텔코리아, “에이전틱 AI 시대, CPU가 핵심 인프라로 부상”",
+          "link": "https://www.etnews.com/20261028000281",
+          "source": "전자신문",
+          "published_dt": "2026-10-28 17:00:00",
+          "match_score": 37.49
+        },
+        {
+          "title": "[2026 K-오픈소스 AX] 과기정통부 “AI 인프라·모델·활용 경쟁력 강화로 3강 도약”",
+          "link": "https://www.etnews.com/20261028000031",
+          "source": "전자신문",
+          "published_dt": "2026-10-28 17:00:00",
+          "match_score": 37.49
+        },
+        {
+          "title": "[특징주] 네이버, 12조원 AI인프라 확보 계약에 2%대 상승 마감(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261028055751008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-10-28 15:38:40",
+          "match_score": 28.68
+        },
+        {
+          "title": "“과세 인프라 미비·청년 우려”…與, 가상자산 과세 추가 유예 무게",
+          "link": "https://www.mk.co.kr/news/economy/12188027",
+          "source": "매일경제-경제",
+          "published_dt": "2026-10-28 08:50:20",
+          "match_score": 28.66
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "3분기",
+      "score": 36.7,
+      "article_count": 7,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "농협금융, 3분기 순익 7487억…증시 부진에 비이자이익은 감소",
+        "9월 추석효과...대형마트 10분기 만에 매출 ‘플러스’ 전환",
+        "“돈이 있어야 이사를 하죠”…20대 이동인구 1년새 5만명 줄었다"
+      ],
+      "llm_candidate": false,
+      "rank": 8,
+      "representative_article": {
+        "title": "LG전자 3분기 누적 영업익 4조 돌파…냉각솔루션·로봇사업 강화(종합2보)",
+        "link": "https://www.yna.co.kr/view/AKR20261028115802527",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-10-28 17:16:30",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "LG전자 3분기 누적 영업익 4조 돌파…냉각솔루션·로봇사업 강화(종합2보)",
+          "link": "https://www.yna.co.kr/view/AKR20261028115802527",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-10-28 17:16:30",
+          "match_score": 37.67
+        },
+        {
+          "title": "한올바이오파마 3분기 영업이익 13억원…265%↑",
+          "link": "https://www.yna.co.kr/view/AKR20261028167300527",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-10-28 17:10:36",
+          "match_score": 37.67
+        },
+        {
+          "title": "삼성물산 3분기 영업익 1조1천억원으로 15%↑…건설, 실적 견인(종합2보)",
+          "link": "https://www.yna.co.kr/view/AKR20261028139452527",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-10-28 16:46:38",
+          "match_score": 37.67
+        },
+        {
+          "title": "농협금융, 3분기 순익 7487억…증시 부진에 비이자이익은 감소",
+          "link": "https://www.mk.co.kr/news/economy/12188486",
+          "source": "매일경제-경제",
+          "published_dt": "2026-10-28 16:03:34",
+          "match_score": 37.66
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재건축",
+      "score": 32.7,
+      "article_count": 6,
+      "source_count": 3,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "과천역 초역세권 29억 재건축 '디에이치 르블리스', 이름 바꾸려는 이유",
+        "청약통장 없어도, 집 있어도 OK? 반포 신축 40억 ‘무제한 청약’ 떴다 [분양나우(牛)]",
+        "압구정 아파트, 40억 폭락의 숨은 뜻..\"부동산 버블붕괴 신호탄일까?\""
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "과천역 초역세권 29억 재건축 '디에이치 르블리스', 이름 바꾸려는 이유",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/10/28/2026102803052.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-10-28 17:29:26",
+        "match_score": 38.09
+      },
+      "related_articles": [
+        {
+          "title": "과천역 초역세권 29억 재건축 '디에이치 르블리스', 이름 바꾸려는 이유",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/10/28/2026102803052.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-10-28 17:29:26",
+          "match_score": 38.09
+        },
+        {
+          "title": "압구정 35억·잠실 5.6억 하락…분담금 급증에 강남 재건축 매수세 주춤 - 오피니언뉴스",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1DYmhRRFk1Qk5rZE4yLXBQRjVPdVpUZDN3MXdXT0NmUGF4eVJrdW9JX0RVWXBGeEVaakpUWDZiU3lueDBhMkx2Y3J4ODJSYlFPZ2dhcENWZmdodVp2dXVPS2s2TU5GY2EyZEZDRnVHMXR4dw?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-10-28 15:37:20",
+          "match_score": 37.71
+        },
+        {
+          "title": "가락미륭아파트 재건축정비사업 일반분양가 산정 및 분양가 심사 대행업체 선정 - 하우징헤럴드",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5hYnZfN3RWbFVpUUZ3OVppQWlzNHFHWTVWYk9jVmxrWlB1eDRZN1oxZTFPWWIyX211RmVhM2taam9IaFNDUzFMRnktTE1MMXpXTmtFUUFTX2kzUE1mQ1lwNEtGUEdrNGlsSTFQWDFwSFlmSjg?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-10-28 15:36:04",
+          "match_score": 37.71
+        },
+        {
+          "title": "목동1단지, 최고 49층 아파트 3,500세대로 재건축 - 한국주택경제신문",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBHRXlkRHhKakRaN0dVaE01bTk1ZWRTRGxqZmppTFhEekxHSC1LV0VkMHAwMWJ1MmltS3V1ZVV3LXR2ejNUQ2lrLUpSWTlvZVREaHgzOE4wOG90NVZpdzQ2YVIwV2ROWU9k?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-10-28 13:55:31",
+          "match_score": 37.71
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "영업이익",
+      "score": 23.9,
+      "article_count": 5,
+      "source_count": 3,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "LG전자 3분기 누적 영업익 4조 돌파…냉각솔루션·로봇사업 강화(종합2보)",
+        "한올바이오파마 3분기 영업이익 13억원…265%↑",
+        "삼성물산 3분기 영업익 1조1천억원으로 15%↑…건설, 실적 견인(종합2보)"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "한올바이오파마 3분기 영업이익 13억원…265%↑",
+        "link": "https://www.yna.co.kr/view/AKR20261028167300527",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-10-28 17:10:36",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "한올바이오파마 3분기 영업이익 13억원…265%↑",
+          "link": "https://www.yna.co.kr/view/AKR20261028167300527",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-10-28 17:10:36",
+          "match_score": 37.67
+        },
+        {
+          "title": "SK하이닉스, 영업이익 83조원 '역대 최대'…AI 반도체 호황에 100조원 주주환원 - 시사매거진",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5aZHhMNWF5R0pfdFJJNG9rVW1EM2k3ZjViYWdFX081MEpoYkJ1T3l2UGRiMmZMa2hSb1d1dWZPV3MwejFHZENQQ1RpZ1JvOUdYOTFlTzhlT19mT0JieUxxbXdn?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-10-28 11:48:44",
+          "match_score": 36.96
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
