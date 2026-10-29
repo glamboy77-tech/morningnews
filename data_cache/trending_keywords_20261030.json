@@ -1,0 +1,505 @@
+{
+  "timestamp": "2026-10-30T06:01:11.938278",
+  "date": "20261030",
+  "data": [
+    {
+      "keyword": "금리동결",
+      "reason": "미 연준과 ECB의 금리 동결",
+      "score": 23.07,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "국제"
+      ],
+      "sample_titles": [
+        "미 연준 이어 ECB도 금리 동결…\"인플레·경기둔화 위험 여전\"(종합)",
+        "[2보] ECB 금리 동결…예금금리 연 2.50％"
+      ],
+      "representative_article": {
+        "title": "미 연준 이어 ECB도 금리 동결…\"인플레·경기둔화 위험 여전\"(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261029208552082",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-10-30 00:15:46",
+        "match_score": 23.07
+      },
+      "related_articles": [
+        {
+          "title": "미 연준 이어 ECB도 금리 동결…\"인플레·경기둔화 위험 여전\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261029208552082",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-10-30 00:15:46",
+          "match_score": 23.07
+        },
+        {
+          "title": "[2보] ECB 금리 동결…예금금리 연 2.50％",
+          "link": "https://www.yna.co.kr/view/AKR20261029208551082",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-10-29 22:38:28",
+          "match_score": 23.07
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "北미사일",
+      "reason": "북한 탄도미사일 가능성 물체 발사",
+      "score": 24.0,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "日방위성 “北, 탄도미사일 가능성 물체 발사”…EEZ 밖 낙하 추정"
+      ],
+      "representative_article": {
+        "title": "日방위성 “北, 탄도미사일 가능성 물체 발사”…EEZ 밖 낙하 추정",
+        "link": "https://www.donga.com/news/Inter/article/all/20261029/134932381/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-10-29 14:57:47",
+        "match_score": 24.0
+      },
+      "related_articles": [
+        {
+          "title": "日방위성 “北, 탄도미사일 가능성 물체 발사”…EEZ 밖 낙하 추정",
+          "link": "https://www.donga.com/news/Inter/article/all/20261029/134932381/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-29 14:57:47",
+          "match_score": 24.0
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "정보유출",
+      "reason": "진에어 해킹으로 회원 정보 유출",
+      "score": 20.67,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "빗썸 고객 정보 유출 뒤늦게 확인…사내 시스템 해킹 사고",
+        "진에어, 외부 해킹 공격에 회원 1천454명 정보 유출",
+        "빗썸 고객 정보 유출 뒤늦게 확인…사내 시스템 해킹 사고"
+      ],
+      "representative_article": {
+        "title": "진에어, 외부 해킹 공격에 회원 1천454명 정보 유출",
+        "link": "https://www.yna.co.kr/view/AKR20261029191700003",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-10-29 18:02:52",
+        "match_score": 20.67
+      },
+      "related_articles": [
+        {
+          "title": "진에어, 외부 해킹 공격에 회원 1천454명 정보 유출",
+          "link": "https://www.yna.co.kr/view/AKR20261029191700003",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-10-29 18:02:52",
+          "match_score": 20.67
+        },
+        {
+          "title": "빗썸 고객 정보 유출 뒤늦게 확인…사내 시스템 해킹 사고",
+          "link": "https://www.yna.co.kr/view/AKR20261029169151002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-10-29 16:30:55",
+          "match_score": 18.27
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "아파트",
+      "score": 54.9,
+      "article_count": 13,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "부동산"
+      ],
+      "sample_titles": [
+        "3분기 서울 84㎡ 평균 매매가 내렸지만...전세보증금은 3.8%↑",
+        "친일파 후손이 주인이었던 서울 '특급호텔', 문 닫고 아파트 짓는다",
+        "올해 서울 아파트 입주 13년 만에 최저…분양가는 5년 새 두 배 - 뉴시스"
+      ],
+      "llm_candidate": false,
+      "rank": 4,
+      "representative_article": {
+        "title": "높이 규제 막혔던 흑석동 재개발…23층 숲세권 아파트길 열려",
+        "link": "https://www.mk.co.kr/news/realestate/12189683",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-10-29 11:20:31",
+        "match_score": 38.09
+      },
+      "related_articles": [
+        {
+          "title": "높이 규제 막혔던 흑석동 재개발…23층 숲세권 아파트길 열려",
+          "link": "https://www.mk.co.kr/news/realestate/12189683",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-29 11:20:31",
+          "match_score": 38.09
+        },
+        {
+          "title": "친일파 후손이 주인이었던 서울 '특급호텔', 문 닫고 아파트 짓는다",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/10/29/2026102902973.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-10-29 18:09:29",
+          "match_score": 37.49
+        },
+        {
+          "title": "올해 서울 아파트 입주 13년 만에 최저…분양가는 5년 새 두 배 - 뉴시스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5fekRrSTlNNkJYOW5qbEppOUQ4SFg2b1BKOGlSck5UN1UtRk9MS3ZwNFAxZ1U3WEZPYUdkRHRKR25IQ0lfUkxxQThSUmtvcXpwVmNsOENTdGY3WUdlWERpQdIBeEFVX3lxTFBOZWtfZ0hWVnBEX01LNnBqVTY5TEpDZGdjaGQyVkhmRU9VaEZjbkI1LWdGSlcxbHlnZ0xfdmFwa1VyQzNJenlPUGpaeXVUV0VFUWNtOGV1X3JRX2V1VWtKSWdta1gydnRFWXpEMUJaeHlsa0Z4Q2ZoRA?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-10-30 05:30:00",
+          "match_score": 36.96
+        },
+        {
+          "title": "미분양 아파트를 전세로...부산 첫 'CR리츠' 등장 - 부산경남대표방송 KNN 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE80c0dyRUlLVXZnVy12WGU3eGdVUEhuU3hXNjZ0LU4zbGZ2a2JjczUtMnZhT25pc0hVa01Td3Bia3JjSVNYRXR6M25MOHZQeGxtMTF6eg?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-10-29 21:40:00",
+          "match_score": 36.96
+        },
+        {
+          "title": "과천 8억짜리 새 아파트…또 로또 청약",
+          "link": "https://www.mk.co.kr/news/realestate/12190123",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-29 17:32:01",
+          "match_score": 28.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "3분기",
+      "score": 60.5,
+      "article_count": 11,
+      "source_count": 5,
+      "categories": [
+        "경제/거시",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "“이자 장사로 40조 긁어모았다”…5대 금융지주, 올해 순익 20조 ‘역대 최대’",
+        "KB금융 3분기 순익 1.9조 … 역대 최대실적",
+        "3분기 서울 84㎡ 평균 매매가 내렸지만...전세보증금은 3.8%↑"
+      ],
+      "llm_candidate": false,
+      "rank": 5,
+      "representative_article": {
+        "title": "아모레퍼시픽홀딩스 3분기 영업익 1천301억…작년비 24.7% 증가",
+        "link": "https://www.yna.co.kr/view/AKR20261029183200527",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-10-29 17:15:34",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "아모레퍼시픽홀딩스 3분기 영업익 1천301억…작년비 24.7% 증가",
+          "link": "https://www.yna.co.kr/view/AKR20261029183200527",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-10-29 17:15:34",
+          "match_score": 37.67
+        },
+        {
+          "title": "금호타이어 3분기 영업익 1천305억원…작년보다 20%↑(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261029182600003",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-10-29 17:14:02",
+          "match_score": 37.67
+        },
+        {
+          "title": "KB금융 3분기 순익 1.9조 … 역대 최대실적",
+          "link": "https://www.mk.co.kr/news/economy/12190169",
+          "source": "매일경제-경제",
+          "published_dt": "2026-10-29 17:42:36",
+          "match_score": 37.66
+        },
+        {
+          "title": "3분기 서울 84㎡ 평균 매매가 내렸지만...전세보증금은 3.8%↑",
+          "link": "https://www.mk.co.kr/news/realestate/12189807",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-29 14:24:23",
+          "match_score": 37.49
+        },
+        {
+          "title": "3분기 서울 국평 집값 하락 … 전세금은 3.8% 대폭 올라",
+          "link": "https://www.mk.co.kr/news/realestate/12190120",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-29 17:32:00",
+          "match_score": 37.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "반도체",
+      "score": 60.0,
+      "article_count": 11,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "국민성장펀드, 국내 최대 태양광 발전소·반도체 밸류체인 투자",
+        "'큰손' 하이닉스, '반도체머니' 운용할 채권 전문인력 채용 주목",
+        "프랑스 미스트랄과 손잡고 ‘반도체 특화 AI’ 추진 - 조선일보"
+      ],
+      "llm_candidate": false,
+      "rank": 6,
+      "representative_article": {
+        "title": "국민성장펀드, 국내 최대 태양광 발전소·반도체 밸류체인 투자",
+        "link": "https://www.yna.co.kr/view/AKR20261029196900002",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-10-29 18:48:30",
+        "match_score": 37.83
+      },
+      "related_articles": [
+        {
+          "title": "국민성장펀드, 국내 최대 태양광 발전소·반도체 밸류체인 투자",
+          "link": "https://www.yna.co.kr/view/AKR20261029196900002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-10-29 18:48:30",
+          "match_score": 37.83
+        },
+        {
+          "title": "경남도, 호남 반도체 전력망 구축에 지역 변압기 전용 반대",
+          "link": "https://www.yna.co.kr/view/AKR20261029180400052",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-10-29 17:11:07",
+          "match_score": 37.67
+        },
+        {
+          "title": "프랑스 미스트랄과 손잡고 ‘반도체 특화 AI’ 추진 - 조선일보",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOSDJvcTliWFdpR2NDSEtaakZrdk02QU9lVjk5dHFfY0czdVAtVzZOb2tXenRYOUlYemxrTGhvblhBT1kzTVRDOEVvc2s1U1hxRkhlOEJOYXQ3dWNPbkczSzFFaDh1Q05uUWd4STBUX2twVjg1TnhubV9FdVZ1SS1COWZYMA?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-10-30 01:21:00",
+          "match_score": 36.96
+        },
+        {
+          "title": "삼성전자 \"AI가 일하는 반도체 회사 만든다\"…R&D·제조 대전환 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBld1dYcTNRMUpQaThPQ2NUZU05SkNOMmR6cERlUXlYSDBNRzl5UkxpSFhoQnl5eE1RZVM3TWRwOVZSMFlvZU5CTlZQaVJ0LU9xRFJhUW9Nc0sxM2drZWZBdUNlODRxejdlSC1GV0VuZDkxd9IBckFVX3lxTFBld1dYcTNRMUpQaThPQ2NUZU05SkNOMmR6cERlUXlYSDBNRzl5UkxpSFhoQnl5eE1RZVM3TWRwOVZSMFlvZU5CTlZQaVJ0LU9xRFJhUW9Nc0sxM2drZWZBdUNlODRxejdlSC1GV0VuZDkxdw?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-10-29 13:39:19",
+          "match_score": 36.96
+        },
+        {
+          "title": "삼성전자, AI 반도체 타고 분기 영업이익 100조원 시대 열었다 - 한국원자력신문",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBNeWdRMDBRMm5jTlpnbWY1NlNadTNubGNLajA0dFdMQWU3YU1KT0o3Tm84cXpNQ2Q3d3liaGJJLVk5cmFGU1VSc3FmalNQVFhPVWFJVnYtYjV3a1M2eVFDWUwtOGlPSDDSAWtBVV95cUxPQUtCa2Y0QjIzZFF4UFozSG1hYWt6N1VXSFJhMGRUMWJmZ0p5aThvcmtxVEJlYTc0TmRTVGZiUWZXTGszNG4wcWpRX18tSXZZbklMd1g5UmhUVkk4aGVqUkcxYnJlVlY0TXVUbw?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-10-29 12:40:41",
+          "match_score": 36.96
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "삼성전자",
+      "score": 43.5,
+      "article_count": 8,
+      "source_count": 3,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "“내 연봉 8억, 아내는 4000만원…집안일 반반이 맞나?” 삼성전자 직원 글에 여성들 반응은?",
+        "삼성전자 “30조원 분기 배당”… 기대 못 미쳐 주가는 4% 급락",
+        "삼전닉스 200조 푼다는데…주가는 흔들리고, 불안불안한 개미들 왜?"
+      ],
+      "llm_candidate": false,
+      "rank": 7,
+      "representative_article": {
+        "title": "“내 연봉 8억, 아내는 4000만원…집안일 반반이 맞나?” 삼성전자 직원 글에 여성들 반응은?",
+        "link": "https://www.etnews.com/20261029000469",
+        "source": "전자신문",
+        "published_dt": "2026-10-29 21:02:23",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "“내 연봉 8억, 아내는 4000만원…집안일 반반이 맞나?” 삼성전자 직원 글에 여성들 반응은?",
+          "link": "https://www.etnews.com/20261029000469",
+          "source": "전자신문",
+          "published_dt": "2026-10-29 21:02:23",
+          "match_score": 37.49
+        },
+        {
+          "title": "삼성전자 \"AI가 일하는 반도체 회사 만든다\"…R&D·제조 대전환 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBld1dYcTNRMUpQaThPQ2NUZU05SkNOMmR6cERlUXlYSDBNRzl5UkxpSFhoQnl5eE1RZVM3TWRwOVZSMFlvZU5CTlZQaVJ0LU9xRFJhUW9Nc0sxM2drZWZBdUNlODRxejdlSC1GV0VuZDkxd9IBckFVX3lxTFBld1dYcTNRMUpQaThPQ2NUZU05SkNOMmR6cERlUXlYSDBNRzl5UkxpSFhoQnl5eE1RZVM3TWRwOVZSMFlvZU5CTlZQaVJ0LU9xRFJhUW9Nc0sxM2drZWZBdUNlODRxejdlSC1GV0VuZDkxdw?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-10-29 13:39:19",
+          "match_score": 36.96
+        },
+        {
+          "title": "삼성전자, AI 반도체 타고 분기 영업이익 100조원 시대 열었다 - 한국원자력신문",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBNeWdRMDBRMm5jTlpnbWY1NlNadTNubGNLajA0dFdMQWU3YU1KT0o3Tm84cXpNQ2Q3d3liaGJJLVk5cmFGU1VSc3FmalNQVFhPVWFJVnYtYjV3a1M2eVFDWUwtOGlPSDDSAWtBVV95cUxPQUtCa2Y0QjIzZFF4UFozSG1hYWt6N1VXSFJhMGRUMWJmZ0p5aThvcmtxVEJlYTc0TmRTVGZiUWZXTGszNG4wcWpRX18tSXZZbklMd1g5UmhUVkk4aGVqUkcxYnJlVlY0TXVUbw?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-10-29 12:40:41",
+          "match_score": 36.96
+        },
+        {
+          "title": "삼성전자 3분기 반도체 영업익 106조…\"내년도 기록적 AI투자\"(종합2보) - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1ycUpRVXVkalpRWm1pRk5XSDFPZFVfQVJxclZjamViY3A0Q1dnSW1pMDNFQkpBU2J1WEZDa0lqaHlEOFlveXdSQ2tDMnYtNVpDVjJkYjVXb3phaVnSAWBBVV95cUxOSVB5UVJDRlQzdVJSaEYzREljalZON0FTdmxsZUtKYVUyS2Uyc3h5VEMxSjJjY01IX3JzSGZMU0ZiWHRJb0xKeWphUUd4eFY0UDgyZ1BndFBSazdkMGd0R3c?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-10-29 11:39:08",
+          "match_score": 36.96
+        },
+        {
+          "title": "삼성전자, 3분기 영업익 반도체만 106조원…빅테크 최초 100조 돌파 - ESG경제",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9PNXJSRXM5UU1wR2liNm81TGpnSmtEckNGelhDeWJIWXg4YmVWcmd3TnVlOGk2SVFWVjFNSHlHeG1SR0wyVmo3OHZ1V1I4ZmVHZGxlbmM5ZWxqSC00N3huQ3NQWTJTYk05dkV1bQ?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-10-29 11:31:03",
+          "match_score": 36.96
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재건축",
+      "score": 34.9,
+      "article_count": 6,
+      "source_count": 3,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "경남도, 재개발·재건축 정비업체 9곳 전수조사 - 경남신문",
+        "분당 재건축 교통영향평가 ‘뒷북 지침’… 1기 신도시 ‘긴장’ - 대한경제",
+        "당정, 재건축 ‘반쪽짜리’ 규제 완화… 초과이익 환수제는 언급 없어"
+      ],
+      "llm_candidate": false,
+      "rank": 8,
+      "representative_article": {
+        "title": "경남도, 재개발·재건축 정비업체 9곳 전수조사 - 경남신문",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBBWWJEMnhsTmVUSU5mZmdHOHltelhBWmFqUlJ0SFlwM3lUSHVGdmxuaXdUd2JhaVNmbE1nUHBWeFBxdFdheEkxY0tDZkdvbnBMQUtFSHBPaHhOUQ?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-10-29 18:46:32",
+        "match_score": 38.01
+      },
+      "related_articles": [
+        {
+          "title": "경남도, 재개발·재건축 정비업체 9곳 전수조사 - 경남신문",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBBWWJEMnhsTmVUSU5mZmdHOHltelhBWmFqUlJ0SFlwM3lUSHVGdmxuaXdUd2JhaVNmbE1nUHBWeFBxdFdheEkxY0tDZkdvbnBMQUtFSHBPaHhOUQ?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-10-29 18:46:32",
+          "match_score": 38.01
+        },
+        {
+          "title": "분당 재건축 교통영향평가 ‘뒷북 지침’… 1기 신도시 ‘긴장’ - 대한경제",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE52TjhaNWZUcUhzbU4yR1F1RDhJS1B5WDd2MWRXb0lJRE1mOXZySlpPTG5UTkU5LWdWc1l0UGZYQ3pZOF9HZlktUHRzeUJKakM1enBNZjhhSTYyMWswM2s1YUxaZ3AwTVQwdnhia1NiRGlXaWpr?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-10-30 05:00:20",
+          "match_score": 38.01
+        },
+        {
+          "title": "당정, 재건축 ‘반쪽짜리’ 규제 완화… 초과이익 환수제는 언급 없어 - 조선일보",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQX3FFMVdBbEFDM2NUY1ZHYTZPbkMwTzJpTFhXS0lFVnJ6bzcwamN1bU9yYlBDM3BWQzdUem8yTlNwcDhlU1ZleFM2Zmg3SFVDN2k3QTVzMWc4T3RMMC1jZ2VLVFladk4tSVJFeWVZWUstaDVNeEVHUlM0dUEzdjFUdFZhWHNURndq?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-10-30 00:50:00",
+          "match_score": 37.71
+        },
+        {
+          "title": "하안주공 재건축에 대형 건설사 잇단 참여···경쟁입찰은 ‘실종’ - 시사저널e",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBNZ3ZVOThYV256ekQ0czRaQ3Qwa215R2xnVVRLQm9YYldSTXJMY2VzUXRJb0xJS3drUmY0UDFCVkxsd2dLYU82ejJxTFdpZlhiRC1NRHluLUJZdDhFeFRoNlVHb3BLVkFQV0trdXVFdnhNbVZNQUHSAXZBVV95cUxQTWd2VTk4WFduenpENHM0WkN0MGtteUdsZ1VUS0JvWGJXUk1yTGNlc1F0SW9MSUt3a1JmNFAxQlZMbHdnS2FPNnoycUxXaWZYYkQtTUR5bi1CWXQ4RXhUaDZVR29wS1ZBUFdLa3V1RXZ4TW1WTUFB?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-10-29 19:55:02",
+          "match_score": 37.71
+        },
+        {
+          "title": "당정, 재건축 ‘반쪽짜리’ 규제 완화… 초과이익 환수제는 언급 없어",
+          "link": "https://www.chosun.com/economy/real_estate/2026/10/30/OEHYXM2Q5JC5BDNHUOXVTV4QRY/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-10-30 00:50:00",
+          "match_score": 29.05
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "브랜드",
+      "score": 23.4,
+      "article_count": 5,
+      "source_count": 2,
+      "categories": [
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "아모레퍼시픽그룹 3분기 영업익 1천301억원…24.7% 증가(종합)",
+        "디에이치 반포124 견본주택에 현대건설, 브랜드 체험관 조성",
+        "현대건설, ‘분양 최대어’ 반포124 견본주택에 ‘디에이치 하우스’ 선보여"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "디에이치 반포124 견본주택에 현대건설, 브랜드 체험관 조성",
+        "link": "https://www.mk.co.kr/news/realestate/12190124",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-10-29 17:32:02",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "디에이치 반포124 견본주택에 현대건설, 브랜드 체험관 조성",
+          "link": "https://www.mk.co.kr/news/realestate/12190124",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-29 17:32:02",
+          "match_score": 37.49
+        },
+        {
+          "title": "송치영 포스코이앤씨 사장 “고객 목소리 반영해 신뢰받는 브랜드로 자리매김할 것”",
+          "link": "https://www.mk.co.kr/news/realestate/12189602",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-29 10:32:50",
+          "match_score": 28.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "등으로",
+      "score": 20.4,
+      "article_count": 5,
+      "source_count": 2,
+      "categories": [
+        "부동산",
+        "정치"
+      ],
+      "sample_titles": [
+        "국정원장 \"한미정보협력 '구성 발언' 등으로 일부 정보 제한\"(종합2보)",
+        "국힘 \"李정부 인사는 '경성공대'\"…與 \"尹정부, 충암파 동창회\"(종합2보)",
+        "與 \"내란 부정 사과해야\"…'김태규 참여' 충돌에 靑국감 파행(종합)"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "국정원장 \"한미정보협력 '구성 발언' 등으로 일부 정보 제한\"(종합2보)",
+        "link": "https://www.yna.co.kr/view/AKR20261029156452001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-10-29 21:27:52",
+        "match_score": 28.68
+      },
+      "related_articles": [
+        {
+          "title": "국정원장 \"한미정보협력 '구성 발언' 등으로 일부 정보 제한\"(종합2보)",
+          "link": "https://www.yna.co.kr/view/AKR20261029156452001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-29 21:27:52",
+          "match_score": 28.68
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
