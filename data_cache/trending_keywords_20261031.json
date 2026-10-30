@@ -1,0 +1,482 @@
+{
+  "timestamp": "2026-10-31T06:01:08.794479",
+  "date": "20261031",
+  "data": [
+    {
+      "keyword": "농지특별조치법",
+      "reason": "여당의 관련법 입법 추진",
+      "score": 30.02,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "與, '관행적 임대·불법전용 양성화' 농지특별조치법 입법 추진"
+      ],
+      "representative_article": {
+        "title": "與, '관행적 임대·불법전용 양성화' 농지특별조치법 입법 추진",
+        "link": "https://www.yna.co.kr/view/AKR20261030154400001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-10-30 17:19:25",
+        "match_score": 30.02
+      },
+      "related_articles": [
+        {
+          "title": "與, '관행적 임대·불법전용 양성화' 농지특별조치법 입법 추진",
+          "link": "https://www.yna.co.kr/view/AKR20261030154400001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-30 17:19:25",
+          "match_score": 30.02
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "중공업수주",
+      "reason": "효성 수주잔고 역대 최고",
+      "score": 20.22,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "효성 3분기 영업익 49% 증가…중공업 수주잔고 19조 역대 최고(종합)"
+      ],
+      "representative_article": {
+        "title": "효성 3분기 영업익 49% 증가…중공업 수주잔고 19조 역대 최고(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261030151100003",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-10-30 17:46:43",
+        "match_score": 20.22
+      },
+      "related_articles": [
+        {
+          "title": "효성 3분기 영업익 49% 증가…중공업 수주잔고 19조 역대 최고(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261030151100003",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-10-30 17:46:43",
+          "match_score": 20.22
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "국제유",
+      "reason": "이란 확전 우려로 급등",
+      "score": 40.08,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "국제"
+      ],
+      "sample_titles": [
+        "이란 확전 우려에 국제유가 2%대 급등…브렌트유 6개월만에 최고"
+      ],
+      "representative_article": {
+        "title": "이란 확전 우려에 국제유가 2%대 급등…브렌트유 6개월만에 최고",
+        "link": "https://www.yna.co.kr/view/AKR20261031005200072",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-10-31 05:13:57",
+        "match_score": 40.08
+      },
+      "related_articles": [
+        {
+          "title": "이란 확전 우려에 국제유가 2%대 급등…브렌트유 6개월만에 최고",
+          "link": "https://www.yna.co.kr/view/AKR20261031005200072",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-10-31 05:13:57",
+          "match_score": 40.08
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재건축",
+      "reason": "서울 은마아파트 소유권 및 GS건설 수주 돋보임",
+      "score": 31.43,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "강남 은마 795㎡ 소유권 정태수 상속인에…\"재건축엔 지장 없어\""
+      ],
+      "representative_article": {
+        "title": "강남 은마 795㎡ 소유권 정태수 상속인에…\"재건축엔 지장 없어\"",
+        "link": "https://www.yna.co.kr/view/AKR20261030179300004",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-10-30 20:22:28",
+        "match_score": 31.43
+      },
+      "related_articles": [
+        {
+          "title": "강남 은마 795㎡ 소유권 정태수 상속인에…\"재건축엔 지장 없어\"",
+          "link": "https://www.yna.co.kr/view/AKR20261030179300004",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-10-30 20:22:28",
+          "match_score": 31.43
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "3분기",
+      "score": 70.8,
+      "article_count": 12,
+      "source_count": 6,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "케이뱅크 3분기 순이익 421억원…작년 동기보다 119% 증가",
+        "Sh수협은행, 3분기 순이익 2천882억원…작년 동기대비 0.7%↑",
+        "효성 3분기 영업익 49% 증가…중공업 수주잔고 19조 역대 최고(종합)"
+      ],
+      "llm_candidate": false,
+      "rank": 5,
+      "representative_article": {
+        "title": "효성 3분기 영업익 49% 증가…중공업 수주잔고 19조 역대 최고(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261030151100003",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-10-30 17:46:43",
+        "match_score": 37.83
+      },
+      "related_articles": [
+        {
+          "title": "효성 3분기 영업익 49% 증가…중공업 수주잔고 19조 역대 최고(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261030151100003",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-10-30 17:46:43",
+          "match_score": 37.83
+        },
+        {
+          "title": "케이뱅크 3분기 순이익 421억원…작년 동기보다 119% 증가",
+          "link": "https://www.yna.co.kr/view/AKR20261030115100002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-10-30 15:12:17",
+          "match_score": 37.67
+        },
+        {
+          "title": "Sh수협은행, 3분기 순이익 2천882억원…작년 동기대비 0.7%↑",
+          "link": "https://www.yna.co.kr/view/AKR20261030125800002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-10-30 15:22:16",
+          "match_score": 37.67
+        },
+        {
+          "title": "효성티앤씨 3분기 영업이익 1천102억원…작년 동기 대비 97%↑",
+          "link": "https://www.yna.co.kr/view/AKR20261030156700527",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-10-30 17:17:41",
+          "match_score": 37.67
+        },
+        {
+          "title": "HS효성첨단소재 3분기 영업이익 516억원…작년 대비 167%↑",
+          "link": "https://www.yna.co.kr/view/AKR20261030152200527",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-10-30 16:50:39",
+          "match_score": 37.67
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "반도체",
+      "score": 46.0,
+      "article_count": 8,
+      "source_count": 6,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업",
+        "정치"
+      ],
+      "sample_titles": [
+        "위성락 \"광주 포함해 韓美간 군공항 이전 협정 큰 틀 합의 다돼\"",
+        "메모리반도체 투자 등 ETF 2종, 내달 3일 신규 상장",
+        "SK 사장단 인사… 반도체는 ‘안정’ 에너지는 ‘쇄신’"
+      ],
+      "llm_candidate": false,
+      "rank": 6,
+      "representative_article": {
+        "title": "글로벌 향하는 반도체, 쇄신 택한 에너지…SK그룹 사장단 인사",
+        "link": "https://www.etnews.com/20261030000199",
+        "source": "전자신문",
+        "published_dt": "2026-10-30 13:21:43",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "글로벌 향하는 반도체, 쇄신 택한 에너지…SK그룹 사장단 인사",
+          "link": "https://www.etnews.com/20261030000199",
+          "source": "전자신문",
+          "published_dt": "2026-10-30 13:21:43",
+          "match_score": 37.49
+        },
+        {
+          "title": "[반도체 증시] 미 빅테크 AI 투자 우려 직격탄…삼성전자·SK하이닉스 3~7% 급락 - CBC뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE01alFiMnE0UHpSVmdBcTJPeU5GQnVTWWhHaDJOSWl3ZExwYU84UTA0ZDFxalVNMU8tS01xbXBGY0RvRHVDUjd1LXFlQkNJZTFpRUJiTHJSdnZ1bTY4bzFoM2NMZFpkdWlS?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-10-31 00:00:00",
+          "match_score": 36.96
+        },
+        {
+          "title": "전영현 삼성전자 부회장 \"반도체 기술 경쟁력 충분히 회복 못 해\" - KB Think",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFA1VUxFd1RvZjJ5c1lYclhOcjFyS0tlSlpJMVRLUDNZSno4NC1xMC10QTlkWG1oVW5Eb1ZMdHIxbEhNZ1hZYmdQaHRHUEg5a09zMW1HZ1pLMGRYMndiTU5RZnRaajk3NDY3dHdqWnk4ZnNJdw?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-10-30 08:47:48",
+          "match_score": 36.96
+        },
+        {
+          "title": "메모리반도체 투자 등 ETF 2종, 내달 3일 신규 상장",
+          "link": "https://www.yna.co.kr/view/AKR20261030137800008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-10-30 15:59:44",
+          "match_score": 28.68
+        },
+        {
+          "title": "SK 사장단 인사… 반도체는 ‘안정’ 에너지는 ‘쇄신’",
+          "link": "https://www.chosun.com/economy/industry-company/2026/10/31/DZJOPOALBVCLPDVL6N752K4IYM/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-10-31 00:44:00",
+          "match_score": 28.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "영업이익",
+      "score": 35.5,
+      "article_count": 7,
+      "source_count": 5,
+      "categories": [
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "효성 3분기 영업익 49% 증가…중공업 수주잔고 19조 역대 최고(종합)",
+        "효성티앤씨 3분기 영업이익 1천102억원…작년 동기 대비 97%↑",
+        "HS효성첨단소재 3분기 영업이익 516억원…작년 대비 167%↑"
+      ],
+      "llm_candidate": false,
+      "rank": 7,
+      "representative_article": {
+        "title": "효성티앤씨 3분기 영업이익 1천102억원…작년 동기 대비 97%↑",
+        "link": "https://www.yna.co.kr/view/AKR20261030156700527",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-10-30 17:17:41",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "효성티앤씨 3분기 영업이익 1천102억원…작년 동기 대비 97%↑",
+          "link": "https://www.yna.co.kr/view/AKR20261030156700527",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-10-30 17:17:41",
+          "match_score": 37.67
+        },
+        {
+          "title": "HS효성첨단소재 3분기 영업이익 516억원…작년 대비 167%↑",
+          "link": "https://www.yna.co.kr/view/AKR20261030152200527",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-10-30 16:50:39",
+          "match_score": 37.67
+        },
+        {
+          "title": "DL이앤씨, 3분기 영업이익 1073억원...전년 대비 8.1% 감소",
+          "link": "https://www.mk.co.kr/news/realestate/12191649",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-30 16:30:22",
+          "match_score": 37.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "아파트",
+      "score": 39.0,
+      "article_count": 7,
+      "source_count": 4,
+      "categories": [
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "건설사도 해킹 피해…GS건설 일부 아파트 입주민 개인정보 유출(종합)",
+        "GS건설도 해킹 피해…일부 아파트 입주민 개인정보 유출",
+        "현대차그룹, 아파트 주차로봇 국내 첫 시연…50면 규모 실증"
+      ],
+      "llm_candidate": false,
+      "rank": 8,
+      "representative_article": {
+        "title": "GS건설도 해킹 피해…일부 아파트 입주민 개인정보 유출",
+        "link": "https://www.yna.co.kr/view/AKR20261030142700003",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-10-30 16:24:07",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "GS건설도 해킹 피해…일부 아파트 입주민 개인정보 유출",
+          "link": "https://www.yna.co.kr/view/AKR20261030142700003",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-10-30 16:24:07",
+          "match_score": 37.67
+        },
+        {
+          "title": "현대차그룹, 아파트 주차로봇 국내 첫 시연…50면 규모 실증",
+          "link": "https://www.etnews.com/20261030000116",
+          "source": "전자신문",
+          "published_dt": "2026-10-30 10:29:29",
+          "match_score": 37.49
+        },
+        {
+          "title": "은마아파트 480억 땅, 정태수 상속인 첫 승소",
+          "link": "https://www.mk.co.kr/news/realestate/12191652",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-30 16:34:31",
+          "match_score": 37.49
+        },
+        {
+          "title": "90주 연속 오른 서울 아파트값... 연내 분양 단지는",
+          "link": "https://www.mk.co.kr/news/realestate/12191275",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-10-30 10:24:31",
+          "match_score": 37.49
+        },
+        {
+          "title": "5년 만에 서울 아파트 분양가 2배…평당 5400만 원 - 문화일보",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE52UnRVX25SUTdqUXlhR3ZpYVhXaVdDM0lWbWxxTlZnRTg0LWx0MmY0N3JKVm9rSF9PeEkyRS01LXA2bElLOVRjMnN3c196OUg5?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-10-30 22:16:44",
+          "match_score": 36.96
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "삼성전자",
+      "score": 38.7,
+      "article_count": 6,
+      "source_count": 3,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "삼성전자, 삼성디스플레이 보유 중국 TCL CSOT 지분 전량 인수",
+        "[반도체 증시] 미 빅테크 AI 투자 우려 직격탄…삼성전자·SK하이닉스 3~7% 급락 - CBC뉴스",
+        "삼성전자, 삼성디스플레이 보유 중국 TCL CSOT 지분 전량 인수"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "삼성전자, 삼성디스플레이 보유 중국 TCL CSOT 지분 전량 인수",
+        "link": "https://www.yna.co.kr/view/AKR20261030148500003",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-10-30 16:39:35",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "삼성전자, 삼성디스플레이 보유 중국 TCL CSOT 지분 전량 인수",
+          "link": "https://www.yna.co.kr/view/AKR20261030148500003",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-10-30 16:39:35",
+          "match_score": 37.67
+        },
+        {
+          "title": "삼성전자, 삼성디스플레이 보유 중국 TCL CSOT 지분 전량 인수",
+          "link": "https://www.etnews.com/20261030000343",
+          "source": "전자신문",
+          "published_dt": "2026-10-30 17:59:58",
+          "match_score": 37.49
+        },
+        {
+          "title": "코스피, 美 빅테크 실적 충격에 3%대 급락…삼성전자 3%·SK하이닉스 7% 하락",
+          "link": "https://www.etnews.com/20261030000308",
+          "source": "전자신문",
+          "published_dt": "2026-10-30 16:17:31",
+          "match_score": 37.49
+        },
+        {
+          "title": "[반도체 증시] 미 빅테크 AI 투자 우려 직격탄…삼성전자·SK하이닉스 3~7% 급락 - CBC뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE01alFiMnE0UHpSVmdBcTJPeU5GQnVTWWhHaDJOSWl3ZExwYU84UTA0ZDFxalVNMU8tS01xbXBGY0RvRHVDUjd1LXFlQkNJZTFpRUJiTHJSdnZ1bTY4bzFoM2NMZFpkdWlS?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-10-31 00:00:00",
+          "match_score": 36.96
+        },
+        {
+          "title": "삼성전자, AI 주도권에 84조 베팅…시설투자 60% 늘린다 - 메디컬투데이",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE95cG9EaTdtd3VpT3lxbm84WGYyLUltSzFUa3ZTTGo2NzRLMjNVVXpwME02Z1IyWEtOWmJBdm16OXBTQ2txalNzNG1oOHBKcElKb216OUNDaDV1cDZVbVZPTTlwa055R1NCRXNkYg?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-10-30 11:14:26",
+          "match_score": 36.96
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "코스피",
+      "score": 27.3,
+      "article_count": 5,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "거래소, 코스피 상장사 공시담당자 워크숍 개최",
+        "코스피·코스닥, 美 기술주 삭풍에 3%대 급락 마감",
+        "효성티앤씨 3분기 영업이익 1천102억원…작년 동기 대비 97%↑"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "코스피·코스닥, 美 기술주 삭풍에 3%대 급락 마감",
+        "link": "https://www.yna.co.kr/view/AKR20261030131500008",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-10-30 15:35:56",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "코스피·코스닥, 美 기술주 삭풍에 3%대 급락 마감",
+          "link": "https://www.yna.co.kr/view/AKR20261030131500008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-10-30 15:35:56",
+          "match_score": 37.67
+        },
+        {
+          "title": "코스피, 美 빅테크 실적 충격에 3%대 급락…삼성전자 3%·SK하이닉스 7% 하락",
+          "link": "https://www.etnews.com/20261030000308",
+          "source": "전자신문",
+          "published_dt": "2026-10-30 16:17:31",
+          "match_score": 37.49
+        },
+        {
+          "title": "거래소, 코스피 상장사 공시담당자 워크숍 개최",
+          "link": "https://www.yna.co.kr/view/AKR20261030123400008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-10-30 15:06:42",
+          "match_score": 28.68
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}

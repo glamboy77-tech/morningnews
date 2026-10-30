@@ -1,0 +1,116 @@
+{
+  "timestamp": "2026-10-31T06:01:03.195600",
+  "date": "20261031",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "李대통령 \"토착비리, 분권토대 무너뜨려\"…국수본 단속성과 공유",
+          "link": "https://www.yna.co.kr/view/AKR20261030183700001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-30 22:33:36",
+          "description": "(서울=연합뉴스) 임형섭 기자 = 이재명 대통령은 30일 &quot;토착비리는 자치와 분권의 토대를 무너뜨리는 범죄&quot;라며 이를 근절하기 위해 힘써야 한다...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "image_url": "https://img.yna.co.kr/photo/yna/YH/2026/10/27/PYH2026102707960001300_P2.jpg",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "입법/정책",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李 “다문화가정 과잉 우대, 극우 선동 빌미 될 수 있어”",
+          "link": "https://www.chosun.com/politics/politics_general/2026/10/30/3CPCRCS35FAA7LQZDPVF4SE3N4/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-10-30 18:04:45",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "image_url": "https://www.chosun.com/resizer/v2/QNJYM7AEBNCGJMXVRF6XWORYNA.JPG?auth=ec21cbbb19aee93003eb4e8991b622b16824f73acbe507d48c316eb1069804fb&smart=true&width=3313&height=1864",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "정점식, 820조 예산안 정조준…“李대통령, 시정연설서 포퓰리즘 결별 선언해야”",
+          "link": "https://www.etnews.com/20261030000065",
+          "source": "전자신문",
+          "published_dt": "2026-10-30 09:51:21",
+          "description": "정점식 국민의힘 원내대표는 30일 내년도 예산안 심사를 앞두고 이재명 대통령을 향해 “미래 세대를 약탈하는 포퓰리즘 정책과의 결별을 선언해야 한다”고 요구했다. 정부가 추진하는 미래대응기금에 대해서는 “200조원 규모의 포퓰리즘 자유이용권”이라고 비판했다. 정 원내대표는 이날 국회에서 열린 국정감사대책회의에서 “다음 주 초 이재명 대통령의 국회 시정연설을 시작으로 11월 예산안 심사가 예정돼 있다”며 “현재 이재명 정부는 경제, 민생, 치안,",
+          "category": "domestic",
+          "feed_url": "https://rss.etnews.com/Section901.xml",
+          "image_url": "",
+          "source_type": "tech",
+          "source_weight": 1.15,
+          "source_badge": "테크",
+          "priority_score": 1,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "한국 대통령"
+    },
+    "김정은": {
+      "articles": [
+        {
+          "title": "김정은의 ‘드론 협박’… 스텔스 무인기 등 30종 공개",
+          "link": "https://www.chosun.com/politics/diplomacy-defense/2026/10/31/TAMOZPSKXJFG5LKFDBTK3ISLJA/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-10-31 00:56:00",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "image_url": "",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "北, 첫 드론전시회로 무인기 다종화 과시…스텔스 드론도 공개",
+          "link": "https://www.yna.co.kr/view/AKR20261030124900504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-30 15:36:33",
+          "description": "(서울=연합뉴스) 김효정 기자 = 북한이 김정은 국무위원장이 참석한 가운데 처음으로 무인기 전용 전시회를 개최하며 무인기 전력의 급속한 고도화·...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "image_url": "https://img.yna.co.kr/photo/yna/YH/2026/10/30/PYH2026103001110004200_P2.jpg",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "김정은, 무인기로 공개 협박... 보란듯 韓GP·美전차 때렸다",
+          "link": "https://www.chosun.com/politics/diplomacy-defense/2026/10/30/WGNL2R2O4BH25GBOORYXCWUNIE/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-10-30 10:40:51",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "image_url": "",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "북한 국무위원장"
+    }
+  }
+}
