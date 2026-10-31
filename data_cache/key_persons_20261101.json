@@ -1,0 +1,667 @@
+{
+  "timestamp": "2026-11-01T06:01:04.986499",
+  "date": "20261101",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "李대통령, 野 '순방' 비판에 \"링거 맞고 코피…그결과 성과차이\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261031028951001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-31 20:07:50",
+          "description": "(서울=연합뉴스) 설승은 기자 = 이재명 대통령은 31일 &quot;민생은 무너지는데 벌써 14차례 23개국을 순방했다&quot;는 야당의 비판을 겨냥해 &quot;부처 ...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "image_url": "https://img.yna.co.kr/photo/yna/YH/2026/09/27/PYH2026092700410001300_P2.jpg",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "deduped_sources": [
+            {
+              "source": "연합뉴스-경제",
+              "title": "李대통령, 野 '순방' 비판에 \"링거 맞고 코피…그결과 성과차이\"(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261031028951001"
+            }
+          ],
+          "priority_score": 3,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "李대통령, 野 '순방' 비판에 \"링거 맞고 코피…그결과 성과차이\"",
+              "link": "https://www.yna.co.kr/view/AKR20261031028900001"
+            }
+          ]
+        },
+        {
+          "title": "與 \"李대통령, 이주노동자·주민 인권 보호해와…진의 왜곡안돼\"",
+          "link": "https://www.yna.co.kr/view/AKR20261031028300001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-31 13:40:14",
+          "description": "(서울=연합뉴스) 최평천 기자 = 더불어민주당은 31일 이재명 대통령의 외국인 노동자·다문화 가정 관련 발언과 관련, 언론에 &quot;단편적 단어를 앞...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "image_url": "https://img.yna.co.kr/photo/yna/YH/2024/12/02/PYH2024120213850001300_P2.jpg",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 \"다문화 지원 필요한 건 맞지만 잘못된 부분은 시정\"",
+          "link": "https://www.yna.co.kr/view/AKR20261031023500001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-31 10:29:02",
+          "description": "(서울=연합뉴스) 설승은 기자 = 이재명 대통령은 31일 다문화 가족 지원 제도와 관련, &quot;다문화 가정 지원이 필요한 것 맞지만 그것이 다문화 ...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "image_url": "https://img.yna.co.kr/photo/yna/YH/2026/10/29/PYH2026102906640001300_P2.jpg",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "대선 때 李 도왔던 윤여준 “대통령, 과신의 시기 왔다”",
+          "link": "https://www.chosun.com/politics/2026/11/01/2C2XVBM6VNHD5OHUXY74OETHEU/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-11-01 05:00:00",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "image_url": "",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, 野 '순방' 비판에 \"링거 맞고 코피…그결과 성과차이\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261031028951001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-31 20:07:50",
+          "description": "(서울=연합뉴스) 설승은 기자 = 이재명 대통령은 31일 &quot;민생은 무너지는데 벌써 14차례 23개국을 순방했다&quot;는 야당의 비판을 겨냥해 &quot;부처 ...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "image_url": "https://img.yna.co.kr/photo/yna/YH/2026/09/27/PYH2026092700410001300_P2.jpg",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "deduped_sources": [
+            {
+              "source": "연합뉴스-경제",
+              "title": "李대통령, 野 '순방' 비판에 \"링거 맞고 코피…그결과 성과차이\"(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261031028951001"
+            }
+          ],
+          "priority_score": 3,
+          "related_full_sources": []
+        }
+      ],
+      "count": 5,
+      "role": "한국 대통령"
+    },
+    "진성준": {
+      "articles": [
+        {
+          "title": "국힘 \"진성준, 범죄경력 내고 겨우 美입국\"…與 \"반국익적 자해\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261031029151001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-31 15:08:53",
+          "description": "(서울=연합뉴스) 권희원 기자 = 여야는 31일 더불어민주당 소속의 진성준 국방위원장이 거부됐던 미국 비자를 뒤늦게 받은 것을 놓고 공방을 벌였...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "image_url": "https://img.yna.co.kr/photo/yna/YH/2026/10/26/PYH2026102602200001300_P2.jpg",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "국힘 \"진성준, 범죄경력 내고 겨우 美입국\"…與 \"반국익적 자해\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261031029151001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-31 15:08:53",
+          "description": "(서울=연합뉴스) 권희원 기자 = 여야는 31일 더불어민주당 소속의 진성준 국방위원장이 거부됐던 미국 비자를 뒤늦게 받은 것을 놓고 공방을 벌였...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "image_url": "https://img.yna.co.kr/photo/yna/YH/2026/10/26/PYH2026102602200001300_P2.jpg",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "진성준 국방위원장 美비자 발급... 오늘 하와이로",
+          "link": "https://www.chosun.com/politics/politics_general/2026/10/31/QRJDLEK3NJD65FRLG53JSESZYE/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-10-31 09:40:24",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "image_url": "",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "사법/의혹",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "'한때 거부' 與진성준, 美비자 결국 받아…예정대로 내일 美방문(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261031019851001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-31 11:08:40",
+          "description": "(서울=연합뉴스) 최평천 김효정 기자 = 더불어민주당 소속 국회 국방위원회 위원장인 진성준 의원이 우여곡절 끝에 미국 관용 비자를 31일 받았다...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "image_url": "https://img.yna.co.kr/photo/yna/YH/2026/10/15/PYH2026101508910005400_P2.jpg",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "related_full_sources": []
+        }
+      ],
+      "count": 4,
+      "role": "국회 국방위원장"
+    },
+    "샘 올트먼": {
+      "articles": [
+        {
+          "title": "삼성 사장단 50명 만난 알트먼 \"AI 활용 속도가 기업 경쟁력 결정\"",
+          "link": "https://www.aitimes.com/news/articleView.html?idxno=216852",
+          "source": "AI타임스",
+          "published_dt": "2026-11-01 14:10:51",
+          "description": "샘 알트먼 오픈AI CEO가 삼성그룹 주요 관계사 사장단 50여명과 만나 AI 시대의 경영 전략을 논의했다. 그는 단순히 AI를 도입하는 것만으로는 경쟁력을 확보하기 어렵다며, AI를 활용해 얼마나 빠르게 움직이고 더 나은 제품을 만드느냐가 기업의 경쟁력을 결정할 것이라고 강조했다. 삼성은 31일 경기도 용인 삼성인력개발원에서 알트먼 CEO를 초청해 'AI가 바꿀 다음 10년, 기업의 선택'을 주제로 간담회를 개최했다고 밝혔다. 이날 행사에는 전영현 삼성전자 반도체(DS) 부문장 부회장과 노태문 디바이스경험(DX) 부문장 사장 등",
+          "category": "domestic",
+          "feed_url": "https://www.aitimes.com/rss/allArticle.xml",
+          "image_url": "",
+          "source_type": "tech",
+          "source_weight": 1.15,
+          "source_badge": "테크",
+          "deduped_sources": [
+            {
+              "source": "AI타임스",
+              "title": "머스크, 놀란에 맞서 AI판 '오디세이' 공개…평가 엇갈려",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216851"
+            },
+            {
+              "source": "AI타임스",
+              "title": "알트먼 \"AI 수학 연구에 수억달러 투입…공개 안 한 성과도 많아\"",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216850"
+            },
+            {
+              "source": "AI타임스",
+              "title": "한국인 챗GPT 활용, 문서 편집 1위 유지…시각 자료 제작 1년 새 2배",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216834"
+            },
+            {
+              "source": "AI타임스",
+              "title": "구글, 우주 데이터센터 위성에서 첫 AI 추론 성공…시 생성해 지구 전송",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216837"
+            },
+            {
+              "source": "AI타임스",
+              "title": "구글, 인터넷 없이 작동하는 '제미나이 라이브' 개발 중",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216841"
+            },
+            {
+              "source": "AI타임스",
+              "title": "구글, 제미나이 채팅에서 문서·PDF 직접 편집 기능 추가",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216845"
+            },
+            {
+              "source": "AI타임스",
+              "title": "독일 엔비전, 유기 분자로 양자 컴퓨팅 칩 개발…OLED 제조 기술 활용",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216849"
+            },
+            {
+              "source": "AI타임스",
+              "title": "오픈AI, 청소년 챗GPT 무기 정보 제한...폭력 징후 땐 대화 중단",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216847"
+            },
+            {
+              "source": "AI타임스",
+              "title": "중국 GPU, 엔비디아 H200과 성능 대등 주장…AI 추론서 일부 앞서",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216844"
+            },
+            {
+              "source": "AI타임스",
+              "title": "[AI 이슈트렌드] 미·이란 전쟁 위기 1위…코스피 급락·구룡마을 화재 주목",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216848"
+            },
+            {
+              "source": "AI타임스",
+              "title": "엔비디아, 엔스케일 자금난에 지원 검토…앤트로픽 60조 데이터센터 신용 보증",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216838"
+            },
+            {
+              "source": "AI타임스",
+              "title": "앤트로픽, '20배 사용량' 혼선에 요금제 개편…5시간 제한 폐지",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216846"
+            },
+            {
+              "source": "AI타임스",
+              "title": "[내면 지도 그리기] 40 Inner Mapping: 나를 찾는 지도",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216839"
+            },
+            {
+              "source": "AI타임스",
+              "title": "[AI카툰] Bob, Senior IT guy - 밥, AI 수용 단계",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216842"
+            },
+            {
+              "source": "AI타임스",
+              "title": "구글, AI 검색에 광고 수익성 타격…시총 5000억달러 증발",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216843"
+            },
+            {
+              "source": "AI타임스",
+              "title": "AI 거품 붕괴 조짐에 미 기술주 급락…10월 시총 2조달러 증발",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216840"
+            },
+            {
+              "source": "AI타임스",
+              "title": "미국 메릴랜드, 태양광·ESS 보조금 입찰 시작…2년간 최대 2억달러 추진",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216801"
+            },
+            {
+              "source": "AI타임스",
+              "title": "순천, 불법 옥외광고물 정비…50여명 합동 캠페인",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216667"
+            },
+            {
+              "source": "AI타임스",
+              "title": "기후변화로 스웨덴 태양광 발전량 5% 증가 전망…봄철 적설 감소 영향",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216806"
+            },
+            {
+              "source": "AI타임스",
+              "title": "엔비디아, 네이버 3대 주주로…1.3조 다음 달 6일 납입",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216835"
+            },
+            {
+              "source": "AI타임스",
+              "title": "광양경자청, 2026 GFEZ 전문가그룹 간담회 개최",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216836"
+            },
+            {
+              "source": "AI타임스",
+              "title": "LG CNS, 3분기 매출 1.7조원…AI·클라우드 성장 견인",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216831"
+            },
+            {
+              "source": "AI타임스",
+              "title": "한국딥러닝, AI로 IBK기업은행 보이스피싱 업무 자동화",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216827"
+            },
+            {
+              "source": "AI타임스",
+              "title": "허깅페이스 오픈소스팀, 비드래프트 판단 AI 체험 데모 제작 기증",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216833"
+            },
+            {
+              "source": "AI타임스",
+              "title": "AI 신소재 나노포지에이아이, 146억 시드 투자 유치",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216829"
+            },
+            {
+              "source": "AI타임스",
+              "title": "[AI리더의 서가] 아파치 아이스버그 완벽 가이드",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216586"
+            },
+            {
+              "source": "AI타임스",
+              "title": "앤트로픽, '클로드' 자기 대화 감시 기술 도입…유해 사용 78% 탐지",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216824"
+            },
+            {
+              "source": "AI타임스",
+              "title": "오픈AI, 프로·기업용 AI 사용량 최대 2배 확대…연속 업데이트 막바지",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216823"
+            },
+            {
+              "source": "AI타임스",
+              "title": "앤트로픽, 스페이스X 매출 34.5% 차지…미 정부 넘어 최대 고객",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216822"
+            },
+            {
+              "source": "AI타임스",
+              "title": "미스트랄, '라지 4' 가중치 공개로 정식 출시…유럽 사이버보안 시장 공략",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216821"
+            },
+            {
+              "source": "AI타임스",
+              "title": "[10월29일] 자신을 AI로 복제한 '특이점' 예언자…'또 다른 나'는 나와 같은 인물인가",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216776"
+            },
+            {
+              "source": "AI타임스",
+              "title": "딥시크·문샷 AI, 앤트로픽 방어 강화로 'GPT-6 아스트라' 집중 증류",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216820"
+            },
+            {
+              "source": "AI타임스",
+              "title": "오픈AI, 에이전트 시대 맞춰 행동 원칙 개편…\"인간 의도 이해가 핵심\"",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216819"
+            },
+            {
+              "source": "AI타임스",
+              "title": "미 정보당국 \"젠슨 황과 접촉한 중국 사업가는 스파이\"…엔비디아 반박",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216818"
+            },
+            {
+              "source": "AI타임스",
+              "title": "앤트로픽, 1인 신약 개발사 인수...클로드로 직접 치료제 개발",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216778"
+            },
+            {
+              "source": "AI타임스",
+              "title": "AAII 평가 대폭 개편에 순위 변동…구글 1위·오픈AI 약진",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216802"
+            },
+            {
+              "source": "AI타임스",
+              "title": "엔비디아, 40개 언어 지원하는 음성 인식 AI 공개…오픈 모델 최고 정확도 달성",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216779"
+            },
+            {
+              "source": "AI타임스",
+              "title": "광주 20대, 수도권으로 순유출…전남에선 오히려 순유입",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216814"
+            },
+            {
+              "source": "AI타임스",
+              "title": "오픈AI, 연내 '챗GPT' 대화·업무 기능 통합…별도 모드 전환 없앤다",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216804"
+            }
+          ],
+          "priority_score": 6,
+          "pol_subcategory": "Science/Tech",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "삼성 사장단 50명 만난 알트먼 \"AI 활용 속도가 기업 경쟁력 결정\"",
+          "link": "https://www.aitimes.com/news/articleView.html?idxno=216852",
+          "source": "AI타임스",
+          "published_dt": "2026-11-01 14:10:51",
+          "description": "샘 알트먼 오픈AI CEO가 삼성그룹 주요 관계사 사장단 50여명과 만나 AI 시대의 경영 전략을 논의했다. 그는 단순히 AI를 도입하는 것만으로는 경쟁력을 확보하기 어렵다며, AI를 활용해 얼마나 빠르게 움직이고 더 나은 제품을 만드느냐가 기업의 경쟁력을 결정할 것이라고 강조했다. 삼성은 31일 경기도 용인 삼성인력개발원에서 알트먼 CEO를 초청해 'AI가 바꿀 다음 10년, 기업의 선택'을 주제로 간담회를 개최했다고 밝혔다. 이날 행사에는 전영현 삼성전자 반도체(DS) 부문장 부회장과 노태문 디바이스경험(DX) 부문장 사장 등",
+          "category": "domestic",
+          "feed_url": "https://www.aitimes.com/rss/allArticle.xml",
+          "image_url": "",
+          "source_type": "tech",
+          "source_weight": 1.15,
+          "source_badge": "테크",
+          "deduped_sources": [
+            {
+              "source": "AI타임스",
+              "title": "머스크, 놀란에 맞서 AI판 '오디세이' 공개…평가 엇갈려",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216851"
+            },
+            {
+              "source": "AI타임스",
+              "title": "알트먼 \"AI 수학 연구에 수억달러 투입…공개 안 한 성과도 많아\"",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216850"
+            },
+            {
+              "source": "AI타임스",
+              "title": "한국인 챗GPT 활용, 문서 편집 1위 유지…시각 자료 제작 1년 새 2배",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216834"
+            },
+            {
+              "source": "AI타임스",
+              "title": "구글, 우주 데이터센터 위성에서 첫 AI 추론 성공…시 생성해 지구 전송",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216837"
+            },
+            {
+              "source": "AI타임스",
+              "title": "구글, 인터넷 없이 작동하는 '제미나이 라이브' 개발 중",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216841"
+            },
+            {
+              "source": "AI타임스",
+              "title": "구글, 제미나이 채팅에서 문서·PDF 직접 편집 기능 추가",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216845"
+            },
+            {
+              "source": "AI타임스",
+              "title": "독일 엔비전, 유기 분자로 양자 컴퓨팅 칩 개발…OLED 제조 기술 활용",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216849"
+            },
+            {
+              "source": "AI타임스",
+              "title": "오픈AI, 청소년 챗GPT 무기 정보 제한...폭력 징후 땐 대화 중단",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216847"
+            },
+            {
+              "source": "AI타임스",
+              "title": "중국 GPU, 엔비디아 H200과 성능 대등 주장…AI 추론서 일부 앞서",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216844"
+            },
+            {
+              "source": "AI타임스",
+              "title": "[AI 이슈트렌드] 미·이란 전쟁 위기 1위…코스피 급락·구룡마을 화재 주목",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216848"
+            },
+            {
+              "source": "AI타임스",
+              "title": "엔비디아, 엔스케일 자금난에 지원 검토…앤트로픽 60조 데이터센터 신용 보증",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216838"
+            },
+            {
+              "source": "AI타임스",
+              "title": "앤트로픽, '20배 사용량' 혼선에 요금제 개편…5시간 제한 폐지",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216846"
+            },
+            {
+              "source": "AI타임스",
+              "title": "[내면 지도 그리기] 40 Inner Mapping: 나를 찾는 지도",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216839"
+            },
+            {
+              "source": "AI타임스",
+              "title": "[AI카툰] Bob, Senior IT guy - 밥, AI 수용 단계",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216842"
+            },
+            {
+              "source": "AI타임스",
+              "title": "구글, AI 검색에 광고 수익성 타격…시총 5000억달러 증발",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216843"
+            },
+            {
+              "source": "AI타임스",
+              "title": "AI 거품 붕괴 조짐에 미 기술주 급락…10월 시총 2조달러 증발",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216840"
+            },
+            {
+              "source": "AI타임스",
+              "title": "미국 메릴랜드, 태양광·ESS 보조금 입찰 시작…2년간 최대 2억달러 추진",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216801"
+            },
+            {
+              "source": "AI타임스",
+              "title": "순천, 불법 옥외광고물 정비…50여명 합동 캠페인",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216667"
+            },
+            {
+              "source": "AI타임스",
+              "title": "기후변화로 스웨덴 태양광 발전량 5% 증가 전망…봄철 적설 감소 영향",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216806"
+            },
+            {
+              "source": "AI타임스",
+              "title": "엔비디아, 네이버 3대 주주로…1.3조 다음 달 6일 납입",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216835"
+            },
+            {
+              "source": "AI타임스",
+              "title": "광양경자청, 2026 GFEZ 전문가그룹 간담회 개최",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216836"
+            },
+            {
+              "source": "AI타임스",
+              "title": "LG CNS, 3분기 매출 1.7조원…AI·클라우드 성장 견인",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216831"
+            },
+            {
+              "source": "AI타임스",
+              "title": "한국딥러닝, AI로 IBK기업은행 보이스피싱 업무 자동화",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216827"
+            },
+            {
+              "source": "AI타임스",
+              "title": "허깅페이스 오픈소스팀, 비드래프트 판단 AI 체험 데모 제작 기증",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216833"
+            },
+            {
+              "source": "AI타임스",
+              "title": "AI 신소재 나노포지에이아이, 146억 시드 투자 유치",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216829"
+            },
+            {
+              "source": "AI타임스",
+              "title": "[AI리더의 서가] 아파치 아이스버그 완벽 가이드",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216586"
+            },
+            {
+              "source": "AI타임스",
+              "title": "앤트로픽, '클로드' 자기 대화 감시 기술 도입…유해 사용 78% 탐지",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216824"
+            },
+            {
+              "source": "AI타임스",
+              "title": "오픈AI, 프로·기업용 AI 사용량 최대 2배 확대…연속 업데이트 막바지",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216823"
+            },
+            {
+              "source": "AI타임스",
+              "title": "앤트로픽, 스페이스X 매출 34.5% 차지…미 정부 넘어 최대 고객",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216822"
+            },
+            {
+              "source": "AI타임스",
+              "title": "미스트랄, '라지 4' 가중치 공개로 정식 출시…유럽 사이버보안 시장 공략",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216821"
+            },
+            {
+              "source": "AI타임스",
+              "title": "[10월29일] 자신을 AI로 복제한 '특이점' 예언자…'또 다른 나'는 나와 같은 인물인가",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216776"
+            },
+            {
+              "source": "AI타임스",
+              "title": "딥시크·문샷 AI, 앤트로픽 방어 강화로 'GPT-6 아스트라' 집중 증류",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216820"
+            },
+            {
+              "source": "AI타임스",
+              "title": "오픈AI, 에이전트 시대 맞춰 행동 원칙 개편…\"인간 의도 이해가 핵심\"",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216819"
+            },
+            {
+              "source": "AI타임스",
+              "title": "미 정보당국 \"젠슨 황과 접촉한 중국 사업가는 스파이\"…엔비디아 반박",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216818"
+            },
+            {
+              "source": "AI타임스",
+              "title": "앤트로픽, 1인 신약 개발사 인수...클로드로 직접 치료제 개발",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216778"
+            },
+            {
+              "source": "AI타임스",
+              "title": "AAII 평가 대폭 개편에 순위 변동…구글 1위·오픈AI 약진",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216802"
+            },
+            {
+              "source": "AI타임스",
+              "title": "엔비디아, 40개 언어 지원하는 음성 인식 AI 공개…오픈 모델 최고 정확도 달성",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216779"
+            },
+            {
+              "source": "AI타임스",
+              "title": "광주 20대, 수도권으로 순유출…전남에선 오히려 순유입",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216814"
+            },
+            {
+              "source": "AI타임스",
+              "title": "오픈AI, 연내 '챗GPT' 대화·업무 기능 통합…별도 모드 전환 없앤다",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=216804"
+            }
+          ],
+          "priority_score": 6,
+          "sector": "AI/로봇",
+          "related_full_sources": []
+        },
+        {
+          "title": "최태원 SK그룹 회장, 샘 올트먼과 오찬 회동",
+          "link": "https://www.chosun.com/economy/industry-company/2026/10/31/5YSITEOBVRGTTEXFU5DWVNHSQ4/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-10-31 16:41:40",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/economy/?outputType=xml",
+          "image_url": "",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "sector": "AI/로봇",
+          "related_full_sources": [
+            {
+              "source": "전자신문",
+              "title": "최태원 SK그룹 회장, 샘 올트먼과 오찬 회동…AI 협력 논의",
+              "link": "https://www.etnews.com/20261031000037"
+            },
+            {
+              "source": "조선일보-경제",
+              "title": "최태원 SK그룹 회장, 샘 올트먼과 오찬 회동…AI 협력 논의",
+              "link": "https://www.chosun.com/economy/industry-company/2026/10/31/GA4DMZLDGQ4WGNRXMY4DIZBQMQ/"
+            },
+            {
+              "source": "연합뉴스-산업",
+              "title": "최태원 SK그룹 회장, 샘 올트먼과 오찬 회동…AI 협력 주목",
+              "link": "https://www.yna.co.kr/view/AKR20261031034400003"
+            }
+          ]
+        },
+        {
+          "title": "미래의 키보드는 키가 달랑 13개?…샘 올트먼, 삼성에 들고 왔다",
+          "link": "https://www.donga.com/news/It/article/all/20261031/134942839/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-31 20:08:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/31/134942840.2.jpg\" vspace=\"10\" />샘 올트먼 오픈AI 최고경영자(CEO)가 31일 삼성 경영진에게 ‘13개의 버튼’이 있는 키보드를 선물했다. 이는 올해 7월 출시된 코덱스 전용 키보드로, 오픈AI의 첫 하드웨어 제품이다.올트먼 CEO는 이날 경기 용인 삼성인력개발원에서 삼성 계열사 사장단 50여 명과 ‘AI(인공지능)가 바꿀 다음 10년, 기업의 선택’을 주제로 대담했다. 그는 이 자리에서 “컴퓨터에 말로 지시하고 AI를 활용하는 세상에서는 키보드 전체가 필요하지 않을 수도 있다는 생각을 담았다”며 소형 키보드를 선물했다. ‘코덱스 마이크로’라고 불리는 이 키보드는 AI 에이전트 코딩 기능인 ‘코덱스’를 활용하는 작업 환경을 손쉽게 제어할 수 있다. 제품 가격은 230달러(약 30만7000원)이다. 키보드에는 기계식 스위치 13개와 터치 센서, 회전식 다이얼, 조이스틱 등이 달려있다. LED가 내장된 무광택 키 6개는 색상에 따라 AI 작업 상태를 보여준다. 대기 상태에서는 흰색, 작업 중에는 파란색, 완료된",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "image_url": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/31/134942840.2.jpg",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 4,
+      "role": "기업인"
+    }
+  }
+}

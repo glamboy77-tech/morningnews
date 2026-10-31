@@ -1,0 +1,394 @@
+{
+  "timestamp": "2026-11-01T06:01:09.872218",
+  "date": "20261101",
+  "data": [
+    {
+      "keyword": "AI활용",
+      "reason": "삼성, 알트먼 등 기업과 기술 관련 소식 반복",
+      "score": 18.49,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업",
+        "정치"
+      ],
+      "sample_titles": [
+        "삼성 사장단 50명 만난 알트먼 \"AI 활용 속도가 기업 경쟁력 결정\"",
+        "삼성 사장단 50명 만난 알트먼 \"AI 활용 속도가 기업 경쟁력 결정\""
+      ],
+      "representative_article": {
+        "title": "삼성 사장단 50명 만난 알트먼 \"AI 활용 속도가 기업 경쟁력 결정\"",
+        "link": "https://www.aitimes.com/news/articleView.html?idxno=216852",
+        "source": "AI타임스",
+        "published_dt": "2026-11-01 14:10:51",
+        "match_score": 18.49
+      },
+      "related_articles": [
+        {
+          "title": "삼성 사장단 50명 만난 알트먼 \"AI 활용 속도가 기업 경쟁력 결정\"",
+          "link": "https://www.aitimes.com/news/articleView.html?idxno=216852",
+          "source": "AI타임스",
+          "published_dt": "2026-11-01 14:10:51",
+          "match_score": 18.49
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "불법공매",
+      "reason": "금감원의 긴급 점검과 조사 소식 강조",
+      "score": 36.27,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "금감원 불법공매도 긴급점검…\"5개 안팎 종목 조사\""
+      ],
+      "representative_article": {
+        "title": "금감원 불법공매도 긴급점검…\"5개 안팎 종목 조사\"",
+        "link": "https://www.yna.co.kr/view/AKR20261031042800002",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-11-01 05:49:01",
+        "match_score": 36.27
+      },
+      "related_articles": [
+        {
+          "title": "금감원 불법공매도 긴급점검…\"5개 안팎 종목 조사\"",
+          "link": "https://www.yna.co.kr/view/AKR20261031042800002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-01 05:49:01",
+          "match_score": 36.27
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "한미일외교",
+      "reason": "비핵화 협력과 외교장관 회동 관련 보도 다수",
+      "score": 22.5,
+      "article_count": 3,
+      "source_count": 3,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "한미일 외교장관 \"한반도 비핵화 노력 지속\"…北 긴장완화 촉구(종합)",
+        "한미일 외교장관 \"한반도 비핵화 노력 지속\"…北 긴장완화 촉구(종합)",
+        "한미일 외교장관 회의… ‘北 비핵화’ 한목소리 냈다"
+      ],
+      "representative_article": {
+        "title": "한미일 외교장관 “北 완전한 비핵화 위한 확고한 의지 재확인”",
+        "link": "https://www.donga.com/news/Politics/article/all/20261031/134942530/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-10-31 10:57:00",
+        "match_score": 22.5
+      },
+      "related_articles": [
+        {
+          "title": "한미일 외교장관 “北 완전한 비핵화 위한 확고한 의지 재확인”",
+          "link": "https://www.donga.com/news/Politics/article/all/20261031/134942530/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-31 10:57:00",
+          "match_score": 22.5
+        },
+        {
+          "title": "한미일 외교장관 \"한반도 비핵화 노력 지속\"…北 긴장완화 촉구(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261031017251071",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-31 09:58:27",
+          "match_score": 18.88
+        },
+        {
+          "title": "한미일 외교장관 회의… ‘北 비핵화’ 한목소리 냈다",
+          "link": "https://www.chosun.com/politics/diplomacy-defense/2026/10/31/7BGG4KP5MRCTVBBJDA3KWJEPLY/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-10-31 10:12:19",
+          "match_score": 18.5
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재건축",
+      "reason": "쌍문한양1차 등 부동산 관련 현안 보도 집중",
+      "score": 40.71,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "′도봉 재건축 선발′ 쌍문한양1차, 현설 유찰…연내 시공사 선정 불투명 - 소셜밸류"
+      ],
+      "representative_article": {
+        "title": "′도봉 재건축 선발′ 쌍문한양1차, 현설 유찰…연내 시공사 선정 불투명 - 소셜밸류",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE55d0NTS3lobUlOeWpoc2dHX2xZdS1YZENHZWk1UzRWdkJvRFhkZTRib3czeUxvakN0VXNJeWpjTXhRRmlCdDlxV2JWekRvaW9ZMGhkbDZLNU40d2FiTVhPZFU2UdIBbEFVX3lxTE5HeFJGVnhxX2szQU55bHhNaGN3NjFZdjFyTGItVVRsUDNTLTM5LW1YZnRxLXpiQmxaTTVEZ09sN0RxSnQ4czhSRUVuQ0hDT01PaDZwRUtiV2pNLW5qcUxnNGE1ZGFnbmoxdEh3Mg?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-10-31 19:20:37",
+        "match_score": 40.71
+      },
+      "related_articles": [
+        {
+          "title": "′도봉 재건축 선발′ 쌍문한양1차, 현설 유찰…연내 시공사 선정 불투명 - 소셜밸류",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE55d0NTS3lobUlOeWpoc2dHX2xZdS1YZENHZWk1UzRWdkJvRFhkZTRib3czeUxvakN0VXNJeWpjTXhRRmlCdDlxV2JWekRvaW9ZMGhkbDZLNU40d2FiTVhPZFU2UdIBbEFVX3lxTE5HeFJGVnhxX2szQU55bHhNaGN3NjFZdjFyTGItVVRsUDNTLTM5LW1YZnRxLXpiQmxaTTVEZ09sN0RxSnQ4czhSRUVuQ0hDT01PaDZwRUtiV2pNLW5qcUxnNGE1ZGFnbmoxdEh3Mg?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-10-31 19:20:37",
+          "match_score": 40.71
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "세수예측",
+      "reason": "세수오차와 관련 법안 발의 소식 반복",
+      "score": 34.23,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "연 52조 세수오차 줄어들까…'세수예측 근거 밝혀라' 법안 발의"
+      ],
+      "representative_article": {
+        "title": "연 52조 세수오차 줄어들까…'세수예측 근거 밝혀라' 법안 발의",
+        "link": "https://www.yna.co.kr/view/AKR20261030186300002",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-11-01 05:55:01",
+        "match_score": 34.23
+      },
+      "related_articles": [
+        {
+          "title": "연 52조 세수오차 줄어들까…'세수예측 근거 밝혀라' 법안 발의",
+          "link": "https://www.yna.co.kr/view/AKR20261030186300002",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-11-01 05:55:01",
+          "match_score": 34.23
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "반도체",
+      "score": 26.4,
+      "article_count": 4,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업",
+        "정치"
+      ],
+      "sample_titles": [
+        "삼성 사장단 50명 만난 알트먼 \"AI 활용 속도가 기업 경쟁력 결정\"",
+        "반도체 훈풍 무색한 내수…소매판매 5분기만에 감소",
+        "삼성 사장단 50명 만난 알트먼 \"AI 활용 속도가 기업 경쟁력 결정\""
+      ],
+      "llm_candidate": false,
+      "rank": 6,
+      "representative_article": {
+        "title": "반도체 훈풍 무색한 내수…소매판매 5분기만에 감소",
+        "link": "https://www.yna.co.kr/view/AKR20261031028000002",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-11-01 05:52:05",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "반도체 훈풍 무색한 내수…소매판매 5분기만에 감소",
+          "link": "https://www.yna.co.kr/view/AKR20261031028000002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-01 05:52:05",
+          "match_score": 37.67
+        },
+        {
+          "title": "[반도체 라이징 스타]&lt;8&gt;코스모크, 차세대 메모리·센서 비파괴 분석…“제조라인 장비 개발 속도”",
+          "link": "https://www.etnews.com/20261030000209",
+          "source": "전자신문",
+          "published_dt": "2026-10-31 12:00:00",
+          "match_score": 37.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "외국인",
+      "score": 17.7,
+      "article_count": 3,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "부동산",
+        "정치"
+      ],
+      "sample_titles": [
+        "與 \"李대통령, 이주노동자·주민 인권 보호해와…진의 왜곡안돼\"",
+        "5700선에서 하락 멈춘 코스피...연기금 매수했지만 외국인은 여전히 ‘팔자’ - 세계일보",
+        "“지방은 줄줄이 하락하는데”…서울 오피스 임대료 19분기째 올랐다"
+      ],
+      "llm_candidate": false,
+      "rank": 7,
+      "representative_article": {
+        "title": "5700선에서 하락 멈춘 코스피...연기금 매수했지만 외국인은 여전히 ‘팔자’ - 세계일보",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1SR3FiTzVzUXhESnJkQ0tMNTZnZ1RRZXkxa1JMMWZtVUQtMVlzVlloQS02UEZZRFpsUHNpQlRUcTBpUkVxaTA5NHlKSldhaUJGdUdDX9IBVEFVX3lxTE1SR3FiTzVzUXhESnJkQ0tMNTZnZ1RRZXkxa1JMMWZtVUQtMVlzVlloQS02UEZZRFpsUHNpQlRUcTBpUkVxaTA5NHlKSldhaUJGdUdDXw?oc=5",
+        "source": "키워드-금리환율코스피",
+        "published_dt": "2026-11-01 04:53:07",
+        "match_score": 36.96
+      },
+      "related_articles": [
+        {
+          "title": "5700선에서 하락 멈춘 코스피...연기금 매수했지만 외국인은 여전히 ‘팔자’ - 세계일보",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1SR3FiTzVzUXhESnJkQ0tMNTZnZ1RRZXkxa1JMMWZtVUQtMVlzVlloQS02UEZZRFpsUHNpQlRUcTBpUkVxaTA5NHlKSldhaUJGdUdDX9IBVEFVX3lxTE1SR3FiTzVzUXhESnJkQ0tMNTZnZ1RRZXkxa1JMMWZtVUQtMVlzVlloQS02UEZZRFpsUHNpQlRUcTBpUkVxaTA5NHlKSldhaUJGdUdDXw?oc=5",
+          "source": "키워드-금리환율코스피",
+          "published_dt": "2026-11-01 04:53:07",
+          "match_score": 36.96
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "비핵화",
+      "score": 25.5,
+      "article_count": 3,
+      "source_count": 3,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "한미일 외교장관 \"한반도 비핵화 노력 지속\"…北 긴장완화 촉구(종합)",
+        "한미일 외교장관 \"한반도 비핵화 노력 지속\"…北 긴장완화 촉구(종합)",
+        "한미일 외교장관 회의… ‘北 비핵화’ 한목소리 냈다"
+      ],
+      "llm_candidate": false,
+      "rank": 8,
+      "representative_article": {
+        "title": "한미일 외교장관 \"한반도 비핵화 노력 지속\"…北 긴장완화 촉구(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261031017251071",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-10-31 09:58:27",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "한미일 외교장관 \"한반도 비핵화 노력 지속\"…北 긴장완화 촉구(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261031017251071",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-31 09:58:27",
+          "match_score": 37.67
+        },
+        {
+          "title": "한미일 외교장관 “北 완전한 비핵화 위한 확고한 의지 재확인”",
+          "link": "https://www.donga.com/news/Politics/article/all/20261031/134942530/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-31 10:57:00",
+          "match_score": 37.3
+        },
+        {
+          "title": "한미일 외교장관 회의… ‘北 비핵화’ 한목소리 냈다",
+          "link": "https://www.chosun.com/politics/diplomacy-defense/2026/10/31/7BGG4KP5MRCTVBBJDA3KWJEPLY/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-10-31 10:12:19",
+          "match_score": 28.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "외교장관",
+      "score": 25.5,
+      "article_count": 3,
+      "source_count": 3,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "한미일 외교장관 \"한반도 비핵화 노력 지속\"…北 긴장완화 촉구(종합)",
+        "한미일 외교장관 \"한반도 비핵화 노력 지속\"…北 긴장완화 촉구(종합)",
+        "한미일 외교장관 회의… ‘北 비핵화’ 한목소리 냈다"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "한미일 외교장관 \"한반도 비핵화 노력 지속\"…北 긴장완화 촉구(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261031017251071",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-10-31 09:58:27",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "한미일 외교장관 \"한반도 비핵화 노력 지속\"…北 긴장완화 촉구(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261031017251071",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-10-31 09:58:27",
+          "match_score": 37.67
+        },
+        {
+          "title": "한미일 외교장관 “北 완전한 비핵화 위한 확고한 의지 재확인”",
+          "link": "https://www.donga.com/news/Politics/article/all/20261031/134942530/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-10-31 10:57:00",
+          "match_score": 37.3
+        },
+        {
+          "title": "한미일 외교장관 회의… ‘北 비핵화’ 한목소리 냈다",
+          "link": "https://www.chosun.com/politics/diplomacy-defense/2026/10/31/7BGG4KP5MRCTVBBJDA3KWJEPLY/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-10-31 10:12:19",
+          "match_score": 28.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "사장단",
+      "score": 17.8,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "국제",
+        "기업/산업",
+        "정치"
+      ],
+      "sample_titles": [
+        "삼성 사장단 50명 만난 알트먼 \"AI 활용 속도가 기업 경쟁력 결정\"",
+        "삼성 사장단 50명 만난 알트먼 \"AI 활용 속도가 기업 경쟁력 결정\"",
+        "미래의 키보드는 키가 달랑 13개?…샘 올트먼, 삼성에 들고 왔다"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "삼성 사장단 50명 만난 알트먼 \"AI 활용 속도가 기업 경쟁력 결정\"",
+        "link": "https://www.aitimes.com/news/articleView.html?idxno=216852",
+        "source": "AI타임스",
+        "published_dt": "2026-11-01 14:10:51",
+        "match_score": 39.09
+      },
+      "related_articles": [
+        {
+          "title": "삼성 사장단 50명 만난 알트먼 \"AI 활용 속도가 기업 경쟁력 결정\"",
+          "link": "https://www.aitimes.com/news/articleView.html?idxno=216852",
+          "source": "AI타임스",
+          "published_dt": "2026-11-01 14:10:51",
+          "match_score": 39.09
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
