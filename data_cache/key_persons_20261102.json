@@ -1,0 +1,195 @@
+{
+  "timestamp": "2026-11-02T06:01:01.886476",
+  "date": "20261102",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "李대통령, 오늘 '821조' 내년예산 직접 설명…시정연설",
+          "link": "https://www.yna.co.kr/view/AKR20261101044100001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-11-02 05:00:01",
+          "description": "(서울=연합뉴스) 황윤기 기자 = 이재명 대통령은 2일 정부의 2027년도 예산안을 설명하고 국회 통과를 요청하는 시정연설에 나선다.",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "image_url": "https://img.yna.co.kr/photo/yna/YH/2026/10/29/PYH2026102921340001300_P2.jpg",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "입법/정책",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "에르도안 튀르키예 대통령 국빈방한…3일 李대통령과 정상회담",
+          "link": "https://www.yna.co.kr/view/AKR20261101041900001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-11-01 18:26:13",
+          "description": "(서울=연합뉴스) 고동욱 기자 = 레제프 타이이프 에르도안 튀르키예 대통령이 오는 2∼4일 한국을 국빈 방문, 이재명 대통령과 정상회담을 갖는다...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "image_url": "https://img.yna.co.kr/photo/yna/YH/2025/11/25/PYH2025112510220001300_P2.jpg",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 \"다문화가정 지원 일부 문제 시정하는 게 차별은 아냐\"",
+          "link": "https://www.yna.co.kr/view/AKR20261101032800001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-11-01 15:57:02",
+          "description": "(서울=연합뉴스) 고동욱 기자 = 이재명 대통령은 1일 &quot;다문화가정 지원 정책 일부에 납득하기 어려운 문제가 있다는 목소리에 귀 기울이고, 문제...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "image_url": "https://img.yna.co.kr/photo/yna/YH/2026/10/28/PYH2026102816190001300_P2.jpg",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "李대통령 \"다문화가정 지원 일부 문제 시정하는 게 차별은 아냐\"(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261101032851001"
+            }
+          ]
+        },
+        {
+          "title": "李대통령, 수출 9천억弗 돌파에 \"국익외교로 경제영토 더 확장\"",
+          "link": "https://www.yna.co.kr/view/AKR20261101022300001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-11-01 11:33:51",
+          "description": "(서울=연합뉴스) 고동욱 기자 = 이재명 대통령은 1일 한국의 올해 수출액이 사상 처음으로 9천억 달러를 돌파했다는 소식에 &quot;100억 달러 수출...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "image_url": "https://img.yna.co.kr/photo/yna/YH/2026/06/30/PYH2026063015690001300_P2.jpg",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "deduped_sources": [
+            {
+              "source": "연합뉴스-경제",
+              "title": "李대통령, 수출 9천억弗 돌파에 \"국익외교로 경제영토 더 확장\"",
+              "link": "https://www.yna.co.kr/view/AKR20261101022300001"
+            },
+            {
+              "source": "연합뉴스-산업",
+              "title": "李대통령, 수출 9천억弗 돌파에 \"국익외교로 경제영토 더 확장\"",
+              "link": "https://www.yna.co.kr/view/AKR20261101022300001"
+            }
+          ],
+          "priority_score": 4,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "‘820조 예산’ 필요성 직접 설명…李대통령, 2일 국회서 네번째 시정연설",
+          "link": "https://www.mk.co.kr/news/economy/12192668",
+          "source": "매일경제-경제",
+          "published_dt": "2026-11-01 14:34:48",
+          "description": "SNS에 올 수출 9천억불 돌파 축하 “국익외교로 경제영토 확장 돕겠다”이재명 대통령이 오는 2일 정부의 2027년도 예산안과 관련해 국회에서 시정연설을 한다고 강유정 청와대 수석..",
+          "category": "domestic",
+          "feed_url": "https://www.mk.co.kr/rss/30100041/",
+          "image_url": "https://pimg.mk.co.kr/news/cms/202611/01/news-p.v1.20261101.dd1a32dc2bf94168929e5f4a3853ecd8_R.png",
+          "source_type": "economy",
+          "source_weight": 1.2,
+          "source_badge": "경제",
+          "priority_score": 2,
+          "related_full_sources": []
+        },
+        {
+          "title": "日 APL 찾은 이재용, AI승부처 '첨단 패키징' 챙겼다…소부장 협력 논의",
+          "link": "https://www.etnews.com/20261101000090",
+          "source": "전자신문",
+          "published_dt": "2026-11-01 16:10:41",
+          "description": "이재용 삼성전자 회장이 일본 요코하마 첨단 반도체 패키징 연구거점을 직접 찾았다. AI 반도체 경쟁 승부처로 떠오른 첨단 패키징 기술 확보 상황을 챙기고, 일본 소재·부품·장비(소부장) 생태계와 협력 확대를 모색하기 위한 행보다. 삼성전자는 이 회장이 1일 요코하마 '어드밴스트 패키지 랩(APL)'을 방문해 차세대 패키징 요소기술 연구 현황을 점검했다고 밝혔다. 9월 8일 공식 개소한 이후 약 두 달 만에 이뤄진 첫 현장 경영이다. 이 회장은",
+          "category": "domestic",
+          "feed_url": "https://rss.etnews.com/Section901.xml",
+          "image_url": "",
+          "source_type": "tech",
+          "source_weight": 1.15,
+          "source_badge": "테크",
+          "priority_score": 1,
+          "sector": "반도체",
+          "related_full_sources": []
+        }
+      ],
+      "count": 6,
+      "role": "한국 대통령"
+    },
+    "트럼프": {
+      "articles": [
+        {
+          "title": "美 “北이 바이낸스 해킹”… 트럼프 “北 확인땐 대화”",
+          "link": "https://www.donga.com/news/Inter/article/all/20261102/134947245/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-02 04:30:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/02/134947491.1.jpg\" vspace=\"10\" />미국 연방수사국(FBI)이 세계 최대 가상자산 거래소 바이낸스에서 발생한 8조 원대 자산 탈취 사건의 배후로 북한 해킹 조직을 공식 지목했다. 이번 사건은 역대 최대 규모의 가상자산 관련 해킹으로 평가되며, 북한 해커들은 거래소 시스템에 침투해 약 20분 만에 수십억 달러를 빼돌린 것으로 나타났다. 이런 가운데 도널드 트럼프 미국 대통령은 이번 사건이 북한 소행인 것으로 확인되면 “북한과 이에 대해 이야기할 것”이라고 밝혔다. 북한의 소행으로 확인돼도 직접 대화할 수 있단 뜻으로, 북-미 대화 가능성을 염두에 두고 외교적 대응의 여지를 남긴 것이란 해석도 나온다. FBI는 지난달 31일(현지 시간) 성명을 통해 같은 달 29일 발생한 약 63억 달러(약 8조4000억 원) 규모의 바이낸스 해킹 사건이 북한 해킹 조직 ‘트레이더트레이터(TraderTraitor)’의 소행이라고 밝혔다. 트레이더트레이터는 북한의 대남·해외 첩보 수집과 비밀 공작, 사이버 공격 등을 담당하는 군사 정보기",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "image_url": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/02/134947491.1.jpg",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "美 민주 완승땐 태양광-ESS산업 탄력… 공화 승리땐 마스가 속도 기대",
+          "link": "https://www.donga.com/news/Economy/article/all/20261102/134946943/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-02 04:30:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/02/134947400.1.jpg\" vspace=\"10\" />미국의 중간선거 날짜가 다가오면서 국내 산업계가 결과에 촉각을 곤두세우고 있다. 3일(현지 시간) 치러지는 중간선거 결과에 따라 관세 부과, 세액공제 혜택 등 다양한 대외 산업 정책에 변화가 예상되기 때문이다. 특히 인공지능(AI) 데이터센터 규제 강화를 주장하는 민주당이 상하원에서 모두 다수당을 탈환하는, 이른바 ‘블루 웨이브’가 실현되면 AI 산업 전반에 미칠 영향이 커질 것이란 분석이 나온다.  1일 재계에 따르면 미국 예측 플랫폼 폴리마켓 등은 민주당이 상하원에서 모두 과반을 차지할 가능성을 60% 이상으로 예측하고 있다. 이런 예측이 현실화되면 기장 큰 영향을 받을 것으로 예상되는 분야는 빅테크와 AI 산업이 꼽힌다. 지난달 로이터통신이 여론조사기관 입소스와 함께 진행한 여론조사 결과에 따르면 민주당 지지층의 약 80%가 AI 규제 강화에 찬성하고 있다. AI 데이터센터 폭증에 따른 전기 요금 상승과 지역 환경 문제에 대한 반발이 커진 데 따른 결과다. 앞서 공화당도 빅",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "image_url": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/02/134947400.1.jpg",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "美 사전투표 5100만명 최다… 트럼프 찍었던 청년층 ‘변심’ 변수로",
+          "link": "https://www.donga.com/news/Inter/article/all/20261102/134946945/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-02 04:30:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/02/134945482.4.jpg\" vspace=\"10\" />3일 치러지는 미국 중간선거의 사전투표자가 5100만 명을 넘어서며 역대 중간선거 기준 최고 기록을 세웠다. 25개 주에서 사전투표자 중 민주당 지지층 비율이 공화당보다 약 14%포인트 높은 것으로 조사돼 도널드 트럼프 행정부에 대한 심판론이 영향을 미친 것 아니냐는 분석이 나온다. 하지만 전통적으로 현장투표를 선호하는 공화당 지지층에 비해, 민주당 지지층의 사전투표 비율이 높았던 점에서 결과를 예단하긴 이르다는 분석이 나온다. 이런 가운데 트럼프 대통령은 당초 취소하려 했던 캔자스주와 아이오와주의 주말 현장 유세를 강행하기로 하는 등 막판 총력전에 나섰다. CNN은 “트럼프가 (초박빙인) 해당 선거구에 대해 우려하고 있다는 걸 보여준다”고 진단했다. 트럼프 대통령은 지난달 30일 플로리다주 유세 연설에서 “(선거 승리를 위해) 개같이 일하고 있다(working like a dog)”며 “28일 연속으로 이런 일을 하는 건 정말 힘들다. 목소리가 49.2%밖에 나오지 않는다”고 주",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "image_url": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/02/134945482.4.jpg",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프 “이란 군사력 대부분 무력화…‘곡괭이산’ 10분이면 타격”",
+          "link": "https://www.donga.com/news/Inter/article/all/20261101/134943982/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-01 12:45:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/27/134918092.1.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령이 이란의 군사력과 핵 프로그램 대부분을 성공적으로 무력화했다고 선언하며, 지하 핵시설로 의심되는 ‘곡괭이산(Pickaxe Mountain)’ 등 잔여 시설에 대한 추가 군사 타격 가능성을 내비쳤다.AFP 통신 등에 따르면 트럼프 대통령은 31일(현지 시간) 미국 플로리다주 마러라고 자택에서 취재진과 만나 “우리는 이란의 핵 프로그램을 무력화했다”며 “아직 한두 곳 정도는 처리해야 한다고 생각하지만, 그 일은 10분이면 할 수 있다”고 말했다.특히 트럼프 대통령은 이란의 지하 핵시설이 위치한 것으로 의심받는 ‘곡괭이산’을 직접 명시하며 “곡괭이산을 살펴볼 수 있을 것이며, 그곳은 반드시 처리해야 한다. 우리는 그 모든 일을 아주 신속하게 처리할 수 있다”고 강조했다.이어 이란과의 물밑 협상 상황에 대해서는 “순조롭게 진행되고 있지만, 알다시피 그들은 그다지 믿을 만하지 않다”고 했다. 트럼프 대통령은 앞서 이달 23일 플로리다주 유세에서도 대이란 군사",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "image_url": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/27/134918092.1.jpg",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 4,
+      "role": "미국 대통령"
+    }
+  }
+}

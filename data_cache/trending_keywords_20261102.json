@@ -1,0 +1,416 @@
+{
+  "timestamp": "2026-11-02T06:01:06.955134",
+  "date": "20261102",
+  "data": [
+    {
+      "keyword": "내년예산",
+      "reason": "이대통령 예산 시정연설 및 821조 규모 예산 관련",
+      "score": 33.88,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "정치"
+      ],
+      "sample_titles": [
+        "李대통령, 오늘 '821조' 내년예산 직접 설명…시정연설"
+      ],
+      "representative_article": {
+        "title": "李대통령, 오늘 '821조' 내년예산 직접 설명…시정연설",
+        "link": "https://www.yna.co.kr/view/AKR20261101044100001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-11-02 05:00:01",
+        "match_score": 33.88
+      },
+      "related_articles": [
+        {
+          "title": "李대통령, 오늘 '821조' 내년예산 직접 설명…시정연설",
+          "link": "https://www.yna.co.kr/view/AKR20261101044100001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-11-02 05:00:01",
+          "match_score": 33.88
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재개발",
+      "reason": "현대건설 용산 한강로 재개발 수주 및 부동산 이슈",
+      "score": 43.5,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "서울 용산 한강로 재개발…현대건설, 6천억에 수주",
+        "현대건설, 용산 한강로구역 재개발 5990억에 수주"
+      ],
+      "representative_article": {
+        "title": "서울 용산 한강로 재개발…현대건설, 6천억에 수주",
+        "link": "https://www.mk.co.kr/news/realestate/12192821",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-11-01 16:52:31",
+        "match_score": 43.5
+      },
+      "related_articles": [
+        {
+          "title": "서울 용산 한강로 재개발…현대건설, 6천억에 수주",
+          "link": "https://www.mk.co.kr/news/realestate/12192821",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-01 16:52:31",
+          "match_score": 43.5
+        },
+        {
+          "title": "현대건설, 용산 한강로구역 재개발 5990억에 수주",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/11/01/2026110100880.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-11-01 14:18:00",
+          "match_score": 43.5
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "바이낸스해킹",
+      "reason": "북한 연계 바이낸스 해킹 및 국제적 해킹 사건",
+      "score": 23.1,
+      "article_count": 3,
+      "source_count": 2,
+      "categories": [
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "63억달러 바이낸스 해킹 北 소행 확인…피해 자산 95% 보충",
+        "바이낸스 해킹 후 4.9조원 순유출…전체 관리 자산의 2.1%",
+        "美 “北이 바이낸스 해킹”… 트럼프 “北 확인땐 대화”"
+      ],
+      "representative_article": {
+        "title": "美 “北이 바이낸스 해킹”… 트럼프 “北 확인땐 대화”",
+        "link": "https://www.donga.com/news/Inter/article/all/20261102/134947245/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-11-02 04:30:00",
+        "match_score": 23.1
+      },
+      "related_articles": [
+        {
+          "title": "美 “北이 바이낸스 해킹”… 트럼프 “北 확인땐 대화”",
+          "link": "https://www.donga.com/news/Inter/article/all/20261102/134947245/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-02 04:30:00",
+          "match_score": 23.1
+        },
+        {
+          "title": "63억달러 바이낸스 해킹 北 소행 확인…피해 자산 95% 보충",
+          "link": "https://www.etnews.com/20261101000096",
+          "source": "전자신문",
+          "published_dt": "2026-11-01 15:17:27",
+          "match_score": 19.59
+        },
+        {
+          "title": "바이낸스 해킹 후 4.9조원 순유출…전체 관리 자산의 2.1%",
+          "link": "https://www.donga.com/news/Inter/article/all/20261102/134947535/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-02 03:40:46",
+          "match_score": 19.1
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "반도체",
+      "score": 46.4,
+      "article_count": 8,
+      "source_count": 6,
+      "categories": [
+        "경제/거시",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "“주변에 큰돈 벌었단 얘기 들리는데”…중산층 10명 중 4명 되레 소득 줄어",
+        "한국 수출 '꿈의 1조달러' 달성 초읽기",
+        "광주 반도체팹 속도 … 환경평가 기간 절반 단축"
+      ],
+      "llm_candidate": false,
+      "rank": 4,
+      "representative_article": {
+        "title": "비아트론, 소부장 으뜸기업 선정...\"120억원 규모 반도체 장비 개발\"",
+        "link": "https://zdnet.co.kr/view/?no=20261101230401",
+        "source": "ZDNetKorea",
+        "published_dt": "2026-11-01 23:06:55",
+        "match_score": 38.09
+      },
+      "related_articles": [
+        {
+          "title": "비아트론, 소부장 으뜸기업 선정...\"120억원 규모 반도체 장비 개발\"",
+          "link": "https://zdnet.co.kr/view/?no=20261101230401",
+          "source": "ZDNetKorea",
+          "published_dt": "2026-11-01 23:06:55",
+          "match_score": 38.09
+        },
+        {
+          "title": "광주 반도체팹 속도 … 환경평가 기간 절반 단축",
+          "link": "https://www.mk.co.kr/news/economy/12192938",
+          "source": "매일경제-경제",
+          "published_dt": "2026-11-01 17:36:52",
+          "match_score": 37.66
+        },
+        {
+          "title": "800조 반도체 '훈풍'에도 광주 집값 '미풍'",
+          "link": "https://www.mk.co.kr/news/realestate/12192820",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-01 16:52:31",
+          "match_score": 37.49
+        },
+        {
+          "title": "샘 올트먼, 삼성·SK 연쇄 회동… AI·반도체 협력 확대 - IT조선",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5naWdJZTVWeUhlMWFYY0lYem9LSHJFaG1mUjNINFFSd0puRFBZdDBlbzY3UTRRdEpreEFjQVZKV01XUDdvaXNFY0NLWnN0X2NCaG5wQS11emlyVkpKTFU1YllENl9tV2NrUjJoNVNsamzSAXRBVV95cUxQWkdVd1JpR3JRbUhDekdsZFFyQzd3ZVV5aE13NFdyS0pCYUhNUFE2aXJrZkpPQjZQR1ZoRGtPZGJkQm9CMFZLLTJKaWlZd0k4a2hXYUh1RDJjOGlJUTFoVGFQQkxuUUM1UDBPRG52dHVBTV9mcg?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-11-01 14:33:32",
+          "match_score": 36.96
+        },
+        {
+          "title": "AI 투자에 현금 마른 빅테크… 美 반도체주 ‘추락’",
+          "link": "https://www.chosun.com/economy/tech_it/2026/11/02/DQOIVLXGHFGOZGFQIY3SQ3CQJU/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-11-02 00:31:00",
+          "match_score": 28.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "나온다",
+      "score": 25.3,
+      "article_count": 6,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "총량규제 안받는 '사잇돌대출' 나온다",
+        "399달러 오리 로봇만이 아니다…저가형 피지컬AI 로봇 잇단 등장",
+        "美 “北이 바이낸스 해킹”… 트럼프 “北 확인땐 대화”"
+      ],
+      "llm_candidate": false,
+      "rank": 5,
+      "representative_article": {
+        "title": "총량규제 안받는 '사잇돌대출' 나온다",
+        "link": "https://www.mk.co.kr/news/economy/12192934",
+        "source": "매일경제-경제",
+        "published_dt": "2026-11-01 17:36:50",
+        "match_score": 28.66
+      },
+      "related_articles": [
+        {
+          "title": "총량규제 안받는 '사잇돌대출' 나온다",
+          "link": "https://www.mk.co.kr/news/economy/12192934",
+          "source": "매일경제-경제",
+          "published_dt": "2026-11-01 17:36:50",
+          "match_score": 28.66
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "시스템",
+      "score": 25.1,
+      "article_count": 5,
+      "source_count": 5,
+      "categories": [
+        "국제",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "딥시크, 코딩 '슈퍼 에이전트' 공개…6개월 만에 추격 기반 구축",
+        "금융 연계 시스템 취약점 점검 자동화…관리 공백 줄여야",
+        "용산구 용산롯데캐슬센터포레 59.79㎡ 21억 9천만원… 최근 3년 신고가 [MAI부동산]"
+      ],
+      "llm_candidate": false,
+      "rank": 6,
+      "representative_article": {
+        "title": "금융 연계 시스템 취약점 점검 자동화…관리 공백 줄여야",
+        "link": "https://www.etnews.com/20261101000061",
+        "source": "전자신문",
+        "published_dt": "2026-11-01 16:00:00",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "금융 연계 시스템 취약점 점검 자동화…관리 공백 줄여야",
+          "link": "https://www.etnews.com/20261101000061",
+          "source": "전자신문",
+          "published_dt": "2026-11-01 16:00:00",
+          "match_score": 37.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "플랫폼",
+      "score": 25.4,
+      "article_count": 5,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "학교 밖 청소년 전용 온라인 플랫폼 '유스캠퍼스' 개설",
+        "비아트론, 소부장 으뜸기업 선정...\"120억원 규모 반도체 장비 개발\"",
+        "분양가 20년간 나눠서 내면 이득이라고?...광교 ‘지분적립형 아파트’, GH가 보증금·월세도 따로 받는다"
+      ],
+      "llm_candidate": false,
+      "rank": 7,
+      "representative_article": {
+        "title": "학교 밖 청소년 전용 온라인 플랫폼 '유스캠퍼스' 개설",
+        "link": "https://www.yna.co.kr/view/AKR20261101013900003",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-11-01 11:00:01",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "학교 밖 청소년 전용 온라인 플랫폼 '유스캠퍼스' 개설",
+          "link": "https://www.yna.co.kr/view/AKR20261101013900003",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-01 11:00:01",
+          "match_score": 37.67
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "서울시",
+      "score": 26.4,
+      "article_count": 5,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "서울시 '청년 쿡 센터' 참여기업 모집…스타트업 40곳 지원",
+        "서울시 \"김장 재료 최대 반값 할인\"…깐마늘·쪽파 등 6종",
+        "연구실 로봇, 든든한 동반자로"
+      ],
+      "llm_candidate": false,
+      "rank": 8,
+      "representative_article": {
+        "title": "서울시 '청년 쿡 센터' 참여기업 모집…스타트업 40곳 지원",
+        "link": "https://www.yna.co.kr/view/AKR20261031033600004",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-11-01 11:15:01",
+        "match_score": 37.83
+      },
+      "related_articles": [
+        {
+          "title": "서울시 '청년 쿡 센터' 참여기업 모집…스타트업 40곳 지원",
+          "link": "https://www.yna.co.kr/view/AKR20261031033600004",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-01 11:15:01",
+          "match_score": 37.83
+        },
+        {
+          "title": "서울시 \"김장 재료 최대 반값 할인\"…깐마늘·쪽파 등 6종",
+          "link": "https://www.yna.co.kr/view/AKR20261031031500004",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-01 11:15:03",
+          "match_score": 32.83
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "아파트",
+      "score": 23.0,
+      "article_count": 5,
+      "source_count": 2,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "\"신축 전세도 현금부자만\"… 대출규제 역설",
+        "분양가 20년간 나눠서 내면 이득이라고?...광교 ‘지분적립형 아파트’, GH가 보증금·월세도 따로 받는다",
+        "800조 반도체 '훈풍'에도 광주 집값 '미풍'"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "분양가 20년간 나눠서 내면 이득이라고?...광교 ‘지분적립형 아파트’, GH가 보증금·월세도 따로 받는다",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/11/01/2026110101135.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-11-01 16:15:17",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "분양가 20년간 나눠서 내면 이득이라고?...광교 ‘지분적립형 아파트’, GH가 보증금·월세도 따로 받는다",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/11/01/2026110101135.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-11-01 16:15:17",
+          "match_score": 37.49
+        },
+        {
+          "title": "남양주 다산동 '힐스테이트다산' 최저 6.4억… 경기 아파트 추천 경매",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/11/01/2026110100335.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-11-01 09:01:38",
+          "match_score": 37.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "새로운",
+      "score": 22.6,
+      "article_count": 4,
+      "source_count": 4,
+      "categories": [
+        "국제",
+        "기업/산업",
+        "부동산",
+        "테크"
+      ],
+      "sample_titles": [
+        "딥시크, 코딩 '슈퍼 에이전트' 공개…6개월 만에 추격 기반 구축",
+        "서울 남쪽 관문 석수역 중앙철재종합상가, 주거·상업 복합거점으로 재탄생",
+        "바이낸스 해킹 후 4.9조원 순유출…전체 관리 자산의 2.1%"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "오젬픽, 체중감량 뒤에 숨겨진 새로운 위험들 - 사이언스타임즈",
+        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaHJiVnJpc3FDTTNuMG9kLTFfR080cHYxblBZQUN2MG41V0l5OU1Bb2U4TXQ2dWs0MUVlWlh3LWZCVFhVd1J2blVWdkpsS3NRQzBpaFM2SVpQSmlRTHJXUVdPblF6WnVmRzZONG41QWtrNExPc2JLRjFsTVpsWVVScEhXWlV3RjJ3MlphRHdoNA?oc=5",
+        "source": "사이언스타임즈",
+        "published_dt": "2026-01-23 17:00:00",
+        "match_score": 37.34
+      },
+      "related_articles": [
+        {
+          "title": "오젬픽, 체중감량 뒤에 숨겨진 새로운 위험들 - 사이언스타임즈",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaHJiVnJpc3FDTTNuMG9kLTFfR080cHYxblBZQUN2MG41V0l5OU1Bb2U4TXQ2dWs0MUVlWlh3LWZCVFhVd1J2blVWdkpsS3NRQzBpaFM2SVpQSmlRTHJXUVdPblF6WnVmRzZONG41QWtrNExPc2JLRjFsTVpsWVVScEhXWlV3RjJ3MlphRHdoNA?oc=5",
+          "source": "사이언스타임즈",
+          "published_dt": "2026-01-23 17:00:00",
+          "match_score": 37.34
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
