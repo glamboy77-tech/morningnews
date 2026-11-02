@@ -1,0 +1,463 @@
+{
+  "timestamp": "2026-11-03T06:01:31.325596",
+  "date": "20261103",
+  "data": [
+    {
+      "keyword": "정상회담",
+      "reason": "한-튀르키예 정상회담과 중동 정세 논의",
+      "score": 44.08,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "李대통령, 오늘 튀르키예 대통령과 정상회담…중동 정세 논의"
+      ],
+      "representative_article": {
+        "title": "李대통령, 오늘 튀르키예 대통령과 정상회담…중동 정세 논의",
+        "link": "https://www.yna.co.kr/view/AKR20261102160600001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-11-03 05:00:03",
+        "match_score": 44.08
+      },
+      "related_articles": [
+        {
+          "title": "李대통령, 오늘 튀르키예 대통령과 정상회담…중동 정세 논의",
+          "link": "https://www.yna.co.kr/view/AKR20261102160600001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-11-03 05:00:03",
+          "match_score": 44.08
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "생산차질",
+      "reason": "제네시스 생산 차질 및 현대차 노사 갈등",
+      "score": 21.57,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "신차 투입 갈등에 제네시스 생산 차질…가동 중단 계속될 듯(종합2보)"
+      ],
+      "representative_article": {
+        "title": "신차 투입 갈등에 제네시스 생산 차질…가동 중단 계속될 듯(종합2보)",
+        "link": "https://www.yna.co.kr/view/AKR20261102116052057",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-11-02 21:43:11",
+        "match_score": 21.57
+      },
+      "related_articles": [
+        {
+          "title": "신차 투입 갈등에 제네시스 생산 차질…가동 중단 계속될 듯(종합2보)",
+          "link": "https://www.yna.co.kr/view/AKR20261102116052057",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-11-02 21:43:11",
+          "match_score": 21.57
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "모자이크유적",
+      "reason": "한-튀르키예 2300년 전 모자이크 공동 발굴",
+      "score": 22.7,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "韓-튀르키예, 2300년전 모자이크 유적 공동발굴"
+      ],
+      "representative_article": {
+        "title": "韓-튀르키예, 2300년전 모자이크 유적 공동발굴",
+        "link": "https://www.donga.com/news/Culture/article/all/20261103/134953712/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-11-03 04:30:00",
+        "match_score": 22.7
+      },
+      "related_articles": [
+        {
+          "title": "韓-튀르키예, 2300년전 모자이크 유적 공동발굴",
+          "link": "https://www.donga.com/news/Culture/article/all/20261103/134953712/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-03 04:30:00",
+          "match_score": 22.7
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "지난달",
+      "score": 63.7,
+      "article_count": 18,
+      "source_count": 7,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "성장률 오르는데 체감은 냉랭…뉴스심리지수 7개월만 최저",
+        "국내 투자자, 지난달 미국 주식 7조 넘게 순매수",
+        "GTX타면 삼성역 9분…미미삼 6000가구 재건축, 나우동인 설계 확정"
+      ],
+      "llm_candidate": false,
+      "rank": 4,
+      "representative_article": {
+        "title": "국내 투자자, 지난달 미국 주식 7조 넘게 순매수",
+        "link": "https://www.chosun.com/economy/money/2026/11/03/JIXG3YWLJJGG3E76UIO75YY4TQ/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-11-03 00:36:00",
+        "match_score": 28.3
+      },
+      "related_articles": [
+        {
+          "title": "국내 투자자, 지난달 미국 주식 7조 넘게 순매수",
+          "link": "https://www.chosun.com/economy/money/2026/11/03/JIXG3YWLJJGG3E76UIO75YY4TQ/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-11-03 00:36:00",
+          "match_score": 28.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "반도체",
+      "score": 55.4,
+      "article_count": 10,
+      "source_count": 6,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업",
+        "정치"
+      ],
+      "sample_titles": [
+        "국힘 부산의원들 \"호남 반도체식 속도전, 가덕도엔 왜 안 되나\"",
+        "삼전 1.8%·하이닉스 3.8%↑…장중 출렁하다 상승 마감(종합)",
+        "“1600조 메가 프로젝트 투자… 반도체 공장만 지어선 안 돼”"
+      ],
+      "llm_candidate": false,
+      "rank": 5,
+      "representative_article": {
+        "title": "\"반도체 끝났나\" 했는데…'삼전닉스' 급반등하자 나온 전망 [종목+] - 한국경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9JRUZsbzlOajZRYy1UOXpoRHR0RUlrb3M0Nld3ZlZETWcxV18wSFdGZ2FHNmFUZmtlTUVwRzQ1Z2EyZnVLNlNnSURFeHdQWmthN0xqQm1UV2FWQQ?oc=5",
+        "source": "키워드-반도체AI",
+        "published_dt": "2026-11-02 22:00:02",
+        "match_score": 36.96
+      },
+      "related_articles": [
+        {
+          "title": "\"반도체 끝났나\" 했는데…'삼전닉스' 급반등하자 나온 전망 [종목+] - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9JRUZsbzlOajZRYy1UOXpoRHR0RUlrb3M0Nld3ZlZETWcxV18wSFdGZ2FHNmFUZmtlTUVwRzQ1Z2EyZnVLNlNnSURFeHdQWmthN0xqQm1UV2FWQQ?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-11-02 22:00:02",
+          "match_score": 36.96
+        },
+        {
+          "title": "삼성전자, 연말 인사 `안정 속 변화` 무게…AI 반도체·미래사업에 방점 - 디지털데일리",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0wU1FLM0RrTHFSUjB6cm5xcXhNVjZpRmM1bS1YamI5SUxTX09KaE1BenRwNThoLXFXSXR3dGRiYVZHVFg2dW94SHVuVXdON2JSa3MyaGdqMWpleFJ2WXNBbFo5QXo?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-11-02 17:07:43",
+          "match_score": 36.96
+        },
+        {
+          "title": "日소부장 협력 속도내는 삼성전자·SK하이닉스…AI 반도체 공급망 확보전 - 뉴시스",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE00eVZCSmNTaHhtLS15bGtueVBKY2doMmJLRkFoMHdyRlI3dzBUV24weE1DUEpBTXEwV3Q5bTZWWDNqaWtIVzFiNkd1SU1VMUNJYTRUd2NpaF9Hb1ZGcUR3Umd0U195QkZJSndyTUVPYkN1M21BbHNwVdIBeEFVX3lxTE00eVZCSmNTaHhtLS15bGtueVBKY2doMmJLRkFoMHdyRlI3dzBUV24weE1DUEpBTXEwV3Q5bTZWWDNqaWtIVzFiNkd1SU1VMUNJYTRUd2NpaF9Hb1ZGcUR3Umd0U195QkZJSndyTUVPYkN1M21BbHNwVQ?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-11-02 16:01:40",
+          "match_score": 36.96
+        },
+        {
+          "title": "이재용 삼성전자 회장, 日 반도체 패키징 연구소 방문···AI 칩 경쟁력 확보 속도 - 이뉴스투데이",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8xcHI3YzZvQmc5TXdDbWRGSUlzd2hhWjViVDZTcDhQSU1MWmcxcVNqc0hRVUhfc1VtTk94NHlpLVVITUl6UHdyX0h1MHhCOWFoZXBDWjBTcERLYWNvaE15Y2lVRkpXRmw2aGVodXJYdTDSAXRBVV95cUxPSFFKS0xOZF93dDExTFIzUDBQc0RCM2pGd0hlVVdVWC04ajVPWEI2b1VraXJxOEZHdVZNMTVhRHFmYXh2Qnk1a1Y2Vld0RGZubE44TGlGWWIyM2ROeEpqUzd1V3hXOFg3YnhNZjZ0OWxFNkwwMQ?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-11-02 09:58:33",
+          "match_score": 36.96
+        },
+        {
+          "title": "국힘 부산의원들 \"호남 반도체식 속도전, 가덕도엔 왜 안 되나\"",
+          "link": "https://www.yna.co.kr/view/AKR20261102104000001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-11-02 14:41:29",
+          "match_score": 28.68
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "중간선거",
+      "score": 35.6,
+      "article_count": 8,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "국제"
+      ],
+      "sample_titles": [
+        "“미 중간선거 뒤엔 늘 반등” vs “AI 의구심, 금리도 높아” - 중앙일보",
+        "트럼프 남은 2년 달렸다, 오늘 美 중간선거",
+        "트럼프 ‘그들만의 호화 핼러윈’…부유층과 파티 “우리 잘하고 있다”"
+      ],
+      "llm_candidate": false,
+      "rank": 6,
+      "representative_article": {
+        "title": "트럼프 남은 2년 달렸다, 오늘 美 중간선거",
+        "link": "https://www.donga.com/news/Inter/article/all/20261103/134953889/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-11-03 04:30:00",
+        "match_score": 37.3
+      },
+      "related_articles": [
+        {
+          "title": "트럼프 남은 2년 달렸다, 오늘 美 중간선거",
+          "link": "https://www.donga.com/news/Inter/article/all/20261103/134953889/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-03 04:30:00",
+          "match_score": 37.3
+        },
+        {
+          "title": "美 중간선거 D-2…트럼프 의약품 관세 향방에 국내 업계도 촉각",
+          "link": "https://www.donga.com/news/Inter/article/all/20261102/134949884/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-02 13:24:09",
+          "match_score": 37.3
+        },
+        {
+          "title": "“미 중간선거 뒤엔 늘 반등” vs “AI 의구심, 금리도 높아” - 중앙일보",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE05bGtOaGFwT05QMlJIcWMwU3gyM3ZkRW02YURTUGdsVlZDQk9fTU91WTk4dkZ1MFA5aDFrMlhpU0hoMDlIa21MNkJDV21GcXFHNmY5ZTRB?oc=5",
+          "source": "키워드-금리환율코스피",
+          "published_dt": "2026-11-03 00:02:00",
+          "match_score": 36.96
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "3분기",
+      "score": 44.5,
+      "article_count": 7,
+      "source_count": 5,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "애경산업, 3분기 영업손실 33억원…매출은 3분기 기준 최대",
+        "[특징주] HL만도, 3분기 실적부진·목표가 줄하향에 5.5% 급락(종합)",
+        "“3분기 최대실적 냈는데”…임기 만료 앞둔 은행장들, 연임은 ‘안갯속’"
+      ],
+      "llm_candidate": false,
+      "rank": 7,
+      "representative_article": {
+        "title": "애경산업, 3분기 영업손실 33억원…매출은 3분기 기준 최대",
+        "link": "https://www.yna.co.kr/view/AKR20261102157000030",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-11-02 17:17:37",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "애경산업, 3분기 영업손실 33억원…매출은 3분기 기준 최대",
+          "link": "https://www.yna.co.kr/view/AKR20261102157000030",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-11-02 17:17:37",
+          "match_score": 37.67
+        },
+        {
+          "title": "[특징주] HL만도, 3분기 실적부진·목표가 줄하향에 5.5% 급락(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261102037851008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-02 15:34:49",
+          "match_score": 37.67
+        },
+        {
+          "title": "“3분기 최대실적 냈는데”…임기 만료 앞둔 은행장들, 연임은 ‘안갯속’",
+          "link": "https://www.mk.co.kr/news/economy/12193536",
+          "source": "매일경제-경제",
+          "published_dt": "2026-11-02 15:15:03",
+          "match_score": 37.66
+        },
+        {
+          "title": "에쓰오일, 3분기 영업이익 전년比 514% 증가…'국제 유가 상승' 영향 - 조세금융신문",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5xUS1GeWZKVG95aEhYNUlzTi1Db2FYd1NfWkRzSGxUak1icUFlempEeDhHVzMzZEFCWF9SMzFEYS1JcDhBcGZXczM2XzV2RHZrTFJSTzdsS3hnQWFGbzZjZy0xdw?oc=5",
+          "source": "키워드-에너지물가",
+          "published_dt": "2026-11-02 15:42:17",
+          "match_score": 36.96
+        },
+        {
+          "title": "포스코홀딩스, 3분기 영업익 9천400억…\"철강값 추가 인상 협상\"(종합2보)",
+          "link": "https://www.yna.co.kr/view/AKR20261102112252003",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-11-02 17:44:52",
+          "match_score": 28.68
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "삼성전자",
+      "score": 37.6,
+      "article_count": 7,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "삼전 1.8%·하이닉스 3.8%↑…장중 출렁하다 상승 마감(종합)",
+        "삼성전자 ‘다카르 청소년올림픽’ 공식 파트너 참여",
+        "삼전 1.8%·하이닉스 3.8%↑…장중 출렁하다 상승 마감(종합)"
+      ],
+      "llm_candidate": false,
+      "rank": 8,
+      "representative_article": {
+        "title": "삼성전자, 연말 인사 `안정 속 변화` 무게…AI 반도체·미래사업에 방점 - 디지털데일리",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0wU1FLM0RrTHFSUjB6cm5xcXhNVjZpRmM1bS1YamI5SUxTX09KaE1BenRwNThoLXFXSXR3dGRiYVZHVFg2dW94SHVuVXdON2JSa3MyaGdqMWpleFJ2WXNBbFo5QXo?oc=5",
+        "source": "키워드-반도체AI",
+        "published_dt": "2026-11-02 17:07:43",
+        "match_score": 36.96
+      },
+      "related_articles": [
+        {
+          "title": "삼성전자, 연말 인사 `안정 속 변화` 무게…AI 반도체·미래사업에 방점 - 디지털데일리",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0wU1FLM0RrTHFSUjB6cm5xcXhNVjZpRmM1bS1YamI5SUxTX09KaE1BenRwNThoLXFXSXR3dGRiYVZHVFg2dW94SHVuVXdON2JSa3MyaGdqMWpleFJ2WXNBbFo5QXo?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-11-02 17:07:43",
+          "match_score": 36.96
+        },
+        {
+          "title": "日소부장 협력 속도내는 삼성전자·SK하이닉스…AI 반도체 공급망 확보전 - 뉴시스",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE00eVZCSmNTaHhtLS15bGtueVBKY2doMmJLRkFoMHdyRlI3dzBUV24weE1DUEpBTXEwV3Q5bTZWWDNqaWtIVzFiNkd1SU1VMUNJYTRUd2NpaF9Hb1ZGcUR3Umd0U195QkZJSndyTUVPYkN1M21BbHNwVdIBeEFVX3lxTE00eVZCSmNTaHhtLS15bGtueVBKY2doMmJLRkFoMHdyRlI3dzBUV24weE1DUEpBTXEwV3Q5bTZWWDNqaWtIVzFiNkd1SU1VMUNJYTRUd2NpaF9Hb1ZGcUR3Umd0U195QkZJSndyTUVPYkN1M21BbHNwVQ?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-11-02 16:01:40",
+          "match_score": 36.96
+        },
+        {
+          "title": "이재용 삼성전자 회장, 日 반도체 패키징 연구소 방문···AI 칩 경쟁력 확보 속도 - 이뉴스투데이",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8xcHI3YzZvQmc5TXdDbWRGSUlzd2hhWjViVDZTcDhQSU1MWmcxcVNqc0hRVUhfc1VtTk94NHlpLVVITUl6UHdyX0h1MHhCOWFoZXBDWjBTcERLYWNvaE15Y2lVRkpXRmw2aGVodXJYdTDSAXRBVV95cUxPSFFKS0xOZF93dDExTFIzUDBQc0RCM2pGd0hlVVdVWC04ajVPWEI2b1VraXJxOEZHdVZNMTVhRHFmYXh2Qnk1a1Y2Vld0RGZubE44TGlGWWIyM2ROeEpqUzd1V3hXOFg3YnhNZjZ0OWxFNkwwMQ?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-11-02 09:58:33",
+          "match_score": 36.96
+        },
+        {
+          "title": "삼성전자 ‘다카르 청소년올림픽’ 공식 파트너 참여",
+          "link": "https://www.chosun.com/economy/economy_general/2026/11/03/MIACMLIYK5EU3GS2WC4ZFQK3PU/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-11-03 00:34:00",
+          "match_score": 28.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "트럼프",
+      "score": 42.7,
+      "article_count": 7,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "트럼프 남은 2년 달렸다, 오늘 美 중간선거",
+        "트럼프 ‘그들만의 호화 핼러윈’…부유층과 파티 “우리 잘하고 있다”",
+        "트럼프, 막판 유세 총력전…韓언급하며 ‘알래스카 LNG’ 성과 과시"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "트럼프 남은 2년 달렸다, 오늘 美 중간선거",
+        "link": "https://www.donga.com/news/Inter/article/all/20261103/134953889/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-11-03 04:30:00",
+        "match_score": 37.3
+      },
+      "related_articles": [
+        {
+          "title": "트럼프 남은 2년 달렸다, 오늘 美 중간선거",
+          "link": "https://www.donga.com/news/Inter/article/all/20261103/134953889/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-03 04:30:00",
+          "match_score": 37.3
+        },
+        {
+          "title": "트럼프 ‘그들만의 호화 핼러윈’…부유층과 파티 “우리 잘하고 있다”",
+          "link": "https://www.donga.com/news/Inter/article/all/20261102/134951731/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-02 16:31:33",
+          "match_score": 37.3
+        },
+        {
+          "title": "트럼프, 막판 유세 총력전…韓언급하며 ‘알래스카 LNG’ 성과 과시",
+          "link": "https://www.donga.com/news/Inter/article/all/20261102/134951144/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-02 15:56:00",
+          "match_score": 37.3
+        },
+        {
+          "title": "헤그세스, ‘팽’ 당하나…”트럼프, 이란전 책임 물으려 해“",
+          "link": "https://www.donga.com/news/Inter/article/all/20261102/134950419/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-02 15:00:00",
+          "match_score": 37.3
+        },
+        {
+          "title": "초등수준 어휘에 욕설 늘고 횡설수설…80세 트럼프 인지저하?",
+          "link": "https://www.donga.com/news/Inter/article/all/20261102/134949574/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-02 13:37:00",
+          "match_score": 37.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "수도권",
+      "score": 25.7,
+      "article_count": 6,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "부동산"
+      ],
+      "sample_titles": [
+        "기업대출 '부익부'… 수도권·대기업 쏠림",
+        "신규 택지 하남 땅 거래 80% '쪼개기'",
+        "GTX타면 삼성역 9분…미미삼 6000가구 재건축, 나우동인 설계 확정"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "기업대출 '부익부'… 수도권·대기업 쏠림",
+        "link": "https://www.mk.co.kr/news/economy/12193728",
+        "source": "매일경제-경제",
+        "published_dt": "2026-11-02 17:20:42",
+        "match_score": 37.66
+      },
+      "related_articles": [
+        {
+          "title": "기업대출 '부익부'… 수도권·대기업 쏠림",
+          "link": "https://www.mk.co.kr/news/economy/12193728",
+          "source": "매일경제-경제",
+          "published_dt": "2026-11-02 17:20:42",
+          "match_score": 37.66
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
