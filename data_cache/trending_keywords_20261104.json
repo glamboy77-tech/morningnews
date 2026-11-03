@@ -1,0 +1,447 @@
+{
+  "timestamp": "2026-11-04T06:01:52.146487",
+  "date": "20261104",
+  "data": [
+    {
+      "keyword": "인공지능",
+      "score": 69.8,
+      "article_count": 19,
+      "source_count": 6,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "국민AI서비스혁신추진단, 민간 전문가 19명 공개 모집",
+        "\"전국 AI 팩토리 키우자\" … 산업부, 6500억원 투입",
+        "디스플레이협회, 인공지능소프트웨어협회와 제조 AX 확산 맞손"
+      ],
+      "llm_candidate": false,
+      "rank": 1,
+      "representative_article": {
+        "title": "디스플레이협회, 인공지능소프트웨어협회와 제조 AX 확산 맞손",
+        "link": "https://www.yna.co.kr/view/AKR20261103150700003",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-11-03 17:36:31",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "디스플레이협회, 인공지능소프트웨어협회와 제조 AX 확산 맞손",
+          "link": "https://www.yna.co.kr/view/AKR20261103150700003",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-11-03 17:36:31",
+          "match_score": 37.67
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "부동산",
+      "score": 43.6,
+      "article_count": 9,
+      "source_count": 4,
+      "categories": [
+        "기업/산업",
+        "부동산",
+        "정치"
+      ],
+      "sample_titles": [
+        "李대통령 \"주요지역 실거래가 놀라울 정도 하락…제대로 알려야\"(종합)",
+        "“국내는 좁다”…반도건설, 미국 개발사업 속도, 연말 美 LA ‘The BORA 3020’ 준공",
+        "상반된 강남 집값 통계에 … 李 \"이익 보는 쪽이 한쪽 몰아가\""
+      ],
+      "llm_candidate": false,
+      "rank": 2,
+      "representative_article": {
+        "title": "실거주 아니면 껑충 뛰는 ‘세부담’…꼬이는 부동산 세제개편안 셈법은",
+        "link": "https://www.mk.co.kr/news/realestate/12194970",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-11-03 16:48:32",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "실거주 아니면 껑충 뛰는 ‘세부담’…꼬이는 부동산 세제개편안 셈법은",
+          "link": "https://www.mk.co.kr/news/realestate/12194970",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-03 16:48:32",
+          "match_score": 37.49
+        },
+        {
+          "title": "\"일본보다 더한 부동산 대폭락 임박\" 폭락론자들의 화려한 부활",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/11/03/2026110301942.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-11-03 16:22:38",
+          "match_score": 37.49
+        },
+        {
+          "title": "“부동산 거래, 이제 꼼수 안 쓰면 바보 되나요?”…1년 간 위법 의심 678건",
+          "link": "https://www.mk.co.kr/news/realestate/12194406",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-03 09:46:29",
+          "match_score": 37.49
+        },
+        {
+          "title": "AI 활용한 부동산 개발… 성공 노하우 알려드립니다",
+          "link": "https://www.chosun.com/economy/2026/11/04/WRIUXCODWFBK3KMEIQ4DWO2WQE/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-11-04 00:37:00",
+          "match_score": 28.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "아파트",
+      "score": 42.6,
+      "article_count": 8,
+      "source_count": 4,
+      "categories": [
+        "부동산",
+        "정치"
+      ],
+      "sample_titles": [
+        "권익위 \"일산 아파트 5천세대 대지권 미등기 문제 조정 해결\"",
+        "李대통령 “서울 아파트 매물 급속도로 늘고, 가격도 놀라울 정도로 떨어져”",
+        "[단독]현대건설 홍보관 '디에이치 갤러리', 2500억대에 공매로"
+      ],
+      "llm_candidate": false,
+      "rank": 3,
+      "representative_article": {
+        "title": "권익위 \"일산 아파트 5천세대 대지권 미등기 문제 조정 해결\"",
+        "link": "https://www.yna.co.kr/view/AKR20261103068500001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-11-03 16:30:00",
+        "match_score": 39.12
+      },
+      "related_articles": [
+        {
+          "title": "권익위 \"일산 아파트 5천세대 대지권 미등기 문제 조정 해결\"",
+          "link": "https://www.yna.co.kr/view/AKR20261103068500001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-11-03 16:30:00",
+          "match_score": 39.12
+        },
+        {
+          "title": "이 대통령 “서울 주요지역 아파트값 놀라울 정도로 떨어져…폭락 걱정하는 쪽도 생겨”",
+          "link": "https://www.mk.co.kr/news/realestate/12194492",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-03 11:12:51",
+          "match_score": 37.49
+        },
+        {
+          "title": "‘서울 아파트 완판’은 옛말?…미분양 아파트 한 달 새 10.9% 껑충",
+          "link": "https://www.mk.co.kr/news/realestate/12194477",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-03 11:08:25",
+          "match_score": 37.49
+        },
+        {
+          "title": "과천 ‘10억 로또’ 아파트에 경쟁률 1632대 1…2년 전 만점 청약통장 나왔던 곳",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/11/03/2026110301051.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-11-03 10:10:20",
+          "match_score": 37.49
+        },
+        {
+          "title": "“아파트 공간 내 마음대로”…GS건설, 로봇 기술 접목한 가변형 벽체 ‘무빙월’ 공개",
+          "link": "https://www.mk.co.kr/news/realestate/12194413",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-03 09:53:05",
+          "match_score": 37.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "앞두고",
+      "score": 32.8,
+      "article_count": 6,
+      "source_count": 6,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업",
+        "부동산",
+        "정치"
+      ],
+      "sample_titles": [
+        "'공소시효 D-30' 제주경찰, 지선 선거법 위반 사건 막바지 수사",
+        "원/달러 환율, 2.8원 내린 1,341원…미 중간선거 앞두고 관망세",
+        "'공소시효 D-30' 제주경찰, 지선 선거법 위반 사건 막바지 수사"
+      ],
+      "llm_candidate": false,
+      "rank": 4,
+      "representative_article": {
+        "title": "원/달러 환율, 2.8원 내린 1,341원…미 중간선거 앞두고 관망세",
+        "link": "https://www.yna.co.kr/view/AKR20261103144300002",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-11-03 16:05:15",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "원/달러 환율, 2.8원 내린 1,341원…미 중간선거 앞두고 관망세",
+          "link": "https://www.yna.co.kr/view/AKR20261103144300002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-03 16:05:15",
+          "match_score": 37.67
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "반도체",
+      "score": 32.2,
+      "article_count": 6,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "[연합뉴스 이 시각 헤드라인] - 18:00",
+        "반도체 장비, 3년뒤 계약까지 줄섰다",
+        "美 반도체 기업 마벨, 광통신 베팅 “광학 업체 루멘텀 154조원에 인수”"
+      ],
+      "llm_candidate": false,
+      "rank": 5,
+      "representative_article": {
+        "title": "[미래경제포럼] 최태원 \"AI·반도체 협력…한일경제연대로 1조달러 시너지\"(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261103126651003",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-11-03 16:14:52",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "[미래경제포럼] 최태원 \"AI·반도체 협력…한일경제연대로 1조달러 시너지\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261103126651003",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-03 16:14:52",
+          "match_score": 37.67
+        },
+        {
+          "title": "반도체 장비, 3년뒤 계약까지 줄섰다",
+          "link": "https://www.etnews.com/20261103000452",
+          "source": "전자신문",
+          "published_dt": "2026-11-03 19:29:50",
+          "match_score": 37.49
+        },
+        {
+          "title": "美 반도체 기업 마벨, 광통신 베팅 “광학 업체 루멘텀 154조원에 인수”",
+          "link": "https://www.chosun.com/economy/tech_it/2026/11/04/JGQBGTGZRNHZLAH7JFCCBSFCCU/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-11-04 00:34:00",
+          "match_score": 28.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "중간선거",
+      "score": 39.6,
+      "article_count": 6,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "부동산"
+      ],
+      "sample_titles": [
+        "MAGA “민주 강경파 당선땐 취임선서 못하게” 선거 불복 움직임",
+        "MAGA “민주 강경파 당선땐 취임선서 못하게” 선거 불복 움직임",
+        "원/달러 환율, 2.8원 내린 1,341원…미 중간선거 앞두고 관망세"
+      ],
+      "llm_candidate": false,
+      "rank": 6,
+      "representative_article": {
+        "title": "원/달러 환율, 2.8원 내린 1,341원…미 중간선거 앞두고 관망세",
+        "link": "https://www.yna.co.kr/view/AKR20261103144300002",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-11-03 16:05:15",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "원/달러 환율, 2.8원 내린 1,341원…미 중간선거 앞두고 관망세",
+          "link": "https://www.yna.co.kr/view/AKR20261103144300002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-03 16:05:15",
+          "match_score": 37.67
+        },
+        {
+          "title": "AI 수익성 우려에 짓눌린 증시, 美중간선거 시나리오별 영향은?(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261103085151008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-03 15:39:45",
+          "match_score": 37.67
+        },
+        {
+          "title": "트럼프 정치 운명 갈린다… 오늘 중간선거 표심 윤곽",
+          "link": "https://www.donga.com/news/Inter/article/all/20261104/134961367/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-04 04:30:00",
+          "match_score": 37.3
+        },
+        {
+          "title": "군중은 줄고 목소리는 갈라졌다…트럼프, 중간선거 지역유세 마무리",
+          "link": "https://www.donga.com/news/Inter/article/all/20261103/134955964/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-03 10:43:22",
+          "match_score": 37.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "인프라",
+      "score": 24.0,
+      "article_count": 6,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "[특징주] 래블업, 코스닥 입성 첫날 25% 하락 마감(종합)",
+        "반도체 장비, 3년뒤 계약까지 줄섰다",
+        "[인터뷰] 변우진 ETRI 대경권연구본부장 “대구·경북을 대한민국 '피지컬 AI' 수도로”"
+      ],
+      "llm_candidate": false,
+      "rank": 7,
+      "representative_article": {
+        "title": "'가전 명가' 희석 日 전자 공룡, AI 인프라 공급망 '싹쓸이' 나섰다",
+        "link": "https://www.etnews.com/20261102000334",
+        "source": "전자신문",
+        "published_dt": "2026-11-03 16:00:00",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "'가전 명가' 희석 日 전자 공룡, AI 인프라 공급망 '싹쓸이' 나섰다",
+          "link": "https://www.etnews.com/20261102000334",
+          "source": "전자신문",
+          "published_dt": "2026-11-03 16:00:00",
+          "match_score": 37.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "공급망",
+      "score": 25.4,
+      "article_count": 5,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업",
+        "정치"
+      ],
+      "sample_titles": [
+        "\"한일 연대는 생존 위한 필수 전략\"…연합뉴스 미래경제포럼(종합)",
+        "유턴기업 지원 요건 완화…해외 생산제품과 달라도 기술·기능 유사하면 국내복귀 인정",
+        "'가전 명가' 희석 日 전자 공룡, AI 인프라 공급망 '싹쓸이' 나섰다"
+      ],
+      "llm_candidate": false,
+      "rank": 8,
+      "representative_article": {
+        "title": "'가전 명가' 희석 日 전자 공룡, AI 인프라 공급망 '싹쓸이' 나섰다",
+        "link": "https://www.etnews.com/20261102000334",
+        "source": "전자신문",
+        "published_dt": "2026-11-03 16:00:00",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "'가전 명가' 희석 日 전자 공룡, AI 인프라 공급망 '싹쓸이' 나섰다",
+          "link": "https://www.etnews.com/20261102000334",
+          "source": "전자신문",
+          "published_dt": "2026-11-03 16:00:00",
+          "match_score": 37.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "정도로",
+      "score": 26.4,
+      "article_count": 5,
+      "source_count": 4,
+      "categories": [
+        "기업/산업",
+        "부동산",
+        "정치"
+      ],
+      "sample_titles": [
+        "국힘, 李대통령 '실거래가 하락' 발언에 \"혼자만 딴세상 사나\"",
+        "李대통령 \"주요지역 실거래가 놀라울 정도 하락…제대로 알려야\"(종합)",
+        "李대통령 “서울 아파트 매물 급속도로 늘고, 가격도 놀라울 정도로 떨어져”"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "이 대통령 “서울 주요지역 아파트값 놀라울 정도로 떨어져…폭락 걱정하는 쪽도 생겨”",
+        "link": "https://www.mk.co.kr/news/realestate/12194492",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-11-03 11:12:51",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "이 대통령 “서울 주요지역 아파트값 놀라울 정도로 떨어져…폭락 걱정하는 쪽도 생겨”",
+          "link": "https://www.mk.co.kr/news/realestate/12194492",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-03 11:12:51",
+          "match_score": 37.49
+        },
+        {
+          "title": "李대통령 “서울 아파트 매물 급속도로 늘고, 가격도 놀라울 정도로 떨어져”",
+          "link": "https://www.chosun.com/politics/blue_house/2026/11/03/3BKI3UYC7NEUTMFUYQXOBGI7GU/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-11-03 10:28:34",
+          "match_score": 29.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "수도권",
+      "score": 22.1,
+      "article_count": 5,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "부동산"
+      ],
+      "sample_titles": [
+        "면적은 12%인데 땅값은 66%…국토연 “수도권 자산가치 쏠림 심화”",
+        "내년 나올 청년 전월세대출, 지방엔 금리혜택 1%P 더 준다",
+        "GTX '삼성역 무정차 통과' 내년으로 연기"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "면적은 12%인데 땅값은 66%…국토연 “수도권 자산가치 쏠림 심화”",
+        "link": "https://www.mk.co.kr/news/economy/12194711",
+        "source": "매일경제-경제",
+        "published_dt": "2026-11-03 14:29:00",
+        "match_score": 37.66
+      },
+      "related_articles": [
+        {
+          "title": "면적은 12%인데 땅값은 66%…국토연 “수도권 자산가치 쏠림 심화”",
+          "link": "https://www.mk.co.kr/news/economy/12194711",
+          "source": "매일경제-경제",
+          "published_dt": "2026-11-03 14:29:00",
+          "match_score": 37.66
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
