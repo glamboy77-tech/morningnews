@@ -1,0 +1,457 @@
+{
+  "timestamp": "2026-11-05T06:01:06.375982",
+  "date": "20261105",
+  "data": [
+    {
+      "keyword": "중간선거",
+      "reason": "트럼프 참패 미국정치변화",
+      "score": 37.17,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "[美중간선거] 트럼프, 북미대화 의지 커질수도…\"업적 남기려할 가능성\""
+      ],
+      "representative_article": {
+        "title": "[美중간선거] 트럼프, 북미대화 의지 커질수도…\"업적 남기려할 가능성\"",
+        "link": "https://www.yna.co.kr/view/AKR20261104130100504",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-11-04 15:49:38",
+        "match_score": 37.17
+      },
+      "related_articles": [
+        {
+          "title": "[美중간선거] 트럼프, 북미대화 의지 커질수도…\"업적 남기려할 가능성\"",
+          "link": "https://www.yna.co.kr/view/AKR20261104130100504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-11-04 15:49:38",
+          "match_score": 37.17
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "전기차 수출",
+      "reason": "중국 부상에 경쟁력 하락 우려",
+      "score": 42.1,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "中 부상에 韓전기차 수출 경쟁력 반토막 “2030년 2.2조 감소 우려”"
+      ],
+      "representative_article": {
+        "title": "中 부상에 韓전기차 수출 경쟁력 반토막 “2030년 2.2조 감소 우려”",
+        "link": "https://www.donga.com/news/Economy/article/all/20261104/134967485/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-11-05 00:30:00",
+        "match_score": 42.1
+      },
+      "related_articles": [
+        {
+          "title": "中 부상에 韓전기차 수출 경쟁력 반토막 “2030년 2.2조 감소 우려”",
+          "link": "https://www.donga.com/news/Economy/article/all/20261104/134967485/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-05 00:30:00",
+          "match_score": 42.1
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "주식 공개매수",
+      "reason": "SK㈜ SK에코플랜트 인수",
+      "score": 38.43,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "SK㈜, SK에코플랜트 주식 공개매수…상장 대신 완전자회사 편입",
+        "SK㈜, SK에코플랜트 주식 공개매수…상장 대신 완전자회사 편입"
+      ],
+      "representative_article": {
+        "title": "SK㈜, SK에코플랜트 주식 공개매수…상장 대신 완전자회사 편입",
+        "link": "https://www.yna.co.kr/view/AKR20261104151900003",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-11-04 17:13:41",
+        "match_score": 38.43
+      },
+      "related_articles": [
+        {
+          "title": "SK㈜, SK에코플랜트 주식 공개매수…상장 대신 완전자회사 편입",
+          "link": "https://www.yna.co.kr/view/AKR20261104151900003",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-04 17:13:41",
+          "match_score": 38.43
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "외환보유액",
+      "reason": "4년5개월만에 최대치",
+      "score": 31.3,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "외환보유액 4년 5개월 만에 최대"
+      ],
+      "representative_article": {
+        "title": "외환보유액 4년 5개월 만에 최대",
+        "link": "https://www.chosun.com/economy/economy_general/2026/11/05/CSXP6VWVJNFG7EWY3D3S7QP3KE/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-11-05 00:32:00",
+        "match_score": 31.3
+      },
+      "related_articles": [
+        {
+          "title": "외환보유액 4년 5개월 만에 최대",
+          "link": "https://www.chosun.com/economy/economy_general/2026/11/05/CSXP6VWVJNFG7EWY3D3S7QP3KE/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-11-05 00:32:00",
+          "match_score": 31.3
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "민주당",
+      "score": 59.7,
+      "article_count": 14,
+      "source_count": 5,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업",
+        "정치"
+      ],
+      "sample_titles": [
+        "김부겸 “민주당 교만해서 요즘 젊은 세대한테 혼나”",
+        "[美중간선거] 트럼프, 북미대화 의지 커질수도…\"업적 남기려할 가능성\"",
+        "\"美 중간선거 결과 금융시장 변동성 급증 가능성 대비해야\""
+      ],
+      "llm_candidate": false,
+      "rank": 5,
+      "representative_article": {
+        "title": "美 중간선거 민주당 승리에 국고채 일제히↓…3년물 연 3.714%(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261104149051008",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-11-04 17:00:10",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "美 중간선거 민주당 승리에 국고채 일제히↓…3년물 연 3.714%(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261104149051008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-04 17:00:10",
+          "match_score": 37.67
+        },
+        {
+          "title": "美 데이터센터 27% 몰린 텍사스, 민주당 주지사 탄생…AI 투자 빨간불?",
+          "link": "https://www.donga.com/news/Inter/article/all/20261104/134965302/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-04 15:26:25",
+          "match_score": 37.3
+        },
+        {
+          "title": "“민주당이 美의회 장악하면 뭐가 달라지나”…재계가 예상하는 7가지 변화",
+          "link": "https://www.donga.com/news/Inter/article/all/20261104/134964411/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-04 14:32:24",
+          "match_score": 37.3
+        },
+        {
+          "title": "김부겸 “민주당 교만해서 요즘 젊은 세대한테 혼나”",
+          "link": "https://www.chosun.com/politics/politics_general/2026/11/04/5R4Y22CA55GTZIRJCRKIR2TGDM/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-11-04 18:02:45",
+          "match_score": 29.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "반도체",
+      "score": 53.4,
+      "article_count": 10,
+      "source_count": 6,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "한국 올해 성장률 눈높이 계속 오른다…해외IB 8곳 평균 3.7%",
+        "급등과 급락 반복한 코스피…무엇이 흔들었나 [Visual]",
+        "한국이 아직 못 만드는 이 반도체, 인생 걸고 도전한 삼성전자 부사장"
+      ],
+      "llm_candidate": false,
+      "rank": 6,
+      "representative_article": {
+        "title": "호남 반도체 1.5조 예산 편성놓고 ‘진통’…野 “계획없는 졸속” vs 정부 “지자체 재량”",
+        "link": "https://www.mk.co.kr/news/economy/12196316",
+        "source": "매일경제-경제",
+        "published_dt": "2026-11-04 13:46:53",
+        "match_score": 37.66
+      },
+      "related_articles": [
+        {
+          "title": "호남 반도체 1.5조 예산 편성놓고 ‘진통’…野 “계획없는 졸속” vs 정부 “지자체 재량”",
+          "link": "https://www.mk.co.kr/news/economy/12196316",
+          "source": "매일경제-경제",
+          "published_dt": "2026-11-04 13:46:53",
+          "match_score": 37.66
+        },
+        {
+          "title": "미 대선 불확실성 극복과 AI 반도체 - 네이버페이 머니스토리",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1GbC1nTWJOWm1DeUhXQnhaRmlMZzhrWmFlNkppc2ZBZVNTcEs2Mi1waXlQQ0pOMFNpVXh3TVhva2haYzNsSWRuVHg4UEp2VWJ0WF9QOVdMTU9jZw?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-11-04 11:44:30",
+          "match_score": 36.96
+        },
+        {
+          "title": "삼성·SK하이닉스 HBM 중국 밀수…통로는 국내 반도체 설계 페이퍼 컴퍼니 - 이코노미트리뷴",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5ickREaDJHN1A4X2NpWW4yZWVYb0ZvdlBqZldTWHVoY2toRm5LcnVlcEVtREFSTFZDdUpaOTdBQTRSN1VmcmlxZW9UX1ZsYXFXVXoxWGxYVHZZWTljemVGUjhWQWdCX1d5TFNXa20wWnlSdk51MVI4?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-11-04 11:11:11",
+          "match_score": 36.96
+        },
+        {
+          "title": "이상일 용인시장, 세계적 반도체기업에 용인 산업 경쟁력 알렸다…유럽 세일즈 총력 - 필드뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5mbWNQbDd6Q1UwS05ndzhOMjZlRWg0MmFlVTk5Z3I3a2NaUFhoaFI2Qk93SHRlTmxILUpLa0dfYS1aVkE4RWdrUDl4NHd1amprMU1TcGVQajVVWm9TVHNwRENrNGE0VXpO0gFsQVVfeXFMT1dXS0tZaUpZTWVxWGs5aUhtVTVmZnNkZjNLR3FPdlVqcDdlZ0xsSWZlWVBVMHFWZE1BeWhQcFJvclU4UUtpaXlrNXpRWTJJbEdZTThDSDNPX0R6b0JIajY4b0lfTkkwYXlaRVNi?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-11-04 09:35:18",
+          "match_score": 36.96
+        },
+        {
+          "title": "돈 쓸어담는 반도체 기업들 ‘뭉칫돈’에 … 사상 최초로 기업예금 1000조 돌파",
+          "link": "https://www.mk.co.kr/news/economy/12196407",
+          "source": "매일경제-경제",
+          "published_dt": "2026-11-04 15:09:57",
+          "match_score": 28.66
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "아파트",
+      "score": 46.3,
+      "article_count": 9,
+      "source_count": 3,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "대전 서구, 둔산지구 아파트 재건축사업 설명회 개최 - 쿠키뉴스",
+        "김구라의 폭로, 일산 100평 펜트하우스 샀다가 후회막심 가수 부부",
+        "'대통령의 아파트 매도방식' 급속 확산…강남·분당 재건축까지 번진‘집주인 대출’"
+      ],
+      "llm_candidate": false,
+      "rank": 7,
+      "representative_article": {
+        "title": "'대통령의 아파트 매도방식' 급속 확산…강남·분당 재건축까지 번진‘집주인 대출’",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/11/04/2026110402050.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-11-04 14:45:24",
+        "match_score": 38.09
+      },
+      "related_articles": [
+        {
+          "title": "'대통령의 아파트 매도방식' 급속 확산…강남·분당 재건축까지 번진‘집주인 대출’",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/11/04/2026110402050.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-11-04 14:45:24",
+          "match_score": 38.09
+        },
+        {
+          "title": "대전 서구, 둔산지구 아파트 재건축사업 설명회 개최 - 쿠키뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBCTzMxS1pNSmxMbVR5M05zT2dLcDUwektOSzdybC02YXVDcGE3dlVjQ3d1RXhlWUhYUXpEQzZvLXp5RVhhWUdDNlRvUHBFOEV3VHRwWW9kRzVZcHVITGFxaVhHWQ?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-11-05 03:39:46",
+          "match_score": 37.71
+        },
+        {
+          "title": "전국 아파트 1500개 단지… 주택관리회사 'KES' 출범",
+          "link": "https://www.mk.co.kr/news/realestate/12196657",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-04 17:39:52",
+          "match_score": 37.49
+        },
+        {
+          "title": "대기업 사업장 있는 화성·천안아산 아파트 거래 증가…지방 분양 이어져",
+          "link": "https://www.mk.co.kr/news/realestate/12196215",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-04 11:18:13",
+          "match_score": 37.49
+        },
+        {
+          "title": "“3년 전 분양가로 새 아파트 마련” ‘남춘천 센트레빌’ 역주행 분양가 ‘눈길’ - 아시아경제",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4zSGsyNVJ1NVRvY2xUVjFoQmRHdmhKcmkxM2dObGM4OG5TVnR4N2dYaVgzbHBkOTZBdzA0dE5QdG43UFRGQlJfY0ZWWDRQbkRvck5VcGplWGhKOWVmc0VxRQ?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-11-04 16:00:00",
+          "match_score": 36.96
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "삼성전자",
+      "score": 33.0,
+      "article_count": 7,
+      "source_count": 6,
+      "categories": [
+        "경제/거시",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "장중 급등락하며 '출렁'…삼전닉스, 약보합 마감(종합)",
+        "“이어폰으로 청력 검사하고 소리 키운다”…삼성 갤럭시 버즈, 식약처 허가",
+        "한국이 아직 못 만드는 이 반도체, 인생 걸고 도전한 삼성전자 부사장"
+      ],
+      "llm_candidate": false,
+      "rank": 8,
+      "representative_article": {
+        "title": "한국이 아직 못 만드는 이 반도체, 인생 걸고 도전한 삼성전자 부사장",
+        "link": "https://www.chosun.com/economy/startup_story/2026/11/05/IRDAAUINSRE5ZDATANBZMLXUQI/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-11-05 04:45:00",
+        "match_score": 28.3
+      },
+      "related_articles": [
+        {
+          "title": "한국이 아직 못 만드는 이 반도체, 인생 걸고 도전한 삼성전자 부사장",
+          "link": "https://www.chosun.com/economy/startup_story/2026/11/05/IRDAAUINSRE5ZDATANBZMLXUQI/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-11-05 04:45:00",
+          "match_score": 28.3
+        },
+        {
+          "title": "‘우주 산업의 삼성전자’ 대학 연구실 벤처가 그 꿈에 다가서고 있다",
+          "link": "https://www.chosun.com/economy/startup_story/2026/11/05/6QJZTALSRRFPHAW2YQIMJAUBQU/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-11-05 04:55:00",
+          "match_score": 28.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "3분기",
+      "score": 43.5,
+      "article_count": 7,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "하림, 3분기 영업이익 53억원…전년 대비 71% 감소",
+        "[특징주] LG생활건강, 기대치 밑돈 실적에 11% 급락(종합)",
+        "JW중외제약 3분기 영업이익 291억원…11% 감소"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "하림, 3분기 영업이익 53억원…전년 대비 71% 감소",
+        "link": "https://www.yna.co.kr/view/AKR20261104154900030",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-11-04 17:11:23",
+        "match_score": 37.83
+      },
+      "related_articles": [
+        {
+          "title": "하림, 3분기 영업이익 53억원…전년 대비 71% 감소",
+          "link": "https://www.yna.co.kr/view/AKR20261104154900030",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-04 17:11:23",
+          "match_score": 37.83
+        },
+        {
+          "title": "JW중외제약 3분기 영업이익 291억원…11% 감소",
+          "link": "https://www.yna.co.kr/view/AKR20261104149700017",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-04 16:48:43",
+          "match_score": 37.67
+        },
+        {
+          "title": "SKT, 3분기 영업익 11배로…울산 AIDC 2029년 가동 목표(종합2보)",
+          "link": "https://www.yna.co.kr/view/AKR20261104043301017",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-11-04 17:26:12",
+          "match_score": 37.67
+        },
+        {
+          "title": "에어부산, 3분기 영업이익 47억원…흑자 전환",
+          "link": "https://www.yna.co.kr/view/AKR20261104155200051",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-11-04 17:15:34",
+          "match_score": 37.67
+        },
+        {
+          "title": "카뱅, 3분기 누적 순익 4698억원…올해 늘어난 대출 58%는 개인사업자 몫",
+          "link": "https://www.mk.co.kr/news/economy/12195970",
+          "source": "매일경제-경제",
+          "published_dt": "2026-11-04 09:03:55",
+          "match_score": 37.66
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "나온다",
+      "score": 22.5,
+      "article_count": 5,
+      "source_count": 3,
+      "categories": [
+        "국제",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "IT서비스 업계 '반프리' 관행 우려…공공SW 발주구조 개선 목소리",
+        "반의반값 아파트 나온다…고양창릉서 12월 분양",
+        "‘앵그리 아메리칸’ 심판에 트럼프 참패"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "반의반값 아파트 나온다…고양창릉서 12월 분양",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/11/04/2026110401891.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-11-04 14:01:13",
+        "match_score": 28.49
+      },
+      "related_articles": [
+        {
+          "title": "반의반값 아파트 나온다…고양창릉서 12월 분양",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/11/04/2026110401891.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-11-04 14:01:13",
+          "match_score": 28.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
