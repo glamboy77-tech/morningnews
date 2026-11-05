@@ -1,0 +1,451 @@
+{
+  "timestamp": "2026-11-06T06:01:16.529636",
+  "date": "20261106",
+  "data": [
+    {
+      "keyword": "부동산 투기",
+      "reason": "이재명 대통령 단속과 국토부 장관 발언",
+      "score": 31.19,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "부동산",
+        "정치"
+      ],
+      "sample_titles": [
+        "李대통령 \"불법 부동산투기로 돈벌던 시대 끝내야…곧 3차 단속\"(종합)",
+        "“혹여 불법있다면 이제라도 시정”…李대통령, 부동산 투기 3차 단속 예고"
+      ],
+      "representative_article": {
+        "title": "“혹여 불법있다면 이제라도 시정”…李대통령, 부동산 투기 3차 단속 예고",
+        "link": "https://www.mk.co.kr/news/realestate/12198681",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-11-05 17:29:56",
+        "match_score": 31.19
+      },
+      "related_articles": [
+        {
+          "title": "“혹여 불법있다면 이제라도 시정”…李대통령, 부동산 투기 3차 단속 예고",
+          "link": "https://www.mk.co.kr/news/realestate/12198681",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-05 17:29:56",
+          "match_score": 31.19
+        },
+        {
+          "title": "李대통령 \"불법 부동산투기로 돈벌던 시대 끝내야…곧 3차 단속\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261105113551001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-11-05 18:45:02",
+          "match_score": 17.68
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "금리 인상",
+      "reason": "영국 BOE와 미국 연준 긴축 언급",
+      "score": 38.72,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "영국, 3년만에 금리 인상…BOE 총재 \"추가 인상도 가능\"(종합2보)"
+      ],
+      "representative_article": {
+        "title": "영국, 3년만에 금리 인상…BOE 총재 \"추가 인상도 가능\"(종합2보)",
+        "link": "https://www.yna.co.kr/view/AKR20261105179053085",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-11-06 01:04:14",
+        "match_score": 38.72
+      },
+      "related_articles": [
+        {
+          "title": "영국, 3년만에 금리 인상…BOE 총재 \"추가 인상도 가능\"(종합2보)",
+          "link": "https://www.yna.co.kr/view/AKR20261105179053085",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-06 01:04:14",
+          "match_score": 38.72
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "삼성전자",
+      "reason": "D램 점유율 및 노조 파업 뉴스",
+      "score": 41.1,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "삼성전자 DX노조, 수원사업장 앞 집회…'공정한 보상체계' 요구",
+        "삼성전자 D램 시장 점유율 '38%'…1위 수성"
+      ],
+      "representative_article": {
+        "title": "삼성전자 D램 시장 점유율 '38%'…1위 수성",
+        "link": "https://www.etnews.com/20261105000460",
+        "source": "전자신문",
+        "published_dt": "2026-11-05 16:56:23",
+        "match_score": 41.1
+      },
+      "related_articles": [
+        {
+          "title": "삼성전자 D램 시장 점유율 '38%'…1위 수성",
+          "link": "https://www.etnews.com/20261105000460",
+          "source": "전자신문",
+          "published_dt": "2026-11-05 16:56:23",
+          "match_score": 41.1
+        },
+        {
+          "title": "삼성전자 DX노조, 수원사업장 앞 집회…'공정한 보상체계' 요구",
+          "link": "https://www.yna.co.kr/view/AKR20261105168100061",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-11-05 18:38:25",
+          "match_score": 38.88
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI 산업",
+      "reason": "탄자니아 차관 지원과 산업 동향",
+      "score": 19.88,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "美블루웨이브에 데이터센터 규제 우려…증권가 \"AI산업 기업별 희비 전망\"(종합)"
+      ],
+      "representative_article": {
+        "title": "美블루웨이브에 데이터센터 규제 우려…증권가 \"AI산업 기업별 희비 전망\"(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261105038651008",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-11-05 15:44:46",
+        "match_score": 19.88
+      },
+      "related_articles": [
+        {
+          "title": "美블루웨이브에 데이터센터 규제 우려…증권가 \"AI산업 기업별 희비 전망\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261105038651008",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-11-05 15:44:46",
+          "match_score": 19.88
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "아파트",
+      "score": 55.9,
+      "article_count": 12,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "부동산"
+      ],
+      "sample_titles": [
+        "월급도, 아파트도 비슷한데…순자산 1억 차이 ‘이것’에 갈렸다 [데이터로 읽는 머니 무브]",
+        "263억 찍고 ‘한국 최고가 아파트’ 올랐는데 … “로열층은 1층”",
+        "260억대 나인원한남 사들인 30세 현금 부자, 10년 간 '이 재테크' 했다"
+      ],
+      "llm_candidate": false,
+      "rank": 5,
+      "representative_article": {
+        "title": "263억 찍고 ‘한국 최고가 아파트’ 올랐는데 … “로열층은 1층”",
+        "link": "https://www.mk.co.kr/news/realestate/12198711",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-11-06 05:30:00",
+        "match_score": 38.09
+      },
+      "related_articles": [
+        {
+          "title": "263억 찍고 ‘한국 최고가 아파트’ 올랐는데 … “로열층은 1층”",
+          "link": "https://www.mk.co.kr/news/realestate/12198711",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-06 05:30:00",
+          "match_score": 38.09
+        },
+        {
+          "title": "구미 형곡동에 770가구 재건축 아파트…‘형곡 센트럴 아테라’ 6일 견본주택 개관",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/11/05/2026110501382.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-11-05 11:30:00",
+          "match_score": 38.09
+        },
+        {
+          "title": "분양가는 뛰고 대출 죄이자 … 서울아파트 분양전망 최저",
+          "link": "https://www.mk.co.kr/news/realestate/12198658",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-05 17:22:04",
+          "match_score": 37.49
+        },
+        {
+          "title": "'가짜 뉴스' 라는 서울 아파트 폭락의 진짜 실체",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/11/05/2026110501759.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-11-05 14:16:21",
+          "match_score": 37.49
+        },
+        {
+          "title": "동대문구 휘경리오포레아파트(2단지) 39.98㎡ 7억원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12197941",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-05 09:15:30",
+          "match_score": 37.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "반도체",
+      "score": 41.6,
+      "article_count": 7,
+      "source_count": 6,
+      "categories": [
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "내년 3월 개교 '용인반도체고' 첫 신입생 경쟁률 4.8대 1",
+        "삼성전자 DX노조, 수원사업장 앞 집회…'공정한 보상체계' 요구",
+        "호남 반도체 클러스터 “속도전”이라더니 ’10월 중 입주 협약' 첫 일정부터 못 지켜"
+      ],
+      "llm_candidate": false,
+      "rank": 6,
+      "representative_article": {
+        "title": "내년 3월 개교 '용인반도체고' 첫 신입생 경쟁률 4.8대 1",
+        "link": "https://www.yna.co.kr/view/AKR20261105168000061",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-11-05 18:48:58",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "내년 3월 개교 '용인반도체고' 첫 신입생 경쟁률 4.8대 1",
+          "link": "https://www.yna.co.kr/view/AKR20261105168000061",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-11-05 18:48:58",
+          "match_score": 37.67
+        },
+        {
+          "title": "‘반도체 패키징’ 기업 네패스, 청주공장 증설로 대통령 표창",
+          "link": "https://www.mk.co.kr/news/economy/12198404",
+          "source": "매일경제-경제",
+          "published_dt": "2026-11-05 15:35:19",
+          "match_score": 37.66
+        },
+        {
+          "title": "HP “클라우드 AI 절반 로컬 PC로 옮겨 비용 45% 절감”…국내 반도체·의료·방송 현장 공략",
+          "link": "https://www.etnews.com/20261105000029",
+          "source": "전자신문",
+          "published_dt": "2026-11-05 16:00:00",
+          "match_score": 37.49
+        },
+        {
+          "title": "삼성전자·SK닉스, 일본서 반도체 핵심인재 확보전…패키징·HBM 기술력 강화 - 서울이코노미뉴스",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1lWUFjb050M0FnYWN6MmVTZ203U2NZNjdfV3hNaFZmMlQzUU0yNmN3RTA0bDUwQ0p5WmtsTWo1UFpfNXU0c2tGc3o4RjBXNG0wMnhtNVZuSy1hMmxGUnRLQnB3VjNJYmwyb25tMk13?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-11-05 10:54:36",
+          "match_score": 36.96
+        },
+        {
+          "title": "호남 반도체 클러스터 “속도전”이라더니 ’10월 중 입주 협약' 첫 일정부터 못 지켜",
+          "link": "https://www.chosun.com/economy/economy_general/2026/11/06/YZPV3BSVE5EDJCOLJ7WIIP634Y/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-11-06 00:32:00",
+          "match_score": 28.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "중간선거",
+      "score": 32.2,
+      "article_count": 7,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업",
+        "부동산",
+        "정치"
+      ],
+      "sample_titles": [
+        "이란 국영TV, 트럼프 모의 교수형 생중계…중간선거 후 반미선전 확산",
+        "국고채 금리, 美 블루웨이브 파급 효과에 일제히 하락(종합)",
+        "'블루웨이브' 속 외국인 3조 순매도…환율 0.6원 오른 1,342.1원"
+      ],
+      "llm_candidate": false,
+      "rank": 7,
+      "representative_article": {
+        "title": "이란 국영TV, 트럼프 모의 교수형 생중계…중간선거 후 반미선전 확산",
+        "link": "https://www.donga.com/news/Inter/article/all/20261106/134975916/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-11-06 01:18:05",
+        "match_score": 37.3
+      },
+      "related_articles": [
+        {
+          "title": "이란 국영TV, 트럼프 모의 교수형 생중계…중간선거 후 반미선전 확산",
+          "link": "https://www.donga.com/news/Inter/article/all/20261106/134975916/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-06 01:18:05",
+          "match_score": 37.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "블루웨이브",
+      "score": 28.7,
+      "article_count": 5,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "[연합뉴스 이 시각 헤드라인] - 18:00",
+        "국고채 금리, 美 블루웨이브 파급 효과에 일제히 하락(종합)",
+        "'블루웨이브' 속 외국인 3조 순매도…환율 0.6원 오른 1,342.1원"
+      ],
+      "llm_candidate": false,
+      "rank": 8,
+      "representative_article": {
+        "title": "美 '블루웨이브' 후폭풍에 코스피 5% 폭락…AI 데이터센터 산업 규제 우려 확산",
+        "link": "https://www.etnews.com/20261105000437",
+        "source": "전자신문",
+        "published_dt": "2026-11-05 16:19:26",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "美 '블루웨이브' 후폭풍에 코스피 5% 폭락…AI 데이터센터 산업 규제 우려 확산",
+          "link": "https://www.etnews.com/20261105000437",
+          "source": "전자신문",
+          "published_dt": "2026-11-05 16:19:26",
+          "match_score": 37.49
+        },
+        {
+          "title": "국고채 금리, 美 블루웨이브 파급 효과에 일제히 하락(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261105151251008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-05 16:55:40",
+          "match_score": 28.68
+        },
+        {
+          "title": "'블루웨이브' 속 외국인 3조 순매도…환율 0.6원 오른 1,342.1원",
+          "link": "https://www.yna.co.kr/view/AKR20261105138400002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-05 16:07:45",
+          "match_score": 28.68
+        },
+        {
+          "title": "美블루웨이브에 데이터센터 규제 우려…증권가 \"AI산업 기업별 희비 전망\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261105038651008",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-11-05 15:44:46",
+          "match_score": 28.68
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "3분기",
+      "score": 25.1,
+      "article_count": 5,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "KT&G 3분기 영업익 13.9% 증가…분기 역대 최대 실적(종합)",
+        "내년 신작 13종 쏟아내는 넷마블…\"AI로 퍼블리싱 효율화\"(종합2보)",
+        "한투증권, 3분기 영업익 3천487억원…전년 동기 대비 58% 감소(종합)"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "KT&G 3분기 영업익 13.9% 증가…분기 역대 최대 실적(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261105130651527",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-11-05 16:17:09",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "KT&G 3분기 영업익 13.9% 증가…분기 역대 최대 실적(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261105130651527",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-05 16:17:09",
+          "match_score": 37.67
+        },
+        {
+          "title": "한투증권, 3분기 영업익 3천487억원…전년 동기 대비 58% 감소(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261105141051527",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-11-05 16:54:01",
+          "match_score": 37.67
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "민주당",
+      "score": 23.6,
+      "article_count": 4,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "'블루웨이브' 속 외국인 3조 순매도…환율 0.6원 오른 1,342.1원",
+        "美블루웨이브에 데이터센터 규제 우려…증권가 \"AI산업 기업별 희비 전망\"(종합)",
+        "김영배 “이대로면 서울 37석 반토막”…민주당 의원들 “비거주도 종부세 14억으로”"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "김영배 “이대로면 서울 37석 반토막”…민주당 의원들 “비거주도 종부세 14억으로”",
+        "link": "https://www.mk.co.kr/news/realestate/12198822",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-11-05 19:36:20",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "김영배 “이대로면 서울 37석 반토막”…민주당 의원들 “비거주도 종부세 14억으로”",
+          "link": "https://www.mk.co.kr/news/realestate/12198822",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-05 19:36:20",
+          "match_score": 37.49
+        },
+        {
+          "title": "자충수 된 트럼프의 선거구 재획정…“민주당 하원 최소 8석 가져가”",
+          "link": "https://www.donga.com/news/Inter/article/all/20261105/134970507/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-05 11:03:36",
+          "match_score": 37.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
