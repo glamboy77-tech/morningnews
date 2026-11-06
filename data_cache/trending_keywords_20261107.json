@@ -1,0 +1,508 @@
+{
+  "timestamp": "2026-11-07T06:01:32.667482",
+  "date": "20261107",
+  "data": [
+    {
+      "keyword": "재건축 부담",
+      "reason": "강남 재건축 비용 상승과 재초환 문제 집중 보도",
+      "score": 41.31,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "은마 재초환 평균 4억6334만원…재건축 부담, 집값보다 사업성이 가른다 - 에너지경제신문"
+      ],
+      "representative_article": {
+        "title": "은마 재초환 평균 4억6334만원…재건축 부담, 집값보다 사업성이 가른다 - 에너지경제신문",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBDTzZTVmdZa2ZMODZGaHlfeVhoYkFDUWtpWHBuZHgxX1R3Nmd6bndFZTd0SlNZaHEtN1U2LW1RZTVuaHNmOUcwUGJ4S0JBeTVGZjJvWTJLbC0zQms?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-11-06 21:39:06",
+        "match_score": 41.31
+      },
+      "related_articles": [
+        {
+          "title": "은마 재초환 평균 4억6334만원…재건축 부담, 집값보다 사업성이 가른다 - 에너지경제신문",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBDTzZTVmdZa2ZMODZGaHlfeVhoYkFDUWtpWHBuZHgxX1R3Nmd6bndFZTd0SlNZaHEtN1U2LW1RZTVuaHNmOUcwUGJ4S0JBeTVGZjJvWTJLbC0zQms?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-11-06 21:39:06",
+          "match_score": 41.31
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "특검법안",
+      "reason": "조작기소 특검법안 통과와 여야 공방",
+      "score": 32.67,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "조작기소 특검법안, 與주도로 국회통과…국힘 \"이재명 방탄악법\"(종합)"
+      ],
+      "representative_article": {
+        "title": "조작기소 특검법안, 與주도로 국회통과…국힘 \"이재명 방탄악법\"(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261106131151001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-11-06 18:06:39",
+        "match_score": 32.67
+      },
+      "related_articles": [
+        {
+          "title": "조작기소 특검법안, 與주도로 국회통과…국힘 \"이재명 방탄악법\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261106131151001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-11-06 18:06:39",
+          "match_score": 32.67
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "아파트",
+      "score": 66.9,
+      "article_count": 15,
+      "source_count": 3,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "263억 찍고 ‘한국 최고가 아파트’ 올랐는데…“로열층은 1층” [슈퍼 리치의 아파트]",
+        "엎친데 덮친 강남 아파트…반포 원베일리도 14.5억 뚝",
+        "강남에 분양가 40억 아파트 등장…'30가구 룰' 뭐길래 - 한국경제"
+      ],
+      "llm_candidate": false,
+      "rank": 3,
+      "representative_article": {
+        "title": "263억 찍고 ‘한국 최고가 아파트’ 올랐는데…“로열층은 1층” [슈퍼 리치의 아파트]",
+        "link": "https://www.mk.co.kr/news/realestate/12200965",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-11-06 21:48:06",
+        "match_score": 38.09
+      },
+      "related_articles": [
+        {
+          "title": "263억 찍고 ‘한국 최고가 아파트’ 올랐는데…“로열층은 1층” [슈퍼 리치의 아파트]",
+          "link": "https://www.mk.co.kr/news/realestate/12200965",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-06 21:48:06",
+          "match_score": 38.09
+        },
+        {
+          "title": "엎친데 덮친 강남 아파트…반포 원베일리도 14.5억 뚝",
+          "link": "https://www.mk.co.kr/news/realestate/12200668",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-06 17:25:16",
+          "match_score": 38.09
+        },
+        {
+          "title": "“20억 하던 강남 아파트가 14억?”…강남 소형 아파트까지 가격 ‘뚝’",
+          "link": "https://www.mk.co.kr/news/realestate/12200391",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-06 13:59:01",
+          "match_score": 37.49
+        },
+        {
+          "title": "“그 많은 정비사업 이주수요 어떡해”…서울 아파트 전셋값 전고점 눈앞",
+          "link": "https://www.mk.co.kr/news/economy/12200251",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-06 10:17:35",
+          "match_score": 37.49
+        },
+        {
+          "title": "강남구 대치동 선경1차 51억원·압구정동 현대14차 51억원… 서울 아파트 실거래가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12200152",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-06 09:00:16",
+          "match_score": 37.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "코스피",
+      "score": 68.5,
+      "article_count": 13,
+      "source_count": 5,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "“변동성 확대시 추가조치” F4회의 이어 ‘내수 촉진’ 현장 찾은 이형일",
+        "연봉도, 퇴직연금도 날렸는데…저가매수 기회? 억지 희망고문하는 개미들",
+        "퍼렇게 질린 코스피, 장중 ‘오천피’ 깨졌다"
+      ],
+      "llm_candidate": false,
+      "rank": 4,
+      "representative_article": {
+        "title": "씨티 \"코스피 급락에도 11월 금리 인상 전망 유지\"",
+        "link": "https://www.yna.co.kr/view/AKR20261106149800002",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-11-06 16:44:06",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "씨티 \"코스피 급락에도 11월 금리 인상 전망 유지\"",
+          "link": "https://www.yna.co.kr/view/AKR20261106149800002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-06 16:44:06",
+          "match_score": 37.67
+        },
+        {
+          "title": "코스피 장중 4900선까지 폭락…AI 산업 규제 우려가 현실로",
+          "link": "https://www.etnews.com/20261106000268",
+          "source": "전자신문",
+          "published_dt": "2026-11-06 15:52:25",
+          "match_score": 37.49
+        },
+        {
+          "title": "한동훈, 코스피 5000 무너지자…“'삼전닉스 몰빵' 국민연금, 李 대통령이 직접 밝혀라”",
+          "link": "https://www.etnews.com/20261106000103",
+          "source": "전자신문",
+          "published_dt": "2026-11-06 10:19:20",
+          "match_score": 37.49
+        },
+        {
+          "title": "코스닥 이어 코스피도 매도사이드카 발동",
+          "link": "https://www.etnews.com/20261106000100",
+          "source": "전자신문",
+          "published_dt": "2026-11-06 10:17:57",
+          "match_score": 37.49
+        },
+        {
+          "title": "퍼렇게 질린 코스피, 장중 ‘오천피’ 깨졌다",
+          "link": "https://www.donga.com/news/Economy/article/all/20261107/134982654/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-07 01:40:00",
+          "match_score": 37.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "부동산",
+      "score": 78.4,
+      "article_count": 13,
+      "source_count": 2,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "[단독]\"수원 권선·안양 만안도 규제, 25억 넘으면 대출 0원\" 또 퍼진 부동산 규제 지라시",
+        "\"부동산 세제 개편이 민주당 서울 의석 반토막 낼 것\" 서울 민주당 의원 '총선 비상'",
+        "동대문구 전농우성 115.56㎡ 11억 9800만원… 최근 3년 신고가 [MAI부동산]"
+      ],
+      "llm_candidate": false,
+      "rank": 5,
+      "representative_article": {
+        "title": "[단독]\"수원 권선·안양 만안도 규제, 25억 넘으면 대출 0원\" 또 퍼진 부동산 규제 지라시",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/11/06/2026110601241.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-11-06 17:54:56",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "[단독]\"수원 권선·안양 만안도 규제, 25억 넘으면 대출 0원\" 또 퍼진 부동산 규제 지라시",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/11/06/2026110601241.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-11-06 17:54:56",
+          "match_score": 37.49
+        },
+        {
+          "title": "\"부동산 세제 개편이 민주당 서울 의석 반토막 낼 것\" 서울 민주당 의원 '총선 비상'",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/11/06/2026110601634.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-11-06 14:09:14",
+          "match_score": 37.49
+        },
+        {
+          "title": "동대문구 전농우성 115.56㎡ 11억 9800만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12200157",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-06 09:01:17",
+          "match_score": 37.49
+        },
+        {
+          "title": "중랑구 면목동 용마한신 44.35㎡ 5억 9천만원…최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12200158",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-06 09:01:17",
+          "match_score": 37.49
+        },
+        {
+          "title": "성북구 한신플러스C 84.95㎡ 10억 8천만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12200159",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-06 09:01:17",
+          "match_score": 37.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "신고가",
+      "score": 66.7,
+      "article_count": 12,
+      "source_count": 3,
+      "categories": [
+        "국제",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "“60분 뒤 폭발한다”…유럽 여객기 27대 동시다발 테러 위협, 무슨 일?",
+        "동대문구 전농우성 115.56㎡ 11억 9800만원… 최근 3년 신고가 [MAI부동산]",
+        "중랑구 면목동 용마한신 44.35㎡ 5억 9천만원…최근 3년 신고가 [MAI부동산]"
+      ],
+      "llm_candidate": false,
+      "rank": 6,
+      "representative_article": {
+        "title": "동대문구 전농우성 115.56㎡ 11억 9800만원… 최근 3년 신고가 [MAI부동산]",
+        "link": "https://www.mk.co.kr/news/realestate/12200157",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-11-06 09:01:17",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "동대문구 전농우성 115.56㎡ 11억 9800만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12200157",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-06 09:01:17",
+          "match_score": 37.49
+        },
+        {
+          "title": "중랑구 면목동 용마한신 44.35㎡ 5억 9천만원…최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12200158",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-06 09:01:17",
+          "match_score": 37.49
+        },
+        {
+          "title": "성북구 석관동 코오롱 59.94㎡ 8억 6천만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12200160",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-06 09:01:17",
+          "match_score": 37.49
+        },
+        {
+          "title": "구로구 온수힐스테이트 84.97㎡ 9억 4천만원 거래…최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12200162",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-06 09:01:17",
+          "match_score": 37.49
+        },
+        {
+          "title": "동대문구 답십리동 동서울한양 59.67㎡ 7억 8천만원 거래… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12200154",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-06 09:01:16",
+          "match_score": 37.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "국토부",
+      "score": 38.7,
+      "article_count": 12,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "“손뼉 맞추자”더니…‘공공 vs 민간’ 주택공급 주도권 싸움하는 국토부·서울시",
+        "동대문구 전농우성 115.56㎡ 11억 9800만원… 최근 3년 신고가 [MAI부동산]",
+        "중랑구 면목동 용마한신 44.35㎡ 5억 9천만원…최근 3년 신고가 [MAI부동산]"
+      ],
+      "llm_candidate": false,
+      "rank": 7,
+      "representative_article": {
+        "title": "“손뼉 맞추자”더니…‘공공 vs 민간’ 주택공급 주도권 싸움하는 국토부·서울시",
+        "link": "https://www.mk.co.kr/news/realestate/12200338",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-11-06 11:24:27",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "“손뼉 맞추자”더니…‘공공 vs 민간’ 주택공급 주도권 싸움하는 국토부·서울시",
+          "link": "https://www.mk.co.kr/news/realestate/12200338",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-06 11:24:27",
+          "match_score": 37.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "MAI",
+      "score": 65.9,
+      "article_count": 11,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "동대문구 전농우성 115.56㎡ 11억 9800만원… 최근 3년 신고가 [MAI부동산]",
+        "중랑구 면목동 용마한신 44.35㎡ 5억 9천만원…최근 3년 신고가 [MAI부동산]",
+        "성북구 한신플러스C 84.95㎡ 10억 8천만원… 최근 3년 신고가 [MAI부동산]"
+      ],
+      "llm_candidate": false,
+      "rank": 8,
+      "representative_article": {
+        "title": "동대문구 전농우성 115.56㎡ 11억 9800만원… 최근 3년 신고가 [MAI부동산]",
+        "link": "https://www.mk.co.kr/news/realestate/12200157",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-11-06 09:01:17",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "동대문구 전농우성 115.56㎡ 11억 9800만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12200157",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-06 09:01:17",
+          "match_score": 37.49
+        },
+        {
+          "title": "중랑구 면목동 용마한신 44.35㎡ 5억 9천만원…최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12200158",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-06 09:01:17",
+          "match_score": 37.49
+        },
+        {
+          "title": "성북구 한신플러스C 84.95㎡ 10억 8천만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12200159",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-06 09:01:17",
+          "match_score": 37.49
+        },
+        {
+          "title": "성북구 석관동 코오롱 59.94㎡ 8억 6천만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12200160",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-06 09:01:17",
+          "match_score": 37.49
+        },
+        {
+          "title": "노원구 상계주공14단지 45.9㎡ 5억 1천만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12200161",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-06 09:01:17",
+          "match_score": 37.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "실거래",
+      "score": 35.9,
+      "article_count": 11,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "“20억 하던 강남 아파트가 14억?”…강남 소형 아파트까지 가격 ‘뚝’",
+        "동대문구 전농우성 115.56㎡ 11억 9800만원… 최근 3년 신고가 [MAI부동산]",
+        "중랑구 면목동 용마한신 44.35㎡ 5억 9천만원…최근 3년 신고가 [MAI부동산]"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "강남구 대치동 선경1차 51억원·압구정동 현대14차 51억원… 서울 아파트 실거래가 [MAI부동산]",
+        "link": "https://www.mk.co.kr/news/realestate/12200152",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-11-06 09:00:16",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "강남구 대치동 선경1차 51억원·압구정동 현대14차 51억원… 서울 아파트 실거래가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12200152",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-06 09:00:16",
+          "match_score": 37.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "반도체",
+      "score": 49.6,
+      "article_count": 10,
+      "source_count": 6,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "국내 3대 재정학회 “반도체 호황에 기댄 확장재정 위험…미래대응기금 재검토해야”",
+        "퍼렇게 질린 코스피, 장중 ‘오천피’ 깨졌다",
+        "다카이치 “日銀 ETF 매각 이익으로 반도체·AI 투자”"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "전남광주시, 호남권 반도체 국가산단 기반시설 확보 '주력'",
+        "link": "https://www.yna.co.kr/view/AKR20261106134500054",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-11-06 16:14:06",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "전남광주시, 호남권 반도체 국가산단 기반시설 확보 '주력'",
+          "link": "https://www.yna.co.kr/view/AKR20261106134500054",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-11-06 16:14:06",
+          "match_score": 37.67
+        },
+        {
+          "title": "'반도체 부품 제조' 동원파츠 코스닥 신규상장…10일부터 거래",
+          "link": "https://www.yna.co.kr/view/AKR20261106175700008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-06 18:52:59",
+          "match_score": 28.68
+        },
+        {
+          "title": "국내 3대 재정학회 “반도체 호황에 기댄 확장재정 위험…미래대응기금 재검토해야”",
+          "link": "https://www.mk.co.kr/news/economy/12200768",
+          "source": "매일경제-경제",
+          "published_dt": "2026-11-06 18:31:10",
+          "match_score": 28.66
+        },
+        {
+          "title": "다카이치 “日銀 ETF 매각 이익으로 반도체·AI 투자”",
+          "link": "https://www.mk.co.kr/news/world/12200962",
+          "source": "매일경제-경제",
+          "published_dt": "2026-11-06 21:44:44",
+          "match_score": 28.66
+        },
+        {
+          "title": "‘AI의 심장’ 데이터센터 막힐라… 반도체·인프라株 줄줄이 패닉셀",
+          "link": "https://www.chosun.com/economy/tech_it/2026/11/07/SK7S57NEBJHDNODQT7OV36BZ4Y/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-11-07 00:38:00",
+          "match_score": 28.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
