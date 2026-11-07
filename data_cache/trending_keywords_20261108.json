@@ -1,0 +1,424 @@
+{
+  "timestamp": "2026-11-08T06:01:10.945287",
+  "date": "20261108",
+  "data": [
+    {
+      "keyword": "인사 전횡",
+      "reason": "정치권 이용철 지명 철회 공방",
+      "score": 20.82,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "국힘 \"李대통령 인사전횡 막장의 끝…이용철 지명 철회하라\""
+      ],
+      "representative_article": {
+        "title": "국힘 \"李대통령 인사전횡 막장의 끝…이용철 지명 철회하라\"",
+        "link": "https://www.yna.co.kr/view/AKR20261107028200001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-11-07 11:29:56",
+        "match_score": 20.82
+      },
+      "related_articles": [
+        {
+          "title": "국힘 \"李대통령 인사전횡 막장의 끝…이용철 지명 철회하라\"",
+          "link": "https://www.yna.co.kr/view/AKR20261107028200001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-11-07 11:29:56",
+          "match_score": 20.82
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "미국 데이터센터",
+      "reason": "내년 경제 변수 우려",
+      "score": 33.33,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "미국 데이터센터 제동 우려, 내년 한국 성장률에 변수 되나"
+      ],
+      "representative_article": {
+        "title": "미국 데이터센터 제동 우려, 내년 한국 성장률에 변수 되나",
+        "link": "https://www.yna.co.kr/view/AKR20261107047200002",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-11-08 05:51:05",
+        "match_score": 33.33
+      },
+      "related_articles": [
+        {
+          "title": "미국 데이터센터 제동 우려, 내년 한국 성장률에 변수 되나",
+          "link": "https://www.yna.co.kr/view/AKR20261107047200002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-08 05:51:05",
+          "match_score": 33.33
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "그룹 간 교류",
+      "reason": "삼성·현대차 협력 행사",
+      "score": 18.88,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "삼전·현대차 첫 그룹간 교류…이재용·정의선 등 177명 총출동"
+      ],
+      "representative_article": {
+        "title": "삼전·현대차 첫 그룹간 교류…이재용·정의선 등 177명 총출동",
+        "link": "https://www.yna.co.kr/view/AKR20261107031000003",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-11-08 05:55:01",
+        "match_score": 18.88
+      },
+      "related_articles": [
+        {
+          "title": "삼전·현대차 첫 그룹간 교류…이재용·정의선 등 177명 총출동",
+          "link": "https://www.yna.co.kr/view/AKR20261107031000003",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-11-08 05:55:01",
+          "match_score": 18.88
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "중간선거",
+      "score": 35.9,
+      "article_count": 7,
+      "source_count": 5,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "“美 중간선거 후폭풍, 데이터센터 제동에”…13.6조 원전 ‘선급금’ 논란",
+        "[美선거 산업여파] ④ 군함 해외건조 규제완화 등 '마스가' 실행에도 변수",
+        "[美선거 산업여파] ② 자동차 관세 부담 지속될 듯…전기차는 기대"
+      ],
+      "llm_candidate": false,
+      "rank": 4,
+      "representative_article": {
+        "title": "“美 중간선거 후폭풍, 데이터센터 제동에”…13.6조 원전 ‘선급금’ 논란",
+        "link": "https://www.mk.co.kr/news/economy/12201386",
+        "source": "매일경제-경제",
+        "published_dt": "2026-11-07 09:13:19",
+        "match_score": 37.66
+      },
+      "related_articles": [
+        {
+          "title": "“美 중간선거 후폭풍, 데이터센터 제동에”…13.6조 원전 ‘선급금’ 논란",
+          "link": "https://www.mk.co.kr/news/economy/12201386",
+          "source": "매일경제-경제",
+          "published_dt": "2026-11-07 09:13:19",
+          "match_score": 37.66
+        },
+        {
+          "title": "밴스, ‘중간선거 패배는 이란전 탓’ 트럼프에 미리 알렸다",
+          "link": "https://www.donga.com/news/Inter/article/all/20261107/134983844/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-07 22:38:42",
+          "match_score": 37.3
+        },
+        {
+          "title": "트럼프 “이란 방공시설에 소규모 공격 실시”…중간선거 참패 후 처음",
+          "link": "https://www.donga.com/news/Inter/article/all/20261107/134983408/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-07 14:40:30",
+          "match_score": 37.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "반도체",
+      "score": 39.8,
+      "article_count": 7,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "기업간 '초양극화'…대·중소기업 이자보상비율 격차 최대",
+        "반도체 호황에 기업 여윳돈 넘쳐…고액 예금 1천조 육박",
+        "[美선거 산업여파] ① 텍사스도 블루웨이브…반도체 공장 보조금 변동 촉각"
+      ],
+      "llm_candidate": false,
+      "rank": 5,
+      "representative_article": {
+        "title": "[美선거 산업여파] ① 텍사스도 블루웨이브…반도체 공장 보조금 변동 촉각",
+        "link": "https://www.yna.co.kr/view/AKR20261106146900003",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-11-08 05:31:10",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "[美선거 산업여파] ① 텍사스도 블루웨이브…반도체 공장 보조금 변동 촉각",
+          "link": "https://www.yna.co.kr/view/AKR20261106146900003",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-11-08 05:31:10",
+          "match_score": 37.67
+        },
+        {
+          "title": "반도체 지자체, 내년 법인지방소득세 최대 약 12배로 늘 전망",
+          "link": "https://www.yna.co.kr/view/AKR20261106129700061",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-11-07 09:09:00",
+          "match_score": 37.67
+        },
+        {
+          "title": "[단독] 은행, 반도체·배터리 기업 재무평가 우대한다",
+          "link": "https://www.mk.co.kr/news/economy/12201384",
+          "source": "매일경제-경제",
+          "published_dt": "2026-11-07 09:01:37",
+          "match_score": 37.66
+        },
+        {
+          "title": "[미리보는 소부장 테크페어]〈1〉ST, SiC·GaN 차세대 전력 반도체로 성장 동력 강화",
+          "link": "https://www.etnews.com/20261106000102",
+          "source": "전자신문",
+          "published_dt": "2026-11-07 09:00:00",
+          "match_score": 37.49
+        },
+        {
+          "title": "반도체 호황에 기업 여윳돈 넘쳐…고액 예금 1천조 육박",
+          "link": "https://www.yna.co.kr/view/AKR20261107039500002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-08 05:47:00",
+          "match_score": 28.82
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "민주당",
+      "score": 27.9,
+      "article_count": 6,
+      "source_count": 5,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "미국 데이터센터 제동 우려, 내년 한국 성장률에 변수 되나",
+        "“美 중간선거 후폭풍, 데이터센터 제동에”…13.6조 원전 ‘선급금’ 논란",
+        "[美선거 산업여파] ④ 군함 해외건조 규제완화 등 '마스가' 실행에도 변수"
+      ],
+      "llm_candidate": false,
+      "rank": 6,
+      "representative_article": {
+        "title": "美민주당, 애리조나서 60년 만에 ‘3관왕’… 주지사·상하원 싹쓸이",
+        "link": "https://www.donga.com/news/Inter/article/all/20261107/134983164/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-11-07 10:21:00",
+        "match_score": 37.3
+      },
+      "related_articles": [
+        {
+          "title": "美민주당, 애리조나서 60년 만에 ‘3관왕’… 주지사·상하원 싹쓸이",
+          "link": "https://www.donga.com/news/Inter/article/all/20261107/134983164/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-07 10:21:00",
+          "match_score": 37.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "아파트",
+      "score": 26.3,
+      "article_count": 5,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "강남 급매물 35억 ‘뚝’ 떨어졌는데…집값 3.5억 ‘껑충’ 뛰는 곳 보니",
+        "李 대통령이 '놀라울 정도로 떨어지고 있다'는 강남3구…원베일리 71.5억→57억, 14.5억 '뚝'",
+        "“안된다” 모두 거절했는데…“13층부터 1층까지” 노부부 소파 메고 내려온 기사"
+      ],
+      "llm_candidate": false,
+      "rank": 7,
+      "representative_article": {
+        "title": "아파트 관리 플랫폼 '아파트너', 입주민 휴대전화번호 유출",
+        "link": "https://www.etnews.com/20261107000012",
+        "source": "전자신문",
+        "published_dt": "2026-11-07 10:31:03",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "아파트 관리 플랫폼 '아파트너', 입주민 휴대전화번호 유출",
+          "link": "https://www.etnews.com/20261107000012",
+          "source": "전자신문",
+          "published_dt": "2026-11-07 10:31:03",
+          "match_score": 37.49
+        },
+        {
+          "title": "[챗집피티]\"3억 껑충\" 목동 옆 노후 아파트 '들썩'...3149가구 들어선다 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBncDktMXNzZkl0cXhQcWJBOEhHX1RBandCeXgxNWotRmhkU25FUkQ2ZWtlYkxHTWxsNkFWUG5HTWZJM1g1QmQyeXBrUTNqaVhwYjUtTEhtQmgxTHVGdmZRMUpPNGlFMVZPVVHSAW9BVV95cUxOZHZXdFdKV3lvU0o3SnBwMmY5X0ZvSmh4ZGZROGN6LUNVVVpOeDBmcFBSd2RPU251Y3ZXVTZrUmlsaDZ2ZXk2bm1JQ1l0ZWg5VmxVcVg4TGlwSDF6Q29aMEpQZUdfdGJ0M0tiTUUtbEE?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-11-08 04:30:00",
+          "match_score": 36.96
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "산업여파",
+      "score": 28.9,
+      "article_count": 5,
+      "source_count": 3,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "[美선거 산업여파] ④ 군함 해외건조 규제완화 등 '마스가' 실행에도 변수",
+        "[美선거 산업여파] ② 자동차 관세 부담 지속될 듯…전기차는 기대",
+        "[美선거 산업여파] ⑤ 대미투자 셈법 복잡…\"상업적 합리성 더 따져야\""
+      ],
+      "llm_candidate": false,
+      "rank": 8,
+      "representative_article": {
+        "title": "[美선거 산업여파] ④ 군함 해외건조 규제완화 등 '마스가' 실행에도 변수",
+        "link": "https://www.yna.co.kr/view/AKR20261107047300003",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-11-08 05:31:41",
+        "match_score": 28.82
+      },
+      "related_articles": [
+        {
+          "title": "[美선거 산업여파] ④ 군함 해외건조 규제완화 등 '마스가' 실행에도 변수",
+          "link": "https://www.yna.co.kr/view/AKR20261107047300003",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-11-08 05:31:41",
+          "match_score": 28.82
+        },
+        {
+          "title": "[美선거 산업여파] ② 자동차 관세 부담 지속될 듯…전기차는 기대",
+          "link": "https://www.yna.co.kr/view/AKR20261106181800003",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-08 05:31:21",
+          "match_score": 28.82
+        },
+        {
+          "title": "[美선거 산업여파] ⑤ 대미투자 셈법 복잡…\"상업적 합리성 더 따져야\"",
+          "link": "https://www.yna.co.kr/view/AKR20261107029200003",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-11-08 05:31:50",
+          "match_score": 28.68
+        },
+        {
+          "title": "[美선거 산업여파] ③ 친환경 정책 돌아오나…K배터리·태양광 훈풍 기대",
+          "link": "https://www.yna.co.kr/view/AKR20261106170700003",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-11-08 05:31:30",
+          "match_score": 28.68
+        },
+        {
+          "title": "[美선거 산업여파] ① 텍사스도 블루웨이브…반도체 공장 보조금 변동 촉각",
+          "link": "https://www.yna.co.kr/view/AKR20261106146900003",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-11-08 05:31:10",
+          "match_score": 28.68
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "앞두고",
+      "score": 20.3,
+      "article_count": 4,
+      "source_count": 3,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "수능 앞두고 대통령도 경계한 AI안경 부정행위…뿔테 수험생 “안경 빼앗기면 어떡하나”",
+        "연말 법인차 왕좌는…벤츠 S·BMW 7·제네시스 G90 '플래그십 삼국지' 개막",
+        "매디슨 황, 입국 하루 앞두고 방한 취소…엔비디아 행사 예정대로"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "수능 앞두고 대통령도 경계한 AI안경 부정행위…뿔테 수험생 “안경 빼앗기면 어떡하나”",
+        "link": "https://www.etnews.com/20261107000027",
+        "source": "전자신문",
+        "published_dt": "2026-11-07 16:50:00",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "수능 앞두고 대통령도 경계한 AI안경 부정행위…뿔테 수험생 “안경 빼앗기면 어떡하나”",
+          "link": "https://www.etnews.com/20261107000027",
+          "source": "전자신문",
+          "published_dt": "2026-11-07 16:50:00",
+          "match_score": 37.49
+        },
+        {
+          "title": "매디슨 황, 입국 하루 앞두고 방한 취소…엔비디아 행사 예정대로",
+          "link": "https://www.chosun.com/economy/tech_it/2026/11/07/GIYGMOBVGM3WIYRRGBTDKZLFGU/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-11-07 22:02:19",
+          "match_score": 28.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "삼성전자",
+      "score": 18.1,
+      "article_count": 4,
+      "source_count": 3,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "삼전·현대차 첫 그룹간 교류…이재용·정의선 등 177명 총출동",
+        "“주식 더 떨어져도 좋아?”…20만전자 무너졌는데 “손실은 주주가 떠안나”",
+        "반도체 지자체, 내년 법인지방소득세 최대 약 12배로 늘 전망"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "삼성전자 美테일러 공장 양산 초읽기…내달 시험 가동 전망 - 스페셜경제",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5OWWxzeDdLaFZtTFl3Sm9tX0lqaExYb3ROWVNzRXNFMC1vWTI5RnM1dkM2aTh6c0twSEY0OGhvRkRmcnVfNHFQb0ktV084Sm5UUnlCN1gtd3VDVHRqQ3RTQldUM2FWZ3BjWTFUaQ?oc=5",
+        "source": "키워드-반도체AI",
+        "published_dt": "2026-11-07 10:17:50",
+        "match_score": 36.96
+      },
+      "related_articles": [
+        {
+          "title": "삼성전자 美테일러 공장 양산 초읽기…내달 시험 가동 전망 - 스페셜경제",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5OWWxzeDdLaFZtTFl3Sm9tX0lqaExYb3ROWVNzRXNFMC1vWTI5RnM1dkM2aTh6c0twSEY0OGhvRkRmcnVfNHFQb0ktV084Sm5UUnlCN1gtd3VDVHRqQ3RTQldUM2FWZ3BjWTFUaQ?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-11-07 10:17:50",
+          "match_score": 36.96
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
