@@ -1,0 +1,382 @@
+{
+  "timestamp": "2026-11-10T06:01:08.249594",
+  "date": "20261110",
+  "data": {
+    "젠슨 황": {
+      "articles": [
+        {
+          "title": "미 의회, 젠슨 황 조사 압박…중국 AI 칩 거래·정부 책임도 겨냥",
+          "link": "https://www.aitimes.com/news/articleView.html?idxno=217195",
+          "source": "AI타임스",
+          "published_dt": "2026-11-10 14:55:06",
+          "description": "젠슨 황 엔비디아 CEO를 둘러싼 중국 스파이 의혹이 미국 의회의 중국 AI 반도체 수출 정책과 트럼프 행정부에 대한 감독 문제로 이어지고 있다. 공화당이 비공개 브리핑을 요구한 데 이어 민주당도 상무장관의 증언과 의회 조사를 촉구하면서, 엔비디아의 중국 관련 사업과 미국 정부의 수출 허가 결정 과정까지 쟁점으로 떠오르고 있다.CNBC와 로이터 등은 9일(현지시간) 민주당 의원들이 엔비디아에 대한 조사와 트럼프 행정부의 책임 규명을 요구하고 있다고 보도했다. 최근 중간선거에서 상·하원 다수당을 확보한 민주당이 내년 1월 새 의회 출",
+          "category": "domestic",
+          "feed_url": "https://www.aitimes.com/rss/allArticle.xml",
+          "image_url": "",
+          "source_type": "tech",
+          "source_weight": 1.15,
+          "source_badge": "테크",
+          "deduped_sources": [
+            {
+              "source": "AI타임스",
+              "title": "엔비디아 주가 장중 8.8% 급락…주요 투자자들은 젠슨 황 잔류 지지",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217194"
+            },
+            {
+              "source": "AI타임스",
+              "title": "\"젠슨 황 후계자 없다\"…엔비디아 자녀들 영향력 확대에 승계 논란",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217193"
+            },
+            {
+              "source": "AI타임스",
+              "title": "젠슨 황 논란에 엔비디아 침묵…정부 \"GPU 공급 차질 없어\"",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217190"
+            },
+            {
+              "source": "AI타임스",
+              "title": "엔비디아, 국내 AI 스타트업 3곳 투자 낙점...리얼월드·업스테이지·모티프",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217188"
+            },
+            {
+              "source": "AI타임스",
+              "title": "카카오모빌리티-엔비디아, 레벨4 자율주행 협력…기아 PBV 우선 적용",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217187"
+            },
+            {
+              "source": "AI타임스",
+              "title": "PSI \"비공개 앤트로픽 AI로 18년 된 양자 난제 증명\"",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217177"
+            },
+            {
+              "source": "AI타임스",
+              "title": "엔비디아, 로봇 AI 추론 5배 빠르게 하는 'V플래시' 공개",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217176"
+            },
+            {
+              "source": "AI타임스",
+              "title": "구글, 코딩 전 설계 오류 잡는 '코끼리-금붕어' 플러그인 공개",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217179"
+            },
+            {
+              "source": "AI타임스",
+              "title": "AI 학습 데이터 0.1%만 조작해도 에이전트에 원격 코드 백도어 심을 수 있어",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217183"
+            },
+            {
+              "source": "AI타임스",
+              "title": "모티프, 엔비디아 투자로 독파모 후속작 ‘모티프 4’ 개발한다",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217182"
+            },
+            {
+              "source": "AI타임스",
+              "title": "누스 리서치, 중국 AI 모델의 정치 편향 답변 22%→0.9%로 줄여",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217181"
+            },
+            {
+              "source": "AI타임스",
+              "title": "LGU+, 서울대·KAIST·연세대와 '말투·맥락 이해하는 음성 AI' 개발",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217180"
+            },
+            {
+              "source": "AI타임스",
+              "title": "구글 AI, 구형 RSA 암호 약점 2건 발견…인수분해 비용 30배 낮출 알고리즘 개발",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217169"
+            },
+            {
+              "source": "AI타임스",
+              "title": "아마존, '아스트로' 실패 딛고 가정용 로봇 재도전…피지컬 AI 발전에 기대",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217178"
+            },
+            {
+              "source": "AI타임스",
+              "title": "엔비디아·SK텔레콤·리벨리온, 이기종 AI 컴퓨팅 겨냥 3각 동맹",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217170"
+            },
+            {
+              "source": "AI타임스",
+              "title": "LG, 'K-엑사원 2.5' API 전면 무료 개방…개발자 진입 장벽 낮춘다",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217175"
+            },
+            {
+              "source": "AI타임스",
+              "title": "오픈AI, 생명과학 AI 벤치마크 공개…GPT-6 아스트라 성능 23%P 향상",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217167"
+            },
+            {
+              "source": "AI타임스",
+              "title": "엔비디아 \"LLM에 긴 문맥 꼭 필요하지 않아\"…압축해도 성능 유지",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217166"
+            },
+            {
+              "source": "AI타임스",
+              "title": "앤트로픽, AI가 잘못된 기억 스스로 수정하는 '드리밍' 기술 효과 입증",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217161"
+            },
+            {
+              "source": "AI타임스",
+              "title": "딥시크 하네스, 일일 사용자 154만명…미국 주도 AI 에이전트 시장 도전",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217158"
+            },
+            {
+              "source": "AI타임스",
+              "title": "앤트로픽, 데이터센터 전력 확보에 4.6조 투입…가스 발전기 직접 구매",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217160"
+            },
+            {
+              "source": "AI타임스",
+              "title": "트럼프 \"민주당과 AI 규제 협력할 의사 있어\"…중간선거 패배 후 변화",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217157"
+            },
+            {
+              "source": "AI타임스",
+              "title": "\"말로 설명하면 영상 완성\"…딥브레인AI, 에이전트 탑재 AI스튜디오 5.0 공개",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217165"
+            },
+            {
+              "source": "AI타임스",
+              "title": "안랩, 하반기 두자릿수 모집 공채 실시...자회사 안랩클라우드메이트도 함께",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217163"
+            },
+            {
+              "source": "AI타임스",
+              "title": "히츠, KAIST AI-혁신신약연구단과 협약 체결...AI 플랫폼 활용 연구지원",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217159"
+            },
+            {
+              "source": "AI타임스",
+              "title": "구글, 사업 차질 빚은 크루소 AI 데이터센터 인수…170억달러 투자",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217148"
+            },
+            {
+              "source": "AI타임스",
+              "title": "브이엠에스 솔루션스, 제조 AI 전문기업 선정…생산계획 최적화 기술 확대",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217164"
+            },
+            {
+              "source": "AI타임스",
+              "title": "미국 태양광 업계, 중간선거 후 정책 지원 촉구…세액공제 복원은 불투명",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217156"
+            },
+            {
+              "source": "AI타임스",
+              "title": "인도, 농업용 관개펌프 태양광 전환 속도…국산 의무화로 116GW 시장 열려",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217153"
+            },
+            {
+              "source": "AI타임스",
+              "title": "덴마크, 태양광 송전 제한 수용하면 계통접속 부담금 면제 추진",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217151"
+            },
+            {
+              "source": "AI타임스",
+              "title": "[AI리더의 서가] AI 에이전트 시대의 연결 프로토콜",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217029"
+            },
+            {
+              "source": "AI타임스",
+              "title": "젠슨 황 \"아내에게 충실하지 못했다\" 사과…엔비디아 \"CEO직 유지\"",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217150"
+            },
+            {
+              "source": "AI타임스",
+              "title": "과학자들은 AI를 어떻게 쓸까…앤트로픽 \"데이터 분석 1위, 가설 생성 4%\"",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217147"
+            },
+            {
+              "source": "AI타임스",
+              "title": "앤트그룹, '링 3.2 플래시' 공개…시각 이해 평가서 클로드 오퍼스 5 앞서",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217146"
+            },
+            {
+              "source": "AI타임스",
+              "title": "앤트로픽, 40년 미스터리 단백질 연구 돌파구…3D 구조 첫 규명",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217145"
+            },
+            {
+              "source": "AI타임스",
+              "title": "AWS, 여러 AI 에이전트 지휘하는 '키로 봇' 출시",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217141"
+            },
+            {
+              "source": "AI타임스",
+              "title": "구글, 퀄컴 지분 7400억원 확보…AI 반도체 기업 인수로 주식 취득",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217144"
+            },
+            {
+              "source": "AI타임스",
+              "title": "아마존, 앱 없이 문자로 쇼핑 끝낸다…AI '알렉사' 문자 쇼핑 서비스 출시",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217142"
+            }
+          ],
+          "priority_score": 6,
+          "sector": "반도체",
+          "related_full_sources": []
+        },
+        {
+          "title": "젠슨황 “아내에 충실하지 못해”… 中스파이 의혹 여성과 불륜 인정",
+          "link": "https://www.donga.com/news/Inter/article/all/20261110/134995949/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-10 04:30:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/10/134995633.4.png\" vspace=\"10\" />젠슨 황 미국 엔비디아 최고경영자(CEO)가 8일(현지 시간) 사내 메일을 통해 “아내에게 충실하지 못했다(unfaithful). 내 행동에는 변명의 여지가 없다”며 중국 정보기관의 스파이란 의혹을 받고 있는 여성 앨리스 황(黃樂·황러)과의 불륜을 인정했다.  엔비디아 이사회는 이날 공식 성명을 통해 “국가 안보나 엔비디아의 기밀이 유출됐다고 볼 만한 근거는 없다”면서도 “창업자 겸 CEO 젠슨 황이 외국 정보기관의 공작 대상이 됐다는 최근 보도에 따라 독립적인 조사를 개시했다”고 밝혔다. 황 CEO가 그간 대(對)중국 반도체 수출 규제 완화를 주장해 왔고, 엔비디아가 미국과 중국의 인공지능(AI) 패권 갈등 한가운데에 있는 첨단 AI 기술 기업인 만큼 이번 스캔들이 미국의 국가안보 문제로 확산될 수 있다는 전망이 제기된다. 실제로 미국 집권 공화당과 야당 민주당 모두 황 CEO에 대한 의회 차원의 조사가 필요하다고 강조하고 있다. 이미 미 연방하원은 18일 황 CEO의 출석을",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "image_url": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/10/134995633.4.png",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "허리 감싸고 볼 뽀뽀…젠슨 황-불륜女, 스킨십 티났다",
+          "link": "https://www.donga.com/news/Inter/article/all/20261109/134991169/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-09 14:03:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/09/134992183.1.jpg\" vspace=\"10\" />젠슨 황 미국 엔비디아 최고경영자(CEO)가 불륜을 인정한 가운데 상대 여성으로 지목된 중국 국적의 엘리스 황(黃樂·황러)에 대한 관심이 높아지고 있다. 싱가포르 데이터센터 업체 메가스피드의 전직 임원으로 알려진 엘리스 황은 지난해 대만의 한 식사 자리에서 황 CEO과의 다정한 모습이 포착됐고, 최근까지도 자신의 소셜미디어(SNS)에 최근까지도 황 CEO와 함께 찍은 사진들을 올려놓았던 것으로 알려졌다.엘리스 황은 과거 방송기자와 금융회사 직원으로 근무한 이력이 있는 것으로 전해지지만, 구체적인 행적은 확인되지 않고 있다. 미 정보당국은 중국 국가안전부가 앨리스 황을 포섭해 황 CEO으로부터 첨단 반도체 관련 정보를 수집하고, 엔비디아의 대중국 반도체 수출 확대에 영향력을 행사하려 했다고 의심하고 있다. 9일 대만 TVBS와 롄허보에 따르면 황 CEO와 앨리스 황이 지난해 5월 22일 대만 타이베이 식당 ‘삼육식부(三六食府)’에서 함께 식사하는 장면에 포착됐다. 엔비디아의 거래",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "image_url": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/09/134992183.1.jpg",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "젠슨 황-中스파이 여성 불륜, 트럼프는 알고있었다",
+          "link": "https://www.donga.com/news/Inter/article/all/20261109/134990312/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-09 11:17:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/09/134990607.1.jpg\" vspace=\"10\" />마코 루비오 미국 국무장관이 젠슨 황 엔비디아 최고경영자(CEO)와 중국 정보기관의 스파이로 의심되는 여성의 친밀한 관계를 경고하는 기밀 문건 작성을 직접 감독한 것으로 전해졌다. 이 문건은 올 5월 도널드 트럼프 미국 대통령의 중국 방문을 앞두고 행정부 고위 당국자들에게 배포됐다. 8일(현지 시간) 뉴욕타임스(NYT)는 복수의 소식통을 인용해 루비오 장관이 올봄 해당 문건의 작성을 감독했다고 보도했다. 중국에 대한 첨단 인공지능(AI) 반도체 수출 규제 완화를 주장해 온 황 CEO가 트럼프 대통령에게 상당한 영향력을 행사하는 와중에 미 행정부 고위층이 관련 의혹을 이미 인지하고 있었던 점이 주목된다고 매체는 짚었다. 문건은 싱가포르 데이터센터 기업 메가스피드의 전직 고위 임원인 중국인 앨리스 황(중국명 황러)에 대한 미 정보당국의 전자감청 자료를 토대로 작성됐다. 미 당국은 황러가 중국 국가안전부(MSS)에 포섭돼 스파이 활동을 했으며, 황 CEO와 친밀한 관계라고 판단한 것으",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "image_url": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/09/134990607.1.jpg",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "젠슨 황 스캔들, K반도체에도 악재…공들인 ‘깐부’ 거취에 촉각",
+          "link": "https://www.donga.com/news/Economy/article/all/20261109/134990572/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-09 16:06:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/09/134992941.1.jpg\" vspace=\"10\" />젠슨 황 엔비디아 최고경영자(CEO)가 미국 정보당국이 중국 국가안전부 포섭 인물로 판단한 앨리스 황 전 메가스피드 임원과의 부적절한 관계를 인정했다. 엔비디아 이사회가 해당 의혹에 대한 조사를 시작하면서 향후 황 CEO의 경영권이 흔들릴 수 있을지에 관심이 쏠린다. 엔비디아에 경영 공백이 발생할 경우 협력 관계인 국내 기업에도 영향을 미칠 수 있다.8일(현지 시간) 엔비디아 이사회는 외부 법률 전문가가 참여하는 독립위원회를 구성해 황 CEO를 겨냥한 중국의 첩보 활동 의혹을 조사하겠다고 발표했다. 이사회의 조사 결과에 따라 황 CEO의 거취가 결정될 전망이다. 전 세계가 황 CEO의 스캔들을 주목하는 이유는 엔비디아가 현재 미국 증시를 이끌고 있는 거대 기업인 동시에, 최근 AI 기업들의 핵심 ‘자금줄’로 떠올랐기 때문이다. 황 CEO는 올해 8월 미국 월스트리트의 대형 금융사들과 함께 5000억 달러(약 678조 원) 규모의 AI 인프라 자금 조달 플랫폼을 마련하는가 하면 오",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "image_url": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/09/134992941.1.jpg",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "젠슨 황 불륜 의혹 시인에도…트럼프 “훌륭한 사람, CEO 유지해야”",
+          "link": "https://www.donga.com/news/Inter/article/all/20261109/134990431/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-09 10:59:08",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/09/134990432.1.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령이 8일(현지 시간) 중국 스파이로 의심 받는 여성 기업가와 불륜 의혹을 시인한 젠슨 황 엔비디아 최고경영자(CEO)를 훌륭한 인물이라고 옹호했다.가디언, 액시오스 등에 따르면 트럼프 대통령은 이날 백악관으로 돌아가기 전 취재진에게 “(젠슨 황과) 관련 의혹에 관해 얘기하지 않았다”며 “그가 훌륭한 사람이라는 것만 알고 있다”고 말했다.그는 “하지만 무슨 일이 일어나고 있는지는 아무도 모르는 법”이라며 “모든 일이 잘 되길 바란다”고 했다.또 “젠슨 황은 존경할 만한 인물이라고 생각한다. 미국을 위해 놀라운 일을 해냈다”며 “아마 그에게는 변명 거리가 있을 것”이라고 덧붙였다.황 CEO가 계속 직을 유지해야 한다고 생각하는지에 관한 질문에는 “물론이다. 그래야 한다고 생각한다”고 말했다.황 CEO가 중국 스파이와 밀접한 관계라는 미국 정보 당국의 보고에도 아무런 조치를 취하지 않은 것을 후회하냐는 질문은 일축하며, 오는 16~19일 예정된 아시아 순",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "image_url": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/09/134990432.1.jpg",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 6,
+      "role": "엔비디아 CEO"
+    },
+    "트럼프": {
+      "articles": [
+        {
+          "title": "‘헤그세스 탄핵’ 공화 3명 반란땐 하원 가결… 트럼프 부담 커져",
+          "link": "https://www.donga.com/news/Inter/article/all/20261110/134995944/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-10 04:30:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/10/134993779.4.jpg\" vspace=\"10\" />내년 1월 출범하는 미국 새 연방의회의 하원의장으로 유력한 하킴 제프리스 민주당 하원 원내대표가 8일(현지 시간) ABC방송 인터뷰에서 이란 전쟁을 주도한 피트 헤그세스 전쟁부(국방부) 장관에 대한 탄핵을 “강력히 찬성(hard yes)한다”고 밝혔다. 이어 그는 “(헤그세스 장관이) 권력을 남용하고 국가 안보를 훼손했으며, 무모하고 값비싼 전쟁을 설계했다”며 “10일 민주당 의원들과 이 문제(탄핵)를 논의하겠다”고 말했다. 3일 중간선거에서 압승한 민주당 수뇌부가 헤그세스 장관의 탄핵을 공개 지지한 건 처음이다. 헤그세스 장관에 대한 미 하원의 탄핵소추안은 집권 공화당의 반(反)도널드 트럼프 성향 인사인 토머스 매시 의원이 올 9월 15일 ‘우선 처리’ 결의안 형태로 제출해 놓은 상태다.중간선거 참패 뒤 트럼프 행정부와 의회 간 충돌이 본격적으로 벌어지는 양상인 가운데 트럼프 대통령은 일단 탄핵 움직임에 맞서겠다는 뜻을 밝혔다. 그는 8일 취재진에게 “헤그세스 장관의 잘못은 두",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "image_url": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/10/134993779.4.jpg",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프 “불법이민자 추방 너무 강경…중간선거 참패 요인”",
+          "link": "https://www.donga.com/news/Inter/article/all/20261109/134991650/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-09 20:12:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/09/134995348.1.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령이 8일(현지 시간) 방영된 CBS방송의 시사 프로그램 ‘60분’ 인터뷰에서 자신의 주요 정책인 불법 이민자 추방이 3일 중간선거에서 집권 공화당이 참패한 요인 중 하나라고 진단했다. 이날 인터뷰는 6일 워싱턴 백악관에서 녹화된 것으로, 중간선거 후 트럼프 대통령이 방송 진행자와 마주 앉아 공식 인터뷰를 한 건 처음이다.트럼프 대통령은 인터뷰에서 로스 다우댓(Ross Douthat) 앵커가 ‘이민 단속이 선거에서 불리하게 작용했다고 보느냐’고 묻자 “도움이 되기도 하고 해가 되기도 했다”고 답했다. 이어 국경 봉쇄와 불법 입국한 흉악범 추방 조치에 대해선  “A+를 받을 만하다”면서도 “내가 (선거에서) 타격을 입은 건 좋은 직업을 가진 사람들을 단 한 번의 법 위반일지라도 불법 입국이라는 이유로 추방했기 때문”이라고 주장했다. 또 “미국인의 상당수는 그들(불법 이민자)이 추방돼야 한다고 생각한다. 다른 많은 미국인은 조경회사, 호텔 등에서 일하거나 선량한",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "image_url": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/09/134995348.1.jpg",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": [
+            {
+              "source": "동아일보-국제",
+              "title": "트럼프 “불법 이민자 추방 너무 강경했다”… 중간선거후 공식 인터뷰서 참패 원인 인정",
+              "link": "https://www.donga.com/news/Inter/article/all/20261110/134995515/2"
+            }
+          ]
+        },
+        {
+          "title": "젠슨 황-中스파이 여성 불륜, 트럼프는 알고있었다",
+          "link": "https://www.donga.com/news/Inter/article/all/20261109/134990312/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-09 11:17:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/09/134990607.1.jpg\" vspace=\"10\" />마코 루비오 미국 국무장관이 젠슨 황 엔비디아 최고경영자(CEO)와 중국 정보기관의 스파이로 의심되는 여성의 친밀한 관계를 경고하는 기밀 문건 작성을 직접 감독한 것으로 전해졌다. 이 문건은 올 5월 도널드 트럼프 미국 대통령의 중국 방문을 앞두고 행정부 고위 당국자들에게 배포됐다. 8일(현지 시간) 뉴욕타임스(NYT)는 복수의 소식통을 인용해 루비오 장관이 올봄 해당 문건의 작성을 감독했다고 보도했다. 중국에 대한 첨단 인공지능(AI) 반도체 수출 규제 완화를 주장해 온 황 CEO가 트럼프 대통령에게 상당한 영향력을 행사하는 와중에 미 행정부 고위층이 관련 의혹을 이미 인지하고 있었던 점이 주목된다고 매체는 짚었다. 문건은 싱가포르 데이터센터 기업 메가스피드의 전직 고위 임원인 중국인 앨리스 황(중국명 황러)에 대한 미 정보당국의 전자감청 자료를 토대로 작성됐다. 미 당국은 황러가 중국 국가안전부(MSS)에 포섭돼 스파이 활동을 했으며, 황 CEO와 친밀한 관계라고 판단한 것으",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "image_url": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/09/134990607.1.jpg",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프, UFC 사장 대변인직 제의 하루 만에…“농담이었다”",
+          "link": "https://www.donga.com/news/Inter/article/all/20261109/134990568/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-09 11:14:28",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/09/134990569.1.jpg\" vspace=\"10\" />세계 최대 종합격투기(MMA) 단체 UFC 최고경영자(CEO) 데이나 화이트에게 백악관 대변인직을 공개 제의했던 도널드 트럼프 미국 대통령이 하루 만에 사실상 번복했다.뉴욕타임스(NYT) 등에 따르면 트럼프 대통령은 8일(현지 시간) 플로리다주에서 기자들과 만나 “사람들이 알아챘을 법도 한데, 이것은 분명히 농담이었다(only kidding)”고 말했다.이어 “농담이었지만 데이나는 그 아이디어를 좋아하는 것 같다. 그는 매우 유능한 인물”이라며 “내가 농담으로 한 말에 사람들이 ‘그거 꽤 괜찮은 생각이다’라고 반응한 것”이라고 덧붙였다.앞서 트럼프 대통령은 전날 트루스소셜을 통해 화이트에게 대변인직을 제안했다. 트럼프 대통령은 “그는 격렬한 투사이자 전사”라며 “그는 누구와도 비교할 수 없는 언론비서관(대변인)이 될 것이다. 제발 직을 맡아달라”고 적었다.화이트는 트럼프 대통령 발표 직후 기자들과 만나 오는 9일 백악관에서 트럼프 대통령과 회동할 계획이라고 밝혔다. 대변인직",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "image_url": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/09/134990569.1.jpg",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "젠슨 황 불륜 의혹 시인에도…트럼프 “훌륭한 사람, CEO 유지해야”",
+          "link": "https://www.donga.com/news/Inter/article/all/20261109/134990431/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-09 10:59:08",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/09/134990432.1.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령이 8일(현지 시간) 중국 스파이로 의심 받는 여성 기업가와 불륜 의혹을 시인한 젠슨 황 엔비디아 최고경영자(CEO)를 훌륭한 인물이라고 옹호했다.가디언, 액시오스 등에 따르면 트럼프 대통령은 이날 백악관으로 돌아가기 전 취재진에게 “(젠슨 황과) 관련 의혹에 관해 얘기하지 않았다”며 “그가 훌륭한 사람이라는 것만 알고 있다”고 말했다.그는 “하지만 무슨 일이 일어나고 있는지는 아무도 모르는 법”이라며 “모든 일이 잘 되길 바란다”고 했다.또 “젠슨 황은 존경할 만한 인물이라고 생각한다. 미국을 위해 놀라운 일을 해냈다”며 “아마 그에게는 변명 거리가 있을 것”이라고 덧붙였다.황 CEO가 계속 직을 유지해야 한다고 생각하는지에 관한 질문에는 “물론이다. 그래야 한다고 생각한다”고 말했다.황 CEO가 중국 스파이와 밀접한 관계라는 미국 정보 당국의 보고에도 아무런 조치를 취하지 않은 것을 후회하냐는 질문은 일축하며, 오는 16~19일 예정된 아시아 순",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "image_url": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/09/134990432.1.jpg",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 5,
+      "role": "미국 대통령"
+    }
+  }
+}
