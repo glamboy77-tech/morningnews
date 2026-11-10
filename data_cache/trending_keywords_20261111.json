@@ -1,0 +1,432 @@
+{
+  "timestamp": "2026-11-11T06:01:22.357680",
+  "date": "20261111",
+  "data": [
+    {
+      "keyword": "삼성전자",
+      "reason": "경제와 기업 섹션에서 혁신상 및 주가 상승으로 반복 언급",
+      "score": 38.88,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "삼성전자 폴더블폰·삼성SDI UPS용 각형배터리, CES 혁신상(종합)"
+      ],
+      "representative_article": {
+        "title": "삼성전자 폴더블폰·삼성SDI UPS용 각형배터리, CES 혁신상(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261110026101003",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-11-10 18:40:30",
+        "match_score": 38.88
+      },
+      "related_articles": [
+        {
+          "title": "삼성전자 폴더블폰·삼성SDI UPS용 각형배터리, CES 혁신상(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261110026101003",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-11-10 18:40:30",
+          "match_score": 38.88
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "3분기",
+      "score": 42.5,
+      "article_count": 8,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "韓수출 쏠림 심화 …'톱10' 기업이 60% 차지",
+        "[특징주] NHN, 3분기 호실적·데이터센터 기대에 상한가(종합)",
+        "시프트업 3분기 영업익 207억…전년 대비 58.2% 감소"
+      ],
+      "llm_candidate": false,
+      "rank": 2,
+      "representative_article": {
+        "title": "[특징주] NHN, 3분기 호실적·데이터센터 기대에 상한가(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261110042551008",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-11-10 15:51:24",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "[특징주] NHN, 3분기 호실적·데이터센터 기대에 상한가(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261110042551008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-10 15:51:24",
+          "match_score": 37.67
+        },
+        {
+          "title": "시프트업 3분기 영업익 207억…전년 대비 58.2% 감소",
+          "link": "https://www.yna.co.kr/view/AKR20261110166600017",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-11-10 18:07:27",
+          "match_score": 37.67
+        },
+        {
+          "title": "동원산업 3분기 영업익 1천497억원…B2B·수출 성장에 1.1% 증가(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261110154551527",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-11-10 17:25:11",
+          "match_score": 37.67
+        },
+        {
+          "title": "동원산업 3분기 영업이익 1천497억원…작년 동기 대비 1.1%↑",
+          "link": "https://www.yna.co.kr/view/AKR20261110154500527",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-11-10 17:00:00",
+          "match_score": 37.67
+        },
+        {
+          "title": "파라다이스 3분기 영업이익 641억원…작년 동기 대비 62.3%↑",
+          "link": "https://www.yna.co.kr/view/AKR20261110150900527",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-11-10 16:49:57",
+          "match_score": 37.67
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "반도체",
+      "score": 25.2,
+      "article_count": 5,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "\"코스피 변동성, 韓 고유 요인이 작용한 것…반도체 집중 구조\"(종합)",
+        "韓수출 쏠림 심화 …'톱10' 기업이 60% 차지",
+        "[이슈/ AI 반도체 주도권 경쟁 어디로?] TSMC 10월 매출 60% 급증…삼성전자·SK하이닉스, HBM4 ,메모리·파운드리 동시 공략 - 코리아포스트 한글판"
+      ],
+      "llm_candidate": false,
+      "rank": 3,
+      "representative_article": {
+        "title": "[이슈/ AI 반도체 주도권 경쟁 어디로?] TSMC 10월 매출 60% 급증…삼성전자·SK하이닉스, HBM4 ,메모리·파운드리 동시 공략 - 코리아포스트 한글판",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5zSUhucFg2bHVWRTNHRl9BUHhLYUFLWlkzbkFpaGRqRmV2aGpZZ3lvUTNRRlNnQ2J1NVdvOGVCX3E5Zi12U2o1bW1MaF9rZjN6RlFaWkZLTEp5UVI5MjFzQ01NcURFaE9qU3ZrUmVB?oc=5",
+        "source": "키워드-반도체AI",
+        "published_dt": "2026-11-10 21:15:45",
+        "match_score": 36.96
+      },
+      "related_articles": [
+        {
+          "title": "[이슈/ AI 반도체 주도권 경쟁 어디로?] TSMC 10월 매출 60% 급증…삼성전자·SK하이닉스, HBM4 ,메모리·파운드리 동시 공략 - 코리아포스트 한글판",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5zSUhucFg2bHVWRTNHRl9BUHhLYUFLWlkzbkFpaGRqRmV2aGpZZ3lvUTNRRlNnQ2J1NVdvOGVCX3E5Zi12U2o1bW1MaF9rZjN6RlFaWkZLTEp5UVI5MjFzQ01NcURFaE9qU3ZrUmVB?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-11-10 21:15:45",
+          "match_score": 36.96
+        },
+        {
+          "title": "\"코스피 변동성, 韓 고유 요인이 작용한 것…반도체 집중 구조\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261110122251008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-10 17:28:42",
+          "match_score": 28.68
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "민주당",
+      "score": 21.3,
+      "article_count": 5,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "국제"
+      ],
+      "sample_titles": [
+        "[단독] 농어촌 지원 늘리자는 민주당…2000억 예산 배정에 ‘5000억 더’",
+        "\"코스피 변동성, 韓 고유 요인이 작용한 것…반도체 집중 구조\"(종합)",
+        "코스피·코스닥, 4%대 급등 마감…급락딛고 4거래일만 반등(종합)"
+      ],
+      "llm_candidate": false,
+      "rank": 4,
+      "representative_article": {
+        "title": "[단독] 농어촌 지원 늘리자는 민주당…2000억 예산 배정에 ‘5000억 더’",
+        "link": "https://www.mk.co.kr/news/economy/12204189",
+        "source": "매일경제-경제",
+        "published_dt": "2026-11-10 17:33:46",
+        "match_score": 37.66
+      },
+      "related_articles": [
+        {
+          "title": "[단독] 농어촌 지원 늘리자는 민주당…2000억 예산 배정에 ‘5000억 더’",
+          "link": "https://www.mk.co.kr/news/economy/12204189",
+          "source": "매일경제-경제",
+          "published_dt": "2026-11-10 17:33:46",
+          "match_score": 37.66
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "코스피",
+      "score": 22.6,
+      "article_count": 5,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "\"코스피 변동성, 韓 고유 요인이 작용한 것…반도체 집중 구조\"(종합)",
+        "[연합뉴스 이 시각 헤드라인] - 18:00",
+        "코스피·코스닥, 4%대 급등 마감…급락딛고 4거래일만 반등(종합)"
+      ],
+      "llm_candidate": false,
+      "rank": 5,
+      "representative_article": {
+        "title": "\"코스피 변동성, 韓 고유 요인이 작용한 것…반도체 집중 구조\"(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261110122251008",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-11-10 17:28:42",
+        "match_score": 28.68
+      },
+      "related_articles": [
+        {
+          "title": "\"코스피 변동성, 韓 고유 요인이 작용한 것…반도체 집중 구조\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261110122251008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-10 17:28:42",
+          "match_score": 28.68
+        },
+        {
+          "title": "코스피·코스닥, 4%대 급등 마감…급락딛고 4거래일만 반등(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261110131951008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-10 16:03:42",
+          "match_score": 28.68
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "프로그램",
+      "score": 22.6,
+      "article_count": 4,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "강원남부지식재산센터, 창업기업 3곳 IP 지원 성과 점검",
+        "KT, 통신 수익성 회복에 주력…AX 매출 2배로 키운다(종합2보)",
+        "프로그램 신청 | My Seoul Plus - 서울외국인포털"
+      ],
+      "llm_candidate": false,
+      "rank": 6,
+      "representative_article": {
+        "title": "프로그램 신청 | My Seoul Plus - 서울외국인포털",
+        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPbkE3UHFtSDVhWHZoa1FhZ1NfeUlScVFtNTlFblZaYlVBNFlsb3diYi1jT19zME1RMlBqMG91bWhBajRBZmdRR1k2WmVCZWtmSl9QYS13b0ZCcUswWVdKZ2YzSk1RSlozbFpucjRabmVuc1ktTU1ST0hEQi1peUNIYVRINWxMMl9IWkdKLW5yejk1NHhySHNwQjRZeW91Q0tzRGVuMmQ4OGROck5wcDlTdDZZb1ZnTTdMSkFINXlsc3ZwUFNuRm12VVRaM3Z2b2JhVXhlVw?oc=5",
+        "source": "공식-서울시",
+        "published_dt": "2026-11-10 12:03:08",
+        "match_score": 38.2
+      },
+      "related_articles": [
+        {
+          "title": "프로그램 신청 | My Seoul Plus - 서울외국인포털",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPbkE3UHFtSDVhWHZoa1FhZ1NfeUlScVFtNTlFblZaYlVBNFlsb3diYi1jT19zME1RMlBqMG91bWhBajRBZmdRR1k2WmVCZWtmSl9QYS13b0ZCcUswWVdKZ2YzSk1RSlozbFpucjRabmVuc1ktTU1ST0hEQi1peUNIYVRINWxMMl9IWkdKLW5yejk1NHhySHNwQjRZeW91Q0tzRGVuMmQ4OGROck5wcDlTdDZZb1ZnTTdMSkFINXlsc3ZwUFNuRm12VVRaM3Z2b2JhVXhlVw?oc=5",
+          "source": "공식-서울시",
+          "published_dt": "2026-11-10 12:03:08",
+          "match_score": 38.2
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "부동산",
+      "score": 29.1,
+      "article_count": 4,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "기업/산업",
+        "부동산",
+        "정치"
+      ],
+      "sample_titles": [
+        "李대통령, 내일 김민석·한병도와 만찬…부동산 논의 등 주목",
+        "당청 '엇박자' 경계에도 與는 부동산 이견…내홍 타개 첩첩산중(종합)",
+        "‘주식 털어 집 샀는데…’ 주가 폭락에 부동산 시장도 얼어붙었다"
+      ],
+      "llm_candidate": false,
+      "rank": 7,
+      "representative_article": {
+        "title": "당청 '엇박자' 경계에도 與는 부동산 이견…내홍 타개 첩첩산중(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261110074151001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-11-10 17:17:02",
+        "match_score": 38.83
+      },
+      "related_articles": [
+        {
+          "title": "당청 '엇박자' 경계에도 與는 부동산 이견…내홍 타개 첩첩산중(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261110074151001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-11-10 17:17:02",
+          "match_score": 38.83
+        },
+        {
+          "title": "李대통령, 내일 김민석·한병도와 만찬…부동산 논의 등 주목",
+          "link": "https://www.yna.co.kr/view/AKR20261110179600001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-11-10 22:59:02",
+          "match_score": 29.68
+        },
+        {
+          "title": "‘주식 털어 집 샀는데…’ 주가 폭락에 부동산 시장도 얼어붙었다",
+          "link": "https://www.chosun.com/economy/real_estate/2026/11/11/4TJ4NGDGRJHSBJNYT2RAQ6KHI4/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-11-11 03:00:00",
+          "match_score": 28.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "대기업",
+      "score": 23.7,
+      "article_count": 4,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "韓수출 쏠림 심화 …'톱10' 기업이 60% 차지",
+        "중소기업 연체율 11년 만에 최고…은행 돈줄은 대기업으로",
+        "중소기업 연체율 11년 만에 최고…은행 돈줄은 대기업으로"
+      ],
+      "llm_candidate": false,
+      "rank": 8,
+      "representative_article": {
+        "title": "디올 CEO 이대 명예박사 수여식에 대기업 총수 대거 참석할 듯",
+        "link": "https://www.yna.co.kr/view/AKR20261110176200030",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-11-10 21:36:53",
+        "match_score": 28.68
+      },
+      "related_articles": [
+        {
+          "title": "디올 CEO 이대 명예박사 수여식에 대기업 총수 대거 참석할 듯",
+          "link": "https://www.yna.co.kr/view/AKR20261110176200030",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-11-10 21:36:53",
+          "match_score": 28.68
+        },
+        {
+          "title": "중소기업 연체율 11년 만에 최고…은행 돈줄은 대기업으로",
+          "link": "https://www.mk.co.kr/news/economy/12204034",
+          "source": "매일경제-경제",
+          "published_dt": "2026-11-10 16:17:32",
+          "match_score": 28.66
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재건축",
+      "score": 22.3,
+      "article_count": 4,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "부동산"
+      ],
+      "sample_titles": [
+        "[설명] 재건축초과이익 부담금 부과 기한에 대하여 신속히 검토하여 안내할 계획입니다. - 대한민국 정책브리핑",
+        "[재개발ㆍ재건축 탐방] (31) 이혜림 분당 시범1 통합재건축 주민대표단 대표 “분당의 63빌딩으로…내년 시공사 선정” - 대한경제",
+        "\"대구도 난리\"…'재초환 폭탄' 전북, 대전, 충남, 부산에도 터진다"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "[재개발ㆍ재건축 탐방] (31) 이혜림 분당 시범1 통합재건축 주민대표단 대표 “분당의 63빌딩으로…내년 시공사 선정” - 대한경제",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1fWGlkN0R5MTJuU0lsZVRFbTc2b3RZT3BQMTYySGpLdG9ZQ01mT3lHVTRPTVFlZGF4MnV6Z3RiNWVvdXFtZU02a0FwMUNWcklSMDJfSmxjYk1fanVQWG1nNm9xRWdLT241WFJBajU5TjVvLUM5?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-11-11 05:00:11",
+        "match_score": 38.01
+      },
+      "related_articles": [
+        {
+          "title": "[재개발ㆍ재건축 탐방] (31) 이혜림 분당 시범1 통합재건축 주민대표단 대표 “분당의 63빌딩으로…내년 시공사 선정” - 대한경제",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1fWGlkN0R5MTJuU0lsZVRFbTc2b3RZT3BQMTYySGpLdG9ZQ01mT3lHVTRPTVFlZGF4MnV6Z3RiNWVvdXFtZU02a0FwMUNWcklSMDJfSmxjYk1fanVQWG1nNm9xRWdLT241WFJBajU5TjVvLUM5?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-11-11 05:00:11",
+          "match_score": 38.01
+        },
+        {
+          "title": "[설명] 재건축초과이익 부담금 부과 기한에 대하여 신속히 검토하여 안내할 계획입니다. - 대한민국 정책브리핑",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9TbGlZV1AzWXl2Z0xxWXdXQ0NNVG9WYXhzcTFFeF9JclZIUk84Snd2bXh1SC0yY3lfNHJCMXZndDE0WGV6Z0h5NnhQOEMxZFhrUVJPZU9EcnBuS0dJZUFmdjlVTlJxTjBQUXE5al9rTQ?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-11-10 14:50:41",
+          "match_score": 37.71
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "배터리",
+      "score": 22.5,
+      "article_count": 4,
+      "source_count": 3,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "삼성전자 폴더블폰·삼성SDI UPS용 각형배터리, CES 혁신상(종합)",
+        "LS MnM, 온산제련소 신공장 준공… 전기차 배터리 소재 새 성장 동력으로",
+        "BMW, 차세대 전기차에 삼성·LG 배터리 쓰기로"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "삼성전자 폴더블폰·삼성SDI UPS용 각형배터리, CES 혁신상(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261110026101003",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-11-10 18:40:30",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "삼성전자 폴더블폰·삼성SDI UPS용 각형배터리, CES 혁신상(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261110026101003",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-11-10 18:40:30",
+          "match_score": 37.67
+        },
+        {
+          "title": "LS MnM, 온산제련소 신공장 준공… 전기차 배터리 소재 새 성장 동력으로",
+          "link": "https://www.chosun.com/economy/industry-company/2026/11/11/T2UKOQEABJBC5DI2S4CJKZFWT4/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-11-11 00:34:00",
+          "match_score": 28.3
+        },
+        {
+          "title": "BMW, 차세대 전기차에 삼성·LG 배터리 쓰기로",
+          "link": "https://www.chosun.com/economy/auto/2026/11/11/242OF3DZPJF5HAHXKN54EDLTCA/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-11-11 00:34:00",
+          "match_score": 28.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
