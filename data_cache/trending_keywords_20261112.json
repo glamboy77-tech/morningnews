@@ -1,0 +1,471 @@
+{
+  "timestamp": "2026-11-12T06:01:14.400434",
+  "date": "20261112",
+  "data": [
+    {
+      "keyword": "소비자물",
+      "reason": "미국 소비자물가 상승과 금리 인상 연관",
+      "score": 39.55,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "국제"
+      ],
+      "sample_titles": [
+        "美 소비자물가 0.4% 상승… 연내 기준금리 ‘빅스텝’ 가능성",
+        "미 연준, 기준 금리 ‘빅스텝’ 가능성…소비자 물가는 상승 - KBS 뉴스",
+        "美 소비자물가 0.4% 상승… 연내 기준금리 ‘빅스텝’ 가능성"
+      ],
+      "representative_article": {
+        "title": "美 소비자물가 0.4% 상승… 연내 기준금리 ‘빅스텝’ 가능성",
+        "link": "https://www.donga.com/news/Economy/article/all/20261111/135009315/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-11-12 00:30:00",
+        "match_score": 39.55
+      },
+      "related_articles": [
+        {
+          "title": "美 소비자물가 0.4% 상승… 연내 기준금리 ‘빅스텝’ 가능성",
+          "link": "https://www.donga.com/news/Economy/article/all/20261111/135009315/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-12 00:30:00",
+          "match_score": 39.55
+        },
+        {
+          "title": "미 연준, 기준 금리 ‘빅스텝’ 가능성…소비자 물가는 상승 - KBS 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBPcFo0NjFNS2NpRXVQeTVHcEpFSFNTWDJURnRRZzNYbkpUR1dxXzkwWVNta2tMbXJkWkNvdlVEeGhLdENsT0N1R2Y1Z0JPR1oxR1dwc05CMlJKMGM?oc=5",
+          "source": "키워드-금리환율코스피",
+          "published_dt": "2026-11-12 04:18:00",
+          "match_score": 19.15
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "기준금리",
+      "reason": "빅스텝 가능성 언급 빈번",
+      "score": 39.25,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "국제"
+      ],
+      "sample_titles": [
+        "美 소비자물가 0.4% 상승… 연내 기준금리 ‘빅스텝’ 가능성",
+        "미 연준, 기준 금리 ‘빅스텝’ 가능성…소비자 물가는 상승 - KBS 뉴스",
+        "美 소비자물가 0.4% 상승… 연내 기준금리 ‘빅스텝’ 가능성"
+      ],
+      "representative_article": {
+        "title": "美 소비자물가 0.4% 상승… 연내 기준금리 ‘빅스텝’ 가능성",
+        "link": "https://www.donga.com/news/Economy/article/all/20261111/135009315/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-11-12 00:30:00",
+        "match_score": 39.25
+      },
+      "related_articles": [
+        {
+          "title": "美 소비자물가 0.4% 상승… 연내 기준금리 ‘빅스텝’ 가능성",
+          "link": "https://www.donga.com/news/Economy/article/all/20261111/135009315/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-12 00:30:00",
+          "match_score": 39.25
+        },
+        {
+          "title": "미 연준, 기준 금리 ‘빅스텝’ 가능성…소비자 물가는 상승 - KBS 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBPcFo0NjFNS2NpRXVQeTVHcEpFSFNTWDJURnRRZzNYbkpUR1dxXzkwWVNta2tMbXJkWkNvdlVEeGhLdENsT0N1R2Y1Z0JPR1oxR1dwc05CMlJKMGM?oc=5",
+          "source": "키워드-금리환율코스피",
+          "published_dt": "2026-11-12 04:18:00",
+          "match_score": 19.15
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재개발공사비",
+      "reason": "노량진 재개발 공사비 급등 보도",
+      "score": 18.69,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "[단독] 노량진 재개발 공사비, 강남 넘어섰다…1인당 추가부담 10억 넘기기도",
+        "[단독] 노량진 재개발 공사비도 강남 뺨치네"
+      ],
+      "representative_article": {
+        "title": "[단독] 노량진 재개발 공사비, 강남 넘어섰다…1인당 추가부담 10억 넘기기도",
+        "link": "https://www.mk.co.kr/news/realestate/12205589",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-11-11 17:33:46",
+        "match_score": 18.69
+      },
+      "related_articles": [
+        {
+          "title": "[단독] 노량진 재개발 공사비, 강남 넘어섰다…1인당 추가부담 10억 넘기기도",
+          "link": "https://www.mk.co.kr/news/realestate/12205589",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-11 17:33:46",
+          "match_score": 18.69
+        },
+        {
+          "title": "[단독] 노량진 재개발 공사비도 강남 뺨치네",
+          "link": "https://www.mk.co.kr/news/realestate/12205555",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-11 17:20:08",
+          "match_score": 18.69
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "종전협상",
+      "reason": "미-러-우크라 종전 대화 재개",
+      "score": 39.7,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "美-러-우크라 종전협상 재개…젤렌스키 “건설적·실질적 논의”"
+      ],
+      "representative_article": {
+        "title": "美-러-우크라 종전협상 재개…젤렌스키 “건설적·실질적 논의”",
+        "link": "https://www.donga.com/news/Inter/article/all/20261111/135008384/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-11-11 20:07:00",
+        "match_score": 39.7
+      },
+      "related_articles": [
+        {
+          "title": "美-러-우크라 종전협상 재개…젤렌스키 “건설적·실질적 논의”",
+          "link": "https://www.donga.com/news/Inter/article/all/20261111/135008384/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-11 20:07:00",
+          "match_score": 39.7
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "아파트",
+      "score": 56.9,
+      "article_count": 13,
+      "source_count": 3,
+      "categories": [
+        "국제",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "정부, GS건설 아파트 시스템 침해사고에 직권조사한다(종합)",
+        "\"잠실, 순식간에 5억 폭락\" 주공 5단지, 아시아선수촌 등 줄줄이 급락",
+        "\"1022가구 모집에 달랑 282명\"…한화포레나 지제역 청약 '참패'"
+      ],
+      "llm_candidate": false,
+      "rank": 5,
+      "representative_article": {
+        "title": "정부, GS건설 아파트 시스템 침해사고에 직권조사한다(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261111163101017",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-11-11 18:47:01",
+        "match_score": 37.83
+      },
+      "related_articles": [
+        {
+          "title": "정부, GS건설 아파트 시스템 침해사고에 직권조사한다(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261111163101017",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-11 18:47:01",
+          "match_score": 37.83
+        },
+        {
+          "title": "청량리 미주아파트, 최고 49층 재건축 - 동대문 이슈",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1qOWZMUnhmSnZGSTlmekxabDlYMVhhNlZmQVQ1d3VnOXg5VmRwZVp3YW9lbXdjUjdjd3RoQXR4SjRrWXduRGtyMEtXaG4xcGx5TlM4VzduX0ZWZHMwc1AxNVlR?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-11-12 03:52:00",
+          "match_score": 37.71
+        },
+        {
+          "title": "지방도 공급절벽…강원·충북·전북·부산·울산 아파트 착공 5년 새 최저",
+          "link": "https://www.mk.co.kr/news/realestate/12205223",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-11 11:37:52",
+          "match_score": 37.49
+        },
+        {
+          "title": "부산 아파트 분양가 5년 새 63% 껑충…‘금융 혜택’ 제공사업장 보니",
+          "link": "https://www.mk.co.kr/news/realestate/12205208",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-11 11:31:20",
+          "match_score": 37.49
+        },
+        {
+          "title": "“친구야, 미안한데 버스 타고 와”…서울 아파트 가구당 주차 평균 1.08대",
+          "link": "https://www.mk.co.kr/news/realestate/12205102",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-11 10:12:45",
+          "match_score": 29.09
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "정부가",
+      "score": 42.3,
+      "article_count": 11,
+      "source_count": 5,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업",
+        "정치"
+      ],
+      "sample_titles": [
+        "조현, G7서 청해부대 확대 설명…\"호르무즈 항행자유보장 긴요\"",
+        "금융위, 13일 자본시장 간담회…코스닥 활성화 등 논의할듯",
+        "“정부가 10만원 지원하면 소비 얼마나 늘까”…GPT로 효과 예측한다"
+      ],
+      "llm_candidate": false,
+      "rank": 6,
+      "representative_article": {
+        "title": "“정부가 10만원 지원하면 소비 얼마나 늘까”…GPT로 효과 예측한다",
+        "link": "https://www.mk.co.kr/news/economy/12205674",
+        "source": "매일경제-경제",
+        "published_dt": "2026-11-11 17:51:06",
+        "match_score": 37.66
+      },
+      "related_articles": [
+        {
+          "title": "“정부가 10만원 지원하면 소비 얼마나 늘까”…GPT로 효과 예측한다",
+          "link": "https://www.mk.co.kr/news/economy/12205674",
+          "source": "매일경제-경제",
+          "published_dt": "2026-11-11 17:51:06",
+          "match_score": 37.66
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "반도체",
+      "score": 62.7,
+      "article_count": 10,
+      "source_count": 7,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업",
+        "부동산",
+        "정치"
+      ],
+      "sample_titles": [
+        "산자소위, 호남반도체 예산 보류…與 \"4배로\"·국힘 \"삭감\" 충돌",
+        "저가폰 부품원가 절반 넘은 메모리…가격 인상 압박",
+        "[단독] 반도체 세수 호황에도…내년 ‘한은 마통’ 이자는 올해의 2배"
+      ],
+      "llm_candidate": false,
+      "rank": 7,
+      "representative_article": {
+        "title": "산자소위, 호남반도체 예산 보류…與 \"4배로\"·국힘 \"삭감\" 충돌",
+        "link": "https://www.yna.co.kr/view/AKR20261111152000001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-11-11 16:59:01",
+        "match_score": 38.83
+      },
+      "related_articles": [
+        {
+          "title": "산자소위, 호남반도체 예산 보류…與 \"4배로\"·국힘 \"삭감\" 충돌",
+          "link": "https://www.yna.co.kr/view/AKR20261111152000001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-11-11 16:59:01",
+          "match_score": 38.83
+        },
+        {
+          "title": "삼성전자 평택사업장 반도체 방류수 수온저감시설 내년 봄 가동",
+          "link": "https://www.yna.co.kr/view/AKR20261111149400061",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-11-11 16:50:00",
+          "match_score": 37.67
+        },
+        {
+          "title": "LH, 호남 반도체 부지 터닦기 공사 사전 준비 착수",
+          "link": "https://www.yna.co.kr/view/AKR20261111151000054",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-11-11 16:48:56",
+          "match_score": 37.67
+        },
+        {
+          "title": "김성환 기후장관 “호남 반도체 변압기 새로 발주”",
+          "link": "https://www.mk.co.kr/news/economy/12205355",
+          "source": "매일경제-경제",
+          "published_dt": "2026-11-11 15:08:50",
+          "match_score": 37.66
+        },
+        {
+          "title": "박홍근 “반도체 편중 리스크 줄여야”…7대 신산업 투자 확대",
+          "link": "https://www.etnews.com/20261111000347",
+          "source": "전자신문",
+          "published_dt": "2026-11-11 14:38:45",
+          "match_score": 37.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "한국은행",
+      "score": 25.8,
+      "article_count": 5,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "美 소비자물가 0.4% 상승… 연내 기준금리 ‘빅스텝’ 가능성",
+        "[단독] 반도체 세수 호황에도…내년 ‘한은 마통’ 이자는 올해의 2배",
+        "10월 가계대출 6조4000억원 반등…은행 잔액 1200조원 첫 돌파"
+      ],
+      "llm_candidate": false,
+      "rank": 8,
+      "representative_article": {
+        "title": "2026년 10월 금융시장 동향 | 기타 보도자료(상세) | 보도자료 | 뉴스 및 의사록 | 뉴스/자료 | 한국은행 홈페이지 - bok.or.kr",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPaHN6cGI4TXRxVXVhZWRLdFZ0LUpyN0hMYzJxTVAxeFZXdUNqNXFBdWtsQzg4c0J1c2RYTFMzaGY4RTFSY2dObm1KRDgteUV0NjlpQWYyU25RUHdFNDZGU1U1cG5vOW1leG1hWlFGVllCVVZMcjd5cU9ENEp0VjRoSDhxYklEdGlpYU42Rmh2UjVWbUpQalo3WEE0MWJQRGItcjdaR1R6eEN0R0lTU3ZjVnhwNm1EX0tJSUFqNGV3?oc=5",
+        "source": "공식-한국은행",
+        "published_dt": "2026-11-11 13:46:26",
+        "match_score": 38.2
+      },
+      "related_articles": [
+        {
+          "title": "2026년 10월 금융시장 동향 | 기타 보도자료(상세) | 보도자료 | 뉴스 및 의사록 | 뉴스/자료 | 한국은행 홈페이지 - bok.or.kr",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPaHN6cGI4TXRxVXVhZWRLdFZ0LUpyN0hMYzJxTVAxeFZXdUNqNXFBdWtsQzg4c0J1c2RYTFMzaGY4RTFSY2dObm1KRDgteUV0NjlpQWYyU25RUHdFNDZGU1U1cG5vOW1leG1hWlFGVllCVVZMcjd5cU9ENEp0VjRoSDhxYklEdGlpYU42Rmh2UjVWbUpQalo3WEE0MWJQRGItcjdaR1R6eEN0R0lTU3ZjVnhwNm1EX0tJSUFqNGV3?oc=5",
+          "source": "공식-한국은행",
+          "published_dt": "2026-11-11 13:46:26",
+          "match_score": 38.2
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "빅스텝",
+      "score": 37.1,
+      "article_count": 5,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "국제"
+      ],
+      "sample_titles": [
+        "美 소비자물가 0.4% 상승… 연내 기준금리 ‘빅스텝’ 가능성",
+        "미 연준, 기준 금리 ‘빅스텝’ 가능성…소비자 물가는 상승 - KBS 뉴스",
+        "미국 '빅스텝' 우려 속 국고채 금리 급등…3년물 연 3.729%(종합)"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "미국 '빅스텝' 우려 속 국고채 금리 급등…3년물 연 3.729%(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261111150551008",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-11-11 16:56:47",
+        "match_score": 38.12
+      },
+      "related_articles": [
+        {
+          "title": "미국 '빅스텝' 우려 속 국고채 금리 급등…3년물 연 3.729%(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261111150551008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-11 16:56:47",
+          "match_score": 38.12
+        },
+        {
+          "title": "美 소비자물가 0.4% 상승… 연내 기준금리 ‘빅스텝’ 가능성",
+          "link": "https://www.donga.com/news/Economy/article/all/20261111/135009315/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-12 00:30:00",
+          "match_score": 38.05
+        },
+        {
+          "title": "美 물가 쇼크에 연준 ‘빅스텝’ 거론…한은도 금리 올릴 듯",
+          "link": "https://www.donga.com/news/Economy/article/all/20261111/135006892/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-11 16:09:00",
+          "match_score": 38.05
+        },
+        {
+          "title": "미 연준, 기준 금리 ‘빅스텝’ 가능성…소비자 물가는 상승 - KBS 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBPcFo0NjFNS2NpRXVQeTVHcEpFSFNTWDJURnRRZzNYbkpUR1dxXzkwWVNta2tMbXJkWkNvdlVEeGhLdENsT0N1R2Y1Z0JPR1oxR1dwc05CMlJKMGM?oc=5",
+          "source": "키워드-금리환율코스피",
+          "published_dt": "2026-11-12 04:18:00",
+          "match_score": 36.96
+        },
+        {
+          "title": "미 금리 '빅스텝' 인상 우려에도…환율 3.9원 내린 1,333.6원",
+          "link": "https://www.yna.co.kr/view/AKR20261111139100002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-11 16:21:17",
+          "match_score": 28.68
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "금융위",
+      "score": 28.1,
+      "article_count": 5,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "금융위, 13일 자본시장 간담회…코스닥 활성화 등 논의할듯",
+        "미공개정보 이용해 부당이득 취득…증선위, 중수청 고발·통보",
+        "금융시장동향 - 금융위원회"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "금융시장동향 - 금융위원회",
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQOUoxMTBiMF9SQkxtd3RDcHh3dVNqVlVPaFFEQ2s2RkR6bVpncXN5OThDQlE4WllNMUFzZjVRVjdEVjJEMzZ2MzduNlgxamNHdUNwaGlNRGZjNXZUWHpFVWVPRTJQOVJvSFd6RjNOVG9yUjBIRWdkN0J6eGltWVRfZE9yS3dZd1g0YlA0OS1WWlJSeDhKNllzNzRlWm9TbC0y?oc=5",
+        "source": "공식-금융위원회",
+        "published_dt": "2026-11-11 12:22:22",
+        "match_score": 38.2
+      },
+      "related_articles": [
+        {
+          "title": "금융시장동향 - 금융위원회",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQOUoxMTBiMF9SQkxtd3RDcHh3dVNqVlVPaFFEQ2s2RkR6bVpncXN5OThDQlE4WllNMUFzZjVRVjdEVjJEMzZ2MzduNlgxamNHdUNwaGlNRGZjNXZUWHpFVWVPRTJQOVJvSFd6RjNOVG9yUjBIRWdkN0J6eGltWVRfZE9yS3dZd1g0YlA0OS1WWlJSeDhKNllzNzRlWm9TbC0y?oc=5",
+          "source": "공식-금융위원회",
+          "published_dt": "2026-11-11 12:22:22",
+          "match_score": 38.2
+        },
+        {
+          "title": "“내년도 국민성장펀드 관련 예산에 대한 국회 심의에 충실히 임하고 있습니다.” - 금융위원회",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWGVDd0otTWdUbVhTV1BJM1gtNm5LLWlRU0kwdTdqNGhKdXJ4d2Y5QkxiOUFNejQtcGxidFBScTdSNXBDMDJ0UnhYYUlranQtRzBudnRuRlZoUzRiLXMwd08xMTdjSEtuc0c3VEN4UlEyNmFEeHhpT2I4cWlkU3RBX3BqdGdrVUwxY252ZG5n?oc=5",
+          "source": "공식-금융위원회",
+          "published_dt": "2026-11-11 13:32:29",
+          "match_score": 38.2
+        },
+        {
+          "title": "금융위, 13일 자본시장 간담회…코스닥 활성화 등 논의할듯",
+          "link": "https://www.yna.co.kr/view/AKR20261111168700008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-11 18:25:27",
+          "match_score": 28.68
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
