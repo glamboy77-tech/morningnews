@@ -1,0 +1,552 @@
+{
+  "timestamp": "2026-11-13T06:01:17.154850",
+  "date": "20261113",
+  "data": [
+    {
+      "keyword": "전작권 전환",
+      "reason": "국방장관 조건 충족 발언과 안보 논의",
+      "score": 40.28,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "국방장관 \"전작권 전환 3대 조건 충족…지금 당장도 가능\"",
+        "강신철 “전작권 전환 조건 충족… 지금 당장도 가능”"
+      ],
+      "representative_article": {
+        "title": "국방장관 \"전작권 전환 3대 조건 충족…지금 당장도 가능\"",
+        "link": "https://www.yna.co.kr/view/AKR20261112160400001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-11-12 17:45:24",
+        "match_score": 40.28
+      },
+      "related_articles": [
+        {
+          "title": "국방장관 \"전작권 전환 3대 조건 충족…지금 당장도 가능\"",
+          "link": "https://www.yna.co.kr/view/AKR20261112160400001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-11-12 17:45:24",
+          "match_score": 40.28
+        },
+        {
+          "title": "강신철 “전작권 전환 조건 충족… 지금 당장도 가능”",
+          "link": "https://www.chosun.com/politics/diplomacy-defense/2026/11/12/DHBI2QX2HNHURDMA6RPFTOOJZM/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-11-12 18:52:41",
+          "match_score": 29.9
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "삼성생명 화재",
+      "reason": "순익 발표 및 증시 영향",
+      "score": 20.36,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "삼성생명·화재 순익 1.3조 … 시중은행 맞먹어"
+      ],
+      "representative_article": {
+        "title": "삼성생명·화재 순익 1.3조 … 시중은행 맞먹어",
+        "link": "https://www.mk.co.kr/news/economy/12206716",
+        "source": "매일경제-경제",
+        "published_dt": "2026-11-12 17:39:55",
+        "match_score": 20.36
+      },
+      "related_articles": [
+        {
+          "title": "삼성생명·화재 순익 1.3조 … 시중은행 맞먹어",
+          "link": "https://www.mk.co.kr/news/economy/12206716",
+          "source": "매일경제-경제",
+          "published_dt": "2026-11-12 17:39:55",
+          "match_score": 20.36
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "해상풍력발전",
+      "reason": "포스코이앤씨 대규모 착공 사업",
+      "score": 41.7,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "포스코이앤씨, ‘고창 해상풍력발전’ 이달 착공",
+        "76.2㎿ 규모 해상풍력발전 … 포스코이앤씨, 고창서 착공"
+      ],
+      "representative_article": {
+        "title": "76.2㎿ 규모 해상풍력발전 … 포스코이앤씨, 고창서 착공",
+        "link": "https://www.mk.co.kr/news/realestate/12206604",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-11-12 17:17:40",
+        "match_score": 41.7
+      },
+      "related_articles": [
+        {
+          "title": "76.2㎿ 규모 해상풍력발전 … 포스코이앤씨, 고창서 착공",
+          "link": "https://www.mk.co.kr/news/realestate/12206604",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-12 17:17:40",
+          "match_score": 41.7
+        },
+        {
+          "title": "포스코이앤씨, ‘고창 해상풍력발전’ 이달 착공",
+          "link": "https://www.mk.co.kr/news/realestate/12206263",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-12 13:31:47",
+          "match_score": 39.7
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "반도체",
+      "score": 83.4,
+      "article_count": 16,
+      "source_count": 8,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업",
+        "부동산",
+        "정치"
+      ],
+      "sample_titles": [
+        "KDI “반도체 호황, 올해 소비 개선 영향 미미…고유가 충격이 더 커”",
+        "李대통령 “충청권 메가프로젝트에 반도체·바이오 등 23조6000억 추가 투자”",
+        "“高유가 소비 위축 효과, 반도체 호황 압도”"
+      ],
+      "llm_candidate": false,
+      "rank": 4,
+      "representative_article": {
+        "title": "KDI “반도체 호황, 올해 소비 개선 영향 미미…고유가 충격이 더 커”",
+        "link": "https://www.mk.co.kr/news/economy/12206382",
+        "source": "매일경제-경제",
+        "published_dt": "2026-11-12 14:48:01",
+        "match_score": 37.66
+      },
+      "related_articles": [
+        {
+          "title": "KDI “반도체 호황, 올해 소비 개선 영향 미미…고유가 충격이 더 커”",
+          "link": "https://www.mk.co.kr/news/economy/12206382",
+          "source": "매일경제-경제",
+          "published_dt": "2026-11-12 14:48:01",
+          "match_score": 37.66
+        },
+        {
+          "title": "LH, 광명시흥·용인반도체에 총 2조원 추가 투입...사업 속도전",
+          "link": "https://www.mk.co.kr/news/economy/12206345",
+          "source": "매일경제-경제",
+          "published_dt": "2026-11-12 14:31:01",
+          "match_score": 37.66
+        },
+        {
+          "title": "반도체 기술력-자본 쌓은 대만… AI 콘텐츠 강국으로 ‘영토 확장’",
+          "link": "https://www.donga.com/news/Culture/article/all/20261112/135017452/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-13 04:30:00",
+          "match_score": 37.3
+        },
+        {
+          "title": "국산 AI반도체 10종 개발…삼성 파운드리, 시제품 생산 우선 배정 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBBUTBmMzM2VUFqMGdxRnYwVGtDZlQ2VWhYX1FyeGYxU1JFaUI2RHA3SVpmTy1va0p0alFBUjlmR0dlRjlRM2JOMFgxR0NpYzRLQjZpQkk4aWx5Zw?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-11-12 14:56:20",
+          "match_score": 36.96
+        },
+        {
+          "title": "\"반도체 초호황에도 소비는 둔화…원인은 `국제유가 상승`\" - 국제신문",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZEsyX3hUb0JxeVdXX0RuV29iNGVnUEQ4NDFkaFRWZEdYTGJKWVJXYVNVancwdmUweV9jZ21Ed1hKYjUwaWppRVhySmx3MUhYU0NYRjhhRzJoVTVBVEFvQlpiRUthMjlSYkZSSU5jUGN1R1E1Qnp3TnVNMEt3NUtoZ2x3RUVFd0xsaHJYOWlR?oc=5",
+          "source": "키워드-에너지물가",
+          "published_dt": "2026-11-12 13:36:00",
+          "match_score": 36.96
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "CEO",
+      "score": 49.1,
+      "article_count": 11,
+      "source_count": 5,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "은행지주CEO 연임할수록 의결 까다롭게…임추위 전원 독립이사로(종합)",
+        "금융지주 사외이사 주주가 추천…회장 3연임땐 주총 75% 찬성 얻어야",
+        "젠슨 황 떠난 엔비디아, '실질적 2인자' 크레스가 임시 CEO 맡아"
+      ],
+      "llm_candidate": false,
+      "rank": 5,
+      "representative_article": {
+        "title": "젠슨 황 떠난 엔비디아, '실질적 2인자' 크레스가 임시 CEO 맡아",
+        "link": "https://www.aitimes.com/news/articleView.html?idxno=217350",
+        "source": "AI타임스",
+        "published_dt": "2026-11-13 14:56:23",
+        "match_score": 38.09
+      },
+      "related_articles": [
+        {
+          "title": "젠슨 황 떠난 엔비디아, '실질적 2인자' 크레스가 임시 CEO 맡아",
+          "link": "https://www.aitimes.com/news/articleView.html?idxno=217350",
+          "source": "AI타임스",
+          "published_dt": "2026-11-13 14:56:23",
+          "match_score": 38.09
+        },
+        {
+          "title": "은행지주CEO 연임할수록 의결 까다롭게…임추위 전원 독립이사로(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261111175651002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-12 19:38:16",
+          "match_score": 37.83
+        },
+        {
+          "title": "트럼프, 차기 엔비디아 CEO 추천…“젠슨 황 이을 사람은 애플 팀 쿡뿐”",
+          "link": "https://www.donga.com/news/Inter/article/all/20261113/135017992/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-13 00:59:40",
+          "match_score": 37.3
+        },
+        {
+          "title": "[속보]젠슨 황 엔비디아 CEO 사임…콜레트 크레스가 임시 CEO",
+          "link": "https://www.donga.com/news/Inter/article/all/20261112/135017846/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-12 22:58:00",
+          "match_score": 37.3
+        },
+        {
+          "title": "당정 “은행지주CEO 연임요건 강화…임원추천위 전원 독립이사로”",
+          "link": "https://www.chosun.com/politics/politics_general/2026/11/12/5JOQJRLXPJEJXEVDQOZVA4PSSQ/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-11-12 08:43:38",
+          "match_score": 27.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "엔비디아",
+      "score": 55.2,
+      "article_count": 11,
+      "source_count": 4,
+      "categories": [
+        "국제",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "젠슨 황 떠난 엔비디아, '실질적 2인자' 크레스가 임시 CEO 맡아",
+        "WSJ “젠슨 황에 앨리스 황 소개한 건 남편\"…AI 칩 사업으로 연결",
+        "베선트 “메가스피드 제재” 러트닉 “中과 무역전쟁 될것”… 백악관 충돌"
+      ],
+      "llm_candidate": false,
+      "rank": 6,
+      "representative_article": {
+        "title": "젠슨 황 떠난 엔비디아, '실질적 2인자' 크레스가 임시 CEO 맡아",
+        "link": "https://www.aitimes.com/news/articleView.html?idxno=217350",
+        "source": "AI타임스",
+        "published_dt": "2026-11-13 14:56:23",
+        "match_score": 38.09
+      },
+      "related_articles": [
+        {
+          "title": "젠슨 황 떠난 엔비디아, '실질적 2인자' 크레스가 임시 CEO 맡아",
+          "link": "https://www.aitimes.com/news/articleView.html?idxno=217350",
+          "source": "AI타임스",
+          "published_dt": "2026-11-13 14:56:23",
+          "match_score": 38.09
+        },
+        {
+          "title": "트럼프, 차기 엔비디아 CEO 추천…“젠슨 황 이을 사람은 애플 팀 쿡뿐”",
+          "link": "https://www.donga.com/news/Inter/article/all/20261113/135017992/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-13 00:59:40",
+          "match_score": 37.3
+        },
+        {
+          "title": "엔비디아 주가 개장 초반 14% 하락…월가, 목표가 잇달아 하향 조정",
+          "link": "https://www.donga.com/news/Inter/article/all/20261112/135017927/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-12 23:54:00",
+          "match_score": 37.3
+        },
+        {
+          "title": "[속보]젠슨 황 엔비디아 CEO 사임…콜레트 크레스가 임시 CEO",
+          "link": "https://www.donga.com/news/Inter/article/all/20261112/135017846/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-12 22:58:00",
+          "match_score": 37.3
+        },
+        {
+          "title": "“GPU 단속은 두더지 잡기”…엔비디아 칩 중국 거래 통로로 떠오른 싱가포르",
+          "link": "https://www.donga.com/news/Inter/article/all/20261112/135014802/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-12 16:24:52",
+          "match_score": 37.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "아파트",
+      "score": 51.4,
+      "article_count": 11,
+      "source_count": 4,
+      "categories": [
+        "국제",
+        "부동산",
+        "정치"
+      ],
+      "sample_titles": [
+        "세종시 아파트 매매·전세가격 '초강세' - 세종의소리",
+        "“중고거래로 이자 갚던 판교 영끌 부부”…4년 전 13억 아파트, 지금은 25억",
+        "\"우리도 재개발 끼워줘\" 한강변 곳곳 갈등"
+      ],
+      "llm_candidate": false,
+      "rank": 7,
+      "representative_article": {
+        "title": "3분기 서울 아파트 거래 43.9% 줄어…거래금액도 49.0% 뚝",
+        "link": "https://www.mk.co.kr/news/realestate/12206405",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-11-12 15:06:50",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "3분기 서울 아파트 거래 43.9% 줄어…거래금액도 49.0% 뚝",
+          "link": "https://www.mk.co.kr/news/realestate/12206405",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-12 15:06:50",
+          "match_score": 37.49
+        },
+        {
+          "title": "“10년 만의 새 아파트”…계룡건설, ‘엘리프 논산 디에디션’ 13일 견본주택 개관",
+          "link": "https://www.mk.co.kr/news/realestate/12206458",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-12 15:52:26",
+          "match_score": 37.49
+        },
+        {
+          "title": "“밀려나느니 작은 집이라도 있는 게 낫죠”…경기 남부 소형 아파트 신고가 행진",
+          "link": "https://www.mk.co.kr/news/realestate/12206086",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-12 10:04:36",
+          "match_score": 37.49
+        },
+        {
+          "title": "세종시 아파트 매매·전세가격 '초강세' - 세종의소리",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9HSVJqVHd6SVVBcDE2VE5xN0YwbTdwYXd2MmN4S0ptQlEyZzlUYkduMGFWMmlXTHhkSk9CM1RIVG84cjUxRU5aRWtwTHJRdEhBdzRNYUpHcUFhZUxkNzMzb0RNdjZ3dE0?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-11-12 14:37:29",
+          "match_score": 36.96
+        },
+        {
+          "title": "“중고거래로 이자 갚던 판교 영끌 부부”…4년 전 13억 아파트, 지금은 25억",
+          "link": "https://www.mk.co.kr/news/society/12206792",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-12 19:52:31",
+          "match_score": 28.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "3분기",
+      "score": 69.5,
+      "article_count": 10,
+      "source_count": 5,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "삼성생명·화재 순익 1.3조 … 시중은행 맞먹어",
+        "증시부진·금리상승에 '직격탄'…증권사 3분기 실적 줄줄이 악화(종합)",
+        "증시부진·금리상승에 '직격탄'…증권사 3분기 실적 줄줄이 악화(종합)"
+      ],
+      "llm_candidate": false,
+      "rank": 8,
+      "representative_article": {
+        "title": "증시부진·금리상승에 '직격탄'…증권사 3분기 실적 줄줄이 악화(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261112087051008",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-11-12 16:29:50",
+        "match_score": 37.83
+      },
+      "related_articles": [
+        {
+          "title": "증시부진·금리상승에 '직격탄'…증권사 3분기 실적 줄줄이 악화(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261112087051008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-12 16:29:50",
+          "match_score": 37.83
+        },
+        {
+          "title": "한화생명, 3분기 누적 순익 8천656억, 작년 동기 대비 12.6%↑",
+          "link": "https://www.yna.co.kr/view/AKR20261112156500002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-12 16:59:34",
+          "match_score": 37.83
+        },
+        {
+          "title": "[특징주] 코스맥스, 3분기 역대 최대 매출에 5%대 상승(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261112045451008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-12 15:41:07",
+          "match_score": 37.67
+        },
+        {
+          "title": "삼성증권 3분기 영업익, 전분기 대비 33.6%↓",
+          "link": "https://www.yna.co.kr/view/AKR20261112118100008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-12 16:09:03",
+          "match_score": 37.67
+        },
+        {
+          "title": "한화갤러리아 3분기 영업이익 60억원으로 65.4% 증가",
+          "link": "https://www.yna.co.kr/view/AKR20261112165700030",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-11-12 17:35:45",
+          "match_score": 37.67
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "삼성전자",
+      "score": 33.8,
+      "article_count": 6,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "외국인 삼전 사고, 하이닉스 팔고…삼전 0.9%↑·하닉 1.80%↓(종합)",
+        "정부, 'K-온디바이스 AI' 개발에 8002억…삼성전자도 파운드리 지원 - 더트래커",
+        "삼성 지원 사격…자율차·로봇용 'AI칩' 8종 만든다"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "‘삼성전자 후광’도 무색…평택 고덕신도시, 대규모 청약 미달",
+        "link": "https://www.mk.co.kr/news/realestate/12206170",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-11-12 10:59:03",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "‘삼성전자 후광’도 무색…평택 고덕신도시, 대규모 청약 미달",
+          "link": "https://www.mk.co.kr/news/realestate/12206170",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-12 10:59:03",
+          "match_score": 37.49
+        },
+        {
+          "title": "정부, 'K-온디바이스 AI' 개발에 8002억…삼성전자도 파운드리 지원 - 더트래커",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBjbnVmZEh3VW9TUFVHcloxbVR2STdIUjNTVm51eDdfaUlWSUR4eUtTa2paNXZmVXdPNEdzTnR3a2JxWmJ6TGdBOUVUUXQwWTlaRlpORUJoR1o?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-11-12 14:19:58",
+          "match_score": 36.96
+        },
+        {
+          "title": "정부, 2030년까지 국산 AI반도체 10종 개발…삼성전자 시제품 생산 지원 - 뉴시스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5FMXJNRUU0aEZ6YjlFUE45QjZ2M0NWNnVCR2ZYei1JTzNpNVROWEN0RFRHVVNPLWZhcXA5WUZwS0xQLU9GZjhRSWlHRnZVeDAwWERNMEw4RXJVTjhUX25ONdIBeEFVX3lxTFBGTmRJN0k5bk44YkJqdGpLUkxHQkNXNHp6V2pmb0FTb3Z0SF9GQTh0RmF0cGUyX0l1R2tpU1pFZkZiRUF6djhpbHljdFhJWEgzTjdGY01Dc3VQM1lIOHpXWmNDN3cyTEpFUThoU0c2Mm9UdHNCQmhWag?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-11-12 11:00:00",
+          "match_score": 36.96
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "금융위",
+      "score": 38.1,
+      "article_count": 6,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "금융위원회, '해킹 공격' 금융보안원 다음 주 감사 착수",
+        "보도설명자료 - 금융위원회",
+        "가상자산거래소 해킹 의심 땐 입출금 차단"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "보도설명자료 - 금융위원회",
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdndkWmJQZ1lpNGhSMV82d3Y2WFJvVll3d1BHTUZIT0Z4NEs5OGpZRGdWZHE2c3A5TUVORlAtX18zNkNHYm1HTi1acWVTWHAyd25mNDViQk1LSU5sSzh0ZjBYX1JpOVNKS3hqZWozYjR5d1EzWGNHM2tQYjljSmozcy1DcEQxYV9BblBobXAzQlFqaDdJX3R0cjFEdDUwem8z?oc=5",
+        "source": "공식-금융위원회",
+        "published_dt": "2026-11-12 13:30:36",
+        "match_score": 38.2
+      },
+      "related_articles": [
+        {
+          "title": "보도설명자료 - 금융위원회",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdndkWmJQZ1lpNGhSMV82d3Y2WFJvVll3d1BHTUZIT0Z4NEs5OGpZRGdWZHE2c3A5TUVORlAtX18zNkNHYm1HTi1acWVTWHAyd25mNDViQk1LSU5sSzh0ZjBYX1JpOVNKS3hqZWozYjR5d1EzWGNHM2tQYjljSmozcy1DcEQxYV9BblBobXAzQlFqaDdJX3R0cjFEdDUwem8z?oc=5",
+          "source": "공식-금융위원회",
+          "published_dt": "2026-11-12 13:30:36",
+          "match_score": 38.2
+        },
+        {
+          "title": "기고/강연/연설 - 금융위원회",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPOGZVNXdpUkYydFlKTzRGc1JoaFMwR2FnRGs1WndZLVRIRkhfS09BZGxQc3R6SVNlTUc2bjUtQ3dkaVF0bGFmWDlySXFuRGVmdnBtMzNLUDZCdlIyT1l4WGJFOWU4dnhLa2VFMkNQdWYtc2h5R0xuWEJLWkg3ZjJJY2hpXzF5cE9EOFptVk1hVi05MHJvRnpoOTdETlk?oc=5",
+          "source": "공식-금융위원회",
+          "published_dt": "2026-11-12 20:32:45",
+          "match_score": 38.2
+        },
+        {
+          "title": "알림마당 - 금융위원회",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdGJ1cWVzRnRjeEpTWTNwbmV2Y0xQYVhVbkRMOVNhUG5DWnZ6WU1DM0VoSDJzM1JTZV80T29xYjRhbFFIQmZYbjZ5dHhYbHpBVXhDSlAyaDFGek5kUnBUODJCeVZjWU9LZUpCeTNBcGJPekUxOVpwZ040MHBIUVZlRGxwX2J6WWRfRXpnWmVzWURuVnBBYjdXR2lRdFNxeDRFYmJ3RW9SSE4?oc=5",
+          "source": "공식-금융위원회",
+          "published_dt": "2026-11-12 20:22:46",
+          "match_score": 38.2
+        },
+        {
+          "title": "알림마당 - 금융위원회",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOelBGRzFXZURSQWcyOFRvc2ZSVExoSUVwdVdoQ0EtT0JGNW5UOTMxNDRpb3p5amtvZ2Q2RG1IblpUSHJEajJQZnBfMGZXUDFPLS1YLWNvMFM3cHFCbERhTC0yZVNoMEE3WXI0VThBbDk0MF9pRThCeUE3d2NNRG54WWw4em1KbUhtM2E4UmhHX0lIOW1qbW14Nk5TWWZTRER0NHVNbQ?oc=5",
+          "source": "공식-금융위원회",
+          "published_dt": "2026-11-12 18:44:38",
+          "match_score": 38.2
+        },
+        {
+          "title": "금융위원회, '해킹 공격' 금융보안원 다음 주 감사 착수",
+          "link": "https://www.yna.co.kr/view/AKR20261112145400002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-12 16:09:59",
+          "match_score": 37.67
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}

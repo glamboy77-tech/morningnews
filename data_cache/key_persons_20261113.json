@@ -1,0 +1,426 @@
+{
+  "timestamp": "2026-11-13T06:01:10.150256",
+  "date": "20261113",
+  "data": {
+    "젠슨 황": {
+      "articles": [
+        {
+          "title": "젠슨 황 떠난 엔비디아, '실질적 2인자' 크레스가 임시 CEO 맡아",
+          "link": "https://www.aitimes.com/news/articleView.html?idxno=217350",
+          "source": "AI타임스",
+          "published_dt": "2026-11-13 14:56:23",
+          "description": "젠슨 황 CEO의 사임으로 경영 공백이 발생한 엔비디아가 새로운 경영 체제를 가동했다. 13년간 회사의 재무와 사업 전략을 담당해 온 콜레트 크레스가 임시 CEO를 맡고, 창업 초기부터 이사회에 참여한 하비 존스가 초대 의장에 선임됐다. 두 사람은 직원들에게 회사의 미래에 대한 확신을 강조하며 경영 안정화에 나섰다.CNBC는 12일(현지시간) 크레스 임시 CEO와 존스 의장이 황 전 CEO의 사임 직후 직원들에게 보낸 이메일을 입수해 공개했다. 존스 의장이 먼저 인사 내용을 설명했으며, 크레스 CEO도 곧바로 직원들에게 메시지를 전",
+          "category": "domestic",
+          "feed_url": "https://www.aitimes.com/rss/allArticle.xml",
+          "image_url": "",
+          "source_type": "tech",
+          "source_weight": 1.15,
+          "source_badge": "테크",
+          "deduped_sources": [
+            {
+              "source": "AI타임스",
+              "title": "젠슨 황 사임 후폭풍…백악관, 상무장관 경질 논의",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217349"
+            },
+            {
+              "source": "AI타임스",
+              "title": "젠슨 황, 엔비디아 CEO 사임…주가 14% 급락·후임 선정 착수",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217348"
+            },
+            {
+              "source": "AI타임스",
+              "title": "구글·삼성, AI 안경 시장 출사표… 12월10일 메타와 정식 격돌",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217346"
+            },
+            {
+              "source": "AI타임스",
+              "title": "구글 '알파게놈 2', 유전자 변이 영향 세포별 예측…원인 변이 2배 찾아",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217309"
+            },
+            {
+              "source": "AI타임스",
+              "title": "메타, AI 데이터 처리 최대 45배 빠르게 하는 'e-민즈' 공개",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217327"
+            },
+            {
+              "source": "AI타임스",
+              "title": "AI 모델 가중치 0.05%만 삭제했더니…전체 미세조정 수준 성능 향상",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217321"
+            },
+            {
+              "source": "AI타임스",
+              "title": "앤트로픽 '미소스', 미국 전력망 보안에 활용…듀크에너지 등 도입 시험",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217329"
+            },
+            {
+              "source": "AI타임스",
+              "title": "배추값 42% 폭락…전남광주, 과잉 물량 3만톤 격리에 58억 투입",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217342"
+            },
+            {
+              "source": "AI타임스",
+              "title": "AI, 프리랜서 업무 41.3% 전문가 수준 수행…1년 전 2.5%서 급상승",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217332"
+            },
+            {
+              "source": "AI타임스",
+              "title": "순천 외식업 소상공인, AI로 메뉴개발·마케팅 배운다",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217340"
+            },
+            {
+              "source": "AI타임스",
+              "title": "구글, 애플 카플레이에 '제미나이 라이브' 출시…챗GPT와 경쟁",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217334"
+            },
+            {
+              "source": "AI타임스",
+              "title": "392조 충청권 메가프로젝트 첫 삽…삼성 온양캠퍼스, HBM 거점 탈바꿈",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217336"
+            },
+            {
+              "source": "AI타임스",
+              "title": "[AI 모델 신작] 물리 세계 예측 'PAN 2'·1.6조 매개변수 '롱캣 2.5' 등",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217338"
+            },
+            {
+              "source": "AI타임스",
+              "title": "바이트댄스, 오픈AI 추격에 최소 3년 전망…'뮤즈' 유사 AI 에이전트 준비",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217337"
+            },
+            {
+              "source": "AI타임스",
+              "title": "미 제재 중국 군 관련 대학, 엔비디아 H200 구매…서버 임대로도 확보",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217339"
+            },
+            {
+              "source": "AI타임스",
+              "title": "중국 AI주 급락 속 알리바바, 반도체 자회사 'T-헤드' 홍콩 상장 추진",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217335"
+            },
+            {
+              "source": "AI타임스",
+              "title": "신안우이 해상풍력 390MW 착공…목포·해남 3400억 투자협약은 일정 협의",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217333"
+            },
+            {
+              "source": "AI타임스",
+              "title": "독일 헬싱, 팔란티어 맞설 군사용 AI 공개…수백개 에이전트로 표적 분석",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217331"
+            },
+            {
+              "source": "AI타임스",
+              "title": "한컴, AI 매출 전체 30% 돌파…노마디안 등 미국 시장 공략 가속",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217328"
+            },
+            {
+              "source": "AI타임스",
+              "title": "영국 AI 칩 스타트업 프랙타일, 9.3조 가치로 1조 투자 유치",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217330"
+            },
+            {
+              "source": "AI타임스",
+              "title": "미니맥스, 4K 이미지 약 10초에 생성하는 'H3-이미지' 공개…가중치도 배포",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217320"
+            },
+            {
+              "source": "AI타임스",
+              "title": "이스라엘 사이버부대 출신 설립 레이븐, AI 보안 앞세워 한국 시장 출사표",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217326"
+            },
+            {
+              "source": "AI타임스",
+              "title": "앤트로픽 IPO 수배 초과 청약…상장 후 25조 매수 수요 전망",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217314"
+            },
+            {
+              "source": "AI타임스",
+              "title": "미 주요 은행 이어 항공사도 AI 에이전트 차단…거래·보안 통제 강화",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217315"
+            },
+            {
+              "source": "AI타임스",
+              "title": "EU, AI 챗봇 '대화 중독'도 규제 추진…SNS·온라인 쇼핑까지 확대",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217318"
+            },
+            {
+              "source": "AI타임스",
+              "title": "네오사피엔스, 코바코 소상공인 광고 제작지원에 AI 목소리 공급",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217319"
+            },
+            {
+              "source": "AI타임스",
+              "title": "LG CNS, 국내외 대학 연구팀과 로보틱스·피지컬 AI 미래 모색",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217317"
+            },
+            {
+              "source": "AI타임스",
+              "title": "노타, 2년 연속 하이퍼엑셀 LPU 최적화 맡는다",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217316"
+            },
+            {
+              "source": "AI타임스",
+              "title": "인포시즈, 서울대와 산업 도면 특화 AI모델 개발 나서",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217311"
+            },
+            {
+              "source": "AI타임스",
+              "title": "알리바바, '큐원4' 첫 모델 공개…가중치·성능 평가 없이 프리뷰 출시",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217313"
+            },
+            {
+              "source": "AI타임스",
+              "title": "네이버, AI 팩토리 2조원 첫 수주 확보…”10곳 이상과 추가 협상 중\"",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217303"
+            },
+            {
+              "source": "AI타임스",
+              "title": "구글, 차세대 경량 모델 '하이드로젠' 테스트…출시 임박 관측",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217308"
+            },
+            {
+              "source": "AI타임스",
+              "title": "구글, 판단 전용 AI '제미나이 디시전 1' 출시...질문 1000개 동시 처리",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217307"
+            },
+            {
+              "source": "AI타임스",
+              "title": "미 공화당, 젠슨 황 의회 소환장 발부 추진…사임 요구까지 등장",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217301"
+            },
+            {
+              "source": "AI타임스",
+              "title": "국내 연구진, 폐태양광 패널로 실리카 합성…배터리 음극 시험서 용량 20% 높여",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217244"
+            },
+            {
+              "source": "AI타임스",
+              "title": "엔비디아 이사회, 젠슨 황 해임 논의 착수…주가 시간외 8% 급락",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217304"
+            },
+            {
+              "source": "AI타임스",
+              "title": "[AI리더의 서가] AI는 어떻게 기업의 무기가 되는가",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217032"
+            },
+            {
+              "source": "AI타임스",
+              "title": "코어위브 25% 급등에 AI 기술주 동반 반등…엔비디아도 상승 전환",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217298"
+            }
+          ],
+          "priority_score": 6,
+          "sector": "반도체",
+          "related_full_sources": []
+        },
+        {
+          "title": "WSJ “젠슨 황에 앨리스 황 소개한 건 남편\"…AI 칩 사업으로 연결",
+          "link": "https://www.etnews.com/20261112000440",
+          "source": "전자신문",
+          "published_dt": "2026-11-12 16:52:38",
+          "description": "엔비디아 최고경영자(CEO) 젠슨 황의 불륜 상대이며 중국 간첩으로 지목된 앨리스 황(중국명 황러)을 젠슨 황 CEO에게 소개한 사람은 앨리스 황 남편인 중국인 사업가 캉웨이(康偉)라는 보도가 나왔다. 11일(현지시간) 미 월스트리트저널(WSJ) 보도에 따르면 이 부부를 아는 지인들을 인용, 캉웨이와 젠슨 황 CEO는 10년 전부터 알고 지낸 사이라고 전했다. 보도에 따르면 앨리스 황과 캉웨이는 지난 10년간 돈이 되는 사업 기회들을 쫓아다녔고",
+          "category": "domestic",
+          "feed_url": "https://rss.etnews.com/Section901.xml",
+          "image_url": "",
+          "source_type": "tech",
+          "source_weight": 1.15,
+          "source_badge": "테크",
+          "priority_score": 1,
+          "related_full_sources": []
+        },
+        {
+          "title": "불륜보다 거짓말이 더 문제… 젠슨 황의 실수",
+          "link": "https://www.chosun.com/economy/weeklybiz/2026/11/13/5YPAHJQB5BECRKLAB5LBAPLSPY/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-11-13 03:00:00",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/economy/?outputType=xml",
+          "image_url": "https://www.chosun.com/resizer/v2/5WEHYGBTTBGSPEX6B4CFQACQUM.png?auth=7aed57c763f88f4b37f50431f8a956a7869eed096124c7d78402bfce7795d37f&smart=true&width=1920&height=1080",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프, 차기 엔비디아 CEO 추천…“젠슨 황 이을 사람은 애플 팀 쿡뿐”",
+          "link": "https://www.donga.com/news/Inter/article/all/20261113/135017992/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-13 00:59:40",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/13/135017993.1.jpg\" vspace=\"10\" />젠슨 황 엔비디아 최고경영자(CEO)가 12일(현지 시간) 전격 사임한 가운데, 도널드 트럼프 미국 대통령이 차기 CEO 적임자가 애플 팀 쿡 이사회 의장이라고 주장했다.트럼프 대통령은 이날 트루스소셜을 통해 “훌륭한 업적을 남긴 엔비디아의 CEO 젠슨 황이 사임한 지금, 그의 뒤를 이을 사람은 단 한 명뿐”이라며 이같이 밝혔다.그는 “전설이 또 다른 전설을 이어 받는다!”고만 덧붙였다. 구체적인 추천 배경은 언급하지 않았으며 팀 쿡 의장의 반응도 아직 확인되지 않았다.앞서 엔비디아는 이날 공식 홈페이지를 통해 젠슨 황이 CEO, 이사직 등에서 즉시 사임했다고 밝혔다. 중국 스파이로 의심 받는 여성 기업가 앨리스 황과 불륜 의혹을 인정한 지 나흘 만이다.임시 CEO는 콜레트 크레스 엔비디아 최고재무책임자(CFO)가 맡을 예정으로, 이사회는 정식 CEO 선임을 위한 절차에 착수했다. 내·외부에서 모두 후보자를 검토할 계획이다.[서울=뉴시스]",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "image_url": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/13/135017993.1.jpg",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "젠슨 황 ‘1인 경영’ 33년 만에 막내려… 엔비디아 임시 경영 체제",
+          "link": "https://www.chosun.com/economy/tech_it/2026/11/13/35UHVZNC45GLJHL2D6US5WYWW4/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-11-13 00:52:00",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/economy/?outputType=xml",
+          "image_url": "https://www.chosun.com/resizer/v2/HOVBN23RXRGOPFDYLKTQDJEV2Q.jpg?auth=861a66d354205d490937f1e871ff54cc31d1ba21811ecbfc47a1d903afe69b17&smart=true&width=1013&height=760",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 5,
+      "role": "엔비디아 창업자 및 전 CEO"
+    },
+    "이재명": {
+      "articles": [
+        {
+          "title": "3대 메가, 충청서 본격 시동…李대통령·이재용 나란히 '첫 삽'(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261112090851001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-11-12 16:39:28",
+          "description": "(서울=연합뉴스) 황윤기 기자 = 이재명 대통령은 12일 정부가 중점적으로 추진하는 대규모 지역 투자 사업인 &apos;3대 메가프로젝트&apos;의 본격적인 시...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "image_url": "https://img.yna.co.kr/photo/yna/YH/2026/11/12/PYH2026111207440001300_P2.jpg",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "입법/정책",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "'李대통령·김현지 겨냥 막말' 김미나 전 창원시의원, 벌금형",
+          "link": "https://www.yna.co.kr/view/AKR20261112145500052",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-11-12 16:14:59",
+          "description": "(창원=연합뉴스) 정종호 기자 = 지난해 자신의 사회관계망서비스(SNS)에 이재명 대통령과 김현지 청와대 제1부속실장을 겨냥해 막말 게시글을 올...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "image_url": "https://img.yna.co.kr/photo/yna/YH/2023/08/31/PYH2023083110270005200_P2.jpg",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "당내 정국",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 \"국내 자본시장 여전히 저평가…생태계 혁신 박차\"",
+          "link": "https://www.yna.co.kr/view/AKR20261112134000001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-11-12 15:32:16",
+          "description": "(서울=연합뉴스) 임형섭 황윤기 기자 = 이재명 대통령은 12일 &quot;최근 대외환경 불안정 등으로 국내 시장이 많은 영향을 받고 있으나, 거시경제 ...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "image_url": "https://img.yna.co.kr/photo/yna/YH/2026/11/12/PYH2026111216340001300_P2.jpg",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": [
+            {
+              "source": "조선일보-정치",
+              "title": "李대통령 “국내 자본시장, 여전히 저평가된 매력적 투자 대상”",
+              "link": "https://www.chosun.com/politics/politics_general/2026/11/12/2DYGRERUPBFJBHFJRRROGVSSEY/"
+            }
+          ]
+        },
+        {
+          "title": "李대통령 “충청권 메가프로젝트에 반도체·바이오 등 23조6000억 추가 투자”",
+          "link": "https://www.chosun.com/politics/blue_house/2026/11/12/SVSGHU6GRRGVLPYNPPRQW2W23A/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-11-12 11:27:04",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "image_url": "",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        }
+      ],
+      "count": 4,
+      "role": "한국 대통령"
+    },
+    "트럼프": {
+      "articles": [
+        {
+          "title": "베선트 “메가스피드 제재” 러트닉 “中과 무역전쟁 될것”… 백악관 충돌",
+          "link": "https://www.donga.com/news/Inter/article/all/20261113/135017902/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-13 04:30:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/13/135015787.6.jpg\" vspace=\"10\" />젠슨 황 엔비디아 최고경영자(CEO)의 불륜 스캔들이 도널드 트럼프 행정부의 핵심 인사 간 내분으로도 번지고 있다. 11일(현지 시간) 미국 정치매체 액시오스에 따르면 트럼프 대통령의 최측근인 스콧 베선트 재무장관과 하워드 러트닉 상무장관은 이달 5일 황 CEO의 불륜녀이며 중국 스파이로 지목된 앨리스 황(중국명 황러·黃樂)이 이사로 재직했으며 엔비디아의 최첨단 인공지능(AI) 반도체를 중국으로 우회 수출한 의혹을 받는 싱가포르 기업 메가스피드의 제재를 두고 충돌했다. 베선트 장관은 제재를 촉구했지만, 러트닉 장관이 이를 사실상 반대하는 상황이 전개됐다는 것이다. 워싱턴포스트(WP) 등은 패권 경쟁 중인 중국에 대한 각종 규제를 천명했던 트럼프 대통령이 오래전부터 황 CEO와 앨리스 황의 관계를 보고받았음에도 수차례 황 CEO를 두둔하는 등 대(對)중국 정책에 모순을 드러내고 있다고 지적했다. 집권 공화당과 야당 민주당은 이번 사태를 계기로 대중 반도체 수출규제 강화 입법을 초당적",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "image_url": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/13/135015787.6.jpg",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "美 ‘KKK 본거지’ 미시시피서, 146년만에 흑인 상원의원 탄생",
+          "link": "https://www.donga.com/news/Inter/article/all/20261112/135017568/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-13 04:30:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/12/135017932.1.jpg\" vspace=\"10\" />미국 남부의 공화당 텃밭이자 흑인 차별의 역사가 깊은 미시시피주 연방 상원의원 선거에 민주당 후보로 나선 흑인 지방검사장 스콧 콜롬(44)이 11일 현역 재선 의원이자 백인 여성인 신디 하이드스미스 공화당 후보를 꺾었다. 뉴욕타임스(NYT) 등에 따르면 내년 1월 상원에 입성하는 콜롬 당선인은 146년 만에 미시시피주에서 탄생한 흑인 상원의원이다. 콜롬 당선인 전에 미시시피주에서 흑인 상원의원이었던 이는 노예 출신이며 간선제로 선출된 블랜치 브루스 전 공화당 상원의원(1875∼1881년 재직)이다. 민주당 상원의원의 승리 또한 1982년 백인인 존 스테니스 전 의원 이후 44년 만이다. 도널드 트럼프 대통령은 2024년 대선 당시 미시시피주에서 약 23%포인트 차로 압승했다. 3일 치러진 중간선거에서 텍사스, 캔자스, 아이오와주 등 보수 성향이 강한 다른 주에서도 민주당 소속 상원의원 및 주지사 당선인이 대거 탄생한 가운데 미시시피주마저 민주당에 넘어가면서 공화당의 전통 텃밭이 무",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "image_url": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/12/135017932.1.jpg",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프, 차기 엔비디아 CEO 추천…“젠슨 황 이을 사람은 애플 팀 쿡뿐”",
+          "link": "https://www.donga.com/news/Inter/article/all/20261113/135017992/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-13 00:59:40",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/13/135017993.1.jpg\" vspace=\"10\" />젠슨 황 엔비디아 최고경영자(CEO)가 12일(현지 시간) 전격 사임한 가운데, 도널드 트럼프 미국 대통령이 차기 CEO 적임자가 애플 팀 쿡 이사회 의장이라고 주장했다.트럼프 대통령은 이날 트루스소셜을 통해 “훌륭한 업적을 남긴 엔비디아의 CEO 젠슨 황이 사임한 지금, 그의 뒤를 이을 사람은 단 한 명뿐”이라며 이같이 밝혔다.그는 “전설이 또 다른 전설을 이어 받는다!”고만 덧붙였다. 구체적인 추천 배경은 언급하지 않았으며 팀 쿡 의장의 반응도 아직 확인되지 않았다.앞서 엔비디아는 이날 공식 홈페이지를 통해 젠슨 황이 CEO, 이사직 등에서 즉시 사임했다고 밝혔다. 중국 스파이로 의심 받는 여성 기업가 앨리스 황과 불륜 의혹을 인정한 지 나흘 만이다.임시 CEO는 콜레트 크레스 엔비디아 최고재무책임자(CFO)가 맡을 예정으로, 이사회는 정식 CEO 선임을 위한 절차에 착수했다. 내·외부에서 모두 후보자를 검토할 계획이다.[서울=뉴시스]",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "image_url": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/13/135017993.1.jpg",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "몸값 뛴 김정은, 몸 단 트럼프… 다시 거론되는 미북회담",
+          "link": "https://www.chosun.com/politics/diplomacy-defense/2026/11/13/BJYQSZASEJDD5PT6I2DES5K2V4/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-11-13 00:51:00",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "image_url": "",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 4,
+      "role": "미국 대통령"
+    }
+  }
+}
