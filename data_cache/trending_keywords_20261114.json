@@ -1,0 +1,461 @@
+{
+  "timestamp": "2026-11-14T06:01:18.982400",
+  "date": "20261114",
+  "data": [
+    {
+      "keyword": "반도체",
+      "reason": "대규모 투자 및 핵심 거점 조성",
+      "score": 39.36,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "삼성전자 113조 투자 아산 메가프로젝트 착공 AI 반도체 핵심 거점 도약 - 국제뉴스",
+        "‘반도체 거점’ 용인 반도체클러스터에...연말 1225가구 분양 나선다"
+      ],
+      "representative_article": {
+        "title": "삼성전자 113조 투자 아산 메가프로젝트 착공 AI 반도체 핵심 거점 도약 - 국제뉴스",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1HTkwzZVZVRldOeW1pLUxJaFBqc3FtSVRhcWo0MEZFcmxNR285YzM2clR2OVUwUHVKSVI2dUUxN2VHUU5ZM2pJdk1PdXBtWHA4TTVEYjlPUXZLcmtxb0tmbjlVWlpGUGlsTkRkRFFn?oc=5",
+        "source": "키워드-반도체AI",
+        "published_dt": "2026-11-14 03:09:34",
+        "match_score": 39.36
+      },
+      "related_articles": [
+        {
+          "title": "삼성전자 113조 투자 아산 메가프로젝트 착공 AI 반도체 핵심 거점 도약 - 국제뉴스",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1HTkwzZVZVRldOeW1pLUxJaFBqc3FtSVRhcWo0MEZFcmxNR285YzM2clR2OVUwUHVKSVI2dUUxN2VHUU5ZM2pJdk1PdXBtWHA4TTVEYjlPUXZLcmtxb0tmbjlVWlpGUGlsTkRkRFFn?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-11-14 03:09:34",
+          "match_score": 39.36
+        },
+        {
+          "title": "‘반도체 거점’ 용인 반도체클러스터에...연말 1225가구 분양 나선다",
+          "link": "https://www.mk.co.kr/news/realestate/12207803",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-13 10:36:20",
+          "match_score": 36.7
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재건축",
+      "reason": "용산 재건축 수주 확대 및 시장 상승",
+      "score": 39.21,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "IPARK현산, 용산 재건축 수주 확대…한강변까지 아이파크 벨트 - 아시아타임즈"
+      ],
+      "representative_article": {
+        "title": "IPARK현산, 용산 재건축 수주 확대…한강변까지 아이파크 벨트 - 아시아타임즈",
+        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBtYmpYQ09lR3QtU0dhWnVaaDhGb1R5V1lFZnZzX2tjcy1rV2c1NHladHhrdjRwWXZoc2FmcGNaT0tmVW90MnJqLUV4SU40NE9ydkVwY2dZcUV1SE8ycUE?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-11-14 04:38:14",
+        "match_score": 39.21
+      },
+      "related_articles": [
+        {
+          "title": "IPARK현산, 용산 재건축 수주 확대…한강변까지 아이파크 벨트 - 아시아타임즈",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBtYmpYQ09lR3QtU0dhWnVaaDhGb1R5V1lFZnZzX2tjcy1rV2c1NHladHhrdjRwWXZoc2FmcGNaT0tmVW90MnJqLUV4SU40NE9ydkVwY2dZcUV1SE8ycUE?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-11-14 04:38:14",
+          "match_score": 39.21
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "특검법",
+      "reason": "국민의힘 특검법 규탄 집회",
+      "score": 42.18,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "국힘, 오늘서 부산서 '조작 기소 특검법' 규탄 집회"
+      ],
+      "representative_article": {
+        "title": "국힘, 오늘서 부산서 '조작 기소 특검법' 규탄 집회",
+        "link": "https://www.yna.co.kr/view/AKR20261113148300001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-11-14 05:00:00",
+        "match_score": 42.18
+      },
+      "related_articles": [
+        {
+          "title": "국힘, 오늘서 부산서 '조작 기소 특검법' 규탄 집회",
+          "link": "https://www.yna.co.kr/view/AKR20261113148300001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-11-14 05:00:00",
+          "match_score": 42.18
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "칩 규제",
+      "reason": "미 의회 대중 칩 규제 법안 가속",
+      "score": 41.2,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "美의회 ‘對中 칩 규제 3법’ 가속… 국내기업 中공장 불똥 우려"
+      ],
+      "representative_article": {
+        "title": "美의회 ‘對中 칩 규제 3법’ 가속… 국내기업 中공장 불똥 우려",
+        "link": "https://www.donga.com/news/Economy/article/all/20261113/135023330/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-11-14 01:40:00",
+        "match_score": 41.2
+      },
+      "related_articles": [
+        {
+          "title": "美의회 ‘對中 칩 규제 3법’ 가속… 국내기업 中공장 불똥 우려",
+          "link": "https://www.donga.com/news/Economy/article/all/20261113/135023330/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-14 01:40:00",
+          "match_score": 41.2
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "CEO",
+      "score": 50.6,
+      "article_count": 13,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "국제"
+      ],
+      "sample_titles": [
+        "'젠슨황 퇴임'에도 장중 3%까지 올랐던 코스피, 0.98% 하락 마감(종합)",
+        "'전강후약' 코스피, 0.98% 하락 마감…코스닥 0.4%↑",
+        "트럼프 향하는 ‘젠슨 황 스캔들’… 의회, 러트닉 조사"
+      ],
+      "llm_candidate": false,
+      "rank": 5,
+      "representative_article": {
+        "title": "젠슨 황만이 아니다…사내연애에 CEO 자리 내려놓은 글로벌 경영자들",
+        "link": "https://www.donga.com/news/Inter/article/all/20261113/135021047/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-11-13 15:37:37",
+        "match_score": 37.3
+      },
+      "related_articles": [
+        {
+          "title": "젠슨 황만이 아니다…사내연애에 CEO 자리 내려놓은 글로벌 경영자들",
+          "link": "https://www.donga.com/news/Inter/article/all/20261113/135021047/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-13 15:37:37",
+          "match_score": 37.3
+        },
+        {
+          "title": "JP모간운용 CEO “국민연금과 10년 ‘정’ 쌓아…내년 전주에 사무소”",
+          "link": "https://www.donga.com/news/Economy/article/all/20261113/135021027/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-13 15:34:10",
+          "match_score": 37.3
+        },
+        {
+          "title": "트럼프 “팀 쿡을 엔비디아로”... 차기 엔비디아 CEO 누가 되나",
+          "link": "https://www.chosun.com/economy/tech_it/2026/11/13/HEVOAZPOO5ELRLBT3Z2K3JMG6E/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-11-13 09:59:37",
+          "match_score": 28.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "엔비디아",
+      "score": 42.0,
+      "article_count": 11,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "국제"
+      ],
+      "sample_titles": [
+        "'젠슨황 퇴임'에도 장중 3%까지 올랐던 코스피, 0.98% 하락 마감(종합)",
+        "'전강후약' 코스피, 0.98% 하락 마감…코스닥 0.4%↑",
+        "트럼프 향하는 ‘젠슨 황 스캔들’… 의회, 러트닉 조사"
+      ],
+      "llm_candidate": false,
+      "rank": 6,
+      "representative_article": {
+        "title": "日정부, 엔비디아 사태 주시…'피지컬 AI' 영향 우려",
+        "link": "https://www.etnews.com/20261113000155",
+        "source": "전자신문",
+        "published_dt": "2026-11-13 12:14:06",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "日정부, 엔비디아 사태 주시…'피지컬 AI' 영향 우려",
+          "link": "https://www.etnews.com/20261113000155",
+          "source": "전자신문",
+          "published_dt": "2026-11-13 12:14:06",
+          "match_score": 37.49
+        },
+        {
+          "title": "트럼프 “팀 쿡을 엔비디아로”... 차기 엔비디아 CEO 누가 되나",
+          "link": "https://www.chosun.com/economy/tech_it/2026/11/13/HEVOAZPOO5ELRLBT3Z2K3JMG6E/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-11-13 09:59:37",
+          "match_score": 28.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "부동산",
+      "score": 62.2,
+      "article_count": 10,
+      "source_count": 2,
+      "categories": [
+        "부동산",
+        "정치"
+      ],
+      "sample_titles": [
+        "가평군, 전세사기 예방 위해 공인중개사 대상 '경기 안심 부동산' 교육 - 매일일보",
+        "동대문구 장안힐스테이트 84.789㎡, 13억 7천만원에 거래… 최근 3년 신고가 [MAI부동산]",
+        "동작구 상도동삼호아파트 114.63㎡ 14억 1천만원… 최근 3년 신고가 [MAI부동산]"
+      ],
+      "llm_candidate": false,
+      "rank": 7,
+      "representative_article": {
+        "title": "동대문구 장안힐스테이트 84.789㎡, 13억 7천만원에 거래… 최근 3년 신고가 [MAI부동산]",
+        "link": "https://www.mk.co.kr/news/realestate/12207698",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-11-13 09:23:19",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "동대문구 장안힐스테이트 84.789㎡, 13억 7천만원에 거래… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12207698",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-13 09:23:19",
+          "match_score": 37.49
+        },
+        {
+          "title": "동작구 상도동삼호아파트 114.63㎡ 14억 1천만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12207696",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-13 09:22:19",
+          "match_score": 37.49
+        },
+        {
+          "title": "동작구 대방동 현대홈타운2 59.89㎡ 13억 7500만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12207695",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-13 09:22:19",
+          "match_score": 37.49
+        },
+        {
+          "title": "영등포구 신길동 건영 89.16㎡ 12억 8천만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12207694",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-13 09:22:19",
+          "match_score": 37.49
+        },
+        {
+          "title": "구로구 개봉동 현대홈타운 59.49㎡ 9억 8천만원…최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12207693",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-13 09:22:19",
+          "match_score": 37.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "3분기",
+      "score": 67.8,
+      "article_count": 9,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "SC제일은행 3분기 누적 순익 5천62억원…작년보다 67%↑",
+        "토스증권, 3분기 영업익 1천287억원…전분기 대비 38%↓",
+        "토스증권, 3분기 영업익 1천287억원…전분기 대비 38%↓"
+      ],
+      "llm_candidate": false,
+      "rank": 8,
+      "representative_article": {
+        "title": "SC제일은행 3분기 누적 순익 5천62억원…작년보다 67%↑",
+        "link": "https://www.yna.co.kr/view/AKR20261113145000002",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-11-13 16:59:11",
+        "match_score": 37.83
+      },
+      "related_articles": [
+        {
+          "title": "SC제일은행 3분기 누적 순익 5천62억원…작년보다 67%↑",
+          "link": "https://www.yna.co.kr/view/AKR20261113145000002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-13 16:59:11",
+          "match_score": 37.83
+        },
+        {
+          "title": "토스증권, 3분기 영업익 1천287억원…전분기 대비 38%↓",
+          "link": "https://www.yna.co.kr/view/AKR20261113155300008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-13 17:19:17",
+          "match_score": 37.67
+        },
+        {
+          "title": "[특징주] 한국전력, 3분기 어닝 쇼크에 9%대 급락 마감(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261113038751008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-13 15:41:26",
+          "match_score": 37.67
+        },
+        {
+          "title": "풀무원, 3분기 영업이익 40억원…작년 동기 대비 89.6% 감소",
+          "link": "https://www.yna.co.kr/view/AKR20261113164500030",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-11-13 18:11:23",
+          "match_score": 37.67
+        },
+        {
+          "title": "SK디스커버리 3분기 매출 3.4조원…지주회사 출범 후 최대",
+          "link": "https://www.yna.co.kr/view/AKR20261113156700003",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-11-13 17:22:57",
+          "match_score": 37.67
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "신고가",
+      "score": 49.4,
+      "article_count": 9,
+      "source_count": 2,
+      "categories": [
+        "국제",
+        "부동산"
+      ],
+      "sample_titles": [
+        "동대문구 장안힐스테이트 84.789㎡, 13억 7천만원에 거래… 최근 3년 신고가 [MAI부동산]",
+        "동작구 상도동삼호아파트 114.63㎡ 14억 1천만원… 최근 3년 신고가 [MAI부동산]",
+        "동작구 대방동 현대홈타운2 59.89㎡ 13억 7500만원… 최근 3년 신고가 [MAI부동산]"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "동대문구 장안힐스테이트 84.789㎡, 13억 7천만원에 거래… 최근 3년 신고가 [MAI부동산]",
+        "link": "https://www.mk.co.kr/news/realestate/12207698",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-11-13 09:23:19",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "동대문구 장안힐스테이트 84.789㎡, 13억 7천만원에 거래… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12207698",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-13 09:23:19",
+          "match_score": 37.49
+        },
+        {
+          "title": "동작구 상도동삼호아파트 114.63㎡ 14억 1천만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12207696",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-13 09:22:19",
+          "match_score": 37.49
+        },
+        {
+          "title": "구로구 개봉동 현대홈타운 59.49㎡ 9억 8천만원…최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12207693",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-13 09:22:19",
+          "match_score": 37.49
+        },
+        {
+          "title": "동작구 대방동 현대홈타운2 59.89㎡ 13억 7500만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12207695",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-13 09:22:19",
+          "match_score": 28.49
+        },
+        {
+          "title": "영등포구 신길동 건영 89.16㎡ 12억 8천만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12207694",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-13 09:22:19",
+          "match_score": 28.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "외교부",
+      "score": 35.4,
+      "article_count": 9,
+      "source_count": 2,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "조현 \"한반도 中 건설적 역할\" 당부…왕이 \"정책 변함없다\"(종합)",
+        "외교부 '경제안보외교포럼' 개최…\"충격에 빠르게 대응해야\"",
+        "외교부, 유엔 군축고위대표와 한반도·북핵·AI 등 논의"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "외교부 '경제안보외교포럼' 개최…\"충격에 빠르게 대응해야\"",
+        "link": "https://www.yna.co.kr/view/AKR20261113145800504",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-11-13 16:39:33",
+        "match_score": 38.67
+      },
+      "related_articles": [
+        {
+          "title": "외교부 '경제안보외교포럼' 개최…\"충격에 빠르게 대응해야\"",
+          "link": "https://www.yna.co.kr/view/AKR20261113145800504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-11-13 16:39:33",
+          "match_score": 38.67
+        },
+        {
+          "title": "외교부, 유엔 군축고위대표와 한반도·북핵·AI 등 논의",
+          "link": "https://www.yna.co.kr/view/AKR20261113139000504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-11-13 16:13:22",
+          "match_score": 38.67
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
