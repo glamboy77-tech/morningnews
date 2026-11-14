@@ -1,0 +1,1824 @@
+
+        <!DOCTYPE html>
+        <html lang="ko">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Morning News 2026.11.15</title>
+            <link rel="manifest" href="../manifest.json">
+            <script>
+              // Service Worker Registration
+              if ('serviceWorker' in navigator) {
+                navigator.serviceWorker.register('../sw.js')
+                  .then(registration => {
+                    console.log('Service Worker registered:', registration);
+                  })
+                  .catch(error => {
+                    console.error('Service Worker registration failed:', error);
+                  });
+              }
+              
+              // 앱이 다시 활성화될 때 실행
+              document.addEventListener("visibilitychange", function() {
+                  if (document.visibilityState === 'visible') {
+                      checkForUpdate();
+                  }
+              });
+
+              // 앱 시작 시 자동 1회 업데이트 체크 (세션당 1회)
+              function runInitialAutoRefreshOnce() {
+                  const sessionKey = 'mnInitialAutoRefreshDone';
+                  if (sessionStorage.getItem(sessionKey) === '1') return;
+                  sessionStorage.setItem(sessionKey, '1');
+                  checkForUpdate();
+              }
+
+              document.addEventListener('DOMContentLoaded', function() {
+                  runInitialAutoRefreshOnce();
+              });
+
+              function checkForUpdate() {
+                  // 현재 페이지의 'Last-Modified' 헤더를 서버에 요청해서 확인
+                  fetch(window.location.href, { method: 'HEAD' })
+                      .then(response => {
+                          const serverLastModified = response.headers.get('Last-Modified');
+                          const localLastModified = localStorage.getItem('pageLastModified');
+
+                          if (!serverLastModified) return;
+
+                          // 첫 방문/초기 상태에서는 기준값만 저장하고 종료
+                          if (!localLastModified) {
+                              localStorage.setItem('pageLastModified', serverLastModified);
+                              return;
+                          }
+
+                          // 서버의 파일 수정 시간이 저장된 시간과 다르면 새로고침
+                          if (serverLastModified !== localLastModified) {
+                              localStorage.setItem('pageLastModified', serverLastModified);
+                              location.reload(true);
+                          }
+                      })
+                      .catch(err => console.log('Update check failed:', err));
+              }
+
+              // 처음 로드될 때 현재 페이지의 수정 시간을 저장
+              window.onload = function() {
+                  fetch(window.location.href, { method: 'HEAD' })
+                      .then(response => {
+                          const lastModified = response.headers.get('Last-Modified');
+                          if (lastModified) {
+                              localStorage.setItem('pageLastModified', lastModified);
+                          }
+                      });
+              };
+              
+              const SHARE_BASE_TEXT = "📰 오늘의 모닝뉴스 브리핑\n- 경제/거시: 한은은 반도체 산업은 활황인데 소비는 미지근한 상황이라고 진단했다. 저축은행 예금금리가 4%에 다시 접근하고 있으나 상호금융권은 주춤한 상태다.\n- 부동산: 인천시는 재개발·재건축 사전컨설팅 절차를 대폭 간소화할 계획이다. 서울 동대문구에서는 GTX-C 착공과 동북선 공정이 76% 진행 중이다.\n- 국제: 엔비디아 시가총액은 한 주 새 5730억 달러 증발하며 역대 최대 낙폭을 기록했다. 대형 크루즈가 전복됐으나 탑승객 180여명 모두 무사했다.";
+
+              function buildShareInstallUrl() {
+                  const url = new URL(window.location.href);
+                  url.searchParams.set('from', 'share-install');
+                  return url.toString();
+              }
+
+              function showShareToast(message) {
+                  const toast = document.getElementById('shareToast');
+                  if (!toast) return;
+                  toast.textContent = message;
+                  toast.classList.add('show');
+                  setTimeout(() => toast.classList.remove('show'), 1300);
+              }
+
+              async function copyTextFallback(text) {
+                  if (navigator.clipboard && window.isSecureContext) {
+                      await navigator.clipboard.writeText(text);
+                      return;
+                  }
+
+                  const textarea = document.createElement('textarea');
+                  textarea.value = text;
+                  textarea.style.position = 'fixed';
+                  textarea.style.opacity = '0';
+                  document.body.appendChild(textarea);
+                  textarea.focus();
+                  textarea.select();
+                  document.execCommand('copy');
+                  textarea.remove();
+              }
+
+              function isLikelyMobileDevice() {
+                  if (navigator.userAgentData && typeof navigator.userAgentData.mobile === 'boolean') {
+                      return navigator.userAgentData.mobile;
+                  }
+                  return /Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent || '');
+              }
+
+              async function shareMorningBriefing() {
+                  const shareInstallUrl = buildShareInstallUrl();
+                  const shareTitle = `Morning News $2026.11.15`;
+                  const shareText = `${SHARE_BASE_TEXT}
+
+모닝뉴스 앱에서 오늘의 흐름을 확인해보세요 👉 ${shareInstallUrl}`;
+
+                  // 데스크톱 PWA/브라우저에서는 Web Share API가 새 창만 떴다가 종료되는 케이스가 있어
+                  // 안정적으로 클립보드 복사 fallback을 우선 사용한다.
+                  if (!isLikelyMobileDevice()) {
+                      try {
+                          await copyTextFallback(`${shareTitle}
+${shareText}`);
+                          showShareToast('PC에서는 공유 문구를 클립보드에 복사했어요.');
+                          return;
+                      } catch (error) {
+                          console.error('Desktop share fallback failed:', error);
+                      }
+                  }
+
+                  if (navigator.share) {
+                      try {
+                          await navigator.share({
+                              title: shareTitle,
+                              text: shareText
+                          });
+                          return;
+                      } catch (error) {
+                          if (error && error.name === 'AbortError') return;
+                      }
+                  }
+
+                  try {
+                      await copyTextFallback(`${shareTitle}
+${shareText}`);
+                      showShareToast('브리핑 문구가 복사되었습니다.');
+                  } catch (error) {
+                      console.error('Share fallback failed:', error);
+                      alert('공유에 실패했습니다. 잠시 후 다시 시도해주세요.');
+                  }
+              }
+
+              // --- Gemini Navigator Overlay (in-app) ---
+              const GEMINI_NAV_URL = 'https://gemini-783885185452.us-west1.run.app/?embed=1';
+              let geminiLoaded = false;
+              let geminiLoadTimer = null;
+
+              function setGeminiLoading(isLoading) {
+                  const loading = document.getElementById('geminiLoading');
+                  if (!loading) return;
+                  loading.style.display = isLoading ? 'flex' : 'none';
+              }
+
+              function startGeminiLoadTimer() {
+                  if (geminiLoadTimer) clearTimeout(geminiLoadTimer);
+                  geminiLoadTimer = setTimeout(() => {
+                      if (!geminiLoaded) {
+                          setGeminiLoading(false);
+                      }
+                  }, 15000);
+              }
+
+              function openGeminiNavigator() {
+                  const overlay = document.getElementById('geminiOverlay');
+                  const frame = document.getElementById('geminiFrame');
+                  if (!overlay || !frame) return;
+
+                  // show
+                  overlay.classList.add('open');
+                  document.body.classList.add('no-scroll');
+
+                  // reset loading state
+                  setGeminiLoading(!geminiLoaded);
+                  startGeminiLoadTimer();
+
+                  // set src lazily (avoid background CPU)
+                  // NOTE: iframe.src property is auto-resolved even when attribute is "".
+                  // Use the attribute value to decide whether we've already loaded Gemini.
+                  const srcAttr = frame.getAttribute('src');
+                  if (!srcAttr || srcAttr === 'about:blank') frame.setAttribute('src', GEMINI_NAV_URL);
+              }
+
+              function closeGeminiNavigator() {
+                  const overlay = document.getElementById('geminiOverlay');
+                  if (!overlay) return;
+                  overlay.classList.remove('open');
+                  document.body.classList.remove('no-scroll');
+              }
+
+              function openGeminiInNewTab() {
+                  window.open('https://gemini-783885185452.us-west1.run.app/', '_blank', 'noopener,noreferrer');
+              }
+
+              function reloadGeminiNavigator() {
+                  const frame = document.getElementById('geminiFrame');
+                  if (!frame) return;
+                  geminiLoaded = false;
+                  setGeminiLoading(true);
+                  startGeminiLoadTimer();
+                  frame.setAttribute('src', `${GEMINI_NAV_URL}&t=${Date.now()}`);
+              }
+
+              document.addEventListener('keydown', (e) => {
+                  if (e.key === 'Escape') closeGeminiNavigator();
+              });
+              
+                // --- Animated Weather Logic ---
+                const weatherIcons = {
+                    sunny: `<svg class="weather-svg" viewBox="0 0 64 64"><circle class="sun" cx="32" cy="32" r="12"/><g stroke="#FFD60A" stroke-width="2"><line x1="32" y1="8" x2="32" y2="14"/><line x1="32" y1="50" x2="32" y2="56"/><line x1="8" y1="32" x2="14" y2="32"/><line x1="50" y1="32" x2="56" y2="32"/><line x1="15" y1="15" x2="19" y2="19"/><line x1="45" y1="45" x2="49" y2="49"/><line x1="15" y1="49" x2="19" y2="45"/><line x1="45" y1="19" x2="49" y2="15"/></g></svg>`,
+                    cloudy: `<svg class="weather-svg" viewBox="0 0 64 64"><path class="cloud" d="M46,38c0,4.4-3.6,8-8,8H24c-5.5,0-10-4.5-10-10c0-4.8,3.4-8.9,8-9.8c1.1-4.7,5.3-8.2,10-8.2c4,0,7.5,2.3,9.2,5.7C43.5,24.6,46,28,46,32v6z"/></svg>`,
+                    rainy: `<svg class="weather-svg" viewBox="0 0 64 64"><path class="cloud" d="M46,32c0,4.4-3.6,8-8,8H24c-5.5,0-10-4.5-10-10c0-4.8,3.4-8.9,8-9.8c1.1-4.7,5.3-8.2,10-8.2c4,0,7.5,2.3,9.2,5.7C43.5,24.6,46,28,46,32v6z"/><circle class="rain-drop" cx="24" cy="50" r="1.5"/><circle class="rain-drop" cx="32" cy="54" r="1.5"/><circle class="rain-drop" cx="40" cy="50" r="1.5"/></svg>`,
+                    snowy: `<svg class="weather-svg" viewBox="0 0 64 64"><path class="cloud" d="M46,32c0,4.4-3.6,8-8,8H24c-5.5,0-10-4.5-10-10c0-4.8,3.4-8.9,8-9.8c1.1-4.7,5.3-8.2,10-8.2c4,0,7.5,2.3,9.2,5.7C43.5,24.6,46,28,46,32v6z"/><circle class="snow-flake" cx="24" cy="52" r="2"/><circle class="snow-flake" cx="32" cy="56" r="2"/><circle class="snow-flake" cx="40" cy="52" r="2"/></svg>`,
+                    stormy: `<svg class="weather-svg" viewBox="0 0 64 64"><path class="cloud" d="M46,32c0,4.4-3.6,8-8,8H24c-5.5,0-10-4.5-10-10c0-4.8,3.4-8.9,8-9.8c1.1-4.7,5.3-8.2,10-8.2c4,0,7.5,2.3,9.2,5.7C43.5,24.6,46,28,46,32v6z"/><polygon fill="#FFD60A" points="30,44 24,54 34,54 30,64 40,52 30,52" /></svg>`
+                };
+
+                async function updateWeather() {
+                    try {
+                        const DEFAULT_WEATHER_COORDS = { lat: 37.68, lon: 126.82, label: '기본 지역(고양)' };
+                        if (!window.__weatherState) {
+                            window.__weatherState = {
+                                coords: DEFAULT_WEATHER_COORDS,
+                                locationLabel: DEFAULT_WEATHER_COORDS.label,
+                                geolocationResolved: false
+                            };
+                        }
+
+                        async function resolveWeatherCoords() {
+                            const state = window.__weatherState;
+                            if (state.geolocationResolved) return state.coords;
+                            state.geolocationResolved = true;
+
+                            if (!navigator.geolocation) return state.coords;
+
+                            try {
+                                const position = await new Promise((resolve, reject) => {
+                                    navigator.geolocation.getCurrentPosition(resolve, reject, {
+                                        enableHighAccuracy: false,
+                                        timeout: 8000,
+                                        maximumAge: 30 * 60 * 1000
+                                    });
+                                });
+
+                                state.coords = {
+                                    lat: position.coords.latitude,
+                                    lon: position.coords.longitude,
+                                    label: '내 위치'
+                                };
+                                state.locationLabel = '내 위치';
+                            } catch (geoErr) {
+                                console.warn('Geolocation unavailable, fallback to default:', geoErr);
+                            }
+
+                            return state.coords;
+                        }
+
+                        const coords = await resolveWeatherCoords();
+                        const lat = coords.lat;
+                        const lon = coords.lon;
+                        const url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current=temperature_2m,weather_code&hourly=temperature_2m,precipitation_probability&daily=temperature_2m_max,temperature_2m_min&timezone=Asia%2FSeoul&past_days=1`;
+
+                        const res = await fetch(url);
+                        const data = await res.json();
+
+                        const temp = Math.round(data.current.temperature_2m);
+                        const max = Math.round(data.daily.temperature_2m_max[1]);
+                        const min = Math.round(data.daily.temperature_2m_min[1]);
+                        const code = data.current.weather_code;
+                        
+                        const curHour = new Date().getHours();
+                        const currIdx = 24 + curHour;
+                        const rainProb = data.hourly.precipitation_probability[currIdx] || 0;
+
+                        document.getElementById('temp-val').textContent = `${temp}°`;
+                        document.getElementById('weather-range').textContent = `${min}° / ${max}°`;
+                        document.getElementById('weather-desc').textContent = `강수 확률: ${rainProb}%`;
+                        const locationEl = document.getElementById('weather-location');
+                        if (locationEl) locationEl.textContent = `${window.__weatherState.locationLabel} 기준`;
+
+                        // 어제 동일 시간 기온과 실시간 비교
+                        try {
+                            const yesterdayTemp = data.hourly.temperature_2m[currIdx - 24];
+                            const diff = (data.current.temperature_2m - yesterdayTemp).toFixed(1);
+                            let diffMsg = "";
+                            const absDiff = Math.abs(diff);
+                            if (diff > 0) diffMsg = `어제보다 ${absDiff}° 높습니다`;
+                            else if (diff < 0) diffMsg = `어제보다 ${absDiff}° 낮습니다`;
+                            else diffMsg = "어제와 기온이 같습니다";
+                            
+                            const diffElement = document.getElementById('weather-diff-box');
+                            if (diffElement) diffElement.textContent = diffMsg;
+                        } catch (err) {
+                            console.error('Diff calculation error:', err);
+                        }
+
+                        let icon = weatherIcons.sunny;
+                        if ([1, 2, 3, 45, 48].includes(code)) icon = weatherIcons.cloudy;
+                        else if ([51, 53, 55, 61, 63, 65, 80, 81, 82].includes(code)) icon = weatherIcons.rainy;
+                        else if ([71, 73, 75, 77, 85, 86].includes(code)) icon = weatherIcons.snowy;
+                        else if ([95, 96, 99].includes(code)) icon = weatherIcons.stormy;
+
+                        document.getElementById('weather-icon-wrapper').innerHTML = icon;
+                    } catch (e) {
+                        console.error('Weather update failed:', e);
+                    }
+                }
+
+                updateWeather();
+                setInterval(updateWeather, 1800000);
+            </script>
+            
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Outfit:wght@100;300;400;600;900&family=Russo+One&display=swap');
+            
+            :root {
+                --bg-color: #050505;
+                --surface: rgba(255, 255, 255, 0.03);
+                --surface-hover: rgba(255, 255, 255, 0.08);
+                --primary: #4facfe;
+                --text: #ffffff;
+                --text-secondary: #a0a0a0;
+                --border: rgba(255, 255, 255, 0.1);
+                --nav-bg: rgba(5, 5, 5, 0.8);
+                --card-priority-bg: rgba(79, 172, 254, 0.05);
+                --card-priority-border: #4facfe;
+                --related-bg: rgba(255, 255, 255, 0.02);
+                --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            }
+
+            * {
+                box-sizing: border-box;
+                -webkit-tap-highlight-color: transparent;
+            }
+
+            body {
+                font-family: 'Outfit', 'Noto Sans KR', sans-serif;
+                background-color: var(--bg-color);
+                background: radial-gradient(circle at 50% 0%, #1a1a1a 0%, #050505 100%);
+                color: var(--text);
+                margin: 0;
+                padding: 0;
+                line-height: 1.6;
+                word-break: keep-all;
+            }
+
+            .container {
+                max-width: 600px;
+                margin: 0 auto;
+                padding: 20px;
+                padding-bottom: 100px;
+            }
+
+            header {
+                text-align: center;
+                margin-bottom: 50px;
+                padding: 60px 20px;
+                background: linear-gradient(135deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.01) 100%);
+                backdrop-filter: blur(30px);
+                border-radius: 40px;
+                border: 1px solid var(--border);
+                position: relative;
+                overflow: hidden;
+                box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+            }
+
+            header::before {
+                content: '';
+                position: absolute;
+                top: -50%;
+                left: -50%;
+                width: 200%;
+                height: 200%;
+                background: radial-gradient(circle, rgba(79,172,254,0.15) 0%, transparent 60%);
+                z-index: 0;
+                animation: pulse 8s ease-in-out infinite alternate;
+            }
+
+            @keyframes pulse {
+                from { transform: scale(1); opacity: 0.5; }
+                to { transform: scale(1.1); opacity: 0.8; }
+            }
+
+            .header-meta {
+                position: relative;
+                z-index: 1;
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+                margin-bottom: 15px;
+            }
+
+            .header-date {
+                font-size: 0.85rem;
+                font-weight: 300;
+                letter-spacing: 2px;
+                color: var(--primary);
+                text-transform: uppercase;
+            }
+
+            .header-time {
+                font-size: 0.7rem;
+                color: var(--text-secondary);
+                letter-spacing: 1px;
+            }
+
+            header h1 {
+                position: relative;
+                z-index: 1;
+                margin: 20px 0;
+                font-size: 3.5rem;
+                font-family: 'Russo One', sans-serif;
+                font-weight: 400;
+                text-transform: none;
+                letter-spacing: 1px;
+                line-height: 1;
+                color: #eeeeee;
+                /* 은은하고 차분한 글로우로 변경 */
+                text-shadow: 0 0 10px rgba(255, 255, 255, 0.2), 
+                             0 0 20px rgba(79, 172, 254, 0.1);
+                display: block;
+            }
+
+            .header-date {
+                font-size: 0.9rem;
+                font-weight: 600;
+                letter-spacing: 1px;
+                color: #4facfe;
+                margin-bottom: 4px;
+            }
+
+            .header-time {
+                font-size: 0.8rem;
+                color: var(--text-secondary);
+                font-weight: 300;
+            }
+
+            .section-title {
+                scroll-margin-top: 150px;
+                font-size: 1.1rem;
+                font-weight: 600;
+                margin: 40px 0 20px;
+                color: var(--text);
+                display: flex;
+                align-items: center;
+                gap: 12px;
+                letter-spacing: 0.5px;
+            }
+            
+            .section-title::after {
+                content: '';
+                flex: 1;
+                height: 1px;
+                background: linear-gradient(90deg, var(--border), transparent);
+            }
+
+            .card {
+                background: var(--surface);
+                border-radius: 20px;
+                padding: 20px;
+                margin-bottom: 16px;
+                border: 1px solid var(--border);
+                transition: var(--transition);
+                text-decoration: none;
+                display: block;
+                color: inherit;
+                backdrop-filter: blur(10px);
+            }
+            
+            .card:hover {
+                transform: translateY(-4px);
+                background: var(--surface-hover);
+                border-color: rgba(255, 255, 255, 0.2);
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+            }
+
+            .card-title {
+                font-weight: 400;
+                font-size: 1.1rem;
+                line-height: 1.4;
+                margin-bottom: 12px;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+                color: #efefef;
+            }
+
+            .card-meta {
+                font-size: 0.8rem;
+                color: var(--text-secondary);
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                font-weight: 300;
+            }
+
+            .tag {
+                color: var(--primary);
+                font-size: 0.75rem;
+                font-weight: 600;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+            }
+
+            /* Briefing Card */
+            .briefing-card {
+                background: var(--surface);
+                padding: 20px;
+                border-radius: 24px;
+                margin-bottom: 40px;
+                border: 1px solid var(--border);
+                backdrop-filter: blur(10px);
+            }
+            .briefing-title {
+                font-weight: 600;
+                font-size: 1rem;
+                margin-bottom: 12px;
+                color: var(--primary);
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                text-transform: uppercase;
+                letter-spacing: 1.5px;
+            }
+            .briefing-item {
+                padding: 15px 0;
+                border-top: 1px solid var(--border);
+            }
+            .briefing-label {
+                display: block;
+                font-weight: 600;
+                color: var(--primary);
+                font-size: 0.82rem;
+                margin-bottom: 6px;
+            }
+            .briefing-content {
+                display: block;
+                color: var(--text);
+                font-size: .96rem;
+                font-weight: 500;
+                line-height: 1.65;
+            }
+            .briefing-more { margin-top: 7px; color: var(--text-secondary); font-size: .87rem; line-height: 1.7; }
+            .briefing-more > summary { width: fit-content; color: var(--primary); cursor: pointer; font-weight: 600; }
+            .briefing-more > summary:focus-visible { outline: 2px solid var(--primary); outline-offset: 3px; }
+            .briefing-more p { margin: 9px 0 0; }
+
+            .weekly-bridge { margin: 18px 0; color: var(--text-secondary); font-size: .88rem; }
+            .weekly-bridge a { color: var(--primary); }
+            .all-articles { margin-top: 28px; border-top: 1px solid var(--border); padding-top: 16px; }
+            .all-articles > summary { cursor: pointer; font-weight: 600; color: var(--primary); padding: 12px 0; }
+            .all-articles > summary:focus-visible { outline: 2px solid var(--primary); }
+
+            .front-page { margin: 28px 0 36px; }
+            .front-page-heading { font-size: 1.1rem; margin-bottom: 6px; }
+            .front-page-intro { color: var(--text-secondary); font-size: .85rem; margin: 0 0 22px; }
+            .front-page-section { margin: 22px 0 32px; }
+            .front-page-section h3 { font-size: 1rem; margin: 0 0 12px; }
+            .front-page .card { margin-bottom: 10px; padding: 16px; }
+            .front-page .card-illustrated { display: flex; align-items: flex-start; gap: 14px; }
+            .front-page .card-illustrated .card-copy { min-width: 0; flex: 1; }
+            .front-page .card-illustrated .card-art { width: 68px; height: 68px; flex: none; border-radius: 10px; }
+            .front-page .card-illustrated .card-art[hidden] { display: none; }
+            .front-page .card-illustrated .card-title { display: -webkit-box; line-height: 1.45; margin-bottom: 0; }
+            .card-preview { margin: 7px 0 10px; color: var(--text-secondary); font-size: .86rem; line-height: 1.55; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; }
+            .front-page .card-preview { margin: 7px 0 8px; -webkit-line-clamp: 3; }
+            /* Keep the full list scannable even when many RSS items contain photos. */
+            .all-articles .article-photo { display: block; float: right; width: 88px; height: 88px; object-fit: cover; border-radius: 10px; margin: 0 0 8px 14px; }
+            .front-page .article-photo { display: block; width: 68px; height: 68px; object-fit: cover; border-radius: 10px; flex: none; }
+            .article-photo-credit { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+            .all-articles .article-photo[hidden], .front-page .article-photo[hidden] { display: none; }
+            .all-articles .card::after { content: ''; display: block; clear: both; }
+            .all-articles .card-meta { gap: 12px; flex-wrap: wrap; }
+            .all-articles .card-meta span:last-child { white-space: nowrap; }
+            @media (max-width: 400px) {
+                .front-page .article-photo, .front-page .card-illustrated .card-art { width: 60px; height: 60px; }
+                .all-articles .article-photo { width: 72px; height: 72px; }
+            }
+            .front-page-more { display: inline-block; color: var(--primary); font-size: .85rem; padding: 6px 0; }
+            .related-sources > summary { cursor: pointer; color: var(--primary); font-size: .82rem; margin-top: 10px; }
+            .related-link { display: block; color: var(--text-secondary); font-size: .84rem; padding: 6px 0; }
+
+            .sentiment-box {
+                margin-top: 24px;
+                padding-top: 20px;
+                border-top: 1px solid var(--border);
+            }
+            .sentiment-row {
+                display: flex;
+                margin-bottom: 12px;
+                font-size: 0.85rem;
+            }
+            .sentiment-type {
+                font-weight: 600;
+                margin-right: 15px;
+                min-width: 50px;
+            }
+            .sentiment-items {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 8px;
+            }
+            .sentiment-item {
+                background: var(--related-bg);
+                padding: 4px 10px;
+                border-radius: 8px;
+                border: 1px solid var(--border);
+                font-weight: 300;
+            }
+            .hojae { color: #ff4b4b; } 
+            .akjae { color: #4facfe; } 
+
+            .keyword-card {
+                background: linear-gradient(135deg, rgba(79, 172, 254, 0.08), rgba(255, 255, 255, 0.025));
+                border: 1px solid var(--border);
+                border-radius: 24px;
+                padding: 22px;
+                margin-bottom: 40px;
+                backdrop-filter: blur(10px);
+            }
+            .keyword-list {
+                display: flex;
+                flex-direction: column;
+                gap: 0;
+            }
+            .keyword-row {
+                border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+            }
+            .keyword-row:last-child {
+                border-bottom: 0;
+            }
+            .keyword-row[open] {
+                padding-bottom: 12px;
+            }
+            .keyword-summary {
+                display: grid;
+                grid-template-columns: 42px 1fr auto 18px;
+                gap: 12px;
+                align-items: center;
+                padding: 12px 0;
+                cursor: pointer;
+                list-style: none;
+            }
+            .keyword-summary::-webkit-details-marker {
+                display: none;
+            }
+            .keyword-summary:hover .keyword-word {
+                color: #d7ecff;
+            }
+            .keyword-rank {
+                color: var(--primary);
+                font-size: 0.85rem;
+                font-weight: 700;
+                letter-spacing: 0.5px;
+            }
+            .keyword-main {
+                min-width: 0;
+            }
+            .keyword-word {
+                color: var(--text);
+                font-size: 1.02rem;
+                font-weight: 600;
+                line-height: 1.25;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+            .keyword-reason {
+                color: #c9d7e6;
+                font-size: 0.82rem;
+                line-height: 1.45;
+                margin: 2px 0 10px 54px;
+                font-weight: 300;
+            }
+            .keyword-expand-icon {
+                color: var(--text-secondary);
+                font-size: 0.75rem;
+                transition: transform 0.2s ease;
+            }
+            .keyword-row[open] .keyword-expand-icon {
+                transform: rotate(180deg);
+                color: var(--primary);
+            }
+            .keyword-details {
+                margin-left: 54px;
+                padding: 0 0 2px;
+            }
+            .keyword-articles {
+                display: flex;
+                flex-direction: column;
+                gap: 7px;
+            }
+            .keyword-article {
+                display: block;
+                color: #d7ecff;
+                text-decoration: none;
+                font-size: 0.86rem;
+                line-height: 1.4;
+                padding: 9px 11px;
+                border-radius: 12px;
+                background: rgba(79, 172, 254, 0.07);
+                border: 1px solid rgba(79, 172, 254, 0.18);
+                transition: var(--transition);
+            }
+            .keyword-article:hover {
+                background: rgba(79, 172, 254, 0.13);
+                border-color: rgba(79, 172, 254, 0.32);
+            }
+            .keyword-article-source {
+                display: block;
+                color: var(--text-secondary);
+                font-size: 0.72rem;
+                margin-top: 3px;
+            }
+            .keyword-meta {
+                color: var(--text-secondary);
+                font-size: 0.74rem;
+                margin-top: 4px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+            .keyword-count {
+                color: #d7ecff;
+                border: 1px solid rgba(79, 172, 254, 0.25);
+                border-radius: 999px;
+                padding: 4px 9px;
+                font-size: 0.75rem;
+                background: rgba(79, 172, 254, 0.08);
+                white-space: nowrap;
+            }
+
+            @media (max-width: 430px) {
+                .keyword-summary {
+                    grid-template-columns: 34px 1fr auto 14px;
+                    gap: 8px;
+                }
+                .keyword-details, .keyword-reason {
+                    margin-left: 42px;
+                }
+            }
+
+            /* Sticky Nav */
+            .sticky-nav {
+                position: sticky;
+                top: 0;
+                background: var(--nav-bg);
+                backdrop-filter: blur(20px);
+                z-index: 1000;
+                padding: 12px 20px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: flex-start;
+                gap: 8px;
+                border-bottom: 1px solid var(--border);
+            }
+            
+            .nav-pill {
+                padding: 8px 16px;
+                border-radius: 100px;
+                font-size: 0.8rem;
+                color: var(--text-secondary);
+                text-decoration: none;
+                white-space: nowrap;
+                transition: var(--transition);
+                font-weight: 400;
+                border: 1px solid transparent;
+            }
+            .nav-pill:active, .nav-pill.active {
+                background: var(--surface-hover);
+                color: var(--text);
+                border-color: var(--border);
+            }
+
+            /* --- Gemini Navigator Overlay (PWA in-app) --- */
+            body.no-scroll {
+                overflow: hidden;
+            }
+
+            .gemini-overlay {
+                position: fixed;
+                inset: 0;
+                z-index: 3000;
+                background: rgba(0, 0, 0, 0.85);
+                backdrop-filter: blur(18px);
+                display: none;
+            }
+            .gemini-overlay.open {
+                display: flex;
+                flex-direction: column;
+            }
+            .gemini-overlay-header {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 12px;
+                padding: 12px 14px;
+                border-bottom: 1px solid var(--border);
+                background: rgba(5, 5, 5, 0.85);
+            }
+            .gemini-overlay-title {
+                font-size: 0.9rem;
+                font-weight: 600;
+                color: var(--text);
+                letter-spacing: 0.2px;
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                min-width: 0;
+            }
+            .gemini-overlay-actions {
+                display: flex;
+                align-items: center;
+                gap: 8px;
+            }
+            .gemini-icon-btn {
+                width: 40px;
+                height: 40px;
+                border-radius: 12px;
+                border: 1px solid var(--border);
+                background: var(--surface);
+                color: var(--text);
+                cursor: pointer;
+                font-size: 1rem;
+                line-height: 1;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                transition: var(--transition);
+                text-decoration: none;
+                user-select: none;
+            }
+            .gemini-icon-btn:hover {
+                background: var(--surface-hover);
+                border-color: rgba(255, 255, 255, 0.2);
+            }
+            .gemini-overlay-body {
+                flex: 1;
+                position: relative;
+            }
+            .gemini-overlay-loading {
+                position: absolute;
+                inset: 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+                color: var(--text-secondary);
+                font-size: 0.9rem;
+                padding: 20px;
+                text-align: center;
+            }
+            .gemini-overlay-iframe {
+                width: 100%;
+                height: 100%;
+                border: 0;
+                background: #000;
+            }
+
+            .card.priority {
+                border-left: 3px solid var(--card-priority-border);
+                background: var(--card-priority-bg);
+            }
+            
+            .card.representative {
+                border-left: 3px solid rgba(79, 172, 254, 0.6);
+                background: rgba(79, 172, 254, 0.03);
+            }
+            
+            .sector-subheading {
+                font-weight: 600;
+                font-size: 0.95rem;
+                color: var(--primary);
+                margin-top: 24px;
+                margin-bottom: 12px;
+                padding-left: 8px;
+                border-left: 3px solid var(--primary);
+            }
+
+            details.related-sources {
+                font-size: 0.8rem;
+                margin-top: 15px;
+                border-top: 1px solid var(--border);
+                padding-top: 12px;
+            }
+            details.related-sources summary {
+                color: var(--text-secondary);
+                cursor: pointer;
+                outline: none;
+                list-style: none;
+                font-weight: 300;
+                display: flex;
+                align-items: center;
+                gap: 5px;
+            }
+            .related-link {
+                display: block;
+                color: var(--primary);
+                text-decoration: none;
+                padding: 10px 14px;
+                margin-top: 8px;
+                background: var(--related-bg);
+                border-radius: 12px;
+                border: 1px solid var(--border);
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                font-weight: 300;
+            }
+
+            .weather-container {
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                padding: 15px 35px;
+                background: rgba(255, 255, 255, 0.05);
+                backdrop-filter: blur(15px);
+                border-radius: 40px;
+                border: 1px solid rgba(255, 255, 255, 0.1);
+                width: fit-content;
+                margin: 25px auto 0;
+                position: relative;
+                z-index: 1;
+            }
+
+            #weather-icon-wrapper {
+                width: 50px;
+                height: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            #weather-temp-main {
+                font-size: 1.4rem;
+                font-weight: 700;
+                display: flex;
+                align-items: center;
+                gap: 12px;
+                color: #ffffff;
+            }
+
+            #weather-range {
+                font-size: 0.95rem;
+                color: #888;
+                font-weight: 400;
+            }
+
+            .weather-extra {
+                font-size: 0.85rem;
+                color: #4facfe;
+                margin-top: 4px;
+                font-weight: 500;
+            }
+
+            #weather-diff-box {
+                font-size: 0.85rem;
+                color: #ffb74d;
+                margin-top: 4px;
+                font-weight: 500;
+            }
+
+            /* Weather Icons SVGs */
+            .weather-svg {
+                width: 36px;
+                height: 36px;
+            }
+
+            .sun {
+                fill: #FFD60A;
+                animation: rotate 20s linear infinite;
+            }
+
+            .cloud {
+                fill: #8E8E93;
+            }
+
+            .rain-drop {
+                fill: #007AFF;
+                animation: rain 1s linear infinite;
+            }
+
+            .snow-flake {
+                fill: #FFFFFF;
+                animation: snow 2s linear infinite;
+            }
+
+            @keyframes rotate {
+                from { transform: rotate(0deg); }
+                to { transform: rotate(360deg); }
+            }
+
+            @keyframes rain {
+                0% { transform: translateY(-5px); opacity: 0; }
+                50% { opacity: 1; }
+                100% { transform: translateY(10px); opacity: 0; }
+            }
+
+            @keyframes snow {
+                0% { transform: translateY(-5px) rotate(0deg); opacity: 0; }
+                50% { opacity: 1; }
+                100% { transform: translateY(10px) rotate(360deg); opacity: 0; }
+            }
+
+            footer {
+                text-align: center;
+                margin-top: 60px;
+                color: #333;
+                font-size: 0.7rem;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+            }
+
+            .header-actions {
+                position: relative;
+                z-index: 1;
+                margin: 20px auto 0;
+                display: flex;
+                justify-content: center;
+            }
+
+            .action-btn {
+                background: transparent;
+                color: var(--text-secondary);
+                border: 1px solid var(--border);
+                padding: 10px 20px;
+                border-radius: 100px;
+                font-size: 0.75rem;
+                font-weight: 500;
+                cursor: pointer;
+                transition: var(--transition);
+                text-transform: uppercase;
+                letter-spacing: 1px;
+            }
+            .action-btn:hover {
+                border-color: var(--primary);
+                color: var(--text);
+                background: var(--surface);
+            }
+
+            .briefing-cta {
+                margin-top: 16px;
+                padding-top: 14px;
+                border-top: 1px solid var(--border);
+                font-size: 0.85rem;
+            }
+
+            .briefing-cta a {
+                color: var(--primary);
+                text-decoration: none;
+                font-weight: 400;
+            }
+
+            .share-toast {
+                position: fixed;
+                left: 50%;
+                bottom: 24px;
+                transform: translateX(-50%) translateY(20px);
+                background: rgba(10, 10, 10, 0.9);
+                color: #fff;
+                border: 1px solid var(--border);
+                border-radius: 12px;
+                padding: 10px 14px;
+                font-size: 0.82rem;
+                z-index: 4000;
+                opacity: 0;
+                pointer-events: none;
+                transition: all 0.25s ease;
+            }
+
+            .share-toast.show {
+                opacity: 1;
+                transform: translateX(-50%) translateY(0);
+            }
+
+        </style>
+        
+        </head>
+        <body>
+            <div class="container">
+                <header>
+                    <div class="header-meta">
+                        <span class="header-date">2026.11.15</span>
+                        <span class="header-time">Generated at 06:01:18</span>
+                    </div>
+                    <h1>Morning News</h1>
+                    
+        <div class="weather-container">
+            <div id="weather-icon-wrapper">
+                <!-- Dynamic SVG Icon -->
+            </div>
+            <div class="weather-details">
+                <div id="weather-temp-main">
+                    <span id="temp-val">--°</span>
+                    <span id="weather-range">--° / --°</span>
+                </div>
+                <div class="weather-extra" id="weather-desc">LOADING...</div>
+                <div class="weather-extra" id="weather-location">위치 확인 중...</div>
+                <div class="weather-diff-box" id="weather-diff-box">어제보다 1.5° 낮습니다</div>
+            </div>
+        </div>
+        
+                    <div class="header-actions">
+                        <button class="action-btn" onclick="shareMorningBriefing()">📤 오늘 브리핑 공유</button>
+                    </div>
+                </header>
+        <div class="sticky-nav"><a href="../archive.html" class="nav-pill">🗓️ 아카이브</a><a href="#경제/거시" class="nav-pill" onclick="document.querySelector('.all-articles').open = true">경제/거시 (11)</a><a href="#부동산" class="nav-pill" onclick="document.querySelector('.all-articles').open = true">부동산 (11)</a><a href="#국제" class="nav-pill" onclick="document.querySelector('.all-articles').open = true">국제 (6)</a><a href="#기업/산업" class="nav-pill" onclick="document.querySelector('.all-articles').open = true">기업/산업 (19)</a><a href="#정치" class="nav-pill" onclick="document.querySelector('.all-articles').open = true">정치 (6)</a><a href="#science" class="nav-pill" onclick="document.querySelector('.all-articles').open = true">테크 (10)</a></div><p class="weekly-bridge">한 주의 뉴스가 생활과 시장에 미치는 영향은 <a href="https://glamboy77-tech.github.io/sunday-radar/" rel="noopener noreferrer">Sunday Radar 주간 브리핑</a>에서 이어 읽으세요.</p><div class="briefing-card"><div class="briefing-title">⚡ Morning Briefing</div><div class="briefing-item"><span class="briefing-label">경제/거시</span><span class="briefing-content">한은은 반도체 산업은 활황인데 소비는 미지근한 상황이라고 진단했다.</span><details class="briefing-more"><summary>자세히 보기</summary><p>저축은행 예금금리가 4%에 다시 접근하고 있으나 상호금융권은 주춤한 상태다.</p></details></div><div class="briefing-item"><span class="briefing-label">부동산</span><span class="briefing-content">인천시는 재개발·재건축 사전컨설팅 절차를 대폭 간소화할 계획이다.</span><details class="briefing-more"><summary>자세히 보기</summary><p>서울 동대문구에서는 GTX-C 착공과 동북선 공정이 76% 진행 중이다.</p></details></div><div class="briefing-item"><span class="briefing-label">국제</span><span class="briefing-content">엔비디아 시가총액은 한 주 새 5730억 달러 증발하며 역대 최대 낙폭을 기록했다.</span><details class="briefing-more"><summary>자세히 보기</summary><p>대형 크루즈가 전복됐으나 탑승객 180여명 모두 무사했다.</p></details></div><div class="briefing-item"><span class="briefing-label">기업/산업</span><span class="briefing-content">삼성전자는 미국 모딘 인수 추진으로 AI 데이터센터 냉각사업 확장을 모색 중이다.</span><details class="briefing-more"><summary>자세히 보기</summary><p>중기중앙회는 가입자 192만명 노란우산에서 개인정보 유출 가능성을 확인했다.</p></details></div><div class="briefing-item"><span class="briefing-label">정치</span><span class="briefing-content">국힘은 특검 의결 시 국무위원들도 감옥에 갈 것이라며 부산에서 규탄 집회를 열었다.</span><details class="briefing-more"><summary>자세히 보기</summary><p>예산안 처리 시한이 2주여 앞으로 다가오면서 여야는 예결소위에서 본격 대결에 돌입했다.</p></details></div></div><section class="front-page" aria-label="오늘의 읽을거리"><h2 class="front-page-heading">오늘 먼저 읽을 뉴스</h2><p class="front-page-intro">관심 분야에서 최대 세 꼭지씩 골랐습니다. 전체 기사는 아래에서 볼 수 있어요.</p><div class="front-page-section"><h3>경제/거시</h3><div class="card card-illustrated"><img class="article-photo" src="https://img.yna.co.kr/photo/cms/2024/05/09/01/PCM20240509000001990_P2.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.hidden=true;this.nextElementSibling.hidden=false;this.closest('.card').querySelector('.article-photo-credit').hidden=true"><svg class="card-art" hidden viewBox="0 0 80 80" aria-hidden="true" focusable="false" style="color:#4facfe;background:#172028" xmlns="http://www.w3.org/2000/svg"><path d="M18 60V43m15 17V33m15 27V20m15 40V39" stroke="currentColor" stroke-width="6" stroke-linecap="round"/><path d="M17 33l17-10 15 7 14-13" fill="none" stroke="currentColor" stroke-width="2"/></svg><div class="card-copy"><a href="https://www.yna.co.kr/view/AKR20261114042800002" class="card-title" target="_blank" rel="noopener noreferrer">저축은행 예금금리 4% 다시 눈 앞…상호금융은 주춤</a><p class="card-preview">김지연 강류나 기자 = 시장금리 상승 속에 저축은행의 예금금리가 최근 다시 상승하며 연 4%대를 눈앞에 두고 있다.</p><span class="article-photo-credit">사진: 연합뉴스-경제 RSS</span><div class="card-meta">연합뉴스-경제</div></div></div><div class="card card-illustrated"><img class="article-photo" src="https://img.yna.co.kr/etc/inner/KR/2026/11/13/AKR20261113123700061_02_i_P2.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.hidden=true;this.nextElementSibling.hidden=false;this.closest('.card').querySelector('.article-photo-credit').hidden=true"><svg class="card-art" hidden viewBox="0 0 80 80" aria-hidden="true" focusable="false" style="color:#4facfe;background:#172028" xmlns="http://www.w3.org/2000/svg"><path d="M18 60V43m15 17V33m15 27V20m15 40V39" stroke="currentColor" stroke-width="6" stroke-linecap="round"/><path d="M17 33l17-10 15 7 14-13" fill="none" stroke="currentColor" stroke-width="2"/></svg><div class="card-copy"><a href="https://www.yna.co.kr/view/AKR20261113123700061" class="card-title" target="_blank" rel="noopener noreferrer">&#x27;기금 만들고 보조금 주고&#x27;…경기 지자체, 기업 투자유치에 사활</a><p class="card-preview">(평택·안산=연합뉴스) 최해민 기자 = 경기도 내 일부 지방자치단체들이 기업을 위한 기금 조성부터 보조금 확대까지 다양한 특색 사업을 마련해 투...</p><span class="article-photo-credit">사진: 연합뉴스-경제 RSS</span><div class="card-meta">연합뉴스-경제</div></div></div><div class="card card-illustrated"><img class="article-photo" src="https://img.yna.co.kr/photo/yna/YH/2026/08/25/PYH2026082512010001300_P2.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.hidden=true;this.nextElementSibling.hidden=false;this.closest('.card').querySelector('.article-photo-credit').hidden=true"><svg class="card-art" hidden viewBox="0 0 80 80" aria-hidden="true" focusable="false" style="color:#4facfe;background:#172028" xmlns="http://www.w3.org/2000/svg"><path d="M18 60V43m15 17V33m15 27V20m15 40V39" stroke="currentColor" stroke-width="6" stroke-linecap="round"/><path d="M17 33l17-10 15 7 14-13" fill="none" stroke="currentColor" stroke-width="2"/></svg><div class="card-copy"><a href="https://www.yna.co.kr/view/AKR20261114014500002" class="card-title" target="_blank" rel="noopener noreferrer">[다음주 경제] 2천조원 넘긴 가계부채, 얼마나 더 늘었을까</a><p class="card-preview">(서울·세종=연합뉴스) 이세원 배영경 한지훈 기자 = 다음 주(16∼20일)에는 가계부채 증가 동향을 볼 수 있는 지표와 향후 한국경제의 성장세...</p><span class="article-photo-credit">사진: 연합뉴스-경제 RSS</span><div class="card-meta">연합뉴스-경제</div></div></div><a class="front-page-more" href="#경제/거시" onclick="document.querySelector('.all-articles').open = true">경제/거시 기사 전체 보기 →</a></div><div class="front-page-section"><h3>부동산</h3><div class="card card-illustrated"><svg class="card-art" viewBox="0 0 80 80" aria-hidden="true" focusable="false" style="color:#e6b368;background:#172028" xmlns="http://www.w3.org/2000/svg"><path d="M13 38l27-22 27 22v30H13z" fill="none" stroke="currentColor" stroke-width="3"/><path d="M32 68V46h16v22M21 42h5m28 0h5" fill="none" stroke="currentColor" stroke-width="3"/></svg><div class="card-copy"><a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE9kS3RyZWJ4bTFJQXB1SThCNDVoWDAyM3RHbEdzSk5BTVU5V3dOZTVNeTZDQmlqUHIzdTNIcjJRdHZrdzVrN0s2eThKUHVqSHVkOTZ1V01Rdzh3VjBuTUpyanN3?oc=5" class="card-title" target="_blank" rel="noopener noreferrer">인천 재개발·재건축 사전컨설팅 절차 대폭 간소화 추진 - livesnews.com</a><p class="card-preview">인천 재개발·재건축 사전컨설팅 절차 대폭 간소화 추진 livesnews.com</p><div class="card-meta">키워드-부동산정책</div></div></div><div class="card card-illustrated"><svg class="card-art" viewBox="0 0 80 80" aria-hidden="true" focusable="false" style="color:#e6b368;background:#172028" xmlns="http://www.w3.org/2000/svg"><path d="M13 38l27-22 27 22v30H13z" fill="none" stroke="currentColor" stroke-width="3"/><path d="M32 68V46h16v22M21 42h5m28 0h5" fill="none" stroke="currentColor" stroke-width="3"/></svg><div class="card-copy"><a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE5zWVU0RkN4eFZhLXBwUFhWZFhUWll6eHNZTFFXSUJ3RmJqT2JJWnF4VHA0OEdWMkNBSmpSZk1LNndfVlBKQ0xHb29rdS1PdFVOclRHM1RFdm1xTUstREFhb3hmMnZDTUZYOUgwS29qMTk?oc=5" class="card-title" target="_blank" rel="noopener noreferrer">IPARK현대산업개발, 이촌 강변강서 재건축 수주 추진 - 코리아리포트</a><p class="card-preview">IPARK현대산업개발, 이촌 강변강서 재건축 수주 추진 코리아리포트</p><div class="card-meta">키워드-부동산정책</div><details class="related-sources"><summary>관련 기사 1건 더 보기</summary><a href="https://news.google.com/rss/articles/CBMiVEFVX3lxTE1qaGlMYXFYU1BfTnNMU0R1MFlEMEJIc0NvS1huQno0b25pd0ZSTjhrejZIWFE0dUpFVHZRSkk4bjZocHZXWURoeGw1VWJsUFVNUDNLcA?oc=5" class="related-link" target="_blank" rel="noopener noreferrer">IPARK현대산업개발, 이촌동 강변강서 재건축 수주 나선다 - 더글로벌기빙뉴스 · 키워드-부동산정책</a></details></div></div><div class="card card-illustrated"><svg class="card-art" viewBox="0 0 80 80" aria-hidden="true" focusable="false" style="color:#e6b368;background:#172028" xmlns="http://www.w3.org/2000/svg"><path d="M13 38l27-22 27 22v30H13z" fill="none" stroke="currentColor" stroke-width="3"/><path d="M32 68V46h16v22M21 42h5m28 0h5" fill="none" stroke="currentColor" stroke-width="3"/></svg><div class="card-copy"><a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE1pdDdIQkV1cG1IX2dsSjI0VmhIU2hiTkdGakhSWFZpeDB6M01VT0k3YzZXSnZzajhWNk9pQzVBYmo2WjVVZHBZdXAtMy1ST2FHRzhheDFhTktSaWx4MGlPOFN6eVd5b3NWQVRUNU1HUU0?oc=5" class="card-title" target="_blank" rel="noopener noreferrer">[단독]개포현대2차 아파트 재건축, 초대 조합장에 김기진 現 추진위원장 당선... 68% 득표 - 하우징타임즈</a><p class="card-preview">[단독]개포현대2차 아파트 재건축, 초대 조합장에 김기진 現 추진위원장 당선... 68% 득표 하우징타임즈</p><div class="card-meta">키워드-부동산정책</div></div></div><a class="front-page-more" href="#부동산" onclick="document.querySelector('.all-articles').open = true">부동산 기사 전체 보기 →</a></div><div class="front-page-section"><h3>국제</h3><div class="card card-illustrated"><img class="article-photo" src="https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/14/135024394.1.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.hidden=true;this.nextElementSibling.hidden=false;this.closest('.card').querySelector('.article-photo-credit').hidden=true"><svg class="card-art" hidden viewBox="0 0 80 80" aria-hidden="true" focusable="false" style="color:#83c9ab;background:#172028" xmlns="http://www.w3.org/2000/svg"><circle cx="40" cy="40" r="27" fill="none" stroke="currentColor" stroke-width="3"/><path d="M13 40h54M40 13c-14 14-14 40 0 54M40 13c14 14 14 40 0 54" fill="none" stroke="currentColor" stroke-width="2"/></svg><div class="card-copy"><a href="https://www.donga.com/news/Inter/article/all/20261114/135024388/1" class="card-title" target="_blank" rel="noopener noreferrer">트럼프, AI칩 中 수출규제 풀기 직전 엔비디아 ‘풀매수’</a><p class="card-preview">도널드 트럼프 미국 대통령이 첨단 인공지능(AI) 반도체 수출통제를 완화하면서 직접 수혜를 보는 엔비디아 주식 수백만 달러 치를 사들였다는 의혹이 제기됐다. 트럼프 대통령은 젠슨 황 전 엔비디아 최고경영자(CEO)와의 친분 때문에 이른바 ‘중국 간첩 논란’…</p><span class="article-photo-credit">사진: 동아일보-국제 RSS</span><div class="card-meta">동아일보-국제</div></div></div><div class="card card-illustrated"><img class="article-photo" src="https://www.chosun.com/resizer/v2/GJTDKZRUHAZTKNJTG44DGMJQHA.jpg?auth=39554d90d96478b916308a4d081ab19bdbc265907b4b319f090fb552182ae82e&amp;smart=true&amp;width=2375&amp;height=1442" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.hidden=true;this.nextElementSibling.hidden=false;this.closest('.card').querySelector('.article-photo-credit').hidden=true"><svg class="card-art" hidden viewBox="0 0 80 80" aria-hidden="true" focusable="false" style="color:#83c9ab;background:#172028" xmlns="http://www.w3.org/2000/svg"><circle cx="40" cy="40" r="27" fill="none" stroke="currentColor" stroke-width="3"/><path d="M13 40h54M40 13c-14 14-14 40 0 54M40 13c14 14 14 40 0 54" fill="none" stroke="currentColor" stroke-width="2"/></svg><div class="card-copy"><a href="https://www.chosun.com/economy/industry-company/2026/11/14/MY4DCNRZG44WGNDBGI3TEYLBGU/" class="card-title" target="_blank" rel="noopener noreferrer">美 항공기 이륙 중단 해제…대한항공·아시아나 운항 재개(종합)</a><p class="card-preview">미국 전역에 내려졌던 항공기 이륙 중단 조치가 해제되면서 국내 항공사들도 인천발 미국행 항공편을 결항 없이 지연 운항한다고 밝혔다. 14일 항공업계에 따르면 미 연방항공청(FAA)은 미국 동부시간 13일 오후 8시 15분쯤 항공편 이륙 중단 조치를 해제했다…</p><span class="article-photo-credit">사진: 조선일보-경제 RSS</span><div class="card-meta">조선일보-경제</div><details class="related-sources"><summary>관련 기사 1건 더 보기</summary><a href="https://www.yna.co.kr/view/AKR20261114026351003" class="related-link" target="_blank" rel="noopener noreferrer">미국, 항공기 이륙 중단 해제…대한항공·아시아나 결항 취소(종합) · 연합뉴스-산업</a></details></div></div><div class="card card-illustrated"><img class="article-photo" src="https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/14/135024089.1.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.hidden=true;this.nextElementSibling.hidden=false;this.closest('.card').querySelector('.article-photo-credit').hidden=true"><svg class="card-art" hidden viewBox="0 0 80 80" aria-hidden="true" focusable="false" style="color:#83c9ab;background:#172028" xmlns="http://www.w3.org/2000/svg"><circle cx="40" cy="40" r="27" fill="none" stroke="currentColor" stroke-width="3"/><path d="M13 40h54M40 13c-14 14-14 40 0 54M40 13c14 14 14 40 0 54" fill="none" stroke="currentColor" stroke-width="2"/></svg><div class="card-copy"><a href="https://www.donga.com/news/Inter/article/all/20261114/135024088/1" class="card-title" target="_blank" rel="noopener noreferrer">펜트하우스 누수·곰팡이로 소송 낸 美 입주민, 아파트 관리인 총격 살해</a><p class="card-preview">미국 워싱턴DC에서 아파트 관리인을 총으로 쏴 살해한 주민이 사건 직후 안부를 묻는 전화에 집 안의 누수와 곰팡이 문제를 거론하며 범행을 시인한 것으로 전해졌다. 13일(현지 시간) 워싱턴포스트(WP)에 따르면 워싱턴DC 로건서클의 메트로폴 아파트 관리 직원…</p><span class="article-photo-credit">사진: 동아일보-국제 RSS</span><div class="card-meta">동아일보-국제</div></div></div><a class="front-page-more" href="#국제" onclick="document.querySelector('.all-articles').open = true">국제 기사 전체 보기 →</a></div><div class="front-page-section"><h3>기업/산업</h3><div class="card card-illustrated"><svg class="card-art" viewBox="0 0 80 80" aria-hidden="true" focusable="false" style="color:#83c9ab;background:#172028" xmlns="http://www.w3.org/2000/svg"><circle cx="40" cy="40" r="27" fill="none" stroke="currentColor" stroke-width="3"/><path d="M13 40h54M40 13c-14 14-14 40 0 54M40 13c14 14 14 40 0 54" fill="none" stroke="currentColor" stroke-width="2"/></svg><div class="card-copy"><a href="https://www.aitimes.com/news/articleView.html?idxno=217412" class="card-title" target="_blank" rel="noopener noreferrer">아마존, 전 세계 상품 정보 통합 추진…AI 쇼핑 주도권 지킨다</a><p class="card-preview">아마존이 자사에서 판매하지 않는 제품까지 전 세계 상품 정보를 모으는 방안을 검토하고 있다. 소비자가 제품을 비교하기 위해 다른 사이트로 이동하는 일을 줄이고, 구매를 대신하는 외부 AI 에이전트도 아마존을 찾도록 하려는 구상이다.로이터는 13일(현지시간)…</p><div class="card-meta">AI타임스</div></div></div><div class="card card-illustrated"><svg class="card-art" viewBox="0 0 80 80" aria-hidden="true" focusable="false" style="color:#83c9ab;background:#172028" xmlns="http://www.w3.org/2000/svg"><circle cx="40" cy="40" r="27" fill="none" stroke="currentColor" stroke-width="3"/><path d="M13 40h54M40 13c-14 14-14 40 0 54M40 13c14 14 14 40 0 54" fill="none" stroke="currentColor" stroke-width="2"/></svg><div class="card-copy"><a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE9OWm9USlBGRXFobkhGYW0zTGMzZVM4bmx4bzVDeFJYRnZfUUcxcXFGSnVPY19UVV93ZWZnTzdfVUx2S0hqbEtfRWg1bHI4c1hvaFYzN0dOUThxRnNfRWNGOWVLcGZrdWo1MlE?oc=5" class="card-title" target="_blank" rel="noopener noreferrer">삼성전자, 美 모딘 인수 추진…AI 데이터센터 냉각사업 확장 승부수 - 뉴스포스트</a><p class="card-preview">삼성전자, 美 모딘 인수 추진…AI 데이터센터 냉각사업 확장 승부수 뉴스포스트</p><div class="card-meta">키워드-반도체AI</div></div></div><div class="card card-illustrated"><svg class="card-art" viewBox="0 0 80 80" aria-hidden="true" focusable="false" style="color:#83c9ab;background:#172028" xmlns="http://www.w3.org/2000/svg"><circle cx="40" cy="40" r="27" fill="none" stroke="currentColor" stroke-width="3"/><path d="M13 40h54M40 13c-14 14-14 40 0 54M40 13c14 14 14 40 0 54" fill="none" stroke="currentColor" stroke-width="2"/></svg><div class="card-copy"><a href="https://www.etnews.com/20261113000193" class="card-title" target="_blank" rel="noopener noreferrer">[ET시선] 1.4조달러 앤트로픽 IPO 뒤에 놓인 거대한 청구서</a><p class="card-preview">오픈AI와 함께 생성형 인공지능(AI) 시장 양대 축으로 꼽히는 앤트로픽의 초대형 기업공개(IPO)를 앞두고 시장의 시선이 쏠리고 있다. AI 산업 수익성에 의구심이 커지는 상황에서 앤트로픽이 기대만큼 높은 가치를 인정받고 흥행에 성공한다면 그동안 불거진…</p><div class="card-meta">전자신문</div></div></div><a class="front-page-more" href="#기업/산업" onclick="document.querySelector('.all-articles').open = true">기업/산업 기사 전체 보기 →</a></div><div class="front-page-section"><h3>정치</h3><div class="card card-illustrated"><img class="article-photo" src="https://img.yna.co.kr/photo/yna/YH/2026/11/13/PYH2026111305120001300_P2.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.hidden=true;this.nextElementSibling.hidden=false;this.closest('.card').querySelector('.article-photo-credit').hidden=true"><svg class="card-art" hidden viewBox="0 0 80 80" aria-hidden="true" focusable="false" style="color:#83c9ab;background:#172028" xmlns="http://www.w3.org/2000/svg"><circle cx="40" cy="40" r="27" fill="none" stroke="currentColor" stroke-width="3"/><path d="M13 40h54M40 13c-14 14-14 40 0 54M40 13c14 14 14 40 0 54" fill="none" stroke="currentColor" stroke-width="2"/></svg><div class="card-copy"><a href="https://www.yna.co.kr/view/AKR20261114046600001" class="card-title" target="_blank" rel="noopener noreferrer">李대통령 &quot;가장 힘든 건 등 뒤서 날아오는 화살&quot;…與천준호 격려</a><p class="card-preview">황윤기 기자 = 이재명 대통령은 당 대표 시절 비서실장이었던 더불어민주당 천준호 원내운영수석부대표를 향해 14일 &quot;고생 많으셨...</p><span class="article-photo-credit">사진: 연합뉴스-정치 RSS</span><div class="card-meta">연합뉴스-정치</div><details class="related-sources"><summary>관련 기사 1건 더 보기</summary><a href="https://www.chosun.com/economy/economy_general/2026/11/14/GYZTSYZYGM3TIY3FGVRWIZLFGQ/" class="related-link" target="_blank" rel="noopener noreferrer">李대통령, 與 천준호 격려… “가장 힘든 건 등 뒤서 날아오는 화살” · 조선일보-경제</a></details></div></div><div class="card card-illustrated"><img class="article-photo" src="https://img.yna.co.kr/etc/inner/KR/2026/11/14/AKR20261114042700001_02_i_P2.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.hidden=true;this.nextElementSibling.hidden=false;this.closest('.card').querySelector('.article-photo-credit').hidden=true"><svg class="card-art" hidden viewBox="0 0 80 80" aria-hidden="true" focusable="false" style="color:#83c9ab;background:#172028" xmlns="http://www.w3.org/2000/svg"><circle cx="40" cy="40" r="27" fill="none" stroke="currentColor" stroke-width="3"/><path d="M13 40h54M40 13c-14 14-14 40 0 54M40 13c14 14 14 40 0 54" fill="none" stroke="currentColor" stroke-width="2"/></svg><div class="card-copy"><a href="https://www.yna.co.kr/view/AKR20261114042700001" class="card-title" target="_blank" rel="noopener noreferrer">기후시민회의 시민참여단, &#x27;정부 정책 권고안 70건&#x27; 확정</a><p class="card-preview">황윤기 기자 = 한국형 기후 공론장인 기후시민회의 시민참여단이 14일 7개월의 활동을 마무리하고 정부에 제출할 정책 권고안을 ...</p><span class="article-photo-credit">사진: 연합뉴스-정치 RSS</span><div class="card-meta">연합뉴스-정치</div></div></div><div class="card card-illustrated"><img class="article-photo" src="https://img.yna.co.kr/photo/yna/YH/2026/11/14/PYH2026111404680005100_P2.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.hidden=true;this.nextElementSibling.hidden=false;this.closest('.card').querySelector('.article-photo-credit').hidden=true"><svg class="card-art" hidden viewBox="0 0 80 80" aria-hidden="true" focusable="false" style="color:#83c9ab;background:#172028" xmlns="http://www.w3.org/2000/svg"><circle cx="40" cy="40" r="27" fill="none" stroke="currentColor" stroke-width="3"/><path d="M13 40h54M40 13c-14 14-14 40 0 54M40 13c14 14 14 40 0 54" fill="none" stroke="currentColor" stroke-width="2"/></svg><div class="card-copy"><a href="https://www.yna.co.kr/view/AKR20261114041600001" class="card-title" target="_blank" rel="noopener noreferrer">국힘 &quot;특검 의결시 국무위원들도 감옥갈 것&quot;…부산서 규탄 집회</a><p class="card-preview">(서울·부산=연합뉴스) 박수윤 손형주 기자 = 국민의힘은 14일 부산에서 대규모 장외집회를 열어 이른바 &#x27;조작기소 특검법&#x27;을 규탄하고 이재명 대...</p><span class="article-photo-credit">사진: 연합뉴스-정치 RSS</span><div class="card-meta">연합뉴스-정치</div></div></div><a class="front-page-more" href="#정치" onclick="document.querySelector('.all-articles').open = true">정치 기사 전체 보기 →</a></div><div class="front-page-section"><h3>테크</h3><div class="card card-illustrated"><svg class="card-art" viewBox="0 0 80 80" aria-hidden="true" focusable="false" style="color:#83c9ab;background:#172028" xmlns="http://www.w3.org/2000/svg"><circle cx="40" cy="40" r="27" fill="none" stroke="currentColor" stroke-width="3"/><path d="M13 40h54M40 13c-14 14-14 40 0 54M40 13c14 14 14 40 0 54" fill="none" stroke="currentColor" stroke-width="2"/></svg><div class="card-copy"><a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxPSlpBdndCRF9UcmdRUUNBWmRGSjZ3LVNTWWp6VkpFakk2VklXMktJMU5SVTlfWURFN1hCQjc1ZUpSbVdGRm5HVzE1b2ZycjExWHJGUzkyOTFXT1R0LV9ET29WS0IxNXdmSVBscEtlem56b1otRHVhRWJFS2I5OWlrbXJ2N2xkTnpLbzdfbHdDaw?oc=5" class="card-title" target="_blank" rel="noopener noreferrer">사이언스타임즈/사용자메뉴/과학기술/생명과학·의학 - 사이언스타임즈</a><div class="card-meta">사이언스타임즈</div></div></div><a class="front-page-more" href="#science" onclick="document.querySelector('.all-articles').open = true">테크 기사 전체 보기 →</a></div></section><details class="all-articles"><summary>기사 원문 더 보기</summary><div id="경제/거시" class="section-title">경제/거시</div>
+                <div class="card priority">
+                    <img class="article-photo" src="https://img.yna.co.kr/photo/yna/YH/2026/08/06/PYH2026080604620005100_P2.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.card').querySelector('.article-photo-credit').hidden=true"><span class="article-photo-credit">사진: 연합뉴스-경제 RSS</span>
+                    <a href="https://www.yna.co.kr/view/AKR20261114030200002" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">반도체 뜨거운데 소비 미지근…한은이 짚은 '낙수' 제약 요인</a>
+                    <p class="card-preview">채새롬 기자 = 반도체 쏠림이나 주가 급락 등의 영향으로 국내 소비 회복세가 지연될 가능성이 있다는 한국은행 분석이 나왔다.</p>
+                    <div class="card-meta">
+                        <span>연합뉴스-경제 · 통신</span>
+                        <span>11.15 05:55</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card priority">
+                    <img class="article-photo" src="https://img.yna.co.kr/photo/yna/YH/2026/10/20/PYH2026102017390001300_P2.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.card').querySelector('.article-photo-credit').hidden=true"><span class="article-photo-credit">사진: 연합뉴스-경제 RSS</span>
+                    <a href="https://www.yna.co.kr/view/AKR20261114046700030" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">중기부, 모두의창업 개인정보 유출 사흘 만에 "진심으로 사과"</a>
+                    <p class="card-preview">이상서 기자 = 대국민 창업 프로젝트인 &#x27;모두의 창업&#x27;을 운영하는 중소벤처기업부는 14일 &quot;모두의 창업 도전자 여러분께서 염려...</p>
+                    <div class="card-meta">
+                        <span>연합뉴스-경제 · 통신</span>
+                        <span>11.14 20:42</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card priority">
+                    <img class="article-photo" src="https://img.yna.co.kr/photo/cms/2026/10/15/78/PCM20261015000078990_P2.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.card').querySelector('.article-photo-credit').hidden=true"><span class="article-photo-credit">사진: 연합뉴스-경제 RSS</span>
+                    <a href="https://www.yna.co.kr/view/AKR20261113174400017" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">"파격가에 의료통역 지원까지"…비만약 원정처방 마케팅 확산</a>
+                    <p class="card-preview">신선미 기자 = &quot;일본 정품 마운자로. 파격적이고 합리적인 가격.&quot;</p>
+                    <div class="card-meta">
+                        <span>연합뉴스-경제 · 통신</span>
+                        <span>11.14 13:30</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card priority">
+                    <img class="article-photo" src="https://img.yna.co.kr/etc/inner/KR/2026/11/13/AKR20261113158900017_02_i_P2.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.card').querySelector('.article-photo-credit').hidden=true"><span class="article-photo-credit">사진: 연합뉴스-경제 RSS</span>
+                    <a href="https://www.yna.co.kr/view/AKR20261113158900017" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">[테크톡노트] KTX 예매에 전화까지…내 일 대신하는 AI 비서 '피클'</a>
+                    <p class="card-preview">한상용 기자 = 개인용 인공지능(AI) 비서 &#x27;피클&#x27;(Pickle)은 이용자를 대신해 KTX 승차권을 예매하고 식당을 예약하거...</p>
+                    <div class="card-meta">
+                        <span>연합뉴스-경제 · 통신</span>
+                        <span>11.14 09:30</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card priority">
+                    <img class="article-photo" src="https://img.yna.co.kr/etc/inner/KR/2026/11/13/AKR20261113123700061_02_i_P2.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.card').querySelector('.article-photo-credit').hidden=true"><span class="article-photo-credit">사진: 연합뉴스-경제 RSS</span>
+                    <a href="https://www.yna.co.kr/view/AKR20261113123700061" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">'기금 만들고 보조금 주고'…경기 지자체, 기업 투자유치에 사활</a>
+                    <p class="card-preview">(평택·안산=연합뉴스) 최해민 기자 = 경기도 내 일부 지방자치단체들이 기업을 위한 기금 조성부터 보조금 확대까지 다양한 특색 사업을 마련해 투...</p>
+                    <div class="card-meta">
+                        <span>연합뉴스-경제 · 통신</span>
+                        <span>11.14 09:09</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card priority">
+                    <img class="article-photo" src="https://img.yna.co.kr/photo/cms/2024/05/09/01/PCM20240509000001990_P2.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.card').querySelector('.article-photo-credit').hidden=true"><span class="article-photo-credit">사진: 연합뉴스-경제 RSS</span>
+                    <a href="https://www.yna.co.kr/view/AKR20261114042800002" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">저축은행 예금금리 4% 다시 눈 앞…상호금융은 주춤</a>
+                    <p class="card-preview">김지연 강류나 기자 = 시장금리 상승 속에 저축은행의 예금금리가 최근 다시 상승하며 연 4%대를 눈앞에 두고 있다.</p>
+                    <div class="card-meta">
+                        <span>연합뉴스-경제 · 통신</span>
+                        <span>11.15 05:51</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card priority">
+                    <img class="article-photo" src="https://img.yna.co.kr/photo/yna/YH/2026/11/13/PYH2026111312300001300_P2.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.card').querySelector('.article-photo-credit').hidden=true"><span class="article-photo-credit">사진: 연합뉴스-경제 RSS</span>
+                    <a href="https://www.yna.co.kr/view/AKR20261114040800002" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">'빚투' 속 개미 여윳돈 말라가나…마통 4년 3개월 만에 최대</a>
+                    <p class="card-preview">한지훈 채새롬 이도흔 기자 = 증시 조정 속에 주요 시중은행의 마이너스통장 잔액이 4년 3개월 만에 최대 수준으로 불었다.</p>
+                    <div class="card-meta">
+                        <span>연합뉴스-경제 · 통신</span>
+                        <span>11.15 05:49</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card priority">
+                    <img class="article-photo" src="https://img.yna.co.kr/photo/yna/YH/2025/08/26/PYH2025082615950005100_P2.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.card').querySelector('.article-photo-credit').hidden=true"><span class="article-photo-credit">사진: 연합뉴스-경제 RSS</span>
+                    <a href="https://www.yna.co.kr/view/AKR20261114040600002" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">경력자 선호에 높아진 '문턱'…청년 임금근로자 46%는 비정규직</a>
+                    <p class="card-preview">이세원 기자 = 청년층이 일자리 시장에서 어려움을 겪는 가운데 임금근로자로 취업한 이들 절반 가까이는 비정규직인 것으로 나타났...</p>
+                    <div class="card-meta">
+                        <span>연합뉴스-경제 · 통신</span>
+                        <span>11.15 05:47</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card priority">
+                    <img class="article-photo" src="https://pimg.mk.co.kr/news/cms/202611/14/news-p.v1.20261113.aaba9ab567354b738688a06a9eea3560_R.png" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.card').querySelector('.article-photo-credit').hidden=true"><span class="article-photo-credit">사진: 매일경제-경제 RSS</span>
+                    <a href="https://www.mk.co.kr/news/economy/12208863" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">“군인·산모·실직자 ‘주목’…보험료 안 내도 국민연금 가입기간 늘어난다?”</a>
+                    <p class="card-preview">내년부터 군 복무 기간 전체 인정 둘째 출산 땐 가입기간 15개월 실업 땐 보험료 75% 지원받아군 복무, 출산, 실직 등 불가피하게 보험료를 납부하기 어려워진 기간도 국민연금 가..</p>
+                    <div class="card-meta">
+                        <span>매일경제-경제 · 경제</span>
+                        <span>11.14 14:44</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card priority">
+                    <img class="article-photo" src="https://img.yna.co.kr/photo/yna/YH/2026/08/25/PYH2026082512010001300_P2.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.card').querySelector('.article-photo-credit').hidden=true"><span class="article-photo-credit">사진: 연합뉴스-경제 RSS</span>
+                    <a href="https://www.yna.co.kr/view/AKR20261114014500002" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">[다음주 경제] 2천조원 넘긴 가계부채, 얼마나 더 늘었을까</a>
+                    <p class="card-preview">(서울·세종=연합뉴스) 이세원 배영경 한지훈 기자 = 다음 주(16∼20일)에는 가계부채 증가 동향을 볼 수 있는 지표와 향후 한국경제의 성장세...</p>
+                    <div class="card-meta">
+                        <span>연합뉴스-경제 · 통신</span>
+                        <span>11.14 08:58</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card priority">
+                    <img class="article-photo" src="https://img.yna.co.kr/photo/ap/2026/11/13/PAP20261113000501009_P2.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.card').querySelector('.article-photo-credit').hidden=true"><span class="article-photo-credit">사진: 연합뉴스-경제 RSS</span>
+                    <a href="https://www.yna.co.kr/view/AKR20261114022000091" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">오픈AI, AI 에이전트용 '챗GPT 월렛' 공개…카드 3사와 맞손</a>
+                    <p class="card-preview">(샌프란시스코=연합뉴스) 권영전 특파원 = 오픈AI가 카드사들과 손잡고 인공지능(AI) 에이전트의 대리 결제를 지원하는 온라인 지갑을 선보였다.</p>
+                    <div class="card-meta">
+                        <span>연합뉴스-경제 · 통신</span>
+                        <span>11.14 09:19</span>
+                    </div>
+                    
+                </div>
+                <div id="부동산" class="section-title">부동산</div>
+                <div class="card priority">
+                    
+                    <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE9kS3RyZWJ4bTFJQXB1SThCNDVoWDAyM3RHbEdzSk5BTVU5V3dOZTVNeTZDQmlqUHIzdTNIcjJRdHZrdzVrN0s2eThKUHVqSHVkOTZ1V01Rdzh3VjBuTUpyanN3?oc=5" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">인천 재개발·재건축 사전컨설팅 절차 대폭 간소화 추진 - livesnews.com</a>
+                    <p class="card-preview">인천 재개발·재건축 사전컨설팅 절차 대폭 간소화 추진 livesnews.com</p>
+                    <div class="card-meta">
+                        <span>키워드-부동산정책 · 키워드</span>
+                        <span>11.14 22:07</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card priority">
+                    
+                    <a href="https://news.google.com/rss/articles/CBMifEFVX3lxTE9sRTlkTWpFVVF3RUVwU1lQcGRpLThPTmRaQ01nY19nY3ZVaF9DdG1kOUgzM0l5VExvQ0hEaVNTR211UGZYZHYtQTVOdThKeEJ4aFppWG9PSGJ0UjBsakhKZDlwZERNVWdQcndSZlJBMmVDcTBlTG5nY3ZMSm4?oc=5" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">서울 동대문구(東大門區) · GTX-C 착공·동북선 공정 76% — 청량리 신설역 2km 안 단지 63곳, 동대문 올해 +13.55%로 서울 5위 - 네이버 프리미엄콘텐츠</a>
+                    <p class="card-preview">서울 동대문구(東大門區) · GTX-C 착공·동북선 공정 76% — 청량리 신설역 2km 안 단지 63곳, 동대문 올해 +13.55%로 서울 5위 네이버 프리미엄콘텐츠</p>
+                    <div class="card-meta">
+                        <span>키워드-부동산정책 · 키워드</span>
+                        <span>11.15 00:40</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card priority">
+                    
+                    <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE1KT0RKdWxmdHhjTU8xSlFPT2JwaG9WZDdfTERUNlRHUUlWTGRHWU9oMEZFRlpKOGVOZ3hvT1gzZmxfNlVEc3V6Y3FYSDJnRFZMaks3MVFOMHA0dw?oc=5" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">[비즈토크] "새 집 얻었느니 179억 내세요"…재초환에 혼란한 재건축 시장 - 경제 | 기사 - 더팩트</a>
+                    <p class="card-preview">[비즈토크] &quot;새 집 얻었느니 179억 내세요&quot;…재초환에 혼란한 재건축 시장 - 경제 | 기사 더팩트</p>
+                    <div class="card-meta">
+                        <span>키워드-부동산정책 · 키워드</span>
+                        <span>11.15 00:00</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card priority">
+                    
+                    <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE5zWVU0RkN4eFZhLXBwUFhWZFhUWll6eHNZTFFXSUJ3RmJqT2JJWnF4VHA0OEdWMkNBSmpSZk1LNndfVlBKQ0xHb29rdS1PdFVOclRHM1RFdm1xTUstREFhb3hmMnZDTUZYOUgwS29qMTk?oc=5" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">IPARK현대산업개발, 이촌 강변강서 재건축 수주 추진 - 코리아리포트</a>
+                    <p class="card-preview">IPARK현대산업개발, 이촌 강변강서 재건축 수주 추진 코리아리포트</p>
+                    <div class="card-meta">
+                        <span>키워드-부동산정책 · 키워드</span>
+                        <span>11.14 21:35</span>
+                    </div>
+                    <details class="related-sources"><summary>관련 기사 1건 더 보기</summary><a href="https://news.google.com/rss/articles/CBMiVEFVX3lxTE1qaGlMYXFYU1BfTnNMU0R1MFlEMEJIc0NvS1huQno0b25pd0ZSTjhrejZIWFE0dUpFVHZRSkk4bjZocHZXWURoeGw1VWJsUFVNUDNLcA?oc=5" class="related-link" target="_blank" rel="noopener noreferrer">IPARK현대산업개발, 이촌동 강변강서 재건축 수주 나선다 - 더글로벌기빙뉴스 · 키워드-부동산정책</a></details>
+                </div>
+                
+                <div class="card priority">
+                    
+                    <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE1pdDdIQkV1cG1IX2dsSjI0VmhIU2hiTkdGakhSWFZpeDB6M01VT0k3YzZXSnZzajhWNk9pQzVBYmo2WjVVZHBZdXAtMy1ST2FHRzhheDFhTktSaWx4MGlPOFN6eVd5b3NWQVRUNU1HUU0?oc=5" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">[단독]개포현대2차 아파트 재건축, 초대 조합장에 김기진 現 추진위원장 당선... 68% 득표 - 하우징타임즈</a>
+                    <p class="card-preview">[단독]개포현대2차 아파트 재건축, 초대 조합장에 김기진 現 추진위원장 당선... 68% 득표 하우징타임즈</p>
+                    <div class="card-meta">
+                        <span>키워드-부동산정책 · 키워드</span>
+                        <span>11.14 18:45</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card priority">
+                    <img class="article-photo" src="https://img.yna.co.kr/photo/yna/YH/2026/11/01/PYH2026110103220001300_P2.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.card').querySelector('.article-photo-credit').hidden=true"><span class="article-photo-credit">사진: 연합뉴스-경제 RSS</span>
+                    <a href="https://www.yna.co.kr/view/AKR20261114037100002" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">작년 전세보증금 6년 전보다 35% 올라…보증금 대출은 53%↑</a>
+                    <p class="card-preview">김수현 안채원 기자 = 최근 6년간 전세 보증금이 30% 넘게 오르고 보증금을 마련하기 위한 금융기관 대출은 50% 이상 늘었...</p>
+                    <div class="card-meta">
+                        <span>연합뉴스-경제 · 통신</span>
+                        <span>11.15 05:45</span>
+                    </div>
+                    <details class="related-sources"><summary>관련 기사 1건 더 보기</summary><a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE4xMDE0UWJGSllUc2l2UlRXcEc0ZGdWR2dkTUo0bm94anRaN1oxQjNsVVRFMFktM1dOU1VJdW5VWkFBOVFqVGwzbmhYczUzU25fUXc?oc=5" class="related-link" target="_blank" rel="noopener noreferrer">작년 전세보증금 6년 전보다 35% 올라…보증금 대출은 53%↑ - 매일경제 마켓 · 키워드-부동산정책</a></details>
+                </div>
+                
+                <div class="card priority">
+                    <img class="article-photo" src="https://img.yna.co.kr/photo/yna/YH/2026/05/17/PYH2026051703910001300_P2.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.card').querySelector('.article-photo-credit').hidden=true"><span class="article-photo-credit">사진: 연합뉴스-경제 RSS</span>
+                    <a href="https://www.yna.co.kr/view/AKR20261113132100002" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">지난달 전월세 물가 1.4%↑…3년10개월 만에 최대폭</a>
+                    <p class="card-preview">김수현 안채원 기자 = 지난달 전월세가 약 4년 만에 가장 큰 폭으로 상승한 것으로 나타났다.</p>
+                    <div class="card-meta">
+                        <span>연합뉴스-경제 · 통신</span>
+                        <span>11.15 05:45</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card priority">
+                    <img class="article-photo" src="https://pimg.mk.co.kr/news/cms/202611/14/news-p.v1.20261020.18b82d318f8d468eb5adb5b3ccd90064_R.png" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.card').querySelector('.article-photo-credit').hidden=true"><span class="article-photo-credit">사진: 매일경제-부동산 RSS</span>
+                    <a href="https://www.mk.co.kr/news/realestate/12208939" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">“전세금 떼일까 불안했는데”…서울 임차권등기 17% 줄었다</a>
+                    <p class="card-preview">서울 집합건물의 임차권설정등기 신청이 전반적으로 감소하는 가운데 자치구별로는 상반된 흐름이 이어졌다. 특히 강서구와 영등포구를 비롯한 상위 5개 자치구에 전체 신청의 40% 이상이..</p>
+                    <div class="card-meta">
+                        <span>매일경제-부동산 · 부동산</span>
+                        <span>11.14 17:36</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card ">
+                    
+                    <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTFA0dDA2ME5ObEJIRU9IWGx0aXc1THE3UmxkNGt0TkhnaC1acV9vTUZjbkwwd2Z3ai01bXZCREEtajJwSnQtaUVoS1lfdG5qb2Q1RUF4QTR1bFhfdjg2Uktocktoa00?oc=5" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">수도권 ‘전세대란’… 세입자는 서럽다 - 용인신문</a>
+                    
+                    <div class="card-meta">
+                        <span>키워드-부동산정책 · 키워드</span>
+                        <span>11.14 10:46</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card ">
+                    
+                    <a href="https://news.google.com/rss/articles/CBMib0FVX3lxTFBrMmFPX2F5bEN2cDNMMENjTklGeWVCc2VFbXBvRjhZUVh1U3cyX19kWkhZemhOMmV1TExuaGdya183VDZwaDBtS2dPUlNlWnExdFkzR3VSZlVhbFZKejRwSG5BR0hxUVJ5MjlmU0JCYw?oc=5" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">[11월 둘째 주 세계경제동향 브리핑] 코스피 5,200선 회복…한미 증시 동반 반등 - 기호일보</a>
+                    <p class="card-preview">[11월 둘째 주 세계경제동향 브리핑] 코스피 5,200선 회복…한미 증시 동반 반등 기호일보</p>
+                    <div class="card-meta">
+                        <span>키워드-금리환율코스피 · 키워드</span>
+                        <span>11.14 10:39</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card ">
+                    
+                    <a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE9ONm16RW9Hc2pkNmhDaDNoRk9RbFBsaUJmRmFUMUJzdXgyRnNRNEhrV3hybVlfMzJCcTZwdjVnRERuVU16RkEtTDd0ZURIM2V1OWc?oc=5" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">3분기 경기·인천 아파트 ‘거래 급감’… 규제·금리에 눌렸다 - 경인일보</a>
+                    <p class="card-preview">3분기 경기·인천 아파트 ‘거래 급감’… 규제·금리에 눌렸다 경인일보</p>
+                    <div class="card-meta">
+                        <span>키워드-금리환율코스피 · 키워드</span>
+                        <span>11.14 08:56</span>
+                    </div>
+                    
+                </div>
+                <div id="국제" class="section-title">국제</div>
+                <div class="card ">
+                    <img class="article-photo" src="https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/14/135024394.1.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.card').querySelector('.article-photo-credit').hidden=true"><span class="article-photo-credit">사진: 동아일보-국제 RSS</span>
+                    <a href="https://www.donga.com/news/Inter/article/all/20261114/135024388/1" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">트럼프, AI칩 中 수출규제 풀기 직전 엔비디아 ‘풀매수’</a>
+                    <p class="card-preview">도널드 트럼프 미국 대통령이 첨단 인공지능(AI) 반도체 수출통제를 완화하면서 직접 수혜를 보는 엔비디아 주식 수백만 달러 치를 사들였다는 의혹이 제기됐다. 트럼프 대통령은 젠슨 황 전 엔비디아 최고경영자(CEO)와의 친분 때문에 이른바 ‘중국 간첩 논란’…</p>
+                    <div class="card-meta">
+                        <span>동아일보-국제 · 언론</span>
+                        <span>11.14 18:11</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card ">
+                    <img class="article-photo" src="https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/14/135024299.1.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.card').querySelector('.article-photo-credit').hidden=true"><span class="article-photo-credit">사진: 동아일보-국제 RSS</span>
+                    <a href="https://www.donga.com/news/Inter/article/all/20261114/135024298/1" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">엔비디아 시총 한 주 새 5730억달러 증발…단일 기업 역대 최대</a>
+                    <p class="card-preview">미국 인공지능(AI) 반도체 기업 엔비디아의 시가총액이 한 주 새 5730억달러 줄어 단일 기업의 주간 시총 감소액으로는 역대 최대를 기록했다.13일(현지시간) 월스트리트저널(WSJ)과 CNBC에 따르면 엔비디아 시총은 이날 종가 기준으로 작년 7월 이후…</p>
+                    <div class="card-meta">
+                        <span>동아일보-국제 · 언론</span>
+                        <span>11.14 15:09</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card ">
+                    <img class="article-photo" src="https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/14/135024123.1.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.card').querySelector('.article-photo-credit').hidden=true"><span class="article-photo-credit">사진: 동아일보-국제 RSS</span>
+                    <a href="https://www.donga.com/news/Inter/article/all/20261114/135024107/1" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">대형 크루즈 ‘쾅!’ 전복됐는데…탑승객 180여명 모두 무사 ‘기적’</a>
+                    <p class="card-preview">미국 루이지애나주 뉴올리언스의 미시시피강에서 180명이 넘게 탄 대형 크루즈 여객선과 유조선이 충돌하는 아찔한 사고가 발생했다. 다행히 사망자는 발생하지 않았다. 로이터 통신과 CNN 등 외신에 따르면 13일(현지 시간) 낮 12시 30분쯤 미시시피강에…</p>
+                    <div class="card-meta">
+                        <span>동아일보-국제 · 언론</span>
+                        <span>11.14 13:14</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card ">
+                    <img class="article-photo" src="https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/14/135024089.1.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.card').querySelector('.article-photo-credit').hidden=true"><span class="article-photo-credit">사진: 동아일보-국제 RSS</span>
+                    <a href="https://www.donga.com/news/Inter/article/all/20261114/135024088/1" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">펜트하우스 누수·곰팡이로 소송 낸 美 입주민, 아파트 관리인 총격 살해</a>
+                    <p class="card-preview">미국 워싱턴DC에서 아파트 관리인을 총으로 쏴 살해한 주민이 사건 직후 안부를 묻는 전화에 집 안의 누수와 곰팡이 문제를 거론하며 범행을 시인한 것으로 전해졌다. 13일(현지 시간) 워싱턴포스트(WP)에 따르면 워싱턴DC 로건서클의 메트로폴 아파트 관리 직원…</p>
+                    <div class="card-meta">
+                        <span>동아일보-국제 · 언론</span>
+                        <span>11.14 12:56</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card ">
+                    <img class="article-photo" src="https://www.chosun.com/resizer/v2/GJTDKZRUHAZTKNJTG44DGMJQHA.jpg?auth=39554d90d96478b916308a4d081ab19bdbc265907b4b319f090fb552182ae82e&amp;smart=true&amp;width=2375&amp;height=1442" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.card').querySelector('.article-photo-credit').hidden=true"><span class="article-photo-credit">사진: 조선일보-경제 RSS</span>
+                    <a href="https://www.chosun.com/economy/industry-company/2026/11/14/MY4DCNRZG44WGNDBGI3TEYLBGU/" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">美 항공기 이륙 중단 해제…대한항공·아시아나 운항 재개(종합)</a>
+                    <p class="card-preview">미국 전역에 내려졌던 항공기 이륙 중단 조치가 해제되면서 국내 항공사들도 인천발 미국행 항공편을 결항 없이 지연 운항한다고 밝혔다. 14일 항공업계에 따르면 미 연방항공청(FAA)은 미국 동부시간 13일 오후 8시 15분쯤 항공편 이륙 중단 조치를 해제했다…</p>
+                    <div class="card-meta">
+                        <span>조선일보-경제 · 언론</span>
+                        <span>11.14 12:54</span>
+                    </div>
+                    <details class="related-sources"><summary>관련 기사 1건 더 보기</summary><a href="https://www.yna.co.kr/view/AKR20261114026351003" class="related-link" target="_blank" rel="noopener noreferrer">미국, 항공기 이륙 중단 해제…대한항공·아시아나 결항 취소(종합) · 연합뉴스-산업</a></details>
+                </div>
+                
+                <div class="card ">
+                    <img class="article-photo" src="https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/13/135021375.1.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.card').querySelector('.article-photo-credit').hidden=true"><span class="article-photo-credit">사진: 동아일보-국제 RSS</span>
+                    <a href="https://www.donga.com/news/Economy/article/all/20261113/135021369/1" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">가난한 나라가 부자 나라보다 애를 덜 낳는 시대가 왔다[딥다이브]</a>
+                    <p class="card-preview">태국 0.87명, 중국 0.93명, 콜롬비아 1.01명, 아르헨티나 1.05명, 칠레 1.17명. 최근 합계출산율이 급격히 하락한 나라들입니다. 물론 한국(0.80명)보단 높지만, 하락 속도는 훨씬 더 가파르죠. 저출산은 고소득 선진국의 문제라는 상식을 깨는…</p>
+                    <div class="card-meta">
+                        <span>동아일보-국제 · 언론</span>
+                        <span>11.14 10:00</span>
+                    </div>
+                    
+                </div>
+                <div id="기업/산업" class="section-title">기업/산업</div><div class="sector-subheading">📌 AI/로봇 (4)</div>
+                    <div class="card priority">
+                        
+                        <a href="https://www.etnews.com/20261113000193" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">[ET시선] 1.4조달러 앤트로픽 IPO 뒤에 놓인 거대한 청구서</a>
+                        <p class="card-preview">오픈AI와 함께 생성형 인공지능(AI) 시장 양대 축으로 꼽히는 앤트로픽의 초대형 기업공개(IPO)를 앞두고 시장의 시선이 쏠리고 있다. AI 산업 수익성에 의구심이 커지는 상황에서 앤트로픽이 기대만큼 높은 가치를 인정받고 흥행에 성공한다면 그동안 불거진…</p>
+                        <div class="card-meta">
+                            <span>전자신문 · 테크</span>
+                            <span>11.14 15:00</span>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="card priority">
+                        
+                        <a href="https://www.etnews.com/20261111000390" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">AI 통역 새 시대 연다…딥엘, 말뜻 넘어 감정까지 전달</a>
+                        <p class="card-preview">“자신의 말을 설명하려고 할 때는 그 말에 담긴 감정적 맥락을 이해하는 것이 정말 중요합니다. 새로운 AI 모델은 화자의 미묘한 뉘앙스를 번역된 언어로 거의 그대로 옮겨 담을 수 있습니다.” 빅 싱 딥엘 엔지니어링 총괄은 최근 미국 샌프란시스코 믹스헤일로…</p>
+                        <div class="card-meta">
+                            <span>전자신문 · 테크</span>
+                            <span>11.14 11:39</span>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="card priority">
+                        
+                        <a href="https://www.etnews.com/20261114000016" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">'AI 안경' 논란에 카메라 켠 세무사 차석 합격자… 해진 교재 보여주며 “안경 자체를 안 썼다”</a>
+                        <p class="card-preview">최근 세무사 자격시험을 둘러싼 인공지능(AI) 스마트안경 부정행위 의혹이 확산하는 가운데, 차석 합격자가 자신의 시험 성적과 공부 과정을 공개하며 논란 진화에 나섰다. 제63회 세무사 자격시험 차석 합격자 윤정후씨는 지난 12일 자신의 유튜브 채널…</p>
+                        <div class="card-meta">
+                            <span>전자신문 · 테크</span>
+                            <span>11.14 11:29</span>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="card priority">
+                        
+                        <a href="https://www.etnews.com/20261114000015" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">로이터 “엔비디아 의존 中 AI 프로젝트 규모 4조6000억원 이상”</a>
+                        <p class="card-preview">중국 내 인공지능(AI) 프로젝트 중 엔비디아 칩에 의존하는 규모가 230억위안(약 4조6000억원) 이상이라는 외신 집계가 나왔다. 젠슨 황 엔비디아 전 최고경영자(CEO) 스캔들 이후 미국의 대(對) 중국 수출 규제가 강화될 수 있다는 우려가 나오고…</p>
+                        <div class="card-meta">
+                            <span>전자신문 · 테크</span>
+                            <span>11.14 11:20</span>
+                        </div>
+                        
+                    </div>
+                    <div class="sector-subheading">📌 반도체 (2)</div>
+                    <div class="card ">
+                        
+                        <a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE9OWm9USlBGRXFobkhGYW0zTGMzZVM4bmx4bzVDeFJYRnZfUUcxcXFGSnVPY19UVV93ZWZnTzdfVUx2S0hqbEtfRWg1bHI4c1hvaFYzN0dOUThxRnNfRWNGOWVLcGZrdWo1MlE?oc=5" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">삼성전자, 美 모딘 인수 추진…AI 데이터센터 냉각사업 확장 승부수 - 뉴스포스트</a>
+                        <p class="card-preview">삼성전자, 美 모딘 인수 추진…AI 데이터센터 냉각사업 확장 승부수 뉴스포스트</p>
+                        <div class="card-meta">
+                            <span>키워드-반도체AI · 키워드</span>
+                            <span>11.14 11:20</span>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="card ">
+                        
+                        <a href="https://news.google.com/rss/articles/CBMiY0FVX3lxTFBVVFlaVWRpVUpFU0lDWVJKM2lhUGFuaHU1d1RVTUlyMUJqampOcWhFdjJCUEdSemh5Y0IwRzExbmxTTHQ0Y0ZiU01tSktVREFmR3dHZUQzNW9yc3NVQ0lfOHVjbw?oc=5" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">반도체 다음은 전력이다…삼성 SDS·SDI·전기 총출동 [삼성 AI 투자지도②] - 쿠키뉴스</a>
+                        <p class="card-preview">반도체 다음은 전력이다…삼성 SDS·SDI·전기 총출동 [삼성 AI 투자지도②] 쿠키뉴스</p>
+                        <div class="card-meta">
+                            <span>키워드-반도체AI · 키워드</span>
+                            <span>11.14 10:24</span>
+                        </div>
+                        
+                    </div>
+                    <div class="sector-subheading">📌 금융 (5)</div>
+                    <div class="card priority">
+                        
+                        <a href="https://zdnet.co.kr/view/?no=20261114210227" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">192만명 가입 중기중앙회 '노란우산' 해킹 정황</a>
+                        <p class="card-preview">[지디넷코리아]중소기업중앙회(중기중앙회)가 운영하는 &#x27;노란우산공제&#x27; 시스템에 비정상 접근이 확인됐다.중기중앙회는 성명, 주민등록번호 앞 7자리, 휴대전화번호, 자택 주소, 자택 전화번호, 이메일 주소, 문자메시지 등의 정보가 유출됐을 가능성이 있다고…</p>
+                        <div class="card-meta">
+                            <span>ZDNetKorea · 테크</span>
+                            <span>11.14 21:02</span>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="card priority">
+                        <img class="article-photo" src="https://img.yna.co.kr/photo/yna/YH/2026/11/07/PYH2026110701660001300_P2.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.card').querySelector('.article-photo-credit').hidden=true"><span class="article-photo-credit">사진: 연합뉴스-경제 RSS</span>
+                        <a href="https://www.yna.co.kr/view/AKR20261114037900002" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">미래에셋 해킹점검서 일부 위반 확인…내주 全업권 보안 간담회</a>
+                        <p class="card-preview">배영경 강류나 기자 = 금융당국이 최근 해킹 침해사고가 발생한 미래에셋그룹 계열사 현장점검에서 일부 법 위반사항을 확인한 것으...</p>
+                        <div class="card-meta">
+                            <span>연합뉴스-경제 · 통신</span>
+                            <span>11.15 05:53</span>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="card priority">
+                        <img class="article-photo" src="https://img.yna.co.kr/photo/cms/2025/11/02/12/PCM20251102000012990_P2.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.card').querySelector('.article-photo-credit').hidden=true"><span class="article-photo-credit">사진: 연합뉴스-경제 RSS</span>
+                        <a href="https://www.yna.co.kr/view/AKR20261114037551030" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">중기중앙회 "노란우산 정보 유출 가능성…주소·연락처 등 포함"(종합)</a>
+                        <p class="card-preview">이상서 기자 = 중소기업중앙회는 11일 노란우산 홈페이지에 대한 외부의 비정상적인 접근과 함께 일부 고객 개인정보의 제3자 조...</p>
+                        <div class="card-meta">
+                            <span>연합뉴스-경제 · 통신</span>
+                            <span>11.14 16:37</span>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="card ">
+                        
+                        <a href="https://www.chosun.com/economy/smb-venture/2026/11/14/L4F4CY5FKBBTFISDLW3UMUNVAA/" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">가입자 192만 ‘노란우산’, 이름·주민번호 등 개인정보 유출 가능성</a>
+                        
+                        <div class="card-meta">
+                            <span>조선일보-경제 · 언론</span>
+                            <span>11.14 17:00</span>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="card ">
+                        <img class="article-photo" src="https://www.chosun.com/resizer/v2/MOTYIJSPIMIRS7KOKB3PPDJHI4.jpg?auth=f58ef9f776c74c644e70a210a3cfb98e9b8b3f4e65a037450d8a54f2c7b61813&amp;smart=true&amp;width=500&amp;height=246" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.card').querySelector('.article-photo-credit').hidden=true"><span class="article-photo-credit">사진: 조선일보-경제 RSS</span>
+                        <a href="https://www.chosun.com/economy/smb-venture/2026/11/14/GNSGCMTDMYZWIOBWHA2DMMLDHA/" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">중기중앙회 “노란우산, 개인정보 유출 가능성… 홈페이지 비정상 접근 정황 포착”</a>
+                        <p class="card-preview">중소기업중앙회(중기중앙회)는 지난 11일 노란우산 홈페이지에 외부의 비정상적인 접근과 일부 고객 개인정보 제3자 조회 의심 정황을 파악했다고 14일 밝혔다. 중기중앙회는 이날 노란우산 홈페이지에 이 같은 내용을 담은 ‘개인정보 유출 가능성 및 침해사고’…</p>
+                        <div class="card-meta">
+                            <span>조선일보-경제 · 언론</span>
+                            <span>11.14 16:54</span>
+                        </div>
+                        
+                    </div>
+                    <div class="sector-subheading">📌 통신/IT (4)</div>
+                    <div class="card priority">
+                        <img class="article-photo" src="https://img.yna.co.kr/photo/yna/YH/2026/08/19/PYH2026081910070001300_P2.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.card').querySelector('.article-photo-credit').hidden=true"><span class="article-photo-credit">사진: 연합뉴스-경제 RSS</span>
+                        <a href="https://www.yna.co.kr/view/AKR20261113169400002" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">가상자산 법인 참여 지연에 거래소들 전담조직 축소</a>
+                        <p class="card-preview">박수현 기자 = 원화 가상자산 거래소들이 법인영업 전담조직을 해체하거나 규모를 줄인 것으로 파악됐다.</p>
+                        <div class="card-meta">
+                            <span>연합뉴스-경제 · 통신</span>
+                            <span>11.15 05:57</span>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="card priority">
+                        <img class="article-photo" src="https://img.yna.co.kr/etc/inner/KR/2026/11/14/AKR20261114049400017_01_i_P2.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.card').querySelector('.article-photo-credit').hidden=true"><span class="article-photo-credit">사진: 연합뉴스-산업 RSS</span>
+                        <a href="https://www.yna.co.kr/view/AKR20261114049400017" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">메타엠 고객상담 시스템 해킹…전화번호·상담내용 유출 확인</a>
+                        <p class="card-preview">유현민 기자 = 고객 상담 업무를 위탁 운영하는 메타엠의 일부 고객상담 시스템이 외부 공격을 받아 이용자의 전화번호와 상담 대...</p>
+                        <div class="card-meta">
+                            <span>연합뉴스-산업 · 통신</span>
+                            <span>11.14 23:24</span>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="card priority">
+                        <img class="article-photo" src="https://img.yna.co.kr/photo/reuters/2026/11/14/PRU20261114027101009_P2.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.card').querySelector('.article-photo-credit').hidden=true"><span class="article-photo-credit">사진: 연합뉴스-산업 RSS</span>
+                        <a href="https://www.yna.co.kr/view/AKR20261114037600017" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">정부, MS 서비스 장애에 비상대응반 가동…국내 피해 점검</a>
+                        <p class="card-preview">권하영 기자 = 과학기술정보통신부는 최근 마이크로소프트(MS)의 글로벌 서비스 장애와 관련한 국내 이용자 불편을 최소화하기 위...</p>
+                        <div class="card-meta">
+                            <span>연합뉴스-산업 · 통신</span>
+                            <span>11.14 16:15</span>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="card ">
+                        
+                        <a href="https://www.chosun.com/economy/tech_it/2026/11/14/PYAYTQSCINFN3JRCEB2L3QOPKY/" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">‘대규모 접속 장애’ MS 아웃룩·팀스, 약 36시간 만에야 정상화</a>
+                        
+                        <div class="card-meta">
+                            <span>조선일보-경제 · 언론</span>
+                            <span>11.14 20:40</span>
+                        </div>
+                        
+                    </div>
+                    <div class="sector-subheading">📌 유통/소매 (1)</div>
+                    <div class="card priority">
+                        
+                        <a href="https://www.aitimes.com/news/articleView.html?idxno=217412" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">아마존, 전 세계 상품 정보 통합 추진…AI 쇼핑 주도권 지킨다</a>
+                        <p class="card-preview">아마존이 자사에서 판매하지 않는 제품까지 전 세계 상품 정보를 모으는 방안을 검토하고 있다. 소비자가 제품을 비교하기 위해 다른 사이트로 이동하는 일을 줄이고, 구매를 대신하는 외부 AI 에이전트도 아마존을 찾도록 하려는 구상이다.로이터는 13일(현지시간)…</p>
+                        <div class="card-meta">
+                            <span>AI타임스 · 테크</span>
+                            <span>11.15 04:19</span>
+                        </div>
+                        
+                    </div>
+                    <div class="sector-subheading">📌 기타산업 (2)</div>
+                    <div class="card priority">
+                        <img class="article-photo" src="https://img.yna.co.kr/etc/inner/KR/2026/11/14/AKR20261114043100063_01_i_P2.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.card').querySelector('.article-photo-credit').hidden=true"><span class="article-photo-credit">사진: 연합뉴스-산업 RSS</span>
+                        <a href="https://www.yna.co.kr/view/AKR20261114043100063" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">조폐공사 "모바일 지역사랑상품권 플랫폼서 개인정보 유출"</a>
+                        <p class="card-preview">(대전=연합뉴스) 김준호 기자 = 한국조폐공사가 운영하는 모바일 지역사랑상품권 플랫폼 &#x27;착&#x27;(chak)에서 외부 비인가 접근 및 개인정보 조회 ...</p>
+                        <div class="card-meta">
+                            <span>연합뉴스-산업 · 통신</span>
+                            <span>11.14 18:00</span>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="card priority">
+                        <img class="article-photo" src="https://img.yna.co.kr/etc/inner/KR/2026/11/13/AKR20261113129800017_02_i_P2.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.card').querySelector('.article-photo-credit').hidden=true"><span class="article-photo-credit">사진: 연합뉴스-산업 RSS</span>
+                        <a href="https://www.yna.co.kr/view/AKR20261113129800017" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">[테크스냅] 라디오에도 간접광고 도입하나…방송광고 규제 개선 논의</a>
+                        <p class="card-preview">유현민 기자 = 방송·미디어 업계와 학계가 급변하는 광고시장 환경에 맞춰 방송광고·협찬 제도의 개선 방향을 모색하고 있다.</p>
+                        <div class="card-meta">
+                            <span>연합뉴스-산업 · 통신</span>
+                            <span>11.14 15:00</span>
+                        </div>
+                        
+                    </div>
+                    <div id="정치" class="section-title">정치</div><div class="sector-subheading">🗂️ 정상/외교 (1)</div>
+                    <div class="card priority representative">
+                        <img class="article-photo" src="https://img.yna.co.kr/photo/yna/YH/2026/11/13/PYH2026111305120001300_P2.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.card').querySelector('.article-photo-credit').hidden=true"><span class="article-photo-credit">사진: 연합뉴스-정치 RSS</span>
+                        <a href="https://www.yna.co.kr/view/AKR20261114046600001" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">李대통령 "가장 힘든 건 등 뒤서 날아오는 화살"…與천준호 격려</a>
+                        <p class="card-preview">황윤기 기자 = 이재명 대통령은 당 대표 시절 비서실장이었던 더불어민주당 천준호 원내운영수석부대표를 향해 14일 &quot;고생 많으셨...</p>
+                        <div class="card-meta">
+                            <span>연합뉴스-정치 · 통신</span>
+                            <span>11.14 20:34</span>
+                        </div>
+                        <details class="related-sources"><summary>관련 기사 1건 더 보기</summary><a href="https://www.chosun.com/economy/economy_general/2026/11/14/GYZTSYZYGM3TIY3FGVRWIZLFGQ/" class="related-link" target="_blank" rel="noopener noreferrer">李대통령, 與 천준호 격려… “가장 힘든 건 등 뒤서 날아오는 화살” · 조선일보-경제</a></details>
+                    </div>
+                    <div class="sector-subheading">🗂️ 당내 정국 (2)</div>
+                    <div class="card priority representative">
+                        <img class="article-photo" src="https://img.yna.co.kr/photo/yna/YH/2026/11/14/PYH2026111404680005100_P2.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.card').querySelector('.article-photo-credit').hidden=true"><span class="article-photo-credit">사진: 연합뉴스-정치 RSS</span>
+                        <a href="https://www.yna.co.kr/view/AKR20261114041600001" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">국힘 "특검 의결시 국무위원들도 감옥갈 것"…부산서 규탄 집회</a>
+                        <p class="card-preview">(서울·부산=연합뉴스) 박수윤 손형주 기자 = 국민의힘은 14일 부산에서 대규모 장외집회를 열어 이른바 &#x27;조작기소 특검법&#x27;을 규탄하고 이재명 대...</p>
+                        <div class="card-meta">
+                            <span>연합뉴스-정치 · 통신</span>
+                            <span>11.14 17:39</span>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="card priority">
+                        <img class="article-photo" src="https://img.yna.co.kr/photo/yna/YH/2026/06/28/PYH2026062804250001300_P2.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.card').querySelector('.article-photo-credit').hidden=true"><span class="article-photo-credit">사진: 연합뉴스-정치 RSS</span>
+                        <a href="https://www.yna.co.kr/view/AKR20261114027400001" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">국힘, '신천지 이어 통일교 의혹' 與에 "특검해야" 압박</a>
+                        <p class="card-preview">박수윤 기자 = 국민의힘은 14일 더불어민주당에서 신천지 교인의 집단 당원 가입 의혹에 이어 통일교 개입 의혹도 제기되자 &quot;특...</p>
+                        <div class="card-meta">
+                            <span>연합뉴스-정치 · 통신</span>
+                            <span>11.14 11:02</span>
+                        </div>
+                        
+                    </div>
+                    <div class="sector-subheading">🗂️ 사법/의혹 (1)</div>
+                    <div class="card priority">
+                        <img class="article-photo" src="https://img.yna.co.kr/photo/yna/YH/2026/11/13/PYH2026111305230001300_P2.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.card').querySelector('.article-photo-credit').hidden=true"><span class="article-photo-credit">사진: 연합뉴스-정치 RSS</span>
+                        <a href="https://www.yna.co.kr/view/AKR20261114037800001" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">한동훈·최민희, '李대통령·尹 공직선거법 재판' 놓고 SNS 설전</a>
+                        <p class="card-preview">박수윤 최평천 기자 = 더불어민주당 최민희 의원과 무소속 한동훈 의원이 14일 최 의원의 &#x27;이재명 대통령의 재판과 윤석열 전 ...</p>
+                        <div class="card-meta">
+                            <span>연합뉴스-정치 · 통신</span>
+                            <span>11.14 15:59</span>
+                        </div>
+                        
+                    </div>
+                    <div class="sector-subheading">🗂️ 입법/정책 (2)</div>
+                    <div class="card priority representative">
+                        <img class="article-photo" src="https://img.yna.co.kr/photo/yna/YH/2026/11/05/PYH2026110509190001300_P2.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.card').querySelector('.article-photo-credit').hidden=true"><span class="article-photo-credit">사진: 연합뉴스-정치 RSS</span>
+                        <a href="https://www.yna.co.kr/view/AKR20261114034100001" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">예산안 처리시한 2주여 앞으로…여야, 예결소위서 본격대결 돌입</a>
+                        <p class="card-preview">박수윤 최평천 기자 = 내년도 예산안 처리 시한(다음 달 2일)이 15일로 2주여 앞으로 다가오면서 여야가 본격적인 예산 전쟁...</p>
+                        <div class="card-meta">
+                            <span>연합뉴스-정치 · 통신</span>
+                            <span>11.15 05:00</span>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="card priority">
+                        <img class="article-photo" src="https://img.yna.co.kr/etc/inner/KR/2026/11/14/AKR20261114042700001_02_i_P2.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.card').querySelector('.article-photo-credit').hidden=true"><span class="article-photo-credit">사진: 연합뉴스-정치 RSS</span>
+                        <a href="https://www.yna.co.kr/view/AKR20261114042700001" class="card-title" target="_blank" style="text-decoration: none; color: inherit; display: block;">기후시민회의 시민참여단, '정부 정책 권고안 70건' 확정</a>
+                        <p class="card-preview">황윤기 기자 = 한국형 기후 공론장인 기후시민회의 시민참여단이 14일 7개월의 활동을 마무리하고 정부에 제출할 정책 권고안을 ...</p>
+                        <div class="card-meta">
+                            <span>연합뉴스-정치 · 통신</span>
+                            <span>11.14 17:48</span>
+                        </div>
+                        
+                    </div>
+                    <div id="science" class="section-title">테크</div>
+                <div class="card">
+                    
+                    <a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxONTdPVFk2dEpDRnBJeGlhNS01ek50dDBvWFFMT0FUVEd6Y0ZBTVFEUW45c0dzTW15OTlEaVhTS3RVaDFmbzV1aU1UVkRsZ2RCbGxpc3ZpenpaSUo1cGduTUpMTHdOTnlMbkd3WFUwNEVFRUM0ZmtUenBYbHNuOWszaFFyMndOOUUyS2htVnJwMA?oc=5" class="card-title" target="_blank" rel="noopener noreferrer">흰 빵은 꼭대기, 채소·통곡물은 바닥…다시 그린 ‘국제 식품 피라미드’ - 사이언스타임즈</a>
+                    <p class="card-preview">흰 빵은 꼭대기, 채소·통곡물은 바닥…다시 그린 ‘국제 식품 피라미드’ 사이언스타임즈</p>
+                    <div class="card-meta">
+                        <span>사이언스타임즈</span>
+                        <span>11.13 09:00</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card">
+                    
+                    <a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxPSlpBdndCRF9UcmdRUUNBWmRGSjZ3LVNTWWp6VkpFakk2VklXMktJMU5SVTlfWURFN1hCQjc1ZUpSbVdGRm5HVzE1b2ZycjExWHJGUzkyOTFXT1R0LV9ET29WS0IxNXdmSVBscEtlem56b1otRHVhRWJFS2I5OWlrbXJ2N2xkTnpLbzdfbHdDaw?oc=5" class="card-title" target="_blank" rel="noopener noreferrer">사이언스타임즈/사용자메뉴/과학기술/생명과학·의학 - 사이언스타임즈</a>
+                    
+                    <div class="card-meta">
+                        <span>사이언스타임즈</span>
+                        <span>11.12 09:01</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card">
+                    
+                    <a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxOdHhMNXdUS2MteEp2Qkd0T2hNbWE5Y1BmVC1VaDlPX0RiTmo4ZXpOWDhnRExVdUp1MmtCQ1d1TUEtSWl5WFNEd2ZqRVZFYzQ5WDVSLU44Z21Cdi1RUE9HajFiNUN1YzMxT2RyQ3JWbWthQjNSQXVJa3lsSmV6NzVDaWxHQVltQXQ0aWh6SF9wOA?oc=5" class="card-title" target="_blank" rel="noopener noreferrer">7만 5천 년 전 네안데르탈인의 어깨를 꿰뚫은 창, 고대 인류는 평화로웠는가? - 사이언스타임즈</a>
+                    <p class="card-preview">7만 5천 년 전 네안데르탈인의 어깨를 꿰뚫은 창, 고대 인류는 평화로웠는가? 사이언스타임즈</p>
+                    <div class="card-meta">
+                        <span>사이언스타임즈</span>
+                        <span>11.10 09:01</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card">
+                    
+                    <a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxNSXZEcFJFTXlrcDUxcjE1WFprTUN0SVFNVFJRcUVWUkFwNmltQ0tybjNXWFQydWs3TG1ldGFOVnBsNU9wUVlCZEF6emd0REdNZ2xKbzlNVWJhUUFsTzN6MzFnTHVyMjF0SkpMQVlLZ1puWHQzT3VOM0E0T29NSmNEblBLaUJPRjRVRUE3SmR0NA?oc=5" class="card-title" target="_blank" rel="noopener noreferrer">120억 년 전 초기 우주까지 본다…세계 최대 지상 감마선 관측소 구축 첫발 - 사이언스타임즈</a>
+                    <p class="card-preview">120억 년 전 초기 우주까지 본다…세계 최대 지상 감마선 관측소 구축 첫발 사이언스타임즈</p>
+                    <div class="card-meta">
+                        <span>사이언스타임즈</span>
+                        <span>11.09 09:09</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card">
+                    
+                    <a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxQNXQ5czB5bUNZY2dhdzJpR1BXU1luUGc1WkZiUDM1MHloOGhod2Myc2h2QTd2ZnV0T3MzMnN5eWozMFo4Um5WWHRDVjVLVXJhUGZhZGZZaHhyWUlyWGhublBDVUlIRXE5RTBOTGdlLUE4R0NOQUswazZpNmp0d1FRLURPNnRhbl84U1dnV2lobw?oc=5" class="card-title" target="_blank" rel="noopener noreferrer">지구는 10년당 ‘0.35°C’ 상승했다, 인류에게 남은 골든타임은? - 사이언스타임즈</a>
+                    <p class="card-preview">지구는 10년당 ‘0.35°C’ 상승했다, 인류에게 남은 골든타임은? 사이언스타임즈</p>
+                    <div class="card-meta">
+                        <span>사이언스타임즈</span>
+                        <span>03.23 16:00</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card">
+                    
+                    <a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxPNHZCNUZQbl9TaEs2bXBGdHhoRmhIZDdqZm5hdUpJTnRiR3lhTVhXbFpCdTNtSDlvZ1BrdEYzOWI0a1VzMXpXMlFuaFF2UDVGRUVsVEZWcFI0ck1aeFB5UUZLTlQyRk1XUnZ5UVNaYVl6eFJ5U1pjbFFqbFRjbFViZlZPbHU1ajU0Wl9nSnlzYw?oc=5" class="card-title" target="_blank" rel="noopener noreferrer">&quot;지구온난화 속도, 2015년 이후 급격히 빨라졌다&quot; - 사이언스타임즈</a>
+                    <p class="card-preview">&quot;지구온난화 속도, 2015년 이후 급격히 빨라졌다&quot; 사이언스타임즈</p>
+                    <div class="card-meta">
+                        <span>사이언스타임즈</span>
+                        <span>03.09 16:00</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card">
+                    
+                    <a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxNS0YtZkJPbllmRzJHRmdvemx4b29YY1VOZUpnM0otZk9HcWpXZE53ZnptNnhYSTAtX1I4VkFfaHdPaWRKWnRub0kzX05tM1BFX1JDSVlLYUd2U0FiV1RfSVBFUEVGREZMWi1PcGkxckJfX0FWWncyTzYzQVo3T0RKOWVWUmt0YS1BLWdleXRNVQ?oc=5" class="card-title" target="_blank" rel="noopener noreferrer">유전자 조작해 뇌 신경세포 젊게 만들면 인지기능 회춘할까 - 사이언스타임즈</a>
+                    <p class="card-preview">유전자 조작해 뇌 신경세포 젊게 만들면 인지기능 회춘할까 사이언스타임즈</p>
+                    <div class="card-meta">
+                        <span>사이언스타임즈</span>
+                        <span>02.23 17:00</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card">
+                    
+                    <a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxNaHJiVnJpc3FDTTNuMG9kLTFfR080cHYxblBZQUN2MG41V0l5OU1Bb2U4TXQ2dWs0MUVlWlh3LWZCVFhVd1J2blVWdkpsS3NRQzBpaFM2SVpQSmlRTHJXUVdPblF6WnVmRzZONG41QWtrNExPc2JLRjFsTVpsWVVScEhXWlV3RjJ3MlphRHdoNA?oc=5" class="card-title" target="_blank" rel="noopener noreferrer">오젬픽, 체중감량 뒤에 숨겨진 새로운 위험들 - 사이언스타임즈</a>
+                    
+                    <div class="card-meta">
+                        <span>사이언스타임즈</span>
+                        <span>01.23 17:00</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card">
+                    
+                    <a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxOcnFzX00xWlBHU2hKcjJ3MnZnaTl0MjFncU1US2N4RGNwN1M5V1pkTFNTQkNGdGVOckVNc2VYQ09MLWlkMURaM29LMHN0QUJiUEluYmRtVUd6QUsxUW1YdHk1eFgzcWU2TXpWakl6ajd2aXFWbHRlMHFRTUdmNnRaTUUwRTVabFo0SFhoTWhTNA?oc=5" class="card-title" target="_blank" rel="noopener noreferrer">과학기술 - 사이언스타임즈</a>
+                    
+                    <div class="card-meta">
+                        <span>사이언스타임즈</span>
+                        <span>12.09 17:00</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="card">
+                    
+                    <a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxQeDlSVmR1M1ZHdnp5SUI5QVBMM2hrUDBZSmd0QUVUYVQ5MndDRnIwZE8yWVVRMXNGNm9iZ1l4TUpVUkdjRC1UYU9tQ0FYNk9QX2FHM1Y5d3pVaHhzTWNqMEwyZThOYlNKdWdXbDZEOEdHdFdZeThOZWpib1BIamRKaWRpUHBrckZpNFNvMW9IZw?oc=5" class="card-title" target="_blank" rel="noopener noreferrer">도파민 터지는 ‘숏폼’, 우리의 집중력은 ‘47초’ - 사이언스타임즈</a>
+                    <p class="card-preview">도파민 터지는 ‘숏폼’, 우리의 집중력은 ‘47초’ 사이언스타임즈</p>
+                    <div class="card-meta">
+                        <span>사이언스타임즈</span>
+                        <span>09.11 16:00</span>
+                    </div>
+                    
+                </div>
+                </details>
+                <footer>&copy; 2025 PREMIUM MORNING NEWS BOT</footer>
+            </div>
+            <div id="shareToast" class="share-toast" aria-live="polite"></div>
+
+            <!-- Gemini Navigator Overlay -->
+            <div id="geminiOverlay" class="gemini-overlay" role="dialog" aria-modal="true" aria-label="Gemini Navigator">
+                <div class="gemini-overlay-header">
+                    <div class="gemini-overlay-title">🔎 Gemini 네비게이터</div>
+                    <div class="gemini-overlay-actions"><button class="gemini-icon-btn" type="button" title="새로고침" onclick="reloadGeminiNavigator()">↻</button><button class="gemini-icon-btn" type="button" title="새 창으로 열기" onclick="openGeminiInNewTab()">↗</button><button class="gemini-icon-btn" type="button" title="닫기" onclick="closeGeminiNavigator()">✕</button></div>
+                </div>
+                <div class="gemini-overlay-body">
+                    <div id="geminiLoading" class="gemini-overlay-loading">
+                        Gemini 네비게이터 로딩 중...
+                        <div style="font-size: 0.8rem; opacity: 0.8;">(로딩이 오래 걸리면 ↗ 버튼으로 새 창에서 열어주세요)</div>
+                    </div>
+                    <iframe id="geminiFrame" class="gemini-overlay-iframe" src="" loading="lazy" referrerpolicy="no-referrer" allow="microphone; camera; autoplay" onload="geminiLoaded = true; setGeminiLoading(false);" title="Gemini Navigator"></iframe>
+                </div>
+            </div>
+        </body>
+        </html>
+        

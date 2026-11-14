@@ -1,0 +1,407 @@
+{
+  "timestamp": "2026-11-15T06:01:18.753983",
+  "date": "20261115",
+  "data": [
+    {
+      "keyword": "특검 의결",
+      "reason": "국힘 부산 집회와 여야 대결 핵심 이슈",
+      "score": 34.38,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "국힘 \"특검 의결시 국무위원들도 감옥갈 것\"…부산서 규탄 집회"
+      ],
+      "representative_article": {
+        "title": "국힘 \"특검 의결시 국무위원들도 감옥갈 것\"…부산서 규탄 집회",
+        "link": "https://www.yna.co.kr/view/AKR20261114041600001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-11-14 17:39:45",
+        "match_score": 34.38
+      },
+      "related_articles": [
+        {
+          "title": "국힘 \"특검 의결시 국무위원들도 감옥갈 것\"…부산서 규탄 집회",
+          "link": "https://www.yna.co.kr/view/AKR20261114041600001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-11-14 17:39:45",
+          "match_score": 34.38
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "예산안 처리",
+      "reason": "여야 본격 대결과 관련 시한 임박",
+      "score": 44.68,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "정치"
+      ],
+      "sample_titles": [
+        "예산안 처리시한 2주여 앞으로…여야, 예결소위서 본격대결 돌입"
+      ],
+      "representative_article": {
+        "title": "예산안 처리시한 2주여 앞으로…여야, 예결소위서 본격대결 돌입",
+        "link": "https://www.yna.co.kr/view/AKR20261114034100001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-11-15 05:00:01",
+        "match_score": 44.68
+      },
+      "related_articles": [
+        {
+          "title": "예산안 처리시한 2주여 앞으로…여야, 예결소위서 본격대결 돌입",
+          "link": "https://www.yna.co.kr/view/AKR20261114034100001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-11-15 05:00:01",
+          "match_score": 44.68
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "반도체",
+      "reason": "한은 진단과 산업 핵심 이슈로 빈번 언급",
+      "score": 39.03,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "반도체 뜨거운데 소비 미지근…한은이 짚은 '낙수' 제약 요인"
+      ],
+      "representative_article": {
+        "title": "반도체 뜨거운데 소비 미지근…한은이 짚은 '낙수' 제약 요인",
+        "link": "https://www.yna.co.kr/view/AKR20261114030200002",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-11-15 05:55:01",
+        "match_score": 39.03
+      },
+      "related_articles": [
+        {
+          "title": "반도체 뜨거운데 소비 미지근…한은이 짚은 '낙수' 제약 요인",
+          "link": "https://www.yna.co.kr/view/AKR20261114030200002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-15 05:55:01",
+          "match_score": 39.03
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "개인정보 유출",
+      "reason": "중기중앙회·메타엠 등 개인정보 사고 이슈",
+      "score": 44.8,
+      "article_count": 4,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "중기부, 모두의창업 개인정보 유출 사흘 만에 \"진심으로 사과\"",
+        "조폐공사 \"모바일 지역사랑상품권 플랫폼서 개인정보 유출\"",
+        "가입자 192만 ‘노란우산’, 이름·주민번호 등 개인정보 유출 가능성"
+      ],
+      "representative_article": {
+        "title": "중기중앙회 “노란우산, 개인정보 유출 가능성… 홈페이지 비정상 접근 정황 포착”",
+        "link": "https://www.chosun.com/economy/smb-venture/2026/11/14/GNSGCMTDMYZWIOBWHA2DMMLDHA/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-11-14 16:54:06",
+        "match_score": 44.8
+      },
+      "related_articles": [
+        {
+          "title": "중기중앙회 “노란우산, 개인정보 유출 가능성… 홈페이지 비정상 접근 정황 포착”",
+          "link": "https://www.chosun.com/economy/smb-venture/2026/11/14/GNSGCMTDMYZWIOBWHA2DMMLDHA/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-11-14 16:54:06",
+          "match_score": 44.8
+        },
+        {
+          "title": "조폐공사 \"모바일 지역사랑상품권 플랫폼서 개인정보 유출\"",
+          "link": "https://www.yna.co.kr/view/AKR20261114043100063",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-11-14 18:00:42",
+          "match_score": 32.88
+        },
+        {
+          "title": "가입자 192만 ‘노란우산’, 이름·주민번호 등 개인정보 유출 가능성",
+          "link": "https://www.chosun.com/economy/smb-venture/2026/11/14/L4F4CY5FKBBTFISDLW3UMUNVAA/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-11-14 17:00:26",
+          "match_score": 32.5
+        },
+        {
+          "title": "중기부, 모두의창업 개인정보 유출 사흘 만에 \"진심으로 사과\"",
+          "link": "https://www.yna.co.kr/view/AKR20261114046700030",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-14 20:42:24",
+          "match_score": 31.02
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "모딘 인수",
+      "reason": "삼성전자 AI 사업 확장 전략의 중심",
+      "score": 43.56,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "삼성전자, 美 모딘 인수 추진…AI 데이터센터 냉각사업 확장 승부수 - 뉴스포스트"
+      ],
+      "representative_article": {
+        "title": "삼성전자, 美 모딘 인수 추진…AI 데이터센터 냉각사업 확장 승부수 - 뉴스포스트",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9OWm9USlBGRXFobkhGYW0zTGMzZVM4bmx4bzVDeFJYRnZfUUcxcXFGSnVPY19UVV93ZWZnTzdfVUx2S0hqbEtfRWg1bHI4c1hvaFYzN0dOUThxRnNfRWNGOWVLcGZrdWo1MlE?oc=5",
+        "source": "키워드-반도체AI",
+        "published_dt": "2026-11-14 11:20:53",
+        "match_score": 43.56
+      },
+      "related_articles": [
+        {
+          "title": "삼성전자, 美 모딘 인수 추진…AI 데이터센터 냉각사업 확장 승부수 - 뉴스포스트",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9OWm9USlBGRXFobkhGYW0zTGMzZVM4bmx4bzVDeFJYRnZfUUcxcXFGSnVPY19UVV93ZWZnTzdfVUx2S0hqbEtfRWg1bHI4c1hvaFYzN0dOUThxRnNfRWNGOWVLcGZrdWo1MlE?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-11-14 11:20:53",
+          "match_score": 43.56
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 5,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재개발·재건축",
+      "reason": "인천 절차 간소화와 서울 동대문구 현황",
+      "score": 44.01,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "인천 재개발·재건축 사전컨설팅 절차 대폭 간소화 추진 - livesnews.com"
+      ],
+      "representative_article": {
+        "title": "인천 재개발·재건축 사전컨설팅 절차 대폭 간소화 추진 - livesnews.com",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9kS3RyZWJ4bTFJQXB1SThCNDVoWDAyM3RHbEdzSk5BTVU5V3dOZTVNeTZDQmlqUHIzdTNIcjJRdHZrdzVrN0s2eThKUHVqSHVkOTZ1V01Rdzh3VjBuTUpyanN3?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-11-14 22:07:20",
+        "match_score": 44.01
+      },
+      "related_articles": [
+        {
+          "title": "인천 재개발·재건축 사전컨설팅 절차 대폭 간소화 추진 - livesnews.com",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9kS3RyZWJ4bTFJQXB1SThCNDVoWDAyM3RHbEdzSk5BTVU5V3dOZTVNeTZDQmlqUHIzdTNIcjJRdHZrdzVrN0s2eThKUHVqSHVkOTZ1V01Rdzh3VjBuTUpyanN3?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-11-14 22:07:20",
+          "match_score": 44.01
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 6,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "엔비디아",
+      "reason": "시총 하락과 트럼프 AI칩 수출규제 해제 관련",
+      "score": 41.5,
+      "article_count": 3,
+      "source_count": 2,
+      "categories": [
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "로이터 “엔비디아 의존 中 AI 프로젝트 규모 4조6000억원 이상”",
+        "트럼프, AI칩 中 수출규제 풀기 직전 엔비디아 ‘풀매수’",
+        "엔비디아 시총 한 주 새 5730억달러 증발…단일 기업 역대 최대"
+      ],
+      "representative_article": {
+        "title": "트럼프, AI칩 中 수출규제 풀기 직전 엔비디아 ‘풀매수’",
+        "link": "https://www.donga.com/news/Inter/article/all/20261114/135024388/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-11-14 18:11:00",
+        "match_score": 41.5
+      },
+      "related_articles": [
+        {
+          "title": "트럼프, AI칩 中 수출규제 풀기 직전 엔비디아 ‘풀매수’",
+          "link": "https://www.donga.com/news/Inter/article/all/20261114/135024388/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-14 18:11:00",
+          "match_score": 41.5
+        },
+        {
+          "title": "엔비디아 시총 한 주 새 5730억달러 증발…단일 기업 역대 최대",
+          "link": "https://www.donga.com/news/Inter/article/all/20261114/135024298/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-14 15:09:25",
+          "match_score": 38.5
+        },
+        {
+          "title": "로이터 “엔비디아 의존 中 AI 프로젝트 규모 4조6000억원 이상”",
+          "link": "https://www.etnews.com/20261114000015",
+          "source": "전자신문",
+          "published_dt": "2026-11-14 11:20:52",
+          "match_score": 36.59
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 7,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "GTX-C",
+      "reason": "서울 동대문구 개발 교통 호재",
+      "score": 46.71,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "서울 동대문구(東大門區) · GTX-C 착공·동북선 공정 76% — 청량리 신설역 2km 안 단지 63곳, 동대문 올해 +13.55%로 서울 5위 - 네이버 프리미엄콘텐츠"
+      ],
+      "representative_article": {
+        "title": "서울 동대문구(東大門區) · GTX-C 착공·동북선 공정 76% — 청량리 신설역 2km 안 단지 63곳, 동대문 올해 +13.55%로 서울 5위 - 네이버 프리미엄콘텐츠",
+        "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9sRTlkTWpFVVF3RUVwU1lQcGRpLThPTmRaQ01nY19nY3ZVaF9DdG1kOUgzM0l5VExvQ0hEaVNTR211UGZYZHYtQTVOdThKeEJ4aFppWG9PSGJ0UjBsakhKZDlwZERNVWdQcndSZlJBMmVDcTBlTG5nY3ZMSm4?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-11-15 00:40:00",
+        "match_score": 46.71
+      },
+      "related_articles": [
+        {
+          "title": "서울 동대문구(東大門區) · GTX-C 착공·동북선 공정 76% — 청량리 신설역 2km 안 단지 63곳, 동대문 올해 +13.55%로 서울 5위 - 네이버 프리미엄콘텐츠",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9sRTlkTWpFVVF3RUVwU1lQcGRpLThPTmRaQ01nY19nY3ZVaF9DdG1kOUgzM0l5VExvQ0hEaVNTR211UGZYZHYtQTVOdThKeEJ4aFppWG9PSGJ0UjBsakhKZDlwZERNVWdQcndSZlJBMmVDcTBlTG5nY3ZMSm4?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-11-15 00:40:00",
+          "match_score": 46.71
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 8,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "노란우산",
+      "score": 25.5,
+      "article_count": 4,
+      "source_count": 3,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "192만명 가입 중기중앙회 '노란우산' 해킹 정황",
+        "중기중앙회 \"노란우산 정보 유출 가능성…주소·연락처 등 포함\"(종합)",
+        "가입자 192만 ‘노란우산’, 이름·주민번호 등 개인정보 유출 가능성"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "192만명 가입 중기중앙회 '노란우산' 해킹 정황",
+        "link": "https://zdnet.co.kr/view/?no=20261114210227",
+        "source": "ZDNetKorea",
+        "published_dt": "2026-11-14 21:02:27",
+        "match_score": 38.09
+      },
+      "related_articles": [
+        {
+          "title": "192만명 가입 중기중앙회 '노란우산' 해킹 정황",
+          "link": "https://zdnet.co.kr/view/?no=20261114210227",
+          "source": "ZDNetKorea",
+          "published_dt": "2026-11-14 21:02:27",
+          "match_score": 38.09
+        },
+        {
+          "title": "중기중앙회 \"노란우산 정보 유출 가능성…주소·연락처 등 포함\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261114037551030",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-14 16:37:21",
+          "match_score": 37.83
+        },
+        {
+          "title": "중기중앙회 “노란우산, 개인정보 유출 가능성… 홈페이지 비정상 접근 정황 포착”",
+          "link": "https://www.chosun.com/economy/smb-venture/2026/11/14/GNSGCMTDMYZWIOBWHA2DMMLDHA/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-11-14 16:54:06",
+          "match_score": 37.3
+        },
+        {
+          "title": "가입자 192만 ‘노란우산’, 이름·주민번호 등 개인정보 유출 가능성",
+          "link": "https://www.chosun.com/economy/smb-venture/2026/11/14/L4F4CY5FKBBTFISDLW3UMUNVAA/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-11-14 17:00:26",
+          "match_score": 28.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "아파트",
+      "score": 22.5,
+      "article_count": 3,
+      "source_count": 3,
+      "categories": [
+        "국제",
+        "부동산"
+      ],
+      "sample_titles": [
+        "[단독]개포현대2차 아파트 재건축, 초대 조합장에 김기진 現 추진위원장 당선... 68% 득표 - 하우징타임즈",
+        "3분기 경기·인천 아파트 ‘거래 급감’… 규제·금리에 눌렸다 - 경인일보",
+        "펜트하우스 누수·곰팡이로 소송 낸 美 입주민, 아파트 관리인 총격 살해"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "[단독]개포현대2차 아파트 재건축, 초대 조합장에 김기진 現 추진위원장 당선... 68% 득표 - 하우징타임즈",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1pdDdIQkV1cG1IX2dsSjI0VmhIU2hiTkdGakhSWFZpeDB6M01VT0k3YzZXSnZzajhWNk9pQzVBYmo2WjVVZHBZdXAtMy1ST2FHRzhheDFhTktSaWx4MGlPOFN6eVd5b3NWQVRUNU1HUU0?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-11-14 18:45:00",
+        "match_score": 37.71
+      },
+      "related_articles": [
+        {
+          "title": "[단독]개포현대2차 아파트 재건축, 초대 조합장에 김기진 現 추진위원장 당선... 68% 득표 - 하우징타임즈",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1pdDdIQkV1cG1IX2dsSjI0VmhIU2hiTkdGakhSWFZpeDB6M01VT0k3YzZXSnZzajhWNk9pQzVBYmo2WjVVZHBZdXAtMy1ST2FHRzhheDFhTktSaWx4MGlPOFN6eVd5b3NWQVRUNU1HUU0?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-11-14 18:45:00",
+          "match_score": 37.71
+        },
+        {
+          "title": "펜트하우스 누수·곰팡이로 소송 낸 美 입주민, 아파트 관리인 총격 살해",
+          "link": "https://www.donga.com/news/Inter/article/all/20261114/135024088/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-14 12:56:09",
+          "match_score": 37.3
+        },
+        {
+          "title": "3분기 경기·인천 아파트 ‘거래 급감’… 규제·금리에 눌렸다 - 경인일보",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9ONm16RW9Hc2pkNmhDaDNoRk9RbFBsaUJmRmFUMUJzdXgyRnNRNEhrV3hybVlfMzJCcTZwdjVnRERuVU16RkEtTDd0ZURIM2V1OWc?oc=5",
+          "source": "키워드-금리환율코스피",
+          "published_dt": "2026-11-14 08:56:00",
+          "match_score": 36.96
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
