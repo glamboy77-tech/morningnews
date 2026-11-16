@@ -1,0 +1,498 @@
+{
+  "timestamp": "2026-11-17T06:01:45.983550",
+  "date": "20261117",
+  "data": {
+    "트럼프": {
+      "articles": [
+        {
+          "title": "트럼프 “중국서 김정은 만날 수도 있다”",
+          "link": "https://www.chosun.com/politics/politics_general/2026/11/17/2OQRYZ3A5NGT7GHBULTSVZPQR4/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-11-17 00:53:00",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "image_url": "",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프, 젠슨 황 CEO 복귀 지지…엔비디아 이사회는 논의 안 해",
+          "link": "https://www.aitimes.com/news/articleView.html?idxno=217468",
+          "source": "AI타임스",
+          "published_dt": "2026-11-17 14:54:00",
+          "description": "도널드 트럼프 미국 대통령이 젠슨 황 전 엔비디아 CEO의 복귀를 공개적으로 지지했다. 실리콘밸리 주요 인사들과 엔비디아 직원, 주주들까지 복귀를 요구하는 가운데 트럼프도 힘을 보탰지만, 엔비디아 이사회는 아직 복귀를 검토하지 않고 있는 것으로 알려졌다.트럼프 대통령은 16일(현지시간) 백악관에서 아시아 순방을 떠나기 전 황 전 CEO의 복귀에 대한 질문에 \"나는 반대하지 않는다. 그가 큰 교훈을 얻었다고 생각한다\"라며 \"그는 돌아올 수 있다. 많은 사람이 그의 복귀를 원하고 있다\"라고 말했다.트럼프 대통령은 황 전 CEO와 중국",
+          "category": "domestic",
+          "feed_url": "https://www.aitimes.com/rss/allArticle.xml",
+          "image_url": "",
+          "source_type": "tech",
+          "source_weight": 1.15,
+          "source_badge": "테크",
+          "deduped_sources": [
+            {
+              "source": "AI타임스",
+              "title": "미국, 중국의 해외 GPU 우회 이용 차단…새 수출 규제 발표",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217467"
+            },
+            {
+              "source": "AI타임스",
+              "title": "알리바바 '큐원4 맥스' 정식 출시…성능 높이고 작업 비용 67% 절감",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217466"
+            },
+            {
+              "source": "AI타임스",
+              "title": "미국, 엔비디아·오픈AI 등 AI 기업 20여곳 '국가 대표기업' 지정 추진",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217465"
+            },
+            {
+              "source": "AI타임스",
+              "title": "영상 생성 AI, 1년 만에 판도 역전…중국 모델이 상위권 장악",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217463"
+            },
+            {
+              "source": "AI타임스",
+              "title": "앤트그룹, 로봇에 '촉각' 더하는 AI 공개…물체 잡는 힘까지 판단",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217455"
+            },
+            {
+              "source": "AI타임스",
+              "title": "수주잔고 100배 폭증… 국내 AI 인프라 업계, 3분기 실적 '약진'",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217462"
+            },
+            {
+              "source": "AI타임스",
+              "title": "엔비디아 '그루트 2', 로봇 동작 넘어 미래 예측…시연 5회로 성공률 95%",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217447"
+            },
+            {
+              "source": "AI타임스",
+              "title": "같은 전남인데 저수율 52.5%p 차이…구례 33.5% 최저·여순광 86% 최고",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217445"
+            },
+            {
+              "source": "AI타임스",
+              "title": "전력난·주민 반발에 AI 데이터센터 바다로…파력 발전까지 추진",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217459"
+            },
+            {
+              "source": "AI타임스",
+              "title": "젠슨 황이 키운 동남아 AI 컴퓨팅 사업…미국 규제 강화에 위기",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217446"
+            },
+            {
+              "source": "AI타임스",
+              "title": "전남광주, 호남·전라선 고속열차 우선 배정 건의...\"이용객 9.2% 증가에 따른 좌석난 해소\"",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217432"
+            },
+            {
+              "source": "AI타임스",
+              "title": "중국 에이스, AI 보컬 음악 생성 세계 1위…수노 제쳤다",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217452"
+            },
+            {
+              "source": "AI타임스",
+              "title": "전남광주 유통·학교급식 수산물 830건 방사능 검사…전부 '이상 없음'",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217464"
+            },
+            {
+              "source": "AI타임스",
+              "title": "배우 없이 만든 중국 첫 AI 영화, 흥행 참패…3주간 3.6억원",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217460"
+            },
+            {
+              "source": "AI타임스",
+              "title": "AI 가수 '자니아 모네', 첫 AI 음악상 4관왕…'AI판 그래미' 시동",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217461"
+            },
+            {
+              "source": "AI타임스",
+              "title": "KAIST, 입모양 읽는 AI로  시각적 음성인식 향상 기술 개발",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217443"
+            },
+            {
+              "source": "AI타임스",
+              "title": "\"챗GPT에 SNS 데이터 연동\"...뉴엔AI, 소셜 분석 MCP 출시",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217458"
+            },
+            {
+              "source": "AI타임스",
+              "title": "네이버 카페에 AI 에이전트 도입...3개 카페서 베타 테스트 진행",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217453"
+            },
+            {
+              "source": "AI타임스",
+              "title": "노타, 두베에 금융권 특화 AI 코딩 에이전트 기술 제공",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217457"
+            },
+            {
+              "source": "AI타임스",
+              "title": "백악관 \"AI 보안 사고 자진 신고하면 처벌 완화\"",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217450"
+            },
+            {
+              "source": "AI타임스",
+              "title": "인텔, 주가 29% 폭락에 주주 집단소송…실적 악화 은폐 의혹",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217441"
+            },
+            {
+              "source": "AI타임스",
+              "title": "웹케시, 하나은행 '통합CMS AI 분석 시범사업' 수행",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217444"
+            },
+            {
+              "source": "AI타임스",
+              "title": "트럼프, 시진핑 회담서 젠슨 황 의혹 거론 안 할 듯…희토류 협상 집중",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217449"
+            },
+            {
+              "source": "AI타임스",
+              "title": "애플, AI 안경 차별화 전략은 '시리 앱 제어'…기존 아이폰 앱 활용",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217438"
+            },
+            {
+              "source": "AI타임스",
+              "title": "LGU+, 클라우드 기반 보안 플랫폼 'U+SASE' 출시",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217439"
+            },
+            {
+              "source": "AI타임스",
+              "title": "미국·한국 등 9개국, 중국 견제 AI 공급망 보호 공동 선언",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217435"
+            },
+            {
+              "source": "AI타임스",
+              "title": "포티넷코리아, 김종덕 신임 지사장 선임...20년만에 친정 복귀",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217440"
+            },
+            {
+              "source": "AI타임스",
+              "title": "SKT, 효성중공업과 AI 데이터센터 전력 인프라 맞손",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217437"
+            },
+            {
+              "source": "AI타임스",
+              "title": "메가스피드 \"앨리스 황 지난해 퇴사\"…중국 AI 칩 우회 공급 의혹도 부인",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217436"
+            },
+            {
+              "source": "AI타임스",
+              "title": "태양광 혜택 사라지자… 네덜란드 가정용 배터리 설치 '폭증'",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217300"
+            },
+            {
+              "source": "AI타임스",
+              "title": "중국, 30시간 체공 태양광 무인기 시험비행…한국 기록은 170시간",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217430"
+            },
+            {
+              "source": "AI타임스",
+              "title": "사우디, 1.9GW 규모 태양광발전 사업 사전자격심사 착수",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217431"
+            },
+            {
+              "source": "AI타임스",
+              "title": "[AI리더의 서가] AI 에이전트와 스프링 배치를 활용한 배치 엔지니어링",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217277"
+            },
+            {
+              "source": "AI타임스",
+              "title": "젠슨 황, 엔비디아 CEO 복귀 논의…측근들 백악관 설득 추진",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217428"
+            },
+            {
+              "source": "AI타임스",
+              "title": "[기고] 채점이 편한 시험은 AI에도 편하다",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217423"
+            },
+            {
+              "source": "AI타임스",
+              "title": "세무사 시험 수석 합격자 \"생성 AI로 부정행위\" 자백",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217426"
+            },
+            {
+              "source": "AI타임스",
+              "title": "더플레이토 \"AI 회의록 넘어 지식 관리로\"…ARR 300만달러 달성",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217347"
+            },
+            {
+              "source": "AI타임스",
+              "title": "KT, 인천 남동산단에 AI기반 산업안전 솔루션 공급",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217424"
+            }
+          ],
+          "priority_score": 6,
+          "sector": "통신/IT",
+          "related_full_sources": []
+        },
+        {
+          "title": "선거 참패 뒤 첫 해외순방 트럼프, 성과는 산 너머 산",
+          "link": "https://www.donga.com/news/Inter/article/all/20261116/135035663/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-17 04:30:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/16/135033757.4.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령이 16일 아시아 순방에 나서면서 중간선거 참패로 흔들린 국정 주도권을 되찾기 위한 ‘외교 승부수’를 던졌다. 트럼프 대통령은 이번 순방에서 시진핑(習近平) 중국 국가주석, 블라디미르 푸틴 러시아 대통령과 사상 첫 미-중-러 3자 정상회담을 갖는다. AP통신은 15일 트럼프 대통령이 국내 정치적 어려움을 외교 성과로 만회하며 국면 전환을 시도하고 있다고 분석했다. 커트 캠벨 전 국무부 부장관은 AP통신에 “트럼프 대통령도 다른 대통령들처럼 국내 상황이 정말 어려울 때는 비행기를 타고 해외로 나가야 한다는 사실을 깨달은 것 같다”고 전했다. 하지만 내년 1월 출범하는 미 의회를 민주당이 상하원 모두 장악해 무역과 외교 정책에 대한 의회 견제가 강화될 것으로 전망되는 데다, 젠슨 황 전 엔비디아 최고경영자(CEO)의 중국 스파이 연루 의혹으로 대중 강경론까지 확산하고 있다. 이에 순방의 실질적 성과는 제한적일 수 있으며, 합의를 도출하더라도 향후 의회 검증과",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "image_url": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/16/135033757.4.jpg",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "트럼프 “젠슨 황 복귀 반대 안해…큰 교훈 얻었을 것”",
+          "link": "https://www.donga.com/news/Inter/article/all/20261117/135036220/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-17 01:37:51",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/17/135036221.1.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령은 16일(현지시간) 젠슨 황 전(前) 엔비디아 최고경영자(CEO)의 복귀에 반대하지 않겠다는 입장을 내놨다. 황 전 CEO는 중국 스파이로 의심되는 앨리스 황(중국명 황러·黃樂) 등 최소 3건의 혼외 관계가 보도된 이후 사임했다. 다만 일론 머스크 테슬라 CEO 등 실리콘밸리에서는 황 전 CEO 복귀를 지지하는 움직임이 관측되고 있다. 황 전 CEO 복귀를 지지하는 온라인 청원에는 18만명 이상이 서명했다.NBC뉴스 등에 따르면 트럼프 대통령은 이날 백악관에서 기자들과 만나 황 전 CEO복귀 관련 질문에 “나는 반대하지 않는다(I would not mind that)”고 밝혔다. 그는 “황 전 CEO가 큰 교훈을 얻었다고 생각한다”고도 했다.트럼프 대통령은 ‘황 전 CEO가 중국 스파이와 혼외관계를 맺었다는 미국 정보당국의 판단을 신뢰하느냐’는 질문에 “글쎄, 나는 그 여성이 중국 스파이인지 알지 못한다”고 답했다. 트럼프 대통령은 황 전 CEO가",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "image_url": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/17/135036221.1.jpg",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "[속보]트럼프 “중국에서 김정은 만날 수도 있어”",
+          "link": "https://www.donga.com/news/Inter/article/all/20261116/135035978/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-16 23:49:43",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/15/135028567.1.jpg\" vspace=\"10\" />트럼프 “중국에서 김정은 만날 수도 있어”",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "image_url": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/15/135028567.1.jpg",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 5,
+      "role": "미국 대통령"
+    },
+    "김정은": {
+      "articles": [
+        {
+          "title": "트럼프 “중국서 김정은 만날 수도 있다”",
+          "link": "https://www.chosun.com/politics/politics_general/2026/11/17/2OQRYZ3A5NGT7GHBULTSVZPQR4/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-11-17 00:53:00",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "image_url": "",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "루비오 “北 김정은 정권 생존에만 관심… 팽창주의자 아니다”",
+          "link": "https://www.chosun.com/politics/diplomacy-defense/2026/11/17/NZDFHL5KXJFWLPUVWXP4EHTKIM/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-11-17 00:48:00",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "image_url": "",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "‘북핵은 생존용’ 힘실은 루비오 “김정은, 정권 유지 원할 뿐”",
+          "link": "https://www.donga.com/news/Inter/article/all/20261117/135035804/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-17 04:30:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/09/24/134731656.1.jpg\" vspace=\"10\" />마코 루비오 미국 국무장관이 김정은 북한 국무위원장을 두고 “정권을 유지하며 살아남기를 원할 뿐”이라며 “팽창주의자(expansionist)가 아니다”라고 13일(현지 시간) 밝혔다. 북한이 핵 개발에 나선 이유가 ‘침략’이 아닌 ‘체제 생존’이며 중동과 국제 사회에서 세력 확대를 추구하며 핵 개발을 도모해 온 이란과는 다르다는 인식을 드러낸 것이다. 15일 미 국무부에 따르면 루비오 장관은 13일 워싱턴의 보수 법률단체 ‘연방주의자협회’가 개최한 행사에서 이란 전쟁의 목표를 설명하며 북한을 거론했다. 특히 루비오 장관은 김 위원장에 대해 “그는 일본을 정복하는 데 관심이 없다. 자신의 정권에서 살아남기를 원할 뿐(He just wants to survive in his regime)”이라고 말했다. 또 “북한에서 벌어진 끔찍한 일들을 정당화하려는 건 아니지만 그는 팽창주의자가 아니며 일본이나 중국을 침공하려는 것도 아니다”라고 강조했다. 16일부터 시작되는 도널드 트럼프 미국",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "image_url": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/09/24/134731656.1.jpg",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "루비오 “北 김정은 정권 생존에만 관심… 팽창주의자 아니다”",
+          "link": "https://www.chosun.com/politics/diplomacy-defense/2026/11/17/NZDFHL5KXJFWLPUVWXP4EHTKIM/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-11-17 00:48:00",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "image_url": "",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "[속보]트럼프 “중국에서 김정은 만날 수도 있어”",
+          "link": "https://www.donga.com/news/Inter/article/all/20261116/135035978/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-16 23:49:43",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/15/135028567.1.jpg\" vspace=\"10\" />트럼프 “중국에서 김정은 만날 수도 있어”",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "image_url": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/15/135028567.1.jpg",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 5,
+      "role": "북한 국무위원장"
+    },
+    "이재명": {
+      "articles": [
+        {
+          "title": "李대통령, 오늘 한일 정상회담…동북아 안보 메시지 주목",
+          "link": "https://www.yna.co.kr/view/AKR20261116167100001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-11-17 05:00:01",
+          "description": "(서울=연합뉴스) 임형섭 고동욱 기자 = 아세안(ASEAN·동남아시아국가연합) 정상회를 계기로 필리핀 마닐라를 방문 중인 이재명 대통령은 17일...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "image_url": "https://img.yna.co.kr/photo/yna/YH/2026/11/16/PYH2026111617620001300_P2.jpg",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李 “한·아세안 더 긴밀히 연대해야...교역액 3000억불 시대로”",
+          "link": "https://www.chosun.com/politics/politics_general/2026/11/16/I6AO5A53Q5DG5M3UISXWJN3ZFA/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-11-16 17:27:07",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "image_url": "",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, 법무장관·국세청장 후보자 인사청문요청안 재가",
+          "link": "https://www.yna.co.kr/view/AKR20261116145951001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-11-16 16:45:40",
+          "description": "(마닐라=연합뉴스) 임형섭 고동욱 기자 = 필리핀을 방문 중인 이재명 대통령은 16일(현지시간) 이용철 법무부 장관 후보자와 안덕수 국세청장 후...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "image_url": "https://img.yna.co.kr/photo/cms/2026/11/16/04/PCM20261116000104990_P2.jpg",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": [
+            {
+              "source": "연합뉴스-정치",
+              "title": "[속보] 李대통령, 법무장관·국세청장 후보자 청문요청안 재가",
+              "link": "https://www.yna.co.kr/view/AKR20261116145900001"
+            }
+          ]
+        },
+        {
+          "title": "李대통령, 법무장관·국세청장 후보자 인사청문요청안 재가",
+          "link": "https://www.yna.co.kr/view/AKR20261116145951001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-11-16 16:45:40",
+          "description": "(마닐라=연합뉴스) 임형섭 고동욱 기자 = 필리핀을 방문 중인 이재명 대통령은 16일(현지시간) 이용철 법무부 장관 후보자와 안덕수 국세청장 후...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "image_url": "https://img.yna.co.kr/photo/cms/2026/11/16/04/PCM20261116000104990_P2.jpg",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "related_full_sources": []
+        }
+      ],
+      "count": 4,
+      "role": "한국 대통령"
+    },
+    "루비오": {
+      "articles": [
+        {
+          "title": "루비오 “北 김정은 정권 생존에만 관심… 팽창주의자 아니다”",
+          "link": "https://www.chosun.com/politics/diplomacy-defense/2026/11/17/NZDFHL5KXJFWLPUVWXP4EHTKIM/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-11-17 00:48:00",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "image_url": "",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "‘북핵은 생존용’ 힘실은 루비오 “김정은, 정권 유지 원할 뿐”",
+          "link": "https://www.donga.com/news/Inter/article/all/20261117/135035804/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-17 04:30:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/09/24/134731656.1.jpg\" vspace=\"10\" />마코 루비오 미국 국무장관이 김정은 북한 국무위원장을 두고 “정권을 유지하며 살아남기를 원할 뿐”이라며 “팽창주의자(expansionist)가 아니다”라고 13일(현지 시간) 밝혔다. 북한이 핵 개발에 나선 이유가 ‘침략’이 아닌 ‘체제 생존’이며 중동과 국제 사회에서 세력 확대를 추구하며 핵 개발을 도모해 온 이란과는 다르다는 인식을 드러낸 것이다. 15일 미 국무부에 따르면 루비오 장관은 13일 워싱턴의 보수 법률단체 ‘연방주의자협회’가 개최한 행사에서 이란 전쟁의 목표를 설명하며 북한을 거론했다. 특히 루비오 장관은 김 위원장에 대해 “그는 일본을 정복하는 데 관심이 없다. 자신의 정권에서 살아남기를 원할 뿐(He just wants to survive in his regime)”이라고 말했다. 또 “북한에서 벌어진 끔찍한 일들을 정당화하려는 건 아니지만 그는 팽창주의자가 아니며 일본이나 중국을 침공하려는 것도 아니다”라고 강조했다. 16일부터 시작되는 도널드 트럼프 미국",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "image_url": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/09/24/134731656.1.jpg",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "루비오 “北 김정은 정권 생존에만 관심… 팽창주의자 아니다”",
+          "link": "https://www.chosun.com/politics/diplomacy-defense/2026/11/17/NZDFHL5KXJFWLPUVWXP4EHTKIM/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-11-17 00:48:00",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "image_url": "",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "미국 상원의원"
+    }
+  }
+}

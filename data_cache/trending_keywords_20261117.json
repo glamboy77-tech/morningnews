@@ -1,0 +1,555 @@
+{
+  "timestamp": "2026-11-17T06:01:54.870957",
+  "date": "20261117",
+  "data": [
+    {
+      "keyword": "AI 공급망",
+      "reason": "미국과 한국, 일본 등 국가 간 AI 공급망 협정 체결 뉴스",
+      "score": 40.9,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "국제"
+      ],
+      "sample_titles": [
+        "美, 韓-日 등과 中견제 ‘AI 공급망 협정’ 체결",
+        "美, 韓·日 등과 ‘AI 공급망 보호협정’ 체결…中 희토류 통제에 대응",
+        "美, 韓-日 등과 中견제 ‘AI 공급망 협정’ 체결"
+      ],
+      "representative_article": {
+        "title": "美, 韓-日 등과 中견제 ‘AI 공급망 협정’ 체결",
+        "link": "https://www.donga.com/news/Inter/article/all/20261117/135035603/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-11-17 04:30:00",
+        "match_score": 40.9
+      },
+      "related_articles": [
+        {
+          "title": "美, 韓-日 등과 中견제 ‘AI 공급망 협정’ 체결",
+          "link": "https://www.donga.com/news/Inter/article/all/20261117/135035603/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-17 04:30:00",
+          "match_score": 40.9
+        },
+        {
+          "title": "美, 韓·日 등과 ‘AI 공급망 보호협정’ 체결…中 희토류 통제에 대응",
+          "link": "https://www.donga.com/news/Inter/article/all/20261116/135031661/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-16 15:14:00",
+          "match_score": 40.9
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "삼중수소",
+      "reason": "한울원전 해수 내 삼중수소 기준치 초과 관련 보도",
+      "score": 43.08,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "한울원전 해수서 삼중수소 기준치 넘었다…원안위 조사 착수"
+      ],
+      "representative_article": {
+        "title": "한울원전 해수서 삼중수소 기준치 넘었다…원안위 조사 착수",
+        "link": "https://www.yna.co.kr/view/AKR20261116158100017",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-11-16 17:29:23",
+        "match_score": 43.08
+      },
+      "related_articles": [
+        {
+          "title": "한울원전 해수서 삼중수소 기준치 넘었다…원안위 조사 착수",
+          "link": "https://www.yna.co.kr/view/AKR20261116158100017",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-11-16 17:29:23",
+          "match_score": 43.08
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "AI 커닝",
+      "reason": "AI 부정행위 및 시험장 AI안경 사용 문제 다수 보도",
+      "score": 32.17,
+      "article_count": 3,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업",
+        "정치"
+      ],
+      "sample_titles": [
+        "'AI 커닝' 논란속 6월 거래소 채용시험서 스마트안경 착용 적발(종합)",
+        "“성적이 성공 척도 된 韓, AI커닝에 뒤흔들려”",
+        "“성적이 성공 척도 된 韓, AI커닝에 뒤흔들려”"
+      ],
+      "representative_article": {
+        "title": "'AI 커닝' 논란속 6월 거래소 채용시험서 스마트안경 착용 적발(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261116143751008",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-11-16 17:33:21",
+        "match_score": 32.17
+      },
+      "related_articles": [
+        {
+          "title": "'AI 커닝' 논란속 6월 거래소 채용시험서 스마트안경 착용 적발(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261116143751008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-16 17:33:21",
+          "match_score": 32.17
+        },
+        {
+          "title": "외신도 주목한 韓 AI 커닝…“시험 한번에 신분 상승하기 때문”",
+          "link": "https://www.donga.com/news/Inter/article/all/20261116/135032653/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-16 16:36:00",
+          "match_score": 28.6
+        },
+        {
+          "title": "“성적이 성공 척도 된 韓, AI커닝에 뒤흔들려”",
+          "link": "https://www.donga.com/news/Inter/article/all/20261117/135035818/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-17 04:30:00",
+          "match_score": 16.9
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "3분기",
+      "score": 117.8,
+      "article_count": 19,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "교보생명, 3분기 누적 순이익 7천82억원…작년 대비 19.9%↓",
+        "상상인증권, 3분기 순이익 37억원…전기 대비 42%↑",
+        "교보생명, 3분기 누적 순이익 7천82억원…작년 대비 19.9%↓"
+      ],
+      "llm_candidate": false,
+      "rank": 4,
+      "representative_article": {
+        "title": "교보생명, 3분기 누적 순이익 7천82억원…작년 대비 19.9%↓",
+        "link": "https://www.yna.co.kr/view/AKR20261116164900002",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-11-16 18:14:45",
+        "match_score": 37.83
+      },
+      "related_articles": [
+        {
+          "title": "교보생명, 3분기 누적 순이익 7천82억원…작년 대비 19.9%↓",
+          "link": "https://www.yna.co.kr/view/AKR20261116164900002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-16 18:14:45",
+          "match_score": 37.83
+        },
+        {
+          "title": "상상인증권, 3분기 순이익 37억원…전기 대비 42%↑",
+          "link": "https://www.yna.co.kr/view/AKR20261116166100008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-16 18:11:20",
+          "match_score": 37.83
+        },
+        {
+          "title": "롯데카드, 3분기 누적 영업이익 1천401억원…전년比 1.0%↑",
+          "link": "https://www.yna.co.kr/view/AKR20261116160300002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-16 17:42:29",
+          "match_score": 37.83
+        },
+        {
+          "title": "롯데손보, 3분기 순손실 937억원…금리·환율변동에 투자손실",
+          "link": "https://www.yna.co.kr/view/AKR20261116161400002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-16 17:41:15",
+          "match_score": 37.83
+        },
+        {
+          "title": "휴온스글로벌, 3분기 영업이익 94억원…54% 감소",
+          "link": "https://www.yna.co.kr/view/AKR20261116161500017",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-16 17:39:01",
+          "match_score": 37.83
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "부동산",
+      "score": 88.1,
+      "article_count": 15,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "부동산",
+        "정치"
+      ],
+      "sample_titles": [
+        "송파구 거여4단지 49.8㎡ 13억 5천만원 거래… 최근 3년 신고가 [MAI부동산]",
+        "'국민 재건축' 은마의 추락, 400여건 매물 폭탄…집주인들 파는 이유",
+        "내집 마련 모두 힘들다? 난 52배 더 힘듭니다…집값 치솟자 벌어진 일"
+      ],
+      "llm_candidate": false,
+      "rank": 5,
+      "representative_article": {
+        "title": "송파구 거여4단지 49.8㎡ 13억 5천만원 거래… 최근 3년 신고가 [MAI부동산]",
+        "link": "https://www.mk.co.kr/news/realestate/12209631",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-11-16 09:17:15",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "송파구 거여4단지 49.8㎡ 13억 5천만원 거래… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12209631",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-16 09:17:15",
+          "match_score": 37.49
+        },
+        {
+          "title": "\"상업용 부동산 본격 공략\" 이도, 美애비슨영과 맞손",
+          "link": "https://www.mk.co.kr/news/realestate/12210115",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-16 17:18:28",
+          "match_score": 37.49
+        },
+        {
+          "title": "은평구 북한산힐스테이트1차아파트 84.734㎡ 10억 6천만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12209632",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-16 09:17:15",
+          "match_score": 37.49
+        },
+        {
+          "title": "압구정동 현대8차 71억5천만원·현대5차 54억원·현대14차 52억6천만원… 강남구 아파트 고가 거래 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12209622",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-16 09:17:14",
+          "match_score": 37.49
+        },
+        {
+          "title": "성동구 옥수동 현대 84.9㎡ 22억원 거래… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12209623",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-16 09:17:14",
+          "match_score": 37.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "MAI",
+      "score": 70.9,
+      "article_count": 11,
+      "source_count": 1,
+      "categories": [
+        "부동산",
+        "정치"
+      ],
+      "sample_titles": [
+        "송파구 거여4단지 49.8㎡ 13억 5천만원 거래… 최근 3년 신고가 [MAI부동산]",
+        "송파구 거여4단지 49.8㎡ 13억 5천만원 거래… 최근 3년 신고가 [MAI부동산]",
+        "은평구 북한산힐스테이트1차아파트 84.734㎡ 10억 6천만원… 최근 3년 신고가 [MAI부동산]"
+      ],
+      "llm_candidate": false,
+      "rank": 6,
+      "representative_article": {
+        "title": "송파구 거여4단지 49.8㎡ 13억 5천만원 거래… 최근 3년 신고가 [MAI부동산]",
+        "link": "https://www.mk.co.kr/news/realestate/12209631",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-11-16 09:17:15",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "송파구 거여4단지 49.8㎡ 13억 5천만원 거래… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12209631",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-16 09:17:15",
+          "match_score": 37.49
+        },
+        {
+          "title": "은평구 북한산힐스테이트1차아파트 84.734㎡ 10억 6천만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12209632",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-16 09:17:15",
+          "match_score": 37.49
+        },
+        {
+          "title": "압구정동 현대8차 71억5천만원·현대5차 54억원·현대14차 52억6천만원… 강남구 아파트 고가 거래 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12209622",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-16 09:17:14",
+          "match_score": 37.49
+        },
+        {
+          "title": "성동구 옥수동 현대 84.9㎡ 22억원 거래… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12209623",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-16 09:17:14",
+          "match_score": 37.49
+        },
+        {
+          "title": "중랑구 면목한신 45.44㎡ 5억 7천만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12209624",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-16 09:17:14",
+          "match_score": 37.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "영업이익",
+      "score": 54.0,
+      "article_count": 10,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "상상인증권, 3분기 순이익 37억원…전기 대비 42%↑",
+        "상상인증권, 3분기 순이익 37억원…전기 대비 42%↑",
+        "롯데카드, 3분기 누적 영업이익 1천401억원…전년比 1.0%↑"
+      ],
+      "llm_candidate": false,
+      "rank": 7,
+      "representative_article": {
+        "title": "롯데카드, 3분기 누적 영업이익 1천401억원…전년比 1.0%↑",
+        "link": "https://www.yna.co.kr/view/AKR20261116160300002",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-11-16 17:42:29",
+        "match_score": 37.83
+      },
+      "related_articles": [
+        {
+          "title": "롯데카드, 3분기 누적 영업이익 1천401억원…전년比 1.0%↑",
+          "link": "https://www.yna.co.kr/view/AKR20261116160300002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-16 17:42:29",
+          "match_score": 37.83
+        },
+        {
+          "title": "휴온스글로벌, 3분기 영업이익 94억원…54% 감소",
+          "link": "https://www.yna.co.kr/view/AKR20261116161500017",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-16 17:39:01",
+          "match_score": 37.83
+        },
+        {
+          "title": "대체거래소 NXT, 3분기 영업이익 268억…전분기 대비 51.8%↓",
+          "link": "https://www.yna.co.kr/view/AKR20261116079700008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-16 17:12:00",
+          "match_score": 37.83
+        },
+        {
+          "title": "대상, 3분기 영업이익 413억원…작년 동기 대비 12.9% 감소",
+          "link": "https://www.yna.co.kr/view/AKR20261116140400030",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-16 16:27:16",
+          "match_score": 37.67
+        },
+        {
+          "title": "티맵모빌리티, 3분기 영업이익 33억원…분기 기준 흑자",
+          "link": "https://www.yna.co.kr/view/AKR20261116160200017",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-11-16 17:34:10",
+          "match_score": 37.67
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "신고가",
+      "score": 57.9,
+      "article_count": 10,
+      "source_count": 1,
+      "categories": [
+        "부동산",
+        "정치"
+      ],
+      "sample_titles": [
+        "송파구 거여4단지 49.8㎡ 13억 5천만원 거래… 최근 3년 신고가 [MAI부동산]",
+        "송파구 거여4단지 49.8㎡ 13억 5천만원 거래… 최근 3년 신고가 [MAI부동산]",
+        "은평구 북한산힐스테이트1차아파트 84.734㎡ 10억 6천만원… 최근 3년 신고가 [MAI부동산]"
+      ],
+      "llm_candidate": false,
+      "rank": 8,
+      "representative_article": {
+        "title": "성동구 옥수동 현대 84.9㎡ 22억원 거래… 최근 3년 신고가 [MAI부동산]",
+        "link": "https://www.mk.co.kr/news/realestate/12209623",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-11-16 09:17:14",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "성동구 옥수동 현대 84.9㎡ 22억원 거래… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12209623",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-16 09:17:14",
+          "match_score": 37.49
+        },
+        {
+          "title": "노원구 두산힐스빌아파트 60㎡ 8억 7천만원 거래… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12209626",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-16 09:17:14",
+          "match_score": 37.49
+        },
+        {
+          "title": "송파구 거여4단지 49.8㎡ 13억 5천만원 거래… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12209631",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-16 09:17:15",
+          "match_score": 28.49
+        },
+        {
+          "title": "은평구 북한산힐스테이트1차아파트 84.734㎡ 10억 6천만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12209632",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-16 09:17:15",
+          "match_score": 28.49
+        },
+        {
+          "title": "중랑구 면목한신 45.44㎡ 5억 7천만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12209624",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-16 09:17:14",
+          "match_score": 28.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "반도체",
+      "score": 46.7,
+      "article_count": 9,
+      "source_count": 5,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "\"반도체 생산성 8.5% 늘 때 他산업 0.4% 줄어\"",
+        "美, 韓-日 등과 中견제 ‘AI 공급망 협정’ 체결",
+        "블룸버그 \"내년 韓성장률 3.6%…반도체 생산 빠르게 늘면 4% 가능\""
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "블룸버그 \"내년 韓성장률 3.6%…반도체 생산 빠르게 늘면 4% 가능\"",
+        "link": "https://www.yna.co.kr/view/AKR20261116154500008",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-11-16 17:19:20",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "블룸버그 \"내년 韓성장률 3.6%…반도체 생산 빠르게 늘면 4% 가능\"",
+          "link": "https://www.yna.co.kr/view/AKR20261116154500008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-16 17:19:20",
+          "match_score": 37.67
+        },
+        {
+          "title": "\"반도체 생산성 8.5% 늘 때 他산업 0.4% 줄어\"",
+          "link": "https://www.mk.co.kr/news/economy/12210177",
+          "source": "매일경제-경제",
+          "published_dt": "2026-11-16 17:35:20",
+          "match_score": 37.66
+        },
+        {
+          "title": "“반도체주에 신물 나는 분, 연말까지 딱 2종목 보세요”",
+          "link": "https://www.chosun.com/economy/money/2026/11/17/MTNATLYYHVFJRPT3KMEPHCZ7II/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-11-17 05:30:00",
+          "match_score": 28.3
+        },
+        {
+          "title": "美, 중국의 AI 반도체 ‘클라우드 우회로’ 차단…해외 서버 빌려 써도 허가받아야",
+          "link": "https://www.chosun.com/economy/tech_it/2026/11/17/EVULZ77YBZDLFMCUFUPGYIB5KY/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-11-17 04:28:32",
+          "match_score": 28.3
+        },
+        {
+          "title": "반도체 공장서 소부장 제품 검증… 양산 속도 낸다",
+          "link": "https://www.chosun.com/economy/tech_it/2026/11/17/PCYOXKBCYNB3TDF74GMZZ4QRFU/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-11-17 00:32:00",
+          "match_score": 28.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "앞두고",
+      "score": 41.8,
+      "article_count": 9,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업",
+        "정치"
+      ],
+      "sample_titles": [
+        "지방선거 앞두고 원주 '무료 숙박' 신경호 전 강원교육감 송치",
+        "“성적이 성공 척도 된 韓, AI커닝에 뒤흔들려”",
+        "당진 LNG 터미널 시운전 돌입…내년 5월 준공 목표"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "지방선거 앞두고 원주 '무료 숙박' 신경호 전 강원교육감 송치",
+        "link": "https://www.yna.co.kr/view/AKR20261116147400062",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-11-16 16:59:57",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "지방선거 앞두고 원주 '무료 숙박' 신경호 전 강원교육감 송치",
+          "link": "https://www.yna.co.kr/view/AKR20261116147400062",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-11-16 16:59:57",
+          "match_score": 37.67
+        },
+        {
+          "title": "★ 품는 IT기업, 국방 AX 앞두고 軍 네트워크 확보 경쟁",
+          "link": "https://www.etnews.com/20261116000320",
+          "source": "전자신문",
+          "published_dt": "2026-11-16 15:00:00",
+          "match_score": 28.49
+        },
+        {
+          "title": "시진핑, APEC 앞두고 광둥 시찰…경제통합·기술 자립 강조",
+          "link": "https://www.donga.com/news/Inter/article/all/20261116/135035840/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-16 22:42:04",
+          "match_score": 28.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
