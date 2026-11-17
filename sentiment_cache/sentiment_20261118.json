@@ -1,0 +1,75 @@
+{
+  "section_summaries": {
+    "정치": "이재명 대통령이 수능 부정행위를 중대범죄로 규정하며 수능 신뢰 유지에 강한 의지를 보였습니다.",
+    "경제/거시": "IMF가 한국 성장률을 3.3%에서 3.9%로 상향 조정했습니다.",
+    "기업/산업": "차세대 전력반도체 기업 NFS가 부산에 100억원을 투자해 공장 준공을 마쳤습니다.",
+    "부동산": "은마아파트가 신축을 제외하고 서울에서 가장 많은 거래 건수를 기록했습니다.",
+    "국제": "미국 최대은행 JP모건 체이스가 전산장애로 금융망과 ATM 운영에 차질을 빚었습니다."
+  },
+  "hojae": [
+    "NFS: 대규모 투자",
+    "포스코인터: 1조 희토류 투자"
+  ],
+  "akjae": [
+    "로보티즈: 영업익 적자전환",
+    "JP모건체이스: 전산망 장애"
+  ],
+  "trending_keywords": [
+    {
+      "keyword": "성장률",
+      "reason": "IMF 성장률 상향 조정",
+      "categories": [
+        "경제/거시"
+      ]
+    },
+    {
+      "keyword": "전력반도체",
+      "reason": "NFS 부산 공장 준공",
+      "categories": [
+        "기업/산업"
+      ]
+    },
+    {
+      "keyword": "부정행위",
+      "reason": "수능 부정행위 중대범죄 규정",
+      "categories": [
+        "정치"
+      ]
+    },
+    {
+      "keyword": "전산장애",
+      "reason": "JP모건 금융망 장애",
+      "categories": [
+        "국제"
+      ]
+    },
+    {
+      "keyword": "재건축",
+      "reason": "서울 주요 재건축 사업 관련 이슈",
+      "categories": [
+        "부동산"
+      ]
+    },
+    {
+      "keyword": "AI부정행위",
+      "reason": "AI 부정행위 경찰 조사 및 교육계 반응",
+      "categories": [
+        "기업/산업",
+        "정치"
+      ]
+    },
+    {
+      "keyword": "희토류",
+      "reason": "포스코인터 1조 원 투자",
+      "categories": [
+        "기업/산업"
+      ]
+    }
+  ],
+  "analysis_mode": "accumulation",
+  "is_holiday_next_day": false,
+  "meta": {
+    "generated_by": "gemini",
+    "generated_at": "2026-11-18T06:17:58.174877"
+  }
+}
