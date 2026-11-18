@@ -1,0 +1,490 @@
+{
+  "timestamp": "2026-11-19T06:01:55.207900",
+  "date": "20261119",
+  "data": [
+    {
+      "keyword": "한중관계",
+      "reason": "최혜국대우 합의와 전략적 협력 논의",
+      "score": 40.98,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "李대통령, 中 'K콘텐츠 최혜국대우'에 \"새로운 한중관계 토대\""
+      ],
+      "representative_article": {
+        "title": "李대통령, 中 'K콘텐츠 최혜국대우'에 \"새로운 한중관계 토대\"",
+        "link": "https://www.yna.co.kr/view/AKR20261118177100001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-11-18 19:11:12",
+        "match_score": 40.98
+      },
+      "related_articles": [
+        {
+          "title": "李대통령, 中 'K콘텐츠 최혜국대우'에 \"새로운 한중관계 토대\"",
+          "link": "https://www.yna.co.kr/view/AKR20261118177100001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-11-18 19:11:12",
+          "match_score": 40.98
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재건축부담금",
+      "reason": "재건축 관련 법률과 조합 반발 소식 지속",
+      "score": 41.31,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "부동산"
+      ],
+      "sample_titles": [
+        "재건축부담금 대구도 내나? 조합 '반발' - Tbc.co.kr",
+        "법무법인 율촌, 재건축부담금 대응 TF 운영… 재초환 소송 대비 나서 - Chosunbiz",
+        "재건축부담금 대구도 내나? 조합 '반발' - Tbc.co.kr"
+      ],
+      "representative_article": {
+        "title": "재건축부담금 대구도 내나? 조합 '반발' - Tbc.co.kr",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1aZlRDaFdNNFpyTHQyYlVKSERjWXJlenV5RFRYYnJHeUpjOGdtNFNfREczNUFDWmxoOTlqZUFkNmFYOEdvSkpqb25NUDhFZUNOeTU5c2VvZ2JuV0w3bGg5N3BYUG5hOXJtUjd5cXRZbC04T2tPelE?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-11-18 20:49:53",
+        "match_score": 41.31
+      },
+      "related_articles": [
+        {
+          "title": "재건축부담금 대구도 내나? 조합 '반발' - Tbc.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1aZlRDaFdNNFpyTHQyYlVKSERjWXJlenV5RFRYYnJHeUpjOGdtNFNfREczNUFDWmxoOTlqZUFkNmFYOEdvSkpqb25NUDhFZUNOeTU5c2VvZ2JuV0w3bGg5N3BYUG5hOXJtUjd5cXRZbC04T2tPelE?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-11-18 20:49:53",
+          "match_score": 41.31
+        },
+        {
+          "title": "법무법인 율촌, 재건축부담금 대응 TF 운영… 재초환 소송 대비 나서 - Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQcVBfTFlVbnV6YVdfVURtX2JvU3Jfb3VUTDJxTl9pTjVJckhISWtxSkFFYU16c25KeHZEbHRtMV9mbWRFU21kZUptd1A4N2Q4SDVOaXJUZkFpZmE2UW8wTncxMlNFNFlKSUdmWXgzczJkSXVQdEtQbU91eHFmY2xwUUd3WdIBlwFBVV95cUxNUVRDU21jRUtmQ3NqdjR1eEJVdHdhUkpXcHdkWm5wYy1ram1TODh6WUJLVFIxaVZfNEh6QkQzbi1oQ3RjMUo4N05qbzk1ZThpdmFiWmdxN3BKV0x6a1pXTXB1SGtnTEYxR212dm5uRkZCRzFjTnVyZm85VkZHSW1RaDVzSl9XOTZqT3BoOEg4b25JY3BleS1B?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-11-18 17:35:19",
+          "match_score": 38.91
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "반도체",
+      "score": 63.4,
+      "article_count": 11,
+      "source_count": 6,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "반도체 주택 수요 대비...재개발·재건축 20곳 점검 - KBC광주방송",
+        "씨티, 내년 성장률 전망치 4.1%로 상향…\"반도체 호황 지속\"",
+        "\"반도체 호조 지속땐 내년 4%대 성장도 가능\""
+      ],
+      "llm_candidate": false,
+      "rank": 3,
+      "representative_article": {
+        "title": "반도체 주택 수요 대비...재개발·재건축 20곳 점검 - KBC광주방송",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9jZUNnX1FKNVZ2SnRzeXFIZkphMUJ6Rk50VHNMUVg2MmJOSmhpQlBEZVMwb0JIMW9FdjhVcm9kcWgtcW5NcE1sZjd0Z3J5OVhsRHlReHh1NS1OMEVJYlB4T0pn?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-11-18 21:16:38",
+        "match_score": 38.01
+      },
+      "related_articles": [
+        {
+          "title": "반도체 주택 수요 대비...재개발·재건축 20곳 점검 - KBC광주방송",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9jZUNnX1FKNVZ2SnRzeXFIZkphMUJ6Rk50VHNMUVg2MmJOSmhpQlBEZVMwb0JIMW9FdjhVcm9kcWgtcW5NcE1sZjd0Z3J5OVhsRHlReHh1NS1OMEVJYlB4T0pn?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-11-18 21:16:38",
+          "match_score": 38.01
+        },
+        {
+          "title": "\"반도체 호조 지속땐 내년 4%대 성장도 가능\"",
+          "link": "https://www.mk.co.kr/news/economy/12212768",
+          "source": "매일경제-경제",
+          "published_dt": "2026-11-18 17:37:40",
+          "match_score": 37.66
+        },
+        {
+          "title": "반도체 호황에 충북 광공업생산 30%↑…전국 소매판매는 뒷걸음",
+          "link": "https://www.mk.co.kr/news/economy/12212415",
+          "source": "매일경제-경제",
+          "published_dt": "2026-11-18 15:06:17",
+          "match_score": 37.66
+        },
+        {
+          "title": "800조 반도체가 바꿀 대한민국 지도…'첨단산업 새 심장'이 뛴다 - 한국경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5odjZtWGZ5d3NvWG1vbVFyejVDSV9qZDl5cHdsdFZYQUkxOTVaRzM4MlJ3ektJOS0yS3BfVGVpS0J2aldLUTF6ampRaDAxZnRrZ19ndi1tcXhQQQ?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-11-18 16:10:25",
+          "match_score": 36.96
+        },
+        {
+          "title": "전남광주통합특별시의회, SK하이닉스 이천캠퍼스 방문…호남 반도체 클러스터 조성 ‘속도’ - 더파워",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9KbkgtTlN3dS0wZzFFS2lnb040di1rZ18tNWt0VmY3TDV5cjlNTU1vTE5UNVB3OURRMG1kUGpZSXVaU25vN1FvcUpfV05LdS13djJBaWs0MW5GQ0ozUWF2OVZnYXlzdWxVSnJldlAyUTc4NkJZVG9vSldZSW5LQQ?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-11-18 21:02:52",
+          "match_score": 36.96
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "엔비디아",
+      "score": 57.7,
+      "article_count": 10,
+      "source_count": 5,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "엔비디아 매출 103% 뛰어… 이사회 “젠슨 황 복귀 없다”",
+        "엔비디아 호실적 훈풍에...코스피, 5천 선 탈환 - YTN",
+        "엔비디아 호실적에 젠슨황 충격 완화?…'집나간 투심' 돌아올까"
+      ],
+      "llm_candidate": false,
+      "rank": 4,
+      "representative_article": {
+        "title": "엔비디아 호실적에 젠슨황 충격 완화?…'집나간 투심' 돌아올까",
+        "link": "https://www.yna.co.kr/view/AKR20261118098100008",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-11-18 15:55:04",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "엔비디아 호실적에 젠슨황 충격 완화?…'집나간 투심' 돌아올까",
+          "link": "https://www.yna.co.kr/view/AKR20261118098100008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-18 15:55:04",
+          "match_score": 37.67
+        },
+        {
+          "title": "젠슨 황 “부름 있다면 복귀” vs 엔비디아 이사회 “불가”…호실적에도 '포스트 황' 리스크",
+          "link": "https://www.etnews.com/20261118000303",
+          "source": "전자신문",
+          "published_dt": "2026-11-18 14:25:49",
+          "match_score": 37.49
+        },
+        {
+          "title": "앨리스 황, ‘거물 고객’ 알리바바 확보에는…엔비디아 소개 있었다",
+          "link": "https://www.donga.com/news/Inter/article/all/20261118/135048203/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-18 17:34:00",
+          "match_score": 37.3
+        },
+        {
+          "title": "엔비디아 이사회 ‘젠슨 황 복귀’ 일축…“헤드헌팅 업체가 후임 물색중”",
+          "link": "https://www.donga.com/news/Inter/article/all/20261118/135047120/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-18 15:48:00",
+          "match_score": 37.3
+        },
+        {
+          "title": "엔비디아 호실적 훈풍에...코스피, 5천 선 탈환 - YTN",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9pTzN4TnBqVm1WOUJQNmVMRUtHajNNdVBnMmJrN2RKbjNkYmNZMzRlS3FEN3BzTGdoci01YTdTTG41ZDU2WWVXVkdSSDN6cEh6OVRRU2Z1SWFPX2M0WkJ1b25mU1RjbEhGVXJnSEttbw?oc=5",
+          "source": "키워드-금리환율코스피",
+          "published_dt": "2026-11-18 18:40:00",
+          "match_score": 36.96
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "APEC",
+      "score": 38.9,
+      "article_count": 10,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "李대통령 \"지정학적 위기…핵심광물·에너지수급 함께 노력해야\"",
+        "中 SNS서 돌연 사라진 ‘북한’…“김정은 방중, 무언가 진행되고 있다”",
+        "日언론 “韓 대통령은 中서 환대…우리 총리는 노골적 냉대”"
+      ],
+      "llm_candidate": false,
+      "rank": 5,
+      "representative_article": {
+        "title": "APEC 참가 정상들 전세·전용기…멕시코 대통령은 '이코노미' - 연합뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1jQTY1ZTFUcU1yWVl5MkdTWVNuLUV6czcxVnZWZ1lCaUVyTWRRejdKaGw5aFN2TnVQX2VtMFc2R3JfLV9TeW0zRElSYXl5X1A2bFItazE3ODNhSGRqMnNIZ9IBYEFVX3lxTE1jQTY1ZTFUcU1yWVl5MkdTWVNuLUV6czcxVnZWZ1lCaUVyTWRRejdKaGw5aFN2TnVQX2VtMFc2R3JfLV9TeW0zRElSYXl5X1A2bFItazE3ODNhSGRqMnNIZw?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-11-19 02:09:44",
+        "match_score": 36.96
+      },
+      "related_articles": [
+        {
+          "title": "APEC 참가 정상들 전세·전용기…멕시코 대통령은 '이코노미' - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1jQTY1ZTFUcU1yWVl5MkdTWVNuLUV6czcxVnZWZ1lCaUVyTWRRejdKaGw5aFN2TnVQX2VtMFc2R3JfLV9TeW0zRElSYXl5X1A2bFItazE3ODNhSGRqMnNIZ9IBYEFVX3lxTE1jQTY1ZTFUcU1yWVl5MkdTWVNuLUV6czcxVnZWZ1lCaUVyTWRRejdKaGw5aFN2TnVQX2VtMFc2R3JfLV9TeW0zRElSYXl5X1A2bFItazE3ODNhSGRqMnNIZw?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-11-19 02:09:44",
+          "match_score": 36.96
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "새로운",
+      "score": 49.1,
+      "article_count": 9,
+      "source_count": 7,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업",
+        "부동산",
+        "정치",
+        "테크"
+      ],
+      "sample_titles": [
+        "李대통령, 中 'K콘텐츠 최혜국대우'에 \"새로운 한중관계 토대\"",
+        "李 “中, 최혜국 대우 합의”…사드 10년만에 ‘한한령’ 풀릴까",
+        "경제계 \"한중 FTA 서비스·투자협상 타결 환영…새로운 기회\"(종합)"
+      ],
+      "llm_candidate": false,
+      "rank": 6,
+      "representative_article": {
+        "title": "오젬픽, 체중감량 뒤에 숨겨진 새로운 위험들 - 사이언스타임즈",
+        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaHJiVnJpc3FDTTNuMG9kLTFfR080cHYxblBZQUN2MG41V0l5OU1Bb2U4TXQ2dWs0MUVlWlh3LWZCVFhVd1J2blVWdkpsS3NRQzBpaFM2SVpQSmlRTHJXUVdPblF6WnVmRzZONG41QWtrNExPc2JLRjFsTVpsWVVScEhXWlV3RjJ3MlphRHdoNA?oc=5",
+        "source": "사이언스타임즈",
+        "published_dt": "2026-01-23 17:00:00",
+        "match_score": 37.34
+      },
+      "related_articles": [
+        {
+          "title": "오젬픽, 체중감량 뒤에 숨겨진 새로운 위험들 - 사이언스타임즈",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaHJiVnJpc3FDTTNuMG9kLTFfR080cHYxblBZQUN2MG41V0l5OU1Bb2U4TXQ2dWs0MUVlWlh3LWZCVFhVd1J2blVWdkpsS3NRQzBpaFM2SVpQSmlRTHJXUVdPblF6WnVmRzZONG41QWtrNExPc2JLRjFsTVpsWVVScEhXWlV3RjJ3MlphRHdoNA?oc=5",
+          "source": "사이언스타임즈",
+          "published_dt": "2026-01-23 17:00:00",
+          "match_score": 37.34
+        },
+        {
+          "title": "李대통령, 中 'K콘텐츠 최혜국대우'에 \"새로운 한중관계 토대\"",
+          "link": "https://www.yna.co.kr/view/AKR20261118177100001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-11-18 19:11:12",
+          "match_score": 28.98
+        },
+        {
+          "title": "경제계 \"한중 FTA 서비스·투자협상 타결 환영…새로운 기회\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261118156551003",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-18 17:14:18",
+          "match_score": 28.82
+        },
+        {
+          "title": "“함께 짓는 미래, 새로운 30년”…건설주택포럼, 정책 세미나 개최",
+          "link": "https://www.mk.co.kr/news/realestate/12212363",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-18 14:08:03",
+          "match_score": 28.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "아파트",
+      "score": 38.6,
+      "article_count": 9,
+      "source_count": 2,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "데이식스 원필, 한강변 아파트 55억에 샀다…강동 이어 용산까지 2채",
+        "\"레고처럼 쌓아 이틀새 아파트 3개층 뚝딱\"",
+        "“정비사업 추진 활발”…성남 집값, 원도심이 견인"
+      ],
+      "llm_candidate": false,
+      "rank": 7,
+      "representative_article": {
+        "title": "데이식스 원필, 한강변 아파트 55억에 샀다…강동 이어 용산까지 2채",
+        "link": "https://www.mk.co.kr/news/realestate/12212775",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-11-18 17:38:15",
+        "match_score": 38.09
+      },
+      "related_articles": [
+        {
+          "title": "데이식스 원필, 한강변 아파트 55억에 샀다…강동 이어 용산까지 2채",
+          "link": "https://www.mk.co.kr/news/realestate/12212775",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-18 17:38:15",
+          "match_score": 38.09
+        },
+        {
+          "title": "성수동 84㎡가 매물호가보다 10억 낮게…서울 아파트 추천 경매",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/11/18/2026111801341.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-11-18 11:09:28",
+          "match_score": 37.49
+        },
+        {
+          "title": "\"레고처럼 쌓아 이틀새 아파트 3개층 뚝딱\"",
+          "link": "https://www.mk.co.kr/news/realestate/12212742",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-18 17:33:42",
+          "match_score": 28.49
+        },
+        {
+          "title": "아파트 한층 하루만에 짓는데 ‘날림’ 아니다?…층간소음·누수 걱정 없다는데 [르포]",
+          "link": "https://www.mk.co.kr/news/realestate/12212179",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-18 10:42:04",
+          "match_score": 28.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "부정행위",
+      "score": 48.0,
+      "article_count": 8,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업",
+        "정치"
+      ],
+      "sample_titles": [
+        "與 '올 수능부터 AI 부정행위시 응시정지 10년' 법안 발의",
+        "李대통령 \"수능 부정행위 철저히 차단…적발된 불법행위 무관용\"",
+        "韓총리 \"수능 공정성 지킬 것…어떤 부정행위도 용납 않겠다\""
+      ],
+      "llm_candidate": false,
+      "rank": 8,
+      "representative_article": {
+        "title": "與 '올 수능부터 AI 부정행위시 응시정지 10년' 법안 발의",
+        "link": "https://www.yna.co.kr/view/AKR20261118177800001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-11-18 19:45:42",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "與 '올 수능부터 AI 부정행위시 응시정지 10년' 법안 발의",
+          "link": "https://www.yna.co.kr/view/AKR20261118177800001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-11-18 19:45:42",
+          "match_score": 37.67
+        },
+        {
+          "title": "韓총리 \"수능 공정성 지킬 것…어떤 부정행위도 용납 않겠다\"",
+          "link": "https://www.yna.co.kr/view/AKR20261118167800001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-11-18 18:05:41",
+          "match_score": 37.67
+        },
+        {
+          "title": "정부, 내일 수능부터 '부정행위 제보시 1억 포상금' 지급 추진(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261118185451001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-11-18 22:02:17",
+          "match_score": 37.67
+        },
+        {
+          "title": "경기남부경찰, 수능 AI 부정행위·폭파 협박 집중 감시",
+          "link": "https://www.yna.co.kr/view/AKR20261118170100061",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-11-18 17:56:16",
+          "match_score": 37.67
+        },
+        {
+          "title": "경찰, AI부정행위 세무사 수석 자택 등 압수수색…범행 구체화(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261118074551004",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-11-18 17:02:10",
+          "match_score": 37.67
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "CEO",
+      "score": 28.9,
+      "article_count": 7,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "엔비디아 호실적에 젠슨황 충격 완화?…'집나간 투심' 돌아올까",
+        "젠슨 황 “부름 있다면 복귀” vs 엔비디아 이사회 “불가”…호실적에도 '포스트 황' 리스크",
+        "MS, AI 에이전트로 기업 혁신 가속…이그나이트서 '프런티어 생태계' 공개"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "젠슨 황 “이사회가 원하면 복귀”… 이사회 의장은 “후임 CEO 물색”",
+        "link": "https://www.donga.com/news/Inter/article/all/20261118/135050575/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-11-19 04:30:00",
+        "match_score": 37.3
+      },
+      "related_articles": [
+        {
+          "title": "젠슨 황 “이사회가 원하면 복귀”… 이사회 의장은 “후임 CEO 물색”",
+          "link": "https://www.donga.com/news/Inter/article/all/20261118/135050575/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-19 04:30:00",
+          "match_score": 37.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "앞두고",
+      "score": 28.1,
+      "article_count": 7,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "경기남부경찰, 수능 AI 부정행위·폭파 협박 집중 감시",
+        "'특구 근로시간 유연제' 관련법 심사 앞두고 평행선 여전",
+        "토큰증권 시장 문 열리는데…“발행 문턱 낮춰야”"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "'특구 근로시간 유연제' 관련법 심사 앞두고 평행선 여전",
+        "link": "https://www.etnews.com/20261118000304",
+        "source": "전자신문",
+        "published_dt": "2026-11-18 14:26:04",
+        "match_score": 28.49
+      },
+      "related_articles": [
+        {
+          "title": "'특구 근로시간 유연제' 관련법 심사 앞두고 평행선 여전",
+          "link": "https://www.etnews.com/20261118000304",
+          "source": "전자신문",
+          "published_dt": "2026-11-18 14:26:04",
+          "match_score": 28.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
