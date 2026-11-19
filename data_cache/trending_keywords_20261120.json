@@ -1,0 +1,479 @@
+{
+  "timestamp": "2026-11-20T06:01:38.837773",
+  "date": "20261120",
+  "data": [
+    {
+      "keyword": "재건축",
+      "reason": "건설사 시공권 경쟁 및 대규모 수주 소식 반복",
+      "score": 40.5,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "1.5조 안양 통합재건축 시공권 어디로…19일 현장설명회에 건설사 6곳 참여",
+        "1.5조 안양 통합재건축 시공권 어디로…19일 현장설명회에 건설사 6곳 참여",
+        "광명 하안주공 재건축사업…한화 건설부문 1조에 수주"
+      ],
+      "representative_article": {
+        "title": "1.5조 안양 통합재건축 시공권 어디로…19일 현장설명회에 건설사 6곳 참여",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/11/19/2026111902339.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-11-19 17:42:27",
+        "match_score": 40.5
+      },
+      "related_articles": [
+        {
+          "title": "1.5조 안양 통합재건축 시공권 어디로…19일 현장설명회에 건설사 6곳 참여",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/11/19/2026111902339.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-11-19 17:42:27",
+          "match_score": 40.5
+        },
+        {
+          "title": "광명 하안주공 재건축사업…한화 건설부문 1조에 수주",
+          "link": "https://www.mk.co.kr/news/realestate/12213786",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-19 17:33:44",
+          "match_score": 38.39
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "나스닥 상장",
+      "reason": "앤트로픽 나스닥 상장 및 기업가치 급등 소식",
+      "score": 46.5,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "앤트로픽, 나스닥 상장 첫날 기업가치 2조달러…스페이스X 추월"
+      ],
+      "representative_article": {
+        "title": "앤트로픽, 나스닥 상장 첫날 기업가치 2조달러…스페이스X 추월",
+        "link": "https://www.aitimes.com/news/articleView.html?idxno=217594",
+        "source": "AI타임스",
+        "published_dt": "2026-11-20 14:25:23",
+        "match_score": 46.5
+      },
+      "related_articles": [
+        {
+          "title": "앤트로픽, 나스닥 상장 첫날 기업가치 2조달러…스페이스X 추월",
+          "link": "https://www.aitimes.com/news/articleView.html?idxno=217594",
+          "source": "AI타임스",
+          "published_dt": "2026-11-20 14:25:23",
+          "match_score": 46.5
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "핵확산",
+      "reason": "미중러 정상회담 핵확산 방지 주제 강조",
+      "score": 43.0,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "미중러 첫 정상회담 “핵확산 방지” 그들만의 평화선언"
+      ],
+      "representative_article": {
+        "title": "미중러 첫 정상회담 “핵확산 방지” 그들만의 평화선언",
+        "link": "https://www.donga.com/news/Inter/article/all/20261120/135057794/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-11-20 04:30:00",
+        "match_score": 43.0
+      },
+      "related_articles": [
+        {
+          "title": "미중러 첫 정상회담 “핵확산 방지” 그들만의 평화선언",
+          "link": "https://www.donga.com/news/Inter/article/all/20261120/135057794/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-20 04:30:00",
+          "match_score": 43.0
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "무상감자",
+      "reason": "롯데손보 재무구조 개선 위한 무상감자 결정",
+      "score": 43.67,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "롯데손보 무상감자 의결…신한 편입 전 재무구조 개선 추진(종합)",
+        "롯데손보, 10대1 무상감자 결정…기본자본 4600억원 개선 추진"
+      ],
+      "representative_article": {
+        "title": "롯데손보 무상감자 의결…신한 편입 전 재무구조 개선 추진(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261119146451002",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-11-19 17:43:18",
+        "match_score": 43.67
+      },
+      "related_articles": [
+        {
+          "title": "롯데손보 무상감자 의결…신한 편입 전 재무구조 개선 추진(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261119146451002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-19 17:43:18",
+          "match_score": 43.67
+        },
+        {
+          "title": "롯데손보, 10대1 무상감자 결정…기본자본 4600억원 개선 추진",
+          "link": "https://www.mk.co.kr/news/economy/12213728",
+          "source": "매일경제-경제",
+          "published_dt": "2026-11-19 17:03:57",
+          "match_score": 41.86
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "부동산",
+      "score": 87.8,
+      "article_count": 17,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "부동산"
+      ],
+      "sample_titles": [
+        "금융권 해외부동산 투자 줄었지만…‘부실 위험’은 2.6조로 증가",
+        "\"일주일 15만원이면 된다\"…혼자 살기 좋은 단기임대 원룸 10곳 어디?",
+        "옛 홈플러스 안산점 자리에 ‘아르뮤제자이’ 출격…귀한 중대형 마련"
+      ],
+      "llm_candidate": false,
+      "rank": 5,
+      "representative_article": {
+        "title": "금융권 해외부동산 투자 줄었지만…‘부실 위험’은 2.6조로 증가",
+        "link": "https://www.mk.co.kr/news/economy/12213534",
+        "source": "매일경제-경제",
+        "published_dt": "2026-11-19 13:51:51",
+        "match_score": 37.66
+      },
+      "related_articles": [
+        {
+          "title": "금융권 해외부동산 투자 줄었지만…‘부실 위험’은 2.6조로 증가",
+          "link": "https://www.mk.co.kr/news/economy/12213534",
+          "source": "매일경제-경제",
+          "published_dt": "2026-11-19 13:51:51",
+          "match_score": 37.66
+        },
+        {
+          "title": "삼삼엠투, 국토부 ‘우수 부동산서비스사업자’ 인증 획득…단기임대 서비스 우수성 인정",
+          "link": "https://www.mk.co.kr/news/realestate/12213325",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-19 10:18:13",
+          "match_score": 37.49
+        },
+        {
+          "title": "동대문구 답십리청솔우성 59.89㎡ 11억 2300만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12213284",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-19 09:19:18",
+          "match_score": 37.49
+        },
+        {
+          "title": "동대문구 전농동 동대문롯데캐슬노블레스 59.98㎡ 15억 8200만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12213285",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-19 09:19:18",
+          "match_score": 37.49
+        },
+        {
+          "title": "중랑구 신내동 동성3 59.4㎡ 7억원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12213286",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-19 09:19:18",
+          "match_score": 37.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "APEC",
+      "score": 61.3,
+      "article_count": 15,
+      "source_count": 3,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "李대통령, 아세안·APEC 마치고 귀국…국내 현안 '산적'",
+        "李대통령, APEC 마치고 귀국길…미중러 연쇄 접촉하며 외교전",
+        "APEC 기간 보란듯 ‘中 반대쪽’ 함경도 찾은 김정은… “트럼프 러브콜에 연연하지 않는 모습 연출”"
+      ],
+      "llm_candidate": false,
+      "rank": 6,
+      "representative_article": {
+        "title": "李대통령, 아세안·APEC 마치고 귀국…국내 현안 '산적'",
+        "link": "https://www.yna.co.kr/view/AKR20261119091000001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-11-19 20:31:43",
+        "match_score": 38.67
+      },
+      "related_articles": [
+        {
+          "title": "李대통령, 아세안·APEC 마치고 귀국…국내 현안 '산적'",
+          "link": "https://www.yna.co.kr/view/AKR20261119091000001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-11-19 20:31:43",
+          "match_score": 38.67
+        },
+        {
+          "title": "李대통령, APEC 마치고 귀국길…미중러 연쇄 접촉하며 외교전",
+          "link": "https://www.yna.co.kr/view/AKR20261119086800001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-11-19 17:25:00",
+          "match_score": 38.67
+        },
+        {
+          "title": "이코노미석 21시간 타고 APEC 간 멕시코 대통령",
+          "link": "https://www.donga.com/news/Inter/article/all/20261119/135057364/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-20 04:30:00",
+          "match_score": 37.3
+        },
+        {
+          "title": "멕시코 대통령, ‘이코노미’ 타고 21시간 비행해 APEC 참석",
+          "link": "https://www.donga.com/news/Inter/article/all/20261119/135054845/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-19 16:30:00",
+          "match_score": 37.3
+        },
+        {
+          "title": "APEC 기간 보란듯  ‘中 반대쪽’ 함경도 찾은 김정은… “트럼프 러브콜에 연연하지 않는 모습 연출”",
+          "link": "https://www.chosun.com/politics/north_korea/2026/11/19/OMDLA3RDSNBFZGQJS7DLKW6ROM/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-11-19 10:28:45",
+          "match_score": 28.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "시스템",
+      "score": 45.7,
+      "article_count": 13,
+      "source_count": 3,
+      "categories": [
+        "국제",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "AP시스템 \"계열사 넥스틴 주식 173억원에 추가취득\"",
+        "동대문구 답십리청솔우성 59.89㎡ 11억 2300만원… 최근 3년 신고가 [MAI부동산]",
+        "동대문구 전농동 동대문롯데캐슬노블레스 59.98㎡ 15억 8200만원… 최근 3년 신고가 [MAI부동산]"
+      ],
+      "llm_candidate": false,
+      "rank": 7,
+      "representative_article": {
+        "title": "AP시스템 \"계열사 넥스틴 주식 173억원에 추가취득\"",
+        "link": "https://www.yna.co.kr/view/AKR20261119154000008",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-11-19 17:21:25",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "AP시스템 \"계열사 넥스틴 주식 173억원에 추가취득\"",
+          "link": "https://www.yna.co.kr/view/AKR20261119154000008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-19 17:21:25",
+          "match_score": 37.67
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "국토부",
+      "score": 45.0,
+      "article_count": 13,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "부동산"
+      ],
+      "sample_titles": [
+        "오세훈 \"도심 공공주택 복합사업, 국토부 소관 단계서 지연돼\"",
+        "삼삼엠투, 국토부 ‘우수 부동산서비스사업자’ 인증 획득…단기임대 서비스 우수성 인정",
+        "동대문구 답십리청솔우성 59.89㎡ 11억 2300만원… 최근 3년 신고가 [MAI부동산]"
+      ],
+      "llm_candidate": false,
+      "rank": 8,
+      "representative_article": {
+        "title": "오세훈 \"도심 공공주택 복합사업, 국토부 소관 단계서 지연돼\"",
+        "link": "https://www.yna.co.kr/view/AKR20261119147400004",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-11-19 17:04:54",
+        "match_score": 28.68
+      },
+      "related_articles": [
+        {
+          "title": "오세훈 \"도심 공공주택 복합사업, 국토부 소관 단계서 지연돼\"",
+          "link": "https://www.yna.co.kr/view/AKR20261119147400004",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-19 17:04:54",
+          "match_score": 28.68
+        },
+        {
+          "title": "삼삼엠투, 국토부 ‘우수 부동산서비스사업자’ 인증 획득…단기임대 서비스 우수성 인정",
+          "link": "https://www.mk.co.kr/news/realestate/12213325",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-19 10:18:13",
+          "match_score": 28.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "MAI",
+      "score": 65.9,
+      "article_count": 11,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "동대문구 답십리청솔우성 59.89㎡ 11억 2300만원… 최근 3년 신고가 [MAI부동산]",
+        "동대문구 전농동 동대문롯데캐슬노블레스 59.98㎡ 15억 8200만원… 최근 3년 신고가 [MAI부동산]",
+        "중랑구 신내동 동성3 59.4㎡ 7억원… 최근 3년 신고가 [MAI부동산]"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "동대문구 답십리청솔우성 59.89㎡ 11억 2300만원… 최근 3년 신고가 [MAI부동산]",
+        "link": "https://www.mk.co.kr/news/realestate/12213284",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-11-19 09:19:18",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "동대문구 답십리청솔우성 59.89㎡ 11억 2300만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12213284",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-19 09:19:18",
+          "match_score": 37.49
+        },
+        {
+          "title": "동대문구 전농동 동대문롯데캐슬노블레스 59.98㎡ 15억 8200만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12213285",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-19 09:19:18",
+          "match_score": 37.49
+        },
+        {
+          "title": "중랑구 신내동 동성3 59.4㎡ 7억원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12213286",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-19 09:19:18",
+          "match_score": 37.49
+        },
+        {
+          "title": "중랑구 신내동 석탑 84.6㎡ 6억 8500만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12213287",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-19 09:19:18",
+          "match_score": 37.49
+        },
+        {
+          "title": "성북구 정릉e-편한세상 59.77㎡ 8억 2500만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12213283",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-19 09:18:48",
+          "match_score": 37.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "신고가",
+      "score": 60.3,
+      "article_count": 11,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "동대문구 답십리청솔우성 59.89㎡ 11억 2300만원… 최근 3년 신고가 [MAI부동산]",
+        "동대문구 전농동 동대문롯데캐슬노블레스 59.98㎡ 15억 8200만원… 최근 3년 신고가 [MAI부동산]",
+        "중랑구 신내동 동성3 59.4㎡ 7억원… 최근 3년 신고가 [MAI부동산]"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "중랑구 신내동 동성3 59.4㎡ 7억원… 최근 3년 신고가 [MAI부동산]",
+        "link": "https://www.mk.co.kr/news/realestate/12213286",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-11-19 09:19:18",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "중랑구 신내동 동성3 59.4㎡ 7억원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12213286",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-19 09:19:18",
+          "match_score": 37.49
+        },
+        {
+          "title": "중랑구 신내동 석탑 84.6㎡ 6억 8500만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12213287",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-19 09:19:18",
+          "match_score": 37.49
+        },
+        {
+          "title": "성북구 상월곡동 동아에코빌 84.97㎡ 9억 8천만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12213282",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-19 09:18:47",
+          "match_score": 37.49
+        },
+        {
+          "title": "강서구 방화동 장미 39.96㎡ 6억 5천만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12213276",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-19 09:18:37",
+          "match_score": 37.49
+        },
+        {
+          "title": "동대문구 답십리청솔우성 59.89㎡ 11억 2300만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12213284",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-19 09:19:18",
+          "match_score": 28.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
