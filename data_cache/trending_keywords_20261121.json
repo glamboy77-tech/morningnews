@@ -1,0 +1,427 @@
+{
+  "timestamp": "2026-11-21T01:42:31.931168",
+  "date": "20261121",
+  "data": [
+    {
+      "keyword": "탄핵심판",
+      "reason": "여당 당론채택 및 야당 반발",
+      "score": 33.88,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "與 당론채택에 초유의 대법원장 탄핵심판 초읽기…국힘 \"광기\" 반발(종합3보)",
+        "與 당론채택에 초유의 대법원장 탄핵심판 초읽기…국힘 \"광기\" 반발(종합3보)"
+      ],
+      "representative_article": {
+        "title": "與 당론채택에 초유의 대법원장 탄핵심판 초읽기…국힘 \"광기\" 반발(종합3보)",
+        "link": "https://www.yna.co.kr/view/AKR20261120106953001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-11-20 18:06:35",
+        "match_score": 33.88
+      },
+      "related_articles": [
+        {
+          "title": "與 당론채택에 초유의 대법원장 탄핵심판 초읽기…국힘 \"광기\" 반발(종합3보)",
+          "link": "https://www.yna.co.kr/view/AKR20261120106953001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-11-20 18:06:35",
+          "match_score": 33.88
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "개인정보유출",
+      "reason": "컬리 사건 등 보안 이슈",
+      "score": 15.88,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "컬리서 1만여명 개인정보 유출…최대 15만원 적립금 보상키로(종합2보)"
+      ],
+      "representative_article": {
+        "title": "컬리서 1만여명 개인정보 유출…최대 15만원 적립금 보상키로(종합2보)",
+        "link": "https://www.yna.co.kr/view/AKR20261120157052030",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-11-20 21:33:50",
+        "match_score": 15.88
+      },
+      "related_articles": [
+        {
+          "title": "컬리서 1만여명 개인정보 유출…최대 15만원 적립금 보상키로(종합2보)",
+          "link": "https://www.yna.co.kr/view/AKR20261120157052030",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-11-20 21:33:50",
+          "match_score": 15.88
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재건축사업",
+      "reason": "수원 매탄1구역 추진 및 해운대 개발",
+      "score": 28.29,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "“후속 절차 신속 추진”…한국토지신탁, 수원 ‘매탄1구역 재건축’ 사업시행자 지정·고시"
+      ],
+      "representative_article": {
+        "title": "“후속 절차 신속 추진”…한국토지신탁, 수원 ‘매탄1구역 재건축’ 사업시행자 지정·고시",
+        "link": "https://www.mk.co.kr/news/realestate/12214597",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-11-20 14:48:00",
+        "match_score": 28.29
+      },
+      "related_articles": [
+        {
+          "title": "“후속 절차 신속 추진”…한국토지신탁, 수원 ‘매탄1구역 재건축’ 사업시행자 지정·고시",
+          "link": "https://www.mk.co.kr/news/realestate/12214597",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-20 14:48:00",
+          "match_score": 28.29
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "미중러정상회담",
+      "reason": "국제외교 동향 및 회담 평론",
+      "score": 19.5,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "미중러 정상회담 혹평 속에…트럼프 “10점 만점에 12점” 자평"
+      ],
+      "representative_article": {
+        "title": "미중러 정상회담 혹평 속에…트럼프 “10점 만점에 12점” 자평",
+        "link": "https://www.donga.com/news/Inter/article/all/20261120/135059775/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-11-20 14:29:00",
+        "match_score": 19.5
+      },
+      "related_articles": [
+        {
+          "title": "미중러 정상회담 혹평 속에…트럼프 “10점 만점에 12점” 자평",
+          "link": "https://www.donga.com/news/Inter/article/all/20261120/135059775/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-20 14:29:00",
+          "match_score": 19.5
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "반도체",
+      "score": 94.5,
+      "article_count": 16,
+      "source_count": 7,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "반도체發 원화강세 예고에도…정부, 환율방어 재원 증액 '0'",
+        "제주반도체 \"종속회사 H에 260억원 출자\"",
+        "평택시, 반도체 세수 증가에 2027년 본예산안 첫 4조원대 편성"
+      ],
+      "llm_candidate": false,
+      "rank": 5,
+      "representative_article": {
+        "title": "제주반도체 \"종속회사 H에 260억원 출자\"",
+        "link": "https://www.yna.co.kr/view/AKR20261120142000008",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-11-20 16:34:36",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "제주반도체 \"종속회사 H에 260억원 출자\"",
+          "link": "https://www.yna.co.kr/view/AKR20261120142000008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-20 16:34:36",
+          "match_score": 37.67
+        },
+        {
+          "title": "평택시, 반도체 세수 증가에 2027년 본예산안 첫 4조원대 편성",
+          "link": "https://www.yna.co.kr/view/AKR20261120117100061",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-20 15:13:44",
+          "match_score": 37.67
+        },
+        {
+          "title": "양승조 수공 사장, 호남 반도체 클러스터 물 공급 현장 점검",
+          "link": "https://www.yna.co.kr/view/AKR20261120139500063",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-11-20 16:23:52",
+          "match_score": 37.67
+        },
+        {
+          "title": "[특징주] AI 투심 위축 지속…코스닥 반도체소부장 급락(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261120041951008",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-11-20 15:47:29",
+          "match_score": 37.67
+        },
+        {
+          "title": "반도체發 원화강세 예고에도…정부, 환율방어 재원 증액 '0'",
+          "link": "https://www.mk.co.kr/news/economy/12214807",
+          "source": "매일경제-경제",
+          "published_dt": "2026-11-20 17:29:06",
+          "match_score": 37.66
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "엔비디아",
+      "score": 35.6,
+      "article_count": 7,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "코스피 추락 어디까지…앤트로픽 역대급 IPO에도 투심 회복 실패(종합)",
+        "뉴욕증시, AI 기술주 매도세에 혼조 출발… 앤트로픽 상장 이틀째 10% 급락",
+        "美, 첨단반도체 수출통제에도 中에 약 88만개 판매 승인"
+      ],
+      "llm_candidate": false,
+      "rank": 6,
+      "representative_article": {
+        "title": "엔비디아 스캔들 후폭풍…中 AI 굴기에 ‘직격탄’, 딥시크·알리바바 비상",
+        "link": "https://www.donga.com/news/Inter/article/all/20261120/135059950/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-11-20 13:18:56",
+        "match_score": 37.3
+      },
+      "related_articles": [
+        {
+          "title": "엔비디아 스캔들 후폭풍…中 AI 굴기에 ‘직격탄’, 딥시크·알리바바 비상",
+          "link": "https://www.donga.com/news/Inter/article/all/20261120/135059950/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-20 13:18:56",
+          "match_score": 37.3
+        },
+        {
+          "title": "삼성전자 SOCAMM2로 AI 서버 메모리 혁신…삼성전기·엔비디아, 기판·MLCC 협력 확대 - Korea IT Times",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBEUDRPRHhSYUI0R0dJdjN5ZWdtMHQzRy1UWUJsMEdIWUNvWWVVbVpIOHQxZVlXLTBmZXRQYXNLZlYySHBMNUpvWFhMNm5sQnpucEFmOXdwSmVLSUZ3R3FwR1pVZm5vdWdpSE1HQjV3OUc?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-11-20 10:56:00",
+          "match_score": 36.96
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "코스닥",
+      "score": 29.0,
+      "article_count": 7,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "'의료용 기기 제조업' 엠비디, 코스닥 신규상장…24일 첫 거래",
+        "제주반도체 \"종속회사 H에 260억원 출자\"",
+        "5%대 급락 '검은 금요일'…코스피 4,800대로 후퇴, 10개월만 최저(종합)"
+      ],
+      "llm_candidate": false,
+      "rank": 7,
+      "representative_article": {
+        "title": "'의료용 기기 제조업' 엠비디, 코스닥 신규상장…24일 첫 거래",
+        "link": "https://www.yna.co.kr/view/AKR20261120143600008",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-11-20 16:35:20",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "'의료용 기기 제조업' 엠비디, 코스닥 신규상장…24일 첫 거래",
+          "link": "https://www.yna.co.kr/view/AKR20261120143600008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-20 16:35:20",
+          "match_score": 37.67
+        },
+        {
+          "title": "[특징주] AI 투심 위축 지속…코스닥 반도체소부장 급락(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261120041951008",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-11-20 15:47:29",
+          "match_score": 28.68
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "러시아",
+      "score": 22.8,
+      "article_count": 6,
+      "source_count": 2,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "CGTN | 사상 첫 시진핑-푸틴-트럼프 회담의 의미",
+        "트럼프, 쿼드·중러 정상에 모두 친구…세계 질서 변화 속 이중외교",
+        "시진핑 중앙 차지하고 ‘左트럼프 右푸틴’…中이 원한 그림이었다"
+      ],
+      "llm_candidate": false,
+      "rank": 8,
+      "representative_article": {
+        "title": "힐러리 “트럼프, 러시아 독재자 대담하게 만들어…우크라 평화 멀어져”",
+        "link": "https://www.donga.com/news/Inter/article/all/20261120/135058511/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-11-20 09:18:00",
+        "match_score": 37.3
+      },
+      "related_articles": [
+        {
+          "title": "힐러리 “트럼프, 러시아 독재자 대담하게 만들어…우크라 평화 멀어져”",
+          "link": "https://www.donga.com/news/Inter/article/all/20261120/135058511/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-20 09:18:00",
+          "match_score": 37.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "데이터센터",
+      "score": 30.3,
+      "article_count": 5,
+      "source_count": 5,
+      "categories": [
+        "국제",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "동해시, AI 데이터센터 조성사업 주민설명회 개최",
+        "우주로 AI칩 보내려는 머스크에 제동 건 월가… 스페이스X 채권단 “반도체 지상에 둬라”",
+        "무디스 내년 AI 반도체 수요 지속…데이터센터 투자로 삼성물산도 수혜 - 아주경제"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "동해시, AI 데이터센터 조성사업 주민설명회 개최",
+        "link": "https://www.yna.co.kr/view/AKR20261120151100062",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-11-20 17:06:02",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "동해시, AI 데이터센터 조성사업 주민설명회 개최",
+          "link": "https://www.yna.co.kr/view/AKR20261120151100062",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-11-20 17:06:02",
+          "match_score": 37.67
+        },
+        {
+          "title": "무디스 내년 AI 반도체 수요 지속…데이터센터 투자로 삼성물산도 수혜 - 아주경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5Jb0RLYmhXczFWOTh3cnA2Xzk1MDgxYUduNWZOc2NSN2JRcWZqMTYyUmNpZ1AwdFdMbVV1RkpmakVnLTVnQlhUX0k1QUZKSTMwNEJpOXlISVZnZ9IBWEFVX3lxTFB2YkNoQzM3T1NrME1tMzljMURwYmdRRGQ3S1BSbGNfLXpTQjlTVmdEb29zcDVzTVdFeUJjUHd5Tnd0bjQzcXp0U2ZCbUFHTnAzOEQzMGRWT24?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-11-20 11:07:14",
+          "match_score": 36.96
+        },
+        {
+          "title": "“솔라시도 AI데이터센터 인접”…‘우수영 중우아팰리스 더원’ 조합원 모집",
+          "link": "https://www.mk.co.kr/news/realestate/12214647",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-20 15:33:02",
+          "match_score": 28.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "앤트로픽",
+      "score": 36.2,
+      "article_count": 5,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "코스피 추락 어디까지…앤트로픽 역대급 IPO에도 투심 회복 실패(종합)",
+        "우리운용 “미국 단기채 공모주 펀드, 앤트로픽 IPO 물량 배정”",
+        "뉴욕증시, AI 기술주 매도세에 혼조 출발… 앤트로픽 상장 이틀째 10% 급락"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "코스피 추락 어디까지…앤트로픽 역대급 IPO에도 투심 회복 실패(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261120085151008",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-11-20 16:34:02",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "코스피 추락 어디까지…앤트로픽 역대급 IPO에도 투심 회복 실패(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261120085151008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-20 16:34:02",
+          "match_score": 37.67
+        },
+        {
+          "title": "직원 96%가 백만장자… 1인당 평균 586억 '잭팟' 터진 앤트로픽",
+          "link": "https://www.etnews.com/20261120000075",
+          "source": "전자신문",
+          "published_dt": "2026-11-20 10:08:45",
+          "match_score": 37.49
+        },
+        {
+          "title": "우리운용 “미국 단기채 공모주 펀드, 앤트로픽 IPO 물량 배정”",
+          "link": "https://www.chosun.com/economy/stock-finance/2026/11/20/GI3WIOBYMYZGEZBSG42DGZJQMI/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-11-20 16:53:00",
+          "match_score": 37.3
+        },
+        {
+          "title": "뉴욕증시, AI 기술주 매도세에 혼조 출발… 앤트로픽 상장 이틀째 10% 급락",
+          "link": "https://www.chosun.com/economy/stock-finance/2026/11/21/MRRGEYRTGJRTQNZQGA3WCMTBGI/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-11-21 00:48:43",
+          "match_score": 37.3
+        },
+        {
+          "title": "“앤트로픽 흥행도 못 막네”…亞 증시, AI 거품 공포에 ‘검은 금요일’",
+          "link": "https://www.donga.com/news/Inter/article/all/20261120/135060376/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-20 14:04:36",
+          "match_score": 37.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
