@@ -1,0 +1,79 @@
+{
+  "timestamp": "2026-11-22T06:01:09.887687",
+  "date": "20261122",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "李대통령 \"울산 방문해 시민들 만나…관광 많이 오시라\"",
+          "link": "https://www.yna.co.kr/view/AKR20261121029500001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-11-21 11:08:55",
+          "description": "(서울=연합뉴스) 설승은 기자 = 이재명 대통령은 주말인 21일 울산을 찾았다.",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "image_url": "https://img.yna.co.kr/etc/inner/KR/2026/11/21/AKR20261121029500001_01_i_P2.jpg",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령, 울산 전통시장 두 곳 방문…\"내년엔 좀 더 좋아질 것\"",
+          "link": "https://www.yna.co.kr/view/AKR20261121045100001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-11-21 17:59:45",
+          "description": "(서울=연합뉴스) 설승은 기자 = 이재명 대통령은 21일 울산의 전통 시장 두 곳을 잇달아 찾아 장바구니 물가를 점검하고 지역 골목상권의 목소리...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "image_url": "https://img.yna.co.kr/photo/yna/YH/2026/11/21/PYH2026112104030001300_P2.jpg",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "지방/행정",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 \"AI데이터센터·메모리 수요 더 늘 것…속도가 생명\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261121033751001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-11-21 15:08:58",
+          "description": "(서울=연합뉴스) 설승은 기자 = 이재명 대통령은 21일 울산의 SK 인공지능 데이터센터(AIDC) 건설 현장을 방문, 영남권 메가 프로젝트 추...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "image_url": "https://img.yna.co.kr/photo/yna/YH/2026/11/21/PYH2026112102630001300_P2.jpg",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "Science/Tech",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "울산 전통시장 찾은 李 “내년엔 더 좋아질 것”",
+          "link": "https://www.chosun.com/economy/economy_general/2026/11/21/GVSGKNRTMFRDONBZHA3GINBVME/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-11-21 20:20:09",
+          "description": "이재명 대통령이 21일 울산 전통 시장 두 곳을 연달아 찾았다. 이 대통령은 이날 울산 남구의 SK 인공지능(AI) 데이터센터 현장 방문을 마친 뒤, 동구에 있는 동울산 종합시장에 방문했다. 이곳에서 시장 내 점포 곳곳을 둘러봤다. 이 대통령은 꽈배기와 배추전, 김밥, 닭발, 호떡, 두부 등을 구입했다. 상인들과 시장을 찾은 주민들과 악수하고 대화를 나눴다",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/economy/?outputType=xml",
+          "image_url": "https://www.chosun.com/resizer/v2/HAZDKMBWME2GIN3FGZTGCNJZHA.jpg?auth=c9ec9bb724947514c0ffb5fe40a6b8d1ce5e79c5f107467668c80860727aa30a&smart=true&width=4000&height=2668",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "sector": "AI/로봇",
+          "related_full_sources": []
+        }
+      ],
+      "count": 4,
+      "role": "한국 대통령"
+    }
+  }
+}

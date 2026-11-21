@@ -1,0 +1,464 @@
+{
+  "timestamp": "2026-11-22T06:01:15.270507",
+  "date": "20261122",
+  "data": [
+    {
+      "keyword": "성장률 전망",
+      "reason": "한은 올해 성장률 및 내년 전망 언급",
+      "score": 31.52,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "[다음주 경제] 숨 고르기 한 기준금리, 인상할까…한은 성장률 전망은"
+      ],
+      "representative_article": {
+        "title": "[다음주 경제] 숨 고르기 한 기준금리, 인상할까…한은 성장률 전망은",
+        "link": "https://www.yna.co.kr/view/AKR20261121014700002",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-11-21 08:36:08",
+        "match_score": 31.52
+      },
+      "related_articles": [
+        {
+          "title": "[다음주 경제] 숨 고르기 한 기준금리, 인상할까…한은 성장률 전망은",
+          "link": "https://www.yna.co.kr/view/AKR20261121014700002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-21 08:36:08",
+          "match_score": 31.52
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "부동산",
+      "score": 129.7,
+      "article_count": 22,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "성북구 석관동 래미안아트리치 59.98㎡ 12억 7500만원… 최근 3년 신고가 [MAI부동산]",
+        "중랑구 신내9진흥 39.84㎡ 4억 7700만원… 최근 3년 신고가 [MAI부동산]",
+        "강동구 둔촌하이츠 59.79㎡ 12억 6천만원 거래… 최근 3년 신고가 [MAI부동산]"
+      ],
+      "llm_candidate": false,
+      "rank": 2,
+      "representative_article": {
+        "title": "성북구 석관동 래미안아트리치 59.98㎡ 12억 7500만원… 최근 3년 신고가 [MAI부동산]",
+        "link": "https://www.mk.co.kr/news/realestate/12215234",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-11-21 11:55:20",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "성북구 석관동 래미안아트리치 59.98㎡ 12억 7500만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12215234",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-21 11:55:20",
+          "match_score": 37.49
+        },
+        {
+          "title": "중랑구 신내9진흥 39.84㎡ 4억 7700만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12215233",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-21 11:55:20",
+          "match_score": 37.49
+        },
+        {
+          "title": "강동구 둔촌하이츠 59.79㎡ 12억 6천만원 거래… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12215232",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-21 11:54:50",
+          "match_score": 37.49
+        },
+        {
+          "title": "강동구 길동우성 전용 40.36㎡ 10억원 거래… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12215231",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-21 11:54:40",
+          "match_score": 37.49
+        },
+        {
+          "title": "구로구 개봉동 현대 59.94㎡ 10억 7천만원 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12215225",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-21 11:54:39",
+          "match_score": 37.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "MAI",
+      "score": 129.7,
+      "article_count": 22,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "성북구 석관동 래미안아트리치 59.98㎡ 12억 7500만원… 최근 3년 신고가 [MAI부동산]",
+        "중랑구 신내9진흥 39.84㎡ 4억 7700만원… 최근 3년 신고가 [MAI부동산]",
+        "강동구 둔촌하이츠 59.79㎡ 12억 6천만원 거래… 최근 3년 신고가 [MAI부동산]"
+      ],
+      "llm_candidate": false,
+      "rank": 3,
+      "representative_article": {
+        "title": "성북구 석관동 래미안아트리치 59.98㎡ 12억 7500만원… 최근 3년 신고가 [MAI부동산]",
+        "link": "https://www.mk.co.kr/news/realestate/12215234",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-11-21 11:55:20",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "성북구 석관동 래미안아트리치 59.98㎡ 12억 7500만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12215234",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-21 11:55:20",
+          "match_score": 37.49
+        },
+        {
+          "title": "중랑구 신내9진흥 39.84㎡ 4억 7700만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12215233",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-21 11:55:20",
+          "match_score": 37.49
+        },
+        {
+          "title": "강동구 둔촌하이츠 59.79㎡ 12억 6천만원 거래… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12215232",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-21 11:54:50",
+          "match_score": 37.49
+        },
+        {
+          "title": "강동구 길동우성 전용 40.36㎡ 10억원 거래… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12215231",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-21 11:54:40",
+          "match_score": 37.49
+        },
+        {
+          "title": "구로구 개봉동 현대 59.94㎡ 10억 7천만원 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12215225",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-21 11:54:39",
+          "match_score": 37.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "신고가",
+      "score": 118.5,
+      "article_count": 22,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "성북구 석관동 래미안아트리치 59.98㎡ 12억 7500만원… 최근 3년 신고가 [MAI부동산]",
+        "중랑구 신내9진흥 39.84㎡ 4억 7700만원… 최근 3년 신고가 [MAI부동산]",
+        "강동구 둔촌하이츠 59.79㎡ 12억 6천만원 거래… 최근 3년 신고가 [MAI부동산]"
+      ],
+      "llm_candidate": false,
+      "rank": 4,
+      "representative_article": {
+        "title": "강동구 둔촌하이츠 59.79㎡ 12억 6천만원 거래… 최근 3년 신고가 [MAI부동산]",
+        "link": "https://www.mk.co.kr/news/realestate/12215232",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-11-21 11:54:50",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "강동구 둔촌하이츠 59.79㎡ 12억 6천만원 거래… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12215232",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-21 11:54:50",
+          "match_score": 37.49
+        },
+        {
+          "title": "구로구 개봉동 현대 59.94㎡ 10억 7천만원 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12215225",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-21 11:54:39",
+          "match_score": 37.49
+        },
+        {
+          "title": "관악구 신림현대 119.49㎡ 10억 4천만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12215228",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-21 11:54:39",
+          "match_score": 37.49
+        },
+        {
+          "title": "강서구 방화5단지 39.6㎡ 6억 5500만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12215223",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-21 11:54:29",
+          "match_score": 37.49
+        },
+        {
+          "title": "양천구 신정동 신트리1 59.73㎡ 11억 1500만원 거래… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12215220",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-21 11:54:29",
+          "match_score": 37.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "반도체",
+      "score": 23.0,
+      "article_count": 5,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "잘나가는 한국 보며 “상처에 소금을 뿌리는 듯한 고통”…씁쓸한 일본 왜?",
+        "머스크의 우주 데이터센터, 첫 금융 장벽…채권단 \"GPU 반입 제한\"",
+        "[소부장 테크페어]아이큐랩, 초고주파 GaN 소자 국산화 속도…“측정·인증 인프라 시급”"
+      ],
+      "llm_candidate": false,
+      "rank": 5,
+      "representative_article": {
+        "title": "\"반도체 호황에도 파급 미미…10억원당 취업유발 2.4명\"",
+        "link": "https://www.yna.co.kr/view/AKR20261120167400002",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-11-21 09:00:00",
+        "match_score": 37.83
+      },
+      "related_articles": [
+        {
+          "title": "\"반도체 호황에도 파급 미미…10억원당 취업유발 2.4명\"",
+          "link": "https://www.yna.co.kr/view/AKR20261120167400002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-21 09:00:00",
+          "match_score": 37.83
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "아파트",
+      "score": 17.2,
+      "article_count": 4,
+      "source_count": 2,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "전국 ‘국평’ 평균 분양가 7억 시대…“눈 크게 뜨고 내 집 찾아볼까”",
+        "양천구 신정동 쌍용 84.63㎡ 14억 8천만원… 최근 3년 신고가 [MAI부동산]",
+        "노원구 청암2단지 49.77㎡, 5억 3천만원 `최근 3년 신고가` [MAI부동산]"
+      ],
+      "llm_candidate": false,
+      "rank": 6,
+      "representative_article": {
+        "title": "강서구 서광등촌마을아파트 59.67㎡ 11억 5천만원… 최근 3년 신고가 [MAI부동산]",
+        "link": "https://www.mk.co.kr/news/realestate/12215222",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-11-21 11:54:29",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "강서구 서광등촌마을아파트 59.67㎡ 11억 5천만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12215222",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-21 11:54:29",
+          "match_score": 37.49
+        },
+        {
+          "title": "도봉구 창동 상아1차아파트 45.54㎡ 5억 9900만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12215214",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-21 11:54:18",
+          "match_score": 37.49
+        },
+        {
+          "title": "전세보다 월세가 많아졌다…서울 아파트 임대차 시장 첫 ‘역전’ - 쿠키뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1wUUsyV3g3ejF1QWhwcnVOcnhKT0lGNjBNSHRhUFZIWVlmUjQtQTZQX1N5cjVscmZHWDJ6S01ybnExcFhpSy1UWlc2R1JlRmlZMW1kRkM2U0tXRWFmUnVoSDUyaw?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-11-21 20:31:04",
+          "match_score": 36.96
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "노원구",
+      "score": 25.3,
+      "article_count": 4,
+      "source_count": 1,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "노원구 중계무지개 39.82㎡, 5억 9천만원 `최근 3년 신고가` [MAI부동산]",
+        "노원구 상계2차중앙하이츠 59.82㎡ 7억 8천만원… 최근 3년 신고가 [MAI부동산]",
+        "노원구 청암2단지 49.77㎡, 5억 3천만원 `최근 3년 신고가` [MAI부동산]"
+      ],
+      "llm_candidate": false,
+      "rank": 7,
+      "representative_article": {
+        "title": "노원구 중계무지개 39.82㎡, 5억 9천만원 `최근 3년 신고가` [MAI부동산]",
+        "link": "https://www.mk.co.kr/news/realestate/12215218",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-11-21 11:54:28",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "노원구 중계무지개 39.82㎡, 5억 9천만원 `최근 3년 신고가` [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12215218",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-21 11:54:28",
+          "match_score": 37.49
+        },
+        {
+          "title": "노원구 상계2차중앙하이츠 59.82㎡ 7억 8천만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12215215",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-21 11:54:18",
+          "match_score": 37.49
+        },
+        {
+          "title": "노원구 청암2단지 49.77㎡, 5억 3천만원 `최근 3년 신고가` [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12215216",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-21 11:54:18",
+          "match_score": 37.49
+        },
+        {
+          "title": "노원구 중계동 주공5 44.52㎡ 5억 9200만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12215217",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-21 11:54:18",
+          "match_score": 37.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "데이터센터",
+      "score": 19.5,
+      "article_count": 3,
+      "source_count": 3,
+      "categories": [
+        "기업/산업",
+        "정치"
+      ],
+      "sample_titles": [
+        "李대통령 \"AI데이터센터·메모리 수요 더 늘 것…속도가 생명\"(종합)",
+        "머스크의 우주 데이터센터, 첫 금융 장벽…채권단 \"GPU 반입 제한\"",
+        "울산 전통시장 찾은 李 “내년엔 더 좋아질 것”"
+      ],
+      "llm_candidate": false,
+      "rank": 8,
+      "representative_article": {
+        "title": "李대통령 \"AI데이터센터·메모리 수요 더 늘 것…속도가 생명\"(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261121033751001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-11-21 15:08:58",
+        "match_score": 38.67
+      },
+      "related_articles": [
+        {
+          "title": "李대통령 \"AI데이터센터·메모리 수요 더 늘 것…속도가 생명\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261121033751001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-11-21 15:08:58",
+          "match_score": 38.67
+        },
+        {
+          "title": "머스크의 우주 데이터센터, 첫 금융 장벽…채권단 \"GPU 반입 제한\"",
+          "link": "https://www.aitimes.com/news/articleView.html?idxno=217650",
+          "source": "AI타임스",
+          "published_dt": "2026-11-22 03:55:59",
+          "match_score": 38.09
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재건축",
+      "score": 15.3,
+      "article_count": 3,
+      "source_count": 3,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "\"대전 1억·대구 6천\"…과천·광명·수원도 억대 부담금 예고",
+        "목동 5·12·14단지 재건축 통합심의 통과… 최고 49층·1만1,863세대 공급 - 어반톡",
+        "“인근 브랜드 단지보다 저렴”…두산건설, ‘두산위브 트레지움 익산’ 분양가 공개"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "목동 5·12·14단지 재건축 통합심의 통과… 최고 49층·1만1,863세대 공급 - 어반톡",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0yLXd1ZXRaSi05N1M0alZUNUN1N2U3a2VlNDMyZk1oMXRhWTRuLTEwYU1LODhjNmhHZ1N6eXF4a1BUOWZpRGlybUc2V0lPQVVOQkxMSFNR?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-11-21 11:28:49",
+        "match_score": 37.71
+      },
+      "related_articles": [
+        {
+          "title": "목동 5·12·14단지 재건축 통합심의 통과… 최고 49층·1만1,863세대 공급 - 어반톡",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0yLXd1ZXRaSi05N1M0alZUNUN1N2U3a2VlNDMyZk1oMXRhWTRuLTEwYU1LODhjNmhHZ1N6eXF4a1BUOWZpRGlybUc2V0lPQVVOQkxMSFNR?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-11-21 11:28:49",
+          "match_score": 37.71
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "방문해",
+      "score": 14.8,
+      "article_count": 3,
+      "source_count": 2,
+      "categories": [
+        "국제",
+        "정치"
+      ],
+      "sample_titles": [
+        "李대통령 \"울산 방문해 시민들 만나…관광 많이 오시라\"",
+        "엄홍길휴먼재단, 네팔 휴먼스쿨 2곳에 교육물품 전달",
+        "中 방문 머스크 “나는 열렬한 중국 팬…아들 장난감도 중국산”"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "李대통령 \"울산 방문해 시민들 만나…관광 많이 오시라\"",
+        "link": "https://www.yna.co.kr/view/AKR20261121029500001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-11-21 11:08:55",
+        "match_score": 28.68
+      },
+      "related_articles": [
+        {
+          "title": "李대통령 \"울산 방문해 시민들 만나…관광 많이 오시라\"",
+          "link": "https://www.yna.co.kr/view/AKR20261121029500001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-11-21 11:08:55",
+          "match_score": 28.68
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
