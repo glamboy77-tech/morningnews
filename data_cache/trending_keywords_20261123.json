@@ -1,0 +1,461 @@
+{
+  "timestamp": "2026-11-23T06:01:10.132703",
+  "date": "20261123",
+  "data": [
+    {
+      "keyword": "개인정보 유출",
+      "reason": "한전 대규모 사고",
+      "score": 42.36,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "한전, 고객·조달업체 152만명 개인정보 유출…계좌·카드번호 털려",
+        "한전 152만명 개인정보 유출…주민번호·카드번호까지 포함 - 주간조선"
+      ],
+      "representative_article": {
+        "title": "한전 152만명 개인정보 유출…주민번호·카드번호까지 포함 - 주간조선",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0yRkxoanJTYnp0aVFNcXRSN00zZExuMjV2LXBFc0Q2bGxwUXoyMGNUclJXOHozVzRseW92UGlCWXl5VlJJRDY1cGt2UldaRTByRDBXWWxDZnh2Z0RHd1FYMDhkUWpRUjRmaV9VSEpB0gFuQVVfeXFMTTJGTGhqclNienRpUU1xdFI3TTNkTG4yNXYtcEVzRDZsbHBRejIwY1RyUlc4ejNXNGx5b3ZQaUJZeXlWUklENjVwa3ZSV1pFMHJEMFdZbENmeHZnREd3UVgwOGRRalFSNGZpX1VISkE?oc=5",
+        "source": "키워드-에너지물가",
+        "published_dt": "2026-11-23 03:04:46",
+        "match_score": 42.36
+      },
+      "related_articles": [
+        {
+          "title": "한전 152만명 개인정보 유출…주민번호·카드번호까지 포함 - 주간조선",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0yRkxoanJTYnp0aVFNcXRSN00zZExuMjV2LXBFc0Q2bGxwUXoyMGNUclJXOHozVzRseW92UGlCWXl5VlJJRDY1cGt2UldaRTByRDBXWWxDZnh2Z0RHd1FYMDhkUWpRUjRmaV9VSEpB0gFuQVVfeXFMTTJGTGhqclNienRpUU1xdFI3TTNkTG4yNXYtcEVzRDZsbHBRejIwY1RyUlc4ejNXNGx5b3ZQaUJZeXlWUklENjVwa3ZSV1pFMHJEMFdZbENmeHZnREd3UVgwOGRRalFSNGZpX1VISkE?oc=5",
+          "source": "키워드-에너지물가",
+          "published_dt": "2026-11-23 03:04:46",
+          "match_score": 42.36
+        },
+        {
+          "title": "한전, 고객·조달업체 152만명 개인정보 유출…계좌·카드번호 털려",
+          "link": "https://zdnet.co.kr/view/?no=20261122191056",
+          "source": "ZDNetKorea",
+          "published_dt": "2026-11-22 19:10:56",
+          "match_score": 34.49
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "3자 종전 협상",
+      "reason": "젤렌스키 발표",
+      "score": 24.9,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "젤렌스키 “성탄절前 3자 종전협상 동의”… 美 G20때 개최 가능성",
+        "젤렌스키 “성탄절 전 3자 종전협상 개최 동의”…G20 회의 계기 가능성"
+      ],
+      "representative_article": {
+        "title": "젤렌스키 “성탄절前 3자 종전협상 동의”… 美 G20때 개최 가능성",
+        "link": "https://www.donga.com/news/Inter/article/all/20261122/135070014/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-11-23 04:30:00",
+        "match_score": 24.9
+      },
+      "related_articles": [
+        {
+          "title": "젤렌스키 “성탄절前 3자 종전협상 동의”… 美 G20때 개최 가능성",
+          "link": "https://www.donga.com/news/Inter/article/all/20261122/135070014/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-23 04:30:00",
+          "match_score": 24.9
+        },
+        {
+          "title": "젤렌스키 “성탄절 전 3자 종전협상 개최 동의”…G20 회의 계기 가능성",
+          "link": "https://www.donga.com/news/Inter/article/all/20261122/135067570/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-22 19:44:00",
+          "match_score": 24.9
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "반도체",
+      "score": 55.5,
+      "article_count": 11,
+      "source_count": 5,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "\"고물가에 추가 긴축 유력 … 26일 기준금리 0.25%P↑\"",
+        "韓만 반도체 대박인 줄 알았더니”…中도 수출 108% 폭증",
+        "메모리 가격 폭등에 PC 사양 '역주행'…고육지책 꺼낸 제조사"
+      ],
+      "llm_candidate": false,
+      "rank": 3,
+      "representative_article": {
+        "title": "주가급락에도 노후자금 반도체 선호 여전…ETF 순매수 지속",
+        "link": "https://www.yna.co.kr/view/AKR20261122010200002",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-11-23 05:55:01",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "주가급락에도 노후자금 반도체 선호 여전…ETF 순매수 지속",
+          "link": "https://www.yna.co.kr/view/AKR20261122010200002",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-11-23 05:55:01",
+          "match_score": 37.67
+        },
+        {
+          "title": "韓만 반도체 대박인 줄 알았더니”…中도 수출 108% 폭증",
+          "link": "https://www.mk.co.kr/news/economy/12215487",
+          "source": "매일경제-경제",
+          "published_dt": "2026-11-22 14:28:46",
+          "match_score": 37.66
+        },
+        {
+          "title": "SK하이닉스 2026년 1분기 실적 전망: 메모리 반도체 가격 급등, 이익 두 배 증가 전망 - TradingKey",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNT2l2UGpMbTZCaEtQWkYzRV9PTUpwSTQ4YTVOQkdkczNyTThFRWRCYXNuQmkzWXg3QjIxWVhvbTZOb2N1S2xWeEhuVGViNHJqdm5yOG10dTc4S2U4Zlp6b1dOa2xvaW1TcnYycjFEcXJaYmplUFpaQmhmVldqSkdNekxkNGliaUloYUR5a1Q4QzV0RWQ1OGpweUQ1WmJsbGp3empENDdRcTVJdHZZLVotOXRn?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-11-22 13:03:52",
+          "match_score": 36.96
+        },
+        {
+          "title": "통합특별시의회, SK하이닉스 방문…반도체 클러스터 조성 방안 모색 - 대로미디어",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE4xN0ZPQ0hNRktmVU1PczI1ekRuQmdzVVAyV0VpZjRyQnJmbXN0V19jak5LRzRVUHhqNFRfWFFEWVR6dEJqckVCc21xdS1od3B6MlNwbEdIN1Fab3BWNzhpcDZQdkNvSW0xa0l3?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-11-22 11:29:03",
+          "match_score": 36.96
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재건축",
+      "score": 56.5,
+      "article_count": 9,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "부동산"
+      ],
+      "sample_titles": [
+        "[부동산 손품노트] 재건축·재개발 투자… '공급 시간표' 보면 향방 보인다",
+        "서울 재개발·재건축 절반 이상 ‘초기 단계’ … 숫자로 본 공급 시간표 [손품100]",
+        "[부동산 손품노트] 재건축·재개발 투자… '공급 시간표' 보면 향방 보인다"
+      ],
+      "llm_candidate": false,
+      "rank": 4,
+      "representative_article": {
+        "title": "[부동산 손품노트] 재건축·재개발 투자… '공급 시간표' 보면 향방 보인다",
+        "link": "https://www.mk.co.kr/news/realestate/12215577",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-11-22 16:30:54",
+        "match_score": 38.09
+      },
+      "related_articles": [
+        {
+          "title": "[부동산 손품노트] 재건축·재개발 투자… '공급 시간표' 보면 향방 보인다",
+          "link": "https://www.mk.co.kr/news/realestate/12215577",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-22 16:30:54",
+          "match_score": 38.09
+        },
+        {
+          "title": "서울 재개발·재건축 절반 이상 ‘초기 단계’ … 숫자로 본 공급 시간표 [손품100]",
+          "link": "https://www.mk.co.kr/news/realestate/12215569",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-23 04:40:00",
+          "match_score": 38.09
+        },
+        {
+          "title": "대구 재건축사업 최대어 ‘궁전맨션’, 용적률 인센티브 시험대 - 영남일보",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9WQmFtZWhlbU5PSWYwSlE4LWl2bkVlZmJPWE50clA4UmhSZGtZakluQTZoRE5rUm8zVzFfMWwyY0d2SXo4dFd1R2l1TUhwbDE3eWt2MjExaGNCeFJzMWxocE9rLVFDT1lqZXVZ?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-11-22 20:07:29",
+          "match_score": 38.01
+        },
+        {
+          "title": "창원 사파1구역 3000세대 통합재건축 본격화 - 경남신문",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE02SHlrbTkxeEdtMFE2WEJMNkFLSnJkV3FveUVyZVN4cnkyRVdTTUZvNUcwM05HR0ZfRmRDQW9WZl9aSTFDZjNIb1NEVkNiLWRpdmFxeUU5a1dnNko5bl9YT0t0WTUwcGxhWWpR?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-11-22 20:03:21",
+          "match_score": 37.71
+        },
+        {
+          "title": "서울 재건축 52곳 재초환 부담금…매매가 하락으로 이어질까 - 한겨레",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9jMnBOMHhxQTJjUVN0V0VsN1JZZDBoVXlXeHBNd2p4X3JIR0YwWWswTU9RNHZyMVZnYUlBX2tlZFVYS09Mb2RFWHRLN3FnZlNVWXNzRkM4QkpJTzFCMmVkSUJYcTZBVS0x?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-11-22 19:49:00",
+          "match_score": 37.71
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "부동산",
+      "score": 46.0,
+      "article_count": 8,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "부동산"
+      ],
+      "sample_titles": [
+        "[부동산 손품노트] 재건축·재개발 투자… '공급 시간표' 보면 향방 보인다",
+        "[부동산 손자병법] \"월세 올렸다가 권리금 배상\"… 건물주 마음대로 안되는 게 있다",
+        "[부동산 손품노트] 재건축·재개발 투자… '공급 시간표' 보면 향방 보인다"
+      ],
+      "llm_candidate": false,
+      "rank": 5,
+      "representative_article": {
+        "title": "[부동산 손품노트] 재건축·재개발 투자… '공급 시간표' 보면 향방 보인다",
+        "link": "https://www.mk.co.kr/news/realestate/12215577",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-11-22 16:30:54",
+        "match_score": 38.09
+      },
+      "related_articles": [
+        {
+          "title": "[부동산 손품노트] 재건축·재개발 투자… '공급 시간표' 보면 향방 보인다",
+          "link": "https://www.mk.co.kr/news/realestate/12215577",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-22 16:30:54",
+          "match_score": 38.09
+        },
+        {
+          "title": "송파구 위례24단지(꿈에그린) 84.93㎡ 22억 7천만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12215418",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-22 09:37:38",
+          "match_score": 37.49
+        },
+        {
+          "title": "[부동산 100자 정보] 하안주공5단지 재건축 시공사로 선정 외",
+          "link": "https://www.chosun.com/economy/real_estate/2026/11/23/Y4MB3VTTNFDKTNMKAE7H57DCRI/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-11-23 00:37:00",
+          "match_score": 29.05
+        },
+        {
+          "title": "[부동산 손자병법] \"월세 올렸다가 권리금 배상\"… 건물주 마음대로 안되는 게 있다",
+          "link": "https://www.mk.co.kr/news/realestate/12215576",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-22 16:30:53",
+          "match_score": 28.49
+        },
+        {
+          "title": "주식·세무·부동산 등 재테크 각 분야 ‘소문난 고수’ 19명 출동",
+          "link": "https://www.chosun.com/economy/economy_general/2026/11/23/NYCQOU5KT5HP5BZF37K6WTXJVI/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-11-23 00:36:00",
+          "match_score": 28.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "지난해",
+      "score": 27.1,
+      "article_count": 6,
+      "source_count": 5,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "부동산"
+      ],
+      "sample_titles": [
+        "“1년 새 도대체 무슨 일이 있었던 거죠?”…40대 마통 연체액 82% ‘폭증’",
+        "[전화성의 기술창업 Targeting] 〈417〉 [AC협회장 주간록127] 규제 지키는 산업에서 스스로 신뢰 만드는 산업으로",
+        "“나만 빼고 다들 돈 벌었던 거야?”…서울 ‘내 집 마련 기간’ 2년 빨라진 이유가"
+      ],
+      "llm_candidate": false,
+      "rank": 6,
+      "representative_article": {
+        "title": "지난해 전국서 집 가진 가구 55%가 1·2인 가구였다",
+        "link": "https://www.chosun.com/economy/real_estate/2026/11/23/2HCHFZ6QD5HRRA75HO2MO6XMQA/",
+        "source": "조선일보-경제",
+        "published_dt": "2026-11-23 00:37:00",
+        "match_score": 28.3
+      },
+      "related_articles": [
+        {
+          "title": "지난해 전국서 집 가진 가구 55%가 1·2인 가구였다",
+          "link": "https://www.chosun.com/economy/real_estate/2026/11/23/2HCHFZ6QD5HRRA75HO2MO6XMQA/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-11-23 00:37:00",
+          "match_score": 28.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "중소기업",
+      "score": 29.1,
+      "article_count": 6,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "5대은행 올해 부실채권 5.8조 정리…中企 연체율은 대기업의 3배",
+        "콩당골드·유영·허벅술·달과031 등 12개 'K-술 어워드' 선정",
+        "중소기업 청년채용 최대 애로사항은 \"조기퇴사로 채용 반복\""
+      ],
+      "llm_candidate": false,
+      "rank": 7,
+      "representative_article": {
+        "title": "중소기업 청년채용 최대 애로사항은 \"조기퇴사로 채용 반복\"",
+        "link": "https://www.yna.co.kr/view/AKR20261122010100003",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-11-22 12:00:03",
+        "match_score": 37.83
+      },
+      "related_articles": [
+        {
+          "title": "중소기업 청년채용 최대 애로사항은 \"조기퇴사로 채용 반복\"",
+          "link": "https://www.yna.co.kr/view/AKR20261122010100003",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-22 12:00:03",
+          "match_score": 37.83
+        },
+        {
+          "title": "중기부, 23∼24일 '중소기업 융합대전'…유공자 15명 정부 포상",
+          "link": "https://www.yna.co.kr/view/AKR20261121002500030",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-11-22 12:00:02",
+          "match_score": 37.67
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "앞두고",
+      "score": 26.1,
+      "article_count": 6,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "\"고물가에 추가 긴축 유력 … 26일 기준금리 0.25%P↑\"",
+        "면접고사 앞둔 부산 대학가, AI 부정행위 방지대책 마련 분주",
+        "경북도, 2차 공공기관 이전 앞두고 유치 총력전"
+      ],
+      "llm_candidate": false,
+      "rank": 8,
+      "representative_article": {
+        "title": "경북도, 2차 공공기관 이전 앞두고 유치 총력전",
+        "link": "https://www.yna.co.kr/view/AKR20261122015100053",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-11-22 09:47:52",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "경북도, 2차 공공기관 이전 앞두고 유치 총력전",
+          "link": "https://www.yna.co.kr/view/AKR20261122015100053",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-11-22 09:47:52",
+          "match_score": 37.67
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "정부가",
+      "score": 24.1,
+      "article_count": 6,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "[전화성의 기술창업 Targeting] 〈417〉 [AC협회장 주간록127] 규제 지키는 산업에서 스스로 신뢰 만드는 산업으로",
+        "정부가 ‘지방차등 전기료’ 모델 삼았는데…스웨덴, 공급부작용에 정책 유턴",
+        "“공무원 AI 개발 실험 넘어 행정 현장으로”…정부, 확산 체계 마련"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "정부가 ‘지방차등 전기료’ 모델 삼았는데…스웨덴, 공급부작용에 정책 유턴",
+        "link": "https://www.mk.co.kr/news/economy/12215394",
+        "source": "매일경제-경제",
+        "published_dt": "2026-11-22 08:54:59",
+        "match_score": 28.66
+      },
+      "related_articles": [
+        {
+          "title": "정부가 ‘지방차등 전기료’ 모델 삼았는데…스웨덴, 공급부작용에 정책 유턴",
+          "link": "https://www.mk.co.kr/news/economy/12215394",
+          "source": "매일경제-경제",
+          "published_dt": "2026-11-22 08:54:59",
+          "match_score": 28.66
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "아파트",
+      "score": 29.6,
+      "article_count": 6,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "아파트 옆동 실거래가로 증여세 부과…법원 \"문제 없어\"",
+        "삼성물산 홈닉, 한양건설 아파트에 도입…입주민 주거서비스",
+        "서울 재개발·재건축 절반 이상 ‘초기 단계’ … 숫자로 본 공급 시간표 [손품100]"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "아파트 옆동 실거래가로 증여세 부과…법원 \"문제 없어\"",
+        "link": "https://www.yna.co.kr/view/AKR20261121025900004",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-11-22 09:00:04",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "아파트 옆동 실거래가로 증여세 부과…법원 \"문제 없어\"",
+          "link": "https://www.yna.co.kr/view/AKR20261121025900004",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-22 09:00:04",
+          "match_score": 37.67
+        },
+        {
+          "title": "삼성물산 홈닉, 한양건설 아파트에 도입…입주민 주거서비스",
+          "link": "https://www.yna.co.kr/view/AKR20261122020300003",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-22 11:23:44",
+          "match_score": 28.82
+        },
+        {
+          "title": "[매부리 PICK] 도로 위 아파트는 어떻게 가능했을까",
+          "link": "https://www.mk.co.kr/news/realestate/12215677",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-22 17:32:51",
+          "match_score": 28.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
