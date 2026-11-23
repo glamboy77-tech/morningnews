@@ -1,0 +1,307 @@
+{
+  "timestamp": "2026-11-24T06:01:40.418125",
+  "date": "20261124",
+  "data": {
+    "강금실": {
+      "articles": [
+        {
+          "title": "국정원장 강금실… 방미 앞두고 ‘자주파’ 교체",
+          "link": "https://www.chosun.com/politics/blue_house/2026/11/24/IGBP72H3ENGP5A3MDWWJPP3BLM/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-11-24 00:56:00",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "image_url": "",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "외교·안보라인 '자주파' 동반퇴진…대미관계 재정비에 방점",
+          "link": "https://www.yna.co.kr/view/AKR20261123134400504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-11-23 16:51:22",
+          "description": "(서울=연합뉴스) 김지헌 이은정 기자 = 청와대의 23일 외교·안보 라인 개각은 대북 관여 기조 흐름을 유지하면서도 &apos;난기류&apos;에 봉착한 한미관계...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "image_url": "https://img.yna.co.kr/photo/cms/2026/11/23/86/PCM20261123000186990_P2.jpg",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "[프로필] 강금실 국정원장 후보자…첫 여성 법무장관 출신",
+          "link": "https://www.yna.co.kr/view/AKR20261123129100004",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-11-23 15:41:08",
+          "description": "(서울=연합뉴스) 황재하 기자 = 강금실(69) 신임 국가정보원장 내정자는 판사 출신으로 노무현 정부 시절 헌정사상 최연소이자 최초의 여성 법무...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "image_url": "https://img.yna.co.kr/photo/yna/YH/2026/11/23/PYH2026112313970001300_P2.jpg",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "국정원장"
+    },
+    "젠슨 황": {
+      "articles": [
+        {
+          "title": "젠슨 황 복귀에 엔비디아 주가 31% 급등…AI 관련주 동반 반등",
+          "link": "https://www.aitimes.com/news/articleView.html?idxno=217709",
+          "source": "AI타임스",
+          "published_dt": "2026-11-24 14:22:38",
+          "description": "젠슨 황이 엔비디아 CEO로 복귀하자 주가가 31% 급등하며 시가총액이 약 9500억달러(약 1275조원) 증가했다. 최근 급락했던 AI 반도체와 데이터센터 관련주에도 매수세가 몰리면서 나스닥 지수가 6% 넘게 오르는 등 미국 증시가 큰 폭으로 반등했다.23일(현지시간) 미국 증시에서 엔비디아 주가는 오후 3시12분 기준 전 거래일보다 31.27% 오른 164.78달러에 거래됐다. 장중에는 171.50달러까지 상승하며 36% 넘는 상승률을 기록했다.이에 따라 엔비디아 시가총액은 약 4조달러 수준으로 회복했다. 하루 동안 늘어난 시가",
+          "category": "domestic",
+          "feed_url": "https://www.aitimes.com/rss/allArticle.xml",
+          "image_url": "",
+          "source_type": "tech",
+          "source_weight": 1.15,
+          "source_badge": "테크",
+          "deduped_sources": [
+            {
+              "source": "AI타임스",
+              "title": "젠슨 황 복귀 배경은…트럼프 개입·주가 폭락·후임자 난항",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217708"
+            },
+            {
+              "source": "AI타임스",
+              "title": "젠슨 황, 사임 11일 만에 엔비디아 CEO 복귀…트럼프 직접 개입",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217707"
+            },
+            {
+              "source": "AI타임스",
+              "title": "'네온'이 3주 만에 '카본'을 추월한 이유…구글 \"3개 세대 동시 개발\"",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217693"
+            },
+            {
+              "source": "AI타임스",
+              "title": "광주 상무역, AI로 열차 도착시간 예측…30초 남으면 표시 중단",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217697"
+            },
+            {
+              "source": "AI타임스",
+              "title": "광주 서구 직원들이 만든 AI 서비스 15종…구내식당 예약도 해결",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217694"
+            },
+            {
+              "source": "AI타임스",
+              "title": "오픈AI 연구책임자 \"AGI 달성까지 80% 진전…RSI는 25~50% 수준\"",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217703"
+            },
+            {
+              "source": "AI타임스",
+              "title": "뉴럴링크 뇌 칩 환자, 손가락 움직임 상상해 'GTA 6' 조작",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217704"
+            },
+            {
+              "source": "AI타임스",
+              "title": "\"AI 컨텍스트 창만 키워선 오답 못 줄여\"…정보 선별이 핵심",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217701"
+            },
+            {
+              "source": "AI타임스",
+              "title": "국산 AI칩 상용화 돕는다…광주 NPU센터 설립 추진",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217673"
+            },
+            {
+              "source": "AI타임스",
+              "title": "AI 에이전트가 CPU 아키텍처 직접 설계…전력 효율 4.59배 주장",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217705"
+            },
+            {
+              "source": "AI타임스",
+              "title": "애플, 실시간 영상 생성 AI ‘패스트프레임’ 공개...36ms 지연",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217686"
+            },
+            {
+              "source": "AI타임스",
+              "title": "엔비디아, 차량에서 직접 추론하는 자율주행 모델 '알파마요 2 엣지' 공개",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217700"
+            },
+            {
+              "source": "AI타임스",
+              "title": "폭염경보 방송까지 53분…광주, AI로 외국어 재난방송 자동화 추진",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217682"
+            },
+            {
+              "source": "AI타임스",
+              "title": "구글 AI 검색에 애플·레딧도 영향…검색 광고 수익성 저하",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217698"
+            },
+            {
+              "source": "AI타임스",
+              "title": "머스크, AI 업계 자금난 재차 경고...\"2027년 수천억달러 추가 필요\"",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217699"
+            },
+            {
+              "source": "AI타임스",
+              "title": "애플, 사진·영상 속 실제 거리 추정하는 AI '뎁스 프로 2' 공개",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217692"
+            },
+            {
+              "source": "AI타임스",
+              "title": "앤트로픽, IPO 은행에 오픈AI 업무 제한...월가 불만",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217689"
+            },
+            {
+              "source": "AI타임스",
+              "title": "KT, 한국수자원공사와 물관리 분야 피지컬AI 협력",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217690"
+            },
+            {
+              "source": "AI타임스",
+              "title": "뷰노, 안과용 '안저 판독보조 AI'로 남미 최대 의료시장 브라질 노크",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217687"
+            },
+            {
+              "source": "AI타임스",
+              "title": "한컴, '노마디안' 미국 사업 총괄에 빌 패닝 수석 부사장 영입",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217672"
+            },
+            {
+              "source": "AI타임스",
+              "title": "오픈AI 이사 \"1년 내 AI 재앙 위험 4%→10% 수준\"…개발 중단 촉구",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217696"
+            },
+            {
+              "source": "AI타임스",
+              "title": "AI 데이터센터 IPO 잇단 차질…데이원도 50억달러 미국 상장 보류",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217688"
+            },
+            {
+              "source": "AI타임스",
+              "title": "캘리포니아, 엔비디아 형사법 위반 가능성 조사...불법 수익 환수도 검토",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217680"
+            },
+            {
+              "source": "AI타임스",
+              "title": "래블업, 미국 시장 겨냥 현지 인사이트 엔터프라이즈와 맞손",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217685"
+            },
+            {
+              "source": "AI타임스",
+              "title": "중국 AI 열풍 급랭...5개월간 기술주 시총 2300조 증발",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217683"
+            },
+            {
+              "source": "AI타임스",
+              "title": "앨리스 황 뒤 숨은 실세 기소...엔비디아 칩 중국 유출 거래망 주도",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217678"
+            },
+            {
+              "source": "AI타임스",
+              "title": "AI 안경 '몰래 촬영' 막는다…촬영 표시·사적 촬영 고지 의무화 추진",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217681"
+            },
+            {
+              "source": "AI타임스",
+              "title": "미 재무장관, 젠슨 황 복귀 여부에 \"수출 규제 위반부터 확인해야\"",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217675"
+            },
+            {
+              "source": "AI타임스",
+              "title": "비드래프트, AI 보안 커널 공개 검증…70명 참가해 공격 사례 245건 제출",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217670"
+            },
+            {
+              "source": "AI타임스",
+              "title": "남호주, 폭풍에 2만4000곳 정전…지붕형 태양광 가동 중단 요청",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217677"
+            },
+            {
+              "source": "AI타임스",
+              "title": "EU, 태양전지 제조기술에 531억원 지원…12월부터 공모 시작",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217667"
+            },
+            {
+              "source": "AI타임스",
+              "title": "인도네시아 태양광 1.59GWp…2029년 96.7GWp 확대 시나리오",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217666"
+            },
+            {
+              "source": "AI타임스",
+              "title": "[AI리더의 서가] The RLHF Book 한국어판",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217619"
+            },
+            {
+              "source": "AI타임스",
+              "title": "오픈AI \"사전학습으로 AI 지능 급성장…RSI 대비해 개발 제한해야\"",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217665"
+            },
+            {
+              "source": "AI타임스",
+              "title": "알트먼, 메타의 딥페이크 영상에 등장…메타 \"정책 위반 아니다\"",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217664"
+            },
+            {
+              "source": "AI타임스",
+              "title": "오픈AI \"AI가 연구 작업 절반 스스로 완료\"…7개월 만에 성공률 2배",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217657"
+            },
+            {
+              "source": "AI타임스",
+              "title": "[AI 이슈트렌드] 수능 AI 부정행위 논란 속 한덕수 판결 주목…앤트로픽 상장에도 기술주 약세",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217662"
+            },
+            {
+              "source": "AI타임스",
+              "title": "젠슨 황의 '악수 거래', 엔비디아 경영 위험으로…공급망 유지 시험대",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217663"
+            }
+          ],
+          "priority_score": 6,
+          "sector": "반도체",
+          "related_full_sources": []
+        },
+        {
+          "title": "[속보]뉴욕증시, 젠슨 황 CEO 복귀에 상승 출발…엔비디아 30% 가까이 폭등",
+          "link": "https://www.donga.com/news/Inter/article/all/20261123/135077762/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-23 23:59:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/23/135077763.1.jpg\" vspace=\"10\" />23일(현지 시간) 미국 뉴욕증시가 젠슨 황 엔비디아 최고경영자(CEO) 복귀 소식에 일제히 상승 출발했다.CNBC 등에 따르면 스탠더드앤드푸어스(S&amp;P) 500 지수는 한국 시간 23일 오후 11시45분께 전장 대비 317.82포인트(4.60%) 오른 7228.21에 거래되고 있다.다우존스30산업평균지수(DJIA)는 1150.54포인트(2.39%) 오른 4만9297.87에, 기술주 중심의 나스닥 지수는 1475.67포인트(6.52%) 뛴 2만4093.41에 거래 중이다.엔비디아는 이날 젠슨 황의 CEO 복귀 소식에 29% 넘게 뛰었다.엔비디아 이사회는 이날 미국 정부 고위 관계자들의 의견을 수렴했으며 황 CEO 복귀가 국가 안보에 어떤 위협도 되지 않는다고 판단했다고 전했다.젠슨 황은 중국 스파이로 의심되는 여성 사업가 앨리스 황과 혼외 관계를 맺었다는 의혹 등에 지난 13일 사임한 바 있다.엔비디아의 폭등세에 다른 인공지능(AI) 종목에도 훈풍이 불었다. 코어",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "image_url": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/23/135077763.1.jpg",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "[속보]젠슨 황, 엔비디아 CEO 전격 복귀…이사회 “안보위협 없어”",
+          "link": "https://www.donga.com/news/Inter/article/all/20261123/135077667/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-23 23:10:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/23/135077674.1.jpg\" vspace=\"10\" />젠슨 황, 엔비디아 CEO 전격 복귀…이사회 “안보위협 없어”",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "image_url": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/23/135077674.1.jpg",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "엔비디아 CEO"
+    }
+  }
+}

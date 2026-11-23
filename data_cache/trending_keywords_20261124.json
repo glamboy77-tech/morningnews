@@ -1,0 +1,514 @@
+{
+  "timestamp": "2026-11-24T06:01:50.430155",
+  "date": "20261124",
+  "data": [
+    {
+      "keyword": "매출 허위 계상",
+      "reason": "금융위 과징금 부과 사건 보도",
+      "score": 34.67,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "금융위, '매출 허위 계상' 피델릭스·관계자에 과징금 3.7억"
+      ],
+      "representative_article": {
+        "title": "금융위, '매출 허위 계상' 피델릭스·관계자에 과징금 3.7억",
+        "link": "https://www.yna.co.kr/view/AKR20261123156800002",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-11-23 17:40:57",
+        "match_score": 34.67
+      },
+      "related_articles": [
+        {
+          "title": "금융위, '매출 허위 계상' 피델릭스·관계자에 과징금 3.7억",
+          "link": "https://www.yna.co.kr/view/AKR20261123156800002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-23 17:40:57",
+          "match_score": 34.67
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "반도체",
+      "score": 49.3,
+      "article_count": 9,
+      "source_count": 5,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "반도체 수출이 경상흑자 키웠지만…대외연 “투자부진도 흑자 한몫”",
+        "산업연구원 \"내년 수출 1조3천억달러…반도체 비중 51% 전망\"",
+        "젠슨 황 복귀에 엔비디아 주가 31% 급등…AI 관련주 동반 반등"
+      ],
+      "llm_candidate": false,
+      "rank": 2,
+      "representative_article": {
+        "title": "반도체 수출이 경상흑자 키웠지만…대외연 “투자부진도 흑자 한몫”",
+        "link": "https://www.mk.co.kr/news/economy/12216252",
+        "source": "매일경제-경제",
+        "published_dt": "2026-11-23 16:18:53",
+        "match_score": 37.66
+      },
+      "related_articles": [
+        {
+          "title": "반도체 수출이 경상흑자 키웠지만…대외연 “투자부진도 흑자 한몫”",
+          "link": "https://www.mk.co.kr/news/economy/12216252",
+          "source": "매일경제-경제",
+          "published_dt": "2026-11-23 16:18:53",
+          "match_score": 37.66
+        },
+        {
+          "title": "삼성전자·SK하이닉스 하락에도 SFA반도체 12% 급등…엇갈린 시스템반도체주 무슨일? - 핀포인트뉴스",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBfZGZNdzVGRkRQM0pqaGtSSlMtSmxwcHRhTE1raUpTcnhTNGo0aTI5ZTNaWWZ0NHctZ0NPTmZYemQ0WVRVRTg2UHJ5Y3NtSWctenM5ZzZzckllSi0ta240NzFsUUkzcEdwTFJBQ1JnT0gybDNwV1ZV0gF3QVVfeXFMUF9kZk13NUZGRFAzSmpoa1JKUy1KbHBwdGFMTWtpSlNyeFM0ajRpMjllM1pZZnQ0dy1nQ09OZlh6ZDRZVFVFODZQcnljc21JZy16czlnNnNySWVKLS1rbjQ3MWxRSTNwR3BMUkFDUmdPSDJsM3BXVlU?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-11-23 15:08:20",
+          "match_score": 36.96
+        },
+        {
+          "title": "AI 병목 풀 '빛의 반도체'…삼성·SK하이닉스, CPO 선점 경쟁 - 데일리한국",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9sZHBVNGZ5VzEwWjZFaHlORkhSQUZfRTdUdEh1TEVSVm1uYzQ3eDZGV2k4d3FTM01nTWxRd0dFZVpuNFJFZXNBSFNRSkJPQ3RmV0I0UmxFczI3YmtqaFZMTGp2T2I5RnN2LWM4eV9ySdIBc0FVX3lxTE8tZjJVMkxPMUZMTmIyblBpLW5pN3dtcnJpNU45eDdTblFRUEtEdVNhbTRVcml2RGplUUtqODAwbFd6S2tkTzRfQTJRZkFLbkNiaDNNSjNoc0puY0NLbU92NVhoOFlsb2RjMWZKSnZFZ1FJaTQ?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-11-23 15:05:56",
+          "match_score": 36.96
+        },
+        {
+          "title": "반도체 넘어 청년 창업으로...SK하이닉스의 청주 상생 - 공공뉴스",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1lNkVtdE53RWJuVnNOOC05N09lUE5PUFlwbWxlZ1plWm02Umlidk5LREN3ZzJETk5BampjY3VBRi1CcGtObFRreWZUcW1sLUpBWWVpTWNkRmNob0dyOXVuS01oV051LWRaNUtV0gFuQVVfeXFMUEItT3gyM0h0RTRJWGdXNlE1UWJPakhPOXRwR1RnU3h0aWVKQVVzNVNubW1FTk9MR3BHSDQ3QUtMaGNpeE5NNmlkRHM4Ri15UG5faFU4aXVoSkRQVTQ4RVJYclB1TkQzSGVUam9LLWc?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-11-23 13:35:24",
+          "match_score": 36.96
+        },
+        {
+          "title": "[산업썰전] SK하이닉스 현금 114조 쌓았지만 투자계획은 1100조…반도체 불황 오면 버틸 수 있나 - 핀포인트뉴스",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5yX0F6cExYNUY3S3BJejlIVTJFSnFQSmlZckxxbzF2T1ZKRUh2TmxBNkphUjIzM2h5UHE1SzJXaXN4VUJKb3Y3d0pCVy13MWwtc0YxT0VmQTIxM0RZNEtqcU5MSngtZXllT0NuWlRhamZtM0XSAXdBVV95cUxOLXpXQl9WcHpraXlEOEFJUTZfazZ5eFhKMVM0NmJCd2tJQXJNRTNzRkRnTTVQY0g0UEEzOVRUOUJXUVdOT0ZRRHJmTWQybllCVTBvZUtkVXE2YkwtRlpoU2pjTjBLaUhHTC1xYUN1X2hpMjBTVFJiaw?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-11-23 10:25:23",
+          "match_score": 36.96
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "삼성전자",
+      "score": 31.3,
+      "article_count": 7,
+      "source_count": 5,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "글로벌IB, 삼전닉스 목표가 잇달아 하향…2028년 업황 둔화 우려",
+        "메모리값 급등… 저가폰 박리다매 전략 바뀐다",
+        "삼전닉스, 6%대 급락하다 2~3% 하락 마감…3~4월 수준으로 후퇴(종합)"
+      ],
+      "llm_candidate": false,
+      "rank": 3,
+      "representative_article": {
+        "title": "삼성전자·SK하이닉스 하락에도 SFA반도체 12% 급등…엇갈린 시스템반도체주 무슨일? - 핀포인트뉴스",
+        "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBfZGZNdzVGRkRQM0pqaGtSSlMtSmxwcHRhTE1raUpTcnhTNGo0aTI5ZTNaWWZ0NHctZ0NPTmZYemQ0WVRVRTg2UHJ5Y3NtSWctenM5ZzZzckllSi0ta240NzFsUUkzcEdwTFJBQ1JnT0gybDNwV1ZV0gF3QVVfeXFMUF9kZk13NUZGRFAzSmpoa1JKUy1KbHBwdGFMTWtpSlNyeFM0ajRpMjllM1pZZnQ0dy1nQ09OZlh6ZDRZVFVFODZQcnljc21JZy16czlnNnNySWVKLS1rbjQ3MWxRSTNwR3BMUkFDUmdPSDJsM3BXVlU?oc=5",
+        "source": "키워드-반도체AI",
+        "published_dt": "2026-11-23 15:08:20",
+        "match_score": 36.96
+      },
+      "related_articles": [
+        {
+          "title": "삼성전자·SK하이닉스 하락에도 SFA반도체 12% 급등…엇갈린 시스템반도체주 무슨일? - 핀포인트뉴스",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBfZGZNdzVGRkRQM0pqaGtSSlMtSmxwcHRhTE1raUpTcnhTNGo0aTI5ZTNaWWZ0NHctZ0NPTmZYemQ0WVRVRTg2UHJ5Y3NtSWctenM5ZzZzckllSi0ta240NzFsUUkzcEdwTFJBQ1JnT0gybDNwV1ZV0gF3QVVfeXFMUF9kZk13NUZGRFAzSmpoa1JKUy1KbHBwdGFMTWtpSlNyeFM0ajRpMjllM1pZZnQ0dy1nQ09OZlh6ZDRZVFVFODZQcnljc21JZy16czlnNnNySWVKLS1rbjQ3MWxRSTNwR3BMUkFDUmdPSDJsM3BXVlU?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-11-23 15:08:20",
+          "match_score": 36.96
+        },
+        {
+          "title": "AI 데이터서버 가격 높아져도 수요 강력, 삼성전자 SK하이닉스 호황 지속 청신호 - 비즈니스포스트",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5OczdZM09qMHRzV1JwVW5KNDdDVlN3TU5PSDRob2Y5UEh0aDVCMWRrYndxQ1Q3RmMtTkk0NWd2eXg2TXE2MnBLRnJ3bkkwN2p6X285VGNjMWo5aWJ6eE4tendnLTVoSFdCSE44cC1EV3FaUkU?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-11-23 11:37:31",
+          "match_score": 36.96
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재건축",
+      "score": 40.9,
+      "article_count": 7,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "“삼성·현대·대우가 나눠 가졌다”···여의도 재건축 수주 지도 - 시사저널e",
+        "GS건설, 1.8조원 규모 목동12단지 재건축 수주",
+        "건설사 5곳 모두 외면한 산본…1기 신도시 재건축 속도 1위였는데, 왜?"
+      ],
+      "llm_candidate": false,
+      "rank": 4,
+      "representative_article": {
+        "title": "GS건설, 1.8조원 규모 목동12단지 재건축 수주",
+        "link": "https://www.mk.co.kr/news/realestate/12216070",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-11-23 14:14:23",
+        "match_score": 38.09
+      },
+      "related_articles": [
+        {
+          "title": "GS건설, 1.8조원 규모 목동12단지 재건축 수주",
+          "link": "https://www.mk.co.kr/news/realestate/12216070",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-23 14:14:23",
+          "match_score": 38.09
+        },
+        {
+          "title": "건설사 5곳 모두 외면한 산본…1기 신도시 재건축 속도 1위였는데, 왜?",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/11/23/2026112301653.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-11-23 20:42:54",
+          "match_score": 38.09
+        },
+        {
+          "title": "쌍용건설, 부산 1호선·동해선 더블역세권 '거제2구역' 재건축 수주",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/11/23/2026112301889.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-11-23 15:30:23",
+          "match_score": 38.09
+        },
+        {
+          "title": "“삼성·현대·대우가 나눠 가졌다”···여의도 재건축 수주 지도 - 시사저널e",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5tdnNOMk1jX05HYnpkbmFzNXk2b0JudGxQYVJlWVFDYXJGa0hlQlA3UHdtMnpYQ2cxdU1aSVU1WWl6U2huRkMxT3c2aHhubkhnLVM5SkNTdVpodlg3SzYyUVR5a2dzUm5zZ2NoTWJnMmRNdV9qZkHSAXZBVV95cUxObXZzTjJNY19OR2J6ZG5hczV5Nm9CbnRsUGFSZVlRQ2FyRmtIZUJQN1B3bTJ6WENnMXVNWklVNVlpelNobkZDMU93Nmh4bm5IZy1TOUpDU3VaaHZYN0s2MlFUeWtnc1Juc2djaE1iZzJkTXVfamZB?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-11-23 17:47:56",
+          "match_score": 37.71
+        },
+        {
+          "title": "GS건설, 목동12단지 재건축 수주...목동 첫 '자이' - 뉴스핌",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5xa08tT0E2dU94NnQycVJiYmxVbUQ2UU9DaG14Q1NYdTZ1QS1TLVNfdnRjT1cyT251MFk2M2lYa0pjMUEycXlBVU04ZVZSNzVuU2Q5b1Y5TmRranA0?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-11-23 16:52:00",
+          "match_score": 37.71
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "SK하이닉스",
+      "score": 38.5,
+      "article_count": 7,
+      "source_count": 3,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "글로벌IB, 삼전닉스 목표가 잇달아 하향…2028년 업황 둔화 우려",
+        "삼전닉스, 6%대 급락하다 2~3% 하락 마감…3~4월 수준으로 후퇴(종합)",
+        "삼성전자·SK하이닉스 하락에도 SFA반도체 12% 급등…엇갈린 시스템반도체주 무슨일? - 핀포인트뉴스"
+      ],
+      "llm_candidate": false,
+      "rank": 5,
+      "representative_article": {
+        "title": "삼성전자·SK하이닉스 하락에도 SFA반도체 12% 급등…엇갈린 시스템반도체주 무슨일? - 핀포인트뉴스",
+        "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBfZGZNdzVGRkRQM0pqaGtSSlMtSmxwcHRhTE1raUpTcnhTNGo0aTI5ZTNaWWZ0NHctZ0NPTmZYemQ0WVRVRTg2UHJ5Y3NtSWctenM5ZzZzckllSi0ta240NzFsUUkzcEdwTFJBQ1JnT0gybDNwV1ZV0gF3QVVfeXFMUF9kZk13NUZGRFAzSmpoa1JKUy1KbHBwdGFMTWtpSlNyeFM0ajRpMjllM1pZZnQ0dy1nQ09OZlh6ZDRZVFVFODZQcnljc21JZy16czlnNnNySWVKLS1rbjQ3MWxRSTNwR3BMUkFDUmdPSDJsM3BXVlU?oc=5",
+        "source": "키워드-반도체AI",
+        "published_dt": "2026-11-23 15:08:20",
+        "match_score": 42.36
+      },
+      "related_articles": [
+        {
+          "title": "삼성전자·SK하이닉스 하락에도 SFA반도체 12% 급등…엇갈린 시스템반도체주 무슨일? - 핀포인트뉴스",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBfZGZNdzVGRkRQM0pqaGtSSlMtSmxwcHRhTE1raUpTcnhTNGo0aTI5ZTNaWWZ0NHctZ0NPTmZYemQ0WVRVRTg2UHJ5Y3NtSWctenM5ZzZzckllSi0ta240NzFsUUkzcEdwTFJBQ1JnT0gybDNwV1ZV0gF3QVVfeXFMUF9kZk13NUZGRFAzSmpoa1JKUy1KbHBwdGFMTWtpSlNyeFM0ajRpMjllM1pZZnQ0dy1nQ09OZlh6ZDRZVFVFODZQcnljc21JZy16czlnNnNySWVKLS1rbjQ3MWxRSTNwR3BMUkFDUmdPSDJsM3BXVlU?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-11-23 15:08:20",
+          "match_score": 42.36
+        },
+        {
+          "title": "AI 병목 풀 '빛의 반도체'…삼성·SK하이닉스, CPO 선점 경쟁 - 데일리한국",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9sZHBVNGZ5VzEwWjZFaHlORkhSQUZfRTdUdEh1TEVSVm1uYzQ3eDZGV2k4d3FTM01nTWxRd0dFZVpuNFJFZXNBSFNRSkJPQ3RmV0I0UmxFczI3YmtqaFZMTGp2T2I5RnN2LWM4eV9ySdIBc0FVX3lxTE8tZjJVMkxPMUZMTmIyblBpLW5pN3dtcnJpNU45eDdTblFRUEtEdVNhbTRVcml2RGplUUtqODAwbFd6S2tkTzRfQTJRZkFLbkNiaDNNSjNoc0puY0NLbU92NVhoOFlsb2RjMWZKSnZFZ1FJaTQ?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-11-23 15:05:56",
+          "match_score": 42.36
+        },
+        {
+          "title": "반도체 넘어 청년 창업으로...SK하이닉스의 청주 상생 - 공공뉴스",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1lNkVtdE53RWJuVnNOOC05N09lUE5PUFlwbWxlZ1plWm02Umlidk5LREN3ZzJETk5BampjY3VBRi1CcGtObFRreWZUcW1sLUpBWWVpTWNkRmNob0dyOXVuS01oV051LWRaNUtV0gFuQVVfeXFMUEItT3gyM0h0RTRJWGdXNlE1UWJPakhPOXRwR1RnU3h0aWVKQVVzNVNubW1FTk9MR3BHSDQ3QUtMaGNpeE5NNmlkRHM4Ri15UG5faFU4aXVoSkRQVTQ4RVJYclB1TkQzSGVUam9LLWc?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-11-23 13:35:24",
+          "match_score": 42.36
+        },
+        {
+          "title": "AI 데이터서버 가격 높아져도 수요 강력, 삼성전자 SK하이닉스 호황 지속 청신호 - 비즈니스포스트",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5OczdZM09qMHRzV1JwVW5KNDdDVlN3TU5PSDRob2Y5UEh0aDVCMWRrYndxQ1Q3RmMtTkk0NWd2eXg2TXE2MnBLRnJ3bkkwN2p6X285VGNjMWo5aWJ6eE4tendnLTVoSFdCSE44cC1EV3FaUkU?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-11-23 11:37:31",
+          "match_score": 42.36
+        },
+        {
+          "title": "[산업썰전] SK하이닉스 현금 114조 쌓았지만 투자계획은 1100조…반도체 불황 오면 버틸 수 있나 - 핀포인트뉴스",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5yX0F6cExYNUY3S3BJejlIVTJFSnFQSmlZckxxbzF2T1ZKRUh2TmxBNkphUjIzM2h5UHE1SzJXaXN4VUJKb3Y3d0pCVy13MWwtc0YxT0VmQTIxM0RZNEtqcU5MSngtZXllT0NuWlRhamZtM0XSAXdBVV95cUxOLXpXQl9WcHpraXlEOEFJUTZfazZ5eFhKMVM0NmJCd2tJQXJNRTNzRkRnTTVQY0g0UEEzOVRUOUJXUVdOT0ZRRHJmTWQybllCVTBvZUtkVXE2YkwtRlpoU2pjTjBLaUhHTC1xYUN1X2hpMjBTVFJiaw?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-11-23 10:25:23",
+          "match_score": 42.36
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "데이터",
+      "score": 27.0,
+      "article_count": 6,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "NH증권, 맞춤형 투자전략 제공 'AI 로보어드바이저 서비스' 출시",
+        "개인정보위, 한전 152만명 개인정보 유출 조사 착수",
+        "국가통합바이오빅데이터 1차 개방…12만명 연구 데이터 활용 길 열려"
+      ],
+      "llm_candidate": false,
+      "rank": 6,
+      "representative_article": {
+        "title": "국가통합바이오빅데이터 1차 개방…12만명 연구 데이터 활용 길 열려",
+        "link": "https://www.etnews.com/20261123000268",
+        "source": "전자신문",
+        "published_dt": "2026-11-23 16:00:00",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "국가통합바이오빅데이터 1차 개방…12만명 연구 데이터 활용 길 열려",
+          "link": "https://www.etnews.com/20261123000268",
+          "source": "전자신문",
+          "published_dt": "2026-11-23 16:00:00",
+          "match_score": 37.49
+        },
+        {
+          "title": "AI 데이터서버 가격 높아져도 수요 강력, 삼성전자 SK하이닉스 호황 지속 청신호 - 비즈니스포스트",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5OczdZM09qMHRzV1JwVW5KNDdDVlN3TU5PSDRob2Y5UEh0aDVCMWRrYndxQ1Q3RmMtTkk0NWd2eXg2TXE2MnBLRnJ3bkkwN2p6X285VGNjMWo5aWJ6eE4tendnLTVoSFdCSE44cC1EV3FaUkU?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-11-23 11:37:31",
+          "match_score": 36.96
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "부동산",
+      "score": 28.3,
+      "article_count": 6,
+      "source_count": 3,
+      "categories": [
+        "기업/산업",
+        "부동산",
+        "정치"
+      ],
+      "sample_titles": [
+        "오세훈, 내일 국무회의 참석…대통령에 부동산·현안 등 건의",
+        "\"PF규제로 디벨로퍼 지형 흔들…주택공급 위축 우려\"",
+        "JLL코리아 기획·시공 참여한 유한양행 ‘윌로우하우스’ 대한민국 공간문화대상 수상"
+      ],
+      "llm_candidate": false,
+      "rank": 7,
+      "representative_article": {
+        "title": "영등포구 문래동6가 현대1차 64.38㎡ 10억 7300만원… 최근 3년 신고가 [MAI부동산]",
+        "link": "https://www.mk.co.kr/news/realestate/12215864",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-11-23 10:03:21",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "영등포구 문래동6가 현대1차 64.38㎡ 10억 7300만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12215864",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-23 10:03:21",
+          "match_score": 37.49
+        },
+        {
+          "title": "오세훈, 내일 국무회의 참석…대통령에 부동산·현안 등 건의",
+          "link": "https://www.yna.co.kr/view/AKR20261123154300004",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-11-23 17:39:54",
+          "match_score": 28.68
+        },
+        {
+          "title": "[11/23, 매경부동산 추천매물] 압구정 현대APT 앞 학원·메디컬 빌딩 급매가 280억원 등",
+          "link": "https://www.mk.co.kr/news/realestate/12215804",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-23 08:38:43",
+          "match_score": 28.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "코스피",
+      "score": 34.2,
+      "article_count": 5,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "수출 1조달러 위업 이뤄낸 한국…코스피 우(憂) 범하지 않으려면 [기자24시]",
+        "\"과매도…최악의 경우 코스피 3,000 후반까지\" 리서치센터장 긴급진단(종합)",
+        "급락에 쪼그라든 코스피…고점 대비 반토막·올 수익률 11%로 뚝"
+      ],
+      "llm_candidate": false,
+      "rank": 8,
+      "representative_article": {
+        "title": "\"과매도…최악의 경우 코스피 3,000 후반까지\" 리서치센터장 긴급진단(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261123075951008",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-11-23 16:41:33",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "\"과매도…최악의 경우 코스피 3,000 후반까지\" 리서치센터장 긴급진단(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261123075951008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-23 16:41:33",
+          "match_score": 37.67
+        },
+        {
+          "title": "급락에 쪼그라든 코스피…고점 대비 반토막·올 수익률 11%로 뚝",
+          "link": "https://www.yna.co.kr/view/AKR20261123140200008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-23 16:29:45",
+          "match_score": 37.67
+        },
+        {
+          "title": "한미 증시 도미노 급락 속 또 출렁…코스피, 고점 대비 반토막(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261123064951008",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-11-23 16:08:28",
+          "match_score": 37.67
+        },
+        {
+          "title": "코스피 5% 폭락에 매도 사이드카…장중 4500선까지 - 한겨레",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE91Z1EyaE0xU2ttdmZsYW11ZkkzZU9IdmRVZWp1am0xbjY1Y0FJN2w0UE5nRmJrS2pYSV9EbkNvUFFpRkVKREF2NFNFTEJNcGU4bTlabnhHN0JCVmZ4Qk9BbS1OejZUcjA?oc=5",
+          "source": "키워드-금리환율코스피",
+          "published_dt": "2026-11-23 15:13:00",
+          "match_score": 36.96
+        },
+        {
+          "title": "수출 1조달러 위업 이뤄낸 한국…코스피 우(憂) 범하지 않으려면 [기자24시]",
+          "link": "https://www.mk.co.kr/news/economy/12216435",
+          "source": "매일경제-경제",
+          "published_dt": "2026-11-23 17:54:47",
+          "match_score": 28.66
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "금융위",
+      "score": 31.1,
+      "article_count": 5,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "금융위, '매출 허위 계상' 피델릭스·관계자에 과징금 3.7억",
+        "카드뉴스 - 홍보자료 - 알림마당 - 금융위원회",
+        "상장사 자사주 1일 취득 한도 3개월간 풀린다…증시 안정 차원"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "카드뉴스 - 홍보자료 - 알림마당 - 금융위원회",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1VWjY5cnNJVjBKblZWdjVwQjZPejJwMDlIN1c4eEViSEFqVjFlYkpjcUZrZ01vQ1lvRGd2aVA3QWpMMWtlTVV2SnlwUUdpMWpTN3c?oc=5",
+        "source": "공식-금융위원회",
+        "published_dt": "2026-11-23 10:51:44",
+        "match_score": 38.2
+      },
+      "related_articles": [
+        {
+          "title": "카드뉴스 - 홍보자료 - 알림마당 - 금융위원회",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1VWjY5cnNJVjBKblZWdjVwQjZPejJwMDlIN1c4eEViSEFqVjFlYkpjcUZrZ01vQ1lvRGd2aVA3QWpMMWtlTVV2SnlwUUdpMWpTN3c?oc=5",
+          "source": "공식-금융위원회",
+          "published_dt": "2026-11-23 10:51:44",
+          "match_score": 38.2
+        },
+        {
+          "title": "금융위, '매출 허위 계상' 피델릭스·관계자에 과징금 3.7억",
+          "link": "https://www.yna.co.kr/view/AKR20261123156800002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-23 17:40:57",
+          "match_score": 37.67
+        },
+        {
+          "title": "금융위, 롯데카드에 10억원 과징금…유출위험 공시 불충분 판단",
+          "link": "https://www.yna.co.kr/view/AKR20261123149500002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-23 17:17:37",
+          "match_score": 37.67
+        },
+        {
+          "title": "금융위 “동남권투자공사, 자금 50% 이상 범동남권 우선 공급”",
+          "link": "https://www.mk.co.kr/news/economy/12216057",
+          "source": "매일경제-경제",
+          "published_dt": "2026-11-23 13:55:38",
+          "match_score": 37.66
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "CEO",
+      "score": 25.1,
+      "article_count": 5,
+      "source_count": 3,
+      "categories": [
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "젠슨 황 복귀에 엔비디아 주가 31% 급등…AI 관련주 동반 반등",
+        "“내년에 AI기업 엄청난 현금부족 사태 직면할 것”…머스크, 섬뜩한 경고 날렸다, 왜?",
+        "中 등으로 불법수출 급증… 9월까지 1.5조 적발, 작년 총액 2.4배"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "[속보]뉴욕증시, 젠슨 황 CEO 복귀에 상승 출발…엔비디아 30% 가까이 폭등",
+        "link": "https://www.donga.com/news/Inter/article/all/20261123/135077762/1",
+        "source": "동아일보-국제",
+        "published_dt": "2026-11-23 23:59:00",
+        "match_score": 37.3
+      },
+      "related_articles": [
+        {
+          "title": "[속보]뉴욕증시, 젠슨 황 CEO 복귀에 상승 출발…엔비디아 30% 가까이 폭등",
+          "link": "https://www.donga.com/news/Inter/article/all/20261123/135077762/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-23 23:59:00",
+          "match_score": 37.3
+        },
+        {
+          "title": "[속보]젠슨 황, 엔비디아 CEO 전격 복귀…이사회 “안보위협 없어”",
+          "link": "https://www.donga.com/news/Inter/article/all/20261123/135077667/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-23 23:10:00",
+          "match_score": 37.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
