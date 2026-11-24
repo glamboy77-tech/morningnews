@@ -1,0 +1,320 @@
+{
+  "timestamp": "2026-11-25T06:01:45.386794",
+  "date": "20261125",
+  "data": {
+    "젠슨 황": {
+      "articles": [
+        {
+          "title": "증안 펀드보다 강력했던 ‘젠슨 황 효과’",
+          "link": "https://www.chosun.com/economy/money/2026/11/25/EU3HCVNS6JA4PNWZ4Z7KHABYZM/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-11-25 00:43:00",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/economy/?outputType=xml",
+          "image_url": "https://www.chosun.com/resizer/v2/FHAK4BADNFGARLPPUQ2SWTE36U.jpg?auth=0d6bd5d306e2be89f581d1678a7d9849aea4f23456541ac28c385cedbc208c27&smart=true&width=6000&height=3916",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "젠슨 황, 복귀 후 첫 직원회의서 사과…복귀 정당성 강조",
+          "link": "https://www.aitimes.com/news/articleView.html?idxno=217752",
+          "source": "AI타임스",
+          "published_dt": "2026-11-25 14:55:29",
+          "description": "젠슨 황 엔비디아 CEO가 복귀 후 첫 전 직원회의에서 회사 행동 강령 위반을 인정하고 사과했으며, 심리 치료와 경영 방식 개선 등 재발 방지 대책을 공개했다. 또 자신이 특별 대우를 받거나 도널드 트럼프 미국 대통령의 압력으로 복귀한 것이 아니라 이사회의 판단에 따른 결정이었다고 강조했다.월스트리트저널(WSJ)과 로이터 등은 24일(현지시간) 황 CEO가 미국 캘리포니아주 산타클라라 본사에서 약 한 시간 동안 전 직원회의를 열고 자신의 행동과 복귀 과정에 대해 설명했다고 보도했다.황 CEO는 자신이 회사 행동 강령을 위반했으며 \"",
+          "category": "domestic",
+          "feed_url": "https://www.aitimes.com/rss/allArticle.xml",
+          "image_url": "",
+          "source_type": "tech",
+          "source_weight": 1.15,
+          "source_badge": "테크",
+          "deduped_sources": [
+            {
+              "source": "AI타임스",
+              "title": "앤트로픽, ‘클로드 십’ 출시…코드 검토부터 수정·승인까지 자동화",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217729"
+            },
+            {
+              "source": "AI타임스",
+              "title": "내년 정부 AI 예산 1.6배 확대…풀스택 AX 수출 추진",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217751"
+            },
+            {
+              "source": "AI타임스",
+              "title": "Z.ai, ‘GLM-5.4’에 루프 트랜스포머 적용…오픈AI 이어 반복 연산 경쟁",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217728"
+            },
+            {
+              "source": "AI타임스",
+              "title": "삼성SDS, 임원 인사 AX 진용 재편…부사장 4명·상무 6명 승진",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217750"
+            },
+            {
+              "source": "AI타임스",
+              "title": "젠슨 황 부활에 국내 AI 인프라 서비스 관련 주가도 반등",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217749"
+            },
+            {
+              "source": "AI타임스",
+              "title": "AWS “클라우드 사용자, 사람 아닌 에이전트”…CPU 인프라 강화 나선다",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217735"
+            },
+            {
+              "source": "AI타임스",
+              "title": "멤텐서·엔비디아, 기억 내장 AI ‘멤T-1.0 프로’ 공개…과거 대화 재입력 줄인다",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217746"
+            },
+            {
+              "source": "AI타임스",
+              "title": "말레이시아, 미국 제재 기업 데이터센터 제한…싱가포르도 칩 우회 차단",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217748"
+            },
+            {
+              "source": "AI타임스",
+              "title": "구글, AI 검색에 월렛·드라이브 연결…결제 내역·개인 문서까지 활용",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217741"
+            },
+            {
+              "source": "AI타임스",
+              "title": "미국, 알리바바 계열사도 블랙리스트 등재…알리바바 \"법적 대응\"",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217730"
+            },
+            {
+              "source": "AI타임스",
+              "title": "아마존, 데카르트의 'AI 최적화' 기술 10조원에 인수…창업자도 영입",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217732"
+            },
+            {
+              "source": "AI타임스",
+              "title": "고객 서비스 AI 기업 시에라, 17.5억달러 투자 유치…기업가치 두 배로",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217747"
+            },
+            {
+              "source": "AI타임스",
+              "title": "지방소멸 대응에 AI 꺼낸 강진군…직원 72% 활용에 인사평가까지 개편",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217744"
+            },
+            {
+              "source": "AI타임스",
+              "title": "미 2개 주, 그록의 아동 성착취물 생성 문제로 스페이스X 제소",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217740"
+            },
+            {
+              "source": "AI타임스",
+              "title": "엔비디아 CEO 후보였던 르네 하스, Arm CEO 2033년까지 연임",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217738"
+            },
+            {
+              "source": "AI타임스",
+              "title": "오픈AI 전 엔지니어, 내부 회의 160시간 녹음…코덱스까지 활용",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217731"
+            },
+            {
+              "source": "AI타임스",
+              "title": "황 CEO 복귀에 앤트로픽 주가 역주행…오픈웨이트 경쟁 부담",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217734"
+            },
+            {
+              "source": "AI타임스",
+              "title": "전남광주 AI·디지털 교육에 948억원 편성…568억원은 학생용 기기 지원",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217715"
+            },
+            {
+              "source": "AI타임스",
+              "title": "정부, 중소 제조기업 AI 도입 지원 확대…데이터 수집에도 최대 5000만원",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217723"
+            },
+            {
+              "source": "AI타임스",
+              "title": "전남 의과 공보의 3년 새 반토막…AI 진단·전문의 원격협진 추진",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217736"
+            },
+            {
+              "source": "AI타임스",
+              "title": "[AI 모델 신작] 호요버스의 게임 AI·엔비디아의 확산언어모델 등 7종",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217742"
+            },
+            {
+              "source": "AI타임스",
+              "title": "AI 탐지기 'GPT제로 5' 출시…\"사람 글 오판 5만건당 1건\"",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217739"
+            },
+            {
+              "source": "AI타임스",
+              "title": "2027 상용화 원년 AI 안경, '눈앞의 비서'로 쓰임새 넓힌다",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217726"
+            },
+            {
+              "source": "AI타임스",
+              "title": "벤처비트 \"페이블 5.2, 오퍼스 5.5와 버그 수정 성능 비슷…비용은 3배\"",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217733"
+            },
+            {
+              "source": "AI타임스",
+              "title": "“100년의 역사를 걷다”… 광주 동명동 나무전거리, 석재 디자인으로 보행공간 재탄생",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217652"
+            },
+            {
+              "source": "AI타임스",
+              "title": "오픈AI, 챗GPT에 'GPT-6.2 솔' 탑재…지시 수행·이미지 이해 강화",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217725"
+            },
+            {
+              "source": "AI타임스",
+              "title": "젠슨 황 복귀에 미 의회 초당적 반발…AI 칩 수출 규제 강화 요구",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217721"
+            },
+            {
+              "source": "AI타임스",
+              "title": "NYT \"앨리스 황, 중국 정보기관과 1년 넘게 접촉\"…정부 조사는 계속",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217718"
+            },
+            {
+              "source": "AI타임스",
+              "title": "미국, 메가스피드 블랙리스트 등재…황 CEO 복귀 당일 AI 칩 공급 차단",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217722"
+            },
+            {
+              "source": "AI타임스",
+              "title": "광양경자청, 중국 유망기업 17개사 초청 미래 산업 투자유치 본격화",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217727"
+            },
+            {
+              "source": "AI타임스",
+              "title": "구글, 초고온 지열 50MW 구매계약…사업자는 200MW 추가 개발 추진",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217702"
+            },
+            {
+              "source": "AI타임스",
+              "title": "멕시코 태양광, 2035년 43.8GW 전망…기존 예상치 6GW 상향",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217679"
+            },
+            {
+              "source": "AI타임스",
+              "title": "삼성전자, 2027 임원인사…반도체 인재 중용 ‘성과주의’ 재확인",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217717"
+            },
+            {
+              "source": "AI타임스",
+              "title": "LGU+, 데이터독과 통화 에이전트 '익시오' 안정성 높인다",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217719"
+            },
+            {
+              "source": "AI타임스",
+              "title": "한컴, 공공기관 HWP 문서 → HWPX 변환 지원",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217716"
+            },
+            {
+              "source": "AI타임스",
+              "title": "[AI리더의 서가] AI 네이티브 개발자를 위한 OpenAI 코덱스 실전 활용법",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217620"
+            },
+            {
+              "source": "AI타임스",
+              "title": "황 복귀에 엔비디아 직원들 환호…머스크·알트먼도 환영",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217711"
+            },
+            {
+              "source": "AI타임스",
+              "title": "[11월23일] 'GPT-6'가 로봇의 두뇌까지 맡기 시작했다는 것의 의미",
+              "link": "https://www.aitimes.com/news/articleView.html?idxno=217684"
+            }
+          ],
+          "priority_score": 6,
+          "sector": "통신/IT",
+          "related_full_sources": []
+        },
+        {
+          "title": "美의회는 젠슨 황에 면죄부 안줬다…‘中에 칩 공급’ 내달 3일 청문회",
+          "link": "https://www.donga.com/news/Inter/article/all/20261124/135080031/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-24 19:02:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/23/135074642.1.jpg\" vspace=\"10\" />미국 연방 의회에선 집권 공화당과 야당 민주당 모두 젠슨 황 엔비디아 최고경영자(CEO)에 대한 전방위적 조사를 벼르고 있다. 특히 엔비디아의 최첨단 반도체가 미국의 대(對)중국 수출 규제를 우회해 중국으로 건너갔을 가능성, 이것이 가능했던 이유를 샅샅이 파헤치겠다는 방침이다.AP통신 등에 따르면 공화당 소속인 팀 스콧 상원 은행위원장은 황 CEO가 다음 달 3일 공개 청문회에 출석할 예정이라고 밝혔다. 하원 외교·정보·중국특별위원회 또한 다음 달 1일 황 CEO를 상대로 비공개 조사를 진행하기로 했다. 3일 미 중간선거에서 압승한 민주당은 내년 1월 3일 새 의회 출범 후 황 CEO를 향한 공세를 강화할 뜻을 분명히 했다. 차기 하원 정보위원장이 유력한 짐 하임스 민주당 하원의원은 “엔비디아 이사회가 황 CEO의 복귀를 국가안보에 위험이 아니라고 판단했다 해도 그가 의회에 답해야 할 질문이 아직 있다”고 밝혔다. 차기 하원 감독위원장으로 유력한 로버트 가르시아 민주당 하원의원",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "image_url": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/23/135074642.1.jpg",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "“왕의 귀환”…젠슨 황, 복귀 첫날 직원들에게 샌드위치 나눔",
+          "link": "https://www.donga.com/news/Inter/article/all/20261124/135084778/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-24 23:47:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/25/135084948.1.jpg\" vspace=\"10\" />불륜 스캔들로 물러났다가 11일 만에 엔비디아 최고경영자(CEO)로 복귀한 젠슨 황이 직원들에게 직접 샌드위치를 나눠주는 모습이 포착됐다.24일(현지시간) 러시아 매체 RT 스페인어판과 인도 매체 인디아투데이 등에 따르면 황 CEO는 복귀 당일인 23일 엔비디아 본사 앞에서 직원들에게 샌드위치를 나눠줬다.엑스(X·옛 트위터)에 공개된 영상에는 황 CEO가 회사 본사 앞에서 자신을 둘러싼 직원들에게 직접 샌드위치를 건네는 모습이 담겼다. 직원들은 황 CEO의 복귀를 환영했다.특히 황 CEO는 평소 자신의 상징과도 같았던 가죽 재킷 대신 워크 재킷과 운동화를 착용한 모습이었다.영상을 공유한 누리꾼은 “엔비디아에 공식 복귀한 젠슨 황. 왕의 귀환. 기분이 무척 좋아 보이는 그는 회사 건물 밑에서 직원들에게 미니 샌드위치를 나눠줬다”면서 “황 회장과 함께 배 터지게 먹자”라는 글을 올렸다. 또 다른 누리꾼은 황 CEO가 나눠준 샌드위치를 두고 “미국에는 지점이 없는 유명한 대만 샌",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "image_url": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/25/135084948.1.jpg",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 4,
+      "role": "엔비디아 CEO"
+    },
+    "李": {
+      "articles": [
+        {
+          "title": "吳 “특검 민심 말씀 드리겠다”  李대통령 “회의 마치겠습니다”",
+          "link": "https://www.chosun.com/politics/blue_house/2026/11/25/6YPJDV4U45APZO2BHGDGKZQ5PE/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-11-25 00:43:00",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "image_url": "",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "당내 정국",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "재외공관장회의 다음 주 개최…李대통령 주재 회의 생중계 검토",
+          "link": "https://www.yna.co.kr/view/AKR20261124163500504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-11-24 17:32:38",
+          "description": "(서울=연합뉴스) 민선희 기자 = 이재명 정부 출범 이후 첫 재외공관장회의가 오는 30일부터 열리는 가운데, 이재명 대통령이 직접 주재하는 회의...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "image_url": "https://img.yna.co.kr/photo/cms/2023/03/17/86/PCM20230317000086990_P2.jpg",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "priority_score": 2,
+          "pol_subcategory": "정상/외교",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李 대통령 “강남·서초 등 핵심지역 꽤 많이 조정…폭등·폭락 다 대비해놔야”",
+          "link": "https://www.mk.co.kr/news/realestate/12216980",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-24 11:36:34",
+          "description": "국무회의서 부동산 시장 선제대응 주문이재명 대통령이 부동산 시장의 가격 조정 가능성이 민간 주택 공급 위축으로 이어질 수 있다며 정부 차원의 선제적인 대응을 주문했다. 집값이 하락..",
+          "category": "domestic",
+          "feed_url": "https://www.mk.co.kr/rss/50300009/",
+          "image_url": "https://pimg.mk.co.kr/news/cms/202611/24/news-p.v1.20261124.ace5e8c9b2744162ae0e296f77659028_R.jpg",
+          "source_type": "realestate",
+          "source_weight": 1.15,
+          "source_badge": "부동산",
+          "priority_score": 1,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "한국 대통령"
+    }
+  }
+}

@@ -1,0 +1,475 @@
+{
+  "timestamp": "2026-11-25T06:01:52.767320",
+  "date": "20261125",
+  "data": [
+    {
+      "keyword": "주주환원",
+      "reason": "삼성전자 주주환원 결정 관련 준법성 이슈",
+      "score": 42.03,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "준감위 \"삼성전자 주주환원 결정, 준법 위반·이해상충 아냐\"(종합)",
+        "이찬희 삼성 준감위원장, 주주환원 이해상충 논란에 “신중히 다뤄보겠다”"
+      ],
+      "representative_article": {
+        "title": "준감위 \"삼성전자 주주환원 결정, 준법 위반·이해상충 아냐\"(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261124122351003",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-11-24 18:43:28",
+        "match_score": 42.03
+      },
+      "related_articles": [
+        {
+          "title": "준감위 \"삼성전자 주주환원 결정, 준법 위반·이해상충 아냐\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261124122351003",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-24 18:43:28",
+          "match_score": 42.03
+        },
+        {
+          "title": "이찬희 삼성 준감위원장, 주주환원 이해상충 논란에 “신중히 다뤄보겠다”",
+          "link": "https://www.etnews.com/20261124000417",
+          "source": "전자신문",
+          "published_dt": "2026-11-24 15:28:31",
+          "match_score": 38.89
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "하이브리드차",
+      "reason": "EU 수입 제한 정책과 국내 자동차 산업 영향",
+      "score": 42.1,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "국제"
+      ],
+      "sample_titles": [
+        "한국산 EU행 하이브리드차 6만7924대까지…내달부터 무관세 제한",
+        "EU, 하이브리드차도 수입 제한… 국산차 ‘빨간불’",
+        "EU, 하이브리드차도 수입 제한… 국산차 ‘빨간불’"
+      ],
+      "representative_article": {
+        "title": "EU, 하이브리드차도 수입 제한… 국산차 ‘빨간불’",
+        "link": "https://www.donga.com/news/Economy/article/all/20261124/135083485/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-11-25 00:30:00",
+        "match_score": 42.1
+      },
+      "related_articles": [
+        {
+          "title": "EU, 하이브리드차도 수입 제한… 국산차 ‘빨간불’",
+          "link": "https://www.donga.com/news/Economy/article/all/20261124/135083485/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-25 00:30:00",
+          "match_score": 42.1
+        },
+        {
+          "title": "한국산 EU행 하이브리드차 6만7924대까지…내달부터 무관세 제한",
+          "link": "https://www.mk.co.kr/news/economy/12217527",
+          "source": "매일경제-경제",
+          "published_dt": "2026-11-24 21:55:14",
+          "match_score": 32.86
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "인공지능",
+      "score": 76.8,
+      "article_count": 22,
+      "source_count": 6,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업",
+        "부동산",
+        "정치"
+      ],
+      "sample_titles": [
+        "정동영 \"AI 플랫폼서 평화·통일정책 숙의…정부 부처 중 최초\"",
+        "카드사 임직원 10명중 8명…\"5년내 AI 금융결제 상용화\"",
+        "금융소비자 38%, 생성형AI 금융에 활용…절반은 의사결정에 영향"
+      ],
+      "llm_candidate": false,
+      "rank": 3,
+      "representative_article": {
+        "title": "곽재도 인공지능사업단장 취임 \"광주를 AI 혁신거점으로\"",
+        "link": "https://www.yna.co.kr/view/AKR20261124154800054",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-11-24 16:48:48",
+        "match_score": 37.67
+      },
+      "related_articles": [
+        {
+          "title": "곽재도 인공지능사업단장 취임 \"광주를 AI 혁신거점으로\"",
+          "link": "https://www.yna.co.kr/view/AKR20261124154800054",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-11-24 16:48:48",
+          "match_score": 37.67
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "반도체",
+      "score": 57.8,
+      "article_count": 11,
+      "source_count": 6,
+      "categories": [
+        "국제",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "마이크론, 싱가포르·대만서 HBM 라인 증설",
+        "\"SK하이닉스 세수 늘었지만…청주시, 세입 감소 대비해야\"",
+        "반도체 중심 삼성 초기업노조, DX부문 성과급 통합 의견 수렴"
+      ],
+      "llm_candidate": false,
+      "rank": 4,
+      "representative_article": {
+        "title": "[2027 삼성전자 인사] 'HBM4 주역' 전면에…반도체가 승진자 절반 넘었다",
+        "link": "https://www.etnews.com/20261124000378",
+        "source": "전자신문",
+        "published_dt": "2026-11-24 14:38:16",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "[2027 삼성전자 인사] 'HBM4 주역' 전면에…반도체가 승진자 절반 넘었다",
+          "link": "https://www.etnews.com/20261124000378",
+          "source": "전자신문",
+          "published_dt": "2026-11-24 14:38:16",
+          "match_score": 37.49
+        },
+        {
+          "title": "美마이크론, 한국 인재 채용 행사…AI 반도체 연구개발 인력 집중 공략",
+          "link": "https://www.donga.com/news/Economy/article/all/20261124/135081135/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-24 15:34:00",
+          "match_score": 37.3
+        },
+        {
+          "title": "삼성전자, 임원인사서 131명 승진…반도체·AI·로봇 인재 전진 배치 - 주간한국",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5lTGVQa0FpREVLOUh2eWgxZkhvbFMybkh2eEw0MFo0bnYzdGl6bVJwNkRtYi1Ba2g0dldDYW5wTVhHNnNJQVZqZmtYWGlXQjdqdU9peFMzS2stcXZEMG9SallSQ2I5all3d2tSOUlJZ03SAXRBVV95cUxNb0xfdzIyZkZkd3Y0NW45aUczWk92ZkhRbWkyNjlEX00xWkRjSTBPMm5QV3Axc0ZUVWZVU0xJNEN2SmlOUW1rcWxQZm5YNEVtVnJSd0hSYzdPTHR1eUp5NnZSZmV2MFdmOEZmUmQwanhsT3lpWA?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-11-24 15:57:37",
+          "match_score": 36.96
+        },
+        {
+          "title": "삼성전자, 131명 임원 승진인사 단행…AI 반도체·미래기술 인재 전진 배치 - 경인방송 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1yTndQbDA1Y0ZOc1FDUl85YkJpc05hYnhLTmFHcS1vMG5qd21QNTRLTnNBYXFyN2xVcGpwM29RS1phdkpSQXMzOGlBbHhYY3NDNnAxQy1Lay04OEJOcUtWWFRjMXXSAWhBVV95cUxPWWNnS3NvWWpxMTF6dTRwUzJJeWxhRkxqRUxyZzdkekwwZjRKZU1ieFJucG5KUnBIbDFOMTlTT0hBQldkb2RyZVFUNWs2ZEhsei1CYU10NG9hZHNuOTdsTE9iSlJfTGtVYQ?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-11-24 09:46:55",
+          "match_score": 36.96
+        },
+        {
+          "title": "반도체 중심 삼성 초기업노조, DX부문 성과급 통합 의견 수렴",
+          "link": "https://www.yna.co.kr/view/AKR20261124145800003",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-11-24 16:17:32",
+          "match_score": 28.68
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "엔비디아",
+      "score": 46.2,
+      "article_count": 11,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "환율, 엔비디아발 위험선호 회복에 하락…3.5원 내린 1,342.4원",
+        "젠슨황 복귀에 6%대 급반등, '5천피' 회복…코스닥 4.8%↑(종합)",
+        "젠슨 황, 복귀 후 첫 직원회의서 사과…복귀 정당성 강조"
+      ],
+      "llm_candidate": false,
+      "rank": 5,
+      "representative_article": {
+        "title": "“바람 피웠어도 젠슨 황, 웰컴백”…엔비디아 직원들 열광한 진짜 이유 따로 있었다?",
+        "link": "https://www.etnews.com/20261124000479",
+        "source": "전자신문",
+        "published_dt": "2026-11-24 17:21:09",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "“바람 피웠어도 젠슨 황, 웰컴백”…엔비디아 직원들 열광한 진짜 이유 따로 있었다?",
+          "link": "https://www.etnews.com/20261124000479",
+          "source": "전자신문",
+          "published_dt": "2026-11-24 17:21:09",
+          "match_score": 37.49
+        },
+        {
+          "title": "“더 나은 CEO 될 것” 젠슨 황 복귀에 엔비디아 리더십 공백 해소…국내외 증시 급등",
+          "link": "https://www.etnews.com/20261124000359",
+          "source": "전자신문",
+          "published_dt": "2026-11-24 14:22:56",
+          "match_score": 37.49
+        },
+        {
+          "title": "환율, 엔비디아발 위험선호 회복에 하락…3.5원 내린 1,342.4원",
+          "link": "https://www.yna.co.kr/view/AKR20261124140400002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-24 15:48:34",
+          "match_score": 28.68
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "삼성전자",
+      "score": 49.8,
+      "article_count": 10,
+      "source_count": 6,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "준감위 \"삼성전자 주주환원 결정, 준법 위반·이해상충 아냐\"(종합)",
+        "마이크론, 싱가포르·대만서 HBM 라인 증설",
+        "반도체 중심 삼성 초기업노조, DX부문 성과급 통합 의견 수렴"
+      ],
+      "llm_candidate": false,
+      "rank": 6,
+      "representative_article": {
+        "title": "준감위 \"삼성전자 주주환원 결정, 준법 위반·이해상충 아냐\"(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261124122351003",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-11-24 18:43:28",
+        "match_score": 37.83
+      },
+      "related_articles": [
+        {
+          "title": "준감위 \"삼성전자 주주환원 결정, 준법 위반·이해상충 아냐\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261124122351003",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-24 18:43:28",
+          "match_score": 37.83
+        },
+        {
+          "title": "[2027 삼성전자 인사] 'HBM4 주역' 전면에…반도체가 승진자 절반 넘었다",
+          "link": "https://www.etnews.com/20261124000378",
+          "source": "전자신문",
+          "published_dt": "2026-11-24 14:38:16",
+          "match_score": 37.49
+        },
+        {
+          "title": "삼성전자, 임원인사서 131명 승진…반도체·AI·로봇 인재 전진 배치 - 주간한국",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5lTGVQa0FpREVLOUh2eWgxZkhvbFMybkh2eEw0MFo0bnYzdGl6bVJwNkRtYi1Ba2g0dldDYW5wTVhHNnNJQVZqZmtYWGlXQjdqdU9peFMzS2stcXZEMG9SallSQ2I5all3d2tSOUlJZ03SAXRBVV95cUxNb0xfdzIyZkZkd3Y0NW45aUczWk92ZkhRbWkyNjlEX00xWkRjSTBPMm5QV3Axc0ZUVWZVU0xJNEN2SmlOUW1rcWxQZm5YNEVtVnJSd0hSYzdPTHR1eUp5NnZSZmV2MFdmOEZmUmQwanhsT3lpWA?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-11-24 15:57:37",
+          "match_score": 36.96
+        },
+        {
+          "title": "삼성전자, 131명 임원 승진인사 단행…AI 반도체·미래기술 인재 전진 배치 - 경인방송 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1yTndQbDA1Y0ZOc1FDUl85YkJpc05hYnhLTmFHcS1vMG5qd21QNTRLTnNBYXFyN2xVcGpwM29RS1phdkpSQXMzOGlBbHhYY3NDNnAxQy1Lay04OEJOcUtWWFRjMXXSAWhBVV95cUxPWWNnS3NvWWpxMTF6dTRwUzJJeWxhRkxqRUxyZzdkekwwZjRKZU1ieFJucG5KUnBIbDFOMTlTT0hBQldkb2RyZVFUNWs2ZEhsei1CYU10NG9hZHNuOTdsTE9iSlJfTGtVYQ?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-11-24 09:46:55",
+          "match_score": 36.96
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "CEO",
+      "score": 38.2,
+      "article_count": 10,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "젠슨황 복귀에 6%대 급반등, '5천피' 회복…코스닥 4.8%↑(종합)",
+        "젠슨 황, 복귀 후 첫 직원회의서 사과…복귀 정당성 강조",
+        "[특징주] 삼전·닉스, 나란히 6.7% 급반등…관련 장비주도 일제히↑(종합)"
+      ],
+      "llm_candidate": false,
+      "rank": 7,
+      "representative_article": {
+        "title": "“더 나은 CEO 될 것” 젠슨 황 복귀에 엔비디아 리더십 공백 해소…국내외 증시 급등",
+        "link": "https://www.etnews.com/20261124000359",
+        "source": "전자신문",
+        "published_dt": "2026-11-24 14:22:56",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "“더 나은 CEO 될 것” 젠슨 황 복귀에 엔비디아 리더십 공백 해소…국내외 증시 급등",
+          "link": "https://www.etnews.com/20261124000359",
+          "source": "전자신문",
+          "published_dt": "2026-11-24 14:22:56",
+          "match_score": 37.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재건축",
+      "score": 42.7,
+      "article_count": 7,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "부동산"
+      ],
+      "sample_titles": [
+        "[재초환 반발 확산]②전인미답의 길에…전국 재건축 현장 ‘대혼란’ - 대한경제",
+        "강남구, 재건축 조합원 지위 양도 기준 알려주는 ‘정비사업 아카데미’ 개최 - 강남포스트",
+        "분당재건축 3차 접수 내년 2월로 앞당겨져…소규모 결합은 인센티브 - 경인일보"
+      ],
+      "llm_candidate": false,
+      "rank": 8,
+      "representative_article": {
+        "title": "[재초환 반발 확산]②전인미답의 길에…전국 재건축 현장 ‘대혼란’ - 대한경제",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9NZGR4R3dNaU8tQ004RVQxaV9XbC1KQmxETnFwTHRDTldtd0E5Ni1FQ2dLb1NEdTJsZmN3d0ZzNDZpQ1RXNXZ3amg5UWtUR2dVbXhkX1RVdWVxQ0daeDRmcHZxX2NWMUNrTUJ0LTJtT3RDS3Rp?oc=5",
+        "source": "키워드-부동산정책",
+        "published_dt": "2026-11-25 02:29:53",
+        "match_score": 37.71
+      },
+      "related_articles": [
+        {
+          "title": "[재초환 반발 확산]②전인미답의 길에…전국 재건축 현장 ‘대혼란’ - 대한경제",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9NZGR4R3dNaU8tQ004RVQxaV9XbC1KQmxETnFwTHRDTldtd0E5Ni1FQ2dLb1NEdTJsZmN3d0ZzNDZpQ1RXNXZ3amg5UWtUR2dVbXhkX1RVdWVxQ0daeDRmcHZxX2NWMUNrTUJ0LTJtT3RDS3Rp?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-11-25 02:29:53",
+          "match_score": 37.71
+        },
+        {
+          "title": "강남구, 재건축 조합원 지위 양도 기준 알려주는 ‘정비사업 아카데미’ 개최 - 강남포스트",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE43WjFKelg0cHJ4bDBGc3NoT0F5eTZyZFJGcEtBbUtqT1E3MU5Nc0QyckRTU3B4OFBzMjFqeUtyTUpfbGtnb0wzRks4dFFPWVB6VE5rTktmSmMxc2lZQ2N4SHpKQm81Zw?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-11-25 04:54:31",
+          "match_score": 37.71
+        },
+        {
+          "title": "분당재건축 3차 접수 내년 2월로 앞당겨져…소규모 결합은 인센티브 - 경인일보",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5kZXFiOFlEYkpYdG91QklIQUJwb1BMcGt4S1JsdjExajRfdFBtQnR5T2tlbHA4Q1JGR09HUEk0SlQ1dzRRbEo4MzM2bS1uNzdTRlE?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-11-25 00:34:36",
+          "match_score": 37.71
+        },
+        {
+          "title": "쌍용건설, 부산 거제2구역 재건축 수주…2381억원 규모 - 서울경제TV",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1IbXlob2gxbVduVzhKdUIxTW9FRHFObGJEX2ZNeU40QjNiSWptWERWRFJVcFh6eWV6ckJzRlNMbVEwTS1KQlI4STFPTE1IalZYQkNuNEdjak00MFFjczZRQ3pjVF8?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-11-24 22:33:04",
+          "match_score": 37.71
+        },
+        {
+          "title": "[단독] 단독재건축 vs 상가 통합재건축…올선 앞 ‘현수막 전쟁’ - 기후에너지데이터뱅크",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE95WHVvZkNSUEluRFo0S0xSeW5GM0FqazVtY3d2ZzJGZE1sbGVwdHk4NEV0azQwY1B5SXZJRTd4ejVVZ3JHTDhQZ0xMSXFpS1BkT05XczNwSzVYdWt2QWc?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-11-24 17:10:03",
+          "match_score": 37.71
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "코스피",
+      "score": 30.1,
+      "article_count": 6,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "사흘 만에 코스피 5000선 탈환…불안 요인 해소는 아직 - 경향신문",
+        "코스피 4700선·소비심리 하락기! '고향사랑기부제 위기브'로 식비 아끼고 세액공제 챙기는 실속 세테크 - 고향사랑기부제 위기브",
+        "국고채 금리 혼조세…코스피 상승 속 외인 선물 매수(종합)"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "사흘 만에 코스피 5000선 탈환…불안 요인 해소는 아직 - 경향신문",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9pTkpWdUloTWFUc1ZIcUxBdXNxVWNvZ2ZJRl9NYzVwOFBZcjdXN3NneGxkWmhVTlhDNTlKWDZtREhPWVd2UWM0aWtxVFc1dkVNOVA2akt3RjM5UdIBX0FVX3lxTE5qRkxUQndfSUxnTkI4VXdZLW8waXRuMVZMSjZ4RFF4eFcyR2ZhWTZIck9DU2lfNzZacDdEWHpaRmp2bWZTNVFPZzY2RUVoT1JIcTBCeVFRd0hudTNoY3RV?oc=5",
+        "source": "키워드-금리환율코스피",
+        "published_dt": "2026-11-24 21:45:00",
+        "match_score": 36.96
+      },
+      "related_articles": [
+        {
+          "title": "사흘 만에 코스피 5000선 탈환…불안 요인 해소는 아직 - 경향신문",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9pTkpWdUloTWFUc1ZIcUxBdXNxVWNvZ2ZJRl9NYzVwOFBZcjdXN3NneGxkWmhVTlhDNTlKWDZtREhPWVd2UWM0aWtxVFc1dkVNOVA2akt3RjM5UdIBX0FVX3lxTE5qRkxUQndfSUxnTkI4VXdZLW8waXRuMVZMSjZ4RFF4eFcyR2ZhWTZIck9DU2lfNzZacDdEWHpaRmp2bWZTNVFPZzY2RUVoT1JIcTBCeVFRd0hudTNoY3RV?oc=5",
+          "source": "키워드-금리환율코스피",
+          "published_dt": "2026-11-24 21:45:00",
+          "match_score": 36.96
+        },
+        {
+          "title": "코스피 4700선·소비심리 하락기! '고향사랑기부제 위기브'로 식비 아끼고 세액공제 챙기는 실속 세테크 - 고향사랑기부제 위기브",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB3ZEQwbXl5d3Q1bFRHQ2JKYUpSZ1JXY2Z4eGw0d1RKNHByRWtVTS16NHA3RnF3UEpKN0g2cWtaSGtjMm9ieTBnTHFVV1RUR0hycTd6VTZ3?oc=5",
+          "source": "키워드-금리환율코스피",
+          "published_dt": "2026-11-24 23:46:15",
+          "match_score": 36.96
+        },
+        {
+          "title": "국고채 금리 혼조세…코스피 상승 속 외인 선물 매수(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261124153751008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-24 17:02:04",
+          "match_score": 28.68
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "앞두고",
+      "score": 26.3,
+      "article_count": 5,
+      "source_count": 5,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업",
+        "정치"
+      ],
+      "sample_titles": [
+        "'공직선거법 위반' 김명식 진천군수 불구속 송치",
+        "한국산 EU행 하이브리드차 6만7924대까지…내달부터 무관세 제한",
+        "반도체 중심 삼성 초기업노조, DX부문 성과급 통합 의견 수렴"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "'AI 가짜 의사' 광고 금지 앞두고…이커머스 셀러 관리 시험대",
+        "link": "https://www.etnews.com/20261124000360",
+        "source": "전자신문",
+        "published_dt": "2026-11-24 16:00:00",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "'AI 가짜 의사' 광고 금지 앞두고…이커머스 셀러 관리 시험대",
+          "link": "https://www.etnews.com/20261124000360",
+          "source": "전자신문",
+          "published_dt": "2026-11-24 16:00:00",
+          "match_score": 37.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
