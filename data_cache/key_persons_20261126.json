@@ -1,0 +1,220 @@
+{
+  "timestamp": "2026-11-26T06:01:17.361866",
+  "date": "20261126",
+  "data": {
+    "이재명": {
+      "articles": [
+        {
+          "title": "LH \"5년간 공적주택 50만호 착공\"…李대통령 \"초과 달성하라\"",
+          "link": "https://www.yna.co.kr/view/AKR20261125168600001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-11-25 19:11:27",
+          "description": "(서울=연합뉴스) 고동욱 기자 = 이재명 대통령은 25일 서울 은평구의 &apos;공적주택&apos; 현장을 방문해 실제 품질과 여건을 살펴보고, 정책 관련자들과...",
+          "category": "domestic",
+          "feed_url": "https://www.yna.co.kr/rss/politics.xml",
+          "image_url": "https://img.yna.co.kr/photo/yna/YH/2026/11/25/PYH2026112519900001300_P2.jpg",
+          "source_type": "wire",
+          "source_weight": 1.25,
+          "source_badge": "통신",
+          "deduped_sources": [
+            {
+              "source": "연합뉴스-경제",
+              "title": "LH \"5년간 공적주택 50만호 착공\"…李대통령 \"초과 달성하라\"",
+              "link": "https://www.yna.co.kr/view/AKR20261125168600001"
+            }
+          ],
+          "priority_score": 3,
+          "pol_subcategory": "지방/행정",
+          "is_representative": true,
+          "related_full_sources": []
+        },
+        {
+          "title": "李 “임대 주택→공적 주택 개명... 연 평균 24만호 공급”",
+          "link": "https://www.chosun.com/politics/blue_house/2026/11/25/IXZK57ACEZDD5MHWGSCOGQKLS4/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-11-25 17:48:19",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "image_url": "",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "입법/정책",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "주한中대사, 李대통령 향한 ‘친중’ 비판에 “큰 국가와 잘 지내면 불리한가”",
+          "link": "https://www.chosun.com/politics/diplomacy-defense/2026/11/25/W2GNIY7BKZBIFOTM3ZOJOVRVZU/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-11-25 18:16:34",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "image_url": "",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "李 “임대 주택→공적 주택 개명... 연 평균 24만호 공급”",
+          "link": "https://www.chosun.com/politics/blue_house/2026/11/25/IXZK57ACEZDD5MHWGSCOGQKLS4/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-11-25 17:48:19",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "image_url": "",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "李대통령 “공공임대는 어려운 사람만?…이젠 중산층도 선택할 집으로”",
+          "link": "https://www.mk.co.kr/news/realestate/12218371",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-25 17:22:26",
+          "description": "이재명 대통령은 25일 공공임대주택의 낡은 이미지를 바꾸고 중산층도 선택할 수 있는 주거 공간으로 탈바꿈시키겠다는 구상을 밝혔다. 이 대통령은 이날 서울 은평구청에서 열린 ‘공적주..",
+          "category": "domestic",
+          "feed_url": "https://www.mk.co.kr/rss/50300009/",
+          "image_url": "https://pimg.mk.co.kr/news/cms/202611/25/rcv.NEWSIS.NEWSIS.20261125.NISI20261125_0021545243_R.jpg",
+          "source_type": "realestate",
+          "source_weight": 1.15,
+          "source_badge": "부동산",
+          "priority_score": 1,
+          "related_full_sources": []
+        }
+      ],
+      "count": 5,
+      "role": "한국 대통령"
+    },
+    "시진핑": {
+      "articles": [
+        {
+          "title": "주한中대사, 李대통령 향한 ‘친중’ 비판에 “큰 국가와 잘 지내면 불리한가”",
+          "link": "https://www.chosun.com/politics/diplomacy-defense/2026/11/25/W2GNIY7BKZBIFOTM3ZOJOVRVZU/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-11-25 18:16:34",
+          "description": "",
+          "category": "domestic",
+          "feed_url": "https://www.chosun.com/arc/outboundfeeds/rss/category/politics/?outputType=xml",
+          "image_url": "",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "pol_subcategory": "정상/외교",
+          "is_representative": false,
+          "related_full_sources": []
+        },
+        {
+          "title": "‘시진핑 후계자 거론’ 상하이 당서기 낙마… “習 5연임 염두” 분석",
+          "link": "https://www.donga.com/news/Inter/article/all/20261125/135091913/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-26 04:30:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/26/135092805.1.jpg\" vspace=\"10\" />시진핑(習近平) 중국 국가주석의 뒤를 이을 차기 중국 지도자 후보군으로 꼽혔던 천지닝(陳吉寧·62) 상하이 당서기가 24일 돌연 낙마했다. 올 4월 마싱루이(馬興瑞·67) 전 신장위구르자치구 당서기에 이어 천 서기까지 낙마하면서 중국의 권력 구도 변화에 관심이 집중되고 있다. 현직 상하이시 당서기가 부패 혐의로 조사를 받는 것은 2006년 천량위(陳良宇) 당시 당서기가 낙마한 후 20년 만이다. 시 주석의 4연임이 결정될 내년 하반기 중국공산당 당대회를 앞두고 중국 최고위급인 정치국 상무위원이 유력하게 거론되던 인사가 잇따라 낙마하자 미국 월스트리트저널(WSJ)은 “시 주석 외에는 누구도 대체 불가능한 존재가 아님을 보여준다”고 평가했다. 시 주석은 천 서기에 대한 조사가 시작된 다음 날인 25일 전국 당내 법규 업무회의에 보낸 지시 사항에서 “전면적이고 엄격한 당 관리를 일관되게 추진하라”고 밝혔다.● ‘푸젠방’ 이어 ‘칭화방’도 타격 25일 중국 관영 신화통신에 따르면 전",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "image_url": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/26/135092805.1.jpg",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "sector": "기타산업",
+          "related_full_sources": []
+        },
+        {
+          "title": "왕이 “네덜란드, 中기업에 공정한 경영 환경 마련하길”",
+          "link": "https://www.donga.com/news/Inter/article/all/20261126/135092350/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-26 00:00:17",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/26/135092351.1.jpg\" vspace=\"10\" />왕이 중국 중앙외사판공실 주임 겸 외교부장이 25일 톰 베런슨 네덜란드 외교장관에게 “네덜란드가 중국 기업에 공정하고 투명하며 예측 가능한 경영 환경을 제공하길 바란다”고 말했다.중국 외교부에 따르면 왕 부장은 이날 베이징에서 열린 회담에서 양국 기업의 상호 투자 확대를 지지한다는 뜻을 밝혔다. 네덜란드 반도체 업체 넥스페리아와 중국 모회사 윙테크 간 경영권 분쟁은 양국 법정으로 번진 상태다.신화통신에 따르면 두 장관은 회담 뒤 공동성명에서 기존 채널을 통한 반도체 협력 논의와 양국 간 수출통제 대화의 중요성을 강조했다.양측은 내년 대사급 외교관계 수립 55주년을 맞아 경제·통상과 과학기술 협력을 확대하기로 했다. 다자 현안을 다룰 협의체를 신설하고 군비통제·군축·핵 비확산에 관한 양자 협의도 열기로도 했다.왕 부장은 네덜란드를 중국과 유럽연합(EU) 간 협력의 “관문”으로 꼽았다. 대만 문제에 대해서는 네덜란드가 ‘하나의 중국’ 원칙을 행동으로 지키길 바란다고 말했다.",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "image_url": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/26/135092351.1.jpg",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "‘차기 지도자’ 안 키우는 시진핑…이번엔 천지닝 날렸다",
+          "link": "https://www.donga.com/news/Inter/article/all/20261125/135088606/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-25 19:59:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/25/135091621.1.jpg\" vspace=\"10\" />시진핑(習近平) 중국 국가주석의 뒤를 이을 차기 중국 지도자 후보군으로 꼽혔던 천지닝(陳吉寧·62) 상하이 당서기가 24일 돌연 낙마했다. 올 4월 마싱루이(馬興瑞·67) 전 신장위구르자치구 당서기에 이어 천 서기까지 낙마하면서 중국의 권력 구도 변화에 관심이 집중되고 있다. 현직 상하이시 당서기가 부패 혐의로 조사를 받는 것은 2006년 천량위(陳良宇) 당시 당서기가 낙마한 후 20년 만이다.시 주석의 4연임이 결정될 내년 하반기 중국공산당 당대회를 앞두고 중국 최고위급인 정치국 상무위원이 유력하게 거론되던 인사가 잇따라 낙마하자 미국 월스트리트저널(WSJ)은 “시 주석 외에는 누구도 대체 불가능한 존재가 아님을 보여준다”고 평가했다.시 주석은 천 서기에 대한 조사가 시작된 다음 날인 25일 전국 당내 법규 업무회의에 보낸 지시 사항에서 “전면적이고 엄격한 당 관리를 일관되게 추진하라”고 밝혔다.● ‘푸젠방’ 이어 ‘칭화방’도 타격25일 중국 관영 신화통신에 따르면 전날 중",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "image_url": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/25/135091621.1.jpg",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 4,
+      "role": "중국 국가주석"
+    },
+    "트럼프": {
+      "articles": [
+        {
+          "title": "추수감사절 ‘사면’하는 트럼프",
+          "link": "https://www.donga.com/news/Inter/article/all/20261126/135092301/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-26 04:30:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/26/135091980.5.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령(왼쪽)과 부인 멜라니아 여사가 24일(현지 시간) 워싱턴 백악관에서 추수감사절 칠면조 사면 행사에 참석해 칠면조 ‘프리덤’을 바라보고 있다. 백악관에선 매년 추수감사절을 앞두고 선물받은 칠면조를 식탁에 올리지 않고 살려주는 전통이 있다. 올해 대통령으로부터 사면받은 칠면조 ‘프리덤’과 ‘페더스’는 백악관 인근 5성급 호텔의 스위트룸에 묵으며 기자회견을 갖는 등 VIP 대접을 받았다.",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "image_url": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/26/135091980.5.jpg",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "APEC때 김정은 못만난 트럼프 “러브레터 당장 시작할수도”",
+          "link": "https://www.donga.com/news/Inter/article/all/20261126/135092313/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-26 04:30:00",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/25/135089569.1.jpg\" vspace=\"10\" />도널드 트럼프 미국 대통령이 집권 1기 당시 일명 ‘러브레터’로 불린 김정은 북한 국무위원장과의 친서 외교에 대해 “당장이라도 다시 시작할 수 있다. 단지 지금 당장 일어나고 있지 않을 뿐”이라고 24일(현지 시간) 밝혔다. 트럼프 대통령이 재취임 후 김 위원장에게 친서를 전달하려 했지만 북한이 외면했다고 보도한 최근 월스트리트저널(WSJ) 기사를 반박하며 이런 입장을 밝힌 것이다. 이날 트럼프 대통령은 뉴욕포스트와의 인터뷰에서 북-미 정상의 친서 교환 가능성과 관련해 “편지 교환이 재개되면 핵무장 문제 같은 게 언급될 것”이라고 말했다. 이어 “김 위원장은 이미 핵무기를 보유하고 있다. 빌 클린턴 전 대통령이 그를 막지 못했기 때문”이라며 과거 민주당 정권에 북한의 핵무장 책임을 돌렸다.  그는 김 위원장과 소통하고 있는지에 대해선 “최근에는 아니다. 우린 각자 다른 일로 바빴다”라고 선을 그었다. 그러면서도 “집권 1기 땐 (북한이) 큰 문제이자 위협이었지만 이제는 잠잠해진",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "image_url": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/25/135089569.1.jpg",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        },
+        {
+          "title": "독일 외무장관 “젠슨 황 CEO 복귀 트럼프 개입에 충격받아”",
+          "link": "https://www.donga.com/news/Inter/article/all/20261126/135092816/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-26 03:55:08",
+          "description": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/26/135092817.1.jpg\" vspace=\"10\" />요한 바데풀 독일 외무장관은 24일(현지 시간) 도널드 트럼프 미국 대통령의 젠슨 황 엔비디아 최고경영자(CEO) 복귀 개입에 대해 “충격받았다”는 반응을 보였다. 정치권이 개별 기업의 경영 활동에 개입하는 것은 전례가 없다며 우려를 표했다.AFP통신 등에 따르면 바데풀 장관은 이날 베를린에서 열린 외교포럼에서 황 CEO 복귀에 관한 질문에 “솔직히 말해 충격받았다”며 “개별 기업에 관해 이런 정치적 개입을 경험하거나 목격한 적이 없다”고 말했다. 이어 “이것이 미래를 위해 정말 좋은 모델인지에 대해선 다소 의구심이 든다”고 지적했다.그러면서 바데풀 장관은 “자유롭고 민주적이며 규칙을 기반으로 하는 국가라면 정치가 기업의 경제적 활동에 개입해서는 안 된다”고 덧붙였다.황 CEO는 내연 상대인 엘리스 황(중국명 황러)을 시작으로 혼외 관계가 잇따라 폭로된 뒤 지난 12일 사임했다. 싱가포르 기업 메가스피드 이사였던 황은 엔비디아 인공지능(AI) 반도체를 중국에 몰래 넘겼다는 의",
+          "category": "domestic",
+          "feed_url": "https://rss.donga.com/international.xml",
+          "image_url": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/26/135092817.1.jpg",
+          "source_type": "rss",
+          "source_weight": 1.0,
+          "source_badge": "언론",
+          "priority_score": 0,
+          "related_full_sources": []
+        }
+      ],
+      "count": 3,
+      "role": "미국 대통령"
+    }
+  }
+}

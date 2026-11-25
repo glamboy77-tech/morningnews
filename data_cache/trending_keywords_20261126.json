@@ -1,0 +1,436 @@
+{
+  "timestamp": "2026-11-26T06:01:22.785109",
+  "date": "20261126",
+  "data": [
+    {
+      "keyword": "공적주택",
+      "reason": "LH 주택 착공 및 이 대통령 공급계획",
+      "score": 43.63,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "부동산",
+        "정치"
+      ],
+      "sample_titles": [
+        "LH \"5년간 공적주택 50만호 착공\"…李대통령 \"초과 달성하라\"",
+        "李 “임대 주택→공적 주택 개명... 연 평균 24만호 공급”",
+        "李 “임대 주택→공적 주택 개명... 연 평균 24만호 공급”"
+      ],
+      "representative_article": {
+        "title": "LH \"5년간 공적주택 50만호 착공\"…李대통령 \"초과 달성하라\"",
+        "link": "https://www.yna.co.kr/view/AKR20261125168600001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-11-25 19:11:27",
+        "match_score": 43.63
+      },
+      "related_articles": [
+        {
+          "title": "LH \"5년간 공적주택 50만호 착공\"…李대통령 \"초과 달성하라\"",
+          "link": "https://www.yna.co.kr/view/AKR20261125168600001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-11-25 19:11:27",
+          "match_score": 43.63
+        },
+        {
+          "title": "李 “임대 주택→공적 주택 개명... 연 평균 24만호 공급”",
+          "link": "https://www.chosun.com/politics/blue_house/2026/11/25/IXZK57ACEZDD5MHWGSCOGQKLS4/",
+          "source": "조선일보-정치",
+          "published_dt": "2026-11-25 17:48:19",
+          "match_score": 15.5
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "자사주소각",
+      "reason": "삼성전기의 대규모 자사주 소각으로 주가 영향",
+      "score": 21.27,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "삼성전기, 1.7조원 자사주 소각…주가 상승에 규모 12배↑",
+        "삼성전기, 1.7조원 자사주 소각…주가 상승에 규모 12배↑"
+      ],
+      "representative_article": {
+        "title": "삼성전기, 1.7조원 자사주 소각…주가 상승에 규모 12배↑",
+        "link": "https://www.yna.co.kr/view/AKR20261125166100003",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-11-25 18:16:05",
+        "match_score": 21.27
+      },
+      "related_articles": [
+        {
+          "title": "삼성전기, 1.7조원 자사주 소각…주가 상승에 규모 12배↑",
+          "link": "https://www.yna.co.kr/view/AKR20261125166100003",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-11-25 18:16:05",
+          "match_score": 21.27
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "반도체",
+      "score": 78.0,
+      "article_count": 12,
+      "source_count": 10,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "美, 관세 부과하며 호남 반도체 지적… “SK 등에 국내 생산 확대 ‘압박’”",
+        "삼성전자, ISSCC 2027서 '500단대 낸드' 메모리 기술 공개",
+        "TSMC, 삼성 반도체 美거점 텍사스에 공장 추진"
+      ],
+      "llm_candidate": false,
+      "rank": 3,
+      "representative_article": {
+        "title": "반도체주 급락에 인버스 ETF 수익률 상위권 장악…화장품도 강세",
+        "link": "https://www.yna.co.kr/view/AKR20261125143100008",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-11-25 16:23:46",
+        "match_score": 37.83
+      },
+      "related_articles": [
+        {
+          "title": "반도체주 급락에 인버스 ETF 수익률 상위권 장악…화장품도 강세",
+          "link": "https://www.yna.co.kr/view/AKR20261125143100008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-25 16:23:46",
+          "match_score": 37.83
+        },
+        {
+          "title": "전남광주시의회, 반도체 용수 확보에 지방재정 부담 우려",
+          "link": "https://www.yna.co.kr/view/AKR20261125136400054",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-11-25 16:04:49",
+          "match_score": 37.67
+        },
+        {
+          "title": "3분기 중견기업 수출 또 최고치 경신...반도체·바이오가 실적 견인",
+          "link": "https://www.mk.co.kr/news/economy/12218110",
+          "source": "매일경제-경제",
+          "published_dt": "2026-11-25 14:57:30",
+          "match_score": 37.66
+        },
+        {
+          "title": "AI발 장비 수급난, 반도체 이어 기판 제조 현장까지 덮쳤다",
+          "link": "https://www.etnews.com/20261125000352",
+          "source": "전자신문",
+          "published_dt": "2026-11-25 16:15:00",
+          "match_score": 37.49
+        },
+        {
+          "title": "\"아파트 밀어낸 반도체\"…삼성·SK 건설사 수장 '반도체통' 전진 배치",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/11/25/2026112500975.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-11-25 09:58:25",
+          "match_score": 37.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "아파트",
+      "score": 41.5,
+      "article_count": 9,
+      "source_count": 3,
+      "categories": [
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "“아이 공부 때문에 녹물도 참았는데”…‘학군지 불패’ 공식 AI가 바꿀까",
+        "\"아파트 밀어낸 반도체\"…삼성·SK 건설사 수장 '반도체통' 전진 배치",
+        "전세 만기 앞뒀다면 집 주변 아파트 입주 일정 먼저 살펴봐야 - 동아일보"
+      ],
+      "llm_candidate": false,
+      "rank": 4,
+      "representative_article": {
+        "title": "[단독] '한강뷰' 압구정 아파트, 조망 없는 집보다 20% 비싸게 팔렸다",
+        "link": "https://www.mk.co.kr/news/realestate/12218430",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-11-25 17:32:24",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "[단독] '한강뷰' 압구정 아파트, 조망 없는 집보다 20% 비싸게 팔렸다",
+          "link": "https://www.mk.co.kr/news/realestate/12218430",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-25 17:32:24",
+          "match_score": 37.49
+        },
+        {
+          "title": "아파트 매수 54%가 3040…전용 84㎡ 오피스텔 거래 57% 증가",
+          "link": "https://www.mk.co.kr/news/realestate/12217918",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-25 11:22:52",
+          "match_score": 37.49
+        },
+        {
+          "title": "논밭·비닐하우스 옆 888가구 옹벽아파트…시세보다 비싸고 통학 불편 | 고창데시앙",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/11/25/2026112500632.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-11-25 09:58:40",
+          "match_score": 37.49
+        },
+        {
+          "title": "전세 만기 앞뒀다면 집 주변 아파트 입주 일정 먼저 살펴봐야 - 동아일보",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1EY3oyc0xTci1aNUk3ekJLeEZrUmdndlUzc3pHdC1BWXdJWDJQVHNSTjN2YzU1RThxQ2FHOHUwVzZHbnNRSDE1bEpGTURWSXR2OS1ocEEySE1JbnFHSTB6bm1rSXM3ZC1NQ09CODQyV0R3Tm1jMmfSAWZBVV95cUxObjdJMW4yTXZIdnFtcC1tR0dXR0tPSFlZN2EzeUxXYVM2bEdGZHhWMEJvWnl1aGlEZEtvM1I2Rjk4VEJrcjI4WDlWeXZDWUU5SzZzSjhuWFR2OHJ6aGxqTmNaeW0zaHc?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-11-26 04:30:00",
+          "match_score": 36.96
+        },
+        {
+          "title": "\"아파트 밀어낸 반도체\"…삼성·SK 건설사 수장 '반도체통' 전진 배치",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/11/25/2026112500975.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-11-25 09:58:25",
+          "match_score": 28.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "새로운",
+      "score": 37.4,
+      "article_count": 8,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업",
+        "정치",
+        "테크"
+      ],
+      "sample_titles": [
+        "오픈AI \"범용 AI GPT-6, 전문 모델 없이 단백질 설계…실험서 검증\"",
+        "[단독] 골목사장님 쉽지않은 대출…단골·현금흐름으로 신용평가합니다",
+        "[속보] 美, 한국 등 14개 경제주체에 ‘과잉생산 관세’ 예고"
+      ],
+      "llm_candidate": false,
+      "rank": 5,
+      "representative_article": {
+        "title": "오젬픽, 체중감량 뒤에 숨겨진 새로운 위험들 - 사이언스타임즈",
+        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaHJiVnJpc3FDTTNuMG9kLTFfR080cHYxblBZQUN2MG41V0l5OU1Bb2U4TXQ2dWs0MUVlWlh3LWZCVFhVd1J2blVWdkpsS3NRQzBpaFM2SVpQSmlRTHJXUVdPblF6WnVmRzZONG41QWtrNExPc2JLRjFsTVpsWVVScEhXWlV3RjJ3MlphRHdoNA?oc=5",
+        "source": "사이언스타임즈",
+        "published_dt": "2026-01-23 17:00:00",
+        "match_score": 37.34
+      },
+      "related_articles": [
+        {
+          "title": "오젬픽, 체중감량 뒤에 숨겨진 새로운 위험들 - 사이언스타임즈",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaHJiVnJpc3FDTTNuMG9kLTFfR080cHYxblBZQUN2MG41V0l5OU1Bb2U4TXQ2dWs0MUVlWlh3LWZCVFhVd1J2blVWdkpsS3NRQzBpaFM2SVpQSmlRTHJXUVdPblF6WnVmRzZONG41QWtrNExPc2JLRjFsTVpsWVVScEhXWlV3RjJ3MlphRHdoNA?oc=5",
+          "source": "사이언스타임즈",
+          "published_dt": "2026-01-23 17:00:00",
+          "match_score": 37.34
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "3분기",
+      "score": 31.4,
+      "article_count": 6,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "보험사 1~3분기 순익 8800억원 줄어",
+        "메모리값 폭등… 샤오미, 3분기 순익 68% 급감",
+        "3분기 중견기업 수출 또 최고치 경신...반도체·바이오가 실적 견인"
+      ],
+      "llm_candidate": false,
+      "rank": 6,
+      "representative_article": {
+        "title": "3분기 중견기업 수출 또 최고치 경신...반도체·바이오가 실적 견인",
+        "link": "https://www.mk.co.kr/news/economy/12218110",
+        "source": "매일경제-경제",
+        "published_dt": "2026-11-25 14:57:30",
+        "match_score": 37.66
+      },
+      "related_articles": [
+        {
+          "title": "3분기 중견기업 수출 또 최고치 경신...반도체·바이오가 실적 견인",
+          "link": "https://www.mk.co.kr/news/economy/12218110",
+          "source": "매일경제-경제",
+          "published_dt": "2026-11-25 14:57:30",
+          "match_score": 37.66
+        },
+        {
+          "title": "보험사 1~3분기 순익 8800억원 줄어",
+          "link": "https://www.chosun.com/economy/stock-finance/2026/11/26/IG2ISJJLMFFTVCYXJHGV2EOGWM/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-11-26 00:35:00",
+          "match_score": 28.3
+        },
+        {
+          "title": "메모리값 폭등… 샤오미, 3분기 순익 68% 급감",
+          "link": "https://www.chosun.com/economy/tech_it/2026/11/26/72QNYCP3ORCIPDUBMNZ4D5OJXU/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-11-26 00:34:00",
+          "match_score": 28.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "삼성전자",
+      "score": 31.1,
+      "article_count": 5,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "삼성전자, ISSCC 2027서 '500단대 낸드' 메모리 기술 공개",
+        "삼성전자 인사, 반도체 실적 주역들 전면에…성과 확대 뒷받침 - 폴리뉴스 Polinews",
+        "삼성전자와 SK하이닉스, 반도체 주식 급락세... AI 기술주 하락 여파 - 공감신문"
+      ],
+      "llm_candidate": false,
+      "rank": 7,
+      "representative_article": {
+        "title": "삼성전자, ISSCC 2027서 '500단대 낸드' 메모리 기술 공개",
+        "link": "https://www.etnews.com/20261125000570",
+        "source": "전자신문",
+        "published_dt": "2026-11-25 18:19:44",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "삼성전자, ISSCC 2027서 '500단대 낸드' 메모리 기술 공개",
+          "link": "https://www.etnews.com/20261125000570",
+          "source": "전자신문",
+          "published_dt": "2026-11-25 18:19:44",
+          "match_score": 37.49
+        },
+        {
+          "title": "삼성전자 인사, 반도체 실적 주역들 전면에…성과 확대 뒷받침 - 폴리뉴스 Polinews",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9LbTItMmVQUDNaTWkzbFZTZmZFaHZDalpwbnQ1TGdjUXZ2TlA1aE5MT3N3WVozTWZRbjJvRnc3d29vNlN5QU1uUWxEanZWZU5MU2g4ZGZFU053aXUwUnJ3M29CbzNORFBaZzNIM0Nn?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-11-25 17:35:55",
+          "match_score": 36.96
+        },
+        {
+          "title": "삼성전자와 SK하이닉스, 반도체 주식 급락세... AI 기술주 하락 여파 - 공감신문",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4tOTdQQzNtbVIwNW9EMENCd0xFT2l5RmFiaXZHYjNjV2tjamh0M3NFRkVkVmdGUlpFRzJ4bTBySEdtODI0bU9TM0I2WE82Z2t3TUszSkdfMURaekJnVkFPTXZuNDg4YXNP?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-11-25 16:48:20",
+          "match_score": 36.96
+        },
+        {
+          "title": "삼성전자, 임원 131명 승진…‘HBM·휴머노이드’ 미래 기술 인재 전진 배치 - 지이코노미",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9DdkFoQ2Ntc2pyZHVjXzAwUWZIaU85WUJvXzNoaGNDWDZ4ZENKNG5aLVBPdlBSZVdvTzZqZjJqMm5vR0dwei04dEpldGtGSmd4TWJhZjZNOTJydHdsQU9lZ24wQTk?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-11-25 21:42:31",
+          "match_score": 36.96
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "재건축",
+      "score": 29.9,
+      "article_count": 5,
+      "source_count": 3,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "용적률 400% 다음은 임대 30%… 문래 재건축 셈법 바뀐다 - 대한경제",
+        "1기 신도시도 재초환 공포 … 술렁이는 분당",
+        "[단독] 한강뷰의 그늘 … 압구정 재건축 절반 일조량 부족"
+      ],
+      "llm_candidate": false,
+      "rank": 8,
+      "representative_article": {
+        "title": "[단독] 한강뷰의 그늘 … 압구정 재건축 절반 일조량 부족",
+        "link": "https://www.mk.co.kr/news/realestate/12218455",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-11-25 17:38:39",
+        "match_score": 38.09
+      },
+      "related_articles": [
+        {
+          "title": "[단독] 한강뷰의 그늘 … 압구정 재건축 절반 일조량 부족",
+          "link": "https://www.mk.co.kr/news/realestate/12218455",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-25 17:38:39",
+          "match_score": 38.09
+        },
+        {
+          "title": "'목동 대장' 7단지 재건축 시공사 입찰…보증금만 1000억 필요",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/11/25/2026112502122.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-11-25 15:31:34",
+          "match_score": 38.09
+        },
+        {
+          "title": "용적률 400% 다음은 임대 30%… 문래 재건축 셈법 바뀐다 - 대한경제",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBCbGpaOHFyRnhSVjVBSEpJQXFuQ0t6N1pIWFVXb2dsbDVIXy1iQlpzdmFqUFoxZGsxeWFKaEhxWDl2cnpXbXlvWWhWRk9LcWp3UllGWDNKNzJSZ2lnRmp0TEhHcUkzMDk3T21nVVBGTVBKQWs?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-11-26 05:00:15",
+          "match_score": 38.01
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "후보자",
+      "score": 22.1,
+      "article_count": 5,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "국세청장 후보자 인사청문회…비거주 1주택 등 공방 예상",
+        "조현 \"한미·한일 협력하며 중러와도 대화…그들도 우리 필요\"",
+        "\"도발에 응징은 하책\"…청문회 앞둔 홍익표의 과거 발언 주목"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "국세청장 후보자 인사청문회…비거주 1주택 등 공방 예상",
+        "link": "https://www.yna.co.kr/view/AKR20261125150200001",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-11-26 05:00:03",
+        "match_score": 38.83
+      },
+      "related_articles": [
+        {
+          "title": "국세청장 후보자 인사청문회…비거주 1주택 등 공방 예상",
+          "link": "https://www.yna.co.kr/view/AKR20261125150200001",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-11-26 05:00:03",
+          "match_score": 38.83
+        },
+        {
+          "title": "임웅순 외교장관 후보자, 내일 첫 출근…인사청문 준비 시동",
+          "link": "https://www.yna.co.kr/view/AKR20261125137300504",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-11-25 16:08:03",
+          "match_score": 38.67
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
