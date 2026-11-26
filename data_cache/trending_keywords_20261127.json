@@ -1,0 +1,526 @@
+{
+  "timestamp": "2026-11-27T06:01:25.028334",
+  "date": "20261127",
+  "data": [
+    {
+      "keyword": "기준금리",
+      "reason": "한국은행 금리 인상 소식 중심",
+      "score": 41.61,
+      "article_count": 7,
+      "source_count": 3,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "“월급날 은행이 다 털어갑니다”…기준금리 인상 폭탄맞은 영끌족들",
+        "긴축 시계 다시 돈다… 기준금리 3.25%, 올해 3번째 인상",
+        "기준금리 연 3.25%로 인상...내년 초도 금리 오를까? - YTN"
+      ],
+      "representative_article": {
+        "title": "“월급날 은행이 다 털어갑니다”…기준금리 인상 폭탄맞은 영끌족들",
+        "link": "https://www.mk.co.kr/news/economy/12219738",
+        "source": "매일경제-경제",
+        "published_dt": "2026-11-26 18:16:00",
+        "match_score": 41.61
+      },
+      "related_articles": [
+        {
+          "title": "“월급날 은행이 다 털어갑니다”…기준금리 인상 폭탄맞은 영끌족들",
+          "link": "https://www.mk.co.kr/news/economy/12219738",
+          "source": "매일경제-경제",
+          "published_dt": "2026-11-26 18:16:00",
+          "match_score": 41.61
+        },
+        {
+          "title": "기준금리 연 3.25%로 인상...내년 초도 금리 오를까? - YTN",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1GSEJvTHIyMnpqblM0NnV3dTUyY0xkV0poOG80ZzlhOGZwNXZadXAxVE5XejhWczF2ZGY1WlJkZVdnLWFhbkFNNWgyOEtGeHM4bndLTWxBWnhIbC1IMlE?oc=5",
+          "source": "키워드-금리환율코스피",
+          "published_dt": "2026-11-26 22:06:00",
+          "match_score": 40.11
+        },
+        {
+          "title": "한은, 기준금리 3.25%로 올려…올해 세 번째 인상 - 경북일보",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9IZEVsalhmNDFZREpaQUdrcVc4YjBmTGVIS3hGaVJpS2E1TUhoYUxkWWU1R0RJeUEweDlSNjBRaEJIY0dwRmlXSzFoLWg3UEx5VHFJN2ZsUTR5alZQXzB5cmxWdXhGV3ZSWFh5eXhVaw?oc=5",
+          "source": "키워드-금리환율코스피",
+          "published_dt": "2026-11-26 19:50:42",
+          "match_score": 40.11
+        },
+        {
+          "title": "한은 기준금리 인상, 성장률 전망 대폭 상향‥\"물가 안정 중점\" - MBC 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9sa0FmYTlGNGtYdVppaVdXTG16cC1SaEdudnoxVnVFaDB5Q0NTeGg1bWlDa3R1eXFUc29VMUpvOXJTWWx2ZEgtZy1zeE4xQmVXQlI1RXo4UUJCWm9ucWZrTFdzWEV5Y1NnWWVkN2JBUEo3QjQ3ZVlDMNIBeEFVX3lxTE1TU0J3WGdZbFpIdWxTYVVFeFdieFJoUm03QThGZkRJMHA1YllpdTFEMU9sLWZ2YndSeEF5TE81eEVKZmd0QkRtaldwVURFV1o5VXhQQWxFakg1cmc3d1lXOVB4VWt5M2JhdWw2THdiNC1xX3Y4enZYYQ?oc=5",
+          "source": "키워드-금리환율코스피",
+          "published_dt": "2026-11-26 19:45:16",
+          "match_score": 40.11
+        },
+        {
+          "title": "한은, 기준금리 0.25%p 인상…2년 만에 연 3.25% - 한겨레",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9kaWJkTjM5bmJlYUh1RFVHbWdhSTdLOVRLY2oxTDZhNFE0QTJMTzlLV0VoSGVpRmg3NVZoYUR2dWVra0VIdnEtakJTUFR1N0IwbzBETlBNNXRMMTlRYUlmUFcyb2xsVGJXMWhjbWVDM09tZw?oc=5",
+          "source": "키워드-금리환율코스피",
+          "published_dt": "2026-11-26 13:52:00",
+          "match_score": 40.11
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "삼성전자",
+      "reason": "미래 성장동력 확보 위한 조직 변화",
+      "score": 44.28,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "삼성전자, M&A 조직 격상…미래 성장동력 확보에 힘 싣는다",
+        "삼성전자 DS, 메모리 개발 조직 '사업부장' 직속으로 일원화…혁신 속도 높인다"
+      ],
+      "representative_article": {
+        "title": "삼성전자, M&A 조직 격상…미래 성장동력 확보에 힘 싣는다",
+        "link": "https://www.yna.co.kr/view/AKR20261126159700003",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-11-26 16:43:10",
+        "match_score": 44.28
+      },
+      "related_articles": [
+        {
+          "title": "삼성전자, M&A 조직 격상…미래 성장동력 확보에 힘 싣는다",
+          "link": "https://www.yna.co.kr/view/AKR20261126159700003",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-11-26 16:43:10",
+          "match_score": 44.28
+        },
+        {
+          "title": "삼성전자 DS, 메모리 개발 조직 '사업부장' 직속으로 일원화…혁신 속도 높인다",
+          "link": "https://www.etnews.com/20261126000517",
+          "source": "전자신문",
+          "published_dt": "2026-11-26 17:15:49",
+          "match_score": 38.7
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "개인정보 유출",
+      "reason": "CJ올리브영 개인정보 해킹 사건",
+      "score": 39.48,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "CJ올리브영, 업무시스템 해킹으로 임직원·고객 개인정보 유출"
+      ],
+      "representative_article": {
+        "title": "CJ올리브영, 업무시스템 해킹으로 임직원·고객 개인정보 유출",
+        "link": "https://www.yna.co.kr/view/AKR20261126192200030",
+        "source": "연합뉴스-산업",
+        "published_dt": "2026-11-26 21:09:12",
+        "match_score": 39.48
+      },
+      "related_articles": [
+        {
+          "title": "CJ올리브영, 업무시스템 해킹으로 임직원·고객 개인정보 유출",
+          "link": "https://www.yna.co.kr/view/AKR20261126192200030",
+          "source": "연합뉴스-산업",
+          "published_dt": "2026-11-26 21:09:12",
+          "match_score": 39.48
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "한국은행",
+      "score": 50.1,
+      "article_count": 13,
+      "source_count": 3,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "2026년 3분기중 경남지역 금융기관 여수신 동향 | 보도자료(상세) | 본부소식 | 부산본부 | 지역본부 | 한국은행 홈페이지 - bok.or.kr",
+        "2026년 12월중 통화안정증권 발행 계획 | 공지사항(상세) | 뉴스/정보 | 한국은행 홈페이지 - bok.or.kr",
+        "“월급날 은행이 다 털어갑니다”…기준금리 인상 폭탄맞은 영끌족들"
+      ],
+      "llm_candidate": false,
+      "rank": 4,
+      "representative_article": {
+        "title": "2026년 3분기중 경남지역 금융기관 여수신 동향 | 보도자료(상세) | 본부소식 | 부산본부 | 지역본부 | 한국은행 홈페이지 - bok.or.kr",
+        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORk84Y1FqRFFHV2oxZ1hZeWh2NVU1c09JTHV2WVhMMFJCQUppdFNhc3FrVlZjeDF0MUo2YXBsemVfU01mcEJDcFdvYjNZTHBhWWFhQVFrOXh0SVZ3X0RUdVd2NWhMSmhoMDluZEhOZ3VJQzYyeklpcGJ0VE9rdDAxWmZRMnB3b091ZkhyZ2xHUDdqV2toM3BFWjlQT1JqWTliM0s1Qlh3dGViYkZT?oc=5",
+        "source": "공식-한국은행",
+        "published_dt": "2026-11-26 19:46:51",
+        "match_score": 38.2
+      },
+      "related_articles": [
+        {
+          "title": "2026년 3분기중 경남지역 금융기관 여수신 동향 | 보도자료(상세) | 본부소식 | 부산본부 | 지역본부 | 한국은행 홈페이지 - bok.or.kr",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORk84Y1FqRFFHV2oxZ1hZeWh2NVU1c09JTHV2WVhMMFJCQUppdFNhc3FrVlZjeDF0MUo2YXBsemVfU01mcEJDcFdvYjNZTHBhWWFhQVFrOXh0SVZ3X0RUdVd2NWhMSmhoMDluZEhOZ3VJQzYyeklpcGJ0VE9rdDAxWmZRMnB3b091ZkhyZ2xHUDdqV2toM3BFWjlQT1JqWTliM0s1Qlh3dGViYkZT?oc=5",
+          "source": "공식-한국은행",
+          "published_dt": "2026-11-26 19:46:51",
+          "match_score": 38.2
+        },
+        {
+          "title": "2026년 12월중 통화안정증권 발행 계획 | 공지사항(상세) | 뉴스/정보 | 한국은행 홈페이지 - bok.or.kr",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNYXBiNnpyQzVyQ3JLckFRVDA3T2pnbFp5Mll3VGxKdDB2aHZrMjlSY2JJNVBXOTBXbWMwZlg3cm5uVkdJYVhzRTFEd0NLdlg2VTVySEZIYmp6bFUwQnpUaElYUGhTb0hETVdwWTl6X1h2Z3NCNmZKVWkzeDRqWU5kMlgtX3FpTmNMNTY1X0xTMFoxWG9YTEd5RHlKOThOdnR6UjdkeEQwbGZYUGhlMDBoSjJkcjNQUDNRb1NNS19B?oc=5",
+          "source": "공식-한국은행",
+          "published_dt": "2026-11-26 18:10:16",
+          "match_score": 38.2
+        },
+        {
+          "title": "한국은행 “반도체 악재 겹쳐도 내년 3%대 중반 성장”",
+          "link": "https://www.mk.co.kr/news/economy/12219284",
+          "source": "매일경제-경제",
+          "published_dt": "2026-11-26 14:10:21",
+          "match_score": 37.66
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "반도체",
+      "score": 52.1,
+      "article_count": 10,
+      "source_count": 7,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "신현송 \"반도체기업 시총 2천조, 영업이익의 3배밖에 안돼\"",
+        "“그래서 뭘 더해 줄 건데?”…머스크도 진땀 빼게 한 이재용의 한마디",
+        "“한국 반도체 기업, 이익 변동성 줄이고 주주 환원 늘려야”"
+      ],
+      "llm_candidate": false,
+      "rank": 5,
+      "representative_article": {
+        "title": "신현송 \"반도체기업 시총 2천조, 영업이익의 3배밖에 안돼\"",
+        "link": "https://www.mk.co.kr/news/economy/12219694",
+        "source": "매일경제-경제",
+        "published_dt": "2026-11-26 17:41:01",
+        "match_score": 37.66
+      },
+      "related_articles": [
+        {
+          "title": "신현송 \"반도체기업 시총 2천조, 영업이익의 3배밖에 안돼\"",
+          "link": "https://www.mk.co.kr/news/economy/12219694",
+          "source": "매일경제-경제",
+          "published_dt": "2026-11-26 17:41:01",
+          "match_score": 37.66
+        },
+        {
+          "title": "한국은행 “반도체 악재 겹쳐도 내년 3%대 중반 성장”",
+          "link": "https://www.mk.co.kr/news/economy/12219284",
+          "source": "매일경제-경제",
+          "published_dt": "2026-11-26 14:10:21",
+          "match_score": 37.66
+        },
+        {
+          "title": "반도체가 끌어올린 금리, 서민이 운다 - 중앙일보",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBVVktOb2otSzdKTGJJQ3VYRC1lbHVrcHVWMGRoS1BHNTBBNVBwMVJrY083SzgxNlc1TE1pYW1KckQwQkdtbjlvTkQ2d3hCVUNoMGZGZmpB?oc=5",
+          "source": "키워드-금리환율코스피",
+          "published_dt": "2026-11-27 00:45:58",
+          "match_score": 36.96
+        },
+        {
+          "title": "'삼전닉스', 반도체 라인 '100% 풀가동'…AI 슈퍼사이클 입증 - 신아일보",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE52bXYzTlVRcW5sZUkxMVlEcjVselZmQ2MySTl0bWQ3MTUtdXhoNlBiR3pRSTVtenlZTFVPbDZGcFNtT3lqQm5iTEt2eUVwRnRzdDB4ZWZ0eGZ0UnNXSFo0S3c3T21haVlYWnVkTWJaalA?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-11-26 12:10:00",
+          "match_score": 36.96
+        },
+        {
+          "title": "“한국 반도체 기업, 이익 변동성 줄이고 주주 환원 늘려야”",
+          "link": "https://www.chosun.com/economy/stock-finance/2026/11/27/FJYU2HTQJVBDJFBGQ5GVYV3DMM/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-11-27 00:32:00",
+          "match_score": 28.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "CEO",
+      "score": 32.8,
+      "article_count": 9,
+      "source_count": 2,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "“그래서 뭘 더해 줄 건데?”…머스크도 진땀 빼게 한 이재용의 한마디",
+        "현대차그룹, 완성차 경영진 유임…계열사 4곳 CEO 교체",
+        "美정부, 젠슨 황 수사도 않고 “안보에 위협 안돼” 면죄부 논란"
+      ],
+      "llm_candidate": false,
+      "rank": 6,
+      "representative_article": {
+        "title": "현대차그룹, 완성차 경영진 유임…계열사 4곳 CEO 교체",
+        "link": "https://www.etnews.com/20261126000328",
+        "source": "전자신문",
+        "published_dt": "2026-11-26 14:01:38",
+        "match_score": 28.49
+      },
+      "related_articles": [
+        {
+          "title": "현대차그룹, 완성차 경영진 유임…계열사 4곳 CEO 교체",
+          "link": "https://www.etnews.com/20261126000328",
+          "source": "전자신문",
+          "published_dt": "2026-11-26 14:01:38",
+          "match_score": 28.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "종부세",
+      "score": 39.5,
+      "article_count": 7,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "부동산"
+      ],
+      "sample_titles": [
+        "[연합뉴스 이 시각 헤드라인] - 18:00",
+        "종부세 82만명 고지 … 1년새 19만명 급증",
+        "종부세 고지서 ‘82만명’에 날아갔다…1년새 19만명 늘어"
+      ],
+      "llm_candidate": false,
+      "rank": 7,
+      "representative_article": {
+        "title": "“집값 올랐다고 좋아할게 아녔어”…종부세 대상·세액 4년 만에 최대",
+        "link": "https://www.mk.co.kr/news/realestate/12219536",
+        "source": "매일경제-경제",
+        "published_dt": "2026-11-26 16:52:11",
+        "match_score": 37.96
+      },
+      "related_articles": [
+        {
+          "title": "“집값 올랐다고 좋아할게 아녔어”…종부세 대상·세액 4년 만에 최대",
+          "link": "https://www.mk.co.kr/news/realestate/12219536",
+          "source": "매일경제-경제",
+          "published_dt": "2026-11-26 16:52:11",
+          "match_score": 37.96
+        },
+        {
+          "title": "종부세 대상 1주택자 8만명 늘어…여당에서도 \"증세 속도 늦추자\"",
+          "link": "https://www.mk.co.kr/news/economy/12219628",
+          "source": "매일경제-경제",
+          "published_dt": "2026-11-26 17:26:51",
+          "match_score": 37.66
+        },
+        {
+          "title": "주택 종부세 73만명에 고지, 19만명↑…1인당 평균세액 200만원",
+          "link": "https://www.yna.co.kr/view/AKR20261126145800002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-26 16:00:01",
+          "match_score": 28.68
+        },
+        {
+          "title": "종부세 82만명 고지 … 1년새 19만명 급증",
+          "link": "https://www.mk.co.kr/news/economy/12219709",
+          "source": "매일경제-경제",
+          "published_dt": "2026-11-26 17:42:09",
+          "match_score": 28.66
+        },
+        {
+          "title": "종부세 고지서 ‘82만명’에 날아갔다…1년새 19만명 늘어",
+          "link": "https://www.mk.co.kr/news/economy/12219702",
+          "source": "매일경제-경제",
+          "published_dt": "2026-11-26 17:41:45",
+          "match_score": 28.66
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "성장률",
+      "score": 40.0,
+      "article_count": 6,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "국제"
+      ],
+      "sample_titles": [
+        "한은 기준금리 인상, 성장률 전망 대폭 상향‥\"물가 안정 중점\" - MBC 뉴스",
+        "성장률·물가 당분간 상승 전망…금리 3.75%까지 열어놔 - 한겨레",
+        "신현송 한은 총재 “물가 상승률, 2028년 목표 수준에 수렴”…추가인상 시사"
+      ],
+      "llm_candidate": false,
+      "rank": 8,
+      "representative_article": {
+        "title": "한은 기준금리 인상, 성장률 전망 대폭 상향‥\"물가 안정 중점\" - MBC 뉴스",
+        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9sa0FmYTlGNGtYdVppaVdXTG16cC1SaEdudnoxVnVFaDB5Q0NTeGg1bWlDa3R1eXFUc29VMUpvOXJTWWx2ZEgtZy1zeE4xQmVXQlI1RXo4UUJCWm9ucWZrTFdzWEV5Y1NnWWVkN2JBUEo3QjQ3ZVlDMNIBeEFVX3lxTE1TU0J3WGdZbFpIdWxTYVVFeFdieFJoUm03QThGZkRJMHA1YllpdTFEMU9sLWZ2YndSeEF5TE81eEVKZmd0QkRtaldwVURFV1o5VXhQQWxFakg1cmc3d1lXOVB4VWt5M2JhdWw2THdiNC1xX3Y4enZYYQ?oc=5",
+        "source": "키워드-금리환율코스피",
+        "published_dt": "2026-11-26 19:45:16",
+        "match_score": 37.71
+      },
+      "related_articles": [
+        {
+          "title": "한은 기준금리 인상, 성장률 전망 대폭 상향‥\"물가 안정 중점\" - MBC 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9sa0FmYTlGNGtYdVppaVdXTG16cC1SaEdudnoxVnVFaDB5Q0NTeGg1bWlDa3R1eXFUc29VMUpvOXJTWWx2ZEgtZy1zeE4xQmVXQlI1RXo4UUJCWm9ucWZrTFdzWEV5Y1NnWWVkN2JBUEo3QjQ3ZVlDMNIBeEFVX3lxTE1TU0J3WGdZbFpIdWxTYVVFeFdieFJoUm03QThGZkRJMHA1YllpdTFEMU9sLWZ2YndSeEF5TE81eEVKZmd0QkRtaldwVURFV1o5VXhQQWxFakg1cmc3d1lXOVB4VWt5M2JhdWw2THdiNC1xX3Y4enZYYQ?oc=5",
+          "source": "키워드-금리환율코스피",
+          "published_dt": "2026-11-26 19:45:16",
+          "match_score": 37.71
+        },
+        {
+          "title": "한은 금통위, 기준금리 3.25%로 인상…성장률 전망 크게 올려 - 조선일보",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxObWt5aUFEV1RlNTY0dWxuSnFlQ01Xdl96QkZKSnd6eXdDSlRYSDVMeFZNem16MjBiSERxa0YwMVFtYms3NWd4cmdsa2oza2JKSU9RaGxUaTVRNlN3bktKZEYtdXNvVy1TNHlMYk81eTZKTXFlOC1sUUJfVGlSdFpMaVk1SnEyV3BnZkJSeGN3?oc=5",
+          "source": "키워드-금리환율코스피",
+          "published_dt": "2026-11-26 12:55:04",
+          "match_score": 37.71
+        },
+        {
+          "title": "한은, 내년 성장률 4.1%로 대폭 상향…경상흑자 5천400억달러(종합3보)",
+          "link": "https://www.yna.co.kr/view/AKR20261126059053002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-26 16:14:41",
+          "match_score": 37.67
+        },
+        {
+          "title": "트럼프, 美 성장률 대폭 상향에 “왜 선거 전에 발표 안 했나”…조사 요구",
+          "link": "https://www.donga.com/news/Inter/article/all/20261127/135100600/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-27 02:54:00",
+          "match_score": 37.3
+        },
+        {
+          "title": "성장률·물가 당분간 상승 전망…금리 3.75%까지 열어놔 - 한겨레",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9CeWEtLUdIUEt0a0ozcTVhUkxSMXVsMnpvZVExMjY1cXd6Y2VkV3RpVURBejl3Z0ZmeTRQaVdHRFZKd2Y5ckNfWVFidVI1YWpyd1c3d3RtTVV6OU43X2RYVXVJSmFONWNvbUpOSXhaWDJCdw?oc=5",
+          "source": "키워드-금리환율코스피",
+          "published_dt": "2026-11-27 01:53:00",
+          "match_score": 36.96
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "아파트",
+      "score": 38.8,
+      "article_count": 6,
+      "source_count": 4,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "성남 성지-궁전 아파트 재건축… 162가구 일반분양 - 동아일보",
+        "23년 우여곡절 끝에 첫 삽 한남3구역…아파트 5970가구, 2030년 준공",
+        "“공시가격 상승 영향”…강남·마용성 아파트 보유세 40% 안팎 증가"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "“공시가격 상승 영향”…강남·마용성 아파트 보유세 40% 안팎 증가",
+        "link": "https://www.mk.co.kr/news/economy/12219528",
+        "source": "매일경제-경제",
+        "published_dt": "2026-11-26 16:45:19",
+        "match_score": 37.96
+      },
+      "related_articles": [
+        {
+          "title": "“공시가격 상승 영향”…강남·마용성 아파트 보유세 40% 안팎 증가",
+          "link": "https://www.mk.co.kr/news/economy/12219528",
+          "source": "매일경제-경제",
+          "published_dt": "2026-11-26 16:45:19",
+          "match_score": 37.96
+        },
+        {
+          "title": "성남 성지-궁전 아파트 재건축… 162가구 일반분양 - 동아일보",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1DYUl4RklHT1RaWE1uYk5lOFFEMVJEb0xUZVZNYl9uaFdlZTdFY2RRYzhqMkNsbmttcjdWUm54bUdyajNkMGZwNzNKMlBNNjYxdGtNU1cydzFuQWlCUC12Rkw1R3dXU1BRb1FUbE4zRG9KcE40OFHSAWZBVV95cUxONVVMaDZIa19iSG9hZklxN0NvN3l1NUJNNnZTTm5EV0dic0k5WWVhNTBaeVh2T1dUWE00YmpET0xoMXhrS3JSbzJ4dURjZ1RKajhjNUFmakRmLWhRVEtrRUdOcGNreEE?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-11-27 04:30:00",
+          "match_score": 37.71
+        },
+        {
+          "title": "오금현대아파트 재건축정비사업 시공자 선정 - 하우징헤럴드",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5yY2RFNzc3eUlmdUxsSHpfS2dhZXpMWTBJSk5KZ2RwZnhZZzJxTnVwSlBmQTBrYWNWSEoyMlQteGRfNXlHTzRqZDFKT0xGazVna3RNSXVyUjNUOHM2T0VnS21UUmFsN3NudVlGRThLSTFUWjg?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-11-26 16:30:13",
+          "match_score": 37.71
+        },
+        {
+          "title": "“분양받을 땐 이런 말 없었는데”…서초 신축 아파트 주민들 ‘발칵’",
+          "link": "https://www.mk.co.kr/news/realestate/12219371",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-26 14:56:02",
+          "match_score": 37.49
+        },
+        {
+          "title": "\"아파트는 입주하는데 학교는 수년 뒤\" 대장·계양신도시 학부모 날벼락",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/11/26/2026112602265.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-11-26 14:53:56",
+          "match_score": 37.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "엔비디아",
+      "score": 33.5,
+      "article_count": 6,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "국제",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "美 수출 통제… 中 암시장서 엔비디아 GPU 거래",
+        "S&P, ‘젠슨 황 복귀’ 엔비디아 신용등급 강등 검토",
+        "엔비디아, 동남아 4개국 AI 서버 출하 중단…중국 우회 접근 차단"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "엔비디아, 동남아 4개국 AI 서버 출하 중단…중국 우회 접근 차단",
+        "link": "https://www.aitimes.com/news/articleView.html?idxno=217837",
+        "source": "AI타임스",
+        "published_dt": "2026-11-27 14:55:39",
+        "match_score": 38.09
+      },
+      "related_articles": [
+        {
+          "title": "엔비디아, 동남아 4개국 AI 서버 출하 중단…중국 우회 접근 차단",
+          "link": "https://www.aitimes.com/news/articleView.html?idxno=217837",
+          "source": "AI타임스",
+          "published_dt": "2026-11-27 14:55:39",
+          "match_score": 38.09
+        },
+        {
+          "title": "머스크, 젠슨 황 복귀일 엔비디아 깜짝 방문…“친구는 어려울 때 곁에”",
+          "link": "https://www.donga.com/news/Inter/article/all/20261126/135098216/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-26 17:41:25",
+          "match_score": 37.3
+        },
+        {
+          "title": "美 수출 통제… 中 암시장서 엔비디아 GPU 거래",
+          "link": "https://www.chosun.com/economy/tech_it/2026/11/27/W7GK2NQX25GTNLMH3PV57H2XLQ/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-11-27 00:34:00",
+          "match_score": 28.3
+        },
+        {
+          "title": "S&P, ‘젠슨 황 복귀’ 엔비디아 신용등급 강등 검토",
+          "link": "https://www.chosun.com/economy/tech_it/2026/11/27/WJXLIMYOQNDNLPZDBQGJ5JTS6M/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-11-27 00:32:00",
+          "match_score": 28.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
