@@ -1,0 +1,479 @@
+{
+  "timestamp": "2026-11-28T06:02:12.230128",
+  "date": "20261128",
+  "data": [
+    {
+      "keyword": "적립금",
+      "reason": "국민연금 적립금 대규모 감소",
+      "score": 40.66,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "3개월만에 202조원 사라진 국민연금 적립금…국내주식 하락률 가장 컸다"
+      ],
+      "representative_article": {
+        "title": "3개월만에 202조원 사라진 국민연금 적립금…국내주식 하락률 가장 컸다",
+        "link": "https://www.mk.co.kr/news/economy/12220533",
+        "source": "매일경제-경제",
+        "published_dt": "2026-11-27 23:07:08",
+        "match_score": 40.66
+      },
+      "related_articles": [
+        {
+          "title": "3개월만에 202조원 사라진 국민연금 적립금…국내주식 하락률 가장 컸다",
+          "link": "https://www.mk.co.kr/news/economy/12220533",
+          "source": "매일경제-경제",
+          "published_dt": "2026-11-27 23:07:08",
+          "match_score": 40.66
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 1,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "한미동맹",
+      "reason": "중국 대사, 한미동맹 언급",
+      "score": 39.16,
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "中대사 “한미동맹이 中 겨냥해선 안 돼”",
+        "中대사 “한미동맹 현대화, 中겨냥해선 안돼…관세전쟁 끝까지 응전”"
+      ],
+      "representative_article": {
+        "title": "中대사 “한미동맹 현대화, 中겨냥해선 안돼…관세전쟁 끝까지 응전”",
+        "link": "https://www.mk.co.kr/news/world/12219976",
+        "source": "매일경제-경제",
+        "published_dt": "2026-11-27 10:30:43",
+        "match_score": 39.16
+      },
+      "related_articles": [
+        {
+          "title": "中대사 “한미동맹 현대화, 中겨냥해선 안돼…관세전쟁 끝까지 응전”",
+          "link": "https://www.mk.co.kr/news/world/12219976",
+          "source": "매일경제-경제",
+          "published_dt": "2026-11-27 10:30:43",
+          "match_score": 39.16
+        },
+        {
+          "title": "中대사 “한미동맹이 中 겨냥해선 안 돼”",
+          "link": "https://www.donga.com/news/Inter/article/all/20261127/135106498/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-28 01:40:00",
+          "match_score": 38.5
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 2,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "극초음속미사일",
+      "reason": "미국 다크 이글 실전 배치",
+      "score": 23.1,
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "국제"
+      ],
+      "sample_titles": [
+        "美, 극초음속 미사일 ‘다크 이글’ 첫 실전 배치",
+        "美 극초음속 미사일 ‘다크 이글’ 실전배치…‘中 견제’ 인태지역 투입?"
+      ],
+      "representative_article": {
+        "title": "美, 극초음속 미사일 ‘다크 이글’ 첫 실전 배치",
+        "link": "https://www.donga.com/news/Inter/article/all/20261127/135106386/2",
+        "source": "동아일보-국제",
+        "published_dt": "2026-11-28 01:40:00",
+        "match_score": 23.1
+      },
+      "related_articles": [
+        {
+          "title": "美, 극초음속 미사일 ‘다크 이글’ 첫 실전 배치",
+          "link": "https://www.donga.com/news/Inter/article/all/20261127/135106386/2",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-28 01:40:00",
+          "match_score": 23.1
+        },
+        {
+          "title": "美 극초음속 미사일 ‘다크 이글’ 실전배치…‘中 견제’ 인태지역 투입?",
+          "link": "https://www.donga.com/news/Inter/article/all/20261127/135103075/1",
+          "source": "동아일보-국제",
+          "published_dt": "2026-11-27 14:21:00",
+          "match_score": 23.1
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 3,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "통합도약자문위",
+      "reason": "민주당 전남광주시당 출범",
+      "score": 44.08,
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "정치"
+      ],
+      "sample_titles": [
+        "민주당 전남광주시당 '통합도약자문위' 출범"
+      ],
+      "representative_article": {
+        "title": "민주당 전남광주시당 '통합도약자문위' 출범",
+        "link": "https://www.yna.co.kr/view/AKR20261127137700054",
+        "source": "연합뉴스-정치",
+        "published_dt": "2026-11-27 17:14:47",
+        "match_score": 44.08
+      },
+      "related_articles": [
+        {
+          "title": "민주당 전남광주시당 '통합도약자문위' 출범",
+          "link": "https://www.yna.co.kr/view/AKR20261127137700054",
+          "source": "연합뉴스-정치",
+          "published_dt": "2026-11-27 17:14:47",
+          "match_score": 44.08
+        }
+      ],
+      "llm_candidate": true,
+      "rank": 4,
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "아파트",
+      "score": 48.1,
+      "article_count": 11,
+      "source_count": 3,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "\"세금 날벼락 피하자\"…'집주인 대출' 매물 넉달새 100배",
+        "92억 집 팔려고 60억 빌려준 집주인",
+        "\"수십억 날렸다\" 국민가수가 경매로 잡은 한강뷰 아파트, 땅 치고 후회"
+      ],
+      "llm_candidate": false,
+      "rank": 5,
+      "representative_article": {
+        "title": "상봉동 대단지 후속...아파트보다 싸지만 커뮤니티 이용불가?l'더샵 퍼스트월드 서울' 오피스텔",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/11/27/2026112700973.html",
+        "source": "땅집고-부동산",
+        "published_dt": "2026-11-27 10:41:58",
+        "match_score": 38.09
+      },
+      "related_articles": [
+        {
+          "title": "상봉동 대단지 후속...아파트보다 싸지만 커뮤니티 이용불가?l'더샵 퍼스트월드 서울' 오피스텔",
+          "link": "https://realty.chosun.com/site/data/html_dir/2026/11/27/2026112700973.html",
+          "source": "땅집고-부동산",
+          "published_dt": "2026-11-27 10:41:58",
+          "match_score": 38.09
+        },
+        {
+          "title": "목동9단지아파트 재건축사업 상가 감정평가법인(제1호) 선정 입찰공고 - 한국주택경제신문",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBWeEF1UEhhSkwzODVpZjhHb3JocDBuY1NOMzVUMm13aVBPYWV2Z0R6NDB4azlvRkFfenBjX0ltcE5teXd0T25KdHhwMDVyVFR4YTRhV0xhekhhZ3JuU1o1djZRSUhKeFM1?oc=5",
+          "source": "키워드-부동산정책",
+          "published_dt": "2026-11-27 13:35:34",
+          "match_score": 37.71
+        },
+        {
+          "title": "“단지 내 공공보행로 어쩌나”…서초 신축 아파트 지역권 설정 놓고 이견",
+          "link": "https://www.mk.co.kr/news/realestate/12220221",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-27 15:45:48",
+          "match_score": 37.49
+        },
+        {
+          "title": "노원구 보람아파트 44.33㎡ 5억 9900만원 거래…최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12219855",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-27 09:10:29",
+          "match_score": 37.49
+        },
+        {
+          "title": "서초구 래미안원베일리 53억 5천만원·52억원 거래… 서울 아파트 실거래가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12219847",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-27 09:10:18",
+          "match_score": 37.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "반도체",
+      "score": 36.8,
+      "article_count": 7,
+      "source_count": 6,
+      "categories": [
+        "국제",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "디노티시아, AI 데이터 검색 속도 높이는 스토리지 출시",
+        "“133% 올라야 겨우 본전”…160층에 갇힌 개미들, SK하닉 10%는 248층",
+        "화웨이 “美제재 덕에 기술 자립”… 中 ‘AI 반도체 3종 세트’ 가속도"
+      ],
+      "llm_candidate": false,
+      "rank": 6,
+      "representative_article": {
+        "title": "반도체 산업 경쟁력 키우는 천안·아산…두정역 일대 신규 분양 단지 ‘주목’",
+        "link": "https://www.mk.co.kr/news/realestate/12220239",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-11-27 16:00:48",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "반도체 산업 경쟁력 키우는 천안·아산…두정역 일대 신규 분양 단지 ‘주목’",
+          "link": "https://www.mk.co.kr/news/realestate/12220239",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-27 16:00:48",
+          "match_score": 37.49
+        },
+        {
+          "title": "삼성, 반도체 공장 무인화 시동…2030년 로봇 1만대 전망 - 엠에스투데이",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9HZzRXeEhVbkwzZEU2Tm9QVjY5dUZLVlBNb292T0ZDXzN4SG9qUjZBUW5FN3E5VGthUjI2Mjg3NEI0ZElJLTJXWF9RVkY4UmhMN1ZaRllRekVkRGFGTWdXQXM4Sk1odDNheW9wM9IBcEFVX3lxTE1FZFFxU0szWV9FZldhMnNUNWEyaGFrZUJqc29OaFZLRElZbF9LakFyYV90UUgxZkxrMmZfWEkyQ3MxWTBFZXJTQ0dEVDd2elJVcS1IUnVsV3lOTmtJTFJuSnNyb1R6YjluaGNnWThvMmQ?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-11-27 14:16:26",
+          "match_score": 36.96
+        },
+        {
+          "title": "화웨이 “美제재 덕에 기술 자립”… 中 ‘AI 반도체 3종 세트’ 가속도",
+          "link": "https://www.chosun.com/economy/tech_it/2026/11/28/B3S6DMM3ABEOZJJKVPHZQBWQJM/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-11-28 00:37:00",
+          "match_score": 28.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "SK하이닉스",
+      "score": 37.6,
+      "article_count": 7,
+      "source_count": 4,
+      "categories": [
+        "경제/거시",
+        "기업/산업"
+      ],
+      "sample_titles": [
+        "SK하이닉스 직원들, 3분기에만 평균 2억3000만원 성과급 확보",
+        "[특징주] 삼성전자 4.6%·SK하이닉스 5.4% 급등 마감(종합)",
+        "코스피 4.3% 올라 4900선 회복…코스닥도 8.1% 급등"
+      ],
+      "llm_candidate": false,
+      "rank": 7,
+      "representative_article": {
+        "title": "[특징주] 삼성전자 4.6%·SK하이닉스 5.4% 급등 마감(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261127032851008",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-11-27 15:53:55",
+        "match_score": 43.08
+      },
+      "related_articles": [
+        {
+          "title": "[특징주] 삼성전자 4.6%·SK하이닉스 5.4% 급등 마감(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261127032851008",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-27 15:53:55",
+          "match_score": 43.08
+        },
+        {
+          "title": "SK하이닉스 직원들, 3분기에만 평균 2억3000만원 성과급 확보",
+          "link": "https://www.chosun.com/economy/tech_it/2026/11/27/ME2DMYLGGQ4DOZTDG5QWIMJTGU/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-11-27 17:55:51",
+          "match_score": 42.7
+        },
+        {
+          "title": "SK하이닉스, 자사주 일일 매수 주문량 두 배로…“주주가치 제고 차원”",
+          "link": "https://www.chosun.com/economy/stock-finance/2026/11/27/GIYGCMTDGI3DMZDBGM4TAZBQGU/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-11-27 23:06:57",
+          "match_score": 42.7
+        },
+        {
+          "title": "“삼성전자·SK하이닉스, 지금 팔 때 아니다?”…하나증권 연구원이 주목한 3가지 - 데일리25",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9rNFMtanZob3R4cFNxeTAxVmhoeGJDSTFrLUw0amFRa3JZeWZjOFNhY1R0T3BIbk1TTjg4cEMwUE5RZTlQTUNTMGtWTmJ5c3V4ZlhmbllSNWx0MzdlUURFUEJTSi0xZ25DSjNSZg?oc=5",
+          "source": "키워드-반도체AI",
+          "published_dt": "2026-11-28 05:10:48",
+          "match_score": 42.36
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "코스닥",
+      "score": 32.1,
+      "article_count": 6,
+      "source_count": 3,
+      "categories": [
+        "경제/거시",
+        "기업/산업",
+        "부동산"
+      ],
+      "sample_titles": [
+        "피노, 188억5천만원 유상증자…이케이케이알파제이호사모투자합자회사에 제3자배정",
+        "코스피 4.3% 올라 4900선 회복…코스닥도 8.1% 급등",
+        "경남제약, 40억원 유상증자…㈜엑스에 제3자배정"
+      ],
+      "llm_candidate": false,
+      "rank": 8,
+      "representative_article": {
+        "title": "코스피 4.3% 올라 4900선 회복…코스닥도 8.1% 급등",
+        "link": "https://www.etnews.com/20261127000305",
+        "source": "전자신문",
+        "published_dt": "2026-11-27 16:11:07",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "코스피 4.3% 올라 4900선 회복…코스닥도 8.1% 급등",
+          "link": "https://www.etnews.com/20261127000305",
+          "source": "전자신문",
+          "published_dt": "2026-11-27 16:11:07",
+          "match_score": 37.49
+        },
+        {
+          "title": "코스닥, 5%대 급등하며 매수 사이드카 발동",
+          "link": "https://www.etnews.com/20261127000155",
+          "source": "전자신문",
+          "published_dt": "2026-11-27 11:10:05",
+          "match_score": 37.49
+        },
+        {
+          "title": "코스피 4.3% 올라 4,900 회복…코스닥도 8%대 상승 - KBS 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8xS0hKQXlJLUJQWkNqM3l2TzRkMU1BYmtPTmpzenJlNjc3aTRVbUNwY3pwSWw1Wm1wZnhsNTNBT19rOVRuRTdySjFtZG5DMjBqb3JGanE2REs4MHRObVlLeGtNdjBZUQ?oc=5",
+          "source": "키워드-금리환율코스피",
+          "published_dt": "2026-11-27 15:42:00",
+          "match_score": 36.96
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "부동산",
+      "score": 31.8,
+      "article_count": 6,
+      "source_count": 2,
+      "categories": [
+        "부동산"
+      ],
+      "sample_titles": [
+        "\"수십억 날렸다\" 국민가수가 경매로 잡은 한강뷰 아파트, 땅 치고 후회",
+        "\"모텔 방 3개보다 싸다\" 최대 7명 묵는 27평 빌라 3룸 단기임대",
+        "영등포구 문래미원 59.4㎡ 10억 2천만원… 최근 3년 신고가 [MAI부동산]"
+      ],
+      "llm_candidate": false,
+      "rank": 9,
+      "representative_article": {
+        "title": "영등포구 문래미원 59.4㎡ 10억 2천만원… 최근 3년 신고가 [MAI부동산]",
+        "link": "https://www.mk.co.kr/news/realestate/12219862",
+        "source": "매일경제-부동산",
+        "published_dt": "2026-11-27 09:10:40",
+        "match_score": 37.49
+      },
+      "related_articles": [
+        {
+          "title": "영등포구 문래미원 59.4㎡ 10억 2천만원… 최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12219862",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-27 09:10:40",
+          "match_score": 37.49
+        },
+        {
+          "title": "중랑구 금호어울림(580) 84.93㎡ 7억 7500만원 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12219851",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-27 09:10:19",
+          "match_score": 37.49
+        },
+        {
+          "title": "노원구 보람아파트 44.33㎡ 5억 9900만원 거래…최근 3년 신고가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12219855",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-27 09:10:29",
+          "match_score": 37.49
+        },
+        {
+          "title": "서초구 래미안원베일리 53억 5천만원·52억원 거래… 서울 아파트 실거래가 [MAI부동산]",
+          "link": "https://www.mk.co.kr/news/realestate/12219847",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-27 09:10:18",
+          "match_score": 37.49
+        },
+        {
+          "title": "[매경부동산 단신] 성동구 왕십리역세권 호스텔·공유숙박용 건물 14억원",
+          "link": "https://www.mk.co.kr/news/realestate/12219051",
+          "source": "매일경제-부동산",
+          "published_dt": "2026-11-27 08:30:00",
+          "match_score": 28.49
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    },
+    {
+      "keyword": "3분기",
+      "score": 26.9,
+      "article_count": 5,
+      "source_count": 3,
+      "categories": [
+        "경제/거시"
+      ],
+      "sample_titles": [
+        "무신사, 3분기 누적 수출액 작년比 4.9배로 급증…역대 최대",
+        "인터넷은행 3사, 3분기 중·저신용자 대출비중 목표치 30% 넘겨",
+        "국민연금, 석 달 만에 202조원사라져…3분기 수익률 13%"
+      ],
+      "llm_candidate": false,
+      "rank": 10,
+      "representative_article": {
+        "title": "무신사, 3분기 누적 수출액 작년比 4.9배로 급증…역대 최대",
+        "link": "https://www.yna.co.kr/view/AKR20261127145100030",
+        "source": "연합뉴스-경제",
+        "published_dt": "2026-11-27 17:53:04",
+        "match_score": 37.83
+      },
+      "related_articles": [
+        {
+          "title": "무신사, 3분기 누적 수출액 작년比 4.9배로 급증…역대 최대",
+          "link": "https://www.yna.co.kr/view/AKR20261127145100030",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-27 17:53:04",
+          "match_score": 37.83
+        },
+        {
+          "title": "인터넷은행 3사, 3분기 중·저신용자 대출비중 목표치 30% 넘겨",
+          "link": "https://www.yna.co.kr/view/AKR20261127149500002",
+          "source": "연합뉴스-경제",
+          "published_dt": "2026-11-27 17:43:48",
+          "match_score": 37.67
+        },
+        {
+          "title": "국민연금, 석 달 만에 202조원사라져…3분기 수익률 13%",
+          "link": "https://www.chosun.com/economy/stock-finance/2026/11/27/ME3DCOJWGA3GMY3GMIYWEY3GG4/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-11-27 18:33:23",
+          "match_score": 37.3
+        },
+        {
+          "title": "SK하이닉스 직원들, 3분기에만 평균 2억3000만원 성과급 확보",
+          "link": "https://www.chosun.com/economy/tech_it/2026/11/27/ME2DMYLGGQ4DOZTDG5QWIMJTGU/",
+          "source": "조선일보-경제",
+          "published_dt": "2026-11-27 17:55:51",
+          "match_score": 37.3
+        }
+      ],
+      "ranking_mode": "llm_linked"
+    }
+  ]
+}
